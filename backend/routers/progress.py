@@ -45,7 +45,14 @@ async def get_overall_progress(
                 "total_questions_seen": 0,
                 "total_questions_correct": 0
             }
-        books_progress[book_id]["modules"].append(record)
+        # Convert SQLAlchemy object to dict
+        books_progress[book_id]["modules"].append({
+            "module_id": record.module_id,
+            "questions_seen": record.questions_seen,
+            "questions_correct": record.questions_correct,
+            "mastery_percent": record.mastery_percent,
+            "is_unlocked": record.is_unlocked
+        })
         books_progress[book_id]["total_questions_seen"] += record.questions_seen
         books_progress[book_id]["total_questions_correct"] += record.questions_correct
 
@@ -80,10 +87,19 @@ async def get_book_progress(
     total_seen = sum(r.questions_seen for r in progress_records)
     total_correct = sum(r.questions_correct for r in progress_records)
 
+    # Convert to serializable format
+    modules_list = [{
+        "module_id": r.module_id,
+        "questions_seen": r.questions_seen,
+        "questions_correct": r.questions_correct,
+        "mastery_percent": r.mastery_percent,
+        "is_unlocked": r.is_unlocked
+    } for r in progress_records]
+
     return {
         "book_id": book_id,
         "user_id": current_user.id,
-        "modules": progress_records,
+        "modules": modules_list,
         "total_questions_seen": total_seen,
         "total_questions_correct": total_correct,
         "book_mastery": (total_correct / total_seen * 100) if total_seen > 0 else 0
