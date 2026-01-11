@@ -3,7 +3,7 @@
  */
 
 // ============== Configuration ==============
-const API_URL = 'http://localhost:8000/api';
+const API_URL = 'http://localhost:8001/api';
 const EXAM_DATE = new Date('2026-05-13');
 
 // ============== State ==============
