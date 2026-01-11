@@ -1,0 +1,2979 @@
+{
+  "book_id": 7,
+  "book_name": "Derivatives",
+  "book_name_ru": "Деривативы",
+  "total_questions": 155,
+  "learning_modules": [
+    {
+      "module_id": 1,
+      "module_name": "Derivative Instrument and Derivative Market Features",
+      "module_name_ru": "Деривативы и рынки деривативов",
+      "questions": [
+        {
+          "question_id": "DER-1-001",
+          "question_text": "Which of these is least likely a characteristic of over-the-counter options?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "They are highly regulated.",
+            "B": "Large traders trade over large sums of money.",
+            "C": "They are often used to hedge interest rate risks and currency fluctuation risks."
+          },
+          "correct_answer": "A",
+          "explanation": "Over-the-counter options are largely UNREGULATED. It is often the place where large players (i.e.: banks) hedge themselves against interest rate risks and currency fluctuation risks. High regulation is a characteristic present in exchange markets.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-1-002",
+          "question_text": "The implied volatility on S&P 500 options has decreased over the past month. An analyst would most likely conclude that:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Interest rates have decreased.",
+            "B": "The value of the broad market has decreased.",
+            "C": "The level of market uncertainty has decreased."
+          },
+          "correct_answer": "C",
+          "explanation": "The implied volatility of an options contract is the value of the volatility of the underlying, in this case, the S&P 500 (broad market).",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-1-003",
+          "question_text": "Exchange-traded derivatives are most likely:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Standardized and backed by a clearinghouse.",
+            "B": "Standardized but not backed by a clearinghouse.",
+            "C": "Backed but not standardized by a clearinghouse."
+          },
+          "correct_answer": "A",
+          "explanation": "Derivative instruments are created and traded either on an exchange or on the OTC market. Exchange traded derivatives are standardized, whereas OTC derivatives are customized. To standardize a derivative contract means that its terms and conditions are precisely specified by the exchange and there is very limited ability to alter those terms. Exchange traded derivatives provide guarantee through the use of their clearing house. Clearinghouses provide a guarantee to the winning party that if the loser does not pay, the clearinghouse will pay the winning party. Exchange-traded derivatives are therefore always standardized and backed by a clearinghouse. For this reason, they are highly liquid and offer no counterparty risk to traders.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-1-004",
+          "question_text": "Which of the following is least likely accurate for exchange-traded derivatives?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Exchange-traded derivatives are liquid.",
+            "B": "Exchange-traded derivatives are standardized contracts.",
+            "C": "Exchange-traded derivatives carry significant default risk."
+          },
+          "correct_answer": "C",
+          "explanation": "Exchange-traded derivatives have very low default risk because the clearinghouse stands between the counterparts involved in most contracts. The clearinghouse acts as a buyer for every seller and a seller for every buyer, thereby eliminating potential losses.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-1-005",
+          "question_text": "Which of the following is least likely an exchange-traded derivative instrument?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Option contract.",
+            "B": "Futures contract.",
+            "C": "Forward contract."
+          },
+          "correct_answer": "C",
+          "explanation": "Options and futures are exchange-traded instruments while forwards and swaps are traded on over the counter (OTC) markets.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-1-006",
+          "question_text": "Sonia Bass works as a hedge fund manager at High-Yield Investments (HYIN). While talking to a colleague, Bass posed the following question: “How do the standardization of derivative investments and the presence of designated market makers help the trade of such securities?” The best answer to Bass' question is that they:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Guarantee the buying and selling of a derivative.",
+            "B": "Increase liquidity and reduce the cost of liquidity.",
+            "C": "Guarantee the price at which a derivative is traded."
+          },
+          "correct_answer": "B",
+          "explanation": "While standardization and the presence of designated market makers do improve the efficiency and liquidity of the derivatives market, they do not guarantee the buying and selling of a derivative. Market conditions, such as lack of demand or excessive supply, can still make it challenging to execute trades, even in a standardized market with market makers. The primary role of market makers is to provide liquidity, not to guarantee transactions. Although designated market makers help provide more predictable pricing by quoting buy and sell prices, they do not guarantee the price at which a derivative is traded. Market prices can fluctuate significantly due to changes in the underlying asset's value, market sentiment, or macroeconomic factors. Traders may still face slippage, which is the difference between the expected price of a trade and the price at which the trade is executed, especially in volatile market conditions. CFA Level I, Derivatives, Learning Module 1: Derivative Instrument and Derivative Market Features. LOS (b): Describe the basic features of derivative markets, and contrast over-the-counter and exchange-traded derivative markets.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-1-007",
+          "question_text": "In contrast to OTC-traded derivatives, exchange-traded derivatives least likely:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Have higher liquidity.",
+            "B": "Operate at a higher degree of regulation.",
+            "C": "Operate at a lower degree of regulation."
+          },
+          "correct_answer": "C",
+          "explanation": "Exchange-traded derivatives most likely have greater liquidity and operate at a higher degree of regulation as they are standardized which means that their terms and conditions are precisely specified by the exchange and there is very limited ability to alter those terms. In addition, they have a clearing and settlement operation.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-1-008",
+          "question_text": "Derivatives are financial instruments which:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Derive their performance from that of an underlying asset.",
+            "B": "Transform risk when transferring it from one party to another.",
+            "C": "Are created in the form of an informal agreement between buyer and seller."
+          },
+          "correct_answer": "A",
+          "explanation": "Derivatives are financial instruments that derive value and performance from an underlying asset.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-1-009",
+          "question_text": "Relative to over-the-counter (OTC) derivatives, exchange-traded derivatives are:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Traded in larger lot sizes.",
+            "B": "Transacted through a process that is verified by a central exchange.",
+            "C": "Traded in markets where there is zero potential to earn arbitrage profits."
+          },
+          "correct_answer": "B",
+          "explanation": "Exchange-traded derivatives trade on standardized exchanges which facilitate the creation of clearing and settlement operations. Clearing is the process by which the exchange verifies the execution of the transaction and records the participants' identities.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-1-010",
+          "question_text": "Which of the following principles most likely form the basis of pricing derivatives?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "A hedge portfolio that earns the risk-free rate is constructed.",
+            "B": "The correct derivative price assures that the market has exploitable arbitrage",
+            "C": "The expected payoff of the derivative must be discounted at the sum of the risk-free"
+          },
+          "correct_answer": "A",
+          "explanation": "The value of the derivative is derived from the underlying by constructing a hypothetical combination of derivatives and underlyings that eliminates risk. The combination is called a hedged portfolio.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-1-011",
+          "question_text": "In contrast with exchange-traded derivatives markets, over-the-counter derivatives markets provide:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Liquidity.",
+            "B": "Flexibility.",
+            "C": "Transparency."
+          },
+          "correct_answer": "B",
+          "explanation": "Exchange-traded markets provide their participants with liquidity as contract terms are standardized. However, over-the-counter markets offer contracts that are flexible and customizable. Many OTC contracts can easily be created and offset by replicating the exact opposite transaction often with the same party. On the other hand, some exchange-traded derivatives may have very little trading interests and thus very little liquidity. Liquidity is driven by trading interest, which may be strong or weak in both markets. Exchange-traded derivatives markets provide transparency to their participants as full information on all transactions is disclosed to exchanges and regulatory bodies. In contrast, many transactions in OTC markets will retain a degree of privacy with lower transparency.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-1-012",
+          "question_text": "Which of the following derivatives instruments most likely trade over the counter?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Futures contracts and forwards contracts.",
+            "B": "Futures contracts, forwards contracts and swaps.",
+            "C": "Forwards contracts, swaps, and asset-backed securities."
+          },
+          "correct_answer": "C",
+          "explanation": "Forwards contracts, swaps, and asset-backed securities trade over the counter while futures contracts and options trade on regulated exchanges.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-1-013",
+          "question_text": "Blackoil Traders Inc. is an American oil producing company that regularly sells oil futures to reduce the risk of fluctuating oil prices. This activity can best be described as:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {},
+          "correct_answer": "B",
+          "explanation": "Hedgers enter in future contracts to reduce the price risk of underlying assets.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-1-014",
+          "question_text": "Which of the following is most likely an example of a contingent claim?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Clearing.",
+            "B": "Hedging.",
+            "C": "Speculating."
+          },
+          "correct_answer": "A",
+          "explanation": "In a contingent claim, the trade settlement depends on one of the counterparties. A puttable bond is an embedded derivative, a type of contingent claim.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-1-015",
+          "question_text": "Abson Limited is a Japanese company selling oil drilling machines globally. Consider the following draft commercial contract extracted from Clap company’s records. The financial manager is considering a forward commitment to hedge Abson’s financial risk under the above commercial transaction. Which of the following is most likely an underlying asset in this case?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Currency",
+            "B": "Oil drilling machine",
+            "C": "Contract price"
+          },
+          "correct_answer": "A",
+          "explanation": "Abson Limited should consider a forward commitment with the currency as an underlying to sell the Japanese Yen at a fixed USD price. B and C are incorrect. The oil drilling machine is not considered an underlying in this case since its price is fixed, which is affected by the currency risk. CFA Level I, Derivatives, Learning Module 1: Derivative Instrument and Derivative Market Features. LOS (a): Define a derivative and describe basic features of a derivative instrument. Contract Date Today Goods seller Abson Limited, Japan Goods buyer Clap Company, USA Goods description Oil drilling machine Quantity Two Delivery date 150 days from the contract date Delivery terms Delivered by ferry. Costs and taxes to be paid by the buyer Payment terms The amount is payable by the buyer upon delivery Contract price $17, 525",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        }
+      ]
+    },
+    {
+      "module_id": 2,
+      "module_name": "Forward Commitment and Contingent Claim Features",
+      "module_name_ru": "Форварды и условные требования",
+      "questions": [
+        {
+          "question_id": "DER-2-001",
+          "question_text": "Chris Dunkins bought a put option with a strike of $59. If at expiration the stock is now worth $42, then what is most likely the payoff of the option at expiration?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "$17 negative payoff.",
+            "B": "$0 payoff.",
+            "C": "$17 positive payoff."
+          },
+          "correct_answer": "C",
+          "explanation": "The payoff of a put option at expiration is: Exam Capsule Traders buy put options when they are bearish, implying that they expect the stock price to fall. The put buyer has a limited loss (premium paid). The put buyer gains as the price falls, but the gain is not completely unlimited since the price of the underlying cannot fall below zero. In many ways, purchasing a put option is like purchasing insurance. In the same vein as for call options, the put seller has nearly unlimited losses, and his gains are limited to the put premium paid to him by the put buyer. A trader could buy a put purely for speculative reasons, hoping that the stock price will fall and therefore increase the value of the long put option.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-2-002",
+          "question_text": "How should the correlation between the interest rate and a futures contract be to result in a positive difference between the price of this contract and an equivalent forward contract?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "0.",
+            "B": "Positive.",
+            "C": "Negative."
+          },
+          "correct_answer": "B",
+          "explanation": "For the price of a futures contract to be greater than the price of an otherwise equivalent forward contract, the interest rate should be positively correlated with the futures contract. That’s because rising prices lead to futures profits that are reinvested in periods of rising interest rates, leading to high profits for future contracts as compared with the forward contracts.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-2-003",
+          "question_text": "What is most likely the difference between a fixed-for-floating swap and an equivalent series of forward contracts?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "The payment dates would be unlikely to match.",
+            "B": "All the fixed-rate payments in a swap are equal.",
+            "C": "The floating-rate payments in a swap are unknown."
+          },
+          "correct_answer": "B",
+          "explanation": "The difference between a fixed-for-floating swap and an equivalent series of forward contracts is that the fixed-rate payments in a swap are equal.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-2-004",
+          "question_text": "Which of the following best describes a forward commitment?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "A forward commitment is a claim (to a payoff) that depends on a particular event.",
+            "B": "A forward commitment is a legally binding promise to perform some action in the",
+            "C": "A forward commitment is a contingent claim that depends on a stock price at some"
+          },
+          "correct_answer": "B",
+          "explanation": "A forward commitment is a legally binding promise to perform some action in the future. Forward commitments include forward contracts, futures contracts, and swaps.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-2-005",
+          "question_text": "Which of the following best describes an option contract?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "An option contract is a legally binding promise to perform some action in the future.",
+            "B": "An option contract is a contingent claim that depends on a stock price at some future",
+            "C": "An option contract is a legal agreement to buy or sell a financial instrument at a"
+          },
+          "correct_answer": "B",
+          "explanation": "An option also referred to as a contingent claim or option contract is a financial instrument that gives one party the right, but not the obligation, to buy or sell an underlying asset from or to another party at a fixed price over a specific period of time. In this case, an option contract is a contingent claim that depends on a stock price at some future date.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-2-006",
+          "question_text": "A futures contract can most likely be categorized as:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Customized.",
+            "B": "A contingent claim.",
+            "C": "A forward commitment."
+          },
+          "correct_answer": "C",
+          "explanation": "A forward commitment is a contractual agreement to carry out a transaction in the future. A futures contract is an example of a forward commitment because both the buyer and the seller have to abide by the contractual agreement and transact as planned. In other words, the transaction between the buyer and the seller is not preconditioned on certain future events. Swaps and forward contracts are also forward commitments.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-2-007",
+          "question_text": "A call option most likely gives:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {},
+          "correct_answer": "B",
+          "explanation": "A call option gives the owner (holder) the right but not the obligation to buy the underlying asset at a predetermined price.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-2-008",
+          "question_text": "A European option most likely:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "The right but not the obligation to sell an asset at a predetermined price.",
+            "B": "The right but not the obligation to buy an asset at a predetermined price.",
+            "C": "The obligation but not the right to buy an asset at a predetermined price."
+          },
+          "correct_answer": "A",
+          "explanation": "European options can be exercised only at the contract's expiration date.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-2-009",
+          "question_text": "A put option most likely gives:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "The obligation to buy an underlying asset at a specified strike price prior to or on a",
+            "B": "The right but not the obligation to buy an underlying asset at a specified strike price",
+            "C": "The right but not the obligation to sell an underlying asset at a specified strike price"
+          },
+          "correct_answer": "C",
+          "explanation": "A put option gives the holder the right but not the obligation to sell the underlying asset at a specified strike price prior to or on a specified date.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-2-010",
+          "question_text": "Which of the following derivative contracts may most likely expose the owner of the contract to default risk?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Swap contract.",
+            "B": "Option contract.",
+            "C": "Futures contract."
+          },
+          "correct_answer": "A",
+          "explanation": "Forwards and swaps are initiated against a counterparty and expose the holder to default risk if the counterparty refuses to honor their obligation. Futures and most options are exchange-traded instruments and do not carry default risk since the clearinghouse acts as the counterparty to both parties.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-2-011",
+          "question_text": "The party in a forward transaction who agrees to deliver the physical or financial assets at a specific date most likely has a:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Long forward position.",
+            "B": "Short forward position.",
+            "C": "Neutral forward position."
+          },
+          "correct_answer": "B",
+          "explanation": "The buyer of a forward contract has a long forward position, and the seller of the forward contract has a short forward position. The seller has a contractual obligation to deliver the physical or financial assets on the date specified in the contract.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-2-012",
+          "question_text": "Which of the following factors most likely differentiates futures contracts from forward contracts?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Futures contracts trade on regulated markets.",
+            "B": "The value of a futures contract is derived from its underlying asset.",
+            "C": "Forwards contracts require physical assets for settlement, not cash."
+          },
+          "correct_answer": "A",
+          "explanation": "Futures contracts trade on regulated exchange markets such as the Chicago Board of Exchange, the Eurex Exchange, the New York Board of Trade, etc. On the other hand, forwards contracts are unregulated and trade over the counter.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-2-013",
+          "question_text": "In order to protect themselves from the downside risk of stock prices, investors should most likely:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Buy put options.",
+            "B": "Sell put options.",
+            "C": "Buy call options."
+          },
+          "correct_answer": "A",
+          "explanation": "Long put options give the owner the right, but not obligation to sell the underlying asset at a given price (strike price) when the price of asset is lower than the strike price. This protects investors from downside risk because the option gains value when the underlying asset's price drops.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-2-014",
+          "question_text": "A derivative instrument that enables an investor to lock a certain interest rate for future borrowing or lending is most likely called:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "A credit interest swap.",
+            "B": "An interest rate contract..",
+            "C": "A forward rate agreement."
+          },
+          "correct_answer": "C",
+          "explanation": "A forward rate agreement (FRA) is a derivative that allows the investor to lock in a certain rate for borrowing or lending funds at a future date. It involves two parties exchanging a fixed rate for a variable one on a notional principal. The party that pays the fixed rate is known as the borrower. The party that pays the variable rate is known as the lender.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-2-015",
+          "question_text": "Which of the following derivative instrument is more standardized and liquid?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Futures.",
+            "B": "Forwards.",
+            "C": "Credit swaps."
+          },
+          "correct_answer": "A",
+          "explanation": "Futures and options trade on exchanges. Derivatives that trade on exchanges have higher standardization, higher liquidity, and less counterparty risk. Forwards and swaps trade over-the- counter and are therefore less standardized.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-2-016",
+          "question_text": "Rabi Koch took a long position in a March put option with a strike price of $65. What is the outcome of the position if the spot price is $78 at expiration?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "$0 payoff.",
+            "B": "$13 positive payoff.",
+            "C": "$13 negative payoff."
+          },
+          "correct_answer": "A",
+          "explanation": "Since the spot price is higher than the strike price of the put option, the option is out-of-the- money. The payoff to the option buyer is 0, i.e. A note on puts A short put refers to the opening of an options trade by selling or writing a put option. The trader who buys the put option is said to be long (holds the long position), and the trader who writes the option is said to be short (holds the short position). For the long position (buyer), the option is in-the-money (ITM) if and only if the prevailing spot price at expiry is less than the strike price. In such circumstances, the buyer would be able to \"cut\" their loss by selling the underlying at the strike price which would be considerably higher than the prevailing market price. Buyers of puts are bearish, i.e, they expect the underlying to lose value over time.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-2-017",
+          "question_text": "What is the intrinsic value for the buyer of one hundred $37 call options on shares of MZJ Corp if the underlying shares are trading at $35?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "$0.",
+            "B": "$2.",
+            "C": "$200."
+          },
+          "correct_answer": "A",
+          "explanation": "Since the strike price of the call options on MZJ Corp. is higher than the spot price, the value of the option is Note: Value of a call option = Value of a put option = Where is price of the underlying stock and is the strike price.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-2-018",
+          "question_text": "Which of the following instruments most likely gives the right but not the obligation to a commodities investor to purchase the underlying commodities?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Futures.",
+            "B": "Options.",
+            "C": "Forwards."
+          },
+          "correct_answer": "B",
+          "explanation": "Options give the right but not the obligation to an investor to buy or sell the underlying commodities. Futures and forwards are obligations to buy or sell a specific amount of a given commodity at a fixed price, location, and date in the future.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-2-019",
+          "question_text": "In contrast to interest rate options, forward rate agreements (FRAs) most likely:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Impose obligations on the counterparties.",
+            "B": "Are contracts with an interest rate as the underlying.",
+            "C": "Are usually offered for purchase and sale by different dealers."
+          },
+          "correct_answer": "A",
+          "explanation": "FRAs represent a commitment to make one interest payment and receive another at a future date. Thus the contract imposes obligations on both sides of the agreement. The underlying in both agreements is an interest rate. FRAs and interest rate options are offered for purchase and sale by the same dealers.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-2-020",
+          "question_text": "Which of the following best describes a distinguishing feature of an equity swap relative to an interest rate or currency swap? In an equity swap, the payment is not known until the end of the settlement period whereas in a (an):",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Currency swap all payments are known at the beginning of the period.",
+            "B": "Interest rate swap all payments are known at the beginning of the period.",
+            "C": "Interest rate or currency swap all payments are known at the beginning of the period."
+          },
+          "correct_answer": "B",
+          "explanation": "In an equity swap, the payment is not known until the end of the settlement period. Similarly, currency swap payments are not known until the end of the settlement period. The exchange rate keeps on changing up until the settlement date. In an interest rate swap, however, all payments are known at the beginning of the period. In other words, both the fixed and floating payments are known at the beginning of each period. The floating rate is set in advance and paid in arrears.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-2-021",
+          "question_text": "In contrast to contingent claims, forward commitments:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Limit losses in one direction.",
+            "B": "Obligate the counterparties to transact on pre-agreed terms.",
+            "C": "Generate an outcome that is determined at the contract expiration date."
+          },
+          "correct_answer": "B",
+          "explanation": "Contingent claims give the right to transact but not the obligation. The holder of the contingent claim has the option as to whether to transact or not. Forward commitments, on the other hand, require both parties to transact in the future at a pre- specified terms. The parties have to transact, they are obligated to do so. The parties and the identity and quantity of the underlying are specified as well as the date of the future transaction (expiration) and the nature of the settlement.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-2-022",
+          "question_text": "Consider the following statement: “A currency swap exposes parties to two sources of risk – interest rate risk and currency risk – but provides protection against default risk.” The statement is least likely correct with respect to:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Default risk.",
+            "B": "Currency risk.",
+            "C": "Interest rate risk."
+          },
+          "correct_answer": "A",
+          "explanation": "A currency swap involves two parties making interest payments to each other in different currencies. Therefore, a currency swap has two sources of risk – interest rate and currency risk. Because the parties are making payments directly to each other and there is no clearinghouse to guarantee payments, this type of swap also exposes them to default risk.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-2-023",
+          "question_text": "A forward rate agreement (FRA) most likely:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {},
+          "correct_answer": "B",
+          "explanation": "An FRA is a contract in which the underlying is an interest rate.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-2-024",
+          "question_text": "Which of the following derivatives will involve one party paying a variable series of cash flows determined by an asset or rate?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Eliminates a lender's exposure to default risk.",
+            "B": "Creates the ability to speculate on interest rates.",
+            "C": "Trades on exchanges such as the CME, CBOE, and Eurex."
+          },
+          "correct_answer": "A",
+          "explanation": "A swap contract is a contract in which one party agrees to pay a variable series that will be determined by an underlying asset or rate while the other party either pays 1) a variable series determined by a different underlying asset or rate or 2) a fixed series.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-2-025",
+          "question_text": "Consider a call option with a premium of $21 and a strike price of $198. What is the maximum possible profit for the writer of the call?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "$21.",
+            "B": "$177.",
+            "C": "$198."
+          },
+          "correct_answer": "A",
+          "explanation": "The greatest profit the writer can make is the $21 premium. That’s achievable when the price of the underlying at expiry is less than or equal to $198. The writer of an option only makes a profit below or equal to the premium that he sells the option for.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-2-026",
+          "question_text": "In a credit default swaps (CDS), the short position is betting on:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "The borrower defaulting.",
+            "B": "The borrower not defaulting.",
+            "C": "The long position not defaulting."
+          },
+          "correct_answer": "B",
+          "explanation": "The CDS seller (short position) will receive compensation in the form of premium income and in return agrees to pay out a percentage of the notional amount if a credit event occurs. The long position is taken by the protection buyer, who has no outstanding obligation but is actually owed by the bond issuer.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-2-027",
+          "question_text": "Companies A and B have entered a swap contract with a notional principal of £256 million. Company A pays a semiannual fixed rate of 5% and receives the 6-month LIBO. If the 6- month LIBO rate is 4.32%, how much money will company B most likely pay or receive?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Pay £0.87 million.",
+            "B": "Receive £0.87 million.",
+            "C": "Receive £256.81 million"
+          },
+          "correct_answer": "B",
+          "explanation": "Company A pays fixed and receives floating. On the other hand, company B receives fixed and pays floating. Company A owes Company B: Company B owes company A: Since the fixed amount is greater than the floating amount, company A will give company B the net difference between the two amounts, i.e.,",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-2-028",
+          "question_text": "Which of the following is least likely a linear derivative?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Swaps.",
+            "B": "Options.",
+            "C": "Forward contracts."
+          },
+          "correct_answer": "B",
+          "explanation": "Contingent claims, such as options, are considered non-linear derivatives because their payoff profile is asymmetric – losses are limited to one direction. Contingent claims include options, credit derivatives, and asset-backed securities.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-2-029",
+          "question_text": "Which of the following best describes the payoff of a short position in a forward contract if the forward price falls below the underlying price at maturity?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Zero payoff.",
+            "B": "Positive payoff.",
+            "C": "Negative payoff."
+          },
+          "correct_answer": "C",
+          "explanation": "If at the expiration date, the current spot price is greater than the forward price [ ] (or the forward price is less than the underlying price, the buyer (long) receives a payoff of Intuitively, the short incurs a loss of because the seller must deliver an asset at and receive less amount . A and B are incorrect. The following table gives the summary of the outcomes of a forward contract at expiry: CFA Level I, Derivatives, Learning Module 2: Forward Commitment and Contingent Claim Features and Instruments. LOS (b): Determine the value at expiration and profit from a long or a short position in a call or put option.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-2-030",
+          "question_text": "Which of the following is least likely correct regarding a futures contract?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "No cash changes hands at the futures contract initiation.",
+            "B": "Futures contracts are directly executed between the counterparties.",
+            "C": "Like a forward contract, the payoff is based on the difference between the futures"
+          },
+          "correct_answer": "B",
+          "explanation": "Futures contracts must be executed using specialized financial intermediaries. The Financial intermediary clears and settles payments at the exchange on behalf of the counterparties.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-2-031",
+          "question_text": "Which of the following least likely distinguishes a futures contract from a forward contract?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Initial cash outlay.",
+            "B": "Mark-to-market process.",
+            "C": "Margining requirements."
+          },
+          "correct_answer": "A",
+          "explanation": "Like forward contracts, no cash is exchanged at futures contract initiation. However, in futures contracts both counterparties must deposit the initial margin into a futures margin account at the exchange. B and C are incorrect. Margining and daily settlements (mark-to-market) distinguish futures contracts from forward contracts. CFA Level I, Derivatives, Learning Module 2: Forward Commitment and Contingent Claim Features and Instruments. LOS (a): Define forward contracts, futures contracts, swaps, options (calls and puts), and credit derivatives and compare their basic characteristics.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-2-032",
+          "question_text": "Which of the following is most likely associated with a margin call?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Initial margin.",
+            "B": "Maintenance margin.",
+            "C": "Variation margin."
+          },
+          "correct_answer": "C",
+          "explanation": "When the futures margin account funds fall below the maintenance margin, the seller typically receives a margin call to top up the account back to the initial margin requirement. The added sum to replenish the futures margin account is the variation margin, which represents the change in the value of the futures contract from the time it was entered into until the time of the margin call.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-2-033",
+          "question_text": "Devco Construction limited enters a 3-month Futures contract on an exchange through a financial intermediary to buy 1,000 barrels of gasoline at USD 78 per barrel. The exchange requires an initial margin of USD 2,340 per futures contract and a maintenance margin of USD 2,280 per contract. If, at first today’s close, the futures price is USD 77.80 per barrel, the Devco’s margin account balance for the day is closest to:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "USD 200",
+            "B": "USD 2,140",
+            "C": "USD 2,540"
+          },
+          "correct_answer": "B",
+          "explanation": "Since at the day’s close, the futures price is USD 77.80 per barrel, Devco (buyer) realizes a loss of As such, Devco’s margin account and ending balance of",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-2-034",
+          "question_text": "Which of the following is most likely true regarding a short position in a put option?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "The profit is equal to the put option premium if the underlying price falls below the",
+            "B": "The profit is equal to the put option premium if the underlying price exceeds the",
+            "C": "Has counterparty credit risk to the long position once the option premium has been"
+          },
+          "correct_answer": "B",
+          "explanation": "Recall that for a put option, the buyer has the right but not an obligation to exercise the option at expiry. Exercising the option means that at expiration, the buyer sells the underlying at the exercise price . As such, the put option is only exercisable if . As such, if the underlying price is greater than the exercise price at maturity, the option expires worthless, and thus the profit to the put option seller (short) is equal to zero, as shown below:",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        }
+      ]
+    },
+    {
+      "module_id": 3,
+      "module_name": "Derivative Benefits, Risks, and Issuer and Investor Uses",
+      "module_name_ru": "Преимущества и риски деривативов",
+      "questions": [
+        {
+          "question_id": "DER-3-001",
+          "question_text": "Which of the following is most likely a benefit of investing in derivatives markets?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Derivatives markets are highly leveraged.",
+            "B": "Derivatives markets provide risk-free return.",
+            "C": "Derivatives markets distribute risk among market participants."
+          },
+          "correct_answer": "C",
+          "explanation": "The benefits of the derivatives markets are: 1. The market aids in price discovery. The futures price of oil, for instance, can be thought of as a forecast of the future spot price. 2. Derivatives have lower transaction costs than transacting in the equivalent underlying asset. 3. Derivatives also help to distribute risk among different participants, thus ensuring the long-term stability of financial markets.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-3-002",
+          "question_text": "“Derivatives have benefits relative to trading the underlying.” Which of the following would least likely refute the above statement?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Higher transaction costs",
+            "B": "The use of a large amount of leverage",
+            "C": "Increase in the amount of speculative trading"
+          },
+          "correct_answer": "A",
+          "explanation": "Derivatives have lower transaction costs relative to trading directly the underlying. The other two options talk about the other benefits that come with derivatives.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-3-003",
+          "question_text": "Speculation through derivatives has a destabilizing consequence on markets as:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {},
+          "correct_answer": "A",
+          "explanation": "Speculation through derivatives has a destabilizing consequence on markets as speculators use large amounts of leverage, thereby subjecting themselves and their creditors to substantial risk. If markets do not move in the hoped-for-direction, defaults by speculators can lead to defaults by their creditors and their creditors' creditors, and so on. The effects can be systematic and reflect an epidemic contagion whereby instability can spread throughout markets and the economy.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-3-004",
+          "question_text": "Which of the following is least likely a way derivative markets lead to efficient financial markets?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Speculators employ high levels of leverage.",
+            "B": "Speculators are thought to engage in price manipulation.",
+            "C": "Derivatives are highly complex and easily misunderstood."
+          },
+          "correct_answer": "C",
+          "explanation": "Providing a price discovery function outside cash or spot markets is a benefit of derivative instruments but not explicitly related to market efficiency. A and B are incorrect. Offering an effective way to exploit mispricing and reflecting fundamental values earlier in the derivative market than in the cash market contribute to market efficiency. CFA Level I, Derivatives, Learning Module 3: Derivative Benefits, Risks, and Issuer and Investor Uses. LOS (b): Compare the use of derivatives among issuers and investors.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-3-005",
+          "question_text": "Which of the following is least likely an operational advantage of derivatives?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Lower transaction costs.",
+            "B": "High liquidity.",
+            "C": "High upfront cash requirements."
+          },
+          "correct_answer": "C",
+          "explanation": "Cash market transactions refer to the buying and selling of assets, such as stocks or commodities, at their current market price. In these transactions, the buyer pays the full cost of the asset at the time of purchase. Derivatives, on the other hand, are financial instruments whose value is derived from an underlying asset, such as a stock or commodity. Examples of derivatives include options and futures contracts. Compared to cash market transactions, derivatives are typically associated with lower initial costs. This is because when trading derivatives, investors are only required to put up a small percentage of the total value of the contract as collateral, known as the \"initial margin.\" This is in contrast to cash market transactions, where the full value of the asset must be paid upfront. Additionally, derivatives also have lower premiums compared to cash market transactions. Premiums refers to the upfront cost of an option or futures contract. This is because derivatives have a built-in leverage, allowing investors to gain exposure to the underlying asset at a fraction of the cost of buying it outright in the cash market. It's important to note that while the initial margin and premiums may be lower, derivatives also carry a higher level of risk, as the value of the contract is dependent on the performance of the underlying asset. It's important to understand the nature of the underlying asset, the terms and conditions of the derivatives contracts and the level of risk associated before investing in derivatives. A and C are incorrect. Lower transaction costs and high liquidity are both operational advantages of derivatives. CFA Level I, Derivatives, Learning Module 3: Derivative Benefits, Risks, and Issuer and Investor Uses. LOS (a): Describe the benefits and risks of derivative instruments.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-3-006",
+          "question_text": "Which of the following is least likely a way in which counterparty credit risk can vary with different derivatives instruments and markets?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Over-the-counter markets are associated with low counterparty risk due to the mark-",
+            "B": "Exchange-traded derivatives are associated with low counterparty risk due to the",
+            "C": "Counterparty credit risk is prevalent in over-the-counter markets due to privately"
+          },
+          "correct_answer": "A",
+          "explanation": "Over-the-counter (OTC) markets are generally associated with higher counterparty risk because the trades are privately negotiated between two parties and not cleared through a central counterparty, so there is more potential for default by one of the parties. The mark-to-market process and margining procedures used to mitigate counterparty risk may not be found in OTC markets.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-3-007",
+          "question_text": "Which of the following is most likely an operational benefit of derivative instruments?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {},
+          "correct_answer": "A",
+          "explanation": "Increased liquidity is one of the four operational benefits of using derivatives. Since less capital is needed to trade derivatives than to hold an equivalent amount of cash in underlying, derivative markets often have more liquidity. The other three operational benefits include low transaction costs, low upfront cash requirements, and a cheaper short position process.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-3-008",
+          "question_text": "Which of the following is most likely the use of derivatives by both the issuers and the investors?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Increased liquidity.",
+            "B": "Informational discovery.",
+            "C": "Greater potential for speculative use."
+          },
+          "correct_answer": "B",
+          "explanation": "Both the issuers and investors mainly use it to increase, decrease, or modify exposure to an underlying to meet their financial goals without transacting in the cash market.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-3-009",
+          "question_text": "Which of the following is most likely an example of a fair value hedge?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Selling commodities forward in expectation of lower prices.",
+            "B": "An interest rate swap of a floating rate for a fixed debt.",
+            "C": "A currency forward to offset the foreign exchange risk of a foreign business operation."
+          },
+          "correct_answer": "A",
+          "explanation": "Selling commodities forward in anticipation of lower prices is an example of a fair value hedge because a fair value hedge applies when a derivative is deemed to offset the fluctuation in the fair value of an asset or liability.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        }
+      ]
+    },
+    {
+      "module_id": 4,
+      "module_name": "Arbitrage, Replication, and the Cost of Carry",
+      "module_name_ru": "Арбитраж и стоимость хранения",
+      "questions": [
+        {
+          "question_id": "DER-4-001",
+          "question_text": "Arbitrage profit is the risk-free profit that is earned when two securities with different prices have:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Low market liquidity.",
+            "B": "Identical cash flows.",
+            "C": "Identical term structures."
+          },
+          "correct_answer": "B",
+          "explanation": "The law of one price states that two securities with identical cash flows should have the same price. Any mispricing in such securities will earn an arbitrage return.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-4-002",
+          "question_text": "In the context of commodity forwards and futures contracts, the benefit of holding the commodity and possibly selling it in the midst of a shortage is known as the:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Cost of carry.",
+            "B": "Risk premium.",
+            "C": "Convenience yield."
+          },
+          "correct_answer": "C",
+          "explanation": "Convenience yield is the additional value that comes with holding an asset rather than a long forward or futures contract on the asset. For instance, the holder can take advantage of shortages. Jet fuel, for example, has a convenience yield because the holder can sell at higher prices during shortages.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-4-003",
+          "question_text": "If the cost and benefit of holding a forward contract until expiration is zero, then which one of these is most likely the payoff of a long forward contract at expiration?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Spot price at expiration minus forward price.",
+            "B": "Forward price minus spot price at expiration.",
+            "C": "Spot price at initiation minus the forward price."
+          },
+          "correct_answer": "A",
+          "explanation": "Recall that a forward contract is an agreement to buy or sell an asset at a predetermined future date for a price agreed upon today (the forward price). If you're long in a forward contract, you've agreed to buy the asset at this predetermined price. Spot price at expiration minus forward price is the correct representation of the payoff for a long forward contract. At expiration, if you are long, you buy the asset at the forward price ( ), and the asset is worth the spot price at expiration. The difference between these two prices is your payoff.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-4-004",
+          "question_text": "A hedge fund analyst is assessing a futures contract with the following characteristics: The 'cost of carry' for the futures contract is closest to:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "-$2.3.",
+            "B": "$13.3.",
+            "C": "$14.2."
+          },
+          "correct_answer": "A",
+          "explanation": "Hence,",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-4-005",
+          "question_text": "Which of the following conditions will least likely make it difficult for the process of arbitrage to correct a mispricing?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "The asset class is illiquid.",
+            "B": "Transaction costs are high.",
+            "C": "Information on asset prices is easily available."
+          },
+          "correct_answer": "C",
+          "explanation": "If there is a free flow of information, arbitrageurs will know that different prices exist which will in turn facilitate the process of arbitrage. The asset can be purchased in the cheaper market and sold in the more expensive market earning a riskless profit. The combined actions of all parties will push the lower price up and the higher price down until the prices converge.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-4-006",
+          "question_text": "When the convenience yield exceeds storage costs, the forward transaction will return:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Less than the spot transaction.",
+            "B": "More than the spot transaction.",
+            "C": "The present value of the forward price."
+          },
+          "correct_answer": "A",
+          "explanation": "When the convenience yield (benefits) exceeds storage costs, the forward transaction will return less than the spot transactions. The forward price will be adjusted downwards to reflect the net loss over the spot transaction. In other words, acquiring the asset in the forward market would be cheaper because it forgoes the benefits that exceed the costs.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-4-007",
+          "question_text": "Assuming all else is held constant, when a commodity stock is in short supply, investors can expect a:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {},
+          "correct_answer": "B",
+          "explanation": "Since the commodity is believed to be short in supply, investors should expect to earn a high convenience yield. In such a scenario, the holder of a commodity has the benefit of holding a commodity if market conditions suggest that the commodity should be sold.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-4-008",
+          "question_text": "The spot price of a barrel of oil is $1,000. A trader enters into a one-year forward contract to purchase oil at a forward price of $1,200 per barrel. Assuming a no-arbitrage opportunity and a risk-free rate of 10%, the cost of carry associated with the forward contract is closest to:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Positive cost of carry.",
+            "B": "High convenience yield.",
+            "C": "Positive expected return."
+          },
+          "correct_answer": "A",
+          "explanation": "Considering the cost of carry, the relationship between the spot price and futures price changes as follows:",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-4-009",
+          "question_text": "Two identical assets, assets A and B, have the same spot price. However, asset A has more associated costs than asset B. Assuming that there are no associated benefits in both assets which of the following statements is most likely correct regarding the forward prices of forward contracts on assets A and B?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Asset A has a lower forward price than asset B.",
+            "B": "Asset A has a higher forward price than asset B.",
+            "C": "Assets A has a higher spot price than asset B at maturity."
+          },
+          "correct_answer": "B",
+          "explanation": "Costs increase an underlying's forward price, whereas benefits reduce an underlying's forward price. Costs are incurred by the underlying owner. These costs will have to be factored in (added) onto the forward price, thereby increasing the forward price, as seen in the formula below. Denote the costs (C) and benefits/income (I). Considering the cost of carry, the relationship between the spot price and futures price changes as follows: Where = Forward price = Spot price of the underlying at time t=0 = present value of the associated benefits. = present value of the associated costs. = risk-free rate of interest.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-4-010",
+          "question_text": "Miles discovers an arbitrage opportunity in a market. She notices that the spot share price of a company share is $70, and a 3-month forward contract on the same shares sells at a forward price of $74. In order to take advantage of the apparent arbitrage opportunity, Miles borrows money at a risk-free rate of 5% and buys the shares at a price of $70 per share. At the same time, she takes a short position in the forward contract. Assuming that the asset has no associated costs or benefits, the arbitrage profit per share that Miles earns from the trade at the contract maturity is closest to:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {},
+          "correct_answer": "B",
+          "explanation": "Rhoda borrows EUR70 at the risk-free rate to purchase the shares today. After three months, the amount Rhoda returns to the lender, i.e., principal plus interest, is: She then delivers the shares and receives $74 per share, earning her an arbitrage profit of;",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-4-011",
+          "question_text": "Given a stock index that pays a dividend yield of 2% and is trading at a spot price of $65, and assuming a risk-free rate of 5%, the stock's six-month forward price is closest to: A. $0.50 B. $3.14 C. $4.00 S0(1 + r)T = 70(1 + 0.05)0.25 = $70.86 (74 −70.86) = $3.14 per share 74 −70 (1 + 0.05)1) = $0.50 A. $65.98 © 2014-2024 AnalystPrep. 66",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "$0.50",
+            "B": "$3.14",
+            "C": "$4.00"
+          },
+          "correct_answer": "A",
+          "explanation": "Since the dividend has been given as a percentage (dividend yield), we will calculate the forward price using the equation; Where, =forward price, = spot price, = risk-free rate, =benefits expressed as a rate of return = costs expressed as a rate of return = time to maturity. The forward price is slightly greater than the spot price since the cost (the risk-free rate) is higher than the benefit (the dividend yield).",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-4-012",
+          "question_text": "A trader borrows $1,000 at a risk-free rate of 5% to purchase an asset whose spot price is $1,000. He then sells the asset after two years at a spot price of $1,200 and uses some of the proceeds from the sale to repay his loan plus interest. The trader has most likely used which of the following replication strategies?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Long-forward replication.",
+            "B": "Short-forward replication.",
+            "C": "Risk-free trade replication."
+          },
+          "correct_answer": "A",
+          "explanation": "From the trade, the trader makes a profit of which is equivalent to a long-forward commitment. The strategy presented is, therefore, a long- forward replication.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-4-013",
+          "question_text": "The present value of the benefits of holding a barrel of oil is $1,000. If the barrel of oil is trading at a spot price of $5,000 and assuming that the present value of the storage cost is $2,000 and the risk-free rate is 5%, the one-year forward price of a forward contract on a barrel of oil is closest to:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "$4,200",
+            "B": "$6,000",
+            "C": "$6,300"
+          },
+          "correct_answer": "C",
+          "explanation": "Recall that, Where; = forward price. = Spot price. = Present value of benefits. = Present value of costs.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        }
+      ]
+    },
+    {
+      "module_id": 5,
+      "module_name": "Pricing and Valuation of Forward Contracts",
+      "module_name_ru": "Ценообразование форвардов",
+      "questions": [
+        {
+          "question_id": "DER-5-001",
+          "question_text": "The party to a forward contract who agrees to buy the financial or physical asset has a:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Long call position.",
+            "B": "Long forward position.",
+            "C": "Short forward position."
+          },
+          "correct_answer": "B",
+          "explanation": "The party that takes the long forward position agrees to buy the underlying asset at a specified future date for a specified price. The party holding the long position is said to be “long.”",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-5-002",
+          "question_text": "A U.S. based company has a subsidiary in Germany from which it expects to receive €8 million in the next 3 months. If the company's management is concerned about foreign currency, it will most likely enter into a:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Currency forward contract by taking a short position in the $.",
+            "B": "Currency forward contract by taking a short position in the €.",
+            "C": "Forward rate agreement (FRA) by taking a long position in the €."
+          },
+          "correct_answer": "B",
+          "explanation": "The company is basically long the €, so it needs to sell those € to convert them into $. The company will most likely enter into a currency forward contract by taking a short position in the € and a long position in the $. That will give the company the right to exchange the euros for dollars at a pre-determined rate.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-5-003",
+          "question_text": "Which of the following statements is most likely correct regarding the value of a forward contract to a short party at expiration? The value of the forward contract is:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Zero.",
+            "B": "Equal to the value to the long party multiplied by -1.",
+            "C": "Positive if the spot price of the underlying exceeds the forward price."
+          },
+          "correct_answer": "B",
+          "explanation": "The value of the forward contract to a party holding a short position can be calculated by multiplying the value to the long party by -1.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-5-004",
+          "question_text": "From a forward contract seller's perspective, what will most likely happen to the contract's MTM value if the risk-free rate increases?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "The MTM value will increase.",
+            "B": "The MTM value will decrease",
+            "C": "The MTM value will remain the same."
+          },
+          "correct_answer": "B",
+          "explanation": "The contract's marked-to-market (MTM) value will decrease. From the forward contract seller's perspective, the MTM value is; Therefore, an increase (decrease) in the risk-free rate will decrease (increase) the forward price and the forward contract's MTM value. From the forward contract buyer's perspective, an increase (decrease) in the risk-free rate will increase (decrease) the forward price and the forward contract's MTM value. A and C are incorrect. The forward contract's MTM value will decrease, as explained above. CFA Level I, Derivatives, Learning Module 5: Pricing and Valuation of Forward Contracts and For An Underlying with Varying Maturities. LOS (a): Explain how the value and price of a forward contract are determined at initiation, during the life of the contract, and at expiration.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-5-005",
+          "question_text": "Assuming that trading and transaction costs are negligible, which of the following derivatives least likely has an initial valuation value of zero?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Options.",
+            "B": "Swap contracts",
+            "C": "Forward contracts."
+          },
+          "correct_answer": "A",
+          "explanation": "All forward commitments (forwards, futures, and swap contracts) have an initial value of zero since no money changes hands at contract inception. However, for contingent claims like options, traders have to part with an option premium to secure the right but not the obligation to buy (call option) or sell (put option) the underlying at a fixed price at the specified maturity date. Therefore, unlike forward commitments, options have a value at contract initiation.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-5-006",
+          "question_text": "Lisa Junior owns 10,000 shares of Unifier Limited. She enters into a six-month forward contract to sell 3,500 shares at a forward price of $70 per share. The contract value at maturity from the buyer's perspective, assuming the spot price at maturity is $100 per share, is closest to:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "-$105,000.",
+            "B": "$105,000.",
+            "C": "$300,000."
+          },
+          "correct_answer": "B",
+          "explanation": "At contract initiation, the value is zero to both the buyer and the seller since no money exchanges hands. At contract maturity, the buyer and seller's value equals the contract's settlement value. From the buyer's perspective, the value can be obtained using the equation; Instead of purchasing the shares at the current price of $100, the buyer buys them at the lower forward price of $70, making a return of $30 per share. For the 3,500 shares;",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-5-007",
+          "question_text": "A trader enters into a one-year forward contract to purchase ABC Company's shares at a forward price of INR 528.01 per share. The current spot price of the shares is INR 502.87 per share. Assuming that the spot price increases instantaneously to INR 504.66 per share at contract inception and assuming a risk-free rate of 5%, the forward contract MTM from the trader's perspective is most likely:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "-INR 1.79",
+            "B": "INR 0",
+            "C": "INR 1.79"
+          },
+          "correct_answer": "C",
+          "explanation": "As the forward contract buyer, the MTM value at any time will be given by the equation; At contract inception (t=0), can be rewritten as . Therefore, the value of the contract from the trader's perspective simplifies to: where, = the spot price after the instantaneous change, and = the original spot price.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-5-008",
+          "question_text": "XYZ shylock gives out fixed-interest loans to borrowers. It obtains the money to lend by borrowing at the one-month variable MRR.To protect itself against interest rate risk, it enters into a one-month forward FRA contract on the one-month MRR. Which of the following best describes XYZ's interest rate exposure and the position it should take in the FRA contract?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Exposed to a rise in the one-month MRR and should therefore be the fixed-rate payer",
+            "B": "Exposed to a rise in the one-month MRR and should therefore be the fixed-rate",
+            "C": "Exposed to a decline in the one-month MRR and should therefore be the floating rate"
+          },
+          "correct_answer": "A",
+          "explanation": "XYZ loans its borrowers at a fixed interest rate but obtains its loans at a floating interest rate. Therefore, it faces a risk if the floating interest rate it pays rises relative to the fixed interest rate it receives from borrowers. In other words, if the floating interest rate increases, it will pay more than it receives. To hedge against this risk, it should enter into an FRA and pay the fixed rate while receiving the floating rate.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-5-009",
+          "question_text": "Elliot Ltd. enters into a six-month forward contract with a financial intermediary to sell 800 shares in its possession at a forward price of $80.25 per share. The spot price at the initiation is $75.12 per share, and the risk-free rate of return is 4%. The forward contract MTM value from Elliot Ltd.'s perspective after four months, if the share price falls to $70.10, is closest to:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "$9.11",
+            "B": "$9.63",
+            "C": "$10.68"
+          },
+          "correct_answer": "B",
+          "explanation": "Elliot is a seller (short position). We know that for a seller, the value of the forward contract at any time is given by: Where, = Spot price of the underlying at time t, during the contract's life. = Risk-free rate of return. = Forward price (satisfies the no-arbitrage conditions). Therefore,",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-5-010",
+          "question_text": "Consider a two-year forward contract purchased on the Japanese Yen. The short position has to deliver one Japanese Yen in exchange for a Canadian dollar. Assume the interest rates in Japan and Canada are 4% and 7%. Suppose the exchange rate of the Japanese Yen against the Canadian dollar is 1.80; the forward price is closest to:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {},
+          "correct_answer": "C",
+          "explanation": "For foreign exchange forward, Where: = Forward price = Spot price = Risk-free foreign rate = Risk-free domestic rate = Time to maturity. Therefore, Therefore,",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-5-011",
+          "question_text": "Paul Nasir plans to enter a forward contract to purchase gold, whose spot price is $120, both at initiation and maturity. The net present value cost of carry for the gold is $15. Suppose A. 1.4572 B. 1.5572 C. 1.6952 F0,f/d (T) = S0,f/de (rf−rd)T F0,f/d (T) S0,f/d rf rd T F{0,f/d} = 1.80e(0.04−0.07)2 = 1.6952 © 2014-2024 AnalystPrep. 79 the risk-free rate is 4%; the value of a two-year-long forward contract on the asset at expiration is closest to:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "1.4572",
+            "B": "1.5572",
+            "C": "1.6952"
+          },
+          "correct_answer": "C",
+          "explanation": "We know that: Where, = Present value of income or benefits at any time t. = Present value of costs at any time t. = income. = cost of carry. = Spot price of the underlying at the initiation. = Risk-free rate of return. = Forward price (satisfies the no-arbitrage conditions). We can rewrite the above equation as: Now recall that the cost of carry is defined as \"net of the costs and benefits related to owning an underlying asset for a specific period\" Therefore, the above equation can be written as: Therefore, A. $4.00 B. $16.40 C. $6.43 F0(T) = [S0 −PV0 (I) + PV0 (C)] (1 + r)T PVt (I) PVt (C) I C S0 r F0 (T) F0(T) = [S0 −(PV0 (I) −PV0 (C))] (1 + r)T F0 (T) = (S0 −Cost of carry) (1 + r)T = ($120 −$15) (1 + 0.04)2 = $113.56 V0 (T) = ST −F0 (T) = 120 −113.56 = $6.43 © 2014-2024 AnalystPrep. 80",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-5-012",
+          "question_text": "Paul Nasir plans to enter a forward contract to purchase gold, whose spot price is $120. The net cost of carry for the gold is $15. Suppose the risk-free rate is 4%; the value of a two- year-long forward contract on the asset at expiration is closest to:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "$4",
+            "B": "$6.4",
+            "C": "$8.5"
+          },
+          "correct_answer": "B",
+          "explanation": "We know that: Where, = Present value of income or benefits at any time t. = Present value of costs at any time t. = income. = cost of carry. = Spot price of the underlying at the initiation. = Risk-free rate of return. = Forward price (satisfies the no-arbitrage conditions). Therefore. A. $4 B. $6.4 C. $8.5 F0(T) = S0(1 + r)T −(PV0 (I) −PV0 (C)) (1 + r)T PVt (I) PVt (C) I C S0 r F0 (T) © 2014-2024 AnalystPrep. 81 Therefore,",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-5-013",
+          "question_text": "Steph Ellie enters into a forward contract on a non-dividend paying stock that matures in 3 months. Suppose the current stock price is $84 and the risk-free rate of 2.5% per year. The forward price is closest to:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "$81.25",
+            "B": "$83.14",
+            "C": "$84.52"
+          },
+          "correct_answer": "C",
+          "explanation": "We know that: Where: = Spot price of the underlying at the initiation. = Risk-free rate of return. = Forward price (satisfies the no-arbitrage conditions). = Time to maturity. Therefore, <",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-5-014",
+          "question_text": "A portfolio manager purchases a two-year zero coupon bond with a par value of $84.96. The two-year zero rate is closest to",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "1.34%",
+            "B": "2.62%",
+            "C": "8.49%"
+          },
+          "correct_answer": "C",
+          "explanation": "Recall that the discount factor is given by: Where: = The discount factor for a given period. = The zero rate for a given period. = The period. We need . To solve for the two-year zero rate , solve the equation: Usind BA II Plus financial calculator, .",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        }
+      ]
+    },
+    {
+      "module_id": 6,
+      "module_name": "Pricing and Valuation of Futures Contracts",
+      "module_name_ru": "Ценообразование фьючерсов",
+      "questions": [
+        {
+          "question_id": "DER-6-001",
+          "question_text": "In the case of a futures contract, the initial margin is most likely:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "The profits or losses settled daily.",
+            "B": "The minimum amount that must be maintained at any time.",
+            "C": "The amount that must be deposited before a trade may be made."
+          },
+          "correct_answer": "C",
+          "explanation": "The initial margin is the amount that must be deposited in the futures account before a trade may be performed.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-6-002",
+          "question_text": "If Michael Emery takes a long position in copper futures, which of the following parties will most likely take the opposite position in the contract?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "The clearinghouse.",
+            "B": "Another investor/trader.",
+            "C": "A large commercial bank."
+          },
+          "correct_answer": "A",
+          "explanation": "Options and futures are traded on exchange-traded markets. The clearinghouse act as the opposite party to each transaction in futures markets.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-6-003",
+          "question_text": "The everyday process of adjusting the margin to take into account the gains and losses on the value of futures contracts is known as:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Clearing.",
+            "B": "Value adjusting.",
+            "C": "Marking to market."
+          },
+          "correct_answer": "C",
+          "explanation": "The process of adjusting the margin balance to reflect gains and losses on the value of futures contracts due to changes in the prices of underlying assets is called mark-to-market or marking- to-market, MtM.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-6-004",
+          "question_text": "Which of the following floor traders in a futures exchange is more likely to benefit from the bid-ask spread?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Scalpers.",
+            "B": "Day traders.",
+            "C": "Position traders."
+          },
+          "correct_answer": "A",
+          "explanation": "Scalpers often try to buy at the bid and sell at the ask price. They purchase stocks and resell them after very small price increases. To be successful, a scalper monitors price movement with a keen eye and is therefore in a position to take advantage of sudden changes in the bid-ask spread. A pure scalper will makes multiple trades each day—perhaps in the hundreds.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-6-005",
+          "question_text": "Long positions in futures contracts are more desirable than forward contracts when the correlation between futures prices and interest rates is:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {},
+          "correct_answer": "B",
+          "explanation": "When the correlation between interest rates and futures prices is positive, futures contracts are more desirable to holders of long positions than forward contracts. That's because rising prices will lead to futures profits that are reinvested in periods of rising interest rates, and falling prices will lead to losses that occur during periods of falling interest rates. Therefore, it is far better to receive cash flows in the interim than the expiration under such conditions.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-6-006",
+          "question_text": "A stock that pays an annual dividend of $5 is trading at a spot price of $72. If the stock's futures price is $75.6, assuming a risk-free rate of 5%, which of the following statements is most likely correct? The stock is trading",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Zero.",
+            "B": "Positive.",
+            "C": "Negative."
+          },
+          "correct_answer": "C",
+          "explanation": "",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-6-007",
+          "question_text": "How do futures and forward prices best compare in situations where futures prices are positively correlated with interest rates over the contract's maturity period?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "They are the same.",
+            "B": "Futures prices exceed forward prices.",
+            "C": "Forward prices exceed futures prices"
+          },
+          "correct_answer": "B",
+          "explanation": "Futures prices fluctuate depending on interest rates, whereas forward prices remain constant until contract maturity. Therefore, futures prices will exceed forward prices in situations where futures prices are positively correlated with interest rates. The higher futures prices mean that futures profits will be reinvested at higher rates while losses will be refinanced at lower rates. The opposite is true when the futures prices negatively correlate with interest rates over the contract's maturity period.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-6-008",
+          "question_text": "Which of the following statements is least likely correct?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Both futures and forward contracts have an initial value of zero.",
+            "B": "The futures price is obtained by compounding the spot price at the risk-free rate.",
+            "C": "The gains and losses of both futures and forward contracts are settled daily via a"
+          },
+          "correct_answer": "C",
+          "explanation": "Since futures are traded on an exchange, their gains and losses are settled daily via a margin account. A trader gets a margin call once their margin account decreases below the minimum amount. The daily settlement of gains and losses of futures accounts resets the futures value to zero at the current futures price, a process that continues until maturity. At maturity, the futures value converges to the spot price. On the other hand, forward contracts trade in the OTC market. Their gains and losses are not settled daily. A and B are incorrect. They are correct statements. Both futures and forwards have an initial value of zero. The value may change during the life of the contract. The futures price, like the forward price, is obtained by compounding the spot price at the risk-free rate. CFA Level I, Derivatives, Learning Module 6: Pricing and Valuation of Futures Contracts. LOS (b): Explain why forward and futures prices differ.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-6-009",
+          "question_text": "The 90-day futures price of a barrel of oil is EUR 500. At the end of the second trading day, the spot price of the barrel of oil is EUR 525. Assuming that trading opens at the former day's closing spot and future prices and taking a risk-free rate of 4%, the contract's MTM value on day three is closest to:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "EUR 0.",
+            "B": "EUR 29.71.",
+            "C": "EUR 495.24."
+          },
+          "correct_answer": "B",
+          "explanation": "The MTM value is obtained by subtracting the current spot price from the present value of the futures price. Since trading opens at the former day's spot and future prices, we first have to calculate the present value of the future price on day 2. At the contract inception date, day 1, the contract has 90 days until maturity. Therefore, at the end of day 2, there are 88 days remaining until maturity. So that,",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-6-010",
+          "question_text": "The implied six-month forward rate for an interest rate futures contract initiated at time t=0 with a maturity period of one year, trading at $89.10, is closest to:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "0%",
+            "B": "8.9%",
+            "C": "10.9%"
+          },
+          "correct_answer": "C",
+          "explanation": "The interest rate futures trade on a price basis given by: Where; = Futures price for a market reference rate for B-A periods that begin at period A. = Implied forward rate. Therefore, The implied six-months forward rate for an interest rate futures contract initiated at time 0 with a one-year maturity period is 10.9%",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-6-011",
+          "question_text": "Which of the following statements is most likely correct regarding a futures and forwards contract?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "MTM gains and losses are settled daily.",
+            "B": "The contract price is constant throughout the contract period.",
+            "C": "The presence of benefits will reduce the difference between the spot and the forward"
+          },
+          "correct_answer": "C",
+          "explanation": "Benefits in both forward and futures contracts will reduce the forward/ futures price. With a lower forwards/futures price, the difference between the spot price and the forward commitment contract price will also decrease. On the other hand, costs will increase the forward commitment contract price in both forward and futures contracts. A higher forward commitment contract price will increase the difference between the spot price and the forward commitment contract price.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-6-012",
+          "question_text": "In cases of rising interest rates, which of the following positions should a trader who wishes to hedge his liability of paying MRR in the future most likely take?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Long FRA.",
+            "B": "Short FRA.",
+            "C": "Long futures contract."
+          },
+          "correct_answer": "A",
+          "explanation": "An FRA (Forward Rate Agreement) is a financial contract between two parties where one party agrees to pay a fixed rate of interest on a specified notional amount at a future date while the other party agrees to pay the floating market rate of interest (MRR) on that date. In the context of rising interest rates, a trader who wishes to hedge his liability of owning a market reference rate (MRR) in the future should take a long position in an FR",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        }
+      ]
+    },
+    {
+      "module_id": 7,
+      "module_name": "Pricing and Valuation of Interest Rate and Other Swaps",
+      "module_name_ru": "Ценообразование свопов",
+      "questions": [
+        {
+          "question_id": "DER-7-001",
+          "question_text": "ZE Bank enters into a plain vanilla swap contract with Lux Financiers with the intent of receiving floating-rate payments. In these circumstances, ZE Bank most likely takes the:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Short position.",
+            "B": "Pay-fixed side.",
+            "C": "Pay-floating side."
+          },
+          "correct_answer": "B",
+          "explanation": "In a plain vanilla swap or interest rate swap, two private parties, usually firms or financial institutions, agree to exchange a floating interest rate for a fixed rate. The party that wants to receive floating-rate payments while making fixed-rate payments on the notional principal is called the pay-fixed side.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-7-002",
+          "question_text": "Tiara Enterprises (TIEN) has just announced its plans to establish a facility in New York, USA, to meet the increased demand for its products. TIEN plans to fund the expansion with debt and in order to hedge the risk of borrowing, TIEN has entered into a plain vanilla interest rate swap with a notional principal of $50 million. TIEN would make semiannual payments at the rate of 12% with the counterparty making floating rate payments at the Euribor rate. Assuming a 360-day year, if the Euribor was 13.5% on the last settlement date and is 11.0% on the current settlement date, the amount that TIEN would receive on the current settlement date is closest to:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "$250,000.",
+            "B": "$375,000.",
+            "C": "$3,375,000."
+          },
+          "correct_answer": "B",
+          "explanation": "TIEN's payment: Counterparty's payment: Therefore, TIEN would receive a net amount of $375,000. Note that the amount payable under the floating leg of the swap is based on the interest rate at time t-1.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-7-003",
+          "question_text": "Which of the following statements is most likely correct regarding credit default swaps (CDS)?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "They represent exchange-traded derivatives.",
+            "B": "The CDS seller is betting on the borrower not defaulting.",
+            "C": "The credit protection buyer has an underlying loan obligation which requires"
+          },
+          "correct_answer": "B",
+          "explanation": "The CDS seller receives compensation in the form of premium income and in return agrees pay out a percentage of the notional amount if a credit event occurs.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-7-004",
+          "question_text": "Peter Gregg enters into a floating-for-fixed 5-year swap contract to hedge against a decline in interest rates. He agrees to pay the six-month MRR and receive the 4% fixed interest rate over a notional principal of $5 million. Assuming that the sixth-month MRR is 2.3%, the swap’s periodic settlement value from Peter’s perception in six months is most likely:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "A. $42,500",
+            "B": "B. $85,000",
+            "C": "C. $100,000"
+          },
+          "correct_answer": "A",
+          "explanation": "The periodic settlement value from Peter’s perspective, who is the fixed rate receiver) can be obtained using the equation below. Peter will receive $42,500. His net value is positive since the present value of fixed payments to be received exceeds that of floating payments to be paid.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-7-005",
+          "question_text": "To hedge against increasing interest rates, Laura Smith, an investor, should most likely enter into which of the following swaps?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Pay a fixed rate, and receive a fixed rate.",
+            "B": "Pay a fixed rate and receive a floating rate.",
+            "C": "Pay a floating rate and receive a fixed rate."
+          },
+          "correct_answer": "B",
+          "explanation": "Since the risk is towards an increase in interest rates, by paying the fixed rate and receiving the floating rate, Laura Smith will receive more if interest rates increase, thereby hedging her risk against a rise in interest rates.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-7-006",
+          "question_text": "Which of the following best illustrates a scenario that leads to a fixed-rate receiver having a positive MTM value on the settlement day of a floating-for-fixed swap contract? The present value of the:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "fixed payments to be received equals that of the floating payments to be paid.",
+            "B": "fixed payments to be received is less than that of the floating payments to be paid.",
+            "C": "fixed payments to be received is greater than that of the floating payments to be paid."
+          },
+          "correct_answer": "C",
+          "explanation": "A floating-for-fixed swap contract means that the receiver is getting the fixed rate and paying the floating rate over the notional principal. Therefore, the value of a swap after inception from a fixed-rate receiver’s perspective is given by the equation; For the above equation to be positive, the sum of the present value of the fixed payments received must be greater than the sum of the present value of the floating payments paid.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-7-007",
+          "question_text": "Consider the following exhibit: The implied forward rate in two years is most likely:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "2.46%",
+            "B": "3.34%",
+            "C": "3.80%"
+          },
+          "correct_answer": "C",
+          "explanation": "The general formula for the relationship between the two spot rates and the implied forward rate (IFR) is: Where: spot rate on short-term bond. spot rate on long-term bond. Implied forward rate between period A and period B, with a tenor of B-",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-7-008",
+          "question_text": "A trader enters into a 5-year swap contract to pay the fixed rate and receive the 6-month floating rate. If the floating rate decreases below the fixed rate six months after contract inception, the trader will most likely?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Realize a loss and make a net payment.",
+            "B": "Realize a loss and receive a net payment.",
+            "C": "Realize a gain and receive a net payment."
+          },
+          "correct_answer": "A",
+          "explanation": "Since the trader is paying the fixed rate and receiving the floating, s(he) will realize a loss if the floating rate decreases below the fixed rate, i.e., s(he) will receive less than what s(he) will pay. Since the principal in a swap contract is notional, the trader will make a net payment to the fixed-rate receiver.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-7-009",
+          "question_text": "What happens if the market reference rate (MRR) is set at a rate higher than the agreed- on fixed rate for a fixed-rate payer on a swap or forward rate agreement (FRA)?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Realize a loss; pay; to",
+            "B": "Realize a gain; receive; from",
+            "C": "Realize a gain; pay; to"
+          },
+          "correct_answer": "B",
+          "explanation": "Realize a gain if the MRR sets at a rate higher than the agreed-on fixed rate and will receive a net payment from the floating-rate payer. When the MRR sets at a rate higher than the agreed-on fixed rate, a fixed-rate payer on a swap or FRA realizes a gain and receives a net payment from the floating-rate payer.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-7-010",
+          "question_text": "Which characteristic corresponds to the implied forward rate, or the breakeven reinvestment rate, for a period starting in the future?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Interest rate swap",
+            "B": "Forward rate agreement",
+            "C": "Both an interest rate swap and an interest rate forward contract"
+          },
+          "correct_answer": "B",
+          "explanation": "The breakeven reinvestment rate, or implied forward rate, corresponds to a forward rate agreement, where the price of the contract represents this rate for a future period.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-7-011",
+          "question_text": "What features do interest rate swaps and forward rate agreements have in common regarding risk?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {},
+          "correct_answer": "C",
+          "explanation": "Both interest rate swaps and forward rate agreements involve counterparty credit risk, as they are agreements between two parties, and default by one party poses a risk to the other.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-7-012",
+          "question_text": "What is the characteristic unique to an interest rate swap?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "No counterparty credit risk",
+            "B": "Interest rate risk",
+            "C": "Counterparty credit risk"
+          },
+          "correct_answer": "C",
+          "explanation": "An interest rate swap is characterized by a constant fixed rate over multiple periods, unlike forward rate agreements, which involve single cash flow exchanges, and swaps have periodic settlements.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-7-013",
+          "question_text": "Why do issuers and investors tend to prefer interest rate swaps over individual forward rate agreements?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Higher liquidity",
+            "B": "Lower cost",
+            "C": "Greater flexibility"
+          },
+          "correct_answer": "A",
+          "explanation": "Interest rate swaps are preferred due to their greater liquidity compared to individual forward rate agreements, allowing for more efficient management of interest rate exposures.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        }
+      ]
+    },
+    {
+      "module_id": 8,
+      "module_name": "Pricing and Valuation of Options",
+      "module_name_ru": "Ценообразование опционов",
+      "questions": [
+        {
+          "question_id": "DER-8-001",
+          "question_text": "Consider a call option on a stock currently selling at $95/share, and with a strike price of $ 90/share. By how much is this option in the money or out of the money?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "$5 at the money.",
+            "B": "$5 in the money.",
+            "C": "$5 out of the money."
+          },
+          "correct_answer": "B",
+          "explanation": "The call is $5 in the money because the strike price is less than the current market price. In these circumstances, the buyer stands to make a profit of $5 if they decide to exercise the option (ignoring he premium paid).",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-8-002",
+          "question_text": "Consider a November 110 put on a stock currently selling at $115/share. The option is:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "$5 in the money.",
+            "B": "$5 at the money.",
+            "C": "$5 out of the money."
+          },
+          "correct_answer": "C",
+          "explanation": "The put is $5 out of the money because the current market price is greater than the strike price. In these circumstances, the buyer of the option would have no incentive to exercise the option.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-8-003",
+          "question_text": "Which of the following relationships is most likely correct?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Option Premium = Intrinsic Value – Time Value.",
+            "B": "Option Premium = Time Value – Intrinsic Value.",
+            "C": "Option Premium = Intrinsic Value + Time Value."
+          },
+          "correct_answer": "C",
+          "explanation": "The intrinsic value of an option represents the current value of the option. It’s the difference between the price of the underlying asset and the strike price of the option. In other words, it’s the option’s moneyness. The time value of an option is an additional amount the investor is willing to pay over the current intrinsic value. The investor is willing to pay this in cognizance of the possibility that the option will increase in value before its expiration date.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-8-004",
+          "question_text": "Which of the following is least likely a factor that determines the value of an option?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "The inflation rate.",
+            "B": "The price of the underlying asset.",
+            "C": "The volatility of the underlying asset."
+          },
+          "correct_answer": "A",
+          "explanation": "Both the price and the volatility of the underlying asset play an important role in determining the value of an option. The exercise price is directly proportional to the value of a put option and inversely proportional to the value of a call option. Volatility is directly proportional to the value of both call and puts options. The risk-free rate, not the inflation rate, is directly proportional to the value of a call option and inversely proportional to the value of a put option.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-8-005",
+          "question_text": "A deep out-of-the-money option is most likely priced:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "At its time value.",
+            "B": "Under its time value.",
+            "C": "Higher than its time value."
+          },
+          "correct_answer": "A",
+          "explanation": "A deep out of the money call (put) option is an option whose strike price is greater (less) than the current market price of the underlying. An option's value has 2 components: (1) time value and (2) intrinsic value. A deep out-of-the- money option is priced at its time value since the intrinsic value is close to zero. The time value of an option measures the benefits of holding an option with the time remaining to maturity with some chance that the price of the underlying will move towards the desired strike price. The time value of an option reduces as the option nears its expiry date. Even though a deep out of the money option appears worthless, its time value means that the derivative still has some value. Some investors are willing to pay some money for the remaining time value. Such options will therefore be priced at their time value.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-8-006",
+          "question_text": "What is the most likely result of a decrease in the risk-free rate of return on put and call option prices?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Both put and call prices will increase.",
+            "B": "Put option prices will decrease while call option prices will increase.",
+            "C": "Put option prices will increase while call option prices will decrease."
+          },
+          "correct_answer": "C",
+          "explanation": "The result of a decrease in the risk-free rate of interest will increase put option prices and decrease call option prices. A call option can be looked at as the right to delay a purchase. The higher the interest rate you can earn on the cash you will use to make the purchase, the greater the benefit of being able to delay it. A put option can be looked at as the right to delay a sale. The higher the interest rate you can earn on the cash generated from the sale, the less desirable it is to delay it.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-8-007",
+          "question_text": "Which of the following best describes the obligation of the writer of a put option?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "To sell the option at its strike price if the option is exercised.",
+            "B": "To buy the underlying security at the option's strike price if the option is exercised.",
+            "C": "To sell the underlying security at the option's strike price if the option is exercised."
+          },
+          "correct_answer": "B",
+          "explanation": "When you write (sell) a put option, you receive the premium and, in exchange, have the obligation to purchase the underlying security at the option's strike price if the buyer decides to exercise the option. The buyer of an option (either a call or a put) has “the right to transact, but not the obligation” whereas the writer (seller) of an option has an obligation.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-8-008",
+          "question_text": "If the spot price is less than the strike price of a call option on the underlying, the option is said to be:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "In-the-money.",
+            "B": "At-the-money .",
+            "C": "Out-of-the-money."
+          },
+          "correct_answer": "C",
+          "explanation": "If the exercise of an option generates a negative value, then the option is out of the money. For instance assume that the spot price is $50 and the strike price is $55. In this case, exercising the call option implies that the option holder will have to spend $55 to buy the underlying, but they can only get $50 if they decide to sell it in the open market.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-8-009",
+          "question_text": "Which condition will most likely increase the value of a call option?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "A decrease in volatility.",
+            "B": "A decrease in stock price.",
+            "C": "An increase in the risk-free rate."
+          },
+          "correct_answer": "C",
+          "explanation": "An increase in any/all of the risk-free rate, volatility, or the stock price will increase the value of a call option.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-8-010",
+          "question_text": "Which of the following options on assets that have cash flows during the term of the option will most likely have the greater price?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Fiduciary option.",
+            "B": "American option.",
+            "C": "European option."
+          },
+          "correct_answer": "B",
+          "explanation": "An American option is exercisable at any time before and on the expiration date. This increases its buying price when compared to an European option that is only exercisable on the expiration date.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-8-011",
+          "question_text": "Hailey Moore, a derivatives expert, made the following comments during a meeting with her fellow colleagues: Comment 1: “Call options are very lucrative investments since they offer the buyer unlimited gains and a limited loss potential.” Comment 2: “Selling a call option, without taking offsetting positions, is probably the worst investment strategy since it exposes the investor to unlimited losses.” Which of the following would most likely refute the aforementioned conclusions presented by Moore?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Frequently closing out positions.",
+            "B": "Changing frequencies with which gains and losses occur.",
+            "C": "Most options being deep-in-the-money or deep out-of-money."
+          },
+          "correct_answer": "B",
+          "explanation": "Changing the frequency with which gains and losses occur can significantly impact the perceived benefits and risks associated with call options, thus refuting Hailey Moore's conclusions. Moore's first comment highlights the lucrative aspect of buying call options due to their structure of offering unlimited gains while limiting losses to the premium paid. This characteristic indeed makes call options attractive to investors who are bullish on the underlying asset. However, the frequency of gains and losses plays a crucial role in determining the actual profitability of engaging in call options. If the underlying asset's price does not increase above the strike price frequently enough to cover the cost of the premiums for the options that expire worthless, the strategy may not be as lucrative as suggested.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-8-012",
+          "question_text": "The value of European call option is:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Inversely related to the exercise price and the value of the underlying.",
+            "B": "Directly related to the time to the expiration and the value of the underlying.",
+            "C": "Directly related to the exercise price and inversely related to the value of the"
+          },
+          "correct_answer": "B",
+          "explanation": "The value of a call option is directly related to the time to expiration. That means the call’s value increases as the time to expiration increases. Over a longer duration, there is a greater chance that the spot price will rise above the exercise price. The value of a call is also directly related to the value of the underlying. This means that the option’s value increases with an increase in the price of the underlying and vice versa. That’s because a call option is equivalent to buying the underlying. However, there is an inverse relationship between a call option’s value and its exercise price. As the exercise price increases, the call’s value decreases and vice versa. As the exercise increases, the chances of the call being in-the-money at expiration decrease because the underlying would have to show even more positive price movement.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-8-013",
+          "question_text": "James Porter is analyzing the following option contracts on a security with a current market price of $20 Which of the above option contracts is most likely to have the lowest premium?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Call A.",
+            "B": "Call B.",
+            "C": "Call C."
+          },
+          "correct_answer": "B",
+          "explanation": "Call option B has a higher exercise price and a lower time to expiration than option",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-8-014",
+          "question_text": "An American style put option on a bond expires in 80 days and has an exercise price of $0.90 per $1 of par. The bond is currently worth $1.20 per $1 par and makes no cash payments during the life of the option. The risk-free rate of interest is 3.5%, and the notional principal of the contract is $1,000. The bond is expected to be worth $1.40 per $1 par at option expiration. The highest and lowest possible prices (per $1 par value) for the put option are respectively closest to:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Highest price: $0.89; Lowest price: $0.20.",
+            "B": "Highest price: $0.90; Lowest price: $0.00.",
+            "C": "Highest price: $1.40; Lowest price: $1.20."
+          },
+          "correct_answer": "B",
+          "explanation": "The maximum value of an American put is the exercise price, $0.90 per 1 par value while the minimum value of any option is 0.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-8-015",
+          "question_text": "Which of the following conditions will make a long-term European put option worth more than an otherwise identical short-term put option?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "The volatility in the market is low.",
+            "B": "Interest rates are lower than they have ever been in the past.",
+            "C": "Interest rates are higher than they have ever been in the past."
+          },
+          "correct_answer": "B",
+          "explanation": "A long-term European put option will be worth a lot more than an otherwise identical short-term put option if interest rates are lower and volatility is higher. Since European options can only be exercised on their expiration date, a longer time to expiration suggests that the option holder will need to wait longer to receive money from the sale of the underlying. The lost interest will be a disadvantage of the additional time; lower interest rates will reduce this lost interest. Higher volatility will increase the chances that the underlying price will move in favor of the option holder.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-8-016",
+          "question_text": "An investor purchases a European put option that is deep in the money. Increasing the risk-free rate and time to expiration will have an effect on the value of the option, that is:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Neutral.",
+            "B": "Positive.",
+            "C": "Negative."
+          },
+          "correct_answer": "C",
+          "explanation": "Increasing the risk-free rate and time to expiration for a European put option that is deep in the money generally has a negative effect on the option's value. Recall that a put option that is deep in the money means that the strike price is significantly above the current market price of the underlying asset. An increase in the risk-free interest rate tends to decrease the value of a put option. This is because the risk-free rate is a component of the option pricing models, such as the Black-Scholes model. Higher risk-free rates increase the cost of carrying the underlying asset, as it becomes more expensive to hold the asset when the returns from risk-free investments are higher. This makes the put option less attractive, as the opportunity cost of holding the asset rather than investing in risk-free securities increases. Additionally, the present value of the option's payoff decreases as the risk-free rate rises because the future payoff is discounted back at a higher rate. Similarly, increasing the time to expiration can have a complex effect on the value of a deep-in- the-money put option. While longer time frames generally increase the value of options due to the higher uncertainty and potential for the underlying asset's price to move in a favorable direction, for deep in-the-money put options, this effect might be offset by the time value decay and the increased cost of carry. The net effect tends to be negative, as the benefits of having more time for the asset price to decrease further (which would be beneficial for a put option) are outweighed by the costs associated with holding the option for a longer period.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-8-017",
+          "question_text": "Consider two otherwise identical 3-month European call and put options on BBT Company's stock. Who will benefit most from an increase in carrying costs?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "The call option issuer.",
+            "B": "The put option holder.",
+            "C": "The call option holder."
+          },
+          "correct_answer": "C",
+          "explanation": "A call option holder will benefit from an increase in carrying costs. Holding the call option will enable the investor to participate in the movements of the underlying without having to incur these costs.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-8-018",
+          "question_text": "The value of a European put option will increase with higher:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Volatility.",
+            "B": "Carrying costs.",
+            "C": "Risk-free interest rates."
+          },
+          "correct_answer": "A",
+          "explanation": "Higher volatility will increase the value of a European put option because it increases the chances of the underlying price declining relative to the exercise price.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-8-019",
+          "question_text": "Which of the following is most likely true regarding a call option replication strategy only?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "At option contract inception, borrow at a risk-free rate and then utilize the proceeds to",
+            "B": "At option contract inception, lend an amount equal to the option’s exercise value at a",
+            "C": "The replication strategy requires adjustment over time depending on the likelihood of"
+          },
+          "correct_answer": "A",
+          "explanation": "Replication of a call option at the contract initiation involves borrowing at a risk-free rate, r, and then utilizing the proceeds to buy the underlying asset at a price of . At the expiration date , there exist two replication outcomes:",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-8-020",
+          "question_text": "Consider a one-year call option with an exercise price of $100 and a risk-free rate of 1.5%. If after six months, the spot price of the underlying is $105, the exercise value of the option after six months is closest to:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "$0",
+            "B": "$0.74",
+            "C": "$5.74"
+          },
+          "correct_answer": "C",
+          "explanation": "The exercise value of a call option is the value of an option contract at any time , and it is calculated as spot price ( ) minus the present value of the exercise price:",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-8-021",
+          "question_text": "A one-year put option has an exercise value of $99. After six months, the underlying spot price is $96, and the observable price of the put option is $4.5. Assuming the risk-free rate is 1%, the time value of the put option six months to maturity is closest to:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "$1.99",
+            "B": "$2.51",
+            "C": "$7.01"
+          },
+          "correct_answer": "A",
+          "explanation": "Denote the current price for a put option at any time by . The time value of an option is defined as the difference between the current option price and the option’s current payoff (or exercise value):",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-8-022",
+          "question_text": "A European call option on a non-dividend paying stock has 4 months to maturity. The exercise price of the option is $100, and the risk-free rate is 1.5%. .If the current underlying price is $105 and the current call option price is $6.5, the time value of the call option is closest to:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "$1.00",
+            "B": "$5.50",
+            "C": "$12.00"
+          },
+          "correct_answer": "A",
+          "explanation": "Denote the current price for a call option at any time by . The time value of an option is defined as the difference between the current option price and the option’s current payoff (or exercise value):",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-8-023",
+          "question_text": "Which of the following is most likely a consequence of a lower no-arbitrage bound at any time before maturity?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "A call option is exercisable if the underlying price exceeds the exercise price.",
+            "B": "A call option is exercisable if the underlying price is less than the exercise price.",
+            "C": "A call option buyer will not pay more than the underlying price for the right to buy the"
+          },
+          "correct_answer": "A",
+          "explanation": "A call option is exercisable if the underlying price exceeds the exercise price. That is . As such, the lower bound of a call price is the underlying price minus the present value of the exercise price or zero, whichever is greater. Put into the equation:",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-8-024",
+          "question_text": "Consider a one-year put option with an exercise price of USD 100 and a risk-free rate of 1%. If, after six months, the spot price of the underlying is USD 98.50, the no-arbitrage upper and lower bounds are closest to:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Lower bound = 0.51; Upper bound = $100.",
+            "B": "Lower bound = 1.00; Upper bound = $100.",
+            "C": "Lower bound = 0.51; Upper bound = $98.50."
+          },
+          "correct_answer": "B",
+          "explanation": "A call option buyer exercises a put option only if . As such, the upper bound on the put value is thus the exercise price. The lower bound is the present value of the exercise price minus the spot price or zero, whichever is greater:",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-8-025",
+          "question_text": "Which of the following factors most likely have the same effect on both the call and put options?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Increase in the risk-free rate.",
+            "B": "Decrease in exercise price.",
+            "C": "Increase in the volatility of the underlying price"
+          },
+          "correct_answer": "C",
+          "explanation": "An increase in volatility will increase the value of both call and put options. Higher volatility of the underlying asset increases the chances of a higher positive exercise value without affecting the downside case – the option expires worthless. For instance, as volatility increases, a broader possibility of underlying prices increases the time value of an option and the likelihood of being in the money.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        }
+      ]
+    },
+    {
+      "module_id": 9,
+      "module_name": "Option Replication Using Put-Call Parity",
+      "module_name_ru": "Репликация опционов",
+      "questions": [
+        {
+          "question_id": "DER-9-001",
+          "question_text": "In which of the following positions can an arbitrageur earn risk-free profits when the market is in contango?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Long forward contract and long underlying asset at the spot price.",
+            "B": "Short forward contract and long underlying asset at the spot price.",
+            "C": "Short forward contract and short underlying asset at the spot price."
+          },
+          "correct_answer": "B",
+          "explanation": "Contango is a situation where the futures price (or forward price) of a commodity is higher than the spot price. When the forward price is higher than the spot price, an arbitrageur can (I) borrow funds at the risk-free rate, (II) buy the underlying asset at the spot price, and (III) short the asset at the higher forward price. Example: Assume that the spot price of oil is $50 a barrel. The market would be said to be in contango if the futures price of oil two months from now is $55. In these circumstances, a trader could take the following actions: I. Borrow $50 at the risk-free rate. II. Buy oil today at $50 and sit on it for two months. III. Sell a futures contract for delivery two months out at $55. By locking in that profit at the higher price, and then sitting on the physical oil for a couple of months, a trader makes substantial gains.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-9-002",
+          "question_text": "Calculate the payoff of a fiduciary call option if the spot price is $45, the strike price is $37, and the payoff on the riskless bond is $37.",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "$8.",
+            "B": "$10.",
+            "C": "$45."
+          },
+          "correct_answer": "C",
+          "explanation": "A fiduciary call consists of a European call and a risk-free bond that matures on the option expiration date. If the option is in the money, then the payoff of the fiduciary call is",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-9-003",
+          "question_text": "Leslie Hower is a junior trader at a derivatives dealer firm. During her first week at the firm, Hower attempts to synthetically sell a risk-free bond using call and put options. She purchases call and put options with the same exercise price and time to maturity. She simultaneously buys the underlying. With respect to her attempts in creating a synthetic short position in a risk-free bond, Hower is most accurate regarding her decision to:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Purchase put options.",
+            "B": "Purchase call options.",
+            "C": "Buy the underlying short."
+          },
+          "correct_answer": "B",
+          "explanation": "Based on the rearranged put-call parity (see below), in order to synthetically short sell (issue) a risk-free bond, a call option should be purchased while short selling the underlying and a put option. Given the information in the question, Leslie Hower has purchased call and put options with the same exercise price and time to maturity and simultaneously bought the underlying asset. This creates a synthetic short position in a risk-free bond. According to put-call parity, the value of the call option and the put option should be equal. Therefore, the most accurate decision made by Hower is to purchase the call option, as this is consistent with creating a synthetic short position in a risk-free bond.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-9-004",
+          "question_text": "A synthetic long position in a riskless bond is most likely created by combining:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "A long position in a put, a long position in the underlying, and a short position in the",
+            "B": "A long position in a call, a long position in the underlying, and a short position in the",
+            "C": "A short position in a put, a short position in the underlying, and a long position in the"
+          },
+          "correct_answer": "A",
+          "explanation": "A synthetic long position in a riskless bond is created by combining a long position in a put, a long position in the underlying, and a short position in the call. Where: = Price of the call option = Price of the put option = Current price of the underlying asset = Strike price of the options = Risk-free interest rate = Time to maturity",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-9-005",
+          "question_text": "Which of the following combinations is most likely equivalent to going long a bond?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Investing in a put option, purchasing the underlying, and at the same time selling a",
+            "B": "Investing in a call option, selling the underlying, and at the same time purchasing a",
+            "C": "Investing in a put option and a call option on the same underlying while going short"
+          },
+          "correct_answer": "A",
+          "explanation": "A long bond is equivalent to going long a put, long the underlying, and short a call. We could use the put-call parity to work this problem out. . If we make the bond the subject: An addition sign before a variable implies that that variable has been purchased (trader has taken a long position), whereas a subtraction sign implies that the variable has been sold (trader has taken a short position). A long bond is, therefore, equal to long a put, long the underlying and short a call.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-9-006",
+          "question_text": "A European put option is selling for $4.00 with an underlying priced at $52. The exercise price is $50, and the underlying makes no cash payments during the life of the option. The risk- free rate is 6.0%, and the option expires in 120 days. A call with the same exercise price and expiry sells for $8.50. This put is most likely:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "overvalued by $0.33.",
+            "B": "undervalued by $1.55.",
+            "C": "undervalued by $0.58."
+          },
+          "correct_answer": "B",
+          "explanation": "Hence, the put is undervalued by $5.55 - $4 = $1.55.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-9-007",
+          "question_text": "A three-month call option with an exercise price of $55 is being sold for $8. A three- month Treasury bond is being sold in the marketplace with the same face value as the option's exercise price. The underlying is currently worth $60, and the risk-free rate is 4.30%. Assuming the put-call parity holds, a put option is being sold for:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "$0.73.",
+            "B": "$2.42.",
+            "C": "$12.34."
+          },
+          "correct_answer": "B",
+          "explanation": "",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-9-008",
+          "question_text": "Assume a two-year put on a stock of Lakeview Inc. has a price of $9 and an exercise price of $89. A forward contract expiring in two years has a forward price of $92. If the risk-free interest rate is 8%, the price of the call option using put-call forward parity is closest to:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "$10.57",
+            "B": "$11.57",
+            "C": "$15.00"
+          },
+          "correct_answer": "B",
+          "explanation": "Using the put-call forward parity Making the subject of the formula, we get: As such,",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-9-009",
+          "question_text": "Which of the following positions most likely has the same no-arbitrage value as the long put option?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Long underlying and short call option.",
+            "B": "Short put options, short underlying, and long risk-free bonds.",
+            "C": "Long risk-free bond, long call option, and short underlying."
+          },
+          "correct_answer": "C",
+          "explanation": "The put-call parity is given by: Making the subject we get: As such, long put positions can be represented with a long risk-free bond, long call option, and short underlying.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-9-010",
+          "question_text": "Which of the following most likely represent the no-arbitrage value of a fiduciary call position?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Long put, Long stock, Short bond.",
+            "B": "Long put, Long Stock.",
+            "C": "Short put, Short stock, Long bond."
+          },
+          "correct_answer": "B",
+          "explanation": "A fiduciary call combines a long call position and a long position in the risk-free bond. Essentially, it is the left-hand side of the put-call parity equation written as:",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-9-011",
+          "question_text": "Consider options and forward the contract expiring in 70 days. The exercise price of options is AUD 87, and the risk-free rate is 4.5%. If the call price is AUD 18.5 and the forward price is AUD 95, the put premium is closest to:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "AUD 8.95.",
+            "B": "AUD 10.57.",
+            "C": "AUD 11.34."
+          },
+          "correct_answer": "B",
+          "explanation": "Using the put-call forward parity Making the subject of the formula, we get: As such, is incorrect. The calculation for a put premium of AUD 8.95 does not align with the put-call parity for forward contracts. The put-call parity relationship provides a direct method to calculate the put premium based on the call premium, the exercise price, the risk-free rate, the time to expiration, and the forward price, which leads to a different result.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-9-012",
+          "question_text": "Tanya Glen is an investor who wants to take a position in a six-month forward contract. The put price value exceeds the call value by $12, with both having the exercise price of $90, and the risk-free rate is 6%. Assuming that options expire in six months, the forward price is most likely:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "less than the exercise price.",
+            "B": "more than the exercise price.",
+            "C": "not known due to the lack of sufficient information."
+          },
+          "correct_answer": "A",
+          "explanation": "Recall the put-call forward parity: We can rearrange the above equation as follows: Intuitively, if the left side of the equation is positive , then . Since, then, it is true that .",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        }
+      ]
+    },
+    {
+      "module_id": 10,
+      "module_name": "Valuing a Derivative Using a One-Period Binomial Model",
+      "module_name_ru": "Биномиальная модель",
+      "questions": [
+        {
+          "question_id": "DER-10-001",
+          "question_text": "Consider a call option on a stock price that is currently at $50. The exercise price of the option is $52, and the risk-free rate is 5%. If the stock price can rise by 20% or fall by 25%, the value of the option using the one-period binomial model is closest to:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "0.67.",
+            "B": "2.11.",
+            "C": "5.10."
+          },
+          "correct_answer": "C",
+          "explanation": "Consider the following one-period binomial model; Using the binomial model, the value of the call option is given by: where CFA Level I, Derivatives, Learning Module 10: Valuing a Derivative Using a One-Period Binomial Model. LOS (a): Explain how to value a derivative using a one-period binomial model. A. 0.67. B. 2.11. C. 5.10. u = 1.2 S + 1 = S0u = 50 × 1.2 = 60c+ 1 = max (0, S + 1 −X) = 60 −52 = 8 S0 = $50, c0 =? ↗ ↘ d = 0.75 S − 1 = S0d = 50 × 0.75 = 37.5c− 1 = max (0, S − 1 −X) = 0 c0 = [πc+ 1 + (1 −π)c− 1 ] 1 + r π = = = 0.67 1+r−d u−d 1.05−0.75 1.2−0.75 c0 = = $5.10 0.67 × 8 + 0.33 × 0 1.05 © 2014-2024 AnalystPrep. 146",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-10-002",
+          "question_text": "An analyst is considering buying a one-year call option on a non-dividend-paying stock with an exercise price of $100. The current stock price is $95. The stock price is expected to go up or down by 18% in one year. Assume a risk-free rate of return is 4%. The number of units that the analyst needs to buy to create a risk-free portfolio is closest to:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {},
+          "correct_answer": "A",
+          "explanation": "This question requires us to calculate the hedge ratio. Denote the initial stock price by and consider the following diagram: The hedge ratio is given by: Therefore, to create a risk-free portfolio, the analyst can buy a put option and 0.35 units of the underlying assets (or for each purchased unit of the underlying asset, we buy 2.9 units). CFA Level I, Derivatives, Learning Module 10: Valuing a Derivative Using a One-Period Binomial Model. LOS (a): Explain how to value a derivative using a one-period binomial model.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-10-003",
+          "question_text": "Consider a one-year put option on a non-dividend paying stock with an exercise price of $50. The current stock price is $47. The stock price is expected to go up or down by 25%. The A. 0.35 B. 0.45 C. 2.90 R u = 1.18 S u1 = S0Ru = $95 × 1.18 = $112.10 cu1 = max(0, S u1 −X) $112.10 −$100 = $12.10 S0 = $95 c0 =? ↗ ↘ Rd = 0.82 S d 1 = S0Rd = $95 × 0.82 = $77.90 cd 1 = max(0,77.90 −100) = $0 h = = = 0.353 cu 1 −cd 1 Su 1 −S d 1 12.10 −0 112.10 −77.90 © 2014-2024 AnalystPrep. 147 value of the hedged portfolio today, if the risk-free rate of return is 4%, is closest to:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "0.35",
+            "B": "0.45",
+            "C": "2.90"
+          },
+          "correct_answer": "B",
+          "explanation": "Let the initial price be and the exercise price by . Therefore, when the stock price goes up, we have: And when the stock price goes down, we have: Consequently, And The hedge ratio of the option is: At maturity, the value of a perfectly hedged portfolio is either, or You can either use the or to calculate the present value of the hedged position today as: A. $5.96 B. $35.46 C. $38.66 S0 = 47 X = 50 S u 1 = S0Ru = $47 × 1.25 = $58.75 S d 1 = S0Rd = $47 × 0.75 = $35.25 pu 1 = max (0, X −Su 1) = max (50 −58.5) = 0 pd 1 = max (0, X −Sd 1) = max (50−35.25) = 14.75 h = = = −0.6277 pu1 −pd 1 S u 1 −S d 1 0 −14.75 58.75 −35.25 V u 1 = hSu 1 + pu 1 = 0.6277 × 58.75 + 0 = $36.88 V d 1 = hSd 1 + pd 1 = 0.6277 × 35.25 + 14.75 = $36.88 V u 1 V d 1 © 2014-2024 AnalystPrep. 148",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-10-004",
+          "question_text": "Which of the following is most likely true regarding the price of a call option if the up gross return is increased in a one-period binomial model? The price of a call option will:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "increase",
+            "B": "decrease",
+            "C": "remain the same"
+          },
+          "correct_answer": "A",
+          "explanation": "In a one-period binomial model, if the up gross return is increased, it is more likely that the stock price will increase in the future, making the call option more valuable. Recall that in a one-period binomial model is that at maturity, an asset's spot price, S_o, can either increase to , or decrease to . As a result, the call option price is expected to increase. The gross return, when the asset price increases, will be , and when the asset price decreases, the gross return will be . After one year, the option expires. At this time, the value of the option will either be if the underlying price rises to or if the underlying price falls to . Clearly, the call option price is expected to increase if the upward gross return increases. CFA Level I, Derivatives, Learning Module 10: Valuing a Derivative Using a One-Period Binomial Model. LOS (a): Explain how to value a derivative using a one-period binomial model. A. increase B. decrease C. remain the same Su 1 Sd 1 Ru = , > 1 S u 1 S0 Rd = < 1 Sd 1 S0 Prob = q S u 1 = S0Ru S0 ↗ ↘ Prob = 1−q S d 1 = S0Rd cu 1 = max(0, S u 1 −X) = S u 1 −X S u 1 cd 1 = max(0, S u 1 −X) = 0 S d 1 © 2014-2024 AnalystPrep. 150",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-10-005",
+          "question_text": "Consider a one-year call option on a non-dividend stock. The current stoke price is $70. The value of the perfectly hedged portfolio (combination of call option and underlying asset) after one year is $16.50. If the hedge ratio is 0.65 and the risk-free rate is 1.5%, the no-arbitrage price of the call option is closest to:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "$16.26",
+            "B": "$29.24",
+            "C": "$45.50"
+          },
+          "correct_answer": "B",
+          "explanation": "Recall that the no-arbitrage price of a call option is given by: Where = non-arbitrage call option price. = Initial stock price = Present value of the hedged position. As such, we have:",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-10-006",
+          "question_text": "Rose Associates is holding non-dividend stocks of Xerox limited. The stock's current value is USD 100, and in one year, the price can go up by 11% or down by 8%. The current risk-free rate is 3 percent, and the exercise price is USD 99. The risk-neutral probability of an up-move and down-move for a 1-year European call option on the stock is closest to:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Up-move = 0.58; Down-move = 0.42",
+            "B": "Up-move = 0.11; Down-move = 0.89",
+            "C": "Up-move = 0.68; Down-move = 0.32"
+          },
+          "correct_answer": "A",
+          "explanation": "Risk neutral probability of an upward move is given by: Where, = gross return when the asset price decreases. = gross return when the asset price increases = risk-free rate. Therefore, the risk-neutral probability of the up-move is This implies that the risk-neutral probability of a down-move is: CFA Level I, Derivatives, Learning Module 10: Valuing a Derivative Using a One-Period Binomial Model. LOS (b): Describe the concept of risk neutrality in derivatives pricing.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-10-007",
+          "question_text": "Which of the following best describes the idea behind the risk-neutral pricing formula in the one-period binomial model? The option price is equal to the:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Discounted value of the perfectly hedged position at maturity.",
+            "B": "Expected value using the real-world probabilities discounted at a risk-free rate.",
+            "C": "Expected value using the risk-neutral probabilities discounted at a risk-free rate."
+          },
+          "correct_answer": "C",
+          "explanation": "Recall that the value of a call option is the discounted expected value at expiration at the risk- free rate, as summarized in the equation below. Similarly, the value of the put option is given by: Clearly, the risk-neutral price of an option is the risk-neutral expected payoff discounted at the risk-free rate of interest.",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        },
+        {
+          "question_id": "DER-10-008",
+          "question_text": "John Crewe is an analyst at Predict Inc. Some of Crewe's clients have significant non- dividend holdings at Finlay, a tea processing company in Kenya. Crewe anticipates Finlays' stock price will rise next year and advises his clients to buy one-year call options at an exercise price of $80. Finlay's spot price is $80, and the risk-free interest is 0.45%. Crewe estimates that there is an equal chance that the stock price will rise or fall by 10%. The risk-neutral price of the option is closest to:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "$4.16.",
+            "B": "$4.78",
+            "C": "$8.00."
+          },
+          "correct_answer": "A",
+          "explanation": "If Finlay's stock price rise by 10%, then: And The risk-neutral probability of upward movement is given by: Thus, the risk-neutral pricing is, therefore,",
+          "explanation_wrong": {},
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": null
+        }
+      ]
+    }
+  ]
+}
