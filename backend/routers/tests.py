@@ -14,11 +14,9 @@ from datetime import datetime
 from ..database import get_db
 from ..models import User, TestResult, UserProgress, UserError
 from ..schemas import (
-    TestResultCreate,
     TestResultResponse,
     TestHistoryResponse,
     QuestionResponse,
-    TestStartRequest,
     TestSubmitRequest
 )
 from ..auth import get_current_user
