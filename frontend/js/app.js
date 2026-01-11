@@ -878,13 +878,21 @@ function displayGlossary(terms) {
     container.innerHTML = terms.map(term => `
         <div class="glossary-item">
             <div class="term-name">${term.term_en}</div>
-            ${term.term_ru ? `<div class="text-muted">${term.term_ru}</div>` : ''}
+            ${term.term_ru ? `<div class="term-name-ru">${term.term_ru}</div>` : ''}
             <div class="term-definition">${term.definition_en}</div>
-            ${term.formula ? `<div class="term-formula">${term.formula}</div>` : ''}
+            ${term.definition_ru ? `<div class="term-definition-ru">${term.definition_ru}</div>` : ''}
+            ${term.formula ? `<div class="term-formula">\\(${term.formula.replace(/^\$|\$$/g, '')}\\)</div>` : ''}
         </div>
     `).join('');
 
-    if (window.MathJax) MathJax.typeset();
+    // MathJax render with retry for async loading
+    if (window.MathJax && MathJax.typesetPromise) {
+        MathJax.typesetPromise([container]).catch(err => console.log('MathJax error:', err));
+    } else {
+        setTimeout(() => {
+            if (window.MathJax) MathJax.typeset([container]);
+        }, 500);
+    }
 }
 
 function searchGlossary() {
