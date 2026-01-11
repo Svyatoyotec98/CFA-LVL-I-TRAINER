@@ -1,0 +1,106 @@
+{
+  "book_id": 1,
+  "book_name": "Quantitative Methods",
+  "terms": [
+    {
+      "term_id": "T-QM-001",
+      "term_en": "Holding Period Return (HPR)",
+      "term_ru": "Доходность за период владения",
+      "definition_en": "The return earned from holding an asset for a specified period, including both price appreciation and income such as dividends.",
+      "definition_ru": "Доходность от владения активом за определённый период, включая прирост цены и доход (дивиденды).",
+      "formula": "$HPR = \\frac{P_1 - P_0 + D}{P_0}$",
+      "module_id": 1,
+      "related_los": ["LOS 1.a"]
+    },
+    {
+      "term_id": "T-QM-002",
+      "term_en": "Effective Annual Rate (EAR)",
+      "term_ru": "Эффективная годовая ставка",
+      "definition_en": "The annual rate of return that accounts for the effect of compounding. It is the actual return earned when interest is compounded more than once per year.",
+      "definition_ru": "Годовая ставка доходности с учётом эффекта сложных процентов. Фактическая доходность при начислении процентов чаще раза в год.",
+      "formula": "$EAR = (1 + \\frac{r}{m})^m - 1$",
+      "module_id": 1,
+      "related_los": ["LOS 1.c"]
+    },
+    {
+      "term_id": "T-QM-003",
+      "term_en": "Present Value (PV)",
+      "term_ru": "Приведённая (текущая) стоимость",
+      "definition_en": "The current worth of a future sum of money or stream of cash flows given a specified rate of return.",
+      "definition_ru": "Текущая стоимость будущей суммы денег или потока платежей при заданной ставке доходности.",
+      "formula": "$PV = \\frac{FV}{(1+r)^n}$",
+      "module_id": 2,
+      "related_los": ["LOS 2.a"]
+    },
+    {
+      "term_id": "T-QM-004",
+      "term_en": "Future Value (FV)",
+      "term_ru": "Будущая стоимость",
+      "definition_en": "The value of an asset or cash at a specified date in the future that is equivalent in value to a specified sum today.",
+      "definition_ru": "Стоимость актива или денежных средств на определённую дату в будущем, эквивалентная заданной сумме сегодня.",
+      "formula": "$FV = PV \\times (1+r)^n$",
+      "module_id": 2,
+      "related_los": ["LOS 2.a"]
+    },
+    {
+      "term_id": "T-QM-005",
+      "term_en": "Annuity",
+      "term_ru": "Аннуитет",
+      "definition_en": "A series of equal cash flows occurring at fixed intervals over a specified period. Ordinary annuity has payments at end of periods; annuity due has payments at beginning.",
+      "definition_ru": "Серия равных платежей через фиксированные интервалы в течение определённого периода.",
+      "formula": "$PV_{annuity} = PMT \\times \\frac{1 - (1+r)^{-n}}{r}$",
+      "module_id": 2,
+      "related_los": ["LOS 2.b"]
+    },
+    {
+      "term_id": "T-QM-006",
+      "term_en": "Perpetuity",
+      "term_ru": "Перпетуитет (бессрочная рента)",
+      "definition_en": "A constant stream of identical cash flows with no end. The present value formula is simplified as PMT divided by the discount rate.",
+      "definition_ru": "Постоянный поток одинаковых платежей без окончания.",
+      "formula": "$PV_{perpetuity} = \\frac{PMT}{r}$",
+      "module_id": 2,
+      "related_los": ["LOS 2.c"]
+    },
+    {
+      "term_id": "T-QM-007",
+      "term_en": "Arithmetic Mean",
+      "term_ru": "Среднее арифметическое",
+      "definition_en": "The sum of all values divided by the number of values. Most commonly used measure of central tendency.",
+      "definition_ru": "Сумма всех значений, делённая на их количество. Наиболее часто используемая мера центральной тенденции.",
+      "formula": "$\\bar{x} = \\frac{\\sum x_i}{n}$",
+      "module_id": 3,
+      "related_los": ["LOS 3.a"]
+    },
+    {
+      "term_id": "T-QM-008",
+      "term_en": "Standard Deviation",
+      "term_ru": "Стандартное отклонение",
+      "definition_en": "A measure of the dispersion of a dataset. It is the square root of the variance and indicates how spread out the values are from the mean.",
+      "definition_ru": "Мера разброса данных. Квадратный корень из дисперсии, показывает насколько значения отклоняются от среднего.",
+      "formula": "$\\sigma = \\sqrt{\\frac{\\sum(x_i - \\bar{x})^2}{n}}$",
+      "module_id": 3,
+      "related_los": ["LOS 3.b"]
+    },
+    {
+      "term_id": "T-QM-009",
+      "term_en": "Coefficient of Variation (CV)",
+      "term_ru": "Коэффициент вариации",
+      "definition_en": "A standardized measure of dispersion calculated as the ratio of standard deviation to the mean. Used to compare volatility across different datasets.",
+      "definition_ru": "Стандартизированная мера разброса, отношение стандартного отклонения к среднему. Используется для сравнения волатильности разных наборов данных.",
+      "formula": "$CV = \\frac{\\sigma}{\\bar{x}}$",
+      "module_id": 3,
+      "related_los": ["LOS 3.c"]
+    },
+    {
+      "term_id": "T-QM-010",
+      "term_en": "Skewness",
+      "term_ru": "Асимметрия (скошенность)",
+      "definition_en": "A measure of the asymmetry of a probability distribution. Positive skewness indicates a long right tail; negative skewness indicates a long left tail.",
+      "definition_ru": "Мера асимметрии распределения вероятностей. Положительная асимметрия - длинный правый хвост; отрицательная - длинный левый хвост.",
+      "formula": null,
+      "module_id": 3,
+      "related_los": ["LOS 3.e"]
+    }
+  ]
+}

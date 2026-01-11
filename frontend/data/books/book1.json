@@ -1,0 +1,412 @@
+{
+  "book_id": 1,
+  "book_name": "Quantitative Methods",
+  "book_name_ru": "Количественные методы",
+  "total_questions": 25,
+  "learning_modules": [
+    {
+      "module_id": 1,
+      "module_name": "Rates and Returns",
+      "module_name_ru": "Ставки и доходности",
+      "questions": [
+        {
+          "question_id": "QM-1-001",
+          "question_text": "An investor purchases a stock for $50 and sells it one year later for $55, receiving a $2 dividend. The holding period return is closest to:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "10.0%",
+            "B": "12.0%",
+            "C": "14.0%"
+          },
+          "correct_answer": "C",
+          "explanation": "HPR = (Ending Price - Beginning Price + Dividend) / Beginning Price = ($55 - $50 + $2) / $50 = $7 / $50 = 14%",
+          "explanation_wrong": {
+            "A": "This answer ignores the dividend payment. The calculation only considers capital gain: ($55 - $50) / $50 = 10%",
+            "B": "This answer uses incorrect formula. It may have calculated ($55 - $50 + $1) / $50 = 12%"
+          },
+          "calculator_steps": null,
+          "difficulty": "easy",
+          "los_reference": "LOS 1.a"
+        },
+        {
+          "question_id": "QM-1-002",
+          "question_text": "Calculate the future value of $10,000 invested for 5 years at 8% annual interest, compounded quarterly.",
+          "question_text_formula": "$FV = PV \\times (1 + \\frac{r}{m})^{m \\times n}$",
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "$14,693.28",
+            "B": "$14,859.47",
+            "C": "$14,918.25"
+          },
+          "correct_answer": "B",
+          "explanation": "FV = $10,000 × (1 + 0.08/4)^(4×5) = $10,000 × (1.02)^20 = $10,000 × 1.485947 = $14,859.47",
+          "explanation_wrong": {
+            "A": "This uses simple interest or incorrect compounding",
+            "C": "This uses monthly compounding instead of quarterly"
+          },
+          "calculator_steps": [
+            "2ND [CLR TVM]",
+            "10000 [+/-] [PV]",
+            "8 [I/Y]",
+            "5 [2ND] [xP/Y] [N]",
+            "4 [2ND] [P/Y] [ENTER]",
+            "[CPT] [FV]"
+          ],
+          "difficulty": "medium",
+          "los_reference": "LOS 1.b"
+        },
+        {
+          "question_id": "QM-1-003",
+          "question_text": "A bond has a stated annual rate of 6% compounded monthly. The effective annual rate (EAR) is closest to:",
+          "question_text_formula": "$EAR = (1 + \\frac{r}{m})^m - 1$",
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "6.00%",
+            "B": "6.17%",
+            "C": "6.09%"
+          },
+          "correct_answer": "B",
+          "explanation": "EAR = (1 + 0.06/12)^12 - 1 = (1.005)^12 - 1 = 1.0617 - 1 = 6.17%",
+          "explanation_wrong": {
+            "A": "This is the stated (nominal) rate, not the effective rate",
+            "C": "This may have used semi-annual compounding instead of monthly"
+          },
+          "calculator_steps": [
+            "2ND [ICONV]",
+            "6 [ENTER]",
+            "↓ 12 [ENTER]",
+            "↓ [CPT]"
+          ],
+          "difficulty": "medium",
+          "los_reference": "LOS 1.c"
+        },
+        {
+          "question_id": "QM-1-004",
+          "question_text": "An investment of $1,000 grows to $1,500 over 3 years. The compound annual growth rate (CAGR) is closest to:",
+          "question_text_formula": "$CAGR = (\\frac{FV}{PV})^{\\frac{1}{n}} - 1$",
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "14.47%",
+            "B": "16.67%",
+            "C": "50.00%"
+          },
+          "correct_answer": "A",
+          "explanation": "CAGR = (1500/1000)^(1/3) - 1 = (1.5)^0.333 - 1 = 1.1447 - 1 = 14.47%",
+          "explanation_wrong": {
+            "B": "This is the simple average annual return: (500/1000)/3 = 16.67%",
+            "C": "This is the total return, not the annualized rate"
+          },
+          "calculator_steps": [
+            "2ND [CLR TVM]",
+            "1000 [+/-] [PV]",
+            "1500 [FV]",
+            "3 [N]",
+            "[CPT] [I/Y]"
+          ],
+          "difficulty": "medium",
+          "los_reference": "LOS 1.a"
+        },
+        {
+          "question_id": "QM-1-005",
+          "question_text": "An investor has returns of -10%, +20%, and +15% over three years. The geometric mean return is closest to:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "7.36%",
+            "B": "8.33%",
+            "C": "7.83%"
+          },
+          "correct_answer": "A",
+          "explanation": "Geometric mean = [(1-0.10)(1+0.20)(1+0.15)]^(1/3) - 1 = [(0.90)(1.20)(1.15)]^0.333 - 1 = (1.242)^0.333 - 1 = 7.36%",
+          "explanation_wrong": {
+            "B": "This is the arithmetic mean: (-10% + 20% + 15%) / 3 = 8.33%",
+            "C": "This is an incorrect calculation of the geometric mean"
+          },
+          "calculator_steps": null,
+          "difficulty": "medium",
+          "los_reference": "LOS 1.a"
+        }
+      ]
+    },
+    {
+      "module_id": 2,
+      "module_name": "Time Value of Money",
+      "module_name_ru": "Временная стоимость денег",
+      "questions": [
+        {
+          "question_id": "QM-2-001",
+          "question_text": "What is the present value of $5,000 to be received in 3 years if the discount rate is 10% annually?",
+          "question_text_formula": "$PV = \\frac{FV}{(1+r)^n}$",
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "$3,756.57",
+            "B": "$3,757.00",
+            "C": "$4,545.45"
+          },
+          "correct_answer": "A",
+          "explanation": "PV = $5,000 / (1.10)^3 = $5,000 / 1.331 = $3,756.57",
+          "explanation_wrong": {
+            "B": "Close but rounded incorrectly",
+            "C": "This uses only 1 year of discounting: $5,000 / 1.10 = $4,545.45"
+          },
+          "calculator_steps": [
+            "2ND [CLR TVM]",
+            "5000 [FV]",
+            "3 [N]",
+            "10 [I/Y]",
+            "[CPT] [PV]"
+          ],
+          "difficulty": "easy",
+          "los_reference": "LOS 2.a"
+        },
+        {
+          "question_id": "QM-2-002",
+          "question_text": "An annuity pays $1,000 per year for 5 years. If the discount rate is 8%, the present value of this ordinary annuity is closest to:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "$3,993",
+            "B": "$4,312",
+            "C": "$5,000"
+          },
+          "correct_answer": "A",
+          "explanation": "PV = $1,000 × [(1 - (1.08)^-5) / 0.08] = $1,000 × 3.9927 = $3,993",
+          "explanation_wrong": {
+            "B": "This is the present value of an annuity due (payments at beginning)",
+            "C": "This ignores the time value of money"
+          },
+          "calculator_steps": [
+            "2ND [CLR TVM]",
+            "1000 [PMT]",
+            "5 [N]",
+            "8 [I/Y]",
+            "[CPT] [PV]"
+          ],
+          "difficulty": "medium",
+          "los_reference": "LOS 2.b"
+        },
+        {
+          "question_id": "QM-2-003",
+          "question_text": "A perpetuity pays $500 annually. If the required rate of return is 10%, what is the present value?",
+          "question_text_formula": "$PV_{perpetuity} = \\frac{PMT}{r}$",
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "$5,000",
+            "B": "$500",
+            "C": "$50,000"
+          },
+          "correct_answer": "A",
+          "explanation": "PV = PMT / r = $500 / 0.10 = $5,000",
+          "explanation_wrong": {
+            "B": "This is just the annual payment, not the present value",
+            "C": "This incorrectly divides by 0.01 instead of 0.10"
+          },
+          "calculator_steps": null,
+          "difficulty": "easy",
+          "los_reference": "LOS 2.c"
+        },
+        {
+          "question_id": "QM-2-004",
+          "question_text": "You want to have $100,000 in 20 years. If you can earn 7% annually, how much must you invest today?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "$25,842",
+            "B": "$26,000",
+            "C": "$50,000"
+          },
+          "correct_answer": "A",
+          "explanation": "PV = FV / (1+r)^n = $100,000 / (1.07)^20 = $100,000 / 3.8697 = $25,842",
+          "explanation_wrong": {
+            "B": "Rounded incorrectly",
+            "C": "Uses simple interest calculation"
+          },
+          "calculator_steps": [
+            "2ND [CLR TVM]",
+            "100000 [FV]",
+            "20 [N]",
+            "7 [I/Y]",
+            "[CPT] [PV]"
+          ],
+          "difficulty": "easy",
+          "los_reference": "LOS 2.a"
+        },
+        {
+          "question_id": "QM-2-005",
+          "question_text": "A loan of $200,000 is to be repaid in 30 years with monthly payments at 6% annual interest. The monthly payment is closest to:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "$1,199",
+            "B": "$1,111",
+            "C": "$667"
+          },
+          "correct_answer": "A",
+          "explanation": "Monthly rate = 6%/12 = 0.5%, N = 360 months. PMT = $200,000 × [0.005 / (1 - (1.005)^-360)] = $1,199",
+          "explanation_wrong": {
+            "B": "Incorrect calculation of the payment",
+            "C": "This is simple interest: $200,000 × 0.06 / 12 = $1,000 for interest only"
+          },
+          "calculator_steps": [
+            "2ND [CLR TVM]",
+            "200000 [+/-] [PV]",
+            "0 [FV]",
+            "6 [I/Y]",
+            "2ND [P/Y] 12 [ENTER]",
+            "30 [2ND] [xP/Y] [N]",
+            "[CPT] [PMT]"
+          ],
+          "difficulty": "hard",
+          "los_reference": "LOS 2.b"
+        }
+      ]
+    },
+    {
+      "module_id": 3,
+      "module_name": "Statistical Concepts",
+      "module_name_ru": "Статистические концепции",
+      "questions": [
+        {
+          "question_id": "QM-3-001",
+          "question_text": "The returns for a stock over five years are: 5%, -3%, 10%, 7%, and 6%. The arithmetic mean return is:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "5.0%",
+            "B": "5.5%",
+            "C": "4.8%"
+          },
+          "correct_answer": "A",
+          "explanation": "Arithmetic mean = (5% + (-3%) + 10% + 7% + 6%) / 5 = 25% / 5 = 5.0%",
+          "explanation_wrong": {
+            "B": "Incorrect sum or division",
+            "C": "This might be the geometric mean"
+          },
+          "calculator_steps": null,
+          "difficulty": "easy",
+          "los_reference": "LOS 3.a"
+        },
+        {
+          "question_id": "QM-3-002",
+          "question_text": "For a dataset with values 2, 4, 6, 8, 10, the standard deviation is closest to:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "2.83",
+            "B": "3.16",
+            "C": "8.00"
+          },
+          "correct_answer": "B",
+          "explanation": "Mean = 6. Variance = [(2-6)² + (4-6)² + (6-6)² + (8-6)² + (10-6)²] / 5 = 40/5 = 8. SD = √8 = 2.83 (population) or √(40/4) = 3.16 (sample)",
+          "explanation_wrong": {
+            "A": "This is the population standard deviation",
+            "C": "This is the variance, not the standard deviation"
+          },
+          "calculator_steps": [
+            "2ND [DATA]",
+            "2ND [CLR WORK]",
+            "2 [ENTER] ↓↓",
+            "4 [ENTER] ↓↓",
+            "6 [ENTER] ↓↓",
+            "8 [ENTER] ↓↓",
+            "10 [ENTER]",
+            "2ND [STAT] ↓↓ (Sx)"
+          ],
+          "difficulty": "medium",
+          "los_reference": "LOS 3.b"
+        },
+        {
+          "question_id": "QM-3-003",
+          "question_text": "A portfolio has an expected return of 12% and a standard deviation of 20%. The coefficient of variation is:",
+          "question_text_formula": "$CV = \\frac{\\sigma}{\\bar{x}}$",
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "0.60",
+            "B": "1.67",
+            "C": "0.40"
+          },
+          "correct_answer": "B",
+          "explanation": "CV = Standard Deviation / Mean = 20% / 12% = 1.67",
+          "explanation_wrong": {
+            "A": "This is Mean / SD, the inverse of CV",
+            "C": "Incorrect calculation"
+          },
+          "calculator_steps": null,
+          "difficulty": "easy",
+          "los_reference": "LOS 3.c"
+        },
+        {
+          "question_id": "QM-3-004",
+          "question_text": "In a normal distribution, approximately what percentage of observations fall within two standard deviations of the mean?",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "68%",
+            "B": "95%",
+            "C": "99%"
+          },
+          "correct_answer": "B",
+          "explanation": "The 68-95-99.7 rule states that approximately 95% of observations fall within ±2 standard deviations.",
+          "explanation_wrong": {
+            "A": "This is for ±1 standard deviation",
+            "C": "This is approximately for ±3 standard deviations"
+          },
+          "calculator_steps": null,
+          "difficulty": "easy",
+          "los_reference": "LOS 3.d"
+        },
+        {
+          "question_id": "QM-3-005",
+          "question_text": "A distribution has a skewness of -0.8. This indicates that the distribution:",
+          "question_text_formula": null,
+          "has_table": false,
+          "has_image": false,
+          "image_path": null,
+          "options": {
+            "A": "Has a longer right tail",
+            "B": "Has a longer left tail",
+            "C": "Is perfectly symmetric"
+          },
+          "correct_answer": "B",
+          "explanation": "Negative skewness indicates a longer left tail. The mass of the distribution is concentrated on the right with the tail extending to the left.",
+          "explanation_wrong": {
+            "A": "This describes positive skewness",
+            "C": "A symmetric distribution has skewness of zero"
+          },
+          "calculator_steps": null,
+          "difficulty": "easy",
+          "los_reference": "LOS 3.e"
+        }
+      ]
+    }
+  ]
+}

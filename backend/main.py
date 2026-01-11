@@ -9,7 +9,7 @@ from contextlib import asynccontextmanager
 import os
 
 from .database import init_db
-from .routers import users
+from .routers import users, progress, tests, errors, glossary, calculator
 
 
 @asynccontextmanager
@@ -50,13 +50,11 @@ app.add_middleware(
 
 # Include routers
 app.include_router(users.router)
-
-# Future routers (will be added later):
-# app.include_router(progress.router)
-# app.include_router(tests.router)
-# app.include_router(errors.router)
-# app.include_router(glossary.router)
-# app.include_router(calculator.router)
+app.include_router(progress.router)
+app.include_router(tests.router)
+app.include_router(errors.router)
+app.include_router(glossary.router)
+app.include_router(calculator.router)
 
 
 @app.get("/")

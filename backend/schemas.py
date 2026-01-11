@@ -50,13 +50,18 @@ class ProgressBase(BaseModel):
     module_id: int
 
 
-class ProgressUpdate(ProgressBase):
+class UserProgressCreate(ProgressBase):
     questions_seen: int
     questions_correct: int
 
 
-class ProgressResponse(ProgressBase):
+class UserProgressUpdate(ProgressBase):
+    is_correct: bool
+
+
+class UserProgressResponse(ProgressBase):
     id: int
+    user_id: int
     questions_seen: int
     questions_correct: int
     mastery_percent: float
@@ -69,28 +74,54 @@ class ProgressResponse(ProgressBase):
 
 class BookProgressResponse(BaseModel):
     book_id: int
-    book_name: str
-    total_modules: int
-    completed_modules: int
+    user_id: int
+    modules: List[Any]
+    total_questions_seen: int
+    total_questions_correct: int
+    book_mastery: float
+
+
+class OverallProgressResponse(BaseModel):
+    user_id: int
+    total_questions_seen: int
+    total_questions_correct: int
     overall_mastery: float
-    modules: List[ProgressResponse]
+    books_started: int
+    books_progress: List[Dict[str, Any]]
 
 
 # ============== Test Schemas ==============
 
-class QuestionAnswer(BaseModel):
+class QuestionResponse(BaseModel):
     question_id: str
-    user_answer: str  # "A", "B", or "C"
-    time_spent: int  # seconds
+    question_text: str
+    question_text_formula: Optional[str] = None
+    has_table: bool = False
+    has_image: bool = False
+    image_path: Optional[str] = None
+    options: Dict[str, str]
+    correct_answer: str
+    explanation: str
+    explanation_wrong: Optional[Dict[str, str]] = None
+    calculator_steps: Optional[List[str]] = None
+    difficulty: Optional[str] = None
+    los_reference: Optional[str] = None
 
 
-class TestSubmit(BaseModel):
-    test_type: str = Field(..., pattern="^(module|book|mock_exam)$")
-    test_mode: str = Field(..., pattern="^(standard|90_second)$")
+class TestStartRequest(BaseModel):
+    test_type: str
+    test_mode: str
     book_id: Optional[int] = None
     module_id: Optional[int] = None
-    answers: List[QuestionAnswer]
-    total_time_seconds: int
+
+
+class TestSubmitRequest(BaseModel):
+    test_type: str
+    test_mode: str
+    book_id: Optional[int] = None
+    module_id: Optional[int] = None
+    time_spent_seconds: int
+    question_details: List[Dict[str, Any]]
 
 
 class TestResultResponse(BaseModel):
@@ -111,9 +142,19 @@ class TestResultResponse(BaseModel):
 
 
 class TestHistoryResponse(BaseModel):
-    total_tests: int
-    average_score: float
-    results: List[TestResultResponse]
+    id: int
+    test_type: str
+    test_mode: str
+    book_id: Optional[int]
+    module_id: Optional[int]
+    total_questions: int
+    correct_answers: int
+    score_percent: float
+    time_spent_seconds: int
+    created_at: datetime
+
+    class Config:
+        from_attributes = True
 
 
 # ============== Error/Review Schemas ==============
@@ -141,7 +182,7 @@ class ReviewQuestionResponse(BaseModel):
     question_data: Optional[Dict[str, Any]] = None
 
 
-class MarkReviewedRequest(BaseModel):
+class ErrorReviewRequest(BaseModel):
     question_id: str
     was_correct: bool
 
@@ -167,39 +208,32 @@ class GlossaryBookResponse(BaseModel):
 
 # ============== Calculator Schemas ==============
 
-class CalculatorProblem(BaseModel):
+class CalculatorProblemResponse(BaseModel):
     problem_id: str
     worksheet: str
     problem_text: str
     given: Dict[str, Any]
     find: str
-    correct_answer: float
+    correct_answer: Any  # Can be float or dict
     tolerance: float = 0.01
     steps: List[str]
     common_mistakes: Optional[List[str]] = None
+    difficulty: Optional[str] = None
 
 
-class CalculatorSubmit(BaseModel):
+class CalculatorCheckRequest(BaseModel):
     problem_id: str
-    worksheet_type: str
-    user_answer: float
+    user_answer: Any  # Can be float or dict
     time_spent_seconds: int
     user_steps: Optional[List[str]] = None
 
 
-class CalculatorResultResponse(BaseModel):
-    is_correct: bool
-    correct_answer: float
-    user_answer: float
-    difference: float
-    steps: List[str]
-
-
 class CalculatorStatsResponse(BaseModel):
-    total_problems: int
-    correct_problems: int
-    accuracy_percent: float
-    by_worksheet: Dict[str, Dict[str, int]]  # {"TVM": {"total": 10, "correct": 8}}
+    total_attempts: int
+    total_correct: int
+    overall_accuracy: float
+    by_worksheet_type: Dict[str, Dict[str, Any]]
+    recent_sessions: List[Any]
 
 
 # ============== Sync Schemas ==============

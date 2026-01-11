@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CFA Level 1 Trainer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- MathJax for formulas -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <!-- Landing Screen -->
+    <div id="landing-screen" class="screen">
+        <div class="landing-container">
+            <div class="glass-container text-center">
+                <h1 class="main-title">CFA Level 1 Trainer</h1>
+                <p class="subtitle">Подготовка к экзамену 13 мая 2026</p>
+                <div class="countdown" id="countdown"></div>
+                <div class="btn-group">
+                    <button class="btn btn-primary" onclick="showScreen('login')">Войти</button>
+                    <button class="btn btn-secondary" onclick="showScreen('register')">Регистрация</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Login Screen -->
+    <div id="login-screen" class="screen hidden">
+        <div class="auth-container">
+            <div class="glass-container">
+                <h2>Вход</h2>
+                <form id="login-form" onsubmit="handleLogin(event)">
+                    <div class="form-group">
+                        <label for="login-username">Имя пользователя</label>
+                        <input type="text" id="login-username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="login-password">Пароль</label>
+                        <input type="password" id="login-password" required>
+                    </div>
+                    <div class="form-error" id="login-error"></div>
+                    <button type="submit" class="btn btn-primary btn-full">Войти</button>
+                </form>
+                <p class="auth-link">
+                    Нет аккаунта? <a onclick="showScreen('register')">Зарегистрироваться</a>
+                </p>
+                <button class="btn btn-ghost" onclick="showScreen('landing')">Назад</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Register Screen -->
+    <div id="register-screen" class="screen hidden">
+        <div class="auth-container">
+            <div class="glass-container">
+                <h2>Регистрация</h2>
+                <form id="register-form" onsubmit="handleRegister(event)">
+                    <div class="form-group">
+                        <label for="reg-username">Имя пользователя</label>
+                        <input type="text" id="reg-username" required minlength="3">
+                    </div>
+                    <div class="form-group">
+                        <label for="reg-email">Email</label>
+                        <input type="email" id="reg-email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="reg-password">Пароль</label>
+                        <input type="password" id="reg-password" required minlength="6">
+                    </div>
+                    <div class="form-group">
+                        <label for="reg-password2">Подтвердите пароль</label>
+                        <input type="password" id="reg-password2" required>
+                    </div>
+                    <div class="form-error" id="register-error"></div>
+                    <button type="submit" class="btn btn-primary btn-full">Зарегистрироваться</button>
+                </form>
+                <p class="auth-link">
+                    Уже есть аккаунт? <a onclick="showScreen('login')">Войти</a>
+                </p>
+                <button class="btn btn-ghost" onclick="showScreen('landing')">Назад</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dashboard Screen -->
+    <div id="dashboard-screen" class="screen hidden">
+        <nav class="top-nav">
+            <div class="nav-brand">CFA Trainer</div>
+            <div class="nav-user">
+                <span id="user-name"></span>
+                <button class="btn btn-ghost btn-sm" onclick="logout()">Выход</button>
+            </div>
+        </nav>
+
+        <div class="dashboard-content">
+            <div class="welcome-section glass-container">
+                <h2>Добро пожаловать, <span id="welcome-name"></span>!</h2>
+                <div class="overall-progress">
+                    <div class="progress-info">
+                        <span>Общий прогресс</span>
+                        <span id="overall-percent">0%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div id="overall-progress-bar" style="width: 0%"></div>
+                    </div>
+                </div>
+                <div class="stats-row">
+                    <div class="stat-item">
+                        <span class="stat-value" id="stat-questions">0</span>
+                        <span class="stat-label">Вопросов изучено</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="stat-correct">0%</span>
+                        <span class="stat-label">Правильных</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="stat-tests">0</span>
+                        <span class="stat-label">Тестов пройдено</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-grid">
+                <div class="card" onclick="showScreen('books')">
+                    <div class="card-icon">📚</div>
+                    <h3>Книги</h3>
+                    <p>10 книг, ~3500 вопросов</p>
+                    <div class="progress-bar small">
+                        <div id="books-progress" style="width: 0%"></div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="showScreen('mock-exam')">
+                    <div class="card-icon">📝</div>
+                    <h3>Mock Exam</h3>
+                    <p>Симуляция экзамена (180 вопросов)</p>
+                </div>
+
+                <div class="card" onclick="showScreen('calculator')">
+                    <div class="card-icon">🔢</div>
+                    <h3>Калькулятор</h3>
+                    <p>BA II Plus тренажёр</p>
+                </div>
+
+                <div class="card" onclick="showScreen('review')">
+                    <div class="card-icon">🔄</div>
+                    <h3>Повторение</h3>
+                    <p id="review-count">0 вопросов к повторению</p>
+                </div>
+
+                <div class="card" onclick="showScreen('glossary')">
+                    <div class="card-icon">📖</div>
+                    <h3>Глоссарий</h3>
+                    <p>Термины и определения</p>
+                </div>
+
+                <div class="card" onclick="showScreen('statistics')">
+                    <div class="card-icon">📊</div>
+                    <h3>Статистика</h3>
+                    <p>Анализ результатов</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Books Screen -->
+    <div id="books-screen" class="screen hidden">
+        <nav class="top-nav">
+            <button class="btn btn-ghost" onclick="showScreen('dashboard')">← Назад</button>
+            <div class="nav-title">Книги</div>
+            <div></div>
+        </nav>
+        <div class="books-container">
+            <div id="books-list" class="books-grid">
+                <!-- Dynamically filled -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Modules Screen -->
+    <div id="modules-screen" class="screen hidden">
+        <nav class="top-nav">
+            <button class="btn btn-ghost" onclick="showScreen('books')">← Назад</button>
+            <div class="nav-title" id="current-book-name">Book</div>
+            <div></div>
+        </nav>
+        <div class="modules-container">
+            <div id="modules-list" class="modules-grid">
+                <!-- Dynamically filled -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Test Mode Selection Screen -->
+    <div id="test-mode-screen" class="screen hidden">
+        <nav class="top-nav">
+            <button class="btn btn-ghost" onclick="showScreen('modules')">← Назад</button>
+            <div class="nav-title">Выбор режима</div>
+            <div></div>
+        </nav>
+        <div class="mode-container">
+            <div class="glass-container">
+                <h2 id="test-module-name">Module Name</h2>
+                <p id="test-questions-count">0 вопросов</p>
+
+                <div class="mode-options">
+                    <div class="mode-card" onclick="startTest('standard')">
+                        <h3>Standard Mode</h3>
+                        <p>Общее время на весь тест</p>
+                        <ul>
+                            <li>Свободная навигация между вопросами</li>
+                            <li>Можно отмечать вопросы для проверки</li>
+                            <li>Результаты после завершения</li>
+                        </ul>
+                    </div>
+
+                    <div class="mode-card" onclick="startTest('90_second')">
+                        <h3>90-Second Mode</h3>
+                        <p>90 секунд на каждый вопрос</p>
+                        <ul>
+                            <li>Таймер на каждый вопрос</li>
+                            <li>Время может уходить в минус</li>
+                            <li>Результат сразу после ответа</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Test Screen -->
+    <div id="test-screen" class="screen hidden">
+        <div class="test-header">
+            <div class="test-timer" id="test-timer">00:00</div>
+            <div class="test-progress">
+                <span id="test-current">1</span>/<span id="test-total">20</span>
+            </div>
+            <button class="btn btn-ghost btn-sm" onclick="flagQuestion()" id="flag-btn">🚩</button>
+        </div>
+
+        <div class="test-content">
+            <div id="question-container" class="glass-container">
+                <div class="question-header">
+                    <span class="question-number">Question <span id="q-num">1</span></span>
+                    <span class="question-difficulty" id="q-difficulty"></span>
+                </div>
+                <div id="question-text" class="question-text"></div>
+                <div id="question-formula" class="question-formula"></div>
+                <div id="question-image" class="question-image"></div>
+
+                <div id="options-container" class="options-container">
+                    <!-- Options A, B, C -->
+                </div>
+            </div>
+
+            <!-- Explanation (shown after answer in 90-second mode) -->
+            <div id="explanation-container" class="glass-container hidden">
+                <h4>Объяснение</h4>
+                <div id="explanation-text"></div>
+                <div id="explanation-wrong"></div>
+                <div id="calculator-steps" class="hidden">
+                    <h5>Шаги на калькуляторе:</h5>
+                    <ol id="calc-steps-list"></ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="test-navigation">
+            <button class="btn btn-secondary" onclick="prevQuestion()" id="prev-btn">← Назад</button>
+            <div class="question-dots" id="question-dots"></div>
+            <button class="btn btn-primary" onclick="nextQuestion()" id="next-btn">Далее →</button>
+        </div>
+
+        <button class="btn btn-accent btn-full hidden" onclick="submitTest()" id="submit-btn">
+            Завершить тест
+        </button>
+    </div>
+
+    <!-- Results Screen -->
+    <div id="results-screen" class="screen hidden">
+        <nav class="top-nav">
+            <button class="btn btn-ghost" onclick="showScreen('dashboard')">← Dashboard</button>
+            <div class="nav-title">Результаты</div>
+            <div></div>
+        </nav>
+
+        <div class="results-container">
+            <div class="glass-container text-center">
+                <div class="score-circle" id="score-circle">
+                    <span class="score-value" id="score-value">0%</span>
+                </div>
+                <h2 id="score-message">Результат</h2>
+                <div class="results-stats">
+                    <div class="result-stat">
+                        <span class="value" id="correct-count">0</span>
+                        <span class="label">Правильных</span>
+                    </div>
+                    <div class="result-stat">
+                        <span class="value" id="incorrect-count">0</span>
+                        <span class="label">Неправильных</span>
+                    </div>
+                    <div class="result-stat">
+                        <span class="value" id="time-spent">0:00</span>
+                        <span class="label">Время</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="glass-container">
+                <h3>Разбор ответов</h3>
+                <div id="questions-review" class="questions-review">
+                    <!-- Review items -->
+                </div>
+            </div>
+
+            <div class="btn-group">
+                <button class="btn btn-primary" onclick="retryTest()">Пройти заново</button>
+                <button class="btn btn-secondary" onclick="showScreen('modules')">К модулям</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mock Exam Screen -->
+    <div id="mock-exam-screen" class="screen hidden">
+        <nav class="top-nav">
+            <button class="btn btn-ghost" onclick="showScreen('dashboard')">← Назад</button>
+            <div class="nav-title">Mock Exam</div>
+            <div></div>
+        </nav>
+
+        <div class="mock-container">
+            <div class="glass-container text-center">
+                <h2>CFA Level 1 Mock Exam</h2>
+                <p>Симуляция реального экзамена</p>
+
+                <div class="mock-info">
+                    <div class="info-item">
+                        <span class="info-value">180</span>
+                        <span class="info-label">вопросов</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-value">4:30</span>
+                        <span class="info-label">часа</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-value">90</span>
+                        <span class="info-label">сек/вопрос</span>
+                    </div>
+                </div>
+
+                <p class="mock-description">
+                    Mock Exam включает 30% вопросов из ваших ошибок, 30% из слабых модулей
+                    и 40% случайных вопросов для полноценной подготовки.
+                </p>
+
+                <button class="btn btn-primary btn-lg" onclick="startMockExam()">
+                    Начать Mock Exam
+                </button>
+
+                <div class="mock-history" id="mock-history">
+                    <!-- Previous mock exam results -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Calculator Screen -->
+    <div id="calculator-screen" class="screen hidden">
+        <nav class="top-nav">
+            <button class="btn btn-ghost" onclick="showScreen('dashboard')">← Назад</button>
+            <div class="nav-title">BA II Plus Trainer</div>
+            <div></div>
+        </nav>
+
+        <div class="calculator-container">
+            <div class="calc-problem glass-container">
+                <h3 id="calc-worksheet">TVM</h3>
+                <div id="calc-problem-text" class="problem-text"></div>
+                <div class="calc-given" id="calc-given"></div>
+                <div class="calc-find">Find: <span id="calc-find"></span></div>
+            </div>
+
+            <div class="calc-answer glass-container">
+                <label>Ваш ответ:</label>
+                <input type="number" id="calc-answer-input" step="0.01" placeholder="Введите ответ">
+                <button class="btn btn-primary" onclick="checkCalculatorAnswer()">Проверить</button>
+            </div>
+
+            <div class="calc-result glass-container hidden" id="calc-result">
+                <div id="calc-result-status"></div>
+                <div id="calc-correct-answer"></div>
+                <div id="calc-solution-steps"></div>
+            </div>
+
+            <div class="calc-controls">
+                <select id="calc-type-select" onchange="loadCalculatorProblem()">
+                    <option value="TVM">TVM</option>
+                    <option value="CF">Cash Flow</option>
+                    <option value="Bond">Bond</option>
+                    <option value="Stats">Statistics</option>
+                    <option value="Interest">Interest Conversion</option>
+                </select>
+                <button class="btn btn-secondary" onclick="loadCalculatorProblem()">Новая задача</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Review Screen (Spaced Repetition) -->
+    <div id="review-screen" class="screen hidden">
+        <nav class="top-nav">
+            <button class="btn btn-ghost" onclick="showScreen('dashboard')">← Назад</button>
+            <div class="nav-title">Повторение</div>
+            <div></div>
+        </nav>
+
+        <div class="review-container">
+            <div class="glass-container" id="review-content">
+                <!-- Review questions or empty state -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Glossary Screen -->
+    <div id="glossary-screen" class="screen hidden">
+        <nav class="top-nav">
+            <button class="btn btn-ghost" onclick="showScreen('dashboard')">← Назад</button>
+            <div class="nav-title">Глоссарий</div>
+            <div></div>
+        </nav>
+
+        <div class="glossary-container">
+            <div class="search-box glass-container">
+                <input type="text" id="glossary-search" placeholder="Поиск терминов..." oninput="searchGlossary()">
+                <select id="glossary-book-filter" onchange="filterGlossary()">
+                    <option value="">Все книги</option>
+                    <option value="1">Book 1: Quantitative Methods</option>
+                    <option value="2">Book 2: Economics</option>
+                    <option value="3">Book 3: Financial Statement Analysis</option>
+                    <option value="4">Book 4: Corporate Issuers</option>
+                    <option value="5">Book 5: Equity Investments</option>
+                    <option value="6">Book 6: Fixed Income</option>
+                    <option value="7">Book 7: Derivatives</option>
+                    <option value="8">Book 8: Alternative Investments</option>
+                    <option value="9">Book 9: Portfolio Management</option>
+                    <option value="10">Book 10: Ethics</option>
+                </select>
+            </div>
+
+            <div id="glossary-list" class="glossary-list">
+                <!-- Terms list -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Statistics Screen -->
+    <div id="statistics-screen" class="screen hidden">
+        <nav class="top-nav">
+            <button class="btn btn-ghost" onclick="showScreen('dashboard')">← Назад</button>
+            <div class="nav-title">Статистика</div>
+            <div></div>
+        </nav>
+
+        <div class="statistics-container">
+            <div class="glass-container">
+                <h3>Общая статистика</h3>
+                <div class="stats-grid" id="overall-stats">
+                    <!-- Stats -->
+                </div>
+            </div>
+
+            <div class="glass-container">
+                <h3>По книгам</h3>
+                <div id="books-stats" class="books-stats">
+                    <!-- Book stats -->
+                </div>
+            </div>
+
+            <div class="glass-container">
+                <h3>История тестов</h3>
+                <div id="test-history" class="test-history">
+                    <!-- Test history -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div id="loading-overlay" class="loading-overlay hidden">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Toast Notifications -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
