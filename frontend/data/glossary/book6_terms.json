@@ -11,7 +11,20 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "TVM / Bond",
+        "steps": [
+          "TVM метод (цена облигации):",
+          "[2ND] [P/Y] - установить периоды в год (2 для полугодовых)",
+          "N = число купонных периодов",
+          "I/Y = требуемая доходность (годовая)",
+          "PMT = купонный платёж",
+          "FV = номинал (обычно 1000)",
+          "[CPT] [PV] = цена облигации"
+        ],
+        "example": "N=20, I/Y=6, PMT=50, FV=1000 → PV=-1,148.77"
+      }
     },
     {
       "term_id": "T-FI-002",
@@ -21,7 +34,8 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-FI-003",
@@ -31,7 +45,20 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "TVM / Bond",
+        "steps": [
+          "TVM метод:",
+          "[2ND] [P/Y] - установить периоды (2 для полугодовых)",
+          "N = число купонных периодов до погашения",
+          "PV = текущая цена (со знаком минус)",
+          "PMT = купонный платёж за период",
+          "FV = номинал",
+          "[CPT] [I/Y] = YTM (годовая)"
+        ],
+        "example": "N=20, PV=-950, PMT=40, FV=1000 → I/Y=8.78%"
+      }
     },
     {
       "term_id": "T-FI-004",
@@ -41,7 +68,15 @@
       "definition_ru": "",
       "formula": "$Current\\ Yield = \\frac{Annual\\ Coupon}{Current\\ Price}$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Простой расчёт",
+        "steps": [
+          "Годовой купон ÷ Текущая цена × 100%",
+          "Пример: $80 ÷ $950 = 8.42%"
+        ],
+        "example": "Купон $80, цена $950 → 80÷950=8.42%"
+      }
     },
     {
       "term_id": "T-FI-005",
@@ -51,7 +86,21 @@
       "definition_ru": "",
       "formula": "$\\%\\Delta P \\approx -Duration \\times \\Delta y$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Bond",
+        "steps": [
+          "[2ND] [BOND] - открыть Bond worksheet",
+          "SDT = дата расчёта (mm.ddyy)",
+          "CPN = годовая купонная ставка (%)",
+          "RDT = дата погашения",
+          "RV = 100 (погашение по номиналу)",
+          "Выбрать ACT или 360, 2/Y или 1/Y",
+          "YLD = доходность [ENTER]",
+          "[↓] до DUR - модифицированная дюрация"
+        ],
+        "example": "SDT=6.1206, CPN=7, RDT=12.3107, YLD=8 → DUR=1.44"
+      }
     },
     {
       "term_id": "T-FI-006",
@@ -61,7 +110,18 @@
       "definition_ru": "",
       "formula": "$ModDur = \\frac{MacDur}{1 + y}$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Bond",
+        "steps": [
+          "[2ND] [BOND] - открыть Bond worksheet",
+          "Ввести SDT, CPN, RDT, RV",
+          "Ввести YLD [ENTER]",
+          "[↓] пролистать до DUR",
+          "DUR = модифицированная дюрация"
+        ],
+        "example": "При YLD=8%, получаем DUR=1.44"
+      }
     },
     {
       "term_id": "T-FI-007",
@@ -71,7 +131,8 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-FI-008",
@@ -81,7 +142,8 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-FI-009",
@@ -91,7 +153,19 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "TVM",
+        "steps": [
+          "[2ND] [CLR TVM]",
+          "N = число периодов до погашения",
+          "I/Y = требуемая доходность",
+          "PMT = 0 (нет купонов!)",
+          "FV = номинал (1000)",
+          "[CPT] [PV] = цена облигации"
+        ],
+        "example": "N=10, I/Y=7, PMT=0, FV=1000 → PV=-508.35"
+      }
     },
     {
       "term_id": "T-FI-010",
@@ -101,7 +175,8 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-FI-011",
@@ -111,7 +186,8 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     }
   ]
 }

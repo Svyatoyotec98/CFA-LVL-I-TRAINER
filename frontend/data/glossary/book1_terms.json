@@ -11,7 +11,8 @@
       "definition_ru": "",
       "formula": "$HPR = \\frac{P_1 - P_0 + D}{P_0}$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-QM-002",
@@ -21,7 +22,18 @@
       "definition_ru": "",
       "formula": "$EAR = (1 + \\frac{r}{m})^m - 1$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Interest Conversion",
+        "steps": [
+          "[2ND] [ICONV] - открыть Interest Conversion",
+          "Ввести NOM (номинальную ставку) [ENTER]",
+          "[↓][↓] Ввести C/Y (периоды начисления в год) [ENTER]",
+          "[↑] на EFF, нажать [CPT]",
+          "Результат: EFF = эффективная годовая ставка"
+        ],
+        "example": "NOM=12%, C/Y=12 → EFF=12.68%"
+      }
     },
     {
       "term_id": "T-QM-003",
@@ -31,7 +43,19 @@
       "definition_ru": "",
       "formula": "$PV = \\frac{FV}{(1+r)^n}$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "TVM",
+        "steps": [
+          "[2ND] [CLR TVM] - очистить TVM",
+          "Ввести N (число периодов) [N]",
+          "Ввести I/Y (ставку) [I/Y]",
+          "Ввести FV (будущую стоимость) [FV]",
+          "Ввести PMT=0 [PMT]",
+          "[CPT] [PV] - рассчитать PV"
+        ],
+        "example": "N=5, I/Y=10, FV=1000, PMT=0 → PV=-620.92"
+      }
     },
     {
       "term_id": "T-QM-004",
@@ -41,7 +65,19 @@
       "definition_ru": "",
       "formula": "$FV = PV \\times (1+r)^n$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "TVM",
+        "steps": [
+          "[2ND] [CLR TVM] - очистить TVM",
+          "Ввести N (число периодов) [N]",
+          "Ввести I/Y (ставку) [I/Y]",
+          "Ввести PV со знаком минус [+/-] [PV]",
+          "Ввести PMT=0 [PMT]",
+          "[CPT] [FV] - рассчитать FV"
+        ],
+        "example": "N=5, I/Y=10, PV=-1000, PMT=0 → FV=1610.51"
+      }
     },
     {
       "term_id": "T-QM-005",
@@ -51,7 +87,19 @@
       "definition_ru": "",
       "formula": "$NPV = \\sum \\frac{CF_t}{(1+r)^t}$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Cash Flow",
+        "steps": [
+          "[CF] - открыть Cash Flow worksheet",
+          "Ввести CF0 (начальные инвестиции, обычно минус) [ENTER]",
+          "[↓] Ввести C01 [ENTER], [↓] F01 [ENTER]",
+          "Повторить для всех CF",
+          "[NPV] Ввести I (ставку дисконтирования) [ENTER]",
+          "[↓] [CPT] - рассчитать NPV"
+        ],
+        "example": "CF0=-100, C01=30, F01=5, I=10 → NPV=13,723.60"
+      }
     },
     {
       "term_id": "T-QM-006",
@@ -61,7 +109,18 @@
       "definition_ru": "",
       "formula": "$\\sum \\frac{CF_t}{(1+IRR)^t} = 0$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Cash Flow",
+        "steps": [
+          "[CF] - открыть Cash Flow worksheet",
+          "Ввести CF0 (начальные инвестиции со знаком минус) [ENTER]",
+          "[↓] Ввести C01 [ENTER], [↓] F01 [ENTER]",
+          "Повторить для всех денежных потоков",
+          "[IRR] [CPT] - рассчитать IRR"
+        ],
+        "example": "CF0=-100, C01=30, F01=5 → IRR=15.24%"
+      }
     },
     {
       "term_id": "T-QM-007",
@@ -71,7 +130,19 @@
       "definition_ru": "",
       "formula": "$\\sigma = \\sqrt{\\frac{\\sum(x_i - \\bar{x})^2}{n}}$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Statistics",
+        "steps": [
+          "[2ND] [DATA] - открыть Data worksheet",
+          "[2ND] [CLR WORK] - очистить данные",
+          "Ввести X01 [ENTER] [↓][↓]",
+          "Повторить для всех значений",
+          "[2ND] [STAT] - перейти к статистике",
+          "[↓] до σx (популяционное) или Sx (выборочное)"
+        ],
+        "example": "X: 5,8,-2,12,7 → σx=4.69, Sx=5.24"
+      }
     },
     {
       "term_id": "T-QM-008",
@@ -81,7 +152,17 @@
       "definition_ru": "",
       "formula": "$\\sigma^2 = \\frac{\\sum(x_i - \\bar{x})^2}{n}$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Statistics",
+        "steps": [
+          "[2ND] [DATA] - ввести все данные",
+          "[2ND] [STAT] - получить стд. отклонение",
+          "Возвести в квадрат: σ² = (σx)²",
+          "Или Sx² для выборочной дисперсии"
+        ],
+        "example": "Если σx=4.69 → σ²=21.99"
+      }
     },
     {
       "term_id": "T-QM-009",
@@ -91,7 +172,8 @@
       "definition_ru": "",
       "formula": "$Cov(X,Y) = E[(X-\\mu_X)(Y-\\mu_Y)]$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-QM-010",
@@ -101,7 +183,20 @@
       "definition_ru": "",
       "formula": "$\\rho = \\frac{Cov(X,Y)}{\\sigma_X \\sigma_Y}$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Statistics",
+        "steps": [
+          "[2ND] [DATA] - открыть Data worksheet",
+          "[2ND] [CLR WORK] - очистить",
+          "Ввести пары: X01 [ENTER] [↓] Y01 [ENTER] [↓]",
+          "Повторить для всех пар X,Y",
+          "[2ND] [STAT]",
+          "[2ND] [SET] - выбрать LIN (линейная регрессия)",
+          "[↓] до r (коэффициент корреляции)"
+        ],
+        "example": "X:2,4,6,8 Y:3,6,8,11 → r=0.99"
+      }
     },
     {
       "term_id": "T-QM-011",
@@ -111,7 +206,8 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-QM-012",
@@ -121,7 +217,8 @@
       "definition_ru": "",
       "formula": "$z = \\frac{x - \\mu}{\\sigma}$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-QM-013",
@@ -131,7 +228,8 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-QM-014",
@@ -141,7 +239,8 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-QM-015",
@@ -151,7 +250,8 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-QM-016",
@@ -161,7 +261,8 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-QM-017",
@@ -171,7 +272,8 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-QM-018",
@@ -181,7 +283,8 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-QM-019",
@@ -191,7 +294,19 @@
       "definition_ru": "",
       "formula": "$Y = \\alpha + \\beta X + \\epsilon$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Statistics",
+        "steps": [
+          "[2ND] [DATA] - открыть Data worksheet",
+          "[2ND] [CLR WORK] - очистить",
+          "Ввести пары X,Y данных",
+          "[2ND] [STAT]",
+          "[2ND] [SET] - выбрать LIN",
+          "[↓] до a (intercept/α) и b (slope/β)"
+        ],
+        "example": "X:1,2,3,4,5 Y:2.1,4,5.9,8.1,10 → a=0.06, b=1.98"
+      }
     },
     {
       "term_id": "T-QM-020",
@@ -201,7 +316,17 @@
       "definition_ru": "",
       "formula": "$R^2 = \\frac{SSR}{SST}$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Statistics",
+        "steps": [
+          "После ввода данных и расчёта регрессии",
+          "[2ND] [STAT] [2ND] [SET] - LIN",
+          "Найти r (корреляцию)",
+          "R² = r² (возвести в квадрат)"
+        ],
+        "example": "Если r=0.99 → R²=0.98"
+      }
     }
   ]
 }

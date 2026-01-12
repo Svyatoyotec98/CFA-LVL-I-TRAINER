@@ -11,7 +11,8 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-CI-002",
@@ -21,7 +22,8 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-CI-003",
@@ -31,7 +33,8 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-CI-004",
@@ -41,7 +44,8 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-CI-005",
@@ -51,7 +55,8 @@
       "definition_ru": "",
       "formula": "$V = D + E$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-CI-006",
@@ -61,7 +66,19 @@
       "definition_ru": "",
       "formula": "$WACC = w_d r_d(1-t) + w_e r_e$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Прямой расчёт",
+        "steps": [
+          "1. Рассчитать wd × rd × (1-t):",
+          "   wd (вес долга) × rd (ставка долга) × (1 - налоговая ставка)",
+          "2. Рассчитать we × re:",
+          "   we (вес equity) × re (стоимость equity)",
+          "3. Сложить результаты:",
+          "   WACC = результат шага 1 + результат шага 2"
+        ],
+        "example": "wd=40%, rd=6%, t=25%, we=60%, re=12% → 0.4×6×0.75 + 0.6×12 = 1.8 + 7.2 = 9%"
+      }
     },
     {
       "term_id": "T-CI-007",
@@ -71,7 +88,17 @@
       "definition_ru": "",
       "formula": "$r_e = r_f + \\beta(r_m - r_f)$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "CAPM расчёт",
+        "steps": [
+          "re = rf + β × (rm - rf)",
+          "1. Вычислить премию за риск: rm - rf",
+          "2. Умножить на бету: β × (rm - rf)",
+          "3. Добавить безрисковую ставку: rf + результат"
+        ],
+        "example": "rf=3%, β=1.2, rm=10% → 3 + 1.2×(10-3) = 3 + 8.4 = 11.4%"
+      }
     },
     {
       "term_id": "T-CI-008",
@@ -81,7 +108,20 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "TVM",
+        "steps": [
+          "Если нужно найти YTM облигации компании:",
+          "N = число купонных периодов",
+          "PV = текущая рыночная цена (минус)",
+          "PMT = купонный платёж",
+          "FV = номинал",
+          "[CPT] [I/Y] = стоимость долга до налогов",
+          "После налогов: rd × (1 - t)"
+        ],
+        "example": "YTM=6%, налог=25% → 6×0.75 = 4.5% после налогов"
+      }
     },
     {
       "term_id": "T-CI-009",
@@ -91,7 +131,8 @@
       "definition_ru": "",
       "formula": "$DFL = \\frac{\\%\\Delta EPS}{\\%\\Delta EBIT}$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-CI-010",
@@ -101,7 +142,8 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     }
   ]
 }

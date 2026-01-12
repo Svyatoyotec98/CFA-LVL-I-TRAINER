@@ -882,6 +882,20 @@ function displayGlossary(terms) {
             <div class="term-definition">${term.definition_en}</div>
             ${term.definition_ru ? `<div class="term-definition-ru">${term.definition_ru}</div>` : ''}
             ${term.formula ? `<div class="term-formula">\\(${term.formula.replace(/^\$|\$$/g, '')}\\)</div>` : ''}
+            ${term.calculator_steps ? `
+                <div class="calculator-instructions">
+                    <div class="calc-header" onclick="toggleCalcSteps(this)">
+                        <span>🖩 BA II Plus: ${term.calculator_steps.worksheet}</span>
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="calc-steps hidden">
+                        <ol>
+                            ${term.calculator_steps.steps.map(step => `<li>${step}</li>`).join('')}
+                        </ol>
+                        ${term.calculator_steps.example ? `<div class="calc-example"><strong>Пример:</strong> ${term.calculator_steps.example}</div>` : ''}
+                    </div>
+                </div>
+            ` : ''}
         </div>
     `).join('');
 
@@ -893,6 +907,13 @@ function displayGlossary(terms) {
             if (window.MathJax) MathJax.typeset([container]);
         }, 500);
     }
+}
+
+function toggleCalcSteps(header) {
+    const steps = header.nextElementSibling;
+    const icon = header.querySelector('.toggle-icon');
+    steps.classList.toggle('hidden');
+    icon.textContent = steps.classList.contains('hidden') ? '▼' : '▲';
 }
 
 function searchGlossary() {
