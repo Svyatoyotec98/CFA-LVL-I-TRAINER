@@ -11,7 +11,8 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-ECON-002",
@@ -21,97 +22,493 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-ECON-003",
       "term_en": "Equilibrium",
       "term_ru": "Равновесие",
-      "definition_en": "The point where supply equals demand.",
+      "definition_en": "The point where supply equals demand, determining market price and quantity.",
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-ECON-004",
-      "term_en": "Elasticity",
-      "term_ru": "Эластичность",
-      "definition_en": "Measure of responsiveness of quantity to price changes.",
+      "term_en": "Price Elasticity of Demand",
+      "term_ru": "Ценовая эластичность спроса",
+      "definition_en": "Measure of responsiveness of quantity demanded to price changes.",
       "definition_ru": "",
-      "formula": "$E = \\frac{\\%\\Delta Q}{\\%\\Delta P}$",
+      "formula": "$E_d = \\frac{\\%\\Delta Q_d}{\\%\\Delta P}$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Прямой расчёт",
+        "steps": [
+          "Ed = (ΔQ/Q) / (ΔP/P)",
+          "Или: Ed = (Q2-Q1)/((Q2+Q1)/2) ÷ (P2-P1)/((P2+P1)/2)",
+          "Midpoint formula для точности"
+        ],
+        "example": "Q: 100→80, P: $10→$12 → Ed = -20%/20% = -1.0"
+      }
     },
     {
       "term_id": "T-ECON-005",
-      "term_en": "GDP",
-      "term_ru": "ВВП",
-      "definition_en": "Total market value of all final goods and services produced in a country.",
+      "term_en": "Income Elasticity of Demand",
+      "term_ru": "Эластичность спроса по доходу",
+      "definition_en": "Responsiveness of demand to changes in consumer income.",
       "definition_ru": "",
-      "formula": "$GDP = C + I + G + (X - M)$",
+      "formula": "$E_I = \\frac{\\%\\Delta Q_d}{\\%\\Delta I}$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-ECON-006",
-      "term_en": "Inflation",
-      "term_ru": "Инфляция",
-      "definition_en": "Sustained increase in the general price level.",
+      "term_en": "Cross-Price Elasticity",
+      "term_ru": "Перекрёстная эластичность",
+      "definition_en": "Responsiveness of demand for one good to price changes of another.",
       "definition_ru": "",
-      "formula": null,
+      "formula": "$E_{xy} = \\frac{\\%\\Delta Q_x}{\\%\\Delta P_y}$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-ECON-007",
+      "term_en": "Consumer Surplus",
+      "term_ru": "Потребительский излишек",
+      "definition_en": "Difference between what consumers are willing to pay and what they actually pay.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": [],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-ECON-008",
+      "term_en": "Producer Surplus",
+      "term_ru": "Излишек производителя",
+      "definition_en": "Difference between market price and minimum price producers would accept.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": [],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-ECON-009",
+      "term_en": "Perfect Competition",
+      "term_ru": "Совершенная конкуренция",
+      "definition_en": "Market structure with many firms, identical products, and no barriers to entry.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": [],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-ECON-010",
+      "term_en": "Monopoly",
+      "term_ru": "Монополия",
+      "definition_en": "Market structure with single seller and high barriers to entry.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": [],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-ECON-011",
+      "term_en": "Oligopoly",
+      "term_ru": "Олигополия",
+      "definition_en": "Market dominated by a few large firms with interdependent pricing.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": [],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-ECON-012",
+      "term_en": "Monopolistic Competition",
+      "term_ru": "Монополистическая конкуренция",
+      "definition_en": "Many firms selling differentiated products with low barriers to entry.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": [],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-ECON-013",
+      "term_en": "GDP (Gross Domestic Product)",
+      "term_ru": "ВВП (Валовой внутренний продукт)",
+      "definition_en": "Total market value of all final goods and services produced within a country.",
+      "definition_ru": "",
+      "formula": "$GDP = C + I + G + (X - M)$",
+      "module_id": 2,
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Прямой расчёт",
+        "steps": [
+          "GDP = C + I + G + (X - M)",
+          "C = потребление",
+          "I = инвестиции",
+          "G = гос. расходы",
+          "X - M = чистый экспорт"
+        ],
+        "example": "C=70, I=18, G=20, X=12, M=15 → GDP = 70+18+20+(12-15) = 105"
+      }
+    },
+    {
+      "term_id": "T-ECON-014",
+      "term_en": "Nominal GDP",
+      "term_ru": "Номинальный ВВП",
+      "definition_en": "GDP measured at current market prices.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 2,
+      "related_los": [],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-ECON-015",
+      "term_en": "Real GDP",
+      "term_ru": "Реальный ВВП",
+      "definition_en": "GDP adjusted for inflation, measured at constant prices.",
+      "definition_ru": "",
+      "formula": "$Real\\ GDP = \\frac{Nominal\\ GDP}{Price\\ Deflator} \\times 100$",
+      "module_id": 2,
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Прямой расчёт",
+        "steps": [
+          "Real GDP = Nominal GDP / GDP Deflator × 100",
+          "Или: Real GDP = Nominal GDP / (1 + inflation rate)"
+        ],
+        "example": "Nominal=$110, Deflator=105 → Real = 110/105×100 = $104.76"
+      }
+    },
+    {
+      "term_id": "T-ECON-016",
+      "term_en": "GDP Deflator",
+      "term_ru": "Дефлятор ВВП",
+      "definition_en": "Price index measuring inflation across all goods in GDP.",
+      "definition_ru": "",
+      "formula": "$Deflator = \\frac{Nominal\\ GDP}{Real\\ GDP} \\times 100$",
+      "module_id": 2,
+      "related_los": [],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-ECON-017",
+      "term_en": "Inflation",
+      "term_ru": "Инфляция",
+      "definition_en": "Sustained increase in the general price level over time.",
+      "definition_ru": "",
+      "formula": "$Inflation = \\frac{CPI_t - CPI_{t-1}}{CPI_{t-1}} \\times 100$",
+      "module_id": 2,
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Percent Change",
+        "steps": [
+          "[2ND] [%CHG]",
+          "OLD = CPI прошлого периода",
+          "NEW = CPI текущего периода",
+          "[CPT] %CH = инфляция"
+        ],
+        "example": "CPI: 250→258 → (258-250)/250×100 = 3.2%"
+      }
+    },
+    {
+      "term_id": "T-ECON-018",
+      "term_en": "CPI (Consumer Price Index)",
+      "term_ru": "ИПЦ (Индекс потребительских цен)",
+      "definition_en": "Index measuring price changes of a basket of consumer goods.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 2,
+      "related_los": [],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-ECON-019",
+      "term_en": "Unemployment Rate",
+      "term_ru": "Уровень безработицы",
+      "definition_en": "Percentage of labor force that is unemployed and seeking work.",
+      "definition_ru": "",
+      "formula": "$U = \\frac{Unemployed}{Labor\\ Force} \\times 100$",
+      "module_id": 2,
+      "related_los": [],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-ECON-020",
+      "term_en": "Business Cycle",
+      "term_ru": "Деловой цикл",
+      "definition_en": "Recurring pattern of expansion and contraction in economic activity.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 2,
+      "related_los": [],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-ECON-021",
+      "term_en": "Recession",
+      "term_ru": "Рецессия",
+      "definition_en": "Two consecutive quarters of declining real GDP.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 2,
+      "related_los": [],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-ECON-022",
       "term_en": "Monetary Policy",
       "term_ru": "Денежно-кредитная политика",
       "definition_en": "Central bank actions to control money supply and interest rates.",
       "definition_ru": "",
       "formula": null,
-      "module_id": 1,
-      "related_los": []
+      "module_id": 3,
+      "related_los": [],
+      "calculator_steps": null
     },
     {
-      "term_id": "T-ECON-008",
+      "term_id": "T-ECON-023",
       "term_en": "Fiscal Policy",
       "term_ru": "Фискальная политика",
-      "definition_en": "Government spending and taxation decisions.",
+      "definition_en": "Government spending and taxation decisions to influence the economy.",
       "definition_ru": "",
       "formula": null,
-      "module_id": 1,
-      "related_los": []
+      "module_id": 3,
+      "related_los": [],
+      "calculator_steps": null
     },
     {
-      "term_id": "T-ECON-009",
+      "term_id": "T-ECON-024",
+      "term_en": "Money Supply",
+      "term_ru": "Денежная масса",
+      "definition_en": "Total amount of money in circulation in the economy.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 3,
+      "related_los": [],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-ECON-025",
+      "term_en": "Money Multiplier",
+      "term_ru": "Денежный мультипликатор",
+      "definition_en": "Factor by which money supply increases from a change in reserves.",
+      "definition_ru": "",
+      "formula": "$Multiplier = \\frac{1}{Reserve\\ Ratio}$",
+      "module_id": 3,
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Простое деление",
+        "steps": [
+          "Money Multiplier = 1 / Reserve Ratio"
+        ],
+        "example": "Reserve Ratio = 10% → 1/0.10 = 10x"
+      }
+    },
+    {
+      "term_id": "T-ECON-026",
+      "term_en": "Quantity Theory of Money",
+      "term_ru": "Количественная теория денег",
+      "definition_en": "Theory relating money supply to price level.",
+      "definition_ru": "",
+      "formula": "$MV = PY$",
+      "module_id": 3,
+      "related_los": [],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-ECON-027",
       "term_en": "Exchange Rate",
       "term_ru": "Обменный курс",
-      "definition_en": "Price of one currency in terms of another.",
+      "definition_en": "Price of one currency expressed in terms of another currency.",
       "definition_ru": "",
       "formula": null,
-      "module_id": 1,
-      "related_los": []
+      "module_id": 4,
+      "related_los": [],
+      "calculator_steps": null
     },
     {
-      "term_id": "T-ECON-010",
-      "term_en": "Interest Rate Parity",
-      "term_ru": "Паритет процентных ставок",
-      "definition_en": "Relationship between interest rates and exchange rates.",
+      "term_id": "T-ECON-028",
+      "term_en": "Appreciation",
+      "term_ru": "Укрепление валюты",
+      "definition_en": "Increase in the value of a currency relative to another.",
       "definition_ru": "",
       "formula": null,
-      "module_id": 1,
-      "related_los": []
+      "module_id": 4,
+      "related_los": [],
+      "calculator_steps": null
     },
     {
-      "term_id": "T-ECON-011",
+      "term_id": "T-ECON-029",
+      "term_en": "Depreciation (Currency)",
+      "term_ru": "Ослабление валюты",
+      "definition_en": "Decrease in the value of a currency relative to another.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 4,
+      "related_los": [],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-ECON-030",
       "term_en": "Purchasing Power Parity (PPP)",
       "term_ru": "Паритет покупательной способности",
       "definition_en": "Theory that exchange rates adjust to equalize prices across countries.",
       "definition_ru": "",
+      "formula": "$S_1 = S_0 \\times \\frac{1 + \\pi_{domestic}}{1 + \\pi_{foreign}}$",
+      "module_id": 4,
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Прямой расчёт",
+        "steps": [
+          "PPP: S₁ = S₀ × (1 + πd) / (1 + πf)",
+          "S₀ = текущий курс",
+          "πd = инфляция внутренняя",
+          "πf = инфляция зарубежная"
+        ],
+        "example": "S₀=1.20, πd=3%, πf=1% → 1.20×1.03/1.01 = 1.224"
+      }
+    },
+    {
+      "term_id": "T-ECON-031",
+      "term_en": "Interest Rate Parity (IRP)",
+      "term_ru": "Паритет процентных ставок",
+      "definition_en": "Relationship between interest rates and forward exchange rates.",
+      "definition_ru": "",
+      "formula": "$F = S \\times \\frac{1 + r_d}{1 + r_f}$",
+      "module_id": 4,
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Прямой расчёт",
+        "steps": [
+          "Forward = Spot × (1 + rd) / (1 + rf)",
+          "rd = внутренняя процентная ставка",
+          "rf = зарубежная процентная ставка"
+        ],
+        "example": "S=1.20, rd=5%, rf=2% → F = 1.20×1.05/1.02 = 1.235"
+      }
+    },
+    {
+      "term_id": "T-ECON-032",
+      "term_en": "Current Account",
+      "term_ru": "Счёт текущих операций",
+      "definition_en": "Record of trade in goods, services, and income transfers.",
+      "definition_ru": "",
       "formula": null,
-      "module_id": 1,
-      "related_los": []
+      "module_id": 4,
+      "related_los": [],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-ECON-033",
+      "term_en": "Capital Account",
+      "term_ru": "Счёт движения капитала",
+      "definition_en": "Record of international capital flows and investments.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 4,
+      "related_los": [],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-ECON-034",
+      "term_en": "Balance of Payments",
+      "term_ru": "Платёжный баланс",
+      "definition_en": "Record of all economic transactions between a country and the rest of the world.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 4,
+      "related_los": [],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-ECON-035",
+      "term_en": "Trade Deficit",
+      "term_ru": "Торговый дефицит",
+      "definition_en": "When imports exceed exports.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 4,
+      "related_los": [],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-ECON-036",
+      "term_en": "Comparative Advantage",
+      "term_ru": "Сравнительное преимущество",
+      "definition_en": "Ability to produce a good at lower opportunity cost than another producer.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 4,
+      "related_los": [],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-ECON-037",
+      "term_en": "Absolute Advantage",
+      "term_ru": "Абсолютное преимущество",
+      "definition_en": "Ability to produce more of a good with the same resources.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 4,
+      "related_los": [],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-ECON-038",
+      "term_en": "Tariff",
+      "term_ru": "Тариф",
+      "definition_en": "Tax on imported goods.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 4,
+      "related_los": [],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-ECON-039",
+      "term_en": "Quota",
+      "term_ru": "Квота",
+      "definition_en": "Limit on the quantity of imports allowed.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 4,
+      "related_los": [],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-ECON-040",
+      "term_en": "Fisher Effect",
+      "term_ru": "Эффект Фишера",
+      "definition_en": "Relationship between nominal interest rate, real rate, and expected inflation.",
+      "definition_ru": "",
+      "formula": "$i = r + \\pi^e$",
+      "module_id": 3,
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Прямой расчёт",
+        "steps": [
+          "Nominal rate ≈ Real rate + Expected inflation",
+          "Точная формула: (1+i) = (1+r)(1+πe)",
+          "i = номинальная ставка",
+          "r = реальная ставка",
+          "πe = ожидаемая инфляция"
+        ],
+        "example": "r=2%, πe=3% → i ≈ 5%"
+      }
     }
   ]
 }
