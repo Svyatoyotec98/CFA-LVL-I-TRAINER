@@ -17,13 +17,33 @@
       "term_en": "Effective Annual Rate (EAR)",
       "term_ru": "Эффективная годовая ставка",
       "definition_en": "The annual rate of return that accounts for the effect of compounding. It is the actual return earned when interest is compounded more than once per year.",
-      "definition_ru": "Годовая ставка доходности с учётом эффекта сложных процентов. Фактическая доходность при начислении процентов чаще раза в год.",
+      "definition_ru": "Годовая ставка доходности с учётом эффекта сложных процентов.",
       "formula": "$EAR = (1 + \\frac{r}{m})^m - 1$",
       "module_id": 1,
       "related_los": ["LOS 1.c"]
     },
     {
       "term_id": "T-QM-003",
+      "term_en": "Money-Weighted Return (MWR)",
+      "term_ru": "Взвешенная по деньгам доходность",
+      "definition_en": "The internal rate of return (IRR) on a portfolio, taking into account the timing and amount of all cash flows.",
+      "definition_ru": "Внутренняя норма доходности портфеля с учётом времени и размера всех денежных потоков.",
+      "formula": null,
+      "module_id": 1,
+      "related_los": ["LOS 1.b"]
+    },
+    {
+      "term_id": "T-QM-004",
+      "term_en": "Time-Weighted Return (TWR)",
+      "term_ru": "Взвешенная по времени доходность",
+      "definition_en": "A measure of compound rate of growth in a portfolio that eliminates the effects of cash inflows and outflows.",
+      "definition_ru": "Мера составной нормы роста портфеля, исключающая влияние притоков и оттоков денежных средств.",
+      "formula": null,
+      "module_id": 1,
+      "related_los": ["LOS 1.b"]
+    },
+    {
+      "term_id": "T-QM-005",
       "term_en": "Present Value (PV)",
       "term_ru": "Приведённая (текущая) стоимость",
       "definition_en": "The current worth of a future sum of money or stream of cash flows given a specified rate of return.",
@@ -33,74 +53,364 @@
       "related_los": ["LOS 2.a"]
     },
     {
-      "term_id": "T-QM-004",
+      "term_id": "T-QM-006",
       "term_en": "Future Value (FV)",
       "term_ru": "Будущая стоимость",
       "definition_en": "The value of an asset or cash at a specified date in the future that is equivalent in value to a specified sum today.",
-      "definition_ru": "Стоимость актива или денежных средств на определённую дату в будущем, эквивалентная заданной сумме сегодня.",
+      "definition_ru": "Стоимость актива или денежных средств на определённую дату в будущем.",
       "formula": "$FV = PV \\times (1+r)^n$",
       "module_id": 2,
       "related_los": ["LOS 2.a"]
     },
     {
-      "term_id": "T-QM-005",
+      "term_id": "T-QM-007",
       "term_en": "Annuity",
       "term_ru": "Аннуитет",
-      "definition_en": "A series of equal cash flows occurring at fixed intervals over a specified period. Ordinary annuity has payments at end of periods; annuity due has payments at beginning.",
-      "definition_ru": "Серия равных платежей через фиксированные интервалы в течение определённого периода.",
+      "definition_en": "A series of equal cash flows occurring at fixed intervals over a specified period.",
+      "definition_ru": "Серия равных платежей через фиксированные интервалы.",
       "formula": "$PV_{annuity} = PMT \\times \\frac{1 - (1+r)^{-n}}{r}$",
       "module_id": 2,
       "related_los": ["LOS 2.b"]
     },
     {
-      "term_id": "T-QM-006",
+      "term_id": "T-QM-008",
       "term_en": "Perpetuity",
-      "term_ru": "Перпетуитет (бессрочная рента)",
-      "definition_en": "A constant stream of identical cash flows with no end. The present value formula is simplified as PMT divided by the discount rate.",
+      "term_ru": "Перпетуитет",
+      "definition_en": "A constant stream of identical cash flows with no end.",
       "definition_ru": "Постоянный поток одинаковых платежей без окончания.",
       "formula": "$PV_{perpetuity} = \\frac{PMT}{r}$",
       "module_id": 2,
       "related_los": ["LOS 2.c"]
     },
     {
-      "term_id": "T-QM-007",
+      "term_id": "T-QM-009",
       "term_en": "Arithmetic Mean",
       "term_ru": "Среднее арифметическое",
-      "definition_en": "The sum of all values divided by the number of values. Most commonly used measure of central tendency.",
-      "definition_ru": "Сумма всех значений, делённая на их количество. Наиболее часто используемая мера центральной тенденции.",
+      "definition_en": "The sum of all values divided by the number of values.",
+      "definition_ru": "Сумма всех значений, делённая на их количество.",
       "formula": "$\\bar{x} = \\frac{\\sum x_i}{n}$",
       "module_id": 3,
       "related_los": ["LOS 3.a"]
     },
     {
-      "term_id": "T-QM-008",
+      "term_id": "T-QM-010",
+      "term_en": "Geometric Mean",
+      "term_ru": "Среднее геометрическое",
+      "definition_en": "The nth root of the product of n values. Used for calculating average growth rates.",
+      "definition_ru": "Корень n-й степени из произведения n значений. Используется для расчёта средних темпов роста.",
+      "formula": "$G = (\\prod_{i=1}^{n} x_i)^{1/n}$",
+      "module_id": 3,
+      "related_los": ["LOS 3.a"]
+    },
+    {
+      "term_id": "T-QM-011",
       "term_en": "Standard Deviation",
       "term_ru": "Стандартное отклонение",
-      "definition_en": "A measure of the dispersion of a dataset. It is the square root of the variance and indicates how spread out the values are from the mean.",
-      "definition_ru": "Мера разброса данных. Квадратный корень из дисперсии, показывает насколько значения отклоняются от среднего.",
+      "definition_en": "A measure of the dispersion of a dataset, the square root of the variance.",
+      "definition_ru": "Мера разброса данных, квадратный корень из дисперсии.",
       "formula": "$\\sigma = \\sqrt{\\frac{\\sum(x_i - \\bar{x})^2}{n}}$",
       "module_id": 3,
       "related_los": ["LOS 3.b"]
     },
     {
-      "term_id": "T-QM-009",
+      "term_id": "T-QM-012",
+      "term_en": "Variance",
+      "term_ru": "Дисперсия",
+      "definition_en": "The average of squared deviations from the mean, measuring data spread.",
+      "definition_ru": "Среднее квадратов отклонений от среднего, мера разброса данных.",
+      "formula": "$\\sigma^2 = \\frac{\\sum(x_i - \\bar{x})^2}{n}$",
+      "module_id": 3,
+      "related_los": ["LOS 3.b"]
+    },
+    {
+      "term_id": "T-QM-013",
       "term_en": "Coefficient of Variation (CV)",
       "term_ru": "Коэффициент вариации",
-      "definition_en": "A standardized measure of dispersion calculated as the ratio of standard deviation to the mean. Used to compare volatility across different datasets.",
-      "definition_ru": "Стандартизированная мера разброса, отношение стандартного отклонения к среднему. Используется для сравнения волатильности разных наборов данных.",
+      "definition_en": "The ratio of standard deviation to the mean, used to compare volatility across datasets.",
+      "definition_ru": "Отношение стандартного отклонения к среднему.",
       "formula": "$CV = \\frac{\\sigma}{\\bar{x}}$",
       "module_id": 3,
       "related_los": ["LOS 3.c"]
     },
     {
-      "term_id": "T-QM-010",
+      "term_id": "T-QM-014",
       "term_en": "Skewness",
-      "term_ru": "Асимметрия (скошенность)",
-      "definition_en": "A measure of the asymmetry of a probability distribution. Positive skewness indicates a long right tail; negative skewness indicates a long left tail.",
-      "definition_ru": "Мера асимметрии распределения вероятностей. Положительная асимметрия - длинный правый хвост; отрицательная - длинный левый хвост.",
+      "term_ru": "Асимметрия",
+      "definition_en": "A measure of the asymmetry of a probability distribution.",
+      "definition_ru": "Мера асимметрии распределения вероятностей.",
       "formula": null,
       "module_id": 3,
       "related_los": ["LOS 3.e"]
+    },
+    {
+      "term_id": "T-QM-015",
+      "term_en": "Kurtosis",
+      "term_ru": "Эксцесс",
+      "definition_en": "A measure of the 'tailedness' of a probability distribution. Excess kurtosis compares to normal distribution.",
+      "definition_ru": "Мера 'тяжести хвостов' распределения вероятностей.",
+      "formula": null,
+      "module_id": 3,
+      "related_los": ["LOS 3.e"]
+    },
+    {
+      "term_id": "T-QM-016",
+      "term_en": "Conditional Probability",
+      "term_ru": "Условная вероятность",
+      "definition_en": "The probability of an event occurring given that another event has already occurred.",
+      "definition_ru": "Вероятность события при условии, что другое событие уже произошло.",
+      "formula": "$P(A|B) = \\frac{P(A \\cap B)}{P(B)}$",
+      "module_id": 4,
+      "related_los": ["LOS 4.a"]
+    },
+    {
+      "term_id": "T-QM-017",
+      "term_en": "Bayes' Theorem",
+      "term_ru": "Теорема Байеса",
+      "definition_en": "A formula for updating probabilities based on new information.",
+      "definition_ru": "Формула для обновления вероятностей на основе новой информации.",
+      "formula": "$P(A|B) = \\frac{P(B|A) \\times P(A)}{P(B)}$",
+      "module_id": 4,
+      "related_los": ["LOS 4.b"]
+    },
+    {
+      "term_id": "T-QM-018",
+      "term_en": "Expected Value",
+      "term_ru": "Математическое ожидание",
+      "definition_en": "The probability-weighted average of all possible outcomes.",
+      "definition_ru": "Средневзвешенное по вероятностям значение всех возможных исходов.",
+      "formula": "$E(X) = \\sum_{i} x_i \\times P(x_i)$",
+      "module_id": 4,
+      "related_los": ["LOS 4.c"]
+    },
+    {
+      "term_id": "T-QM-019",
+      "term_en": "Covariance",
+      "term_ru": "Ковариация",
+      "definition_en": "A measure of how two variables move together.",
+      "definition_ru": "Мера совместной изменчивости двух переменных.",
+      "formula": "$Cov(X,Y) = E[(X-\\mu_X)(Y-\\mu_Y)]$",
+      "module_id": 5,
+      "related_los": ["LOS 5.a"]
+    },
+    {
+      "term_id": "T-QM-020",
+      "term_en": "Correlation",
+      "term_ru": "Корреляция",
+      "definition_en": "A standardized measure of the linear relationship between two variables, ranging from -1 to +1.",
+      "definition_ru": "Стандартизированная мера линейной связи между двумя переменными.",
+      "formula": "$\\rho = \\frac{Cov(X,Y)}{\\sigma_X \\sigma_Y}$",
+      "module_id": 5,
+      "related_los": ["LOS 5.a"]
+    },
+    {
+      "term_id": "T-QM-021",
+      "term_en": "Portfolio Variance",
+      "term_ru": "Дисперсия портфеля",
+      "definition_en": "The variance of returns for a portfolio, accounting for weights, variances, and covariances of assets.",
+      "definition_ru": "Дисперсия доходности портфеля с учётом весов, дисперсий и ковариаций активов.",
+      "formula": "$\\sigma_p^2 = \\sum w_i^2\\sigma_i^2 + \\sum\\sum w_iw_jCov_{ij}$",
+      "module_id": 5,
+      "related_los": ["LOS 5.b"]
+    },
+    {
+      "term_id": "T-QM-022",
+      "term_en": "Monte Carlo Simulation",
+      "term_ru": "Симуляция Монте-Карло",
+      "definition_en": "A technique that uses random number generators to simulate many possible outcomes.",
+      "definition_ru": "Техника использования генераторов случайных чисел для моделирования множества возможных исходов.",
+      "formula": null,
+      "module_id": 6,
+      "related_los": ["LOS 6.a"]
+    },
+    {
+      "term_id": "T-QM-023",
+      "term_en": "Bootstrap",
+      "term_ru": "Бутстрэп",
+      "definition_en": "A resampling technique that draws repeated samples with replacement from observed data.",
+      "definition_ru": "Техника повторной выборки с возвращением из наблюдаемых данных.",
+      "formula": null,
+      "module_id": 6,
+      "related_los": ["LOS 6.b"]
+    },
+    {
+      "term_id": "T-QM-024",
+      "term_en": "Point Estimate",
+      "term_ru": "Точечная оценка",
+      "definition_en": "A single value used to estimate a population parameter.",
+      "definition_ru": "Одиночное значение для оценки параметра генеральной совокупности.",
+      "formula": null,
+      "module_id": 7,
+      "related_los": ["LOS 7.a"]
+    },
+    {
+      "term_id": "T-QM-025",
+      "term_en": "Confidence Interval",
+      "term_ru": "Доверительный интервал",
+      "definition_en": "A range of values that is likely to contain the population parameter with a specified level of confidence.",
+      "definition_ru": "Диапазон значений, который вероятно содержит параметр совокупности с заданным уровнем доверия.",
+      "formula": "$\\bar{x} \\pm z_{\\alpha/2} \\times \\frac{\\sigma}{\\sqrt{n}}$",
+      "module_id": 7,
+      "related_los": ["LOS 7.b"]
+    },
+    {
+      "term_id": "T-QM-026",
+      "term_en": "Standard Error",
+      "term_ru": "Стандартная ошибка",
+      "definition_en": "The standard deviation of a sampling distribution.",
+      "definition_ru": "Стандартное отклонение выборочного распределения.",
+      "formula": "$SE = \\frac{\\sigma}{\\sqrt{n}}$",
+      "module_id": 7,
+      "related_los": ["LOS 7.a"]
+    },
+    {
+      "term_id": "T-QM-027",
+      "term_en": "Null Hypothesis",
+      "term_ru": "Нулевая гипотеза",
+      "definition_en": "The hypothesis to be tested, typically a statement of no effect or no difference.",
+      "definition_ru": "Проверяемая гипотеза, обычно утверждение об отсутствии эффекта или различия.",
+      "formula": null,
+      "module_id": 8,
+      "related_los": ["LOS 8.a"]
+    },
+    {
+      "term_id": "T-QM-028",
+      "term_en": "Alternative Hypothesis",
+      "term_ru": "Альтернативная гипотеза",
+      "definition_en": "The hypothesis accepted if the null hypothesis is rejected.",
+      "definition_ru": "Гипотеза, принимаемая при отклонении нулевой гипотезы.",
+      "formula": null,
+      "module_id": 8,
+      "related_los": ["LOS 8.a"]
+    },
+    {
+      "term_id": "T-QM-029",
+      "term_en": "Type I Error",
+      "term_ru": "Ошибка I рода",
+      "definition_en": "Rejecting a true null hypothesis (false positive).",
+      "definition_ru": "Отклонение верной нулевой гипотезы (ложноположительный результат).",
+      "formula": null,
+      "module_id": 8,
+      "related_los": ["LOS 8.b"]
+    },
+    {
+      "term_id": "T-QM-030",
+      "term_en": "Type II Error",
+      "term_ru": "Ошибка II рода",
+      "definition_en": "Failing to reject a false null hypothesis (false negative).",
+      "definition_ru": "Неотклонение ложной нулевой гипотезы (ложноотрицательный результат).",
+      "formula": null,
+      "module_id": 8,
+      "related_los": ["LOS 8.b"]
+    },
+    {
+      "term_id": "T-QM-031",
+      "term_en": "P-value",
+      "term_ru": "P-значение",
+      "definition_en": "The probability of obtaining results at least as extreme as observed, assuming the null hypothesis is true.",
+      "definition_ru": "Вероятность получения результатов не менее экстремальных, чем наблюдаемые, при условии истинности нулевой гипотезы.",
+      "formula": null,
+      "module_id": 8,
+      "related_los": ["LOS 8.c"]
+    },
+    {
+      "term_id": "T-QM-032",
+      "term_en": "t-test",
+      "term_ru": "t-тест",
+      "definition_en": "A statistical test used to determine if there is a significant difference between means.",
+      "definition_ru": "Статистический тест для определения значимости различия между средними.",
+      "formula": "$t = \\frac{\\bar{x} - \\mu}{s/\\sqrt{n}}$",
+      "module_id": 8,
+      "related_los": ["LOS 8.d"]
+    },
+    {
+      "term_id": "T-QM-033",
+      "term_en": "Chi-Square Test",
+      "term_ru": "Хи-квадрат тест",
+      "definition_en": "A test used to determine if there is a significant association between categorical variables.",
+      "definition_ru": "Тест для определения значимой связи между категориальными переменными.",
+      "formula": "$\\chi^2 = \\sum \\frac{(O-E)^2}{E}$",
+      "module_id": 9,
+      "related_los": ["LOS 9.a"]
+    },
+    {
+      "term_id": "T-QM-034",
+      "term_en": "F-test",
+      "term_ru": "F-тест",
+      "definition_en": "A test used to compare variances or test overall significance in regression.",
+      "definition_ru": "Тест для сравнения дисперсий или проверки общей значимости регрессии.",
+      "formula": "$F = \\frac{s_1^2}{s_2^2}$",
+      "module_id": 9,
+      "related_los": ["LOS 9.b"]
+    },
+    {
+      "term_id": "T-QM-035",
+      "term_en": "Simple Linear Regression",
+      "term_ru": "Простая линейная регрессия",
+      "definition_en": "A statistical method that models the relationship between one dependent and one independent variable.",
+      "definition_ru": "Статистический метод моделирования связи между одной зависимой и одной независимой переменной.",
+      "formula": "$Y = \\alpha + \\beta X + \\epsilon$",
+      "module_id": 10,
+      "related_los": ["LOS 10.a"]
+    },
+    {
+      "term_id": "T-QM-036",
+      "term_en": "R-squared (Coefficient of Determination)",
+      "term_ru": "R-квадрат (коэффициент детерминации)",
+      "definition_en": "The proportion of variance in the dependent variable explained by the independent variable(s).",
+      "definition_ru": "Доля дисперсии зависимой переменной, объяснённая независимой переменной(ами).",
+      "formula": "$R^2 = 1 - \\frac{SS_{res}}{SS_{tot}}$",
+      "module_id": 10,
+      "related_los": ["LOS 10.b"]
+    },
+    {
+      "term_id": "T-QM-037",
+      "term_en": "Slope Coefficient",
+      "term_ru": "Коэффициент наклона",
+      "definition_en": "The change in the dependent variable for a one-unit change in the independent variable.",
+      "definition_ru": "Изменение зависимой переменной при изменении независимой переменной на единицу.",
+      "formula": "$\\beta = \\frac{Cov(X,Y)}{Var(X)}$",
+      "module_id": 10,
+      "related_los": ["LOS 10.a"]
+    },
+    {
+      "term_id": "T-QM-038",
+      "term_en": "Residual",
+      "term_ru": "Остаток",
+      "definition_en": "The difference between the observed value and the predicted value from a regression model.",
+      "definition_ru": "Разница между наблюдаемым и предсказанным значением регрессионной модели.",
+      "formula": "$e_i = Y_i - \\hat{Y}_i$",
+      "module_id": 10,
+      "related_los": ["LOS 10.c"]
+    },
+    {
+      "term_id": "T-QM-039",
+      "term_en": "Big Data",
+      "term_ru": "Большие данные",
+      "definition_en": "Extremely large datasets characterized by volume, velocity, variety, and veracity.",
+      "definition_ru": "Чрезвычайно большие наборы данных, характеризующиеся объёмом, скоростью, разнообразием и достоверностью.",
+      "formula": null,
+      "module_id": 11,
+      "related_los": ["LOS 11.a"]
+    },
+    {
+      "term_id": "T-QM-040",
+      "term_en": "Machine Learning",
+      "term_ru": "Машинное обучение",
+      "definition_en": "A subset of AI that enables systems to learn and improve from experience without being explicitly programmed.",
+      "definition_ru": "Подраздел ИИ, позволяющий системам учиться и улучшаться на основе опыта без явного программирования.",
+      "formula": null,
+      "module_id": 11,
+      "related_los": ["LOS 11.b"]
+    },
+    {
+      "term_id": "T-QM-041",
+      "term_en": "Neural Network",
+      "term_ru": "Нейронная сеть",
+      "definition_en": "A computing system inspired by biological neural networks, used for pattern recognition and prediction.",
+      "definition_ru": "Вычислительная система, вдохновлённая биологическими нейронными сетями, для распознавания образов и прогнозирования.",
+      "formula": null,
+      "module_id": 11,
+      "related_los": ["LOS 11.c"]
     }
   ]
 }
