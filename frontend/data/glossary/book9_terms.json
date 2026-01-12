@@ -11,7 +11,8 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-PM-002",
@@ -21,7 +22,8 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-PM-003",
@@ -31,7 +33,8 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-PM-004",
@@ -41,7 +44,8 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-PM-005",
@@ -51,7 +55,18 @@
       "definition_ru": "",
       "formula": "$\\beta = \\frac{Cov(R_i, R_m)}{Var(R_m)}$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Statistics (регрессия)",
+        "steps": [
+          "Beta = наклон регрессии доходности актива на рынок",
+          "[2ND] [DATA] - ввести пары (Rm, Ri)",
+          "X = доходность рынка, Y = доходность актива",
+          "[2ND] [STAT] → [2ND] [SET] → LIN",
+          "[↓] до b (slope) = Beta"
+        ],
+        "example": "Регрессия Ri на Rm: slope b = β = 1.2"
+      }
     },
     {
       "term_id": "T-PM-006",
@@ -61,7 +76,17 @@
       "definition_ru": "",
       "formula": "$E(R_i) = R_f + \\beta(E(R_m) - R_f)$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Прямой расчёт",
+        "steps": [
+          "E(Ri) = Rf + β × (E(Rm) - Rf)",
+          "1. Вычислить премию за рыночный риск: E(Rm) - Rf",
+          "2. Умножить на бету: β × премия",
+          "3. Добавить безрисковую ставку: Rf + результат"
+        ],
+        "example": "Rf=3%, β=1.2, E(Rm)=10% → 3 + 1.2×7 = 11.4%"
+      }
     },
     {
       "term_id": "T-PM-007",
@@ -71,7 +96,16 @@
       "definition_ru": "",
       "formula": "$Sharpe = \\frac{R_p - R_f}{\\sigma_p}$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Прямой расчёт",
+        "steps": [
+          "Sharpe = (Rp - Rf) / σp",
+          "1. Вычислить избыточную доходность: Rp - Rf",
+          "2. Разделить на стандартное отклонение портфеля: / σp"
+        ],
+        "example": "Rp=12%, Rf=3%, σp=15% → (12-3)/15 = 0.60"
+      }
     },
     {
       "term_id": "T-PM-008",
@@ -81,7 +115,16 @@
       "definition_ru": "",
       "formula": "$Treynor = \\frac{R_p - R_f}{\\beta_p}$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Прямой расчёт",
+        "steps": [
+          "Treynor = (Rp - Rf) / βp",
+          "1. Вычислить избыточную доходность: Rp - Rf",
+          "2. Разделить на бету портфеля: / βp"
+        ],
+        "example": "Rp=12%, Rf=3%, βp=1.2 → (12-3)/1.2 = 7.5%"
+      }
     },
     {
       "term_id": "T-PM-009",
@@ -91,7 +134,17 @@
       "definition_ru": "",
       "formula": "$\\alpha = R_p - [R_f + \\beta(R_m - R_f)]$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Прямой расчёт",
+        "steps": [
+          "α = Rp - [Rf + β(Rm - Rf)]",
+          "1. Вычислить CAPM ожидаемую доходность: Rf + β(Rm - Rf)",
+          "2. Вычесть из фактической доходности: Rp - CAPM",
+          "Положительная α = портфель превзошёл ожидания"
+        ],
+        "example": "Rp=14%, Rf=3%, β=1.2, Rm=10% → 14-(3+1.2×7) = 14-11.4 = 2.6%"
+      }
     },
     {
       "term_id": "T-PM-010",
@@ -101,7 +154,8 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-PM-011",
@@ -111,7 +165,8 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-PM-012",
@@ -121,7 +176,8 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     }
   ]
 }

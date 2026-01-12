@@ -11,7 +11,19 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "TVM",
+        "steps": [
+          "Forward Price = Spot × (1 + r)^T",
+          "Или через TVM:",
+          "PV = -Spot Price",
+          "I/Y = безрисковая ставка",
+          "N = время до исполнения",
+          "[CPT] [FV] = Forward Price"
+        ],
+        "example": "Spot=$100, r=5%, T=1 → FV = $105"
+      }
     },
     {
       "term_id": "T-DER-002",
@@ -21,7 +33,8 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-DER-003",
@@ -31,7 +44,8 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-DER-004",
@@ -41,7 +55,17 @@
       "definition_ru": "",
       "formula": "$Payoff = max(S_T - X, 0)$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Прямой расчёт",
+        "steps": [
+          "Payoff при исполнении = max(ST - X, 0)",
+          "Profit = Payoff - Premium paid",
+          "Если ST > X: Payoff = ST - X",
+          "Если ST ≤ X: Payoff = 0 (не исполняем)"
+        ],
+        "example": "ST=$55, X=$50, Premium=$3 → Payoff=5, Profit=5-3=$2"
+      }
     },
     {
       "term_id": "T-DER-005",
@@ -51,7 +75,17 @@
       "definition_ru": "",
       "formula": "$Payoff = max(X - S_T, 0)$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Прямой расчёт",
+        "steps": [
+          "Payoff при исполнении = max(X - ST, 0)",
+          "Profit = Payoff - Premium paid",
+          "Если ST < X: Payoff = X - ST",
+          "Если ST ≥ X: Payoff = 0 (не исполняем)"
+        ],
+        "example": "ST=$45, X=$50, Premium=$2 → Payoff=5, Profit=5-2=$3"
+      }
     },
     {
       "term_id": "T-DER-006",
@@ -61,7 +95,8 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-DER-007",
@@ -71,7 +106,8 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-DER-008",
@@ -81,7 +117,17 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Прямой расчёт",
+        "steps": [
+          "Call: IV = max(S - X, 0)",
+          "Put: IV = max(X - S, 0)",
+          "S = текущая цена актива",
+          "X = страйк"
+        ],
+        "example": "Call: S=$52, X=$50 → IV = $2"
+      }
     },
     {
       "term_id": "T-DER-009",
@@ -91,7 +137,14 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Прямой расчёт",
+        "steps": [
+          "Time Value = Premium - Intrinsic Value"
+        ],
+        "example": "Premium=$5, IV=$2 → Time Value = $3"
+      }
     },
     {
       "term_id": "T-DER-010",
@@ -101,7 +154,21 @@
       "definition_ru": "",
       "formula": "$C + PV(X) = P + S$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "TVM для PV(X)",
+        "steps": [
+          "C + PV(X) = P + S",
+          "Для расчёта PV(X):",
+          "FV = X (страйк)",
+          "I/Y = безрисковая ставка",
+          "N = время до экспирации",
+          "PMT = 0",
+          "[CPT] [PV] = приведённая стоимость страйка",
+          "Затем: C = P + S - PV(X) или P = C + PV(X) - S"
+        ],
+        "example": "X=$50, r=5%, T=0.5: PV(X)=50/(1.05)^0.5=$48.79"
+      }
     },
     {
       "term_id": "T-DER-011",
@@ -111,7 +178,8 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-DER-012",
@@ -121,7 +189,8 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     }
   ]
 }

@@ -11,7 +11,8 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-EQ-002",
@@ -21,7 +22,16 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "TVM (как перпетуитет)",
+        "steps": [
+          "Цена привилегированной акции = D / r",
+          "где D = дивиденд, r = требуемая доходность",
+          "На калькуляторе: D ÷ r = цена"
+        ],
+        "example": "D=$5, r=8% → 5÷0.08 = $62.50"
+      }
     },
     {
       "term_id": "T-EQ-003",
@@ -31,7 +41,17 @@
       "definition_ru": "",
       "formula": "$P_0 = \\frac{D_1}{r - g}$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Прямой расчёт",
+        "steps": [
+          "P₀ = D₁ / (r - g)",
+          "1. Вычислить D₁ = D₀ × (1 + g) если нужно",
+          "2. Вычислить (r - g)",
+          "3. D₁ ÷ (r - g) = цена акции"
+        ],
+        "example": "D₁=$2.10, r=12%, g=5% → 2.10÷(0.12-0.05) = 2.10÷0.07 = $30"
+      }
     },
     {
       "term_id": "T-EQ-004",
@@ -41,7 +61,17 @@
       "definition_ru": "",
       "formula": "$P_0 = \\frac{D_0(1+g)}{r - g}$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Прямой расчёт",
+        "steps": [
+          "P₀ = D₀(1+g) / (r - g)",
+          "1. D₀ × (1 + g) = D₁",
+          "2. r - g = знаменатель",
+          "3. D₁ ÷ знаменатель = P₀"
+        ],
+        "example": "D₀=$2, g=5%, r=12% → 2×1.05÷0.07 = $30"
+      }
     },
     {
       "term_id": "T-EQ-005",
@@ -51,7 +81,8 @@
       "definition_ru": "",
       "formula": "$FCF = CFO - CapEx$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-EQ-006",
@@ -61,7 +92,20 @@
       "definition_ru": "",
       "formula": "$FCFE = CFO - CapEx + Net\\ Borrowing$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "CF (для оценки)",
+        "steps": [
+          "После расчёта FCFE для каждого года:",
+          "[CF] - Cash Flow worksheet",
+          "CF0 = 0 (или начальные инвестиции)",
+          "Ввести FCFE для каждого года как C01, C02...",
+          "Добавить терминальную стоимость к последнему CF",
+          "[NPV] I = требуемая доходность на equity",
+          "[CPT] = стоимость equity"
+        ],
+        "example": "FCFE: 10, 12, 14 + TV=200, r=10% → NPV"
+      }
     },
     {
       "term_id": "T-EQ-007",
@@ -71,7 +115,20 @@
       "definition_ru": "",
       "formula": "$FCFF = EBIT(1-t) + Depreciation - CapEx - \\Delta WC$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "CF (для оценки)",
+        "steps": [
+          "После расчёта FCFF для каждого года:",
+          "[CF] - Cash Flow worksheet",
+          "Ввести FCFF как денежные потоки",
+          "Добавить терминальную стоимость",
+          "[NPV] I = WACC",
+          "[CPT] = стоимость фирмы (EV)",
+          "Equity = EV - Debt"
+        ],
+        "example": "FCFF потоки, WACC=9% → NPV = EV"
+      }
     },
     {
       "term_id": "T-EQ-008",
@@ -81,7 +138,8 @@
       "definition_ru": "",
       "formula": "$EV = Market\\ Cap + Debt - Cash$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-EQ-009",
@@ -91,7 +149,8 @@
       "definition_ru": "",
       "formula": "$Market\\ Cap = Share\\ Price \\times Shares\\ Outstanding$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-EQ-010",
@@ -101,7 +160,8 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     }
   ]
 }

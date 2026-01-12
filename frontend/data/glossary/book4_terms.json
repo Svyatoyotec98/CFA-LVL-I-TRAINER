@@ -11,7 +11,8 @@
       "definition_ru": "",
       "formula": "$Assets = Liabilities + Equity$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-FSA-002",
@@ -21,7 +22,8 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-FSA-003",
@@ -31,7 +33,8 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-FSA-004",
@@ -41,7 +44,17 @@
       "definition_ru": "",
       "formula": "$Current\\ Ratio = \\frac{Current\\ Assets}{Current\\ Liabilities}$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Простое деление",
+        "steps": [
+          "Current Ratio = Current Assets ÷ Current Liabilities",
+          "Ввести Current Assets",
+          "÷ Current Liabilities",
+          "= Current Ratio"
+        ],
+        "example": "CA=$500,000, CL=$250,000 → 500000÷250000 = 2.0"
+      }
     },
     {
       "term_id": "T-FSA-005",
@@ -51,7 +64,16 @@
       "definition_ru": "",
       "formula": "$Quick\\ Ratio = \\frac{Cash + Receivables}{Current\\ Liabilities}$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Простой расчёт",
+        "steps": [
+          "Quick Ratio = (Cash + Receivables) ÷ Current Liabilities",
+          "1. Cash + Receivables = числитель",
+          "2. ÷ Current Liabilities = Quick Ratio"
+        ],
+        "example": "Cash=$100K, AR=$150K, CL=$200K → (100+150)÷200 = 1.25"
+      }
     },
     {
       "term_id": "T-FSA-006",
@@ -61,7 +83,17 @@
       "definition_ru": "",
       "formula": "$ROE = \\frac{Net\\ Income}{Shareholders'\\ Equity}$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Простое деление",
+        "steps": [
+          "ROE = Net Income ÷ Shareholders' Equity × 100%",
+          "Ввести Net Income",
+          "÷ Shareholders' Equity",
+          "× 100 = ROE в %"
+        ],
+        "example": "NI=$50M, Equity=$400M → 50÷400×100 = 12.5%"
+      }
     },
     {
       "term_id": "T-FSA-007",
@@ -71,7 +103,14 @@
       "definition_ru": "",
       "formula": "$ROA = \\frac{Net\\ Income}{Total\\ Assets}$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Простое деление",
+        "steps": [
+          "ROA = Net Income ÷ Total Assets × 100%"
+        ],
+        "example": "NI=$50M, Assets=$1B → 50÷1000×100 = 5%"
+      }
     },
     {
       "term_id": "T-FSA-008",
@@ -81,7 +120,18 @@
       "definition_ru": "",
       "formula": "$ROE = \\frac{NI}{Sales} \\times \\frac{Sales}{Assets} \\times \\frac{Assets}{Equity}$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Трёхкомпонентный расчёт",
+        "steps": [
+          "ROE = Profit Margin × Asset Turnover × Financial Leverage",
+          "1. NI ÷ Sales = Profit Margin",
+          "2. Sales ÷ Assets = Asset Turnover",
+          "3. Assets ÷ Equity = Financial Leverage",
+          "4. Перемножить все три = ROE"
+        ],
+        "example": "PM=5%, AT=1.5, FL=2 → 0.05×1.5×2 = 15%"
+      }
     },
     {
       "term_id": "T-FSA-009",
@@ -91,7 +141,16 @@
       "definition_ru": "",
       "formula": "$EPS = \\frac{Net\\ Income - Preferred\\ Dividends}{Weighted\\ Avg\\ Shares}$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Простое деление",
+        "steps": [
+          "EPS = (Net Income - Pref Div) ÷ Weighted Avg Shares",
+          "1. Net Income - Preferred Dividends",
+          "2. ÷ средневзвешенное число акций"
+        ],
+        "example": "NI=$100M, Pref=$5M, Shares=50M → (100-5)÷50 = $1.90"
+      }
     },
     {
       "term_id": "T-FSA-010",
@@ -101,7 +160,14 @@
       "definition_ru": "",
       "formula": "$P/E = \\frac{Market\\ Price\\ per\\ Share}{EPS}$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Простое деление",
+        "steps": [
+          "P/E = Price per Share ÷ EPS"
+        ],
+        "example": "Price=$50, EPS=$2.50 → 50÷2.50 = 20x"
+      }
     },
     {
       "term_id": "T-FSA-011",
@@ -111,7 +177,20 @@
       "definition_ru": "",
       "formula": null,
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Depreciation",
+        "steps": [
+          "[2ND] [DEPR] - открыть Depreciation worksheet",
+          "[2ND] [SET] - выбрать метод (SL, SYD, DB)",
+          "LIF = срок службы актива (лет)",
+          "CST = первоначальная стоимость",
+          "SAL = ликвидационная стоимость",
+          "YR = год для расчёта",
+          "[↓] DEP = амортизация за год"
+        ],
+        "example": "CST=10000, SAL=1000, LIF=5 → SL DEP=1800/год"
+      }
     },
     {
       "term_id": "T-FSA-012",
@@ -121,7 +200,8 @@
       "definition_ru": "",
       "formula": "$WC = Current\\ Assets - Current\\ Liabilities$",
       "module_id": 1,
-      "related_los": []
+      "related_los": [],
+      "calculator_steps": null
     }
   ]
 }
