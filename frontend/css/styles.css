@@ -823,10 +823,17 @@ a:hover {
 .calc-controls select {
     flex: 1;
     padding: 12px;
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(30, 30, 50, 0.95);
     border: 1px solid var(--glass-border);
     border-radius: 8px;
     color: var(--text);
+    cursor: pointer;
+}
+
+.calc-controls select option {
+    background: #1a1a2e;
+    color: white;
+    padding: 10px;
 }
 
 /* Glossary */
