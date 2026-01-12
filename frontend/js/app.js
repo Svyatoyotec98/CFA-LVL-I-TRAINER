@@ -489,8 +489,8 @@ function selectAnswer(letter) {
 
     updateQuestionDots();
 
-    // In 90-second mode, show result immediately
-    if (state.testMode === '90_second') {
+    // In 90-second mode or light mode, show result immediately
+    if (state.testMode === '90_second' || state.testMode === 'light') {
         showQuestionResult(question, letter);
     }
 }
@@ -861,45 +861,82 @@ async function answerReview(questionId, userAnswer, correctAnswer) {
 
 // ============== Glossary ==============
 let glossaryTerms = [];
+let filteredGlossaryTerms = [];
+let glossaryPage = 1;
+const glossaryPageSize = 20;
+
+// Module names for each book
+const bookModules = {
+    1: [
+        { id: 1, name: "Rate and Return" },
+        { id: 2, name: "Time Value of Money" },
+        { id: 3, name: "Statistical Measures" },
+        { id: 4, name: "Probability Trees" },
+        { id: 5, name: "Portfolio Mathematics" },
+        { id: 6, name: "Simulation Methods" },
+        { id: 7, name: "Estimation and Inference" },
+        { id: 8, name: "Hypothesis Testing" },
+        { id: 9, name: "Parametric Tests" },
+        { id: 10, name: "Simple Linear Regression" },
+        { id: 11, name: "Big Data Techniques" }
+    ],
+    2: [
+        { id: 1, name: "Demand and Supply" },
+        { id: 2, name: "The Firm and Market Structures" },
+        { id: 3, name: "Aggregate Output and Prices" },
+        { id: 4, name: "Business Cycles" },
+        { id: 5, name: "Monetary and Fiscal Policy" },
+        { id: 6, name: "International Trade" },
+        { id: 7, name: "Currency Exchange Rates" },
+        { id: 8, name: "Geopolitics" }
+    ]
+    // Add more books as needed
+};
 
 async function loadGlossary() {
     try {
         const data = await apiGet('/glossary');
         glossaryTerms = data.terms || [];
-        displayGlossary(glossaryTerms);
+        filteredGlossaryTerms = [...glossaryTerms];
+        glossaryPage = 1;
+        displayGlossaryPage();
     } catch (error) {
         document.getElementById('glossary-list').innerHTML =
             '<p class="text-center text-muted">Ошибка загрузки глоссария</p>';
     }
 }
 
-function displayGlossary(terms) {
+function displayGlossaryPage() {
     const container = document.getElementById('glossary-list');
-    container.innerHTML = terms.map(term => `
-        <div class="glossary-item">
-            <div class="term-name">${term.term_en}</div>
-            ${term.term_ru ? `<div class="term-name-ru">${term.term_ru}</div>` : ''}
-            <div class="term-definition">${term.definition_en}</div>
-            ${term.definition_ru ? `<div class="term-definition-ru">${term.definition_ru}</div>` : ''}
-            ${term.formula ? `<div class="term-formula">\\(${term.formula.replace(/^\$|\$$/g, '')}\\)</div>` : ''}
-            ${term.calculator_steps ? `
-                <div class="calculator-instructions">
-                    <div class="calc-header" onclick="toggleCalcSteps(this)">
-                        <span>🖩 BA II Plus: ${term.calculator_steps.worksheet}</span>
-                        <span class="toggle-icon">▼</span>
-                    </div>
-                    <div class="calc-steps hidden">
-                        <ol>
-                            ${term.calculator_steps.steps.map(step => `<li>${step}</li>`).join('')}
-                        </ol>
-                        ${term.calculator_steps.example ? `<div class="calc-example"><strong>Пример:</strong> ${term.calculator_steps.example}</div>` : ''}
-                    </div>
-                </div>
-            ` : ''}
-        </div>
-    `).join('');
+    const start = (glossaryPage - 1) * glossaryPageSize;
+    const end = start + glossaryPageSize;
+    const pageTerms = filteredGlossaryTerms.slice(start, end);
 
-    // MathJax render with retry for async loading
+    if (pageTerms.length === 0) {
+        container.innerHTML = '<p class="text-center text-muted">Термины не найдены</p>';
+    } else {
+        container.innerHTML = pageTerms.map(term => `
+            <div class="glossary-item">
+                <div class="term-header">
+                    <div class="term-name">${term.term_en}</div>
+                    ${term.module_id ? `<span class="term-module">Глава ${term.module_id}</span>` : ''}
+                </div>
+                ${term.term_ru ? `<div class="term-name-ru">${term.term_ru}</div>` : ''}
+                <div class="term-definition">${term.definition_en}</div>
+                ${term.definition_ru ? `<div class="term-definition-ru">${term.definition_ru}</div>` : ''}
+                ${term.formula ? `<div class="term-formula">\\(${term.formula.replace(/^\$|\$$/g, '')}\\)</div>` : ''}
+            </div>
+        `).join('');
+    }
+
+    // Update pagination
+    const totalPages = Math.ceil(filteredGlossaryTerms.length / glossaryPageSize) || 1;
+    document.getElementById('glossary-page-info').textContent =
+        `Страница ${glossaryPage} из ${totalPages} (${filteredGlossaryTerms.length} терминов)`;
+    document.getElementById('glossary-prev-btn').disabled = glossaryPage <= 1;
+    document.getElementById('glossary-next-btn').disabled = glossaryPage >= totalPages;
+
+    // MathJax render
     if (window.MathJax && MathJax.typesetPromise) {
         MathJax.typesetPromise([container]).catch(err => console.log('MathJax error:', err));
     } else {
@@ -909,29 +946,72 @@ function displayGlossary(terms) {
     }
 }
 
-function toggleCalcSteps(header) {
-    const steps = header.nextElementSibling;
-    const icon = header.querySelector('.toggle-icon');
-    steps.classList.toggle('hidden');
-    icon.textContent = steps.classList.contains('hidden') ? '▼' : '▲';
+function glossaryPrevPage() {
+    if (glossaryPage > 1) {
+        glossaryPage--;
+        displayGlossaryPage();
+    }
+}
+
+function glossaryNextPage() {
+    const totalPages = Math.ceil(filteredGlossaryTerms.length / glossaryPageSize);
+    if (glossaryPage < totalPages) {
+        glossaryPage++;
+        displayGlossaryPage();
+    }
+}
+
+function onBookFilterChange() {
+    const bookId = document.getElementById('glossary-book-filter').value;
+    const moduleSelect = document.getElementById('glossary-module-filter');
+
+    // Update module options based on selected book
+    moduleSelect.innerHTML = '<option value="">Все главы</option>';
+
+    if (bookId && bookModules[bookId]) {
+        bookModules[bookId].forEach(mod => {
+            moduleSelect.innerHTML += `<option value="${mod.id}">Глава ${mod.id}: ${mod.name}</option>`;
+        });
+    }
+
+    filterGlossary();
 }
 
 function searchGlossary() {
     const query = document.getElementById('glossary-search').value.toLowerCase();
-    const filtered = glossaryTerms.filter(t =>
-        t.term_en.toLowerCase().includes(query) ||
-        (t.term_ru && t.term_ru.toLowerCase().includes(query)) ||
-        t.definition_en.toLowerCase().includes(query)
-    );
-    displayGlossary(filtered);
+    applyGlossaryFilters(query);
 }
 
 function filterGlossary() {
+    const query = document.getElementById('glossary-search').value.toLowerCase();
+    applyGlossaryFilters(query);
+}
+
+function applyGlossaryFilters(searchQuery = '') {
     const bookId = document.getElementById('glossary-book-filter').value;
-    const filtered = bookId
-        ? glossaryTerms.filter(t => t.book_id == bookId)
-        : glossaryTerms;
-    displayGlossary(filtered);
+    const moduleId = document.getElementById('glossary-module-filter').value;
+
+    filteredGlossaryTerms = glossaryTerms.filter(t => {
+        // Book filter
+        if (bookId && t.book_id != bookId) return false;
+
+        // Module filter
+        if (moduleId && t.module_id != moduleId) return false;
+
+        // Search filter
+        if (searchQuery) {
+            const matchTerm = t.term_en.toLowerCase().includes(searchQuery) ||
+                (t.term_ru && t.term_ru.toLowerCase().includes(searchQuery));
+            const matchDef = t.definition_en.toLowerCase().includes(searchQuery) ||
+                (t.definition_ru && t.definition_ru.toLowerCase().includes(searchQuery));
+            if (!matchTerm && !matchDef) return false;
+        }
+
+        return true;
+    });
+
+    glossaryPage = 1;
+    displayGlossaryPage();
 }
 
 // ============== Statistics ==============
