@@ -1,0 +1,195 @@
+{
+  "worksheet": "Stats",
+  "worksheet_name": "Statistics",
+  "worksheet_name_ru": "Статистика",
+  "problems": [
+    {
+      "problem_id": "CALC-STAT-001",
+      "worksheet": "Stats",
+      "problem_text": "Calculate the mean and sample standard deviation of the following returns: 5%, 8%, -2%, 12%, 7%",
+      "problem_text_ru": "Рассчитайте среднее и выборочное стандартное отклонение для доходностей: 5%, 8%, -2%, 12%, 7%",
+      "given": {"data": [5, 8, -2, 12, 7]},
+      "find": "mean, Sx",
+      "correct_answer": {"mean": 6.0, "Sx": 5.24},
+      "tolerance": 0.01,
+      "steps": [
+        "Press [2ND] [DATA]",
+        "Press [2ND] [CLR WORK]",
+        "Enter 5 [ENTER] [↓] [↓]",
+        "Enter 8 [ENTER] [↓] [↓]",
+        "Enter -2 [ENTER] [↓] [↓]",
+        "Enter 12 [ENTER] [↓] [↓]",
+        "Enter 7 [ENTER] [↓] [↓]",
+        "Press [2ND] [STAT]",
+        "Press [↓] to find x̄ = 6.0",
+        "Press [↓] to find Sx = 5.24"
+      ],
+      "common_mistakes": [
+        "Confusing population (σx) vs sample (Sx) standard deviation",
+        "Not clearing previous data"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "problem_id": "CALC-STAT-002",
+      "worksheet": "Stats",
+      "problem_text": "Calculate the mean of these stock prices: $45, $48, $52, $49, $51, $47",
+      "problem_text_ru": "Рассчитайте среднее для цен акций: $45, $48, $52, $49, $51, $47",
+      "given": {"data": [45, 48, 52, 49, 51, 47]},
+      "find": "mean",
+      "correct_answer": 48.67,
+      "tolerance": 0.01,
+      "steps": [
+        "Press [2ND] [DATA]",
+        "Press [2ND] [CLR WORK]",
+        "Enter each value: 45 [ENTER] [↓] [↓]",
+        "Continue for all values",
+        "Press [2ND] [STAT]",
+        "Scroll to x̄",
+        "Answer: 48.67"
+      ],
+      "common_mistakes": [
+        "Forgetting to clear previous data"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "problem_id": "CALC-STAT-003",
+      "worksheet": "Stats",
+      "problem_text": "Given these annual returns: 10%, 15%, -5%, 8%, 12%, calculate the population standard deviation.",
+      "problem_text_ru": "Для годовых доходностей: 10%, 15%, -5%, 8%, 12% рассчитайте популяционное стандартное отклонение.",
+      "given": {"data": [10, 15, -5, 8, 12]},
+      "find": "σx",
+      "correct_answer": 6.93,
+      "tolerance": 0.05,
+      "steps": [
+        "Press [2ND] [DATA]",
+        "Press [2ND] [CLR WORK]",
+        "Enter all values",
+        "Press [2ND] [STAT]",
+        "Scroll to σx (population std dev)",
+        "Answer: 6.93"
+      ],
+      "common_mistakes": [
+        "Using Sx (sample) instead of σx (population)"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "problem_id": "CALC-STAT-004",
+      "worksheet": "Stats",
+      "problem_text": "You have X values: 2, 4, 6, 8 and Y values: 3, 6, 8, 11. Calculate the correlation coefficient.",
+      "problem_text_ru": "Даны значения X: 2, 4, 6, 8 и Y: 3, 6, 8, 11. Рассчитайте коэффициент корреляции.",
+      "given": {"X": [2, 4, 6, 8], "Y": [3, 6, 8, 11]},
+      "find": "r",
+      "correct_answer": 0.99,
+      "tolerance": 0.01,
+      "steps": [
+        "Press [2ND] [DATA]",
+        "Press [2ND] [CLR WORK]",
+        "Enter: X01=2 [ENTER] [↓] Y01=3 [ENTER] [↓]",
+        "Enter: X02=4 [ENTER] [↓] Y02=6 [ENTER] [↓]",
+        "Continue for all pairs",
+        "Press [2ND] [STAT]",
+        "Press [2ND] [SET] to select LIN (linear regression)",
+        "Scroll to r",
+        "Answer: 0.99"
+      ],
+      "common_mistakes": [
+        "Need to enter Y values as well for correlation",
+        "Must select correct regression type"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "problem_id": "CALC-STAT-005",
+      "worksheet": "Stats",
+      "problem_text": "Calculate the sum of these values: 100, 150, 200, 175, 125",
+      "problem_text_ru": "Рассчитайте сумму значений: 100, 150, 200, 175, 125",
+      "given": {"data": [100, 150, 200, 175, 125]},
+      "find": "Σx",
+      "correct_answer": 750,
+      "tolerance": 0.01,
+      "steps": [
+        "Press [2ND] [DATA]",
+        "Press [2ND] [CLR WORK]",
+        "Enter all values",
+        "Press [2ND] [STAT]",
+        "Scroll to Σx",
+        "Answer: 750"
+      ],
+      "common_mistakes": [
+        "Sum is a basic statistic"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "problem_id": "CALC-STAT-006",
+      "worksheet": "Stats",
+      "problem_text": "For the data set: 20, 25, 30, 35, 40, calculate the sample variance.",
+      "problem_text_ru": "Для набора данных: 20, 25, 30, 35, 40 рассчитайте выборочную дисперсию.",
+      "given": {"data": [20, 25, 30, 35, 40]},
+      "find": "Sx²",
+      "correct_answer": 62.50,
+      "tolerance": 0.10,
+      "steps": [
+        "Press [2ND] [DATA]",
+        "Enter all values",
+        "Press [2ND] [STAT]",
+        "Find Sx = 7.91",
+        "Square it: 7.91² = 62.50",
+        "Or calculate: Sx² = 62.50"
+      ],
+      "common_mistakes": [
+        "Variance is standard deviation squared"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "problem_id": "CALC-STAT-007",
+      "worksheet": "Stats",
+      "problem_text": "Calculate the weighted mean: Values 10, 20, 30 with frequencies 2, 3, 5.",
+      "problem_text_ru": "Рассчитайте взвешенное среднее: Значения 10, 20, 30 с частотами 2, 3, 5.",
+      "given": {"data": [10, 20, 30], "frequencies": [2, 3, 5]},
+      "find": "weighted mean",
+      "correct_answer": 23.0,
+      "tolerance": 0.01,
+      "steps": [
+        "Press [2ND] [DATA]",
+        "Press [2ND] [CLR WORK]",
+        "X01=10 [ENTER] [↓] Y01=2 [ENTER] [↓]",
+        "X02=20 [ENTER] [↓] Y02=3 [ENTER] [↓]",
+        "X03=30 [ENTER] [↓] Y03=5 [ENTER] [↓]",
+        "Press [2ND] [STAT]",
+        "Find x̄ (weighted by Y values)",
+        "Answer: 23.0"
+      ],
+      "common_mistakes": [
+        "Y values serve as weights/frequencies"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "problem_id": "CALC-STAT-008",
+      "worksheet": "Stats",
+      "problem_text": "Find the linear regression slope for X: 1,2,3,4,5 and Y: 2.1, 4.0, 5.9, 8.1, 10.0",
+      "problem_text_ru": "Найдите наклон линейной регрессии для X: 1,2,3,4,5 и Y: 2.1, 4.0, 5.9, 8.1, 10.0",
+      "given": {"X": [1, 2, 3, 4, 5], "Y": [2.1, 4.0, 5.9, 8.1, 10.0]},
+      "find": "b (slope)",
+      "correct_answer": 1.98,
+      "tolerance": 0.05,
+      "steps": [
+        "Press [2ND] [DATA]",
+        "Enter X and Y pairs",
+        "Press [2ND] [STAT]",
+        "Select LIN regression",
+        "Scroll to b (slope)",
+        "Answer: 1.98"
+      ],
+      "common_mistakes": [
+        "b is slope, a is intercept"
+      ],
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "worksheet": "TVM",
+  "worksheet_name": "Time Value of Money",
+  "worksheet_name_ru": "Временная стоимость денег",
+  "problems": [
+    {
+      "problem_id": "CALC-TVM-001",
+      "worksheet": "TVM",
+      "problem_text": "You invest $10,000 today at 8% annual interest compounded quarterly. What will be the value in 5 years?",
+      "problem_text_ru": "Вы инвестируете $10,000 сегодня под 8% годовых с ежеквартальным начислением. Какова будет стоимость через 5 лет?",
+      "given": {"PV": -10000, "I/Y": 8, "N_years": 5, "P/Y": 4, "C/Y": 4},
+      "find": "FV",
+      "correct_answer": 14859.47,
+      "tolerance": 0.01,
+      "steps": [
+        "Press [2ND] [CLR TVM] to clear TVM worksheet",
+        "Press [2ND] [P/Y], enter 4, press [ENTER]",
+        "Press [2ND] [QUIT] to return",
+        "Enter 20 [N] (5 years × 4 quarters)",
+        "Enter 8 [I/Y]",
+        "Enter 10000 [+/-] [PV]",
+        "Enter 0 [PMT]",
+        "Press [CPT] [FV]",
+        "Answer: 14,859.47"
+      ],
+      "common_mistakes": [
+        "Forgetting to set P/Y and C/Y to 4",
+        "Not making PV negative (cash outflow)",
+        "Using 5 directly for N instead of 20 periods"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "problem_id": "CALC-TVM-002",
+      "worksheet": "TVM",
+      "problem_text": "A bond pays $50 semi-annually for 10 years and returns $1,000 at maturity. If the required return is 6% annually, what is the present value?",
+      "problem_text_ru": "Облигация выплачивает $50 каждые полгода в течение 10 лет и возвращает $1,000 при погашении. При требуемой доходности 6% годовых, какова приведённая стоимость?",
+      "given": {"PMT": 50, "FV": 1000, "I/Y": 6, "N_years": 10, "P/Y": 2},
+      "find": "PV",
+      "correct_answer": -1148.77,
+      "tolerance": 0.01,
+      "steps": [
+        "Press [2ND] [CLR TVM]",
+        "Press [2ND] [P/Y], enter 2, press [ENTER]",
+        "Press [2ND] [QUIT]",
+        "Enter 20 [N] (10 years × 2)",
+        "Enter 6 [I/Y]",
+        "Enter 50 [PMT]",
+        "Enter 1000 [FV]",
+        "Press [CPT] [PV]",
+        "Answer: -1,148.77"
+      ],
+      "common_mistakes": [
+        "Using annual periods instead of semi-annual",
+        "Forgetting that PV is negative (cash outflow to buy bond)"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "problem_id": "CALC-TVM-003",
+      "worksheet": "TVM",
+      "problem_text": "You want to have $1,000,000 in 30 years. If you can earn 7% annually, how much must you save each month?",
+      "problem_text_ru": "Вы хотите накопить $1,000,000 за 30 лет. При доходности 7% годовых, сколько нужно откладывать ежемесячно?",
+      "given": {"FV": 1000000, "I/Y": 7, "N_years": 30, "P/Y": 12, "PV": 0},
+      "find": "PMT",
+      "correct_answer": -820.15,
+      "tolerance": 0.50,
+      "steps": [
+        "Press [2ND] [CLR TVM]",
+        "Press [2ND] [P/Y], enter 12, press [ENTER]",
+        "Press [2ND] [QUIT]",
+        "Enter 360 [N] (30 years × 12 months)",
+        "Enter 7 [I/Y]",
+        "Enter 0 [PV]",
+        "Enter 1000000 [FV]",
+        "Press [CPT] [PMT]",
+        "Answer: -820.15"
+      ],
+      "common_mistakes": [
+        "Not setting P/Y to 12 for monthly payments",
+        "PMT is negative because it's cash outflow"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "problem_id": "CALC-TVM-004",
+      "worksheet": "TVM",
+      "problem_text": "If you make a monthly payment of $425.84 on a 30-year mortgage for $75,000, what is the interest rate on your mortgage?",
+      "problem_text_ru": "Если вы платите $425.84 ежемесячно по 30-летней ипотеке на $75,000, какова процентная ставка?",
+      "given": {"N_years": 30, "PV": 75000, "PMT": -425.84, "P/Y": 12, "FV": 0},
+      "find": "I/Y",
+      "correct_answer": 5.50,
+      "tolerance": 0.01,
+      "steps": [
+        "Press [2ND] [P/Y], enter 12, press [ENTER]",
+        "Press [2ND] [QUIT]",
+        "Enter 360 [N]",
+        "Enter 75000 [PV]",
+        "Enter 425.84 [+/-] [PMT]",
+        "Enter 0 [FV]",
+        "Press [CPT] [I/Y]",
+        "Answer: 5.50%"
+      ],
+      "common_mistakes": [
+        "Forgetting to make PMT negative"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "problem_id": "CALC-TVM-005",
+      "worksheet": "TVM",
+      "problem_text": "Calculate the monthly payment with a loan amount of $120,000 at 6.125% APR for 30 years.",
+      "problem_text_ru": "Рассчитайте ежемесячный платёж по кредиту $120,000 под 6.125% годовых на 30 лет.",
+      "given": {"PV": 120000, "I/Y": 6.125, "N_years": 30, "P/Y": 12, "FV": 0},
+      "find": "PMT",
+      "correct_answer": -729.13,
+      "tolerance": 0.01,
+      "steps": [
+        "Press [2ND] [CLR TVM]",
+        "Press [2ND] [P/Y], enter 12, press [ENTER]",
+        "Press [2ND] [QUIT]",
+        "Enter 360 [N]",
+        "Enter 6.125 [I/Y]",
+        "Enter 120000 [PV]",
+        "Enter 0 [FV]",
+        "Press [CPT] [PMT]",
+        "Answer: -729.13"
+      ],
+      "common_mistakes": [
+        "Using wrong number of periods"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "problem_id": "CALC-TVM-006",
+      "worksheet": "TVM",
+      "problem_text": "If you open a savings account with $5,000 at 0.5% annual interest, how much will you have after 20 years?",
+      "problem_text_ru": "Если вы открываете сберегательный счёт с $5,000 под 0.5% годовых, сколько будет через 20 лет?",
+      "given": {"PV": -5000, "I/Y": 0.5, "N": 20, "PMT": 0, "P/Y": 1},
+      "find": "FV",
+      "correct_answer": 5524.48,
+      "tolerance": 0.01,
+      "steps": [
+        "Press [2ND] [CLR TVM]",
+        "Enter 20 [N]",
+        "Enter 0.5 [I/Y]",
+        "Enter 5000 [+/-] [PV]",
+        "Enter 0 [PMT]",
+        "Press [CPT] [FV]",
+        "Answer: 5,524.48"
+      ],
+      "common_mistakes": [
+        "Using wrong sign for PV"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "problem_id": "CALC-TVM-007",
+      "worksheet": "TVM",
+      "problem_text": "How much money must you deposit to have $10,000 in 20 years at 0.5% annual interest?",
+      "problem_text_ru": "Сколько нужно вложить, чтобы иметь $10,000 через 20 лет при 0.5% годовых?",
+      "given": {"FV": 10000, "I/Y": 0.5, "N": 20, "PMT": 0, "P/Y": 1},
+      "find": "PV",
+      "correct_answer": -9050.63,
+      "tolerance": 0.01,
+      "steps": [
+        "Press [2ND] [CLR TVM]",
+        "Enter 20 [N]",
+        "Enter 0.5 [I/Y]",
+        "Enter 0 [PMT]",
+        "Enter 10000 [FV]",
+        "Press [CPT] [PV]",
+        "Answer: -9,050.63"
+      ],
+      "common_mistakes": [
+        "Expecting positive PV (it's negative because it's an outflow)"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "problem_id": "CALC-TVM-008",
+      "worksheet": "TVM",
+      "problem_text": "The Furros Company purchased equipment providing an annual savings of $20,000 over 10 years. At 10% discount rate, what is the present value of the savings (ordinary annuity)?",
+      "problem_text_ru": "Компания Furros купила оборудование, экономящее $20,000 ежегодно в течение 10 лет. При ставке дисконтирования 10%, какова приведённая стоимость экономии (обычный аннуитет)?",
+      "given": {"PMT": -20000, "I/Y": 10, "N": 10, "FV": 0, "P/Y": 1},
+      "find": "PV",
+      "correct_answer": 122891.34,
+      "tolerance": 0.01,
+      "steps": [
+        "Press [2ND] [CLR TVM]",
+        "Make sure END mode (not BGN)",
+        "Enter 10 [N]",
+        "Enter 10 [I/Y]",
+        "Enter 20000 [+/-] [PMT]",
+        "Enter 0 [FV]",
+        "Press [CPT] [PV]",
+        "Answer: 122,891.34"
+      ],
+      "common_mistakes": [
+        "Using BGN mode instead of END mode"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "problem_id": "CALC-TVM-009",
+      "worksheet": "TVM",
+      "problem_text": "You invest $200 at the beginning of each month in a retirement plan. What will the balance be after 20 years at 7.5% annual interest compounded monthly (annuity due)?",
+      "problem_text_ru": "Вы инвестируете $200 в начале каждого месяца в пенсионный план. Каков будет баланс через 20 лет при 7.5% годовых с ежемесячным начислением (аннуитет пренумерандо)?",
+      "given": {"PMT": -200, "I/Y": 7.5, "N_years": 20, "PV": 0, "P/Y": 12, "mode": "BGN"},
+      "find": "FV",
+      "correct_answer": 111438.31,
+      "tolerance": 0.50,
+      "steps": [
+        "Press [2ND] [CLR TVM]",
+        "Press [2ND] [P/Y], enter 12, press [ENTER]",
+        "Press [2ND] [BGN], press [2ND] [SET] to select BGN",
+        "Press [2ND] [QUIT]",
+        "Enter 240 [N]",
+        "Enter 7.5 [I/Y]",
+        "Enter 200 [+/-] [PMT]",
+        "Enter 0 [PV]",
+        "Press [CPT] [FV]",
+        "Answer: 111,438.31"
+      ],
+      "common_mistakes": [
+        "Not setting BGN mode for beginning-of-period payments"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "problem_id": "CALC-TVM-010",
+      "worksheet": "TVM",
+      "problem_text": "You want to buy a car for $15,100. The finance company charges 7.5% APR compounded monthly on a 48-month loan. If you can afford $325 monthly, how much can you borrow?",
+      "problem_text_ru": "Вы хотите купить машину за $15,100. Финансовая компания берёт 7.5% годовых с ежемесячным начислением на 48-месячный кредит. Если вы можете платить $325 в месяц, сколько можете занять?",
+      "given": {"PMT": -325, "I/Y": 7.5, "N": 48, "FV": 0, "P/Y": 12},
+      "find": "PV",
+      "correct_answer": 13441.47,
+      "tolerance": 0.50,
+      "steps": [
+        "Press [2ND] [CLR TVM]",
+        "Press [2ND] [P/Y], enter 12, press [ENTER]",
+        "Press [2ND] [QUIT]",
+        "Enter 48 [N]",
+        "Enter 7.5 [I/Y]",
+        "Enter 325 [+/-] [PMT]",
+        "Enter 0 [FV]",
+        "Press [CPT] [PV]",
+        "Answer: 13,441.47"
+      ],
+      "common_mistakes": [
+        "Using wrong sign for PMT"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "problem_id": "CALC-TVM-011",
+      "worksheet": "TVM",
+      "problem_text": "You plan to save for 10 years with monthly deposits to have $25,000. The annual interest rate is 0.5% with quarterly compounding. How much should you deposit monthly at the beginning of each period?",
+      "problem_text_ru": "Вы планируете копить 10 лет ежемесячными вкладами, чтобы получить $25,000. Годовая ставка 0.5% с ежеквартальным начислением. Сколько откладывать в начале каждого месяца?",
+      "given": {"FV": 25000, "I/Y": 0.5, "N_years": 10, "PV": 0, "P/Y": 12, "C/Y": 4, "mode": "BGN"},
+      "find": "PMT",
+      "correct_answer": -203.13,
+      "tolerance": 0.05,
+      "steps": [
+        "Press [2ND] [CLR TVM]",
+        "Press [2ND] [P/Y], enter 12, press [ENTER]",
+        "Press [↓], enter 4, press [ENTER] (C/Y)",
+        "Press [2ND] [BGN], press [2ND] [SET]",
+        "Press [2ND] [QUIT]",
+        "Enter 120 [N]",
+        "Enter 0.5 [I/Y]",
+        "Enter 0 [PV]",
+        "Enter 25000 [FV]",
+        "Press [CPT] [PMT]",
+        "Answer: -203.13"
+      ],
+      "common_mistakes": [
+        "Not setting C/Y different from P/Y",
+        "Forgetting BGN mode"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "problem_id": "CALC-TVM-012",
+      "worksheet": "TVM",
+      "problem_text": "If you finance furniture for $525 at 20% APR compounded monthly for two years, what is the monthly payment?",
+      "problem_text_ru": "Если вы покупаете мебель за $525 в кредит под 20% годовых с ежемесячным начислением на 2 года, каков ежемесячный платёж?",
+      "given": {"PV": 525, "I/Y": 20, "N_years": 2, "FV": 0, "P/Y": 12},
+      "find": "PMT",
+      "correct_answer": -26.72,
+      "tolerance": 0.01,
+      "steps": [
+        "Press [2ND] [CLR TVM]",
+        "Press [2ND] [P/Y], enter 12, press [ENTER]",
+        "Press [2ND] [QUIT]",
+        "Enter 24 [N]",
+        "Enter 20 [I/Y]",
+        "Enter 525 [PV]",
+        "Enter 0 [FV]",
+        "Press [CPT] [PMT]",
+        "Answer: -26.72"
+      ],
+      "common_mistakes": [
+        "Using annual N instead of monthly"
+      ],
+      "difficulty": "easy"
+    }
+  ]
+}

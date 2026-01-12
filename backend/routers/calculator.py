@@ -24,13 +24,14 @@ router = APIRouter(
 # Path to calculator problems data
 DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "frontend", "data")
 
-# Built-in sample problems (until JSON files are created)
+# Built-in sample problems based on BA II Plus Professional Guidebook
 SAMPLE_PROBLEMS = {
     "TVM": [
         {
             "problem_id": "CALC-TVM-001",
             "worksheet": "TVM",
             "problem_text": "You invest $10,000 today at 8% annual interest compounded quarterly. What will be the value in 5 years?",
+            "problem_text_ru": "Вы инвестируете $10,000 сегодня под 8% годовых с ежеквартальным начислением. Какова будет стоимость через 5 лет?",
             "given": {"PV": -10000, "I/Y": 8, "N_years": 5, "P/Y": 4, "C/Y": 4},
             "find": "FV",
             "correct_answer": 14859.47,

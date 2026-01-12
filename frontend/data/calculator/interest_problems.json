@@ -1,0 +1,180 @@
+{
+  "worksheet": "Interest",
+  "worksheet_name": "Interest Conversion",
+  "worksheet_name_ru": "Конвертация ставок",
+  "problems": [
+    {
+      "problem_id": "CALC-INT-001",
+      "worksheet": "Interest",
+      "problem_text": "Convert 8% nominal rate compounded quarterly to effective annual rate.",
+      "problem_text_ru": "Переведите номинальную ставку 8% с ежеквартальным начислением в эффективную годовую ставку.",
+      "given": {"NOM": 8, "C/Y": 4},
+      "find": "EFF",
+      "correct_answer": 8.24,
+      "tolerance": 0.01,
+      "steps": [
+        "Press [2ND] [ICONV]",
+        "Enter 8 [ENTER] [↓]",
+        "Press [↓] to C/Y",
+        "Enter 4 [ENTER]",
+        "Press [↑] to EFF",
+        "Press [CPT]",
+        "Answer: 8.24%"
+      ],
+      "common_mistakes": [
+        "Confusing which rate to enter",
+        "Wrong compounding frequency"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "problem_id": "CALC-INT-002",
+      "worksheet": "Interest",
+      "problem_text": "A bank offers a certificate paying 15% nominal interest with quarterly compounding. What is the annual effective rate?",
+      "problem_text_ru": "Банк предлагает сертификат с номинальной ставкой 15% и ежеквартальным начислением. Какова эффективная годовая ставка?",
+      "given": {"NOM": 15, "C/Y": 4},
+      "find": "EFF",
+      "correct_answer": 15.87,
+      "tolerance": 0.01,
+      "steps": [
+        "Press [2ND] [ICONV]",
+        "Enter 15 [ENTER]",
+        "Press [↓] [↓]",
+        "Enter 4 [ENTER]",
+        "Press [↑] [CPT]",
+        "Answer: 15.87%"
+      ],
+      "common_mistakes": [
+        "Entering rate as decimal instead of percentage"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "problem_id": "CALC-INT-003",
+      "worksheet": "Interest",
+      "problem_text": "Convert 12% nominal rate compounded monthly to effective annual rate.",
+      "problem_text_ru": "Переведите номинальную ставку 12% с ежемесячным начислением в эффективную годовую ставку.",
+      "given": {"NOM": 12, "C/Y": 12},
+      "find": "EFF",
+      "correct_answer": 12.68,
+      "tolerance": 0.01,
+      "steps": [
+        "Press [2ND] [ICONV]",
+        "Clear worksheet if needed",
+        "Enter 12 [ENTER] for NOM",
+        "Press [↓] [↓], enter 12 for C/Y [ENTER]",
+        "Press [↑] to EFF, press [CPT]",
+        "Answer: 12.68%"
+      ],
+      "common_mistakes": [
+        "Monthly compounding means C/Y = 12"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "problem_id": "CALC-INT-004",
+      "worksheet": "Interest",
+      "problem_text": "If the effective annual rate is 10% with semi-annual compounding, what is the nominal rate?",
+      "problem_text_ru": "Если эффективная годовая ставка 10% с полугодовым начислением, какова номинальная ставка?",
+      "given": {"EFF": 10, "C/Y": 2},
+      "find": "NOM",
+      "correct_answer": 9.76,
+      "tolerance": 0.01,
+      "steps": [
+        "Press [2ND] [ICONV]",
+        "Press [↓] to EFF",
+        "Enter 10 [ENTER]",
+        "Press [↓], enter 2 [ENTER] for C/Y",
+        "Press [↑] [↑] to NOM",
+        "Press [CPT]",
+        "Answer: 9.76%"
+      ],
+      "common_mistakes": [
+        "EFF to NOM is the reverse calculation"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "problem_id": "CALC-INT-005",
+      "worksheet": "Interest",
+      "problem_text": "Convert 6% nominal rate compounded daily (365 days) to effective annual rate.",
+      "problem_text_ru": "Переведите номинальную ставку 6% с ежедневным начислением (365 дней) в эффективную годовую ставку.",
+      "given": {"NOM": 6, "C/Y": 365},
+      "find": "EFF",
+      "correct_answer": 6.18,
+      "tolerance": 0.01,
+      "steps": [
+        "Press [2ND] [ICONV]",
+        "Enter 6 [ENTER] for NOM",
+        "Press [↓] [↓], enter 365 [ENTER] for C/Y",
+        "Press [↑] to EFF, press [CPT]",
+        "Answer: 6.18%"
+      ],
+      "common_mistakes": [
+        "Daily compounding means 365 periods"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "problem_id": "CALC-INT-006",
+      "worksheet": "Interest",
+      "problem_text": "A loan has 18% APR compounded monthly. What is the effective annual rate?",
+      "problem_text_ru": "Кредит имеет APR 18% с ежемесячным начислением. Какова эффективная годовая ставка?",
+      "given": {"NOM": 18, "C/Y": 12},
+      "find": "EFF",
+      "correct_answer": 19.56,
+      "tolerance": 0.01,
+      "steps": [
+        "Press [2ND] [ICONV]",
+        "Enter 18 [ENTER] for NOM",
+        "Press [↓] [↓], enter 12 [ENTER]",
+        "Press [↑], press [CPT]",
+        "Answer: 19.56%"
+      ],
+      "common_mistakes": [
+        "APR is the nominal rate"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "problem_id": "CALC-INT-007",
+      "worksheet": "Interest",
+      "problem_text": "Compare two investments: Bank A offers 5.9% compounded quarterly, Bank B offers 5.85% compounded monthly. Which has the higher effective rate?",
+      "problem_text_ru": "Сравните: Банк А предлагает 5.9% с ежеквартальным начислением, Банк Б - 5.85% с ежемесячным. У какого выше эффективная ставка?",
+      "given": {"Bank_A": {"NOM": 5.9, "C/Y": 4}, "Bank_B": {"NOM": 5.85, "C/Y": 12}},
+      "find": "EFF comparison",
+      "correct_answer": 6.05,
+      "tolerance": 0.01,
+      "steps": [
+        "Bank A: NOM=5.9, C/Y=4 → EFF=6.05%",
+        "Bank B: NOM=5.85, C/Y=12 → EFF=6.01%",
+        "Bank A has higher effective rate (6.05%)"
+      ],
+      "common_mistakes": [
+        "More frequent compounding doesn't always mean higher rate"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "problem_id": "CALC-INT-008",
+      "worksheet": "Interest",
+      "problem_text": "What nominal rate compounded quarterly equals 8% effective annual rate?",
+      "problem_text_ru": "Какая номинальная ставка с ежеквартальным начислением равна 8% эффективной годовой?",
+      "given": {"EFF": 8, "C/Y": 4},
+      "find": "NOM",
+      "correct_answer": 7.77,
+      "tolerance": 0.01,
+      "steps": [
+        "Press [2ND] [ICONV]",
+        "Press [↓] to EFF, enter 8 [ENTER]",
+        "Press [↓], enter 4 [ENTER]",
+        "Press [↑] [↑] to NOM, press [CPT]",
+        "Answer: 7.77%"
+      ],
+      "common_mistakes": [
+        "Remember to compute NOM, not EFF"
+      ],
+      "difficulty": "medium"
+    }
+  ]
+}

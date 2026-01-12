@@ -1,0 +1,152 @@
+{
+  "worksheet": "Bond",
+  "worksheet_name": "Bond Valuation",
+  "worksheet_name_ru": "Оценка облигаций",
+  "problems": [
+    {
+      "problem_id": "CALC-BOND-001",
+      "worksheet": "Bond",
+      "problem_text": "Calculate the price of a bond with 5% coupon, 10 years to maturity, YTM of 6%, face value $1,000, semi-annual payments.",
+      "problem_text_ru": "Рассчитайте цену облигации с купоном 5%, 10 лет до погашения, YTM 6%, номинал $1,000, полугодовые выплаты.",
+      "given": {"CPN": 5, "RV": 100, "YLD": 6, "years": 10, "frequency": 2},
+      "find": "PRI",
+      "correct_answer": 92.56,
+      "tolerance": 0.05,
+      "steps": [
+        "Press [2ND] [BOND]",
+        "Set SDT (settlement date)",
+        "Set CPN = 5 [ENTER]",
+        "Set RDT (redemption date - 10 years from SDT)",
+        "Set RV = 100 [ENTER]",
+        "Set ACT (day count)",
+        "Set 2/Y (semi-annual)",
+        "Set YLD = 6 [ENTER]",
+        "Press [↓] to PRI, press [CPT]",
+        "Answer: 92.56"
+      ],
+      "common_mistakes": [
+        "Not setting correct day count convention",
+        "Confusing coupon rate with YTM"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "problem_id": "CALC-BOND-002",
+      "worksheet": "Bond",
+      "problem_text": "A semiannual corporate bond maturing on 12/31/2007 settling on 6/12/2006. Coupon rate 7%, redeemable at 100%, 30/360 day count. For 8% YTM, compute the price.",
+      "problem_text_ru": "Полугодовая корпоративная облигация с погашением 31/12/2007, расчётом 12/06/2006. Купон 7%, погашение 100%, 30/360. При YTM 8% рассчитайте цену.",
+      "given": {"SDT": "6-12-2006", "CPN": 7, "RDT": "12-31-2007", "RV": 100, "YLD": 8, "day_count": "360", "frequency": 2},
+      "find": "PRI",
+      "correct_answer": 98.56,
+      "tolerance": 0.05,
+      "steps": [
+        "Press [2ND] [BOND]",
+        "Enter SDT: 6.1206 [ENTER]",
+        "Press [↓], enter CPN: 7 [ENTER]",
+        "Press [↓], enter RDT: 12.3107 [ENTER]",
+        "Press [↓], RV = 100",
+        "Press [↓], select 360 day-count",
+        "Press [↓], select 2/Y",
+        "Press [↓], enter YLD: 8 [ENTER]",
+        "Press [↓] to PRI, press [CPT]",
+        "Answer: 98.56"
+      ],
+      "common_mistakes": [
+        "Wrong date format",
+        "Wrong day count method"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "problem_id": "CALC-BOND-003",
+      "worksheet": "Bond",
+      "problem_text": "Calculate accrued interest for the same bond (settling 6/12/2006, maturing 12/31/2007, 7% coupon, 30/360).",
+      "problem_text_ru": "Рассчитайте накопленный купонный доход для той же облигации (расчёт 12/06/2006, погашение 31/12/2007, купон 7%, 30/360).",
+      "given": {"SDT": "6-12-2006", "CPN": 7, "RDT": "12-31-2007", "RV": 100, "day_count": "360", "frequency": 2},
+      "find": "AI",
+      "correct_answer": 3.15,
+      "tolerance": 0.02,
+      "steps": [
+        "After entering bond data",
+        "Press [↓] until AI is displayed",
+        "AI computes automatically",
+        "Answer: 3.15"
+      ],
+      "common_mistakes": [
+        "Accrued interest is computed automatically, no CPT needed"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "problem_id": "CALC-BOND-004",
+      "worksheet": "Bond",
+      "problem_text": "A 10-year bond with 8% coupon (annual payments) is priced at 95. What is the yield to maturity?",
+      "problem_text_ru": "10-летняя облигация с купоном 8% (ежегодные выплаты) торгуется по 95. Какова доходность к погашению?",
+      "given": {"CPN": 8, "RV": 100, "PRI": 95, "years": 10, "frequency": 1},
+      "find": "YLD",
+      "correct_answer": 8.78,
+      "tolerance": 0.05,
+      "steps": [
+        "Press [2ND] [BOND]",
+        "Set settlement and redemption dates (10 years apart)",
+        "Set CPN = 8 [ENTER]",
+        "Set RV = 100",
+        "Set 1/Y (annual)",
+        "Set PRI = 95 [ENTER]",
+        "Press [↓] to YLD, press [CPT]",
+        "Answer: 8.78%"
+      ],
+      "common_mistakes": [
+        "Using semi-annual instead of annual"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "problem_id": "CALC-BOND-005",
+      "worksheet": "Bond",
+      "problem_text": "Calculate the price of a zero-coupon bond maturing in 5 years with YTM of 7% and face value $1,000.",
+      "problem_text_ru": "Рассчитайте цену бескупонной облигации с погашением через 5 лет, YTM 7% и номиналом $1,000.",
+      "given": {"CPN": 0, "RV": 100, "YLD": 7, "years": 5, "frequency": 2},
+      "find": "PRI",
+      "correct_answer": 70.89,
+      "tolerance": 0.05,
+      "steps": [
+        "Press [2ND] [BOND]",
+        "Set dates 5 years apart",
+        "Set CPN = 0 [ENTER]",
+        "Set RV = 100",
+        "Set YLD = 7 [ENTER]",
+        "Press [↓] to PRI, press [CPT]",
+        "Answer: 70.89"
+      ],
+      "common_mistakes": [
+        "Zero coupon still uses semi-annual convention"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "problem_id": "CALC-BOND-006",
+      "worksheet": "Bond",
+      "problem_text": "A premium bond has 6% coupon (semi-annual), 8 years to maturity, YTM of 5%. What is its price?",
+      "problem_text_ru": "Премиальная облигация с купоном 6% (полугодовые выплаты), 8 лет до погашения, YTM 5%. Какова цена?",
+      "given": {"CPN": 6, "RV": 100, "YLD": 5, "years": 8, "frequency": 2},
+      "find": "PRI",
+      "correct_answer": 106.46,
+      "tolerance": 0.10,
+      "steps": [
+        "Press [2ND] [BOND]",
+        "Set settlement and redemption dates",
+        "Set CPN = 6 [ENTER]",
+        "Set RV = 100",
+        "Set 2/Y",
+        "Set YLD = 5 [ENTER]",
+        "Press [CPT] on PRI",
+        "Answer: 106.46"
+      ],
+      "common_mistakes": [
+        "Premium bond: price > 100 when coupon > YTM"
+      ],
+      "difficulty": "easy"
+    }
+  ]
+}

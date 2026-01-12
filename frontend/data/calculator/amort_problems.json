@@ -1,0 +1,180 @@
+{
+  "worksheet": "Amort",
+  "worksheet_name": "Amortization",
+  "worksheet_name_ru": "Амортизация кредита",
+  "problems": [
+    {
+      "problem_id": "CALC-AMORT-001",
+      "worksheet": "Amort",
+      "problem_text": "For a $120,000 mortgage at 6.125% for 30 years with monthly payments of $729.13, what is the remaining balance after the first year (12 payments)?",
+      "problem_text_ru": "Для ипотеки $120,000 под 6.125% на 30 лет с ежемесячным платежом $729.13, каков остаток после первого года (12 платежей)?",
+      "given": {"PV": 120000, "I/Y": 6.125, "N": 360, "PMT": -729.13, "P1": 1, "P2": 12},
+      "find": "BAL",
+      "correct_answer": 118390.19,
+      "tolerance": 5.00,
+      "steps": [
+        "First solve TVM: N=360, I/Y=6.125, PV=120000, compute PMT=-729.13",
+        "Press [2ND] [AMORT]",
+        "P1=1 [ENTER] [↓]",
+        "P2=12 [ENTER] [↓]",
+        "Scroll to BAL",
+        "Answer: 118,390.19"
+      ],
+      "common_mistakes": [
+        "Must solve TVM first before amortization",
+        "P1 and P2 define the payment range"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "problem_id": "CALC-AMORT-002",
+      "worksheet": "Amort",
+      "problem_text": "Same mortgage ($120,000, 6.125%, 30 years). How much principal is paid in the first year?",
+      "problem_text_ru": "Та же ипотека ($120,000, 6.125%, 30 лет). Сколько основного долга выплачено за первый год?",
+      "given": {"PV": 120000, "I/Y": 6.125, "N": 360, "P1": 1, "P2": 12},
+      "find": "PRN",
+      "correct_answer": -1609.81,
+      "tolerance": 5.00,
+      "steps": [
+        "After TVM is set up",
+        "Press [2ND] [AMORT]",
+        "P1=1, P2=12",
+        "Scroll to PRN",
+        "Answer: -1,609.81 (negative = paid out)"
+      ],
+      "common_mistakes": [
+        "PRN is negative because it's money paid"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "problem_id": "CALC-AMORT-003",
+      "worksheet": "Amort",
+      "problem_text": "Same mortgage. How much interest is paid in the first year?",
+      "problem_text_ru": "Та же ипотека. Сколько процентов выплачено за первый год?",
+      "given": {"PV": 120000, "I/Y": 6.125, "N": 360, "P1": 1, "P2": 12},
+      "find": "INT",
+      "correct_answer": -7139.75,
+      "tolerance": 5.00,
+      "steps": [
+        "After TVM and P1/P2 are set",
+        "Press [↓] until INT appears",
+        "Answer: -7,139.75"
+      ],
+      "common_mistakes": [
+        "First year has more interest than principal"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "problem_id": "CALC-AMORT-004",
+      "worksheet": "Amort",
+      "problem_text": "A seller finances $82,000 at 7% for 30 years. After 5 years (60 payments), what is the balloon payment (remaining balance)?",
+      "problem_text_ru": "Продавец финансирует $82,000 под 7% на 30 лет. Через 5 лет (60 платежей), каков единовременный платёж (остаток)?",
+      "given": {"PV": 82000, "I/Y": 7, "N": 360, "P/Y": 12, "P1": 1, "P2": 60},
+      "find": "BAL",
+      "correct_answer": 77187.72,
+      "tolerance": 5.00,
+      "steps": [
+        "Set P/Y=12",
+        "N=360, I/Y=7, PV=82000",
+        "Compute PMT=-545.55",
+        "Press [2ND] [AMORT]",
+        "P1=1, P2=60",
+        "Scroll to BAL",
+        "Answer: 77,187.72"
+      ],
+      "common_mistakes": [
+        "Balloon payment is the balance remaining after the period"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "problem_id": "CALC-AMORT-005",
+      "worksheet": "Amort",
+      "problem_text": "For the $82,000 loan at 7% for 30 years, how much total interest is paid in the first 5 years?",
+      "problem_text_ru": "Для кредита $82,000 под 7% на 30 лет, сколько всего процентов выплачено за первые 5 лет?",
+      "given": {"PV": 82000, "I/Y": 7, "N": 360, "P/Y": 12, "P1": 1, "P2": 60},
+      "find": "INT",
+      "correct_answer": -27920.72,
+      "tolerance": 10.00,
+      "steps": [
+        "After solving TVM",
+        "Press [2ND] [AMORT]",
+        "P1=1, P2=60",
+        "Scroll to INT",
+        "Answer: -27,920.72"
+      ],
+      "common_mistakes": [
+        "INT shows cumulative interest for the period"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "problem_id": "CALC-AMORT-006",
+      "worksheet": "Amort",
+      "problem_text": "A $50,000 car loan at 5% for 5 years with monthly payments. What is the balance after 2 years (24 payments)?",
+      "problem_text_ru": "Автокредит $50,000 под 5% на 5 лет с ежемесячными платежами. Каков остаток через 2 года (24 платежа)?",
+      "given": {"PV": 50000, "I/Y": 5, "N": 60, "P/Y": 12, "P1": 1, "P2": 24},
+      "find": "BAL",
+      "correct_answer": 31286.52,
+      "tolerance": 5.00,
+      "steps": [
+        "Set P/Y=12",
+        "N=60, I/Y=5, PV=50000, FV=0",
+        "Compute PMT=-943.56",
+        "Press [2ND] [AMORT]",
+        "P1=1, P2=24",
+        "Scroll to BAL",
+        "Answer: 31,286.52"
+      ],
+      "common_mistakes": [
+        "Car loans typically use monthly compounding"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "problem_id": "CALC-AMORT-007",
+      "worksheet": "Amort",
+      "problem_text": "For payments 25-36 of the $50,000 car loan (5%, 5 years), how much principal is paid in year 3?",
+      "problem_text_ru": "Для платежей 25-36 автокредита $50,000 (5%, 5 лет), сколько основного долга выплачено за 3-й год?",
+      "given": {"PV": 50000, "I/Y": 5, "N": 60, "P/Y": 12, "P1": 25, "P2": 36},
+      "find": "PRN",
+      "correct_answer": -10127.63,
+      "tolerance": 5.00,
+      "steps": [
+        "After TVM is solved",
+        "Press [2ND] [AMORT]",
+        "P1=25, P2=36",
+        "Scroll to PRN",
+        "Answer: -10,127.63"
+      ],
+      "common_mistakes": [
+        "Change P1 and P2 for different payment ranges"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "problem_id": "CALC-AMORT-008",
+      "worksheet": "Amort",
+      "problem_text": "A $200,000 mortgage at 4.5% for 15 years. What is the monthly payment and interest paid in year 1?",
+      "problem_text_ru": "Ипотека $200,000 под 4.5% на 15 лет. Каков ежемесячный платёж и проценты за 1-й год?",
+      "given": {"PV": 200000, "I/Y": 4.5, "N_years": 15, "P/Y": 12, "P1": 1, "P2": 12},
+      "find": "PMT, INT",
+      "correct_answer": {"PMT": -1529.99, "INT": -8810.20},
+      "tolerance": 5.00,
+      "steps": [
+        "Set P/Y=12",
+        "N=180, I/Y=4.5, PV=200000, FV=0",
+        "Compute PMT=-1,529.99",
+        "Press [2ND] [AMORT]",
+        "P1=1, P2=12",
+        "INT=-8,810.20"
+      ],
+      "common_mistakes": [
+        "15-year mortgages have higher principal payments"
+      ],
+      "difficulty": "hard"
+    }
+  ]
+}
