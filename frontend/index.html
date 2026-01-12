@@ -215,16 +215,6 @@
                         </ul>
                     </div>
 
-                    <div class="mode-card" onclick="startTest('light')">
-                        <h3>Light Mode</h3>
-                        <p>Обучение с мгновенной обратной связью</p>
-                        <ul>
-                            <li>Результат сразу после ответа</li>
-                            <li>Объяснение правильного ответа</li>
-                            <li>Свободная навигация</li>
-                        </ul>
-                    </div>
-
                     <div class="mode-card" onclick="startTest('90_second')">
                         <h3>90-Second Mode</h3>
                         <p>90 секунд на каждый вопрос</p>
@@ -442,34 +432,23 @@
         <div class="glossary-container">
             <div class="search-box glass-container">
                 <input type="text" id="glossary-search" placeholder="Поиск терминов..." oninput="searchGlossary()">
-                <div class="filter-row">
-                    <select id="glossary-book-filter" onchange="onBookFilterChange()">
-                        <option value="">Все книги</option>
-                        <option value="1">Book 1: Quantitative Methods</option>
-                        <option value="2">Book 2: Economics</option>
-                        <option value="3">Book 3: Financial Statement Analysis</option>
-                        <option value="4">Book 4: Corporate Issuers</option>
-                        <option value="5">Book 5: Equity Investments</option>
-                        <option value="6">Book 6: Fixed Income</option>
-                        <option value="7">Book 7: Derivatives</option>
-                        <option value="8">Book 8: Alternative Investments</option>
-                        <option value="9">Book 9: Portfolio Management</option>
-                        <option value="10">Book 10: Ethics</option>
-                    </select>
-                    <select id="glossary-module-filter" onchange="filterGlossary()">
-                        <option value="">Все главы</option>
-                    </select>
-                </div>
+                <select id="glossary-book-filter" onchange="filterGlossary()">
+                    <option value="">Все книги</option>
+                    <option value="1">Book 1: Quantitative Methods</option>
+                    <option value="2">Book 2: Economics</option>
+                    <option value="3">Book 3: Financial Statement Analysis</option>
+                    <option value="4">Book 4: Corporate Issuers</option>
+                    <option value="5">Book 5: Equity Investments</option>
+                    <option value="6">Book 6: Fixed Income</option>
+                    <option value="7">Book 7: Derivatives</option>
+                    <option value="8">Book 8: Alternative Investments</option>
+                    <option value="9">Book 9: Portfolio Management</option>
+                    <option value="10">Book 10: Ethics</option>
+                </select>
             </div>
 
             <div id="glossary-list" class="glossary-list">
                 <!-- Terms list -->
-            </div>
-
-            <div id="glossary-pagination" class="pagination glass-container">
-                <button class="btn btn-sm" onclick="glossaryPrevPage()" id="glossary-prev-btn">← Назад</button>
-                <span id="glossary-page-info">Страница 1 из 1</span>
-                <button class="btn btn-sm" onclick="glossaryNextPage()" id="glossary-next-btn">Далее →</button>
             </div>
         </div>
     </div>

@@ -906,49 +906,6 @@ a:hover {
     overflow-x: auto;
 }
 
-.term-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 4px;
-}
-
-.term-module {
-    font-size: 0.75rem;
-    background: var(--primary);
-    color: white;
-    padding: 2px 8px;
-    border-radius: 12px;
-}
-
-.filter-row {
-    display: flex;
-    gap: 12px;
-    flex: 2;
-}
-
-.filter-row select {
-    flex: 1;
-}
-
-.search-box {
-    flex-wrap: wrap;
-}
-
-.pagination {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-    margin-top: 16px;
-    padding: 12px;
-}
-
-#glossary-page-info {
-    color: var(--text-muted);
-    font-size: 0.9rem;
-}
-
 /* Statistics */
 .statistics-container {
     padding: 16px;
