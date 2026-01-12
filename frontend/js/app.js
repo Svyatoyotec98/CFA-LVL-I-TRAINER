@@ -968,8 +968,9 @@ function onBookFilterChange() {
     // Update module options based on selected book
     moduleSelect.innerHTML = '<option value="">Все главы</option>';
 
-    if (bookId && bookModules[bookId]) {
-        bookModules[bookId].forEach(mod => {
+    const bookIdNum = parseInt(bookId);
+    if (bookId && bookModules[bookIdNum]) {
+        bookModules[bookIdNum].forEach(mod => {
             moduleSelect.innerHTML += `<option value="${mod.id}">Глава ${mod.id}: ${mod.name}</option>`;
         });
     }
@@ -992,11 +993,11 @@ function applyGlossaryFilters(searchQuery = '') {
     const moduleId = document.getElementById('glossary-module-filter').value;
 
     filteredGlossaryTerms = glossaryTerms.filter(t => {
-        // Book filter
-        if (bookId && t.book_id != bookId) return false;
+        // Book filter (convert to int for comparison)
+        if (bookId && t.book_id != parseInt(bookId)) return false;
 
-        // Module filter
-        if (moduleId && t.module_id != moduleId) return false;
+        // Module filter (convert to int for comparison)
+        if (moduleId && t.module_id != parseInt(moduleId)) return false;
 
         // Search filter
         if (searchQuery) {
