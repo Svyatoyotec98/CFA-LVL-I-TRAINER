@@ -1,106 +1,332 @@
 {
   "book_id": 1,
   "book_name": "Quantitative Methods",
+  "book_name_ru": "Количественные методы",
   "terms": [
     {
       "term_id": "T-QM-001",
       "term_en": "Holding Period Return (HPR)",
       "term_ru": "Доходность за период владения",
-      "definition_en": "The return earned from holding an asset for a specified period, including both price appreciation and income such as dividends.",
-      "definition_ru": "Доходность от владения активом за определённый период, включая прирост цены и доход (дивиденды).",
+      "definition_en": "The return earned from holding an asset for a specified period.",
+      "definition_ru": "",
       "formula": "$HPR = \\frac{P_1 - P_0 + D}{P_0}$",
       "module_id": 1,
-      "related_los": ["LOS 1.a"]
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-QM-002",
       "term_en": "Effective Annual Rate (EAR)",
       "term_ru": "Эффективная годовая ставка",
-      "definition_en": "The annual rate of return that accounts for the effect of compounding. It is the actual return earned when interest is compounded more than once per year.",
-      "definition_ru": "Годовая ставка доходности с учётом эффекта сложных процентов. Фактическая доходность при начислении процентов чаще раза в год.",
+      "definition_en": "The annual rate of return accounting for compounding effects.",
+      "definition_ru": "",
       "formula": "$EAR = (1 + \\frac{r}{m})^m - 1$",
       "module_id": 1,
-      "related_los": ["LOS 1.c"]
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Interest Conversion",
+        "steps": [
+          "[2ND] [ICONV] - открыть Interest Conversion",
+          "Ввести NOM (номинальную ставку) [ENTER]",
+          "[↓][↓] Ввести C/Y (периоды начисления в год) [ENTER]",
+          "[↑] на EFF, нажать [CPT]",
+          "Результат: EFF = эффективная годовая ставка"
+        ],
+        "example": "NOM=12%, C/Y=12 → EFF=12.68%"
+      }
     },
     {
       "term_id": "T-QM-003",
       "term_en": "Present Value (PV)",
-      "term_ru": "Приведённая (текущая) стоимость",
-      "definition_en": "The current worth of a future sum of money or stream of cash flows given a specified rate of return.",
-      "definition_ru": "Текущая стоимость будущей суммы денег или потока платежей при заданной ставке доходности.",
+      "term_ru": "Приведённая стоимость",
+      "definition_en": "The current worth of a future sum of money given a rate of return.",
+      "definition_ru": "",
       "formula": "$PV = \\frac{FV}{(1+r)^n}$",
-      "module_id": 2,
-      "related_los": ["LOS 2.a"]
+      "module_id": 1,
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "TVM",
+        "steps": [
+          "[2ND] [CLR TVM] - очистить TVM",
+          "Ввести N (число периодов) [N]",
+          "Ввести I/Y (ставку) [I/Y]",
+          "Ввести FV (будущую стоимость) [FV]",
+          "Ввести PMT=0 [PMT]",
+          "[CPT] [PV] - рассчитать PV"
+        ],
+        "example": "N=5, I/Y=10, FV=1000, PMT=0 → PV=-620.92"
+      }
     },
     {
       "term_id": "T-QM-004",
       "term_en": "Future Value (FV)",
       "term_ru": "Будущая стоимость",
-      "definition_en": "The value of an asset or cash at a specified date in the future that is equivalent in value to a specified sum today.",
-      "definition_ru": "Стоимость актива или денежных средств на определённую дату в будущем, эквивалентная заданной сумме сегодня.",
+      "definition_en": "The value of money at a future date based on growth rate.",
+      "definition_ru": "",
       "formula": "$FV = PV \\times (1+r)^n$",
-      "module_id": 2,
-      "related_los": ["LOS 2.a"]
+      "module_id": 1,
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "TVM",
+        "steps": [
+          "[2ND] [CLR TVM] - очистить TVM",
+          "Ввести N (число периодов) [N]",
+          "Ввести I/Y (ставку) [I/Y]",
+          "Ввести PV со знаком минус [+/-] [PV]",
+          "Ввести PMT=0 [PMT]",
+          "[CPT] [FV] - рассчитать FV"
+        ],
+        "example": "N=5, I/Y=10, PV=-1000, PMT=0 → FV=1610.51"
+      }
     },
     {
       "term_id": "T-QM-005",
-      "term_en": "Annuity",
-      "term_ru": "Аннуитет",
-      "definition_en": "A series of equal cash flows occurring at fixed intervals over a specified period. Ordinary annuity has payments at end of periods; annuity due has payments at beginning.",
-      "definition_ru": "Серия равных платежей через фиксированные интервалы в течение определённого периода.",
-      "formula": "$PV_{annuity} = PMT \\times \\frac{1 - (1+r)^{-n}}{r}$",
-      "module_id": 2,
-      "related_los": ["LOS 2.b"]
+      "term_en": "Net Present Value (NPV)",
+      "term_ru": "Чистая приведённая стоимость",
+      "definition_en": "The difference between present value of cash inflows and outflows.",
+      "definition_ru": "",
+      "formula": "$NPV = \\sum \\frac{CF_t}{(1+r)^t}$",
+      "module_id": 1,
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Cash Flow",
+        "steps": [
+          "[CF] - открыть Cash Flow worksheet",
+          "Ввести CF0 (начальные инвестиции, обычно минус) [ENTER]",
+          "[↓] Ввести C01 [ENTER], [↓] F01 [ENTER]",
+          "Повторить для всех CF",
+          "[NPV] Ввести I (ставку дисконтирования) [ENTER]",
+          "[↓] [CPT] - рассчитать NPV"
+        ],
+        "example": "CF0=-100, C01=30, F01=5, I=10 → NPV=13,723.60"
+      }
     },
     {
       "term_id": "T-QM-006",
-      "term_en": "Perpetuity",
-      "term_ru": "Перпетуитет (бессрочная рента)",
-      "definition_en": "A constant stream of identical cash flows with no end. The present value formula is simplified as PMT divided by the discount rate.",
-      "definition_ru": "Постоянный поток одинаковых платежей без окончания.",
-      "formula": "$PV_{perpetuity} = \\frac{PMT}{r}$",
-      "module_id": 2,
-      "related_los": ["LOS 2.c"]
+      "term_en": "Internal Rate of Return (IRR)",
+      "term_ru": "Внутренняя норма доходности",
+      "definition_en": "The discount rate that makes NPV equal to zero.",
+      "definition_ru": "",
+      "formula": "$\\sum \\frac{CF_t}{(1+IRR)^t} = 0$",
+      "module_id": 1,
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Cash Flow",
+        "steps": [
+          "[CF] - открыть Cash Flow worksheet",
+          "Ввести CF0 (начальные инвестиции со знаком минус) [ENTER]",
+          "[↓] Ввести C01 [ENTER], [↓] F01 [ENTER]",
+          "Повторить для всех денежных потоков",
+          "[IRR] [CPT] - рассчитать IRR"
+        ],
+        "example": "CF0=-100, C01=30, F01=5 → IRR=15.24%"
+      }
     },
     {
       "term_id": "T-QM-007",
-      "term_en": "Arithmetic Mean",
-      "term_ru": "Среднее арифметическое",
-      "definition_en": "The sum of all values divided by the number of values. Most commonly used measure of central tendency.",
-      "definition_ru": "Сумма всех значений, делённая на их количество. Наиболее часто используемая мера центральной тенденции.",
-      "formula": "$\\bar{x} = \\frac{\\sum x_i}{n}$",
-      "module_id": 3,
-      "related_los": ["LOS 3.a"]
+      "term_en": "Standard Deviation (σ)",
+      "term_ru": "Стандартное отклонение",
+      "definition_en": "A measure of dispersion of returns around the mean.",
+      "definition_ru": "",
+      "formula": "$\\sigma = \\sqrt{\\frac{\\sum(x_i - \\bar{x})^2}{n}}$",
+      "module_id": 1,
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Statistics",
+        "steps": [
+          "[2ND] [DATA] - открыть Data worksheet",
+          "[2ND] [CLR WORK] - очистить данные",
+          "Ввести X01 [ENTER] [↓][↓]",
+          "Повторить для всех значений",
+          "[2ND] [STAT] - перейти к статистике",
+          "[↓] до σx (популяционное) или Sx (выборочное)"
+        ],
+        "example": "X: 5,8,-2,12,7 → σx=4.69, Sx=5.24"
+      }
     },
     {
       "term_id": "T-QM-008",
-      "term_en": "Standard Deviation",
-      "term_ru": "Стандартное отклонение",
-      "definition_en": "A measure of the dispersion of a dataset. It is the square root of the variance and indicates how spread out the values are from the mean.",
-      "definition_ru": "Мера разброса данных. Квадратный корень из дисперсии, показывает насколько значения отклоняются от среднего.",
-      "formula": "$\\sigma = \\sqrt{\\frac{\\sum(x_i - \\bar{x})^2}{n}}$",
-      "module_id": 3,
-      "related_los": ["LOS 3.b"]
+      "term_en": "Variance (σ²)",
+      "term_ru": "Дисперсия",
+      "definition_en": "The average squared deviation from the mean.",
+      "definition_ru": "",
+      "formula": "$\\sigma^2 = \\frac{\\sum(x_i - \\bar{x})^2}{n}$",
+      "module_id": 1,
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Statistics",
+        "steps": [
+          "[2ND] [DATA] - ввести все данные",
+          "[2ND] [STAT] - получить стд. отклонение",
+          "Возвести в квадрат: σ² = (σx)²",
+          "Или Sx² для выборочной дисперсии"
+        ],
+        "example": "Если σx=4.69 → σ²=21.99"
+      }
     },
     {
       "term_id": "T-QM-009",
-      "term_en": "Coefficient of Variation (CV)",
-      "term_ru": "Коэффициент вариации",
-      "definition_en": "A standardized measure of dispersion calculated as the ratio of standard deviation to the mean. Used to compare volatility across different datasets.",
-      "definition_ru": "Стандартизированная мера разброса, отношение стандартного отклонения к среднему. Используется для сравнения волатильности разных наборов данных.",
-      "formula": "$CV = \\frac{\\sigma}{\\bar{x}}$",
-      "module_id": 3,
-      "related_los": ["LOS 3.c"]
+      "term_en": "Covariance (Cov)",
+      "term_ru": "Ковариация",
+      "definition_en": "A measure of how two variables move together.",
+      "definition_ru": "",
+      "formula": "$Cov(X,Y) = E[(X-\\mu_X)(Y-\\mu_Y)]$",
+      "module_id": 1,
+      "related_los": [],
+      "calculator_steps": null
     },
     {
       "term_id": "T-QM-010",
-      "term_en": "Skewness",
-      "term_ru": "Асимметрия (скошенность)",
-      "definition_en": "A measure of the asymmetry of a probability distribution. Positive skewness indicates a long right tail; negative skewness indicates a long left tail.",
-      "definition_ru": "Мера асимметрии распределения вероятностей. Положительная асимметрия - длинный правый хвост; отрицательная - длинный левый хвост.",
+      "term_en": "Correlation (ρ)",
+      "term_ru": "Корреляция",
+      "definition_en": "Standardized measure of the linear relationship between two variables.",
+      "definition_ru": "",
+      "formula": "$\\rho = \\frac{Cov(X,Y)}{\\sigma_X \\sigma_Y}$",
+      "module_id": 1,
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Statistics",
+        "steps": [
+          "[2ND] [DATA] - открыть Data worksheet",
+          "[2ND] [CLR WORK] - очистить",
+          "Ввести пары: X01 [ENTER] [↓] Y01 [ENTER] [↓]",
+          "Повторить для всех пар X,Y",
+          "[2ND] [STAT]",
+          "[2ND] [SET] - выбрать LIN (линейная регрессия)",
+          "[↓] до r (коэффициент корреляции)"
+        ],
+        "example": "X:2,4,6,8 Y:3,6,8,11 → r=0.99"
+      }
+    },
+    {
+      "term_id": "T-QM-011",
+      "term_en": "Normal Distribution",
+      "term_ru": "Нормальное распределение",
+      "definition_en": "A symmetric probability distribution described by mean and standard deviation.",
+      "definition_ru": "",
       "formula": null,
-      "module_id": 3,
-      "related_los": ["LOS 3.e"]
+      "module_id": 1,
+      "related_los": [],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-QM-012",
+      "term_en": "Z-Score",
+      "term_ru": "Z-оценка",
+      "definition_en": "Number of standard deviations an observation is from the mean.",
+      "definition_ru": "",
+      "formula": "$z = \\frac{x - \\mu}{\\sigma}$",
+      "module_id": 1,
+      "related_los": [],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-QM-013",
+      "term_en": "Confidence Interval",
+      "term_ru": "Доверительный интервал",
+      "definition_en": "A range of values likely to contain the population parameter.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": [],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-QM-014",
+      "term_en": "Hypothesis Testing",
+      "term_ru": "Проверка гипотез",
+      "definition_en": "Statistical method to test claims about population parameters.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": [],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-QM-015",
+      "term_en": "Type I Error (α)",
+      "term_ru": "Ошибка I рода",
+      "definition_en": "Rejecting a true null hypothesis (false positive).",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": [],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-QM-016",
+      "term_en": "Type II Error (β)",
+      "term_ru": "Ошибка II рода",
+      "definition_en": "Failing to reject a false null hypothesis (false negative).",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": [],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-QM-017",
+      "term_en": "P-Value",
+      "term_ru": "P-значение",
+      "definition_en": "Probability of obtaining test results at least as extreme as observed.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": [],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-QM-018",
+      "term_en": "T-Test",
+      "term_ru": "T-тест",
+      "definition_en": "Statistical test using t-distribution for small samples.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": [],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-QM-019",
+      "term_en": "Regression",
+      "term_ru": "Регрессия",
+      "definition_en": "Statistical method to model relationship between variables.",
+      "definition_ru": "",
+      "formula": "$Y = \\alpha + \\beta X + \\epsilon$",
+      "module_id": 1,
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Statistics",
+        "steps": [
+          "[2ND] [DATA] - открыть Data worksheet",
+          "[2ND] [CLR WORK] - очистить",
+          "Ввести пары X,Y данных",
+          "[2ND] [STAT]",
+          "[2ND] [SET] - выбрать LIN",
+          "[↓] до a (intercept/α) и b (slope/β)"
+        ],
+        "example": "X:1,2,3,4,5 Y:2.1,4,5.9,8.1,10 → a=0.06, b=1.98"
+      }
+    },
+    {
+      "term_id": "T-QM-020",
+      "term_en": "R-Squared (R²)",
+      "term_ru": "R-квадрат",
+      "definition_en": "Proportion of variance in dependent variable explained by independent variables.",
+      "definition_ru": "",
+      "formula": "$R^2 = \\frac{SSR}{SST}$",
+      "module_id": 1,
+      "related_los": [],
+      "calculator_steps": {
+        "worksheet": "Statistics",
+        "steps": [
+          "После ввода данных и расчёта регрессии",
+          "[2ND] [STAT] [2ND] [SET] - LIN",
+          "Найти r (корреляцию)",
+          "R² = r² (возвести в квадрат)"
+        ],
+        "example": "Если r=0.99 → R²=0.98"
+      }
     }
   ]
 }
