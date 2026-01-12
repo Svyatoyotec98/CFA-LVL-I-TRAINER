@@ -1,0 +1,127 @@
+{
+  "book_id": 7,
+  "book_name": "Derivatives",
+  "book_name_ru": "Деривативы",
+  "terms": [
+    {
+      "term_id": "T-DER-001",
+      "term_en": "Forward Contract",
+      "term_ru": "Форвардный контракт",
+      "definition_en": "Agreement to buy/sell asset at future date at agreed price.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-DER-002",
+      "term_en": "Futures Contract",
+      "term_ru": "Фьючерсный контракт",
+      "definition_en": "Standardized forward contract traded on exchange.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-DER-003",
+      "term_en": "Option",
+      "term_ru": "Опцион",
+      "definition_en": "Right but not obligation to buy/sell at specified price.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-DER-004",
+      "term_en": "Call Option",
+      "term_ru": "Колл-опцион",
+      "definition_en": "Right to buy underlying asset at strike price.",
+      "definition_ru": "",
+      "formula": "$Payoff = max(S_T - X, 0)$",
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-DER-005",
+      "term_en": "Put Option",
+      "term_ru": "Пут-опцион",
+      "definition_en": "Right to sell underlying asset at strike price.",
+      "definition_ru": "",
+      "formula": "$Payoff = max(X - S_T, 0)$",
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-DER-006",
+      "term_en": "Strike Price",
+      "term_ru": "Цена исполнения",
+      "definition_en": "Price at which option can be exercised.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-DER-007",
+      "term_en": "Premium",
+      "term_ru": "Премия опциона",
+      "definition_en": "Price paid for the option contract.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-DER-008",
+      "term_en": "Intrinsic Value",
+      "term_ru": "Внутренняя стоимость",
+      "definition_en": "Value if option exercised immediately.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-DER-009",
+      "term_en": "Time Value",
+      "term_ru": "Временная стоимость",
+      "definition_en": "Option premium minus intrinsic value.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-DER-010",
+      "term_en": "Put-Call Parity",
+      "term_ru": "Паритет пут-колл",
+      "definition_en": "Relationship between put and call prices.",
+      "definition_ru": "",
+      "formula": "$C + PV(X) = P + S$",
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-DER-011",
+      "term_en": "Swap",
+      "term_ru": "Своп",
+      "definition_en": "Agreement to exchange cash flows.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-DER-012",
+      "term_en": "Interest Rate Swap",
+      "term_ru": "Процентный своп",
+      "definition_en": "Exchange of fixed for floating rate payments.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "book_id": 6,
+  "book_name": "Fixed Income",
+  "book_name_ru": "Инструменты с фиксированным доходом",
+  "terms": [
+    {
+      "term_id": "T-FI-001",
+      "term_en": "Bond",
+      "term_ru": "Облигация",
+      "definition_en": "Debt security with fixed interest payments and principal repayment.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-FI-002",
+      "term_en": "Coupon Rate",
+      "term_ru": "Купонная ставка",
+      "definition_en": "Annual interest rate paid on bond face value.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-FI-003",
+      "term_en": "Yield to Maturity (YTM)",
+      "term_ru": "Доходность к погашению",
+      "definition_en": "Total return if bond held to maturity.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-FI-004",
+      "term_en": "Current Yield",
+      "term_ru": "Текущая доходность",
+      "definition_en": "Annual coupon divided by current price.",
+      "definition_ru": "",
+      "formula": "$Current\\ Yield = \\frac{Annual\\ Coupon}{Current\\ Price}$",
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-FI-005",
+      "term_en": "Duration",
+      "term_ru": "Дюрация",
+      "definition_en": "Measure of bond price sensitivity to interest rate changes.",
+      "definition_ru": "",
+      "formula": "$\\%\\Delta P \\approx -Duration \\times \\Delta y$",
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-FI-006",
+      "term_en": "Modified Duration",
+      "term_ru": "Модифицированная дюрация",
+      "definition_en": "Duration adjusted for yield.",
+      "definition_ru": "",
+      "formula": "$ModDur = \\frac{MacDur}{1 + y}$",
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-FI-007",
+      "term_en": "Convexity",
+      "term_ru": "Выпуклость",
+      "definition_en": "Second-order measure of bond price sensitivity.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-FI-008",
+      "term_en": "Credit Spread",
+      "term_ru": "Кредитный спред",
+      "definition_en": "Yield difference between risky and risk-free bonds.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-FI-009",
+      "term_en": "Zero-Coupon Bond",
+      "term_ru": "Бескупонная облигация",
+      "definition_en": "Bond that pays no coupons, sold at discount.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-FI-010",
+      "term_en": "Callable Bond",
+      "term_ru": "Отзывная облигация",
+      "definition_en": "Bond that issuer can redeem before maturity.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-FI-011",
+      "term_en": "Putable Bond",
+      "term_ru": "Облигация с правом досрочного погашения",
+      "definition_en": "Bond that holder can sell back before maturity.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    }
+  ]
+}

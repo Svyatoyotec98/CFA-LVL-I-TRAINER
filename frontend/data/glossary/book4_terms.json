@@ -1,0 +1,127 @@
+{
+  "book_id": 4,
+  "book_name": "Financial Statement Analysis",
+  "book_name_ru": "Анализ финансовой отчётности",
+  "terms": [
+    {
+      "term_id": "T-FSA-001",
+      "term_en": "Balance Sheet",
+      "term_ru": "Бухгалтерский баланс",
+      "definition_en": "Statement showing assets, liabilities, and equity at a point in time.",
+      "definition_ru": "",
+      "formula": "$Assets = Liabilities + Equity$",
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-FSA-002",
+      "term_en": "Income Statement",
+      "term_ru": "Отчёт о прибылях и убытках",
+      "definition_en": "Statement showing revenues, expenses, and profit over a period.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-FSA-003",
+      "term_en": "Cash Flow Statement",
+      "term_ru": "Отчёт о движении денежных средств",
+      "definition_en": "Statement showing cash inflows and outflows.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-FSA-004",
+      "term_en": "Current Ratio",
+      "term_ru": "Коэффициент текущей ликвидности",
+      "definition_en": "Measure of short-term liquidity.",
+      "definition_ru": "",
+      "formula": "$Current\\ Ratio = \\frac{Current\\ Assets}{Current\\ Liabilities}$",
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-FSA-005",
+      "term_en": "Quick Ratio",
+      "term_ru": "Коэффициент быстрой ликвидности",
+      "definition_en": "Liquidity measure excluding inventory.",
+      "definition_ru": "",
+      "formula": "$Quick\\ Ratio = \\frac{Cash + Receivables}{Current\\ Liabilities}$",
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-FSA-006",
+      "term_en": "ROE",
+      "term_ru": "Рентабельность собственного капитала",
+      "definition_en": "Return on Equity - profitability relative to shareholders' equity.",
+      "definition_ru": "",
+      "formula": "$ROE = \\frac{Net\\ Income}{Shareholders'\\ Equity}$",
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-FSA-007",
+      "term_en": "ROA",
+      "term_ru": "Рентабельность активов",
+      "definition_en": "Return on Assets - profitability relative to total assets.",
+      "definition_ru": "",
+      "formula": "$ROA = \\frac{Net\\ Income}{Total\\ Assets}$",
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-FSA-008",
+      "term_en": "DuPont Analysis",
+      "term_ru": "Анализ Дюпон",
+      "definition_en": "Framework decomposing ROE into component ratios.",
+      "definition_ru": "",
+      "formula": "$ROE = \\frac{NI}{Sales} \\times \\frac{Sales}{Assets} \\times \\frac{Assets}{Equity}$",
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-FSA-009",
+      "term_en": "EPS",
+      "term_ru": "Прибыль на акцию",
+      "definition_en": "Earnings Per Share.",
+      "definition_ru": "",
+      "formula": "$EPS = \\frac{Net\\ Income - Preferred\\ Dividends}{Weighted\\ Avg\\ Shares}$",
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-FSA-010",
+      "term_en": "P/E Ratio",
+      "term_ru": "Коэффициент P/E",
+      "definition_en": "Price-to-Earnings ratio for valuation.",
+      "definition_ru": "",
+      "formula": "$P/E = \\frac{Market\\ Price\\ per\\ Share}{EPS}$",
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-FSA-011",
+      "term_en": "Depreciation",
+      "term_ru": "Амортизация",
+      "definition_en": "Allocation of asset cost over its useful life.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-FSA-012",
+      "term_en": "Working Capital",
+      "term_ru": "Оборотный капитал",
+      "definition_en": "Current assets minus current liabilities.",
+      "definition_ru": "",
+      "formula": "$WC = Current\\ Assets - Current\\ Liabilities$",
+      "module_id": 1,
+      "related_los": []
+    }
+  ]
+}

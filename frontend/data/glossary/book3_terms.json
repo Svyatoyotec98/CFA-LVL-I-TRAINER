@@ -1,0 +1,107 @@
+{
+  "book_id": 3,
+  "book_name": "Corporate Issuers",
+  "book_name_ru": "Корпоративные эмитенты",
+  "terms": [
+    {
+      "term_id": "T-CI-001",
+      "term_en": "Stakeholder",
+      "term_ru": "Заинтересованная сторона",
+      "definition_en": "Any party affected by company actions.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-CI-002",
+      "term_en": "Shareholder",
+      "term_ru": "Акционер",
+      "definition_en": "Owner of company shares with voting rights.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-CI-003",
+      "term_en": "Corporate Governance",
+      "term_ru": "Корпоративное управление",
+      "definition_en": "System of rules and practices for directing a company.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-CI-004",
+      "term_en": "Board of Directors",
+      "term_ru": "Совет директоров",
+      "definition_en": "Group elected to represent shareholders and oversee management.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-CI-005",
+      "term_en": "Capital Structure",
+      "term_ru": "Структура капитала",
+      "definition_en": "Mix of debt and equity financing.",
+      "definition_ru": "",
+      "formula": "$V = D + E$",
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-CI-006",
+      "term_en": "WACC",
+      "term_ru": "WACC (средневзвешенная стоимость капитала)",
+      "definition_en": "Weighted Average Cost of Capital.",
+      "definition_ru": "",
+      "formula": "$WACC = w_d r_d(1-t) + w_e r_e$",
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-CI-007",
+      "term_en": "Cost of Equity",
+      "term_ru": "Стоимость собственного капитала",
+      "definition_en": "Return required by equity investors.",
+      "definition_ru": "",
+      "formula": "$r_e = r_f + \\beta(r_m - r_f)$",
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-CI-008",
+      "term_en": "Cost of Debt",
+      "term_ru": "Стоимость долга",
+      "definition_en": "Interest rate paid on borrowed funds.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-CI-009",
+      "term_en": "Leverage",
+      "term_ru": "Финансовый рычаг",
+      "definition_en": "Use of borrowed funds to increase potential returns.",
+      "definition_ru": "",
+      "formula": "$DFL = \\frac{\\%\\Delta EPS}{\\%\\Delta EBIT}$",
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-CI-010",
+      "term_en": "Dividend Policy",
+      "term_ru": "Дивидендная политика",
+      "definition_en": "Company decisions regarding dividend payments.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    }
+  ]
+}

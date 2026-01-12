@@ -1,0 +1,117 @@
+{
+  "book_id": 2,
+  "book_name": "Economics",
+  "book_name_ru": "Экономика",
+  "terms": [
+    {
+      "term_id": "T-ECON-001",
+      "term_en": "Demand",
+      "term_ru": "Спрос",
+      "definition_en": "The quantity of a good consumers are willing to buy at various prices.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-ECON-002",
+      "term_en": "Supply",
+      "term_ru": "Предложение",
+      "definition_en": "The quantity of a good producers are willing to sell at various prices.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-ECON-003",
+      "term_en": "Equilibrium",
+      "term_ru": "Равновесие",
+      "definition_en": "The point where supply equals demand.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-ECON-004",
+      "term_en": "Elasticity",
+      "term_ru": "Эластичность",
+      "definition_en": "Measure of responsiveness of quantity to price changes.",
+      "definition_ru": "",
+      "formula": "$E = \\frac{\\%\\Delta Q}{\\%\\Delta P}$",
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-ECON-005",
+      "term_en": "GDP",
+      "term_ru": "ВВП",
+      "definition_en": "Total market value of all final goods and services produced in a country.",
+      "definition_ru": "",
+      "formula": "$GDP = C + I + G + (X - M)$",
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-ECON-006",
+      "term_en": "Inflation",
+      "term_ru": "Инфляция",
+      "definition_en": "Sustained increase in the general price level.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-ECON-007",
+      "term_en": "Monetary Policy",
+      "term_ru": "Денежно-кредитная политика",
+      "definition_en": "Central bank actions to control money supply and interest rates.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-ECON-008",
+      "term_en": "Fiscal Policy",
+      "term_ru": "Фискальная политика",
+      "definition_en": "Government spending and taxation decisions.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-ECON-009",
+      "term_en": "Exchange Rate",
+      "term_ru": "Обменный курс",
+      "definition_en": "Price of one currency in terms of another.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-ECON-010",
+      "term_en": "Interest Rate Parity",
+      "term_ru": "Паритет процентных ставок",
+      "definition_en": "Relationship between interest rates and exchange rates.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-ECON-011",
+      "term_en": "Purchasing Power Parity (PPP)",
+      "term_ru": "Паритет покупательной способности",
+      "definition_en": "Theory that exchange rates adjust to equalize prices across countries.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    }
+  ]
+}

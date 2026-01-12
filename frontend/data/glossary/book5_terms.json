@@ -1,0 +1,107 @@
+{
+  "book_id": 5,
+  "book_name": "Equity Investments",
+  "book_name_ru": "Инвестиции в акции",
+  "terms": [
+    {
+      "term_id": "T-EQ-001",
+      "term_en": "Common Stock",
+      "term_ru": "Обыкновенные акции",
+      "definition_en": "Ownership shares with voting rights and residual claim.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-EQ-002",
+      "term_en": "Preferred Stock",
+      "term_ru": "Привилегированные акции",
+      "definition_en": "Shares with priority dividend but usually no voting rights.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-EQ-003",
+      "term_en": "Dividend Discount Model (DDM)",
+      "term_ru": "Модель дисконтирования дивидендов",
+      "definition_en": "Valuation model based on present value of future dividends.",
+      "definition_ru": "",
+      "formula": "$P_0 = \\frac{D_1}{r - g}$",
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-EQ-004",
+      "term_en": "Gordon Growth Model",
+      "term_ru": "Модель Гордона",
+      "definition_en": "DDM assuming constant dividend growth rate.",
+      "definition_ru": "",
+      "formula": "$P_0 = \\frac{D_0(1+g)}{r - g}$",
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-EQ-005",
+      "term_en": "Free Cash Flow (FCF)",
+      "term_ru": "Свободный денежный поток",
+      "definition_en": "Cash available after capital expenditures.",
+      "definition_ru": "",
+      "formula": "$FCF = CFO - CapEx$",
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-EQ-006",
+      "term_en": "FCFE",
+      "term_ru": "Свободный денежный поток на собственный капитал",
+      "definition_en": "Free Cash Flow to Equity.",
+      "definition_ru": "",
+      "formula": "$FCFE = CFO - CapEx + Net\\ Borrowing$",
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-EQ-007",
+      "term_en": "FCFF",
+      "term_ru": "Свободный денежный поток фирмы",
+      "definition_en": "Free Cash Flow to Firm.",
+      "definition_ru": "",
+      "formula": "$FCFF = EBIT(1-t) + Depreciation - CapEx - \\Delta WC$",
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-EQ-008",
+      "term_en": "Enterprise Value (EV)",
+      "term_ru": "Стоимость предприятия",
+      "definition_en": "Total company value including debt.",
+      "definition_ru": "",
+      "formula": "$EV = Market\\ Cap + Debt - Cash$",
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-EQ-009",
+      "term_en": "Market Capitalization",
+      "term_ru": "Рыночная капитализация",
+      "definition_en": "Total market value of outstanding shares.",
+      "definition_ru": "",
+      "formula": "$Market\\ Cap = Share\\ Price \\times Shares\\ Outstanding$",
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-EQ-010",
+      "term_en": "Book Value",
+      "term_ru": "Балансовая стоимость",
+      "definition_en": "Value of equity on the balance sheet.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    }
+  ]
+}

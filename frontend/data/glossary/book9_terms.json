@@ -1,0 +1,127 @@
+{
+  "book_id": 9,
+  "book_name": "Portfolio Management",
+  "book_name_ru": "Управление портфелем",
+  "terms": [
+    {
+      "term_id": "T-PM-001",
+      "term_en": "Portfolio",
+      "term_ru": "Портфель",
+      "definition_en": "Collection of investments held by an investor.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-PM-002",
+      "term_en": "Diversification",
+      "term_ru": "Диверсификация",
+      "definition_en": "Reducing risk by investing in multiple assets.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-PM-003",
+      "term_en": "Systematic Risk",
+      "term_ru": "Систематический риск",
+      "definition_en": "Market risk that cannot be diversified away.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-PM-004",
+      "term_en": "Unsystematic Risk",
+      "term_ru": "Несистематический риск",
+      "definition_en": "Company-specific risk that can be diversified.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-PM-005",
+      "term_en": "Beta (β)",
+      "term_ru": "Бета",
+      "definition_en": "Measure of systematic risk relative to market.",
+      "definition_ru": "",
+      "formula": "$\\beta = \\frac{Cov(R_i, R_m)}{Var(R_m)}$",
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-PM-006",
+      "term_en": "CAPM",
+      "term_ru": "CAPM (модель оценки капитальных активов)",
+      "definition_en": "Capital Asset Pricing Model.",
+      "definition_ru": "",
+      "formula": "$E(R_i) = R_f + \\beta(E(R_m) - R_f)$",
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-PM-007",
+      "term_en": "Sharpe Ratio",
+      "term_ru": "Коэффициент Шарпа",
+      "definition_en": "Risk-adjusted return measure.",
+      "definition_ru": "",
+      "formula": "$Sharpe = \\frac{R_p - R_f}{\\sigma_p}$",
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-PM-008",
+      "term_en": "Treynor Ratio",
+      "term_ru": "Коэффициент Трейнора",
+      "definition_en": "Return per unit of systematic risk.",
+      "definition_ru": "",
+      "formula": "$Treynor = \\frac{R_p - R_f}{\\beta_p}$",
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-PM-009",
+      "term_en": "Jensen's Alpha (α)",
+      "term_ru": "Альфа Дженсена",
+      "definition_en": "Excess return above CAPM prediction.",
+      "definition_ru": "",
+      "formula": "$\\alpha = R_p - [R_f + \\beta(R_m - R_f)]$",
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-PM-010",
+      "term_en": "Efficient Frontier",
+      "term_ru": "Эффективная граница",
+      "definition_en": "Set of optimal portfolios offering highest return for given risk.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-PM-011",
+      "term_en": "Capital Market Line (CML)",
+      "term_ru": "Линия рынка капитала",
+      "definition_en": "Line from risk-free rate tangent to efficient frontier.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    },
+    {
+      "term_id": "T-PM-012",
+      "term_en": "Security Market Line (SML)",
+      "term_ru": "Линия рынка ценных бумаг",
+      "definition_en": "Graph of CAPM showing expected return vs beta.",
+      "definition_ru": "",
+      "formula": null,
+      "module_id": 1,
+      "related_los": []
+    }
+  ]
+}
