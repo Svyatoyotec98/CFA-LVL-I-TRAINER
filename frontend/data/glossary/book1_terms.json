@@ -2,331 +2,363 @@
   "book_id": 1,
   "book_name": "Quantitative Methods",
   "book_name_ru": "Количественные методы",
+  "total_terms": 21,
+
   "terms": [
     {
       "term_id": "T-QM-001",
       "term_en": "Holding Period Return (HPR)",
       "term_ru": "Доходность за период владения",
-      "definition_en": "The return earned from holding an asset for a specified period.",
-      "definition_ru": "",
-      "formula": "$HPR = \\frac{P_1 - P_0 + D}{P_0}$",
+      "definition_en": "The return earned from holding an asset for a single specified period of time. It is calculated as the sum of price change and income received (such as dividends), divided by the beginning price. HPR captures total return including both capital gains and income.",
+      "definition_ru": "Доходность от владения активом за определённый период времени. Рассчитывается как сумма изменения цены и полученного дохода (например, дивидендов), делённая на начальную цену. HPR отражает общую доходность, включая прирост капитала и доход.",
+      "formula": "$HPR = \\frac{P_1 - P_0 + D_1}{P_0}$",
       "module_id": 1,
-      "related_los": [],
+      "los_id": "LOS_1b",
+      "related_terms": ["T-QM-002", "T-QM-003", "T-QM-008"],
       "calculator_steps": null
     },
     {
       "term_id": "T-QM-002",
-      "term_en": "Effective Annual Rate (EAR)",
-      "term_ru": "Эффективная годовая ставка",
-      "definition_en": "The annual rate of return accounting for compounding effects.",
-      "definition_ru": "",
-      "formula": "$EAR = (1 + \\frac{r}{m})^m - 1$",
+      "term_en": "Arithmetic Mean Return",
+      "term_ru": "Среднее арифметическое доходности",
+      "definition_en": "The simple average of holding period returns over multiple periods. It is calculated by summing all returns and dividing by the number of periods. Arithmetic mean tends to be biased upwards compared to geometric mean unless all returns are equal.",
+      "definition_ru": "Простое среднее доходностей за несколько периодов. Рассчитывается путём суммирования всех доходностей и деления на количество периодов. Среднее арифметическое обычно завышено по сравнению с геометрическим средним, если доходности не равны.",
+      "formula": "$\\bar{R} = \\frac{1}{T} \\sum_{t=1}^{T} R_t = \\frac{R_1 + R_2 + ... + R_T}{T}$",
       "module_id": 1,
-      "related_los": [],
+      "los_id": "LOS_1b",
+      "related_terms": ["T-QM-001", "T-QM-003", "T-QM-004"],
       "calculator_steps": {
-        "worksheet": "Interest Conversion",
+        "worksheet": "Statistics",
+        "access": "[2ND] [DATA]",
         "steps": [
-          "[2ND] [ICONV] - открыть Interest Conversion",
-          "Ввести NOM (номинальную ставку) [ENTER]",
-          "[↓][↓] Ввести C/Y (периоды начисления в год) [ENTER]",
-          "[↑] на EFF, нажать [CPT]",
-          "Результат: EFF = эффективная годовая ставка"
+          "[2ND] [DATA] — открыть статистику",
+          "[2ND] [CLR WORK] — очистить данные",
+          "X01: ввести первую доходность [ENTER] [↓↓]",
+          "X02: ввести вторую доходность [ENTER] [↓↓]",
+          "Повторить для всех данных",
+          "[2ND] [STAT] — показать результаты",
+          "[↓] до x̄ — среднее арифметическое"
         ],
-        "example": "NOM=12%, C/Y=12 → EFF=12.68%"
+        "example": {
+          "given": "Returns: 15%, 10%, 12%, 3%",
+          "input": "X01=15, X02=10, X03=12, X04=3",
+          "result": "Mean = 10%"
+        }
       }
     },
     {
       "term_id": "T-QM-003",
-      "term_en": "Present Value (PV)",
-      "term_ru": "Приведённая стоимость",
-      "definition_en": "The current worth of a future sum of money given a rate of return.",
-      "definition_ru": "",
-      "formula": "$PV = \\frac{FV}{(1+r)^n}$",
+      "term_en": "Geometric Mean Return",
+      "term_ru": "Среднее геометрическое доходности",
+      "definition_en": "The compound average rate of return over multiple periods. It accounts for the compounding effect where returns from previous periods are reinvested. Geometric mean provides a more accurate representation of portfolio value growth than arithmetic mean.",
+      "definition_ru": "Сложная средняя ставка доходности за несколько периодов. Учитывает эффект реинвестирования, когда доходы предыдущих периодов реинвестируются. Геометрическое среднее точнее отражает рост стоимости портфеля, чем арифметическое среднее.",
+      "formula": "$\\bar{R}_G = \\sqrt[T]{\\prod_{t=1}^{T}(1+R_t)} - 1 = [(1+R_1)(1+R_2)...(1+R_T)]^{1/T} - 1$",
       "module_id": 1,
-      "related_los": [],
+      "los_id": "LOS_1b",
+      "related_terms": ["T-QM-002", "T-QM-008"],
       "calculator_steps": {
-        "worksheet": "TVM",
+        "worksheet": "Direct Calculation",
+        "access": "Standard keys",
         "steps": [
-          "[2ND] [CLR TVM] - очистить TVM",
-          "Ввести N (число периодов) [N]",
-          "Ввести I/Y (ставку) [I/Y]",
-          "Ввести FV (будущую стоимость) [FV]",
-          "Ввести PMT=0 [PMT]",
-          "[CPT] [PV] - рассчитать PV"
+          "(1+R1) [×] (1+R2) [×] ... [×] (1+Rn) [=]",
+          "[yˣ] (1/n) [=]",
+          "[-] 1 [=] — геометрическое среднее"
         ],
-        "example": "N=5, I/Y=10, FV=1000, PMT=0 → PV=-620.92"
+        "example": {
+          "given": "Returns: 15%, 10%, 12%, 3%",
+          "input": "1.15 × 1.10 × 1.12 × 1.03 = 1.4641, then ^0.25",
+          "result": "Geometric Mean = 9.9%"
+        }
       }
     },
     {
       "term_id": "T-QM-004",
-      "term_en": "Future Value (FV)",
-      "term_ru": "Будущая стоимость",
-      "definition_en": "The value of money at a future date based on growth rate.",
-      "definition_ru": "",
-      "formula": "$FV = PV \\times (1+r)^n$",
+      "term_en": "Harmonic Mean",
+      "term_ru": "Среднее гармоническое",
+      "definition_en": "A measure of central tendency calculated as the number of observations divided by the sum of reciprocals of the observations. It is especially useful for averaging ratios such as P/E ratios or for cost-averaging strategies where a fixed amount is invested at regular intervals.",
+      "definition_ru": "Мера центральной тенденции, рассчитываемая как число наблюдений, делённое на сумму обратных величин. Особенно полезно для усреднения коэффициентов (например, P/E) или стратегий усреднения стоимости при инвестировании фиксированной суммы.",
+      "formula": "$\\bar{X}_H = \\frac{n}{\\sum_{i=1}^{n} \\frac{1}{X_i}}$",
       "module_id": 1,
-      "related_los": [],
-      "calculator_steps": {
-        "worksheet": "TVM",
-        "steps": [
-          "[2ND] [CLR TVM] - очистить TVM",
-          "Ввести N (число периодов) [N]",
-          "Ввести I/Y (ставку) [I/Y]",
-          "Ввести PV со знаком минус [+/-] [PV]",
-          "Ввести PMT=0 [PMT]",
-          "[CPT] [FV] - рассчитать FV"
-        ],
-        "example": "N=5, I/Y=10, PV=-1000, PMT=0 → FV=1610.51"
-      }
+      "los_id": "LOS_1b",
+      "related_terms": ["T-QM-002", "T-QM-003"],
+      "calculator_steps": null
     },
     {
       "term_id": "T-QM-005",
-      "term_en": "Net Present Value (NPV)",
-      "term_ru": "Чистая приведённая стоимость",
-      "definition_en": "The difference between present value of cash inflows and outflows.",
-      "definition_ru": "",
-      "formula": "$NPV = \\sum \\frac{CF_t}{(1+r)^t}$",
+      "term_en": "Trimmed Mean",
+      "term_ru": "Усечённое среднее",
+      "definition_en": "A measure of central tendency calculated by removing a small percentage of the lowest and highest values from the dataset before computing the arithmetic mean. This reduces the effect of outliers on the average.",
+      "definition_ru": "Мера центральной тенденции, при которой перед вычислением среднего арифметического из набора данных удаляется небольшой процент наименьших и наибольших значений. Это снижает влияние выбросов на среднее.",
+      "formula": null,
       "module_id": 1,
-      "related_los": [],
-      "calculator_steps": {
-        "worksheet": "Cash Flow",
-        "steps": [
-          "[CF] - открыть Cash Flow worksheet",
-          "Ввести CF0 (начальные инвестиции, обычно минус) [ENTER]",
-          "[↓] Ввести C01 [ENTER], [↓] F01 [ENTER]",
-          "Повторить для всех CF",
-          "[NPV] Ввести I (ставку дисконтирования) [ENTER]",
-          "[↓] [CPT] - рассчитать NPV"
-        ],
-        "example": "CF0=-100, C01=30, F01=5, I=10 → NPV=13,723.60"
-      }
+      "los_id": "LOS_1b",
+      "related_terms": ["T-QM-002", "T-QM-006"],
+      "calculator_steps": null
     },
     {
       "term_id": "T-QM-006",
-      "term_en": "Internal Rate of Return (IRR)",
-      "term_ru": "Внутренняя норма доходности",
-      "definition_en": "The discount rate that makes NPV equal to zero.",
-      "definition_ru": "",
-      "formula": "$\\sum \\frac{CF_t}{(1+IRR)^t} = 0$",
+      "term_en": "Winsorized Mean",
+      "term_ru": "Винзоризированное среднее",
+      "definition_en": "A measure of central tendency that replaces extreme values at both ends of the data with the values of their nearest observations (typically at the 10th and 90th percentiles). Unlike trimmed mean which removes outliers, Winsorized mean replaces them.",
+      "definition_ru": "Мера центральной тенденции, при которой экстремальные значения на обоих концах данных заменяются значениями ближайших наблюдений (обычно на уровне 10-го и 90-го перцентилей). В отличие от усечённого среднего, которое удаляет выбросы, винзоризированное заменяет их.",
+      "formula": null,
       "module_id": 1,
-      "related_los": [],
-      "calculator_steps": {
-        "worksheet": "Cash Flow",
-        "steps": [
-          "[CF] - открыть Cash Flow worksheet",
-          "Ввести CF0 (начальные инвестиции со знаком минус) [ENTER]",
-          "[↓] Ввести C01 [ENTER], [↓] F01 [ENTER]",
-          "Повторить для всех денежных потоков",
-          "[IRR] [CPT] - рассчитать IRR"
-        ],
-        "example": "CF0=-100, C01=30, F01=5 → IRR=15.24%"
-      }
+      "los_id": "LOS_1b",
+      "related_terms": ["T-QM-002", "T-QM-005"],
+      "calculator_steps": null
     },
     {
       "term_id": "T-QM-007",
-      "term_en": "Standard Deviation (σ)",
-      "term_ru": "Стандартное отклонение",
-      "definition_en": "A measure of dispersion of returns around the mean.",
-      "definition_ru": "",
-      "formula": "$\\sigma = \\sqrt{\\frac{\\sum(x_i - \\bar{x})^2}{n}}$",
+      "term_en": "Money-Weighted Rate of Return (MWRR)",
+      "term_ru": "Взвешенная по деньгам доходность (MWRR)",
+      "definition_en": "The internal rate of return (IRR) of a portfolio that accounts for the timing and amounts of all cash flows. MWRR gives more weight to periods when the portfolio value is larger. It measures actual investment return but can be affected by factors outside the manager's control.",
+      "definition_ru": "Внутренняя норма доходности (IRR) портфеля, учитывающая время и суммы всех денежных потоков. MWRR придаёт больший вес периодам с большей стоимостью портфеля. Измеряет фактическую доходность инвестиций, но может зависеть от факторов вне контроля управляющего.",
+      "formula": "$\\sum_{t=0}^{T} \\frac{CF_t}{(1+MWRR)^t} = 0$",
       "module_id": 1,
-      "related_los": [],
+      "los_id": "LOS_1c",
+      "related_terms": ["T-QM-008", "T-QM-001"],
       "calculator_steps": {
-        "worksheet": "Statistics",
+        "worksheet": "Cash Flow",
+        "access": "[CF]",
         "steps": [
-          "[2ND] [DATA] - открыть Data worksheet",
-          "[2ND] [CLR WORK] - очистить данные",
-          "Ввести X01 [ENTER] [↓][↓]",
-          "Повторить для всех значений",
-          "[2ND] [STAT] - перейти к статистике",
-          "[↓] до σx (популяционное) или Sx (выборочное)"
+          "[CF] — открыть Cash Flow worksheet",
+          "[2ND] [CLR WORK] — очистить данные",
+          "CF0: начальные инвестиции [+/-] [ENTER] [↓]",
+          "C01: денежный поток периода 1 [ENTER] [↓]",
+          "F01: частота (обычно 1) [ENTER] [↓]",
+          "Повторить для всех CF",
+          "[IRR] [CPT] — рассчитать IRR = MWRR"
         ],
-        "example": "X: 5,8,-2,12,7 → σx=4.69, Sx=5.24"
+        "example": {
+          "given": "Initial: -$10,000, Year 1: -$5,000, Year 2: +$25,000",
+          "input": "CF0=-10000, C01=-5000, F01=1, C02=25000, F02=1",
+          "result": "IRR = 35.08%"
+        }
       }
     },
     {
       "term_id": "T-QM-008",
-      "term_en": "Variance (σ²)",
-      "term_ru": "Дисперсия",
-      "definition_en": "The average squared deviation from the mean.",
-      "definition_ru": "",
-      "formula": "$\\sigma^2 = \\frac{\\sum(x_i - \\bar{x})^2}{n}$",
+      "term_en": "Time-Weighted Rate of Return (TWRR)",
+      "term_ru": "Взвешенная по времени доходность (TWRR)",
+      "definition_en": "The compound growth rate of an investment that eliminates the effect of external cash flows (contributions and withdrawals). TWRR divides the evaluation period into subperiods based on cash flows, calculates HPR for each, and geometrically links them. It is the preferred measure for evaluating portfolio manager performance.",
+      "definition_ru": "Сложная ставка роста инвестиций, исключающая влияние внешних денежных потоков (взносов и изъятий). TWRR делит период оценки на подпериоды по денежным потокам, рассчитывает HPR для каждого и геометрически связывает их. Предпочтительная мера для оценки работы управляющего портфелем.",
+      "formula": "$TWRR = [(1+HPR_1)(1+HPR_2)...(1+HPR_n)]^{1/n} - 1$",
       "module_id": 1,
-      "related_los": [],
+      "los_id": "LOS_1c",
+      "related_terms": ["T-QM-007", "T-QM-001", "T-QM-003"],
       "calculator_steps": {
-        "worksheet": "Statistics",
+        "worksheet": "Direct Calculation",
+        "access": "Standard keys",
         "steps": [
-          "[2ND] [DATA] - ввести все данные",
-          "[2ND] [STAT] - получить стд. отклонение",
-          "Возвести в квадрат: σ² = (σx)²",
-          "Или Sx² для выборочной дисперсии"
+          "Step 1: Calculate HPR for each subperiod",
+          "HPR = (Ending Value - Beginning Value) / Beginning Value",
+          "Step 2: Compound HPRs",
+          "(1+HPR1) [×] (1+HPR2) [×] ... [=]",
+          "[yˣ] (1/n) [=] — для периода > 1 года",
+          "[-] 1 [=] — TWRR"
         ],
-        "example": "Если σx=4.69 → σ²=21.99"
+        "example": {
+          "given": "HPR1 = 11.5%, HPR2 = 5.9%",
+          "input": "1.115 × 1.059 = 1.1808, then ^0.5",
+          "result": "TWRR = 8.7%"
+        }
       }
     },
     {
       "term_id": "T-QM-009",
-      "term_en": "Covariance (Cov)",
-      "term_ru": "Ковариация",
-      "definition_en": "A measure of how two variables move together.",
-      "definition_ru": "",
-      "formula": "$Cov(X,Y) = E[(X-\\mu_X)(Y-\\mu_Y)]$",
+      "term_en": "Effective Annual Rate (EAR)",
+      "term_ru": "Эффективная годовая ставка (EAR)",
+      "definition_en": "The annual rate of return that accounts for the effect of compounding when interest is paid more frequently than once per year. EAR represents the true annual return and allows comparison of investments with different compounding frequencies.",
+      "definition_ru": "Годовая ставка доходности, учитывающая эффект начисления процентов при выплатах чаще одного раза в год. EAR представляет истинную годовую доходность и позволяет сравнивать инвестиции с разной частотой начисления.",
+      "formula": "$EAR = \\left(1 + \\frac{r_s}{m}\\right)^m - 1$",
       "module_id": 1,
-      "related_los": [],
-      "calculator_steps": null
+      "los_id": "LOS_1d",
+      "related_terms": ["T-QM-010", "T-QM-014"],
+      "calculator_steps": {
+        "worksheet": "Interest Conversion",
+        "access": "[2ND] [ICONV]",
+        "steps": [
+          "[2ND] [ICONV] — открыть Interest Conversion",
+          "NOM: ввести номинальную ставку [ENTER]",
+          "[↓] C/Y: ввести периоды начисления в год [ENTER]",
+          "[↓] EFF: нажать [CPT] — рассчитать EAR"
+        ],
+        "example": {
+          "given": "Nominal rate 8%, quarterly compounding",
+          "input": "NOM=8, C/Y=4",
+          "result": "EFF = 8.24%"
+        }
+      }
     },
     {
       "term_id": "T-QM-010",
-      "term_en": "Correlation (ρ)",
-      "term_ru": "Корреляция",
-      "definition_en": "Standardized measure of the linear relationship between two variables.",
-      "definition_ru": "",
-      "formula": "$\\rho = \\frac{Cov(X,Y)}{\\sigma_X \\sigma_Y}$",
+      "term_en": "Continuously Compounded Return",
+      "term_ru": "Непрерывно начисляемая доходность",
+      "definition_en": "The return calculated using continuous compounding, found by taking the natural logarithm of one plus the holding period return: ln(1+HPR). Continuously compounded returns are additive over time, making them useful for multi-period analysis.",
+      "definition_ru": "Доходность, рассчитанная с использованием непрерывного начисления процентов, определяется как натуральный логарифм от (1 + HPR): ln(1+HPR). Непрерывно начисляемые доходности аддитивны во времени, что удобно для многопериодного анализа.",
+      "formula": "$r_{cc} = \\ln(1 + HPR) = \\ln\\left(\\frac{P_1}{P_0}\\right)$",
       "module_id": 1,
-      "related_los": [],
+      "los_id": "LOS_1d",
+      "related_terms": ["T-QM-009", "T-QM-001"],
       "calculator_steps": {
-        "worksheet": "Statistics",
+        "worksheet": "Direct Calculation",
+        "access": "[LN] key",
         "steps": [
-          "[2ND] [DATA] - открыть Data worksheet",
-          "[2ND] [CLR WORK] - очистить",
-          "Ввести пары: X01 [ENTER] [↓] Y01 [ENTER] [↓]",
-          "Повторить для всех пар X,Y",
-          "[2ND] [STAT]",
-          "[2ND] [SET] - выбрать LIN (линейная регрессия)",
-          "[↓] до r (коэффициент корреляции)"
+          "1 [+] HPR [=]",
+          "[LN] — натуральный логарифм",
+          "Результат — непрерывно начисляемая доходность"
         ],
-        "example": "X:2,4,6,8 Y:3,6,8,11 → r=0.99"
+        "example": {
+          "given": "HPR = 12%",
+          "input": "1.12 [LN]",
+          "result": "r_cc = 0.1133 = 11.33%"
+        }
       }
     },
     {
       "term_id": "T-QM-011",
-      "term_en": "Normal Distribution",
-      "term_ru": "Нормальное распределение",
-      "definition_en": "A symmetric probability distribution described by mean and standard deviation.",
-      "definition_ru": "",
+      "term_en": "Gross Return",
+      "term_ru": "Валовая доходность",
+      "definition_en": "The return earned by an asset manager before deducting management fees, custody fees, taxes, and administrative expenses. Gross return does account for trading costs such as commissions. It is suitable for comparing investment expertise of different asset managers.",
+      "definition_ru": "Доходность, полученная управляющим активами до вычета комиссий за управление, хранение, налогов и административных расходов. Валовая доходность учитывает торговые издержки (комиссии). Подходит для сравнения инвестиционного мастерства разных управляющих.",
       "formula": null,
       "module_id": 1,
-      "related_los": [],
+      "los_id": "LOS_1e",
+      "related_terms": ["T-QM-012", "T-QM-013"],
       "calculator_steps": null
     },
     {
       "term_id": "T-QM-012",
-      "term_en": "Z-Score",
-      "term_ru": "Z-оценка",
-      "definition_en": "Number of standard deviations an observation is from the mean.",
-      "definition_ru": "",
-      "formula": "$z = \\frac{x - \\mu}{\\sigma}$",
+      "term_en": "Net Return",
+      "term_ru": "Чистая доходность",
+      "definition_en": "The return that reflects how much an investment has actually earned for the investor after all administrative and management costs have been deducted. Net return is the most relevant measure for evaluating actual investor outcomes.",
+      "definition_ru": "Доходность, отражающая фактический заработок инвестора после вычета всех административных и управленческих расходов. Чистая доходность — наиболее релевантная мера для оценки фактических результатов инвестора.",
+      "formula": "$Net\\ Return = Gross\\ Return - Management\\ Fees - Admin\\ Costs$",
       "module_id": 1,
-      "related_los": [],
+      "los_id": "LOS_1e",
+      "related_terms": ["T-QM-011", "T-QM-013"],
       "calculator_steps": null
     },
     {
       "term_id": "T-QM-013",
-      "term_en": "Confidence Interval",
-      "term_ru": "Доверительный интервал",
-      "definition_en": "A range of values likely to contain the population parameter.",
-      "definition_ru": "",
-      "formula": null,
+      "term_en": "Real Return",
+      "term_ru": "Реальная доходность",
+      "definition_en": "The return adjusted for inflation, representing the actual increase in purchasing power. Real returns consist of the real risk-free return plus a risk premium. They are essential for comparing returns across different time periods and countries with varying inflation rates.",
+      "definition_ru": "Доходность, скорректированная на инфляцию, отражающая фактический прирост покупательной способности. Реальная доходность состоит из реальной безрисковой ставки плюс премия за риск. Необходима для сравнения доходностей в разных периодах и странах с разной инфляцией.",
+      "formula": "$(1 + Real\\ Return) = \\frac{(1 + Nominal\\ Return)}{(1 + Inflation)}$",
       "module_id": 1,
-      "related_los": [],
+      "los_id": "LOS_1e",
+      "related_terms": ["T-QM-014", "T-QM-017", "T-QM-018"],
       "calculator_steps": null
     },
     {
       "term_id": "T-QM-014",
-      "term_en": "Hypothesis Testing",
-      "term_ru": "Проверка гипотез",
-      "definition_en": "Statistical method to test claims about population parameters.",
-      "definition_ru": "",
-      "formula": null,
+      "term_en": "Nominal Return",
+      "term_ru": "Номинальная доходность",
+      "definition_en": "The stated return on an investment without adjustment for inflation. Nominal returns consist of three components: the real risk-free return, an inflation premium, and a risk premium. Unless otherwise specified, returns are typically quoted in nominal terms.",
+      "definition_ru": "Заявленная доходность инвестиций без корректировки на инфляцию. Номинальная доходность состоит из трёх компонентов: реальной безрисковой ставки, премии за инфляцию и премии за риск. Если не указано иное, доходности обычно приводятся в номинальном выражении.",
+      "formula": "$Nominal\\ Return = Real\\ Return + Inflation\\ Premium + Risk\\ Premium$",
       "module_id": 1,
-      "related_los": [],
+      "los_id": "LOS_1e",
+      "related_terms": ["T-QM-013", "T-QM-017", "T-QM-018"],
       "calculator_steps": null
     },
     {
       "term_id": "T-QM-015",
-      "term_en": "Type I Error (α)",
-      "term_ru": "Ошибка I рода",
-      "definition_en": "Rejecting a true null hypothesis (false positive).",
-      "definition_ru": "",
-      "formula": null,
+      "term_en": "Leveraged Return",
+      "term_ru": "Доходность с использованием кредитного плеча",
+      "definition_en": "The return on equity when borrowed funds (leverage) are used to increase the size of an investment position. Leverage amplifies returns both upwards and downwards. The leveraged return accounts for the cost of borrowing.",
+      "definition_ru": "Доходность на собственный капитал при использовании заёмных средств (кредитного плеча) для увеличения размера инвестиционной позиции. Плечо усиливает доходность как вверх, так и вниз. Учитывает стоимость заимствования.",
+      "formula": "$R_L = R_P + \\frac{V_B}{V_E}(R_P - r_D)$",
       "module_id": 1,
-      "related_los": [],
-      "calculator_steps": null
+      "los_id": "LOS_1e",
+      "related_terms": ["T-QM-011", "T-QM-012"],
+      "calculator_steps": {
+        "worksheet": "Direct Calculation",
+        "access": "Standard keys",
+        "steps": [
+          "Рассчитать (R_P - r_D) — разница доходности и стоимости долга",
+          "Умножить на (V_B / V_E) — коэффициент долг/капитал",
+          "Добавить R_P — доходность портфеля"
+        ],
+        "example": {
+          "given": "R_P=9%, r_D=6%, V_B=$100,000, V_E=$150,000",
+          "input": "9 + (100000/150000) × (9-6)",
+          "result": "R_L = 11%"
+        }
+      }
     },
     {
       "term_id": "T-QM-016",
-      "term_en": "Type II Error (β)",
-      "term_ru": "Ошибка II рода",
-      "definition_en": "Failing to reject a false null hypothesis (false negative).",
-      "definition_ru": "",
-      "formula": null,
+      "term_en": "Interest Rate",
+      "term_ru": "Процентная ставка",
+      "definition_en": "A rate of return that reflects the relationship between cash flows at different points in time. Interest rates can be interpreted as: (1) required rate of return - minimum return expected by investors, (2) discount rate - rate used to find present value, or (3) opportunity cost - value of the best foregone alternative.",
+      "definition_ru": "Ставка доходности, отражающая связь между денежными потоками в разные моменты времени. Процентная ставка интерпретируется как: (1) требуемая доходность — минимальный ожидаемый доход инвестора, (2) ставка дисконтирования — для нахождения приведённой стоимости, (3) альтернативная стоимость — ценность лучшей упущенной альтернативы.",
+      "formula": "$r = r_f + Inflation + Default + Liquidity + Maturity\\ Premiums$",
       "module_id": 1,
-      "related_los": [],
+      "los_id": "LOS_1a",
+      "related_terms": ["T-QM-017", "T-QM-018", "T-QM-019", "T-QM-020", "T-QM-021"],
       "calculator_steps": null
     },
     {
       "term_id": "T-QM-017",
-      "term_en": "P-Value",
-      "term_ru": "P-значение",
-      "definition_en": "Probability of obtaining test results at least as extreme as observed.",
-      "definition_ru": "",
+      "term_en": "Real Risk-Free Rate",
+      "term_ru": "Реальная безрисковая ставка",
+      "definition_en": "The theoretical rate of return on a completely risk-free security with no expected inflation. It reflects the time preference for current versus future consumption. The real risk-free rate is a component of all interest rates.",
+      "definition_ru": "Теоретическая доходность полностью безрисковой ценной бумаги без ожидаемой инфляции. Отражает временное предпочтение текущего потребления относительно будущего. Реальная безрисковая ставка — компонент всех процентных ставок.",
       "formula": null,
       "module_id": 1,
-      "related_los": [],
+      "los_id": "LOS_1a",
+      "related_terms": ["T-QM-016", "T-QM-018"],
       "calculator_steps": null
     },
     {
       "term_id": "T-QM-018",
-      "term_en": "T-Test",
-      "term_ru": "T-тест",
-      "definition_en": "Statistical test using t-distribution for small samples.",
-      "definition_ru": "",
+      "term_en": "Inflation Premium",
+      "term_ru": "Премия за инфляцию",
+      "definition_en": "Compensation that investors require for expected loss of purchasing power due to inflation over the investment period. The inflation premium represents the average inflation rate expected over the maturity of the investment.",
+      "definition_ru": "Компенсация, которую требуют инвесторы за ожидаемую потерю покупательной способности из-за инфляции в течение периода инвестирования. Премия за инфляцию представляет среднюю ожидаемую инфляцию за срок инвестиции.",
       "formula": null,
       "module_id": 1,
-      "related_los": [],
+      "los_id": "LOS_1a",
+      "related_terms": ["T-QM-016", "T-QM-017", "T-QM-013"],
       "calculator_steps": null
     },
     {
       "term_id": "T-QM-019",
-      "term_en": "Regression",
-      "term_ru": "Регрессия",
-      "definition_en": "Statistical method to model relationship between variables.",
-      "definition_ru": "",
-      "formula": "$Y = \\alpha + \\beta X + \\epsilon$",
+      "term_en": "Default Risk Premium",
+      "term_ru": "Премия за риск дефолта",
+      "definition_en": "Compensation that investors require for the possibility that a borrower may fail to make promised payments on time and in full. Higher default risk results in higher required returns.",
+      "definition_ru": "Компенсация, которую требуют инвесторы за возможность того, что заёмщик не выполнит обещанные платежи вовремя и в полном объёме. Более высокий риск дефолта ведёт к более высокой требуемой доходности.",
+      "formula": null,
       "module_id": 1,
-      "related_los": [],
-      "calculator_steps": {
-        "worksheet": "Statistics",
-        "steps": [
-          "[2ND] [DATA] - открыть Data worksheet",
-          "[2ND] [CLR WORK] - очистить",
-          "Ввести пары X,Y данных",
-          "[2ND] [STAT]",
-          "[2ND] [SET] - выбрать LIN",
-          "[↓] до a (intercept/α) и b (slope/β)"
-        ],
-        "example": "X:1,2,3,4,5 Y:2.1,4,5.9,8.1,10 → a=0.06, b=1.98"
-      }
+      "los_id": "LOS_1a",
+      "related_terms": ["T-QM-016", "T-QM-020"],
+      "calculator_steps": null
     },
     {
       "term_id": "T-QM-020",
-      "term_en": "R-Squared (R²)",
-      "term_ru": "R-квадрат",
-      "definition_en": "Proportion of variance in dependent variable explained by independent variables.",
-      "definition_ru": "",
-      "formula": "$R^2 = \\frac{SSR}{SST}$",
+      "term_en": "Liquidity Premium",
+      "term_ru": "Премия за ликвидность",
+      "definition_en": "Compensation that investors require for the risk of loss relative to an investment's fair value if the investment needs to be converted to cash quickly. Less liquid investments command higher liquidity premiums.",
+      "definition_ru": "Компенсация, которую требуют инвесторы за риск потерь относительно справедливой стоимости инвестиции при необходимости быстрой продажи. Менее ликвидные инвестиции требуют более высокой премии за ликвидность.",
+      "formula": null,
       "module_id": 1,
-      "related_los": [],
-      "calculator_steps": {
-        "worksheet": "Statistics",
-        "steps": [
-          "После ввода данных и расчёта регрессии",
-          "[2ND] [STAT] [2ND] [SET] - LIN",
-          "Найти r (корреляцию)",
-          "R² = r² (возвести в квадрат)"
-        ],
-        "example": "Если r=0.99 → R²=0.98"
-      }
+      "los_id": "LOS_1a",
+      "related_terms": ["T-QM-016", "T-QM-019"],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-QM-021",
+      "term_en": "Maturity Risk Premium",
+      "term_ru": "Премия за срок погашения",
+      "definition_en": "The additional return required by investors for assuming interest rate risk and reinvestment risk resulting from longer investment maturities. Maturity risk premium increases with the length of the investment horizon.",
+      "definition_ru": "Дополнительная доходность, требуемая инвесторами за принятие процентного риска и риска реинвестирования, связанных с более длительным сроком инвестиций. Премия за срок увеличивается с длиной инвестиционного горизонта.",
+      "formula": null,
+      "module_id": 1,
+      "los_id": "LOS_1a",
+      "related_terms": ["T-QM-016", "T-QM-019", "T-QM-020"],
+      "calculator_steps": null
     }
   ]
 }
