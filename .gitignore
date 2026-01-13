@@ -34,10 +34,11 @@ Thumbs.db
 # Logs
 *.log
 
-# PDF source files (large)
+# PDF source files (large) - ignore everywhere
 *.pdf
 
-# Except Materials PDFs (needed for glossary and questions)
+# EXCEPT: Allow ALL PDFs in Materials/ folder and all subfolders
+# This includes Materials/NOTES/, Materials/QBank/, etc.
 !Materials/**/*.pdf
 
 # Extracted text files from PDF parsing
