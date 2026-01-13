@@ -1028,7 +1028,8 @@ function renderCalculatorSteps(calc) {
     if (!calc) return '';
     return `
         <div class="calculator-block">
-            <div class="calc-header">
+            <div class="calc-header" onclick="toggleCalculatorBlock(this)">
+                <span class="calc-toggle-icon">▼</span>
                 <span class="calc-icon">📟</span>
                 <span class="calc-title">BA II Plus: ${calc.worksheet || 'Calculator'}</span>
                 ${calc.access ? `<code class="calc-access">${calc.access}</code>` : ''}
@@ -1054,10 +1055,9 @@ function displayGlossary(terms) {
     if (countEl) countEl.textContent = `${terms.length} терминов`;
 
     container.innerHTML = terms.map(term => `
-        <div class="glossary-item collapsed" data-term-id="${term.term_id}">
-            <div class="term-header" onclick="toggleTerm(this)">
+        <div class="glossary-item" data-term-id="${term.term_id}">
+            <div class="term-header">
                 <div class="term-title">
-                    <span class="term-expand-icon">▶</span>
                     <span class="term-name">${term.term_en}</span>
                     ${term.term_ru ? `<span class="term-name-ru">— ${term.term_ru}</span>` : ''}
                 </div>
@@ -1085,20 +1085,21 @@ function displayGlossary(terms) {
     }
 }
 
-function toggleTerm(headerEl) {
-    const item = headerEl.closest('.glossary-item');
-    item.classList.toggle('collapsed');
+// Calculator block toggle (terms are always expanded)
+function toggleCalculatorBlock(headerEl) {
+    const block = headerEl.closest('.calculator-block');
+    block.classList.toggle('collapsed');
 }
 
-function expandAllTerms() {
-    document.querySelectorAll('.glossary-item').forEach(item => {
-        item.classList.remove('collapsed');
+function expandAllCalcBlocks() {
+    document.querySelectorAll('.calculator-block').forEach(block => {
+        block.classList.remove('collapsed');
     });
 }
 
-function collapseAllTerms() {
-    document.querySelectorAll('.glossary-item').forEach(item => {
-        item.classList.add('collapsed');
+function collapseAllCalcBlocks() {
+    document.querySelectorAll('.calculator-block').forEach(block => {
+        block.classList.add('collapsed');
     });
 }
 

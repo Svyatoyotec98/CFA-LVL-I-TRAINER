@@ -15,7 +15,20 @@
       "module_id": 1,
       "los_id": "LOS_1b",
       "related_terms": ["T-QM-002", "T-QM-003", "T-QM-008"],
-      "calculator_steps": null
+      "calculator_steps": {
+        "worksheet": "Direct Calculation",
+        "access": "Standard keys",
+        "steps": [
+          "(P1 [-] P0) [=] — изменение цены",
+          "[+] D1 [=] — добавить доход",
+          "[÷] P0 [=] — разделить на начальную цену"
+        ],
+        "example": {
+          "given": "P0=$100, P1=$110, D1=$5",
+          "input": "(110 - 100 + 5) ÷ 100",
+          "result": "HPR = 15%"
+        }
+      }
     },
     {
       "term_id": "T-QM-002",
@@ -81,7 +94,22 @@
       "module_id": 1,
       "los_id": "LOS_1b",
       "related_terms": ["T-QM-002", "T-QM-003"],
-      "calculator_steps": null
+      "calculator_steps": {
+        "worksheet": "Direct Calculation",
+        "access": "Standard keys",
+        "steps": [
+          "1 [÷] X1 [=] [+] — обратная величина первого значения",
+          "1 [÷] X2 [=] [+] — обратная величина второго значения",
+          "Повторить для всех Xi",
+          "[=] — сумма обратных величин",
+          "n [÷] (результат) [=] — среднее гармоническое"
+        ],
+        "example": {
+          "given": "P/E ratios: 10, 15, 20",
+          "input": "n=3, sum(1/Xi) = 1/10 + 1/15 + 1/20 = 0.2167",
+          "result": "Harmonic Mean = 13.85"
+        }
+      }
     },
     {
       "term_id": "T-QM-005",
@@ -237,7 +265,20 @@
       "module_id": 1,
       "los_id": "LOS_1e",
       "related_terms": ["T-QM-011", "T-QM-013"],
-      "calculator_steps": null
+      "calculator_steps": {
+        "worksheet": "Direct Calculation",
+        "access": "Standard keys",
+        "steps": [
+          "Gross Return [ENTER]",
+          "[-] Management Fees [=]",
+          "[-] Admin Costs [=] — чистая доходность"
+        ],
+        "example": {
+          "given": "Gross Return = 12%, Management Fees = 2%, Admin = 0.5%",
+          "input": "12 - 2 - 0.5",
+          "result": "Net Return = 9.5%"
+        }
+      }
     },
     {
       "term_id": "T-QM-013",
@@ -249,7 +290,20 @@
       "module_id": 1,
       "los_id": "LOS_1e",
       "related_terms": ["T-QM-014", "T-QM-017", "T-QM-018"],
-      "calculator_steps": null
+      "calculator_steps": {
+        "worksheet": "Direct Calculation",
+        "access": "Standard keys",
+        "steps": [
+          "1 [+] Nominal Return [=]",
+          "[÷] (1 [+] Inflation) [=]",
+          "[-] 1 [=] — реальная доходность"
+        ],
+        "example": {
+          "given": "Nominal Return = 10%, Inflation = 3%",
+          "input": "(1.10) ÷ (1.03) - 1",
+          "result": "Real Return = 6.8%"
+        }
+      }
     },
     {
       "term_id": "T-QM-014",
@@ -261,7 +315,20 @@
       "module_id": 1,
       "los_id": "LOS_1e",
       "related_terms": ["T-QM-013", "T-QM-017", "T-QM-018"],
-      "calculator_steps": null
+      "calculator_steps": {
+        "worksheet": "Direct Calculation",
+        "access": "Standard keys",
+        "steps": [
+          "Real Return [ENTER]",
+          "[+] Inflation Premium [=]",
+          "[+] Risk Premium [=] — номинальная доходность"
+        ],
+        "example": {
+          "given": "Real Return = 2%, Inflation = 3%, Risk Premium = 5%",
+          "input": "2 + 3 + 5",
+          "result": "Nominal Return = 10%"
+        }
+      }
     },
     {
       "term_id": "T-QM-015",
@@ -298,7 +365,22 @@
       "module_id": 1,
       "los_id": "LOS_1a",
       "related_terms": ["T-QM-017", "T-QM-018", "T-QM-019", "T-QM-020", "T-QM-021"],
-      "calculator_steps": null
+      "calculator_steps": {
+        "worksheet": "Direct Calculation",
+        "access": "Standard keys",
+        "steps": [
+          "Real Risk-Free Rate [ENTER]",
+          "[+] Inflation Premium [=]",
+          "[+] Default Premium [=]",
+          "[+] Liquidity Premium [=]",
+          "[+] Maturity Premium [=] — требуемая процентная ставка"
+        ],
+        "example": {
+          "given": "r_f=1.5%, Inflation=2.5%, Default=1%, Liquidity=0.5%, Maturity=1.5%",
+          "input": "1.5 + 2.5 + 1 + 0.5 + 1.5",
+          "result": "Interest Rate = 7%"
+        }
+      }
     },
     {
       "term_id": "T-QM-017",
