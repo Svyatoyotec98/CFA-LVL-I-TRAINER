@@ -5,12 +5,12 @@
   "chapter_id": 2,
   "chapter_name": "Time Value of Money",
   "chapter_name_ru": "Временная стоимость денег",
-  "total_questions": 10,
+  "total_questions": 32,
   "questions": [
     {
       "question_id": "Q-QM-2-008",
       "original_number": "Q.8",
-      "los_id": "LOS_2a",
+      "los_id": "LOS_2b",
       "los_reference": "",
       "difficulty": "EASY",
       "requires_calculation": false,
@@ -18,30 +18,30 @@
         "TVM",
         "calculation"
       ],
-      "question_text": "",
+      "question_text": "If you invest $100,000 currently in a project paying an 8% interest rate compounded annually, the amount of the investment after three years is closest to : The correct answer is",
       "question_text_ru": "",
       "has_table": false,
       "table_data": null,
       "options": [
         {
           "option_id": "opt1",
-          "text": "Option 1",
+          "text": "$108,000.00",
           "text_ru": ""
         },
         {
           "option_id": "opt2",
-          "text": "Option 2",
+          "text": "$108,215.23",
           "text_ru": ""
         },
         {
           "option_id": "opt3",
-          "text": "Option 3",
+          "text": "$125,971.20 F V = P V [ 1 + ] N I Y F V = $ 100 , 000 [ 1 + 0.08 ] 3 = $ 125 , 971.20 F V = $ 100 , 000 + ( 0.08 × $ 100 , 000 ) = $ 108 , 000 F V = $ 100 , 000 [ 1 + ] 3 = $ 108 , 215.23 0.08 3",
           "text_ru": ""
         }
       ],
       "correct_option_id": "opt3",
       "explanation": {
-        "main": "",
+        "main": "The question requires the calculation of the future value of a single-sum investment. Recall that future value is the total to which a present deposit will grow over time when placed in an account paying compound interest. The formula for calculating FV is as follows: Where: FV = Future Value, PV = ",
         "main_ru": "",
         "formula": "",
         "formula_latex": "",
@@ -61,30 +61,30 @@
         "TVM",
         "calculation"
       ],
-      "question_text": "",
+      "question_text": "How much is an asset worth today, if it is supposed to pay $7,000 per year for 10 years? The first payment is due one year from now and the required rate is 6% per year. The correct answer is",
       "question_text_ru": "",
       "has_table": false,
       "table_data": null,
       "options": [
         {
           "option_id": "opt1",
-          "text": "Option 1",
+          "text": "$12,535.93",
           "text_ru": ""
         },
         {
           "option_id": "opt2",
-          "text": "Option 2",
+          "text": "$51,520.61",
           "text_ru": ""
         },
         {
           "option_id": "opt3",
-          "text": "Option 3",
+          "text": "$54,611.85 P V = A ⎡ ⎢ ⎢ ⎣ ⎤ ⎥ ⎥ ⎦ 1 − 1 ( 1 + r ) N r P V = $ 7 , 000 ⎡ ⎢ ⎢ ⎣ ⎤ ⎥ ⎥ ⎦ = $ 7 , 000 ⎡ ⎣ ⎤ ⎦ = $ 7 , 000 [ ] = $ 51 , 520.61 1 − 1 ( 1 + 0.06 ) 10 0.06 1 − 1 1.791 0.06 1 − 0.558 0.06 F ",
           "text_ru": ""
         }
       ],
-      "correct_option_id": "opt3",
+      "correct_option_id": "opt2",
       "explanation": {
-        "main": "",
+        "main": "The question requires the calculation of the Present Value of an ordinary annuity as follows: Where; A = Amount of the annuity. r = Required rate of return. N = Number of years of the investment. Therefore; Using the BA II Plus Pro Calculator; N=10; I/Y=6; PMT=$7,000; FV=0; CPT=>PV=$51,520.61",
         "main_ru": "",
         "formula": "",
         "formula_latex": "",
@@ -109,33 +109,33 @@
       "difficulty": "EASY",
       "requires_calculation": false,
       "topic_tags": [
-        "TVM",
-        "calculation"
+        "FV",
+        "continuous compounding"
       ],
-      "question_text": "",
+      "question_text": "Suppose a $200,000 investment will earn 6% compounded continuously for 4 years. The future value of this asset is closest to: The correct answer is",
       "question_text_ru": "",
       "has_table": false,
       "table_data": null,
       "options": [
         {
           "option_id": "opt1",
-          "text": "Option 1",
+          "text": "$252,495.39",
           "text_ru": ""
         },
         {
           "option_id": "opt2",
-          "text": "Option 2",
+          "text": "$253,354.02",
           "text_ru": ""
         },
         {
           "option_id": "opt3",
-          "text": "Option 3",
+          "text": "$254,249.83 F V N = P V e r N F V N = $ 200 , 000 × 2.7182818 ( 0.06 × 4 ) = $ 200 , 000 × 1.271 = $ 254 , 249.83 F V N = $ 200 , 000 ( 1 + 0.06 ) 4 = $ 252 , 495.39 F V N = $ 200 , 000 [ 1 + ] ( 4 × ",
           "text_ru": ""
         }
       ],
       "correct_option_id": "opt3",
       "explanation": {
-        "main": "",
+        "main": "The question requires the calculation of the future value of an asset compounded continuously as follows; Where; PV = Present value of investment. r = Interest rate. N = Investment period. Therefore;",
         "main_ru": "",
         "formula": "",
         "formula_latex": "",
@@ -155,30 +155,30 @@
         "TVM",
         "calculation"
       ],
-      "question_text": "",
+      "question_text": "An asset will pay $2,500 per year for seven years, with the first payment being made one year from today. If the required rate of return is 14% per year, the amount you will pay for this asset is closest to : The correct answer is",
       "question_text_ru": "",
       "has_table": false,
       "table_data": null,
       "options": [
         {
           "option_id": "opt1",
-          "text": "Option 1",
+          "text": "$10,720.76",
           "text_ru": ""
         },
         {
           "option_id": "opt2",
-          "text": "Option 2",
+          "text": "$12,221.67",
           "text_ru": ""
         },
         {
           "option_id": "opt3",
-          "text": "Option 3",
+          "text": "$26,826.23 P V = A ⎡ ⎢ ⎢ ⎣ ⎤ ⎥ ⎥ ⎦ 1 − 1 ( 1 + r ) N r P V = $ 2 , 500 × ⎡ ⎢ ⎢ ⎣ ⎤ ⎥ ⎥ ⎦ = $ 2 , 500 × 4.288 = $ 10 , 720.76 1 − 1 ( 1 + 0.14 ) 7 0.14 F V A n n u i t y A d v a n c e = $ 10 , 720.76 (",
           "text_ru": ""
         }
       ],
-      "correct_option_id": "opt3",
+      "correct_option_id": "opt1",
       "explanation": {
-        "main": "",
+        "main": "The question requires the calculation of the Present Value of an ordinary annuity as follows; Where; A = Annuity payable per year. r = Rate of return. N = Investment period. Therefore, in this case: Using the Plus Pro- Calculator; N=7; FV=0; I/Y=14; PMT=$2,500; CPT =>PV = $10,720.76 B is incorrect .",
         "main_ru": "",
         "formula": "",
         "formula_latex": "",
@@ -206,30 +206,30 @@
         "TVM",
         "calculation"
       ],
-      "question_text": "",
+      "question_text": "The amount of money an investor has after ten years if they invest $25,000 per year in an index fund that pays 7% annually is closest to : The correct answer is",
       "question_text_ru": "",
       "has_table": false,
       "table_data": null,
       "options": [
         {
           "option_id": "opt1",
-          "text": "Option 1",
+          "text": "$349,178.78",
           "text_ru": ""
         },
         {
           "option_id": "opt2",
-          "text": "Option 2",
+          "text": "$349,744.72",
           "text_ru": ""
         },
         {
           "option_id": "opt3",
-          "text": "Option 3",
+          "text": "Option C",
           "text_ru": ""
         }
       ],
       "correct_option_id": "opt3",
       "explanation": {
-        "main": "",
+        "main": "The question requires the calculation of the future value of an annuity as follows; Step I : Determine the Future Value annuity factor as follows; Step II : Determine the Future Value of the annuity as follows; Using the BA II Pro Plus Calculator; N= 10; I/Y= 7; PMT=$25,000; PV = 0; CPT=>FV = $345,4",
         "main_ru": "",
         "formula": "",
         "formula_latex": "",
@@ -257,30 +257,30 @@
         "TVM",
         "calculation"
       ],
-      "question_text": "",
+      "question_text": "An index fund is projected to pay an investor a 9% annual interest for eight years. The investor intends to invest $15,000 every year, beginning next year. The total amount of money the investor will have at the end of the eight years is closest to : The correct answer is",
       "question_text_ru": "",
       "has_table": false,
       "table_data": null,
       "options": [
         {
-          "option_id": "opt2",
-          "text": "",
-          "text_ru": ""
-        },
-        {
           "option_id": "opt1",
-          "text": "$349,178.78",
+          "text": "$120,000.00",
           "text_ru": ""
         },
         {
           "option_id": "opt2",
-          "text": "$349,744.72",
+          "text": "$165,427.11",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt3",
+          "text": "$180,315.55",
           "text_ru": ""
         }
       ],
-      "correct_option_id": "opt3",
+      "correct_option_id": "opt2",
       "explanation": {
-        "main": "",
+        "main": "A. $349,178.78 B. $349,744.72 C. $345,411.20 F V A n n u i t y F a c t o r = = = 13.816 ( 1 + r ) N − 1 r ( 1 + 0.07 ) 10 − 1 0.07 F V = A n n u a l i n v e s t m e n t × F V A n n u i t y F a c t o r = $ 25 , 000 × 13.816 = $ 345 , 411.20 A. $120,000.00 B. $165,427.11 C. $180,315.55",
         "main_ru": "",
         "formula": "",
         "formula_latex": "",
@@ -308,30 +308,30 @@
         "TVM",
         "calculation"
       ],
-      "question_text": "",
+      "question_text": "Assume an investment asset will pay $75,000 after two years with an interest rate of 11%. The current value of the investment asset is closest to : The correct answer is",
       "question_text_ru": "",
       "has_table": false,
       "table_data": null,
       "options": [
         {
           "option_id": "opt1",
-          "text": "Option 1",
+          "text": "$60,871.70",
           "text_ru": ""
         },
         {
           "option_id": "opt2",
-          "text": "Option 2",
+          "text": "$92,407.50",
           "text_ru": ""
         },
         {
           "option_id": "opt3",
-          "text": "Option 3",
+          "text": "$128,439.25 P V = F V N ( 1 + r ) − N F V N r N P V = $ 75 , 000 ( 1 + 0.11 ) − 2 = $ 75 , 000 × 0.812 = $ 60 , 871.68 F V = $ 75 , 000 ( 1 + 0.11 ) 2 = $ 75 , 000 × 1.232 = $ 92 , 407.50 P V = A ⎡ ⎢ ",
           "text_ru": ""
         }
       ],
-      "correct_option_id": "opt3",
+      "correct_option_id": "opt1",
       "explanation": {
-        "main": "",
+        "main": "The question requires the calculation of the Present Value of future lumpsum payment as follows; Where; = The expected future payment. = Applicable rate of interest. = Investment maturity period. Therefore; Using the Plus Pro- Calculator: N= 2; I/Y= 11; PMT=0; FV = $75,000; CPT=>PV = $60,871.68 B is",
         "main_ru": "",
         "formula": "",
         "formula_latex": "",
@@ -356,33 +356,33 @@
       "difficulty": "MEDIUM",
       "requires_calculation": true,
       "topic_tags": [
-        "TVM",
-        "calculation"
+        "PV",
+        "annuity"
       ],
-      "question_text": "",
+      "question_text": "You have a choice to take your retirement benefit either as a lump-sum or as an annuity. You can take a lump-sum of $4.5 million or an annuity with 15 payments of $400,000 a year with the first payment starting t =1. The interest rate is 7% per year compounded annually. Which option is preferable, on the basis that it has the greater present value? The correct answer is",
       "question_text_ru": "",
       "has_table": false,
       "table_data": null,
       "options": [
         {
           "option_id": "opt1",
-          "text": "Option 1",
+          "text": "The annuity payment option.",
           "text_ru": ""
         },
         {
           "option_id": "opt2",
-          "text": "Option 2",
+          "text": "The lump-sum payment option.",
           "text_ru": ""
         },
         {
           "option_id": "opt3",
-          "text": "Option 3",
+          "text": "There is no significant difference between the two options.",
           "text_ru": ""
         }
       ],
-      "correct_option_id": "opt3",
+      "correct_option_id": "opt2",
       "explanation": {
-        "main": "",
+        "main": "The question requires calculating the present value of a series of equal cash flows compared to the lump sum payment. The annuity payment qualifies as an ordinary annuity since it has equal annuity payments, with the first payment starting at time t=1. Hence the formula is as follows: N= 15; I/Y= 7;",
         "main_ru": "",
         "formula": "",
         "formula_latex": "",
@@ -407,33 +407,32 @@
       "difficulty": "MEDIUM",
       "requires_calculation": true,
       "topic_tags": [
-        "TVM",
-        "calculation"
+        "PV"
       ],
-      "question_text": "",
+      "question_text": "XYZ Pension Fund plans to pay its retirees a total of $29 million every year beginning in 2017. The payments will be made at the end of each year until 2031 for a total of 15 payments. Assuming a discount rate of 4% compounded annually, the present value of the pension payments to the retirees in 2017 is closest to : The correct answer is",
       "question_text_ru": "",
       "has_table": false,
       "table_data": null,
       "options": [
         {
           "option_id": "opt1",
-          "text": "Option 1",
+          "text": "$52,277,361.66",
           "text_ru": ""
         },
         {
           "option_id": "opt2",
-          "text": "Option 2",
+          "text": "$322,433,235.50",
           "text_ru": ""
         },
         {
           "option_id": "opt3",
-          "text": "Option 3",
+          "text": "$335,330,564.90 P V = A ⎡ ⎢ ⎢ ⎣ ⎤ ⎥ ⎥ ⎦ 1 − 1 ( 1 + r ) N r F V N = $ 29 , 000 , 000 [ 1 + ] ( 15 × 1 ) = $ 29 , 000 , 000 × 1.801 = $ 52 , 227 , 361.66 0.04 1 F V A n n u i t y A d v a n c e = $ 322 ",
           "text_ru": ""
         }
       ],
-      "correct_option_id": "opt3",
+      "correct_option_id": "opt2",
       "explanation": {
-        "main": "",
+        "main": "The question requires calculating the Present Value of an ordinary annuity whereby the annuity makes N payments, with the first payment at t = 1 and the last at t = N. The present value of an ordinary annuity can be expressed as the sum of the present values of each annuity payment as follows, Where",
         "main_ru": "",
         "formula": "",
         "formula_latex": "",
@@ -458,39 +457,1083 @@
       "difficulty": "EASY",
       "requires_calculation": false,
       "topic_tags": [
-        "TVM",
-        "calculation"
+        "PV",
+        "annuity"
       ],
-      "question_text": "",
+      "question_text": "Consider an annuity due with 20 payments of $55,000 every year with a required rate of interest of 10% compounded annually. The present value of the annuity if the first payment is due at the end of the year is closest to : The correct answer is",
       "question_text_ru": "",
       "has_table": false,
       "table_data": null,
       "options": [
         {
           "option_id": "opt1",
-          "text": "Option 1",
+          "text": "$370,012.50",
           "text_ru": ""
         },
         {
           "option_id": "opt2",
-          "text": "Option 2",
+          "text": "$468,246.00",
           "text_ru": ""
         },
         {
           "option_id": "opt3",
-          "text": "Option 3",
+          "text": "$566,577.67 P V = A ⎡ ⎢ ⎢ ⎣ ⎤ ⎥ ⎥ ⎦ 1 − 1 ( 1 + r ) N r P V = $ 55 , 000 ⎡ ⎢ ⎢ ⎣ ⎤ ⎥ ⎥ ⎦ = $ 468 , 246 1 − 1 ( 1 + 0.1 ) 20 0.1 F V N = $ 55 , 000 ( 1 + 0.1 ) 20 = $ 370 , 012.50 F V A n n u i t y A d",
           "text_ru": ""
         }
       ],
-      "correct_option_id": "opt3",
+      "correct_option_id": "opt2",
       "explanation": {
-        "main": "",
+        "main": "Hence the present value of an ordinary annuity is expressed as the sum of the present values of each annuity payment, as follows; Where; A = The annuity amount. r = The interest rate per period corresponding to the frequency of annuity payments. N = The number of annuity payments. Therefore;",
         "main_ru": "",
         "formula": "",
         "formula_latex": "",
         "solution_steps": [],
         "wrong_answers": {},
         "calculator_steps": null
+      }
+    },
+    {
+      "question_id": "Q-QM-2-038",
+      "original_number": "Q.38",
+      "los_id": "LOS_2b",
+      "los_reference": "Calculate\tand\tinterpret\tthe\timplied\treturn\tof\tfixed-income",
+      "difficulty": "MEDIUM",
+      "requires_calculation": true,
+      "topic_tags": [
+        "growth rate"
+      ],
+      "question_text": "ABC Company Ltd has been in operation since 1966. In 2012 the company recorded revenue of $15.8 million compared to $11.4million in 2006. The revenue growth rate for the company for the six years is closest to : The correct answer is",
+      "question_text_ru": "",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "option_id": "opt1",
+          "text": "-5.30%",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt2",
+          "text": "5.59%",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt3",
+          "text": "38.60% g = [ ] − 1 F V N P V 1 N F V N P V N g = [ 6 √ ] − 1 = 5.59 % $ 15 , 800 , 000 $ 11 , 400 , 000 g = [ 6 √ ] − 1 = − 5.30 $ 11 , 400 , 000 $ 15 , 800 , 000 G r o w t h = $ 15.8 m i l l i o n − ",
+          "text_ru": ""
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": {
+        "main": "The question requires the calculation of the growth rate in revenue as follows; Where; = Future value at time N. = Current present value. = Number of periods. Therefore; The calculated growth rate of about 5.6 percent a year shows that ABC Company Ltd's revenue grew during the 2006–2012 period. Usin",
+        "main_ru": "",
+        "formula": "",
+        "formula_latex": "",
+        "solution_steps": [],
+        "wrong_answers": {},
+        "calculator_steps": {
+          "applicable": true,
+          "calculator_model": "BA II Plus Professional",
+          "method": "TVM Worksheet",
+          "preparation": [],
+          "keystrokes": [],
+          "display_result": "",
+          "note": ""
+        }
+      }
+    },
+    {
+      "question_id": "Q-QM-2-039",
+      "original_number": "Q.39",
+      "los_id": "LOS_2b",
+      "los_reference": "Calculate\tand\tinterpret\tthe\timplied\treturn\tof\tfixed-income",
+      "difficulty": "EASY",
+      "requires_calculation": false,
+      "topic_tags": [
+        "perpetuity"
+      ],
+      "question_text": "A Government Bond pays $2,500 per quarter year in perpetuity. If the required rate of return is 10%, price of the bond today is closest to : The correct answer is",
+      "question_text_ru": "",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "option_id": "opt1",
+          "text": "$11,000",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt2",
+          "text": "$25,000",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt3",
+          "text": "$100,000 P V = A r P V = [ × 4 ] = $ 100 , 000 $ 2 , 500 0.1 P V = $ 2 , 500 × ( 1 + 0.1 ) × 4 = $ 11 , 000 P V = = $ 25 , 000 $ 2 , 500 0.1",
+          "text_ru": ""
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": {
+        "main": "The question requires the calculation of the present value of a perpetuity with level payments for an indefinite period as follows; Where; A = Quarterly perpetuity payments r = Required rate of return Therefore;",
+        "main_ru": "",
+        "formula": "",
+        "formula_latex": "",
+        "solution_steps": [],
+        "wrong_answers": {},
+        "calculator_steps": null
+      }
+    },
+    {
+      "question_id": "Q-QM-2-040",
+      "original_number": "Q.40",
+      "los_id": "LOS_2b",
+      "los_reference": "Calculate\tand\tinterpret\tthe\timplied\treturn\tof\tfixed-income",
+      "difficulty": "MEDIUM",
+      "requires_calculation": true,
+      "topic_tags": [
+        "mortgage"
+      ],
+      "question_text": "Mr. Smith is planning to borrow $150,000 from ABC Bank with a 20-year fixed-rate mortgage with monthly payments, and the first payment is due in exactly one month. Mr. Smith's monthly payment if the interest rate is 7% compounded monthly is closest to : The correct answer is",
+      "question_text_ru": "",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "option_id": "opt1",
+          "text": "$1,162.93",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt2",
+          "text": "$1,245.02",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt3",
+          "text": "$ 1,156.20 F V A n n u i t y A d v a n c e = $ 1 , 163.56 ( 1 + 0.07 ) = $ 1 , 245.02",
+          "text_ru": ""
+        }
+      ],
+      "correct_option_id": "opt1",
+      "explanation": {
+        "main": "The question requires the calculation of the size of payments on a Fixed-Rate Mortgage and ABC Bank will define the mortgage payments such that at the specified periodic interest rate, the present value of the payments will be equal to the amount borrowed, which is $150,000. The amount borrowed by M",
+        "main_ru": "",
+        "formula": "",
+        "formula_latex": "",
+        "solution_steps": [],
+        "wrong_answers": {},
+        "calculator_steps": {
+          "applicable": true,
+          "calculator_model": "BA II Plus Professional",
+          "method": "TVM Worksheet",
+          "preparation": [],
+          "keystrokes": [],
+          "display_result": "",
+          "note": ""
+        }
+      }
+    },
+    {
+      "question_id": "Q-QM-2-042",
+      "original_number": "Q.42",
+      "los_id": "LOS_2b",
+      "los_reference": "Calculate\tand\tinterpret\tthe\timplied\treturn\tof\tfixed-income",
+      "difficulty": "EASY",
+      "requires_calculation": false,
+      "topic_tags": [
+        "PV",
+        "perpetuity"
+      ],
+      "question_text": "Consider a level perpetuity of $27,000 per year, with its first payment being at the end of year seven (t = 7). Its present value today (at t = 0), given an 8% discount rate is closest to : The correct answer is",
+      "question_text_ru": "",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "option_id": "opt1",
+          "text": "$124,817.75",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt2",
+          "text": "$212,682.25",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt3",
+          "text": "$337,500.00 t = 6 t = 0 t = 6 P V = A r ⇒ P V = = $ 337 , 500.00 $ 27 , 000 0.08 t = 6 t = 0 P V = F V N ( 1 + r ) − N = $ 337 , 500.00 ( 1 + 0.08 ) − 6 = $ 212 , 682.25 t = 6 t = 0 t = 6 t = 0",
+          "text_ru": ""
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": {
+        "main": "The question requires the calculation of the present value of projected perpetuity as follows; Step I : Determine the present value of the perpetuity at and then discount that amount back to . It is important to note that perpetuity or an ordinary annuity has its first payment one period away, expla",
+        "main_ru": "",
+        "formula": "",
+        "formula_latex": "",
+        "solution_steps": [],
+        "wrong_answers": {},
+        "calculator_steps": null
+      }
+    },
+    {
+      "question_id": "Q-QM-2-043",
+      "original_number": "Q.43",
+      "los_id": "LOS_2b",
+      "los_reference": "Calculate\tand\tinterpret\tthe\timplied\treturn\tof\tfixed-income",
+      "difficulty": "MEDIUM",
+      "requires_calculation": true,
+      "topic_tags": [
+        "PV",
+        "annuity"
+      ],
+      "question_text": "You are presented with 2 investment opportunities and must choose the one with the greater present value: A lump-sum of $2.5 million or an annuity with 25 payments of $250,000 a year with the first payment starting today. The interest rate is 9% per year compounded annually. Which one will you choose? The correct answer is",
+      "question_text_ru": "",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "option_id": "opt1",
+          "text": "Annuity option.",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt2",
+          "text": "Lump-sum.",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt3",
+          "text": "Invest in both options since there's no difference between the two. t = 0 t = 0 t = 0 P V = A ⎡ ⎢ ⎢ ⎣ ⎤ ⎥ ⎥ ⎦ 1 − 1 ( 1 + r ) N r P V = $ 250 , 000 + $ 250 , 000 ⎡ ⎢ ⎢ ⎣ ⎤ ⎥ ⎥ ⎦ = $ 2 , 676 , 652.94 1",
+          "text_ru": ""
+        }
+      ],
+      "correct_option_id": "opt1",
+      "explanation": {
+        "main": "The question requires the calculation of an annuity due as the present value of an immediate cash flow plus an ordinary annuity and comparing the outcome with the lump sum payment as follows; Step I : Compare the present value of each investment option at time and select the one with the larger valu",
+        "main_ru": "",
+        "formula": "",
+        "formula_latex": "",
+        "solution_steps": [],
+        "wrong_answers": {},
+        "calculator_steps": {
+          "applicable": true,
+          "calculator_model": "BA II Plus Professional",
+          "method": "TVM Worksheet",
+          "preparation": [],
+          "keystrokes": [],
+          "display_result": "",
+          "note": ""
+        }
+      }
+    },
+    {
+      "question_id": "Q-QM-2-044",
+      "original_number": "Q.44",
+      "los_id": "LOS_2b",
+      "los_reference": "Calculate\tand\tinterpret\tthe\timplied\treturn\tof\tfixed-income",
+      "difficulty": "MEDIUM",
+      "requires_calculation": true,
+      "topic_tags": [
+        "TVM",
+        "calculation"
+      ],
+      "question_text": "Consider an investor with a Certificate of Deposit (CD) worth $3 million and pays a 5% interest rate compounded annually. The number of years that it will take for the CD to triple in value in closest to : The correct answer is",
+      "question_text_ru": "",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "option_id": "opt1",
+          "text": "2.9 years",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt2",
+          "text": "3 years",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt3",
+          "text": "22.5 years F V N = P V ( 1 + r ) N ( 1 + r ) N = = = 3 ⇒ N = = 22.5 y e a r s F V N P V $ 9 , 000 , 000 $ 3 , 000 , 000 ln ( 3 ) ln ( 1.05 ) N = = 2.9 y e a r s 3 1.05",
+          "text_ru": ""
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": {
+        "main": "The question requires the calculation of the number of annual compounding periods needed for an investment to reach a specific value using the formula as follows; To solve for the number of periods N, we readjust the formula and make N the subject as follows; Using the financial calculator, we use t",
+        "main_ru": "",
+        "formula": "",
+        "formula_latex": "",
+        "solution_steps": [],
+        "wrong_answers": {},
+        "calculator_steps": {
+          "applicable": true,
+          "calculator_model": "BA II Plus Professional",
+          "method": "TVM Worksheet",
+          "preparation": [],
+          "keystrokes": [],
+          "display_result": "",
+          "note": ""
+        }
+      }
+    },
+    {
+      "question_id": "Q-QM-2-046",
+      "original_number": "Q.46",
+      "los_id": "LOS_2b",
+      "los_reference": "",
+      "difficulty": "EASY",
+      "requires_calculation": false,
+      "topic_tags": [
+        "growth rate"
+      ],
+      "question_text": "XYZ company's EPS at the beginning of each 4 consecutive years is as follows: The EPS compound annual growth rate during this period is closest to : The correct answer is",
+      "question_text_ru": "",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "option_id": "opt1",
+          "text": "16.80%",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt2",
+          "text": "20.40%",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt3",
+          "text": "36.320% g = [ ] − 1 F V N P V 1 N F V N P V N g = 3 √ − 1 = 1.3632 − 1 = 36.32 % $ 7.60 $ 3.00",
+          "text_ru": ""
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": {
+        "main": "To calculate the EPS growth rate, we use the following formula; Where; = Future EPS Value. = Present EPS Value. = Number of periods. Therefore; Year EPS ($) Year 1 $ 3.00 Year 2 $ 4.20 Year 3 $ 5.50 Year 4 $ 7.60 A. 16.80% B. 20.40% C. 36.320% g = [ ] − 1 F V N P V 1 N F V N P V N g = 3 √ − 1 = 1.36",
+        "main_ru": "",
+        "formula": "",
+        "formula_latex": "",
+        "solution_steps": [],
+        "wrong_answers": {},
+        "calculator_steps": null
+      }
+    },
+    {
+      "question_id": "Q-QM-2-047",
+      "original_number": "Q.47",
+      "los_id": "LOS_2b",
+      "los_reference": "",
+      "difficulty": "EASY",
+      "requires_calculation": false,
+      "topic_tags": [
+        "PV",
+        "perpetuity"
+      ],
+      "question_text": "Consider a series of payments, each amounting to £6,500 is set to be received by an investor in perpetuity. Payments are to be made at the end of each year, with the first payment expected to start at the end of year 4. Suppose the discount rate is 9%, the present value of the perpetuity at is closest to : The correct answer is",
+      "question_text_ru": "",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "option_id": "opt1",
+          "text": "£51,164.03",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt2",
+          "text": "£55,768.79",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt3",
+          "text": "£72,222.20 t = 0 P V = A r P V = = £ 72 , 222.20 £ 6 , 500 0.09 P V = F V N ( 1 + r ) − N = £ 72 , 222.20 ( 1 + 0.09 ) − 3 = £ 55 , 768.79 P V = £ 72 , 222.20 ( 1 + 0.09 ) − 4 = £ 51 , 164.03",
+          "text_ru": ""
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": {
+        "main": "The question requires the calculation of the Present Value of projected perpetuity as follows; Step I : Determine the present value of the perpetuity at t = 3 and then discount that amount back to . It's important to note that perpetuity or an ordinary annuity has its first payment one period away, ",
+        "main_ru": "",
+        "formula": "",
+        "formula_latex": "",
+        "solution_steps": [],
+        "wrong_answers": {},
+        "calculator_steps": null
+      }
+    },
+    {
+      "question_id": "Q-QM-2-049",
+      "original_number": "Q.49",
+      "los_id": "LOS_2b",
+      "los_reference": "Calculate\tand\tinterpret\tthe\timplied\treturn\tof\tfixed-income",
+      "difficulty": "MEDIUM",
+      "requires_calculation": true,
+      "topic_tags": [
+        "mortgage"
+      ],
+      "question_text": "Consider a homeowner who wants to purchase a £230,000 home by making a down payment of £60,000 and borrowing the remainder with a 25 year fixed rate mortgage with monthly payments and the stated annual interest rate of 9% with monthly compounding. The monthly rate of mortgage repayment is closest to : The correct answer is",
+      "question_text_ru": "",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "option_id": "opt1",
+          "text": "£1,267.50",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt2",
+          "text": "£1,426.63",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt3",
+          "text": "£1,901.30 P V = A ⎡ ⎢ ⎢ ⎣ ⎤ ⎥ ⎥ ⎦ 1 − 1 ( 1 + r ) N r P V A n n u i t y F a c t o r = ⎡ ⎢ ⎢ ⎢ ⎢ ⎣ ⎤ ⎥ ⎥ ⎥ ⎥ ⎦ 1 − 1 ( ) m N 1 + r s m r s m r s m N P V A n n u i t y F a c t o r = = 0.894 × = 119.162 ",
+          "text_ru": ""
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": {
+        "main": "The question requires the calculation of the size of payments on a Fixed-Rate Mortgage repayment is as follows; Note that the lending institution will determine the mortgage payments. At the stated periodic interest rate, the present value of the payments will be equal to the amount borrowed (in thi",
+        "main_ru": "",
+        "formula": "",
+        "formula_latex": "",
+        "solution_steps": [],
+        "wrong_answers": {},
+        "calculator_steps": {
+          "applicable": true,
+          "calculator_model": "BA II Plus Professional",
+          "method": "TVM Worksheet",
+          "preparation": [],
+          "keystrokes": [],
+          "display_result": "",
+          "note": ""
+        }
+      }
+    },
+    {
+      "question_id": "Q-QM-2-050",
+      "original_number": "Q.50",
+      "los_id": "LOS_2a",
+      "los_reference": "Calculate\tand\tinterpret\tthe\tpresent\tvalue\t(PV)\tof\tfixed-income\tand",
+      "difficulty": "EASY",
+      "requires_calculation": false,
+      "topic_tags": [
+        "EAR"
+      ],
+      "question_text": "Suppose a Certificate of Deposit (CD) pays a 10% annual interest rate, the Effective Annual Rate (EAR) if the CD compounded monthly is closest to : The correct answer is",
+      "question_text_ru": "",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "option_id": "opt1",
+          "text": "10.30%",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt2",
+          "text": "10.40%",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt3",
+          "text": "10.50% E A R = ( 1 + periodic interest rate ) m − 1 E A R = [ 1 + ] 12 − 1 = 0.105 o r 10.50 % 0.1 12 E A R = [ 1 + ] 2 − 1 = 0.103 o r 10.30 % 0.1 2 E A R = [ 1 + ] 4 − 1 = 0.104 o r 10.40 % 0.1 4",
+          "text_ru": ""
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": {
+        "main": "The question requires the calculation of EAR given a stated annual interest rate that does not give a future value directly as follows; Where; m = The number of compounding periods in one year. Periodic interest rate = The stated annual interest rate divided by m. Therefore;",
+        "main_ru": "",
+        "formula": "",
+        "formula_latex": "",
+        "solution_steps": [],
+        "wrong_answers": {},
+        "calculator_steps": null
+      }
+    },
+    {
+      "question_id": "Q-QM-2-052",
+      "original_number": "Q.52",
+      "los_id": "LOS_2a",
+      "los_reference": "Calculate\tand\tinterpret\tthe\tpresent\tvalue\t(PV)\tof\tfixed-income\tand",
+      "difficulty": "MEDIUM",
+      "requires_calculation": true,
+      "topic_tags": [
+        "TVM",
+        "calculation"
+      ],
+      "question_text": "Consider an investor who wants to double his £1,500,000 worth of investments. If the interest rate is 9% compounded annually, the time it will take for the value of the investment to double is closest to : The correct answer is",
+      "question_text_ru": "",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "option_id": "opt1",
+          "text": "1 year.",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt2",
+          "text": "8 years.",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt3",
+          "text": "12 years. F V N = P V ( 1 + r ) N F V N P V r N ( 1 + 0.09 ) N = = £ 3 , 000 , 00 £ 1 , 500 , 000 = 2 ⇒ N = = = 8.042 y e a r s F V N P V ln ( 2 ) ln ( 1.09 ) 0.693 0.086",
+          "text_ru": ""
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": {
+        "main": "The question requires the calculation of the number of annual compounding periods required for an investment to reach a specific value as follows; Where; = The future value of the investment amount. = The present value of the investment amount. = Interest rate compounded annually. = Required number ",
+        "main_ru": "",
+        "formula": "",
+        "formula_latex": "",
+        "solution_steps": [],
+        "wrong_answers": {},
+        "calculator_steps": {
+          "applicable": true,
+          "calculator_model": "BA II Plus Professional",
+          "method": "TVM Worksheet",
+          "preparation": [],
+          "keystrokes": [],
+          "display_result": "",
+          "note": ""
+        }
+      }
+    },
+    {
+      "question_id": "Q-QM-2-053",
+      "original_number": "Q.53",
+      "los_id": "LOS_2b",
+      "los_reference": "Calculate\tand\tinterpret\tthe\timplied\treturn\tof\tfixed-income",
+      "difficulty": "MEDIUM",
+      "requires_calculation": true,
+      "topic_tags": [
+        "growth rate"
+      ],
+      "question_text": "GHG Corp.'s net profit increased from £2,300,000 in 2012 to £4,800,000 in 2016. The net profit growth rate is closest to : The correct answer is",
+      "question_text_ru": "",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "option_id": "opt1",
+          "text": "15.90%",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt2",
+          "text": "20.20%",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt3",
+          "text": "52.10% = [ ] − 1 = ( ) − 1 = 20.20 % F V N P V 1 N £ 4 , 800 , 000 £ 2 , 300 , 000 1 4 g = ( ) − 1 = 0.159 o r 15.90 % £ 4 , 800 , 000 £ 2 , 300 , 000 1 5 = ( ) − 1 = 52.10 % £ 4 , 800 , 000 − £ 2 , 3",
+          "text_ru": ""
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": {
+        "main": "To determine the growth rate, we use the following formula; Or we can use the financial calculator with the following inputs: N=4; PV=-2,300,000; PMT=0; FV=4,800,000; CPT => I/Y = 20.19% Note: When computing 1/Y, a negative sign has to be included before the Present Value.",
+        "main_ru": "",
+        "formula": "",
+        "formula_latex": "",
+        "solution_steps": [],
+        "wrong_answers": {},
+        "calculator_steps": {
+          "applicable": true,
+          "calculator_model": "BA II Plus Professional",
+          "method": "TVM Worksheet",
+          "preparation": [],
+          "keystrokes": [],
+          "display_result": "",
+          "note": ""
+        }
+      }
+    },
+    {
+      "question_id": "Q-QM-2-398",
+      "original_number": "Q.398",
+      "los_id": "LOS_2a",
+      "los_reference": "Calculate\tand\tinterpret\tthe\tpresent\tvalue\t(PV)\tof\tfixed-income\tand",
+      "difficulty": "EASY",
+      "requires_calculation": false,
+      "topic_tags": [
+        "EAR"
+      ],
+      "question_text": "The Effective Annual Rate (EAR) of an investment with a stated annual interest rate of 33%, if the rate is compounded daily is closest to: The correct answer is",
+      "question_text_ru": "",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "option_id": "opt1",
+          "text": "35.70%",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt2",
+          "text": "37.30%",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt3",
+          "text": "39.10% E A R = ( 1 + p e r i o d i c i n t e r e s t r a t e ) m − 1 E A R = [ 1 + ] 365 − 1 = 39.10 % 0.33 365 E A R = [ 1 + ] 2 − 1 = 35.70 % 0.33 2 E A R = [ 1 + ] 4 − 1 = 37.30 % 0.33 4",
+          "text_ru": ""
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": {
+        "main": "The EAR is calculated using the following formula; Note that the periodic interest rate is the stated annual interest rate divided by m, where m is the number of compounding periods in one year.",
+        "main_ru": "",
+        "formula": "",
+        "formula_latex": "",
+        "solution_steps": [],
+        "wrong_answers": {},
+        "calculator_steps": null
+      }
+    },
+    {
+      "question_id": "Q-QM-2-401",
+      "original_number": "Q.401",
+      "los_id": "LOS_2a",
+      "los_reference": "Calculate\tand\tinterpret\tthe\tpresent\tvalue\t(PV)\tof\tfixed-income\tand",
+      "difficulty": "EASY",
+      "requires_calculation": false,
+      "topic_tags": [
+        "growth rate"
+      ],
+      "question_text": "The current valuation of Genius Corporation confirms a networth of AUD 2.5 million. Three years ago, the firm was sold to its new investors for AUD 800,000. The growth rate for the Genius Corporation within the three years is closest to : The correct answer is",
+      "question_text_ru": "",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "option_id": "opt2",
+          "text": "The growth rate is calculated using the formula as follows; Where; = Future value after the three years. = Present value at three years. = The period during the investment growth. A is incorrect . The",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt1",
+          "text": "Option A",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt3",
+          "text": "Option C",
+          "text_ru": ""
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": {
+        "main": "The growth rate is calculated using the formula as follows; Where; = Future value after the three years. = Present value at three years. = The period during the investment growth.",
+        "main_ru": "",
+        "formula": "",
+        "formula_latex": "",
+        "solution_steps": [],
+        "wrong_answers": {},
+        "calculator_steps": null
+      }
+    },
+    {
+      "question_id": "Q-QM-2-402",
+      "original_number": "Q.402",
+      "los_id": "LOS_2b",
+      "los_reference": "Calculate\tand\tinterpret\tthe\timplied\treturn\tof\tfixed-income",
+      "difficulty": "MEDIUM",
+      "requires_calculation": true,
+      "topic_tags": [
+        "mortgage"
+      ],
+      "question_text": "Mr. Thomas Newborn wants to purchase a $150,000 home and has already made a cash deposit of $20,000. The balance is financed through a 25-year mortgage borrowing with an annual interest rate of 6% compounded monthly. The first monthly mortgage payment is due at t = 1. The monthly mortgage repayment rate is closest to :",
+      "question_text_ru": "",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "option_id": "opt1",
+          "text": "32.00%",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt2",
+          "text": "46.20%",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt3",
+          "text": "68.00% = [ ] − 1 = 3 √ − 1 = 46.20 % F V N P V 1 N A U D 2 , 500.00 A U D 800 , 000 F V N P V N g = × 100 % = 32 % A U D 800 , 00 A U D 2 , 500 , 00 g = [ ] × 100 % = 68 % A U D 2 , 500 , 000 − A U D ",
+          "text_ru": ""
+        }
+      ],
+      "correct_option_id": "opt1",
+      "explanation": {
+        "main": "The question requires the calculation of the size of payments on a Fixed-Rate Mortgage, and it's important to note that the mortgage lender will determine the mortgage payments such that at the stated periodic interest rate, the present value of the payments will be equal to the amount borrowed (in ",
+        "main_ru": "",
+        "formula": "",
+        "formula_latex": "",
+        "solution_steps": [],
+        "wrong_answers": {},
+        "calculator_steps": {
+          "applicable": true,
+          "calculator_model": "BA II Plus Professional",
+          "method": "TVM Worksheet",
+          "preparation": [],
+          "keystrokes": [],
+          "display_result": "",
+          "note": ""
+        }
+      }
+    },
+    {
+      "question_id": "Q-QM-2-3403",
+      "original_number": "Q.3403",
+      "los_id": "LOS_2b",
+      "los_reference": "Calculate\tand\tinterpret\tthe\timplied\treturn\tof\tfixed-income",
+      "difficulty": "EASY",
+      "requires_calculation": false,
+      "topic_tags": [
+        "EAR"
+      ],
+      "question_text": "A bank advertises that it pays an annual interest of 10% with semi-annual compounding on its savings account. The effective annual rate is closest to: The correct answer is",
+      "question_text_ru": "",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "option_id": "opt1",
+          "text": "Recall that: B is incorrect . It is the effective annual interest rate with quarterly compounding. C is incorrect. It is the effective annual interest rate with monthly compounding.",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt2",
+          "text": "Option B",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt3",
+          "text": "Option C",
+          "text_ru": ""
+        }
+      ],
+      "correct_option_id": "opt1",
+      "explanation": {
+        "main": "Recall that: B is incorrect . It is the effective annual interest rate with quarterly compounding. C is incorrect. It is the effective annual interest rate with monthly compounding.",
+        "main_ru": "",
+        "formula": "",
+        "formula_latex": "",
+        "solution_steps": [],
+        "wrong_answers": {},
+        "calculator_steps": null
+      }
+    },
+    {
+      "question_id": "Q-QM-2-3405",
+      "original_number": "Q.3405",
+      "los_id": "LOS_2b",
+      "los_reference": "Calculate\tand\tinterpret\tthe\timplied\treturn\tof\tfixed-income",
+      "difficulty": "MEDIUM",
+      "requires_calculation": true,
+      "topic_tags": [
+        "EAR"
+      ],
+      "question_text": "%. Effective annual rate (EAR) = ( 1 + ) (Compounding frequency) − 1 = [ 1 + ] 2 − 1 = Annual rate Compounding frequency 10 % 2 EAR = ( 1 + ) 4 − 1 = 0.1038 = 10.38 % 0.10 4 EAR = ( 1 + ) 12 − 1 = 0.1047 = 10.47 % 0.10 12  manager, which involves making an annual investment of $1,000 at the end of each year for a duration of 10 years. Assuming the investment yields an annual return of 10%, the amount that Smith can expect to receive at the end of the 10th year is closest to:",
+      "question_text_ru": "",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "option_id": "opt1",
+          "text": "10.25%.",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt2",
+          "text": "10.38%.",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt3",
+          "text": "10.47%. Effective annual rate (EAR) = ( 1 + ) (Compounding frequency) − 1 = [ 1 + ] 2 − 1 = Annual rate Compounding frequency 10 % 2 EAR = ( 1 + ) 4 − 1 = 0.1038 = 10.38 % 0.10 4 EAR = ( 1 + ) 12 − 1 ",
+          "text_ru": ""
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": {
+        "main": "The investment pattern above is similar to an ordinary annuity. In an ordinary annuity, the cash flows occur at the end of the compounding period. Therefore, we can consider this problem as involving ordinary annuity. To understand the principle behind the question, let’s construct the cash flow pat",
+        "main_ru": "",
+        "formula": "",
+        "formula_latex": "",
+        "solution_steps": [],
+        "wrong_answers": {},
+        "calculator_steps": {
+          "applicable": true,
+          "calculator_model": "BA II Plus Professional",
+          "method": "TVM Worksheet",
+          "preparation": [],
+          "keystrokes": [],
+          "display_result": "",
+          "note": ""
+        }
+      }
+    },
+    {
+      "question_id": "Q-QM-2-3406",
+      "original_number": "Q.3406",
+      "los_id": "LOS_2b",
+      "los_reference": "Calculate\tand\tinterpret\tthe\timplied\treturn\tof\tfixed-income",
+      "difficulty": "MEDIUM",
+      "requires_calculation": true,
+      "topic_tags": [
+        "TVM",
+        "calculation"
+      ],
+      "question_text": "An investor wants to invest $1,000 at the beginning of each year for the next 10 years, after which he can redeem his investment at the beginning of the 10 th year. The amount received by the investor at the end of the 10 th year, if the investment generates a yearly return of 10%, is closest to: The correct answer is",
+      "question_text_ru": "",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "option_id": "opt1",
+          "text": "$2,593.74",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt2",
+          "text": "$15,937.42",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt3",
+          "text": "$17,531.17. Annuity due = Ordinary Annuity × (1 + Rate of compounding) FV (annuity due) = 15 , 937.42 × 1.1 = 17,531.17 1 , 000 ( 1 + 0.10 ) 10 = 2 , 593.74",
+          "text_ru": ""
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": {
+        "main": "We can first calculate the ordinary annuity using the financial calculator as: N=10; I/Y=10; PMT= -1,000; PV=0 CPT ⇒ FV = $15,937.42 To calculate annuity due directly using the financial calculator: First, set the calculator to BGN mode. This is done by pressing 2ND PMT, then 2ND ENTER, then 2ND CPT",
+        "main_ru": "",
+        "formula": "",
+        "formula_latex": "",
+        "solution_steps": [],
+        "wrong_answers": {},
+        "calculator_steps": {
+          "applicable": true,
+          "calculator_model": "BA II Plus Professional",
+          "method": "TVM Worksheet",
+          "preparation": [],
+          "keystrokes": [],
+          "display_result": "",
+          "note": ""
+        }
+      }
+    },
+    {
+      "question_id": "Q-QM-2-3407",
+      "original_number": "Q.3407",
+      "los_id": "LOS_2b",
+      "los_reference": "Calculate\tand\tinterpret\tthe\timplied\treturn\tof\tfixed-income",
+      "difficulty": "MEDIUM",
+      "requires_calculation": true,
+      "topic_tags": [
+        "PV"
+      ],
+      "question_text": "Nathan Lewis is planning to subscribe to an investment plan which will generate a return of 5% and provide him with $2,000 at the end of each year for the next 5 years. However, due to financial constraints, he plans to subscribe to the investment plan in 2 years. The present value of the investment plan today is closest to: The correct answer is",
+      "question_text_ru": "",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "option_id": "opt1",
+          "text": "The PV of the ordinary annuity after 2 years, when Lewis starts the investment plan, can be calculated as under: N=3; I/Y=5; PMT= -2,000; FV=0 CPT ⇒ PV= $5,446.52 However, this plan will start in 2 ye",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt2",
+          "text": "Option B",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt3",
+          "text": "Option C",
+          "text_ru": ""
+        }
+      ],
+      "correct_option_id": "opt1",
+      "explanation": {
+        "main": "The PV of the ordinary annuity after 2 years, when Lewis starts the investment plan, can be calculated as under: N=3; I/Y=5; PMT= -2,000; FV=0 CPT ⇒ PV= $5,446.52 However, this plan will start in 2 years. Assuming the rate of interest in these two years is 5%, the PV of the annuity today can be comp",
+        "main_ru": "",
+        "formula": "",
+        "formula_latex": "",
+        "solution_steps": [],
+        "wrong_answers": {},
+        "calculator_steps": {
+          "applicable": true,
+          "calculator_model": "BA II Plus Professional",
+          "method": "TVM Worksheet",
+          "preparation": [],
+          "keystrokes": [],
+          "display_result": "",
+          "note": ""
+        }
+      }
+    },
+    {
+      "question_id": "Q-QM-2-3408",
+      "original_number": "Q.3408",
+      "los_id": "LOS_2b",
+      "los_reference": "Calculate\tand\tinterpret\tthe\timplied\treturn\tof\tfixed-income",
+      "difficulty": "MEDIUM",
+      "requires_calculation": true,
+      "topic_tags": [
+        "PV"
+      ],
+      "question_text": "P V = = $ 4 , 942.26 $ 5 , 446.52 ( 1.05 ) 2 t = 0 If the company intends to generate a return of 10%, then the present value of the projected cash flows today is closest to:",
+      "question_text_ru": "",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "option_id": "opt1",
+          "text": "$4,942.26.",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt2",
+          "text": "$8,246.62",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt3",
+          "text": "$8,658.95 P V = = $ 4 , 942.26 $ 5 , 446.52 ( 1.05 ) 2 t = 0",
+          "text_ru": ""
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": {
+        "main": "The cash flows and the corresponding details are as given below: We can also use the CF button of the BA II Plus Pro calculator to determine the present value of the cash flow. CF0=0↓, CF1 = 100,000 ENTER↓↓; CF2= 600,000 ENTER Then press \"CPT NPV\" after inputting all CFs, then input I/Y=10 ENTER↓, p",
+        "main_ru": "",
+        "formula": "",
+        "formula_latex": "",
+        "solution_steps": [],
+        "wrong_answers": {},
+        "calculator_steps": {
+          "applicable": true,
+          "calculator_model": "BA II Plus Professional",
+          "method": "TVM Worksheet",
+          "preparation": [],
+          "keystrokes": [],
+          "display_result": "",
+          "note": ""
+        }
+      }
+    },
+    {
+      "question_id": "Q-QM-2-3409",
+      "original_number": "Q.3409",
+      "los_id": "LOS_2b",
+      "los_reference": "Calculate\tand\tinterpret\tthe\timplied\treturn\tof\tfixed-income",
+      "difficulty": "MEDIUM",
+      "requires_calculation": true,
+      "topic_tags": [
+        "TVM",
+        "calculation"
+      ],
+      "question_text": "A project manager is looking to fund his new project through bank borrowings. The new project requires a funding of $1,000,000, so the manager approaches a commercial bank. The bank is willing to fund the project at an interest rate of 3% and wants the firm to pay back the entire loan in 10 years in 10 equal payments. The yearly payment required to completely pay off the loan is closest to: The correct answer is",
+      "question_text_ru": "",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "option_id": "opt3",
+          "text": "Using the financial calculator: N=10; I/Y=3; PV=-1,000,000, FV=0 CPT ⇒ PMT = $117,230.51 A is incorrect . The amount assumes a monthly interest rate and not annual as follows. N=10; I/Y=3/12=0.25; PV=",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt1",
+          "text": "Option A",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt2",
+          "text": "Option B",
+          "text_ru": ""
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": {
+        "main": "Using the financial calculator: N=10; I/Y=3; PV=-1,000,000, FV=0 CPT ⇒ PMT = $117,230.51",
+        "main_ru": "",
+        "formula": "",
+        "formula_latex": "",
+        "solution_steps": [],
+        "wrong_answers": {},
+        "calculator_steps": {
+          "applicable": true,
+          "calculator_model": "BA II Plus Professional",
+          "method": "TVM Worksheet",
+          "preparation": [],
+          "keystrokes": [],
+          "display_result": "",
+          "note": ""
+        }
+      }
+    },
+    {
+      "question_id": "Q-QM-2-3410",
+      "original_number": "Q.3410",
+      "los_id": "LOS_2b",
+      "los_reference": "Calculate\tand\tinterpret\tthe\timplied\treturn\tof\tfixed-income",
+      "difficulty": "MEDIUM",
+      "requires_calculation": true,
+      "topic_tags": [
+        "TVM",
+        "calculation"
+      ],
+      "question_text": "If Rose decided to make a payment of $2,000 at the end of the 1 st year, then the payments required for the remaining 2 years would be closest to:",
+      "question_text_ru": "",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "option_id": "opt1",
+          "text": "$101,380.15",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt2",
+          "text": "$104,171.23.",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt3",
+          "text": "$117,230.51.",
+          "text_ru": ""
+        }
+      ],
+      "correct_option_id": "opt1",
+      "explanation": {
+        "main": "The payments required to be made so that the loan is completely paid off in three years can be calculated as: N=3; I/Y=3; FV= 0; PV=5000; CPT ⇒ PMT= $1,767.65 The amortization schedule of the loan is: However, since Rose makes a payment of $2,000 at the end of the 1 st year: Therefore, at the end of",
+        "main_ru": "",
+        "formula": "",
+        "formula_latex": "",
+        "solution_steps": [],
+        "wrong_answers": {},
+        "calculator_steps": {
+          "applicable": true,
+          "calculator_model": "BA II Plus Professional",
+          "method": "TVM Worksheet",
+          "preparation": [],
+          "keystrokes": [],
+          "display_result": "",
+          "note": ""
+        }
       }
     }
   ]
