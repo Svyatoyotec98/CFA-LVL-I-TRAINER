@@ -200,25 +200,36 @@
         {
           "question_id": "QM-1-046",
           "question_number": 46,
-          "question_text": "XYZ company's EPS at the beginning of each 4 consecutive years is as follows: The EPS compound annual growth rate during this period is closest to:",
+          "question_text": "XYZ company's EPS at the beginning of each 4 consecutive years is as follows:",
           "question_text_formula": null,
-          "question_continuation": null,
-          "has_table": false,
-          "table_data": null,
+          "question_continuation": "The EPS compound annual growth rate during this period is closest to:",
+          "has_table": true,
+          "table_data": {
+            "headers": ["Year", "EPS ($)"],
+            "rows": [
+              ["Year 1", "$3.00"],
+              ["Year 2", "$4.20"],
+              ["Year 3", "$5.50"],
+              ["Year 4", "$7.60"]
+            ]
+          },
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "16",
-            "B": "20",
-            "C": "36"
+            "A": "16.80%",
+            "B": "20.40%",
+            "C": "36.32%"
           },
           "correct_answer": "C",
-          "explanation": "",
-          "explanation_formula": null,
-          "explanation_wrong": {},
-          "calculator_steps": null,
+          "explanation": "To calculate the EPS compound annual growth rate, we use the formula: g = (FV/PV)^(1/N) - 1, where FV is the future EPS value, PV is the present EPS value, and N is the number of periods. With Year 1 EPS of $3.00 and Year 4 EPS of $7.60, we have 3 periods of growth.",
+          "explanation_formula": "$g = \\left(\\frac{FV_N}{PV}\\right)^{\\frac{1}{N}} - 1 = \\left(\\frac{\\$7.60}{\\$3.00}\\right)^{\\frac{1}{3}} - 1 = 2.533^{0.333} - 1 = 1.3632 - 1 = 36.32\\%$",
+          "explanation_wrong": {
+            "A": "16.80% would result from an incorrect calculation that doesn't properly apply the compound growth formula.",
+            "B": "20.40% might result from using arithmetic averaging instead of geometric (compound) growth calculation."
+          },
+          "calculator_steps": ["[2ND] [CLR TVM]", "3 [N]", "3.00 [+/-] [PV]", "7.60 [FV]", "0 [PMT]", "[CPT] [I/Y] = 36.32%"],
           "difficulty": "medium",
-          "los_reference": null
+          "los_reference": "CFA Level I, Quantitative Methods, Learning Module 1: Rate and Return. LOS (d): Calculate and interpret different approaches to return measurement over time."
         },
         {
           "question_id": "QM-1-047",
