@@ -1071,3 +1071,185 @@ a:hover {
 ::-webkit-scrollbar-thumb:hover {
     background: rgba(255, 255, 255, 0.3);
 }
+
+/* ============== Question Tables ============== */
+.question-table-container {
+    margin: 16px 0;
+    overflow-x: auto;
+}
+
+.question-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.question-table th,
+.question-table td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid var(--glass-border);
+}
+
+.question-table th {
+    background: rgba(79, 70, 229, 0.3);
+    font-weight: 600;
+    color: var(--text);
+}
+
+.question-table tr:last-child td {
+    border-bottom: none;
+}
+
+.question-table tr:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.question-continuation {
+    margin-top: 16px;
+    font-weight: 500;
+}
+
+/* ============== Learning Mode ============== */
+.mode-card.learning-mode {
+    border: 2px solid var(--accent);
+    position: relative;
+}
+
+.mode-card.learning-mode::before {
+    content: "Рекомендуется";
+    position: absolute;
+    top: -10px;
+    right: 16px;
+    background: var(--accent);
+    color: white;
+    padding: 2px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#check-btn {
+    background: var(--accent);
+    color: white;
+}
+
+#check-btn:hover {
+    background: #7c3aed;
+}
+
+/* ============== Explanation Enhancements ============== */
+#explanation-container {
+    max-height: 60vh;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
+#explanation-container h4 {
+    margin-bottom: 12px;
+}
+
+#explanation-text {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.explanation-status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--glass-border);
+    position: sticky;
+    top: -24px;
+    background: rgba(26, 26, 46, 0.95);
+    backdrop-filter: blur(20px);
+    margin: -24px -24px 12px -24px;
+    padding: 12px 24px;
+    z-index: 10;
+}
+
+.result-correct {
+    color: var(--success);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.result-incorrect {
+    color: var(--danger);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.correct-answer {
+    background: rgba(16, 185, 129, 0.2);
+    color: var(--success);
+    padding: 4px 12px;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+.explanation-formula {
+    background: rgba(139, 92, 246, 0.1);
+    border: 1px solid rgba(139, 92, 246, 0.3);
+    padding: 16px;
+    border-radius: 8px;
+    margin: 16px 0;
+    font-family: 'Courier New', monospace;
+    overflow-x: auto;
+}
+
+.explanation-wrong {
+    background: rgba(239, 68, 68, 0.1);
+    border-left: 3px solid var(--danger);
+    padding: 12px 16px;
+    margin-top: 16px;
+    border-radius: 0 8px 8px 0;
+}
+
+.calculator-steps {
+    background: rgba(59, 130, 246, 0.1);
+    border: 1px solid rgba(59, 130, 246, 0.3);
+    padding: 16px;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+
+.calculator-steps h5 {
+    color: #60a5fa;
+    margin-bottom: 12px;
+}
+
+.calculator-steps ol {
+    padding-left: 20px;
+}
+
+.calculator-steps li {
+    margin-bottom: 8px;
+}
+
+.calculator-steps code {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+}
+
+/* ============== Option States for Learning Mode ============== */
+.option.correct {
+    background: rgba(16, 185, 129, 0.3) !important;
+    border-color: var(--success) !important;
+}
+
+.option.incorrect {
+    background: rgba(239, 68, 68, 0.3) !important;
+    border-color: var(--danger) !important;
+}
+
+.option:disabled {
+    cursor: not-allowed;
+    opacity: 0.9;
+}

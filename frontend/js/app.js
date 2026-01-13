@@ -420,6 +420,33 @@ async function startTest(mode) {
     }
 }
 
+// Render table from table_data
+function renderTable(tableData) {
+    if (!tableData || !tableData.headers || !tableData.rows) return '';
+
+    let html = '<table class="question-table">';
+
+    // Headers
+    html += '<thead><tr>';
+    tableData.headers.forEach(h => {
+        html += `<th>${h}</th>`;
+    });
+    html += '</tr></thead>';
+
+    // Rows
+    html += '<tbody>';
+    tableData.rows.forEach(row => {
+        html += '<tr>';
+        row.forEach(cell => {
+            html += `<td>${cell}</td>`;
+        });
+        html += '</tr>';
+    });
+    html += '</tbody></table>';
+
+    return html;
+}
+
 function displayQuestion() {
     const question = state.questions[state.currentQuestionIndex];
     if (!question) return;
@@ -429,6 +456,29 @@ function displayQuestion() {
     document.getElementById('q-num').textContent = state.currentQuestionIndex + 1;
     document.getElementById('test-current').textContent = state.currentQuestionIndex + 1;
     document.getElementById('question-text').textContent = question.question_text;
+
+    // Table (if present)
+    const tableDiv = document.getElementById('question-table');
+    if (tableDiv) {
+        if (question.has_table && question.table_data) {
+            tableDiv.innerHTML = renderTable(question.table_data);
+            tableDiv.classList.remove('hidden');
+        } else {
+            tableDiv.innerHTML = '';
+            tableDiv.classList.add('hidden');
+        }
+    }
+
+    // Question continuation (text after table)
+    const contDiv = document.getElementById('question-continuation');
+    if (contDiv) {
+        if (question.question_continuation) {
+            contDiv.textContent = question.question_continuation;
+            contDiv.classList.remove('hidden');
+        } else {
+            contDiv.classList.add('hidden');
+        }
+    }
 
     // Formula
     const formulaDiv = document.getElementById('question-formula');
@@ -468,11 +518,29 @@ function displayQuestion() {
     // Update navigation
     document.getElementById('prev-btn').disabled = state.currentQuestionIndex === 0;
 
+    // Show/hide check button based on mode
+    const checkBtn = document.getElementById('check-btn');
+    if (checkBtn) {
+        if (state.testMode === 'learning') {
+            checkBtn.classList.remove('hidden');
+            document.getElementById('next-btn').classList.add('hidden');
+        } else {
+            checkBtn.classList.add('hidden');
+            document.getElementById('next-btn').classList.remove('hidden');
+        }
+    }
+
     const isLastQuestion = state.currentQuestionIndex === state.questions.length - 1;
     document.getElementById('next-btn').textContent = isLastQuestion ? 'Завершить' : 'Далее →';
 
     // Hide explanation for new question
     document.getElementById('explanation-container').classList.add('hidden');
+
+    // Re-enable options and reset their states (in case they were disabled/highlighted)
+    document.querySelectorAll('.option').forEach(opt => {
+        opt.disabled = false;
+        opt.classList.remove('correct', 'incorrect');
+    });
 }
 
 function selectAnswer(letter) {
@@ -501,6 +569,7 @@ function showQuestionResult(question, userAnswer) {
     // Highlight correct/incorrect options
     document.querySelectorAll('.option').forEach(btn => {
         const letter = btn.querySelector('.option-letter').textContent;
+        btn.disabled = true;  // Disable all options after answering
         if (letter === question.correct_answer) {
             btn.classList.add('correct');
         } else if (letter === userAnswer && !isCorrect) {
@@ -510,24 +579,80 @@ function showQuestionResult(question, userAnswer) {
 
     // Show explanation
     const expContainer = document.getElementById('explanation-container');
+
+    // Result status
+    const statusEl = document.getElementById('explanation-status');
+    if (statusEl) {
+        statusEl.innerHTML = isCorrect
+            ? '<span class="result-correct">✓ Правильно!</span>'
+            : '<span class="result-incorrect">✗ Неправильно</span>';
+        statusEl.innerHTML += `<span class="correct-answer">Правильный ответ: ${question.correct_answer}</span>`;
+    }
+
     document.getElementById('explanation-text').textContent = question.explanation || '';
 
-    if (question.explanation_wrong && question.explanation_wrong[userAnswer]) {
-        document.getElementById('explanation-wrong').textContent = question.explanation_wrong[userAnswer];
-    } else {
-        document.getElementById('explanation-wrong').textContent = '';
+    // Explanation formula (if present)
+    const formulaEl = document.getElementById('explanation-formula');
+    if (formulaEl) {
+        if (question.explanation_formula) {
+            formulaEl.innerHTML = question.explanation_formula;
+            formulaEl.classList.remove('hidden');
+            if (window.MathJax) {
+                MathJax.typesetPromise([formulaEl]).catch(err => console.log('MathJax error:', err));
+            }
+        } else {
+            formulaEl.classList.add('hidden');
+        }
+    }
+
+    // Wrong answer explanation
+    const wrongEl = document.getElementById('explanation-wrong');
+    if (wrongEl) {
+        if (!isCorrect && question.explanation_wrong && question.explanation_wrong[userAnswer]) {
+            wrongEl.innerHTML = `<strong>Почему ${userAnswer} неправильно:</strong> ${question.explanation_wrong[userAnswer]}`;
+            wrongEl.classList.remove('hidden');
+        } else {
+            wrongEl.classList.add('hidden');
+        }
     }
 
     // Calculator steps
-    if (question.calculator_steps && question.calculator_steps.length > 0) {
-        document.getElementById('calc-steps-list').innerHTML =
-            question.calculator_steps.map(step => `<li>${step}</li>`).join('');
-        document.getElementById('calculator-steps').classList.remove('hidden');
-    } else {
-        document.getElementById('calculator-steps').classList.add('hidden');
+    const calcStepsContainer = document.getElementById('calculator-steps');
+    if (calcStepsContainer) {
+        if (question.calculator_steps && question.calculator_steps.length > 0) {
+            document.getElementById('calc-steps-list').innerHTML =
+                question.calculator_steps.map(step => `<li><code>${step}</code></li>`).join('');
+            calcStepsContainer.classList.remove('hidden');
+        } else {
+            calcStepsContainer.classList.add('hidden');
+        }
     }
 
     expContainer.classList.remove('hidden');
+
+    // In learning mode, show next button after checking
+    if (state.testMode === 'learning') {
+        const checkBtn = document.getElementById('check-btn');
+        const nextBtn = document.getElementById('next-btn');
+        if (checkBtn) checkBtn.classList.add('hidden');
+        if (nextBtn) nextBtn.classList.remove('hidden');
+    }
+}
+
+// Check single answer for learning mode
+function checkSingleAnswer() {
+    const question = state.questions[state.currentQuestionIndex];
+    const selectedOption = document.querySelector('.option.selected');
+
+    if (!selectedOption) {
+        showToast('Выберите ответ', 'warning');
+        return;
+    }
+
+    const userAnswer = selectedOption.querySelector('.option-letter').textContent;
+    state.answers[question.question_id] = userAnswer;
+
+    showQuestionResult(question, userAnswer);
 }
 
 function updateQuestionDots() {
@@ -572,7 +697,8 @@ function nextQuestion() {
 }
 
 function goToQuestion(index) {
-    if (state.testMode === 'standard' && index >= 0 && index < state.questions.length) {
+    // Allow navigation in standard and learning modes
+    if ((state.testMode === 'standard' || state.testMode === 'learning') && index >= 0 && index < state.questions.length) {
         state.currentQuestionIndex = index;
         displayQuestion();
     }
