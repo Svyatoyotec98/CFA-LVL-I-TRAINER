@@ -37,6 +37,9 @@ Thumbs.db
 # PDF source files (large)
 *.pdf
 
+# Except Materials PDFs (needed for glossary and questions)
+!Materials/**/*.pdf
+
 # Extracted text files from PDF parsing
 Materials/Tests/Tests/*.txt
 Materials/NOTES/*.txt
