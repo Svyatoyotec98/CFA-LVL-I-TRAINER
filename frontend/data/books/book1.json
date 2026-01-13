@@ -264,16 +264,16 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "£51,164",
-            "B": "£55,768",
-            "C": "£72,222"
+            "A": "£51,164.03",
+            "B": "£55,768.79",
+            "C": "£72,222.20"
           },
           "correct_answer": "B",
-          "explanation": "The question requires the calculation of the Present Value of projected perpetuity as follows; Step I: Determine the present value of the perpetuity at t = 3 and then discount that amount back to . It's important to note that perpetuity or an ordinary annuity has its first payment one period away, explaining the t= three indexes for our present value calculation. Where; A = Annuity amount. r = Discount rate. Therefore; Step II: Determine the present value of the future amount at t = 3. Note that from the perspective of t = 0, the present value of £72,22.20 can be considered a future value. So now we need to find the present value of a lump sum:",
-          "explanation_formula": null,
+          "explanation": "The question requires calculating the Present Value of a deferred perpetuity.\n\n**Step I:** Determine the present value of the perpetuity at t=3, then discount back to t=0. Note that a perpetuity has its first payment one period away, explaining why we use t=3.\n\n**Step II:** Discount the future value at t=3 back to t=0.",
+          "explanation_formula": "$PV_{t=3} = \\frac{A}{r} = \\frac{£6,500}{0.09} = £72,222.20$\n\n$PV_{t=0} = FV_N \\times (1+r)^{-N} = £72,222.20 \\times (1.09)^{-3} = £55,768.79$",
           "explanation_wrong": {
-            "A": "At year 4 (t=3), the present value has been discounted by 4 instead of by 3 years as follows;",
-            "C": "The amount represents the present value at time t=3 and not at time t=0. t = 0 A. £51,164.03 B. £55,768.79 C. £72,222.20 t = 0 PV = A r PV = = £72, 222.20 £6, 500 0.09 PV = FVN (1 + r)−N = £72, 222.20(1 + 0.09)−3 = £55, 768.79 PV = £72,222.20(1 + 0.09)−4 = £51, 164.03 © 2014-2024 AnalystPrep. 60"
+            "A": "£51,164.03 results from discounting by 4 years instead of 3: $PV = £72,222.20 \\times (1.09)^{-4} = £51,164.03$",
+            "C": "£72,222.20 is the present value at t=3, not at t=0 as required by the question."
           },
           "calculator_steps": null,
           "difficulty": "medium",
@@ -295,8 +295,8 @@
             "C": "12"
           },
           "correct_answer": "C",
-          "explanation": "The holding period return (HPR) for a portfolio over multiple periods can be calculated by multiplying the individual period returns together and then subtracting 1. This approach takes into account the compounding effect of the returns over time. For the given portfolio, the calculation of HPR over the three years is as follows:",
-          "explanation_formula": "$HPR = (1 + 0.08) \\times (1 + 0.06) \\times (1 -0.02) -1 = 12.19$",
+          "explanation": "The holding period return (HPR) for a portfolio over multiple periods is calculated by compounding the individual period returns together and subtracting 1. This accounts for the compounding effect over time.",
+          "explanation_formula": "$HPR = (1 + r_1) \\times (1 + r_2) \\times (1 + r_3) - 1 = (1.08) \\times (1.06) \\times (0.98) - 1 = 1.1219 - 1 = 12.19\\%$",
           "explanation_wrong": {
             "A": "The option suggesting a 3.91% return does not correctly apply the compounding effect of the annual returns over the three years.",
             "B": "A 4% return might be an oversimplified interpretation of the portfolio's performance, possibly an average of the annual returns without considering the negative impact of the -2% return in 2014 and the compounding effect over the years. This calculation fails to accurately reflect the cumulative impact of the annual returns on the portfolio's overall performance. CFA Level 1, Quantitative Methods, Learning Module 1: Rate and Return, LOS (b) Calculate and interpret different approaches to return measurement over time and describe their appropriate uses."
@@ -1047,11 +1047,11 @@
             "C": "51.08%"
           },
           "correct_answer": "C",
-          "explanation": "The continuously compounded 2-year return is given by",
-          "explanation_formula": null,
+          "explanation": "The continuously compounded 2-year return is calculated using the natural logarithm of the price ratio.",
+          "explanation_formula": "$r_{cc} = \\ln\\left(\\frac{P_1}{P_0}\\right) = \\ln\\left(\\frac{40}{24}\\right) = \\ln(1.667) = 0.5108 = 51.08\\%$",
           "explanation_wrong": {
-            "A": ": Annually compounded rate of return .",
-            "B": "It is the monetary change of the stock price misrepresented as a percentage. CFA Level 1, Quantitative Methods, Learning Module 1: Rate and Return, LOS (d) Calculate and interpret annualized return measures and continuously compounded returns, and describe their appropriate uses."
+            "A": "25.54% is the annually compounded rate of return, calculated as: $\\frac{51.08\\%}{2} = 25.54\\%$. This incorrectly divides the continuously compounded return by the number of years.",
+            "B": "28.00% represents the monetary change ($40 - $24 = $16) misrepresented as a percentage of the ending price, which is not a valid return calculation method."
           },
           "calculator_steps": null,
           "difficulty": "medium",
@@ -2571,8 +2571,8 @@
             "C": "0.70"
           },
           "correct_answer": "B",
-          "explanation": "These are non-mutual exclusive events. The probability of Apple’s share price declining is not in any way dependent on the probability of Microsoft’s share declining. Both events can occur simultaneously. For non-mutual exclusive evens, the probability that either event will happen is given by the formula:",
-          "explanation_formula": null,
+          "explanation": "The probability that at least one of two events occurs is calculated using the addition rule of probability, which accounts for the possibility that both events might occur.",
+          "explanation_formula": "$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$",
           "explanation_wrong": {
             "A": "This is illustrated in the below workings.",
             "C": ".This is illustrated in the below workings. CFA Level 1, Quantitative Methods, Learning Module 4: Probability Trees and Conditional Expectations, LOS (c) Calculate and interpret an updated probability in an investment setting using Bayes’ formula."
