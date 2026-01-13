@@ -1,0 +1,4809 @@
+BA II PLUS™
+PROFESSIONAL
+Calculator
+
+ii
+Important Information
+Texas Instruments makes no warranty, either express or implied, including but not
+limited to any implied warranties of merchantability and fitness for a particular
+purpose, regarding any programs or book materials and makes such materials
+available solely on an "as-is" basis.
+In no event shall Texas Instruments be liable to anyone for special, collateral,
+incidental, or consequential damages in connection with or arising out of the purchase
+or use of these materials, and the sole and exclusive liability of Texas Instruments,
+regardless of the form of action, shall not exceed the purchase price of this product.
+Moreover, Texas Instruments shall not be liable for any claim of any kind whatsoever
+against the use of these materials by any other party.
+© 2011-2025 Texas Instruments Incorporated
+
+USA FCC Information Concerning Radio Frequency Interference
+Interference
+This equipment has been tested and found to comply with the limits for a Class B
+digital device, pursuant to Part 15 of the FCC rules. These limits are designed to
+provide reasonable protection against harmful interference in a residential installation.
+This equipment generates, uses, and can radiate radio frequency energy and, if not
+installed and used in accordance with the instructions, may cause harmful interference
+to radio communications. However, there is no guarantee that interference will not
+occur in a particular installation.
+If this equipment does cause harmful interference to radio or television reception,
+which can be determined by turning the equipment off and on, you can try to correct
+the interference by one or more of the following measures:
+•
+Reorient or relocate the receiving antenna.
+•
+Increase the separation between the equipment and receiver.
+•
+Connect the equipment into an outlet on a circuit different from that to which the
+receiver is connected.
+•
+Consult the dealer or an experienced radio/television technician for help.
+Caution: Any changes or modifications to this equipment not expressly approved by
+Texas Instruments may void your authority to operate the equipment.
+© 2004-2019 Texas Instruments Incorporated
+iii
+
+iv
+Contents
+Overview of Calculator Operations
+1
+Turning On the Calculator
+1
+Turning Off the Calculator
+1
+Selecting 2nd Functions
+2
+Reading the Display
+2
+Setting Calculator Formats
+4
+Resetting the Calculator
+5
+Clearing Calculator Entries and Memories
+6
+Correcting Entry Errors
+7
+Math Operations
+7
+Memory Operations
+10
+Calculations Using Constants
+13
+Last Answer Feature
+14
+Using Worksheets: Tools for Financial Solutions
+14
+Time-Value-of-Money and Amortization Worksheets
+19
+TVM and Amortization Worksheet Variables
+19
+Entering Cash Inflows and Outflows
+22
+Generating an Amortization Schedule
+22
+Example: Computing Basic Loan Interest
+23
+Examples: Computing Basic Loan Payments
+24
+Examples: Computing Value in Savings
+24
+Example: Computing Present Value in Annuities
+25
+Example: Computing Perpetual Annuities
+26
+Example: Computing Present Value of Variable Cash Flows
+28
+Example: Computing Present Value of a Lease With Residual Value
+30
+Example: Computing Other Monthly Payments
+31
+Example: Saving With Monthly Deposits
+31
+Example: Computing Amount to Borrow and Down Payment
+32
+Example: Computing Regular Deposits for a Specified Future Amount
+33
+Example: Computing Payments and Generating an Amortization Schedule
+34
+Example: Computing Payment, Interest, and Loan Balance After a Specified Payment35
+Cash Flow Worksheet
+37
+Cash Flow Worksheet Variables
+37
+Uneven and Grouped Cash Flows
+38
+Entering Cash Flows
+39
+Deleting Cash Flows
+39
+Inserting Cash Flows
+40
+Computing Cash Flows
+40
+Example: Solving for Unequal Cash Flows
+42
+
+Example: Value of a Lease with Uneven Payments
+44
+Bond Worksheet
+47
+Bond Worksheet Variables
+47
+Bond Worksheet Terminology
+49
+Entering Bond Data and Computing Results
+49
+Example: Computing Bond Price, Accrued Interest, and Modified Duration
+50
+Depreciation Worksheet
+52
+Depreciation Worksheet Variables
+52
+Entering Data and Computing Results
+54
+Example: Computing Straight-Line Depreciation
+55
+Statistics Worksheet
+56
+Statistics Worksheet Variables
+56
+Regression Models
+57
+Entering Statistical Data
+58
+Computing Statistical Results
+59
+Other Worksheets
+60
+Percent Change/Compound Interest Worksheet
+60
+Interest Conversion Worksheet
+63
+Date Worksheet
+65
+Profit Margin Worksheet
+67
+Breakeven Worksheet
+68
+Memory Worksheet
+69
+APPENDIX - Reference Information
+71
+Formulas
+71
+Error Messages
+82
+Accuracy Information
+84
+AOS™(Algebraic Operating System) Calculations
+85
+Battery Information
+86
+Australian Lithium Battery Warning
+88
+In Case of Difficulty
+89
+General Information
+90
+Online Help
+90
+Contact TI Support
+90
+Service and Warranty Information
+90
+v
+
+1
+Overview of Calculator Operations
+Overview of Calculator Operations
+This chapter describes the basic operation of your BA II PLUS™PROFESSIONAL
+calculator, including how to:
+•
+Turn on and turn off the calculator
+•
+Select second functions
+•
+Read the display and set calculator formats
+•
+Clear the calculator and correct entry errors
+•
+Perform math and memory operations
+•
+Use the Last Answer feature
+•
+Use worksheets
+Turning On the Calculator
+Press $.
+•
+If you turned off the calculator by pressing $, the
+calculator returns to the standard-calculator mode with a
+displayed value of zero.
+All worksheets and formats for numbers, angle units, dates,
+separators, and calculation method retain previous values and
+configurations.
+•
+If the Automatic Power Down™(APD™) feature turned off the
+calculator, the calculator turns on exactly as you left it, saving
+display settings, stored memory, pending operations, and error
+conditions.
+Turning Off the Calculator
+Press $.
+•
+The displayed value and any error condition clear.
+•
+Any unfinished standard-calculator operation and worksheet calculation in progress
+cancel.
+•
+The Constant Memory™feature retains all worksheet values and settings, including
+the contents of the 10 memories and all format settings.
+Automatic Power Down™(APD™) Feature
+To prolong battery life, the Automatic Power Down (APD) feature turns off the
+calculator automatically after about five minutes of inactivity.
+The next time you press $, the calculator turns on exactly as you left it, saving
+display settings and stored memory and any pending operations or error conditions.
+
+Selecting 2nd Functions
+The primary function of a key is printed on the key itself. For
+example, the primary function of the $ key is to turn on or
+turn off the calculator.
+Most keys include a second function printed above the key. To
+select a second function, press & and the corresponding key.
+(When you press &, the 2nd indicator appears in the upper left
+corner of the display.)
+For example, pressing & U exits the selected worksheet and
+returns the calculator to the standard-calculator mode.
+Note: To cancel after pressing &, press & again.
+Reading the Display
+The display shows the selected variable labels with values up to 10 digits. (The
+calculator displays values exceeding 10 digits in scientific notation.)
+The indicators along the top of the display tell you which keys are active and offer
+information about the status of the calculator.
+Indicator
+Meaning
+2nd
+Press a key to select its second function. (&
+To cancel, press & again.
+INV
+Press a key to select its inverse trigonometric function.
+HYP
+Press a key to select its hyperbolic function.
+COMPUTE
+Press C to compute a value for the displayed variable.
+ENTER
+Press ! to assign the displayed value to the displayed
+variable.
+SET
+Press & Vto change the setting of the displayed variable.
+# $
+Press # or " to display the previous or next variable in the
+worksheet.
+Note: To easily scroll up or down through a range of variables,
+press and hold # or ".
+Overview of Calculator Operations
+2
+
+3
+Overview of Calculator Operations
+Indicator
+Meaning
+DEL
+Press & W to delete a cash flow or statistical data point.
+INS
+Press & X to insert a cash flow or statistical data point.
+BGN
+TVM calculations use beginning-of-period payments. When BGN
+is not displayed, TVM calculations use end-of-period payments
+(END).
+RAD
+Angle values appear in radians. When RAD is not displayed,
+angle values appear and must be entered in degrees.
+1
+The displayed value is entered in the selected worksheet. The
+indicator clears following a computation.
+7
+The displayed value is computed in the selected worksheet.
+When a value changes and invalidates a computed value, the
+indicator clears.
+=
+The displayed variable is assigned the displayed value.
+–
+The displayed value is negative.
+
+Setting Calculator Formats
+You can change these calculator formats:
+To Select
+Press
+Display
+Default
+Number of
+decimal
+places
+&
+|
+DEC 0–9 (Press 9 for
+floating-decimal)
+2
+Angle units
+#
+DEG (degrees)
+RAD (radians)
+DEG
+Dates
+#
+US (mm-dd-yyyy)
+Eur (dd-mm-yyyy)
+US
+Number
+separators
+#
+US (1,000.00 )
+Eur (1.000,00)
+US
+Calculation
+method
+#
+Chn (chain)
+AOSé (algebraic
+operating system)
+Chn
+1.
+To access format options, press & |. The DEC indicator appears with the
+selected number of decimal places.
+2.
+To change the number of decimal places displayed, key in a value and press !.
+3.
+To access another calculator format, press # or " once for each format.
+For example, to access the angle unit format, press #. To access the number-
+separator format, press " " " or # # #.
+4.
+To change the selected format, press & V.
+5.
+To change another calculator format, repeat step 3 and step 4.
+— or —
+To return to the standard-calculator mode, press & U.
+— or —
+To access a worksheet, press a worksheet key or key sequence.
+Choosing the Number of Decimal Places Displayed
+The calculator stores numeric values internally to an accuracy of 13 digits, but you can
+specify the number of decimal places you want to display. The calculator displays up to
+10 digits with the floating-decimal option. Results exceeding 10 digits appear in
+scientific notation.
+Changing the number of decimal places affects the display only. Except for
+amortization and depreciation results, the calculator does not round internal values. To
+round the internal value, use the round function.
+Note: All examples in this guidebook assume a setting of two decimal places. Other
+settings might show different results.
+Overview of Calculator Operations
+4
+
+5
+Overview of Calculator Operations
+Choosing the Angle Units
+The angle unit value affects the display of results in trigonometric calculations. When
+you select radians, the RAD indicator appears in the upper right corner of the display.
+No indicator appears when you select the default setting of degrees.
+Using Dates
+The calculator uses dates with the Bond and Date worksheets and the French
+depreciation methods. To enter dates, use this convention: mm.ddyy (US) or dd.mmyy
+(European). After you key in the date, press !.
+Choosing Calculation Methods
+When you choose the chain (Chn) calculation method, the calculator solves problems in
+the order that you enter them. (Most financial calculators use Chn.)
+For example, when you enter 3 H 2 < 4 N, the Chn answer is 20 (3 + 2 = 5, 5 * 4 = 20).
+Using AOS™(algebraic operating system), the calculator solves problems according to
+the standard rules of algebraic hierarchy, computing multiplication and division
+operations before addition and subtraction operations. (Most scientific calculators use
+AOS.)
+For example, when you enter 3 H 2 < 4 N, the AOS answer is 11 (2 Q 4 = 8; 3 + 8 =
+11).
+Resetting Default Values
+To reset default values for all of the calculator formats, press & z with one
+of the formats displayed.
+Resetting the Calculator
+Resetting the calculator:
+•
+Clears the display, all 10 memories, any unfinished
+calculations, and all worksheet data.
+•
+Restores all default settings
+•
+Returns operation to the standard-calculator mode
+Because the calculator includes alternative methods that let you clear data selectively,
+use reset carefully to avoid losing data needlessly. (See section “Clearing Calculator
+Entries and Memories”.)
+For example, you might reset the calculator before using it for the first time, when
+starting a new calculation, or when having difficulty operating the calculator and other
+possible solutions do not work. (See “In Case of Difficulty”.)
+
+Pressing 2nd Reset ENTER
+1.
+Press & }. The RST ? and ENTER indicators appear.
+Note: To cancel reset, press & U. 0.00 appears.
+2.
+Press !. RST and 0.00 appear, confirming that the calculator is reset.
+Note: If an error condition exists, press P to clear the display before attempting to
+reset.
+Performing a Hard Reset
+You can also reset the calculator by gently inserting a pointed object (such as an
+unfolded paper clip or similar object) in the hole marked RESET in back of the
+calculator.
+Clearing Calculator Entries and Memories
+Note: To clear variables selectively, see the specific worksheet chapters in this
+guidebook.
+To clear
+Press
+One character at a time, starting with the last digit
+keyed in
+*
+An incorrect entry, error condition, or error message
+P
+The prompted worksheet and reset default values
+& z
+Calculator format settings and reset default values
+& |
+& z
+•
+Out of the prompted worksheet and return to
+standard-calculator mode
+•
+All pending operations in standard-calculator mode
+& U
+•
+In a prompted worksheet, the variable value keyed in
+but not entered (the previous value appears)
+•
+Any calculation started but not completed
+P P
+TVM worksheet variables and reset default values
+& U
+& ^
+One of the 10 memories (without affecting the others)
+Q D and a
+memory number
+key (0–9)
+Overview of Calculator Operations
+6
+
+7
+Overview of Calculator Operations
+Correcting Entry Errors
+You can correct an entry without clearing a calculation, if you make
+the correction before pressing an operation key (for example, H or
+4).
+•
+To clear the last digit displayed, press *.
+•
+To clear the entire number displayed, press P.
+Note: Pressing P after you press an operation key clears the
+calculation in progress.
+Example: You mean to calculate 3 Q 1234.56 but instead enter 1234.86.
+To
+Press
+Display
+Begin the expression
+3 <
+3.00
+Enter a number
+1234.86
+1,234.86
+Erase the entry error
+* *
+1,234.
+Key in the correct number
+56
+1,234.56
+Compute the result
+N
+3,703.68
+Math Operations
+When you select the chain (Chn) calculation method, the calculator evaluates
+mathematical expressions (for example, 3 + 2 Q 4) in the order that you enter them.
+Examples of Math Operations
+These operations require you to press N to complete.
+To
+Press
+Display
+Add 6 + 4
+6 H 4 N
+10.00
+Subtract 6 N 4
+6 B 4 N
+2.00
+Multiply 6 Q 4
+6 < 4 N
+24.00
+Divide 6 P 4
+6 6 4 N
+1.50
+Find universal power: 31.25
+3 ; 1.25 N
+3.95
+Use parentheses: 7 Q (3 + 5)
+7 < 9 3 H 5 :
+N
+56.00
+Find percent: 4% of $453
+453 < 4 2 N
+18.12
+Find percent ratio: 14 to 25
+14 6 25 2 N
+56.00
+Find price with percent add-on:
+$498 + 7% sales tax
+498 H 7 2
+34.86
+532.86
+
+To
+Press
+Display
+N
+Find price with percent discount: $69.99
+N 10%
+69.99 B 10 2
+N
+7.00
+62.99
+Square 6.32
+6.3 4
+39.69
+Find number of combinations where: n =
+52, r = 5
+52 & s 5 N
+2,598,960.00
+Find number of permutations where: n =
+8, r = 3
+8 & m 3 N
+336.00
+These operations do not require you to press N to complete.
+To
+Press
+Display
+Find square root:
+15.5 3
+3.94
+Find reciprocal: 1/3.2
+3.2 5
+0.31
+Find factorial: 5!
+5& g
+120.00
+Find natural logarithm: ln 203.45
+203.45 >
+5.32
+Find natural antilogarithm: e.69315
+.69315 & i
+2.00
+Round 2 P 3 to the set decimal format
+2 6 3 N & o
+0.67
+Generate random number*
+& a
+0.86
+Store seed value
+D& a
+0.86
+Find sine:** sin(11.54°)
+11.54 & d
+0.20
+Find cosine:** cos(120°)
+120 & e
+-0.50
+Find tangent:** tan(76°)
+76 & f
+4.01
+Find arcsine:** sin-1(.2)
+.2 8 d
+11.54
+Find arccosine:** cos-1(-.5)
+.5 S 8 e
+120.00
+Find arctangent:** tan-1(4)
+4 8 f
+75.96
+Find hyperbolic sine: sinh(.5)
+.5 & c d
+0.52
+Find hyperbolic cosine: cosh(.5)
+.5 & c e
+1.13
+Find hyperbolic tangent: tanh(.5)
+.5 & c f
+0.46
+Find hyperbolic arcsine: sinh-1(5)
+5 & c 8 d
+2.31
+Find hyperbolic arccosine: cosh-1(5)
+5 & c 8 e
+2.29
+Find hyperbolic arctangent: tanh-1(.5)
+.5 & c 8 f
+0.55
+Overview of Calculator Operations
+8
+
+9
+Overview of Calculator Operations
+* The random number you generate might be different.
+** Angles can be computed in degrees or radians. Examples show angles in degrees.
+(See: Choosing the Angle Units).
+Universal Power ;
+Press ; to raise the displayed postive number to any power (for example, 2-5 or 2
+(1/3).)
+Note: Because the reciprocal of an even number (such as, 1/2, 1/4, 1/6) is a complex
+number, you can only raise a negative number to an integer power or the reciprocal of
+an odd number.
+Parentheses 9 :
+Use parentheses to control the order in which the calculator evaluates a numeric
+expression in division, multiplication, powers, roots, and logarithm calculations. The
+calculator includes up to 15 levels of parentheses and up to 8 pending operations.
+Note: You do not have to press : for expressions ending in a series of closed
+parentheses. Pressing N closes parentheses automatically, evaluates the expression,
+and displays the final result. To view intermediate results, press : once for each open
+parenthesis.
+Factorial & g
+The number for which you compute a factorial must be a positive integer less than or
+equal to 69.
+Random Numbers & a
+The calculator generates a random real number between zero and one (0<x<1) from a
+uniform distribution.
+You can repeat a sequence of random numbers by storing a seed value in the random
+number generator. Seed values help you recreate experiments by generating the same
+series of random numbers.
+To store a seed value, key in an integer greater than zero and press D & a.
+Combinations & s
+The calculator computes the number of combinations of n items taken r at a time.
+Both the n and r variables must be greater than 0.
+Permutations & m
+The calculator computes the number of permutations of n items taken r at a time.
+Both the n and r variables must be greater than 0.
+
+Rounding & o
+The calculator computes using the rounded, displayed form of a number instead of the
+internally stored value.
+For example, working in the Bond worksheet, you might want to round a computed
+selling price to the nearest penny (two decimal places) before continuing your
+calculation.
+Note: The calculator stores values to an accuracy of up to 13 digits. The decimal format
+setting rounds the displayed value but not the unrounded, internally stored value. (See
+“Choosing the Number of Decimal Places Displayed”.)
+Scientific Notation ;
+When you compute a value in the standard-decimal format that is either too large or
+small to be displayed, the calculator displays it in scientific notation, that is, a base
+value (or mantissa), followed by a blank space, followed by an exponent.
+With AOS selected, you can press ; to enter a number in scientific notation. (See
+“Choosing Calculation Methods”.)
+For example, to enter 3 Q 103, key in 3 < 10 ; 3.
+Memory Operations
+You can store values in any of 10 memories using the standard
+calculator keys.
+Note: You can also use the Memory worksheet. (See Memory
+Worksheet.)
+•
+You can store in memory any numeric value within the range of
+the calculator.
+•
+To access a memory M0 through M9, press a numeric key (0
+Overview of Calculator Operations
+10
+
+11
+Overview of Calculator Operations
+through 9).
+Clearing Memory
+Clearing memory before you begin a new calculation is a critical step in avoiding
+errors.
+•
+To clear an individual memory, store a zero value in it.
+•
+To clear all 10 calculator memories, press & { & z.
+Storing to Memory
+To store a displayed value to memory, press D and a numeric key (0–9).
+•
+The displayed value replaces any previous value stored in the memory.
+•
+The Constant Memory feature retains all stored values when you turn off the
+calculator.
+Recalling From Memory
+To recall a number stored in memory, press J and a numeric key (0–9).
+Note: The recalled number remains in memory.
+Memory Examples
+To
+Press
+Clear memory 4 (by storing a zero value in it)
+0 D 4
+Store 14.95 in memory 3 (M3)
+14.95 D 3
+Recall a value from memory 7 (M7)
+J 7
+Memory Arithmetic
+Using memory arithmetic, you can perform a calculation with a stored value and store
+the result with a single operation.
+•
+Memory arithmetic changes only the value in the affected memory and not the
+displayed value.
+•
+Memory arithmetic does not complete any calculation in progress.
+The table lists the available memory arithmetic functions. In each case, the specified
+memory stores the result.
+To
+Press
+Add the displayed value to the value stored in memory 9 (M9).
+D H 9
+Subtract the displayed value from the value stored in memory 3
+(M3).
+D B
+3
+Multiply the value in memory 0 (M0) by the displayed value.
+D < 0
+Divide the value in memory 5 (M5) by the displayed value.
+D 6
+
+To
+Press
+5
+Raise the value in memory 4 (M4) to the power of the displayed
+value.
+D ;
+4
+Overview of Calculator Operations
+12
+
+13
+Overview of Calculator Operations
+Calculations Using Constants
+To store a constant for use in repetitive calculations, enter a
+number and an operation, and then press & `.
+To use the stored constant, key in a value and press N.
+Note: Pressing a key other than a number or N clears the constant.
+Example: Multiply 3, 7, and 45 by 8
+To
+Press
+Display
+Clear the calculator
+&U
+0.00
+Enter the value for the first calculation.
+3
+3
+Enter the operation and a constant value.
+< 8
+8
+Store the operation and value, and then calculate.
+& `
+N
+24.00
+Calculate 7 Q 8.
+7 N
+56.00
+Compute 45 Q 8.
+45 N
+360.00
+Keystrokes for Constant Calculations
+This table shows how to create a constant for various operations.
+To*
+Press**
+Add c to each subsequent entry.
+n H & ` c N
+Subtract c from each subsequent entry.
+n B & ` c N
+Multiply each subsequent entry by c.
+n < & ` c N
+Divide each subsequent entry by c.
+n 6 & ` c N
+Raise each subsequent entry to the power of c.
+n ; & ` c N
+Add c% of each subsequent entry to that entry.
+n H & ` c 2 N
+Subtract c% of each subsequent entry from the entry.
+n B & ` c 2 N
+* The letter c denotes the constant value.
+** Repeat constant calculations with n N.
+
+Last Answer Feature
+Use the Last Answer (ANS) feature with problems that call
+repeatedly for the same value or to copy a value:
+•
+From one place to another within the same worksheet.
+•
+From one worksheet to another.
+•
+From a worksheet to the standard-calculator mode.
+•
+From the standard-calculator mode to a worksheet.
+To display the last answer computed, press & x.
+Note: The calculator changes the value of the last answer whenever it calculates a
+value automatically or whenever you:
+•
+Press ! to enter a value.
+•
+Press C to compute a value.
+•
+Press N to complete a calculation.
+Example: Using the Last Answer in a Calculation
+To
+Press
+Display
+Key in and complete a calculation
+3 H 1 N
+4.00
+Key in a new calculation
+2 ;
+2.00
+Recall the last answer
+& x
+4.00
+Complete the calculation
+N
+16.00
+Using Worksheets: Tools for Financial Solutions
+The calculator contains worksheets with embedded formulas to
+solve specific problems. You apply settings or assign known values
+to worksheet variables and then compute the unknown value.
+Changing the values lets you ask what if questions and compare
+results.
+Except for TVM variables, accessed in the standard-calculator
+mode, all variables are prompted.
+For example, to assign values to amortization variables, you must
+first press & \ to access the Amortization worksheet.
+Each worksheet is independent of the others: operations in a worksheet do not affect
+variables in other worksheets. When you exit a worksheet or turn off the calculator, the
+calculator retains all worksheet data.
+Overview of Calculator Operations
+14
+
+15
+Overview of Calculator Operations
+To select
+Function
+Press
+TVM worksheet
+Analyzes equal cash flows, for
+example, annuities, loans,
+mortgages, leases, and savings
+,, -, .,
+/, 0, or
+& 
+[
+Amortization worksheet
+Performs amortization
+calculations and generates an
+amortization schedule
+& \
+Cash Flow worksheet
+Analyzes unequal cash flows by
+calculating net present value and
+internal rate of return
+& '
+Bond worksheet
+Computes bond price and yield to
+maturity or call
+& l
+Depreciation worksheet
+Generates a depreciation
+schedule using one of six
+depreciation methods
+& p
+Statistics worksheet
+Analyzes statistics on one- or two-
+variable data using four
+regression analysis options
+& k
+Percent
+Change/Compound
+Interest worksheet
+Computes percent change,
+compound interest, and cost-sell
+markup
+& q
+Interest Conversion
+worksheet
+Converts interest rates between
+nominal rate (or annual
+percentage rate) and annual
+effective rate
+& v
+Date worksheet
+Computes number of days
+between two dates, or date/day
+of the week a specified number of
+days is from a given date
+& u
+Profit Margin worksheet
+Computes cost, selling price, and
+profit margin
+& w
+Breakeven worksheet
+Analyzes relationship between
+fixed cost, variable cost, price,
+profit, and quantity
+& r
+Memory worksheet
+Accesses storage area for up to 10
+values
+& {
+
+Accessing the TVM Worksheet Variables
+•
+To assign values to the TVM worksheet variables, use the five
+TVM keys (,, -, ., /, 0).
+•
+To access other TVM worksheet functions, press the & key,
+and then press a TVM function key (xP/Y, P/Y, BGN). See: TVM
+and Amortization Worksheet Variables.
+Note: You can assign values to TVM variables while in a
+prompted worksheet, but you must return to the standard-
+calculator mode to calculate TVM values or clear the TVM
+worksheet.
+Accessing Prompted-Worksheet Variables
+After you access a worksheet, press # or " to select variables. For example, press
+& \ to access the Amortization worksheet, and then press # or " to select
+the amortization variables (P1, P2, BAL, PRN, INT). See: TVM and Amortization
+Worksheet Variables.
+Indicators prompt you to select settings, enter values, or compute results. For example,
+the # and " indicators remind you to press # or " to select other variables.
+To return to the standard-calculator mode, press & U.
+Types of Worksheet Variables
+•
+Enter-only
+•
+Compute-only
+•
+Automatic-compute
+•
+Enter-or-compute
+•
+Settings
+Note: The = sign displayed between the variable label and value indicates that the
+variable is assigned the value.
+Enter-Only Variables
+Values for enter-only variables must be entered, cannot be computed, and are often
+limited to a specified range, for example, P/Y and C/Y. The value for an enter-only
+variable can be:
+•
+Entered directly from the keyboard.
+•
+The result of a math calculation.
+•
+Recalled from memory.
+•
+Obtained from another worksheet using the last answer feature.
+When you access an enter-only variable, the calculator displays the variable label and
+ENTER indicator. The ENTER indicator reminds you to press ! after keying in a
+Overview of Calculator Operations
+16
+
+17
+Overview of Calculator Operations
+value to assign the value to the variable. After you press !, the 1 indicator
+confirms that the value is assigned.
+Compute-Only Variables
+You cannot enter values manually for compute-only variables, for example, net present
+value (NPV). To compute a value, display a compute-only variable and press C. The
+calculator computes and displays the value based on the values of other variables.
+When you display a compute-only variable, the COMPUTE indicator reminds you to
+press C to compute its value. After you press C, the 7 indicator confirms that the
+displayed value has been computed.
+Automatic-Compute Variables
+When you press # or " to display an automatic-compute variable (for example, the
+Amortization worksheet INT variable), the calculator computes and displays the value
+automatically without you having to press C.
+Enter-or-Compute Variables in the TVM Worksheet
+You can either enter or compute values for the TVM worksheet variables (N, I/Y, PV,
+PMT, and FV).
+Note: Although you do not have to be in the standard-calculator mode to assign values
+to these variables, you must be in the standard-calculator mode to compute their
+values.
+•
+To assign the value of a TVM variable, key in a number and press a variable key.
+•
+To compute the value of a TVM variable, press C, and then press the variable
+key. The calculator computes and displays the value based on the values of other
+variables.
+Enter-or-Compute Variables in Prompted Worksheets
+You can either enter or compute values for some prompted worksheet variables (for
+example, the Bond worksheet YLD and PRI variables). When you select an enter-or-
+compute variable, the calculator displays the variable label with the ENTER and
+COMPUTE indicators.
+•
+The ENTER indicator prompts you to press ! to assign the keyed-in value to the
+displayed variable.
+•
+The COMPUTE indicator prompts you to press C to compute a value for the
+variable.
+Selecting Worksheet Settings
+Many prompted worksheets contain variables consisting of two or more options, or
+settings (for example, the Date worksheet ACT/360 variable). When you select
+variables with settings, the calculator displays the SET indicator and the current
+setting.
+To scroll through the settings of a variable, press & V once for each setting.
+
+Display Indicators
+•
+The 1 indicator confirms that the calculator entered the displayed value in the
+worksheet.
+•
+The 7 indicator confirms that the calculator computed the displayed value.
+•
+When a change to the worksheet invalidates either entered or computed values,
+the 1 and 7 indicators disappear.
+Overview of Calculator Operations
+18
+
+19
+Time-Value-of-Money and Amortization Worksheets
+Time-Value-of-Money and Amortization Worksheets
+Use the Time-Value-of-Money (TVM) variables to solve
+problems with equal and regular cash flows that are either
+all inflows or all outflows (for example, annuities, loans,
+mortgages, leases, and savings).
+For cash-flow problems with unequal cash flows, use the
+Cash Flow worksheet. (See: Cash Flow Worksheet.)
+After solving a TVM problem, you can use the Amortization worksheet to generate an
+amortization schedule.
+•
+To access a TVM variable, press a TVM key (,, -, ., /,or 0).
+•
+To access the prompted Amortization worksheet, press & \.
+TVM and Amortization Worksheet Variables
+Variable
+Key
+Display
+Type of
+Variable
+Number of periods
+,
+N
+Enter-or-
+compute
+Interest rate per year
+-
+I/Y
+Enter-or-
+compute
+Present value
+.
+PV
+Enter-or-
+compute
+Payment
+/
+PMT
+Enter-or-
+compute
+Future value
+0
+FV
+Enter-or-
+compute
+Number of payments per year
+& [
+P/Y
+Enter-only
+Number of compounding periods
+per year
+#
+C/Y
+Enter-only
+End-of-period payments
+& ]
+END
+Setting
+Beginning-of-period payments
+& V
+BGN
+Setting
+Starting payment
+&
+\
+P1
+Enter-only
+Ending payment
+#
+P2
+Enter-only
+Balance
+#
+BAL
+Auto-compute
+
+Variable
+Key
+Display
+Type of
+Variable
+Principal paid
+#
+PRN
+Auto-compute
+Interest paid
+#
+INT
+Auto-compute
+Note: This guidebook categorizes calculator variables by the method of entry. (See
+“Types of Worksheet Variables”).
+Using the TVM and Amortization Variables
+Because the calculator stores values assigned to the TVM variables until you clear or
+change them, you should not have to perform all steps each time you work a problem.
+•
+To assign a value to a TVM variable, key in a number and press a TVM key (,, -,
+., /, 0).
+•
+To change the number of payments (P/Y), press & [, key in a number, and
+press !. To change the compounding periods (C/Y), press & [ #, key in a
+number, and press !.
+•
+To change the payment period (END/BGN), press & ], and then press &
+V.
+•
+To compute a value for the unknown variable, press C, and then press the key
+for the unknown variable.
+•
+To generate an amortization schedule, press & \, enter the first and last
+payment number in the range (P1 and P2), and press " or # to compute values
+for each variable (BAL, PRN, and INT).
+Resetting the TVM and Amortization Worksheet Variables
+•
+To reset all calculator variables and formats to default values (including TVM and
+amortization variables), press & } !:
+Variable
+Default
+Variable
+Default
+N
+0
+END/BGN
+END
+I/Y
+0
+P1
+1
+PV
+0
+P2
+1
+PMT
+0
+BAL
+0
+FV
+0
+PRN
+0
+P/Y
+1
+INT
+0
+C/Y
+1
+•
+To reset only the TVM variables (N, I/Y, PV, PMT, FV) to default values, press &
+^.
+•
+To reset P/Y and C/Y to default values, press & [ & z.
+Time-Value-of-Money and Amortization Worksheets
+20
+
+21
+Time-Value-of-Money and Amortization Worksheets
+•
+To reset the Amortization worksheet variables (P1, P2, BAL, PRN, INT) to default
+values, press & z while in the Amortization worksheet.
+•
+To reset END/BGN to the default value, press & ] & z.
+Clearing the Unused Variable
+For problems using only four of the five TVM variables, enter a value of zero for the
+unused variable.
+For example, to determine the present value (PV) of a known future value (FV) with a
+known interest rate (I/Y) and no payments, enter 0 and press PMT.
+Entering Positive and Negative Values for Outflows and Inflows
+Enter negative values for outflows (cash paid out) and positive values for inflows (cash
+received).
+Note: To enter a negative value, press S after entering the number. To change a
+negative value to positive, press S.
+Entering Values for I/Y, P/Y, and C/Y
+•
+Enter I/Y as the nominal interest rate. The TVM worksheet automatically converts
+I/Y to a per period rate based on the values of P/Y and C/Y.
+•
+Entering a value for P/Y automatically enters the same value for C/Y. (You can
+change C/Y.)
+Specifying Payments Due With Annuities
+Use END/BGN to specify whether the transaction is an ordinary annuity or an annuity
+due.
+•
+Set END for ordinary annuities, in which payments occur at the end of each
+payment period. (This category includes most loans.)
+•
+Set BGN for annuities due, in which payments occur at the beginning of each
+payment period. (This category includes most leases.)
+Note: When you select beginning-of-period payments, the BGN indicator appears. (No
+indicator appears for END payments.)
+Updating P1 and P2
+To update P1 and P2 for a next range of payments, press C with P1 or P2 displayed.
+Different Values for BAL and FV
+The computed value for BAL following a specified number of payments might be
+different than the computed value for FV following the same number of payments.
+•
+When solving for BAL, PRN, and INT, the calculator uses the PMT value rounded to
+the number of decimal places specified by the decimal format.
+•
+When solving for FV, the calculator uses the unrounded value for PMT.
+
+Entering, Recalling, and Computing TVM Values
+•
+To enter a TVM value, key in the value and store it by pressing a TVM key (,, -,
+., /, 0).
+•
+To display a stored TVM value, press J and a TVM key.
+You can enter or recall a value for any of the five TVM variables (N, I/Y, PV, PMT, or FV)
+in either the standard calculator mode or a worksheet mode. The information
+displayed depends on which mode is selected.
+•
+In standard calculator mode, the calculator displays the variable label, the = sign,
+and the value entered or recalled.
+•
+In worksheet modes the calculator displays only the value you enter or recall,
+although any variable label previously displayed remains displayed.
+Note: You can tell that the displayed value is not assigned to the displayed variable,
+because the = indicator is not displayed.
+To compute a TVM value, press C and a TVM key in standard-calculator mode.
+Using [xP/Y] to Calculate a Value for N
+1.
+Key in the number of years, and then press & Z to multiply by the stored P/Y
+value. The total number of payments appears.
+2.
+To assign the displayed value to N for a TVM calculation, press ,.
+Entering Cash Inflows and Outflows
+The calculator treats cash received (inflows) as a positive value and cash invested
+(outflows) as a negative value.
+•
+You must enter cash inflows as positive values and cash outflows as negative
+values.
+•
+The calculator displays computed inflows as positive values and computed
+outflows as negative values.
+Generating an Amortization Schedule
+The Amortization worksheet uses TVM values to compute an amortization schedule
+either manually or automatically.
+Generating an Amortization Schedule Manually
+1.
+Press & \. The current P1 value appears.
+2.
+To specify the first in a range of payments, key in a value for P1 and press !.
+3.
+Press #. The current P2 value appears.
+4.
+To specify the last payment in the range, key in a value for P2 and press !.
+5.
+Press # to display each of the automatically computed values:
+•
+BAL — the remaining balance after payment P2
+•
+PRN — the principal
+•
+INT — the interest paid over the specified range
+Time-Value-of-Money and Amortization Worksheets
+22
+
+23
+Time-Value-of-Money and Amortization Worksheets
+6.
+Press & \.
+— or —
+If INT is displayed, press # to display P1 again.
+7.
+To generate the amortization schedule, repeat steps 2 through 5 for each range of
+payments.
+Generating an Amortization Schedule Automatically
+After entering the initial values for P1 and P2, you can compute an amortization
+schedule automatically.
+1.
+Press & \.
+— or —
+If INT is displayed, press # to display the current P1 value.
+2.
+Press C. Both P1 and P2 update automatically to represent the next range of
+payments.
+The calculator computes the next range of payments using the same number of
+periods used with the previous range of payments. For example, if the previous
+range was 1 through 12 (12 payments), pressing C updates the range to 13
+through 24 (12 payments).
+3.
+Press # to display P2.
+•
+If you press C with P1 displayed, a new value for P2 will be displayed
+automatically. (You can still enter a new value for P2.)
+•
+If you did not press C with P1 displayed, you can press C with P2
+displayed to enter values for both P1 and P2 in the next range of payments.
+4.
+Press # to display each of the automatically computed values for BAL, PRN, and
+INT in the next range of payments.
+5.
+Repeat steps 1 through 4 until the schedule is complete.
+Example: Computing Basic Loan Interest
+If you make a monthly payment of $425.84 on a 30-year mortgage for $75,000, what is
+the interest rate on your mortgage?
+To
+Press
+Display
+Set payments per year to 12
+& [ 12 !
+P/Y=
+12.001
+Return to standard-calculator
+mode
+& U
+0.00
+Enter number of payments using
+the payment multiplier
+30 & Z ,
+N=
+360.001
+Enter loan amount
+75000 .
+PV=
+75,000.00 1
+Enter payment amount
+425.84 S /
+PMT=
+-425.841
+Compute interest rate
+C -
+I/Y=
+5.50c
+Answer: The interest rate is 5.5% per year.
+
+Examples: Computing Basic Loan Payments
+These examples show you how to compute basic loan payments on a $75,000
+mortgage at 5.5% for 30 years.
+Note: After you complete the first example, you should not have to re-enter the values
+for loan amount and interest rate. The calculator saves the values you enter for later
+use.
+Computing Monthly Payments
+To
+Press
+Display
+Set payments per year to 12
+& [ 12 !
+P/Y=
+12.001
+Return to standard-calculator
+mode
+& U
+0.00
+Enter number of payments using
+payment multiplier
+30 & Z ,
+N=
+360.001
+Enter interest rate
+5.5 -
+I/Y=
+5.501
+Enter loan amount
+75000 .
+PV=
+75,000.001
+Compute payment
+C /
+PMT=
+-425.847
+Answer: The monthly payments are $425.84.
+Computing Quarterly Payments
+Note: The calculator automatically sets the number of compounding periods (C/Y) to
+equal the number of payment periods (P/Y).
+To
+Press
+Display
+Set payments per year to 4
+& [4 !
+P/Y=
+4.001
+Return to standard-calculator
+mode
+& U
+0.00
+Enter number of payments using
+payment multiplier
+30 & Z ,
+N=
+120.001
+Compute payment
+C /
+PMT=
+-1,279.827
+Answer: The quarterly payments are $1,279.82.
+Examples: Computing Value in Savings
+These examples show you how to compute the future and present values of a savings
+account paying 0.5% compounded at the end of each year with a 20-year time frame.
+Computing Future Value
+Example: If you open the account with $5,000, how much will you have after 20 years?
+Time-Value-of-Money and Amortization Worksheets
+24
+
+25
+Time-Value-of-Money and Amortization Worksheets
+To
+Press
+Display
+Set all variables to defaults
+& }!
+RST
+0.00
+Enter number of payments
+20 ,
+N=
+20.001
+Enter interest rate
+.5 -
+I/Y=
+0.501
+Enter beginning balance
+5000 S .
+PV=
+-5,000.001
+Compute future value
+C 0
+FV=
+5,524.487
+Answer: The account will be worth $5,524.48 after 20 years.
+Computing Present Value
+Example: How much money must you deposit to have $10,000 in 20 years?
+To
+Press
+Display
+Enter final balance
+10000 0
+FV=
+10,000.001
+Compute present value
+C .
+PV=
+-9,050.637
+Answer: You must deposit $9,050.63.
+Example: Computing Present Value in Annuities
+The Furros Company purchased equipment providing an annual savings of $20,000 over
+10 years. Assuming an annual discount rate of 10%, what is the present value of the
+savings using an ordinary annuity and an annuity due?
+Cost Savings for a Present-Value Ordinary Annuity
+
+Cost Savings for a Present-Value Annuity Due in a Leasing Agreement
+To
+Press
+Display
+Set all variables to defaults
+& } !
+RST
+0.00
+Enter number of payments
+10 ,
+N=
+10.001
+Enter interest rate per payment
+period
+10 -
+I/Y=
+10.001
+Enter payment
+20000 S /
+PMT=
+-20,000.001
+Compute present value
+(ordinary annuity)
+C .
+PV=
+122,891.347
+Set beginning-of-period
+payments
+& ] & V
+BGN
+Return to calculator mode
+& U
+0.00
+Compute present value (annuity
+due)
+C .
+PV=
+135,180.487
+Answer: The present value of the savings is $122,891.34 with an ordinary annuity and
+$135,180.48 with an annuity due.
+Example: Computing Perpetual Annuities
+To replace bricks in their highway system, the Land of Oz has issued perpetual bonds
+paying $110 per $1000 bond. What price should you pay for the bonds to earn 15%
+annually?
+Time-Value-of-Money and Amortization Worksheets
+26
+
+27
+Time-Value-of-Money and Amortization Worksheets
+To
+Press
+Display
+Calculate the present value for a
+perpetual ordinary annuity
+110 615 2 N
+733.33
+Calculate the present value for a
+perpetual annuity due
+H 110 N
+843.33
+Answer: You should pay $733.33 for a perpetual ordinary annuity and $843.33 for a
+perpetual annuity due.
+A perpetual annuity can be an ordinary annuity or an annuity due consisting of equal
+payments continuing indefinitely (for example, a preferred stock yielding a constant
+dollar dividend).
+Perpetual ordinary annuity
+Perpetual annuity due
+
+Because the term (1 + I/Y / 100)-N in the present value annuity equations approaches
+zero as N increases, you can use these equations to solve for the present value of a
+perpetual annuity:
+•
+Perpetual ordinary annuity
+•
+Perpetual annuity due
+Example: Computing Present Value of Variable Cash Flows
+The ABC Company purchased a machine that will save these end-of-year amounts:
+Year
+1
+2
+3
+4
+Amount
+$5000
+$7000
+$8000
+$10000
+Given a 10% discount rate, does the present value of the cash flows exceed the original
+cost of $23,000?
+To
+Press
+Display
+Set all variables to defaults
+& }
+!
+RST
+0.00
+Enter interest rate per cash flow
+period
+10 -
+I/Y=
+10.001
+Enter 1st cash flow
+5000 S 0
+FV=
+-5,000.001
+Enter 1st cash flow period
+1 ,
+N=
+1.001
+Time-Value-of-Money and Amortization Worksheets
+28
+
+29
+Time-Value-of-Money and Amortization Worksheets
+To
+Press
+Display
+Compute present value of 1st cash
+flow
+C .
+PV=
+4,545.457
+Store in M1
+D 1
+4,545.45
+Enter 2nd cash flow
+7000 S 0
+FV=
+-7,000.001
+Enter 2nd cash flow period
+2 ,
+N=
+2.001
+Compute present value of 2nd cash
+flow
+C .
+PV=
+5,785.127
+Sum to memory
+D H 1
+5,785.12
+Enter 3rd cash flow.
+8000 S 0
+FV=
+-8,000.001
+Enter period number.
+3 ,
+N=
+3.001
+Compute present value of 3rd cash
+flow.
+C .
+PV=
+6,010.527
+Sum to memory.
+D H 1
+6,010.52
+Enter 4th cash flow.
+10000 S 0
+FV=
+-10,000.001
+Enter period number.
+4 ,
+N=
+4.001
+Compute present value of 4th cash
+flow.
+C .
+PV=
+6,830.137
+Sum to memory.
+D H 1
+6,830.13
+Recall total present value.
+J 1
+23,171.23
+Subtract original cost.
+B 23000 N
+171.23
+Answer: The present value of the cash flows is $23,171.23, which exceeds the
+machine’s cost by $171.23. This is a profitable investment.
+Note: Although variable cash flow payments are not equal (unlike annuity payments),
+you can solve for the present value by treating the cash flows as a series of compound
+interest payments.
+The present value of variable cash flows is the value of cash flows occurring at the end
+of each payment period discounted back to the beginning of the first cash flow period
+(time
+
+Example: Computing Present Value of a Lease With Residual Value
+The Peach Bright Company wants to purchase a machine currently leased from your
+company. You offer to sell it for the present value of the lease discounted at an annual
+interest rate of 22% compounded monthly. The machine has a residual value of $6500
+with 46 monthly payments of $1200 remaining on the lease. If the payments are due
+at the beginning of each month, how much should you charge for the machine?
+The total value of the machine is the present value of the residual value plus the
+present value of the lease payments.
+To
+Press
+Display
+Set all variables to defaults.
+& } !
+RST
+0.00
+Set beginning-of-period
+payments.
+& ] &
+V
+BGN
+Return to standard-calculator
+mode.
+& U
+0.00
+Enter number of payments.
+46 ,
+N=
+46.001
+Calculate and enter periodic
+interest rate.
+22 6 12 N -
+I/Y=
+1.831
+Enter residual value of asset.
+6500 S 0
+FV=
+-6,500.001
+Compute residual present value.
+C .
+PV=
+2,818.227
+Enter lease payment amount.
+1200 S /
+PMT=
+-1,200.001
+Compute present value of lease
+payments.
+C .
+PV=
+40,573.187
+Answer: Peach Bright should pay your company $40,573.18 for the machine.
+Time-Value-of-Money and Amortization Worksheets
+30
+
+31
+Time-Value-of-Money and Amortization Worksheets
+Example: Computing Other Monthly Payments
+If you finance the purchase of a new desk and chair for $525 at 20% APR compounded
+monthly for two years, how much is the monthly payment?
+To
+Press
+Display
+Set all variables to defaults.
+& } !
+RST
+0.00
+Set payments per year to 12.
+& [ 12
+!
+P/Y=
+12.001
+Return to standard-calculator mode
+& U
+0.00
+Enter number of payments using
+payment multiplier.
+2 & Z ,
+N=
+24.001
+Enter interest rate.
+20 -
+I/Y=
+20.001
+Enter loan amount.
+525 .
+PV=
+525.001
+Compute payment.
+C /
+PMT=
+-26.727
+Answer: Your monthly payment is $26.72.
+Example: Saving With Monthly Deposits
+Note: Accounts with payments made at the beginning of the period are referred to as
+annuity due accounts. Interest begins accumulating earlier and produces slightly higher
+yields.
+You invest $200 at the beginning of each month in a retirement plan. What will the
+account balance be at the end of 20 years, if the fund earns an annual interest of 7.5 %
+compounded monthly, assuming beginning-of-period payments?
+
+To
+Press
+Display
+Set all variables to defaults.
+& }
+!
+RST
+0.00
+Set payments per year to 12.
+& [ 12
+!
+P/Y=
+12.001
+Set beginning-of-period
+payments.
+& ] &
+V
+BGN
+Return to standard-calculator
+mode.
+& U
+0.00
+Enter number of payments
+using payment multiplier.
+20 & Z ,
+N=
+240.001
+Enter interest rate.
+7.5 -
+I/Y=
+7.501
+Enter amount of payment.
+200 S /
+PMT=
+-200.001
+Compute future value.
+C 0
+FV=
+111,438.31*
+Answer: Depositing $200 at the beginning of each month for 20 years results in a
+future amount of $111,438.31.
+Example: Computing Amount to Borrow and Down Payment
+You consider buying a car for $15,100. The finance company charges 7.5% APR
+compounded monthly on a 48-month loan. If you can afford a monthly payment of
+$325, how much can you borrow? How much do you need for a down payment?
+Time-Value-of-Money and Amortization Worksheets
+32
+
+33
+Time-Value-of-Money and Amortization Worksheets
+To
+Press
+Display
+Set all variables to defaults.
+& } !
+RST
+0.00
+Set payments per year to 12.
+& [ 12
+!
+P/Y=
+12.001
+Return to standard-calculator
+mode
+& U
+0.00
+Enter number of payments using
+payment multiplier.
+4 & Z ,
+N=
+48.001
+Enter interest rate.
+7.5 -
+I/Y=
+7.501
+Enter payment.
+325
+S /
+PMT=
+-325.001
+Compute loan amount.
+C .
+PV=
+13,441.47 *
+Compute down payment
+H 15,100 S N
+-1,658.53
+Answer: You can borrow $13,441.47 with a down payment of $1,658.53.
+Example: Computing Regular Deposits for a Specified Future
+Amount
+You plan to open a savings account and deposit the same amount of money at the
+beginning of each month. In 10 years, you want to have $25,000 in the account.
+How much should you deposit if the annual interest rate is 0.5% with quarterly
+compounding?
+Note: Because C/Y (compounding periods per year) is automatically set to equal P/Y
+(payments per year), you must change the C/Y value.
+
+To
+Press
+Display
+Set all variables to defaults
+& }
+!
+RST
+0.00
+Set payments per year to 12.
+& [ 12
+!
+P/Y=
+12.001
+Set compounding periods to 4.
+# 4 !
+C/Y=
+4.001
+Set beginning-of-period
+payments.
+& ] &
+V
+BGN
+Return to standard-calculator
+mode.
+& U
+0.00
+Enter number of deposits using
+payment multiplier.
+10 & Z ,
+N=
+120.001
+Enter interest rate.
+.5 -
+I/Y=
+0.501
+Enter future value.
+25,000 0
+FV=
+25,000.001
+Compute deposit amount.
+C /
+PMT=
+-203.137
+Answer: You must make monthly deposits of $203.13.
+Example: Computing Payments and Generating an Amortization
+Schedule
+This example shows you how to use the TVM and Amortization worksheets to calculate
+the monthly payments on a 30-year loan and generate an amortization schedule for
+the first three years of the loan.
+Computing Mortgage Payments
+Calculate the monthly payment with a loan amount of $120,000 and 6.125% APR.
+To
+Press
+Display
+Set all variables to defaults
+& } !
+RST
+0.00
+Set payments per year to 12
+& [ 12
+!
+P/Y=
+12.001
+Return to standard-calculator
+mode
+& U
+0.00
+Enter number of payments
+using payment multiplier
+30 & Z ,
+N=
+360.001
+Enter interest rate
+6.125 -
+I/Y=
+6.131
+Enter loan amount
+120000 .
+PV=
+120,000.001
+Compute payment
+C /
+PMT=
+-729.13*
+Answer: The computed monthly payment, or outflow, is $729.13.
+Time-Value-of-Money and Amortization Worksheets
+34
+
+35
+Time-Value-of-Money and Amortization Worksheets
+Generating an Amortization Schedule
+Generate an amortization schedule for the first three years of the loan. If the first
+payment is in April, the first year has nine payment periods. (Following years have 12
+payment periods each.)
+To
+Press
+Display
+Select the Amortization worksheet
+&
+\
+P1=
+current value
+Set beginning period to 1
+1 !
+P1=
+1.00
+Set ending period to 9
+# 9 !
+P2=
+9.001
+Display 1st year amortization data
+#
+#
+#
+BAL=
+PRN=
+INT=
+118,928.63*
+-1071.37*
+-5,490.80*
+Change beginning period to 10
+# 10
+!
+P1=
+10.001
+Change ending period to 21
+# 21
+!
+P2=
+21.001
+Display 2nd year amortization data
+#
+#
+#
+BAL=
+PRN=
+INT=
+117,421.60*
+-1,507.03*
+-7,242.53*
+Move to P1 and press C to enter
+next range of payments
+# C
+P1=
+22.001
+Display P2
+#
+P2=
+33.001
+Display 3rd year amortization data
+#
+#
+#
+BAL=
+PRN=
+INT=
+115,819.62*
+-1601.98*
+-7,147.58*
+Example: Computing Payment, Interest, and Loan Balance After a
+Specified Payment
+A group of sellers considers financing the sale price of a property for $82,000 at 7%
+annual interest, amortized over a 30-year term with a balloon payment due after five
+years. They want to know:
+•
+Amount of the monthly payment
+•
+Amount of interest they will receive
+•
+Remaining balance at the end of the term (balloon payment)
+
+Computing the Monthly Payment
+To
+Press
+Display
+Set all variables to defaults
+& } !
+RST
+0.00
+Set payments per year to 12
+& [ 12 !
+P/Y=
+12.001
+Return to standard-calculator
+mode
+& U
+0.00
+Enter number of payments
+using payment multiplier
+30 & Z ,
+N=
+360.001
+Enter interest rate
+7 -
+I/Y=
+7.001
+Enter loan amount
+82000 .
+PV=
+82,000.001
+Compute payment
+C /
+PMT=
+-545.55*
+Generating an Amortization Schedule for Interest and Balloon Payment
+To
+Press
+Display
+Select Amortization worksheet
+& \
+P1=
+1.00
+Enter end period (five years)
+# 5 & Z
+!
+P2=
+60.001
+View balance due after five years
+(balloon payment)
+#
+BAL=
+77,187.72*
+View interest paid after five years
+# #
+INT=
+-27,920.72*
+If the sellers financed the sale, they would receive:
+•
+Monthly payment: $545.55 for five years
+•
+Interest: $27,790.72 over the five years
+•
+Balloon payment: $77,187.72
+Time-Value-of-Money and Amortization Worksheets
+36
+
+37
+Cash Flow Worksheet
+Cash Flow Worksheet
+Use the Cash Flow worksheet to solve problems with unequal cash
+flows.
+To solve problems with equal cash flows, use the TVM worksheet.
+Time-Value-of-Money and Amortization Worksheets
+•
+To access the Cash Flow worksheet and initial cash flow value
+(CFo), press '.
+•
+To access the cash flow amount and frequency variables
+(Cnn/Fnn), press # or ".
+•
+To access the discount rate variable (I), press (.
+•
+To compute net present value (NPV), net future value (NFV),
+payback (PB), and discounted payback (DPB), press # or " and
+C for each variable.
+•
+To compute the internal rate of return (IRR), press ).
+•
+To compute the modified internal rate of return (MOD), press
+# to access the reinvestment rate (RI) variable, key in a value,
+and press #.
+Cash Flow Worksheet Variables
+Variable
+Key
+Display
+Variable
+Type**
+Initial cash flow
+'
+CFo
+Enter-only
+Amount of nth cash flow
+#
+Cnn*
+Enter-only
+Frequency of nth cash flow
+#
+Fnn*
+Enter-only
+Discount rate
+(
+I
+Enter-only
+Net present value
+# C
+NPV
+Compute-only
+Net future value
+# C
+NFV
+Compute-only
+Payback
+# C
+PB
+Compute-only
+Discounted payback
+# C
+DPB
+Compute-only
+Internal rate of return
+)
+IRR
+Compute-only
+Reinvestement rate
+#
+RI
+Enter-only
+Modified Internal rate of return
+#
+MOD
+Compute-only
+* nn represents the cash flow (C01–C32) or frequency (F01–F32) number.
+** This guidebook categorizes variables by the method of entry. (See “Types of
+Worksheet Variables”.)
+
+Resetting Variables
+•
+To reset CFo, Cnn, and Fnn to default values, press ' and then & z.
+•
+To reset NPV, NFV, PB, and DPB to default values, press ( and then &
+z.
+•
+To reset IRR, RI, and MOD to default values, press ) and then & z.
+•
+To reset all calculator variables and formats to default values, including all Cash
+Flow worksheet variables, press & } !.
+Entering Cash Flows
+•
+You must enter an initial cash flow (CFo). The calculator accepts up to 32 additional
+cash flows (C01–C32). Each cash flow can have a unique value.
+•
+Enter positive values for cash inflows (cash received) and negative values for cash
+outflows (cash paid out). To enter a negative value, key in a number and press S.
+Inserting and Deleting Cash Flows
+The calculator displays INS or DEL to confirm that you can press & X or & W to
+insert or delete cash flows.
+Uneven and Grouped Cash Flows
+Uneven Cash Flows
+The Cash Flow worksheet analyzes unequal cash flows over equal time periods. Cash-
+flow values can include both inflows (cash received) and outflows (cash paid out).
+All cash-flow problems start with an initial cash flow labeled CFo. CFo is always a
+known, entered value.
+Grouped Cash Flows
+Cash-flow problems can contain cash flows with unique values as well as consecutive
+cash flows of equal value.
+Although you must enter unequal cash flows separately, you can enter groups of
+consecutive, equal cash flows simultaneously using the Fnn variable.
+Cash Flow Worksheet
+38
+
+39
+Cash Flow Worksheet
+Entering Cash Flows
+Cash flows consist of an initial cash flow (CFo) and up to 32 additional cash flows (C01-
+C32), each of which can have a unique value. You must enter the number of
+occurrences (up to 9,999), or frequency (F), for each additional cash flow (C01-C32).
+•
+The calculator displays positive values for inflows (cash received) and negative
+values for outflows (cash paid out).
+•
+To clear the Cash Flow worksheet, press & z.
+To enter cash flows:
+1.
+Press '. The initial cash-flow value (CFo) appears.
+2.
+Key in a value for CFo and press !.
+3.
+To select an additional cash-flow variable, press #. The C01 value appears.
+4.
+To change C01, key in a value and press !.
+5.
+To select the cash-flow frequency variable (F01), press #. The F01 value appears.
+6.
+To change F01, key in a value and press !.
+7.
+To select an additional cash-flow variable, press #. The C02 value appears.
+8.
+Repeat steps 4 through 7 for all remaining cash flows and frequencies.
+9.
+To review entries, press # or ".
+Deleting Cash Flows
+When you delete a cash flow, the calculator decreases the number of subsequent cash
+flows automatically.
+The DEL indicator confirms that you can delete a cash flow.
+1.
+Press # or " until the cash flow you want to delete appears.
+2.
+Press & W. The cash flow you specified and its frequency is deleted.
+
+Inserting Cash Flows
+When you insert a cash flow, the calculator increases the number of the following cash
+flows, up to the maximum of 32.
+Note: The INS indicator confirms that you can insert a cash flow.
+1.
+Press # or " to select the cash flow where you want to insert the new one. For
+example, to insert a new second cash flow, select C02.
+2.
+Press & X.
+3.
+Key in the new cash flow and press !. The new cash flow is entered at C02.
+Computing Cash Flows
+The calculator solves for these cash-flow values:
+•
+Net present value (NPV) is the total present value of all cash flows, including
+inflows (cash received) and outflows (cash paid out). A positive NPV value
+indicates a profitable investment.
+•
+Net future value (NFV) is the total future value of all cash flows. A positive NFV
+value also indicates a profitable investment.
+•
+Payback (PB) is the time required to recover the initial cost of an investment,
+disregarding the present value of the cash inflows (time value of money).
+•
+Discounted payback (DPB) is the time required to recover the initial cost of an
+investment using the present value of the cash inflows (time value of money).
+•
+Internal rate of return (IRR) is the interest rate at which the net present value of
+the cash flows is equal to 0.
+•
+Modified internal rate of return (MOD) considers the reinvestment of cash when
+solving for IRR.
+Computing NPV, NFV, PB, and DPB
+1.
+Press ( to display the current discount rate (I).
+2.
+Key in a value and press !.
+3.
+Press # to display the current net present value (NPV).
+4.
+To compute the net present value for the series of cash flows entered, press C.
+5.
+To compute the net future value (NFV), press #. The NFV value appears.
+Cash Flow Worksheet
+40
+
+41
+Cash Flow Worksheet
+6.
+To compute payback (PB), press #. The PB value appears.
+7.
+To compute the payback discounted over time (DBP), press #. The DBP value
+appears.
+Computing IRR and MOD
+1.
+Press ). The IRR variable and current value are displayed (based on the current
+cash-flow values).
+2.
+To compute the internal rate of return, press C. The calculator displays the IRR
+value.
+3.
+To select the reinvestment rate (RI), press #.
+4.
+Key in the reinvestment rate value and press !.
+5.
+To compute the modified internal rate of return, press #. The calculator displays
+the MOD value.
+When solving for IRR, the calculator performs a series of complex, iterative calculations
+that can take seconds or even minutes to complete. The number of possible IRR
+solutions depends on the number of sign changes in your cash-flow sequence.
+•
+When a sequence of cash flows has no sign changes, no IRR solution exists. The
+calculator displays Error 5.
+•
+When a sequence of cash flows has only one sign change, only one IRR solution
+exists, which the calculator displays.
+•
+When a sequence of cash flows has two or more sign changes:
+-
+At least one solution exists.
+-
+As many solutions can exist as there are sign changes.
+When more than one solution exists, the calculator displays the one closest to zero.
+Because the displayed solution has no financial meaning, you should use caution in
+making investment decisions based on an IRR computed for a cash-flow stream
+with more than one sign change.
+
+The time line reflects a sequence of cash flows with three sign changes, indicating
+that one, two, or three IRR solutions can exist.
+•
+When solving complex cash-flow problems, the calculator might not find PB, DPB,
+IRR, and MOD, even if a solution exists. In this case, the calculator displays Error 7
+(iteration limit exceeded).
+Example: Solving for Unequal Cash Flows
+These examples show you how to enter and edit unequal cash-flow data to calculate:
+•
+Net present value (NPV)
+•
+Net future value (NFV)
+•
+Payback (PB)
+•
+Discounted payback (DPB)
+•
+Internal rate of return (IRR)
+•
+Modified internal rate of return (MOD)
+A company pays $7,000 for a new machine, plans a 20% annual return on the
+investment, and expects these annual cash flows over the next six years:
+Year
+Cash Flow Number
+Cash Flow Estimate
+Purchase
+CFo
+-$7,000
+1
+C01
+3,000
+2–5
+C02
+5,000 each year
+6
+C03
+4,000
+As the time line shows, the cash flows are a combination of equal and unequal values.
+As an outflow, the initial cash flow (CFo) appears as a negative value.
+Cash Flow Worksheet
+42
+
+43
+Cash Flow Worksheet
+Entering Cash-Flow Data
+To
+Press
+Display
+Select Cash Flow worksheet.
+'
+CFo=
+0.00
+Enter initial cash flow.
+7000 S!
+CFo=
+-7,000.001
+Enter cash flow for first year.
+# 3000 !
+#
+C01=
+F01=
+3,000.001
+1.001
+Enter cash flows for years two
+through five.
+# 5000 !
+# 4 !
+C02=
+F02=
+5,000.001
+4.001
+Enter cash flow for sixth year.
+# 4000 !
+#
+C03=
+F03=
+4,000.001
+1.001
+Editing Cash-Flow Data
+After entering the cash-flow data, you learn that the $4,000 cash-flow value should
+occur in the second year instead of the sixth. To edit, delete the $4,000 value for year 6
+and insert it for year 2.
+To
+Press
+Display
+Move to third cash flow.
+"
+C03=
+4,000.001
+Delete third cash flow.
+& W
+C03=
+0.00
+Move to second cash flow.
+" "
+C02=
+5,000.001
+Insert new second cash flow.
+& X 4000 !
+#
+C02=
+F02=
+4,000.001
+1.001
+Move to next cash flow to verify
+data.
+#
+#
+C03=
+F03=
+5,000.001
+4.01
+Computing NPV, NFV, PB, and DPB
+Use an interest rate per period (I) of 20%.
+
+To
+Press
+Display
+Access interest rate variable
+(
+I=
+0.00
+Enter interest rate per period.
+20 !
+I=
+20.001
+Compute net present value.
+# C
+NPV=
+7,266.447
+Compute net future value.
+# C
+NFV=
+21,697.477
+Compute payback.
+# C
+PB=
+2.007
+Compute discounted payback.
+# C
+DPB=
+2.607
+Answers: NPV is $7,266.44. NFV is $21,697.47. PB is 2.00. DPB is 2.60.
+Computing IRR and MOD
+To
+Press
+Display
+Access IRR.
+)
+IRR=
+0.00
+Compute internal rate of return.
+C
+IRR=
+52.717
+Select reinvestment rate (RI)
+#
+RI=
+0.00
+Enter reinvestment rate.
+20 !
+RI=
+20.0
+Compute modified internal rate of return.
+#
+MOD=
+35.127
+Answer: IRR is 52.71%. MOD is 35.12%.
+Example: Value of a Lease with Uneven Payments
+A lease with an uneven payment schedule usually accommodates seasonal or other
+anticipated fluctuations in the lessee’s cash position.
+A 36-month lease has the following payment schedule and beginning-of-period
+payments.
+Number of Months
+Payment Amount
+4
+$0
+8
+$5000
+3
+$0
+9
+$6000
+2
+$0
+10
+$7000
+If the required earnings rate is 10% per 12-month period with monthly compounding:
+•
+What is the present value of these lease payments?
+Cash Flow Worksheet
+44
+
+45
+Cash Flow Worksheet
+•
+What even payment amount at the beginning of each month would result in the
+same present value?
+Because the cash flows are uneven, use the Cash Flow worksheet to determine the net
+present value of the lease.
+Computing NPV
+The cash flows for the first four months are stated as a group of four $0 cash flows.
+Because the lease specifies beginning-of-period payments, you must treat the first
+cash flow in this group as the initial investment (CFo) and enter the remaining three
+cash flows on the cash flow screens (C01 and F01).
+Note: The BGN/END setting in the TVM worksheet does not affect the Cash Flow
+worksheet.
+To
+Press
+Display
+Set all variables to defaults.
+& } !
+RST
+0.00
+Select Cash Flow worksheet.
+'
+CFo=
+0.00
+Enter first group of cash flows.
+#
+# 3 !
+C01=
+F01=
+0.001
+3.001
+Enter second group of cash flows.
+# 5000 S
+! # 8
+!
+C02=
+F02=
+-5000.00 1
+8.001
+Enter third group of cash flows.
+#
+# 3 !
+C03=
+F03=
+0.00 1
+3.001
+Enter fourth group of cash flows.
+# 6000 S
+! # 9
+!
+C04=
+F04=
+-6000.001
+9.001
+Enter fifth group of cash flows.
+#
+# 2 !
+C05=
+F05=
+0.001
+2.00 
+1
+Enter sixth group of cash flows.
+# 7000 S
+! # 10
+!
+C06=
+F06=
+-7000.001
+10.001
+Select NPV.
+(
+I=
+0.00
+
+To
+Press
+Display
+Enter monthly earnings rate.
+10 6 12 !
+I=
+0.831
+Compute NPV.
+# C
+NPV=
+-138,088.447
+Cash Flow Worksheet
+46
+
+47
+Bond Worksheet
+Bond Worksheet
+The Bond worksheet lets you compute bond price, yield to
+maturity or call, accrued interest, and modified duration.
+You can also use the date functions to price bonds purchased
+on dates other than the coupon anniversary.
+•
+To access the Bond worksheet, press & l.
+•
+To access bond variables, press "or #.
+•
+To change the options for day-count methods (ACT and
+360) and coupons per year (2/Y and 1/Y), press & V
+once for each option.
+Note: Pressing # or " to navigate through the Bond worksheet before you enter
+values causes an error (Error 6). To clear the error, press P.
+Bond Worksheet Variables
+Variable
+Key
+Display
+Variable Type
+Settlement date
+&
+l
+SDT
+Enter only
+Annual coupon rate in percent
+#
+CPN
+Enter only
+Redemption date
+#
+RDT
+Enter only
+Redemption value (percentage of
+par value)
+#
+RV
+Enter only
+Actual/actual day-count method
+#
+ACT
+Setting
+30/360 day-count method
+& V
+360
+Setting
+Two coupons per year
+#
+2/Y
+Setting
+One coupon per year
+& V
+1/Y
+Setting
+Yield to redemption
+#
+YLD
+Enter/compute
+Dollar price
+#
+PRI
+Enter/compute
+Accrued interest
+#
+AI
+Auto-compute
+**Modified duration
+#
+DUR
+Auto-compute
+**Additional variables on the BAII PLUS™PROFESSIONAL calculator.
+Resetting Bond Worksheet Variables
+•
+To reset the Bond worksheet variables to default values, press & z while
+in the Bond worksheet.
+
+Variable
+Default
+Variable
+Default
+SDT
+12-31-1990
+ACT/360
+ACT
+CPN
+0
+2/Y, 1/Y
+2/Y
+RDT
+12-31-1990
+YLD
+0
+RV
+100
+PRI
+0
+DUR
+0
+NA
+NA
+•
+To reset all calculator variables and formats to default values, including the Bond
+worksheet variables, press & } !.
+Entering Dates
+•
+Use the following convention to key in dates: mm.ddyy or dd.mmyy. After keying in
+the date, press !.
+Note: You can display dates in either US or European format. Setting Calculator
+Formats
+•
+You can enter dates from January 1, 1980 through December 31, 2079.
+•
+The calculator assumes that the redemption date (RDT) coincides with a coupon
+date:
+•
+To compute to maturity, enter the maturity date for RDT.
+•
+To compute to call, enter the call date for RDT.
+Entering CPN
+CPN represents the annual coupon rate as a percentage of the bond par value rather
+than the dollar amount of the coupon payment.
+Entering RV
+The redemption value (RV) is a percentage of the bond par value:
+•
+For to maturity analysis, enter 100 for RV.
+•
+For to call analysis, enter the call price for RV.
+Setting the Day-Count Method
+1.
+To display the day-count method, press # until ACT or 360 appears.
+2.
+To change the day-count method, press & V.
+Setting the Coupon Frequency
+1.
+To display the coupon frequency, press # until 1/Y or 2/Y appears.
+2.
+To change the coupon frequency, press & V.
+Bond Worksheet
+48
+
+49
+Bond Worksheet
+Bond Worksheet Terminology
+Term
+Definition
+Call Date
+A callable bond bond can be retired by the issuing agency
+before the maturity date. The call date for such a bond is
+printed in the bond contract.
+Coupon Payment
+The periodic payment made to the owner of the bond as
+interest.
+Coupon Rate
+The annual interest rate printed on the bond.
+Dollar Price
+Price of the security expressed in terms of dollars per
+$100 of par value.
+Par (Face) Value
+The value printed on the bond.
+Premium Bond
+A bond that sells for an amount greater than the par
+value.
+Discount Bond
+A bond selling for less than the par value.
+Redemption Date
+The date on which the issuing agency retires the bond.
+This date can be the date of maturity or, for a callable
+bond, the call date.
+Redemption Value
+The amount paid to the owner of a bond when retired. If
+the bond is redeemed at the maturity date, the
+redemption value is the par value printed on the bond. If
+the bond is redeemed at a call date, the redemption value
+is the bond’s par value plus any call premium. The
+calculator treats the redemption value in terms of dollars
+per $100 of par value.
+Settlement Date
+The date on which a bond is exchanged for funds.
+Yield to Maturity
+The rate of return earned from payments of principal and
+interest, with interest compounded semiannually at the
+stated yield rate. The yield to maturity takes into account
+the amount of premium or discount, if any, and the time
+value of the investment.
+Entering Bond Data and Computing Results
+To compute values for price (PRI) or yield (YLD) and accrued interest (AI), first enter the
+four known values for settlement date (SDT), coupon rate (CPN), redemption date
+(RDT), and redemption value (RV).
+If necessary, change the day-count method (ACT or 360) and coupon-frequency (2/Y or
+1/Y). The Bond worksheet stores all values and settings until you clear the worksheet
+or change the values and settings.
+Entering Known Bond Values
+1.
+Press & l. The current SDT value appears.
+
+2.
+To clear the worksheet, press & z.
+3.
+If necessary, key in a new SDT value and press !.
+4.
+Repeat step 3 for CPN, RDT, and RV, pressing # once for each variable.
+Note: To enter dates, use this convention: mm.ddyy (US) or dd.mmyy (European).
+Setting the Bond Day-Count Method and Coupon Frequency
+1.
+To display the day-count method, press # until ACT or 360 appears.
+2.
+To change the day-count method, press & V.
+3.
+To display the coupon frequency, press # until 2/Y or 1/Y appears.
+4.
+To change the coupon frequency, press & V.
+Computing the Bond Price (PRI)
+1.
+Press # until YLD appears.
+2.
+Key in a value for YLD and press !.
+3.
+Press # to display PRI, and then press C. The calculator displays the computed
+PRI value.
+Computing the Bond Yield (YLD)
+1.
+Press # until PRI appears.
+2.
+Key in a value for PRI and press !.
+3.
+Press # to display YLD, and then press C. The calculator displays the computed
+YLD value.
+Computing Accrued Interest (AI)
+To compute accrued interest, press # until the AI variable appears. The calculator
+automatically computes AI in terms of dollars per $100 of par value.
+Computing Modified Duration (DUR)
+To compute modified duration, press # until the DUR variable appears. The calculator
+automatically computes DUR.
+Example: Computing Bond Price, Accrued Interest, and Modified
+Duration
+You consider buying a semiannual corporate bond maturing on December 31, 2005 and
+settling on June 12, 2004. The bond is based on the 30/360 day-count method with a
+coupon rate of 7%, redeemable at 100% of par value. For an 8% yield to maturity,
+compute the bond’s price, accrued interest, and modified duration.
+Computing Bond Price, Accrued Interest, and Modified Duration
+To
+Press
+Display
+Select Bond worksheet.
+& l
+SDT =
+12-31-19901
+Enter settlement date.
+6.1206 !
+SDT =
+6-12-20061
+Bond Worksheet
+50
+
+51
+Bond Worksheet
+To
+Press
+Display
+Enter coupon rate.
+# 7 !
+CPN =
+7.001
+Enter redemption date.
+# 12.3107
+!
+RDT =
+12-31-20071
+Leave redemption value as is.
+#
+RV =
+100.00
+Select 30/360 day-count
+method.
+# & V
+360
+Leave two coupon payments
+per year.
+#
+2/Y
+Enter yield.
+# 8 !
+YLD =
+8.001
+Compute price
+# C
+PRI =
+98.567
+View accrued interest.
+#
+AI =
+3.157
+View modified duration
+#
+DUR =
+1.44
+Answer: The bond price is $98.56 per 100. The accrued interest is $3.15 per 100.
+Modified duration is 1.44.
+
+Depreciation Worksheet
+The Depreciation worksheet lets you generate a depreciation
+schedule using your choice of depreciation methods.
+•
+To access the Depreciation worksheet, press & p.
+•
+To change depreciation methods, press & V until the
+desired method appears.
+•
+To access other depreciation variables, press # or ".
+Note: To easily scroll up or down through a range of
+variables, press and hold # or ".
+Depreciation Worksheet Variables
+Variable
+Key
+Display
+Variable
+Type**
+Straight-line method
+& p
+SL
+Setting
+Sum-of-the-years’-digits
+method
+& V
+SYD
+Setting
+Declining-balance method
+& V
+DB
+Setting/Enter
+Declining-balance method with
+crossover to SL method
+& V
+DBX
+Setting/Enter
+French straight-line method*
+& V
+SLF
+Setting/Enter
+French declining balance
+method*
+& V
+DBF
+Setting/Enter
+Life of the asset in years
+#
+LIF
+Enter only
+Starting month
+#
+M01
+Enter only
+Starting date for French
+straight-line method**
+#
+DT1
+Enter only
+Cost of the asset
+#
+CST
+Enter only
+Salvage value of the asset
+#
+SAL
+Enter only
+Year to compute
+#
+YR
+Enter only
+Depreciation for the year
+#
+DEP
+Auto-compute
+Remaining book value at the
+end of the year
+#
+RBV
+Auto-compute
+Remaining depreciable value
+#
+RDV
+Auto-compute
+* SLF and DBF are available only if you select the European format for dates or
+separators in numbers. Setting Calculator Formats
+Depreciation Worksheet
+52
+
+53
+Depreciation Worksheet
+** This guidebook categorizes variables by their method of entry. Types of Worksheet
+Variables
+Resetting the Depreciation Worksheet Variables
+•
+To reset all calculator variables and formats to default values, including the
+Depreciation worksheet variables, press & } !.
+Variable
+Default
+Variable
+Default
+Depreciation
+method
+SL
+M01
+1
+DB
+200
+YR
+1
+DBX
+200
+CST
+0
+LIF
+1
+SAL
+0
+•
+To clear only the LIF, YR, CST, and SAL Depreciation worksheet variables and reset
+default values without affecting the depreciation method or other calculator
+variables and formats, press & z while in the Depreciation worksheet.
+Computing Values for DEP, RBV, and RDV
+•
+The calculator computes one year at a time and rounds the results to the number
+of decimal places set. Setting Calculator Formats
+•
+The calculator computes values for DEP, RBV, and RDV automatically when you
+press # to display each variable.
+Entering Values for DB and DBX
+If you choose either the declining balance (DB) or declining balance with crossover to SL
+(DBX) depreciation method, remember to enter a value representing the percent of
+declining balance for the DB or DBX variable.
+Note: The declining balance you enter must be a positive number.
+Entering Values for LIF
+•
+If SL or SLF is selected, the LIF value must be a positive real number.
+•
+If SYD, DB, DBX, or DBF is selected, the LIF value must be a positive integer.
+Entering Values for M01
+The value you enter for the starting month (M01) has two parts:
+•
+The integer portion represents the month in which the asset is placed into service.
+•
+The decimal portion represents the fraction of the initial month in which the asset
+begins to depreciate.
+For example, to specify that the asset will begin to depreciate in the middle of the first
+month, enter 1.5. To specify that the asset will begin to depreciate a quarter of the
+way through the fourth month, enter 4.25.
+
+Working with YR
+•
+When computing depreciation, the value you enter for the year-to-compute (YR)
+variable must be a positive integer.
+•
+If the remaining depreciable value (RDV) variable is displayed, you can press # to
+return to the year to compute (YR) variable. To represent the next depreciation
+year, press C to increment the value for YR by one.
+•
+To compute a depreciation schedule, repeatedly return to the year to compute (YR)
+variable, press C to increment the value for YR, and compute values for DEP,
+RBV, and RDV. The schedule is complete when RDV equals zero.
+Entering Data and Computing Results
+Because the Depreciation worksheet stores values and settings until you either change
+them or clear the worksheet, you should not have to perform every step each time you
+work a problem.
+Selecting a Depreciation Method
+1.
+To access the Depreciation worksheet, press & p. The current depreciation
+method is displayed.
+2.
+To clear the worksheet, press & z.
+3.
+Press & V until you display the depreciation method you want (SL, SLF, SYD, DB,
+DBX, or DBF).
+Note: If you select DB or DBX, you must either key in a value or accept the default
+of 200.
+Entering Depreciation Data
+1.
+To display LIF, press #.
+2.
+Key in a value for LIF and press !.
+3.
+Repeat steps 1 and 2 for M01, DT1 (if SLF), CST, SAL, and YR.
+Note: To select SLF or DBF, you must set either the European date or European
+separator format first. Setting Calculator Formats
+Computing Results for DEP, RBV, and RDV
+After entering the data, press # once for each of the DEP, RBV, and RDV variables to
+display the computed values.
+Note: The 7 _ indicator confirms that the displayed value is computed.
+Generating a Depreciation Schedule
+To generate a depreciation schedule and compute values for other years:
+1.
+To display YR, press #.
+2.
+To increment the value by one, press C.
+Depreciation Worksheet
+54
+
+55
+Depreciation Worksheet
+3.
+To compute new values for DEP, RBV, and RDV, press # for each variable.
+Example: Computing Straight-Line Depreciation
+In mid-March, a company begins depreciation of a commercial building with a 31½
+year life and no salvage value. The building cost $1,000,000. Use the straight-line
+depreciation method to compute the depreciation expense, remaining book value, and
+remaining depreciable value for the first two years.
+To
+Press
+Display
+Access Depreciation worksheet
+& p
+SL
+Enter life in years
+# 31.5 !
+LIF =
+31.501
+Enter starting month
+# 3.5 !
+M01 =
+3.501
+Enter cost
+# 1000000
+!
+CST =
+1,000,000.001
+Leave salvage value as is
+#
+SAL =
+0.00
+Leave year as is
+#
+YR =
+1.00
+Display depreciation amount,
+remaining book value, and
+remaining depreciable value
+#
+#
+#
+DEP =
+RBV =
+RDV =
+25,132.28*
+974,867.72*
+974,867.72*
+View second year
+# & !
+YR =
+YR =
+1.00
+2.001
+Display second year
+depreciation data
+#
+#
+#
+DEP =
+RBV =
+RDV =
+31,746.03*
+943,121.69*
+943,121.69*
+Answer: For the first year, the depreciation amount is $25,132.28, the remaining book
+value is $974,867.72, and the remaining depreciable value is $974,867.72.
+For the second year, the depreciation amount is $31,746.03, the remaining book value
+is $943,121.69, and the remaining depreciable value is $943,121.69.
+
+Statistics Worksheet
+The Statistics worksheet performs analysis on one-and two-
+variable data with four regression analysis models.
+•
+To enter statistical data, press & j.
+•
+To choose a statistics calculation method and compute
+the results, press & k.
+•
+To access statistics variables, press # or ".
+Statistics Worksheet Variables
+Variable
+Key
+Display
+Variable Type
+Current X value
+Current Y value
+& j
+#
+Xnn*
+Ynn*
+Enter-only
+Enter-only
+Standard linear regression
+Logarithmic regression
+Exponential regression
+Power regression
+One-variable statistics
+& k
+& V
+LIN
+Ln
+EXP
+PWR
+1-V
+Setting
+Setting
+Setting
+Setting
+Setting
+Number of observations
+Mean (average) of X values
+Sample standard deviation of X
+Population standard deviation of X
+Mean (average) of Y values
+Sample standard deviation of Y
+Population standard deviation of Y
+Linear regression y-intercept
+Linear regression slope
+Correlation coefficient
+Predicted X value
+Predicted Y value
+Sum of X values
+Sum of X squared values
+Sum of Y values
+Sum of Y squared values
+Sum of XY products
+# (as
+needed)
+n
+v
+Sx
+sx
+y**
+Sy**
+sy**
+a**
+b**
+r**
+X'**
+Y'**
+GX
+GX2
+GY**
+GY2**
+GXY**
+Auto-compute
+Auto-compute
+Auto-compute
+Auto-compute
+Auto-compute
+Auto-compute
+Auto-compute
+Auto-compute
+Auto-compute
+Auto-compute
+Enter/compute
+Enter/compute
+Auto-compute
+Auto-compute
+Auto-compute
+Auto-compute
+Auto-compute
+* nn represents the number of the current X or Y value.
+** Not displayed for one-variable statistics.
+*** This guidebook categorizes calculator variables by their method of entry. Types of
+Worksheet Variables
+Statistics Worksheet
+56
+
+57
+Statistics Worksheet
+Resetting Statistics Worksheet Variables
+•
+To clear all X and Y values as well as all values in the statistics portion of the
+worksheet without affecting the statistics calculation method, press & z
+while in the data-entry portion of the worksheet (& j).
+•
+To reset the statistics calculation method to LIN and clear all values except X and Y,
+press & z while in the calculation method and computation portion of
+the worksheet (& k).
+•
+To reset the statistics calculation method to LIN and clear all values, including X
+and Y, press & } !.
+Entering Data Points
+•
+You can enter up to 50 (x,y) data points.
+•
+If you press # or " to move through the portion of the worksheet that displays
+results without entering data points, the calculator will display an error.
+•
+When you enter data for one-variable statistics, Xnn represents the value and Ynn
+specifies the number of occurrences (frequency).
+•
+When you enter a value for Xnn, the value for Ynn defaults to 1.
+Analyzing One-Variable Statistics
+To analyze one-variable statistics, select 1-V. Only values for n, v, Sx, sX, GX, and GX2
+are computed and displayed for one-variable statistics.
+Analyzing Two-Variable Statistics
+You can choose from among these four regression-analysis methods:
+•
+LIN
+•
+Ln
+•
+EXP
+•
+PWR
+Computing Values Automatically
+Except for the predicted X' and Y' values, the calculator computes and displays values
+for statistics variables automatically when you access them.
+Using X' and Y' for Regression Predictions
+To use the X' and Y' variables for regression predictions, you either can enter a value
+for X' to compute Y' or enter a value for Y' to compute X'.
+Regression Models
+For two-variable data, the Statistics worksheet uses four regression models for curve
+fitting and forecasting.
+
+Model
+Formula
+Restrictions
+LIN
+Y = a + b X
+None
+Ln
+Y = a + b ln(X)
+All X values > zero
+EXP
+Y = a bx
+All Y values > zero
+PWR
+Y = a Xb
+All X and Y values > zero
+The calculator interprets the X value as the independent variable and the Y value as the
+dependent variable.
+The calculator computes the statistical results using these transformed values:
+•
+LIN uses X and Y.
+•
+Ln uses ln(X) and Y.
+•
+EXP uses X and ln(Y).
+•
+PWR uses ln(X) and ln(Y).
+The calculator determines the values for a and b that create the line or curve that best
+fits the data.
+Correlation Coefficient
+The calculator also determines r, the correlation coefficient, which measures the
+goodness of fit of the equation with the data. Generally:
+•
+The closer r is to 1 or -1, the better the fit.
+•
+The closer r is to zero, the worse the fit.
+Entering Statistical Data
+Because the Statistics worksheet lets you enter and display up to 50 data points, and
+then stores the values until you clear the worksheet or change the values, you probably
+will not have to perform every step for each Statistics calculation.
+1.
+To select the data-entry portion of the Statistics worksheet, press & j. X01 is
+displayed along with any previous value.
+2.
+To clear the worksheet, press & z.
+3.
+Key in a value for X01 and press !.
+•
+For one-variable data, X01 is the first data point.
+•
+For two-variable data, X01 is the first X value.
+4.
+To display the Y01 variable, press #.
+5.
+Key in a value for Y01 and press !.
+•
+For one-variable data, you can enter the number of times the X value occurs
+(frequency).
+The default value is 1.
+Statistics Worksheet
+58
+
+59
+Statistics Worksheet
+•
+For two-variable data, enter the first Y value.
+6.
+To display the next X variable, press #.
+7.
+Repeat steps 3 through 5 until you enter all of the data points.
+Note: To easily scroll up or down through a range of variables, press and hold # or
+".
+Computing Statistical Results
+Selecting a Statistics Calculation Method
+1.
+Press & k to select the statistical calculation portion of the Statistics
+worksheet.
+2.
+The last selected statistics calculation method is displayed (LIN, Ln, EXP, PWR, or 1-
+V).
+3.
+Press & V repeatedly until the statistics calculation method you want is
+displayed.
+4.
+If you are analyzing one-variable data, select 1-V.
+5.
+Press # to begin computing results.
+Computing Results
+To compute results based on the current data set, press # repeatedly after you have
+selected the statistics calculation method.
+The calculator computes and displays the results of the statistical calculations (except
+for X' and Y') automatically when you access them.
+For one-variable statistics, the calculator computes and displays only the values for n,
+v, Sx, sX, GX, and GX2.
+Computing Y'
+1.
+To select the Statistics worksheet, press & k.
+2.
+Press " or # until X' is displayed.
+3.
+Key in a value for X' and press !.
+4.
+Press # to display the Y' variable.
+5.
+Press C to compute a predicted Y' value.
+Computing X'
+1.
+To select the Statistics worksheet, press & k.
+2.
+Press " or # until Y' is displayed.
+3.
+Key in a value for Y' and press !.
+4.
+Press " to display the X' variable.
+5.
+Press C to compute an X' value.
+
+Other Worksheets
+The calculator also includes these worksheets:
+•
+Percent Change/Compound Interest worksheet (&
+q)
+•
+Interest Conversion worksheet (& v)
+•
+Date worksheet (& u)
+•
+Profit Margin worksheet (& w)
+•
+Breakeven worksheet (& r)
+•
+Memory worksheet (& {)
+Percent Change/Compound Interest Worksheet
+Use the Percent Change/Compound Interest worksheet to
+solve percent change, compound interest, and cost-sell-
+markup problems.
+•
+To access the Percent Change/Compound Interest
+worksheet, press & q.
+•
+To access the Percent Change/Compound Interest
+variables, press # or ".
+Percent Change/Compound Interest Worksheet Variables
+Variable
+Key
+Display
+Variable Type
+Old value/Cost
+& q
+OLD
+Enter/compute
+New value/Selling price
+#
+NEW
+Enter/compute
+Percent change/Percent markup
+#
+%CH
+Enter/compute
+Number of periods
+#
+#PD
+Enter/compute
+Note: This guidebook categorizes variables by their method of entry.
+Resetting the Percent Change/Compound Interest Worksheet Variables
+•
+To reset the Percent Change/Compound Interest variables to default values, press
+& z while in the Percent Change/Compound Interest worksheet.
+Variable
+Default
+Variable
+Default
+OLD
+0
+%CH
+0
+NEW
+0
+#PD
+0
+•
+To reset default values for all calculator variables and formats, press & }
+!.
+Other Worksheets
+60
+
+61
+Other Worksheets
+Entering Values
+•
+For percent-change calculations, enter values for any two of the three variables
+(OLD, NEW, and %CH) and compute a value for the unknown variable (leave
+#PD=1). A positive percent change represents a percentage increase; a negative
+percent change represents a percentage decrease.
+•
+For compound-interest calculations, enter values for the three known variables and
+compute a value for the unknown fourth variable.
+•
+OLD = present value
+•
+NEW = future value
+•
+%CH = interest rate per period
+•
+#PD = number of periods
+•
+For cost-sell-markup calculations, enter values for two of the three variables (OLD,
+NEW, and %CH) and compute a value for the unknown.
+•
+OLD = cost
+•
+NEW = selling price
+•
+%CH = percent markup
+•
+#PD = 1
+Computing Values
+1.
+To select the Percent Change/Compound Interest worksheet, press & q. The
+current value for OLD is displayed.
+2.
+To clear the worksheet, press & z.
+3.
+To enter values for the known variables, press # or " until the variable you want
+is displayed, then key in a value, and press !. (Do not enter a value for the
+variable you wish to solve.)
+•
+Percent Change — Enter values for two of these three variables: OLD, NEW, and
+%CH. Leave #PD set to 1.
+•
+Compound Interest — Enter values for three of these four variables: OLD, NEW,
+%CH, and #PD.
+•
+Cost-Sell-Markup — Enter values for two of these three variables: OLD, NEW,
+and %CH. Leave #PD set to 1.
+4.
+To compute a value for the unknown variable, press # or " until the variable you
+want is displayed and press C. The calculator displays the value.
+Example: Computing Percent Change
+First, determine the percentage change from a forecast amount of $658 to an actual
+amount of $700. Second, determine what the new amount would be if it were 7%
+below the original forecast.
+To
+Press
+Display
+Select Percent Change/Compound
+Interest worksheet
+& q
+OLD=
+Current
+value
+
+To
+Press
+Display
+Enter original forecast amount
+658 !
+OLD=
+658.001
+Enter actual amount
+# 700 !
+NEW=
+700.001
+Compute percent change
+# C
+%CH=
+6.387
+Enter -7 as percent change
+7 S !
+%CH=
+-7.001
+Compute new actual amount
+" C
+NEW=
+611.947
+Answer: $700 represents a 6.38% increase over the original forecast of $658. A
+decrease of 7% would result in a new actual amount of $611.94.
+Example: Computing Compound Interest
+You purchased stock in 1995 for $500. Five years later, you sell the stock for $750.
+What was the annual growth rate?
+To
+Press
+Display
+Select Percent
+Change/Compound Interest
+worksheet
+& q
+OLD=
+Current value
+Enter stock purchase price
+500 !
+OLD=
+500.001
+Enter stock selling price
+# 750 !
+NEW=
+750.001
+Enter number of years
+# #5 !
+#PD=
+5.001
+Compute annual growth rate
+" C
+%CH=
+8.457
+Answer: The annual growth rate is 8.45%.
+Example: Computing Cost-Sell-Markup
+The original cost of an item is $100; the selling price is $125. Find the markup.
+To
+Press
+Display
+Select Percent Change/
+Compound Interest worksheet
+& q
+OLD=
+Current value
+Clear worksheet variables
+&
+z
+OLD=
+0.00
+Enter original cost
+100 !
+OLD=
+100.001
+Enter selling price
+# 125 !
+NEW=
+125.001
+Other Worksheets
+62
+
+63
+Other Worksheets
+To
+Press
+Display
+Compute percent markup
+# C
+%CH=
+25.007
+Answer: The markup is 25%.
+Interest Conversion Worksheet
+The Interest Conversion worksheet converts interest rates
+between nominal rate (or annual percentage rate) and
+annual effective rate.
+•
+To access the Interest Conversion worksheet, press &
+v.
+•
+To select interest conversion variables, press # or ".
+Interest Conversion Variables
+Variable
+Key
+Display
+Variable Type
+Nominal rate
+& v
+NOM
+Enter/compute
+Annual effective rate
+#
+EFF
+Enter/compute
+Compounding periods per year
+#
+C/Y
+Enter-only
+Note: The calculator categorizes variables by their method of entry.
+Comparing the Nominal Interest Rate of Investments
+Comparing the nominal interest rate (annual percentage rate) of investments is
+misleading when the investments have the same nominal rate but different numbers
+of compounding periods per year.
+To make a more valid comparison, convert the nominal interest rate (NOM) to the
+annual effective interest rate (EFF) for each investment.
+•
+The nominal interest rate (NOM) is the interest rate per compounding period
+multiplied by the number of compounding periods per year.
+•
+The annual effective interest rate (EFF) is the compound annual interest rate that
+you actually earn for the period of time stated.
+Resetting Variables
+•
+To reset all calculator variables and formats to default values, including the
+Interest Conversion worksheet variables, press & } !.
+Variable
+Default
+NOM
+0
+
+Variable
+Default
+EFF
+0
+C/Y
+1
+•
+To clear the NOM and EFF variables and reset default values without affecting C/Y,
+press & z in the Interest Conversion worksheet.
+Converting Variables
+You can convert a nominal rate to an annual effective rate or vice versa.
+Entering Values for Nom and EFF
+Enter a value for NOM or EFF as an annual rate.
+Converting Interest Rates
+1.
+To access the Interest Conversion worksheet, press & v. The current NOM
+value appears.
+2.
+To clear the worksheet, press & z.
+3.
+Enter a value for the known interest rate (either NOM or EFF).
+4.
+To enter a value for a known variable, press # or " until NOM or EFF is displayed,
+key in a value, and press !.
+5.
+Press # to display C/Y. If necessary, change the value and press !.
+6.
+To compute a value for the unknown variable (interest rate), press # or " until
+NOM or EFF is displayed, and then press C. The calculator displays the computed
+value.
+Example: A bank offers a certificate that pays a nominal interest rate of 15% with
+quarterly compounding. What is the annual effective interest rate?
+To
+Press
+Display
+Select Interest Conversion
+worksheet.
+& v
+NOM=
+Current
+value
+Enter nominal interest rate.
+15 !
+NOM=
+15.001
+Enter number of compounding
+periods per year.
+# # 4
+!
+C/Y=
+4.001
+Compute annual effective interest
+rate.
+" C
+EFF=
+15.877
+Answer: A nominal interest rate of 15% compounded quarterly is equivalent to an
+annual effective interest rate of 15.87%.
+Other Worksheets
+64
+
+65
+Other Worksheets
+Date Worksheet
+Use the Date worksheet to find the number of days between
+two dates. You can also compute a date and day of the
+week based on a starting date and a specified number of
+days.
+•
+To access the Date worksheet, press & u.
+•
+To access the date variables, press # or ".
+•
+To select the day-count method (ACT and 360), press
+& V once for each option.
+Date Worksheet Variables
+Variable
+Key
+Display
+Variable Type
+Date 1
+&
+u
+DT1
+Enter/compute
+Date 2
+#
+DT2
+Enter/compute
+Days between dates
+#
+DBD
+Enter/compute
+Actual/actual day-count method
+#
+ACT*
+Setting
+30/360 day-count method
+#
+360*
+Setting
+Note: The calculator categorizes variables by their method of entry. Types of
+Worksheet Variables
+Resetting the Date Worksheet Variables
+•
+To reset default values for all calculator variables and formats, including the Date
+worksheet variables, press & } !.
+Variable
+Default
+Variable
+Default
+DT1
+12-31-1990
+DBD
+0
+DT2
+12-31-1990
+Day-count
+method
+ACT
+•
+To clear Date worksheet variables and reset default values without affecting the
+day-count method, press & z while in the Date worksheet.
+Entering Dates
+•
+The calculator assumes that DT1 is earlier than DT2.
+•
+Enter dates for DT1 and DT2 in the selected US or European date format.
+•
+When you compute a date for DT1 or DT2, the calculator displays a three-letter
+abbreviation for the day of the week (for example, WED).
+
+Selecting the Day-Count Method Affects Calculations
+•
+When you select ACT as the day-count method, the calculator uses the actual
+number of days in each month and each year, including adjustments for leap years.
+•
+When you select 360 as the day-count method, the calculator assumes 30 days per
+month (360 days per year). You can compute DBD using this day-count method, but
+not DT1 or DT2.
+Computing Dates
+1.
+To select the Date worksheet, press & u. The DT1 value is displayed.
+2.
+To clear the worksheet, press & z.
+3.
+Enter values for two of the three variables: DT1, DT2, and DBD.
+Note: Do not enter a value for the variable you wish to solve for.
+4.
+To enter a value for a variable, press # or " to display the variable.
+5.
+Key in a value and press !.
+6.
+To change the day-count method setting, press # until ACT or 360 is displayed,
+and then press & V to select the other day-count method.
+7.
+To compute a value for the unknown variable, press # or " to display the
+variable, and then press C. The calculator displays the computed value.
+Example: Computing Days between Dates
+A loan made on September 4, 2003 defers the first payment until November 1, 2003.
+How many days does the loan accrue interest before the first payment?
+To
+Press
+Display
+Select Date worksheet
+& u
+DT1=
+12-31-1990
+Enter first date
+9.0403 !
+DT1=
+9-04-20031
+Enter second date
+# 11.0103
+!
+DT2=
+11-01-20031
+Select actual/actual day-count
+method
+# #
+ACT
+Compute days between dates
+" C
+DBD=
+58.007
+Answer: Because there are 58 days between the two dates, the loan accrues interest
+for 58 days before the first payment.
+Other Worksheets
+66
+
+67
+Other Worksheets
+Profit Margin Worksheet
+The Profit Margin worksheet computes cost, selling price,
+and gross profit margin.
+Note: To perform markup calculations, use the Percent
+Change/Compound Interest worksheet.
+•
+To access the Profit Margin worksheet, press &
+w.
+•
+To access profit margin variables, press " or #.
+•
+Enter values for the two known variables, and then
+compute a value for the unknown variable.
+Profit Margin Worksheet Variables
+Variable
+Key
+Display
+Variable Type
+Cost
+& w
+CST
+Enter/compute
+Selling price
+#
+SEL
+Enter/compute
+Profit margin
+#
+MAR
+Enter/compute
+Note: This guidebook categorizes calculator variables by their method of entry.
+Gross Profit Margin and Markup
+The terms margin and markup often are used interchangeably, but each has a distinct
+meaning.
+•
+Gross profit margin is the difference between selling price and cost, expressed as a
+percentage of the selling price.
+•
+Markup is the difference between selling price and cost, expressed as a percentage
+of the cost.
+Clearing Profit Margin Worksheet Variables
+•
+To clear the Profit Margin worksheet variables and reset default values, press &
+z. All Profit Margin worksheet variables default to zero.
+•
+To reset default values for all calculator variables and formats, including the Profit
+Margin worksheet variables, press & } !.
+Computing Profit Margin
+1.
+To select the Profit Margin worksheet, press & w. The CST value appears.
+2.
+To enter a value for one of the two known variables, press # or " to select a
+variable, then key in a value and press !.
+3.
+Repeat step 2 for the second known variable.
+4.
+To compute a value for the unknown variable, press # or " to select the variable
+and press C. The calculator displays the computed value.
+
+Example: Computing Profit Margin
+The selling price of an item is $125. The gross profit margin is 20%. Find the original
+cost.
+To
+Press
+Display
+Select Profit Margin worksheet
+& w
+CST=
+0.00
+Enter selling price
+#125 !
+SEL=
+125.001
+Enter profit margin
+# 20 !
+MAR=
+20.001
+Compute cost
+" " C
+CST=
+100.00 7
+Answer: The original cost is $100.
+Breakeven Worksheet
+The Breakeven worksheet computes the breakeven point and
+sales level needed to earn a given profit by analyzing
+relationships between fixed costs, variable costs per unit,
+quantity, price, and profit.
+You operate at a loss until you reach the breakeven quantity
+(that is, total costs = total revenues).
+•
+To access the Breakeven worksheet, press & r.
+•
+To access breakeven variables, press " or #.
+•
+Enter known values for the four known variables, then
+compute a value for the fifth, unknown variable.
+Note: To solve for quantity (Q), enter a value of zero for profit (PFT).
+Breakeven Worksheet Variables
+Variable
+Key
+Display
+Variable Type
+Fixed cost
+& r
+FC
+Enter/compute
+Variable cost per unit
+#
+VC
+Enter/compute
+Unit price
+#
+P
+Enter/compute
+Profit
+#
+PFT
+Enter/compute
+Quantity
+#
+Q
+Enter/compute
+Note: This guidebook categorizes calculator variables by their method of entry. Types
+of Worksheet Variables
+Resetting the Breakeven Worksheet Variables
+•
+To reset default values for all Breakeven worksheet variables, press & z.
+All Breakeven worksheet variables default to zero.
+Other Worksheets
+68
+
+69
+Other Worksheets
+•
+To clear all calculator variables and formats and reset default values, including the
+Breakeven worksheet variables, press & } !.
+Computing Breakeven
+1.
+To access the Breakeven worksheet, press & r. The FC variable appears.
+2.
+Press # or " to select a known variable, key in the value, and press !.
+3.
+Repeat step 3 for each of the remaining known variables.
+4.
+To compute a value for the unknown variable, press # or " until the variable is
+displayed, and then press C The calculator displays the computed value.
+Example: Computing Breakeven Quantity
+A canoe company sells paddles for $20 each. The unit variable cost is $15, and the
+fixed costs are $3,000. How many paddles must be sold to break even?
+To
+Press
+Display
+Access Breakeven worksheet.
+& r
+FC=
+Current value
+Enter fixed costs.
+3000 !
+FC=
+3,000.001
+Enter variable cost per unit.
+# 15 !
+VC=
+15.001
+Enter price.
+# 20 !
+P=
+20.001
+Leave profit as is.
+#
+PFT=
+0.00
+Compute quantity.
+# C
+Q=
+600.007
+Answer: 600 paddles must be sold to break even.
+Memory Worksheet
+The Memory worksheet lets you compare and recall stored
+values by accessing the calculator’s 10 memories. All
+memory variables are enter-only. Types of Worksheet
+Variables
+•
+To access the Memory worksheet, press & {.
+•
+To access memory variables, press " or #.
+Note: You can access memories individually using D,
+J, and the digit keys. Memory Operations
+Memory Worksheet Variables
+Variables
+Key
+Display
+Variable Type
+Memory 0
+& {
+M0
+Enter-only
+Memory 1
+#
+M1
+Enter-only
+Memory 2
+#
+M2
+Enter-only
+
+Variables
+Key
+Display
+Variable Type
+Memory 3
+#
+M3
+Enter-only
+Memory 4
+#
+M4
+Enter-only
+Memory 5
+#
+M5
+Enter-only
+Memory 6
+#
+M6
+Enter-only
+Memory 7
+#
+M7
+Enter-only
+Memory 8
+#
+M8
+Enter-only
+Memory 9
+#
+M9
+Enter-only
+Note: This guidebook categorizes calculator variables by their method of entry.
+Clearing the Memory Worksheet Variables
+To clear all 10 memories at once, press & z in the Memory worksheet.
+Using the Memory Worksheet
+1.
+To select the Memory worksheet, press & {. M0 apears.
+2.
+Perform any of the following operations:
+•
+To clear all 10 memories at once, press & z.
+•
+To view the contents of the memories, press # or " once for each memory.
+•
+To store a value, select a memory (M0-M9), key in a value, and press !.
+•
+Memory arithmetic.
+Examples: Using the Memory Worksheet
+To
+Press
+Display
+Access Memory worksheet
+& {
+M0=
+Current value
+Select M4.
+# # # #
+M4=
+Current value
+Clear M4.
+0 !
+M4=
+0.001
+Store 95.
+9 5 !
+M4=
+95.001
+Add 65.
+H 6 5 !
+M4=
+160.001
+Subtract 30.
+B 3 0 !
+M4=
+130.001
+Multiply by 95.
+< 9 5 !
+M4=
+12,350.001
+Divide by 65.
+6 6 5 !
+M4=
+190.001
+Raise to 2nd power.
+; 2 !
+M4=
+36,100.001
+Other Worksheets
+70
+
+71
+APPENDIX - Reference Information
+APPENDIX - Reference Information
+This appendix includes supplemental information to help you use your BA II PLUS™
+PROFESSIONAL calculator:
+•
+Formulas
+•
+Error conditions
+•
+Accuracy information
+•
+IRR (internal-rate-of-return) calculations
+•
+Algebraic operating system (AOS™)
+•
+Battery information
+•
+In case of difficulty
+•
+TI product service and warranty information
+Formulas
+This section lists formulas used internally by the calculator.
+Time Value of Money
+where:
+C/Y = compounding periods per year
+P/Y = payment periods per year
+I/Y = interest rate per year
+where:
+The iteration used to compute i:
+where:
+
+Gi = 1 + i
+k
+where:
+k = 0 for end-of-period payments
+k = l for beginning-of-period payments
+where:
+where:
+where:
+where:
+where:
+where:
+where:
+where:
+APPENDIX - Reference Information
+72
+
+73
+APPENDIX - Reference Information
+Amortization
+If computing
+Let:
+Iterate from:
+to
+then:
+where:
+round the diplay to the number or decimal places selected
+round to 12 decimal places
+Balance, principal, and interest are dependent on the values of PMT, PV, I/ Y, and
+pmt1 and pmt2.
+Cash Flow
+where:
+Net present value depends on the values of the initial cash flow (CF0), subsequent
+cash flows (CFj), frequency of each cash flow (nj), and the specified interest rate (i).
+
+where:
+is the periodic interest rate used in the
+calculation of NPV
+where:
+is the frequency of the
+th cash flow
+IRR = 100 x i
+where:
+i satisfies
+Internal rate of return depends on the values of initial cash flow (CF0), subsequent
+cash flows (CFj).
+The calculator uses this formula to compute the modified internal rate of return:
+where:
+positive =
+positive values in
+the cash flows
+negative =
+negative values in
+the cash flows
+N =
+number of cash
+flows
+rrate =
+reinvestment rate
+frate =
+finance rate
+NPV
+(values, rate) =
+Net present value of
+the values in the
+rate described
+Bonds 1
+Price (given yield) with one coupon period or less to redemption:
+1Source for bond formulas (except duration): Lynch, John J., Jr., and Jan H. Mayle.
+Standard Securities Calculation Methods. New York: Securities Industry Association,
+1986.
+APPENDIX - Reference Information
+74
+
+75
+APPENDIX - Reference Information
+where:
+PRI = dollar price per $100 par value
+RV = redemption value of the security per $100 par value (RV
+except in those cases where call or put features must be
+considered)
+R = annual interest rate (as a decimal; CPN_100)
+M = number of coupon periods per year standard for the
+particular security involved (set to 1 or 2 Bond worksheet)
+DSR = number of days from settlement date to redemption
+date (maturity date, call date, put date, etc.)
+E = number of days in coupon period in which the settlement
+date falls
+Y = annual yield (as a decimal) on investment with security
+held to redemption (YLD
+100)
+A = number of days from beginning of coupon period to
+settlement date (accrued days)
+Note: The first term computes present value of the redemption amount, including
+interest, based on the yield for the invested period. The second term computes the
+accrued interest agreed to be paid to the seller.
+Yield (given price) with one coupon period or less to redemption:
+Price (given yield) with more than one coupon period to redemption:
+where:
+N =
+number of coupons payable between
+settlement date and redemption date
+(maturity date, call date, put date, etc.).
+(If this number contains a fraction, raise
+it to the next whole number; for
+example, 2.4 = 3.)
+DSC =
+number of days from settlement date to
+
+next coupon date
+K =
+summation counter
+Note: The first term computes present value of the redemption amount, not including
+interest. The second term computes the present values for all future coupon payments.
+The third term computes the accrued interest agreed to be paid to the seller.
+Yield (given price) with more than one coupon period to redemption: Yield is found
+through an iterative search process using the "Price with more than one coupon to
+redemption" formula.
+Accrued interest for securitites with standard coupons or interest at maturity:
+where:
+AI = accrued interest
+PAR= par value (principal amount to be paid at maturity)
+Modified duration: 1
+where:
+Duration is calculated using one of the
+following formulas used to calculate Macaulay duration:
+•
+For a bond price with one coupon period or less to redemption:
+•
+For a bond price with more than one coupon period to
+redemption:
+Note: Bond price formulas and notations are described in this section.
+Depreciation
+1Source for duration: Strong, Robert A.,Portfolio Construction, Management, and
+Protection, South-Western College Publishing, Cincinnati, Ohio, 2000.
+APPENDIX - Reference Information
+76
+
+77
+APPENDIX - Reference Information
+accumulated depreciation
+Values for
+are rounded to the number of decimals
+you choose to be displayed.
+Straight-line depreciation
+First year:
+Last year or more: DEP = RDV
+Sum-of-the-years’-digits depreciation
+First year:
+Last year or more: DEP = RDV
+Declining-balance depreciation
+where:
+is for YR
+First year:
+Unless;
+; then use
+If
+, use
+
+If computing last year,
+Statistics
+Note: Formulas apply to both x and y.
+Standard deviation with n weighting (sx):
+Standard deviation with n-1 weighting (sx):
+Mean:
+Regressions
+Formulas apply to all regression models using transformed data.
+Interest Rate Conversions
+where:
+where:
+APPENDIX - Reference Information
+78
+
+79
+APPENDIX - Reference Information
+Percent Change
+where:
+OLD = old value
+NEW = new value
+%CH = percent change
+#PD = number of periods
+Profit Margin
+Breakeven
+where:
+PFT = profit
+P = price
+FC = fixed cost
+VC = variable cost
+Q = quantity
+Days between Dates
+With the Date worksheet, you can enter or compute a date within the range January 1,
+1980, through December 31, 2079.
+Actual/actual day-count method
+Note: The method assumes the actual number of days per month and per year.
+DBD (days between dates) = number of days II-number of days I
+Number of Days I = (Y1 -YB) Q 365
++ (number of days MB to M1)
++ DT1
+
+Number of Days II = (Y2 -YB) Q 365
++ (number of days MB to M2)
++ DT2
+where:
+M1 = month of first date
+DT 1 = day of first date
+Y 1 = year of first date
+M 2 = month of second date
+DT 2 = day of second date
+Y 2 = year of second date
+MB = base month (January)
+DB = base day (1)
+YB = base year (first year after leap year)
+30/360 day-count method1
+Note: The method assumes 30 days per month and 360 days per year.
+where:
+M1 = month of first date
+DT 1 = day of first date
+Y 1 = year of first date
+M 2 = month of second date
+DT 2 = day of second date
+Y 2 = year of second date
+Note: If DT1 is 31, change DT1 to 30. If DT2 is 31 and DT1 is 30 or 31, change DT2 to
+30; otherwise, leave it at 31.
+Note:
+1Source for 30/360 day-count method formula Lynch, John J., Jr., and Jan H.
+Mayle.Standard Securities Calculation Methods. New York: Securities Industry
+Association, 1986
+APPENDIX - Reference Information
+80
+
+81
+APPENDIX - Reference Information
+
+Error Messages
+Note: To clear an error message, press P.
+Error
+Possible Causes
+Error 1
+Overflow
+•
+A result is outside the calculator range
+(±€9.9999999999999E99).
+•
+Tried to divide by zero (can occur internally).
+•
+Tried to compute 1/x when x is zero.
+•
+Statistics worksheet: a calculation included X or Y values
+that are all the same.
+Error 2
+Invalid
+argument
+•
+Tried to compute x! when x is not an integer 0-69.
+•
+Tried to compute LN of x when x is not > 0.
+•
+Tried to compute yx when y < 0 and x is not an integer or
+the inverse of an integer.
+•
+Tried to compute
+when x < 0.
+•
+Amortization worksheet: tried to compute BAL, PRN, and
+INT when P2 < P1.
+•
+Depreciation worksheet: a calculation included SAL > CST.
+Error 3
+Too many
+pending
+operations
+•
+More than 15 active levels of parentheses were tried in a
+calculation.
+•
+A calculation tried to use more than 8 pending
+operations.
+Error 4
+Out of range
+•
+Amortization worksheet: the value entered for P1 or P2 is
+outside the range 1-9,999.
+•
+TVM worksheet: the P/Y or C/Y value  0.
+•
+Cash Flow worksheet: the Fnn value is outside the range
+0.5-9,999.
+•
+Bond worksheet: the RV, CPN, or PRI value _0.
+•
+Date worksheet: the computed date is outside the range
+January 1, 1980 through December 31, 2079.
+•
+Depreciation worksheet: the value entered for: declining
+balance percent  0; LIF  0; YR _  0; CST < 0; SAL < 0;
+or M01 1  M01  13.
+•
+Interest Conversion worksheet: the C/Y value  0.
+•
+The DEC value is outside the range 0-9.
+Error 5
+No solution
+exists
+•
+TVM worksheet: the calculator computed I/Y when FV, (N
+Q PMT), and PV all have the same sign. (Make sure cash
+inflows are positive and outflows are negative.)
+•
+TVM, Cash Flow, and Bond worksheets: the LN
+(logarithm) input is not > 0 during calculations.
+•
+Cash Flow worksheet: the calculator computed IRR
+without at least one sign change in the cash-flow list.
+APPENDIX - Reference Information
+82
+
+83
+APPENDIX - Reference Information
+Error
+Possible Causes
+Error 6
+Invalid date
+•
+Bond and Date worksheets: a date is invalid (for example,
+January 32) or in the wrong format (for example,
+MM.DDYYYY instead of MM.DDYY.
+•
+Bond worksheet: the calculator attempted a calculation
+with a redemption date earlier than or the same as the
+settlement date.
+Error 7
+Iteration limit
+exceeded
+•
+TVM worksheet: the calculator computed I/Y for a very
+complex problem involving many iterations.
+•
+Cash Flow worksheet: the calculator computed IRR for a
+complex problem with multiple sign changes or PB/DPB
+with no payback period based on input cash flow values.
+•
+Bond worksheet: the calculator computed YLD for a very
+complex problem.
+Error 8
+Canceled
+iterative
+calculation
+•
+TVM worksheet: $ was pressed to stop the
+evaluation of I/Y.
+•
+Amortization worksheet: $ was pressed to stop the
+evaluation of BAL or INT.
+•
+Cash Flow worksheet: $ was pressed to stop the
+evaluation of IRR.
+•
+Bond worksheet: $ was pressed to stop the
+evaluation of YLD.
+•
+Depreciation worksheet: $ was pressed to stop the
+evaluation of DEP or RDV.
+
+Accuracy Information
+The calculator stores results internally as 13-digit numbers but displays them rounded
+to 10 digits or fewer, depending on the decimal format. The internal digits, or guard
+digits, increase the calculator’s accuracy. Additional calculations use the internal value,
+not the value displayed.
+Rounding
+If a calculation produces a result with 11-digits or more, the calculator uses the
+internal guard digits to determine how to display the result. If the eleventh digit of the
+result is 5 or greater, the calculator rounds the result to the next larger value for
+display.
+For example, consider this problem.
+1 P 3 Q 3 = ?
+Internally, the calculator solves the problem in two steps, as shown below.
+1.
+1 P 3 = 0.3333333333333
+2.
+0.3333333333333 Q 3 = 0.9999999999999
+The calculator rounds the result and displays it as 1. This rounding enables the
+calculator to display the most accurate result.
+Although most calculations are accurate to within ±1 in the last displayed digit, higher-
+order mathematical functions use iterative calculations, in which inaccuracies can
+accumulate in the guard digits. In most cases, the cumulative error from these
+calculations is maintained beyond the 10-digit display so that no inaccuracy is shown.
+APPENDIX - Reference Information
+84
+
+85
+APPENDIX - Reference Information
+AOS™(Algebraic Operating System) Calculations
+When you select the AOS calculation method, the calculator uses the standard rules of
+algebraic hierarchy to determine the order in which it performs operations.
+Algebraic Hierarchy
+The table shows the order in which the calculator performs operations using the AOS
+calculation method.
+Priority
+Operations
+1 (highest)
+x2, x!, 1/x, %,(x, LN, e2, HYP, INV, SIN, COS, TAN
+2
+nCr, nPr
+3
+Yx
+4
+Q, P
+5
++, -
+6
+)
+7 (lowest)
+=
+
+Battery Information
+Battery Caution:
+•
+Do not ingest battery, Chemical Burn Hazard.
+•
+This product contains a coin or button cell battery. If the coin or button cell battery
+is swallowed, it can cause severe internal burns in just 2 hours and can lead to
+death.
+•
+Keep new and used batteries away from children.
+•
+Always completely secure the battery compartment. If the battery compartment
+does not close securely, stop using the product, remove the batteries, and keep
+them away from children.
+•
+If you think batteries might have been swallowed or placed inside any part of the
+body, seek immediate medical attention.
+•
+Call a local poison control center for treatment information.
+•
+Even used batteries may cause severe injury or death.
+•
+Non-rechargeable batteries are not to be recharged.
+•
+Do not force discharge, recharge, disassemble, heat above 140F (60C) or
+incinerate. Doing so may result in injury due to venting, leakage or explosion
+resulting in chemical burns.
+•
+Ensure the batteries are installed correctly according to polarity (+ and -).
+•
+Do not mix old and new batteries, different brands or types of batteries, such as
+alkaline, carbon-zinc or rechargeable batteries.
+•
+Risk of fire or explosion if battery is replaced by an incorrect type.
+•
+Remove and immediately recycle or dispose of batteries from equipment not used
+for an extended period of time according to local regulations. Do NOT dispose of
+batteries in household trash or incinerate.
+Replacing the Battery
+Replace the battery with a new CR2032 lithium battery.
+Caution: The calculator cannot retain data when the battery is removed or discharged.
+Replacing the battery has the same effect as resetting the calculator.
+1.
+Turn off the calculator and turn it over with the back facing you.
+2.
+Using a small Phillips screwdriver, remove the one screw from the back cover.
+3.
+Carefully slide off the back cover.
+APPENDIX - Reference Information
+86
+
+87
+APPENDIX - Reference Information
+4.
+Tip the calculator slightly to remove the battery.
+Caution: Avoid contact with other calculator components.
+5.
+Install the new battery with the positive sign (+) (sign showing).
+6.
+Replace the battery cover and the screw that hold it in place.
+
+Australian Lithium Battery Warning
+Coin Battery
+inside the product.
+WARNING
+KEEP BATTERIES OUT OF THE REACH 
+OF CHILDREN
+•
+Swallowing may lead to severe or fatal injuries in as little as 2 hours or less due
+to chemical burns and potential perforation of the esophagus.
+•
+Never allow children to replace coin batteries of any device.
+•
+If it is suspected your child has swallowed or inserted a coin battery immediately
+call the 24-hour Poisons Information Centre on 13 11 26 immediately for expert
+advice.
+•
+Examine devices and make sure the battery compartment is correctly secured.
+E.g. that the screw or other mechanical fastener is tightened. Do not use if
+compartment is not secure.
+•
+Dispose of used coin batteries immediately and safely. A battery can still be
+dangerous even when it can no longer operate the device.
+•
+Tell others about the risk associated with the coin batteries and how to keep their
+children safe.
+APPENDIX - Reference Information
+88
+
+89
+APPENDIX - Reference Information
+In Case of Difficulty
+Use this list of possible solutions to difficulties you might encounter with the calculator
+to determine if you can correct a problem before having to return it for service.
+Difficulty
+Solution
+The calculator computes wrong
+answers.
+Check the settings of the current worksheet
+to make sure they are correct for the
+problem you are working; for example, in
+the TVM worksheet, check END and BGN
+and be sure the unused variable is set to
+zero.
+The display is blank; digits do not
+appear.
+Select the worksheet again. Be sure the
+battery is properly installed and replace, if
+necessary.
+The calculator does not display
+the correct worksheet variables.
+Be sure you have selected the correct
+worksheet.
+The calculator does not display
+the correct number of decimal
+places.
+Press & | to check or adjust the
+setting for number of decimal places
+displayed.
+The calculator does not display
+the correct date format.
+Press & | # # to check or adjust
+the setting for date format.
+The calculator does not display
+the correct separator format.
+Press & | # # # to check or
+adjust the setting for separator format.
+The calculator does not display
+the correct result in a math
+calculation.
+Press & | # # # # to check or
+adjust the setting for calculation method.
+An error occurs.
+Error Messages
+If you experience difficulties other than those listed above, press & } ! to
+clear the calculator, and then repeat your calculations.
+Note: You can also perform a hard reset using the reset hole in back of the calculator.
+Resetting the Calculator
+
+General Information
+Online Help
+education.ti.com/eguide
+Select your country for more product information.
+Contact TI Support
+education.ti.com/ti-cares
+Select your country for technical and other support resources.
+Service and Warranty Information
+education.ti.com/warranty
+Select your country for information about the length and terms of the warranty or
+about product service.
+Limited Warranty. This warranty does not affect your statutory rights.
+General Information
+90
+
