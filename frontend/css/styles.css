@@ -854,10 +854,17 @@ a:hover {
 .search-box select {
     flex: 1;
     padding: 12px;
-    background: rgba(255, 255, 255, 0.05);
+    background: #1a1a2e;
     border: 1px solid var(--glass-border);
     border-radius: 8px;
     color: var(--text);
+    cursor: pointer;
+}
+
+.search-box select option {
+    background: #1a1a2e;
+    color: var(--text);
+    padding: 8px;
 }
 
 .glossary-list {
@@ -904,6 +911,70 @@ a:hover {
     border-radius: 8px;
     margin-top: 8px;
     overflow-x: auto;
+}
+
+/* Calculator Block in Glossary */
+.calculator-block {
+    background: rgba(79, 70, 229, 0.1);
+    border: 1px solid var(--primary);
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 12px;
+}
+
+.calc-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+}
+
+.calc-icon {
+    font-size: 1.2rem;
+}
+
+.calc-title {
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.calc-access {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.875rem;
+}
+
+.calc-steps {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.calc-steps li {
+    margin-bottom: 6px;
+    color: var(--text);
+}
+
+.calc-example {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 12px;
+    border-radius: 6px;
+    margin-top: 12px;
+    font-size: 0.9rem;
+}
+
+.calc-example code {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+}
+
+.calc-result {
+    color: var(--success);
+    font-weight: 600;
 }
 
 /* Statistics */

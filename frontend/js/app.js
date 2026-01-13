@@ -1024,6 +1024,29 @@ async function loadGlossary() {
     }
 }
 
+function renderCalculatorSteps(calc) {
+    if (!calc) return '';
+    return `
+        <div class="calculator-block">
+            <div class="calc-header">
+                <span class="calc-icon">📟</span>
+                <span class="calc-title">BA II Plus: ${calc.worksheet || 'Calculator'}</span>
+                ${calc.access ? `<code class="calc-access">${calc.access}</code>` : ''}
+            </div>
+            <ol class="calc-steps">
+                ${calc.steps.map(step => `<li>${step}</li>`).join('')}
+            </ol>
+            ${calc.example ? `
+                <div class="calc-example">
+                    <strong>Пример:</strong> ${calc.example.given || ''}
+                    ${calc.example.input ? `<br><code>${calc.example.input}</code>` : ''}
+                    ${calc.example.result ? `<br><span class="calc-result">→ ${calc.example.result}</span>` : ''}
+                </div>
+            ` : ''}
+        </div>
+    `;
+}
+
 function displayGlossary(terms) {
     const container = document.getElementById('glossary-list');
     container.innerHTML = terms.map(term => `
@@ -1033,6 +1056,7 @@ function displayGlossary(terms) {
             <div class="term-definition">${term.definition_en}</div>
             ${term.definition_ru ? `<div class="term-definition-ru">${term.definition_ru}</div>` : ''}
             ${term.formula ? `<div class="term-formula">\\(${term.formula.replace(/^\$|\$$/g, '')}\\)</div>` : ''}
+            ${term.calculator_steps ? renderCalculatorSteps(term.calculator_steps) : ''}
         </div>
     `).join('');
 
