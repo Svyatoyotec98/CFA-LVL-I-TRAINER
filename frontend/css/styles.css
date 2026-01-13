@@ -854,10 +854,17 @@ a:hover {
 .search-box select {
     flex: 1;
     padding: 12px;
-    background: rgba(255, 255, 255, 0.05);
+    background: #1a1a2e;
     border: 1px solid var(--glass-border);
     border-radius: 8px;
     color: var(--text);
+    cursor: pointer;
+}
+
+.search-box select option {
+    background: #1a1a2e;
+    color: var(--text);
+    padding: 8px;
 }
 
 .glossary-list {
@@ -904,6 +911,181 @@ a:hover {
     border-radius: 8px;
     margin-top: 8px;
     overflow-x: auto;
+}
+
+/* Calculator Block in Glossary */
+.calculator-block {
+    background: rgba(79, 70, 229, 0.1);
+    border: 1px solid var(--primary);
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 12px;
+}
+
+.calc-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+}
+
+.calc-icon {
+    font-size: 1.2rem;
+}
+
+.calc-title {
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.calc-access {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.875rem;
+}
+
+.calc-steps {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.calc-steps li {
+    margin-bottom: 6px;
+    color: var(--text);
+}
+
+.calc-example {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 12px;
+    border-radius: 6px;
+    margin-top: 12px;
+    font-size: 0.9rem;
+}
+
+.calc-example code {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+}
+
+.calc-result {
+    color: var(--success);
+    font-weight: 600;
+}
+
+/* Glossary Actions (expand/collapse all) */
+.glossary-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+    padding: 12px;
+    background: var(--glass-bg);
+    border-radius: 8px;
+}
+
+.glossary-actions .btn {
+    padding: 6px 12px;
+    font-size: 0.875rem;
+}
+
+#glossary-count {
+    margin-left: auto;
+    font-size: 0.875rem;
+}
+
+/* Glossary Term Header (clickable) */
+.term-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 4px 0;
+    transition: opacity 0.2s;
+}
+
+.term-header:hover {
+    opacity: 0.8;
+}
+
+.term-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.term-expand-icon {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    transition: transform 0.2s;
+    display: inline-block;
+    width: 16px;
+}
+
+/* Expanded state - rotate arrow */
+.glossary-item:not(.collapsed) .term-expand-icon {
+    transform: rotate(90deg);
+}
+
+/* Badges container */
+.term-badges {
+    display: flex;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+/* LOS badge */
+.term-los {
+    background: rgba(79, 70, 229, 0.2);
+    color: var(--primary);
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+/* Module badge */
+.term-module {
+    background: rgba(139, 92, 246, 0.2);
+    color: var(--accent);
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+/* Term content (collapsible) */
+.term-content {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid var(--glass-border);
+    animation: fadeIn 0.2s ease;
+}
+
+/* Hide content when collapsed */
+.glossary-item.collapsed .term-content {
+    display: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Module filter select */
+#glossary-module-filter {
+    min-width: 150px;
 }
 
 /* Statistics */
@@ -1052,6 +1234,99 @@ a:hover {
         flex-direction: column;
         gap: 20px;
     }
+}
+
+/* ============== Explanation Styles ============== */
+.explanation-status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--glass-border);
+}
+
+.result-correct {
+    color: var(--success);
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.result-incorrect {
+    color: var(--danger);
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.correct-answer {
+    background: rgba(16, 185, 129, 0.2);
+    color: var(--success);
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 0.875rem;
+}
+
+.explanation-formula {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 16px;
+    border-radius: 8px;
+    margin: 16px 0;
+    font-size: 1.1rem;
+    overflow-x: auto;
+}
+
+.explanation-wrong {
+    background: rgba(239, 68, 68, 0.1);
+    border-left: 4px solid var(--danger);
+    padding: 12px 16px;
+    margin: 16px 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.wrong-formula {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 8px 12px;
+    margin-top: 8px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+}
+
+#calculator-steps {
+    background: rgba(79, 70, 229, 0.1);
+    border: 1px solid var(--primary);
+    padding: 16px;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+
+#calculator-steps h5 {
+    color: var(--primary);
+    margin-bottom: 12px;
+}
+
+#calc-steps-list {
+    padding-left: 20px;
+}
+
+#calc-steps-list li {
+    margin-bottom: 8px;
+}
+
+#calc-steps-list code {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+}
+
+/* Learning Mode Card Highlight */
+.mode-card:first-child {
+    border-color: var(--accent);
+    background: rgba(139, 92, 246, 0.1);
+}
+
+.mode-card:first-child h3 {
+    color: var(--accent);
 }
 
 /* Scrollbar */

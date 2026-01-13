@@ -1024,15 +1024,54 @@ async function loadGlossary() {
     }
 }
 
+function renderCalculatorSteps(calc) {
+    if (!calc) return '';
+    return `
+        <div class="calculator-block">
+            <div class="calc-header">
+                <span class="calc-icon">📟</span>
+                <span class="calc-title">BA II Plus: ${calc.worksheet || 'Calculator'}</span>
+                ${calc.access ? `<code class="calc-access">${calc.access}</code>` : ''}
+            </div>
+            <ol class="calc-steps">
+                ${calc.steps.map(step => `<li>${step}</li>`).join('')}
+            </ol>
+            ${calc.example ? `
+                <div class="calc-example">
+                    <strong>Пример:</strong> ${calc.example.given || ''}
+                    ${calc.example.input ? `<br><code>${calc.example.input}</code>` : ''}
+                    ${calc.example.result ? `<br><span class="calc-result">→ ${calc.example.result}</span>` : ''}
+                </div>
+            ` : ''}
+        </div>
+    `;
+}
+
 function displayGlossary(terms) {
     const container = document.getElementById('glossary-list');
+    const countEl = document.getElementById('glossary-count');
+
+    if (countEl) countEl.textContent = `${terms.length} терминов`;
+
     container.innerHTML = terms.map(term => `
-        <div class="glossary-item">
-            <div class="term-name">${term.term_en}</div>
-            ${term.term_ru ? `<div class="term-name-ru">${term.term_ru}</div>` : ''}
-            <div class="term-definition">${term.definition_en}</div>
-            ${term.definition_ru ? `<div class="term-definition-ru">${term.definition_ru}</div>` : ''}
-            ${term.formula ? `<div class="term-formula">\\(${term.formula.replace(/^\$|\$$/g, '')}\\)</div>` : ''}
+        <div class="glossary-item collapsed" data-term-id="${term.term_id}">
+            <div class="term-header" onclick="toggleTerm(this)">
+                <div class="term-title">
+                    <span class="term-expand-icon">▶</span>
+                    <span class="term-name">${term.term_en}</span>
+                    ${term.term_ru ? `<span class="term-name-ru">— ${term.term_ru}</span>` : ''}
+                </div>
+                <div class="term-badges">
+                    ${term.los_id ? `<span class="term-los">${term.los_id}</span>` : ''}
+                    ${term.module_id ? `<span class="term-module">M${term.module_id}</span>` : ''}
+                </div>
+            </div>
+            <div class="term-content">
+                <div class="term-definition">${term.definition_en}</div>
+                ${term.definition_ru ? `<div class="term-definition-ru">${term.definition_ru}</div>` : ''}
+                ${term.formula ? `<div class="term-formula">\\(${term.formula.replace(/^\$|\$$/g, '')}\\)</div>` : ''}
+                ${term.calculator_steps ? renderCalculatorSteps(term.calculator_steps) : ''}
+            </div>
         </div>
     `).join('');
 
@@ -1046,21 +1085,95 @@ function displayGlossary(terms) {
     }
 }
 
+function toggleTerm(headerEl) {
+    const item = headerEl.closest('.glossary-item');
+    item.classList.toggle('collapsed');
+}
+
+function expandAllTerms() {
+    document.querySelectorAll('.glossary-item').forEach(item => {
+        item.classList.remove('collapsed');
+    });
+}
+
+function collapseAllTerms() {
+    document.querySelectorAll('.glossary-item').forEach(item => {
+        item.classList.add('collapsed');
+    });
+}
+
 function searchGlossary() {
     const query = document.getElementById('glossary-search').value.toLowerCase();
-    const filtered = glossaryTerms.filter(t =>
-        t.term_en.toLowerCase().includes(query) ||
-        (t.term_ru && t.term_ru.toLowerCase().includes(query)) ||
-        t.definition_en.toLowerCase().includes(query)
-    );
+    const bookId = document.getElementById('glossary-book-filter').value;
+    const moduleId = document.getElementById('glossary-module-filter').value;
+
+    let filtered = glossaryTerms;
+
+    if (bookId) filtered = filtered.filter(t => t.book_id == bookId);
+    if (moduleId) filtered = filtered.filter(t => t.module_id == moduleId);
+    if (query) {
+        filtered = filtered.filter(t =>
+            t.term_en.toLowerCase().includes(query) ||
+            (t.term_ru && t.term_ru.toLowerCase().includes(query)) ||
+            t.definition_en.toLowerCase().includes(query) ||
+            (t.los_id && t.los_id.toLowerCase().includes(query))
+        );
+    }
+
     displayGlossary(filtered);
+}
+
+function onBookFilterChange() {
+    const bookId = document.getElementById('glossary-book-filter').value;
+    const moduleSelect = document.getElementById('glossary-module-filter');
+
+    // Update module dropdown based on selected book
+    const modules = getModulesForBook(bookId);
+    moduleSelect.innerHTML = '<option value="">Все модули</option>' +
+        modules.map(m => `<option value="${m.id}">Module ${m.id}: ${m.name}</option>`).join('');
+
+    filterGlossary();
+}
+
+function getModulesForBook(bookId) {
+    if (!bookId) return [];
+
+    const bookModules = {
+        '1': [
+            {id: 1, name: 'Rate and Return'},
+            {id: 2, name: 'Time Value of Money'},
+            {id: 3, name: 'Statistical Measures'},
+            {id: 4, name: 'Probability Concepts'},
+            {id: 5, name: 'Probability Distributions'},
+            {id: 6, name: 'Sampling & Estimation'},
+            {id: 7, name: 'Hypothesis Testing'},
+            {id: 8, name: 'Linear Regression'},
+            {id: 9, name: 'Multiple Regression'},
+            {id: 10, name: 'Time Series'},
+            {id: 11, name: 'Big Data'}
+        ]
+    };
+
+    return bookModules[bookId] || [];
 }
 
 function filterGlossary() {
     const bookId = document.getElementById('glossary-book-filter').value;
-    const filtered = bookId
-        ? glossaryTerms.filter(t => t.book_id == bookId)
-        : glossaryTerms;
+    const moduleId = document.getElementById('glossary-module-filter').value;
+    const query = document.getElementById('glossary-search').value.toLowerCase();
+
+    let filtered = glossaryTerms;
+
+    if (bookId) filtered = filtered.filter(t => t.book_id == bookId);
+    if (moduleId) filtered = filtered.filter(t => t.module_id == moduleId);
+    if (query) {
+        filtered = filtered.filter(t =>
+            t.term_en.toLowerCase().includes(query) ||
+            (t.term_ru && t.term_ru.toLowerCase().includes(query)) ||
+            t.definition_en.toLowerCase().includes(query)
+        );
+    }
+
     displayGlossary(filtered);
 }
 

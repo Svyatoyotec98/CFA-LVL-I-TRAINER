@@ -7,18 +7,17 @@
     <link rel="stylesheet" href="css/styles.css">
     <!-- MathJax for formulas -->
     <script>
-        window.MathJax = {
-            tex: {
-                inlineMath: [['$', '$'], ['\\(', '\\)']],
-                displayMath: [['$$', '$$'], ['\\[', '\\]']],
-                processEscapes: true
-            },
-            options: {
-                skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-            }
-        };
+    MathJax = {
+        tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']],
+            displayMath: [['$$', '$$'], ['\\[', '\\]']],
+            processEscapes: true
+        },
+        options: {
+            skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+    };
     </script>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
@@ -217,6 +216,16 @@
                 <p id="test-questions-count">0 вопросов</p>
 
                 <div class="mode-options">
+                    <div class="mode-card" onclick="startTest('learning')">
+                        <h3>Learning Mode</h3>
+                        <p>Обучение с объяснениями</p>
+                        <ul>
+                            <li>Без таймера — учитесь в своём темпе</li>
+                            <li>Объяснение после каждого ответа</li>
+                            <li>Формулы и шаги калькулятора</li>
+                        </ul>
+                    </div>
+
                     <div class="mode-card" onclick="startTest('standard')">
                         <h3>Standard Mode</h3>
                         <p>Общее время на весь тест</p>
@@ -234,16 +243,6 @@
                             <li>Таймер на каждый вопрос</li>
                             <li>Время может уходить в минус</li>
                             <li>Результат сразу после ответа</li>
-                        </ul>
-                    </div>
-
-                    <div class="mode-card learning-mode" onclick="startTest('learning')">
-                        <h3>Learning Mode</h3>
-                        <p>Обучение с объяснениями</p>
-                        <ul>
-                            <li>Объяснение после каждого ответа</li>
-                            <li>Формулы и расчёты</li>
-                            <li>Инструкции для калькулятора</li>
                         </ul>
                     </div>
                 </div>
@@ -268,24 +267,22 @@
                     <span class="question-difficulty" id="q-difficulty"></span>
                 </div>
                 <div id="question-text" class="question-text"></div>
-                <div id="question-table" class="question-table-container hidden"></div>
-                <div id="question-continuation" class="question-continuation hidden"></div>
-                <div id="question-formula" class="question-formula hidden"></div>
-                <div id="question-image" class="question-image hidden"></div>
+                <div id="question-formula" class="question-formula"></div>
+                <div id="question-image" class="question-image"></div>
 
                 <div id="options-container" class="options-container">
                     <!-- Options A, B, C -->
                 </div>
             </div>
 
-            <!-- Explanation (shown after answer in 90-second mode or learning mode) -->
+            <!-- Explanation (shown after answer) -->
             <div id="explanation-container" class="glass-container hidden">
                 <div id="explanation-status" class="explanation-status"></div>
                 <h4>Объяснение</h4>
                 <div id="explanation-text"></div>
                 <div id="explanation-formula" class="explanation-formula hidden"></div>
                 <div id="explanation-wrong" class="explanation-wrong hidden"></div>
-                <div id="calculator-steps" class="calculator-steps hidden">
+                <div id="calculator-steps" class="hidden">
                     <h5>Шаги на калькуляторе BA II Plus:</h5>
                     <ol id="calc-steps-list"></ol>
                 </div>
@@ -459,7 +456,7 @@
         <div class="glossary-container">
             <div class="search-box glass-container">
                 <input type="text" id="glossary-search" placeholder="Поиск терминов..." oninput="searchGlossary()">
-                <select id="glossary-book-filter" onchange="filterGlossary()">
+                <select id="glossary-book-filter" onchange="onBookFilterChange()">
                     <option value="">Все книги</option>
                     <option value="1">Book 1: Quantitative Methods</option>
                     <option value="2">Book 2: Economics</option>
@@ -472,6 +469,14 @@
                     <option value="9">Book 9: Portfolio Management</option>
                     <option value="10">Book 10: Ethics</option>
                 </select>
+                <select id="glossary-module-filter" onchange="filterGlossary()">
+                    <option value="">Все модули</option>
+                </select>
+            </div>
+            <div class="glossary-actions">
+                <button class="btn btn-ghost btn-sm" onclick="expandAllTerms()">Развернуть все</button>
+                <button class="btn btn-ghost btn-sm" onclick="collapseAllTerms()">Свернуть все</button>
+                <span id="glossary-count" class="text-muted"></span>
             </div>
 
             <div id="glossary-list" class="glossary-list">
