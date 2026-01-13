@@ -224,6 +224,16 @@
                             <li>Результат сразу после ответа</li>
                         </ul>
                     </div>
+
+                    <div class="mode-card learning-mode" onclick="startTest('learning')">
+                        <h3>Learning Mode</h3>
+                        <p>Обучение с объяснениями</p>
+                        <ul>
+                            <li>Объяснение после каждого ответа</li>
+                            <li>Формулы и расчёты</li>
+                            <li>Инструкции для калькулятора</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -246,21 +256,25 @@
                     <span class="question-difficulty" id="q-difficulty"></span>
                 </div>
                 <div id="question-text" class="question-text"></div>
-                <div id="question-formula" class="question-formula"></div>
-                <div id="question-image" class="question-image"></div>
+                <div id="question-table" class="question-table-container hidden"></div>
+                <div id="question-continuation" class="question-continuation hidden"></div>
+                <div id="question-formula" class="question-formula hidden"></div>
+                <div id="question-image" class="question-image hidden"></div>
 
                 <div id="options-container" class="options-container">
                     <!-- Options A, B, C -->
                 </div>
             </div>
 
-            <!-- Explanation (shown after answer in 90-second mode) -->
+            <!-- Explanation (shown after answer in 90-second mode or learning mode) -->
             <div id="explanation-container" class="glass-container hidden">
+                <div id="explanation-status" class="explanation-status"></div>
                 <h4>Объяснение</h4>
                 <div id="explanation-text"></div>
-                <div id="explanation-wrong"></div>
-                <div id="calculator-steps" class="hidden">
-                    <h5>Шаги на калькуляторе:</h5>
+                <div id="explanation-formula" class="explanation-formula hidden"></div>
+                <div id="explanation-wrong" class="explanation-wrong hidden"></div>
+                <div id="calculator-steps" class="calculator-steps hidden">
+                    <h5>Шаги на калькуляторе BA II Plus:</h5>
                     <ol id="calc-steps-list"></ol>
                 </div>
             </div>
@@ -269,6 +283,7 @@
         <div class="test-navigation">
             <button class="btn btn-secondary" onclick="prevQuestion()" id="prev-btn">← Назад</button>
             <div class="question-dots" id="question-dots"></div>
+            <button class="btn btn-accent hidden" onclick="checkSingleAnswer()" id="check-btn">Проверить</button>
             <button class="btn btn-primary" onclick="nextQuestion()" id="next-btn">Далее →</button>
         </div>
 
