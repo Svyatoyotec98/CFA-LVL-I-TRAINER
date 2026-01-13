@@ -2,13 +2,19 @@
   "book_id": 1,
   "book_name": "Quantitative Methods",
   "book_name_ru": "Количественные методы",
-  "total_questions": 30,
+  "total_questions": 62,
   "learning_modules": [
     {
       "module_id": 1,
       "module_name": "Rate and Return",
       "module_name_ru": "Ставки и доходности",
-      "los_covered": ["LOS 1a", "LOS 1b", "LOS 1c", "LOS 1d", "LOS 1e"],
+      "los_covered": [
+        "LOS 1a",
+        "LOS 1b",
+        "LOS 1c",
+        "LOS 1d",
+        "LOS 1e"
+      ],
       "questions": [
         {
           "question_id": "QM-1-013",
@@ -20,23 +26,52 @@
           "has_table": false,
           "table_data": null,
           "options": [
-            {"id": "opt1", "text": "$188,956.80"},
-            {"id": "opt2", "text": "$189,797.85"},
-            {"id": "opt3", "text": "$190,236.27"}
+            {
+              "id": "opt1",
+              "text": "$188,956.80"
+            },
+            {
+              "id": "opt2",
+              "text": "$189,797.85"
+            },
+            {
+              "id": "opt3",
+              "text": "$190,236.27"
+            }
           ],
           "correct_option_id": "opt3",
           "explanation": "FV with quarterly compounding: FV = PV[1 + rs/m]^(mN) = $150,000[1 + 0.08/4]^12 = $190,236.27",
           "explanation_ru": "FV с квартальным начислением.",
           "explanation_formula": "$FV_N = PV \\left[1 + \\frac{r_s}{m}\\right]^{mN} = \\$150,000 \\left[1 + \\frac{0.08}{4}\\right]^{12} = \\$190,236.27$",
           "explanation_wrong": {
-            "opt1": {"text": "FV with annual compounding instead of quarterly.", "formula": "$FV = \\$150,000(1.08)^3 = \\$188,956.80$"},
-            "opt2": {"text": "FV with semi-annual compounding.", "formula": "$FV = \\$150,000(1.04)^6 = \\$189,797.85$"}
+            "opt1": {
+              "text": "FV with annual compounding instead of quarterly.",
+              "formula": "$FV = \\$150,000(1.08)^3 = \\$188,956.80$"
+            },
+            "opt2": {
+              "text": "FV with semi-annual compounding.",
+              "formula": "$FV = \\$150,000(1.04)^6 = \\$189,797.85$"
+            }
           },
           "requires_calculation": true,
-          "calculator_steps": ["[2ND] [CLR TVM]", "[2ND] [P/Y] 4 [ENTER]", "[2ND] [QUIT]", "150000 [+/-] [PV]", "8 [I/Y]", "12 [N]", "0 [PMT]", "[CPT] [FV] → 190,236.27"],
+          "calculator_steps": [
+            "[2ND] [CLR TVM]",
+            "[2ND] [P/Y] 4 [ENTER]",
+            "[2ND] [QUIT]",
+            "150000 [+/-] [PV]",
+            "8 [I/Y]",
+            "12 [N]",
+            "0 [PMT]",
+            "[CPT] [FV] → 190,236.27"
+          ],
           "difficulty": "MEDIUM",
           "los_reference": "LOS 1d",
-          "topic_tags": ["FV", "compounding", "quarterly", "TVM"]
+          "topic_tags": [
+            "FV",
+            "compounding",
+            "quarterly",
+            "TVM"
+          ]
         },
         {
           "question_id": "QM-1-015",
@@ -48,23 +83,52 @@
           "has_table": false,
           "table_data": null,
           "options": [
-            {"id": "opt1", "text": "$2,200,000"},
-            {"id": "opt2", "text": "$2,205,000"},
-            {"id": "opt3", "text": "$2,209,426"}
+            {
+              "id": "opt1",
+              "text": "$2,200,000"
+            },
+            {
+              "id": "opt2",
+              "text": "$2,205,000"
+            },
+            {
+              "id": "opt3",
+              "text": "$2,209,426"
+            }
           ],
           "correct_option_id": "opt3",
           "explanation": "FV = $2,000,000[1 + 0.10/12]^12 = $2,209,426.14",
           "explanation_ru": "FV с ежемесячным начислением.",
           "explanation_formula": "$FV = \\$2,000,000 \\left[1 + \\frac{0.10}{12}\\right]^{12} = \\$2,209,426.14$",
           "explanation_wrong": {
-            "opt1": {"text": "FV with annual compounding.", "formula": "$FV = \\$2,000,000 \\times 1.10 = \\$2,200,000$"},
-            "opt2": {"text": "FV with semi-annual compounding.", "formula": "$FV = \\$2,000,000(1.05)^2 = \\$2,205,000$"}
+            "opt1": {
+              "text": "FV with annual compounding.",
+              "formula": "$FV = \\$2,000,000 \\times 1.10 = \\$2,200,000$"
+            },
+            "opt2": {
+              "text": "FV with semi-annual compounding.",
+              "formula": "$FV = \\$2,000,000(1.05)^2 = \\$2,205,000$"
+            }
           },
           "requires_calculation": true,
-          "calculator_steps": ["[2ND] [CLR TVM]", "[2ND] [P/Y] 12 [ENTER]", "[2ND] [QUIT]", "2000000 [+/-] [PV]", "10 [I/Y]", "12 [N]", "0 [PMT]", "[CPT] [FV] → 2,209,426.14"],
+          "calculator_steps": [
+            "[2ND] [CLR TVM]",
+            "[2ND] [P/Y] 12 [ENTER]",
+            "[2ND] [QUIT]",
+            "2000000 [+/-] [PV]",
+            "10 [I/Y]",
+            "12 [N]",
+            "0 [PMT]",
+            "[CPT] [FV] → 2,209,426.14"
+          ],
           "difficulty": "MEDIUM",
           "los_reference": "LOS 1d",
-          "topic_tags": ["FV", "compounding", "monthly", "TVM"]
+          "topic_tags": [
+            "FV",
+            "compounding",
+            "monthly",
+            "TVM"
+          ]
         },
         {
           "question_id": "QM-1-024",
@@ -76,23 +140,52 @@
           "has_table": false,
           "table_data": null,
           "options": [
-            {"id": "opt1", "text": "USD 577,158.80"},
-            {"id": "opt2", "text": "USD 583,656.92"},
-            {"id": "opt3", "text": "USD 587,138.71"}
+            {
+              "id": "opt1",
+              "text": "USD 577,158.80"
+            },
+            {
+              "id": "opt2",
+              "text": "USD 583,656.92"
+            },
+            {
+              "id": "opt3",
+              "text": "USD 587,138.71"
+            }
           ],
           "correct_option_id": "opt3",
           "explanation": "FV = $400,000[1 + 0.13/4]^12 = $587,138.71",
           "explanation_ru": "FV с квартальным начислением.",
           "explanation_formula": "$FV = \\$400,000 \\left[1 + \\frac{0.13}{4}\\right]^{12} = \\$587,138.71$",
           "explanation_wrong": {
-            "opt1": {"text": "FV with annual compounding.", "formula": "$FV = \\$400,000(1.13)^3 = \\$577,158.80$"},
-            "opt2": {"text": "FV with semi-annual compounding.", "formula": "$FV = \\$400,000(1.065)^6 = \\$583,656.92$"}
+            "opt1": {
+              "text": "FV with annual compounding.",
+              "formula": "$FV = \\$400,000(1.13)^3 = \\$577,158.80$"
+            },
+            "opt2": {
+              "text": "FV with semi-annual compounding.",
+              "formula": "$FV = \\$400,000(1.065)^6 = \\$583,656.92$"
+            }
           },
           "requires_calculation": true,
-          "calculator_steps": ["[2ND] [CLR TVM]", "[2ND] [P/Y] 4 [ENTER]", "[2ND] [QUIT]", "400000 [+/-] [PV]", "13 [I/Y]", "12 [N]", "0 [PMT]", "[CPT] [FV] → 587,138.71"],
+          "calculator_steps": [
+            "[2ND] [CLR TVM]",
+            "[2ND] [P/Y] 4 [ENTER]",
+            "[2ND] [QUIT]",
+            "400000 [+/-] [PV]",
+            "13 [I/Y]",
+            "12 [N]",
+            "0 [PMT]",
+            "[CPT] [FV] → 587,138.71"
+          ],
           "difficulty": "MEDIUM",
           "los_reference": "LOS 1d",
-          "topic_tags": ["FV", "compounding", "quarterly", "TVM"]
+          "topic_tags": [
+            "FV",
+            "compounding",
+            "quarterly",
+            "TVM"
+          ]
         },
         {
           "question_id": "QM-1-026",
@@ -104,23 +197,46 @@
           "has_table": false,
           "table_data": null,
           "options": [
-            {"id": "opt1", "text": "$729,303.75"},
-            {"id": "opt2", "text": "$732,831.62"},
-            {"id": "opt3", "text": "$732,841.65"}
+            {
+              "id": "opt1",
+              "text": "$729,303.75"
+            },
+            {
+              "id": "opt2",
+              "text": "$732,831.62"
+            },
+            {
+              "id": "opt3",
+              "text": "$732,841.65"
+            }
           ],
           "correct_option_id": "opt3",
           "explanation": "For continuous compounding: FV = PV × e^(rN) = $600,000 × e^(0.20) = $732,841.65",
           "explanation_ru": "Для непрерывного начисления: FV = PV × e^(rN)",
           "explanation_formula": "$FV = PV \\times e^{rN} = \\$600,000 \\times e^{0.20} = \\$732,841.65$",
           "explanation_wrong": {
-            "opt1": {"text": "FV with annual compounding.", "formula": "$FV = \\$600,000(1.05)^4 = \\$729,303.75$"},
-            "opt2": {"text": "FV with daily compounding.", "formula": "$FV = \\$600,000(1 + 0.05/365)^{1460} = \\$732,831.62$"}
+            "opt1": {
+              "text": "FV with annual compounding.",
+              "formula": "$FV = \\$600,000(1.05)^4 = \\$729,303.75$"
+            },
+            "opt2": {
+              "text": "FV with daily compounding.",
+              "formula": "$FV = \\$600,000(1 + 0.05/365)^{1460} = \\$732,831.62$"
+            }
           },
           "requires_calculation": true,
-          "calculator_steps": ["0.05 [×] 4 [=] 0.20", "[2ND] [e^x] → 1.2214", "[×] 600000 [=] → 732,841.65"],
+          "calculator_steps": [
+            "0.05 [×] 4 [=] 0.20",
+            "[2ND] [e^x] → 1.2214",
+            "[×] 600000 [=] → 732,841.65"
+          ],
           "difficulty": "MEDIUM",
           "los_reference": "LOS 1d",
-          "topic_tags": ["FV", "continuous_compounding", "exponential"]
+          "topic_tags": [
+            "FV",
+            "continuous_compounding",
+            "exponential"
+          ]
         },
         {
           "question_id": "QM-1-045",
@@ -132,23 +248,47 @@
           "has_table": false,
           "table_data": null,
           "options": [
-            {"id": "opt1", "text": "2.75%"},
-            {"id": "opt2", "text": "11.00%"},
-            {"id": "opt3", "text": "11.46%"}
+            {
+              "id": "opt1",
+              "text": "2.75%"
+            },
+            {
+              "id": "opt2",
+              "text": "11.00%"
+            },
+            {
+              "id": "opt3",
+              "text": "11.46%"
+            }
           ],
           "correct_option_id": "opt3",
           "explanation": "EAR = (1 + r/m)^m - 1 = (1 + 0.11/4)^4 - 1 = 11.46%",
           "explanation_ru": "EAR = (1 + r/m)^m - 1",
           "explanation_formula": "$EAR = \\left(1 + \\frac{r_s}{m}\\right)^m - 1 = (1.0275)^4 - 1 = 11.46\\%$",
           "explanation_wrong": {
-            "opt1": {"text": "2.75% is the periodic rate, not EAR.", "formula": "$r_{periodic} = \\frac{11\\%}{4} = 2.75\\%$"},
-            "opt2": {"text": "11% is the nominal rate, not effective.", "formula": null}
+            "opt1": {
+              "text": "2.75% is the periodic rate, not EAR.",
+              "formula": "$r_{periodic} = \\frac{11\\%}{4} = 2.75\\%$"
+            },
+            "opt2": {
+              "text": "11% is the nominal rate, not effective.",
+              "formula": null
+            }
           },
           "requires_calculation": true,
-          "calculator_steps": ["[2ND] [ICONV]", "NOM = 11 [ENTER] [↓]", "C/Y = 4 [ENTER] [↓]", "[CPT] EFF → 11.46%"],
+          "calculator_steps": [
+            "[2ND] [ICONV]",
+            "NOM = 11 [ENTER] [↓]",
+            "C/Y = 4 [ENTER] [↓]",
+            "[CPT] EFF → 11.46%"
+          ],
           "difficulty": "EASY",
           "los_reference": "LOS 1d",
-          "topic_tags": ["EAR", "compounding", "quarterly"]
+          "topic_tags": [
+            "EAR",
+            "compounding",
+            "quarterly"
+          ]
         },
         {
           "question_id": "QM-1-128",
@@ -160,23 +300,45 @@
           "has_table": false,
           "table_data": null,
           "options": [
-            {"id": "opt1", "text": "3.91%"},
-            {"id": "opt2", "text": "4%"},
-            {"id": "opt3", "text": "12.19%"}
+            {
+              "id": "opt1",
+              "text": "3.91%"
+            },
+            {
+              "id": "opt2",
+              "text": "4%"
+            },
+            {
+              "id": "opt3",
+              "text": "12.19%"
+            }
           ],
           "correct_option_id": "opt3",
           "explanation": "HPR = (1.08)(1.06)(0.98) - 1 = 12.19%",
           "explanation_ru": "HPR = произведение (1+r) минус 1",
           "explanation_formula": "$HPR = (1.08)(1.06)(0.98) - 1 = 1.1219 - 1 = 12.19\\%$",
           "explanation_wrong": {
-            "opt1": {"text": "Incorrect geometric mean.", "formula": null},
-            "opt2": {"text": "Simple arithmetic average, not HPR.", "formula": "$\\frac{8+6-2}{3} = 4\\%$"}
+            "opt1": {
+              "text": "Incorrect geometric mean.",
+              "formula": null
+            },
+            "opt2": {
+              "text": "Simple arithmetic average, not HPR.",
+              "formula": "$\\frac{8+6-2}{3} = 4\\%$"
+            }
           },
           "requires_calculation": true,
-          "calculator_steps": ["1.08 [×] 1.06 [×] 0.98 [=] 1.1219", "[-] 1 [=] → 0.1219 = 12.19%"],
+          "calculator_steps": [
+            "1.08 [×] 1.06 [×] 0.98 [=] 1.1219",
+            "[-] 1 [=] → 0.1219 = 12.19%"
+          ],
           "difficulty": "EASY",
           "los_reference": "LOS 1b",
-          "topic_tags": ["HPR", "compounding", "multi_period"]
+          "topic_tags": [
+            "HPR",
+            "compounding",
+            "multi_period"
+          ]
         },
         {
           "question_id": "QM-1-219",
@@ -188,23 +350,45 @@
           "has_table": false,
           "table_data": null,
           "options": [
-            {"id": "opt1", "text": "USD 144.60"},
-            {"id": "opt2", "text": "USD 122.80"},
-            {"id": "opt3", "text": "USD 131.50"}
+            {
+              "id": "opt1",
+              "text": "USD 144.60"
+            },
+            {
+              "id": "opt2",
+              "text": "USD 122.80"
+            },
+            {
+              "id": "opt3",
+              "text": "USD 131.50"
+            }
           ],
           "correct_option_id": "opt3",
           "explanation": "P0 = (P1 + D)/(1 + r) = (142 + 4)/1.11 = $131.50",
           "explanation_ru": "P0 = (P1 + D)/(1 + r)",
           "explanation_formula": "$P_0 = \\frac{P_1 + D}{1 + r} = \\frac{142 + 4}{1.11} = \\$131.50$",
           "explanation_wrong": {
-            "opt1": {"text": "Incorrect formula application.", "formula": null},
-            "opt2": {"text": "Wrong calculation of required price.", "formula": null}
+            "opt1": {
+              "text": "Incorrect formula application.",
+              "formula": null
+            },
+            "opt2": {
+              "text": "Wrong calculation of required price.",
+              "formula": null
+            }
           },
           "requires_calculation": true,
-          "calculator_steps": ["142 [+] 4 [=] 146", "[÷] 1.11 [=] → 131.53"],
+          "calculator_steps": [
+            "142 [+] 4 [=] 146",
+            "[÷] 1.11 [=] → 131.53"
+          ],
           "difficulty": "MEDIUM",
           "los_reference": "LOS 1a",
-          "topic_tags": ["HPR", "required_return", "dividend"]
+          "topic_tags": [
+            "HPR",
+            "required_return",
+            "dividend"
+          ]
         },
         {
           "question_id": "QM-1-221",
@@ -216,23 +400,48 @@
           "has_table": false,
           "table_data": null,
           "options": [
-            {"id": "opt1", "text": "11.4%"},
-            {"id": "opt2", "text": "15.2%"},
-            {"id": "opt3", "text": "17.4%"}
+            {
+              "id": "opt1",
+              "text": "11.4%"
+            },
+            {
+              "id": "opt2",
+              "text": "15.2%"
+            },
+            {
+              "id": "opt3",
+              "text": "17.4%"
+            }
           ],
           "correct_option_id": "opt3",
           "explanation": "HPR1 = (46-44+3)/44 = 11.36%. HPR2 = (57-46)/46 = 23.91%. TWRR = [(1.1136)(1.2391)]^0.5 - 1 = 17.4%",
           "explanation_ru": "TWRR = геометрическое среднее HPR",
           "explanation_formula": "$TWRR = [(1.1136)(1.2391)]^{0.5} - 1 = 17.4\\%$",
           "explanation_wrong": {
-            "opt1": {"text": "Only first year HPR.", "formula": "$HPR_1 = 11.36\\%$"},
-            "opt2": {"text": "Underestimates combined effect.", "formula": null}
+            "opt1": {
+              "text": "Only first year HPR.",
+              "formula": "$HPR_1 = 11.36\\%$"
+            },
+            "opt2": {
+              "text": "Underestimates combined effect.",
+              "formula": null
+            }
           },
           "requires_calculation": true,
-          "calculator_steps": ["HPR1: (46-44+3)/44 = 0.1136", "HPR2: (57-46)/46 = 0.2391", "1.1136 [×] 1.2391 [=]", "[yˣ] 0.5 [=]", "[-] 1 [=] → 17.4%"],
+          "calculator_steps": [
+            "HPR1: (46-44+3)/44 = 0.1136",
+            "HPR2: (57-46)/46 = 0.2391",
+            "1.1136 [×] 1.2391 [=]",
+            "[yˣ] 0.5 [=]",
+            "[-] 1 [=] → 17.4%"
+          ],
           "difficulty": "HARD",
           "los_reference": "LOS 1c",
-          "topic_tags": ["TWRR", "HPR", "geometric_linking"]
+          "topic_tags": [
+            "TWRR",
+            "HPR",
+            "geometric_linking"
+          ]
         },
         {
           "question_id": "QM-1-397",
@@ -244,23 +453,52 @@
           "has_table": false,
           "table_data": null,
           "options": [
-            {"id": "opt1", "text": "¥17,908.48"},
-            {"id": "opt2", "text": "¥18,193.97"},
-            {"id": "opt3", "text": "¥18,220.29"}
+            {
+              "id": "opt1",
+              "text": "¥17,908.48"
+            },
+            {
+              "id": "opt2",
+              "text": "¥18,193.97"
+            },
+            {
+              "id": "opt3",
+              "text": "¥18,220.29"
+            }
           ],
           "correct_option_id": "opt2",
           "explanation": "FV = ¥10,000[1 + 0.06/12]^120 = ¥18,193.97",
           "explanation_ru": "FV с ежемесячным начислением.",
           "explanation_formula": "$FV = ¥10,000 \\left[1 + \\frac{0.06}{12}\\right]^{120} = ¥18,193.97$",
           "explanation_wrong": {
-            "opt1": {"text": "FV with annual compounding.", "formula": "$FV = ¥10,000(1.06)^{10} = ¥17,908.48$"},
-            "opt3": {"text": "FV with daily compounding.", "formula": null}
+            "opt1": {
+              "text": "FV with annual compounding.",
+              "formula": "$FV = ¥10,000(1.06)^{10} = ¥17,908.48$"
+            },
+            "opt3": {
+              "text": "FV with daily compounding.",
+              "formula": null
+            }
           },
           "requires_calculation": true,
-          "calculator_steps": ["[2ND] [CLR TVM]", "[2ND] [P/Y] 12 [ENTER]", "[2ND] [QUIT]", "10000 [+/-] [PV]", "6 [I/Y]", "120 [N]", "0 [PMT]", "[CPT] [FV] → 18,193.97"],
+          "calculator_steps": [
+            "[2ND] [CLR TVM]",
+            "[2ND] [P/Y] 12 [ENTER]",
+            "[2ND] [QUIT]",
+            "10000 [+/-] [PV]",
+            "6 [I/Y]",
+            "120 [N]",
+            "0 [PMT]",
+            "[CPT] [FV] → 18,193.97"
+          ],
           "difficulty": "MEDIUM",
           "los_reference": "LOS 1d",
-          "topic_tags": ["FV", "compounding", "monthly", "TVM"]
+          "topic_tags": [
+            "FV",
+            "compounding",
+            "monthly",
+            "TVM"
+          ]
         },
         {
           "question_id": "QM-1-399",
@@ -272,23 +510,51 @@
           "has_table": false,
           "table_data": null,
           "options": [
-            {"id": "opt1", "text": "USD 32,700.00"},
-            {"id": "opt2", "text": "USD 32,792.50"},
-            {"id": "opt3", "text": "USD 32,814.21"}
+            {
+              "id": "opt1",
+              "text": "USD 32,700.00"
+            },
+            {
+              "id": "opt2",
+              "text": "USD 32,792.50"
+            },
+            {
+              "id": "opt3",
+              "text": "USD 32,814.21"
+            }
           ],
           "correct_option_id": "opt3",
           "explanation": "FV = $30,000[1 + 0.09/12]^12 = $32,814.21",
           "explanation_ru": "FV с ежемесячным начислением.",
           "explanation_formula": "$FV = \\$30,000 \\left[1 + \\frac{0.09}{12}\\right]^{12} = \\$32,814.21$",
           "explanation_wrong": {
-            "opt1": {"text": "FV with annual compounding.", "formula": "$FV = \\$30,000(1.09) = \\$32,700$"},
-            "opt2": {"text": "FV with quarterly compounding.", "formula": null}
+            "opt1": {
+              "text": "FV with annual compounding.",
+              "formula": "$FV = \\$30,000(1.09) = \\$32,700$"
+            },
+            "opt2": {
+              "text": "FV with quarterly compounding.",
+              "formula": null
+            }
           },
           "requires_calculation": true,
-          "calculator_steps": ["[2ND] [CLR TVM]", "[2ND] [P/Y] 12 [ENTER]", "30000 [+/-] [PV]", "9 [I/Y]", "12 [N]", "0 [PMT]", "[CPT] [FV] → 32,814.21"],
+          "calculator_steps": [
+            "[2ND] [CLR TVM]",
+            "[2ND] [P/Y] 12 [ENTER]",
+            "30000 [+/-] [PV]",
+            "9 [I/Y]",
+            "12 [N]",
+            "0 [PMT]",
+            "[CPT] [FV] → 32,814.21"
+          ],
           "difficulty": "EASY",
           "los_reference": "LOS 1d",
-          "topic_tags": ["FV", "compounding", "monthly", "TVM"]
+          "topic_tags": [
+            "FV",
+            "compounding",
+            "monthly",
+            "TVM"
+          ]
         },
         {
           "question_id": "QM-1-404",
@@ -300,23 +566,45 @@
           "has_table": false,
           "table_data": null,
           "options": [
-            {"id": "opt1", "text": "-2.5%"},
-            {"id": "opt2", "text": "5.5%"},
-            {"id": "opt3", "text": "8%"}
+            {
+              "id": "opt1",
+              "text": "-2.5%"
+            },
+            {
+              "id": "opt2",
+              "text": "5.5%"
+            },
+            {
+              "id": "opt3",
+              "text": "8%"
+            }
           ],
           "correct_option_id": "opt2",
           "explanation": "HPR = (975 - 1000 + 80)/1000 = 5.5%",
           "explanation_ru": "HPR = (цена продажи - цена покупки + купон)/цена покупки",
           "explanation_formula": "$HPR = \\frac{975 - 1000 + 80}{1000} = 5.5\\%$",
           "explanation_wrong": {
-            "opt1": {"text": "Only capital loss, ignores coupon.", "formula": "$\\frac{975-1000}{1000} = -2.5\\%$"},
-            "opt3": {"text": "Just coupon rate, ignores capital loss.", "formula": null}
+            "opt1": {
+              "text": "Only capital loss, ignores coupon.",
+              "formula": "$\\frac{975-1000}{1000} = -2.5\\%$"
+            },
+            "opt3": {
+              "text": "Just coupon rate, ignores capital loss.",
+              "formula": null
+            }
           },
           "requires_calculation": true,
-          "calculator_steps": ["975 [-] 1000 [+] 80 [=] 55", "[÷] 1000 [=] → 0.055 = 5.5%"],
+          "calculator_steps": [
+            "975 [-] 1000 [+] 80 [=] 55",
+            "[÷] 1000 [=] → 0.055 = 5.5%"
+          ],
           "difficulty": "EASY",
           "los_reference": "LOS 1b",
-          "topic_tags": ["HPR", "bond", "coupon"]
+          "topic_tags": [
+            "HPR",
+            "bond",
+            "coupon"
+          ]
         },
         {
           "question_id": "QM-1-770",
@@ -326,25 +614,74 @@
           "question_text_formula": null,
           "question_continuation": null,
           "has_table": true,
-          "table_data": {"headers": ["Year", "Return (%)"], "rows": [["2011", "13"], ["2012", "19"], ["2013", "-11"], ["2014", "25"], ["2015", "30"]]},
+          "table_data": {
+            "headers": [
+              "Year",
+              "Return (%)"
+            ],
+            "rows": [
+              [
+                "2011",
+                "13"
+              ],
+              [
+                "2012",
+                "19"
+              ],
+              [
+                "2013",
+                "-11"
+              ],
+              [
+                "2014",
+                "25"
+              ],
+              [
+                "2015",
+                "30"
+              ]
+            ]
+          },
           "options": [
-            {"id": "opt1", "text": "94%"},
-            {"id": "opt2", "text": "21%"},
-            {"id": "opt3", "text": "14%"}
+            {
+              "id": "opt1",
+              "text": "94%"
+            },
+            {
+              "id": "opt2",
+              "text": "21%"
+            },
+            {
+              "id": "opt3",
+              "text": "14%"
+            }
           ],
           "correct_option_id": "opt1",
           "explanation": "HPR = (1.13)(1.19)(0.89)(1.25)(1.30) - 1 = 94%",
           "explanation_ru": "HPR = произведение (1+r) минус 1",
           "explanation_formula": "$HPR = (1.13)(1.19)(0.89)(1.25)(1.30) - 1 = 94\\%$",
           "explanation_wrong": {
-            "opt2": {"text": "Average or CAGR, not total HPR.", "formula": null},
-            "opt3": {"text": "Significantly underestimates.", "formula": null}
+            "opt2": {
+              "text": "Average or CAGR, not total HPR.",
+              "formula": null
+            },
+            "opt3": {
+              "text": "Significantly underestimates.",
+              "formula": null
+            }
           },
           "requires_calculation": true,
-          "calculator_steps": ["1.13 [×] 1.19 [×] 0.89 [×] 1.25 [×] 1.30 [=]", "[-] 1 [=] → 0.94 = 94%"],
+          "calculator_steps": [
+            "1.13 [×] 1.19 [×] 0.89 [×] 1.25 [×] 1.30 [=]",
+            "[-] 1 [=] → 0.94 = 94%"
+          ],
           "difficulty": "MEDIUM",
           "los_reference": "LOS 1b",
-          "topic_tags": ["HPR", "multi_period", "compounding"]
+          "topic_tags": [
+            "HPR",
+            "multi_period",
+            "compounding"
+          ]
         },
         {
           "question_id": "QM-1-1303",
@@ -356,23 +693,45 @@
           "has_table": false,
           "table_data": null,
           "options": [
-            {"id": "opt1", "text": "10%"},
-            {"id": "opt2", "text": "21%"},
-            {"id": "opt3", "text": "-7%"}
+            {
+              "id": "opt1",
+              "text": "10%"
+            },
+            {
+              "id": "opt2",
+              "text": "21%"
+            },
+            {
+              "id": "opt3",
+              "text": "-7%"
+            }
           ],
           "correct_option_id": "opt3",
           "explanation": "(2+9-3+13+x)/5 = 2.8%. Solving: x = -7%",
           "explanation_ru": "Среднее арифм. = сумма/5 = 2.8%. x = -7%",
           "explanation_formula": "$\\frac{2+9-3+13+x}{5} = 2.8\\% \\Rightarrow x = -7\\%$",
           "explanation_wrong": {
-            "opt1": {"text": "Would give higher average.", "formula": null},
-            "opt2": {"text": "Significantly deviates.", "formula": null}
+            "opt1": {
+              "text": "Would give higher average.",
+              "formula": null
+            },
+            "opt2": {
+              "text": "Significantly deviates.",
+              "formula": null
+            }
           },
           "requires_calculation": true,
-          "calculator_steps": ["2.8 [×] 5 [=] 14", "2 [+] 9 [-] 3 [+] 13 [=] 21", "14 [-] 21 [=] → -7%"],
+          "calculator_steps": [
+            "2.8 [×] 5 [=] 14",
+            "2 [+] 9 [-] 3 [+] 13 [=] 21",
+            "14 [-] 21 [=] → -7%"
+          ],
           "difficulty": "EASY",
           "los_reference": "LOS 1d",
-          "topic_tags": ["arithmetic_mean", "return"]
+          "topic_tags": [
+            "arithmetic_mean",
+            "return"
+          ]
         },
         {
           "question_id": "QM-1-1305",
@@ -384,23 +743,45 @@
           "has_table": false,
           "table_data": null,
           "options": [
-            {"id": "opt1", "text": "0.83%"},
-            {"id": "opt2", "text": "6%"},
-            {"id": "opt3", "text": "18%"}
+            {
+              "id": "opt1",
+              "text": "0.83%"
+            },
+            {
+              "id": "opt2",
+              "text": "6%"
+            },
+            {
+              "id": "opt3",
+              "text": "18%"
+            }
           ],
           "correct_option_id": "opt1",
           "explanation": "G = [(0.78)(1.18)(1.09)(1.06)(0.98)]^(1/5) - 1 = 0.83%",
           "explanation_ru": "Геом. среднее = [произведение (1+r)]^(1/n) - 1",
           "explanation_formula": "$G = [(0.78)(1.18)(1.09)(1.06)(0.98)]^{1/5} - 1 = 0.83\\%$",
           "explanation_wrong": {
-            "opt2": {"text": "Simple average, not geometric.", "formula": null},
-            "opt3": {"text": "Overestimates performance.", "formula": null}
+            "opt2": {
+              "text": "Simple average, not geometric.",
+              "formula": null
+            },
+            "opt3": {
+              "text": "Overestimates performance.",
+              "formula": null
+            }
           },
           "requires_calculation": true,
-          "calculator_steps": ["0.78 [×] 1.18 [×] 1.09 [×] 1.06 [×] 0.98 [=]", "[yˣ] 0.2 [=]", "[-] 1 [=] → 0.83%"],
+          "calculator_steps": [
+            "0.78 [×] 1.18 [×] 1.09 [×] 1.06 [×] 0.98 [=]",
+            "[yˣ] 0.2 [=]",
+            "[-] 1 [=] → 0.83%"
+          ],
           "difficulty": "MEDIUM",
           "los_reference": "LOS 1d",
-          "topic_tags": ["geometric_mean", "return"]
+          "topic_tags": [
+            "geometric_mean",
+            "return"
+          ]
         },
         {
           "question_id": "QM-1-1317",
@@ -412,23 +793,45 @@
           "has_table": false,
           "table_data": null,
           "options": [
-            {"id": "opt1", "text": "70%"},
-            {"id": "opt2", "text": "35%"},
-            {"id": "opt3", "text": "105%"}
+            {
+              "id": "opt1",
+              "text": "70%"
+            },
+            {
+              "id": "opt2",
+              "text": "35%"
+            },
+            {
+              "id": "opt3",
+              "text": "105%"
+            }
           ],
           "correct_option_id": "opt1",
           "explanation": "Leveraged return = (1352-1000)/500 = 70.4%",
           "explanation_ru": "Доходность на собственный капитал = прибыль/собственные средства",
           "explanation_formula": "$R_{leveraged} = \\frac{1352 - 1000}{500} = 70.4\\%$",
           "explanation_wrong": {
-            "opt2": {"text": "Unleveraged return.", "formula": "$R = \\frac{1352-1000}{1000} = 35.2\\%$"},
-            "opt3": {"text": "Overestimates leverage effect.", "formula": null}
+            "opt2": {
+              "text": "Unleveraged return.",
+              "formula": "$R = \\frac{1352-1000}{1000} = 35.2\\%$"
+            },
+            "opt3": {
+              "text": "Overestimates leverage effect.",
+              "formula": null
+            }
           },
           "requires_calculation": true,
-          "calculator_steps": ["1352 [-] 1000 [=] 352", "[÷] 500 [=] → 70.4%"],
+          "calculator_steps": [
+            "1352 [-] 1000 [=] 352",
+            "[÷] 500 [=] → 70.4%"
+          ],
           "difficulty": "MEDIUM",
           "los_reference": "LOS 1e",
-          "topic_tags": ["leverage", "return", "equity"]
+          "topic_tags": [
+            "leverage",
+            "return",
+            "equity"
+          ]
         },
         {
           "question_id": "QM-1-1318",
@@ -440,23 +843,42 @@
           "has_table": false,
           "table_data": null,
           "options": [
-            {"id": "opt1", "text": "Gross return"},
-            {"id": "opt2", "text": "Net return"},
-            {"id": "opt3", "text": "Geometric return"}
+            {
+              "id": "opt1",
+              "text": "Gross return"
+            },
+            {
+              "id": "opt2",
+              "text": "Net return"
+            },
+            {
+              "id": "opt3",
+              "text": "Geometric return"
+            }
           ],
           "correct_option_id": "opt2",
           "explanation": "Net return is after deducting fees. Gross is before fees.",
           "explanation_ru": "Чистая доходность — после вычета комиссий.",
           "explanation_formula": null,
           "explanation_wrong": {
-            "opt1": {"text": "Gross is before fees.", "formula": null},
-            "opt3": {"text": "Geometric measures compound growth.", "formula": null}
+            "opt1": {
+              "text": "Gross is before fees.",
+              "formula": null
+            },
+            "opt3": {
+              "text": "Geometric measures compound growth.",
+              "formula": null
+            }
           },
           "requires_calculation": false,
           "calculator_steps": null,
           "difficulty": "EASY",
           "los_reference": "LOS 1a",
-          "topic_tags": ["net_return", "gross_return", "conceptual"]
+          "topic_tags": [
+            "net_return",
+            "gross_return",
+            "conceptual"
+          ]
         },
         {
           "question_id": "QM-1-1319",
@@ -468,23 +890,45 @@
           "has_table": false,
           "table_data": null,
           "options": [
-            {"id": "opt1", "text": "3.55%"},
-            {"id": "opt2", "text": "4%"},
-            {"id": "opt3", "text": "2.78%"}
+            {
+              "id": "opt1",
+              "text": "3.55%"
+            },
+            {
+              "id": "opt2",
+              "text": "4%"
+            },
+            {
+              "id": "opt3",
+              "text": "2.78%"
+            }
           ],
           "correct_option_id": "opt1",
           "explanation": "G = [(0.97)(1.06)(1.08)]^(1/3) - 1 = 3.55%",
           "explanation_ru": "Геом. среднее = [(0.97)(1.06)(1.08)]^(1/3) - 1",
           "explanation_formula": "$G = [(0.97)(1.06)(1.08)]^{1/3} - 1 = 3.55\\%$",
           "explanation_wrong": {
-            "opt2": {"text": "Overestimates.", "formula": null},
-            "opt3": {"text": "Underestimates.", "formula": null}
+            "opt2": {
+              "text": "Overestimates.",
+              "formula": null
+            },
+            "opt3": {
+              "text": "Underestimates.",
+              "formula": null
+            }
           },
           "requires_calculation": true,
-          "calculator_steps": ["0.97 [×] 1.06 [×] 1.08 [=]", "[yˣ] 0.3333 [=]", "[-] 1 [=] → 3.55%"],
+          "calculator_steps": [
+            "0.97 [×] 1.06 [×] 1.08 [=]",
+            "[yˣ] 0.3333 [=]",
+            "[-] 1 [=] → 3.55%"
+          ],
           "difficulty": "EASY",
           "los_reference": "LOS 1d",
-          "topic_tags": ["geometric_mean", "return"]
+          "topic_tags": [
+            "geometric_mean",
+            "return"
+          ]
         },
         {
           "question_id": "QM-1-1320",
@@ -496,23 +940,42 @@
           "has_table": false,
           "table_data": null,
           "options": [
-            {"id": "opt1", "text": "Higher than the arithmetic mean return value"},
-            {"id": "opt2", "text": "Lower than the arithmetic mean return value"},
-            {"id": "opt3", "text": "The same as the arithmetic mean return value"}
+            {
+              "id": "opt1",
+              "text": "Higher than the arithmetic mean return value"
+            },
+            {
+              "id": "opt2",
+              "text": "Lower than the arithmetic mean return value"
+            },
+            {
+              "id": "opt3",
+              "text": "The same as the arithmetic mean return value"
+            }
           ],
           "correct_option_id": "opt2",
           "explanation": "With volatility, geometric mean is always less than arithmetic mean due to volatility drag.",
           "explanation_ru": "При волатильности геом. среднее всегда меньше арифметического.",
           "explanation_formula": "$G \\leq A$ (equality only when returns are constant)",
           "explanation_wrong": {
-            "opt1": {"text": "Arithmetic always overstates compound growth.", "formula": null},
-            "opt3": {"text": "Equal only when returns are constant.", "formula": null}
+            "opt1": {
+              "text": "Arithmetic always overstates compound growth.",
+              "formula": null
+            },
+            "opt3": {
+              "text": "Equal only when returns are constant.",
+              "formula": null
+            }
           },
           "requires_calculation": false,
           "calculator_steps": null,
           "difficulty": "EASY",
           "los_reference": "LOS 1d",
-          "topic_tags": ["geometric_mean", "arithmetic_mean", "volatility"]
+          "topic_tags": [
+            "geometric_mean",
+            "arithmetic_mean",
+            "volatility"
+          ]
         },
         {
           "question_id": "QM-1-1322",
@@ -524,23 +987,41 @@
           "has_table": false,
           "table_data": null,
           "options": [
-            {"id": "opt1", "text": "Holding period return"},
-            {"id": "opt2", "text": "Geometric mean"},
-            {"id": "opt3", "text": "Arithmetic mean"}
+            {
+              "id": "opt1",
+              "text": "Holding period return"
+            },
+            {
+              "id": "opt2",
+              "text": "Geometric mean"
+            },
+            {
+              "id": "opt3",
+              "text": "Arithmetic mean"
+            }
           ],
           "correct_option_id": "opt1",
           "explanation": "HPR measures return over a specific period. Means are for multiple periods.",
           "explanation_ru": "HPR — для конкретного периода. Средние — для нескольких.",
           "explanation_formula": null,
           "explanation_wrong": {
-            "opt2": {"text": "For averaging multiple periods.", "formula": null},
-            "opt3": {"text": "For averaging multiple periods.", "formula": null}
+            "opt2": {
+              "text": "For averaging multiple periods.",
+              "formula": null
+            },
+            "opt3": {
+              "text": "For averaging multiple periods.",
+              "formula": null
+            }
           },
           "requires_calculation": false,
           "calculator_steps": null,
           "difficulty": "EASY",
           "los_reference": "LOS 1b",
-          "topic_tags": ["HPR", "conceptual"]
+          "topic_tags": [
+            "HPR",
+            "conceptual"
+          ]
         },
         {
           "question_id": "QM-1-1324",
@@ -552,23 +1033,49 @@
           "has_table": false,
           "table_data": null,
           "options": [
-            {"id": "opt1", "text": "33.88%"},
-            {"id": "opt2", "text": "31.78%"},
-            {"id": "opt3", "text": "29.45%"}
+            {
+              "id": "opt1",
+              "text": "33.88%"
+            },
+            {
+              "id": "opt2",
+              "text": "31.78%"
+            },
+            {
+              "id": "opt3",
+              "text": "29.45%"
+            }
           ],
           "correct_option_id": "opt1",
           "explanation": "MWRR = IRR. CF0=-30, CF1=-42, CF2=+110. IRR = 33.88%",
           "explanation_ru": "MWRR = IRR денежных потоков",
           "explanation_formula": "$-30 + \\frac{-42}{(1+r)} + \\frac{110}{(1+r)^2} = 0 \\Rightarrow r = 33.88\\%$",
           "explanation_wrong": {
-            "opt2": {"text": "IRR miscalculation.", "formula": null},
-            "opt3": {"text": "Underestimates MWRR.", "formula": null}
+            "opt2": {
+              "text": "IRR miscalculation.",
+              "formula": null
+            },
+            "opt3": {
+              "text": "Underestimates MWRR.",
+              "formula": null
+            }
           },
           "requires_calculation": true,
-          "calculator_steps": ["[CF]", "[2ND] [CLR WORK]", "30 [+/-] [ENTER] [↓]", "42 [+/-] [ENTER] [↓] 1 [ENTER] [↓]", "110 [ENTER] [↓] 1 [ENTER]", "[IRR] [CPT] → 33.88%"],
+          "calculator_steps": [
+            "[CF]",
+            "[2ND] [CLR WORK]",
+            "30 [+/-] [ENTER] [↓]",
+            "42 [+/-] [ENTER] [↓] 1 [ENTER] [↓]",
+            "110 [ENTER] [↓] 1 [ENTER]",
+            "[IRR] [CPT] → 33.88%"
+          ],
           "difficulty": "HARD",
           "los_reference": "LOS 1c",
-          "topic_tags": ["MWRR", "IRR", "cash_flow"]
+          "topic_tags": [
+            "MWRR",
+            "IRR",
+            "cash_flow"
+          ]
         },
         {
           "question_id": "QM-1-1325",
@@ -580,23 +1087,45 @@
           "has_table": false,
           "table_data": null,
           "options": [
-            {"id": "opt1", "text": "7%"},
-            {"id": "opt2", "text": "9.34%"},
-            {"id": "opt3", "text": "6.73%"}
+            {
+              "id": "opt1",
+              "text": "7%"
+            },
+            {
+              "id": "opt2",
+              "text": "9.34%"
+            },
+            {
+              "id": "opt3",
+              "text": "6.73%"
+            }
           ],
           "correct_option_id": "opt3",
           "explanation": "Real return = (1 + 0.11)/(1 + 0.04) - 1 = 6.73%",
           "explanation_ru": "Реальная = (1+номинальная)/(1+инфляция) - 1",
           "explanation_formula": "$r_{real} = \\frac{1.11}{1.04} - 1 = 6.73\\%$",
           "explanation_wrong": {
-            "opt1": {"text": "Simple subtraction, ignores Fisher effect.", "formula": "$11\\% - 4\\% = 7\\%$"},
-            "opt2": {"text": "Overestimates real return.", "formula": null}
+            "opt1": {
+              "text": "Simple subtraction, ignores Fisher effect.",
+              "formula": "$11\\% - 4\\% = 7\\%$"
+            },
+            "opt2": {
+              "text": "Overestimates real return.",
+              "formula": null
+            }
           },
           "requires_calculation": true,
-          "calculator_steps": ["1.11 [÷] 1.04 [=]", "[-] 1 [=] → 6.73%"],
+          "calculator_steps": [
+            "1.11 [÷] 1.04 [=]",
+            "[-] 1 [=] → 6.73%"
+          ],
           "difficulty": "EASY",
           "los_reference": "LOS 1d",
-          "topic_tags": ["real_return", "inflation", "Fisher"]
+          "topic_tags": [
+            "real_return",
+            "inflation",
+            "Fisher"
+          ]
         },
         {
           "question_id": "QM-1-3404",
@@ -608,23 +1137,51 @@
           "has_table": false,
           "table_data": null,
           "options": [
-            {"id": "opt1", "text": "$36,122"},
-            {"id": "opt2", "text": "$35,817"},
-            {"id": "opt3", "text": "$35,247"}
+            {
+              "id": "opt1",
+              "text": "$36,122"
+            },
+            {
+              "id": "opt2",
+              "text": "$35,817"
+            },
+            {
+              "id": "opt3",
+              "text": "$35,247"
+            }
           ],
           "correct_option_id": "opt1",
           "explanation": "FV = $20,000[1 + 0.12/4]^20 = $36,122.22",
           "explanation_ru": "FV с квартальным начислением на 5 лет.",
           "explanation_formula": "$FV = \\$20,000 \\left[1 + \\frac{0.12}{4}\\right]^{20} = \\$36,122.22$",
           "explanation_wrong": {
-            "opt2": {"text": "Semi-annual compounding.", "formula": null},
-            "opt3": {"text": "Annual compounding.", "formula": null}
+            "opt2": {
+              "text": "Semi-annual compounding.",
+              "formula": null
+            },
+            "opt3": {
+              "text": "Annual compounding.",
+              "formula": null
+            }
           },
           "requires_calculation": true,
-          "calculator_steps": ["[2ND] [CLR TVM]", "[2ND] [P/Y] 4 [ENTER]", "20000 [+/-] [PV]", "12 [I/Y]", "20 [N]", "0 [PMT]", "[CPT] [FV] → 36,122.22"],
+          "calculator_steps": [
+            "[2ND] [CLR TVM]",
+            "[2ND] [P/Y] 4 [ENTER]",
+            "20000 [+/-] [PV]",
+            "12 [I/Y]",
+            "20 [N]",
+            "0 [PMT]",
+            "[CPT] [FV] → 36,122.22"
+          ],
           "difficulty": "MEDIUM",
           "los_reference": "LOS 1d",
-          "topic_tags": ["FV", "compounding", "quarterly", "TVM"]
+          "topic_tags": [
+            "FV",
+            "compounding",
+            "quarterly",
+            "TVM"
+          ]
         },
         {
           "question_id": "QM-1-3465",
@@ -636,23 +1193,44 @@
           "has_table": false,
           "table_data": null,
           "options": [
-            {"id": "opt1", "text": "25.54%"},
-            {"id": "opt2", "text": "28.00%"},
-            {"id": "opt3", "text": "51.08%"}
+            {
+              "id": "opt1",
+              "text": "25.54%"
+            },
+            {
+              "id": "opt2",
+              "text": "28.00%"
+            },
+            {
+              "id": "opt3",
+              "text": "51.08%"
+            }
           ],
           "correct_option_id": "opt3",
           "explanation": "CC return = ln(40/24) = 51.08%",
           "explanation_ru": "Непрерывно начисляемая = ln(P1/P0)",
           "explanation_formula": "$r_{cc} = \\ln(40/24) = 51.08\\%$",
           "explanation_wrong": {
-            "opt1": {"text": "Annualized CC return.", "formula": "$r_{annual} = 51.08\\%/2 = 25.54\\%$"},
-            "opt2": {"text": "Misrepresented price change.", "formula": null}
+            "opt1": {
+              "text": "Annualized CC return.",
+              "formula": "$r_{annual} = 51.08\\%/2 = 25.54\\%$"
+            },
+            "opt2": {
+              "text": "Misrepresented price change.",
+              "formula": null
+            }
           },
           "requires_calculation": true,
-          "calculator_steps": ["40 [÷] 24 [=] 1.667", "[LN] → 51.08%"],
+          "calculator_steps": [
+            "40 [÷] 24 [=] 1.667",
+            "[LN] → 51.08%"
+          ],
           "difficulty": "MEDIUM",
           "los_reference": "LOS 1d",
-          "topic_tags": ["continuous_compounding", "logarithm"]
+          "topic_tags": [
+            "continuous_compounding",
+            "logarithm"
+          ]
         },
         {
           "question_id": "QM-1-3467",
@@ -664,23 +1242,43 @@
           "has_table": false,
           "table_data": null,
           "options": [
-            {"id": "opt1", "text": "9.53%"},
-            {"id": "opt2", "text": "10.00%"},
-            {"id": "opt3", "text": "11.53%"}
+            {
+              "id": "opt1",
+              "text": "9.53%"
+            },
+            {
+              "id": "opt2",
+              "text": "10.00%"
+            },
+            {
+              "id": "opt3",
+              "text": "11.53%"
+            }
           ],
           "correct_option_id": "opt1",
           "explanation": "CC return = ln(1.10) = 9.53%",
           "explanation_ru": "Непрерывно начисляемая = ln(1 + HPR)",
           "explanation_formula": "$r_{cc} = \\ln(1.10) = 9.53\\%$",
           "explanation_wrong": {
-            "opt2": {"text": "Stated HPR, not CC.", "formula": null},
-            "opt3": {"text": "Reverse calculation.", "formula": null}
+            "opt2": {
+              "text": "Stated HPR, not CC.",
+              "formula": null
+            },
+            "opt3": {
+              "text": "Reverse calculation.",
+              "formula": null
+            }
           },
           "requires_calculation": true,
-          "calculator_steps": ["1.10 [LN] → 9.53%"],
+          "calculator_steps": [
+            "1.10 [LN] → 9.53%"
+          ],
           "difficulty": "EASY",
           "los_reference": "LOS 1d",
-          "topic_tags": ["continuous_compounding", "logarithm"]
+          "topic_tags": [
+            "continuous_compounding",
+            "logarithm"
+          ]
         },
         {
           "question_id": "QM-1-3498",
@@ -692,23 +1290,51 @@
           "has_table": false,
           "table_data": null,
           "options": [
-            {"id": "opt1", "text": "$1,132.32"},
-            {"id": "opt2", "text": "$1,135.96"},
-            {"id": "opt3", "text": "$1,137.89"}
+            {
+              "id": "opt1",
+              "text": "$1,132.32"
+            },
+            {
+              "id": "opt2",
+              "text": "$1,135.96"
+            },
+            {
+              "id": "opt3",
+              "text": "$1,137.89"
+            }
           ],
           "correct_option_id": "opt3",
           "explanation": "FV = $1,011[1 + 0.12/4]^4 = $1,137.89",
           "explanation_ru": "FV с квартальным начислением.",
           "explanation_formula": "$FV = \\$1,011(1.03)^4 = \\$1,137.89$",
           "explanation_wrong": {
-            "opt1": {"text": "Annual compounding.", "formula": null},
-            "opt2": {"text": "Semi-annual compounding.", "formula": null}
+            "opt1": {
+              "text": "Annual compounding.",
+              "formula": null
+            },
+            "opt2": {
+              "text": "Semi-annual compounding.",
+              "formula": null
+            }
           },
           "requires_calculation": true,
-          "calculator_steps": ["[2ND] [CLR TVM]", "[2ND] [P/Y] 4 [ENTER]", "1011 [+/-] [PV]", "12 [I/Y]", "4 [N]", "0 [PMT]", "[CPT] [FV] → 1,137.89"],
+          "calculator_steps": [
+            "[2ND] [CLR TVM]",
+            "[2ND] [P/Y] 4 [ENTER]",
+            "1011 [+/-] [PV]",
+            "12 [I/Y]",
+            "4 [N]",
+            "0 [PMT]",
+            "[CPT] [FV] → 1,137.89"
+          ],
           "difficulty": "EASY",
           "los_reference": "LOS 1d",
-          "topic_tags": ["FV", "compounding", "quarterly", "TVM"]
+          "topic_tags": [
+            "FV",
+            "compounding",
+            "quarterly",
+            "TVM"
+          ]
         },
         {
           "question_id": "QM-1-3499",
@@ -720,23 +1346,1233 @@
           "has_table": false,
           "table_data": null,
           "options": [
-            {"id": "opt1", "text": "$55,044.96"},
-            {"id": "opt2", "text": "$55,367.58"},
-            {"id": "opt3", "text": "$56,742.69"}
+            {
+              "id": "opt1",
+              "text": "$55,044.96"
+            },
+            {
+              "id": "opt2",
+              "text": "$55,367.58"
+            },
+            {
+              "id": "opt3",
+              "text": "$56,742.69"
+            }
           ],
           "correct_option_id": "opt1",
           "explanation": "PV = $100,000 / [1.01]^60 = $55,044.96",
           "explanation_ru": "PV = FV / (1 + r/m)^(mN)",
           "explanation_formula": "$PV = \\frac{\\$100,000}{(1.01)^{60}} = \\$55,044.96$",
           "explanation_wrong": {
-            "opt2": {"text": "Quarterly compounding.", "formula": null},
-            "opt3": {"text": "Annual compounding.", "formula": null}
+            "opt2": {
+              "text": "Quarterly compounding.",
+              "formula": null
+            },
+            "opt3": {
+              "text": "Annual compounding.",
+              "formula": null
+            }
           },
           "requires_calculation": true,
-          "calculator_steps": ["[2ND] [CLR TVM]", "[2ND] [P/Y] 12 [ENTER]", "100000 [FV]", "12 [I/Y]", "60 [N]", "0 [PMT]", "[CPT] [PV] → -55,044.96"],
+          "calculator_steps": [
+            "[2ND] [CLR TVM]",
+            "[2ND] [P/Y] 12 [ENTER]",
+            "100000 [FV]",
+            "12 [I/Y]",
+            "60 [N]",
+            "0 [PMT]",
+            "[CPT] [PV] → -55,044.96"
+          ],
           "difficulty": "MEDIUM",
           "los_reference": "LOS 1d",
-          "topic_tags": ["PV", "compounding", "monthly", "TVM"]
+          "topic_tags": [
+            "PV",
+            "compounding",
+            "monthly",
+            "TVM"
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": 2,
+      "module_name": "Time Value of Money",
+      "module_name_ru": "Временная стоимость денег",
+      "los_covered": [
+        "LOS_2a",
+        "LOS_2b",
+        "LOS_2c",
+        "LOS_2d"
+      ],
+      "questions": [
+        {
+          "question_id": "Q-QM-2-008",
+          "question_number": 8,
+          "question_text": "If you invest $100,000 currently in a project paying an 8% interest rate compounded annually, the amount of the investment after three years is closest to : The correct answer is",
+          "question_text_ru": "",
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {
+              "id": "opt1",
+              "text": "$108,000.00"
+            },
+            {
+              "id": "opt2",
+              "text": "$108,215.23"
+            },
+            {
+              "id": "opt3",
+              "text": "$125,971.20 F V = P V [ 1 + ] N I Y F V = $ 100 , 000 [ 1 + 0.08 ] 3 = $ 125 , 971.20 F V = $ 100 , 000 + ( 0.08 × $ 100 , 000 ) = $ 108 , 000 F V = $ 100 , 000 [ 1 + ] 3 = $ 108 , 215.23 0.08 3"
+            }
+          ],
+          "correct_option_id": "opt3",
+          "explanation": "The question requires the calculation of the future value of a single-sum investment. Recall that future value is the total to which a present deposit will grow over time when placed in an account paying compound interest. The formula for calculating FV is as follows: Where: FV = Future Value, PV = ",
+          "explanation_ru": "",
+          "explanation_formula": null,
+          "explanation_wrong": {},
+          "requires_calculation": false,
+          "calculator_steps": null,
+          "difficulty": "EASY",
+          "los_reference": "LOS_2b",
+          "topic_tags": [
+            "TVM",
+            "calculation"
+          ]
+        },
+        {
+          "question_id": "Q-QM-2-011",
+          "question_number": 11,
+          "question_text": "How much is an asset worth today, if it is supposed to pay $7,000 per year for 10 years? The first payment is due one year from now and the required rate is 6% per year. The correct answer is",
+          "question_text_ru": "",
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {
+              "id": "opt1",
+              "text": "$12,535.93"
+            },
+            {
+              "id": "opt2",
+              "text": "$51,520.61"
+            },
+            {
+              "id": "opt3",
+              "text": "$54,611.85 P V = A ⎡ ⎢ ⎢ ⎣ ⎤ ⎥ ⎥ ⎦ 1 − 1 ( 1 + r ) N r P V = $ 7 , 000 ⎡ ⎢ ⎢ ⎣ ⎤ ⎥ ⎥ ⎦ = $ 7 , 000 ⎡ ⎣ ⎤ ⎦ = $ 7 , 000 [ ] = $ 51 , 520.61 1 − 1 ( 1 + 0.06 ) 10 0.06 1 − 1 1.791 0.06 1 − 0.558 0.06 F "
+            }
+          ],
+          "correct_option_id": "opt2",
+          "explanation": "The question requires the calculation of the Present Value of an ordinary annuity as follows: Where; A = Amount of the annuity. r = Required rate of return. N = Number of years of the investment. Therefore; Using the BA II Plus Pro Calculator; N=10; I/Y=6; PMT=$7,000; FV=0; CPT=>PV=$51,520.61",
+          "explanation_ru": "",
+          "explanation_formula": null,
+          "explanation_wrong": {},
+          "requires_calculation": true,
+          "calculator_steps": null,
+          "difficulty": "MEDIUM",
+          "los_reference": "LOS_2a",
+          "topic_tags": [
+            "TVM",
+            "calculation"
+          ]
+        },
+        {
+          "question_id": "Q-QM-2-019",
+          "question_number": 19,
+          "question_text": "Suppose a $200,000 investment will earn 6% compounded continuously for 4 years. The future value of this asset is closest to: The correct answer is",
+          "question_text_ru": "",
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {
+              "id": "opt1",
+              "text": "$252,495.39"
+            },
+            {
+              "id": "opt2",
+              "text": "$253,354.02"
+            },
+            {
+              "id": "opt3",
+              "text": "$254,249.83 F V N = P V e r N F V N = $ 200 , 000 × 2.7182818 ( 0.06 × 4 ) = $ 200 , 000 × 1.271 = $ 254 , 249.83 F V N = $ 200 , 000 ( 1 + 0.06 ) 4 = $ 252 , 495.39 F V N = $ 200 , 000 [ 1 + ] ( 4 × "
+            }
+          ],
+          "correct_option_id": "opt3",
+          "explanation": "The question requires the calculation of the future value of an asset compounded continuously as follows; Where; PV = Present value of investment. r = Interest rate. N = Investment period. Therefore;",
+          "explanation_ru": "",
+          "explanation_formula": null,
+          "explanation_wrong": {},
+          "requires_calculation": false,
+          "calculator_steps": null,
+          "difficulty": "EASY",
+          "los_reference": "LOS_2d",
+          "topic_tags": [
+            "FV",
+            "continuous compounding"
+          ]
+        },
+        {
+          "question_id": "Q-QM-2-021",
+          "question_number": 21,
+          "question_text": "An asset will pay $2,500 per year for seven years, with the first payment being made one year from today. If the required rate of return is 14% per year, the amount you will pay for this asset is closest to : The correct answer is",
+          "question_text_ru": "",
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {
+              "id": "opt1",
+              "text": "$10,720.76"
+            },
+            {
+              "id": "opt2",
+              "text": "$12,221.67"
+            },
+            {
+              "id": "opt3",
+              "text": "$26,826.23 P V = A ⎡ ⎢ ⎢ ⎣ ⎤ ⎥ ⎥ ⎦ 1 − 1 ( 1 + r ) N r P V = $ 2 , 500 × ⎡ ⎢ ⎢ ⎣ ⎤ ⎥ ⎥ ⎦ = $ 2 , 500 × 4.288 = $ 10 , 720.76 1 − 1 ( 1 + 0.14 ) 7 0.14 F V A n n u i t y A d v a n c e = $ 10 , 720.76 ("
+            }
+          ],
+          "correct_option_id": "opt1",
+          "explanation": "The question requires the calculation of the Present Value of an ordinary annuity as follows; Where; A = Annuity payable per year. r = Rate of return. N = Investment period. Therefore, in this case: Using the Plus Pro- Calculator; N=7; FV=0; I/Y=14; PMT=$2,500; CPT =>PV = $10,720.76 B is incorrect .",
+          "explanation_ru": "",
+          "explanation_formula": null,
+          "explanation_wrong": {},
+          "requires_calculation": true,
+          "calculator_steps": null,
+          "difficulty": "MEDIUM",
+          "los_reference": "LOS_2a",
+          "topic_tags": [
+            "TVM",
+            "calculation"
+          ]
+        },
+        {
+          "question_id": "Q-QM-2-022",
+          "question_number": 22,
+          "question_text": "The amount of money an investor has after ten years if they invest $25,000 per year in an index fund that pays 7% annually is closest to : The correct answer is",
+          "question_text_ru": "",
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {
+              "id": "opt1",
+              "text": "$349,178.78"
+            },
+            {
+              "id": "opt2",
+              "text": "$349,744.72"
+            },
+            {
+              "id": "opt3",
+              "text": "Option C"
+            }
+          ],
+          "correct_option_id": "opt3",
+          "explanation": "The question requires the calculation of the future value of an annuity as follows; Step I : Determine the Future Value annuity factor as follows; Step II : Determine the Future Value of the annuity as follows; Using the BA II Pro Plus Calculator; N= 10; I/Y= 7; PMT=$25,000; PV = 0; CPT=>FV = $345,4",
+          "explanation_ru": "",
+          "explanation_formula": null,
+          "explanation_wrong": {},
+          "requires_calculation": true,
+          "calculator_steps": null,
+          "difficulty": "MEDIUM",
+          "los_reference": "LOS_2b",
+          "topic_tags": [
+            "TVM",
+            "calculation"
+          ]
+        },
+        {
+          "question_id": "Q-QM-2-023",
+          "question_number": 23,
+          "question_text": "An index fund is projected to pay an investor a 9% annual interest for eight years. The investor intends to invest $15,000 every year, beginning next year. The total amount of money the investor will have at the end of the eight years is closest to : The correct answer is",
+          "question_text_ru": "",
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {
+              "id": "opt1",
+              "text": "$120,000.00"
+            },
+            {
+              "id": "opt2",
+              "text": "$165,427.11"
+            },
+            {
+              "id": "opt3",
+              "text": "$180,315.55"
+            }
+          ],
+          "correct_option_id": "opt2",
+          "explanation": "A. $349,178.78 B. $349,744.72 C. $345,411.20 F V A n n u i t y F a c t o r = = = 13.816 ( 1 + r ) N − 1 r ( 1 + 0.07 ) 10 − 1 0.07 F V = A n n u a l i n v e s t m e n t × F V A n n u i t y F a c t o r = $ 25 , 000 × 13.816 = $ 345 , 411.20 A. $120,000.00 B. $165,427.11 C. $180,315.55",
+          "explanation_ru": "",
+          "explanation_formula": null,
+          "explanation_wrong": {},
+          "requires_calculation": true,
+          "calculator_steps": null,
+          "difficulty": "MEDIUM",
+          "los_reference": "LOS_2b",
+          "topic_tags": [
+            "TVM",
+            "calculation"
+          ]
+        },
+        {
+          "question_id": "Q-QM-2-025",
+          "question_number": 25,
+          "question_text": "Assume an investment asset will pay $75,000 after two years with an interest rate of 11%. The current value of the investment asset is closest to : The correct answer is",
+          "question_text_ru": "",
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {
+              "id": "opt1",
+              "text": "$60,871.70"
+            },
+            {
+              "id": "opt2",
+              "text": "$92,407.50"
+            },
+            {
+              "id": "opt3",
+              "text": "$128,439.25 P V = F V N ( 1 + r ) − N F V N r N P V = $ 75 , 000 ( 1 + 0.11 ) − 2 = $ 75 , 000 × 0.812 = $ 60 , 871.68 F V = $ 75 , 000 ( 1 + 0.11 ) 2 = $ 75 , 000 × 1.232 = $ 92 , 407.50 P V = A ⎡ ⎢ "
+            }
+          ],
+          "correct_option_id": "opt1",
+          "explanation": "The question requires the calculation of the Present Value of future lumpsum payment as follows; Where; = The expected future payment. = Applicable rate of interest. = Investment maturity period. Therefore; Using the Plus Pro- Calculator: N= 2; I/Y= 11; PMT=0; FV = $75,000; CPT=>PV = $60,871.68 B is",
+          "explanation_ru": "",
+          "explanation_formula": null,
+          "explanation_wrong": {},
+          "requires_calculation": true,
+          "calculator_steps": null,
+          "difficulty": "MEDIUM",
+          "los_reference": "LOS_2a",
+          "topic_tags": [
+            "TVM",
+            "calculation"
+          ]
+        },
+        {
+          "question_id": "Q-QM-2-034",
+          "question_number": 34,
+          "question_text": "You have a choice to take your retirement benefit either as a lump-sum or as an annuity. You can take a lump-sum of $4.5 million or an annuity with 15 payments of $400,000 a year with the first payment starting t =1. The interest rate is 7% per year compounded annually. Which option is preferable, on the basis that it has the greater present value? The correct answer is",
+          "question_text_ru": "",
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {
+              "id": "opt1",
+              "text": "The annuity payment option."
+            },
+            {
+              "id": "opt2",
+              "text": "The lump-sum payment option."
+            },
+            {
+              "id": "opt3",
+              "text": "There is no significant difference between the two options."
+            }
+          ],
+          "correct_option_id": "opt2",
+          "explanation": "The question requires calculating the present value of a series of equal cash flows compared to the lump sum payment. The annuity payment qualifies as an ordinary annuity since it has equal annuity payments, with the first payment starting at time t=1. Hence the formula is as follows: N= 15; I/Y= 7;",
+          "explanation_ru": "",
+          "explanation_formula": null,
+          "explanation_wrong": {},
+          "requires_calculation": true,
+          "calculator_steps": null,
+          "difficulty": "MEDIUM",
+          "los_reference": "LOS_2a",
+          "topic_tags": [
+            "PV",
+            "annuity"
+          ]
+        },
+        {
+          "question_id": "Q-QM-2-035",
+          "question_number": 35,
+          "question_text": "XYZ Pension Fund plans to pay its retirees a total of $29 million every year beginning in 2017. The payments will be made at the end of each year until 2031 for a total of 15 payments. Assuming a discount rate of 4% compounded annually, the present value of the pension payments to the retirees in 2017 is closest to : The correct answer is",
+          "question_text_ru": "",
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {
+              "id": "opt1",
+              "text": "$52,277,361.66"
+            },
+            {
+              "id": "opt2",
+              "text": "$322,433,235.50"
+            },
+            {
+              "id": "opt3",
+              "text": "$335,330,564.90 P V = A ⎡ ⎢ ⎢ ⎣ ⎤ ⎥ ⎥ ⎦ 1 − 1 ( 1 + r ) N r F V N = $ 29 , 000 , 000 [ 1 + ] ( 15 × 1 ) = $ 29 , 000 , 000 × 1.801 = $ 52 , 227 , 361.66 0.04 1 F V A n n u i t y A d v a n c e = $ 322 "
+            }
+          ],
+          "correct_option_id": "opt2",
+          "explanation": "The question requires calculating the Present Value of an ordinary annuity whereby the annuity makes N payments, with the first payment at t = 1 and the last at t = N. The present value of an ordinary annuity can be expressed as the sum of the present values of each annuity payment as follows, Where",
+          "explanation_ru": "",
+          "explanation_formula": null,
+          "explanation_wrong": {},
+          "requires_calculation": true,
+          "calculator_steps": null,
+          "difficulty": "MEDIUM",
+          "los_reference": "LOS_2a",
+          "topic_tags": [
+            "PV"
+          ]
+        },
+        {
+          "question_id": "Q-QM-2-037",
+          "question_number": 37,
+          "question_text": "Consider an annuity due with 20 payments of $55,000 every year with a required rate of interest of 10% compounded annually. The present value of the annuity if the first payment is due at the end of the year is closest to : The correct answer is",
+          "question_text_ru": "",
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {
+              "id": "opt1",
+              "text": "$370,012.50"
+            },
+            {
+              "id": "opt2",
+              "text": "$468,246.00"
+            },
+            {
+              "id": "opt3",
+              "text": "$566,577.67 P V = A ⎡ ⎢ ⎢ ⎣ ⎤ ⎥ ⎥ ⎦ 1 − 1 ( 1 + r ) N r P V = $ 55 , 000 ⎡ ⎢ ⎢ ⎣ ⎤ ⎥ ⎥ ⎦ = $ 468 , 246 1 − 1 ( 1 + 0.1 ) 20 0.1 F V N = $ 55 , 000 ( 1 + 0.1 ) 20 = $ 370 , 012.50 F V A n n u i t y A d"
+            }
+          ],
+          "correct_option_id": "opt2",
+          "explanation": "Hence the present value of an ordinary annuity is expressed as the sum of the present values of each annuity payment, as follows; Where; A = The annuity amount. r = The interest rate per period corresponding to the frequency of annuity payments. N = The number of annuity payments. Therefore;",
+          "explanation_ru": "",
+          "explanation_formula": null,
+          "explanation_wrong": {},
+          "requires_calculation": false,
+          "calculator_steps": null,
+          "difficulty": "EASY",
+          "los_reference": "LOS_2a",
+          "topic_tags": [
+            "PV",
+            "annuity"
+          ]
+        },
+        {
+          "question_id": "Q-QM-2-038",
+          "question_number": 38,
+          "question_text": "ABC Company Ltd has been in operation since 1966. In 2012 the company recorded revenue of $15.8 million compared to $11.4million in 2006. The revenue growth rate for the company for the six years is closest to : The correct answer is",
+          "question_text_ru": "",
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {
+              "id": "opt1",
+              "text": "-5.30%"
+            },
+            {
+              "id": "opt2",
+              "text": "5.59%"
+            },
+            {
+              "id": "opt3",
+              "text": "38.60% g = [ ] − 1 F V N P V 1 N F V N P V N g = [ 6 √ ] − 1 = 5.59 % $ 15 , 800 , 000 $ 11 , 400 , 000 g = [ 6 √ ] − 1 = − 5.30 $ 11 , 400 , 000 $ 15 , 800 , 000 G r o w t h = $ 15.8 m i l l i o n − "
+            }
+          ],
+          "correct_option_id": "opt2",
+          "explanation": "The question requires the calculation of the growth rate in revenue as follows; Where; = Future value at time N. = Current present value. = Number of periods. Therefore; The calculated growth rate of about 5.6 percent a year shows that ABC Company Ltd's revenue grew during the 2006–2012 period. Usin",
+          "explanation_ru": "",
+          "explanation_formula": null,
+          "explanation_wrong": {},
+          "requires_calculation": true,
+          "calculator_steps": null,
+          "difficulty": "MEDIUM",
+          "los_reference": "LOS_2b",
+          "topic_tags": [
+            "growth rate"
+          ]
+        },
+        {
+          "question_id": "Q-QM-2-039",
+          "question_number": 39,
+          "question_text": "A Government Bond pays $2,500 per quarter year in perpetuity. If the required rate of return is 10%, price of the bond today is closest to : The correct answer is",
+          "question_text_ru": "",
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {
+              "id": "opt1",
+              "text": "$11,000"
+            },
+            {
+              "id": "opt2",
+              "text": "$25,000"
+            },
+            {
+              "id": "opt3",
+              "text": "$100,000 P V = A r P V = [ × 4 ] = $ 100 , 000 $ 2 , 500 0.1 P V = $ 2 , 500 × ( 1 + 0.1 ) × 4 = $ 11 , 000 P V = = $ 25 , 000 $ 2 , 500 0.1"
+            }
+          ],
+          "correct_option_id": "opt3",
+          "explanation": "The question requires the calculation of the present value of a perpetuity with level payments for an indefinite period as follows; Where; A = Quarterly perpetuity payments r = Required rate of return Therefore;",
+          "explanation_ru": "",
+          "explanation_formula": null,
+          "explanation_wrong": {},
+          "requires_calculation": false,
+          "calculator_steps": null,
+          "difficulty": "EASY",
+          "los_reference": "LOS_2b",
+          "topic_tags": [
+            "perpetuity"
+          ]
+        },
+        {
+          "question_id": "Q-QM-2-040",
+          "question_number": 40,
+          "question_text": "Mr. Smith is planning to borrow $150,000 from ABC Bank with a 20-year fixed-rate mortgage with monthly payments, and the first payment is due in exactly one month. Mr. Smith's monthly payment if the interest rate is 7% compounded monthly is closest to : The correct answer is",
+          "question_text_ru": "",
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {
+              "id": "opt1",
+              "text": "$1,162.93"
+            },
+            {
+              "id": "opt2",
+              "text": "$1,245.02"
+            },
+            {
+              "id": "opt3",
+              "text": "$ 1,156.20 F V A n n u i t y A d v a n c e = $ 1 , 163.56 ( 1 + 0.07 ) = $ 1 , 245.02"
+            }
+          ],
+          "correct_option_id": "opt1",
+          "explanation": "The question requires the calculation of the size of payments on a Fixed-Rate Mortgage and ABC Bank will define the mortgage payments such that at the specified periodic interest rate, the present value of the payments will be equal to the amount borrowed, which is $150,000. The amount borrowed by M",
+          "explanation_ru": "",
+          "explanation_formula": null,
+          "explanation_wrong": {},
+          "requires_calculation": true,
+          "calculator_steps": null,
+          "difficulty": "MEDIUM",
+          "los_reference": "LOS_2b",
+          "topic_tags": [
+            "mortgage"
+          ]
+        },
+        {
+          "question_id": "Q-QM-2-042",
+          "question_number": 42,
+          "question_text": "Consider a level perpetuity of $27,000 per year, with its first payment being at the end of year seven (t = 7). Its present value today (at t = 0), given an 8% discount rate is closest to : The correct answer is",
+          "question_text_ru": "",
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {
+              "id": "opt1",
+              "text": "$124,817.75"
+            },
+            {
+              "id": "opt2",
+              "text": "$212,682.25"
+            },
+            {
+              "id": "opt3",
+              "text": "$337,500.00 t = 6 t = 0 t = 6 P V = A r ⇒ P V = = $ 337 , 500.00 $ 27 , 000 0.08 t = 6 t = 0 P V = F V N ( 1 + r ) − N = $ 337 , 500.00 ( 1 + 0.08 ) − 6 = $ 212 , 682.25 t = 6 t = 0 t = 6 t = 0"
+            }
+          ],
+          "correct_option_id": "opt2",
+          "explanation": "The question requires the calculation of the present value of projected perpetuity as follows; Step I : Determine the present value of the perpetuity at and then discount that amount back to . It is important to note that perpetuity or an ordinary annuity has its first payment one period away, expla",
+          "explanation_ru": "",
+          "explanation_formula": null,
+          "explanation_wrong": {},
+          "requires_calculation": false,
+          "calculator_steps": null,
+          "difficulty": "EASY",
+          "los_reference": "LOS_2b",
+          "topic_tags": [
+            "PV",
+            "perpetuity"
+          ]
+        },
+        {
+          "question_id": "Q-QM-2-043",
+          "question_number": 43,
+          "question_text": "You are presented with 2 investment opportunities and must choose the one with the greater present value: A lump-sum of $2.5 million or an annuity with 25 payments of $250,000 a year with the first payment starting today. The interest rate is 9% per year compounded annually. Which one will you choose? The correct answer is",
+          "question_text_ru": "",
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {
+              "id": "opt1",
+              "text": "Annuity option."
+            },
+            {
+              "id": "opt2",
+              "text": "Lump-sum."
+            },
+            {
+              "id": "opt3",
+              "text": "Invest in both options since there's no difference between the two. t = 0 t = 0 t = 0 P V = A ⎡ ⎢ ⎢ ⎣ ⎤ ⎥ ⎥ ⎦ 1 − 1 ( 1 + r ) N r P V = $ 250 , 000 + $ 250 , 000 ⎡ ⎢ ⎢ ⎣ ⎤ ⎥ ⎥ ⎦ = $ 2 , 676 , 652.94 1"
+            }
+          ],
+          "correct_option_id": "opt1",
+          "explanation": "The question requires the calculation of an annuity due as the present value of an immediate cash flow plus an ordinary annuity and comparing the outcome with the lump sum payment as follows; Step I : Compare the present value of each investment option at time and select the one with the larger valu",
+          "explanation_ru": "",
+          "explanation_formula": null,
+          "explanation_wrong": {},
+          "requires_calculation": true,
+          "calculator_steps": null,
+          "difficulty": "MEDIUM",
+          "los_reference": "LOS_2b",
+          "topic_tags": [
+            "PV",
+            "annuity"
+          ]
+        },
+        {
+          "question_id": "Q-QM-2-044",
+          "question_number": 44,
+          "question_text": "Consider an investor with a Certificate of Deposit (CD) worth $3 million and pays a 5% interest rate compounded annually. The number of years that it will take for the CD to triple in value in closest to : The correct answer is",
+          "question_text_ru": "",
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {
+              "id": "opt1",
+              "text": "2.9 years"
+            },
+            {
+              "id": "opt2",
+              "text": "3 years"
+            },
+            {
+              "id": "opt3",
+              "text": "22.5 years F V N = P V ( 1 + r ) N ( 1 + r ) N = = = 3 ⇒ N = = 22.5 y e a r s F V N P V $ 9 , 000 , 000 $ 3 , 000 , 000 ln ( 3 ) ln ( 1.05 ) N = = 2.9 y e a r s 3 1.05"
+            }
+          ],
+          "correct_option_id": "opt3",
+          "explanation": "The question requires the calculation of the number of annual compounding periods needed for an investment to reach a specific value using the formula as follows; To solve for the number of periods N, we readjust the formula and make N the subject as follows; Using the financial calculator, we use t",
+          "explanation_ru": "",
+          "explanation_formula": null,
+          "explanation_wrong": {},
+          "requires_calculation": true,
+          "calculator_steps": null,
+          "difficulty": "MEDIUM",
+          "los_reference": "LOS_2b",
+          "topic_tags": [
+            "TVM",
+            "calculation"
+          ]
+        },
+        {
+          "question_id": "Q-QM-2-046",
+          "question_number": 46,
+          "question_text": "XYZ company's EPS at the beginning of each 4 consecutive years is as follows: The EPS compound annual growth rate during this period is closest to : The correct answer is",
+          "question_text_ru": "",
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {
+              "id": "opt1",
+              "text": "16.80%"
+            },
+            {
+              "id": "opt2",
+              "text": "20.40%"
+            },
+            {
+              "id": "opt3",
+              "text": "36.320% g = [ ] − 1 F V N P V 1 N F V N P V N g = 3 √ − 1 = 1.3632 − 1 = 36.32 % $ 7.60 $ 3.00"
+            }
+          ],
+          "correct_option_id": "opt3",
+          "explanation": "To calculate the EPS growth rate, we use the following formula; Where; = Future EPS Value. = Present EPS Value. = Number of periods. Therefore; Year EPS ($) Year 1 $ 3.00 Year 2 $ 4.20 Year 3 $ 5.50 Year 4 $ 7.60 A. 16.80% B. 20.40% C. 36.320% g = [ ] − 1 F V N P V 1 N F V N P V N g = 3 √ − 1 = 1.36",
+          "explanation_ru": "",
+          "explanation_formula": null,
+          "explanation_wrong": {},
+          "requires_calculation": false,
+          "calculator_steps": null,
+          "difficulty": "EASY",
+          "los_reference": "LOS_2b",
+          "topic_tags": [
+            "growth rate"
+          ]
+        },
+        {
+          "question_id": "Q-QM-2-047",
+          "question_number": 47,
+          "question_text": "Consider a series of payments, each amounting to £6,500 is set to be received by an investor in perpetuity. Payments are to be made at the end of each year, with the first payment expected to start at the end of year 4. Suppose the discount rate is 9%, the present value of the perpetuity at is closest to : The correct answer is",
+          "question_text_ru": "",
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {
+              "id": "opt1",
+              "text": "£51,164.03"
+            },
+            {
+              "id": "opt2",
+              "text": "£55,768.79"
+            },
+            {
+              "id": "opt3",
+              "text": "£72,222.20 t = 0 P V = A r P V = = £ 72 , 222.20 £ 6 , 500 0.09 P V = F V N ( 1 + r ) − N = £ 72 , 222.20 ( 1 + 0.09 ) − 3 = £ 55 , 768.79 P V = £ 72 , 222.20 ( 1 + 0.09 ) − 4 = £ 51 , 164.03"
+            }
+          ],
+          "correct_option_id": "opt2",
+          "explanation": "The question requires the calculation of the Present Value of projected perpetuity as follows; Step I : Determine the present value of the perpetuity at t = 3 and then discount that amount back to . It's important to note that perpetuity or an ordinary annuity has its first payment one period away, ",
+          "explanation_ru": "",
+          "explanation_formula": null,
+          "explanation_wrong": {},
+          "requires_calculation": false,
+          "calculator_steps": null,
+          "difficulty": "EASY",
+          "los_reference": "LOS_2b",
+          "topic_tags": [
+            "PV",
+            "perpetuity"
+          ]
+        },
+        {
+          "question_id": "Q-QM-2-049",
+          "question_number": 49,
+          "question_text": "Consider a homeowner who wants to purchase a £230,000 home by making a down payment of £60,000 and borrowing the remainder with a 25 year fixed rate mortgage with monthly payments and the stated annual interest rate of 9% with monthly compounding. The monthly rate of mortgage repayment is closest to : The correct answer is",
+          "question_text_ru": "",
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {
+              "id": "opt1",
+              "text": "£1,267.50"
+            },
+            {
+              "id": "opt2",
+              "text": "£1,426.63"
+            },
+            {
+              "id": "opt3",
+              "text": "£1,901.30 P V = A ⎡ ⎢ ⎢ ⎣ ⎤ ⎥ ⎥ ⎦ 1 − 1 ( 1 + r ) N r P V A n n u i t y F a c t o r = ⎡ ⎢ ⎢ ⎢ ⎢ ⎣ ⎤ ⎥ ⎥ ⎥ ⎥ ⎦ 1 − 1 ( ) m N 1 + r s m r s m r s m N P V A n n u i t y F a c t o r = = 0.894 × = 119.162 "
+            }
+          ],
+          "correct_option_id": "opt2",
+          "explanation": "The question requires the calculation of the size of payments on a Fixed-Rate Mortgage repayment is as follows; Note that the lending institution will determine the mortgage payments. At the stated periodic interest rate, the present value of the payments will be equal to the amount borrowed (in thi",
+          "explanation_ru": "",
+          "explanation_formula": null,
+          "explanation_wrong": {},
+          "requires_calculation": true,
+          "calculator_steps": null,
+          "difficulty": "MEDIUM",
+          "los_reference": "LOS_2b",
+          "topic_tags": [
+            "mortgage"
+          ]
+        },
+        {
+          "question_id": "Q-QM-2-050",
+          "question_number": 50,
+          "question_text": "Suppose a Certificate of Deposit (CD) pays a 10% annual interest rate, the Effective Annual Rate (EAR) if the CD compounded monthly is closest to : The correct answer is",
+          "question_text_ru": "",
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {
+              "id": "opt1",
+              "text": "10.30%"
+            },
+            {
+              "id": "opt2",
+              "text": "10.40%"
+            },
+            {
+              "id": "opt3",
+              "text": "10.50% E A R = ( 1 + periodic interest rate ) m − 1 E A R = [ 1 + ] 12 − 1 = 0.105 o r 10.50 % 0.1 12 E A R = [ 1 + ] 2 − 1 = 0.103 o r 10.30 % 0.1 2 E A R = [ 1 + ] 4 − 1 = 0.104 o r 10.40 % 0.1 4"
+            }
+          ],
+          "correct_option_id": "opt3",
+          "explanation": "The question requires the calculation of EAR given a stated annual interest rate that does not give a future value directly as follows; Where; m = The number of compounding periods in one year. Periodic interest rate = The stated annual interest rate divided by m. Therefore;",
+          "explanation_ru": "",
+          "explanation_formula": null,
+          "explanation_wrong": {},
+          "requires_calculation": false,
+          "calculator_steps": null,
+          "difficulty": "EASY",
+          "los_reference": "LOS_2a",
+          "topic_tags": [
+            "EAR"
+          ]
+        },
+        {
+          "question_id": "Q-QM-2-052",
+          "question_number": 52,
+          "question_text": "Consider an investor who wants to double his £1,500,000 worth of investments. If the interest rate is 9% compounded annually, the time it will take for the value of the investment to double is closest to : The correct answer is",
+          "question_text_ru": "",
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {
+              "id": "opt1",
+              "text": "1 year."
+            },
+            {
+              "id": "opt2",
+              "text": "8 years."
+            },
+            {
+              "id": "opt3",
+              "text": "12 years. F V N = P V ( 1 + r ) N F V N P V r N ( 1 + 0.09 ) N = = £ 3 , 000 , 00 £ 1 , 500 , 000 = 2 ⇒ N = = = 8.042 y e a r s F V N P V ln ( 2 ) ln ( 1.09 ) 0.693 0.086"
+            }
+          ],
+          "correct_option_id": "opt2",
+          "explanation": "The question requires the calculation of the number of annual compounding periods required for an investment to reach a specific value as follows; Where; = The future value of the investment amount. = The present value of the investment amount. = Interest rate compounded annually. = Required number ",
+          "explanation_ru": "",
+          "explanation_formula": null,
+          "explanation_wrong": {},
+          "requires_calculation": true,
+          "calculator_steps": null,
+          "difficulty": "MEDIUM",
+          "los_reference": "LOS_2a",
+          "topic_tags": [
+            "TVM",
+            "calculation"
+          ]
+        },
+        {
+          "question_id": "Q-QM-2-053",
+          "question_number": 53,
+          "question_text": "GHG Corp.'s net profit increased from £2,300,000 in 2012 to £4,800,000 in 2016. The net profit growth rate is closest to : The correct answer is",
+          "question_text_ru": "",
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {
+              "id": "opt1",
+              "text": "15.90%"
+            },
+            {
+              "id": "opt2",
+              "text": "20.20%"
+            },
+            {
+              "id": "opt3",
+              "text": "52.10% = [ ] − 1 = ( ) − 1 = 20.20 % F V N P V 1 N £ 4 , 800 , 000 £ 2 , 300 , 000 1 4 g = ( ) − 1 = 0.159 o r 15.90 % £ 4 , 800 , 000 £ 2 , 300 , 000 1 5 = ( ) − 1 = 52.10 % £ 4 , 800 , 000 − £ 2 , 3"
+            }
+          ],
+          "correct_option_id": "opt2",
+          "explanation": "To determine the growth rate, we use the following formula; Or we can use the financial calculator with the following inputs: N=4; PV=-2,300,000; PMT=0; FV=4,800,000; CPT => I/Y = 20.19% Note: When computing 1/Y, a negative sign has to be included before the Present Value.",
+          "explanation_ru": "",
+          "explanation_formula": null,
+          "explanation_wrong": {},
+          "requires_calculation": true,
+          "calculator_steps": null,
+          "difficulty": "MEDIUM",
+          "los_reference": "LOS_2b",
+          "topic_tags": [
+            "growth rate"
+          ]
+        },
+        {
+          "question_id": "Q-QM-2-398",
+          "question_number": 398,
+          "question_text": "The Effective Annual Rate (EAR) of an investment with a stated annual interest rate of 33%, if the rate is compounded daily is closest to: The correct answer is",
+          "question_text_ru": "",
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {
+              "id": "opt1",
+              "text": "35.70%"
+            },
+            {
+              "id": "opt2",
+              "text": "37.30%"
+            },
+            {
+              "id": "opt3",
+              "text": "39.10% E A R = ( 1 + p e r i o d i c i n t e r e s t r a t e ) m − 1 E A R = [ 1 + ] 365 − 1 = 39.10 % 0.33 365 E A R = [ 1 + ] 2 − 1 = 35.70 % 0.33 2 E A R = [ 1 + ] 4 − 1 = 37.30 % 0.33 4"
+            }
+          ],
+          "correct_option_id": "opt3",
+          "explanation": "The EAR is calculated using the following formula; Note that the periodic interest rate is the stated annual interest rate divided by m, where m is the number of compounding periods in one year.",
+          "explanation_ru": "",
+          "explanation_formula": null,
+          "explanation_wrong": {},
+          "requires_calculation": false,
+          "calculator_steps": null,
+          "difficulty": "EASY",
+          "los_reference": "LOS_2a",
+          "topic_tags": [
+            "EAR"
+          ]
+        },
+        {
+          "question_id": "Q-QM-2-401",
+          "question_number": 401,
+          "question_text": "The current valuation of Genius Corporation confirms a networth of AUD 2.5 million. Three years ago, the firm was sold to its new investors for AUD 800,000. The growth rate for the Genius Corporation within the three years is closest to : The correct answer is",
+          "question_text_ru": "",
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {
+              "id": "opt2",
+              "text": "The growth rate is calculated using the formula as follows; Where; = Future value after the three years. = Present value at three years. = The period during the investment growth. A is incorrect . The"
+            },
+            {
+              "id": "opt1",
+              "text": "Option A"
+            },
+            {
+              "id": "opt3",
+              "text": "Option C"
+            }
+          ],
+          "correct_option_id": "opt2",
+          "explanation": "The growth rate is calculated using the formula as follows; Where; = Future value after the three years. = Present value at three years. = The period during the investment growth.",
+          "explanation_ru": "",
+          "explanation_formula": null,
+          "explanation_wrong": {},
+          "requires_calculation": false,
+          "calculator_steps": null,
+          "difficulty": "EASY",
+          "los_reference": "LOS_2a",
+          "topic_tags": [
+            "growth rate"
+          ]
+        },
+        {
+          "question_id": "Q-QM-2-402",
+          "question_number": 402,
+          "question_text": "Mr. Thomas Newborn wants to purchase a $150,000 home and has already made a cash deposit of $20,000. The balance is financed through a 25-year mortgage borrowing with an annual interest rate of 6% compounded monthly. The first monthly mortgage payment is due at t = 1. The monthly mortgage repayment rate is closest to :",
+          "question_text_ru": "",
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {
+              "id": "opt1",
+              "text": "32.00%"
+            },
+            {
+              "id": "opt2",
+              "text": "46.20%"
+            },
+            {
+              "id": "opt3",
+              "text": "68.00% = [ ] − 1 = 3 √ − 1 = 46.20 % F V N P V 1 N A U D 2 , 500.00 A U D 800 , 000 F V N P V N g = × 100 % = 32 % A U D 800 , 00 A U D 2 , 500 , 00 g = [ ] × 100 % = 68 % A U D 2 , 500 , 000 − A U D "
+            }
+          ],
+          "correct_option_id": "opt1",
+          "explanation": "The question requires the calculation of the size of payments on a Fixed-Rate Mortgage, and it's important to note that the mortgage lender will determine the mortgage payments such that at the stated periodic interest rate, the present value of the payments will be equal to the amount borrowed (in ",
+          "explanation_ru": "",
+          "explanation_formula": null,
+          "explanation_wrong": {},
+          "requires_calculation": true,
+          "calculator_steps": null,
+          "difficulty": "MEDIUM",
+          "los_reference": "LOS_2b",
+          "topic_tags": [
+            "mortgage"
+          ]
+        },
+        {
+          "question_id": "Q-QM-2-3403",
+          "question_number": 3403,
+          "question_text": "A bank advertises that it pays an annual interest of 10% with semi-annual compounding on its savings account. The effective annual rate is closest to: The correct answer is",
+          "question_text_ru": "",
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {
+              "id": "opt1",
+              "text": "Recall that: B is incorrect . It is the effective annual interest rate with quarterly compounding. C is incorrect. It is the effective annual interest rate with monthly compounding."
+            },
+            {
+              "id": "opt2",
+              "text": "Option B"
+            },
+            {
+              "id": "opt3",
+              "text": "Option C"
+            }
+          ],
+          "correct_option_id": "opt1",
+          "explanation": "Recall that: B is incorrect . It is the effective annual interest rate with quarterly compounding. C is incorrect. It is the effective annual interest rate with monthly compounding.",
+          "explanation_ru": "",
+          "explanation_formula": null,
+          "explanation_wrong": {},
+          "requires_calculation": false,
+          "calculator_steps": null,
+          "difficulty": "EASY",
+          "los_reference": "LOS_2b",
+          "topic_tags": [
+            "EAR"
+          ]
+        },
+        {
+          "question_id": "Q-QM-2-3405",
+          "question_number": 3405,
+          "question_text": "%. Effective annual rate (EAR) = ( 1 + ) (Compounding frequency) − 1 = [ 1 + ] 2 − 1 = Annual rate Compounding frequency 10 % 2 EAR = ( 1 + ) 4 − 1 = 0.1038 = 10.38 % 0.10 4 EAR = ( 1 + ) 12 − 1 = 0.1047 = 10.47 % 0.10 12  manager, which involves making an annual investment of $1,000 at the end of each year for a duration of 10 years. Assuming the investment yields an annual return of 10%, the amount that Smith can expect to receive at the end of the 10th year is closest to:",
+          "question_text_ru": "",
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {
+              "id": "opt1",
+              "text": "10.25%."
+            },
+            {
+              "id": "opt2",
+              "text": "10.38%."
+            },
+            {
+              "id": "opt3",
+              "text": "10.47%. Effective annual rate (EAR) = ( 1 + ) (Compounding frequency) − 1 = [ 1 + ] 2 − 1 = Annual rate Compounding frequency 10 % 2 EAR = ( 1 + ) 4 − 1 = 0.1038 = 10.38 % 0.10 4 EAR = ( 1 + ) 12 − 1 "
+            }
+          ],
+          "correct_option_id": "opt2",
+          "explanation": "The investment pattern above is similar to an ordinary annuity. In an ordinary annuity, the cash flows occur at the end of the compounding period. Therefore, we can consider this problem as involving ordinary annuity. To understand the principle behind the question, let’s construct the cash flow pat",
+          "explanation_ru": "",
+          "explanation_formula": null,
+          "explanation_wrong": {},
+          "requires_calculation": true,
+          "calculator_steps": null,
+          "difficulty": "MEDIUM",
+          "los_reference": "LOS_2b",
+          "topic_tags": [
+            "EAR"
+          ]
+        },
+        {
+          "question_id": "Q-QM-2-3406",
+          "question_number": 3406,
+          "question_text": "An investor wants to invest $1,000 at the beginning of each year for the next 10 years, after which he can redeem his investment at the beginning of the 10 th year. The amount received by the investor at the end of the 10 th year, if the investment generates a yearly return of 10%, is closest to: The correct answer is",
+          "question_text_ru": "",
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {
+              "id": "opt1",
+              "text": "$2,593.74"
+            },
+            {
+              "id": "opt2",
+              "text": "$15,937.42"
+            },
+            {
+              "id": "opt3",
+              "text": "$17,531.17. Annuity due = Ordinary Annuity × (1 + Rate of compounding) FV (annuity due) = 15 , 937.42 × 1.1 = 17,531.17 1 , 000 ( 1 + 0.10 ) 10 = 2 , 593.74"
+            }
+          ],
+          "correct_option_id": "opt3",
+          "explanation": "We can first calculate the ordinary annuity using the financial calculator as: N=10; I/Y=10; PMT= -1,000; PV=0 CPT ⇒ FV = $15,937.42 To calculate annuity due directly using the financial calculator: First, set the calculator to BGN mode. This is done by pressing 2ND PMT, then 2ND ENTER, then 2ND CPT",
+          "explanation_ru": "",
+          "explanation_formula": null,
+          "explanation_wrong": {},
+          "requires_calculation": true,
+          "calculator_steps": null,
+          "difficulty": "MEDIUM",
+          "los_reference": "LOS_2b",
+          "topic_tags": [
+            "TVM",
+            "calculation"
+          ]
+        },
+        {
+          "question_id": "Q-QM-2-3407",
+          "question_number": 3407,
+          "question_text": "Nathan Lewis is planning to subscribe to an investment plan which will generate a return of 5% and provide him with $2,000 at the end of each year for the next 5 years. However, due to financial constraints, he plans to subscribe to the investment plan in 2 years. The present value of the investment plan today is closest to: The correct answer is",
+          "question_text_ru": "",
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {
+              "id": "opt1",
+              "text": "The PV of the ordinary annuity after 2 years, when Lewis starts the investment plan, can be calculated as under: N=3; I/Y=5; PMT= -2,000; FV=0 CPT ⇒ PV= $5,446.52 However, this plan will start in 2 ye"
+            },
+            {
+              "id": "opt2",
+              "text": "Option B"
+            },
+            {
+              "id": "opt3",
+              "text": "Option C"
+            }
+          ],
+          "correct_option_id": "opt1",
+          "explanation": "The PV of the ordinary annuity after 2 years, when Lewis starts the investment plan, can be calculated as under: N=3; I/Y=5; PMT= -2,000; FV=0 CPT ⇒ PV= $5,446.52 However, this plan will start in 2 years. Assuming the rate of interest in these two years is 5%, the PV of the annuity today can be comp",
+          "explanation_ru": "",
+          "explanation_formula": null,
+          "explanation_wrong": {},
+          "requires_calculation": true,
+          "calculator_steps": null,
+          "difficulty": "MEDIUM",
+          "los_reference": "LOS_2b",
+          "topic_tags": [
+            "PV"
+          ]
+        },
+        {
+          "question_id": "Q-QM-2-3408",
+          "question_number": 3408,
+          "question_text": "P V = = $ 4 , 942.26 $ 5 , 446.52 ( 1.05 ) 2 t = 0 If the company intends to generate a return of 10%, then the present value of the projected cash flows today is closest to:",
+          "question_text_ru": "",
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {
+              "id": "opt1",
+              "text": "$4,942.26."
+            },
+            {
+              "id": "opt2",
+              "text": "$8,246.62"
+            },
+            {
+              "id": "opt3",
+              "text": "$8,658.95 P V = = $ 4 , 942.26 $ 5 , 446.52 ( 1.05 ) 2 t = 0"
+            }
+          ],
+          "correct_option_id": "opt3",
+          "explanation": "The cash flows and the corresponding details are as given below: We can also use the CF button of the BA II Plus Pro calculator to determine the present value of the cash flow. CF0=0↓, CF1 = 100,000 ENTER↓↓; CF2= 600,000 ENTER Then press \"CPT NPV\" after inputting all CFs, then input I/Y=10 ENTER↓, p",
+          "explanation_ru": "",
+          "explanation_formula": null,
+          "explanation_wrong": {},
+          "requires_calculation": true,
+          "calculator_steps": null,
+          "difficulty": "MEDIUM",
+          "los_reference": "LOS_2b",
+          "topic_tags": [
+            "PV"
+          ]
+        },
+        {
+          "question_id": "Q-QM-2-3409",
+          "question_number": 3409,
+          "question_text": "A project manager is looking to fund his new project through bank borrowings. The new project requires a funding of $1,000,000, so the manager approaches a commercial bank. The bank is willing to fund the project at an interest rate of 3% and wants the firm to pay back the entire loan in 10 years in 10 equal payments. The yearly payment required to completely pay off the loan is closest to: The correct answer is",
+          "question_text_ru": "",
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {
+              "id": "opt3",
+              "text": "Using the financial calculator: N=10; I/Y=3; PV=-1,000,000, FV=0 CPT ⇒ PMT = $117,230.51 A is incorrect . The amount assumes a monthly interest rate and not annual as follows. N=10; I/Y=3/12=0.25; PV="
+            },
+            {
+              "id": "opt1",
+              "text": "Option A"
+            },
+            {
+              "id": "opt2",
+              "text": "Option B"
+            }
+          ],
+          "correct_option_id": "opt3",
+          "explanation": "Using the financial calculator: N=10; I/Y=3; PV=-1,000,000, FV=0 CPT ⇒ PMT = $117,230.51",
+          "explanation_ru": "",
+          "explanation_formula": null,
+          "explanation_wrong": {},
+          "requires_calculation": true,
+          "calculator_steps": null,
+          "difficulty": "MEDIUM",
+          "los_reference": "LOS_2b",
+          "topic_tags": [
+            "TVM",
+            "calculation"
+          ]
+        },
+        {
+          "question_id": "Q-QM-2-3410",
+          "question_number": 3410,
+          "question_text": "If Rose decided to make a payment of $2,000 at the end of the 1 st year, then the payments required for the remaining 2 years would be closest to:",
+          "question_text_ru": "",
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {
+              "id": "opt1",
+              "text": "$101,380.15"
+            },
+            {
+              "id": "opt2",
+              "text": "$104,171.23."
+            },
+            {
+              "id": "opt3",
+              "text": "$117,230.51."
+            }
+          ],
+          "correct_option_id": "opt1",
+          "explanation": "The payments required to be made so that the loan is completely paid off in three years can be calculated as: N=3; I/Y=3; FV= 0; PV=5000; CPT ⇒ PMT= $1,767.65 The amortization schedule of the loan is: However, since Rose makes a payment of $2,000 at the end of the 1 st year: Therefore, at the end of",
+          "explanation_ru": "",
+          "explanation_formula": null,
+          "explanation_wrong": {},
+          "requires_calculation": true,
+          "calculator_steps": null,
+          "difficulty": "MEDIUM",
+          "los_reference": "LOS_2b",
+          "topic_tags": [
+            "TVM",
+            "calculation"
+          ]
         }
       ]
     }
