@@ -187,20 +187,106 @@ cfa-trainer/
 {
   "book_id": 1,
   "book_name": "Quantitative Methods",
+  "book_name_ru": "Количественные методы",
+  "total_terms": 21,
   "terms": [
     {
       "term_id": "T-QM-001",
       "term_en": "Holding Period Return (HPR)",
       "term_ru": "Доходность за период владения",
-      "definition_en": "The return earned from holding an asset for a specified period, including both price appreciation and income.",
-      "definition_ru": "Доходность от владения активом за определённый период, включая прирост цены и доход.",
-      "formula": "$HPR = \\frac{P_1 - P_0 + D}{P_0}$",
+      "definition_en": "The return earned from holding an asset for a single specified period of time. It is calculated as the sum of price change and income received (such as dividends), divided by the beginning price.",
+      "definition_ru": "Доходность от владения активом за определённый период времени. Рассчитывается как сумма изменения цены и полученного дохода (например, дивидендов), делённая на начальную цену.",
+      "formula": "$HPR = \\frac{P_1 - P_0 + D_1}{P_0}$",
       "module_id": 1,
-      "related_los": ["LOS 1.a"]
+      "los_id": "LOS_1b",
+      "related_terms": ["T-QM-002", "T-QM-003", "T-QM-008"],
+      "calculator_steps": {
+        "worksheet": "Direct Calculation",
+        "access": "Standard keys",
+        "steps": [
+          "(P1 [-] P0) [=] — изменение цены",
+          "[+] D1 [=] — добавить доход",
+          "[÷] P0 [=] — разделить на начальную цену"
+        ],
+        "example": {
+          "given": "P0=$100, P1=$110, D1=$5",
+          "input": "(110 - 100 + 5) ÷ 100",
+          "result": "HPR = 15%"
+        }
+      }
+    },
+    {
+      "term_id": "T-QM-004",
+      "term_en": "Harmonic Mean",
+      "term_ru": "Среднее гармоническое",
+      "definition_en": "A measure of central tendency calculated as the number of observations divided by the sum of reciprocals of the observations.",
+      "definition_ru": "Мера центральной тенденции, рассчитываемая как число наблюдений, делённое на сумму обратных величин.",
+      "formula": "$\\bar{X}_H = \\frac{n}{\\sum_{i=1}^{n} \\frac{1}{X_i}}$",
+      "module_id": 1,
+      "los_id": "LOS_1b",
+      "related_terms": ["T-QM-002", "T-QM-003"],
+      "calculator_steps": {
+        "worksheet": "Direct Calculation",
+        "access": "Standard keys",
+        "steps": [
+          "1 [÷] X1 [=] [+] — обратная величина первого значения",
+          "1 [÷] X2 [=] [+] — обратная величина второго значения",
+          "Повторить для всех Xi",
+          "[=] — сумма обратных величин",
+          "n [÷] (результат) [=] — среднее гармоническое"
+        ],
+        "example": {
+          "given": "P/E ratios: 10, 15, 20",
+          "input": "n=3, sum(1/Xi) = 1/10 + 1/15 + 1/20 = 0.2167",
+          "result": "Harmonic Mean = 13.85"
+        }
+      }
     }
   ]
 }
 ```
+
+#### Структура полей термина:
+
+| Поле | Тип | Обязательно | Описание |
+|------|-----|-------------|----------|
+| `term_id` | string | ✅ | Уникальный ID термина (формат: "T-QM-001") |
+| `term_en` | string | ✅ | Термин на английском |
+| `term_ru` | string | ✅ | Термин на русском |
+| `definition_en` | string | ✅ | Определение на английском |
+| `definition_ru` | string | ✅ | Определение на русском |
+| `formula` | string/null | ❌ | LaTeX формула (с $ обёртками) или null |
+| `module_id` | integer | ✅ | ID модуля (1, 2, 3...) |
+| `los_id` | string | ✅ | LOS reference (формат: "LOS_1a", "LOS_2b") |
+| `related_terms` | array | ✅ | Массив ID связанных терминов |
+| `calculator_steps` | object/null | ❌ | Шаги расчёта на калькуляторе или null |
+
+#### Структура calculator_steps:
+
+```json
+{
+  "worksheet": "Direct Calculation",  // или "TVM", "Cash Flow", "Statistics", "Interest Conversion"
+  "access": "Standard keys",          // или "[2ND] [DATA]", "[CF]", "[2ND] [ICONV]"
+  "steps": [                          // Массив шагов для BA II Plus
+    "Шаг 1: описание действия",
+    "Шаг 2: описание действия",
+    "..."
+  ],
+  "example": {
+    "given": "Дано: описание входных данных",
+    "input": "Последовательность ввода на калькуляторе",
+    "result": "Результат = значение"
+  }
+}
+```
+
+#### Правила отображения в UI:
+
+1. **Термин всегда развёрнут** — показывается сразу: английский термин, русский перевод, определения, формула
+2. **Калькуляторный блок сворачиваемый** — если есть `calculator_steps`, блок "BA II Plus: [Worksheet]" можно скрыть/показать по клику
+3. **Фильтры:** по Book ID и Module ID через dropdown
+4. **Badges:** LOS badge (синий) и Module badge (фиолетовый) справа от заголовка
+5. **Формулы:** рендерятся через MathJax с поддержкой LaTeX
 
 ### 3.3 Структура книг CFA Level 1
 

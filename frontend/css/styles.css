@@ -913,7 +913,7 @@ a:hover {
     overflow-x: auto;
 }
 
-/* Calculator Block in Glossary */
+/* Calculator Block in Glossary - collapsible */
 .calculator-block {
     background: rgba(79, 70, 229, 0.1);
     border: 1px solid var(--primary);
@@ -928,6 +928,27 @@ a:hover {
     gap: 8px;
     margin-bottom: 12px;
     flex-wrap: wrap;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.calc-header:hover {
+    opacity: 0.8;
+}
+
+.calc-toggle-icon {
+    font-size: 0.75rem;
+    transition: transform 0.2s;
+    display: inline-block;
+}
+
+.calculator-block.collapsed .calc-toggle-icon {
+    transform: rotate(-90deg);
+}
+
+.calculator-block.collapsed .calc-steps,
+.calculator-block.collapsed .calc-example {
+    display: none;
 }
 
 .calc-icon {
@@ -998,18 +1019,13 @@ a:hover {
     font-size: 0.875rem;
 }
 
-/* Glossary Term Header (clickable) */
+/* Glossary Term Header - not clickable anymore, terms always visible */
 .term-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    cursor: pointer;
     padding: 4px 0;
-    transition: opacity 0.2s;
-}
-
-.term-header:hover {
-    opacity: 0.8;
+    margin-bottom: 12px;
 }
 
 .term-title {
@@ -1017,19 +1033,6 @@ a:hover {
     align-items: center;
     gap: 8px;
     flex-wrap: wrap;
-}
-
-.term-expand-icon {
-    font-size: 0.75rem;
-    color: var(--text-muted);
-    transition: transform 0.2s;
-    display: inline-block;
-    width: 16px;
-}
-
-/* Expanded state - rotate arrow */
-.glossary-item:not(.collapsed) .term-expand-icon {
-    transform: rotate(90deg);
 }
 
 /* Badges container */
@@ -1059,17 +1062,10 @@ a:hover {
     font-weight: 500;
 }
 
-/* Term content (collapsible) */
+/* Term content - always visible */
 .term-content {
-    margin-top: 12px;
     padding-top: 12px;
     border-top: 1px solid var(--glass-border);
-    animation: fadeIn 0.2s ease;
-}
-
-/* Hide content when collapsed */
-.glossary-item.collapsed .term-content {
-    display: none;
 }
 
 @keyframes fadeIn {
