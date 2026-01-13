@@ -456,7 +456,7 @@
         <div class="glossary-container">
             <div class="search-box glass-container">
                 <input type="text" id="glossary-search" placeholder="Поиск терминов..." oninput="searchGlossary()">
-                <select id="glossary-book-filter" onchange="filterGlossary()">
+                <select id="glossary-book-filter" onchange="onBookFilterChange()">
                     <option value="">Все книги</option>
                     <option value="1">Book 1: Quantitative Methods</option>
                     <option value="2">Book 2: Economics</option>
@@ -469,6 +469,14 @@
                     <option value="9">Book 9: Portfolio Management</option>
                     <option value="10">Book 10: Ethics</option>
                 </select>
+                <select id="glossary-module-filter" onchange="filterGlossary()">
+                    <option value="">Все модули</option>
+                </select>
+            </div>
+            <div class="glossary-actions">
+                <button class="btn btn-ghost btn-sm" onclick="expandAllTerms()">Развернуть все</button>
+                <button class="btn btn-ghost btn-sm" onclick="collapseAllTerms()">Свернуть все</button>
+                <span id="glossary-count" class="text-muted"></span>
             </div>
 
             <div id="glossary-list" class="glossary-list">

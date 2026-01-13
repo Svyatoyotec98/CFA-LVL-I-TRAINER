@@ -977,6 +977,117 @@ a:hover {
     font-weight: 600;
 }
 
+/* Glossary Actions (expand/collapse all) */
+.glossary-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+    padding: 12px;
+    background: var(--glass-bg);
+    border-radius: 8px;
+}
+
+.glossary-actions .btn {
+    padding: 6px 12px;
+    font-size: 0.875rem;
+}
+
+#glossary-count {
+    margin-left: auto;
+    font-size: 0.875rem;
+}
+
+/* Glossary Term Header (clickable) */
+.term-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 4px 0;
+    transition: opacity 0.2s;
+}
+
+.term-header:hover {
+    opacity: 0.8;
+}
+
+.term-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.term-expand-icon {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    transition: transform 0.2s;
+    display: inline-block;
+    width: 16px;
+}
+
+/* Expanded state - rotate arrow */
+.glossary-item:not(.collapsed) .term-expand-icon {
+    transform: rotate(90deg);
+}
+
+/* Badges container */
+.term-badges {
+    display: flex;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+/* LOS badge */
+.term-los {
+    background: rgba(79, 70, 229, 0.2);
+    color: var(--primary);
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+/* Module badge */
+.term-module {
+    background: rgba(139, 92, 246, 0.2);
+    color: var(--accent);
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+/* Term content (collapsible) */
+.term-content {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid var(--glass-border);
+    animation: fadeIn 0.2s ease;
+}
+
+/* Hide content when collapsed */
+.glossary-item.collapsed .term-content {
+    display: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Module filter select */
+#glossary-module-filter {
+    min-width: 150px;
+}
+
 /* Statistics */
 .statistics-container {
     padding: 16px;
