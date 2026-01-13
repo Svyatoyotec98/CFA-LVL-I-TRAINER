@@ -216,6 +216,16 @@
                 <p id="test-questions-count">0 вопросов</p>
 
                 <div class="mode-options">
+                    <div class="mode-card" onclick="startTest('learning')">
+                        <h3>Learning Mode</h3>
+                        <p>Обучение с объяснениями</p>
+                        <ul>
+                            <li>Без таймера — учитесь в своём темпе</li>
+                            <li>Объяснение после каждого ответа</li>
+                            <li>Формулы и шаги калькулятора</li>
+                        </ul>
+                    </div>
+
                     <div class="mode-card" onclick="startTest('standard')">
                         <h3>Standard Mode</h3>
                         <p>Общее время на весь тест</p>
@@ -265,13 +275,15 @@
                 </div>
             </div>
 
-            <!-- Explanation (shown after answer in 90-second mode) -->
+            <!-- Explanation (shown after answer) -->
             <div id="explanation-container" class="glass-container hidden">
+                <div id="explanation-status" class="explanation-status"></div>
                 <h4>Объяснение</h4>
                 <div id="explanation-text"></div>
-                <div id="explanation-wrong"></div>
+                <div id="explanation-formula" class="explanation-formula hidden"></div>
+                <div id="explanation-wrong" class="explanation-wrong hidden"></div>
                 <div id="calculator-steps" class="hidden">
-                    <h5>Шаги на калькуляторе:</h5>
+                    <h5>Шаги на калькуляторе BA II Plus:</h5>
                     <ol id="calc-steps-list"></ol>
                 </div>
             </div>
@@ -282,6 +294,10 @@
             <div class="question-dots" id="question-dots"></div>
             <button class="btn btn-primary" onclick="nextQuestion()" id="next-btn">Далее →</button>
         </div>
+
+        <button class="btn btn-accent btn-full hidden" onclick="checkSingleAnswer()" id="check-btn">
+            Проверить ответ
+        </button>
 
         <button class="btn btn-accent btn-full hidden" onclick="submitTest()" id="submit-btn">
             Завершить тест
