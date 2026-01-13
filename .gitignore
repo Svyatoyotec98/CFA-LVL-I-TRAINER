@@ -41,8 +41,10 @@ Thumbs.db
 # This includes Materials/NOTES/, Materials/QBank/, etc.
 !Materials/**/*.pdf
 
-# Extracted text files from PDF parsing
+# Extracted text files from PDF parsing (except QBank extracted/ folders)
 Materials/Tests/Tests/*.txt
 Materials/NOTES/*.txt
 Materials/notes/**/*.txt
-Materials/Tests/Tests/*.txt
+Materials/QBank/**/*.txt
+!Materials/QBank/**/extracted/*.txt
+!Materials/QBank/**/extracted/*.json
