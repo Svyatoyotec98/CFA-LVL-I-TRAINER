@@ -1,0 +1,497 @@
+{
+  "book_id": 1,
+  "book_name": "Quantitative Methods",
+  "book_name_ru": "Количественные методы",
+  "chapter_id": 2,
+  "chapter_name": "Time Value of Money",
+  "chapter_name_ru": "Временная стоимость денег",
+  "total_questions": 10,
+  "questions": [
+    {
+      "question_id": "Q-QM-2-008",
+      "original_number": "Q.8",
+      "los_id": "LOS_2a",
+      "los_reference": "",
+      "difficulty": "EASY",
+      "requires_calculation": false,
+      "topic_tags": [
+        "TVM",
+        "calculation"
+      ],
+      "question_text": "",
+      "question_text_ru": "",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "option_id": "opt1",
+          "text": "Option 1",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt2",
+          "text": "Option 2",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt3",
+          "text": "Option 3",
+          "text_ru": ""
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": {
+        "main": "",
+        "main_ru": "",
+        "formula": "",
+        "formula_latex": "",
+        "solution_steps": [],
+        "wrong_answers": {},
+        "calculator_steps": null
+      }
+    },
+    {
+      "question_id": "Q-QM-2-011",
+      "original_number": "Q.11",
+      "los_id": "LOS_2a",
+      "los_reference": "Calculate\tand\tinterpret\tthe\tpresent\tvalue\t(PV)\tof\tfixed-income\tand",
+      "difficulty": "MEDIUM",
+      "requires_calculation": true,
+      "topic_tags": [
+        "TVM",
+        "calculation"
+      ],
+      "question_text": "",
+      "question_text_ru": "",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "option_id": "opt1",
+          "text": "Option 1",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt2",
+          "text": "Option 2",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt3",
+          "text": "Option 3",
+          "text_ru": ""
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": {
+        "main": "",
+        "main_ru": "",
+        "formula": "",
+        "formula_latex": "",
+        "solution_steps": [],
+        "wrong_answers": {},
+        "calculator_steps": {
+          "applicable": true,
+          "calculator_model": "BA II Plus Professional",
+          "method": "TVM Worksheet",
+          "preparation": [],
+          "keystrokes": [],
+          "display_result": "",
+          "note": ""
+        }
+      }
+    },
+    {
+      "question_id": "Q-QM-2-019",
+      "original_number": "Q.19",
+      "los_id": "LOS_2d",
+      "los_reference": "Calculate\tand\tinterpret\tannualized\treturn\tmeasures\tand\tcontinuously\tcompounded",
+      "difficulty": "EASY",
+      "requires_calculation": false,
+      "topic_tags": [
+        "TVM",
+        "calculation"
+      ],
+      "question_text": "",
+      "question_text_ru": "",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "option_id": "opt1",
+          "text": "Option 1",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt2",
+          "text": "Option 2",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt3",
+          "text": "Option 3",
+          "text_ru": ""
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": {
+        "main": "",
+        "main_ru": "",
+        "formula": "",
+        "formula_latex": "",
+        "solution_steps": [],
+        "wrong_answers": {},
+        "calculator_steps": null
+      }
+    },
+    {
+      "question_id": "Q-QM-2-021",
+      "original_number": "Q.21",
+      "los_id": "LOS_2a",
+      "los_reference": "Calculate\tand\tinterpret\tthe\tpresent\tvalue\t(PV)\tof\tfixed-income\tand",
+      "difficulty": "MEDIUM",
+      "requires_calculation": true,
+      "topic_tags": [
+        "TVM",
+        "calculation"
+      ],
+      "question_text": "",
+      "question_text_ru": "",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "option_id": "opt1",
+          "text": "Option 1",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt2",
+          "text": "Option 2",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt3",
+          "text": "Option 3",
+          "text_ru": ""
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": {
+        "main": "",
+        "main_ru": "",
+        "formula": "",
+        "formula_latex": "",
+        "solution_steps": [],
+        "wrong_answers": {},
+        "calculator_steps": {
+          "applicable": true,
+          "calculator_model": "BA II Plus Professional",
+          "method": "TVM Worksheet",
+          "preparation": [],
+          "keystrokes": [],
+          "display_result": "",
+          "note": ""
+        }
+      }
+    },
+    {
+      "question_id": "Q-QM-2-022",
+      "original_number": "Q.22",
+      "los_id": "LOS_2b",
+      "los_reference": "",
+      "difficulty": "MEDIUM",
+      "requires_calculation": true,
+      "topic_tags": [
+        "TVM",
+        "calculation"
+      ],
+      "question_text": "",
+      "question_text_ru": "",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "option_id": "opt1",
+          "text": "Option 1",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt2",
+          "text": "Option 2",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt3",
+          "text": "Option 3",
+          "text_ru": ""
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": {
+        "main": "",
+        "main_ru": "",
+        "formula": "",
+        "formula_latex": "",
+        "solution_steps": [],
+        "wrong_answers": {},
+        "calculator_steps": {
+          "applicable": true,
+          "calculator_model": "BA II Plus Professional",
+          "method": "TVM Worksheet",
+          "preparation": [],
+          "keystrokes": [],
+          "display_result": "",
+          "note": ""
+        }
+      }
+    },
+    {
+      "question_id": "Q-QM-2-023",
+      "original_number": "Q.23",
+      "los_id": "LOS_2b",
+      "los_reference": "Calculate\tand\tinterpret\tthe\timplied\treturn\tof\tfixed-income",
+      "difficulty": "MEDIUM",
+      "requires_calculation": true,
+      "topic_tags": [
+        "TVM",
+        "calculation"
+      ],
+      "question_text": "",
+      "question_text_ru": "",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "option_id": "opt2",
+          "text": "",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt1",
+          "text": "$349,178.78",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt2",
+          "text": "$349,744.72",
+          "text_ru": ""
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": {
+        "main": "",
+        "main_ru": "",
+        "formula": "",
+        "formula_latex": "",
+        "solution_steps": [],
+        "wrong_answers": {},
+        "calculator_steps": {
+          "applicable": true,
+          "calculator_model": "BA II Plus Professional",
+          "method": "TVM Worksheet",
+          "preparation": [],
+          "keystrokes": [],
+          "display_result": "",
+          "note": ""
+        }
+      }
+    },
+    {
+      "question_id": "Q-QM-2-025",
+      "original_number": "Q.25",
+      "los_id": "LOS_2a",
+      "los_reference": "Calculate\tand\tinterpret\tthe\tpresent\tvalue\t(PV)\tof\tfixed-income\tand",
+      "difficulty": "MEDIUM",
+      "requires_calculation": true,
+      "topic_tags": [
+        "TVM",
+        "calculation"
+      ],
+      "question_text": "",
+      "question_text_ru": "",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "option_id": "opt1",
+          "text": "Option 1",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt2",
+          "text": "Option 2",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt3",
+          "text": "Option 3",
+          "text_ru": ""
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": {
+        "main": "",
+        "main_ru": "",
+        "formula": "",
+        "formula_latex": "",
+        "solution_steps": [],
+        "wrong_answers": {},
+        "calculator_steps": {
+          "applicable": true,
+          "calculator_model": "BA II Plus Professional",
+          "method": "TVM Worksheet",
+          "preparation": [],
+          "keystrokes": [],
+          "display_result": "",
+          "note": ""
+        }
+      }
+    },
+    {
+      "question_id": "Q-QM-2-034",
+      "original_number": "Q.34",
+      "los_id": "LOS_2a",
+      "los_reference": "Calculate\tand\tinterpret\tthe\tpresent\tvalue\t(PV)\tof\tfixed-income\tand",
+      "difficulty": "MEDIUM",
+      "requires_calculation": true,
+      "topic_tags": [
+        "TVM",
+        "calculation"
+      ],
+      "question_text": "",
+      "question_text_ru": "",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "option_id": "opt1",
+          "text": "Option 1",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt2",
+          "text": "Option 2",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt3",
+          "text": "Option 3",
+          "text_ru": ""
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": {
+        "main": "",
+        "main_ru": "",
+        "formula": "",
+        "formula_latex": "",
+        "solution_steps": [],
+        "wrong_answers": {},
+        "calculator_steps": {
+          "applicable": true,
+          "calculator_model": "BA II Plus Professional",
+          "method": "TVM Worksheet",
+          "preparation": [],
+          "keystrokes": [],
+          "display_result": "",
+          "note": ""
+        }
+      }
+    },
+    {
+      "question_id": "Q-QM-2-035",
+      "original_number": "Q.35",
+      "los_id": "LOS_2a",
+      "los_reference": "Calculate\tand\tinterpret\tthe\tpresent\tvalue\t(PV)\tof\tfixed-income\tand",
+      "difficulty": "MEDIUM",
+      "requires_calculation": true,
+      "topic_tags": [
+        "TVM",
+        "calculation"
+      ],
+      "question_text": "",
+      "question_text_ru": "",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "option_id": "opt1",
+          "text": "Option 1",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt2",
+          "text": "Option 2",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt3",
+          "text": "Option 3",
+          "text_ru": ""
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": {
+        "main": "",
+        "main_ru": "",
+        "formula": "",
+        "formula_latex": "",
+        "solution_steps": [],
+        "wrong_answers": {},
+        "calculator_steps": {
+          "applicable": true,
+          "calculator_model": "BA II Plus Professional",
+          "method": "TVM Worksheet",
+          "preparation": [],
+          "keystrokes": [],
+          "display_result": "",
+          "note": ""
+        }
+      }
+    },
+    {
+      "question_id": "Q-QM-2-037",
+      "original_number": "Q.37",
+      "los_id": "LOS_2a",
+      "los_reference": "Calculate\tand\tinterpret\tthe\tpresent\tvalue\t(PV)\tof\tfixed-income\tand",
+      "difficulty": "EASY",
+      "requires_calculation": false,
+      "topic_tags": [
+        "TVM",
+        "calculation"
+      ],
+      "question_text": "",
+      "question_text_ru": "",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "option_id": "opt1",
+          "text": "Option 1",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt2",
+          "text": "Option 2",
+          "text_ru": ""
+        },
+        {
+          "option_id": "opt3",
+          "text": "Option 3",
+          "text_ru": ""
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": {
+        "main": "",
+        "main_ru": "",
+        "formula": "",
+        "formula_latex": "",
+        "solution_steps": [],
+        "wrong_answers": {},
+        "calculator_steps": null
+      }
+    }
+  ]
+}
