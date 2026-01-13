@@ -401,17 +401,26 @@ async function startTest(mode) {
         ).join('');
 
         // Configure based on mode
+        const checkBtn = document.getElementById('check-btn');
         if (mode === '90_second') {
             document.getElementById('prev-btn').classList.add('hidden');
             document.getElementById('flag-btn').classList.add('hidden');
+            if (checkBtn) checkBtn.classList.add('hidden');
+        } else if (mode === 'learning') {
+            document.getElementById('prev-btn').classList.remove('hidden');
+            document.getElementById('flag-btn').classList.remove('hidden');
+            if (checkBtn) checkBtn.classList.remove('hidden');
         } else {
             document.getElementById('prev-btn').classList.remove('hidden');
             document.getElementById('flag-btn').classList.remove('hidden');
+            if (checkBtn) checkBtn.classList.add('hidden');
         }
 
         showScreen('test');
         displayQuestion();
-        startTimer();
+        if (mode !== 'learning') {
+            startTimer();
+        }
     } catch (error) {
         showToast(error.message, 'error');
         showScreen('modules');
@@ -429,6 +438,30 @@ function displayQuestion() {
     document.getElementById('q-num').textContent = state.currentQuestionIndex + 1;
     document.getElementById('test-current').textContent = state.currentQuestionIndex + 1;
     document.getElementById('question-text').textContent = question.question_text;
+
+    // Table (if question has table data)
+    const tableDiv = document.getElementById('question-table');
+    if (tableDiv) {
+        if (question.has_table && question.table_data) {
+            tableDiv.innerHTML = renderTable(question.table_data);
+            tableDiv.classList.remove('hidden');
+        } else {
+            tableDiv.innerHTML = '';
+            tableDiv.classList.add('hidden');
+        }
+    }
+
+    // Question continuation (text after table)
+    const continuationDiv = document.getElementById('question-continuation');
+    if (continuationDiv) {
+        if (question.question_continuation) {
+            continuationDiv.textContent = question.question_continuation;
+            continuationDiv.classList.remove('hidden');
+        } else {
+            continuationDiv.textContent = '';
+            continuationDiv.classList.add('hidden');
+        }
+    }
 
     // Formula
     const formulaDiv = document.getElementById('question-formula');
@@ -473,6 +506,20 @@ function displayQuestion() {
 
     // Hide explanation for new question
     document.getElementById('explanation-container').classList.add('hidden');
+
+    // Show check button for learning mode (if question not already answered in this mode)
+    const checkBtn = document.getElementById('check-btn');
+    if (checkBtn && state.testMode === 'learning') {
+        // If already checked this question, keep button hidden and show explanation
+        const alreadyAnswered = state.answers[question.question_id];
+        if (alreadyAnswered) {
+            // Check if this question was already revealed (we track by checking if explanation is shown)
+            // For simplicity, show check button again if navigating back
+            checkBtn.classList.remove('hidden');
+        } else {
+            checkBtn.classList.remove('hidden');
+        }
+    }
 }
 
 function selectAnswer(letter) {
@@ -528,6 +575,34 @@ function showQuestionResult(question, userAnswer) {
     }
 
     expContainer.classList.remove('hidden');
+
+    // Render MathJax for explanation formulas
+    if (window.MathJax && MathJax.typesetPromise) {
+        MathJax.typesetPromise([expContainer]).catch(err => console.log('MathJax error:', err));
+    }
+}
+
+// Check single answer for learning mode
+function checkSingleAnswer() {
+    const question = state.questions[state.currentQuestionIndex];
+    const userAnswer = state.answers[question.question_id];
+
+    if (!userAnswer) {
+        showToast('Выберите ответ', 'warning');
+        return;
+    }
+
+    // Show result
+    showQuestionResult(question, userAnswer);
+
+    // Disable all options after checking
+    document.querySelectorAll('.option').forEach(btn => {
+        btn.style.pointerEvents = 'none';
+    });
+
+    // Hide check button after use
+    const checkBtn = document.getElementById('check-btn');
+    if (checkBtn) checkBtn.classList.add('hidden');
 }
 
 function updateQuestionDots() {
@@ -967,6 +1042,35 @@ async function loadStatistics() {
     } catch (error) {
         console.error('Failed to load statistics:', error);
     }
+}
+
+// ============== Table Rendering ==============
+function renderTable(tableData) {
+    if (!tableData) return '';
+
+    let html = '<table class="question-table">';
+
+    // Headers
+    if (tableData.headers && tableData.headers.length > 0) {
+        html += '<thead><tr>';
+        tableData.headers.forEach(h => {
+            html += `<th>${h}</th>`;
+        });
+        html += '</tr></thead>';
+    }
+
+    // Rows
+    html += '<tbody>';
+    tableData.rows.forEach(row => {
+        html += '<tr>';
+        row.forEach(cell => {
+            html += `<td>${cell}</td>`;
+        });
+        html += '</tr>';
+    });
+    html += '</tbody></table>';
+
+    return html;
 }
 
 // ============== Utilities ==============
