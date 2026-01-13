@@ -482,15 +482,18 @@ function displayQuestion() {
         diffDiv.textContent = '';
     }
 
-    // Options
+    // Options - with backwards compatibility and shuffle
     const optionsContainer = document.getElementById('options-container');
-    optionsContainer.innerHTML = Object.entries(question.options).map(([letter, text]) => {
-        const isSelected = state.answers[question.question_id] === letter;
+    const options = getOptions(question);
+    const shuffledOptions = shuffleArray(options);
+
+    optionsContainer.innerHTML = shuffledOptions.map(opt => {
+        const isSelected = state.answers[question.question_id] === opt.id;
         return `
             <button class="option ${isSelected ? 'selected' : ''}"
-                    onclick="selectAnswer('${letter}')">
-                <span class="option-letter">${letter}</span>
-                ${text}
+                    data-option-id="${opt.id}"
+                    onclick="selectAnswer('${opt.id}')">
+                ${opt.text}
             </button>
         `;
     }).join('');
@@ -522,14 +525,14 @@ function displayQuestion() {
     }
 }
 
-function selectAnswer(letter) {
+function selectAnswer(optionId) {
     const question = state.questions[state.currentQuestionIndex];
-    state.answers[question.question_id] = letter;
+    state.answers[question.question_id] = optionId;
 
     // Update button states
     document.querySelectorAll('.option').forEach(btn => {
         btn.classList.remove('selected');
-        if (btn.querySelector('.option-letter').textContent === letter) {
+        if (btn.dataset.optionId === optionId) {
             btn.classList.add('selected');
         }
     });
@@ -538,47 +541,111 @@ function selectAnswer(letter) {
 
     // In 90-second mode, show result immediately
     if (state.testMode === '90_second') {
-        showQuestionResult(question, letter);
+        showQuestionResult(question, optionId);
     }
 }
 
 function showQuestionResult(question, userAnswer) {
-    const isCorrect = userAnswer === question.correct_answer;
+    const correctOptionId = getCorrectOptionId(question);
+    const isCorrect = userAnswer === correctOptionId;
+
+    // Find correct option text for display
+    const options = getOptions(question);
+    const correctOption = options.find(opt => opt.id === correctOptionId);
+    const correctText = correctOption ? correctOption.text : '';
 
     // Highlight correct/incorrect options
     document.querySelectorAll('.option').forEach(btn => {
-        const letter = btn.querySelector('.option-letter').textContent;
-        if (letter === question.correct_answer) {
+        const optId = btn.dataset.optionId;
+        btn.disabled = true;
+
+        if (optId === correctOptionId) {
             btn.classList.add('correct');
-        } else if (letter === userAnswer && !isCorrect) {
+        } else if (optId === userAnswer && !isCorrect) {
             btn.classList.add('incorrect');
         }
     });
 
     // Show explanation
     const expContainer = document.getElementById('explanation-container');
+
+    // Result status
+    const statusEl = document.getElementById('explanation-status');
+    if (statusEl) {
+        statusEl.innerHTML = isCorrect
+            ? '<span class="result-correct">✓ Правильно!</span>'
+            : '<span class="result-incorrect">✗ Неправильно</span>';
+        statusEl.innerHTML += `<span class="correct-answer">Правильный ответ: ${correctText}</span>`;
+    }
+
     document.getElementById('explanation-text').textContent = question.explanation || '';
 
-    if (question.explanation_wrong && question.explanation_wrong[userAnswer]) {
-        document.getElementById('explanation-wrong').textContent = question.explanation_wrong[userAnswer];
-    } else {
-        document.getElementById('explanation-wrong').textContent = '';
+    // Explanation formula
+    const formulaEl = document.getElementById('explanation-formula');
+    if (formulaEl) {
+        if (question.explanation_formula) {
+            formulaEl.innerHTML = question.explanation_formula;
+            formulaEl.classList.remove('hidden');
+            if (window.MathJax) {
+                MathJax.typesetPromise([formulaEl]).catch(err => console.log('MathJax error:', err));
+            }
+        } else {
+            formulaEl.classList.add('hidden');
+        }
+    }
+
+    // Wrong answer explanation (supports old string and new object format)
+    const wrongEl = document.getElementById('explanation-wrong');
+    if (wrongEl) {
+        const wrongExplanation = question.explanation_wrong?.[userAnswer];
+        if (!isCorrect && wrongExplanation) {
+            let wrongHtml = `<strong>Почему ваш ответ неправильный:</strong> `;
+
+            if (typeof wrongExplanation === 'string') {
+                wrongHtml += wrongExplanation;
+            } else {
+                wrongHtml += wrongExplanation.text || wrongExplanation.text_ru || '';
+                if (wrongExplanation.formula) {
+                    wrongHtml += `<div class="wrong-formula">${wrongExplanation.formula}</div>`;
+                }
+            }
+
+            wrongEl.innerHTML = wrongHtml;
+            wrongEl.classList.remove('hidden');
+
+            if (window.MathJax) {
+                MathJax.typesetPromise([wrongEl]).catch(err => console.log('MathJax error:', err));
+            }
+        } else {
+            wrongEl.classList.add('hidden');
+        }
     }
 
     // Calculator steps
-    if (question.calculator_steps && question.calculator_steps.length > 0) {
-        document.getElementById('calc-steps-list').innerHTML =
-            question.calculator_steps.map(step => `<li>${step}</li>`).join('');
-        document.getElementById('calculator-steps').classList.remove('hidden');
-    } else {
-        document.getElementById('calculator-steps').classList.add('hidden');
+    const calcStepsContainer = document.getElementById('calculator-steps');
+    if (calcStepsContainer) {
+        if (question.calculator_steps && question.calculator_steps.length > 0) {
+            document.getElementById('calc-steps-list').innerHTML =
+                question.calculator_steps.map(step => `<li><code>${step}</code></li>`).join('');
+            calcStepsContainer.classList.remove('hidden');
+        } else {
+            calcStepsContainer.classList.add('hidden');
+        }
     }
 
     expContainer.classList.remove('hidden');
 
-    // Render MathJax for explanation formulas
+    // Render MathJax for explanation
     if (window.MathJax && MathJax.typesetPromise) {
         MathJax.typesetPromise([expContainer]).catch(err => console.log('MathJax error:', err));
+    }
+
+    // In learning mode, show next button after checking
+    if (state.testMode === 'learning') {
+        const checkBtn = document.getElementById('check-btn');
+        const nextBtn = document.getElementById('next-btn');
+        if (checkBtn) checkBtn.classList.add('hidden');
+        if (nextBtn) nextBtn.classList.remove('hidden');
     }
 }
 
@@ -702,14 +769,17 @@ async function submitTest() {
 
     const timeSpent = Math.floor((Date.now() - state.testStartTime) / 1000);
 
-    // Calculate results
-    const questionDetails = state.questions.map(q => ({
-        question_id: q.question_id,
-        user_answer: state.answers[q.question_id] || null,
-        correct_answer: q.correct_answer,
-        correct: state.answers[q.question_id] === q.correct_answer,
-        time_spent: 0 // TODO: track per-question time
-    }));
+    // Calculate results (with backwards compatibility)
+    const questionDetails = state.questions.map(q => {
+        const correctId = getCorrectOptionId(q);
+        return {
+            question_id: q.question_id,
+            user_answer: state.answers[q.question_id] || null,
+            correct_answer: correctId,
+            correct: state.answers[q.question_id] === correctId,
+            time_spent: 0 // TODO: track per-question time
+        };
+    });
 
     const correct = questionDetails.filter(q => q.correct).length;
     const total = state.questions.length;
@@ -891,18 +961,24 @@ async function loadReviewQuestions() {
             container.innerHTML = `
                 <h3>Вопросы для повторения (${data.total_due})</h3>
                 <div class="review-questions">
-                    ${data.questions.map(q => `
-                        <div class="review-question glass-container">
-                            <p>${q.question.question_text}</p>
-                            <div class="options-container">
-                                ${Object.entries(q.question.options).map(([letter, text]) => `
-                                    <button class="option" onclick="answerReview('${q.question_id}', '${letter}', '${q.question.correct_answer}')">
-                                        <span class="option-letter">${letter}</span> ${text}
-                                    </button>
-                                `).join('')}
+                    ${data.questions.map(q => {
+                        const options = getOptions(q.question);
+                        const correctId = getCorrectOptionId(q.question);
+                        return `
+                            <div class="review-question glass-container">
+                                <p>${q.question.question_text}</p>
+                                <div class="options-container">
+                                    ${options.map(opt => `
+                                        <button class="option"
+                                                data-option-id="${opt.id}"
+                                                onclick="answerReview('${q.question_id}', '${opt.id}', '${correctId}')">
+                                            ${opt.text}
+                                        </button>
+                                    `).join('')}
+                                </div>
                             </div>
-                        </div>
-                    `).join('')}
+                        `;
+                    }).join('')}
                 </div>
             `;
         } else {
@@ -1071,6 +1147,34 @@ function renderTable(tableData) {
     html += '</tbody></table>';
 
     return html;
+}
+
+// ============== Backwards Compatibility ==============
+// These functions support both old (A/B/C object) and new (opt1/opt2/opt3 array) formats
+
+function getOptions(question) {
+    // New format (array)
+    if (Array.isArray(question.options)) {
+        return question.options;
+    }
+
+    // Old format (object A/B/C) - convert to new format
+    return Object.entries(question.options).map(([letter, text], index) => ({
+        id: `opt${index + 1}`,
+        text: text,
+        _originalLetter: letter  // for backwards compatibility
+    }));
+}
+
+function getCorrectOptionId(question) {
+    // New format
+    if (question.correct_option_id) {
+        return question.correct_option_id;
+    }
+
+    // Old format - convert A→opt1, B→opt2, C→opt3
+    const letterToOpt = {'A': 'opt1', 'B': 'opt2', 'C': 'opt3', 'D': 'opt4'};
+    return letterToOpt[question.correct_answer] || 'opt1';
 }
 
 // ============== Utilities ==============
