@@ -205,12 +205,27 @@
           "question_continuation": "The EPS compound annual growth rate during this period is closest to:",
           "has_table": true,
           "table_data": {
-            "headers": ["Year", "EPS ($)"],
+            "headers": [
+              "Year",
+              "EPS ($)"
+            ],
             "rows": [
-              ["Year 1", "$3.00"],
-              ["Year 2", "$4.20"],
-              ["Year 3", "$5.50"],
-              ["Year 4", "$7.60"]
+              [
+                "Year 1",
+                "$3.00"
+              ],
+              [
+                "Year 2",
+                "$4.20"
+              ],
+              [
+                "Year 3",
+                "$5.50"
+              ],
+              [
+                "Year 4",
+                "$7.60"
+              ]
             ]
           },
           "has_image": false,
@@ -227,7 +242,14 @@
             "A": "16.80% would result from an incorrect calculation that doesn't properly apply the compound growth formula.",
             "B": "20.40% might result from using arithmetic averaging instead of geometric (compound) growth calculation."
           },
-          "calculator_steps": ["[2ND] [CLR TVM]", "3 [N]", "3.00 [+/-] [PV]", "7.60 [FV]", "0 [PMT]", "[CPT] [I/Y] = 36.32%"],
+          "calculator_steps": [
+            "[2ND] [CLR TVM]",
+            "3 [N]",
+            "3.00 [+/-] [PV]",
+            "7.60 [FV]",
+            "0 [PMT]",
+            "[CPT] [I/Y] = 36.32%"
+          ],
           "difficulty": "medium",
           "los_reference": "CFA Level I, Quantitative Methods, Learning Module 1: Rate and Return. LOS (d): Calculate and interpret different approaches to return measurement over time."
         },
@@ -478,14 +500,15 @@
           "image_path": null,
           "options": {
             "A": "Risk-return opportunity set will be represented by a straight line connecting these two securities.",
-            "B": "Risk-return opportunity set will be represented by a curve bulging on the left."
+            "B": "Risk-return opportunity set will be represented by a curve bulging on the left.",
+            "C": "Risk-return opportunity set will be represented by a curve bulging on the right."
           },
           "correct_answer": "A",
           "explanation": "If two assets are perfectly correlated, the risk-return opportunity is represented by a straight line connecting these two assets. The line contains portfolios formed by changing the weight of each asset invested in the portfolio.",
           "explanation_formula": null,
           "explanation_wrong": {
             "B": "The returns of the securities move together in the same direction and to the same extent, leaving no room for risk reduction through diversification.",
-            "C": "Proposing that the risk-return opportunity set will be represented by a curve bulging on the right is also incorrect for two perfectly correlated securities. A curve bulging to the right would suggest an inefficient risk-return trade-off, where increasing risk does not proportionately increase expected returns. However, in the case of perfect correlation, the risk- return trade-off is linear, as the returns of the two securities move in tandem, allowing for a predictable increase in expected returns with an increase in risk, represented by a straight line rather than a curve. A. Risk-return opportunity set will be represented by a straight line connecting these two securities. B. Risk-return opportunity set will be represented by a curve bulging on the left. C. Risk-return opportunity set will be represented by a curve bulging on the right. © 2014-2024 AnalystPrep. 80"
+            "C": "Proposing that the risk-return opportunity set will be represented by a curve bulging on the right is also incorrect for two perfectly correlated securities. A curve bulging to the right would suggest an inefficient risk-return trade-off, where increasing risk does not proportionately increase expected returns. However, in the case of perfect correlation, the risk- return trade-off is linear, as the returns of the two securities move in tandem, allowing for a predictable increase in expected returns with an increase in risk, represented by a straight line rather than a curve."
           },
           "calculator_steps": null,
           "difficulty": "medium",
@@ -615,7 +638,7 @@
           "explanation_formula": null,
           "explanation_wrong": {
             "B": "It suggests the geometric mean is 4%, which overestimates the compounded effect of the given returns. The calculation of the geometric mean takes into account the negative return in the first year, which impacts the overall growth rate of the investment.",
-            "C": "It suggests the geometric mean is 2.78%, which underestimates the compounded growth of the investment. This might result from a miscalculation or misunderstanding of how the geometric mean accounts for the sequence of returns, especially the recovery and growth in the subsequent years after a negative return. The geometric mean accurately reflects the rate at which the investment has grown on average per year, taking into account the effect of compounding, which is not as low as 2.78% in this case. CFA Level I, Portfolio Management, Learning Module 1: Portfolio Risk & Return: Part I. LOS (d): Calculate and interpret the mean, variance, and covariance (or correlation) of asset returns based on historical data."
+            "C": "It suggests the geometric mean is 2.78%, which underestimates the compounded growth of the investment. This might result from a miscalculation or misunderstanding of how the geometric mean accounts for the sequence of returns, especially the recovery and growth in the subsequent years after a negative return. The geometric mean accurately reflects the rate at which the investment has grown on average per year, taking into account the effect of compounding, which is not as low as 2.78% in this case. CFA Level I, Portfolio Management, Learning Module 1: Portfolio Risk & Return: Part I. LOS (d): Calculate and interpret the mean, variance, and covariance (or correlation) of asset returns based on historical dat"
           },
           "calculator_steps": null,
           "difficulty": "medium",
@@ -771,7 +794,7 @@
           "explanation_formula": null,
           "explanation_wrong": {
             "A": "The option suggesting an HPR of 1.04% does not correctly account for the dividend received in addition to the capital gain. This underestimation overlooks the dividend's contribution to the total return, leading to an inaccurate calculation of HPR.",
-            "C": "The option indicating an HPR of 10.33% significantly overestimates the return on the investment. CFA Level I, Portfolio Management, Learning Module 1: Portfolio Risk & Return: Part I. LOS (d): Calculate and interpret the mean, variance, and covariance (or correlation) of asset returns based on historical data."
+            "C": "The option indicating an HPR of 10.33% significantly overestimates the return on the investment. CFA Level I, Portfolio Management, Learning Module 1: Portfolio Risk & Return: Part I. LOS (d): Calculate and interpret the mean, variance, and covariance (or correlation) of asset returns based on historical dat"
           },
           "calculator_steps": null,
           "difficulty": "medium",
@@ -797,7 +820,7 @@
           "explanation_formula": null,
           "explanation_wrong": {
             "A": "A sale price of $1,000 does not accurately reflect the calculation based on the given holding period return, coupon, and purchase price. This option disregards the specific financial metrics provided and does not follow the formula for calculating the sale price based on the holding period return.",
-            "C": "A sale price of $930 does not align with the calculated result using the holding period return formula. This option seems arbitrary and does not consider the precise calculation required to determine the sale price of the bond given the initial purchase price, coupon, and holding period return."
+            "C": "A sale price of $930 does not align with the calculated result using the holding period return formul"
           },
           "calculator_steps": null,
           "difficulty": "medium",
@@ -867,10 +890,11 @@
           "image_path": null,
           "options": {
             "A": "The analyst should compare the profit margin of each of the five firms within the sector.",
-            "B": "The analyst should compare the returns of each of the five firms with their historical returns."
+            "B": "The analyst should compare the returns of each of the five firms with their historical returns.",
+            "C": "The analyst should use the EPS of the last 5 years of any firm to estimate the growth in the sector."
           },
           "correct_answer": "A",
-          "explanation": "",
+          "explanation": "Option A uses the cross-sectional data or the data of peer firms to conduct the analysis, while options B) and C) provide a time series data analysis. Cross-sectional data is a type of data collected by observing many subjects (such as individuals, firms, countries, or regions) at the same time or without regard to differences in time. On the other hand, time-series data refers to observations made over a period of time at regular intervals. B and C are incorrect. It also provides for time-series analysis. A. The analyst should compare the profit margin of each of the five firms within the sector. B. The analyst should compare the returns of each of the five firms with their historical returns. C. The analyst should use the EPS of the last 5 years of any firm to estimate the growth in the sector.",
           "explanation_formula": null,
           "explanation_wrong": {},
           "calculator_steps": null,
@@ -889,14 +913,15 @@
           "image_path": null,
           "options": {
             "A": "The geometric mean return is equal to the arithmetic return.",
-            "B": "The geometric mean return is smaller than the arithmetic return."
+            "B": "The geometric mean return is smaller than the arithmetic return.",
+            "C": "The geometric mean return is greater than the arithmetic return. Arithmetic return = = 1.5% (6% + 2.5% −3% + 8% −6%) 5 Geometric mean = (1.06 × 1.025 × 0.97 × 1.08 × 0.94)1/5 −1 = 1.36%"
           },
           "correct_answer": "B",
           "explanation": "When returns vary, the geometric mean is smaller than the arithmetic mean.",
           "explanation_formula": null,
           "explanation_wrong": {
             "A": "The arithmetic mean simply averages the returns without considering the compounding effect, which can lead to an overestimation of the actual performance of the investment. In the given scenario, with returns of 6%, 2.5%, -3%, 8%, and -6%, the variability in returns means that the geometric mean will account for the compounding effect and thus, will not be equal to the arithmetic mean.",
-            "C": "The arithmetic mean does not accurately reflect the decrease in investment value due to negative returns, as it treats all returns equally without considering their sequential impact. This is because the geometric mean more accurately reflects the compound growth rate of an investment over time, taking into account the effect of volatility and negative returns, which the arithmetic mean fails to do. The calculation provided in the original solution demonstrates this principle clearly, showing a geometric mean return of 1.36% compared to an arithmetic mean return of 1.5% for the given set of returns. A. The geometric mean return is equal to the arithmetic return. B. The geometric mean return is smaller than the arithmetic return. C. The geometric mean return is greater than the arithmetic return. Arithmetic return = = 1.5% (6% + 2.5% −3% + 8% −6%) 5 Geometric mean = (1.06 × 1.025 × 0.97 × 1.08 × 0.94)1/5 −1 = 1.36% © 2014-2024 AnalystPrep. 31"
+            "C": "The arithmetic mean does not accurately reflect the decrease in investment value due to negative returns, as it treats all returns equally without considering their sequential impact. This is because the geometric mean more accurately reflects the compound growth rate of an investment over time, taking into account the effect of volatility and negative returns, which the arithmetic mean fails to do. The calculation provided in the original solution demonstrates this principle clearly, showing a geometric mean return of 1.36% compared to an arithmetic mean return of 1.5% for the given set of returns."
           },
           "calculator_steps": null,
           "difficulty": "medium",
@@ -921,8 +946,8 @@
           "explanation": "",
           "explanation_formula": null,
           "explanation_wrong": {
-            "A": "An HPR of 19.64% would suggest either a higher closing price, a higher dividend, or a lower opening price than what was provided for the year 2012. This option does not accurately reflect the calculation based on the given data.",
-            "B": "An HPR of 18.85% similarly indicates a discrepancy in the calculation, suggesting a different set of values for the closing price, dividend, or opening price."
+            "A": "An HPR of 19.64% would suggest either a higher closing price, a higher dividend, or a lower opening price than what was provided for the year 2012. This option does not accurately reflect the calculation based on the given dat",
+            "B": "An HPR of 18.85% similarly indicates a discrepancy in the calculation, suggesting a different set of values for the closing price, dividend, or opening price. Year Closing Price Dividend 2009 $23.78 $1.10 2010 $25.25 $1.80 2011 $28.21 $2.00 2012 $30.50 $2.50 2013 $31.50 $1.50 2014 $32.00 $3.00 2015 $34.00 $2.00"
           },
           "calculator_steps": null,
           "difficulty": "medium",
@@ -1440,8 +1465,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "Annuity option",
-            "B": "Lump-sum"
+            "A": "Annuity option.",
+            "B": "Lump-sum.",
+            "C": "Invest in both options since there's no difference between the two. t = 0 t = 0 t = 0 PV = A ⎡ ⎢⎢ ⎣ ⎤ ⎥⎥ ⎦ 1 − 1 (1+r)N r PV = $250,000 + $250, 000 ⎡ ⎢⎢ ⎣ ⎤ ⎥⎥ ⎦ = $2, 676,652.94 1 − 1 (1+0.09)24 0.09"
           },
           "correct_answer": "A",
           "explanation": "The question requires the calculation of an annuity due as the present value of an immediate cash flow plus an ordinary annuity and comparing the outcome with the lump sum payment as follows; Step I: Compare the present value of each investment option at time and select the one with the larger value. For example, the first option's present value is $2 million in this scenario, already stated in today's dollars, while the second option is an annuity due. Step II: Since the first payment for the annuity due occurs at , we need to isolate the annuity benefits into two portions: an immediate $250,000 to be paid today ( ) and an ordinary annuity of $250,000 per year for 24 years. Therefore; Where: A = Ordinary annuity payments. r = Applicable rate of interest. N = Number of payments. Hence; Using the BA II Plus Pro Calculator as follows; N = 24 A. Annuity option. B. Lump-sum. C. Invest in both options since there's no difference between the two. t = 0 t = 0 t = 0 PV = A ⎡ ⎢⎢ ⎣ ⎤ ⎥⎥ ⎦ 1 − 1 (1+r)N r PV = $250,000 + $250, 000 ⎡ ⎢⎢ ⎣ ⎤ ⎥⎥ ⎦ = $2, 676,652.94 1 − 1 (1+0.09)24 0.09 © 2014-2024 AnalystPrep. 56 I/Y = 9 PMT = $250,000 FV = 0 CPT =>PV=$2,426,652.94, and total annuity payment becomes; Since the total value of the annuity option is $2,676,652.94, the present value of the annuity is greater than the lump sum alternative of $2.5 million.",
@@ -2144,14 +2170,15 @@
           "image_path": null,
           "options": {
             "A": "Risk managers can use frequency distributions to find out tail events.",
-            "B": "While constructing a frequency distribution, an observation can fall in more than one interval."
+            "B": "While constructing a frequency distribution, an observation can fall in more than one interval.",
+            "C": "A frequency distribution can help in identifying whether the distribution is evenly distributed or lopsided."
           },
           "correct_answer": "B",
           "explanation": "Frequency distribution displays the observations falling in a particular interval. Hence, frequency distributions help risk managers find out the frequency of a particular tail event. As it shows the frequency at which observations occur, it can be useful in identifying whether the distribution is evenly distributed or lopsided. However, an observation can fall in only one interval.",
           "explanation_formula": null,
           "explanation_wrong": {
             "A": "Frequency distribution displays the observations falling in a particular interval. Hence, frequency distributions help risk managers find out the frequency of a particular tail event.",
-            "C": "As it shows the frequency at which observations occur, it can be useful in identifying whether the distribution is evenly distributed or lopsided. CFA Level 1, Quantitative Methods, Learning Module 3: Statistical Measures of Asset Returns, LOS (b) Calculate, interpret, and evaluate measures of dispersion to address an investment problem. A. Risk managers can use frequency distributions to find out tail events. B. While constructing a frequency distribution, an observation can fall in more than one interval. C. A frequency distribution can help in identifying whether the distribution is evenly distributed or lopsided. © 2014-2024 AnalystPrep. 95"
+            "C": "As it shows the frequency at which observations occur, it can be useful in identifying whether the distribution is evenly distributed or lopsided. CFA Level 1, Quantitative Methods, Learning Module 3: Statistical Measures of Asset Returns, LOS (b) Calculate, interpret, and evaluate measures of dispersion to address an investment problem."
           },
           "calculator_steps": null,
           "difficulty": "medium",
@@ -2570,7 +2597,7 @@
             "C": "0"
           },
           "correct_answer": "A",
-          "explanation": "",
+          "explanation": "We know that: - - The joint probability formula is: Where: - is the event that a stock has a P/E ratio greater than 15. - is the event that a stock is in the technology industry, given it has a P/E ratio greater than 15. Therefore, the joint probability is: CFA Level 1, Quantitative Methods, Learning Module 4:Probability Trees and Conditional Expectations, LOS 4c: calculate and interpret an updated probability in an investment setting using Bayes’ formula A. 0.075 B. 0.30 C. 0.475 P(P/E > 15) = 0.3 P(tech stock ∣P/E > 15) = 0.25 P(A and B) = P(A) × P(B ∣A) A B P(P/E > 15 and tech stock) = P(P/E > 15) × P(tech stock ∣P/E > 15) = 0.3 × 0.25 = 0.075",
           "explanation_formula": null,
           "explanation_wrong": {},
           "calculator_steps": null,
@@ -3581,15 +3608,16 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "The correlation coefficient has no units",
-            "B": "The correlation coefficient ranges from 0 to +1"
+            "A": "The correlation coefficient has no units.",
+            "B": "The correlation coefficient ranges from 0 to +1.",
+            "C": "The correlation coefficient measures the strength of the linear relationship between two random variables."
           },
           "correct_answer": "B",
           "explanation": "In finance, the correlation coefficient attempts to measure the degree to which two random variables, say, returns for different stocks, move in relation to each other. The correlation coefficient always lies between -1 and +1. A positive value indicates that the random variables move in the same direction, i.e., if an increase (decrease) is recorded in one variable, we expect an increase (decrease) in the other variable, which can either be proportionate or disproportionate depending on the value of the correlation. On the other hand, a negative value usually indicates that the random variables move in opposite directions, i.e., if there is an increase in one variable, then there will be a decrease in the other variable.",
           "explanation_formula": null,
           "explanation_wrong": {
             "A": "B is a true statement. The correlation coefficient has no units. It is simply a number between -1.0 and 1.0",
-            "C": "A is a true statement. The correlation coefficient is used to measure the strength of the relationship between two random variables. The closer to 1 (for positive correlation) and to -1 (for negative correlation), the stronger the relationship. CFA Level 1, Quantitative Methods, Learning Module 5: Portfolio Mathematics, LOS (b) Calculate and interpret the covariance and correlation of portfolio returns using a joint probability function for returns. A. The correlation coefficient has no units. B. The correlation coefficient ranges from 0 to +1. C. The correlation coefficient measures the strength of the linear relationship between two random variables. © 2014-2024 AnalystPrep. 166"
+            "C": "A is a true statement. The correlation coefficient is used to measure the strength of the relationship between two random variables. The closer to 1 (for positive correlation) and to -1 (for negative correlation), the stronger the relationship. CFA Level 1, Quantitative Methods, Learning Module 5: Portfolio Mathematics, LOS (b) Calculate and interpret the covariance and correlation of portfolio returns using a joint probability function for returns."
           },
           "calculator_steps": null,
           "difficulty": "medium",
@@ -3637,7 +3665,7 @@
             "C": "0"
           },
           "correct_answer": "B",
-          "explanation": "",
+          "explanation": "Correlation between two stocks is determined as follows; Hence, to calculate the covariance, the calculation becomes; CFA Level 1, Quantitative Methods, Learning Module 5: Portfolio Mathematics, LOS (b) Calculate and interpret the covariance and correlation of portfolio returns using a joint probability function for returns. Stock A Stock B Expected Return 6% 10% Standard Deviation 7% 14% Current Portfolio weights 0.3 0.7 A. 0.0024 B. 0.0039 C. 0.0088 ρ(RARB) = Cov(RARB) σRAσRB Cov(RARB) = ρ(RARB) × σRAσRB = 0.07 × 0.14 × 0.4 = 0.0039",
           "explanation_formula": null,
           "explanation_wrong": {},
           "calculator_steps": null,
@@ -3693,7 +3721,7 @@
             "C": "Standard deviation"
           },
           "correct_answer": "B",
-          "explanation": "",
+          "explanation": "While the median is a measure of central tendency, it is not typically considered a parameter of the distribution. Parameters usually refer to the characteristics that define the shape and scale of the distribution, such as the mean and standard deviation of the logarithmic values in the case of a lognormal distribution. A and C are incorrect:The mean and standard deviation are parameters of a lognormal distribution. CFA Level I, Volume 1, Topic 2 - Quantitative Methods, Learning Module 6, Simulation Methods, LOS 7a: explain the relationship between normal and lognormal distributions and why the lognormal distribution is used to model asset prices when using continuously compounded asset returns",
           "explanation_formula": null,
           "explanation_wrong": {},
           "calculator_steps": null,
@@ -3716,7 +3744,7 @@
             "C": "21"
           },
           "correct_answer": "C",
-          "explanation": "",
+          "explanation": "The continuously compounded return (CCR) can be calculated using the formula: Therefore; CFA Level I, Volume 1, Topic 2 - Quantitative Methods, Learning Module 6, Simulation Methods, LOS 7a: explain the relationship between normal and lognormal distributions and why the lognormal distribution is used to model asset prices when using continuously compounded asset returns Date Closing Price (USD) 30 June 105 31 July 120 31 August 130 A. 10.58 percent. B. 10.68 percent. C. 21.36 percent. CCR = ln( ) Ending Price Beginning Price CCR = ln ( ) = ln(1.2381) ≈0.2136 or 21.36% 130 105",
           "explanation_formula": null,
           "explanation_wrong": {},
           "calculator_steps": null,
@@ -3876,7 +3904,7 @@
             "C": "-21"
           },
           "correct_answer": "B",
-          "explanation": "",
+          "explanation": "Based on the information given in the question the confidence interval is given by: The value of 1.96 is based on the fact that 95% of the area of a normal distribution is within 1.96 standard deviations of the mean. Interpretation of the result: 95% of all observations lie between -28.2% and 50.2%. CFA Level I, Volume 1, Topic 3 - Quantitative Methods, Learning Module 7, Estimation and Inference, LOS 7b: Explain the central limit theorem and its importance for the distribution and standard error of the sample mean. A. -9% to 31%. B. -28.2% to 50.2%. C. -21.9% to 43.9%. 11% ± 20(1.96) = 11% ± 39.20 = −28.2% to 50.2%",
           "explanation_formula": null,
           "explanation_wrong": {},
           "calculator_steps": null,
@@ -3894,11 +3922,12 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "the sample standard deviation increases",
-            "B": "the sample mean gets closer to the population mean."
+            "A": "the sample standard deviation increases.",
+            "B": "the sample mean gets closer to the population mean.",
+            "C": "the sample mean varies from the population mean to a large extent. σx =  σ √n σx = = 0.948σx = = 0.548 3 √10 3 √30"
           },
           "correct_answer": "B",
-          "explanation": "",
+          "explanation": "The standard error of the sample mean is used by analysts to estimate the precision of the sample mean to the population mean. A lower value of the standard more precise estimate. To answer this question, we will use a constant σ (3); we will then vary n (10 to represent a smaller sample and 30 a larger sample) . As seen above, a larger n (30) size gives a lower SE (0.548) A smaller n (10) gives a higher SE (0.948). The larger the sample, the more accurate the sample mean, as we consider a larger number of outcomes. CFA Level I, Volume 1, Topic 3 - Quantitative Methods, Learning Module 7, Estimation and Inference, LOS 7b: Explain the central limit theorem and its importance for the distribution and standard error of the sample mean. A. the sample standard deviation increases. B. the sample mean gets closer to the population mean. C. the sample mean varies from the population mean to a large extent. σx = σ √n σx = = 0.948σx = = 0.548 3 √10 3 √30",
           "explanation_formula": null,
           "explanation_wrong": {},
           "calculator_steps": null,
@@ -4077,7 +4106,7 @@
             "C": "0"
           },
           "correct_answer": "A",
-          "explanation": "",
+          "explanation": "If the variance of the sample is 25 (s2 = 25 ), then the standard deviation s = 5. CFA Level I, Volume 1, Topic 3 - Quantitative Methods, Learning Module 7, Estimation and Inference, LOS 7b: Explain the central limit theorem and its importance for the distribution and standard error of the sample mean. A. $0.52 B. $0.60 C. $0.74 σ¯x σ¯x = σ √n Standard Error = = = = $0.5166667 ≈$0.52 Standard deviation of the sample mean √Sample size $3.1 √36 3.1 6 A. 0.33. B. 0.46 C. 0.71 The standard error of the sample mean of 225 observation = = Standard Deviation of the sample me √Sample size",
           "explanation_formula": null,
           "explanation_wrong": {},
           "calculator_steps": null,
@@ -4126,7 +4155,7 @@
             "C": "μ μ μ © 2014-2024 AnalystPrep"
           },
           "correct_answer": "C",
-          "explanation": "",
+          "explanation": "According to the central limit theorem, the population for a simple random sample of size n from a population with mean and finite variances, the sample mean approaches a normal distribution as n becomes larger. The mean of the random samples taken is equal to the mean of the population. We can also tackle this question from the perspective of the qualities of a good point estimator. A good point estimator (in this case, the sample mean) must be unbiased. An estimator is unbiased if its expected value is equal to its true value (in this case, if the true value is then the expected value must also be ) A good point estimator must also be consistent. If an estimator is consistent, as the sample size increases, the probability that the estimator “closes in” on the actual value of the parameter approaches 1. Since the sample is already large in this particular question, as per the consistent quality of a good estimator, the sample mean must be equal to the population mean (which has been given as x). CFA Level I, Volume 1, Topic 3 - Quantitative Methods, Learning Module 7, Estimation and Inference, LOS 7b: Explain the central limit theorem and its importance for the distribution and standard error of the sample mean. μ",
           "explanation_formula": null,
           "explanation_wrong": {},
           "calculator_steps": null,
@@ -4175,7 +4204,7 @@
             "C": "0"
           },
           "correct_answer": "B",
-          "explanation": "",
+          "explanation": "Since the standard deviation for the population is known, Interpretation: If we were to take a number of samples of size 30 from the US coal workers population and proceed to prepare a sampling distribution of the sample means, the means of the various samples would vary from each other by 0.5842. The standard error gives analysts an idea of how precisely the sample mean estimates the population mean. The smaller the sample mean, the more precise the estimate. The standard error in this question is small; this implies that this particular sample has almost accurately estimated the population mean. The mean hourly wage for the population of coal workers from which this sample was obtained is, therefore, likely to be around $15.5 CFA Level I, Volume 1, Topic 3 - Quantitative Methods, Learning Module 7, Estimation and Inference, LOS 7b: Explain the central limit theorem and its importance for the distribution and standard error of the sample mean. A. 0.206 B. 0.584 C. 0.813 Standard error of the mean = = = 0.5842 σ √n 3.2 √30",
           "explanation_formula": null,
           "explanation_wrong": {},
           "calculator_steps": null,
@@ -4279,14 +4308,15 @@
           "image_path": null,
           "options": {
             "A": "A 1% significance level is the same as a 99% confidence.",
-            "B": "The alternative hypothesis (Ha) always includes an equal sign."
+            "B": "The alternative hypothesis (Ha) always includes an equal sign.",
+            "C": "The alternative hypothesis (Ha) is usually the hypothesis which we are trying to assess."
           },
           "correct_answer": "B",
           "explanation": "The NULL hypothesis (H0) always includes an equal sign.The null hypothesis represents the current known state of the population parameter being tested. The NULL hypothesis always includes an equal sign. On the other hand, the alternative hypothesis is concluded if there is sufficient evidence to reject the null hypothesis. For a two-tailed test, the alternative hypothesis will contain an equal sign. For a one-tailed test, the alternative hypothesis will either have a “>” or a “<” sign.",
           "explanation_formula": null,
           "explanation_wrong": {
             "A": "It is a true statement. To get the significance level or the alpha, we subtract the given confidence percentage from 100. 100%-99%(given percentage alpha)=1% (significance level).",
-            "C": "The alternative hypothesis is chosen if there is sufficient evidence to reject the null hypothesis. CFA Level I, Quantitative Methods, Learning Module 8: Hypothesis Testing. LOS (b): Construct hypothesis tests and determine their statistical significance, the associated Type I and Type II errors, and the power of the test given a significance level. A. A 1% significance level is the same as a 99% confidence. B. The alternative hypothesis (Ha) always includes an equal sign. C. The alternative hypothesis (Ha) is usually the hypothesis which we are trying to assess. © 2014-2024 AnalystPrep. 206"
+            "C": "The alternative hypothesis is chosen if there is sufficient evidence to reject the null hypothesis. CFA Level I, Quantitative Methods, Learning Module 8: Hypothesis Testing. LOS (b): Construct hypothesis tests and determine their statistical significance, the associated Type I and Type II errors, and the power of the test given a significance level."
           },
           "calculator_steps": null,
           "difficulty": "medium",
@@ -4304,14 +4334,15 @@
           "image_path": null,
           "options": {
             "A": "The null hypothesis is the hypothesis that the researcher wants to reject.",
-            "B": "The null hypothesis is the hypothesis that the researcher wants to accept."
+            "B": "The null hypothesis is the hypothesis that the researcher wants to accept.",
+            "C": "The alternative hypothesis is the hypothesis that the researcher wants to reject."
           },
           "correct_answer": "A",
           "explanation": "The null hypothesis, designated by H0, is the hypothesis that the researcher wants to reject. It represents the current known state about the parameter to be tested. In the presence of sufficient evidence, the null hypothesis is meant to be rejected.",
           "explanation_formula": null,
           "explanation_wrong": {
             "B": "Researchers want to accept the alternative hypothesis by rejecting the null hypothesis. Besides, it is statistically incorrect to say “accept the null hypothesis because of the fact that you cannot prove a negative” Statisticians use the term “fail to reject” and not “accept” because insufficient evidence only means that you have failed to prove that something exists. It does not necessarily mean that something is non-existent.",
-            "C": "Researchers want to accept the alternative hypothesis by rejecting the null hypothesis. CFA Level I, Quantitative Methods, Learning Module 8: Hypothesis Testing. LOS (b): Construct hypothesis tests and determine their statistical significance, the associated Type I and Type II errors, and the power of the test given a significance level. A. The null hypothesis is the hypothesis that the researcher wants to reject. B. The null hypothesis is the hypothesis that the researcher wants to accept. C. The alternative hypothesis is the hypothesis that the researcher wants to reject. © 2014-2024 AnalystPrep. 207"
+            "C": "Researchers want to accept the alternative hypothesis by rejecting the null hypothesis. CFA Level I, Quantitative Methods, Learning Module 8: Hypothesis Testing. LOS (b): Construct hypothesis tests and determine their statistical significance, the associated Type I and Type II errors, and the power of the test given a significance level."
           },
           "calculator_steps": null,
           "difficulty": "medium",
@@ -4333,7 +4364,7 @@
             "C": "The two populations are normally distributed"
           },
           "correct_answer": "B",
-          "explanation": "",
+          "explanation": "We can still calculate the difference in means even when the populations’ variances are not equal. When variances are assumed to be unequal, we use both sample variations to calculate the t- statistic. A and C are incorrect. For difference in means test based on two samples, the samples must be independent and normally distributed! CFA Level I, Quantitative Methods, Learning Module 8: Hypothesis Testing. LOS (c): Compare and contrast parametric and nonparametric tests, and describe situations where each is the more appropriate type of test.",
           "explanation_formula": null,
           "explanation_wrong": {},
           "calculator_steps": null,
@@ -4590,7 +4621,7 @@
             "C": "Only one statement is correct © 2014-2024 AnalystPrep. 226"
           },
           "correct_answer": "C",
-          "explanation": "",
+          "explanation": "Statement I is incorrect. Nonparametric tests have fewer assumptions than parametric tests. Statement II is correct. When data is based on ordinal measurements, we use nonparametric tests. Non-parametric tests are also used when: the median is more desirable than the mean and when the sample size is extremely small. CFA Level I, Quantitative Methods, Learning Module 8: Hypothesis Testing. LOS (c): Compare and contrast parametric and nonparametric tests, and describe situations where each is the more appropriate type of test.",
           "explanation_formula": null,
           "explanation_wrong": {},
           "calculator_steps": null,
@@ -4609,14 +4640,15 @@
           "image_path": null,
           "options": {
             "A": "a high rank in one year is associated with a low rank in the second year.",
-            "B": "a high rank in one year is associated with a high rank in the second year."
+            "B": "a high rank in one year is associated with a high rank in the second year.",
+            "C": "a high rank in one year will not have any impact on the rank in the second year."
           },
           "correct_answer": "B",
           "explanation": "A large positive value of the Spearman rank correlation such as 0.90 would most likely indicate that a high rank in one year is associated with a high rank in the second year. Note: In statistics, Spearman’s rank correlation coefficient or Spearman’s rho is a non- parametric measure of statistical dependence between two variables. It takes values from -1 to 1. The closer to 1 or to -1, the stronger the relationship. 1 indicates a perfect positive association/relationship, whereas -1 indicates a perfect negative association between variables.",
           "explanation_formula": null,
           "explanation_wrong": {
             "A": "This option suggests that a high rank in one year is associated with a low rank in the second year, which would be indicative of a negative Spearman rank correlation. A negative correlation would have a coefficient closer to -1, not 0.90. A coefficient of 0.90, being positive and close to 1, clearly indicates a positive association between the ranks, where high ranks in one year are associated with high ranks in the subsequent year, not low ranks.",
-            "C": "This option suggests that the rank in one year does not impact the rank in the second year, implying no correlation between the ranks across years. However, a Spearman rank correlation of 0.90 significantly contradicts this notion, as it indicates a strong positive correlation. A coefficient near 0 would suggest no correlation, but a value of 0.90 demonstrates a strong, direct relationship between the ranks in two different years, where a high rank in one year is likely to be associated with a high rank in the next year. CFA Level I, Quantitative Methods, Learning Module 8: Hypothesis Testing. LOS (b): Construct hypothesis tests and determine their statistical significance, the associated Type I and Type II errors, and the power of the test given a significance level. A. a high rank in one year is associated with a low rank in the second year. B. a high rank in one year is associated with a high rank in the second year. C. a high rank in one year will not have any impact on the rank in"
+            "C": "This option suggests that the rank in one year does not impact the rank in the second year, implying no correlation between the ranks across years. However, a Spearman rank correlation of 0.90 significantly contradicts this notion, as it indicates a strong positive correlation. A coefficient near 0 would suggest no correlation, but a value of 0.90 demonstrates a strong, direct relationship between the ranks in two different years, where a high rank in one year is likely to be associated with a high rank in the next year. CFA Level I, Quantitative Methods, Learning Module 8: Hypothesis Testing. LOS (b): Construct hypothesis tests and determine their statistical significance, the associated Type I and Type II errors, and the power of the test given a significance level."
           },
           "calculator_steps": null,
           "difficulty": "medium",
@@ -4638,7 +4670,7 @@
             "C": "[14"
           },
           "correct_answer": "C",
-          "explanation": "",
+          "explanation": "Z-static (Reliability factor) at 99% confidence interval = 2.58 Lower limit of the confidence interval = 18 - (2.58 × 1.4) = 14.39 miles Upper limit of the confidence interval = 18 + (2.58 × 1.4) = 21.6 miles. The 99% confidence interval of the population lies within the range (14.39; 21.6) This means that 99% of the students rent rooms within a distance of (14.39; 21.6) miles. CFA Level I, Quantitative Methods, Learning Module 8: Hypothesis Testing. LOS (b): Construct hypothesis tests and determine their statistical significance, the associated Type I and Type II errors, and the power of the test given a significance level. A. [15.26 miles; 20.74 miles] B. [16.6 miles; 19.4 miles] C. [14.4 miles; 21.6 miles] Standard error of the sample = = = 1.4 Standard deviation of sample mean √Sample size 14 √100 Confidence interval = Point estimate ± Reliability factor× Standard error",
           "explanation_formula": null,
           "explanation_wrong": {},
           "calculator_steps": null,
@@ -4661,7 +4693,7 @@
             "C": "[3"
           },
           "correct_answer": "A",
-          "explanation": "",
+          "explanation": "Since the population variance is unknown and the population is normally distributed, we will use a t-statistic. The t-statistic for a 95% confidence interval and 35 degrees of freedom (df=n-1=) is 2.030. The standard error of the sample = Standard Deviation of sample mean/√Sample size = 14/√36 = 2.33 The confidence interval is 7.5 - (2.03 * 2.33) = 2.77 and 7.5 + (2.03 * 2.33) = 12.23 Approximately 95% of the mean returns of BB+ corporate bonds fall within the interval (2.77;12.23) Using a reliability factor based on the t-distribution is essential for a small sample size. Using a t reliability factor is appropriate when the population variance is unknown, even when we have a large sample, and could use the central limit theorem to justify using a z reliability factor. In this large sample case, the t-distribution provides more-conservative (wider) confidence intervals. CFA Level I, Quantitative Methods, Learning Module 8: Hypothesis Testing. LOS (b): Construct hypothesis tests and determine their statistical significance, the associated Type I and Type II errors, and the power of the test given a significance level. A. [2.77%; 12.23%] B. [2.93%; 12.06%] C. [3.56%; 11.43%] Confidence interval = Point estimate ± Reliability factor× Standard error",
           "explanation_formula": null,
           "explanation_wrong": {},
           "calculator_steps": null,
@@ -4758,14 +4790,15 @@
           "image_path": null,
           "options": {
             "A": "Reject H0: μ = 0%",
-            "B": "Reject Ha: μ ≠ 0%"
+            "B": "Reject Ha: μ ≠ 0%",
+            "C": "Accept H0: μ = 0% Test statistc = Sample mean - Hypothesized value Standard Error Standard Error = = Standard deviation √Sample Size 2% √110 Test Statistic = = 5.24 1% −0 2% √110"
           },
           "correct_answer": "A",
           "explanation": "Since the quantitative analyst wants to test if the returns are different from zero, the appropriate hypotheses are H0: μ = 0% and Ha: μ ≠ 0%. The decision rule is to reject H0 if the test statistic > the upper critical value OR if the test statistic < the lower critical value. At a 5% level of significance, the z-critical value is +/- 1.96. Where Therefore Since the test statistic > the upper critical value (or 5.24 > 1.96), the null hypothesis is rejected and the alternative hypothesis is accepted.",
           "explanation_formula": null,
           "explanation_wrong": {
             "B": "Since the test statistic > the upper critical value (or 5.24 > 1.96), the null hypothesis is rejected, and the alternative hypothesis is concluded.",
-            "C": "The evidence suggests the rejection of the null hypothesis. CFA Level I, Quantitative Methods, Learning Module 8: Hypothesis Testing. LOS (b): Construct hypothesis tests and determine their statistical significance, the associated Type I and Type II errors, and the power of the test given a significance level. A. Reject H0: μ = 0% B. Reject Ha: μ ≠ 0% C. Accept H0: μ = 0% Test statistc = Sample mean - Hypothesized value Standard Error Standard Error = = Standard deviation √Sample Size 2% √110 Test Statistic = = 5.24 1% −0 2% √110 © 2014-2024 AnalystPrep. 234"
+            "C": "The evidence suggests the rejection of the null hypothesis. CFA Level I, Quantitative Methods, Learning Module 8: Hypothesis Testing. LOS (b): Construct hypothesis tests and determine their statistical significance, the associated Type I and Type II errors, and the power of the test given a significance level."
           },
           "calculator_steps": null,
           "difficulty": "medium",
@@ -4783,14 +4816,15 @@
           "image_path": null,
           "options": {
             "A": "Smithson committed a Type I error by accepting the alternative hypothesis.",
-            "B": "Smithson committed a Type II error by accepting the alternative hypothesis."
+            "B": "Smithson committed a Type II error by accepting the alternative hypothesis.",
+            "C": "Smithson correctly accepted the alternative hypothesis; no error was made. Test statistc = Sample mean - Hypothesized value Standard Error Standard Error = = Standard deviation √Sample Size 5% √121 Test Statistic = = 2.20 1% −0 5% √121"
           },
           "correct_answer": "A",
           "explanation": "Since Smithson wants to test if the mean return is greater than 0% the hypotheses are: H0: μ ≤ 0% and Ha: μ > 0%. Where Therefore Since the z-critical value at a 1% level significance is 2.33, the test statistic 2.2 ≤ 2.33. Hence, the null hypothesis is true. Since Smithson rejected the null hypothesis (accepted the alternative hypothesis) when the null hypothesis was in fact true, he committed a Type I error.",
           "explanation_formula": null,
           "explanation_wrong": {
             "B": "A Type II error is the failure to reject the null hypothesis when it is false.",
-            "C": "Smithson rejected the null hypothesis (accepted the alternative hypothesis) when the null hypothesis was true, thus committed a Type I error. CFA Level I, Quantitative Methods, Learning Module 8: Hypothesis Testing. LOS (b): Construct hypothesis tests and determine their statistical significance, the associated Type I and Type II errors, and the power of the test given a significance level. A. Smithson committed a Type I error by accepting the alternative hypothesis. B. Smithson committed a Type II error by accepting the alternative hypothesis. C. Smithson correctly accepted the alternative hypothesis; no error was made. Test statistc = Sample mean - Hypothesized value Standard Error Standard Error = = Standard deviation √Sample Size 5% √121 Test Statistic = = 2.20 1% −0 5% √121 © 2014-2024 AnalystPrep. 235"
+            "C": "Smithson rejected the null hypothesis (accepted the alternative hypothesis) when the null hypothesis was true, thus committed a Type I error. CFA Level I, Quantitative Methods, Learning Module 8: Hypothesis Testing. LOS (b): Construct hypothesis tests and determine their statistical significance, the associated Type I and Type II errors, and the power of the test given a significance level."
           },
           "calculator_steps": null,
           "difficulty": "medium",
@@ -4808,14 +4842,15 @@
           "image_path": null,
           "options": {
             "A": "A Type II error refers to rejecting the null hypothesis when it is actually true.",
-            "B": "A Type II error refers to the failure to reject the null hypothesis when it is false."
+            "B": "A Type II error refers to the failure to reject the null hypothesis when it is false.",
+            "C": "A Type II error refers to a failure to reject the null hypothesis when it is actually true."
           },
           "correct_answer": "B",
           "explanation": "A Type II error refers to a failure to reject the null hypothesis when it is false, while a Type I error refers to rejecting the null hypothesis when it is actually true.",
           "explanation_formula": null,
           "explanation_wrong": {
             "A": "It refers to Type I error: rejecting the null hypothesis when it is true.",
-            "C": "It is not an error. CFA Level I, Quantitative Methods, Learning Module 8: Hypothesis Testing. LOS (b): Construct hypothesis tests and determine their statistical significance, the associated Type I and Type II errors, and the power of the test given a significance level. A. A Type II error refers to rejecting the null hypothesis when it is actually true. B. A Type II error refers to the failure to reject the null hypothesis when it is false. C. A Type II error refers to a failure to reject the null hypothesis when it is actually true. © 2014-2024 AnalystPrep. 236"
+            "C": "It is not an error. CFA Level I, Quantitative Methods, Learning Module 8: Hypothesis Testing. LOS (b): Construct hypothesis tests and determine their statistical significance, the associated Type I and Type II errors, and the power of the test given a significance level."
           },
           "calculator_steps": null,
           "difficulty": "medium",
@@ -4859,14 +4894,15 @@
           "image_path": null,
           "options": {
             "A": "The null hypothesis is rejected as the p-value is greater than the significance level.",
-            "B": "The null hypothesis is not rejected as the p-value is greater than the significance level."
+            "B": "The null hypothesis is not rejected as the p-value is greater than the significance level.",
+            "C": "The null hypothesis is not rejected as the p-value is not greater than the significance level."
           },
           "correct_answer": "B",
           "explanation": "The decision rule for the p-value is we reject the null hypothesis if p-value is less than the significance level. Since the p-value 0.0228 > 0.01 significance level, we fail to reject the null hypothesis.",
           "explanation_formula": null,
           "explanation_wrong": {
             "A": "The null hypothesis is not rejected.",
-            "C": "The p-value is more significant than the significance level. CFA Level I, Quantitative Methods, Learning Module 8: Hypothesis Testing. LOS (b): Construct hypothesis tests and determine their statistical significance, the associated Type I and Type II errors, and the power of the test given a significance level. A. The null hypothesis is rejected as the p-value is greater than the significance level. B. The null hypothesis is not rejected as the p-value is greater than the significance level. C. The null hypothesis is not rejected as the p-value is not greater than the significance level. © 2014-2024 AnalystPrep. 238"
+            "C": "The p-value is more significant than the significance level. CFA Level I, Quantitative Methods, Learning Module 8: Hypothesis Testing. LOS (b): Construct hypothesis tests and determine their statistical significance, the associated Type I and Type II errors, and the power of the test given a significance level."
           },
           "calculator_steps": null,
           "difficulty": "medium",
@@ -5117,15 +5153,16 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "a single variance",
-            "B": "differences between two population means with variances assumed to be equal."
+            "A": "a single variance.",
+            "B": "differences between two population means with variances assumed to be equal.",
+            "C": "differences between two population variances assumed to not be equal. λ2 n−1 = (n−1)S2 σ2 tn1+n2−2 = ¯ X1 −¯ X2 Sp√ + 1 n1 1 n2 ¯ X1 ¯ X2 n1 n2 Sp Sp = (n1 −1)S1 2 + (n2 −1)S2 2 n1 + n2 −2 F(n1−1)(n2−1) = S1 2 S2 2 s1 s2"
           },
           "correct_answer": "A",
           "explanation": "A chi-square test is used for tests concerning the variance of a single normally distributed population. The test statistic used is",
           "explanation_formula": null,
           "explanation_wrong": {
             "B": "The most appropriate test statistic for B would be the t-test. The test statistic used is Where; and are the sample means. and are the sample sizes. is the common or the pooled variance and is given by",
-            "C": "The most appropriate test statistic for A would be the F-test. The test statistic used is where and are the sample variances. CFA Level I, Quantitative Methods, Learning Module 8: Hypothesis Testing. LOS (b): Construct hypothesis tests and determine their statistical significance, the associated Type I and Type II errors, and the power of the test given a significance level. A. a single variance. B. differences between two population means with variances assumed to be equal. C. differences between two population variances assumed to not be equal. λ2 n−1 = (n−1)S2 σ2 tn1+n2−2 = ¯ X1 −¯ X2 Sp√ + 1 n1 1 n2 ¯ X1 ¯ X2 n1 n2 Sp Sp = (n1 −1)S1 2 + (n2 −1)S2 2 n1 + n2 −2 F(n1−1)(n2−1) = S1 2 S2 2 s1 s2 © 2014-2024 AnalystPrep. 249"
+            "C": "The most appropriate test statistic for A would be the F-test. The test statistic used is where and are the sample variances. CFA Level I, Quantitative Methods, Learning Module 8: Hypothesis Testing. LOS (b): Construct hypothesis tests and determine their statistical significance, the associated Type I and Type II errors, and the power of the test given a significance level."
           },
           "calculator_steps": null,
           "difficulty": "medium",
@@ -5225,7 +5262,7 @@
             "C": "I, II & III © 2014-2024 AnalystPrep"
           },
           "correct_answer": "A",
-          "explanation": "",
+          "explanation": "Statement I is accurate. A parametric test is a hypothesis testing procedure based on the assumption that observed data are distributed according to some distributions of well-known form (e.g., normal, Bernoulli, and so on). Statement II is incorrect. Nonparametric statistics refer to a statistical method in which the data is NOT required to fit a normal distribution. Nonparametric statistics uses data that is often ordinal, meaning it does not rely on numbers, but rather on a ranking or order of sorts. Statement III is inaccurate. When the variables are not normally distributed or the relationship between the variables is not linear, it may be more recommended to use the Spearman rank correlation method. A coefficient of correlation does not have any distributional assumptions. CFA Level I, Quantitative Methods, Learning Module 8: Hypothesis Testing. LOS (c): Compare and contrast parametric and nonparametric tests, and describe situations where each is the more appropriate type of test.",
           "explanation_formula": null,
           "explanation_wrong": {},
           "calculator_steps": null,
@@ -5326,7 +5363,7 @@
             "C": "[124"
           },
           "correct_answer": "C",
-          "explanation": "",
+          "explanation": "For any sample that comes from a normally distributed population, we know that: Recall also that Thus, a 95% CI for the mean, CFA Level I, Quantitative Methods, Learning Module 8: Hypothesis Testing. LOS (b): Construct hypothesis tests and determine their statistical significance, the associated Type I and Type II errors, and the power of the test given a significance level. A. [125; 135] B. [130; 135.5] C. [124.5; 135.5] ∼N(0, 1) ¯X −μ σ √n Confidence Interval = Point estimate ± Reliability factor × standard error μ = ¯X ± Z × = 130 ± 1.96 × = 130 ± 5.5437 = [124.5; 135.5]. α 2 σ √n 20 √50",
           "explanation_formula": null,
           "explanation_wrong": {},
           "calculator_steps": null,
@@ -5349,7 +5386,7 @@
             "C": "[71"
           },
           "correct_answer": "C",
-          "explanation": "",
+          "explanation": "For any sample that comes from a normally distributed population, we know that: Recall also that From the normal dist. table, .Thus, a 99% CI for the mean, Interpretation: We are 99% certain that the students scored between 71.96 and 78.04. CFA Level I, Quantitative Methods, Learning Module 8: Hypothesis Testing. LOS (b): Construct hypothesis tests and determine their statistical significance, the associated Type I and Type II errors, and the power of the test given a significance level. A. [75; 85] B. [65; 75] C. [71.96; 78.04] ∼N(0, 1) ¯X −μ σ √n Confidence Interval = Point estimate ± Reliability factor × standard error Z0.005 = 2.58 μ = ¯X ± Z × = 75 ± 2.58 × = 75 ± 3.04 = 71.96 ≤μ ≤78.04. α 2 σ √n 10 √72",
           "explanation_formula": null,
           "explanation_wrong": {},
           "calculator_steps": null,
@@ -5419,15 +5456,16 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "Stronger measurement scales are required",
-            "B": "The randomness of a sample is being questioned"
+            "A": "Stronger measurement scales are required.",
+            "B": "The randomness of a sample is being questioned.",
+            "C": "The population from which the sample is drawn is assumed to be normally distributed."
           },
           "correct_answer": "B",
           "explanation": "A nonparametric test is preferred to a parametric one when the data do not meet distributional assumptions, when the original data are given in ranks (and a stronger measurement scale is not required), or when the hypothesis being tested does not concern a parameter. For instance, one may need to test whether a sample is random or not rather than testing a parameter.",
           "explanation_formula": null,
           "explanation_wrong": {
             "A": "A nonparametric test is considered when a stronger measurement scale is not required.",
-            "C": "Nonparametric tests either do not consider a particular population parameter or have few assumptions about the sampled population. CFA Level I, Quantitative Methods, Learning Module 8: Hypothesis Testing. LOS (c): Compare and contrast parametric and nonparametric tests, and describe situations where each is the more appropriate type of test. A. Stronger measurement scales are required. B. The randomness of a sample is being questioned. C. The population from which the sample is drawn is assumed to be normally distributed. © 2014-2024 AnalystPrep. 263"
+            "C": "Nonparametric tests either do not consider a particular population parameter or have few assumptions about the sampled population. CFA Level I, Quantitative Methods, Learning Module 8: Hypothesis Testing. LOS (c): Compare and contrast parametric and nonparametric tests, and describe situations where each is the more appropriate type of test."
           },
           "calculator_steps": null,
           "difficulty": "medium",
@@ -5478,7 +5516,8 @@
           "image_path": null,
           "options": {
             "A": "Significant because the calculated t-statistic is greater than the critical value.",
-            "B": "Not significant because the calculated t-statistic is less than the critical value."
+            "B": "Not significant because the calculated t-statistic is less than the critical value.",
+            "C": "Not significant because the calculated t-statistic is greater than the critical value. H0 : ρ = 0 versus Ha : ρ ≠0 t = r√n −2 √1 −r2 r = 0.9096 n = 48 t = ≈ ≈14.848 0.9096√48 −2 √1 −0.90962 0.9096 ⋅6.7823 0.41549"
           },
           "correct_answer": "A",
           "explanation": "Hypothesis test: Two-sided; . To test the significance of the correlation between ETF 2 and the market index, Alex Perez will calculate the t-statistic using the formula: Where: = Sample correlation coefficient . = Number of observations . Substituting the given values into the t-test formula: Since the critical t-value at the 0.01 level of significance is ±2.687, and the calculated t-statistic (14.848) is greater than the critical value, Perez should conclude that the correlation between rEF T2,Market1 df p = 0.10 p = 0.05 p = 0. 025 p = 0.01 p = 0. 005 31 1.309 1.696 2.040 2.453 2.744 42 1.302 1.682 2.018 2.418 2.698 43 1.302 1.681 2.017 2.416 2.695 44 1.301 1.680 2.015 2.414 2.692 45 1.301 1.679 2.014 2.412 2.690 46 1.300 1.679 2.013 2.410 2.687 47 1.300 1.678 2.012 2.408 2.685 48 1.299 1.677 2.011 2.407 2.682 A. Significant because the calculated t-statistic is greater than the critical value. B. Not significant because the calculated t-statistic is less than the critical value. C. Not significant because the calculated t-statistic is greater than the critical value. H0 : ρ = 0 versus Ha : ρ ≠0 t = r√n −2 √1 −r2 r = 0.9096 n = 48 t = ≈ ≈14.848 0.9096√48 −2 √1 −0.90962 0.9096 ⋅6.7823 0.41549 © 2014-2024 AnalystPrep. 265 ETF 2 and the market index is significant. The test statistic is well outside the critical range, which leads to the rejection of the null hypothesis that there is no correlation.",
@@ -5559,7 +5598,7 @@
             "C": "H0 : ρ ≥0 versus Ha : ρ < 0 © 2014-2024 AnalystPrep. 269"
           },
           "correct_answer": "A",
-          "explanation": "",
+          "explanation": "This formulation of hypotheses tests whether there is no correlation (null hypothesis) versus the alternative hypothesis that there is a correlation between excess risk-adjusted return and mutual fund expense ratios. B and C are incorrect. These formulations of hypotheses are for one-sided tests, which do not align with the scenario described where we are interested in determining whether there is any correlation between the variables, regardless of direction. CFA Level I, Quantitative Methods, Learning Module 9: Parametric and Non-Parametric Tests of Independence, LOS (a) Explain parametric and nonparametric tests of the hypothesis that the population correlation coefficient equals zero, and determine whether the hypothesis is rejected at a given level of significance.",
           "explanation_formula": null,
           "explanation_wrong": {},
           "calculator_steps": null,
@@ -5707,14 +5746,15 @@
           "image_path": null,
           "options": {
             "A": "The critical value indicates the probability of committing a Type I error.",
-            "B": "The critical value signifies the threshold beyond which we reject the null hypothesis."
+            "B": "The critical value signifies the threshold beyond which we reject the null hypothesis.",
+            "C": "The critical value determines the strength of the relationship between the variables."
           },
           "correct_answer": "B",
           "explanation": "In the chi-square test of independence, if the calculated chi-square value exceeds the critical value, we reject the null hypothesis, indicating a significant relationship between the variables.",
           "explanation_formula": null,
           "explanation_wrong": {
             "A": "The critical value does not directly indicate the probability of committing a Type I error; it serves as a threshold for determining the significance level.",
-            "C": "The critical value does not determine the strength of the relationship between variables; it is a statistical parameter used for hypothesis testing. CFA Level I, Quantitative Methods, Learning Module 9: Parametric and Non-Parametric Tests of Independence, LOS (b) Explain tests of independence based on contingency table data. A. The critical value indicates the probability of committing a Type I error. B. The critical value signifies the threshold beyond which we reject the null hypothesis. C. The critical value determines the strength of the relationship between the variables. © 2014-2024 AnalystPrep. 277"
+            "C": "The critical value does not determine the strength of the relationship between variables; it is a statistical parameter used for hypothesis testing. CFA Level I, Quantitative Methods, Learning Module 9: Parametric and Non-Parametric Tests of Independence, LOS (b) Explain tests of independence based on contingency table dat"
           },
           "calculator_steps": null,
           "difficulty": "medium",
@@ -5732,14 +5772,15 @@
           "image_path": null,
           "options": {
             "A": "A lower significance level increases the likelihood of rejecting the null hypothesis.",
-            "B": "A higher significance level increases the likelihood of Type I error."
+            "B": "A higher significance level increases the likelihood of Type I error.",
+            "C": "The choice of significance level does not affect the rejection of the null hypothesis."
           },
           "correct_answer": "B",
           "explanation": "A higher significance level (e.g., 10% instead of 5%) increases the likelihood of Type I error, which occurs when the null hypothesis is incorrectly rejected.",
           "explanation_formula": null,
           "explanation_wrong": {
             "A": "A lower significance level (e.g., 1% instead of 5%) decreases the likelihood of rejecting the null hypothesis, which may result in a Type II error (failing to reject the null hypothesis when it is false).",
-            "C": "The choice of significance level directly influences the probability of Type I error and, consequently, affects the rejection of the null hypothesis. CFA Level I, Quantitative Methods, Learning Module 9: Parametric and Non-Parametric Tests of Independence, LOS (a) Explain parametric and nonparametric tests of the hypothesis that the population correlation coefficient equals zero, and determine whether the hypothesis is rejected at a given level of significance. A. A lower significance level increases the likelihood of rejecting the null hypothesis. B. A higher significance level increases the likelihood of Type I error. C. The choice of significance level does not affect the rejection of the null hypothesis. © 2014-2024 AnalystPrep. 279"
+            "C": "The choice of significance level directly influences the probability of Type I error and, consequently, affects the rejection of the null hypothesis. CFA Level I, Quantitative Methods, Learning Module 9: Parametric and Non-Parametric Tests of Independence, LOS (a) Explain parametric and nonparametric tests of the hypothesis that the population correlation coefficient equals zero, and determine whether the hypothesis is rejected at a given level of significance."
           },
           "calculator_steps": null,
           "difficulty": "medium",
@@ -5783,14 +5824,15 @@
           "image_path": null,
           "options": {
             "A": "A higher t-test statistic indicates stronger evidence against the null hypothesis.",
-            "B": "A lower t-test statistic suggests a higher probability of Type II error."
+            "B": "A lower t-test statistic suggests a higher probability of Type II error.",
+            "C": "The t-test statistic is independent of the sample size."
           },
           "correct_answer": "A",
           "explanation": "A higher t-test statistic indicates stronger evidence against the null hypothesis, suggesting that the sample correlation coefficient is significantly different from zero.",
           "explanation_formula": null,
           "explanation_wrong": {
             "B": "A lower t-test statistic does not directly suggest a higher probability of Type II error; Type II error depends on factors such as the level of significance and the effect size.",
-            "C": "The t-test statistic depends on the sample size, with larger sample sizes typically resulting in larger t-values for the same correlation coefficient. CFA Level I, Quantitative Methods, Learning Module 9: Parametric and Non-Parametric Tests of Independence, LOS (a) Explain parametric and nonparametric tests of the hypothesis that the population correlation coefficient equals zero, and determine whether the hypothesis is rejected at a given level of significance. A. A higher t-test statistic indicates stronger evidence against the null hypothesis. B. A lower t-test statistic suggests a higher probability of Type II error. C. The t-test statistic is independent of the sample size. © 2014-2024 AnalystPrep. 281 Learning Module 10: Simple Linear Regression"
+            "C": "The t-test statistic depends on the sample size, with larger sample sizes typically resulting in larger t-values for the same correlation coefficient. CFA Level I, Quantitative Methods, Learning Module 9: Parametric and Non-Parametric Tests of Independence, LOS (a) Explain parametric and nonparametric tests of the hypothesis that the population correlation coefficient equals zero, and determine whether the hypothesis is rejected at a given level of significance."
           },
           "calculator_steps": null,
           "difficulty": "medium",
@@ -5867,14 +5909,15 @@
           "image_path": null,
           "options": {
             "A": "A numerical measure that describes a characteristic of a sample.",
-            "B": "A numerical measure that describes a characteristic of a population."
+            "B": "A numerical measure that describes a characteristic of a population.",
+            "C": "A statistical inference that describes a characteristic of a population."
           },
           "correct_answer": "B",
           "explanation": "A parameter is a numerical measure that describes a characteristic of a population, whereas a statistic is a numerical measure that describes a characteristic of a population sample.",
           "explanation_formula": null,
           "explanation_wrong": {
-            "A": "A numerical measure that describes a characteristic of a sample is called a statistic.",
-            "C": "Statistical inference is the process of using a sample to conclude a population from which the sample has been drawn. CFA Level I, Quantitative Methods, Learning Module 10: Simple Linear Regression. LOS (c): Calculate and interpret measures of fit and formulate and evaluate tests of fit and of regression coefficients in a simple linear regression. A. A numerical measure that describes a characteristic of a sample. B. A numerical measure that describes a characteristic of a population. C. A statistical inference that describes a characteristic of a population. © 2014-2024 AnalystPrep. 284"
+            "A": "A numerical measure that describes a characteristic of a sample is called a statisti",
+            "C": "Statistical inference is the process of using a sample to conclude a population from which the sample has been drawn. CFA Level I, Quantitative Methods, Learning Module 10: Simple Linear Regression. LOS (c): Calculate and interpret measures of fit and formulate and evaluate tests of fit and of regression coefficients in a simple linear regression."
           },
           "calculator_steps": null,
           "difficulty": "medium",
@@ -5896,7 +5939,7 @@
             "C": "Both comments 1 and 2"
           },
           "correct_answer": "C",
-          "explanation": "",
+          "explanation": "Comment 1 is correct. Smaller standard errors would result in tighter confidence intervals and prediction intervals. Comment 2 is correct. The higher the variance of the independent variable, the lower the variance of the forecast error, and the tighter the prediction interval. Confidence intervals do not depend on this input. CFA Level I, Quantitative Methods, Learning Module 10: Simple Linear Regression. LOS (d): Describe the use of analysis of variance (ANOVA) in regression analysis, interpret ANOVA results, and calculate and interpret the standard error of estimate in a simple linear regression.",
           "explanation_formula": null,
           "explanation_wrong": {},
           "calculator_steps": null,
@@ -6207,15 +6250,16 @@
           "has_image": false,
           "image_path": null,
           "options": {
+            "A": "individuals through their online activity such as product reviews, credit card purchases, and social media posts.",
             "B": "businesses and corporations, including sales information, credit card data, and corporate exhaust.",
-            "C": "devices such as smartphones, cameras, and satellites. © 2014-2024 AnalystPrep. 308"
+            "C": "devices such as smartphones, cameras, and satellites."
           },
           "correct_answer": "C",
           "explanation": "Sensor data is the output of a device that detects and responds to some type of input from the physical environment. Sensor data are collected from such devices as smartphones, cameras, RFID chips, and satellites. These devices are connected to computers via wireless networks.",
           "explanation_formula": null,
           "explanation_wrong": {
-            "A": "This option suggests that sensor data is taken from individuals through their online activities such as product reviews, credit card purchases, and social media posts. However, this type of data is more accurately described as user-generated content or digital footprint data, rather than sensor data. While this information can be valuable for various analyses, it does not originate from physical sensors or devices designed to detect changes in the environment. Instead, it is generated by individuals engaging with digital platforms and services, reflecting their preferences, opinions, and behaviors.",
-            "B": "This option indicates that sensor data comes from businesses and corporations, including sales information, credit card data, and corporate exhaust. Similar to option A, this type of data is not sensor data. Instead, it is transactional or operational data generated by business activities. While businesses may use sensor data as part of their operations (for example, in inventory management with RFID chips), the data described in this option pertains to business transactions and internal processes, not the output of devices sensing the physical environment. CFA Level I, Quantitative Methods, Learning Module 11: Introduction to Big Data Techniques. LOS (a): Describe aspects of “fintech” that are directly relevant for the gathering and analyzing of financial data. A. individuals through their online activity such as product reviews, credit card purchases, and social media posts. B. businesses and corporations, including sales information, credit card data, and corporate exhaust. C. devic"
+            "A": "This option suggests that sensor data is taken from individuals through their online activities such as product reviews, credit card purchases, and social media posts. However, this type of data is more accurately described as user-generated content or digital footprint data, rather than sensor dat",
+            "B": "This option indicates that sensor data comes from businesses and corporations, including sales information, credit card data, and corporate exhaust. Similar to option A, this type of data is not sensor dat"
           },
           "calculator_steps": null,
           "difficulty": "medium",
@@ -6233,14 +6277,15 @@
           "image_path": null,
           "options": {
             "A": "The autonomous acquisition of knowledge through the use of computer programs",
-            "B": "The ability of machines to execute coded instructions"
+            "B": "The ability of machines to execute coded instructions",
+            "C": "The selective acquisition of knowledge through the use of computer programs"
           },
           "correct_answer": "A",
           "explanation": "Machine learning refers to the autonomous acquisition of knowledge through computer programs such that the computers learn to work out solutions to problems without human intervention. Machine learning is the idea that computers have the ability to \"learn\" and execute changes independently.",
           "explanation_formula": null,
           "explanation_wrong": {
             "B": "This option incorrectly defines machine learning as merely the ability of machines to execute coded instructions. While executing coded instructions is a fundamental capability of computers and machines, it does not encompass the concept of learning or the ability to improve performance on tasks over time without being explicitly programmed to do so. Traditional computer programs operate based on predefined rules and instructions provided by humans, without the ability to learn or adapt. In contrast, machine learning involves the development of algorithms that allow machines to learn from data and make decisions or predictions, thereby going beyond mere execution of coded instructions.",
-            "C": "This option describes machine learning as the selective acquisition of knowledge through the use of computer programs. While this description touches on an aspect of machine learning, it fails to capture the essence of autonomy in the learning process. Machine learning is not just about selectively acquiring knowledge; it is about doing so autonomously, without direct human intervention. The term \"selective\" might imply a more passive or limited approach to knowledge acquisition, whereas machine learning involves active analysis, interpretation, and learning from vast amounts of data in a way that improves the program's performance on specific tasks over time. CFA Level I, Quantitative Methods, Learning Module 11: Introduction to Big Data Techniques. LOS (a): Describe aspects of “fintech” that are directly relevant for the gathering and analyzing of financial data. A. The autonomous acquisition of knowledge through the use of computer programs B. The ability of machines to execute code"
+            "C": "This option describes machine learning as the selective acquisition of knowledge through the use of computer programs. While this description touches on an aspect of machine learning, it fails to capture the essence of autonomy in the learning process. Machine learning is not just about selectively acquiring knowledge; it is about doing so autonomously, without direct human intervention. The term \"selective\" might imply a more passive or limited approach to knowledge acquisition, whereas machine learning involves active analysis, interpretation, and learning from vast amounts of data in a way that improves the program's performance on specific tasks over time. CFA Level I, Quantitative Methods, Learning Module 11: Introduction to Big Data Techniques. LOS (a): Describe aspects of “fintech” that are directly relevant for the gathering and analyzing of financial dat"
           },
           "calculator_steps": null,
           "difficulty": "medium",
