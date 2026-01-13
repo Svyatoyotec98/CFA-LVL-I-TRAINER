@@ -1,0 +1,423 @@
+{
+  "book_id": 1,
+  "book_name": "Quantitative Methods",
+  "book_name_ru": "Количественные методы",
+  "total_questions": 235,
+  "learning_modules": [
+    {
+      "module_id": 1,
+      "module_name": "Rate and Return",
+      "module_name_ru": "Ставки и доходности",
+      "los_covered": ["LOS 1a", "LOS 1b", "LOS 1c", "LOS 1d", "LOS 1e"],
+      "questions": [
+        {
+          "question_id": "QM-1-008",
+          "question_number": 8,
+          "question_text": "If you invest $100,000 currently in a project paying an 8% interest rate compounded annually, the amount of the investment after three years is closest to:",
+          "question_text_ru": null,
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {"id": "opt1", "text": "$108,000.00"},
+            {"id": "opt2", "text": "$108,215.23"},
+            {"id": "opt3", "text": "$125,971.20"}
+          ],
+          "correct_option_id": "opt3",
+          "explanation": "The question requires the calculation of the future value of a single-sum investment. FV = PV(1+r)^n = $100,000(1.08)^3 = $125,971.20",
+          "explanation_ru": null,
+          "explanation_formula": "$FV = PV(1+r)^n = \\$100,000 \\times (1.08)^3 = \\$125,971.20$",
+          "explanation_wrong": {
+            "opt1": {
+              "text": "This represents the amount after one year using simple interest.",
+              "formula": "$FV = \\$100,000 \\times 1.08 = \\$108,000$"
+            },
+            "opt2": {
+              "text": "This incorrectly divides the interest rate by the number of years.",
+              "formula": "$FV = \\$100,000 \\times (1 + 0.08/3)^3 = \\$108,215.23$"
+            }
+          },
+          "requires_calculation": true,
+          "calculator_steps": [
+            "[2ND] [CLR TVM] — clear TVM",
+            "100000 [+/-] [PV]",
+            "8 [I/Y]",
+            "3 [N]",
+            "0 [PMT]",
+            "[CPT] [FV] → 125,971.20"
+          ],
+          "difficulty": "EASY",
+          "los_reference": "LOS 1d: Calculate and interpret FV and PV",
+          "topic_tags": ["FV", "compounding", "annual", "TVM"]
+        },
+        {
+          "question_id": "QM-1-013",
+          "question_number": 13,
+          "question_text": "A bank offers you a Certificate of Deposit (CD) with a three-year maturity with a stated annual interest rate of 8% compounded quarterly and allows you to reinvest the interests at the same rate. The worth of the CD at maturity if you invest $150,000 now is closest to:",
+          "question_text_ru": null,
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {"id": "opt1", "text": "$188,956.80"},
+            {"id": "opt2", "text": "$189,797.85"},
+            {"id": "opt3", "text": "$190,236.27"}
+          ],
+          "correct_option_id": "opt3",
+          "explanation": "The question requires calculation of Future Value with quarterly compounding. FV = PV[1 + rs/m]^(mN) = $150,000[1 + 0.08/4]^12 = $190,236.27",
+          "explanation_ru": null,
+          "explanation_formula": "$FV_N = PV \\left[1 + \\frac{r_s}{m}\\right]^{mN} = \\$150,000 \\left[1 + \\frac{0.08}{4}\\right]^{12}$",
+          "explanation_wrong": {
+            "opt1": {
+              "text": "This represents FV with annual compounding instead of quarterly.",
+              "formula": "$FV = \\$150,000(1.08)^3 = \\$188,956.80$"
+            },
+            "opt2": {
+              "text": "This represents FV with semi-annual compounding.",
+              "formula": "$FV = \\$150,000(1.04)^6 = \\$189,797.85$"
+            }
+          },
+          "requires_calculation": true,
+          "calculator_steps": [
+            "[2ND] [CLR TVM]",
+            "[2ND] [P/Y] 4 [ENTER] — 4 periods per year",
+            "[2ND] [QUIT]",
+            "150000 [+/-] [PV]",
+            "8 [I/Y]",
+            "12 [N]",
+            "0 [PMT]",
+            "[CPT] [FV] → 190,236.27"
+          ],
+          "difficulty": "MEDIUM",
+          "los_reference": "LOS 1d: Calculate and interpret annualized return measures",
+          "topic_tags": ["FV", "compounding", "quarterly", "TVM"]
+        },
+        {
+          "question_id": "QM-1-015",
+          "question_number": 15,
+          "question_text": "Spire Bank offers to pay an investor a 10% interest payment compounded monthly. If interest payments are reinvested at 10%, the investor's future value if the initial investment is $2,000,000 for one year is closest to:",
+          "question_text_ru": null,
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {"id": "opt1", "text": "$2,200,000"},
+            {"id": "opt2", "text": "$2,205,000"},
+            {"id": "opt3", "text": "$2,209,426"}
+          ],
+          "correct_option_id": "opt3",
+          "explanation": "FV with monthly compounding: FV = PV[1 + r/m]^(mN) = $2,000,000[1 + 0.10/12]^12 = $2,209,426.14",
+          "explanation_ru": null,
+          "explanation_formula": "$FV = \\$2,000,000 \\left[1 + \\frac{0.10}{12}\\right]^{12} = \\$2,209,426.14$",
+          "explanation_wrong": {
+            "opt1": {
+              "text": "This represents FV with annual compounding instead of monthly.",
+              "formula": "$FV = \\$2,000,000 \\times 1.10 = \\$2,200,000$"
+            },
+            "opt2": {
+              "text": "This represents FV with semi-annual compounding instead of monthly.",
+              "formula": "$FV = \\$2,000,000(1.05)^2 = \\$2,205,000$"
+            }
+          },
+          "requires_calculation": true,
+          "calculator_steps": [
+            "[2ND] [CLR TVM]",
+            "[2ND] [P/Y] 12 [ENTER]",
+            "[2ND] [QUIT]",
+            "2000000 [+/-] [PV]",
+            "10 [I/Y]",
+            "12 [N]",
+            "0 [PMT]",
+            "[CPT] [FV] → 2,209,426.14"
+          ],
+          "difficulty": "MEDIUM",
+          "los_reference": "LOS 1d: Calculate and interpret annualized return measures",
+          "topic_tags": ["FV", "compounding", "monthly", "TVM"]
+        },
+        {
+          "question_id": "QM-1-019",
+          "question_number": 19,
+          "question_text": "Suppose a $200,000 investment will earn 6% compounded continuously for 4 years. The future value of this asset is closest to:",
+          "question_text_ru": null,
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {"id": "opt1", "text": "$252,495.39"},
+            {"id": "opt2", "text": "$253,354.02"},
+            {"id": "opt3", "text": "$254,249.83"}
+          ],
+          "correct_option_id": "opt3",
+          "explanation": "For continuous compounding: FV = PV × e^(rN) = $200,000 × e^(0.06×4) = $254,249.83",
+          "explanation_ru": null,
+          "explanation_formula": "$FV = PV \\times e^{rN} = \\$200,000 \\times e^{0.24} = \\$254,249.83$",
+          "explanation_wrong": {
+            "opt1": {
+              "text": "This represents FV with annual compounding, not continuous.",
+              "formula": "$FV = \\$200,000(1.06)^4 = \\$252,495.39$"
+            },
+            "opt2": {
+              "text": "This represents FV with semi-annual compounding instead of continuous.",
+              "formula": "$FV = \\$200,000(1.03)^8 = \\$253,354.02$"
+            }
+          },
+          "requires_calculation": true,
+          "calculator_steps": [
+            "0.06 [×] 4 [=] 0.24",
+            "[2ND] [e^x] → 1.2712",
+            "[×] 200000 [=] → 254,249.83",
+            "Note: BA II Plus does not have direct continuous compounding"
+          ],
+          "difficulty": "MEDIUM",
+          "los_reference": "LOS 1d: Calculate continuously compounded returns",
+          "topic_tags": ["FV", "continuous_compounding", "exponential"]
+        },
+        {
+          "question_id": "QM-1-024",
+          "question_number": 24,
+          "question_text": "An investment asset offers to pay a 13% interest compounded quarterly with a maturity of 3 years. In addition, the investor has the right to reinvest the interests at the same rate of 13%. If an investor currently invests $400,000, the worth of the investment asset at maturity is closest to:",
+          "question_text_ru": null,
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {"id": "opt1", "text": "USD 577,158.80"},
+            {"id": "opt2", "text": "USD 583,656.92"},
+            {"id": "opt3", "text": "USD 587,138.71"}
+          ],
+          "correct_option_id": "opt3",
+          "explanation": "FV with quarterly compounding: FV = PV[1 + r/m]^(mN) = $400,000[1 + 0.13/4]^12 = $587,138.71",
+          "explanation_ru": null,
+          "explanation_formula": "$FV = \\$400,000 \\left[1 + \\frac{0.13}{4}\\right]^{12} = \\$587,138.71$",
+          "explanation_wrong": {
+            "opt1": {
+              "text": "This represents FV with annual compounding instead of quarterly.",
+              "formula": "$FV = \\$400,000(1.13)^3 = \\$577,158.80$"
+            },
+            "opt2": {
+              "text": "This represents FV with semi-annual compounding.",
+              "formula": "$FV = \\$400,000(1.065)^6 = \\$583,656.92$"
+            }
+          },
+          "requires_calculation": true,
+          "calculator_steps": [
+            "[2ND] [CLR TVM]",
+            "[2ND] [P/Y] 4 [ENTER]",
+            "[2ND] [QUIT]",
+            "400000 [+/-] [PV]",
+            "13 [I/Y]",
+            "12 [N]",
+            "0 [PMT]",
+            "[CPT] [FV] → 587,138.71"
+          ],
+          "difficulty": "MEDIUM",
+          "los_reference": "LOS 1d: Calculate and interpret annualized return measures",
+          "topic_tags": ["FV", "compounding", "quarterly", "TVM"]
+        },
+        {
+          "question_id": "QM-1-026",
+          "question_number": 26,
+          "question_text": "An investor wants to invest $600,000 in an asset paying a 5% interest compounded continuously for four years. The value of the investment in 4 years is closest to:",
+          "question_text_ru": null,
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {"id": "opt1", "text": "$729,303.75"},
+            {"id": "opt2", "text": "$732,831.62"},
+            {"id": "opt3", "text": "$732,841.65"}
+          ],
+          "correct_option_id": "opt3",
+          "explanation": "For continuous compounding: FV = PV × e^(rN) = $600,000 × e^(0.05×4) = $732,841.65",
+          "explanation_ru": null,
+          "explanation_formula": "$FV = PV \\times e^{rN} = \\$600,000 \\times e^{0.20} = \\$732,841.65$",
+          "explanation_wrong": {
+            "opt1": {
+              "text": "This represents FV with annual compounding, not continuous.",
+              "formula": "$FV = \\$600,000(1.05)^4 = \\$729,303.75$"
+            },
+            "opt2": {
+              "text": "This represents FV with daily compounding (365 days).",
+              "formula": "$FV = \\$600,000(1 + 0.05/365)^{1460} = \\$732,831.62$"
+            }
+          },
+          "requires_calculation": true,
+          "calculator_steps": [
+            "0.05 [×] 4 [=] 0.20",
+            "[2ND] [e^x] → 1.2214",
+            "[×] 600000 [=] → 732,841.65"
+          ],
+          "difficulty": "MEDIUM",
+          "los_reference": "LOS 1d: Calculate continuously compounded returns",
+          "topic_tags": ["FV", "continuous_compounding", "exponential"]
+        },
+        {
+          "question_id": "QM-1-045",
+          "question_number": 45,
+          "question_text": "Consider an investment with a stated annual interest rate of 11%. The effective interest rate (EAR) using quarterly compounding for this investment is closest to:",
+          "question_text_ru": null,
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {"id": "opt1", "text": "2.75%"},
+            {"id": "opt2", "text": "11.00%"},
+            {"id": "opt3", "text": "11.46%"}
+          ],
+          "correct_option_id": "opt3",
+          "explanation": "EAR = (1 + r/m)^m - 1 = (1 + 0.11/4)^4 - 1 = 11.46%",
+          "explanation_ru": null,
+          "explanation_formula": "$EAR = \\left(1 + \\frac{r_s}{m}\\right)^m - 1 = (1.0275)^4 - 1 = 11.46\\%$",
+          "explanation_wrong": {
+            "opt1": {
+              "text": "2.75% is the periodic (quarterly) interest rate, not the EAR.",
+              "formula": "$r_{periodic} = \\frac{11\\%}{4} = 2.75\\%$"
+            },
+            "opt2": {
+              "text": "11% is the stated (nominal) rate, not the effective rate. EAR accounts for compounding.",
+              "formula": null
+            }
+          },
+          "requires_calculation": true,
+          "calculator_steps": [
+            "[2ND] [ICONV]",
+            "NOM = 11 [ENTER] [↓]",
+            "C/Y = 4 [ENTER] [↓]",
+            "[CPT] EFF → 11.46%"
+          ],
+          "difficulty": "EASY",
+          "los_reference": "LOS 1d: Calculate effective annual rate",
+          "topic_tags": ["EAR", "compounding", "quarterly", "interest_rate"]
+        },
+        {
+          "question_id": "QM-1-046",
+          "question_number": 46,
+          "question_text": "XYZ company's EPS at the beginning of each 4 consecutive years is as follows: The EPS compound annual growth rate during this period is closest to:",
+          "question_text_ru": null,
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": true,
+          "table_data": {
+            "headers": ["Year", "EPS ($)"],
+            "rows": [
+              ["Year 1", "$3.00"],
+              ["Year 2", "$4.20"],
+              ["Year 3", "$5.50"],
+              ["Year 4", "$7.60"]
+            ]
+          },
+          "options": [
+            {"id": "opt1", "text": "16.80%"},
+            {"id": "opt2", "text": "20.40%"},
+            {"id": "opt3", "text": "36.32%"}
+          ],
+          "correct_option_id": "opt3",
+          "explanation": "CAGR = (FV/PV)^(1/n) - 1 = ($7.60/$3.00)^(1/3) - 1 = 36.32%",
+          "explanation_ru": null,
+          "explanation_formula": "$CAGR = \\left(\\frac{FV}{PV}\\right)^{1/n} - 1 = \\left(\\frac{7.60}{3.00}\\right)^{1/3} - 1 = 36.32\\%$",
+          "explanation_wrong": {
+            "opt1": {
+              "text": "16.80% might be a simple average of year-over-year changes.",
+              "formula": null
+            },
+            "opt2": {
+              "text": "20.40% does not correctly apply the CAGR formula.",
+              "formula": null
+            }
+          },
+          "requires_calculation": true,
+          "calculator_steps": [
+            "7.60 [÷] 3.00 [=] 2.5333",
+            "[yˣ] 0.3333 [=] 1.3632",
+            "[-] 1 [=] → 0.3632 = 36.32%"
+          ],
+          "difficulty": "MEDIUM",
+          "los_reference": "LOS 1b: Calculate growth rates",
+          "topic_tags": ["CAGR", "growth_rate", "geometric_return"]
+        },
+        {
+          "question_id": "QM-1-047",
+          "question_number": 47,
+          "question_text": "Consider a series of payments, each amounting to £6,500 is set to be received by an investor in perpetuity. Payments are to be made at the end of each year, with the first payment expected to start at the end of year 4. Suppose the discount rate is 9%, the present value of the perpetuity is closest to:",
+          "question_text_ru": null,
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {"id": "opt1", "text": "£51,164.03"},
+            {"id": "opt2", "text": "£55,768.79"},
+            {"id": "opt3", "text": "£72,222.20"}
+          ],
+          "correct_option_id": "opt2",
+          "explanation": "Step 1: PV of perpetuity at t=3: PV = A/r = £6,500/0.09 = £72,222.20. Step 2: Discount to t=0: PV = £72,222.20/(1.09)^3 = £55,768.79",
+          "explanation_ru": null,
+          "explanation_formula": "$PV_0 = \\frac{A/r}{(1+r)^3} = \\frac{£6,500/0.09}{(1.09)^3} = £55,768.79$",
+          "explanation_wrong": {
+            "opt1": {
+              "text": "This incorrectly discounts by 4 years instead of 3.",
+              "formula": "$PV = \\frac{£72,222.20}{(1.09)^4} = £51,164.03$"
+            },
+            "opt3": {
+              "text": "£72,222.20 is the PV at t=3, not at t=0. Must discount back 3 years.",
+              "formula": "$PV_{t=3} = \\frac{£6,500}{0.09} = £72,222.20$"
+            }
+          },
+          "requires_calculation": true,
+          "calculator_steps": [
+            "6500 [÷] 0.09 [=] 72,222.20 (PV at t=3)",
+            "[÷] 1.09 [=] [÷] 1.09 [=] [÷] 1.09 [=]",
+            "→ 55,768.79"
+          ],
+          "difficulty": "HARD",
+          "los_reference": "LOS 1e: Calculate PV of perpetuity",
+          "topic_tags": ["perpetuity", "PV", "deferred", "TVM"]
+        },
+        {
+          "question_id": "QM-1-128",
+          "question_number": 128,
+          "question_text": "An asset manager's portfolio had the following annual rates of return: 2012: +8%, 2013: +6%, 2014: -2%. What is the holding period return for this portfolio?",
+          "question_text_ru": null,
+          "question_text_formula": null,
+          "question_continuation": null,
+          "has_table": false,
+          "table_data": null,
+          "options": [
+            {"id": "opt1", "text": "3.91%"},
+            {"id": "opt2", "text": "4%"},
+            {"id": "opt3", "text": "12.19%"}
+          ],
+          "correct_option_id": "opt3",
+          "explanation": "HPR = (1+r1)(1+r2)(1+r3) - 1 = (1.08)(1.06)(0.98) - 1 = 12.19%",
+          "explanation_ru": null,
+          "explanation_formula": "$HPR = (1.08)(1.06)(0.98) - 1 = 1.1219 - 1 = 12.19\\%$",
+          "explanation_wrong": {
+            "opt1": {
+              "text": "3.91% might be an incorrect geometric mean calculation.",
+              "formula": null
+            },
+            "opt2": {
+              "text": "4% is the simple arithmetic average (8+6-2)/3, not the compounded HPR.",
+              "formula": "$\\frac{8+6-2}{3} = 4\\%$"
+            }
+          },
+          "requires_calculation": true,
+          "calculator_steps": [
+            "1.08 [×] 1.06 [×] 0.98 [=] 1.1219",
+            "[-] 1 [=] → 0.1219 = 12.19%"
+          ],
+          "difficulty": "EASY",
+          "los_reference": "LOS 1b: Calculate holding period return",
+          "topic_tags": ["HPR", "compounding", "multi_period"]
+        }
+      ]
+    }
+  ]
+}
