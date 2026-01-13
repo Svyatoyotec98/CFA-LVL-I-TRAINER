@@ -182,9 +182,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "2",
-            "B": "11",
-            "C": "11"
+            "A": "2.75%",
+            "B": "11.00%",
+            "C": "11.50%"
           },
           "correct_answer": "C",
           "explanation": "It's important to note that the stated annual interest rate does not give a future value directly. We, therefore, need a formula for the EAR as follows; Where; The periodic interest rate is the stated annual interest rate divided by m, where m is the number of compounding periods in one year as follows; Therefore;",
@@ -342,9 +342,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "11",
-            "B": "15",
-            "C": "17"
+            "A": "11.4%",
+            "B": "15.2%",
+            "C": "17.4%"
           },
           "correct_answer": "C",
           "explanation": "",
@@ -707,9 +707,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "33",
-            "B": "31",
-            "C": "29"
+            "A": "33.88%",
+            "B": "31.78%",
+            "C": "29.45%"
           },
           "correct_answer": "A",
           "explanation": "The money-weighted rate of return (MWRR) refers to the internal rate of return on a portfolio. It is the rate of discount, r, at which: PV of cash outflows = PV of cash inflows The money-weighted rate of return on a fund satisfies the equation of value by taking into account the initial and final fund values, as well as the intermediate cash flows. When dealing with an investment portfolio, cash inflows comprise of: The beginning value, dividends /interest reinvested, withdrawals made. Cash outflows, on the other hand, refer to; the final value of the fund, dividends/interest received, contributions. Since the money-weighted rate of return is equivalent to the internal rate of return (IRR), the best way to solve this problem is by using the financial calculator with the following inputs: CF1=30; CF2=42; CF3=-110; CPT -> IRR = 33.88%",
@@ -759,9 +759,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "7",
-            "B": "5",
-            "C": "1"
+            "A": "6.31%",
+            "B": "10.58",
+            "C": "12.35%"
           },
           "correct_answer": "C",
           "explanation": "To compute the annualized time-weighted return for the year, we first compute each year’s holding period return: Where and are the market values at the beginning and end of year , respectively.",
@@ -785,9 +785,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "1",
-            "B": "3",
-            "C": "10"
+            "A": "1.04%",
+            "B": "3.31%",
+            "C": "10.33%"
           },
           "correct_answer": "B",
           "explanation": "",
@@ -837,9 +837,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "27",
-            "B": "30",
-            "C": "21"
+            "A": "27.5%",
+            "B": "30.38%",
+            "C": "21.11%"
           },
           "correct_answer": "B",
           "explanation": "",
@@ -863,9 +863,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "43",
-            "B": "80",
-            "C": "90"
+            "A": "43.2%",
+            "B": "80.0%",
+            "C": "90.8%"
           },
           "correct_answer": "A",
           "explanation": "Let And To get the joint probability p(PA), we need to use the multiplication rule.",
@@ -938,9 +938,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "19",
-            "B": "18",
-            "C": "16"
+            "A": "19.64%",
+            "B": "18.85%",
+            "C": "16.98%"
           },
           "correct_answer": "C",
           "explanation": "",
@@ -990,9 +990,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "19",
-            "B": "11",
-            "C": "6"
+            "A": "19.08%",
+            "B": "11.32%",
+            "C": "6.92%"
           },
           "correct_answer": "B",
           "explanation": "",
@@ -1042,9 +1042,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "25",
-            "B": "28",
-            "C": "51"
+            "A": "25.54%",
+            "B": "28.00%",
+            "C": "51.08%"
           },
           "correct_answer": "C",
           "explanation": "The continuously compounded 2-year return is given by",
@@ -1068,9 +1068,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "9",
-            "B": "10",
-            "C": "11"
+            "A": "9.53%",
+            "B": "10.00%",
+            "C": "11.53%"
           },
           "correct_answer": "A",
           "explanation": "As per the formula",
@@ -1094,9 +1094,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "0",
-            "B": "0",
-            "C": "9"
+            "A": "0.73%",
+            "B": "0.76%",
+            "C": "9.12%"
           },
           "correct_answer": "A",
           "explanation": "Interest rate can also be considered as the required rate of return. In the above case, James wants his $5,000 to grow to $5,500. The rate required to achieve this return can be calculated as under: To turn the annual interest rate into a monthly rate, To obtain the monthly rate directly using the financial calculator: PV = -5040.11, FV = 5500, N=12; CPT 1/Y=> 0.73",
@@ -1361,9 +1361,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "-5",
-            "B": "5",
-            "C": "38"
+            "A": "-5.30%",
+            "B": "5.59%",
+            "C": "38.60%"
           },
           "correct_answer": "B",
           "explanation": "The question requires the calculation of the growth rate in revenue as follows; Where; = Future value at time N. = Current present value. = Number of periods. Therefore; The calculated growth rate of about 5.6 percent a year shows that ABC Company Ltd's revenue grew during the 2006–2012 period. Using the BA II Pro Plus Calculator; N=6; PV= -$11.4; PMT=0; FV=$15.8 CPT=> I/Y = 5.59% NOTE: Remember to include a negative sign before the present value when calculating the financial calculator's interest rate.",
@@ -1543,9 +1543,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "10",
-            "B": "10",
-            "C": "10"
+            "A": "10.30%",
+            "B": "10.40%",
+            "C": "10.50%"
           },
           "correct_answer": "C",
           "explanation": "The question requires the calculation of EAR given a stated annual interest rate that does not give a future value directly as follows; Where; m = The number of compounding periods in one year. Periodic interest rate = The stated annual interest rate divided by m. Therefore;",
@@ -1595,9 +1595,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "15",
-            "B": "20",
-            "C": "52"
+            "A": "15.90%",
+            "B": "20.20%",
+            "C": "52.10%"
           },
           "correct_answer": "B",
           "explanation": "To determine the growth rate, we use the following formula; Or we can use the financial calculator with the following inputs: N=4; PV=-2,300,000; PMT=0; FV=4,800,000; CPT => I/Y = 20.19% Note: When computing 1/Y, a negative sign has to be included before the Present Value.",
@@ -1627,9 +1627,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "35",
-            "B": "37",
-            "C": "39"
+            "A": "35.70%",
+            "B": "37.30%",
+            "C": "39.10%"
           },
           "correct_answer": "C",
           "explanation": "The EAR is calculated using the following formula; Note that the periodic interest rate is the stated annual interest rate divided by m, where m is the number of compounding periods in one year.",
@@ -1816,9 +1816,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "5",
-            "B": "6",
-            "C": "8"
+            "A": "5.20",
+            "B": "6.50",
+            "C": "8.67"
           },
           "correct_answer": "C",
           "explanation": "We know that the sample variance is given by: Steps Using a financial Calculator Set the calculator to “DATA” by pressing 2ND 7. X01=12 ENTER↓↓, X02=7 ENTER↓↓, X03=14 ENTER↓↓, X04=11 ENTER 2ND QUIT Set the calculator to “STAT” by pressing 2ND 8 ↓↓↓ = 2.9439. Square it to get the variance. For population variance, the value to be picked would have been .",
@@ -2117,9 +2117,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "5",
-            "B": "13",
-            "C": "17"
+            "A": "5.23%",
+            "B": "13.00%",
+            "C": "17.00%"
           },
           "correct_answer": "A",
           "explanation": "The calculation of the Mean Absolute Deviation of the share's returns are provided in the following table:",
@@ -2143,9 +2143,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "-0",
-            "B": "2",
-            "C": "5"
+            "A": "-0.18%",
+            "B": "2.43%",
+            "C": "5.89%"
           },
           "correct_answer": "B",
           "explanation": "First, we calculate the mean return of the population in percentages as: Then, we calculate the variance and standard deviation:",
@@ -2195,9 +2195,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "5",
-            "B": "6",
-            "C": "10"
+            "A": "5.84%",
+            "B": "I & II only",
+            "C": "II & III only"
           },
           "correct_answer": "B",
           "explanation": "Mean= (0.12+0.13+0.05+0.04+0.2)/5 = 0.108 Sample deviation = Note: The standard deviation calculated with a divisor of n-1 is a standard deviation calculated from the sample as an estimate of the standard deviation of the population from which the sample was drawn. Steps using the financial calculator. Set the calculator to “DATA” by pressing 2ND 7. X01=12 ENTER↓↓, X02=13 ENTER↓↓, X03=5 ENTER↓↓, X04=4 ENTER, X05=20 ENTER↓↓ 2ND QUIT Set the calculator to “STAT” by pressing 2ND 8 ↓↓↓ = 6.53. If the data was for a population and not for a sample, the value to be picked would have been = 5.845 .",
@@ -2273,9 +2273,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "5",
-            "B": "6",
-            "C": "11"
+            "A": "5.25%",
+            "B": "6.75%",
+            "C": "11.75%"
           },
           "correct_answer": "B",
           "explanation": "Absolute difference from each individual observation: We know that:",
@@ -2325,8 +2325,8 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "0",
-            "B": "0",
+            "A": "0.00035",
+            "B": "0.0714",
             "C": "14"
           },
           "correct_answer": "B",
@@ -2455,9 +2455,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "0",
-            "B": "0",
-            "C": "0"
+            "A": "0.182%",
+            "B": "0.228%",
+            "C": "0.236%"
           },
           "correct_answer": "A",
           "explanation": "Note that the data given is comprised of the entire population and NOT a sample. As such, we should use the formula for calculating the population variance.We know that where N is the size of the population and Thus, Note: Had we been given sample data, the formula for the mean would remain unchanged but when calculating the variance, we would divide the sum of squared deviations by (n - 1) to remove bias.",
@@ -2481,9 +2481,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "14",
-            "B": "14",
-            "C": "14"
+            "A": "14.47%",
+            "B": "14.80%",
+            "C": "14.82%"
           },
           "correct_answer": "A",
           "explanation": "The population mean is determined as follows;",
@@ -2533,9 +2533,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "6",
-            "B": "7",
-            "C": "8"
+            "A": "6.24%",
+            "B": "negative",
+            "C": "positive"
           },
           "correct_answer": "A",
           "explanation": "Where; B = The target n = Total number of sample observation The calculation can be summarized in the table below;",
@@ -2566,9 +2566,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "0",
-            "B": "0",
-            "C": "0"
+            "A": "0.12",
+            "B": "0.58",
+            "C": "0.70"
           },
           "correct_answer": "B",
           "explanation": "These are non-mutual exclusive events. The probability of Apple’s share price declining is not in any way dependent on the probability of Microsoft’s share declining. Both events can occur simultaneously. For non-mutual exclusive evens, the probability that either event will happen is given by the formula:",
@@ -2592,9 +2592,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "0",
-            "B": "0",
-            "C": "0"
+            "A": "0.075",
+            "B": "0.30",
+            "C": "0.475"
           },
           "correct_answer": "A",
           "explanation": "We know that: - - The joint probability formula is: Where: - is the event that a stock has a P/E ratio greater than 15. - is the event that a stock is in the technology industry, given it has a P/E ratio greater than 15. Therefore, the joint probability is: CFA Level 1, Quantitative Methods, Learning Module 4:Probability Trees and Conditional Expectations, LOS 4c: calculate and interpret an updated probability in an investment setting using Bayes’ formula A. 0.075 B. 0.30 C. 0.475 P(P/E > 15) = 0.3 P(tech stock ∣P/E > 15) = 0.25 P(A and B) = P(A) × P(B ∣A) A B P(P/E > 15 and tech stock) = P(P/E > 15) × P(tech stock ∣P/E > 15) = 0.3 × 0.25 = 0.075",
@@ -2616,8 +2616,8 @@
           "image_path": null,
           "options": {
             "A": "0",
-            "B": "0",
-            "C": "0"
+            "B": "0.01",
+            "C": "0.7"
           },
           "correct_answer": "A",
           "explanation": "If two events, A and B, are mutually exclusive, only one of the events can occur at any particular time. The two events cannot both occur at the same time. The probability of occurring of 2 mutually exclusive events is 0.",
@@ -2641,9 +2641,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "0",
-            "B": "0",
-            "C": "0"
+            "A": "0.0375",
+            "B": "0.3625",
+            "C": "0.4"
           },
           "correct_answer": "B",
           "explanation": "From the information given,",
@@ -2771,9 +2771,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "0",
-            "B": "0",
-            "C": "0"
+            "A": "0.40",
+            "B": "0.76",
+            "C": "0.81"
           },
           "correct_answer": "C",
           "explanation": "This question can be solved; (1) using a tree diagram A. Joint probability: p(X|Y) * p(Y) B. Addition rule : p(T) + p(U) - p(TU) C. For independent events: p(K|L) = p(L) P (AB) = P(A) × P(B/A) P (A or B) = P (A) + P (B) −P(AB) A. 0.40 B. 0.76 C. 0.81 © 2014-2024 AnalystPrep. 121 We want to find the probability that a piece of equipment bought from the company meets specifications (as shown in bold on the tree diagram), The equipment might have been bought either from factory A or from factory B. Therefore, the probability that the equipment meets specifications is 0.36+0.45 = 0.81. (2) Using the total probability rule. Let us define the following events: M - meets specifications A - produced by A B - produced by B Thus, P(A) = 0.4, P(B) = 0.6, and P(M|A) = 0.9, P(M|B) = 0.75 We wish to find P(M), and we can do that by applying the total probability rule: P(M) = P(M|A)P(A) + P(M|B)P(B) P(M) = 0.9 × 0.4 + 0.75 × 0.6 = 0.81",
@@ -2823,9 +2823,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "0",
-            "B": "0",
-            "C": "0"
+            "A": "0.495",
+            "B": "0.872",
+            "C": "0.934"
           },
           "correct_answer": "B",
           "explanation": "Variance measures the squared deviation of each outcome from its expected value and multiplies it by its weight (probability). A. Event D could not occur. B. Only event C could occur. C. Event C and D could occur together. Probability Equity Value 0.33 $62.15 0.39 $60.75 0.28 $63.00 A. 0.495 B. 0.872 C. 0.934 © 2014-2024 AnalystPrep. 125 Now, Thus",
@@ -2901,9 +2901,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "0",
-            "B": "0",
-            "C": "0"
+            "A": "0.03",
+            "B": "0.04",
+            "C": "0.173"
           },
           "correct_answer": "A",
           "explanation": "So that,",
@@ -2953,9 +2953,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "0",
-            "B": "0",
-            "C": "0"
+            "A": "0.33",
+            "B": "0.50",
+            "C": "0.67"
           },
           "correct_answer": "B",
           "explanation": "Probability of selecting box B = Once Box B is selected, the probability of picking up a white ball = 1(1 since all balls within box B are white) p (selecting white ball) p (selecting white ball) =",
@@ -2979,9 +2979,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "0",
-            "B": "0",
-            "C": "0"
+            "A": "0.015",
+            "B": "0.735",
+            "C": "0.750"
           },
           "correct_answer": "B",
           "explanation": "The total probability rule states that: P(A) = P(A|X1)*P(X1) + P(A|X2)*P(X2) + ….. P(A|Xn)*P(Xn) Where X1, X2… are mutually exclusive and exhaustive events. Let us define the events: A = the stock price increases X1 = the stock index rises X2 = the stock index falls P(A) = P(A|X1)*P(X1) + P(A|X2)*P(X2) 0.40 = 0.20 * 0.40 + P(A|X2) * 0.60 0.40 = 0.08 + P(A|X2)*0.60 P(A|X2) = 0.53=53%",
@@ -3057,9 +3057,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "3",
-            "B": "14",
-            "C": "33"
+            "A": "3.77",
+            "B": "14.20",
+            "C": "33.00"
           },
           "correct_answer": "B",
           "explanation": "Recall that:",
@@ -3109,9 +3109,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "0",
-            "B": "0",
-            "C": "0"
+            "A": "0.01",
+            "B": "0.03",
+            "C": "0.118"
           },
           "correct_answer": "A",
           "explanation": "Let: =probability that Italy defaults and =probability that Japan defaults As the events are independent of each other, the probability of occurrence of one event does not affect the probability of occurrence of the other event. This can also be proved using the conditional probability rule: P(A|B) = P(AB)|P(B) As the events are independent P(AB) = P(A) * P(B) P(A|B) = P(A)=0.01",
@@ -3135,9 +3135,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "0",
-            "B": "0",
-            "C": "0"
+            "A": "0.05",
+            "B": "0.10",
+            "C": "0.20"
           },
           "correct_answer": "C",
           "explanation": "Let us define two events: Let us define two events: Event A: ROE of Xela exceeds 20% Event B: ROE of Yena exceeds 30% Then: P(A) = 0.10 P(B) = 0.05 P (A and B) = 0.02 (Events A and B happen together) According to the conditional probability rule: P (B|A) = P (A and B)/P(A) P (B|A) = 0.02/0.10 = 0.20 (Event B happens given that A has already happened)",
@@ -3161,9 +3161,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "0",
-            "B": "0",
-            "C": "0"
+            "A": "0.10",
+            "B": "0.30",
+            "C": "0.64"
           },
           "correct_answer": "A",
           "explanation": "A. 0.00137. B. 0.088. C. 0.776. P (A or B) = (0.33 + 0.67) −(0.33 × 0.67) = 0.776 A. 0.10 B. 0.30 C. 0.64 © 2014-2024 AnalystPrep. 142 Let: We can easily establish that: We need to determine : Borrowing from the addition rule with three sets, .................equation (I) , Similarly, Therefore applying equation (I), Which gives us",
@@ -3187,9 +3187,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "0",
-            "B": "0",
-            "C": "0"
+            "A": "0.45",
+            "B": "0.7941",
+            "C": "0.80"
           },
           "correct_answer": "B",
           "explanation": "Let 'A' be the event that an individual chosen at random comes from Africa. Let 'E' and 'S' have similar definitions for Europe and South America, respectively. Define L' as the event that an individual chosen at random submits tax returns late. Now, we wish to determine P(Africa | Late) = P(A | L) Applying Bayes' Theorem,",
@@ -3265,9 +3265,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "0",
-            "B": "0",
-            "C": "0"
+            "A": "0.19",
+            "B": "0.53",
+            "C": "0.47"
           },
           "correct_answer": "C",
           "explanation": "Let: D = Event of death L = Event of light smoker H = Event of heavy smoker N = Event of nonsmoker We need to calculate P(H | D) Now, we already know that: P(D | L) = 2P(D | N) and P(D | L) = 1/2P(D | H) Applying Bayes' theorem,",
@@ -3316,9 +3316,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "0",
-            "B": "0",
-            "C": "0"
+            "A": "0.44",
+            "B": "0.40",
+            "C": "0.55"
           },
           "correct_answer": "A",
           "explanation": "= Probability stock price increases = Probability drug launch is successful The probability, , needs to be calculated.",
@@ -3341,9 +3341,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "0",
-            "B": "0",
-            "C": "0"
+            "A": "0.36",
+            "B": "0.56",
+            "C": "0.52"
           },
           "correct_answer": "A",
           "explanation": "Define X to be the event “chooses route X.” Let Y and Z have similar definitions. Define O to be the event that she arrives on time. We wish to determine P(Z | O). Then:",
@@ -3400,9 +3400,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "0",
-            "B": "0",
-            "C": "0"
+            "A": "0.4368",
+            "B": "0.4730",
+            "C": "0.9530"
           },
           "correct_answer": "A",
           "explanation": "p(T)=0.48 (the probability that Trump will win the election) p(D|T)=0.91 (the probability that USD will devalue given the Trump wins the election) The joint probability of the event:",
@@ -3426,9 +3426,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "0",
-            "B": "0",
-            "C": "0"
+            "A": "0.112",
+            "B": "0.155",
+            "C": "0.187"
           },
           "correct_answer": "C",
           "explanation": "Recall that for random variables X and Y,",
@@ -3530,9 +3530,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "0",
-            "B": "0",
-            "C": "0"
+            "A": "0.22",
+            "B": "0.45",
+            "C": "0.83"
           },
           "correct_answer": "A",
           "explanation": "σ(X) = (650)0.5= 25.50 σ(Y) = (450)0.5= 21.21 Covariance(X,Y) = 120",
@@ -3582,9 +3582,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "0",
-            "B": "0",
-            "C": "0"
+            "A": "0.28",
+            "B": "0.70",
+            "C": "0.82"
           },
           "correct_answer": "A",
           "explanation": "Cov(A, B) = ∑P(s) * [RA - E(RA)] * [RB - E(RB)] First, you have to determine the expected return for every stock: E(RA) = 0.4 * 0.12 + 0.35 * 0.1 + 0.25 * 0.08 = 0.103 E(RB) = 0.4 * 0.18 + 0.35 * 0.15 + 0.25 * 0.12 = 0.1545 Cov(A,B) = 0.0001734 + 0.000004725 + 0.0001984 = 0.0003765",
@@ -3634,9 +3634,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "0",
-            "B": "0",
-            "C": "0"
+            "A": "0.00148",
+            "B": "0.0385",
+            "C": "0.26"
           },
           "correct_answer": "A",
           "explanation": "Correlation between X and Y, Therefore,",
@@ -3660,9 +3660,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "0",
-            "B": "0",
-            "C": "0"
+            "A": "0.0024",
+            "B": "0.0039",
+            "C": "0.0088"
           },
           "correct_answer": "B",
           "explanation": "Correlation between two stocks is determined as follows; Hence, to calculate the covariance, the calculation becomes; CFA Level 1, Quantitative Methods, Learning Module 5: Portfolio Mathematics, LOS (b) Calculate and interpret the covariance and correlation of portfolio returns using a joint probability function for returns. Stock A Stock B Expected Return 6% 10% Standard Deviation 7% 14% Current Portfolio weights 0.3 0.7 A. 0.0024 B. 0.0039 C. 0.0088 ρ(RARB) = Cov(RARB) σRAσRB Cov(RARB) = ρ(RARB) × σRAσRB = 0.07 × 0.14 × 0.4 = 0.0039",
@@ -3739,9 +3739,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "10",
-            "B": "10",
-            "C": "21"
+            "A": "10.58 percent",
+            "B": "10.68 percent",
+            "C": "21.36 percent"
           },
           "correct_answer": "C",
           "explanation": "The continuously compounded return (CCR) can be calculated using the formula: Therefore; CFA Level I, Volume 1, Topic 2 - Quantitative Methods, Learning Module 6, Simulation Methods, LOS 7a: explain the relationship between normal and lognormal distributions and why the lognormal distribution is used to model asset prices when using continuously compounded asset returns Date Closing Price (USD) 30 June 105 31 July 120 31 August 130 A. 10.58 percent. B. 10.68 percent. C. 21.36 percent. CCR = ln( ) Ending Price Beginning Price CCR = ln ( ) = ln(1.2381) ≈0.2136 or 21.36% 130 105",
@@ -4101,9 +4101,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "0",
-            "B": "0",
-            "C": "0"
+            "A": "0.33",
+            "B": "0.46",
+            "C": "0.71"
           },
           "correct_answer": "A",
           "explanation": "If the variance of the sample is 25 (s2 = 25 ), then the standard deviation s = 5. CFA Level I, Volume 1, Topic 3 - Quantitative Methods, Learning Module 7, Estimation and Inference, LOS 7b: Explain the central limit theorem and its importance for the distribution and standard error of the sample mean. A. $0.52 B. $0.60 C. $0.74 σ¯x σ¯x = σ √n Standard Error = = = = $0.5166667 ≈$0.52 Standard deviation of the sample mean √Sample size $3.1 √36 3.1 6 A. 0.33. B. 0.46 C. 0.71 The standard error of the sample mean of 225 observation = = Standard Deviation of the sample me √Sample size",
@@ -4199,9 +4199,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "0",
-            "B": "0",
-            "C": "0"
+            "A": "0.206",
+            "B": "0.584",
+            "C": "0.813"
           },
           "correct_answer": "B",
           "explanation": "Since the standard deviation for the population is known, Interpretation: If we were to take a number of samples of size 30 from the US coal workers population and proceed to prepare a sampling distribution of the sample means, the means of the various samples would vary from each other by 0.5842. The standard error gives analysts an idea of how precisely the sample mean estimates the population mean. The smaller the sample mean, the more precise the estimate. The standard error in this question is small; this implies that this particular sample has almost accurately estimated the population mean. The mean hourly wage for the population of coal workers from which this sample was obtained is, therefore, likely to be around $15.5 CFA Level I, Volume 1, Topic 3 - Quantitative Methods, Learning Module 7, Estimation and Inference, LOS 7b: Explain the central limit theorem and its importance for the distribution and standard error of the sample mean. A. 0.206 B. 0.584 C. 0.813 Standard error of the mean = = = 0.5842 σ √n 3.2 √30",
@@ -4222,9 +4222,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "0",
-            "B": "1",
-            "C": "1"
+            "A": "0.360",
+            "B": "1.011",
+            "C": "1.667"
           },
           "correct_answer": "C",
           "explanation": "The standard error of the sample mean is; Interpretation: The means of the 36 samples randomly drawn from the population vary from each other by 1.6667. The standard error gives analysts an idea of how precisely the sample mean estimates the population mean. The smaller the standard error, the better. In this case, the sample mean is not so small. As a result, the sample might not be a very good estimator of the population mean.",
@@ -4665,9 +4665,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "[15",
-            "B": "[16",
-            "C": "[14"
+            "A": "[15.26 miles; 20.74 miles]",
+            "B": "[16.6 miles; 19.4 miles]",
+            "C": "[14.4 miles; 21.6 miles]"
           },
           "correct_answer": "C",
           "explanation": "Z-static (Reliability factor) at 99% confidence interval = 2.58 Lower limit of the confidence interval = 18 - (2.58 × 1.4) = 14.39 miles Upper limit of the confidence interval = 18 + (2.58 × 1.4) = 21.6 miles. The 99% confidence interval of the population lies within the range (14.39; 21.6) This means that 99% of the students rent rooms within a distance of (14.39; 21.6) miles. CFA Level I, Quantitative Methods, Learning Module 8: Hypothesis Testing. LOS (b): Construct hypothesis tests and determine their statistical significance, the associated Type I and Type II errors, and the power of the test given a significance level. A. [15.26 miles; 20.74 miles] B. [16.6 miles; 19.4 miles] C. [14.4 miles; 21.6 miles] Standard error of the sample = = = 1.4 Standard deviation of sample mean √Sample size 14 √100 Confidence interval = Point estimate ± Reliability factor× Standard error",
@@ -4688,9 +4688,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "[2",
-            "B": "[2",
-            "C": "[3"
+            "A": "[2.77%; 12.23%]",
+            "B": "[2.93%; 12.06%]",
+            "C": "[3.56%; 11.43%]"
           },
           "correct_answer": "A",
           "explanation": "Since the population variance is unknown and the population is normally distributed, we will use a t-statistic. The t-statistic for a 95% confidence interval and 35 degrees of freedom (df=n-1=) is 2.030. The standard error of the sample = Standard Deviation of sample mean/√Sample size = 14/√36 = 2.33 The confidence interval is 7.5 - (2.03 * 2.33) = 2.77 and 7.5 + (2.03 * 2.33) = 12.23 Approximately 95% of the mean returns of BB+ corporate bonds fall within the interval (2.77;12.23) Using a reliability factor based on the t-distribution is essential for a small sample size. Using a t reliability factor is appropriate when the population variance is unknown, even when we have a large sample, and could use the central limit theorem to justify using a z reliability factor. In this large sample case, the t-distribution provides more-conservative (wider) confidence intervals. CFA Level I, Quantitative Methods, Learning Module 8: Hypothesis Testing. LOS (b): Construct hypothesis tests and determine their statistical significance, the associated Type I and Type II errors, and the power of the test given a significance level. A. [2.77%; 12.23%] B. [2.93%; 12.06%] C. [3.56%; 11.43%] Confidence interval = Point estimate ± Reliability factor× Standard error",
@@ -4763,9 +4763,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "0",
-            "B": "1",
-            "C": "5"
+            "A": "0.19",
+            "B": "1.96",
+            "C": "5.24"
           },
           "correct_answer": "C",
           "explanation": "Where Therefore",
@@ -4945,9 +4945,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "3",
-            "B": "7",
-            "C": "18"
+            "A": "H0: μ1 ≥ μ2 and Ha: μ < μ2",
+            "B": "H0: μ1 ≤ μ2 and Ha: μ1 > μ2",
+            "C": "H0: μd = 0 and Ha: μd ≠ 0"
           },
           "correct_answer": "A",
           "explanation": "The analyst is testing the difference between the mean of paired observations. It is not known if the difference is positive or negative so the hypothesis is constructed as H0: µd = 0 and Ha: µd ≠ 0. Thus, Further Explanation. To test whether the observed difference between two means is statistically significant, we must first decide whether the samples are independent or dependent (paired/related). If the samples are independent, we conduct tests concerning differences between means. If the samples are dependent, we conduct tests of mean differences (paired comparisons tests). Notice the examiner has mentioned 27 paired observations. This helps you to know that you need to conduct a paired comparison test. Additionally, the hypothesis test concerns the population mean of a normally distributed population with unknown variances, thus, the theoretically correct test statistic is the t-statistic. Thus, test statistic = Mean difference/Standard error of mean differences.",
@@ -5205,9 +5205,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "0",
-            "B": "1",
-            "C": "24"
+            "A": "0.37",
+            "B": "1.78",
+            "C": "24.89"
           },
           "correct_answer": "C",
           "explanation": "The chi-square test is used for hypothesis tests regarding population variance. Where is the sample size, the sample variance and the hypothesized population variance.",
@@ -5231,9 +5231,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "1",
-            "B": "1",
-            "C": "1"
+            "A": "1.51",
+            "B": "1.70",
+            "C": "1.96"
           },
           "correct_answer": "C",
           "explanation": "As the test requires testing the equality of variances of two populations, the appropriate test is the F-test. Note: A convention, or usual practice, uses the larger of the two standard deviations on top (in the numerator). When we follow this convention, the value of the test statistic is always greater than or equal to 1; tables of critical values of F then need to include only values greater than or equal to 1. Under this convention, the rejection point for any formulation of hypotheses is a single value on the right-hand side of the relevant F-distribution. However, even without following this convention, we would still arrive at the same conclusion ( whether or not to reject the null).",
@@ -5359,8 +5359,8 @@
           "image_path": null,
           "options": {
             "A": "[125; 135]",
-            "B": "[130; 135",
-            "C": "[124"
+            "B": "[130; 135.5]",
+            "C": "[124.5; 135.5]"
           },
           "correct_answer": "C",
           "explanation": "For any sample that comes from a normally distributed population, we know that: Recall also that Thus, a 95% CI for the mean, CFA Level I, Quantitative Methods, Learning Module 8: Hypothesis Testing. LOS (b): Construct hypothesis tests and determine their statistical significance, the associated Type I and Type II errors, and the power of the test given a significance level. A. [125; 135] B. [130; 135.5] C. [124.5; 135.5] ∼N(0, 1) ¯X −μ σ √n Confidence Interval = Point estimate ± Reliability factor × standard error μ = ¯X ± Z × = 130 ± 1.96 × = 130 ± 5.5437 = [124.5; 135.5]. α 2 σ √n 20 √50",
@@ -5383,7 +5383,7 @@
           "options": {
             "A": "[75; 85]",
             "B": "[65; 75]",
-            "C": "[71"
+            "C": "[71.96; 78.04]"
           },
           "correct_answer": "C",
           "explanation": "For any sample that comes from a normally distributed population, we know that: Recall also that From the normal dist. table, .Thus, a 99% CI for the mean, Interpretation: We are 99% certain that the students scored between 71.96 and 78.04. CFA Level I, Quantitative Methods, Learning Module 8: Hypothesis Testing. LOS (b): Construct hypothesis tests and determine their statistical significance, the associated Type I and Type II errors, and the power of the test given a significance level. A. [75; 85] B. [65; 75] C. [71.96; 78.04] ∼N(0, 1) ¯X −μ σ √n Confidence Interval = Point estimate ± Reliability factor × standard error Z0.005 = 2.58 μ = ¯X ± Z × = 75 ± 2.58 × = 75 ± 3.04 = 71.96 ≤μ ≤78.04. α 2 σ √n 10 √72",
@@ -5541,9 +5541,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "0",
-            "B": "0",
-            "C": "0"
+            "A": "0.222",
+            "B": "0.333",
+            "C": "0.730"
           },
           "correct_answer": "C",
           "explanation": "Let be the hypothesis that there is no significant difference between employed and self- employed investors with regard to risk tolerance levels. Let be the hypothesis that there is a significant difference between employed and self- employed investors with regard to risk tolerance levels. Low Medium High Total Employed 45 55 20 120 Self-Employed 30 40 10 80 Total 75 95 30 200 A. 0.222. B. 0.333. C. 0.730. H0 Ha © 2014-2024 AnalystPrep. 266 Step 1: Calculate the expected frequency of investors by their category and risk tolerance level using the formula: Step 2: Compute the scaled squared deviations for each category and risk tolerance level: Step 3: Calculate the total chi-square statistic:",
@@ -5668,9 +5668,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "0",
-            "B": "0",
-            "C": "0"
+            "A": "0.05",
+            "B": "0.01",
+            "C": "0.10"
           },
           "correct_answer": "A",
           "explanation": "The significance level, often denoted by , is typically set at 0.05 in hypothesis testing unless otherwise specified. B and",
@@ -5856,9 +5856,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "11",
-            "B": "11",
-            "C": "51"
+            "A": "11.02%",
+            "B": "11.05%",
+            "C": "51.90%"
           },
           "correct_answer": "A",
           "explanation": "",
@@ -5882,9 +5882,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "3",
-            "B": "3",
-            "C": "3"
+            "A": "3.64%",
+            "B": "3.74%",
+            "C": "3.80%"
           },
           "correct_answer": "B",
           "explanation": "We are looking for the second quintile = 40%. We have n=6 (observations). Using the following formula, y=40% so that Arranging the distribution in ascending order we have, 2.3%, 3.5%, 3.8%,5.9%, 9.6%, and 12.4%. Therefore, the second quintile is between the 2nd number 3.5%, and the 3rd number 3.8%. To find the 2.8th number, we interpolate as: Thus the second quintile is 3.74%.",
@@ -5957,9 +5957,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "5",
-            "B": "25",
-            "C": "41"
+            "A": "1.32",
+            "B": "1.52",
+            "C": "1.74"
           },
           "correct_answer": "A",
           "explanation": "Standard deviation of the prediction error =",
@@ -6035,9 +6035,9 @@
           "has_image": false,
           "image_path": null,
           "options": {
-            "A": "0",
-            "B": "0",
-            "C": "1"
+            "A": "0.0366",
+            "B": "0.0534",
+            "C": "1.1180"
           },
           "correct_answer": "C",
           "explanation": "Where: Thus,",
