@@ -401,50 +401,32 @@ async function startTest(mode) {
         ).join('');
 
         // Configure based on mode
+        const checkBtn = document.getElementById('check-btn');
         if (mode === '90_second') {
             document.getElementById('prev-btn').classList.add('hidden');
             document.getElementById('flag-btn').classList.add('hidden');
+            if (checkBtn) checkBtn.classList.add('hidden');
+        } else if (mode === 'learning') {
+            document.getElementById('prev-btn').classList.remove('hidden');
+            document.getElementById('flag-btn').classList.remove('hidden');
+            if (checkBtn) checkBtn.classList.remove('hidden');
         } else {
             document.getElementById('prev-btn').classList.remove('hidden');
             document.getElementById('flag-btn').classList.remove('hidden');
+            if (checkBtn) checkBtn.classList.add('hidden');
         }
 
         showScreen('test');
         displayQuestion();
-        startTimer();
+        if (mode !== 'learning') {
+            startTimer();
+        }
     } catch (error) {
         showToast(error.message, 'error');
         showScreen('modules');
     } finally {
         hideLoading();
     }
-}
-
-// Render table from table_data
-function renderTable(tableData) {
-    if (!tableData || !tableData.headers || !tableData.rows) return '';
-
-    let html = '<table class="question-table">';
-
-    // Headers
-    html += '<thead><tr>';
-    tableData.headers.forEach(h => {
-        html += `<th>${h}</th>`;
-    });
-    html += '</tr></thead>';
-
-    // Rows
-    html += '<tbody>';
-    tableData.rows.forEach(row => {
-        html += '<tr>';
-        row.forEach(cell => {
-            html += `<td>${cell}</td>`;
-        });
-        html += '</tr>';
-    });
-    html += '</tbody></table>';
-
-    return html;
 }
 
 function displayQuestion() {
@@ -457,7 +439,7 @@ function displayQuestion() {
     document.getElementById('test-current').textContent = state.currentQuestionIndex + 1;
     document.getElementById('question-text').textContent = question.question_text;
 
-    // Table (if present)
+    // Table (if question has table data)
     const tableDiv = document.getElementById('question-table');
     if (tableDiv) {
         if (question.has_table && question.table_data) {
@@ -470,13 +452,14 @@ function displayQuestion() {
     }
 
     // Question continuation (text after table)
-    const contDiv = document.getElementById('question-continuation');
-    if (contDiv) {
+    const continuationDiv = document.getElementById('question-continuation');
+    if (continuationDiv) {
         if (question.question_continuation) {
-            contDiv.textContent = question.question_continuation;
-            contDiv.classList.remove('hidden');
+            continuationDiv.textContent = question.question_continuation;
+            continuationDiv.classList.remove('hidden');
         } else {
-            contDiv.classList.add('hidden');
+            continuationDiv.textContent = '';
+            continuationDiv.classList.add('hidden');
         }
     }
 
@@ -499,15 +482,18 @@ function displayQuestion() {
         diffDiv.textContent = '';
     }
 
-    // Options
+    // Options - with backwards compatibility and shuffle
     const optionsContainer = document.getElementById('options-container');
-    optionsContainer.innerHTML = Object.entries(question.options).map(([letter, text]) => {
-        const isSelected = state.answers[question.question_id] === letter;
+    const options = getOptions(question);
+    const shuffledOptions = shuffleArray(options);
+
+    optionsContainer.innerHTML = shuffledOptions.map(opt => {
+        const isSelected = state.answers[question.question_id] === opt.id;
         return `
             <button class="option ${isSelected ? 'selected' : ''}"
-                    onclick="selectAnswer('${letter}')">
-                <span class="option-letter">${letter}</span>
-                ${text}
+                    data-option-id="${opt.id}"
+                    onclick="selectAnswer('${opt.id}')">
+                ${opt.text}
             </button>
         `;
     }).join('');
@@ -518,39 +504,35 @@ function displayQuestion() {
     // Update navigation
     document.getElementById('prev-btn').disabled = state.currentQuestionIndex === 0;
 
-    // Show/hide check button based on mode
-    const checkBtn = document.getElementById('check-btn');
-    if (checkBtn) {
-        if (state.testMode === 'learning') {
-            checkBtn.classList.remove('hidden');
-            document.getElementById('next-btn').classList.add('hidden');
-        } else {
-            checkBtn.classList.add('hidden');
-            document.getElementById('next-btn').classList.remove('hidden');
-        }
-    }
-
     const isLastQuestion = state.currentQuestionIndex === state.questions.length - 1;
     document.getElementById('next-btn').textContent = isLastQuestion ? 'Завершить' : 'Далее →';
 
     // Hide explanation for new question
     document.getElementById('explanation-container').classList.add('hidden');
 
-    // Re-enable options and reset their states (in case they were disabled/highlighted)
-    document.querySelectorAll('.option').forEach(opt => {
-        opt.disabled = false;
-        opt.classList.remove('correct', 'incorrect');
-    });
+    // Show check button for learning mode (if question not already answered in this mode)
+    const checkBtn = document.getElementById('check-btn');
+    if (checkBtn && state.testMode === 'learning') {
+        // If already checked this question, keep button hidden and show explanation
+        const alreadyAnswered = state.answers[question.question_id];
+        if (alreadyAnswered) {
+            // Check if this question was already revealed (we track by checking if explanation is shown)
+            // For simplicity, show check button again if navigating back
+            checkBtn.classList.remove('hidden');
+        } else {
+            checkBtn.classList.remove('hidden');
+        }
+    }
 }
 
-function selectAnswer(letter) {
+function selectAnswer(optionId) {
     const question = state.questions[state.currentQuestionIndex];
-    state.answers[question.question_id] = letter;
+    state.answers[question.question_id] = optionId;
 
     // Update button states
     document.querySelectorAll('.option').forEach(btn => {
         btn.classList.remove('selected');
-        if (btn.querySelector('.option-letter').textContent === letter) {
+        if (btn.dataset.optionId === optionId) {
             btn.classList.add('selected');
         }
     });
@@ -559,20 +541,27 @@ function selectAnswer(letter) {
 
     // In 90-second mode, show result immediately
     if (state.testMode === '90_second') {
-        showQuestionResult(question, letter);
+        showQuestionResult(question, optionId);
     }
 }
 
 function showQuestionResult(question, userAnswer) {
-    const isCorrect = userAnswer === question.correct_answer;
+    const correctOptionId = getCorrectOptionId(question);
+    const isCorrect = userAnswer === correctOptionId;
+
+    // Find correct option text for display
+    const options = getOptions(question);
+    const correctOption = options.find(opt => opt.id === correctOptionId);
+    const correctText = correctOption ? correctOption.text : '';
 
     // Highlight correct/incorrect options
     document.querySelectorAll('.option').forEach(btn => {
-        const letter = btn.querySelector('.option-letter').textContent;
-        btn.disabled = true;  // Disable all options after answering
-        if (letter === question.correct_answer) {
+        const optId = btn.dataset.optionId;
+        btn.disabled = true;
+
+        if (optId === correctOptionId) {
             btn.classList.add('correct');
-        } else if (letter === userAnswer && !isCorrect) {
+        } else if (optId === userAnswer && !isCorrect) {
             btn.classList.add('incorrect');
         }
     });
@@ -586,12 +575,12 @@ function showQuestionResult(question, userAnswer) {
         statusEl.innerHTML = isCorrect
             ? '<span class="result-correct">✓ Правильно!</span>'
             : '<span class="result-incorrect">✗ Неправильно</span>';
-        statusEl.innerHTML += `<span class="correct-answer">Правильный ответ: ${question.correct_answer}</span>`;
+        statusEl.innerHTML += `<span class="correct-answer">Правильный ответ: ${correctText}</span>`;
     }
 
     document.getElementById('explanation-text').textContent = question.explanation || '';
 
-    // Explanation formula (if present)
+    // Explanation formula
     const formulaEl = document.getElementById('explanation-formula');
     if (formulaEl) {
         if (question.explanation_formula) {
@@ -605,12 +594,28 @@ function showQuestionResult(question, userAnswer) {
         }
     }
 
-    // Wrong answer explanation
+    // Wrong answer explanation (supports old string and new object format)
     const wrongEl = document.getElementById('explanation-wrong');
     if (wrongEl) {
-        if (!isCorrect && question.explanation_wrong && question.explanation_wrong[userAnswer]) {
-            wrongEl.innerHTML = `<strong>Почему ${userAnswer} неправильно:</strong> ${question.explanation_wrong[userAnswer]}`;
+        const wrongExplanation = question.explanation_wrong?.[userAnswer];
+        if (!isCorrect && wrongExplanation) {
+            let wrongHtml = `<strong>Почему ваш ответ неправильный:</strong> `;
+
+            if (typeof wrongExplanation === 'string') {
+                wrongHtml += wrongExplanation;
+            } else {
+                wrongHtml += wrongExplanation.text || wrongExplanation.text_ru || '';
+                if (wrongExplanation.formula) {
+                    wrongHtml += `<div class="wrong-formula">${wrongExplanation.formula}</div>`;
+                }
+            }
+
+            wrongEl.innerHTML = wrongHtml;
             wrongEl.classList.remove('hidden');
+
+            if (window.MathJax) {
+                MathJax.typesetPromise([wrongEl]).catch(err => console.log('MathJax error:', err));
+            }
         } else {
             wrongEl.classList.add('hidden');
         }
@@ -630,6 +635,11 @@ function showQuestionResult(question, userAnswer) {
 
     expContainer.classList.remove('hidden');
 
+    // Render MathJax for explanation
+    if (window.MathJax && MathJax.typesetPromise) {
+        MathJax.typesetPromise([expContainer]).catch(err => console.log('MathJax error:', err));
+    }
+
     // In learning mode, show next button after checking
     if (state.testMode === 'learning') {
         const checkBtn = document.getElementById('check-btn');
@@ -642,17 +652,24 @@ function showQuestionResult(question, userAnswer) {
 // Check single answer for learning mode
 function checkSingleAnswer() {
     const question = state.questions[state.currentQuestionIndex];
-    const selectedOption = document.querySelector('.option.selected');
+    const userAnswer = state.answers[question.question_id];
 
-    if (!selectedOption) {
+    if (!userAnswer) {
         showToast('Выберите ответ', 'warning');
         return;
     }
 
-    const userAnswer = selectedOption.querySelector('.option-letter').textContent;
-    state.answers[question.question_id] = userAnswer;
-
+    // Show result
     showQuestionResult(question, userAnswer);
+
+    // Disable all options after checking
+    document.querySelectorAll('.option').forEach(btn => {
+        btn.style.pointerEvents = 'none';
+    });
+
+    // Hide check button after use
+    const checkBtn = document.getElementById('check-btn');
+    if (checkBtn) checkBtn.classList.add('hidden');
 }
 
 function updateQuestionDots() {
@@ -697,8 +714,7 @@ function nextQuestion() {
 }
 
 function goToQuestion(index) {
-    // Allow navigation in standard and learning modes
-    if ((state.testMode === 'standard' || state.testMode === 'learning') && index >= 0 && index < state.questions.length) {
+    if (state.testMode === 'standard' && index >= 0 && index < state.questions.length) {
         state.currentQuestionIndex = index;
         displayQuestion();
     }
@@ -753,14 +769,17 @@ async function submitTest() {
 
     const timeSpent = Math.floor((Date.now() - state.testStartTime) / 1000);
 
-    // Calculate results
-    const questionDetails = state.questions.map(q => ({
-        question_id: q.question_id,
-        user_answer: state.answers[q.question_id] || null,
-        correct_answer: q.correct_answer,
-        correct: state.answers[q.question_id] === q.correct_answer,
-        time_spent: 0 // TODO: track per-question time
-    }));
+    // Calculate results (with backwards compatibility)
+    const questionDetails = state.questions.map(q => {
+        const correctId = getCorrectOptionId(q);
+        return {
+            question_id: q.question_id,
+            user_answer: state.answers[q.question_id] || null,
+            correct_answer: correctId,
+            correct: state.answers[q.question_id] === correctId,
+            time_spent: 0 // TODO: track per-question time
+        };
+    });
 
     const correct = questionDetails.filter(q => q.correct).length;
     const total = state.questions.length;
@@ -942,18 +961,24 @@ async function loadReviewQuestions() {
             container.innerHTML = `
                 <h3>Вопросы для повторения (${data.total_due})</h3>
                 <div class="review-questions">
-                    ${data.questions.map(q => `
-                        <div class="review-question glass-container">
-                            <p>${q.question.question_text}</p>
-                            <div class="options-container">
-                                ${Object.entries(q.question.options).map(([letter, text]) => `
-                                    <button class="option" onclick="answerReview('${q.question_id}', '${letter}', '${q.question.correct_answer}')">
-                                        <span class="option-letter">${letter}</span> ${text}
-                                    </button>
-                                `).join('')}
+                    ${data.questions.map(q => {
+                        const options = getOptions(q.question);
+                        const correctId = getCorrectOptionId(q.question);
+                        return `
+                            <div class="review-question glass-container">
+                                <p>${q.question.question_text}</p>
+                                <div class="options-container">
+                                    ${options.map(opt => `
+                                        <button class="option"
+                                                data-option-id="${opt.id}"
+                                                onclick="answerReview('${q.question_id}', '${opt.id}', '${correctId}')">
+                                            ${opt.text}
+                                        </button>
+                                    `).join('')}
+                                </div>
                             </div>
-                        </div>
-                    `).join('')}
+                        `;
+                    }).join('')}
                 </div>
             `;
         } else {
@@ -1093,6 +1118,63 @@ async function loadStatistics() {
     } catch (error) {
         console.error('Failed to load statistics:', error);
     }
+}
+
+// ============== Table Rendering ==============
+function renderTable(tableData) {
+    if (!tableData) return '';
+
+    let html = '<table class="question-table">';
+
+    // Headers
+    if (tableData.headers && tableData.headers.length > 0) {
+        html += '<thead><tr>';
+        tableData.headers.forEach(h => {
+            html += `<th>${h}</th>`;
+        });
+        html += '</tr></thead>';
+    }
+
+    // Rows
+    html += '<tbody>';
+    tableData.rows.forEach(row => {
+        html += '<tr>';
+        row.forEach(cell => {
+            html += `<td>${cell}</td>`;
+        });
+        html += '</tr>';
+    });
+    html += '</tbody></table>';
+
+    return html;
+}
+
+// ============== Backwards Compatibility ==============
+// These functions support both old (A/B/C object) and new (opt1/opt2/opt3 array) formats
+
+function getOptions(question) {
+    // New format (array)
+    if (Array.isArray(question.options)) {
+        return question.options;
+    }
+
+    // Old format (object A/B/C) - convert to new format
+    return Object.entries(question.options).map(([letter, text], index) => ({
+        id: `opt${index + 1}`,
+        text: text,
+        _originalLetter: letter  // for backwards compatibility
+    }));
+}
+
+function getCorrectOptionId(question) {
+    // New format
+    if (question.correct_option_id) {
+        return question.correct_option_id;
+    }
+
+    // Old format - convert A→opt1, B→opt2, C→opt3
+    const letterToOpt = {'A': 'opt1', 'B': 'opt2', 'C': 'opt3', 'D': 'opt4'};
+    return letterToOpt[question.correct_answer] || 'opt1';
 }
 
 // ============== Utilities ==============
