@@ -536,8 +536,11 @@ function displayQuestion() {
     // Hide explanation for new question
     document.getElementById('explanation-container').classList.add('hidden');
 
-    // Re-enable options (in case they were disabled)
-    document.querySelectorAll('.option').forEach(opt => opt.disabled = false);
+    // Re-enable options and reset their states (in case they were disabled/highlighted)
+    document.querySelectorAll('.option').forEach(opt => {
+        opt.disabled = false;
+        opt.classList.remove('correct', 'incorrect');
+    });
 }
 
 function selectAnswer(letter) {
@@ -694,7 +697,8 @@ function nextQuestion() {
 }
 
 function goToQuestion(index) {
-    if (state.testMode === 'standard' && index >= 0 && index < state.questions.length) {
+    // Allow navigation in standard and learning modes
+    if ((state.testMode === 'standard' || state.testMode === 'learning') && index >= 0 && index < state.questions.length) {
         state.currentQuestionIndex = index;
         displayQuestion();
     }
