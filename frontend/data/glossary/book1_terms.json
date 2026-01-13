@@ -2,7 +2,7 @@
   "book_id": 1,
   "book_name": "Quantitative Methods",
   "book_name_ru": "Количественные методы",
-  "total_terms": 21,
+  "total_terms": 40,
 
   "terms": [
     {
@@ -440,6 +440,441 @@
       "module_id": 1,
       "los_id": "LOS_1a",
       "related_terms": ["T-QM-016", "T-QM-019", "T-QM-020"],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-QM-022",
+      "term_en": "Time Value of Money (TVM)",
+      "term_ru": "Временная стоимость денег",
+      "definition_en": "The fundamental financial concept that a sum of money is worth more in the present than in the future due to opportunity cost, inflation, and uncertainty. TVM allows us to compare cash flows at different points in time by discounting or compounding them to a common time reference.",
+      "definition_ru": "Фундаментальная финансовая концепция о том, что деньги сегодня стоят больше, чем в будущем, из-за альтернативных издержек, инфляции и неопределённости. TVM позволяет сравнивать денежные потоки в разные моменты времени путём дисконтирования или наращения к общему моменту времени.",
+      "formula": null,
+      "module_id": 2,
+      "los_id": "LOS_2a",
+      "related_terms": ["T-QM-023", "T-QM-024", "T-QM-025"],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-QM-023",
+      "term_en": "Present Value (PV)",
+      "term_ru": "Приведённая стоимость",
+      "definition_en": "The current value of a future cash flow or series of cash flows, discounted at an appropriate interest rate. PV represents what a future sum of money is worth today, accounting for the time value of money. It is fundamental to all financial valuation.",
+      "definition_ru": "Текущая стоимость будущего денежного потока или серии денежных потоков, дисконтированных по соответствующей процентной ставке. PV показывает, сколько стоит будущая сумма денег сегодня, учитывая временную стоимость денег. Это основа всей финансовой оценки.",
+      "formula": "$PV = \\frac{FV}{(1 + r)^N}$",
+      "module_id": 2,
+      "los_id": "LOS_2a",
+      "related_terms": ["T-QM-024", "T-QM-025", "T-QM-030"],
+      "calculator_steps": {
+        "worksheet": "TVM",
+        "access": "[2ND] [CLR TVM]",
+        "steps": [
+          "[2ND] [CLR TVM] — очистить TVM worksheet",
+          "FV [ENTER] — будущая стоимость",
+          "N [ENTER] — число периодов",
+          "I/Y [ENTER] — процентная ставка",
+          "0 [PMT] — нет платежей (для single cash flow)",
+          "[CPT] [PV] — рассчитать текущую стоимость"
+        ],
+        "example": {
+          "given": "FV=$1000, r=5%, N=10 years",
+          "input": "FV=1000, N=10, I/Y=5, PMT=0",
+          "result": "PV = -$613.91"
+        }
+      }
+    },
+    {
+      "term_id": "T-QM-024",
+      "term_en": "Future Value (FV)",
+      "term_ru": "Будущая стоимость",
+      "definition_en": "The accumulated amount of money you get after investing the original sum at a specific interest rate for a given time period. FV accounts for the effects of compounding interest over time.",
+      "definition_ru": "Накопленная сумма денег, которую вы получаете после инвестирования первоначальной суммы по определённой процентной ставке в течение заданного периода времени. FV учитывает эффекты начисления сложных процентов со временем.",
+      "formula": "$FV = PV \\times (1 + r)^N$",
+      "module_id": 2,
+      "los_id": "LOS_2a",
+      "related_terms": ["T-QM-023", "T-QM-025", "T-QM-026"],
+      "calculator_steps": {
+        "worksheet": "TVM",
+        "access": "[2ND] [CLR TVM]",
+        "steps": [
+          "[2ND] [CLR TVM] — очистить TVM worksheet",
+          "PV [+/-] [ENTER] — текущая стоимость (со знаком минус)",
+          "N [ENTER] — число периодов",
+          "I/Y [ENTER] — процентная ставка",
+          "0 [PMT] — нет платежей",
+          "[CPT] [FV] — рассчитать будущую стоимость"
+        ],
+        "example": {
+          "given": "PV=$8000, r=8%, N=4 years",
+          "input": "PV=-8000, N=4, I/Y=8, PMT=0",
+          "result": "FV = $10,883.91"
+        }
+      }
+    },
+    {
+      "term_id": "T-QM-025",
+      "term_en": "Compounding Frequency",
+      "term_ru": "Частота начисления процентов",
+      "definition_en": "The number of times per year that interest is calculated and added to the principal. Common compounding frequencies include annual, semi-annual, quarterly, monthly, and daily. More frequent compounding results in higher effective rates.",
+      "definition_ru": "Количество раз в год, когда проценты рассчитываются и добавляются к основной сумме. Распространённые частоты: ежегодно, раз в полгода, ежеквартально, ежемесячно и ежедневно. Более частое начисление приводит к более высоким эффективным ставкам.",
+      "formula": "$FV = PV \\times \\left(1 + \\frac{r_s}{m}\\right)^{mN}$",
+      "module_id": 2,
+      "los_id": "LOS_2a",
+      "related_terms": ["T-QM-024", "T-QM-026"],
+      "calculator_steps": {
+        "worksheet": "TVM",
+        "access": "[2ND] [CLR TVM]",
+        "steps": [
+          "[2ND] [CLR TVM]",
+          "N × m [=] [N] — общее число периодов",
+          "r/m [=] [I/Y] — ставка за период",
+          "PV [+/-] [ENTER]",
+          "0 [PMT]",
+          "[CPT] [FV]"
+        ],
+        "example": {
+          "given": "PV=$1000, r=6%, N=2 years, semi-annual",
+          "input": "N=4, I/Y=2.5, PV=-1000, PMT=0",
+          "result": "FV = $1,103.81"
+        }
+      }
+    },
+    {
+      "term_id": "T-QM-026",
+      "term_en": "Continuous Compounding",
+      "term_ru": "Непрерывное начисление процентов",
+      "definition_en": "The mathematical limit of compounding frequency as it approaches infinity. Uses the natural exponential function e^(rN) for calculations. It represents the theoretical maximum value that can be achieved through compounding.",
+      "definition_ru": "Математический предел частоты начисления при её стремлении к бесконечности. Использует натуральную экспоненциальную функцию e^(rN) для расчётов. Представляет теоретический максимум, который может быть достигнут через начисление процентов.",
+      "formula": "$FV = PV \\times e^{rN}$ ; $PV = FV \\times e^{-rN}$",
+      "module_id": 2,
+      "los_id": "LOS_2a",
+      "related_terms": ["T-QM-025", "T-QM-024"],
+      "calculator_steps": {
+        "worksheet": "Direct Calculation",
+        "access": "Standard keys",
+        "steps": [
+          "r [×] N [=]",
+          "[2ND] [eˣ] — e в степени rN",
+          "[×] PV [=] — умножить на PV для FV",
+          "Для PV: [1/x] [×] FV [=]"
+        ],
+        "example": {
+          "given": "FV=$4000, r=10%, N=10",
+          "input": "0.10 × 10 = 1, then 2ND eˣ, then 1/x × 4000",
+          "result": "PV = $1,471.52"
+        }
+      }
+    },
+    {
+      "term_id": "T-QM-027",
+      "term_en": "Zero-Coupon Bond",
+      "term_ru": "Бескупонная облигация",
+      "definition_en": "A discount bond that makes no periodic interest payments. Investors pay a discounted price below face value and receive the full face value at maturity. The return is the difference between purchase price and maturity value. Also called discount bond.",
+      "definition_ru": "Дисконтная облигация, не производящая периодических процентных выплат. Инвесторы платят цену ниже номинала и получают полный номинал при погашении. Доходность — это разница между ценой покупки и стоимостью погашения. Также называется дисконтной облигацией.",
+      "formula": "$PV = \\frac{FV}{(1 + r)^t}$",
+      "module_id": 2,
+      "los_id": "LOS_2a",
+      "related_terms": ["T-QM-023", "T-QM-028", "T-QM-035"],
+      "calculator_steps": {
+        "worksheet": "TVM",
+        "access": "[2ND] [CLR TVM]",
+        "steps": [
+          "[2ND] [CLR TVM]",
+          "N [ENTER] — годы до погашения",
+          "I/Y [ENTER] — YTM",
+          "0 [PMT] — нет купонов",
+          "FV [ENTER] — номинал",
+          "[CPT] [PV] — текущая цена"
+        ],
+        "example": {
+          "given": "FV=$1000, r=8%, N=4 years",
+          "input": "N=4, I/Y=8, PMT=0, FV=1000",
+          "result": "PV = -$735.03"
+        }
+      }
+    },
+    {
+      "term_id": "T-QM-028",
+      "term_en": "Coupon Bond",
+      "term_ru": "Купонная облигация",
+      "definition_en": "A fixed-income instrument that includes periodic cash flows (coupons) and repays the principal at maturity. The price is calculated as the present value of all future coupon payments plus the present value of the face value.",
+      "definition_ru": "Долговой инструмент с периодическими денежными потоками (купонами) и возвратом основной суммы при погашении. Цена рассчитывается как приведённая стоимость всех будущих купонов плюс приведённая стоимость номинала.",
+      "formula": "$PV = \\sum_{i=1}^{N} \\frac{PMT}{(1+r)^i} + \\frac{FV}{(1+r)^N}$",
+      "module_id": 2,
+      "los_id": "LOS_2a",
+      "related_terms": ["T-QM-027", "T-QM-029", "T-QM-036"],
+      "calculator_steps": {
+        "worksheet": "TVM",
+        "access": "[2ND] [CLR TVM]",
+        "steps": [
+          "[2ND] [CLR TVM]",
+          "N [ENTER] — число периодов",
+          "I/Y [ENTER] — YTM за период",
+          "PMT [ENTER] — купонный платёж",
+          "FV [ENTER] — номинал",
+          "[CPT] [PV] — цена облигации"
+        ],
+        "example": {
+          "given": "FV=$1000, PMT=$50, r=6%, N=5",
+          "input": "N=5, I/Y=6, PMT=50, FV=1000",
+          "result": "PV = -$957.88"
+        }
+      }
+    },
+    {
+      "term_id": "T-QM-029",
+      "term_en": "Perpetual Bond / Perpetuity",
+      "term_ru": "Бессрочная облигация / Перпетуитет",
+      "definition_en": "A rare type of coupon bond with no stated maturity date that pays constant periodic coupons forever. The present value equals the coupon payment divided by the discount rate. Often issued by firms seeking equity-like financing.",
+      "definition_ru": "Редкий тип купонной облигации без установленной даты погашения, выплачивающий постоянные купоны вечно. Приведённая стоимость равна купонному платежу, делённому на ставку дисконтирования. Часто выпускается компаниями, ищущими финансирование, подобное акциям.",
+      "formula": "$PV = \\frac{PMT}{r}$",
+      "module_id": 2,
+      "los_id": "LOS_2a",
+      "related_terms": ["T-QM-028", "T-QM-032", "T-QM-036"],
+      "calculator_steps": {
+        "worksheet": "Direct Calculation",
+        "access": "Standard keys",
+        "steps": [
+          "PMT [÷] r [=] — PV перпетуитета",
+          "Для YTM: PMT [÷] PV [=]"
+        ],
+        "example": {
+          "given": "PMT=$4 semi-annual, PV=$98.50 per $100",
+          "input": "4 ÷ 98.50 = 0.0406 (4.06% annual YTM)",
+          "result": "YTM = 4.06%"
+        }
+      }
+    },
+    {
+      "term_id": "T-QM-030",
+      "term_en": "Ordinary Annuity",
+      "term_ru": "Обычный аннуитет",
+      "definition_en": "A finite series of equal periodic cash flows where payments occur at the end of each period (in arrears). Common in fully amortizing loans like mortgages where each payment includes both interest and principal.",
+      "definition_ru": "Конечная серия равных периодических денежных потоков, где платежи происходят в конце каждого периода (задним числом). Часто встречается в полностью амортизируемых кредитах, таких как ипотека, где каждый платёж включает проценты и основную сумму.",
+      "formula": "$PV = PMT \\times \\frac{1 - (1+r)^{-N}}{r}$ ; $PMT = PV \\times \\frac{r}{1 - (1+r)^{-N}}$",
+      "module_id": 2,
+      "los_id": "LOS_2a",
+      "related_terms": ["T-QM-031", "T-QM-029", "T-QM-023"],
+      "calculator_steps": {
+        "worksheet": "TVM",
+        "access": "[2ND] [CLR TVM]",
+        "steps": [
+          "[2ND] [CLR TVM]",
+          "Убедитесь: [2ND] [BGN] показывает END",
+          "N [ENTER] — число периодов",
+          "I/Y [ENTER] — ставка за период",
+          "PV [+/-] [ENTER] — сумма кредита",
+          "0 [FV]",
+          "[CPT] [PMT] — периодический платёж"
+        ],
+        "example": {
+          "given": "Loan=$600K, r=4.5% annual, N=25 years, monthly",
+          "input": "N=300, I/Y=0.375, PV=-600000, FV=0",
+          "result": "PMT = $3,334.99"
+        }
+      }
+    },
+    {
+      "term_id": "T-QM-031",
+      "term_en": "Annuity Due",
+      "term_ru": "Аннуитет-Due",
+      "definition_en": "A type of annuity where payments are made at the beginning of each period (at time t=0, t=1, etc.) rather than at the end. Each cash flow has one extra period to compound compared to an ordinary annuity, making it more valuable.",
+      "definition_ru": "Тип аннуитета, где платежи производятся в начале каждого периода (в момент t=0, t=1 и т.д.), а не в конце. Каждый денежный поток имеет один дополнительный период для начисления процентов по сравнению с обычным аннуитетом, что делает его более ценным.",
+      "formula": "$PV_{due} = PV_{ordinary} \\times (1+r)$",
+      "module_id": 2,
+      "los_id": "LOS_2a",
+      "related_terms": ["T-QM-030", "T-QM-029"],
+      "calculator_steps": {
+        "worksheet": "TVM",
+        "access": "[2ND] [BGN]",
+        "steps": [
+          "[2ND] [CLR TVM]",
+          "[2ND] [BGN] [2ND] [SET] — режим BGN",
+          "N, I/Y, PV или PMT [ENTER]",
+          "[CPT] нужную переменную",
+          "Не забудьте вернуть в END режим!"
+        ],
+        "example": {
+          "given": "PMT=$1000, r=5%, N=10, beginning",
+          "input": "Set BGN, N=10, I/Y=5, PMT=1000, FV=0",
+          "result": "PV = -$8,107.82 (vs -$7,721.73 ordinary)"
+        }
+      }
+    },
+    {
+      "term_id": "T-QM-032",
+      "term_en": "Constant Dividend Model",
+      "term_ru": "Модель постоянного дивиденда",
+      "definition_en": "A stock valuation model for preferred shares that assumes dividends will remain constant forever. The stock value equals the dividend divided by the required return, similar to a perpetuity formula.",
+      "definition_ru": "Модель оценки акций для привилегированных акций, предполагающая, что дивиденды будут постоянными вечно. Стоимость акции равна дивиденду, делённому на требуемую доходность, аналогично формуле перпетуитета.",
+      "formula": "$PV = \\frac{D}{r}$",
+      "module_id": 2,
+      "los_id": "LOS_2a",
+      "related_terms": ["T-QM-029", "T-QM-033", "T-QM-037"],
+      "calculator_steps": {
+        "worksheet": "Direct Calculation",
+        "access": "Standard keys",
+        "steps": [
+          "D [÷] r [=] — PV акции",
+          "Для r: D [÷] PV [=]"
+        ],
+        "example": {
+          "given": "D=$5 per year, r=8%",
+          "input": "5 ÷ 0.08",
+          "result": "PV = $62.50"
+        }
+      }
+    },
+    {
+      "term_id": "T-QM-033",
+      "term_en": "Gordon Growth Model",
+      "term_ru": "Модель роста Гордона",
+      "definition_en": "The constant dividend growth model used to estimate the value of a stock based on its future dividends growing at a constant rate (g) forever. Requires that the growth rate is less than the required return (g < r). Also called Dividend Discount Model.",
+      "definition_ru": "Модель постоянного роста дивидендов для оценки стоимости акции на основе будущих дивидендов, растущих с постоянным темпом (g) вечно. Требует, чтобы темп роста был меньше требуемой доходности (g < r). Также называется моделью дисконтирования дивидендов.",
+      "formula": "$PV = \\frac{D_1}{r - g} = \\frac{D_0(1+g)}{r-g}$",
+      "module_id": 2,
+      "los_id": "LOS_2a",
+      "related_terms": ["T-QM-032", "T-QM-034", "T-QM-037"],
+      "calculator_steps": {
+        "worksheet": "Direct Calculation",
+        "access": "Standard keys",
+        "steps": [
+          "D0 [×] (1 [+] g) [=] — D1",
+          "[÷] (r [-] g) [=] — PV",
+          "Или: D1 [÷] (r [-] g) [=]"
+        ],
+        "example": {
+          "given": "D0=$2, r=10%, g=5%",
+          "input": "2 × 1.05 = 2.10, then 2.10 ÷ 0.05",
+          "result": "PV = $42"
+        }
+      }
+    },
+    {
+      "term_id": "T-QM-034",
+      "term_en": "Multi-Stage Dividend Discount Model",
+      "term_ru": "Многоступенчатая модель дисконтирования дивидендов",
+      "definition_en": "A dynamic equity valuation model that accommodates a company's transition from high initial growth to lower, more stable growth. The present value is calculated by summing the PV of dividends during high-growth stages plus the PV of the terminal value using the Gordon model.",
+      "definition_ru": "Динамичная модель оценки акций, учитывающая переход компании от высокого начального роста к более низкому стабильному росту. Приведённая стоимость рассчитывается как сумма PV дивидендов в период высокого роста плюс PV терминальной стоимости по модели Гордона.",
+      "formula": "$PV = \\sum_{t=1}^{T} \\frac{D_t}{(1+r)^t} + \\frac{1}{(1+r)^T} \\times \\frac{D_{T+1}}{r-g_L}$",
+      "module_id": 2,
+      "los_id": "LOS_2a",
+      "related_terms": ["T-QM-033", "T-QM-037"],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-QM-035",
+      "term_en": "Implied Return",
+      "term_ru": "Подразумеваемая доходность",
+      "definition_en": "The discount rate that equates the present value to the current market price, given expected future cash flows. For fixed-income, it reflects the yield-to-maturity (YTM). It represents market expectations embedded in asset prices.",
+      "definition_ru": "Ставка дисконтирования, которая приравнивает приведённую стоимость к текущей рыночной цене при заданных ожидаемых будущих денежных потоках. Для долговых инструментов это доходность к погашению (YTM). Отражает рыночные ожидания, заложенные в ценах активов.",
+      "formula": "$r = \\left(\\frac{FV}{PV}\\right)^{1/t} - 1$",
+      "module_id": 2,
+      "los_id": "LOS_2b",
+      "related_terms": ["T-QM-036", "T-QM-037", "T-QM-027"],
+      "calculator_steps": {
+        "worksheet": "TVM",
+        "access": "[2ND] [CLR TVM]",
+        "steps": [
+          "[2ND] [CLR TVM]",
+          "N [ENTER] — периоды",
+          "PV [+/-] [ENTER] — текущая цена",
+          "PMT [ENTER] — купоны (0 для discount bond)",
+          "FV [ENTER] — погашение",
+          "[CPT] [I/Y] — implied return"
+        ],
+        "example": {
+          "given": "PV=$900, FV=$1000, N=5, no coupons",
+          "input": "N=5, PV=-900, FV=1000, PMT=0",
+          "result": "I/Y = 2.13%"
+        }
+      }
+    },
+    {
+      "term_id": "T-QM-036",
+      "term_en": "Yield-to-Maturity (YTM)",
+      "term_ru": "Доходность к погашению",
+      "definition_en": "The single implied market discount rate for all cash flows of a coupon bond, regardless of timing. It is the internal rate of return (IRR) of the bond, assuming the investor receives all promised cash flows and reinvests them at the same YTM rate until maturity.",
+      "definition_ru": "Единая подразумеваемая рыночная ставка дисконтирования для всех денежных потоков купонной облигации независимо от времени. Это внутренняя норма доходности (IRR) облигации, предполагая, что инвестор получает все обещанные денежные потоки и реинвестирует их по той же ставке YTM до погашения.",
+      "formula": "$PV = \\sum_{i=1}^{N} \\frac{PMT}{(1+YTM)^i} + \\frac{FV}{(1+YTM)^N}$",
+      "module_id": 2,
+      "los_id": "LOS_2b",
+      "related_terms": ["T-QM-028", "T-QM-035", "T-QM-029"],
+      "calculator_steps": {
+        "worksheet": "TVM",
+        "access": "[2ND] [CLR TVM]",
+        "steps": [
+          "[2ND] [CLR TVM]",
+          "N [ENTER] — число купонов до погашения",
+          "PV [+/-] [ENTER] — текущая цена",
+          "PMT [ENTER] — купон за период",
+          "FV [ENTER] — номинал",
+          "[CPT] [I/Y] — YTM за период"
+        ],
+        "example": {
+          "given": "PV=$957.88, PMT=$50, FV=$1000, N=5",
+          "input": "N=5, PV=-957.88, PMT=50, FV=1000",
+          "result": "I/Y = 6%"
+        }
+      }
+    },
+    {
+      "term_id": "T-QM-037",
+      "term_en": "Implied Growth Rate",
+      "term_ru": "Подразумеваемый темп роста",
+      "definition_en": "The growth rate that aligns the present value calculated using the Gordon Growth Model with the current market price of a stock. It reflects market expectations about the company's future dividend growth rate.",
+      "definition_ru": "Темп роста, который приравнивает приведённую стоимость, рассчитанную по модели Гордона, к текущей рыночной цене акции. Отражает рыночные ожидания относительно будущего темпа роста дивидендов компании.",
+      "formula": "$g = r - \\frac{D_1}{PV}$",
+      "module_id": 2,
+      "los_id": "LOS_2b",
+      "related_terms": ["T-QM-033", "T-QM-035", "T-QM-034"],
+      "calculator_steps": {
+        "worksheet": "Direct Calculation",
+        "access": "Standard keys",
+        "steps": [
+          "D1 [÷] PV [=] — сохранить результат",
+          "r [-] результат [=] — implied g"
+        ],
+        "example": {
+          "given": "PV=$42, D1=$2.10, r=10%",
+          "input": "2.10 ÷ 42 = 0.05, then 0.10 - 0.05",
+          "result": "g = 5%"
+        }
+      }
+    },
+    {
+      "term_id": "T-QM-038",
+      "term_en": "Cash Flow Additivity Principle",
+      "term_ru": "Принцип аддитивности денежных потоков",
+      "definition_en": "The principle that the present value of any stream of cash flows indexed at the same point in time equals the sum of the present values of the individual cash flows. This fundamental principle applies to all time value of money problems and enables no-arbitrage pricing.",
+      "definition_ru": "Принцип, согласно которому приведённая стоимость любого потока денежных потоков, индексированных к одному моменту времени, равна сумме приведённых стоимостей отдельных денежных потоков. Этот фундаментальный принцип применяется ко всем задачам временной стоимости денег и обеспечивает ценообразование без арбитража.",
+      "formula": "$PV_{total} = \\sum_{i=1}^{n} PV_i$",
+      "module_id": 2,
+      "los_id": "LOS_2c",
+      "related_terms": ["T-QM-039", "T-QM-040"],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-QM-039",
+      "term_en": "Timeline",
+      "term_ru": "Временная шкала",
+      "definition_en": "A physical illustration of the amounts and timing of cash flows associated with an investment project. Timelines are especially useful for irregular or unequal cash flows where standard annuity formulas cannot be applied.",
+      "definition_ru": "Физическая иллюстрация сумм и времени денежных потоков, связанных с инвестиционным проектом. Временные шкалы особенно полезны для нерегулярных или неравных денежных потоков, где стандартные формулы аннуитета не применимы.",
+      "formula": null,
+      "module_id": 2,
+      "los_id": "LOS_2c",
+      "related_terms": ["T-QM-038", "T-QM-030"],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-QM-040",
+      "term_en": "No-Arbitrage Condition",
+      "term_ru": "Условие отсутствия арбитража",
+      "definition_en": "The principle that equivalent cash flows must have the same present value, preventing risk-free profit opportunities. The cash flow additivity principle is fundamental to maintaining the no-arbitrage condition in financial markets.",
+      "definition_ru": "Принцип, согласно которому эквивалентные денежные потоки должны иметь одинаковую приведённую стоимость, предотвращая безрисковые возможности получения прибыли. Принцип аддитивности денежных потоков является основополагающим для поддержания условия отсутствия арбитража на финансовых рынках.",
+      "formula": null,
+      "module_id": 2,
+      "los_id": "LOS_2c",
+      "related_terms": ["T-QM-038"],
       "calculator_steps": null
     }
   ]
