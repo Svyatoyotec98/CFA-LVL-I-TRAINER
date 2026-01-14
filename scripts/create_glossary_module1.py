@@ -48,7 +48,23 @@ terms = [
         "module_id": 1,
         "los_id": "LOS_1a",
         "related_terms": ["T-QM-001", "T-QM-002"],
-        "calculator_steps": None
+        "calculator_steps": {
+            "worksheet": "TVM",
+            "access": "[2ND] [CLR TVM]",
+            "steps": [
+                "[2ND] [CLR TVM] — очистить TVM worksheet",
+                "N — ввести количество периодов [ENTER]",
+                "I/Y — ввести ставку дисконтирования (в %) [ENTER]",
+                "FV — ввести будущую стоимость [ENTER]",
+                "PMT = 0 [ENTER]",
+                "PV — нажать [CPT] для расчета приведенной стоимости"
+            ],
+            "example": {
+                "given": "FV = $1,000 in 5 years, discount rate 8%",
+                "input": "N=5, I/Y=8, FV=1000, PMT=0",
+                "result": "PV = -$680.58 (negative indicates cash outflow)"
+            }
+        }
     },
     {
         "term_id": "T-QM-004",
