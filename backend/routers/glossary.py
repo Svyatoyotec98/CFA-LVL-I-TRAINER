@@ -17,20 +17,91 @@ router = APIRouter(
     tags=["glossary"]
 )
 
-# Path to glossary data
-DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "frontend", "data", "glossary")
+# Path to glossary data (v2 structure)
+DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "frontend", "data", "v2")
+
+# Mapping book_id to folder name
+BOOK_FOLDERS = {
+    1: "book1_quants",
+    2: "book2_economics",
+    3: "book3_corporate",
+    4: "book4_fsa",
+    5: "book5_equity",
+    6: "book6_fixed_income",
+    7: "book7_derivatives",
+    8: "book8_alternatives",
+    9: "book9_portfolio",
+    10: "book10_ethics"
+}
 
 
 def load_glossary_data(book_id: int) -> dict:
-    """Load glossary JSON data for a book."""
-    filename = f"book{book_id}_terms.json"
-    filepath = os.path.join(DATA_PATH, filename)
+    """Load glossary JSON data for a book from v2 structure.
 
-    if not os.path.exists(filepath):
-        return {"book_id": book_id, "terms": []}
+    Aggregates terms from all modules in the book:
+    frontend/data/v2/book{N}_{name}/module{M}/glossary.json
+    """
+    if book_id not in BOOK_FOLDERS:
+        return {"book_id": book_id, "terms": [], "modules": []}
 
-    with open(filepath, 'r', encoding='utf-8') as f:
-        return json.load(f)
+    book_folder = BOOK_FOLDERS[book_id]
+    book_path = os.path.join(DATA_PATH, book_folder)
+
+    if not os.path.exists(book_path):
+        return {"book_id": book_id, "terms": [], "modules": []}
+
+    # Find all module directories
+    all_terms = []
+    module_info = []
+    book_name = None
+    book_name_ru = None
+
+    # Scan for module1, module2, module3, etc.
+    module_dirs = sorted([
+        d for d in os.listdir(book_path)
+        if os.path.isdir(os.path.join(book_path, d)) and d.startswith("module")
+    ], key=lambda x: int(x.replace("module", "")))
+
+    for module_dir in module_dirs:
+        glossary_file = os.path.join(book_path, module_dir, "glossary.json")
+
+        if os.path.exists(glossary_file):
+            try:
+                with open(glossary_file, 'r', encoding='utf-8') as f:
+                    module_data = json.load(f)
+
+                # Extract book metadata from first module
+                if book_name is None:
+                    book_name = module_data.get("book_name")
+                    book_name_ru = module_data.get("book_name_ru")
+
+                # Add module info
+                module_info.append({
+                    "module_id": module_data.get("module_id"),
+                    "module_name": module_data.get("module_name"),
+                    "module_name_ru": module_data.get("module_name_ru"),
+                    "term_count": len(module_data.get("terms", []))
+                })
+
+                # Add all terms from this module
+                for term in module_data.get("terms", []):
+                    # Ensure module_id is set
+                    if "module_id" not in term:
+                        term["module_id"] = module_data.get("module_id")
+                    all_terms.append(term)
+
+            except Exception as e:
+                print(f"Error loading {glossary_file}: {e}")
+                continue
+
+    return {
+        "book_id": book_id,
+        "book_name": book_name or f"Book {book_id}",
+        "book_name_ru": book_name_ru or f"Книга {book_id}",
+        "total_modules": len(module_info),
+        "modules": module_info,
+        "terms": all_terms
+    }
 
 
 def load_all_glossary() -> List[dict]:
@@ -144,21 +215,47 @@ async def get_module_terms(
     module_id: int,
     current_user: User = Depends(get_current_user)
 ):
-    """Get glossary terms related to a specific module."""
-    data = load_glossary_data(book_id)
+    """Get glossary terms for a specific module (v2 structure)."""
+    if book_id not in BOOK_FOLDERS:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Book {book_id} not found"
+        )
 
-    # Filter terms by module_id
-    module_terms = [
-        term for term in data.get("terms", [])
-        if term.get("module_id") == module_id
-    ]
+    book_folder = BOOK_FOLDERS[book_id]
+    module_path = os.path.join(DATA_PATH, book_folder, f"module{module_id}")
+    glossary_file = os.path.join(module_path, "glossary.json")
 
-    return {
-        "book_id": book_id,
-        "module_id": module_id,
-        "total": len(module_terms),
-        "terms": module_terms
-    }
+    if not os.path.exists(glossary_file):
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Module {module_id} glossary not found for book {book_id}"
+        )
+
+    try:
+        with open(glossary_file, 'r', encoding='utf-8') as f:
+            module_data = json.load(f)
+
+        # Ensure all terms have module_id
+        for term in module_data.get("terms", []):
+            if "module_id" not in term:
+                term["module_id"] = module_data.get("module_id")
+
+        return {
+            "book_id": book_id,
+            "book_name": module_data.get("book_name"),
+            "module_id": module_id,
+            "module_name": module_data.get("module_name"),
+            "module_name_ru": module_data.get("module_name_ru"),
+            "los_list": module_data.get("los_list", []),
+            "total": len(module_data.get("terms", [])),
+            "terms": module_data.get("terms", [])
+        }
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Error loading module glossary: {str(e)}"
+        )
 
 
 @router.get("/random")
