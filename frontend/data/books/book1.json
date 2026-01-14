@@ -1399,9 +1399,9 @@
       "module_name": "Time Value of Money",
       "module_name_ru": "Временная стоимость денег",
       "los_covered": [
+        "LOS b",
         "LOS a",
-        "LOS d",
-        "LOS b"
+        "LOS d"
       ],
       "questions": [
         {
@@ -1518,16 +1518,16 @@
           "table_data": null,
           "options": [
             {
-              "id": "opt3",
-              "text": "The question requires the calculation of the future value of an asset compounded continuously as follows; Where; PV = Present value of investment. r = Interest rate. N = Investment period. Therefore;"
-            },
-            {
               "id": "opt1",
               "text": "$252,495.39"
             },
             {
               "id": "opt2",
               "text": "$253,354.02"
+            },
+            {
+              "id": "opt3",
+              "text": "$254,249.83"
             }
           ],
           "correct_option_id": "opt3",
@@ -1650,16 +1650,16 @@
           "table_data": null,
           "options": [
             {
+              "id": "opt1",
+              "text": "$349,178.78"
+            },
+            {
               "id": "opt2",
-              "text": "A. $349,178.78"
+              "text": "$349,744.72"
             },
             {
               "id": "opt3",
-              "text": "$345,411.20 F V A n n u i t y F a c t o r = = = 13.816  1 + r  N − 1 r  1 + 0.07  10 − 1 0.07"
-            },
-            {
-              "id": "opt1",
-              "text": "$120,000.00"
+              "text": "$345,411.20"
             }
           ],
           "correct_option_id": "opt2",
@@ -1667,12 +1667,12 @@
           "explanation_ru": "",
           "explanation_formula": "$FV = PV(1 + r)^N$",
           "explanation_wrong": {
-            "opt3": {
-              "text": "The amount represents the future value of an annuity in advance and not ordinary as follows;",
-              "formula": ""
-            },
             "opt1": {
               "text": "The amount represents the annuity after 8eight years without considering the interest earned for the investment as follows:",
+              "formula": ""
+            },
+            "opt3": {
+              "text": "The amount represents the future value of an annuity in advance and not ordinary as follows;",
               "formula": ""
             }
           },
@@ -1747,15 +1747,15 @@
           "options": [
             {
               "id": "opt1",
-              "text": "The annuity payment option."
+              "text": "The annuity payment option"
             },
             {
               "id": "opt2",
-              "text": "The lump-sum payment option."
+              "text": "The lump-sum payment option"
             },
             {
               "id": "opt3",
-              "text": "There is no significant difference between the two options."
+              "text": "There is no significant difference between the two options"
             }
           ],
           "correct_option_id": "opt2",
@@ -1899,13 +1899,22 @@
             {
               "id": "opt2",
               "text": "5.59%"
+            },
+            {
+              "id": "opt3",
+              "text": "38.60%"
             }
           ],
           "correct_option_id": "opt2",
           "explanation": "The question requires the calculation of the growth rate in revenue as follows; Where; = Future value at time N. = Current present value. = Number of periods. Therefore; The calculated growth rate of about 5.6 percent a year shows that ABC Company Ltd's revenue grew during the 2006–2012 period. Usin...",
           "explanation_ru": "",
           "explanation_formula": "$FV = PV(1 + r)^N$",
-          "explanation_wrong": {},
+          "explanation_wrong": {
+            "opt3": {
+              "text": "The rate ignores the applicable formula and has been determined as follows; And A. -5.30% B. 5.59% C. 38.60% g = [ ] − 1 F V N P V 1 N F V N P V N g =...",
+              "formula": ""
+            }
+          },
           "requires_calculation": true,
           "calculator_steps": [
             "[2ND] [CLR TVM]",
@@ -1988,7 +1997,7 @@
             },
             {
               "id": "opt3",
-              "text": "$ 1,156.20 F V A n n u i t y A d v a n c e = $ 1 , 163.56  1 + 0.07  = $ 1 , 245.02"
+              "text": "$ 1,156.20"
             }
           ],
           "correct_option_id": "opt1",
@@ -2044,7 +2053,7 @@
             },
             {
               "id": "opt3",
-              "text": "$337,500.00 t = 6 t = 0 t = 6"
+              "text": "$337,500.00"
             }
           ],
           "correct_option_id": "opt2",
@@ -2083,11 +2092,11 @@
           "options": [
             {
               "id": "opt1",
-              "text": "Annuity option."
+              "text": "Annuity option"
             },
             {
               "id": "opt2",
-              "text": "Lump-sum."
+              "text": "Lump-sum"
             },
             {
               "id": "opt3",
@@ -2187,7 +2196,7 @@
             },
             {
               "id": "opt3",
-              "text": "36.320% g =   − 1 F V N P V 1 N F V N P V N g = 3 √ − 1 = 1.3632 − 1 = 36.32 % $ 7.60 $ 3.00"
+              "text": "36.320%"
             }
           ],
           "correct_option_id": "opt3",
@@ -2273,7 +2282,7 @@
             },
             {
               "id": "opt3",
-              "text": "10.50% E A R =  1 + periodic interest rate  m − 1 E A R =  1 +  12 − 1 = 0.105 o r 10.50 % 0.1 12 E A R =  1 +  2 − 1 = 0.103 o r 10.30 % 0.1 2 E A R =  1 +  4 − 1 = 0.104 o r 10.40 % 0.1 4"
+              "text": "10.50%"
             }
           ],
           "correct_option_id": "opt3",
@@ -2311,15 +2320,15 @@
           "options": [
             {
               "id": "opt1",
-              "text": "1 year."
+              "text": "1 year"
             },
             {
               "id": "opt2",
-              "text": "8 years."
+              "text": "8 years"
             },
             {
               "id": "opt3",
-              "text": "12 years."
+              "text": "12 years"
             }
           ],
           "correct_option_id": "opt2",
@@ -2364,6 +2373,10 @@
             {
               "id": "opt2",
               "text": "20.20%"
+            },
+            {
+              "id": "opt3",
+              "text": "52.10%"
             }
           ],
           "correct_option_id": "opt2",
@@ -2373,6 +2386,10 @@
           "explanation_wrong": {
             "opt1": {
               "text": ". The indicated growth rate assumes that N=5 instead of 4 as follows;",
+              "formula": ""
+            },
+            "opt3": {
+              "text": ". The indicated growth rate has been arrived at as follows;",
               "formula": ""
             }
           },
@@ -2397,16 +2414,16 @@
           "table_data": null,
           "options": [
             {
-              "id": "opt3",
-              "text": "The EAR is calculated using the following formula; Note that the periodic interest rate is the stated annual interest rate divided by m, where m is the number of compounding periods in one year."
-            },
-            {
               "id": "opt1",
               "text": "35.70%"
             },
             {
               "id": "opt2",
               "text": "37.30%"
+            },
+            {
+              "id": "opt3",
+              "text": "39.10%"
             }
           ],
           "correct_option_id": "opt3",
@@ -2441,12 +2458,7 @@
           "question_continuation": null,
           "has_table": false,
           "table_data": null,
-          "options": [
-            {
-              "id": "opt2",
-              "text": "The growth rate is calculated using the formula as follows; Where; = Future value after the three years. = Present value at three years. = The period during the investment growth."
-            }
-          ],
+          "options": [],
           "correct_option_id": "opt2",
           "explanation": "The growth rate is calculated using the formula as follows; Where; = Future value after the three years. = Present value at three years. = The period during the investment growth.",
           "explanation_ru": "",
@@ -2480,7 +2492,7 @@
             },
             {
               "id": "opt3",
-              "text": "$966.49"
+              "text": "68.00%"
             }
           ],
           "correct_option_id": "opt1",
@@ -2517,12 +2529,7 @@
           "question_continuation": null,
           "has_table": false,
           "table_data": null,
-          "options": [
-            {
-              "id": "opt1",
-              "text": "Recall that:"
-            }
-          ],
+          "options": [],
           "correct_option_id": "opt1",
           "explanation": "Recall that:",
           "explanation_ru": "",
@@ -2549,11 +2556,15 @@
           "options": [
             {
               "id": "opt1",
-              "text": "10.25%."
+              "text": "10.25%"
             },
             {
               "id": "opt2",
-              "text": "10.38%."
+              "text": "10.38%"
+            },
+            {
+              "id": "opt3",
+              "text": "10.47%"
             }
           ],
           "correct_option_id": "opt2",
@@ -2563,6 +2574,10 @@
           "explanation_wrong": {
             "opt1": {
               "text": ". It is simply the amount after ten years, excluding the interest earned on the amount.",
+              "formula": ""
+            },
+            "opt3": {
+              "text": ". It is the future value of an annuity in advance, yet this is an ordinary annuity. To arrive at this answer using a financial calculator, set the cal...",
               "formula": ""
             }
           },
@@ -2597,7 +2612,7 @@
             },
             {
               "id": "opt3",
-              "text": "$17,531.17. Annuity due = Ordinary Annuity × 1 + Rate of compounding FV annuity due = 15 , 937.42 × 1.1 = 17,531.17 1 , 000  1 + 0.10  10 = 2 , 593.74"
+              "text": "$17,531.17"
             }
           ],
           "correct_option_id": "opt3",
@@ -2662,7 +2677,7 @@
           "options": [
             {
               "id": "opt1",
-              "text": "$4,942.26."
+              "text": "$4,942.26"
             },
             {
               "id": "opt2",
@@ -2709,12 +2724,7 @@
           "question_continuation": null,
           "has_table": false,
           "table_data": null,
-          "options": [
-            {
-              "id": "opt3",
-              "text": "Using the financial calculator: N=10; I/Y=3; PV=-1,000,000, FV=0 CPT ⇒ PMT = $117,230.51"
-            }
-          ],
+          "options": [],
           "correct_option_id": "opt3",
           "explanation": "Using the financial calculator: N=10; I/Y=3; PV=-1,000,000, FV=0 CPT ⇒ PMT = $117,230.51",
           "explanation_ru": "",
@@ -2747,11 +2757,11 @@
             },
             {
               "id": "opt2",
-              "text": "$104,171.23."
+              "text": "$104,171.23"
             },
             {
               "id": "opt3",
-              "text": "$117,230.51. Exhibit: GRF Bank - $5,000 Loan"
+              "text": "$117,230.51"
             }
           ],
           "correct_option_id": "opt1",

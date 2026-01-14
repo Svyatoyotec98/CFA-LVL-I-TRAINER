@@ -23,58 +23,105 @@ def extract_options(raw_text):
     Extract options from AnalystPrep format
 
     Options appear near end in format:
-    A. $108,000.00
-    B. $108,215.23
-    C. $125,971.20
+    A.
+    $108,000.00
+    B.
+    $108,215.23
+    C.
+    $125,971.20
     """
     options = []
 
-    # Simple pattern: look for A. B. C. with text after them
-    # Match pattern: Letter DOT whitespace any_text_until_next_letter_or_formula
-    # The text may include line breaks, tabs, etc.
+    # Find all option markers (A. B. C.)
+    # Pattern: Find "A." or "B." or "C." followed by newline/tab and value
+    # Stop at next option or single letter on new line (formula start)
 
-    # Find all matches of "A. something" or "B. something" or "C. something"
-    # Using a more flexible pattern that handles tabs and newlines
-    pattern = r'([A-C])\.\s+([\$\w].*?)(?=\s+[A-BC]\.\s+|\s+[FPV]\s+[VN]\s+=|\s*©|\s*CFA\s+Level|\s*$)'
+    # Split text into lines for processing
+    lines = raw_text.split('\n')
 
-    matches = re.findall(pattern, raw_text, re.DOTALL)
+    i = 0
+    while i < len(lines):
+        line = lines[i].strip()
 
-    for letter, text in matches:
-        option_text = clean_text(text)
+        # Check if line is option marker (A. or B. or C.)
+        opt_match = re.match(r'^([A-C])\.\s*$', line)
 
-        # Remove formula parts (anything starting with F V = or P V =)
-        option_text = re.split(r'\s+[FPV]\s+[VN]\s+=', option_text)[0]
+        if opt_match:
+            letter = opt_match.group(1)
 
-        # Remove "is incorrect" and everything after
-        option_text = re.sub(r'\s+(is|are)\s+(incorrect|wrong).*$', '', option_text, flags=re.IGNORECASE | re.DOTALL)
+            # Look ahead for the value on next line(s)
+            value_lines = []
+            j = i + 1
 
-        # Remove trailing single letters (formula remnants like "F" or "V")
-        option_text = re.sub(r'\s+[A-Z]$', '', option_text)
+            while j < len(lines):
+                next_line = lines[j].strip()
 
-        # Remove square brackets, parentheses if they appear
-        option_text = re.sub(r'[\[\]\(\)]+', '', option_text)
+                # Stop conditions:
+                # 1. Empty line
+                # 2. Next option (A. B. C.)
+                # 3. Single letter (formula start: F, V, P, N)
+                # 4. Copyright symbol
+                # 5. "CFA Level"
 
-        option_text = option_text.strip()
+                if not next_line:
+                    break
+                if re.match(r'^[A-C]\.\s*$', next_line):
+                    break
+                if re.match(r'^[A-Z]$', next_line):  # Single letter = formula
+                    break
+                if next_line.startswith('©') or 'CFA Level' in next_line:
+                    break
 
-        # Only accept if reasonable length and starts with currency/number/text
-        if option_text and len(option_text) < 200 and len(option_text) > 2:
-            options.append({
-                "id": f"opt{ord(letter) - ord('A') + 1}",
-                "text": option_text
-            })
+                value_lines.append(next_line)
+                j += 1
 
-    # Return first 3 unique options (by letter)
-    seen_letters = set()
-    unique_options = []
+                # Stop after first meaningful line (usually the value)
+                if len(value_lines) >= 1 and re.match(r'^\$?[\d,\.\-]+', value_lines[0]):
+                    break
+
+            # Join value lines and clean
+            if value_lines:
+                option_text = ' '.join(value_lines)
+                option_text = clean_text(option_text)
+
+                # Take only the first "sentence" - stop at period or long space
+                option_text = re.split(r'\.\s+[A-Z]', option_text)[0]
+
+                # Remove any formula remnants
+                option_text = re.split(r'\s+[FPV]\s+[VN]\s*=', option_text)[0]
+                option_text = re.split(r'\s+[A-Z]\s+[a-z]+\s+[a-z]+', option_text)[0]  # Remove "Annuity due"
+
+                # Clean trailing punctuation except currency/numbers
+                option_text = re.sub(r'\s+[A-Z]$', '', option_text)
+                option_text = re.sub(r'[\[\]\(\)]+', '', option_text)
+
+                option_text = option_text.strip()
+                option_text = option_text.rstrip('.')
+
+                # Accept if looks like a valid answer (number, currency, short text)
+                if option_text and 3 <= len(option_text) <= 100:
+                    # Must start with $ or digit or letter
+                    if re.match(r'^[\$\d\w]', option_text):
+                        options.append({
+                            "id": f"opt{ord(letter) - ord('A') + 1}",
+                            "text": option_text
+                        })
+
+            i = j
+        else:
+            i += 1
+
+    # Return first 3 unique options
+    seen = set()
+    unique = []
     for opt in options:
-        letter = chr(ord('A') + int(opt['id'][-1]) - 1)
-        if letter not in seen_letters:
-            unique_options.append(opt)
-            seen_letters.add(letter)
-            if len(unique_options) == 3:
+        if opt['id'] not in seen:
+            unique.append(opt)
+            seen.add(opt['id'])
+            if len(unique) == 3:
                 break
 
-    return unique_options
+    return unique
 
 
 def extract_correct_answer(raw_text):
