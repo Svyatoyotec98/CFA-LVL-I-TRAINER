@@ -59,7 +59,7 @@ def extract_options(raw_text):
                 # Stop conditions:
                 # 1. Empty line
                 # 2. Next option (A. B. C.)
-                # 3. Single letter (formula start: F, V, P, N)
+                # 3. Single letter ONLY if it's formula variable (F, V, P, N, I, Y, not t, r, m, n)
                 # 4. Copyright symbol
                 # 5. "CFA Level"
 
@@ -67,7 +67,8 @@ def extract_options(raw_text):
                     break
                 if re.match(r'^[A-C]\.\s*$', next_line):
                     break
-                if re.match(r'^[A-Z]$', next_line):  # Single letter = formula
+                # Only stop on formula variables (not on small variables like t, r, m, n)
+                if re.match(r'^([FPVNIY]|PV|FV|PMT|CPT)$', next_line):  # Formula keywords
                     break
                 if next_line.startswith('©') or 'CFA Level' in next_line:
                     break
@@ -121,11 +122,51 @@ def extract_options(raw_text):
             if len(unique) == 3:
                 break
 
-    # FALLBACK: If no options found, try to extract from "X is incorrect" text
+    # FALLBACK 1: If no options or incomplete, search ANYWHERE in text for A./B./C. patterns
+    if len(unique) < 3:
+        # Look for pattern: "A. $value" or "A. value" anywhere in text
+        # This catches cases where options appear after formulas
+        fallback_options = []
+
+        # Split by lines and look for "Letter. Value" on same or next line
+        lines = raw_text.split('\n')
+        for i, line in enumerate(lines):
+            line = line.strip()
+
+            # Check if line is just "A." or "B." or "C."
+            letter_match = re.match(r'^([A-C])\.\s*$', line)
+            if letter_match and i + 1 < len(lines):
+                letter = letter_match.group(1)
+                next_line = lines[i + 1].strip()
+
+                # Extract value from next line
+                value_match = re.match(r'^([\$£€¥]?[\d,]+\.?\d*)(?:\s|$)', next_line)
+                if value_match:
+                    value = value_match.group(1)
+                    opt_id = f"opt{ord(letter) - ord('A') + 1}"
+
+                    if opt_id not in [o['id'] for o in unique]:
+                        fallback_options.append({
+                            "id": opt_id,
+                            "text": value
+                        })
+
+        # Add fallback options (prioritize unique letters)
+        for opt in fallback_options:
+            if opt['id'] not in [o['id'] for o in unique]:
+                unique.append(opt)
+                if len(unique) >= 3:
+                    break
+
+    # FALLBACK 2: If still no options, try to extract from "X is incorrect" text
     if len(unique) == 0:
         unique = extract_options_from_incorrect_text(raw_text)
 
-    return unique
+    # FALLBACK 3: If still incomplete, extract ALL calculator output values
+    if len(unique) < 3:
+        unique = extract_options_from_calculator_output(raw_text, unique)
+
+    return unique[:3]  # Only return first 3
 
 
 def extract_options_from_incorrect_text(raw_text):
@@ -146,29 +187,49 @@ def extract_options_from_incorrect_text(raw_text):
         if match:
             text = match.group(1)
 
-            # Extract first $ value or number
-            value_match = re.search(r'(\$?[\d,]+\.?\d*)', text)
+            # Extract first $ value or number from:
+            # 1. "The value of $X"
+            # 2. "PMT = $X" or "FV = $X"
+            # 3. Any $X.XX pattern
+
+            value_match = None
+
+            # Try calculator output first (more specific)
+            calc_match = re.search(r'(?:PMT|FV|PV|NPV)\s*=\s*(\$?[\d,]+\.?\d*)', text)
+            if calc_match:
+                value_match = calc_match
+            else:
+                # Try any $ value
+                value_match = re.search(r'(\$[\d,]+\.?\d*)', text)
+                if not value_match:
+                    # Try percentage
+                    value_match = re.search(r'([\d,]+\.?\d*%)', text)
+
             if value_match:
                 value = value_match.group(1)
-                options.append({
-                    "id": f"opt{ord(letter) - ord('A') + 1}",
-                    "text": value
-                })
+                # Clean value
+                if len(value) >= 3:  # At least $10 or 10%
+                    options.append({
+                        "id": f"opt{ord(letter) - ord('A') + 1}",
+                        "text": value
+                    })
 
     # Find correct answer (usually in calculator output or explanation)
-    # Look for patterns like "CPT=>FV = $345,411.20" or "= $X"
+    # Look for patterns like "CPT=>FV = $345,411.20" or "PMT = $X"
     calc_patterns = [
-        r'CPT\s*=>\s*[A-Z]+\s*=\s*(\$?[\d,]+\.?\d*)',
-        r'=\s*(\$[\d,]+\.?\d*)',
+        r'CPT\s*[=⇒>]+\s*(?:PMT|FV|PV|NPV|IRR)\s*=\s*(\$?[\d,]+\.?\d*)',  # CPT=>PMT=$X
+        r'(?:PMT|FV|PV|NPV|IRR)\s*=\s*(\$[\d,]+\.?\d*)',  # PMT=$X
+        r'=\s*(\$[\d,]+\.?\d*)',  # =$X
     ]
 
     correct_answer = None
     for pattern in calc_patterns:
         matches = re.findall(pattern, raw_text)
         if matches:
-            # Take the first substantial value
+            # Take the first substantial value that's not already in options
+            existing_values = [opt['text'] for opt in options]
             for val in matches:
-                if len(val) > 3:  # At least $100
+                if len(val) > 3 and val not in existing_values:  # At least $100
                     correct_answer = val
                     break
             if correct_answer:
@@ -185,6 +246,50 @@ def extract_options_from_incorrect_text(raw_text):
                     "text": correct_answer
                 })
                 break
+
+    return options[:3]
+
+
+def extract_options_from_calculator_output(raw_text, existing_options):
+    """
+    FALLBACK 3: Extract all calculator output values (PMT, FV, PV, etc.)
+    and assign them as options A/B/C
+    """
+    options = list(existing_options)  # Copy existing
+
+    # Find all calculator output values (including short ones like "0")
+    # Pattern: PMT = $X, FV = $X, PV = $X, NPV = $X, IRR = X%, rate = X%
+    calc_pattern = r'(?:PMT|FV|PV|NPV|IRR|rate)\s*=\s*(\$?[\d,]+\.?\d*%?)'
+
+    all_values = re.findall(calc_pattern, raw_text, re.IGNORECASE)
+
+    # Get unique values not already in options (including short values)
+    existing_texts = [opt['text'] for opt in options]
+    unique_values = []
+    for val in all_values:
+        # Accept even short values (like "0") if nothing else available
+        if val not in existing_texts and val not in unique_values:
+            unique_values.append(val)
+
+    # Assign to missing option letters
+    existing_ids = [opt['id'] for opt in options]
+    for letter in ['A', 'B', 'C']:
+        opt_id = f"opt{ord(letter) - ord('A') + 1}"
+
+        if opt_id not in existing_ids:
+            if unique_values:
+                value = unique_values.pop(0)
+            else:
+                # LAST RESORT: Add placeholder if absolutely nothing found
+                value = f"[Option {letter} - incomplete]"
+
+            options.append({
+                "id": opt_id,
+                "text": value
+            })
+
+        if len(options) >= 3:
+            break
 
     return options[:3]
 

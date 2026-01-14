@@ -1400,8 +1400,8 @@
       "module_name_ru": "Временная стоимость денег",
       "los_covered": [
         "LOS d",
-        "LOS b",
-        "LOS a"
+        "LOS a",
+        "LOS b"
       ],
       "questions": [
         {
@@ -1925,6 +1925,10 @@
             {
               "id": "opt3",
               "text": "38.60%"
+            },
+            {
+              "id": "opt1",
+              "text": "0"
             }
           ],
           "correct_option_id": "opt2",
@@ -1934,6 +1938,10 @@
           "explanation_wrong": {
             "opt3": {
               "text": "The rate ignores the applicable formula and has been determined as follows; And A. -5.30% B. 5.59% C. 38.60% g = [ ] − 1 F V N P V 1 N F V N P V N g =...",
+              "formula": ""
+            },
+            "opt1": {
+              "text": "The rate is as a result of the inverse calculation as per choice B above as follows;",
               "formula": ""
             }
           },
@@ -2243,12 +2251,34 @@
           "question_continuation": null,
           "has_table": false,
           "table_data": null,
-          "options": [],
+          "options": [
+            {
+              "id": "opt1",
+              "text": "£51,164.03"
+            },
+            {
+              "id": "opt2",
+              "text": "£55,768.79"
+            },
+            {
+              "id": "opt3",
+              "text": "£72,222.20"
+            }
+          ],
           "correct_option_id": "opt2",
           "explanation": "The question requires the calculation of the Present Value of projected perpetuity as follows; Step I : Determine the present value of the perpetuity at t = 3 and then discount that amount back to . It's important to note that perpetuity or an ordinary annuity has its first payment one period away, ...",
           "explanation_ru": "",
           "explanation_formula": "$PV = \\frac{A}{r}$",
-          "explanation_wrong": {},
+          "explanation_wrong": {
+            "opt1": {
+              "text": ". At year 4 (t=3), the present value has been discounted by 4 instead of by 3 years as follows;",
+              "formula": ""
+            },
+            "opt3": {
+              "text": ". The amount represents the present value at time t=3 and not at time t=0. t = 0 A. £51,164.03 B. £55,768.79 C. £72,222.20 t = 0 P V = A r P V = = £ 7...",
+              "formula": ""
+            }
+          },
           "requires_calculation": true,
           "calculator_steps": [],
           "difficulty": "HARD",
@@ -2270,7 +2300,15 @@
           "options": [
             {
               "id": "opt1",
-              "text": "1,426.63"
+              "text": "£1,267.50"
+            },
+            {
+              "id": "opt2",
+              "text": "£1,426.63"
+            },
+            {
+              "id": "opt3",
+              "text": "£1,901.30"
             }
           ],
           "correct_option_id": "opt2",
@@ -2280,6 +2318,10 @@
           "explanation_wrong": {
             "opt1": {
               "text": ". The amount represents the mortgage repayments payable for annual and not for monthly compounding.",
+              "formula": ""
+            },
+            "opt3": {
+              "text": ". The calculation has not subtracted the down payment of £60,000 from the initial cost of the house to obtain the amount borrowed to finance the purch...",
               "formula": ""
             }
           },
@@ -2490,12 +2532,34 @@
           "question_continuation": null,
           "has_table": false,
           "table_data": null,
-          "options": [],
+          "options": [
+            {
+              "id": "opt1",
+              "text": "[Option A - incomplete]"
+            },
+            {
+              "id": "opt2",
+              "text": "[Option B - incomplete]"
+            },
+            {
+              "id": "opt3",
+              "text": "[Option C - incomplete]"
+            }
+          ],
           "correct_option_id": "opt2",
           "explanation": "The growth rate is calculated using the formula as follows; Where; = Future value after the three years. = Present value at three years. = The period during the investment growth.",
           "explanation_ru": "",
           "explanation_formula": "$PV = \\frac{FV}{(1+r)^N}$",
-          "explanation_wrong": {},
+          "explanation_wrong": {
+            "opt1": {
+              "text": ". The growth rate indicates the erroneous calculation as follows;",
+              "formula": ""
+            },
+            "opt3": {
+              "text": "The growth rate indicates the erroneous calculation as follows;",
+              "formula": ""
+            }
+          },
           "requires_calculation": true,
           "calculator_steps": [],
           "difficulty": "EASY",
@@ -2561,12 +2625,34 @@
           "question_continuation": null,
           "has_table": false,
           "table_data": null,
-          "options": [],
+          "options": [
+            {
+              "id": "opt1",
+              "text": "[Option A - incomplete]"
+            },
+            {
+              "id": "opt2",
+              "text": "[Option B - incomplete]"
+            },
+            {
+              "id": "opt3",
+              "text": "[Option C - incomplete]"
+            }
+          ],
           "correct_option_id": "opt1",
           "explanation": "Recall that:",
           "explanation_ru": "",
           "explanation_formula": "$PV = \\frac{FV}{(1+r)^N}$",
-          "explanation_wrong": {},
+          "explanation_wrong": {
+            "opt2": {
+              "text": ". It is the effective annual interest rate with quarterly compounding.",
+              "formula": ""
+            },
+            "opt3": {
+              "text": "It is the effective annual interest rate with monthly compounding.",
+              "formula": ""
+            }
+          },
           "requires_calculation": true,
           "calculator_steps": [],
           "difficulty": "EASY",
@@ -2685,13 +2771,26 @@
             {
               "id": "opt1",
               "text": "$5,446.52"
+            },
+            {
+              "id": "opt2",
+              "text": "0"
+            },
+            {
+              "id": "opt3",
+              "text": "[Option C - incomplete]"
             }
           ],
           "correct_option_id": "opt1",
           "explanation": "The PV of the ordinary annuity after 2 years, when Lewis starts the investment plan, can be calculated as under: N=3; I/Y=5; PMT= -2,000; FV=0 CPT ⇒ PV= $5,446.52 However, this plan will start in 2 years. Assuming the rate of interest in these two years is 5%, the PV of the annuity today can be comp...",
           "explanation_ru": "",
           "explanation_formula": "$FV = PV(1 + r)^N$",
-          "explanation_wrong": {},
+          "explanation_wrong": {
+            "opt3": {
+              "text": ". It is the present value of an annuity in advance, not of an ordinary annuity as required by the question, at time .",
+              "formula": ""
+            }
+          },
           "requires_calculation": true,
           "calculator_steps": [],
           "difficulty": "HARD",
@@ -2763,12 +2862,16 @@
           "table_data": null,
           "options": [
             {
-              "id": "opt2",
-              "text": "10"
-            },
-            {
               "id": "opt1",
               "text": "$117,230.51"
+            },
+            {
+              "id": "opt2",
+              "text": "0"
+            },
+            {
+              "id": "opt3",
+              "text": "$101,380.15"
             }
           ],
           "correct_option_id": "opt3",
@@ -2776,12 +2879,12 @@
           "explanation_ru": "",
           "explanation_formula": "$FV = PV(1 + r)^N$",
           "explanation_wrong": {
-            "opt2": {
-              "text": "The amount assumes a Quarterly interest rate and not annual as follows. N=10; I/Y=3/4=0.75; PV=-1,000,000, FV=0 CPT ⇒ PMT = $104,171.23",
-              "formula": ""
-            },
             "opt1": {
               "text": ". The amount assumes a monthly interest rate and not annual as follows. N=10; I/Y=3/12=0.25; PV=-1,000,000, FV=0 CPT ⇒ PMT = $101,380.15",
+              "formula": ""
+            },
+            "opt2": {
+              "text": "The amount assumes a Quarterly interest rate and not annual as follows. N=10; I/Y=3/4=0.75; PV=-1,000,000, FV=0 CPT ⇒ PMT = $104,171.23",
               "formula": ""
             }
           },
