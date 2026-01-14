@@ -219,12 +219,34 @@
       "question_continuation": null,
       "has_table": false,
       "table_data": null,
-      "options": [],
+      "options": [
+        {
+          "id": "opt1",
+          "text": "$349,178.78"
+        },
+        {
+          "id": "opt2",
+          "text": "$349,744.72"
+        },
+        {
+          "id": "opt3",
+          "text": "$345,411.20"
+        }
+      ],
       "correct_option_id": "opt3",
       "explanation": "The question requires the calculation of the future value of an annuity as follows; Step I : Determine the Future Value annuity factor as follows; Step II : Determine the Future Value of the annuity as follows; Using the BA II Pro Plus Calculator; N= 10; I/Y= 7; PMT=$25,000; PV = 0; CPT=>FV = $345,4...",
       "explanation_ru": "",
       "explanation_formula": "$FV = PV(1 + r)^N$",
-      "explanation_wrong": {},
+      "explanation_wrong": {
+        "opt1": {
+          "text": "The value of $349,178.78 is higher than the correct future value of the annuity.",
+          "formula": ""
+        },
+        "opt2": {
+          "text": "The value of $349,744.72 is also higher than the correct future value of the annuity.",
+          "formula": ""
+        }
+      },
       "requires_calculation": true,
       "calculator_steps": [
         "[2ND] [CLR TVM]",
@@ -848,12 +870,22 @@
       "question_continuation": null,
       "has_table": false,
       "table_data": null,
-      "options": [],
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1,426.63"
+        }
+      ],
       "correct_option_id": "opt2",
       "explanation": "The question requires the calculation of the size of payments on a Fixed-Rate Mortgage repayment is as follows; Note that the lending institution will determine the mortgage payments. At the stated periodic interest rate, the present value of the payments will be equal to the amount borrowed (in thi...",
       "explanation_ru": "",
       "explanation_formula": "$FV_N = PV \\left[1 + \\frac{r_s}{m}\\right]^{mN}$",
-      "explanation_wrong": {},
+      "explanation_wrong": {
+        "opt1": {
+          "text": ". The amount represents the mortgage repayments payable for annual and not for monthly compounding.",
+          "formula": ""
+        }
+      },
       "requires_calculation": true,
       "calculator_steps": [],
       "difficulty": "HARD",
@@ -1252,7 +1284,12 @@
       "question_continuation": null,
       "has_table": false,
       "table_data": null,
-      "options": [],
+      "options": [
+        {
+          "id": "opt1",
+          "text": "$5,446.52"
+        }
+      ],
       "correct_option_id": "opt1",
       "explanation": "The PV of the ordinary annuity after 2 years, when Lewis starts the investment plan, can be calculated as under: N=3; I/Y=5; PMT= -2,000; FV=0 CPT ⇒ PV= $5,446.52 However, this plan will start in 2 years. Assuming the rate of interest in these two years is 5%, the PV of the annuity today can be comp...",
       "explanation_ru": "",
@@ -1327,12 +1364,30 @@
       "question_continuation": null,
       "has_table": false,
       "table_data": null,
-      "options": [],
+      "options": [
+        {
+          "id": "opt2",
+          "text": "10"
+        },
+        {
+          "id": "opt1",
+          "text": "$117,230.51"
+        }
+      ],
       "correct_option_id": "opt3",
       "explanation": "Using the financial calculator: N=10; I/Y=3; PV=-1,000,000, FV=0 CPT ⇒ PMT = $117,230.51",
       "explanation_ru": "",
       "explanation_formula": "$FV = PV(1 + r)^N$",
-      "explanation_wrong": {},
+      "explanation_wrong": {
+        "opt2": {
+          "text": "The amount assumes a Quarterly interest rate and not annual as follows. N=10; I/Y=3/4=0.75; PV=-1,000,000, FV=0 CPT ⇒ PMT = $104,171.23",
+          "formula": ""
+        },
+        "opt1": {
+          "text": ". The amount assumes a monthly interest rate and not annual as follows. N=10; I/Y=3/12=0.25; PV=-1,000,000, FV=0 CPT ⇒ PMT = $101,380.15",
+          "formula": ""
+        }
+      },
       "requires_calculation": true,
       "calculator_steps": [],
       "difficulty": "MEDIUM",

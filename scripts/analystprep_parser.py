@@ -121,7 +121,72 @@ def extract_options(raw_text):
             if len(unique) == 3:
                 break
 
+    # FALLBACK: If no options found, try to extract from "X is incorrect" text
+    if len(unique) == 0:
+        unique = extract_options_from_incorrect_text(raw_text)
+
     return unique
+
+
+def extract_options_from_incorrect_text(raw_text):
+    """
+    Fallback: Extract options from "A is incorrect. The value of $X" format
+    Used when standard options extraction fails
+    """
+    options = []
+
+    # Pattern: "X is incorrect. [optional text] $value" or "X is incorrect. [text] value"
+    # Also look for correct answer in calculator output or explanation
+
+    # Find wrong answers from "X is incorrect"
+    for letter in ['A', 'B', 'C']:
+        pattern = rf'{letter}\s+is\s+incorrect[.:]\s+(.*?)(?=[A-C]\s+is\s+incorrect|CFA\s+Level|©|$)'
+        match = re.search(pattern, raw_text, re.DOTALL | re.IGNORECASE)
+
+        if match:
+            text = match.group(1)
+
+            # Extract first $ value or number
+            value_match = re.search(r'(\$?[\d,]+\.?\d*)', text)
+            if value_match:
+                value = value_match.group(1)
+                options.append({
+                    "id": f"opt{ord(letter) - ord('A') + 1}",
+                    "text": value
+                })
+
+    # Find correct answer (usually in calculator output or explanation)
+    # Look for patterns like "CPT=>FV = $345,411.20" or "= $X"
+    calc_patterns = [
+        r'CPT\s*=>\s*[A-Z]+\s*=\s*(\$?[\d,]+\.?\d*)',
+        r'=\s*(\$[\d,]+\.?\d*)',
+    ]
+
+    correct_answer = None
+    for pattern in calc_patterns:
+        matches = re.findall(pattern, raw_text)
+        if matches:
+            # Take the first substantial value
+            for val in matches:
+                if len(val) > 3:  # At least $100
+                    correct_answer = val
+                    break
+            if correct_answer:
+                break
+
+    # Add correct answer as third option if we found it
+    if correct_answer and len(options) < 3:
+        # Determine which letter is missing (correct answer)
+        existing_letters = set(chr(ord('A') + int(opt['id'][-1]) - 1) for opt in options)
+        for letter in ['A', 'B', 'C']:
+            if letter not in existing_letters:
+                options.append({
+                    "id": f"opt{ord(letter) - ord('A') + 1}",
+                    "text": correct_answer
+                })
+                break
+
+    return options[:3]
 
 
 def extract_correct_answer(raw_text):
