@@ -1,0 +1,59 @@
+{
+  "book_id": 10,
+  "book_code": "CH-10",
+  "book_name": "Ethics and Professional Standards",
+  "book_name_ru": "Этика и профессиональные стандарты",
+  "total_modules": 5,
+  "modules": [
+    {
+      "module_id": 1,
+      "module_name": "Code of Ethics and Standards of Professional Conduct",
+      "page_range": "3-10",
+      "question_range": "3-7",
+      "los_codes": [
+        "LOS_1a",
+        "LOS_1b"
+      ]
+    },
+    {
+      "module_id": 2,
+      "module_name": "Guidance for Standards I-VII",
+      "page_range": "11-18",
+      "question_range": "8-84",
+      "los_codes": [
+        "LOS_2a",
+        "LOS_2b"
+      ]
+    },
+    {
+      "module_id": 3,
+      "module_name": "Application of the Standards",
+      "page_range": "19-83",
+      "question_range": "85-194",
+      "los_codes": [
+        "LOS_3a",
+        "LOS_3b"
+      ]
+    },
+    {
+      "module_id": 4,
+      "module_name": "Introduction to the Global Investment Performance Standards (GIPS)",
+      "page_range": "84-93",
+      "question_range": "195-206",
+      "los_codes": [
+        "LOS_4a",
+        "LOS_4b"
+      ]
+    },
+    {
+      "module_id": 5,
+      "module_name": "The GIPS Standards",
+      "page_range": "94-158",
+      "question_range": "207-270",
+      "los_codes": [
+        "LOS_5a",
+        "LOS_5b"
+      ]
+    }
+  ]
+}
