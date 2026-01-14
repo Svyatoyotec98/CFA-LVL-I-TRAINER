@@ -1,0 +1,89 @@
+{
+  "book_id": 5,
+  "book_code": "CH-5",
+  "book_name": "Equity Investments",
+  "book_name_ru": "Инвестиции в акции",
+  "total_modules": 8,
+  "modules": [
+    {
+      "module_id": 1,
+      "module_name": "Market Organization and Structure",
+      "page_range": "3-41",
+      "question_range": "3-50",
+      "los_codes": [
+        "LOS_1a",
+        "LOS_1b"
+      ]
+    },
+    {
+      "module_id": 2,
+      "module_name": "Security Market Indexes",
+      "page_range": "42-68",
+      "question_range": "51-103",
+      "los_codes": [
+        "LOS_2a",
+        "LOS_2b"
+      ]
+    },
+    {
+      "module_id": 3,
+      "module_name": "Market Efficiency",
+      "page_range": "69-88",
+      "question_range": "104-156",
+      "los_codes": [
+        "LOS_3a",
+        "LOS_3b"
+      ]
+    },
+    {
+      "module_id": 4,
+      "module_name": "Overview of Equity Securities",
+      "page_range": "89-107",
+      "question_range": "157-190",
+      "los_codes": [
+        "LOS_4a",
+        "LOS_4b"
+      ]
+    },
+    {
+      "module_id": 5,
+      "module_name": "Introduction to Industry and Company Analysis",
+      "page_range": "108-146",
+      "question_range": "191-224",
+      "los_codes": [
+        "LOS_5a",
+        "LOS_5b"
+      ]
+    },
+    {
+      "module_id": 6,
+      "module_name": "Equity Valuation: Concepts and Basic Tools",
+      "page_range": "147-185",
+      "question_range": "225-277",
+      "los_codes": [
+        "LOS_6a",
+        "LOS_6b"
+      ]
+    },
+    {
+      "module_id": 7,
+      "module_name": "Introduction to Fixed-Income Valuation",
+      "page_range": "186-216",
+      "question_range": "278-308",
+      "los_codes": [
+        "LOS_7a",
+        "LOS_7b"
+      ]
+    },
+    {
+      "module_id": 8,
+      "module_name": "Fixed-Income Securities: Defining Elements",
+      "page_range": "217-251",
+      "question_range": "309-388",
+      "los_codes": [
+        "LOS_8a",
+        "LOS_8b"
+      ]
+    }
+  ]
+}
