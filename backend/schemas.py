@@ -240,7 +240,7 @@ class CalculatorStatsResponse(BaseModel):
 
 class SyncRequest(BaseModel):
     """For syncing localStorage data with backend."""
-    progress: List[ProgressUpdate]
+    progress: List[UserProgressUpdate]
     last_sync_at: Optional[datetime] = None
 
 
