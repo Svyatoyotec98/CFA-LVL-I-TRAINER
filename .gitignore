@@ -41,6 +41,9 @@ Thumbs.db
 # This includes Materials/NOTES/, Materials/QBank/, etc.
 !Materials/**/*.pdf
 
+# EXCEPT: Allow PDFs in v2 data structure (frontend/data/v2/)
+!frontend/data/v2/**/*.pdf
+
 # Extracted text files from PDF parsing (except QBank extracted/ folders)
 Materials/Tests/Tests/*.txt
 Materials/NOTES/*.txt
