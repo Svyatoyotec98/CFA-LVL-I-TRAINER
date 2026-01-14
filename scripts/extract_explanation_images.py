@@ -23,7 +23,7 @@ def find_text_instances(page, search_text):
     instances = page.search_for(search_text)
     return instances
 
-def extract_explanation_boundaries(pdf_path, output_dir="output/checkpoint1", max_pages=5):
+def extract_explanation_boundaries(pdf_path, output_dir="output/checkpoint1", max_pages=15):
     """
     CHECKPOINT 1: Find explanation boundaries in PDF
 
@@ -150,8 +150,15 @@ def extract_explanation_boundaries(pdf_path, output_dir="output/checkpoint1", ma
     print(f"\n{'='*60}")
     print(f"📊 CHECKPOINT 1 SUMMARY")
     print(f"{'='*60}")
-    print(f"Total explanations extracted: {len(explanations_found)}")
-    print(f"Output directory: {output_dir}")
+
+    total = len(explanations_found)
+    with_end = sum(1 for e in explanations_found if e['has_end_marker'])
+    without_end = total - with_end
+
+    print(f"Total explanations extracted: {total}")
+    print(f"  ✓ With end marker (same page): {with_end} ({with_end/total*100:.1f}%)" if total > 0 else "")
+    print(f"  ⚠️  Without end marker (multi-page?): {without_end} ({without_end/total*100:.1f}%)" if total > 0 else "")
+    print(f"\nOutput directory: {output_dir}")
     print(f"\nNext steps:")
     print(f"1. Review extracted images in {output_dir}")
     print(f"2. Check if boundaries are correct")
@@ -167,7 +174,7 @@ if __name__ == "__main__":
         print(f"❌ PDF not found: {pdf_path}")
         exit(1)
 
-    results = extract_explanation_boundaries(pdf_path, max_pages=3)
+    results = extract_explanation_boundaries(pdf_path)  # uses default max_pages=15
 
     print(f"\n✅ CHECKPOINT 1 complete!")
     print(f"   Check output/checkpoint1/ for extracted images")
