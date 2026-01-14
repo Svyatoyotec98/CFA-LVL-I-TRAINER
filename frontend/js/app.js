@@ -295,41 +295,16 @@ function selectBook(bookId) {
 async function unlockAllModules() {
     if (!confirm('Разблокировать ВСЕ модули для тестирования?')) return;
 
-    try {
-        const progress = await apiGet('/progress');
+    // Установить флаг тестового режима
+    localStorage.setItem('testMode', 'true');
 
-        // Разблокировать все модули всех книг
-        BOOKS.forEach(book => {
-            if (progress.books_progress) {
-                let bookProgress = progress.books_progress.find(bp => bp.book_id === book.id);
-                if (!bookProgress) {
-                    bookProgress = { book_id: book.id, modules_progress: [] };
-                    progress.books_progress.push(bookProgress);
-                }
+    alert('✅ Все модули разблокированы!\n\nТеперь можете открывать любые модули для тестирования.');
 
-                // Разблокировать все модули этой книги
-                if (bookProgress.modules_progress) {
-                    bookProgress.modules_progress.forEach(mp => {
-                        mp.is_unlocked = true;
-                    });
-                }
-            }
-        });
-
-        // Сохранить в localStorage
-        localStorage.setItem('progress', JSON.stringify(progress));
-
-        alert('✅ Все модули разблокированы!\n\nТеперь можете открывать любые модули для тестирования.');
-
-        // Перезагрузить текущий экран
-        if (state.currentScreen === 'modules') {
-            loadModules();
-        } else if (state.currentScreen === 'dashboard') {
-            loadDashboard();
-        }
-    } catch (error) {
-        console.error('Error unlocking modules:', error);
-        alert('Ошибка разблокировки модулей');
+    // Перезагрузить текущий экран
+    if (state.currentScreen === 'modules') {
+        loadModules();
+    } else if (state.currentScreen === 'dashboard') {
+        loadDashboard();
     }
 }
 
@@ -359,9 +334,12 @@ async function loadModules() {
             console.error('Failed to load module progress:', e);
         }
 
+        // Check test mode
+        const testMode = localStorage.getItem('testMode') === 'true';
+
         container.innerHTML = modules.map((module, index) => {
             const mp = progressData[module.module_id] || {};
-            const isUnlocked = index === 0 || mp.is_unlocked || (progressData[modules[index-1]?.module_id]?.mastery_percent >= 80);
+            const isUnlocked = testMode || index === 0 || mp.is_unlocked || (progressData[modules[index-1]?.module_id]?.mastery_percent >= 80);
             const questionsCount = module.questions?.length || 0;
             const mastery = mp.mastery_percent || 0;
 
