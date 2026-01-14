@@ -291,6 +291,48 @@ function selectBook(bookId) {
     showScreen('modules');
 }
 
+// Unlock all modules for testing
+async function unlockAllModules() {
+    if (!confirm('Разблокировать ВСЕ модули для тестирования?')) return;
+
+    try {
+        const progress = await apiGet('/progress');
+
+        // Разблокировать все модули всех книг
+        BOOKS.forEach(book => {
+            if (progress.books_progress) {
+                let bookProgress = progress.books_progress.find(bp => bp.book_id === book.id);
+                if (!bookProgress) {
+                    bookProgress = { book_id: book.id, modules_progress: [] };
+                    progress.books_progress.push(bookProgress);
+                }
+
+                // Разблокировать все модули этой книги
+                if (bookProgress.modules_progress) {
+                    bookProgress.modules_progress.forEach(mp => {
+                        mp.is_unlocked = true;
+                    });
+                }
+            }
+        });
+
+        // Сохранить в localStorage
+        localStorage.setItem('progress', JSON.stringify(progress));
+
+        alert('✅ Все модули разблокированы!\n\nТеперь можете открывать любые модули для тестирования.');
+
+        // Перезагрузить текущий экран
+        if (state.currentScreen === 'modules') {
+            loadModules();
+        } else if (state.currentScreen === 'dashboard') {
+            loadDashboard();
+        }
+    } catch (error) {
+        console.error('Error unlocking modules:', error);
+        alert('Ошибка разблокировки модулей');
+    }
+}
+
 // ============== Modules ==============
 async function loadModules() {
     if (!state.currentBook) {

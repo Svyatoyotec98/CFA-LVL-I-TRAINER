@@ -495,7 +495,12 @@
 
         <div class="statistics-container">
             <div class="glass-container">
-                <h3>Общая статистика</h3>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                    <h3>Общая статистика</h3>
+                    <button onclick="unlockAllModules()" class="btn-unlock" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none; padding: 0.5rem 1rem; border-radius: 8px; cursor: pointer; font-size: 0.9rem; font-weight: 500;">
+                        🔓 Unlock All
+                    </button>
+                </div>
                 <div class="stats-grid" id="overall-stats">
                     <!-- Stats -->
                 </div>
