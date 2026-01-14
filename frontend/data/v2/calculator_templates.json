@@ -1,0 +1,57 @@
+{
+  "calculator_model": "BA II Plus Professional",
+  "common_worksheets": {
+    "tvm": {
+      "name": "Time Value of Money (TVM)",
+      "access": "[2ND] [CLR TVM]",
+      "keys": ["N", "I/Y", "PV", "PMT", "FV", "CPT"],
+      "description": "Calculate present value, future value, interest rates, number of periods, and payments"
+    },
+    "cf": {
+      "name": "Cash Flow (CF)",
+      "access": "[CF]",
+      "keys": ["CF", "F", "NPV", "IRR", "CPT"],
+      "description": "Calculate NPV and IRR for uneven cash flows"
+    },
+    "data": {
+      "name": "Statistics (DATA)",
+      "access": "[2ND] [DATA]",
+      "keys": ["X", "Y", "STAT"],
+      "description": "Calculate mean, standard deviation, regression statistics"
+    },
+    "bond": {
+      "name": "Bond Worksheet",
+      "access": "[2ND] [BOND]",
+      "keys": ["SDT", "CPN", "RDT", "RV", "YLD", "PRI"],
+      "description": "Calculate bond prices and yields"
+    }
+  },
+  "common_functions": {
+    "percent_change": {
+      "name": "Percent Change",
+      "keys": ["[2ND] [%CHG]"],
+      "description": "Calculate percentage change between two values"
+    },
+    "date": {
+      "name": "Date Calculations",
+      "keys": ["[2ND] [DATE]"],
+      "description": "Calculate days between dates (ACT, 360, 365)"
+    },
+    "format": {
+      "name": "Decimal Format",
+      "keys": ["[2ND] [FORMAT]"],
+      "description": "Set number of decimal places"
+    },
+    "memory": {
+      "name": "Memory Storage",
+      "keys": ["[STO]", "[RCL]"],
+      "description": "Store and recall values (up to 10 memories: 0-9)"
+    }
+  },
+  "shortcuts": {
+    "clear_all": "[2ND] [CLR WORK]",
+    "clear_tvm": "[2ND] [CLR TVM]",
+    "reset": "[2ND] [RESET]",
+    "quit": "[2ND] [QUIT]"
+  }
+}
