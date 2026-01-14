@@ -1032,6 +1032,7 @@ async function answerReview(questionId, userAnswer, correctAnswer) {
 
 // ============== Glossary ==============
 let glossaryTerms = [];
+let calculatorTemplates = {};
 
 async function loadGlossary() {
     try {
@@ -1044,24 +1045,57 @@ async function loadGlossary() {
     }
 }
 
+async function loadCalculatorTemplates() {
+    try {
+        const response = await fetch('data/v2/calculator_templates.json');
+        const data = await response.json();
+        calculatorTemplates = data.templates || {};
+    } catch (error) {
+        console.error('Failed to load calculator templates:', error);
+        calculatorTemplates = {};
+    }
+}
+
 function renderCalculatorSteps(calc) {
     if (!calc) return '';
+
+    // If calc has template_id, load template
+    let calcData = calc;
+    if (calc.template_id) {
+        const template = calculatorTemplates[calc.template_id];
+        if (!template) {
+            console.warn(`Template not found: ${calc.template_id}`);
+            return '';
+        }
+        calcData = template;
+    }
+
+    // Determine method/worksheet name (support both old and new format)
+    const methodName = calcData.method || calcData.worksheet || 'Calculator';
+
+    // Check if has steps to display
+    if (!calcData.steps || calcData.steps.length === 0) return '';
+
+    // Render description if available (for Multi-step Calculation)
+    const description = calcData.description ? `<p class="calc-description">${calcData.description}</p>` : '';
+
     return `
         <div class="calculator-block">
             <div class="calc-header" onclick="toggleCalculatorBlock(this)">
                 <span class="calc-toggle-icon">▼</span>
                 <span class="calc-icon">📟</span>
-                <span class="calc-title">BA II Plus: ${calc.worksheet || 'Calculator'}</span>
-                ${calc.access ? `<code class="calc-access">${calc.access}</code>` : ''}
+                <span class="calc-title">BA II Plus: ${methodName}</span>
+                ${calcData.access ? `<code class="calc-access">${calcData.access}</code>` : ''}
             </div>
+            ${description}
             <ol class="calc-steps">
-                ${calc.steps.map(step => `<li>${step}</li>`).join('')}
+                ${calcData.steps.map(step => `<li>${step}</li>`).join('')}
             </ol>
-            ${calc.example ? `
+            ${calcData.example ? `
                 <div class="calc-example">
-                    <strong>Пример:</strong> ${calc.example.given || ''}
-                    ${calc.example.input ? `<br><code>${calc.example.input}</code>` : ''}
-                    ${calc.example.result ? `<br><span class="calc-result">→ ${calc.example.result}</span>` : ''}
+                    <strong>Пример:</strong> ${calcData.example.given || ''}
+                    ${calcData.example.input ? `<br><code>${calcData.example.input}</code>` : ''}
+                    ${calcData.example.result ? `<br><span class="calc-result">→ ${calcData.example.result}</span>` : ''}
                 </div>
             ` : ''}
         </div>
@@ -1090,7 +1124,7 @@ function displayGlossary(terms) {
                 <div class="term-definition">${term.definition_en}</div>
                 ${term.definition_ru ? `<div class="term-definition-ru">${term.definition_ru}</div>` : ''}
                 ${term.formula ? `<div class="term-formula">\\(${term.formula.replace(/^\$|\$$/g, '')}\\)</div>` : ''}
-                ${term.calculator_steps ? renderCalculatorSteps(term.calculator_steps) : ''}
+                ${term.calculator ? renderCalculatorSteps(term.calculator) : ''}
             </div>
         </div>
     `).join('');
@@ -1351,6 +1385,9 @@ function updateCountdown() {
 
 // ============== Initialization ==============
 async function init() {
+    // Load calculator templates early
+    loadCalculatorTemplates(); // Load async, no need to await
+
     updateCountdown();
     setInterval(updateCountdown, 86400000); // Update daily
 
