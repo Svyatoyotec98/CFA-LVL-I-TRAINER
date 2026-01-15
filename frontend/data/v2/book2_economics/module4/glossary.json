@@ -1,3 +1,466 @@
 {
-  "terms": []
+  "book_id": 2,
+  "book_code": "EC",
+  "book_name": "Economics",
+  "book_name_ru": "Экономика",
+
+  "module_id": 4,
+  "module_name": "Monetary Policy",
+  "module_name_ru": "Монетарная политика",
+
+  "los_list": ["LOS_4a", "LOS_4b", "LOS_4c", "LOS_4d"],
+  "total_terms": 45,
+
+  "terms": [
+    {
+      "term_id": "EC-4-001",
+      "term_en": "Price Stability",
+      "term_ru": "Ценовая стабильность",
+      "definition_en": "The main objective of central banks involving maintaining stable prices and controlling inflation to ensure financial stability. Achieved through monetary policy tools to prevent excessive inflation or deflation that could harm economic activity.",
+      "definition_ru": "Основная цель центральных банков, включающая поддержание стабильных цен и контроль инфляции для обеспечения финансовой стабильности. Достигается через инструменты монетарной политики для предотвращения чрезмерной инфляции или дефляции, которые могут навредить экономической активности.",
+      "formula": null,
+      "los_id": "LOS_4a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-002",
+      "term_en": "Fiat Money",
+      "term_ru": "Фиатные деньги",
+      "definition_en": "Currency not convertible into any commodity (like gold) and declared as legal tender by government. Central banks are exclusive suppliers and protectors of fiat currency value, maintaining confidence and preventing arbitrary expansion. All major economies today use fiat money.",
+      "definition_ru": "Валюта, не конвертируемая ни в какой товар (например, золото) и объявленная законным платежным средством правительством. Центральные банки являются эксклюзивными поставщиками и защитниками стоимости фиатной валюты, поддерживая доверие и предотвращая произвольное расширение. Все крупные экономики сегодня используют фиатные деньги.",
+      "formula": null,
+      "los_id": "LOS_4a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-003",
+      "term_en": "Legal Tender",
+      "term_ru": "Законное платежное средство",
+      "definition_en": "Money that must be accepted for goods, services, and debt repayment by law. Fiat money is deemed legal tender, giving it legal force for settling financial obligations. Central banks ensure and protect this status.",
+      "definition_ru": "Деньги, которые должны быть приняты для товаров, услуг и погашения долга по закону. Фиатные деньги считаются законным платежным средством, что придает им юридическую силу для урегулирования финансовых обязательств. Центральные банки обеспечивают и защищают этот статус.",
+      "formula": null,
+      "los_id": "LOS_4a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-004",
+      "term_en": "Lender of Last Resort",
+      "term_ru": "Кредитор последней инстанции",
+      "definition_en": "Central bank's role as ultimate source of funds for banks facing liquidity crisis. Ability to print money places central banks in unique position to supply funds, preventing bank runs. Combined with deposit insurance, helps maintain financial system stability, though may not always be sufficient during severe crises.",
+      "definition_ru": "Роль центрального банка как конечного источника средств для банков, столкнувшихся с кризисом ликвидности. Способность печатать деньги ставит центральные банки в уникальное положение для предоставления средств, предотвращая набеги на банки. В сочетании со страхованием депозитов помогает поддерживать стабильность финансовой системы, хотя может быть недостаточной во время серьезных кризисов.",
+      "formula": null,
+      "los_id": "LOS_4a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-005",
+      "term_en": "Bank Run",
+      "term_ru": "Набег на банк",
+      "definition_en": "Mass withdrawal of deposits by bank customers fearing bank's insolvency. Central bank's lender of last resort role and government deposit insurance help prevent bank runs by maintaining confidence. Knowledge that central bank stands ready to provide liquidity is crucial for prevention.",
+      "definition_ru": "Массовое снятие депозитов клиентами банка, опасающимися неплатежеспособности банка. Роль центрального банка как кредитора последней инстанции и государственное страхование депозитов помогают предотвратить набеги на банки, поддерживая доверие. Знание того, что центральный банк готов предоставить ликвидность, имеет решающее значение для предотвращения.",
+      "formula": null,
+      "los_id": "LOS_4a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-006",
+      "term_en": "Payment System",
+      "term_ru": "Платежная система",
+      "definition_en": "Infrastructure for transferring funds between parties. Central banks oversee, regulate, and establish standards for country's payment system to ensure robustness and standardization. Includes introducing new processes and coordinating internationally with other central banks.",
+      "definition_ru": "Инфраструктура для перевода средств между сторонами. Центральные банки контролируют, регулируют и устанавливают стандарты для платежной системы страны, чтобы обеспечить надежность и стандартизацию. Включает внедрение новых процессов и международную координацию с другими центральными банками.",
+      "formula": null,
+      "los_id": "LOS_4a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-007",
+      "term_en": "Gold Standard",
+      "term_ru": "Золотой стандарт",
+      "definition_en": "Historical monetary system where currency was convertible to gold. Abandoned in early twentieth century. Central banks still hold substantial gold reserves though no longer backing currency. Decisions to sell significant gold reserves can affect gold prices.",
+      "definition_ru": "Историческая монетарная система, при которой валюта была конвертируема в золото. Отказались в начале двадцатого века. Центральные банки все еще держат значительные золотые резервы, хотя больше не обеспечивают валюту. Решения продать значительные золотые резервы могут повлиять на цены на золото.",
+      "formula": null,
+      "los_id": "LOS_4a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-008",
+      "term_en": "Monetary Policy (Central Bank Role)",
+      "term_ru": "Монетарная политика (роль ЦБ)",
+      "definition_en": "Most important central bank role involving formulation and execution of policies to influence money supply, credit, and interest rates. Central banks perfectly situated for this as exclusive issuer of national currency. Uses tools to affect aggregate demand and achieve price stability.",
+      "definition_ru": "Самая важная роль центрального банка, включающая формулирование и выполнение политик для влияния на денежную массу, кредит и процентные ставки. Центральные банки идеально расположены для этого как эксклюзивные эмитенты национальной валюты. Использует инструменты для влияния на совокупный спрос и достижения ценовой стабильности.",
+      "formula": null,
+      "los_id": "LOS_4a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-009",
+      "term_en": "Open Market Operations (OMO)",
+      "term_ru": "Операции на открытом рынке",
+      "definition_en": "Central bank buying and selling government bonds with commercial banks or market makers. Selling bonds decreases bank reserves and lending capacity, reducing broad money growth. Buying bonds increases reserves and lending, expanding money supply. Primary tool to set appropriate levels of reserves or interest rates.",
+      "definition_ru": "Покупка и продажа центральным банком государственных облигаций с коммерческими банками или маркет-мейкерами. Продажа облигаций уменьшает банковские резервы и кредитную способность, снижая рост широкой денежной массы. Покупка облигаций увеличивает резервы и кредитование, расширяя денежную массу. Основной инструмент для установления соответствующих уровней резервов или процентных ставок.",
+      "formula": "Sell bonds → ↓ Reserves → ↓ Lending → ↓ Money supply; Buy bonds → ↑ Reserves → ↑ Lending → ↑ Money supply",
+      "los_id": "LOS_4b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-010",
+      "term_en": "Policy Rate",
+      "term_ru": "Ключевая ставка",
+      "definition_en": "Primary tool central banks use to convey monetary policy intentions. Interest rate at which central bank lends to commercial banks. Influences short-term and long-term interest rates, affecting real economic activity. When raised, commercial banks raise their base rates, reducing lending and money supply.",
+      "definition_ru": "Основной инструмент, который центральные банки используют для передачи намерений монетарной политики. Процентная ставка, по которой центральный банк кредитует коммерческие банки. Влияет на краткосрочные и долгосрочные процентные ставки, влияя на реальную экономическую активность. При повышении коммерческие банки повышают свои базовые ставки, сокращая кредитование и денежную массу.",
+      "formula": "↑ Policy rate → ↑ Borrowing cost → ↓ Lending → ↓ Money supply",
+      "los_id": "LOS_4b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-011",
+      "term_en": "Repurchase Agreement (Repo)",
+      "term_ru": "Соглашение РЕПО",
+      "definition_en": "Form of loan where central bank buys government bonds with agreement to resell in future (maturity: overnight to two weeks). Effectively lending money to commercial banks. Central bank earns repo rate on these transactions. Common mechanism for implementing policy rate.",
+      "definition_ru": "Форма кредита, при которой центральный банк покупает государственные облигации с соглашением о перепродаже в будущем (срок: овернайт до двух недель). Эффективно кредитует коммерческие банки. Центральный банк зарабатывает ставку РЕПО на этих транзакциях. Общий механизм для реализации ключевой ставки.",
+      "formula": null,
+      "los_id": "LOS_4b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-012",
+      "term_en": "Repo Rate",
+      "term_ru": "Ставка РЕПО",
+      "definition_en": "Interest rate central bank earns on repurchase agreements. Set to ensure central bank receives standard refinancing rate. Through open market operations, central bank can induce money deficit, compelling banks to sell bonds under repo at this rate, effectively controlling money supply.",
+      "definition_ru": "Процентная ставка, которую центральный банк зарабатывает на соглашениях РЕПО. Устанавливается для обеспечения получения центральным банком стандартной ставки рефинансирования. Через операции на открытом рынке центральный банк может вызвать дефицит денег, заставляя банки продавать облигации по РЕПО по этой ставке, эффективно контролируя денежную массу.",
+      "formula": null,
+      "los_id": "LOS_4b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-013",
+      "term_en": "Reserve Requirements",
+      "term_ru": "Резервные требования",
+      "definition_en": "Legal requirement for commercial banks to keep certain percentage of deposits as reserves at central bank. Raising requirements leaves banks with less money to lend, reducing output, employment, and investment. Lowering requirements increases lending capacity. Not commonly used in developed economies but used in emerging markets.",
+      "definition_ru": "Юридическое требование для коммерческих банков держать определенный процент депозитов в качестве резервов в центральном банке. Повышение требований оставляет банкам меньше денег для кредитования, снижая выпуск, занятость и инвестиции. Снижение требований увеличивает кредитную способность. Не часто используется в развитых экономиках, но используется на развивающихся рынках.",
+      "formula": "↑ Reserve requirements → ↓ Lending → ↓ Money creation",
+      "los_id": "LOS_4b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-014",
+      "term_en": "Monetary Transmission Mechanism",
+      "term_ru": "Механизм денежной трансмиссии",
+      "definition_en": "Process where central bank's interest rate changes transmit through economy to ultimately affect inflation. Four connected channels: bank lending rates, asset prices, agents' expectations/confidence, and exchange rates. Each channel influences aggregate demand and inflation differently.",
+      "definition_ru": "Процесс, при котором изменения процентной ставки центрального банка передаются через экономику, в конечном итоге влияя на инфляцию. Четыре связанных канала: ставки банковского кредитования, цены активов, ожидания/уверенность агентов и обменные курсы. Каждый канал влияет на совокупный спрос и инфляцию по-разному.",
+      "formula": "Policy rate change → 4 channels → Aggregate demand → Inflation",
+      "los_id": "LOS_4b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-015",
+      "term_en": "Bank Lending Channel",
+      "term_ru": "Канал банковского кредитования",
+      "definition_en": "Transmission channel where central bank rate increase causes commercial banks to increase base and interbank rates. Higher borrowing costs lead businesses and consumers to limit borrowing. Reduces lending activities and money supply, affecting aggregate demand and inflation.",
+      "definition_ru": "Канал трансмиссии, при котором повышение ставки центрального банка заставляет коммерческие банки повышать базовые и межбанковские ставки. Более высокие затраты на заимствования приводят к ограничению заимствований бизнесом и потребителями. Снижает кредитную активность и денежную массу, влияя на совокупный спрос и инфляцию.",
+      "formula": "↑ Official rate → ↑ Bank lending rates → ↓ Borrowing → ↓ Aggregate demand",
+      "los_id": "LOS_4b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-016",
+      "term_en": "Asset Price Channel",
+      "term_ru": "Канал цен активов",
+      "definition_en": "Transmission channel where higher short-term rates increase discount rates for future cash flows. Causes dip in bond prices and projected capital value. Lower asset prices reduce wealth effect and decrease consumption and investment. Affects aggregate demand through portfolio rebalancing.",
+      "definition_ru": "Канал трансмиссии, при котором более высокие краткосрочные ставки увеличивают ставки дисконтирования для будущих денежных потоков. Вызывает падение цен на облигации и прогнозируемой стоимости капитала. Более низкие цены на активы снижают эффект богатства и уменьшают потребление и инвестиции. Влияет на совокупный спрос через ребалансировку портфеля.",
+      "formula": "↑ Interest rates → ↑ Discount rate → ↓ Asset prices → ↓ Wealth → ↓ Consumption",
+      "los_id": "LOS_4b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-017",
+      "term_en": "Expectations Channel",
+      "term_ru": "Канал ожиданий",
+      "definition_en": "Transmission channel where market participants interpret elevated interest rates as precursor to slower economic progress, diminished profits, and contraction in asset-financing. Anticipation of future rate trends significantly influences economic decisions, leading to reduced consumption, borrowing, and asset prices.",
+      "definition_ru": "Канал трансмиссии, при котором участники рынка интерпретируют повышенные процентные ставки как предвестник более медленного экономического прогресса, снижения прибыли и сокращения финансирования активов. Ожидание будущих трендов ставок значительно влияет на экономические решения, приводя к снижению потребления, заимствований и цен на активы.",
+      "formula": "↑ Rates → Expectations of slowdown → ↓ Confidence → ↓ Spending",
+      "los_id": "LOS_4b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-018",
+      "term_en": "Exchange Rate Channel",
+      "term_ru": "Канал обменного курса",
+      "definition_en": "Transmission channel where interest rate increase causes currency appreciation. Makes domestically produced goods expensive for international buyers, reducing exporters' earnings and dampening demand for exports. Stronger currency also reduces import costs, lowering inflation directly.",
+      "definition_ru": "Канал трансмиссии, при котором повышение процентной ставки вызывает укрепление валюты. Делает произведенные внутри страны товары дорогими для международных покупателей, снижая доходы экспортеров и ослабляя спрос на экспорт. Более сильная валюта также снижает стоимость импорта, напрямую снижая инфляцию.",
+      "formula": "↑ Interest rates → Currency appreciation → ↓ Exports, ↓ Import costs → ↓ Net demand",
+      "los_id": "LOS_4b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-019",
+      "term_en": "Money Multiplier",
+      "term_ru": "Денежный мультипликатор",
+      "definition_en": "Process by which increase in bank reserves leads to larger increase in broad money supply through lending. When central bank increases reserves via open market operations, commercial banks lend more, creating deposits in other banks that can lend further, multiplying initial injection.",
+      "definition_ru": "Процесс, при котором увеличение банковских резервов приводит к большему увеличению широкой денежной массы через кредитование. Когда центральный банк увеличивает резервы через операции на открытом рынке, коммерческие банки кредитуют больше, создавая депозиты в других банках, которые могут кредитовать дальше, умножая начальную инъекцию.",
+      "formula": "$\\text{Money Multiplier} = \\frac{1}{\\text{Reserve Ratio}}$",
+      "los_id": "LOS_4b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-020",
+      "term_en": "Transparency (Central Bank Quality)",
+      "term_ru": "Прозрачность (качество ЦБ)",
+      "definition_en": "Central bank quality involving openness in decision-making through reports and public views on economic indicators. Produces inflation reports showing indicators monitored for interest rate decisions. Helps gain reputation and credibility, facilitating ability to shape inflation expectations and achieve targets.",
+      "definition_ru": "Качество центрального банка, включающее открытость в принятии решений через отчеты и публичные взгляды на экономические индикаторы. Производит отчеты по инфляции, показывающие индикаторы, отслеживаемые для решений по процентным ставкам. Помогает получить репутацию и доверие, облегчая способность формировать ожидания инфляции и достигать целей.",
+      "formula": null,
+      "los_id": "LOS_4c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-021",
+      "term_en": "Independence (Central Bank Quality)",
+      "term_ru": "Независимость (качество ЦБ)",
+      "definition_en": "Central bank quality involving decision-making free from political agendas. Politicians seeking reelection might keep rates artificially low, causing inflation. Varying degrees exist: full independence (operational + target) like ECB, or operational autonomy only with government-set targets like UK, Sweden, New Zealand.",
+      "definition_ru": "Качество центрального банка, включающее принятие решений, свободное от политических повесток. Политики, стремящиеся к переизбранию, могут держать ставки искусственно низкими, вызывая инфляцию. Существуют разные степени: полная независимость (операционная + целевая) как ЕЦБ, или только операционная автономия с установленными правительством целями как в Великобритании, Швеции, Новой Зеландии.",
+      "formula": null,
+      "los_id": "LOS_4c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-022",
+      "term_en": "Credibility (Central Bank Quality)",
+      "term_ru": "Доверие (качество ЦБ)",
+      "definition_en": "Central bank quality where public's trust in policies is paramount for effectiveness. Particularly crucial in inflation-targeting era. Not just about policies enacted but public's unwavering confidence. During volatile times, credibility ensures stability and instills faith in financial future.",
+      "definition_ru": "Качество центрального банка, где доверие общественности к политикам имеет первостепенное значение для эффективности. Особенно важно в эпоху таргетирования инфляции. Не только о введенных политиках, но о непоколебимой уверенности общественности. Во время волатильных времен доверие обеспечивает стабильность и вселяет веру в финансовое будущее.",
+      "formula": null,
+      "los_id": "LOS_4c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-023",
+      "term_en": "Operational Independence",
+      "term_ru": "Операционная независимость",
+      "definition_en": "Central bank independence where bank decides on interest rates to achieve inflation targets, but targets themselves are set by government. Examples: UK, Sweden, New Zealand. Bank has autonomy in choosing tools and timing but must work toward government-defined objectives.",
+      "definition_ru": "Независимость центрального банка, при которой банк решает о процентных ставках для достижения целей по инфляции, но сами цели устанавливаются правительством. Примеры: Великобритания, Швеция, Новая Зеландия. Банк имеет автономию в выборе инструментов и времени, но должен работать в направлении определенных правительством целей.",
+      "formula": null,
+      "los_id": "LOS_4c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-024",
+      "term_en": "Target Independence",
+      "term_ru": "Целевая независимость",
+      "definition_en": "Full central bank independence including both operational autonomy and ability to define and set inflation targets and timeframes. Example: ECB. Bank decides interest rates, defines inflation rate, sets targets, and chooses timeframe to meet objectives without government interference.",
+      "definition_ru": "Полная независимость центрального банка, включая как операционную автономию, так и способность определять и устанавливать цели по инфляции и временные рамки. Пример: ЕЦБ. Банк решает о процентных ставках, определяет уровень инфляции, устанавливает цели и выбирает временные рамки для достижения целей без вмешательства правительства.",
+      "formula": null,
+      "los_id": "LOS_4c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-025",
+      "term_en": "Inflation Targeting",
+      "term_ru": "Таргетирование инфляции",
+      "definition_en": "Monetary policy approach where central bank sets explicit inflation target (e.g., 2% ±1%). Originated in New Zealand (1988). Aims inflation two years ahead due to lags. Cannot target 0% (risk of deflation). Effectiveness depends on independence, credibility, and transparency. Exceptions: Bank of Japan (deflation), US Fed (dual mandate).",
+      "definition_ru": "Подход монетарной политики, при котором центральный банк устанавливает явную цель по инфляции (например, 2% ±1%). Возник в Новой Зеландии (1988). Нацелен на инфляцию на два года вперед из-за лагов. Не может нацеливаться на 0% (риск дефляции). Эффективность зависит от независимости, доверия и прозрачности. Исключения: Банк Японии (дефляция), ФРС США (двойной мандат).",
+      "formula": "Target example: UK CPI inflation 2% ±1%",
+      "los_id": "LOS_4c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-026",
+      "term_en": "Exchange Rate Targeting",
+      "term_ru": "Таргетирование обменного курса",
+      "definition_en": "Monetary policy approach where central bank establishes fixed or range-bound value for currency relative to major global currency (usually USD). Country 'borrows' inflation stability of established economy. Domestic interest rates and money supply must adjust to maintain peg, causing greater volatility. Examples: Saudi Arabia, Bahamas, Lebanon.",
+      "definition_ru": "Подход монетарной политики, при котором центральный банк устанавливает фиксированное или ограниченное диапазоном значение для валюты относительно основной мировой валюты (обычно USD). Страна 'заимствует' стабильность инфляции установленной экономики. Внутренние процентные ставки и денежная масса должны корректироваться для поддержания привязки, вызывая большую волатильность. Примеры: Саудовская Аравия, Багамы, Ливан.",
+      "formula": null,
+      "los_id": "LOS_4c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-027",
+      "term_en": "Managed Exchange Rate",
+      "term_ru": "Управляемый обменный курс",
+      "definition_en": "Exchange rate policy where currency fluctuates within a set range managed by monetary authority. More flexible than fixed peg but still involves regular intervention. Allows some market forces while maintaining control over extreme movements. Intermediate approach between fixed and floating regimes.",
+      "definition_ru": "Политика обменного курса, при которой валюта колеблется в установленном диапазоне, управляемом монетарным органом. Более гибко, чем фиксированная привязка, но все же включает регулярное вмешательство. Позволяет некоторые рыночные силы, сохраняя контроль над экстремальными движениями. Промежуточный подход между фиксированными и плавающими режимами.",
+      "formula": null,
+      "los_id": "LOS_4c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-028",
+      "term_en": "Dollarization",
+      "term_ru": "Долларизация",
+      "definition_en": "Situation where country adopts US dollar (or another foreign currency) as official currency, completely replacing native currency. Extreme form of exchange rate targeting. Examples: Panama, Ecuador, East Timor. Provides stability but eliminates monetary policy independence.",
+      "definition_ru": "Ситуация, когда страна принимает доллар США (или другую иностранную валюту) в качестве официальной валюты, полностью заменяя национальную валюту. Экстремальная форма таргетирования обменного курса. Примеры: Панама, Эквадор, Восточный Тимор. Обеспечивает стабильность, но исключает независимость монетарной политики.",
+      "formula": null,
+      "los_id": "LOS_4c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-029",
+      "term_en": "Expansionary Monetary Policy",
+      "term_ru": "Экспансионная монетарная политика",
+      "definition_en": "Monetary policy to boost liquidity when economy slows and inflation/monetary trends appear weak. Central bank reduces target interest rate to increase money supply and stimulate economic activity. Policy rate below neutral rate indicates expansionary stance.",
+      "definition_ru": "Монетарная политика для повышения ликвидности, когда экономика замедляется, а инфляция/монетарные тренды кажутся слабыми. Центральный банк снижает целевую процентную ставку для увеличения денежной массы и стимулирования экономической активности. Ключевая ставка ниже нейтральной ставки указывает на экспансионную позицию.",
+      "formula": "Policy rate < Neutral rate → Expansionary",
+      "los_id": "LOS_4c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-030",
+      "term_en": "Contractionary Monetary Policy",
+      "term_ru": "Сдерживающая монетарная политика",
+      "definition_en": "Monetary policy to reduce money supply growth rate and curb economy's growth when anticipating rising inflation. Central bank increases interest rates to reduce available funds in market. Policy rate exceeding neutral rate indicates contractionary stance.",
+      "definition_ru": "Монетарная политика для снижения темпов роста денежной массы и сдерживания роста экономики при ожидании роста инфляции. Центральный банк повышает процентные ставки для сокращения доступных средств на рынке. Ключевая ставка, превышающая нейтральную ставку, указывает на сдерживающую позицию.",
+      "formula": "Policy rate > Neutral rate → Contractionary",
+      "los_id": "LOS_4c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-031",
+      "term_en": "Neutral Rate of Interest",
+      "term_ru": "Нейтральная процентная ставка",
+      "definition_en": "Interest rate that neither stimulates nor restrains economic growth. Reference point for determining if policy is expansionary or contractionary. Equals real trend growth rate plus long-run expected inflation. Ideally, average policy rate over economic cycle equals neutral rate.",
+      "definition_ru": "Процентная ставка, которая ни стимулирует, ни сдерживает экономический рост. Точка отсчета для определения, является ли политика экспансионной или сдерживающей. Равна реальному тренду темпа роста плюс долгосрочная ожидаемая инфляция. Идеально, средняя ключевая ставка за экономический цикл равна нейтральной ставке.",
+      "formula": "$\\text{Neutral Rate} = \\text{Trend Growth} + \\text{Inflation Target}$",
+      "los_id": "LOS_4c",
+      "calculator": "Example: If trend growth = 1.5% and inflation target = 2%:\nNeutral rate = 1.5% + 2% = 3.5%\nPolicy > 3.5% = Contractionary\nPolicy < 3.5% = Expansionary"
+    },
+    {
+      "term_id": "EC-4-032",
+      "term_en": "Demand Shock",
+      "term_ru": "Шок спроса",
+      "definition_en": "Inflationary pressure arising from increased consumer and business confidence leading to increased consumption and investment growth. Inflation rising beyond target threatens price stability. Appropriate to tighten monetary policy to control domestic demand pressures. Originates internally from economic optimism.",
+      "definition_ru": "Инфляционное давление, возникающее из-за увеличения уверенности потребителей и бизнеса, приводящее к увеличению потребления и роста инвестиций. Инфляция, превышающая цель, угрожает ценовой стабильности. Целесообразно ужесточить монетарную политику для контроля давления внутреннего спроса. Возникает внутренне из-за экономического оптимизма.",
+      "formula": "↑ Confidence → ↑ Consumption/Investment → ↑ Demand → ↑ Inflation",
+      "los_id": "LOS_4c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-033",
+      "term_en": "Supply Shock",
+      "term_ru": "Шок предложения",
+      "definition_en": "Inflationary spike due to external factors like significant jump in oil prices. Already-burdened consumers reduce spending, potentially decreasing profits and increasing unemployment. Tightening policy could worsen situation. Crucial for monetary authority to identify cause before deciding policy action. Originates externally.",
+      "definition_ru": "Инфляционный всплеск из-за внешних факторов, таких как значительный скачок цен на нефть. Уже обремененные потребители сокращают расходы, потенциально снижая прибыль и увеличивая безработицу. Ужесточение политики может ухудшить ситуацию. Крайне важно для монетарного органа определить причину перед принятием политического решения. Возникает извне.",
+      "formula": "↑ Oil prices → ↑ Costs → ↓ Consumer spending → ↓ Profits, ↑ Unemployment",
+      "los_id": "LOS_4c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-034",
+      "term_en": "Liquidity Trap",
+      "term_ru": "Ловушка ликвидности",
+      "definition_en": "Extreme situation where money injections no longer influence interest rates, rendering monetary policy ineffective. Occurs during deflation when rates near or below zero. Consumers reduce spending, causing further deflation and rising real debt. Standard policy tools fail. Japan experienced this post-1990s property bubble collapse.",
+      "definition_ru": "Экстремальная ситуация, когда инъекции денег больше не влияют на процентные ставки, делая монетарную политику неэффективной. Происходит во время дефляции, когда ставки близки к нулю или ниже. Потребители сокращают расходы, вызывая дальнейшую дефляцию и рост реального долга. Стандартные инструменты политики терпят неудачу. Япония испытала это после краха пузыря недвижимости 1990-х годов.",
+      "formula": null,
+      "los_id": "LOS_4c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-035",
+      "term_en": "Quantitative Easing (QE)",
+      "term_ru": "Количественное смягчение",
+      "definition_en": "Alternative monetary policy tool when standard tools fail. Involves large-scale asset purchases to inject money into economy. Aims to stimulate lending and boost economic activity. Central banks can buy various assets if permitted. Success not guaranteed. Buying risky assets dangerous - losses could cause confidence crisis in fiat money.",
+      "definition_ru": "Альтернативный инструмент монетарной политики, когда стандартные инструменты терпят неудачу. Включает крупномасштабные покупки активов для инъекции денег в экономику. Направлено на стимулирование кредитования и повышение экономической активности. Центральные банки могут покупать различные активы, если разрешено. Успех не гарантирован. Покупка рискованных активов опасна - убытки могут вызвать кризис доверия к фиатным деньгам.",
+      "formula": null,
+      "los_id": "LOS_4c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-036",
+      "term_en": "Deflation",
+      "term_ru": "Дефляция",
+      "definition_en": "Continuous fall in prices. Challenging for standard monetary policy as slashing rates near/below zero might not be effective. Results in reduced consumer spending, further deflation, and rising real debt burden. Can lead to liquidity trap. Requires alternative policies like quantitative easing.",
+      "definition_ru": "Непрерывное падение цен. Сложно для стандартной монетарной политики, так как снижение ставок до нуля или ниже может быть неэффективным. Приводит к снижению потребительских расходов, дальнейшей дефляции и росту реального долгового бремени. Может привести к ловушке ликвидности. Требует альтернативных политик, таких как количественное смягчение.",
+      "formula": "$\\text{Inflation rate} < 0\\%$",
+      "los_id": "LOS_4c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-037",
+      "term_en": "Bond Market Vigilantes",
+      "term_ru": "Бдительные облигационного рынка",
+      "definition_en": "Market participants who affect bond yields based on their perception of monetary policy's efficacy. Can cause transmission mechanism problems by pushing long-term rates opposite to central bank's intentions. If they believe policy ineffective, might cause long-term rates to fall even when short-term rates rise.",
+      "definition_ru": "Участники рынка, которые влияют на доходность облигаций на основе их восприятия эффективности монетарной политики. Могут вызвать проблемы механизма трансмиссии, толкая долгосрочные ставки в противоположность намерениям центрального банка. Если они считают политику неэффективной, могут вызвать падение долгосрочных ставок, даже когда краткосрочные ставки растут.",
+      "formula": null,
+      "los_id": "LOS_4c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-038",
+      "term_en": "Monetary Policy Challenges (Developing Countries)",
+      "term_ru": "Вызовы монетарной политики (развивающиеся страны)",
+      "definition_en": "Emerging economies face notable challenges: lack of well-established government bond and interbank markets, history of inflation control struggles undermining credibility, unwillingness to grant true central bank independence, rapid changes in financial methodologies altering money supply meaning, and constantly evolving economy complicating neutral rate determination.",
+      "definition_ru": "Развивающиеся экономики сталкиваются с заметными вызовами: отсутствие хорошо развитых рынков государственных облигаций и межбанковских рынков, история борьбы с контролем инфляции, подрывающая доверие, нежелание предоставить истинную независимость центрального банка, быстрые изменения в финансовых методологиях, изменяющие значение денежной массы, и постоянно развивающаяся экономика, усложняющая определение нейтральной ставки.",
+      "formula": null,
+      "los_id": "LOS_4c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-039",
+      "term_en": "Easy Fiscal/Tight Monetary Policy",
+      "term_ru": "Мягкая фискальная/жесткая монетарная",
+      "definition_en": "Policy combination where government reduces taxes or increases spending (fiscal boost) while central bank reduces money supply. Result: aggregate output rises but interest rates increase, diminishing private sector demand. Government spending becomes larger part of national income. Public sector expands relative to private sector.",
+      "definition_ru": "Комбинация политик, при которой правительство снижает налоги или увеличивает расходы (фискальный стимул), в то время как центральный банк сокращает денежную массу. Результат: совокупный выпуск растет, но процентные ставки увеличиваются, снижая спрос частного сектора. Государственные расходы становятся большей частью национального дохода. Государственный сектор расширяется относительно частного.",
+      "formula": "↑ G or ↓ T + ↓ Money supply → ↑ Output, ↑ Interest rates, ↑ Public/Private ratio",
+      "los_id": "LOS_4d",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-040",
+      "term_en": "Tight Fiscal/Easy Monetary Policy",
+      "term_ru": "Жесткая фискальная/мягкая монетарная",
+      "definition_en": "Policy combination where government reduces spending or increases taxes (fiscal reduction) while central bank accommodates with increased money supply and decreased interest rates. Result: private sector boosted and grows share of GDP while public sector diminishes. Encourages private investment.",
+      "definition_ru": "Комбинация политик, при которой правительство сокращает расходы или увеличивает налоги (фискальное сокращение), в то время как центральный банк приспосабливается с увеличенной денежной массой и сниженными процентными ставками. Результат: частный сектор стимулируется и увеличивает долю в ВВП, в то время как государственный сектор уменьшается. Поощряет частные инвестиции.",
+      "formula": "↓ G or ↑ T + ↑ Money supply → ↓ Interest rates, ↑ Private sector, ↓ Public sector",
+      "los_id": "LOS_4d",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-041",
+      "term_en": "Easy Monetary/Easy Fiscal Policy",
+      "term_ru": "Мягкая монетарная/мягкая фискальная",
+      "definition_en": "Policy combination where both fiscal (increased spending/reduced taxes) and monetary (increased money supply) stances are accommodating. Combined effect is highly stimulative. Results in spike in aggregate demand, potentially reduced interest rates, and expansion of both private and public sectors. Risk of overheating and inflation.",
+      "definition_ru": "Комбинация политик, при которой как фискальная (увеличенные расходы/сниженные налоги), так и монетарная (увеличенная денежная масса) позиции являются приспосабливающимися. Комбинированный эффект очень стимулирующий. Приводит к всплеску совокупного спроса, потенциально сниженным процентным ставкам и расширению как частного, так и государственного секторов. Риск перегрева и инфляции.",
+      "formula": "↑ G or ↓ T + ↑ Money supply → ↑↑ Aggregate demand, ↓ Rates, ↑ Both sectors",
+      "los_id": "LOS_4d",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-042",
+      "term_en": "Tight Monetary/Tight Fiscal Policy",
+      "term_ru": "Жесткая монетарная/жесткая фискальная",
+      "definition_en": "Policy combination where government reduces spending/increases taxes and central bank reduces money supply. Interest rates potentially increase, suppressing private demand. Simultaneously, elevated taxes and reduced government expenditure decrease aggregate demand from both public and private sectors. Highly contractionary, used to combat severe inflation.",
+      "definition_ru": "Комбинация политик, при которой правительство сокращает расходы/увеличивает налоги, а центральный банк сокращает денежную массу. Процентные ставки потенциально увеличиваются, подавляя частный спрос. Одновременно повышенные налоги и сокращенные государственные расходы снижают совокупный спрос как от государственного, так и от частного секторов. Очень сдерживающая, используется для борьбы с серьезной инфляцией.",
+      "formula": "↓ G or ↑ T + ↓ Money supply → ↑ Rates, ↓↓ Aggregate demand, ↓ Both sectors",
+      "los_id": "LOS_4d",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-043",
+      "term_en": "Fiscal Multiplier (with Monetary Accommodation)",
+      "term_ru": "Фискальный мультипликатор (с монетарной поддержкой)",
+      "definition_en": "Impact of government spending on GDP varies significantly based on monetary policy response. Without monetary accommodation, government spending has larger effect than social transfers. With monetary accommodation, fiscal multipliers are generally larger. Government expenditure and social transfers impact on GDP grows substantially except for labor tax cuts.",
+      "definition_ru": "Влияние государственных расходов на ВВП значительно варьируется в зависимости от ответа монетарной политики. Без монетарной поддержки государственные расходы имеют больший эффект, чем социальные трансферты. С монетарной поддержкой фискальные мультипликаторы обычно больше. Влияние государственных расходов и социальных трансфертов на ВВП существенно растет, кроме сокращений налогов на труд.",
+      "formula": "Direct spending > Transfers > Tax cuts; Effect ↑↑ with monetary accommodation",
+      "los_id": "LOS_4d",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-044",
+      "term_en": "Potential Output Growth Promotion",
+      "term_ru": "Содействие росту потенциального выпуска",
+      "term_en": "Policy objective where governments aim to stabilize aggregate demand near full employment and grow potential output. Achieved through accommodative monetary policy (low interest rates) and tight fiscal policy to ensure resources for growing private sector. Encourages private investment through favorable financing conditions.",
+      "definition_ru": "Цель политики, при которой правительства стремятся стабилизировать совокупный спрос около полной занятости и увеличивать потенциальный выпуск. Достигается через приспосабливающуюся монетарную политику (низкие процентные ставки) и жесткую фискальную политику для обеспечения ресурсов для растущего частного сектора. Поощряет частные инвестиции через благоприятные условия финансирования.",
+      "formula": "Easy monetary + Tight fiscal → ↑ Private investment → ↑ Potential output",
+      "los_id": "LOS_4d",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-4-045",
+      "term_en": "Policy Coordination Challenges",
+      "term_ru": "Вызовы координации политик",
+      "definition_en": "Difficulties in aligning monetary and fiscal policies due to: imprecise current economic data with revisions and time lags, fiscal policy being slower to implement than monetary, political factors influencing fiscal decisions, uncertain effectiveness of fiscal tools (e.g., Ricardian equivalence), and different institutional decision-makers with varying objectives.",
+      "definition_ru": "Трудности в согласовании монетарной и фискальной политик из-за: неточных текущих экономических данных с пересмотрами и временными лагами, более медленной реализации фискальной политики, чем монетарной, политических факторов, влияющих на фискальные решения, неопределенной эффективности фискальных инструментов (например, рикардианская эквивалентность) и разных институциональных лиц, принимающих решения с разными целями.",
+      "formula": null,
+      "los_id": "LOS_4d",
+      "calculator": null
+    }
+  ]
 }
