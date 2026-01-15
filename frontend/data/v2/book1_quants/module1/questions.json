@@ -1,3 +1,1661 @@
 {
-  "questions": []
+  "book_id": 1,
+  "book_code": "QM",
+  "book_name": "Quantitative Methods",
+  "book_name_ru": "Количественные методы",
+  "module_id": 1,
+  "module_name": "Rate and Return",
+  "module_name_ru": "Ставки и доходность",
+  "total_questions": 36,
+  "questions": [
+    {
+      "question_id": "QM-1-Q013",
+      "question_number": 13,
+      "term_id": "QM-1-015",
+      "los_id": "LOS_1d",
+      "question_text": "A bank offers you a Certificate of Deposit (CD) with a three-year maturity with a stated annual interest rate of 8% compounded quarterly and allows you to reinvest the interests at the same rate. The worth of the CD at maturity if you invest $150,000 now is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "$188,956.80"
+        },
+        {
+          "id": "opt2",
+          "text": "$189,797.85"
+        },
+        {
+          "id": "opt3",
+          "text": "$190,236.27"
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": "The question requires the calculation of the Future Value of a lump sum with quarterly compounding as follows; PV = Present value of the investment. rs = Annual interest rate. m = Quarterly compounding annually. mN = Total compounding for the investment period(4 x 3 years= 12 quarters) Therefore;",
+      "explanation_ru": "",
+      "explanation_formula": "$FV_N = PV \\left[1 + \\frac{r_s}{m}\\right]^{mN}$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. The amount represents the future value with annual and not with quarterly compounding as follows;",
+          "text_ru": "",
+          "formula": "$FVN = $150, 000(1 + 0.08)3= $188, 956.80$"
+        },
+        "opt2": {
+          "text": "B is incorrect. The amount represents the future value with half-yearly compounding and not with quarterly compounding as follows;",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-1-Q015",
+      "question_number": 15,
+      "term_id": "QM-1-015",
+      "los_id": "LOS_1d",
+      "question_text": "Spire Bank offers to pay an investor a 10% interest payment compounded monthly. If interest payments are reinvested at 10%, the investor's future value if the initial investment is $2,000,000 for one year is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "$2,200,000"
+        },
+        {
+          "id": "opt2",
+          "text": "$2,205,000"
+        },
+        {
+          "id": "opt3",
+          "text": "$2,209,426"
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": "The question requires the calculation of the Future Value of a lump sum with monthly Compounding as follows; PV = Initial investment amount. r = Interest rate compounded monthly. m = Interest periods. N = Investment period. Therefore; FVN = $2, 000, 000(1 + 0.1)1= $2, 200, 000.00 4 © 2014-2024 AnalystPrep.",
+      "explanation_ru": "",
+      "explanation_formula": "$FV_N = PV \\left[1 + \\frac{r_s}{m}\\right]^{mN}$",
+      "explanation_wrong": {
+        "opt2": {
+          "text": "B is incorrect. The amount represents the future value compounded bi-annually instead of monthly as follows;",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [
+        "PV=-2,000,000",
+        "I/Y=10/12=0.83",
+        "N=1×12=12",
+        "PMT=0",
+        "CPT => FV = 2,209,426.14"
+      ],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-1-Q024",
+      "question_number": 24,
+      "term_id": "QM-1-015",
+      "los_id": "LOS_1d",
+      "question_text": "An investment asset offers to pay a 13% interest compounded quarterly with a maturity of 3 years. In addition, the investor has the right to reinvest the interests at the same rate of 13%. If an investor currently invests $400,000, the worth of the investment asset at maturity is closest to.",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "USD 577,158.80"
+        },
+        {
+          "id": "opt2",
+          "text": "USD 583,656.92"
+        },
+        {
+          "id": "opt3",
+          "text": "USD 587,138.71"
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": "The question requires the calculation of the Future Value of a lump sum with quarterly compounding as follows; rs- Quarterly compound interest m- Annual compounding periods N- Investment maturity period Therefore; 5 © 2014-2024 AnalystPrep.",
+      "explanation_ru": "",
+      "explanation_formula": "$FV_N = PV \\left[1 + \\frac{r_s}{m}\\right]^{mN}$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. The amount represents the future value assuming annual compounding as opposed to quarterly compounding as follows;",
+          "text_ru": "",
+          "formula": "$FVN = $400, 000(1 + 0.13)3= $577, 158.80$"
+        },
+        "opt2": {
+          "text": "B is incorrect. The amount represents the future value assuming bi-annual compounding as opposed to quarterly compounding as follows;",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [
+        "N=3×4 =12",
+        "I/Y=13/4 =3.25",
+        "PMT=0",
+        "PV = -$400,000",
+        "CPT=>FV = $587,138.71"
+      ],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-1-Q026",
+      "question_number": 26,
+      "term_id": "QM-1-016",
+      "los_id": "LOS_1d",
+      "question_text": "An investor wants to invest $600,000 in an asset paying a 5% interest compounded continuously for four years. The value of the investment in 4 years is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "$729,303.75"
+        },
+        {
+          "id": "opt2",
+          "text": "$732,831.62"
+        },
+        {
+          "id": "opt3",
+          "text": "$732,841.65"
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": "The question requires the calculation of the Future Value of a lump sum with continuous compounding as follows; FVN = PV ersN PV = Initial investment. e = Transcendental number e ≈ 2.7182818 rs = Interest rate. N = Investment period. Therefore; FVN = $600,000 × e(0.05×4)= $732, 841.65 Note that the Plus Pro- Calculator is not applicable when calculating continuously compounded interest.",
+      "explanation_ru": "",
+      "explanation_formula": "$FV_N = PV \\cdot e^{r_s \\cdot N}$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect . The amount represents the FutureValue after 4four years, assuming annual and not continuous compounding as follows;",
+          "text_ru": "",
+          "formula": "$FV = $600, 000(1 + 0.05)4= $600,000 × 1.216 = $729, 303.75$"
+        },
+        "opt2": {
+          "text": "B is incorrect. The amount represents the Future Value after four years, assuming daily and not continuous compounding as follows;",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "EASY",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-1-Q045",
+      "question_number": 45,
+      "term_id": "QM-1-015",
+      "los_id": "LOS_1d",
+      "question_text": "Consider an investment with a stated annual interest rate of 11%. The effective interest rate (EAR) using quarterly compounding for this investment is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2.75%"
+        },
+        {
+          "id": "opt2",
+          "text": "11.00%"
+        },
+        {
+          "id": "opt3",
+          "text": "11.50%."
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": "It's important to note that the stated annual interest rate does not give a future value directly. We, therefore, need a formula for the EAR as follows; EAR = (1 + periodic interest rate)m−1 The periodic interest rate is the stated annual interest rate divided by m, where m is the number of compounding periods in one year as follows; Therefore; EAR = (1 + 0.0275)4−1 = 0.115 or 11.50",
+      "explanation_ru": "",
+      "explanation_formula": "$FV_N = PV \\left[1 + \\frac{r_s}{m}\\right]^{mN}$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. The indicated rate depicts the periodic interest rate and not the EAR as required in the question.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt2": {
+          "text": "B is incorrect. It assumes that the annual interest rate is equal to the EAR, which is not the case.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "EASY",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-1-Q128",
+      "question_number": 128,
+      "term_id": "QM-1-007",
+      "los_id": "LOS_1b",
+      "question_text": "An asset manager's portfolio had the following annual rates of return:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "3.91%"
+        },
+        {
+          "id": "opt2",
+          "text": "4%"
+        },
+        {
+          "id": "opt3",
+          "text": "12.19%"
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": "The holding period return (HPR) for a portfolio over multiple periods can be calculated by multiplying the individual period returns together and then subtracting 1. This approach takes into account the compounding effect of the returns over time. For the given portfolio, the calculation of HPR over the three years is as follows: HPR = [(1 + R1) × (1 + R2) × (1 + R3)] −1 HPR = (1 + 0.08) × (1 + 0.06) × (1 −0.02) −1 = 12.19",
+      "explanation_ru": "",
+      "explanation_formula": "$HPR = \\frac{P_1 - P_0 + D_1}{P_0}$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. The option suggesting a 3.91% return does not correctly apply the compounding effect of the annual returns over the three years.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt2": {
+          "text": "B is incorrect. A 4% return might be an oversimplified interpretation of the portfolio's performance, possibly an average of the annual returns without considering the negative impact of the -2% return in 2014 and the compounding effect over the years. This calculation fails to accurately reflect the cumulative impact of the annual returns on the portfolio's overall performance.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "EASY",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-1-Q219",
+      "question_number": 219,
+      "term_id": null,
+      "los_id": "LOS_1a",
+      "question_text": "You expect XYZ's stock to have a price of USD 142 at the end of the year. Also, you expect",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "USD 144.60"
+        },
+        {
+          "id": "opt2",
+          "text": "USD 122.80"
+        },
+        {
+          "id": "opt3",
+          "text": "USD 131.50"
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": "Let P be the price you are willing to pay today. 142 −P + 4 = 0.11P 146 = 1.11P P = 131.5",
+      "explanation_ru": "",
+      "explanation_formula": null,
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. The calculation for option A does not correctly apply the formula for determining the price to pay today to achieve the desired return on investment. It seems to ignore the dividend and does not correctly account for the 11% desired return.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt2": {
+          "text": "B is incorrect. The calculation for option B likely results from a misunderstanding of the relationship between the future price, the dividend, and the desired return on investment. CFA Level 1, Portfolio Management, Learning Module 1: Portfolio Risk and Return: Part I, LOS (a) Describe characteristics of the major asset classes that investors consider in forming portfolios.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": false,
+      "calculator_steps": [],
+      "difficulty": "EASY",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-1-Q221",
+      "question_number": 221,
+      "term_id": "QM-1-007",
+      "los_id": "LOS_1a",
+      "question_text": "An investor buys 4 shares of UUA stock at $44. During the year, the company pays a $3 special dividend per share. Then, at the end of the first year, the investor buys 5 more shares at $46. Lastly, at the end of the second year, he sold all the shares for $57. If there was no dividend during the second year, what is the time-weighted rate of return of this investment?",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "11.4%"
+        },
+        {
+          "id": "opt2",
+          "text": "15.2%"
+        },
+        {
+          "id": "opt3",
+          "text": "17.4%"
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": "HPR(first year) = (46 −44 + 3) = 0.1136 44 Time-weighted return = ((1 + 0.1136) × (1 + 0.2391))1/2−1 = 0.174 or 17.4%",
+      "explanation_ru": "",
+      "explanation_formula": "$HPR = \\frac{P_1 - P_0 + D_1}{P_0}$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. An 11.4% return would suggest only considering the first year's performance without properly accounting for the compounding effect over the two years.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt2": {
+          "text": "B is incorrect. A 15.2% return underestimates the combined effect of the first year's dividend and the second year's capital gain. It does not accurately reflect the geometric linking of the two periods' returns as required by the TWR calculation.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-1-Q397",
+      "question_number": 397,
+      "term_id": "QM-1-015",
+      "los_id": "LOS_1d",
+      "question_text": "For an investment of ¥10,000, an institution promises to pay you a lump sum 10 years from now at a 6 % annual interest rate. The future amount you can expect if the interest is compounded monthly is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "¥ 17,908.48"
+        },
+        {
+          "id": "opt2",
+          "text": "¥ 18,193.97"
+        },
+        {
+          "id": "opt3",
+          "text": "¥ 18,220.29"
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "The future value is determined using the following formula; FVN = PV (1 + r)N PV = Present value of the investment. r = Interest rate compounded monthly. N = Monthly investment period. Therefore;",
+      "explanation_ru": "",
+      "explanation_formula": "$FV_N = PV \\left[1 + \\frac{r_s}{m}\\right]^{mN}$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. It represents the future value of the investment but with annual compounding as follows;",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. It represents the future value of the investment but with daily compounding as follows;",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-1-Q399",
+      "question_number": 399,
+      "term_id": "QM-1-015",
+      "los_id": "LOS_1d",
+      "question_text": "Chris Wright wants to save money to travel around the world. He decides to save $30,000 for a year in a bank, and the bank offers to pay him 9% compounded monthly. The future value of Mr. Wright's investment if interest payments are reinvested at 9% is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "USD 32,700.00"
+        },
+        {
+          "id": "opt2",
+          "text": "USD 32,792.50"
+        },
+        {
+          "id": "opt3",
+          "text": "USD 32,814.21"
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": "The question requires the calculation of the Future Value of a lump sum with monthly Compounding as follows; PV = Present value of the investment. rs = Annual interest rate. m = Monthly compounding. = Investment period. N A is incorrect. The amount represents 9% with annual compounding as follows; FVN = $30, 000 (1.09) = $32,700.00",
+      "explanation_ru": "",
+      "explanation_formula": "$FV_N = PV \\left[1 + \\frac{r_s}{m}\\right]^{mN}$",
+      "explanation_wrong": {
+        "opt2": {
+          "text": "B is incorrect. The amount represents 9% with quarterly compounding as follows;",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-1-Q404",
+      "question_number": 404,
+      "term_id": "QM-1-007",
+      "los_id": "LOS_1d",
+      "question_text": "An 8% annual-coupon bond was purchased for $1,000. Exactly one year later, the bond was sold for $975. What is the investor's holding period yield if the face value of the bond is $ 1,000?",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "-2.5%"
+        },
+        {
+          "id": "opt2",
+          "text": "5.5%"
+        },
+        {
+          "id": "opt3",
+          "text": "8%"
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "The holding period return is defined as: Alternative explanation: To calculate the holding period yield, we need to first calculate the total dollar return on the investment. To do this, we take the difference between the selling price and the purchase price and add any coupon payments received during the holding period. In this case, the investor received an annual coupon payment of was $80 + ($975 −$1,000) = $55 . 8% × $1, 000 face value = $80 , so the total dollar return The holding period yield is then calculated by dividing the total dollar return by the purchase the investment. However, when considering both the capital loss of $25 and the coupon payment of $80, the overall return is positive, not negative.",
+      "explanation_ru": "",
+      "explanation_formula": "$HPR = \\frac{P_1 - P_0 + D_1}{P_0}$",
+      "explanation_wrong": {
+        "opt3": {
+          "text": "C is incorrect. This option suggests a holding period yield of 8%, which corresponds to the annual coupon rate of the bond but does not account for the capital loss incurred from selling the bond at a lower price than it was purchased. The holding period yield must reflect both the income from coupon payments and the capital gain or loss on the bond, which is not the case with an 8% yield in this scenario.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-1-Q770",
+      "question_number": 770,
+      "term_id": "QM-1-007",
+      "los_id": "LOS_1d",
+      "question_text": "Rick Hassler earned the following annual rates of return by holding shares of XYZ Inc. for a period of five years:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "94%."
+        },
+        {
+          "id": "opt2",
+          "text": "21%."
+        },
+        {
+          "id": "opt3",
+          "text": "14%."
+        }
+      ],
+      "correct_option_id": "opt1",
+      "explanation": "HPR = (1 + 0.13) × (1 + 0.19) × (1 −0.11) × (1 + 0.25) × (1 + 0.30) −1 = 0.94 or 94% The holding period return (HPR) is the return on an asset or portfolio over the whole period during which it was held. It is one of the simplest and most important measures of investment performance.",
+      "explanation_ru": "",
+      "explanation_formula": "$HPR = \\frac{P_1 - P_0 + D_1}{P_0}$",
+      "explanation_wrong": {
+        "opt2": {
+          "text": "B is incorrect. The option suggesting a 21% return does not accurately reflect the compounded annual growth rate (CAGR) or the overall HPR for the investment. It might represent an average or simple mean of the annual returns, but this method does not account for the compounding of returns, which is crucial for calculating the total return over multiple periods.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. Suggesting a 14% return significantly underestimates the actual compounded return over the five-year period. This figure might represent a misunderstanding of how to calculate the HPR or a miscalculation that fails to account for the compounding of annual returns, especially the recovery and significant growth following the negative return year.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "EASY",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-1-Q1303",
+      "question_number": 1303,
+      "term_id": "QM-1-008",
+      "los_id": "LOS_1d",
+      "question_text": "A stock returned 2%, 9%, -3%, 13%, and  over five years. If the arithmetic mean return over the five years is 2.8%, then the fifth year return is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "10%."
+        },
+        {
+          "id": "opt2",
+          "text": "21%."
+        },
+        {
+          "id": "opt3",
+          "text": "-7%."
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": "To find the fifth year return, , we use the formula for the arithmetic mean return over the five years. The arithmetic mean return is given by the sum of the annual returns divided by the number of years. Therefore, we have: (2% + 9% −3% + 13% + x) = 2.8% 5 (2% + 9% −3% + 13% + x) = 14% x = 14% −2% −9% + 3% −13% = −7%",
+      "explanation_ru": "",
+      "explanation_formula": "$\\bar{R} = \\frac{1}{n}\\sum_{i=1}^{n}R_i$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. Suggesting a fifth year return of 10% does not align with the arithmetic mean calculation. Using a 10% return for the fifth year would result in an arithmetic mean that is higher than 2.8%, which contradicts the given condition.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt2": {
+          "text": "B is incorrect. Proposing a fifth year return of 21% significantly deviates from the required arithmetic mean of 2.8%. Incorporating a 21% return for the fifth year would substantially increase the average beyond the specified mean, demonstrating a misunderstanding of how the arithmetic mean is calculated in this context.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-1-Q1305",
+      "question_number": 1305,
+      "term_id": "QM-1-009",
+      "los_id": "LOS_1d",
+      "question_text": "Calculate the geometric mean of a fund that returned -22%, 18%, 9%, 6% and -2% in 5 years.",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "0.83%"
+        },
+        {
+          "id": "opt2",
+          "text": "6%"
+        },
+        {
+          "id": "opt3",
+          "text": "18%"
+        }
+      ],
+      "correct_option_id": "opt1",
+      "explanation": "Geometric mean = ((0.78)(1.18)(1.09)(1.06)(0.98))1/5−1 = 0.83%",
+      "explanation_ru": "",
+      "explanation_formula": "$R_G = \\sqrt[n]{\\prod_{i=1}^{n}(1+R_i)} - 1$",
+      "explanation_wrong": {
+        "opt2": {
+          "text": "B is incorrect. Calculating a simple average of the returns or misunderstanding the formula for geometric mean could lead to an incorrect answer such as 6%. This does not accurately reflect the compounded growth rate of the investment over the period.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. An answer of 18% significantly overestimates the performance of the fund.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "EASY",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-1-Q1317",
+      "question_number": 1317,
+      "term_id": "QM-1-021",
+      "los_id": "LOS_1d",
+      "question_text": "An investment grows in value from $1000 to $1352. However, the investor had invested $500 of his money and the remaining $500 was borrowed money. Assuming no interest, the return on the leveraged position is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "70%."
+        },
+        {
+          "id": "opt2",
+          "text": "35%."
+        },
+        {
+          "id": "opt3",
+          "text": "105%."
+        }
+      ],
+      "correct_option_id": "opt1",
+      "explanation": "If the entire $1000 was the investor’s money, then it is an unleveraged position, and the investor’s returns would be: Since the investor had invested $500 of his money and the remaining $500 was borrowed money, this is a leveraged position. Assuming no interest cost, the return on the leveraged position is:",
+      "explanation_ru": "",
+      "explanation_formula": null,
+      "explanation_wrong": {
+        "opt2": {
+          "text": "B is incorrect. The 35% return would be accurate if the investment was not leveraged, meaning if the entire $1000 was the investor's own money. This calculation reflects the simple gain on the total investment without considering the effects of leverage. It's a common mistake to overlook the impact of borrowing on the return calculations, which significantly alters the outcome in scenarios involving leveraged investments.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. A return of 105% would imply an even greater amplification of the investment's performance than what is actually achieved through the leverage used in this scenario. This option might result from a misunderstanding of how leverage impacts returns or a miscalculation involving the proportion of borrowed funds to own funds. It's essential to accurately calculate the return on the equity portion of a leveraged investment to understand the true impact of leverage on investment performance.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-1-Q1318",
+      "question_number": 1318,
+      "term_id": "QM-1-018",
+      "los_id": "LOS_1d",
+      "question_text": "A portfolio return which is calculated after deducting fees from its return is called:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Gross return."
+        },
+        {
+          "id": "opt2",
+          "text": "Net return."
+        },
+        {
+          "id": "opt3",
+          "text": "Geometric return."
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "Net return is calculated after deducting management fees. This is because net return takes into account all costs associated with managing and operating the investment, including management fees, performance fees, and other expenses. By deducting these fees, the net return provides a more accurate reflection of the actual return the investor receives. It is an essential measure for investors to consider, as it shows the real performance of their investment after all costs have been accounted for.",
+      "explanation_ru": "",
+      "explanation_formula": null,
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. Gross return refers to the total return on an investment before any fees, expenses, or taxes are deducted. It represents the raw earnings of the portfolio without considering the costs that affect the investor's actual gains. While gross return can be useful for comparing the performance of different investments without the variable of differing fee structures, it does not provide a realistic view of what the investor will ultimately receive.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. Geometric return, also known as the compound annual growth rate (CAGR), is a different concept altogether. It measures the average rate of return of an investment over a specified time period, assuming the investment has been compounding over that time. The geometric return is useful for comparing the performance of investments over time, taking into account the effect of compounding. However, it does not specifically refer to the deduction of fees or expenses from the return.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "EASY",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-1-Q1319",
+      "question_number": 1319,
+      "term_id": "QM-1-009",
+      "los_id": "LOS_1d",
+      "question_text": "A 3-year fund returned -3%, 6% and 8% respectively. The geometric mean for this fund is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "3.55%."
+        },
+        {
+          "id": "opt2",
+          "text": "4%."
+        },
+        {
+          "id": "opt3",
+          "text": "2.78%."
+        }
+      ],
+      "correct_option_id": "opt1",
+      "explanation": "Geometric mean = ((0.97)(1.06)(1.08))(1/3)−1 = 3.55%",
+      "explanation_ru": "",
+      "explanation_formula": "$R_G = \\sqrt[n]{\\prod_{i=1}^{n}(1+R_i)} - 1$",
+      "explanation_wrong": {
+        "opt2": {
+          "text": "B is incorrect. It suggests the geometric mean is 4%, which overestimates the compounded effect of the given returns. The calculation of the geometric mean takes into account the negative return in the first year, which impacts the overall growth rate of the investment. C is incorrect. It suggests the geometric mean is 2.78%, which underestimates the compounded growth of the investment. This might result from a miscalculation or misunderstanding of how the geometric mean accounts for the sequence of returns, especially the recovery and growth in the subsequent years after a negative return. The geometric mean accurately reflects the rate at which the investment has grown on average per year, taking into account the effect of compounding, which is not as low as 2.78% in this case.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "EASY",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-1-Q1320",
+      "question_number": 1320,
+      "term_id": "QM-1-008",
+      "los_id": "LOS_1d",
+      "question_text": "An investor holds a stock that has been quite volatile over the past few years. The geometric mean return value will most likely be:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Higher than the arithmetic mean return value."
+        },
+        {
+          "id": "opt2",
+          "text": "Lower than the arithmetic mean return value."
+        },
+        {
+          "id": "opt3",
+          "text": "The same as the arithmetic mean return value."
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "The geometric mean return value will be less than the arithmetic mean return value if the returns have varied significantly from year to year. This is because the arithmetic mean tends to overstate the actual average return by a greater and greater amount the more the inputs vary. A is incorrect. The arithmetic mean simply calculates the average of returns without considering the compounding effect, which can lead to an overestimation of the actual performance of an investment. In scenarios where there is significant volatility, the arithmetic mean does not accurately reflect the impact of negative returns, which can be mitigated in the geometric mean through its multiplicative process.",
+      "explanation_ru": "",
+      "explanation_formula": "$R_G = \\sqrt[n]{\\prod_{i=1}^{n}(1+R_i)} - 1$",
+      "explanation_wrong": {
+        "opt3": {
+          "text": "C is incorrect. The geometric mean accounts for the compounding effect and the sequence of returns, which can significantly affect the investment's growth over time. Therefore, for volatile investments, the geometric mean provides a more accurate and often more conservative measure of average return.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "EASY",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-1-Q1322",
+      "question_number": 1322,
+      "term_id": "QM-1-007",
+      "los_id": "LOS_1d",
+      "question_text": "Which of the following is used to measure the return on an investment over a specific period?",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Holding period return"
+        },
+        {
+          "id": "opt2",
+          "text": "Geometric mean"
+        },
+        {
+          "id": "opt3",
+          "text": "Arithmetic mean"
+        }
+      ],
+      "correct_option_id": "opt1",
+      "explanation": "HPR is used to calculate the return over a specific period. Arithmetic and geometric means are used to calculate the returns over many periods.",
+      "explanation_ru": "",
+      "explanation_formula": "$HPR = \\frac{P_1 - P_0 + D_1}{P_0}$",
+      "explanation_wrong": {
+        "opt2": {
+          "text": "B is incorrect. The arithmetic mean is a simple average of returns over multiple periods and does not accurately reflect the compounding effects or the variability of returns over time. It is calculated by summing the returns for each period and dividing by the number of periods. While useful for estimating average returns, it does not provide a precise measure of the actual return realized over a specific investment period.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. The geometric mean, on the other hand, is a better measure for calculating the average rate of return per period on an investment that is compounded over multiple periods. It accounts for the compounding effect by taking the nth root (where n is the number of periods) of the product of (1 + return for each period), minus one. This method ensures that the sequence of returns is accurately reflected in the average, making it more suitable for evaluating the performance of an investment over multiple periods. However, it does not specifically measure the return over a single, specific period like the HPR does.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "EASY",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-1-Q1324",
+      "question_number": 1324,
+      "term_id": "QM-1-013",
+      "los_id": "LOS_1d",
+      "question_text": "Janet Taylor purchased a single share of AMC Corp for $30 at t=0. She bought an additional unit for $42 at t=1. If at t=2 she sold both shares for $55 each, the money-weighted return of the investment is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "33.88%."
+        },
+        {
+          "id": "opt2",
+          "text": "31.78%."
+        },
+        {
+          "id": "opt3",
+          "text": "29.45%."
+        }
+      ],
+      "correct_option_id": "opt1",
+      "explanation": "The money-weighted rate of return (MWRR) refers to the internal rate of return on a portfolio. It is the rate of discount, r, at which: PV of cash outflows = PV of cash inflows The money-weighted rate of return on a fund satisfies the equation of value by taking into account the initial and final fund values, as well as the intermediate cash flows. When dealing with an investment portfolio, cash inflows comprise of: The beginning value, dividends /interest reinvested, withdrawals made. Cash outflows, on the other hand, refer to; the final value of the fund, dividends/interest received, contributions. CF1=30; CF2=42; CF3=-110; CPT -> IRR = 33.88%",
+      "explanation_ru": "",
+      "explanation_formula": "$\\sum_{t=0}^{n} \\frac{CF_t}{(1+IRR)^t} = 0$",
+      "explanation_wrong": {
+        "opt2": {
+          "text": "B is incorrect. A MWRR of 31.78% does not accurately reflect the internal rate of return for the given cash flows. This value might result from a miscalculation or misunderstanding of the cash flows' timing and amounts.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. A MWRR of 29.45% significantly underestimates the actual return on Janet Taylor's investment.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-1-Q1325",
+      "question_number": 1325,
+      "term_id": "QM-1-019",
+      "los_id": "LOS_1d",
+      "question_text": "What is the exact real return of an investment which earned a yearly nominal return of 11% if the inflation during the same period was 4%?",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "7%"
+        },
+        {
+          "id": "opt2",
+          "text": "9.34%"
+        },
+        {
+          "id": "opt3",
+          "text": "6.73%"
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": "",
+      "explanation_ru": "",
+      "explanation_formula": null,
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. Suggesting a real return of 7% overlooks the impact of inflation on the nominal return. Simply subtracting the inflation rate from the nominal return, a common mistake, does not accurately account for how inflation erodes the purchasing power of the returns.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt2": {
+          "text": "B is incorrect. Indicating a real return of 9.34% significantly overestimates the effect of adjusting the nominal return for inflation.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "EASY",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-1-Q2670",
+      "question_number": 2670,
+      "term_id": "QM-1-013",
+      "los_id": "LOS_1d",
+      "question_text": "Jane Sonam is a value investor who recently started investing in tech companies. As her financial adviser, you are given a task to calculate the money-weighted return of her investments in Solar Inc. In the beginning, Jane Sonam purchases 10 shares of Solar Inc. at $110. One year later, she purchased an additional 5 shares at $120. Assuming that the stock paid a dividend of $2 per share each year, calculate the money-weighted return if she sold all 15 shares for $122 at the end of the second year.",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "6.31%"
+        },
+        {
+          "id": "opt2",
+          "text": "10.58"
+        },
+        {
+          "id": "opt3",
+          "text": "12.35%"
+        }
+      ],
+      "correct_option_id": "opt1",
+      "explanation": "As presented in the following table, the money-weighted return or IRR is: CF0 = -1,100, CF1 =-580, CF2 = 1,860, CPT=>IRR = 6.31%",
+      "explanation_ru": "",
+      "explanation_formula": "$\\sum_{t=0}^{n} \\frac{CF_t}{(1+IRR)^t} = 0$",
+      "explanation_wrong": {
+        "opt2": {
+          "text": "B is incorrect. The figure 10.58% does not accurately reflect the money-weighted return of Jane's investment based on the given cash flows. This option may result from a miscalculation or misunderstanding of the money-weighted return concept, which requires accurately accounting for the timing and amount of each cash flow.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. The figure 12.35% also does not match the calculated money-weighted return of 6.31%. The money-weighted return must be precisely calculated using the actual cash flows associated with the investment, including the cost of buying shares, dividend payments, and the proceeds from selling shares.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-1-Q2673",
+      "question_number": 2673,
+      "term_id": "QM-1-007",
+      "los_id": "LOS_1d",
+      "question_text": "A university endowment fund invests in emerging market economies to fund its research and development projects. The value of the fund's assets is provided in the following table. Assuming all cash flows occur at the beginning of the year, the time-weighted return of the fund is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "7.7%."
+        },
+        {
+          "id": "opt2",
+          "text": "5.4%."
+        },
+        {
+          "id": "opt3",
+          "text": "1.9%."
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": "To compute the annualized time-weighted return for the year, we first compute each year’s holding period return:",
+      "explanation_ru": "",
+      "explanation_formula": "$HPR = \\frac{P_1 - P_0 + D_1}{P_0}$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. A TWR of 7.7% would suggest a significantly higher performance of the fund over the period than what is calculated using the time-weighted return method. This option likely does not account for the geometric linking of sub-period returns or misinterprets the effect of cash flows on the fund's performance.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt2": {
+          "text": "B is incorrect. A TWR of 5.4% also does not accurately reflect the fund's performance as calculated using the correct method for time-weighted returns.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-1-Q2674",
+      "question_number": 2674,
+      "term_id": "QM-1-007",
+      "los_id": "LOS_1d",
+      "question_text": "An investor purchased 1,000 shares of Indian Transport Co. for INR 33.23 per share and received a dividend of INR 0.41 per share. Assuming that the investor sold the shares for INR 33.92, calculate the Holding Period Return (HPR) of the investment.",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1.04%"
+        },
+        {
+          "id": "opt2",
+          "text": "3.31%"
+        },
+        {
+          "id": "opt3",
+          "text": "10.33%"
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "",
+      "explanation_ru": "",
+      "explanation_formula": "$HPR = \\frac{P_1 - P_0 + D_1}{P_0}$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. The option suggesting an HPR of 1.04% does not correctly account for the dividend received in addition to the capital gain. This underestimation overlooks the dividend's contribution to the total return, leading to an inaccurate calculation of HPR.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. The option indicating an HPR of 10.33% significantly overestimates the return on the investment.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-1-Q2676",
+      "question_number": 2676,
+      "term_id": "QM-1-007",
+      "los_id": "LOS_1d",
+      "question_text": "What is the sale price of a bond that paid a coupon of $20 and was purchased for $890, assuming that the holding period return of the bond is 4.49%?",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "$1,000"
+        },
+        {
+          "id": "opt2",
+          "text": "$910"
+        },
+        {
+          "id": "opt3",
+          "text": "$930"
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "Holding period return = (Price at time 1 + Coupon - Price at time 0) Price at time 0 Price at time 1 = (HPY × Price at time 0) −Coupon + Price at time 0 Price at time 1 = (0.0449 × 890) −20 + 890 = 909.96",
+      "explanation_ru": "",
+      "explanation_formula": "$HPR = \\frac{P_1 - P_0 + D_1}{P_0}$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. A sale price of $1,000 does not accurately reflect the calculation based on the given holding period return, coupon, and purchase price. This option disregards the specific financial metrics provided and does not follow the formula for calculating the sale price based on the holding period return.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. A sale price of $930 does not align with the calculated result using the holding period return formula. This option seems arbitrary and does not consider the precise calculation required to determine the sale price of the bond given the initial purchase price, coupon, and holding period return.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-1-Q2680",
+      "question_number": 2680,
+      "term_id": "QM-1-007",
+      "los_id": "LOS_1d",
+      "question_text": "A small investor purchased 100 shares of stock HHL at $10 per share on January 4th, 2014. A year later, he purchased an additional 200 shares at $15 per share. If the investor sold all 300 shares at $17 per share on January 4th, 2016, then the annualized time-weighted return of the investment is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "27.5%."
+        },
+        {
+          "id": "opt2",
+          "text": "30.38%."
+        },
+        {
+          "id": "opt3",
+          "text": "21.11%."
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "Annualized time-weighted return = (HPR year 1 × HPR year 2)1/n−1",
+      "explanation_ru": "",
+      "explanation_formula": "$HPR = \\frac{P_1 - P_0 + D_1}{P_0}$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. The option suggesting a 27.5% return does not correctly apply the formula for calculating the annualized time-weighted return.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. The option suggesting a 21.11% return also fails to correctly apply the formula for calculating the annualized time-weighted return.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-1-Q2835",
+      "question_number": 2835,
+      "term_id": "QM-1-008",
+      "los_id": "LOS_1d",
+      "question_text": "For the past 5 year, an investor has had the following returns: 6%, 2.5%, -3%, 8%, and-6%. Which of the following statements is most likely accurate?",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The geometric mean return is equal to the arithmetic return."
+        },
+        {
+          "id": "opt2",
+          "text": "The geometric mean return is smaller than the arithmetic return."
+        },
+        {
+          "id": "opt3",
+          "text": "The geometric mean return is greater than the arithmetic return."
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "When returns vary, the geometric mean is smaller than the arithmetic mean. Arithmetic return = (6% + 2.5% −3% + 8% −6%) = 1.5% 5 Geometric mean = (1.06 × 1.025 × 0.97 × 1.08 × 0.94)1/5−1 = 1.36%",
+      "explanation_ru": "",
+      "explanation_formula": "$R_G = \\sqrt[n]{\\prod_{i=1}^{n}(1+R_i)} - 1$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. The arithmetic mean simply averages the returns without considering the compounding effect, which can lead to an overestimation of the actual performance of the investment. In the given scenario, with returns of 6%, 2.5%, -3%, 8%, and -6%, the variability in returns means that the geometric mean will account for the compounding effect and thus, will not be equal to the arithmetic mean.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. The arithmetic mean does not accurately reflect the decrease in investment value due to negative returns, as it treats all returns equally without considering their sequential impact. This is because the geometric mean more accurately reflects the compound growth rate of an investment over time, taking into account the effect of volatility and negative returns, which the arithmetic mean fails to do. The calculation provided in the original solution demonstrates this principle clearly, showing a geometric mean return of 1.36% compared to an arithmetic mean return of 1.5% for the given set of returns.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "EASY",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-1-Q2836",
+      "question_number": 2836,
+      "term_id": "QM-1-007",
+      "los_id": "LOS_1d",
+      "question_text": "TexCo is a textile firm in Shanghai. The stock of Tex Co has been closing higher every year for the past 7 years. Using the stock data provided in the following table, calculate the Holding Period Return on TexCo's stock for the year 2012.",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "19.64%"
+        },
+        {
+          "id": "opt2",
+          "text": "18.85%"
+        },
+        {
+          "id": "opt3",
+          "text": "16.98%"
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": "Holding Period Return = (Closing Price + Dividend − Opening Price) Opening Price",
+      "explanation_ru": "",
+      "explanation_formula": "$HPR = \\frac{P_1 - P_0 + D_1}{P_0}$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. An HPR of 19.64% would suggest either a higher closing price, a higher dividend, or a lower opening price than what was provided for the year 2012. This option does not accurately reflect the calculation based on the given data.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt2": {
+          "text": "B is incorrect. An HPR of 18.85% similarly indicates a discrepancy in the calculation, suggesting a different set of values for the closing price, dividend, or opening price.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-1-Q2838",
+      "question_number": 2838,
+      "term_id": "QM-1-017",
+      "los_id": "LOS_1d",
+      "question_text": "Which of the following return measures will most likely be the lowest?",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Gross return"
+        },
+        {
+          "id": "opt2",
+          "text": "Net return"
+        },
+        {
+          "id": "opt3",
+          "text": "Pre-tax nominal return"
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "Net return is calculated after deducting the commission and management fees. Gross return is the return on an investment before the deduction of any fees, expenses or commission. Pre-tax nominal return is the return before deducting the tax expense in the returns earned which results in an after-tax return.",
+      "explanation_ru": "",
+      "explanation_formula": null,
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. It represents the investment's performance without subtracting the costs associated with generating that performance. It is an important measure for understanding the overall effectiveness of the investment strategy but does not provide a complete picture of what the investor ultimately earns.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. It does not include the impact of taxes, which can significantly reduce the amount of money an investor ultimately receives. However, it is lower than the gross return because it still accounts for some deductions such as management fees and commissions. Pre-tax nominal return provides insight into the investment's performance in a tax-agnostic manner, making it useful for comparing investments across different tax environments.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "EASY",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-1-Q2839",
+      "question_number": 2839,
+      "term_id": "QM-1-019",
+      "los_id": "LOS_1d",
+      "question_text": "An investor is interested in knowing the real return his portfolio has earned over a certain period. Assuming that the nominal return of his portfolio is 18%, the CPI is 6%, and the tax rate is 38.9%, then the real return of the portfolio is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "19.08%"
+        },
+        {
+          "id": "opt2",
+          "text": "11.32%"
+        },
+        {
+          "id": "opt3",
+          "text": "6.92%"
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "Real rate of return = (1 + Nominal rate) −1 (1 + Inflation)",
+      "explanation_ru": "",
+      "explanation_formula": null,
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. This calculation seems to ignore the inflation effect altogether, which is a critical component in determining the real rate of return. The real return must account for the decrease in purchasing power due to inflation, which is not reflected in this option.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. The option indicating a real return of 6.92% significantly underestimates the actual real return of the portfolio.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-1-Q3404",
+      "question_number": 3404,
+      "term_id": null,
+      "los_id": "LOS_1d",
+      "question_text": "Melvin Brown deposits $20,000 in a bank account which promises to pay an interest of 12% with quarterly compounding. The sum Brown should receive after five years is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "$ 36,122."
+        },
+        {
+          "id": "opt2",
+          "text": "$ 35,817."
+        },
+        {
+          "id": "opt3",
+          "text": "$ 35,247."
+        }
+      ],
+      "correct_option_id": "opt1",
+      "explanation": "Final Amount = Principal × (1 + Using a financial calculator: N = 20; I/Y = 12/4 =3; PV = 20,000; PMT = 0; CPT -> FV = 36,122.22",
+      "explanation_ru": "",
+      "explanation_formula": "$FV_N = PV \\left[1 + \\frac{r_s}{m}\\right]^{mN}$",
+      "explanation_wrong": {
+        "opt2": {
+          "text": "B is incorrect. It is the future value of the amount with half-yearly and not quarterly compounding.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect.It is the future value of the amount with an annual, and not a quarterly compounding frequency.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-1-Q3465",
+      "question_number": 3465,
+      "term_id": "QM-1-016",
+      "los_id": "LOS_1d",
+      "question_text": "The price of a stock increases from $24 to $40 in two years. The continuously compounded 2-year return for the stock is closest to: \n\tA. 25.54%.",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "25.54%."
+        },
+        {
+          "id": "opt2",
+          "text": "28.00%."
+        },
+        {
+          "id": "opt3",
+          "text": "51.08%."
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": "The continuously compounded 2-year return is given by",
+      "explanation_ru": "",
+      "explanation_formula": "$r_{cc} = \\ln\\left(\\frac{P_1}{P_0}\\right)$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect: Annually compounded rate of return",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt2": {
+          "text": "B is incorrect. It is the monetary change of the stock price misrepresented as a percentage. CFA Level 1, Quantitative Methods, Learning Module 1: Rate and Return, LOS (d) Calculate and interpret annualized return measures and continuously compounded returns, and describe their appropriate uses.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "EASY",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-1-Q3467",
+      "question_number": 3467,
+      "term_id": "QM-1-007",
+      "los_id": "LOS_1d",
+      "question_text": "If an investor expects to earn an annual return of 10% by holding a stock, the continuously compounded annual return earned by the investor would be closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "9.53%"
+        },
+        {
+          "id": "opt2",
+          "text": "10.00%"
+        },
+        {
+          "id": "opt3",
+          "text": "11.53%."
+        }
+      ],
+      "correct_option_id": "opt1",
+      "explanation": "As per the formula Continuously compounded return = ln(1 + HPR) = ln(1 + 10%) = 9.53%",
+      "explanation_ru": "",
+      "explanation_formula": "$HPR = \\frac{P_1 - P_0 + D_1}{P_0}$",
+      "explanation_wrong": {
+        "opt2": {
+          "text": "B is incorrect. The rate assumes the annual return indicated as 10%.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. The rate assumes a monthly compounded return rate.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "EASY",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-1-Q3497",
+      "question_number": 3497,
+      "term_id": null,
+      "los_id": "LOS_1b",
+      "question_text": "Jose Calzon currently has $5,040.11 in his bank account. If he plans to buy a car for $5,500 next year, the monthly interest rate that a bank must pay so that James receives a sum of $5,500 next year is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "0.73%."
+        },
+        {
+          "id": "opt2",
+          "text": "0.76%"
+        },
+        {
+          "id": "opt3",
+          "text": "9.12%"
+        }
+      ],
+      "correct_option_id": "opt1",
+      "explanation": "Interest rate can also be considered as the required rate of return. In the above case, James wants his $5,000 to grow to $5,500. The rate required to achieve this return can be calculated as under: Amount deposited today × (1 + Rate of interest) = Amount next year To turn the annual interest rate into a monthly rate,",
+      "explanation_ru": "",
+      "explanation_formula": null,
+      "explanation_wrong": {
+        "opt2": {
+          "text": "B is incorrect. The monthly rate is 0.73%, not 0.76%.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. It is the annual interest rate and not the monthly interest rate as required by the question.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [
+        "PV = -5040.11, FV = 5500, N=12",
+        "CPT 1/Y=> 0.73"
+      ],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-1-Q3498",
+      "question_number": 3498,
+      "term_id": null,
+      "los_id": "LOS_1d",
+      "question_text": "A bank offers an annual interest of 12% with quarterly compounding. If the initial deposited sum is $1,011, then the sum received at the end of one year is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "$1,132.32."
+        },
+        {
+          "id": "opt2",
+          "text": "$1,135.96"
+        },
+        {
+          "id": "opt3",
+          "text": "$1,137.89"
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": "Final value = Present value(1 + (No. of years×compounding frequency) Annual rate of interest ) Compounding frequency) = $1, 137.89",
+      "explanation_ru": "",
+      "explanation_formula": null,
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. It is the future value compounded with yearly and not quarterly compounding.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt2": {
+          "text": "B is incorrect. It is the future value compounded with half half-yearly and not quarterly compounding.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [
+        "N = 4",
+        "(4 quarters in a year)"
+      ],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-1-Q3499",
+      "question_number": 3499,
+      "term_id": null,
+      "los_id": "LOS_1d",
+      "question_text": "An investor received $100,000 after five years from a certificate of deposit which paid him an interest of 12% with monthly compounding. The sum deposited by the investor at the beginning of the 5 years is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "$55,044.96."
+        },
+        {
+          "id": "opt2",
+          "text": "$55,367.58"
+        },
+        {
+          "id": "opt3",
+          "text": "$56,742.69."
+        }
+      ],
+      "correct_option_id": "opt1",
+      "explanation": "Final amount = Principal × (1 + In this case, we have",
+      "explanation_ru": "",
+      "explanation_formula": null,
+      "explanation_wrong": {
+        "opt2": {
+          "text": "B is incorrect. It is the present value of the amount with quarterly and not monthly compounding of the interest rate.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. The present value of the amount with yearly, not monthly compounding, of the interest rate.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    }
+  ]
 }

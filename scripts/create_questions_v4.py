@@ -15,16 +15,16 @@ OUTPUT_PATH = Path("frontend/data/v2/book1_quants/module1/questions.json")
 
 # ============== TERM MAPPING (from glossary) ==============
 TERM_KEYWORDS = {
-    "QM-1-007": ["holding period return", "hpr"],
-    "QM-1-008": ["arithmetic mean", "simple average"],
-    "QM-1-009": ["geometric mean", "compound return"],
+    "QM-1-007": ["holding period return", "hpr", "total return earned from holding"],
+    "QM-1-008": ["arithmetic mean", "simple average", "arithmetic average"],
+    "QM-1-009": ["geometric mean", "compound return", "compound growth rate", "geometric average"],
     "QM-1-010": ["harmonic mean"],
     "QM-1-011": ["trimmed mean"],
     "QM-1-012": ["winsorized mean"],
-    "QM-1-013": ["money-weighted", "mwrr", "irr"],
+    "QM-1-013": ["money-weighted", "mwrr", "internal rate of return", " irr"],
     "QM-1-014": ["time-weighted", "twrr"],
-    "QM-1-015": ["effective annual rate", "ear"],
-    "QM-1-016": ["continuously compounded", "continuous return", "ln("],
+    "QM-1-015": ["effective annual rate", " ear ", "effective interest rate"],
+    "QM-1-016": ["continuously compounded", "continuous return", "ln(", "natural logarithm"],
     "QM-1-017": ["gross return"],
     "QM-1-018": ["net return"],
     "QM-1-019": ["real return", "inflation-adjusted"],
@@ -101,11 +101,61 @@ def find_term_id(question_text, explanation_text):
             if keyword.lower() in combined_text:
                 return term_id
 
-    # Special cases - compounding questions might be EAR
-    if "compounded" in combined_text and ("quarterly" in combined_text or "monthly" in combined_text):
-        if "effective annual" in combined_text:
+    # Special cases - compounding questions might be EAR but might also be just FV
+    if "compounded" in combined_text and ("quarterly" in combined_text or "monthly" in combined_text or "annually" in combined_text):
+        if "effective annual" in combined_text or "ear" in combined_text:
             return "QM-1-015"  # EAR
+        # Otherwise it's just a general compounding question, return None
 
+    return None
+
+
+# ============== GENERATE LaTeX FORMULAS ==============
+def generate_latex_formula(question_text, explanation_text, correct_option_text, term_id):
+    """Generate LaTeX formula based on question content"""
+
+    combined = (question_text + " " + explanation_text).lower()
+
+    # FV with compounding
+    if "future value" in combined or "fv" in combined:
+        if "quarterly" in combined:
+            return r"$FV_N = PV \left[1 + \frac{r_s}{m}\right]^{mN}$"
+        elif "monthly" in combined:
+            return r"$FV_N = PV \left[1 + \frac{r_s}{m}\right]^{mN}$"
+        elif "continuously" in combined:
+            return r"$FV_N = PV \cdot e^{r_s \cdot N}$"
+        else:
+            return r"$FV_N = PV \left[1 + \frac{r_s}{m}\right]^{mN}$"
+
+    # EAR
+    if term_id == "QM-1-015" or "effective annual" in combined:
+        return r"$EAR = \left[1 + \frac{r_s}{m}\right]^{m} - 1$"
+
+    # HPR
+    if term_id == "QM-1-007" or "holding period return" in combined:
+        return r"$HPR = \frac{P_1 - P_0 + D_1}{P_0}$"
+
+    # Geometric mean
+    if term_id == "QM-1-009" or "geometric mean" in combined:
+        return r"$R_G = \sqrt[n]{\prod_{i=1}^{n}(1+R_i)} - 1$"
+
+    # Arithmetic mean
+    if term_id == "QM-1-008" or "arithmetic mean" in combined:
+        return r"$\bar{R} = \frac{1}{n}\sum_{i=1}^{n}R_i$"
+
+    # TWRR
+    if term_id == "QM-1-014" or "time-weighted" in combined:
+        return r"$TWRR = [(1+HPR_1)(1+HPR_2)\cdots(1+HPR_n)]^{1/n} - 1$"
+
+    # MWRR/IRR
+    if term_id == "QM-1-013" or "money-weighted" in combined or " irr" in combined:
+        return r"$\sum_{t=0}^{n} \frac{CF_t}{(1+IRR)^t} = 0$"
+
+    # Continuously compounded return
+    if term_id == "QM-1-016" or "continuously compounded" in combined:
+        return r"$r_{cc} = \ln\left(\frac{P_1}{P_0}\right)$"
+
+    # Default: no formula
     return None
 
 
@@ -229,6 +279,10 @@ def parse_question(raw_question, term_map):
     elif "and" in question_text and len(question_text.split()) > 50:
         difficulty = "HARD"
 
+    # Generate LaTeX formula
+    correct_opt_text = next((opt['text'] for opt in options if opt['id'] == correct_option_id), "")
+    explanation_formula = generate_latex_formula(question_text, explanation, correct_opt_text, term_id)
+
     # Build question object
     question = {
         'question_id': f'QM-1-Q{q_num:03d}',
@@ -245,7 +299,7 @@ def parse_question(raw_question, term_map):
         'correct_option_id': correct_option_id,
         'explanation': explanation,
         'explanation_ru': "",
-        'explanation_formula': None,
+        'explanation_formula': explanation_formula,
         'explanation_wrong': explanation_wrong,
         'requires_calculation': requires_calculation,
         'calculator_steps': calculator_steps,
@@ -270,13 +324,15 @@ def main():
 
     # STEP 2-5: Parse each question
     questions = []
-    for raw_q in questions_raw[:5]:  # First 5 for testing
+    for raw_q in questions_raw:  # All questions
         try:
             q = parse_question(raw_q, term_map)
             questions.append(q)
-            print(f"✅ Parsed Q.{raw_q['number']} - term_id: {q['term_id']}")
+            print(f"✅ Parsed Q.{raw_q['number']} - term_id: {q['term_id'] or 'None'} - formula: {'Yes' if q['explanation_formula'] else 'No'}")
         except Exception as e:
             print(f"❌ Failed Q.{raw_q['number']}: {e}")
+            import traceback
+            traceback.print_exc()
 
     # Build output structure
     output = {
@@ -292,13 +348,14 @@ def main():
     }
 
     # Save to file
-    output_path = OUTPUT_PATH.parent / "questions_preview.json"
-    with open(output_path, 'w', encoding='utf-8') as f:
+    with open(OUTPUT_PATH, 'w', encoding='utf-8') as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
 
     print("=" * 60)
-    print(f"✅ SAVED: {output_path}")
+    print(f"✅ SAVED: {OUTPUT_PATH}")
     print(f"   Total questions: {len(questions)}")
+    print(f"   Questions with formulas: {sum(1 for q in questions if q['explanation_formula'])}")
+    print(f"   Questions with term_id: {sum(1 for q in questions if q['term_id'])}")
     print("=" * 60)
 
 
