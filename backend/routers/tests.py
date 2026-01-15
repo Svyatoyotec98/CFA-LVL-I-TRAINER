@@ -110,6 +110,15 @@ async def get_book_test(
     return selected
 
 
+@router.get("/book-info/{book_id}")
+async def get_book_info(
+    book_id: int,
+    current_user: User = Depends(get_current_user)
+):
+    """Get book structure with modules and questions."""
+    return load_book_data(book_id)
+
+
 @router.get("/mock-exam", response_model=List[QuestionResponse])
 async def get_mock_exam(
     current_user: User = Depends(get_current_user),
