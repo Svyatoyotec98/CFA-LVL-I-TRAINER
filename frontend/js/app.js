@@ -1035,7 +1035,7 @@ let calculatorTemplates = {};
 
 async function loadGlossary() {
     try {
-        const data = await apiGet('/glossary?limit=1000');
+        const data = await apiGet('/glossary?limit=10000');
         glossaryTerms = data.terms || [];
         displayGlossary(glossaryTerms);
     } catch (error) {
