@@ -369,13 +369,13 @@ async function loadBookData(bookId) {
     }
 
     try {
-        const response = await fetch(`data/books/book${bookId}.json`);
-        if (!response.ok) throw new Error('Book data not found');
-        const data = await response.json();
+        // Load book data from API (reads from v2 structure)
+        const data = await apiGet(`/tests/book-info/${bookId}`);
         state.booksData[bookId] = data;
         return data;
     } catch (error) {
         console.error(`Failed to load book ${bookId}:`, error);
+        showToast('Ошибка загрузки данных книги', 'error');
         throw error;
     }
 }
