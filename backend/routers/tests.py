@@ -143,7 +143,15 @@ def get_module_questions(book_id: int, module_id: int) -> List[dict]:
             detail=f"Failed to load questions: {str(e)}"
         )
 
-
+@router.get("/book-info/{book_id}")
+async def get_book_info(
+    book_id: int,
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    """Get book structure with modules and questions for frontend."""
+    return load_book_data(book_id)
+    
 @router.get("/module/{book_id}/{module_id}", response_model=List[QuestionResponse])
 async def get_module_test(
     book_id: int,
