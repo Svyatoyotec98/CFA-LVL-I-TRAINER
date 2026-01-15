@@ -1,3 +1,416 @@
 {
-  "terms": []
+  "book_id": 2,
+  "book_code": "EC",
+  "book_name": "Economics",
+  "book_name_ru": "Экономика",
+
+  "module_id": 3,
+  "module_name": "Fiscal Policy",
+  "module_name_ru": "Фискальная политика",
+
+  "los_list": ["LOS_3a", "LOS_3b", "LOS_3c", "LOS_3d"],
+  "total_terms": 40,
+
+  "terms": [
+    {
+      "term_id": "EC-3-001",
+      "term_en": "Fiscal Policy",
+      "term_ru": "Фискальная политика",
+      "definition_en": "Government decisions on taxation and spending that affect the distribution of wealth and income, allocation of resources, and aggregate demand for goods and services. Implemented by government policymakers through laws to influence economic activity.",
+      "definition_ru": "Правительственные решения по налогообложению и расходам, которые влияют на распределение богатства и доходов, распределение ресурсов и совокупный спрос на товары и услуги. Реализуется правительственными политиками через законы для влияния на экономическую активность.",
+      "formula": "$G - T + B = \\text{Budget Surplus/Deficit}$",
+      "los_id": "LOS_3a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-002",
+      "term_en": "Monetary Policy",
+      "term_ru": "Монетарная политика",
+      "definition_en": "Actions of a central bank aimed at determining or influencing the money supply and credit within the economy. Major objective is to ensure financial and price stability. Implemented through central bank using tools like interest rates, open market operations, bank reserve requirements, and selective credit controls.",
+      "definition_ru": "Действия центрального банка, направленные на определение или влияние на денежную массу и кредит в экономике. Основная цель - обеспечение финансовой и ценовой стабильности. Реализуется через центральный банк с использованием инструментов, таких как процентные ставки, операции на открытом рынке, требования к банковским резервам и селективный кредитный контроль.",
+      "formula": null,
+      "los_id": "LOS_3a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-003",
+      "term_en": "Open Market Operations",
+      "term_ru": "Операции на открытом рынке",
+      "definition_en": "A monetary policy instrument where the central bank buys or sells government securities in the open market to influence the money supply and interest rates. Buying securities increases money supply (expansionary), while selling securities decreases money supply (contractionary).",
+      "definition_ru": "Инструмент монетарной политики, при котором центральный банк покупает или продает государственные ценные бумаги на открытом рынке для влияния на денежную массу и процентные ставки. Покупка ценных бумаг увеличивает денежную массу (экспансионная), в то время как продажа ценных бумаг уменьшает денежную массу (сдерживающая).",
+      "formula": null,
+      "los_id": "LOS_3a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-004",
+      "term_en": "Bank Reserve Requirements",
+      "term_ru": "Требования к банковским резервам",
+      "definition_en": "A monetary policy tool specifying the minimum amount of reserves that banks must hold against deposits. Increasing reserve requirements reduces banks' lending capacity (contractionary), while decreasing requirements increases lending capacity (expansionary).",
+      "definition_ru": "Инструмент монетарной политики, определяющий минимальное количество резервов, которое банки должны держать против депозитов. Увеличение резервных требований снижает кредитную способность банков (сдерживающая), в то время как снижение требований увеличивает кредитную способность (экспансионная).",
+      "formula": null,
+      "los_id": "LOS_3a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-005",
+      "term_en": "Interest Rate (Policy Tool)",
+      "term_ru": "Процентная ставка (инструмент политики)",
+      "definition_en": "A key monetary policy instrument where central banks set or influence benchmark interest rates. Lowering rates stimulates borrowing and spending (expansionary), while raising rates discourages borrowing and cools the economy (contractionary). Affects cost of credit throughout the economy.",
+      "definition_ru": "Ключевой инструмент монетарной политики, при котором центральные банки устанавливают или влияют на базовые процентные ставки. Снижение ставок стимулирует заимствования и расходы (экспансионная), в то время как повышение ставок препятствует заимствованиям и охлаждает экономику (сдерживающая). Влияет на стоимость кредита во всей экономике.",
+      "formula": null,
+      "los_id": "LOS_3a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-006",
+      "term_en": "Selective Credit Controls",
+      "term_ru": "Селективный кредитный контроль",
+      "definition_en": "A monetary policy instrument where central banks regulate credit for specific purposes or sectors. Can target particular types of lending (e.g., real estate, consumer credit) to manage risks or redirect credit flows without affecting the entire economy.",
+      "definition_ru": "Инструмент монетарной политики, при котором центральные банки регулируют кредит для конкретных целей или секторов. Может нацеливаться на определенные виды кредитования (например, недвижимость, потребительский кредит) для управления рисками или перенаправления кредитных потоков без влияния на всю экономику.",
+      "formula": null,
+      "los_id": "LOS_3a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-007",
+      "term_en": "Aggregate Demand",
+      "term_ru": "Совокупный спрос",
+      "definition_en": "The total amount that households, businesses, government, and foreign buyers intend to spend on goods and services in an economy. Fiscal policy affects aggregate demand through changes in government spending, taxes, and transfer payments. Primary target of fiscal policy to influence GDP.",
+      "definition_ru": "Общая сумма, которую домохозяйства, предприятия, правительство и иностранные покупатели намерены потратить на товары и услуги в экономике. Фискальная политика влияет на совокупный спрос через изменения в государственных расходах, налогах и трансфертных платежах. Основная цель фискальной политики для влияния на ВВП.",
+      "formula": "$AD = C + I + G + (X - M)$",
+      "los_id": "LOS_3b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-008",
+      "term_en": "Keynesians",
+      "term_ru": "Кейнсианцы",
+      "definition_en": "Economists who believe fiscal policy can substantially affect aggregate demand, economic output, and employment, especially when an economy has notable unused capacity. Support active government intervention through fiscal policy during economic downturns to stimulate demand and employment.",
+      "definition_ru": "Экономисты, которые считают, что фискальная политика может существенно влиять на совокупный спрос, экономический выпуск и занятость, особенно когда экономика имеет значительную неиспользованную мощность. Поддерживают активное государственное вмешательство через фискальную политику во время экономических спадов для стимулирования спроса и занятости.",
+      "formula": null,
+      "los_id": "LOS_3b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-009",
+      "term_en": "Monetarists",
+      "term_ru": "Монетаристы",
+      "definition_en": "Economists who argue that fiscal changes provide only temporary impact on aggregate demand. They stress that monetary policy is a more effective tool for managing or amplifying inflationary pressures. Skeptical of effectiveness of fiscal policy for long-term economic stabilization.",
+      "definition_ru": "Экономисты, которые утверждают, что фискальные изменения обеспечивают только временное влияние на совокупный спрос. Они подчеркивают, что монетарная политика является более эффективным инструментом для управления или усиления инфляционного давления. Скептически относятся к эффективности фискальной политики для долгосрочной экономической стабилизации.",
+      "formula": null,
+      "los_id": "LOS_3b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-010",
+      "term_en": "Expansionary Fiscal Policy",
+      "term_ru": "Экспансионная фискальная политика",
+      "definition_en": "Government policy to stimulate the economy during recession by increasing expenditures and/or reducing taxes. Aims to raise employment rates and output. Results in increased aggregate demand and higher real GDP. Often increases budget deficit or reduces budget surplus.",
+      "definition_ru": "Правительственная политика для стимулирования экономики во время рецессии путем увеличения расходов и/или снижения налогов. Направлена на повышение уровня занятости и выпуска. Приводит к увеличению совокупного спроса и более высокому реальному ВВП. Часто увеличивает бюджетный дефицит или сокращает бюджетный профицит.",
+      "formula": "Increase $G$, decrease $T$, increase $B$ → Increase AD",
+      "los_id": "LOS_3b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-011",
+      "term_en": "Contractionary Fiscal Policy",
+      "term_ru": "Сдерживающая фискальная политика",
+      "definition_en": "Government policy adopted when the economy is overheating (growing too quickly, causing high inflation). Involves decreasing government expenditure and/or increasing taxes. Reduces aggregate demand to cool the economy. Often decreases budget deficit or increases budget surplus.",
+      "definition_ru": "Правительственная политика, принимаемая, когда экономика перегревается (растет слишком быстро, вызывая высокую инфляцию). Включает снижение государственных расходов и/или повышение налогов. Снижает совокупный спрос для охлаждения экономики. Часто уменьшает бюджетный дефицит или увеличивает бюджетный профицит.",
+      "formula": "Decrease $G$, increase $T$, decrease $B$ → Decrease AD",
+      "los_id": "LOS_3b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-012",
+      "term_en": "Budget Surplus",
+      "term_ru": "Бюджетный профицит",
+      "definition_en": "The positive difference between government revenue and expenditure for a fixed period (fiscal or calendar year). Occurs when government collects more in taxes than it spends. Increase in budget surplus implies contractionary fiscal policy. Reduces national debt.",
+      "definition_ru": "Положительная разница между государственными доходами и расходами за фиксированный период (фискальный или календарный год). Происходит, когда правительство собирает больше налогов, чем тратит. Увеличение бюджетного профицита подразумевает сдерживающую фискальную политику. Снижает национальный долг.",
+      "formula": "$\\text{Budget Surplus} = \\text{Government Revenue} - \\text{Government Expenditure} > 0$",
+      "los_id": "LOS_3b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-013",
+      "term_en": "Budget Deficit",
+      "term_ru": "Бюджетный дефицит",
+      "definition_en": "The negative difference between government revenue and expenditure for a fixed period. Occurs when government spends more than it collects in taxes. Increase in budget deficit implies expansionary fiscal policy. Increases national debt unless financed by selling assets.",
+      "definition_ru": "Негативная разница между государственными доходами и расходами за фиксированный период. Происходит, когда правительство тратит больше, чем собирает налогов. Увеличение бюджетного дефицита подразумевает экспансионную фискальную политику. Увеличивает национальный долг, если не финансируется продажей активов.",
+      "formula": "$\\text{Budget Deficit} = \\text{Government Expenditure} - \\text{Government Revenue} > 0$",
+      "los_id": "LOS_3b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-014",
+      "term_en": "Automatic Stabilizers",
+      "term_ru": "Автоматические стабилизаторы",
+      "definition_en": "Fiscal policies that automatically adjust tax rates and transfer payments to stabilize incomes, consumption, and business spending over the business cycle without policymaker intervention. Examples: progressive income taxes, unemployment benefits, social insurance. Work countercyclically without need to identify shocks.",
+      "definition_ru": "Фискальные политики, которые автоматически корректируют налоговые ставки и трансфертные платежи для стабилизации доходов, потребления и расходов бизнеса в течение бизнес-цикла без вмешательства политиков. Примеры: прогрессивные подоходные налоги, пособия по безработице, социальное страхование. Работают контрциклически без необходимости выявления шоков.",
+      "formula": null,
+      "los_id": "LOS_3b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-015",
+      "term_en": "Discretionary Fiscal Policy",
+      "term_ru": "Дискреционная фискальная политика",
+      "definition_en": "Intentional changes in taxes and/or spending implemented by the government in response to a specific economic event or shock. Requires deliberate action by policymakers through laws. Differs from automatic stabilizers which work without intervention. Used to stabilize the economy during downturns or overheating.",
+      "definition_ru": "Намеренные изменения в налогах и/или расходах, реализуемые правительством в ответ на конкретное экономическое событие или шок. Требует преднамеренного действия политиков через законы. Отличается от автоматических стабилизаторов, которые работают без вмешательства. Используется для стабилизации экономики во время спадов или перегрева.",
+      "formula": null,
+      "los_id": "LOS_3b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-016",
+      "term_en": "National Debt",
+      "term_ru": "Национальный долг",
+      "definition_en": "The accumulation of government deficits over time. Total amount of money that a government owes to creditors. When government spends more than it collects (deficit), it must borrow, adding to national debt. Can be owed to domestic or foreign creditors.",
+      "definition_ru": "Накопление государственных дефицитов с течением времени. Общая сумма денег, которую правительство должно кредиторам. Когда правительство тратит больше, чем собирает (дефицит), оно должно занимать, добавляя к национальному долгу. Может быть должно внутренним или иностранным кредиторам.",
+      "formula": "$\\text{National Debt}_{t} = \\text{National Debt}_{t-1} + \\text{Budget Deficit}_{t}$",
+      "los_id": "LOS_3b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-017",
+      "term_en": "Debt-to-GDP Ratio",
+      "term_ru": "Отношение долга к ВВП",
+      "definition_en": "A measure of a country's national debt relative to its gross domestic product. Used to assess country's solvency and ability to repay debt. Higher ratios indicate greater debt burden. Country's solvency considered in jeopardy when ratio reaches unsustainable levels. Key metric for evaluating fiscal health.",
+      "definition_ru": "Мера национального долга страны относительно ее валового внутреннего продукта. Используется для оценки платежеспособности страны и способности погасить долг. Более высокие соотношения указывают на большее долговое бремя. Платежеспособность страны считается под угрозой, когда соотношение достигает неустойчивых уровней. Ключевая метрика для оценки фискального здоровья.",
+      "formula": "$\\text{Debt-to-GDP Ratio} = \\frac{\\text{National Debt}}{\\text{GDP}} \\times 100\\%$",
+      "los_id": "LOS_3b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-018",
+      "term_en": "Interest Payment to GDP Ratio",
+      "term_ru": "Отношение процентных платежей к ВВП",
+      "definition_en": "A measure of government payments to service the debt as a percentage of national output. Indicates the burden of debt servicing on the economy. Higher ratios mean more government revenue goes to interest payments rather than productive spending. Used alongside debt-to-GDP ratio to assess fiscal sustainability.",
+      "definition_ru": "Мера государственных платежей для обслуживания долга в процентах от национального выпуска. Указывает на бремя обслуживания долга для экономики. Более высокие соотношения означают, что больше государственных доходов идет на процентные платежи, а не на продуктивные расходы. Используется вместе с отношением долга к ВВП для оценки фискальной устойчивости.",
+      "formula": "$\\text{Interest/GDP Ratio} = \\frac{\\text{Interest Payments}}{\\text{GDP}} \\times 100\\%$",
+      "los_id": "LOS_3b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-019",
+      "term_en": "Ricardian Equivalence",
+      "term_ru": "Рикардианская эквивалентность",
+      "definition_en": "Economic theory suggesting fiscal deficits might not have a net effect because the private sector could counterbalance by boosting savings, expecting taxes to rise in the future. Implies that households save more when government runs deficits, offsetting expansionary impact. Argument that national debt may not matter.",
+      "definition_ru": "Экономическая теория, предполагающая, что фискальные дефициты могут не иметь чистого эффекта, потому что частный сектор может компенсировать, увеличивая сбережения, ожидая повышения налогов в будущем. Подразумевает, что домохозяйства сберегают больше, когда правительство имеет дефициты, компенсируя экспансионное влияние. Аргумент, что национальный долг может не иметь значения.",
+      "formula": null,
+      "los_id": "LOS_3b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-020",
+      "term_en": "Crowding Out",
+      "term_ru": "Вытеснение",
+      "definition_en": "A phenomenon where increased government borrowing leads to higher interest rates, which reduces private sector investment and consumption. When government competes for limited savings, it drives up cost of borrowing. Expansionary fiscal policy financed by debt may decrease aggregate demand due to crowding out effect.",
+      "definition_ru": "Явление, при котором увеличенное государственное заимствование приводит к более высоким процентным ставкам, что снижает инвестиции частного сектора и потребление. Когда правительство конкурирует за ограниченные сбережения, оно повышает стоимость заимствования. Экспансионная фискальная политика, финансируемая долгом, может снизить совокупный спрос из-за эффекта вытеснения.",
+      "formula": null,
+      "los_id": "LOS_3b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-021",
+      "term_en": "Capital Expenditure",
+      "term_ru": "Капитальные расходы",
+      "definition_en": "Government spending on long-term assets and infrastructure such as schools, roads, and hospitals. Adds to country's capital stock and affects productivity. Encourages investment and increases total productivity. Part of government spending tools in fiscal policy. Implementation takes extended period (years) to plan and execute.",
+      "definition_ru": "Государственные расходы на долгосрочные активы и инфраструктуру, такие как школы, дороги и больницы. Добавляет к капитальному запасу страны и влияет на производительность. Поощряет инвестиции и увеличивает общую производительность. Часть инструментов государственных расходов в фискальной политике. Реализация занимает продолжительный период (годы) для планирования и выполнения.",
+      "formula": null,
+      "los_id": "LOS_3c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-022",
+      "term_en": "Current Government Spending",
+      "term_ru": "Текущие государственные расходы",
+      "definition_en": "Government expenditure on goods and services regularly provided, including defense, health, and education. Aims at improving country's labor productivity. Part of government spending tools. More flexible than capital expenditure but less flexible than indirect taxes.",
+      "definition_ru": "Государственные расходы на товары и услуги, регулярно предоставляемые, включая оборону, здравоохранение и образование. Направлены на улучшение производительности труда страны. Часть инструментов государственных расходов. Более гибкие, чем капитальные расходы, но менее гибкие, чем косвенные налоги.",
+      "formula": null,
+      "los_id": "LOS_3c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-023",
+      "term_en": "Transfer Payments",
+      "term_ru": "Трансфертные платежи",
+      "definition_en": "Payments made by government through social security systems to ensure minimum income level for low-income individuals and change income distribution. Include state pensions, housing benefits, income support, and tax credits. Not included in GDP calculation as not attached to any factor of production.",
+      "definition_ru": "Платежи, осуществляемые правительством через системы социального обеспечения для обеспечения минимального уровня дохода для малоимущих и изменения распределения доходов. Включают государственные пенсии, жилищные пособия, поддержку доходов и налоговые кредиты. Не включаются в расчет ВВП, так как не привязаны к какому-либо фактору производства.",
+      "formula": null,
+      "los_id": "LOS_3c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-024",
+      "term_en": "Indirect Taxes",
+      "term_ru": "Косвенные налоги",
+      "definition_en": "Taxes imposed on specific goods (cigarettes, alcohol, fuel) and services. VAT is an example. Can be quickly adjusted after announcement, instantly influencing spending. Generate government revenue at little to no cost. Useful for implementing social policies like discouraging alcohol or tobacco consumption. Most flexible fiscal tool.",
+      "definition_ru": "Налоги, налагаемые на конкретные товары (сигареты, алкоголь, топливо) и услуги. НДС является примером. Могут быть быстро скорректированы после объявления, мгновенно влияя на расходы. Генерируют государственный доход почти без затрат. Полезны для реализации социальных политик, таких как сдерживание потребления алкоголя или табака. Самый гибкий фискальный инструмент.",
+      "formula": null,
+      "los_id": "LOS_3c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-025",
+      "term_en": "Direct Taxes",
+      "term_ru": "Прямые налоги",
+      "definition_en": "Levies on income, profit, and wealth. Include income tax, corporate tax, capital gains tax, and national insurance. Can raise revenue and redistribute wealth. Challenging to alter without significant notice (often several months) as payroll systems need adjustments. Less flexible than indirect taxes.",
+      "definition_ru": "Сборы на доходы, прибыль и богатство. Включают подоходный налог, корпоративный налог, налог на прирост капитала и национальное страхование. Могут повысить доход и перераспределить богатство. Сложно изменить без значительного уведомления (часто несколько месяцев), так как системы расчета заработной платы нуждаются в корректировках. Менее гибкие, чем косвенные налоги.",
+      "formula": null,
+      "los_id": "LOS_3c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-026",
+      "term_en": "VAT (Value Added Tax)",
+      "term_ru": "НДС (Налог на добавленную стоимость)",
+      "definition_en": "A type of indirect tax imposed on goods and services at each stage of production and distribution. Consumer ultimately pays the full VAT. Can exclude certain goods and services like health and education. Can be quickly adjusted to influence consumer spending and generate government revenue.",
+      "definition_ru": "Тип косвенного налога, налагаемого на товары и услуги на каждом этапе производства и распределения. Потребитель в конечном итоге платит полный НДС. Может исключать определенные товары и услуги, такие как здравоохранение и образование. Может быть быстро скорректирован для влияния на потребительские расходы и генерации государственного дохода.",
+      "formula": null,
+      "los_id": "LOS_3c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-027",
+      "term_en": "Corporate Tax",
+      "term_ru": "Корпоративный налог",
+      "definition_en": "A direct tax levied on company profits. Decreasing corporate taxes stimulates business profits and expenditures, boosting aggregate demand. Part of government revenue tools. Used in fiscal policy to influence business investment and economic activity.",
+      "definition_ru": "Прямой налог, взимаемый с прибыли компаний. Снижение корпоративных налогов стимулирует прибыль и расходы бизнеса, повышая совокупный спрос. Часть инструментов государственных доходов. Используется в фискальной политике для влияния на бизнес-инвестиции и экономическую активность.",
+      "formula": null,
+      "los_id": "LOS_3c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-028",
+      "term_en": "Capital Gains Tax",
+      "term_ru": "Налог на прирост капитала",
+      "definition_en": "A direct tax charged on profits from selling assets that have increased in value. Can raise revenue and redistribute wealth. Part of direct taxation system. Affects investment decisions and asset allocation.",
+      "definition_ru": "Прямой налог, взимаемый с прибыли от продажи активов, которые увеличились в стоимости. Может повысить доход и перераспределить богатство. Часть системы прямого налогообложения. Влияет на инвестиционные решения и распределение активов.",
+      "formula": null,
+      "los_id": "LOS_3c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-029",
+      "term_en": "Progressive Tax",
+      "term_ru": "Прогрессивный налог",
+      "definition_en": "A tax system that takes a larger percentage of income from high-income earners than low-income earners. As incomes rise, tax revenues increase at a faster rate. Acts as automatic stabilizer by dampening income fluctuations over business cycle. Helps redistribute wealth.",
+      "definition_ru": "Налоговая система, которая берет больший процент дохода с высокооплачиваемых, чем с низкооплачиваемых. По мере роста доходов налоговые поступления увеличиваются более быстрыми темпами. Действует как автоматический стабилизатор, сглаживая колебания доходов в течение бизнес-цикла. Помогает перераспределять богатство.",
+      "formula": null,
+      "los_id": "LOS_3c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-030",
+      "term_en": "Marginal Propensity to Consume (MPC)",
+      "term_ru": "Предельная склонность к потреблению",
+      "definition_en": "The fraction of additional disposable income that households spend on consumption. Denoted by 'c'. Key parameter in fiscal multiplier. If MPC = 0.8, households spend 80 cents of each additional dollar of income and save 20 cents. Higher MPC leads to larger fiscal multiplier effect.",
+      "definition_ru": "Доля дополнительного располагаемого дохода, которую домохозяйства тратят на потребление. Обозначается 'c'. Ключевой параметр в фискальном мультипликаторе. Если MPC = 0,8, домохозяйства тратят 80 центов из каждого дополнительного доллара дохода и сберегают 20 центов. Более высокая MPC приводит к большему эффекту фискального мультипликатора.",
+      "formula": "$c = \\frac{\\Delta C}{\\Delta Y_D}$; where $0 < c < 1$",
+      "los_id": "LOS_3c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-031",
+      "term_en": "Marginal Propensity to Save (MPS)",
+      "term_ru": "Предельная склонность к сбережению",
+      "definition_en": "The amount saved out of an additional dollar of disposable income. Denoted by 's'. Complement of MPC: c + s = 1, so s = 1 - c. If MPS = 0.2, households save 20 cents of each additional dollar. Lower MPS (higher MPC) leads to larger fiscal multiplier.",
+      "definition_ru": "Сумма, сберегаемая из дополнительного доллара располагаемого дохода. Обозначается 's'. Дополнение MPC: c + s = 1, так что s = 1 - c. Если MPS = 0,2, домохозяйства сберегают 20 центов из каждого дополнительного доллара. Более низкая MPS (более высокая MPC) приводит к большему фискальному мультипликатору.",
+      "formula": "$s = \\frac{\\Delta S}{\\Delta Y_D} = 1 - c$",
+      "los_id": "LOS_3c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-032",
+      "term_en": "Fiscal Multiplier",
+      "term_ru": "Фискальный мультипликатор",
+      "definition_en": "The ratio of change in national income to the change in government spending or taxation that causes it. Shows magnitude of output change from exogenous alterations in government spending or taxation. Calculated as 1/[1-c(1-t)], where c is MPC and t is tax rate. Larger multiplier means greater impact of fiscal policy.",
+      "definition_ru": "Отношение изменения национального дохода к изменению государственных расходов или налогообложения, которое его вызывает. Показывает величину изменения выпуска от экзогенных изменений в государственных расходах или налогообложении. Рассчитывается как 1/[1-c(1-t)], где c - MPC, а t - налоговая ставка. Больший мультипликатор означает большее влияние фискальной политики.",
+      "formula": "$\\text{Fiscal Multiplier} = \\frac{1}{1 - c(1-t)}$",
+      "los_id": "LOS_3c",
+      "calculator": "Example: If MPC (c) = 0.8 and tax rate (t) = 0.25:\n1. Calculate: [1 ÷ (1 - 0.8(1-0.25))]\n2. = 1 ÷ [1 - 0.8(0.75)]\n3. = 1 ÷ [1 - 0.6]\n4. = 1 ÷ 0.4 = 2.5\nMeaning: $1 billion increase in G raises output by $2.5 billion"
+    },
+    {
+      "term_id": "EC-3-033",
+      "term_en": "Balanced Budget Multiplier",
+      "term_ru": "Мультипликатор сбалансированного бюджета",
+      "definition_en": "The effect on output when government increases spending and taxes by the same amount. Even with balanced budget (no change in deficit), aggregate output increases due to multiplier effect. Equals 1 when government modifies initial spending change to precisely offset total revenue change. Occurs because MPC < 1, so tax increase reduces spending by less than tax amount.",
+      "definition_ru": "Эффект на выпуск, когда правительство увеличивает расходы и налоги на одинаковую сумму. Даже при сбалансированном бюджете (без изменения дефицита) совокупный выпуск увеличивается из-за эффекта мультипликатора. Равен 1, когда правительство модифицирует начальное изменение расходов, чтобы точно компенсировать общее изменение доходов. Происходит потому, что MPC < 1, поэтому увеличение налогов снижает расходы на меньшую сумму, чем сумма налога.",
+      "formula": "$\\text{Balanced Budget Multiplier} = 1$",
+      "los_id": "LOS_3c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-034",
+      "term_en": "Disposable Income",
+      "term_ru": "Располагаемый доход",
+      "definition_en": "National income or output (Y) minus net taxes (NT). The income available to households after taxes. Denoted YD = Y - NT = (1-t)Y, where t is net tax rate. Households allocate disposable income between consumption and saving based on MPC and MPS. Key variable in fiscal multiplier analysis.",
+      "definition_ru": "Национальный доход или выпуск (Y) минус чистые налоги (NT). Доход, доступный домохозяйствам после налогов. Обозначается YD = Y - NT = (1-t)Y, где t - чистая налоговая ставка. Домохозяйства распределяют располагаемый доход между потреблением и сбережением на основе MPC и MPS. Ключевая переменная в анализе фискального мультипликатора.",
+      "formula": "$Y_D = Y - NT = (1-t)Y$",
+      "los_id": "LOS_3c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-035",
+      "term_en": "Structural Budget Deficit",
+      "term_ru": "Структурный бюджетный дефицит",
+      "definition_en": "The deficit that would exist if the economy operated at full employment or full potential output. Used as a fiscal stance indicator to determine if fiscal policy is truly expansionary or contractionary. Removes cyclical effects of automatic stabilizers. Better measure of government's intentional fiscal policy than actual deficit.",
+      "definition_ru": "Дефицит, который существовал бы, если бы экономика работала при полной занятости или полном потенциальном выпуске. Используется как индикатор фискальной позиции для определения, является ли фискальная политика действительно экспансионной или сдерживающей. Удаляет циклические эффекты автоматических стабилизаторов. Лучшая мера намеренной фискальной политики правительства, чем фактический дефицит.",
+      "formula": null,
+      "los_id": "LOS_3d",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-036",
+      "term_en": "Recognition Lag",
+      "term_ru": "Лаг распознавания",
+      "definition_en": "The time delay before policymakers notice an economic problem or recognize that economic growth is slowing. By the time they recognize the problem, it may already be too late for timely intervention. One of three implementation lags that makes fiscal policy difficult to execute effectively.",
+      "definition_ru": "Временная задержка до того, как политики заметят экономическую проблему или распознают, что экономический рост замедляется. К тому времени, когда они распознают проблему, может быть уже слишком поздно для своевременного вмешательства. Один из трех лагов реализации, который затрудняет эффективное исполнение фискальной политики.",
+      "formula": null,
+      "los_id": "LOS_3d",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-037",
+      "term_en": "Action Lag",
+      "term_ru": "Лаг действия",
+      "definition_en": "The time delay between recognizing an economic problem and implementing policy action to address it. Action against the problem may come when it is too late to be effective. Particularly long for fiscal policy due to legislative and political processes required to change taxes or spending.",
+      "definition_ru": "Временная задержка между распознаванием экономической проблемы и реализацией политического действия для ее решения. Действие против проблемы может прийти, когда уже слишком поздно для эффективности. Особенно длинный для фискальной политики из-за законодательных и политических процессов, необходимых для изменения налогов или расходов.",
+      "formula": null,
+      "los_id": "LOS_3d",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-038",
+      "term_en": "Impact Lag",
+      "term_ru": "Лаг воздействия",
+      "definition_en": "The time delay between implementing a policy and the manifestation of its impact on the economy. Once government has implemented a policy, it may take considerable time before the effects are felt throughout the economy. Multiplier effects take time to work through successive rounds of spending.",
+      "definition_ru": "Временная задержка между реализацией политики и проявлением ее влияния на экономику. После того, как правительство реализовало политику, может потребоваться значительное время, прежде чем эффекты будут ощущаться во всей экономике. Эффекты мультипликатора требуют времени для работы через последовательные раунды расходов.",
+      "formula": null,
+      "los_id": "LOS_3d",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-039",
+      "term_en": "Real Interest Rate",
+      "term_ru": "Реальная процентная ставка",
+      "definition_en": "The nominal interest rate adjusted for inflation. More logical to consider only real interest payments in budget deficit analysis because inflation erodes the real value of outstanding debt. Real rate = Nominal rate - Inflation rate. Relevant for assessing true fiscal stance and debt burden.",
+      "definition_ru": "Номинальная процентная ставка, скорректированная на инфляцию. Более логично рассматривать только реальные процентные платежи в анализе бюджетного дефицита, потому что инфляция разрушает реальную стоимость непогашенного долга. Реальная ставка = Номинальная ставка - Уровень инфляции. Релевантна для оценки истинной фискальной позиции и долгового бремени.",
+      "formula": "$\\text{Real Interest Rate} = \\text{Nominal Rate} - \\text{Inflation Rate}$",
+      "los_id": "LOS_3d",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-3-040",
+      "term_en": "Nominal Interest Rate",
+      "term_ru": "Номинальная процентная ставка",
+      "definition_en": "The stated interest rate without adjustment for inflation. Used in calculating government's interest payments on debt. Can be misleading when measuring fiscal stance as it doesn't account for inflation eroding debt value. Should be adjusted to real rate for accurate fiscal analysis.",
+      "definition_ru": "Заявленная процентная ставка без корректировки на инфляцию. Используется при расчете процентных платежей правительства по долгу. Может вводить в заблуждение при измерении фискальной позиции, так как не учитывает инфляцию, разрушающую стоимость долга. Должна быть скорректирована до реальной ставки для точного фискального анализа.",
+      "formula": "$\\text{Nominal Rate} = \\text{Real Rate} + \\text{Expected Inflation}$",
+      "los_id": "LOS_3d",
+      "calculator": null
+    }
+  ]
 }
