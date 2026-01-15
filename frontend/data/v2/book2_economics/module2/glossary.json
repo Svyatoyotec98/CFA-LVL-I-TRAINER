@@ -1,3 +1,436 @@
 {
-  "terms": []
+  "book_id": 2,
+  "book_code": "EC",
+  "book_name": "Economics",
+  "book_name_ru": "Экономика",
+
+  "module_id": 2,
+  "module_name": "Understanding Business Cycles",
+  "module_name_ru": "Понимание бизнес-циклов",
+
+  "los_list": ["LOS_2a", "LOS_2b", "LOS_2c"],
+  "total_terms": 42,
+
+  "terms": [
+    {
+      "term_id": "EC-2-001",
+      "term_en": "Business Cycle",
+      "term_ru": "Бизнес-цикл",
+      "definition_en": "A recurring expansion and contraction in economic activity affecting broad segments of the economy. It has anticipated sequences of phases alternating from expansions and contractions that occur at approximately the same time across the economy but are not regular or cyclical.",
+      "definition_ru": "Повторяющееся расширение и сжатие экономической активности, влияющее на широкие сегменты экономики. Имеет предсказуемые последовательности фаз, чередующихся от расширений и сжатий, которые происходят примерно в одно и то же время по всей экономике, но не являются регулярными или циклическими.",
+      "formula": null,
+      "los_id": "LOS_2a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-002",
+      "term_en": "Classical Cycle",
+      "term_ru": "Классический цикл",
+      "definition_en": "A business cycle showing fluctuations in economic activity such as GDP, with shorter contraction phases between peaks and troughs and longer expansion phases. Not commonly used due to inability to distinguish short-term fluctuations from long-term trends.",
+      "definition_ru": "Бизнес-цикл, показывающий колебания в экономической активности, такой как ВВП, с более короткими фазами сжатия между пиками и впадинами и более длинными фазами расширения. Не часто используется из-за неспособности различать краткосрочные колебания и долгосрочные тенденции.",
+      "formula": null,
+      "los_id": "LOS_2a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-003",
+      "term_en": "Growth Cycle",
+      "term_ru": "Цикл роста",
+      "definition_en": "A business cycle that examines fluctuations around the long-term trend, emphasizing the interaction between actual economic activity and the trend. It separates economic activity into components affected by long-term trends and short-term variations.",
+      "definition_ru": "Бизнес-цикл, который исследует колебания вокруг долгосрочного тренда, подчеркивая взаимодействие между фактической экономической активностью и трендом. Разделяет экономическую активность на компоненты, подверженные долгосрочным трендам и краткосрочным колебаниям.",
+      "formula": "Fluctuations around potential output",
+      "los_id": "LOS_2a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-004",
+      "term_en": "Growth Rate Cycle",
+      "term_ru": "Цикл темпов роста",
+      "definition_en": "An economic cycle defined by changes in the growth rate of economic activity, such as GDP growth rate. Peaks and troughs are detected earlier than classical and growth cycles. Does not require calculation of a long-term growth trajectory.",
+      "definition_ru": "Экономический цикл, определяемый изменениями в темпах роста экономической активности, таких как темп роста ВВП. Пики и впадины обнаруживаются раньше, чем в классических циклах и циклах роста. Не требует расчета долгосрочной траектории роста.",
+      "formula": null,
+      "los_id": "LOS_2a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-005",
+      "term_en": "Recovery Phase",
+      "term_ru": "Фаза восстановления",
+      "definition_en": "The phase where the economy goes through a trough and the negative output gap starts to narrow. Activity levels are below potential but increasing. Businesses reduce layoffs, use overtime, then hire. Unemployment stabilizes and inflation remains moderate.",
+      "definition_ru": "Фаза, когда экономика проходит через впадину, и негативный разрыв выпуска начинает сужаться. Уровни активности ниже потенциала, но увеличиваются. Предприятия сокращают увольнения, используют сверхурочные, затем нанимают. Безработица стабилизируется, инфляция остается умеренной.",
+      "formula": "Negative output gap narrows",
+      "los_id": "LOS_2a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-006",
+      "term_en": "Expansion Phase",
+      "term_ru": "Фаза расширения",
+      "definition_en": "The phase where the economy experiences growth leading to a positive output gap. Consumer and business activities grow above average. Businesses hire permanently, unemployment decreases, prices and interest rates rise. May lead to factor shortages and overcapacity concerns.",
+      "definition_ru": "Фаза, когда экономика испытывает рост, приводящий к положительному разрыву выпуска. Активность потребителей и бизнеса растет выше среднего. Предприятия нанимают на постоянной основе, безработица снижается, цены и процентные ставки растут. Может привести к дефициту факторов и проблемам избыточных мощностей.",
+      "formula": "Positive output gap",
+      "los_id": "LOS_2a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-007",
+      "term_en": "Slowdown Phase",
+      "term_ru": "Фаза замедления",
+      "definition_en": "The phase where the economy reaches its peak relative to potential output with a reduced positive output gap. Activity remains above average but growth rates slow and dip below average. Hiring slows, unemployment decreases gradually, and inflation picks up pace.",
+      "definition_ru": "Фаза, когда экономика достигает своего пика относительно потенциального выпуска с сокращенным положительным разрывом выпуска. Активность остается выше среднего, но темпы роста замедляются и падают ниже среднего. Найм замедляется, безработица снижается постепенно, инфляция ускоряется.",
+      "formula": "Reduced positive output gap",
+      "los_id": "LOS_2a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-008",
+      "term_en": "Contraction Phase",
+      "term_ru": "Фаза сжатия",
+      "definition_en": "The phase where the economy weakens, producing less than potential. Consumer and business confidence drops. Businesses cut hours, eliminate overtime, stop hiring, then resort to layoffs, increasing unemployment. Inflation decreases over time. May lead to recession or depression.",
+      "definition_ru": "Фаза, когда экономика ослабевает, производя меньше потенциала. Уверенность потребителей и бизнеса падает. Предприятия сокращают часы, отменяют сверхурочные, прекращают найм, затем прибегают к увольнениям, увеличивая безработицу. Инфляция снижается со временем. Может привести к рецессии или депрессии.",
+      "formula": "Negative output gap",
+      "los_id": "LOS_2a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-009",
+      "term_en": "Trough",
+      "term_ru": "Впадина",
+      "definition_en": "The lowest point of economic activity in a business cycle, marking the end of contraction and the beginning of recovery. Economic activity is at its minimum, and the negative output gap is at its widest.",
+      "definition_ru": "Самая низкая точка экономической активности в бизнес-цикле, отмечающая конец сжатия и начало восстановления. Экономическая активность находится на минимуме, а негативный разрыв выпуска наиболее широк.",
+      "formula": null,
+      "los_id": "LOS_2a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-010",
+      "term_en": "Peak",
+      "term_ru": "Пик",
+      "definition_en": "The highest point of economic activity in a business cycle, marking the end of expansion and the beginning of slowdown or contraction. Economic activity is at its maximum relative to potential output, and the positive output gap is at its widest.",
+      "definition_ru": "Самая высокая точка экономической активности в бизнес-цикле, отмечающая конец расширения и начало замедления или сжатия. Экономическая активность находится на максимуме относительно потенциального выпуска, а положительный разрыв выпуска наиболее широк.",
+      "formula": null,
+      "los_id": "LOS_2a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-011",
+      "term_en": "Output Gap",
+      "term_ru": "Разрыв выпуска",
+      "definition_en": "The difference between actual economic output and potential output. Negative output gap indicates underutilization (recession), zero gap indicates full capacity, and positive gap indicates overheating (expansion beyond potential).",
+      "definition_ru": "Разница между фактическим экономическим выпуском и потенциальным выпуском. Негативный разрыв выпуска указывает на недоиспользование (рецессия), нулевой разрыв указывает на полную мощность, а положительный разрыв указывает на перегрев (расширение сверх потенциала).",
+      "formula": "$\\text{Output Gap} = \\frac{\\text{Actual Output} - \\text{Potential Output}}{\\text{Potential Output}}$",
+      "los_id": "LOS_2a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-012",
+      "term_en": "Recession",
+      "term_ru": "Рецессия",
+      "definition_en": "A period of declining economic activity where overall economic output shrinks. Technically defined as two consecutive quarters of negative GDP growth. Characterized by reduced consumer spending, business investment, employment, and increased unemployment.",
+      "definition_ru": "Период снижения экономической активности, когда общий экономический выпуск сокращается. Технически определяется как два последовательных квартала негативного роста ВВП. Характеризуется сокращением потребительских расходов, бизнес-инвестиций, занятости и увеличением безработицы.",
+      "formula": "Two consecutive quarters of negative GDP growth",
+      "los_id": "LOS_2a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-013",
+      "term_en": "Depression",
+      "term_ru": "Депрессия",
+      "definition_en": "A severe and prolonged recession characterized by substantial reduction in economic activity. More severe than a typical recession with much deeper declines in GDP, employment, and economic output lasting for an extended period.",
+      "definition_ru": "Серьезная и продолжительная рецессия, характеризующаяся существенным сокращением экономической активности. Более серьезна, чем типичная рецессия, с гораздо более глубоким снижением ВВП, занятости и экономического выпуска, длящимся продолжительный период.",
+      "formula": null,
+      "los_id": "LOS_2a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-014",
+      "term_en": "Boom",
+      "term_ru": "Бум",
+      "definition_en": "A vigorous stage of the expansion phase where the economy extends its boundaries with strong confidence, significant profit growth, and expanded credit activity. May lead to challenges in finding skilled workers and wage increases. Risk of overheating may prompt government or central bank intervention.",
+      "definition_ru": "Энергичная стадия фазы расширения, когда экономика расширяет свои границы с сильной уверенностью, значительным ростом прибыли и расширенной кредитной активностью. Может привести к трудностям в поиске квалифицированных работников и росту заработной платы. Риск перегрева может побудить правительство или центральный банк к вмешательству.",
+      "formula": null,
+      "los_id": "LOS_2a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-015",
+      "term_en": "Credit Cycle",
+      "term_ru": "Кредитный цикл",
+      "definition_en": "Recurring fluctuations in the availability and pricing of credit, describing the growth in private sector credit. When economy is strong, lenders offer credit with good terms; in weak economy, credit becomes less available with unfavorable terms, potentially leading to declining asset values and increased defaults.",
+      "definition_ru": "Повторяющиеся колебания в доступности и ценообразовании кредита, описывающие рост кредита частного сектора. Когда экономика сильна, кредиторы предлагают кредит на хороших условиях; в слабой экономике кредит становится менее доступным с неблагоприятными условиями, потенциально приводя к снижению стоимости активов и увеличению дефолтов.",
+      "formula": null,
+      "los_id": "LOS_2b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-016",
+      "term_en": "Macroprudential Stabilization Policies",
+      "term_ru": "Макропруденциальные стабилизационные политики",
+      "definition_en": "Policies designed to target financial booms and prevent systemic risks to the financial system. Essential because sharp increases in credit cycles are closely linked to future banking crises. Complement traditional monetary and fiscal policies in reducing business cycle fluctuations.",
+      "definition_ru": "Политики, разработанные для нацеливания на финансовые бумы и предотвращения системных рисков для финансовой системы. Необходимы, поскольку резкие увеличения кредитных циклов тесно связаны с будущими банковскими кризисами. Дополняют традиционные монетарные и фискальные политики в снижении колебаний бизнес-циклов.",
+      "formula": null,
+      "los_id": "LOS_2b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-017",
+      "term_en": "Financial Crisis",
+      "term_ru": "Финансовый кризис",
+      "definition_en": "A significant disruption to financial markets and institutions, often linked to loose private sector credit conditions. Credit cycles can amplify business cycles, making recessions accompanied by financial disruption longer and deeper. Example: 2008-2009 global financial crisis.",
+      "definition_ru": "Значительное нарушение работы финансовых рынков и институтов, часто связанное с мягкими условиями кредитования частного сектора. Кредитные циклы могут усиливать бизнес-циклы, делая рецессии, сопровождаемые финансовыми нарушениями, более длительными и глубокими. Пример: глобальный финансовый кризис 2008-2009 годов.",
+      "formula": null,
+      "los_id": "LOS_2b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-018",
+      "term_en": "Leading Indicators",
+      "term_ru": "Опережающие индикаторы",
+      "definition_en": "Economic variables that tend to change before the overall economy changes direction. Provide insights into potential future economic trends and turning points. Help forecast economic trends and provide early warning signals. Examples: stock market indices, consumer confidence, housing permits, new orders for capital goods.",
+      "definition_ru": "Экономические переменные, которые имеют тенденцию изменяться до того, как общая экономика изменит направление. Предоставляют понимание потенциальных будущих экономических трендов и поворотных точек. Помогают прогнозировать экономические тенденции и предоставляют ранние предупреждающие сигналы. Примеры: индексы фондового рынка, потребительская уверенность, разрешения на строительство, новые заказы на капитальные товары.",
+      "formula": null,
+      "los_id": "LOS_2c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-019",
+      "term_en": "Coincident Indicators",
+      "term_ru": "Совпадающие индикаторы",
+      "definition_en": "Economic indicators that move in tandem with changes in the overall economy. Reflect the current state of economic activity and provide a snapshot of the present economic environment. Examples: GDP, industrial production, personal income.",
+      "definition_ru": "Экономические индикаторы, которые движутся в тандеме с изменениями в общей экономике. Отражают текущее состояние экономической активности и предоставляют снимок текущей экономической среды. Примеры: ВВП, промышленное производство, личный доход.",
+      "formula": null,
+      "los_id": "LOS_2c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-020",
+      "term_en": "Lagging Indicators",
+      "term_ru": "Запаздывающие индикаторы",
+      "definition_en": "Economic indicators that change after the economy has already shifted. Confirm trends that have already occurred and assess long-term effects of economic shifts. Provide retrospective view of economic changes. Examples: unemployment rate, CPI, business spending on new equipment, loan delinquency rates.",
+      "definition_ru": "Экономические индикаторы, которые изменяются после того, как экономика уже сдвинулась. Подтверждают тенденции, которые уже произошли, и оценивают долгосрочные эффекты экономических сдвигов. Предоставляют ретроспективный взгляд на экономические изменения. Примеры: уровень безработицы, ИПЦ, расходы бизнеса на новое оборудование, уровни просрочки по кредитам.",
+      "formula": null,
+      "los_id": "LOS_2c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-021",
+      "term_en": "Composite Indicators",
+      "term_ru": "Композитные индикаторы",
+      "definition_en": "Economic indicators consisting of a mix of multiple economic and financial variables that move in the same direction. Used to assess overall economic conditions. Typically collect about twelve different numbers from sources like OECD or national research groups to provide comprehensive view of economic dynamics.",
+      "definition_ru": "Экономические индикаторы, состоящие из смеси нескольких экономических и финансовых переменных, которые движутся в одном направлении. Используются для оценки общих экономических условий. Обычно собирают около двенадцати различных чисел из источников, таких как ОЭСР или национальные исследовательские группы, для предоставления всестороннего взгляда на экономическую динамику.",
+      "formula": null,
+      "los_id": "LOS_2c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-022",
+      "term_en": "OECD Composite Leading Indicator (CLI)",
+      "term_ru": "Композитный опережающий индикатор ОЭСР (CLI)",
+      "definition_en": "A powerful tool for understanding economic trends constructed from key variables: M2 money supply, economic sentiment index, permits and orders, equity index, interest rate spread, and manufacturing/service sector indicators. Provides holistic perspective on economic performance and future expectations.",
+      "definition_ru": "Мощный инструмент для понимания экономических трендов, построенный из ключевых переменных: денежная масса M2, индекс экономических настроений, разрешения и заказы, фондовый индекс, спред процентных ставок и индикаторы производственного/сервисного секторов. Предоставляет целостную перспективу экономических показателей и будущих ожиданий.",
+      "formula": null,
+      "los_id": "LOS_2c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-023",
+      "term_en": "Conference Board Leading Economic Index (LEI)",
+      "term_ru": "Опережающий экономический индекс Conference Board (LEI)",
+      "definition_en": "A composite leading indicator published by the Conference Board comprising 10 components reflecting classical business cycle: ISM new order index, manufacturers' new orders, average weekly hours, unemployment claims, interest rate spread, leading credit index, S&P 500, building permits, non-defense capital goods orders, and consumer expectations.",
+      "definition_ru": "Композитный опережающий индикатор, публикуемый Conference Board, состоящий из 10 компонентов, отражающих классический бизнес-цикл: индекс новых заказов ISM, новые заказы производителей, средняя еженедельная продолжительность рабочего времени, заявки на пособие по безработице, спред процентных ставок, опережающий кредитный индекс, S&P 500, разрешения на строительство, заказы на капитальные товары невоенного назначения и ожидания потребителей.",
+      "formula": null,
+      "los_id": "LOS_2c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-024",
+      "term_en": "Capacity Utilization",
+      "term_ru": "Использование мощностей",
+      "definition_en": "The extent to which a company or economy uses its installed productive capacity. Varies over business cycle: low during recovery with excess capacity, rises during expansion, peaks during slowdown, and falls during contraction as demand weakens and production is reduced.",
+      "definition_ru": "Степень, в которой компания или экономика использует свои установленные производственные мощности. Изменяется в течение бизнес-цикла: низкое во время восстановления с избыточными мощностями, растет во время расширения, достигает пика во время замедления и падает во время сжатия по мере ослабления спроса и сокращения производства.",
+      "formula": "$\\text{Capacity Utilization} = \\frac{\\text{Actual Output}}{\\text{Potential Output}} \\times 100\\%$",
+      "los_id": "LOS_2c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-025",
+      "term_en": "Inventory-Sales Ratio",
+      "term_ru": "Коэффициент запасов к продажам",
+      "definition_en": "The ratio of inventory levels to sales. Varies cyclically: declines during recovery as sales recovery surpasses production, remains stable during expansion, increases during slowdown as sales slow faster than production, and declines back to normal during contraction as inventory is reduced.",
+      "definition_ru": "Соотношение уровней запасов к продажам. Изменяется циклически: снижается во время восстановления, когда восстановление продаж опережает производство, остается стабильным во время расширения, увеличивается во время замедления, когда продажи замедляются быстрее производства, и снижается обратно к норме во время сжатия, когда запасы сокращаются.",
+      "formula": "$\\text{Inventory-Sales Ratio} = \\frac{\\text{Inventory Level}}{\\text{Sales Volume}}$",
+      "los_id": "LOS_2c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-026",
+      "term_en": "Housing Sector Activity",
+      "term_ru": "Активность жилищного сектора",
+      "definition_en": "The level of activity in residential construction and real estate markets. Cyclical pattern: increases during recovery with rising demand, thrives during expansion with strong construction and rising prices, slows during slowdown phase, and faces challenges during contraction with decreased demand and declining prices.",
+      "definition_ru": "Уровень активности в жилищном строительстве и рынках недвижимости. Циклический паттерн: увеличивается во время восстановления с ростом спроса, процветает во время расширения с сильным строительством и ростом цен, замедляется во время фазы замедления и сталкивается с трудностями во время сжатия со снижением спроса и падением цен.",
+      "formula": null,
+      "los_id": "LOS_2c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-027",
+      "term_en": "External Trade",
+      "term_ru": "Внешняя торговля",
+      "definition_en": "International trade involving exchange of goods and services between countries. Activity influenced by business cycle: trade volumes increase gradually during recovery, reach elevated levels during expansion with strong exports and imports, moderate during slowdown, and decrease significantly during contraction affecting trade balance.",
+      "definition_ru": "Международная торговля, включающая обмен товарами и услугами между странами. Активность, зависящая от бизнес-цикла: объемы торговли постепенно увеличиваются во время восстановления, достигают повышенных уровней во время расширения с сильным экспортом и импортом, умеренны во время замедления и значительно снижаются во время сжатия, влияя на торговый баланс.",
+      "formula": "$\\text{Trade Balance} = \\text{Exports} - \\text{Imports}$",
+      "los_id": "LOS_2c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-028",
+      "term_en": "Economic Indicators",
+      "term_ru": "Экономические индикаторы",
+      "definition_en": "Numbers or statistics that give insights into economic performance, condition, and potential future directions. Cover data on economic growth, jobs, prices, consumer spending, business investments, trade, and more. Important for economists, policymakers, investors, and analysts to study business cycles and make decisions.",
+      "definition_ru": "Числа или статистика, которые дают представление об экономических показателях, состоянии и потенциальных будущих направлениях. Охватывают данные об экономическом росте, рабочих местах, ценах, потребительских расходах, бизнес-инвестициях, торговле и многом другом. Важны для экономистов, политиков, инвесторов и аналитиков для изучения бизнес-циклов и принятия решений.",
+      "formula": null,
+      "los_id": "LOS_2c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-029",
+      "term_en": "Gross Domestic Product (GDP)",
+      "term_ru": "Валовой внутренний продукт (ВВП)",
+      "definition_en": "The total market value of all final goods and services produced within a country in a specific time period. A key coincident indicator reflecting current state of economic activity. Used to measure economic growth and recession (two consecutive quarters of negative GDP growth).",
+      "definition_ru": "Общая рыночная стоимость всех конечных товаров и услуг, произведенных в стране за определенный период времени. Ключевой совпадающий индикатор, отражающий текущее состояние экономической активности. Используется для измерения экономического роста и рецессии (два последовательных квартала негативного роста ВВП).",
+      "formula": "$\\text{GDP} = C + I + G + (X - M)$",
+      "los_id": "LOS_2c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-030",
+      "term_en": "Industrial Production",
+      "term_ru": "Промышленное производство",
+      "definition_en": "A measure of output of industrial sector including manufacturing, mining, and utilities. A coincident indicator that moves in tandem with economic activity. Industrial Production Index shows upward trend during expansion and downward trend during contraction.",
+      "definition_ru": "Мера выпуска промышленного сектора, включая производство, добычу полезных ископаемых и коммунальные услуги. Совпадающий индикатор, который движется в тандеме с экономической активностью. Индекс промышленного производства показывает восходящий тренд во время расширения и нисходящий тренд во время сжатия.",
+      "formula": null,
+      "los_id": "LOS_2c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-031",
+      "term_en": "Consumer Confidence Index",
+      "term_ru": "Индекс потребительской уверенности",
+      "definition_en": "A leading indicator measuring consumer optimism about economic conditions and their personal financial situation. High consumer confidence leads to increased spending and economic growth. Reflects consumer expectations for business conditions and influences spending decisions.",
+      "definition_ru": "Опережающий индикатор, измеряющий оптимизм потребителей относительно экономических условий и их личного финансового положения. Высокая потребительская уверенность приводит к увеличению расходов и экономическому росту. Отражает ожидания потребителей относительно деловых условий и влияет на решения о расходах.",
+      "formula": null,
+      "los_id": "LOS_2c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-032",
+      "term_en": "Unemployment Rate",
+      "term_ru": "Уровень безработицы",
+      "definition_en": "A lagging indicator representing the percentage of labor force that is unemployed and actively seeking employment. Stabilizes during recovery, decreases during expansion, decreases gradually during slowdown, and rises during contraction as businesses lay off workers.",
+      "definition_ru": "Запаздывающий индикатор, представляющий процент рабочей силы, которая безработна и активно ищет работу. Стабилизируется во время восстановления, снижается во время расширения, постепенно снижается во время замедления и растет во время сжатия, когда предприятия увольняют работников.",
+      "formula": "$\\text{Unemployment Rate} = \\frac{\\text{Number of Unemployed}}{\\text{Labor Force}} \\times 100\\%$",
+      "los_id": "LOS_2c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-033",
+      "term_en": "Consumer Price Index (CPI)",
+      "term_ru": "Индекс потребительских цен (ИПЦ)",
+      "definition_en": "A lagging indicator measuring the average change over time in prices paid by consumers for a basket of goods and services. Used to track inflation. Remains moderate during recovery, begins to rise during expansion, picks up pace during slowdown, and decreases during contraction.",
+      "definition_ru": "Запаздывающий индикатор, измеряющий среднее изменение со временем цен, уплачиваемых потребителями за корзину товаров и услуг. Используется для отслеживания инфляции. Остается умеренным во время восстановления, начинает расти во время расширения, ускоряется во время замедления и снижается во время сжатия.",
+      "formula": "$\\text{CPI} = \\frac{\\text{Cost of Basket in Current Year}}{\\text{Cost of Basket in Base Year}} \\times 100$",
+      "los_id": "LOS_2c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-034",
+      "term_en": "ISM New Order Index",
+      "term_ru": "Индекс новых заказов ISM",
+      "definition_en": "A component of the Conference Board LEI measuring the percentage of components in a series that are rising. Reflects widespread trend movements and captures business sentiment. Anticipates economic upturns and downturns. A leading indicator for manufacturing sector activity.",
+      "definition_ru": "Компонент LEI Conference Board, измеряющий процент компонентов в серии, которые растут. Отражает широкие движения трендов и захватывает деловые настроения. Предвосхищает экономические подъемы и спады. Опережающий индикатор для активности производственного сектора.",
+      "formula": null,
+      "los_id": "LOS_2c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-035",
+      "term_en": "Building Permits",
+      "term_ru": "Разрешения на строительство",
+      "definition_en": "A leading indicator representing permits required before construction of new buildings can commence. Indicates upcoming construction activity in housing sector. Part of Conference Board LEI. Shows increased activity during recovery and expansion, slows during slowdown, and decreases during contraction.",
+      "definition_ru": "Опережающий индикатор, представляющий разрешения, необходимые до начала строительства новых зданий. Указывает на предстоящую строительную активность в жилищном секторе. Часть LEI Conference Board. Показывает увеличенную активность во время восстановления и расширения, замедляется во время замедления и снижается во время сжатия.",
+      "formula": null,
+      "los_id": "LOS_2c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-036",
+      "term_en": "Interest Rate Spread",
+      "term_ru": "Спред процентных ставок",
+      "definition_en": "The difference between long-term and short-term interest rates. A component of OECD CLI and Conference Board LEI. Provides insights into future economic expectations. Normal positive spread indicates expected growth; inverted spread (negative) predicts economic downturn. Typically measured as 10-year treasury yield minus overnight borrowing rate.",
+      "definition_ru": "Разница между долгосрочными и краткосрочными процентными ставками. Компонент CLI ОЭСР и LEI Conference Board. Предоставляет понимание будущих экономических ожиданий. Нормальный положительный спред указывает на ожидаемый рост; инвертированный спред (негативный) предсказывает экономический спад. Обычно измеряется как доходность 10-летних казначейских облигаций минус ставка овернайт.",
+      "formula": "$\\text{Interest Rate Spread} = \\text{Long-term Rate} - \\text{Short-term Rate}$",
+      "los_id": "LOS_2c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-037",
+      "term_en": "Nowcasting",
+      "term_ru": "Ноукастинг",
+      "definition_en": "A technique using real-time data from various sources (financial transactions, Internet searches, etc.) to quickly assess current economic conditions. Provides timely estimates for economic indicators not updated frequently. Transformed economic analysis by offering real-time insights instead of waiting for official statistics.",
+      "definition_ru": "Техника использования данных в реальном времени из различных источников (финансовые транзакции, интернет-поиски и т.д.) для быстрой оценки текущих экономических условий. Предоставляет своевременные оценки для экономических индикаторов, не обновляемых часто. Трансформировала экономический анализ, предлагая понимание в реальном времени вместо ожидания официальной статистики.",
+      "formula": null,
+      "los_id": "LOS_2c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-038",
+      "term_en": "GDPNow",
+      "term_ru": "GDPNow",
+      "definition_en": "A nowcasting estimation tool that utilizes real-time data to forecast current-quarter GDP growth. Developed by Federal Reserve Bank of Atlanta. Provides more timely GDP estimates than traditional quarterly releases by incorporating incoming economic data as it becomes available.",
+      "definition_ru": "Инструмент оценки ноукастинга, который использует данные в реальном времени для прогнозирования роста ВВП текущего квартала. Разработан Федеральным резервным банком Атланты. Предоставляет более своевременные оценки ВВП, чем традиционные квартальные релизы, включая поступающие экономические данные по мере их доступности.",
+      "formula": null,
+      "los_id": "LOS_2c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-039",
+      "term_en": "EuroCOIN",
+      "term_ru": "EuroCOIN",
+      "definition_en": "A nowcasting measure that employs diverse data sources to assess the state of the Eurozone economy in real-time. Provides coincident indicator of underlying economic activity in the euro area by filtering out short-term volatility from various economic data series.",
+      "definition_ru": "Мера ноукастинга, которая использует разнообразные источники данных для оценки состояния экономики еврозоны в реальном времени. Предоставляет совпадающий индикатор базовой экономической активности в зоне евро, отфильтровывая краткосрочную волатильность из различных рядов экономических данных.",
+      "formula": null,
+      "los_id": "LOS_2c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-040",
+      "term_en": "Purchasing Managers' Indexes (PMIs)",
+      "term_ru": "Индексы менеджеров по закупкам (PMI)",
+      "definition_en": "Survey-based indicators that capture current business conditions in manufacturing and service sectors. Act as leading indicators offering early signals of economic performance. Values above 50 indicate expansion, below 50 indicate contraction. Based on surveys of purchasing managers about new orders, production, employment, and delivery times.",
+      "definition_ru": "Основанные на опросах индикаторы, которые захватывают текущие деловые условия в производственном и сервисном секторах. Действуют как опережающие индикаторы, предлагающие ранние сигналы экономических показателей. Значения выше 50 указывают на расширение, ниже 50 указывают на сжатие. Основаны на опросах менеджеров по закупкам о новых заказах, производстве, занятости и сроках доставки.",
+      "formula": "$\\text{PMI} > 50$: Expansion; $\\text{PMI} < 50$: Contraction",
+      "los_id": "LOS_2c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-041",
+      "term_en": "Capital Spending",
+      "term_ru": "Капитальные расходы",
+      "definition_en": "Business investments in long-term assets like property, equipment, and infrastructure. Varies cyclically: begins low during recovery focusing on efficiency, increases during expansion with capacity expansion, continues during slowdown at near-capacity, and halts during contraction with order cancellations.",
+      "definition_ru": "Инвестиции бизнеса в долгосрочные активы, такие как недвижимость, оборудование и инфраструктура. Изменяется циклически: начинается низко во время восстановления, сосредоточиваясь на эффективности, увеличивается во время расширения с расширением мощностей, продолжается во время замедления на уровне, близком к мощности, и останавливается во время сжатия с отменой заказов.",
+      "formula": null,
+      "los_id": "LOS_2c",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-2-042",
+      "term_en": "Average Weekly Hours (Manufacturing)",
+      "term_ru": "Средняя продолжительность рабочей недели (производство)",
+      "definition_en": "A component of Conference Board LEI reflecting workforce dynamics. Businesses cut overtime before layoffs and increase overtime before rehiring. A leading indicator sensitive to early changes in labor demand. Increases during recovery and expansion, decreases during slowdown and contraction.",
+      "definition_ru": "Компонент LEI Conference Board, отражающий динамику рабочей силы. Предприятия сокращают сверхурочные перед увольнениями и увеличивают сверхурочные перед повторным наймом. Опережающий индикатор, чувствительный к ранним изменениям в спросе на труд. Увеличивается во время восстановления и расширения, уменьшается во время замедления и сжатия.",
+      "formula": null,
+      "los_id": "LOS_2c",
+      "calculator": null
+    }
+  ]
 }
