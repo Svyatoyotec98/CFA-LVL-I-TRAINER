@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Create questions.json for v2 structure following QBANK_INSTRUCTION_v4.md
+Enhanced with calculator_steps generation from glossary
 """
 
 import json
@@ -11,6 +12,7 @@ from pathlib import Path
 # ============== CONFIGURATION ==============
 GLOSSARY_PATH = Path("frontend/data/v2/book1_quants/module1/glossary.json")
 QBANK_PATH = Path("frontend/data/v2/book1_quants/module1/sources/qbank.docx")
+TEMPLATES_PATH = Path("frontend/data/v2/calculator_templates.json")
 OUTPUT_PATH = Path("frontend/data/v2/book1_quants/module1/questions.json")
 
 # ============== TERM MAPPING (from glossary) ==============
@@ -32,7 +34,7 @@ TERM_KEYWORDS = {
     "QM-1-021": ["leveraged return", "borrowed funds", "leverage"],
 }
 
-# ============== STEP 0: LOAD GLOSSARY ==============
+# ============== STEP 0: LOAD GLOSSARY AND TEMPLATES ==============
 def load_glossary():
     """Load glossary.json and extract term mapping"""
     with open(GLOSSARY_PATH, 'r', encoding='utf-8') as f:
@@ -50,6 +52,16 @@ def load_glossary():
 
     print(f"✅ Loaded {len(term_map)} terms from glossary")
     return term_map, glossary
+
+
+def load_calculator_templates():
+    """Load calculator_templates.json"""
+    with open(TEMPLATES_PATH, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    templates = data.get('templates', {})
+    print(f"✅ Loaded {len(templates)} calculator templates")
+    return templates
 
 
 # ============== STEP 1: EXTRACT TEXT FROM DOCX ==============
@@ -159,8 +171,197 @@ def generate_latex_formula(question_text, explanation_text, correct_option_text,
     return None
 
 
+# ============== CALCULATOR STEPS GENERATION ==============
+
+def extract_numbers_from_question(question_text, options_text, explanation_text):
+    """Extract numerical values from question text"""
+    combined = question_text + " " + options_text + " " + explanation_text
+
+    numbers = {}
+
+    # Extract percentages: 8%, 10.5%, -3%
+    percent_matches = re.findall(r'([-+]?\d+\.?\d*)\s*%', combined)
+    if percent_matches:
+        numbers['percentages'] = [float(p) for p in percent_matches]
+
+    # Extract money values: $150,000, $1,000, €5000
+    money_matches = re.findall(r'[\$€£¥]\s?([\d,]+(?:\.\d+)?)', combined)
+    if money_matches:
+        numbers['money_values'] = [float(m.replace(',', '')) for m in money_matches]
+
+    # Extract years/periods: "3 years", "5-year", "10 periods"
+    year_matches = re.findall(r'(\d+)[-\s](?:year|yr|period)', combined, re.IGNORECASE)
+    if year_matches:
+        numbers['years'] = [int(y) for y in year_matches]
+
+    # Determine compounding frequency
+    combined_lower = combined.lower()
+    if 'quarterly' in combined_lower or 'quarter' in combined_lower:
+        numbers['compounding_frequency'] = 4
+        numbers['compounding_name'] = 'quarterly'
+    elif 'monthly' in combined_lower or 'month' in combined_lower:
+        numbers['compounding_frequency'] = 12
+        numbers['compounding_name'] = 'monthly'
+    elif 'semiannual' in combined_lower or 'semi-annual' in combined_lower:
+        numbers['compounding_frequency'] = 2
+        numbers['compounding_name'] = 'semiannually'
+    elif 'annual' in combined_lower and 'semi' not in combined_lower:
+        numbers['compounding_frequency'] = 1
+        numbers['compounding_name'] = 'annually'
+    elif 'daily' in combined_lower:
+        numbers['compounding_frequency'] = 365
+        numbers['compounding_name'] = 'daily'
+
+    # Extract return values for geometric/arithmetic mean calculations
+    return_matches = re.findall(r'([-+]?\d+\.?\d*)%', combined)
+    if len(return_matches) >= 2:
+        numbers['returns'] = [float(r) for r in return_matches]
+
+    return numbers
+
+
+def determine_calculation_type(question_text, explanation_text, term_id):
+    """Determine what type of calculation is needed based on question content"""
+    combined = (question_text + " " + explanation_text).lower()
+
+    # TVM calculations
+    if any(word in combined for word in ['future value', ' fv ', 'worth at maturity', 'value in', 'maturity value']):
+        return 'TVM_FV'
+
+    if any(word in combined for word in ['present value', ' pv ', 'worth today', 'invest today', 'initial investment']):
+        return 'TVM_PV'
+
+    # Direct calculations from term_id
+    if term_id == 'QM-1-007' or 'holding period return' in combined:
+        return 'DIRECT_HPR'
+
+    if term_id == 'QM-1-015' or ('effective annual rate' in combined and 'future value' not in combined):
+        return 'DIRECT_EAR'
+
+    if term_id == 'QM-1-016' or 'continuously compounded' in combined or 'continuous return' in combined:
+        return 'DIRECT_continuous_return'
+
+    if term_id == 'QM-1-008' or 'arithmetic mean' in combined:
+        return 'STAT_mean'
+
+    if term_id == 'QM-1-009' or 'geometric mean' in combined:
+        return 'DIRECT_geometric_mean'
+
+    if term_id == 'QM-1-013' or any(word in combined for word in ['money-weighted', 'mwrr', 'internal rate of return', ' irr ']):
+        return 'CF_IRR'
+
+    if term_id == 'QM-1-014' or 'time-weighted' in combined:
+        return 'MULTI_STEP_TWRR'
+
+    if term_id == 'QM-1-019' or 'real return' in combined:
+        return 'DIRECT_real_return'
+
+    if term_id == 'QM-1-021' or 'leveraged return' in combined:
+        return 'DIRECT_leveraged_return'
+
+    return None
+
+
+def generate_calculator_steps(question_text, options_text, explanation_text, term_id, term_map, templates):
+    """Generate calculator steps based on term_id and question content"""
+
+    # Extract numbers from question
+    numbers = extract_numbers_from_question(question_text, options_text, explanation_text)
+
+    # Determine calculation type
+    calc_type = determine_calculation_type(question_text, explanation_text, term_id)
+
+    if not calc_type:
+        return []
+
+    # Get calculator data from glossary if term exists
+    calc_from_glossary = None
+    if term_id and term_id in term_map:
+        calc_from_glossary = term_map[term_id].get('calculator')
+
+    # Generate steps based on calculation type
+    steps = []
+
+    # TVM calculations
+    if calc_type == 'TVM_FV':
+        steps.append("[2ND] [CLR TVM]")
+
+        # Set P/Y and C/Y if compounding frequency is known
+        if 'compounding_frequency' in numbers:
+            m = numbers['compounding_frequency']
+            steps.append(f"[2ND] [P/Y] {m} [ENTER] [↓] {m} [ENTER]")
+            steps.append("[2ND] [QUIT]")
+
+        # Input known values
+        if 'money_values' in numbers and len(numbers['money_values']) > 0:
+            pv = numbers['money_values'][0]
+            steps.append(f"{pv:,.0f} [+/-] [PV]")
+
+        if 'percentages' in numbers and len(numbers['percentages']) > 0:
+            rate = numbers['percentages'][0]
+            steps.append(f"{rate} [I/Y]")
+
+        if 'years' in numbers and 'compounding_frequency' in numbers:
+            n = numbers['years'][0] * numbers['compounding_frequency']
+            steps.append(f"{n} [N]")
+        elif 'years' in numbers:
+            n = numbers['years'][0]
+            steps.append(f"{n} [N]")
+
+        steps.append("0 [PMT]")
+        steps.append("[CPT] [FV]")
+        return steps
+
+    elif calc_type == 'TVM_PV':
+        steps.append("[2ND] [CLR TVM]")
+
+        if 'compounding_frequency' in numbers:
+            m = numbers['compounding_frequency']
+            steps.append(f"[2ND] [P/Y] {m} [ENTER] [↓] {m} [ENTER]")
+            steps.append("[2ND] [QUIT]")
+
+        if 'money_values' in numbers and len(numbers['money_values']) > 0:
+            fv = numbers['money_values'][0]
+            steps.append(f"{fv:,.0f} [FV]")
+
+        if 'percentages' in numbers and len(numbers['percentages']) > 0:
+            rate = numbers['percentages'][0]
+            steps.append(f"{rate} [I/Y]")
+
+        if 'years' in numbers and 'compounding_frequency' in numbers:
+            n = numbers['years'][0] * numbers['compounding_frequency']
+            steps.append(f"{n} [N]")
+        elif 'years' in numbers:
+            n = numbers['years'][0]
+            steps.append(f"{n} [N]")
+
+        steps.append("0 [PMT]")
+        steps.append("[CPT] [PV]")
+        return steps
+
+    # Template-based calculations
+    elif calc_type in templates:
+        template = templates[calc_type]
+        # Return template steps directly (we could substitute values here, but that's complex)
+        if 'steps' in template:
+            return template['steps']
+
+    # Try to get from glossary calculator
+    elif calc_from_glossary:
+        if 'template_id' in calc_from_glossary:
+            template_id = calc_from_glossary['template_id']
+            if template_id in templates:
+                template = templates[template_id]
+                if 'steps' in template:
+                    return template['steps']
+        elif 'steps' in calc_from_glossary:
+            return calc_from_glossary['steps']
+
+    return []
+
+
 # ============== STEP 3: PARSE SINGLE QUESTION ==============
-def parse_question(raw_question, term_map):
+def parse_question(raw_question, term_map, templates):
     """Parse a single raw question into structured format"""
     lines = raw_question['lines']
     q_num = raw_question['number']
@@ -200,7 +401,6 @@ def parse_question(raw_question, term_map):
     # Extract explanation
     explanation = ""
     explanation_lines = []
-    calculator_steps = []
     capture_explanation = False
 
     for i, line in enumerate(lines):
@@ -214,15 +414,8 @@ def parse_question(raw_question, term_map):
             # Skip copyright and meta lines
             if line.startswith('©') or line.startswith('CFA Level') or line.isdigit():
                 continue
-            # Extract calculator steps if present
+            # Skip calculator step lines (we'll generate them later)
             if 'using the' in line.lower() and 'calculator' in line.lower():
-                # This is calculator steps
-                calc_match = re.search(r'(?:Using|BA II).*?:\s*(.+)', line, re.IGNORECASE)
-                if calc_match:
-                    steps_text = calc_match.group(1)
-                    # Parse calculator steps
-                    if ';' in steps_text:
-                        calculator_steps = [s.strip() for s in steps_text.split(';') if s.strip()]
                 continue
             if line and len(line) > 5:  # Skip very short lines
                 explanation_lines.append(line)
@@ -283,6 +476,10 @@ def parse_question(raw_question, term_map):
     correct_opt_text = next((opt['text'] for opt in options if opt['id'] == correct_option_id), "")
     explanation_formula = generate_latex_formula(question_text, explanation, correct_opt_text, term_id)
 
+    # Generate calculator steps from glossary + question numbers
+    options_text = " ".join([opt['text'] for opt in options])
+    calculator_steps = generate_calculator_steps(question_text, options_text, explanation, term_id, term_map, templates)
+
     # Build question object
     question = {
         'question_id': f'QM-1-Q{q_num:03d}',
@@ -313,11 +510,12 @@ def parse_question(raw_question, term_map):
 # ============== MAIN ==============
 def main():
     print("=" * 60)
-    print("CREATE QUESTIONS.JSON v4.0")
+    print("CREATE QUESTIONS.JSON v4.1 (with Calculator Steps)")
     print("=" * 60)
 
-    # STEP 0: Load glossary
+    # STEP 0: Load glossary and templates
     term_map, glossary = load_glossary()
+    templates = load_calculator_templates()
 
     # STEP 1: Extract questions from DOCX
     questions_raw = extract_questions_from_docx()
@@ -326,9 +524,10 @@ def main():
     questions = []
     for raw_q in questions_raw:  # All questions
         try:
-            q = parse_question(raw_q, term_map)
+            q = parse_question(raw_q, term_map, templates)
             questions.append(q)
-            print(f"✅ Parsed Q.{raw_q['number']} - term_id: {q['term_id'] or 'None'} - formula: {'Yes' if q['explanation_formula'] else 'No'}")
+            calc_status = f"calc:{len(q['calculator_steps'])} steps" if q['calculator_steps'] else "calc:none"
+            print(f"✅ Q.{raw_q['number']:02d} - term:{q['term_id'] or 'None':12s} - formula:{'Yes' if q['explanation_formula'] else 'No ':3s} - {calc_status}")
         except Exception as e:
             print(f"❌ Failed Q.{raw_q['number']}: {e}")
             import traceback
@@ -354,8 +553,9 @@ def main():
     print("=" * 60)
     print(f"✅ SAVED: {OUTPUT_PATH}")
     print(f"   Total questions: {len(questions)}")
-    print(f"   Questions with formulas: {sum(1 for q in questions if q['explanation_formula'])}")
-    print(f"   Questions with term_id: {sum(1 for q in questions if q['term_id'])}")
+    print(f"   Questions with formulas: {sum(1 for q in questions if q['explanation_formula'])} ({sum(1 for q in questions if q['explanation_formula'])/len(questions)*100:.1f}%)")
+    print(f"   Questions with term_id: {sum(1 for q in questions if q['term_id'])} ({sum(1 for q in questions if q['term_id'])/len(questions)*100:.1f}%)")
+    print(f"   Questions with calculator_steps: {sum(1 for q in questions if q['calculator_steps'])} ({sum(1 for q in questions if q['calculator_steps'])/len(questions)*100:.1f}%)")
     print("=" * 60)
 
 
