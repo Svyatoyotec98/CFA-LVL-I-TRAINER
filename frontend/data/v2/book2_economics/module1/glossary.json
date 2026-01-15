@@ -1,3 +1,441 @@
 {
-  "terms": []
+  "book_id": 2,
+  "book_code": "EC",
+  "book_name": "Economics",
+  "book_name_ru": "Экономика",
+
+  "module_id": 1,
+  "module_name": "Firm & Market Structures",
+  "module_name_ru": "Фирма и структуры рынков",
+
+  "los_list": ["LOS_1a", "LOS_1b", "LOS_1c", "LOS_1d", "LOS_1e"],
+  "total_terms": 40,
+
+  "terms": [
+    {
+      "term_id": "EC-1-001",
+      "term_en": "Perfect Competition",
+      "term_ru": "Совершенная конкуренция",
+      "definition_en": "A market structure characterized by many buyers and sellers, homogeneous products, no single firm large enough to influence price, perfect information, and no barriers to entry. Firms are price takers with perfectly elastic horizontal demand curves.",
+      "definition_ru": "Структура рынка, характеризующаяся множеством покупателей и продавцов, однородными продуктами, отсутствием фирм, достаточно крупных, чтобы влиять на цену, совершенной информацией и отсутствием барьеров для входа. Фирмы принимают цену с совершенно эластичной горизонтальной кривой спроса.",
+      "formula": "$P = MR = AR$ (perfectly elastic demand)",
+      "los_id": "LOS_1a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-002",
+      "term_en": "Imperfect Competition",
+      "term_ru": "Несовершенная конкуренция",
+      "definition_en": "Market structures where firms have some control over price due to downward-sloping demand curves. Includes monopolistic competition, oligopoly, and monopoly. Price is a function of quantity: P = f(Q).",
+      "definition_ru": "Структуры рынков, где фирмы имеют некоторый контроль над ценой из-за наклонных вниз кривых спроса. Включает монополистическую конкуренцию, олигополию и монополию. Цена является функцией количества: P = f(Q).",
+      "formula": "$P = f(Q)$; $TR = f(Q) \\times Q$",
+      "los_id": "LOS_1a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-003",
+      "term_en": "Marginal Revenue (MR)",
+      "term_ru": "Предельный доход",
+      "definition_en": "The additional revenue generated from selling one more unit of output. In perfect competition, MR equals price. In imperfect competition, MR is less than price and declines as quantity increases.",
+      "definition_ru": "Дополнительный доход, получаемый от продажи еще одной единицы продукции. При совершенной конкуренции MR равен цене. При несовершенной конкуренции MR меньше цены и снижается по мере увеличения количества.",
+      "formula": "$MR = \\frac{\\Delta TR}{\\Delta Q}$; Perfect competition: $MR = P$; Imperfect: $MR < P$",
+      "los_id": "LOS_1a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-004",
+      "term_en": "Average Revenue (AR)",
+      "term_ru": "Средний доход",
+      "definition_en": "Total revenue divided by quantity sold. Equals the price per unit. In perfect competition, AR = MR = P. Represents the demand curve facing the firm.",
+      "definition_ru": "Общий доход, деленный на проданное количество. Равен цене за единицу. При совершенной конкуренции AR = MR = P. Представляет кривую спроса, с которой сталкивается фирма.",
+      "formula": "$AR = \\frac{TR}{Q} = P$",
+      "los_id": "LOS_1a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-005",
+      "term_en": "Total Revenue (TR)",
+      "term_ru": "Общий доход",
+      "definition_en": "The total amount received from selling output, calculated as price times quantity. In perfect competition: TR = P × Q. In imperfect competition: TR = f(Q) × Q.",
+      "definition_ru": "Общая сумма, полученная от продажи продукции, рассчитанная как цена, умноженная на количество. При совершенной конкуренции: TR = P × Q. При несовершенной конкуренции: TR = f(Q) × Q.",
+      "formula": "$TR = P \\times Q$",
+      "los_id": "LOS_1a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-006",
+      "term_en": "Profit Maximization Point",
+      "term_ru": "Точка максимизации прибыли",
+      "definition_en": "The output level where a firm maximizes economic profit, occurring where marginal revenue equals marginal cost (MR = MC) and MC is increasing. Universal rule for all market structures.",
+      "definition_ru": "Уровень выпуска, при котором фирма максимизирует экономическую прибыль, происходящий там, где предельный доход равен предельным издержкам (MR = MC) и MC увеличивается. Универсальное правило для всех структур рынков.",
+      "formula": "$MR = MC$ (and MC is increasing)",
+      "los_id": "LOS_1a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-007",
+      "term_en": "Breakeven Point",
+      "term_ru": "Точка безубыточности",
+      "definition_en": "The output level where total revenue equals total cost (TR = TC), or equivalently, where average revenue equals average total cost (AR = ATC). Economic profit is zero; the firm earns normal profit covering all opportunity costs.",
+      "definition_ru": "Уровень выпуска, при котором общий доход равен общим издержкам (TR = TC), или эквивалентно, где средний доход равен средним общим издержкам (AR = ATC). Экономическая прибыль равна нулю; фирма получает нормальную прибыль, покрывающую все альтернативные издержки.",
+      "formula": "$TR = TC$; $AR = ATC$; $P = ATC$ (at minimum ATC in perfect competition)",
+      "los_id": "LOS_1a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-008",
+      "term_en": "Shutdown Point",
+      "term_ru": "Точка закрытия",
+      "definition_en": "The output level at minimum average variable cost (AVC) where the firm is indifferent between operating and shutting down in the short run. If price falls below this point (P < min AVC), the firm cannot cover variable costs and should cease production.",
+      "definition_ru": "Уровень выпуска при минимальных средних переменных издержках (AVC), где фирма безразлична между работой и закрытием в краткосрочном периоде. Если цена падает ниже этой точки (P < min AVC), фирма не может покрыть переменные издержки и должна прекратить производство.",
+      "formula": "$P = AVC_{min}$; Shutdown if $P < AVC$",
+      "los_id": "LOS_1a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-009",
+      "term_en": "Short Run",
+      "term_ru": "Краткосрочный период",
+      "definition_en": "A time period during which at least one factor of production (technology, physical capital, plant size) is fixed. Firms can adjust variable inputs but not fixed inputs. Duration varies by industry and capital intensity.",
+      "definition_ru": "Период времени, в течение которого хотя бы один фактор производства (технология, физический капитал, размер предприятия) является фиксированным. Фирмы могут регулировать переменные ресурсы, но не фиксированные. Продолжительность варьируется по отраслям и капиталоемкости.",
+      "formula": null,
+      "los_id": "LOS_1a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-010",
+      "term_en": "Long Run",
+      "term_ru": "Долгосрочный период",
+      "definition_en": "A time period during which all factors of production are variable. Firms can enter or exit the market based on profitability. Also called the planning horizon where firms choose optimal operating size to maximize profit.",
+      "definition_ru": "Период времени, в течение которого все факторы производства являются переменными. Фирмы могут входить или выходить с рынка на основе прибыльности. Также называется горизонтом планирования, где фирмы выбирают оптимальный размер работы для максимизации прибыли.",
+      "formula": null,
+      "los_id": "LOS_1a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-011",
+      "term_en": "Fixed Costs (FC)",
+      "term_ru": "Постоянные издержки",
+      "definition_en": "Expenses that remain constant regardless of production level, such as rent, insurance, and fixed interest charges. Cannot be avoided in the short run but are sunk costs that should be ignored in shutdown decisions.",
+      "definition_ru": "Расходы, которые остаются постоянными независимо от уровня производства, такие как аренда, страхование и фиксированные процентные платежи. Не могут быть избежаны в краткосрочном периоде, но являются невозвратными издержками, которые следует игнорировать при решениях о закрытии.",
+      "formula": "$TFC = constant$",
+      "los_id": "LOS_1a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-012",
+      "term_en": "Variable Costs (VC)",
+      "term_ru": "Переменные издержки",
+      "definition_en": "Costs that vary directly with the volume of production, including raw materials, wages, and other inputs tied to output levels. Relevant for short-run shutdown decisions.",
+      "definition_ru": "Издержки, которые изменяются непосредственно с объемом производства, включая сырье, заработную плату и другие ресурсы, связанные с уровнями выпуска. Релевантны для краткосрочных решений о закрытии.",
+      "formula": "$TVC = f(Q)$ (increases with Q)",
+      "los_id": "LOS_1a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-013",
+      "term_en": "Average Variable Cost (AVC)",
+      "term_ru": "Средние переменные издержки",
+      "definition_en": "Total variable cost divided by quantity produced. Critical for shutdown decisions: if price falls below minimum AVC, the firm should cease operations in the short run as it cannot cover variable costs.",
+      "definition_ru": "Общие переменные издержки, деленные на произведенное количество. Критичны для решений о закрытии: если цена падает ниже минимума AVC, фирма должна прекратить деятельность в краткосрочном периоде, так как не может покрыть переменные издержки.",
+      "formula": "$AVC = \\frac{TVC}{Q}$",
+      "los_id": "LOS_1a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-014",
+      "term_en": "Average Total Cost (ATC)",
+      "term_ru": "Средние общие издержки",
+      "definition_en": "Total cost (fixed plus variable) divided by quantity. Equals AFC + AVC. The breakeven point occurs at minimum ATC in perfect competition. Determines whether a firm earns economic profit (P > ATC), normal profit (P = ATC), or loss (P < ATC).",
+      "definition_ru": "Общие издержки (постоянные плюс переменные), деленные на количество. Равны AFC + AVC. Точка безубыточности происходит при минимуме ATC при совершенной конкуренции. Определяет, получает ли фирма экономическую прибыль (P > ATC), нормальную прибыль (P = ATC) или убыток (P < ATC).",
+      "formula": "$ATC = \\frac{TC}{Q} = \\frac{TFC + TVC}{Q} = AFC + AVC$",
+      "los_id": "LOS_1a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-015",
+      "term_en": "Short-run Marginal Cost (SMC)",
+      "term_ru": "Краткосрочные предельные издержки",
+      "definition_en": "The additional cost of producing one more unit of output in the short run when at least one input is fixed. Used to determine profit-maximizing output where SMC = MR and SMC is increasing.",
+      "definition_ru": "Дополнительные издержки на производство еще одной единицы выпуска в краткосрочном периоде, когда по крайней мере один ресурс фиксирован. Используется для определения максимизирующего прибыль выпуска, где SMC = MR и SMC увеличивается.",
+      "formula": "$SMC = \\frac{\\Delta TC}{\\Delta Q} = \\frac{\\Delta TVC}{\\Delta Q}$ (since FC is constant)",
+      "los_id": "LOS_1a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-016",
+      "term_en": "Economic Profit",
+      "term_ru": "Экономическая прибыль",
+      "definition_en": "Total revenue minus all economic costs (explicit and implicit opportunity costs). Positive economic profit occurs when P > ATC. Zero economic profit (normal profit) means the firm covers all opportunity costs. Attracts entry in competitive markets.",
+      "definition_ru": "Общий доход минус все экономические издержки (явные и неявные альтернативные издержки). Положительная экономическая прибыль происходит, когда P > ATC. Нулевая экономическая прибыль (нормальная прибыль) означает, что фирма покрывает все альтернативные издержки. Привлекает вход на конкурентные рынки.",
+      "formula": "$\\pi = TR - TC = (P - ATC) \\times Q$",
+      "los_id": "LOS_1a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-017",
+      "term_en": "Normal Profit",
+      "term_ru": "Нормальная прибыль",
+      "definition_en": "The minimum return necessary to keep resources in their current use. Occurs when economic profit is zero (TR = TC or P = ATC). Represents the opportunity cost of all factors of production. Not the same as zero accounting profit.",
+      "definition_ru": "Минимальная отдача, необходимая для сохранения ресурсов в их текущем использовании. Возникает, когда экономическая прибыль равна нулю (TR = TC или P = ATC). Представляет альтернативные издержки всех факторов производства. Не то же самое, что нулевая бухгалтерская прибыль.",
+      "formula": "Economic profit = 0; $TR = TC$; $P = ATC$",
+      "los_id": "LOS_1a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-018",
+      "term_en": "Sunk Costs",
+      "term_ru": "Невозвратные издержки",
+      "definition_en": "Costs that have already been incurred and cannot be recovered, regardless of future actions. Should be ignored in economic decision-making, including shutdown decisions. Examples include past expenditures on equipment or advertising.",
+      "definition_ru": "Издержки, которые уже были понесены и не могут быть возмещены, независимо от будущих действий. Должны игнорироваться в экономическом принятии решений, включая решения о закрытии. Примеры включают прошлые расходы на оборудование или рекламу.",
+      "formula": null,
+      "los_id": "LOS_1a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-019",
+      "term_en": "Economies of Scale",
+      "term_ru": "Экономия от масштаба",
+      "definition_en": "A situation where the cost per unit of production decreases as a firm increases output by expanding all inputs. Long-run average cost (LRAC) has a negative slope. Results from increasing returns to scale, specialization, efficient equipment, and bulk purchasing discounts.",
+      "definition_ru": "Ситуация, когда издержки на единицу производства снижаются по мере того, как фирма увеличивает выпуск, расширяя все ресурсы. Долгосрочные средние издержки (LRAC) имеют отрицательный наклон. Результат возрастающей отдачи от масштаба, специализации, эффективного оборудования и скидок при оптовых закупках.",
+      "formula": "LRAC decreases as Q increases; $\\frac{\\Delta LRAC}{\\Delta Q} < 0$",
+      "los_id": "LOS_1a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-020",
+      "term_en": "Diseconomies of Scale",
+      "term_ru": "Отрицательная экономия от масштаба",
+      "definition_en": "A situation where cost per unit rises as a firm increases production beyond a certain point. LRAC has a positive slope. Caused by decreasing returns to scale, management difficulties, inefficiencies from excessive size, and higher resource prices.",
+      "definition_ru": "Ситуация, когда издержки на единицу растут по мере того, как фирма увеличивает производство за определенную точку. LRAC имеет положительный наклон. Вызвана убывающей отдачей от масштаба, трудностями управления, неэффективностью от чрезмерного размера и более высокими ценами на ресурсы.",
+      "formula": "LRAC increases as Q increases; $\\frac{\\Delta LRAC}{\\Delta Q} > 0$",
+      "los_id": "LOS_1a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-021",
+      "term_en": "Constant Returns to Scale",
+      "term_ru": "Постоянная отдача от масштаба",
+      "definition_en": "A situation where per-unit cost remains unchanged as a firm increases output. LRAC is flat (horizontal). Output increases proportionally with input increases.",
+      "definition_ru": "Ситуация, когда издержки на единицу остаются неизменными по мере того, как фирма увеличивает выпуск. LRAC является плоским (горизонтальным). Выпуск увеличивается пропорционально увеличению ресурсов.",
+      "formula": "LRAC constant as Q increases; $\\frac{\\Delta LRAC}{\\Delta Q} = 0$",
+      "los_id": "LOS_1a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-022",
+      "term_en": "Long-run Average Total Cost (LRAC)",
+      "term_ru": "Долгосрочные средние общие издержки",
+      "definition_en": "The envelope curve encompassing all possible short-run average total cost (SATC) curves, representing the minimum per-unit cost for each output level when all inputs are variable. In perfect competition, firms operate at minimum LRAC in long-run equilibrium.",
+      "definition_ru": "Кривая огибающая, охватывающая все возможные краткосрочные средние общие издержки (SATC), представляющая минимальные издержки на единицу для каждого уровня выпуска, когда все ресурсы переменные. При совершенной конкуренции фирмы работают при минимуме LRAC в долгосрочном равновесии.",
+      "formula": "$LRAC = \\min(SATC_1, SATC_2, ..., SATC_n)$ for each Q",
+      "los_id": "LOS_1a",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-023",
+      "term_en": "Monopolistic Competition",
+      "term_ru": "Монополистическая конкуренция",
+      "definition_en": "An imperfect competition market with many producers selling differentiated products that are close substitutes. Characterized by low barriers to entry, some pricing power, product differentiation through branding and quality, and many buyers and sellers.",
+      "definition_ru": "Рынок несовершенной конкуренции с множеством производителей, продающих дифференцированные продукты, которые являются близкими заменителями. Характеризуется низкими барьерами для входа, некоторой властью над ценообразованием, дифференциацией продукта через брендинг и качество, множеством покупателей и продавцов.",
+      "formula": "Downward-sloping demand; $MR < P$; Long-run: $P = ATC$ (zero economic profit)",
+      "los_id": "LOS_1b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-024",
+      "term_en": "Monopoly",
+      "term_ru": "Монополия",
+      "definition_en": "A market consisting of a single firm producing a unique product with no close substitutes and very high barriers to entry. Monopolist is a price maker and profit maximizer, can engage in price discrimination, and is often government-regulated.",
+      "definition_ru": "Рынок, состоящий из одной фирмы, производящей уникальный продукт без близких заменителей и с очень высокими барьерами для входа. Монополист является ценовым лидером и максимизатором прибыли, может заниматься ценовой дискриминацией и часто регулируется правительством.",
+      "formula": "Profit maximization: $MR = MC$; Price: $P > MR$ (from demand curve)",
+      "los_id": "LOS_1b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-025",
+      "term_en": "Oligopoly",
+      "term_ru": "Олигополия",
+      "definition_en": "A market with a small number of relatively large firms producing similar or slightly differentiated products, with high barriers to entry. Firms are interdependent in pricing decisions and can earn abnormal profits in the long run. Examples: oil & gas, airlines, automakers.",
+      "definition_ru": "Рынок с небольшим количеством относительно крупных фирм, производящих похожие или слегка дифференцированные продукты, с высокими барьерами для входа. Фирмы взаимозависимы в решениях о ценообразовании и могут получать сверхприбыль в долгосрочном периоде. Примеры: нефть и газ, авиалинии, автопроизводители.",
+      "formula": "High pricing interdependence; Can collude or compete",
+      "los_id": "LOS_1b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-026",
+      "term_en": "Product Differentiation",
+      "term_ru": "Дифференциация продукта",
+      "definition_en": "The process of distinguishing products through branding, quality, features, or marketing. Creates perceived non-price differences among competitors' offerings. Central to monopolistic competition and some oligopolies. Allows firms to have some pricing power.",
+      "definition_ru": "Процесс выделения продуктов через брендинг, качество, характеристики или маркетинг. Создает воспринимаемые неценовые различия между предложениями конкурентов. Центральна для монополистической конкуренции и некоторых олигополий. Позволяет фирмам иметь некоторую власть над ценообразованием.",
+      "formula": null,
+      "los_id": "LOS_1b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-027",
+      "term_en": "Barriers to Entry",
+      "term_ru": "Барьеры для входа",
+      "definition_en": "Obstacles that prevent or hinder new firms from entering a market. Can be structural (economies of scale, capital requirements), legal (patents, licenses, exclusive rights), or strategic (predatory pricing, brand loyalty). Highest in monopoly and oligopoly.",
+      "definition_ru": "Препятствия, которые предотвращают или препятствуют новым фирмам войти на рынок. Могут быть структурными (экономия от масштаба, требования к капиталу), юридическими (патенты, лицензии, исключительные права) или стратегическими (хищническое ценообразование, лояльность к бренду). Самые высокие при монополии и олигополии.",
+      "formula": null,
+      "los_id": "LOS_1b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-028",
+      "term_en": "Price Taker",
+      "term_ru": "Ценополучатель",
+      "definition_en": "A firm that must accept the market price for its output and has no control over pricing. Characteristic of perfect competition where no single seller is large enough to influence market price. Faces perfectly elastic demand curve.",
+      "definition_ru": "Фирма, которая должна принимать рыночную цену за свою продукцию и не имеет контроля над ценообразованием. Характеристика совершенной конкуренции, где ни один продавец не достаточно велик, чтобы влиять на рыночную цену. Сталкивается с совершенно эластичной кривой спроса.",
+      "formula": "Perfect competition: $P = MR = AR$; Demand is horizontal",
+      "los_id": "LOS_1b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-029",
+      "term_en": "Price Maker (Price Setter)",
+      "term_ru": "Ценообразователь (ценовой лидер)",
+      "definition_en": "A firm with sufficient market power to set its own prices rather than accepting market prices. Characteristic of monopolies and, to lesser extent, oligopolies and monopolistic competition. Faces downward-sloping demand curve.",
+      "definition_ru": "Фирма с достаточной рыночной властью, чтобы устанавливать свои собственные цены, а не принимать рыночные цены. Характеристика монополий и, в меньшей степени, олигополий и монополистической конкуренции. Сталкивается с наклонной вниз кривой спроса.",
+      "formula": "Imperfect competition: $P = f(Q)$; $MR < P$",
+      "los_id": "LOS_1b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-030",
+      "term_en": "Non-Price Competition",
+      "term_ru": "Неценовая конкуренция",
+      "definition_en": "Competition through advertising, product differentiation, branding, quality improvements, and customer service rather than price changes. Common in monopolistic competition and oligopoly. Helps firms maintain market share without engaging in price wars.",
+      "definition_ru": "Конкуренция через рекламу, дифференциацию продукта, брендинг, улучшение качества и обслуживание клиентов, а не изменение цен. Обычна в монополистической конкуренции и олигополии. Помогает фирмам поддерживать долю рынка без участия в ценовых войнах.",
+      "formula": null,
+      "los_id": "LOS_1b",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-031",
+      "term_en": "Kinked Demand Curve",
+      "term_ru": "Изломанная кривая спроса",
+      "definition_en": "A demand curve model in oligopoly where the demand is more elastic for price increases than for price decreases. Reflects assumption that competitors will match price cuts but not price increases. Creates a discontinuity in the marginal revenue curve, explaining price rigidity.",
+      "definition_ru": "Модель кривой спроса в олигополии, где спрос более эластичен для повышения цен, чем для снижения цен. Отражает предположение, что конкуренты будут соответствовать снижению цен, но не повышению цен. Создает разрыв в кривой предельного дохода, объясняя жесткость цен.",
+      "formula": "$D = D_{P\\uparrow} + D_{P\\downarrow}$; MR curve has vertical gap at kink",
+      "los_id": "LOS_1d",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-032",
+      "term_en": "Price Interdependence",
+      "term_ru": "Ценовая взаимозависимость",
+      "definition_en": "In oligopolies, the situation where one firm's pricing decisions directly affect and are affected by competitors' pricing actions. Firms must consider rivals' likely reactions when making pricing decisions. Leads to strategic behavior and game theory applications.",
+      "definition_ru": "В олигополиях ситуация, когда решения одной фирмы о ценообразовании непосредственно влияют на действия конкурентов и зависят от них. Фирмы должны учитывать вероятные реакции соперников при принятии решений о ценообразовании. Приводит к стратегическому поведению и применению теории игр.",
+      "formula": null,
+      "los_id": "LOS_1d",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-033",
+      "term_en": "Cournot Assumption",
+      "term_ru": "Предположение Курно",
+      "definition_en": "An oligopoly model where each firm determines its optimal production level assuming competitors' output will remain unchanged. Firms maximize profits expecting rivals to maintain constant output. Leads to stable equilibrium where no firm wants to change output given others' choices.",
+      "definition_ru": "Модель олигополии, где каждая фирма определяет свой оптимальный уровень производства, предполагая, что выпуск конкурентов останется неизменным. Фирмы максимизируют прибыль, ожидая, что соперники сохранят постоянный выпуск. Приводит к стабильному равновесию, где ни одна фирма не хочет менять выпуск с учетом выбора других.",
+      "formula": "Each firm: $\\max \\pi_i$ given $Q_{-i}$ constant",
+      "los_id": "LOS_1d",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-034",
+      "term_en": "Nash Equilibrium",
+      "term_ru": "Равновесие Нэша",
+      "definition_en": "A situation in oligopoly where no firm can increase profits by unilaterally changing its strategy, given competitors' strategies. Each firm does the best it can considering rivals' actions. Represents stable outcome in non-cooperative markets where firms don't collude.",
+      "definition_ru": "Ситуация в олигополии, где ни одна фирма не может увеличить прибыль, односторонне изменяя свою стратегию, с учетом стратегий конкурентов. Каждая фирма делает лучшее, что может, учитывая действия соперников. Представляет стабильный исход на некооперативных рынках, где фирмы не вступают в сговор.",
+      "formula": "No firm can improve $\\pi_i$ by changing strategy given others' strategies",
+      "los_id": "LOS_1d",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-035",
+      "term_en": "Collusion",
+      "term_ru": "Сговор",
+      "definition_en": "An agreement among competing firms to coordinate pricing, output, or other competitive behavior to increase profits and reduce uncertainty. Can be explicit (cartel) or tacit. More likely with few firms, homogeneous products, similar costs, and credible retaliation threats.",
+      "definition_ru": "Соглашение между конкурирующими фирмами для координации ценообразования, выпуска или другого конкурентного поведения для увеличения прибыли и снижения неопределенности. Может быть явным (картель) или молчаливым. Более вероятно с немногими фирмами, однородными продуктами, похожими издержками и достоверными угрозами возмездия.",
+      "formula": null,
+      "los_id": "LOS_1d",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-036",
+      "term_en": "Cartel",
+      "term_ru": "Картель",
+      "definition_en": "A formal, explicit agreement among firms in an oligopoly to collude on pricing and output decisions, essentially acting as a shared monopoly. Illegal in most jurisdictions. Success depends on enforcement mechanisms and preventing cheating by members.",
+      "definition_ru": "Формальное, явное соглашение между фирмами в олигополии для сговора по решениям о ценообразовании и выпуске, по существу действуя как общая монополия. Незаконно в большинстве юрисдикций. Успех зависит от механизмов принуждения и предотвращения обмана участниками.",
+      "formula": "Acts like monopoly: maximizes joint profit",
+      "los_id": "LOS_1d",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-037",
+      "term_en": "Stackelberg Model",
+      "term_ru": "Модель Штакельберга",
+      "definition_en": "An oligopoly model with sequential decision-making where a leader firm chooses output first, then follower firms respond after observing the leader's choice. Leader gains first-mover advantage by committing to output before competitors.",
+      "definition_ru": "Модель олигополии с последовательным принятием решений, где фирма-лидер выбирает выпуск первой, затем фирмы-последователи реагируют после наблюдения выбора лидера. Лидер получает преимущество первого хода, обязываясь выпуску до конкурентов.",
+      "formula": "Leader chooses $Q_L$ first; Follower chooses $Q_F$ given $Q_L$",
+      "los_id": "LOS_1d",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-038",
+      "term_en": "Dominant Firm",
+      "term_ru": "Доминирующая фирма",
+      "definition_en": "A firm in an oligopoly with greater capacity, lower cost structure, customer loyalty, or pioneer status that acts as price maker. Other firms (price followers) accept the dominant firm's pricing. Leader has monopoly-like powers but faces potential competition from followers.",
+      "definition_ru": "Фирма в олигополии с большей мощностью, более низкой структурой издержек, лояльностью клиентов или статусом первопроходца, которая действует как ценообразователь. Другие фирмы (последователи цены) принимают ценообразование доминирующей фирмы. Лидер имеет монополистические полномочия, но сталкивается с потенциальной конкуренцией от последователей.",
+      "formula": "Sets price where $MR_D = MC_D$; Others follow",
+      "los_id": "LOS_1d",
+      "calculator": null
+    },
+    {
+      "term_id": "EC-1-039",
+      "term_en": "Concentration Ratio",
+      "term_ru": "Коэффициент концентрации",
+      "definition_en": "The sum of market shares held by the largest N firms in a market. Ranges from 0 (perfect competition) to 100 (monopoly). Simple to calculate but doesn't directly measure market power. CR4 (top 4 firms) is commonly used. Useful for identifying market structure.",
+      "definition_ru": "Сумма долей рынка, удерживаемых крупнейшими N фирмами на рынке. Варьируется от 0 (совершенная конкуренция) до 100 (монополия). Прост в расчете, но не измеряет непосредственно рыночную власть. CR4 (топ 4 фирмы) обычно используется. Полезен для определения структуры рынка.",
+      "formula": "$CR_N = \\sum_{i=1}^{N}MS_i$ where $MS_i$ is market share of firm i",
+      "los_id": "LOS_1e",
+      "calculator": {
+        "method": "Direct Calculation",
+        "steps": [
+          "Identify market shares of largest N firms",
+          "Sum the market shares: MS₁ + MS₂ + ... + MSₙ",
+          "Result: Concentration ratio (0 to 100)"
+        ],
+        "example": {
+          "given": "Top 3 firms: 35%, 20%, 10%",
+          "input": "CR₃ = 35% + 20% + 10%",
+          "result": "CR₃ = 65%"
+        }
+      }
+    },
+    {
+      "term_id": "EC-1-040",
+      "term_en": "Herfindahl-Hirschman Index (HHI)",
+      "term_ru": "Индекс Херфиндаля-Хиршмана",
+      "definition_en": "A market concentration measure calculated by summing the squared market shares of all firms. Ranges from 1/M (many equal firms) to 1 (monopoly), often expressed as 0-10,000. More sensitive to market structure changes than concentration ratio. HHI < 0.15 indicates low concentration; HHI > 0.25 indicates high concentration.",
+      "definition_ru": "Мера концентрации рынка, рассчитываемая путем суммирования квадратов долей рынка всех фирм. Варьируется от 1/M (множество равных фирм) до 1 (монополия), часто выражается как 0-10,000. Более чувствителен к изменениям структуры рынка, чем коэффициент концентрации. HHI < 0,15 указывает на низкую концентрацию; HHI > 0,25 указывает на высокую концентрацию.",
+      "formula": "$HHI = \\sum_{i=1}^{N}(MS_i)^2$ where $MS_i$ is market share (as decimal)",
+      "los_id": "LOS_1e",
+      "calculator": {
+        "method": "Direct Calculation",
+        "steps": [
+          "Express each market share as decimal",
+          "Square each market share: (MS₁)², (MS₂)², ...",
+          "Sum all squared shares",
+          "Result: HHI (0 to 1, or 0 to 10,000 if in percentage points)"
+        ],
+        "example": {
+          "given": "Top 3 firms: 35%, 20%, 10%",
+          "input": "HHI = (0.35)² + (0.20)² + (0.10)² = 0.1225 + 0.04 + 0.01",
+          "result": "HHI = 0.1725 or 1,725"
+        }
+      }
+    }
+  ]
 }
