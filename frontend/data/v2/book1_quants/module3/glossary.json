@@ -1,3 +1,527 @@
 {
-  "terms": []
+  "book_id": 1,
+  "book_code": "QM",
+  "book_name": "Quantitative Methods",
+  "book_name_ru": "Количественные методы",
+
+  "module_id": 3,
+  "module_name": "Statistical Measures of Asset Returns",
+  "module_name_ru": "Статистические меры доходности активов",
+
+  "los_list": ["LOS_3a", "LOS_3b", "LOS_3c", "LOS_3d"],
+  "total_terms": 34,
+
+  "terms": [
+    {
+      "term_id": "QM-3-001",
+      "term_en": "Arithmetic Mean",
+      "term_ru": "Среднее арифметическое",
+      "definition_en": "The sum of the values of observations in a dataset divided by the number of observations. The only measure of central tendency for which the sum of deviations from the mean is zero. Used to calculate average returns.",
+      "definition_ru": "Сумма значений наблюдений в наборе данных, деленная на количество наблюдений. Единственная мера центральной тенденции, для которой сумма отклонений от среднего равна нулю. Используется для расчета средней доходности.",
+      "formula": "$\\bar{R}_i = \\frac{1}{T}\\sum_{t=1}^{T}R_{it}$ (sample); $\\mu = \\frac{\\sum X_i}{N}$ (population)",
+      "los_id": "LOS_3a",
+      "calculator": {
+        "method": "Statistics Mode (1-Variable)",
+        "access": "[2ND] [DATA]",
+        "steps": [
+          "Clear previous data: [2ND] [CLR WORK]",
+          "Enter data points: {value} [ENTER] [↓] (repeat for all values)",
+          "Access statistics: [2ND] [STAT]",
+          "View mean: Scroll to X̄ (x-bar)",
+          "Result: Sample arithmetic mean"
+        ],
+        "example": {
+          "given": "Returns: 15%, 10%, 12%, 3%",
+          "input": "2ND DATA, 15 ENTER ↓, 10 ENTER ↓, 12 ENTER ↓, 3 ENTER, 2ND STAT",
+          "result": "X̄ = 10%"
+        }
+      }
+    },
+    {
+      "term_id": "QM-3-002",
+      "term_en": "Population Mean",
+      "term_ru": "Среднее генеральной совокупности",
+      "definition_en": "The arithmetic mean of all observed values in an entire population, calculated by summing all values and dividing by the total number of observations N. Represents the true average of the complete dataset.",
+      "definition_ru": "Среднее арифметическое всех наблюдаемых значений во всей генеральной совокупности, рассчитанное путем суммирования всех значений и деления на общее количество наблюдений N. Представляет истинное среднее полного набора данных.",
+      "formula": "$\\mu = \\frac{\\sum X_i}{N}$",
+      "los_id": "LOS_3a",
+      "calculator": null
+    },
+    {
+      "term_id": "QM-3-003",
+      "term_en": "Sample Mean",
+      "term_ru": "Среднее выборки",
+      "definition_en": "The arithmetic mean of observed values chosen from a population, used to estimate the actual population mean. Based on a subset (n observations) rather than the entire population.",
+      "definition_ru": "Среднее арифметическое наблюдаемых значений, выбранных из генеральной совокупности, используется для оценки фактического среднего генеральной совокупности. Основано на подмножестве (n наблюдений), а не на всей генеральной совокупности.",
+      "formula": "$\\bar{X} = \\frac{\\sum X_i}{n}$",
+      "los_id": "LOS_3a",
+      "calculator": {
+        "method": "Statistics Mode (1-Variable)",
+        "access": "[2ND] [DATA]",
+        "steps": [
+          "Clear previous data: [2ND] [CLR WORK]",
+          "Enter sample data: {value} [ENTER] [↓]",
+          "Access statistics: [2ND] [STAT]",
+          "View sample mean: X̄"
+        ]
+      }
+    },
+    {
+      "term_id": "QM-3-004",
+      "term_en": "Median",
+      "term_ru": "Медиана",
+      "definition_en": "The statistical value located at the center of a data set organized in ascending or descending order. For odd n: position (n+1)/2. For even n: average of positions n/2 and (n+2)/2. Resists effects of extreme observations.",
+      "definition_ru": "Статистическое значение, расположенное в центре набора данных, упорядоченного по возрастанию или убыванию. Для нечетного n: позиция (n+1)/2. Для четного n: среднее позиций n/2 и (n+2)/2. Устойчива к влиянию экстремальных наблюдений.",
+      "formula": "Position: $\\frac{n+1}{2}$ (odd n); Average of $\\frac{n}{2}$ and $\\frac{n+2}{2}$ (even n)",
+      "los_id": "LOS_3a",
+      "calculator": null
+    },
+    {
+      "term_id": "QM-3-005",
+      "term_en": "Mode",
+      "term_ru": "Мода",
+      "definition_en": "The value that appears most often in a dataset. A dataset can be unimodal (one mode), bimodal (two modes), trimodal (three modes), or have no mode if all values are different. The only measure of central tendency that can be used with nominal data.",
+      "definition_ru": "Значение, которое чаще всего встречается в наборе данных. Набор данных может быть одномодальным (одна мода), бимодальным (две моды), тримодальным (три моды) или не иметь моды, если все значения различны. Единственная мера центральной тенденции, которую можно использовать с номинальными данными.",
+      "formula": null,
+      "los_id": "LOS_3a",
+      "calculator": null
+    },
+    {
+      "term_id": "QM-3-006",
+      "term_en": "Outlier",
+      "term_ru": "Выброс",
+      "definition_en": "A data point that differs significantly from other observations. May represent a distinct value in a population, an error in recording, or data from a different population. Can significantly affect mean but has less impact on median.",
+      "definition_ru": "Точка данных, которая значительно отличается от других наблюдений. Может представлять отдельное значение в генеральной совокупности, ошибку записи или данные из другой генеральной совокупности. Может значительно влиять на среднее, но меньше влияет на медиану.",
+      "formula": null,
+      "los_id": "LOS_3a",
+      "calculator": null
+    },
+    {
+      "term_id": "QM-3-007",
+      "term_en": "Trimmed Mean",
+      "term_ru": "Усеченное среднее",
+      "definition_en": "A measure of central tendency that excludes a specified percentage of the highest and lowest values before calculating the mean. For example, a 4% trimmed mean excludes the lowest 2% and highest 2% of values. Used to reduce the impact of outliers.",
+      "definition_ru": "Мера центральной тенденции, исключающая определенный процент самых высоких и самых низких значений перед расчетом среднего. Например, 4%-ное усеченное среднее исключает самые низкие 2% и самые высокие 2% значений. Используется для уменьшения влияния выбросов.",
+      "formula": null,
+      "los_id": "LOS_3a",
+      "calculator": null
+    },
+    {
+      "term_id": "QM-3-008",
+      "term_en": "Winsorized Mean",
+      "term_ru": "Винсоризированное среднее",
+      "definition_en": "A measure of central tendency that substitutes extreme values with less extreme ones. For a 96% winsorized mean, values at or above/below the highest/lowest 2% are assigned the values at exactly the 2% and 98% percentiles. Different from trimmed mean which removes outliers.",
+      "definition_ru": "Мера центральной тенденции, которая заменяет экстремальные значения менее экстремальными. Для 96%-ного винсоризированного среднего значения на уровне или выше/ниже самых высоких/низких 2% присваиваются значения точно на 2-м и 98-м перцентилях. Отличается от усеченного среднего, которое удаляет выбросы.",
+      "formula": null,
+      "los_id": "LOS_3a",
+      "calculator": null
+    },
+    {
+      "term_id": "QM-3-009",
+      "term_en": "Quartiles",
+      "term_ru": "Квартили",
+      "definition_en": "Values that divide data into four equal parts. Q1 (first quartile/lower quartile) splits data into lower 25% and upper 75%. Q3 (third quartile/upper quartile) splits into lower 75% and upper 25%. The difference Q3-Q1 is the interquartile range (IQR).",
+      "definition_ru": "Значения, которые делят данные на четыре равные части. Q1 (первый квартиль/нижний квартиль) разделяет данные на нижние 25% и верхние 75%. Q3 (третий квартиль/верхний квартиль) разделяет на нижние 75% и верхние 25%. Разница Q3-Q1 - это межквартильный размах (IQR).",
+      "formula": "Position: $\\frac{(n+1)y}{100}$ where y=25 (Q1), 75 (Q3); IQR = Q3 - Q1",
+      "los_id": "LOS_3a",
+      "calculator": null
+    },
+    {
+      "term_id": "QM-3-010",
+      "term_en": "Interquartile Range (IQR)",
+      "term_ru": "Межквартильный размах",
+      "definition_en": "The difference between the third quartile (Q3) and first quartile (Q1). Represents the spread of the middle 50% of the data. A robust measure of dispersion that is not affected by outliers.",
+      "definition_ru": "Разница между третьим квартилем (Q3) и первым квартилем (Q1). Представляет разброс средних 50% данных. Устойчивая мера дисперсии, на которую не влияют выбросы.",
+      "formula": "$IQR = Q_3 - Q_1$",
+      "los_id": "LOS_3a",
+      "calculator": null
+    },
+    {
+      "term_id": "QM-3-011",
+      "term_en": "Quintiles",
+      "term_ru": "Квинтили",
+      "definition_en": "Values that split a set of data into five equal parts (fifths). Rarely used in practice. The second quintile splits data into lower 40% and upper 60%. Can be expressed as percentiles (e.g., 2nd quintile = 40th percentile).",
+      "definition_ru": "Значения, которые разделяют набор данных на пять равных частей (пятых). Редко используются на практике. Второй квинтиль разделяет данные на нижние 40% и верхние 60%. Может быть выражен в процентилях (например, 2-й квинтиль = 40-й процентиль).",
+      "formula": null,
+      "los_id": "LOS_3a",
+      "calculator": null
+    },
+    {
+      "term_id": "QM-3-012",
+      "term_en": "Deciles",
+      "term_ru": "Децили",
+      "definition_en": "Values that subdivide data into ten equal parts. The fourth decile splits data into lower 40% and upper 60%. Used in investment practice to rank performance and cluster companies by size. Fourth decile = 40th percentile.",
+      "definition_ru": "Значения, которые подразделяют данные на десять равных частей. Четвертый дециль разделяет данные на нижние 40% и верхние 60%. Используется в инвестиционной практике для ранжирования эффективности и группировки компаний по размеру. Четвертый дециль = 40-й процентиль.",
+      "formula": null,
+      "los_id": "LOS_3a",
+      "calculator": null
+    },
+    {
+      "term_id": "QM-3-013",
+      "term_en": "Percentiles",
+      "term_ru": "Перцентили",
+      "definition_en": "Values that split data into 100 equal parts (hundredths). The yth percentile splits data into lower y% and upper (100-y)%. Enables precise ranking. Formula: Position = (n+1)y/100.",
+      "definition_ru": "Значения, которые разделяют данные на 100 равных частей (сотых). y-й процентиль разделяет данные на нижние y% и верхние (100-y)%. Позволяет точное ранжирование. Формула: Позиция = (n+1)y/100.",
+      "formula": "$P_y = \\frac{(n+1)y}{100}$",
+      "los_id": "LOS_3a",
+      "calculator": null
+    },
+    {
+      "term_id": "QM-3-014",
+      "term_en": "Box and Whisker Plot",
+      "term_ru": "Ящик с усами (диаграмма размаха)",
+      "definition_en": "A graphical display showing the dispersion of data across quartiles using a five-number summary: minimum, Q1, median (Q2), Q3, and maximum. The box represents the interquartile range (middle 50%), and whiskers extend to the extremes.",
+      "definition_ru": "Графическое отображение, показывающее разброс данных по квартилям с использованием сводки из пяти чисел: минимум, Q1, медиана (Q2), Q3 и максимум. Ящик представляет межквартильный размах (средние 50%), а усы простираются до крайностей.",
+      "formula": null,
+      "los_id": "LOS_3a",
+      "calculator": null
+    },
+    {
+      "term_id": "QM-3-015",
+      "term_en": "Quantiles",
+      "term_ru": "Квантили",
+      "definition_en": "General term for values that partition data into equal-sized subsets. Includes quartiles (4 parts), quintiles (5 parts), deciles (10 parts), and percentiles (100 parts). Used in investment practice to rank performance and for comparison purposes.",
+      "definition_ru": "Общий термин для значений, которые разделяют данные на равные подмножества. Включает квартили (4 части), квинтили (5 частей), децили (10 частей) и процентили (100 частей). Используется в инвестиционной практике для ранжирования эффективности и для сравнения.",
+      "formula": null,
+      "los_id": "LOS_3a",
+      "calculator": null
+    },
+    {
+      "term_id": "QM-3-016",
+      "term_en": "Range",
+      "term_ru": "Размах",
+      "definition_en": "The difference between the maximum and minimum values in a dataset. Simplest measure of dispersion but not reliable as it uses only two data points and is sensitive to outliers.",
+      "definition_ru": "Разница между максимальным и минимальным значениями в наборе данных. Простейшая мера дисперсии, но не надежная, так как использует только две точки данных и чувствительна к выбросам.",
+      "formula": "$Range = Maximum - Minimum$",
+      "los_id": "LOS_3b",
+      "calculator": null
+    },
+    {
+      "term_id": "QM-3-017",
+      "term_en": "Mean Absolute Deviation (MAD)",
+      "term_ru": "Среднее абсолютное отклонение",
+      "definition_en": "A measure of dispersion representing the average of the absolute values of deviations of individual observations from the arithmetic mean. Uses absolute values because the sum of deviations from the mean is always zero.",
+      "definition_ru": "Мера дисперсии, представляющая среднее абсолютных значений отклонений отдельных наблюдений от среднего арифметического. Использует абсолютные значения, потому что сумма отклонений от среднего всегда равна нулю.",
+      "formula": "$MAD = \\frac{\\sum|X_i - \\bar{X}|}{n}$",
+      "los_id": "LOS_3b",
+      "calculator": {
+        "method": "Manual Calculation",
+        "steps": [
+          "Calculate mean using [2ND] [STAT]",
+          "For each observation: |Xi - X̄|",
+          "Sum all absolute deviations",
+          "Divide by n"
+        ]
+      }
+    },
+    {
+      "term_id": "QM-3-018",
+      "term_en": "Sample Variance",
+      "term_ru": "Выборочная дисперсия",
+      "definition_en": "The measure of dispersion that applies when working with a sample instead of a population. Calculated as the sum of squared deviations from the sample mean divided by (n-1). Division by n-1 removes bias.",
+      "definition_ru": "Мера дисперсии, применяемая при работе с выборкой, а не с генеральной совокупностью. Рассчитывается как сумма квадратов отклонений от выборочного среднего, деленная на (n-1). Деление на n-1 устраняет смещение.",
+      "formula": "$s^2 = \\frac{\\sum(X_i - \\bar{X})^2}{n-1}$",
+      "los_id": "LOS_3b",
+      "calculator": {
+        "method": "Statistics Mode",
+        "access": "[2ND] [DATA]",
+        "steps": [
+          "Enter data: [2ND] [DATA]",
+          "Input values: {value} [ENTER] [↓]",
+          "Access statistics: [2ND] [STAT]",
+          "Scroll to Sx² for sample variance"
+        ],
+        "example": {
+          "given": "Sample: 6%, 7%, 12%, 2%, 3%, 11%",
+          "result": "s² from calculator display"
+        }
+      }
+    },
+    {
+      "term_id": "QM-3-019",
+      "term_en": "Sample Standard Deviation",
+      "term_ru": "Выборочное среднеквадратическое отклонение",
+      "definition_en": "The positive square root of the sample variance. Measured in the same units as the original data, making it easier to interpret than variance. Most commonly used measure of dispersion in finance.",
+      "definition_ru": "Положительный квадратный корень из выборочной дисперсии. Измеряется в тех же единицах, что и исходные данные, что делает его более легким для интерпретации, чем дисперсия. Наиболее часто используемая мера дисперсии в финансах.",
+      "formula": "$s = \\sqrt{s^2} = \\sqrt{\\frac{\\sum(X_i - \\bar{X})^2}{n-1}}$",
+      "los_id": "LOS_3b",
+      "calculator": {
+        "method": "Statistics Mode",
+        "access": "[2ND] [DATA]",
+        "steps": [
+          "Enter data: [2ND] [DATA]",
+          "Input values: {value} [ENTER] [↓]",
+          "Access statistics: [2ND] [STAT]",
+          "View Sx for sample standard deviation"
+        ],
+        "example": {
+          "given": "Sample: 6%, 7%, 12%, 2%, 3%, 11%",
+          "result": "Sx = 4.07%"
+        }
+      }
+    },
+    {
+      "term_id": "QM-3-020",
+      "term_en": "Population Variance",
+      "term_ru": "Дисперсия генеральной совокупности",
+      "definition_en": "The measure of dispersion for an entire population, calculated as the sum of squared deviations from the population mean divided by N. Uses N (not n-1) in the denominator.",
+      "definition_ru": "Мера дисперсии для всей генеральной совокупности, рассчитываемая как сумма квадратов отклонений от среднего генеральной совокупности, деленная на N. Использует N (а не n-1) в знаменателе.",
+      "formula": "$\\sigma^2 = \\frac{\\sum(X_i - \\mu)^2}{N}$",
+      "los_id": "LOS_3b",
+      "calculator": {
+        "method": "Statistics Mode",
+        "access": "[2ND] [DATA]",
+        "steps": [
+          "Enter all population data",
+          "Access statistics: [2ND] [STAT]",
+          "View σx² for population variance"
+        ]
+      }
+    },
+    {
+      "term_id": "QM-3-021",
+      "term_en": "Population Standard Deviation",
+      "term_ru": "Среднеквадратическое отклонение генеральной совокупности",
+      "definition_en": "The positive square root of the population variance. Represents the typical distance of observations from the population mean. Used when analyzing the entire population rather than a sample.",
+      "definition_ru": "Положительный квадратный корень из дисперсии генеральной совокупности. Представляет типичное расстояние наблюдений от среднего генеральной совокупности. Используется при анализе всей генеральной совокупности, а не выборки.",
+      "formula": "$\\sigma = \\sqrt{\\sigma^2} = \\sqrt{\\frac{\\sum(X_i - \\mu)^2}{N}}$",
+      "los_id": "LOS_3b",
+      "calculator": {
+        "method": "Statistics Mode",
+        "steps": [
+          "Access statistics after entering data",
+          "View σx for population standard deviation"
+        ]
+      }
+    },
+    {
+      "term_id": "QM-3-022",
+      "term_en": "Semi-variance",
+      "term_ru": "Полудисперсия",
+      "definition_en": "A measure of downside risk representing the average squared deviation below the mean. Only considers negative deviations (returns below the mean), making it useful for assessing downside risk specifically.",
+      "definition_ru": "Мера риска снижения, представляющая средний квадрат отклонения ниже среднего. Учитывает только отрицательные отклонения (доходность ниже среднего), что делает его полезным для оценки риска снижения конкретно.",
+      "formula": "Average of $(X_i - \\bar{X})^2$ for all $X_i < \\bar{X}$",
+      "los_id": "LOS_3b",
+      "calculator": null
+    },
+    {
+      "term_id": "QM-3-023",
+      "term_en": "Semi-deviation (Semi-standard Deviation)",
+      "term_ru": "Полустандартное отклонение",
+      "definition_en": "The positive square root of semi-variance. Measures the dispersion of returns that fall below the mean. Used to evaluate downside risk, which is often of more concern to investors than upside variability.",
+      "definition_ru": "Положительный квадратный корень из полудисперсии. Измеряет разброс доходности, которая падает ниже среднего. Используется для оценки риска снижения, который часто больше беспокоит инвесторов, чем вариабельность роста.",
+      "formula": "$\\sqrt{Semi\\text{-}variance}$",
+      "los_id": "LOS_3b",
+      "calculator": null
+    },
+    {
+      "term_id": "QM-3-024",
+      "term_en": "Target Semi-variance",
+      "term_ru": "Целевая полудисперсия",
+      "definition_en": "The sum of squared deviations from a specific target return (not the mean). Measures the risk of failing to achieve a target return. More flexible than semi-variance as it allows any benchmark, not just the mean.",
+      "definition_ru": "Сумма квадратов отклонений от конкретной целевой доходности (а не среднего). Измеряет риск недостижения целевой доходности. Более гибкая, чем полудисперсия, так как позволяет использовать любой ориентир, а не только среднее.",
+      "formula": "Sum of $(X_i - B)^2$ for all $X_i \\leq B$, where B is target",
+      "los_id": "LOS_3b",
+      "calculator": null
+    },
+    {
+      "term_id": "QM-3-025",
+      "term_en": "Target Semi-deviation",
+      "term_ru": "Целевое полустандартное отклонение",
+      "definition_en": "The square root of target semi-variance. Measures downside deviation from a specific target return B. Calculated only for observations at or below the target.",
+      "definition_ru": "Квадратный корень из целевой полудисперсии. Измеряет отклонение вниз от конкретной целевой доходности B. Рассчитывается только для наблюдений на уровне или ниже цели.",
+      "formula": "$s_{Target} = \\sqrt{\\frac{\\sum(X_i - B)^2}{n-1}}$ for all $X_i \\leq B$",
+      "los_id": "LOS_3b",
+      "calculator": {
+        "method": "Manual Calculation",
+        "steps": [
+          "Identify all Xi ≤ Target B",
+          "Calculate (Xi - B)² for each",
+          "Sum squared deviations",
+          "Divide by (n-1) where n = count of Xi ≤ B",
+          "Take square root"
+        ],
+        "example": {
+          "given": "Target=20%, 11 returns, 6 below target, sum of squared deviations=2,961",
+          "input": "√(2961/10) = √296.1",
+          "result": "17.21%"
+        }
+      }
+    },
+    {
+      "term_id": "QM-3-026",
+      "term_en": "Downside Deviation",
+      "term_ru": "Отклонение вниз",
+      "definition_en": "General term for measures that focus on returns below a benchmark (mean or target). Includes semi-deviation and target semi-deviation. Important for risk-averse investors concerned primarily with losses.",
+      "definition_ru": "Общий термин для мер, которые фокусируются на доходности ниже ориентира (среднего или целевого). Включает полустандартное отклонение и целевое полустандартное отклонение. Важно для инвесторов, не склонных к риску, обеспокоенных в первую очередь убытками.",
+      "formula": null,
+      "los_id": "LOS_3b",
+      "calculator": null
+    },
+    {
+      "term_id": "QM-3-027",
+      "term_en": "Coefficient of Variation (CV)",
+      "term_ru": "Коэффициент вариации",
+      "definition_en": "A measure of relative dispersion calculated as the standard deviation divided by the mean. Unitless, allowing comparison of variability across datasets with different means or units. In finance, measures risk per unit of return.",
+      "definition_ru": "Мера относительной дисперсии, рассчитываемая как среднеквадратическое отклонение, деленное на среднее. Безразмерная, позволяет сравнивать вариабельность в наборах данных с различными средними или единицами. В финансах измеряет риск на единицу доходности.",
+      "formula": "$CV = \\frac{s}{\\bar{X}}$ (sample); $CV = \\frac{\\sigma}{\\mu}$ (population)",
+      "los_id": "LOS_3b",
+      "calculator": {
+        "method": "Direct Calculation",
+        "steps": [
+          "Calculate standard deviation s using [2ND] [STAT]",
+          "Calculate mean X̄ using [2ND] [STAT]",
+          "Divide: s ÷ X̄",
+          "Result: Coefficient of Variation"
+        ],
+        "example": {
+          "given": "Mean return=10%, Standard deviation=5%",
+          "input": "0.05 ÷ 0.10 =",
+          "result": "CV = 0.5 or 50%"
+        }
+      }
+    },
+    {
+      "term_id": "QM-3-028",
+      "term_en": "Skewness",
+      "term_ru": "Асимметрия",
+      "definition_en": "A measure of the degree of departure from a symmetrical distribution. Positive skewness: long right tail, most data on left. Negative skewness: long left tail, most data on right. Zero skewness: symmetric distribution like normal.",
+      "definition_ru": "Мера степени отклонения от симметричного распределения. Положительная асимметрия: длинный правый хвост, большинство данных слева. Отрицательная асимметрия: длинный левый хвост, большинство данных справа. Нулевая асимметрия: симметричное распределение, как нормальное.",
+      "formula": "$Skewness = \\frac{1}{n}\\sum_{i=1}^{n}\\frac{(X_i - \\bar{X})^3}{s^3}$",
+      "los_id": "LOS_3c",
+      "calculator": {
+        "method": "Manual Calculation",
+        "steps": [
+          "Calculate mean X̄ and standard deviation s",
+          "For each Xi: calculate (Xi - X̄)³",
+          "Sum all cubed deviations",
+          "Divide by n × s³",
+          "Positive result: right skew; Negative: left skew"
+        ]
+      }
+    },
+    {
+      "term_id": "QM-3-029",
+      "term_en": "Positive Skewness (Right Skew)",
+      "term_ru": "Положительная асимметрия (правосторонняя)",
+      "definition_en": "A distribution with a long right tail due to extreme high values (outliers on the right). Most data points concentrate on the left. Example: individual income distribution. Mean > Median > Mode.",
+      "definition_ru": "Распределение с длинным правым хвостом из-за экстремально высоких значений (выбросы справа). Большинство точек данных сосредоточено слева. Пример: распределение доходов населения. Среднее > Медиана > Мода.",
+      "formula": "Skewness > 0",
+      "los_id": "LOS_3c",
+      "calculator": null
+    },
+    {
+      "term_id": "QM-3-030",
+      "term_en": "Negative Skewness (Left Skew)",
+      "term_ru": "Отрицательная асимметрия (левосторонняя)",
+      "definition_en": "A distribution with a long left tail due to extreme low values (outliers on the left). Most data points concentrate on the right. Points in the negative direction. Mean < Median < Mode.",
+      "definition_ru": "Распределение с длинным левым хвостом из-за экстремально низких значений (выбросы слева). Большинство точек данных сосредоточено справа. Указывает в отрицательном направлении. Среднее < Медиана < Мода.",
+      "formula": "Skewness < 0",
+      "los_id": "LOS_3c",
+      "calculator": null
+    },
+    {
+      "term_id": "QM-3-031",
+      "term_en": "Kurtosis",
+      "term_ru": "Эксцесс",
+      "definition_en": "A measure of the degree to which a distribution is more or less peaked relative to the normal distribution. Describes the shape of distribution tails. Always measured relative to normal distribution (kurtosis = 3), hence focus on excess kurtosis.",
+      "definition_ru": "Мера степени, в которой распределение более или менее остроконечное по сравнению с нормальным распределением. Описывает форму хвостов распределения. Всегда измеряется относительно нормального распределения (эксцесс = 3), поэтому фокус на избыточном эксцессе.",
+      "formula": "$Excess\\ Kurtosis = \\frac{1}{n}\\sum_{i=1}^{n}\\frac{(X_i - \\bar{X})^4}{s^4} - 3$",
+      "los_id": "LOS_3c",
+      "calculator": {
+        "method": "Manual Calculation",
+        "steps": [
+          "Calculate mean X̄ and standard deviation s",
+          "For each Xi: calculate (Xi - X̄)⁴",
+          "Sum all fourth-power deviations",
+          "Divide by n × s⁴",
+          "Subtract 3 for excess kurtosis"
+        ]
+      }
+    },
+    {
+      "term_id": "QM-3-032",
+      "term_en": "Leptokurtic Distribution",
+      "term_ru": "Лептокуртическое распределение",
+      "definition_en": "A distribution more peaked than normal with fatter tails. Excess kurtosis > 0 (total kurtosis > 3). Data clustered tightly around mean but with more extreme outliers. Higher peak from clustering; fat tails from large fluctuations. 'Lepto' means thin/skinny.",
+      "definition_ru": "Распределение более остроконечное, чем нормальное, с более толстыми хвостами. Избыточный эксцесс > 0 (общий эксцесс > 3). Данные плотно сгруппированы вокруг среднего, но с более экстремальными выбросами. Более высокий пик от группировки; толстые хвосты от больших колебаний. 'Лепто' означает тонкий/узкий.",
+      "formula": "Excess Kurtosis > 0",
+      "los_id": "LOS_3c",
+      "calculator": null
+    },
+    {
+      "term_id": "QM-3-033",
+      "term_en": "Mesokurtic Distribution",
+      "term_ru": "Мезокуртическое распределение",
+      "definition_en": "A distribution with kurtosis similar to the normal distribution. Excess kurtosis = 0 (total kurtosis = 3). The distribution is essentially normal in shape. 'Meso' means middle.",
+      "definition_ru": "Распределение с эксцессом, похожим на нормальное распределение. Избыточный эксцесс = 0 (общий эксцесс = 3). Распределение по существу нормальное по форме. 'Мезо' означает средний.",
+      "formula": "Excess Kurtosis = 0",
+      "los_id": "LOS_3c",
+      "calculator": null
+    },
+    {
+      "term_id": "QM-3-034",
+      "term_en": "Platykurtic Distribution",
+      "term_ru": "Платикуртическое распределение",
+      "definition_en": "A distribution less peaked than normal with thinner tails. Excess kurtosis < 0 (total kurtosis < 3). Points dispersed along x-axis, resulting in lower, flatter peak. Fewer major fluctuations, hence less risky. 'Platy' means broad/flat.",
+      "definition_ru": "Распределение менее остроконечное, чем нормальное, с более тонкими хвостами. Избыточный эксцесс < 0 (общий эксцесс < 3). Точки рассеяны вдоль оси x, что приводит к более низкому, более плоскому пику. Меньше крупных колебаний, следовательно, менее рискованно. 'Плати' означает широкий/плоский.",
+      "formula": "Excess Kurtosis < 0",
+      "los_id": "LOS_3c",
+      "calculator": null
+    },
+    {
+      "term_id": "QM-3-035",
+      "term_en": "Excess Kurtosis",
+      "term_ru": "Избыточный эксцесс",
+      "definition_en": "Sample kurtosis minus 3 (the kurtosis of a normal distribution). The relevant measure for comparing distributions to normal. Positive: leptokurtic. Zero: mesokurtic. Negative: platykurtic.",
+      "definition_ru": "Выборочный эксцесс минус 3 (эксцесс нормального распределения). Релевантная мера для сравнения распределений с нормальным. Положительный: лептокуртическое. Ноль: мезокуртическое. Отрицательный: платикуртическое.",
+      "formula": "$Excess\\ Kurtosis = Sample\\ Kurtosis - 3$",
+      "los_id": "LOS_3c",
+      "calculator": null
+    },
+    {
+      "term_id": "QM-3-036",
+      "term_en": "Covariance",
+      "term_ru": "Ковариация",
+      "definition_en": "A measure of how two variables move together. Positive covariance: variables move in the same direction. Negative: move in opposite directions. Drawback: difficult to interpret as values range from -∞ to +∞.",
+      "definition_ru": "Мера того, как две переменные движутся вместе. Положительная ковариация: переменные движутся в одном направлении. Отрицательная: движутся в противоположных направлениях. Недостаток: трудно интерпретировать, так как значения варьируются от -∞ до +∞.",
+      "formula": "$s_{XY} = \\frac{\\sum_{i=1}^{n}(X_i - \\bar{X})(Y_i - \\bar{Y})}{n-1}$",
+      "los_id": "LOS_3d",
+      "calculator": null
+    },
+    {
+      "term_id": "QM-3-037",
+      "term_en": "Correlation Coefficient",
+      "term_ru": "Коэффициент корреляции",
+      "definition_en": "A standardized measure of the linear relationship between two variables. Calculated as covariance divided by the product of standard deviations. Ranges from -1 to +1, making it easier to interpret than covariance.",
+      "definition_ru": "Стандартизированная мера линейной зависимости между двумя переменными. Рассчитывается как ковариация, деленная на произведение среднеквадратических отклонений. Варьируется от -1 до +1, что делает его более легким для интерпретации, чем ковариация.",
+      "formula": "$r_{xy} = \\frac{s_{xy}}{s_x \\times s_y}$",
+      "los_id": "LOS_3d",
+      "calculator": {
+        "method": "Direct Calculation",
+        "steps": [
+          "Calculate covariance sxy",
+          "Calculate standard deviation sx for X",
+          "Calculate standard deviation sy for Y",
+          "Divide: sxy ÷ (sx × sy)",
+          "Result: -1 ≤ r ≤ +1"
+        ],
+        "example": {
+          "given": "Covariance=29, σx=8.29, σy=5",
+          "input": "29 ÷ (8.29 × 5) =",
+          "result": "r = 0.70"
+        }
+      }
+    },
+    {
+      "term_id": "QM-3-038",
+      "term_en": "Spurious Correlation",
+      "term_ru": "Ложная корреляция",
+      "definition_en": "A correlation that does not reflect a genuine relationship. Can arise from: (1) chance relationships in a dataset, (2) dividing both variables by a third variable, or (3) both variables being related to a third variable. Correlation does not imply causation.",
+      "definition_ru": "Корреляция, которая не отражает подлинную связь. Может возникнуть из: (1) случайных связей в наборе данных, (2) деления обеих переменных на третью переменную, или (3) обе переменные связаны с третьей переменной. Корреляция не означает причинность.",
+      "formula": null,
+      "los_id": "LOS_3d",
+      "calculator": null
+    }
+  ]
 }
