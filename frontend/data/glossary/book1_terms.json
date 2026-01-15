@@ -2,8 +2,7 @@
   "book_id": 1,
   "book_name": "Quantitative Methods",
   "book_name_ru": "Количественные методы",
-  "total_terms": 40,
-
+  "total_terms": 58,
   "terms": [
     {
       "term_id": "T-QM-001",
@@ -14,7 +13,11 @@
       "formula": "$HPR = \\frac{P_1 - P_0 + D_1}{P_0}$",
       "module_id": 1,
       "los_id": "LOS_1b",
-      "related_terms": ["T-QM-002", "T-QM-003", "T-QM-008"],
+      "related_terms": [
+        "T-QM-002",
+        "T-QM-003",
+        "T-QM-008"
+      ],
       "calculator_steps": {
         "worksheet": "Direct Calculation",
         "access": "Standard keys",
@@ -39,7 +42,11 @@
       "formula": "$\\bar{R} = \\frac{1}{T} \\sum_{t=1}^{T} R_t = \\frac{R_1 + R_2 + ... + R_T}{T}$",
       "module_id": 1,
       "los_id": "LOS_1b",
-      "related_terms": ["T-QM-001", "T-QM-003", "T-QM-004"],
+      "related_terms": [
+        "T-QM-001",
+        "T-QM-003",
+        "T-QM-004"
+      ],
       "calculator_steps": {
         "worksheet": "Statistics",
         "access": "[2ND] [DATA]",
@@ -68,7 +75,10 @@
       "formula": "$\\bar{R}_G = \\sqrt[T]{\\prod_{t=1}^{T}(1+R_t)} - 1 = [(1+R_1)(1+R_2)...(1+R_T)]^{1/T} - 1$",
       "module_id": 1,
       "los_id": "LOS_1b",
-      "related_terms": ["T-QM-002", "T-QM-008"],
+      "related_terms": [
+        "T-QM-002",
+        "T-QM-008"
+      ],
       "calculator_steps": {
         "worksheet": "Direct Calculation",
         "access": "Standard keys",
@@ -93,7 +103,10 @@
       "formula": "$\\bar{X}_H = \\frac{n}{\\sum_{i=1}^{n} \\frac{1}{X_i}}$",
       "module_id": 1,
       "los_id": "LOS_1b",
-      "related_terms": ["T-QM-002", "T-QM-003"],
+      "related_terms": [
+        "T-QM-002",
+        "T-QM-003"
+      ],
       "calculator_steps": {
         "worksheet": "Direct Calculation",
         "access": "Standard keys",
@@ -120,7 +133,10 @@
       "formula": null,
       "module_id": 1,
       "los_id": "LOS_1b",
-      "related_terms": ["T-QM-002", "T-QM-006"],
+      "related_terms": [
+        "T-QM-002",
+        "T-QM-006"
+      ],
       "calculator_steps": null
     },
     {
@@ -132,7 +148,10 @@
       "formula": null,
       "module_id": 1,
       "los_id": "LOS_1b",
-      "related_terms": ["T-QM-002", "T-QM-005"],
+      "related_terms": [
+        "T-QM-002",
+        "T-QM-005"
+      ],
       "calculator_steps": null
     },
     {
@@ -144,7 +163,10 @@
       "formula": "$\\sum_{t=0}^{T} \\frac{CF_t}{(1+MWRR)^t} = 0$",
       "module_id": 1,
       "los_id": "LOS_1c",
-      "related_terms": ["T-QM-008", "T-QM-001"],
+      "related_terms": [
+        "T-QM-008",
+        "T-QM-001"
+      ],
       "calculator_steps": {
         "worksheet": "Cash Flow",
         "access": "[CF]",
@@ -173,7 +195,11 @@
       "formula": "$TWRR = [(1+HPR_1)(1+HPR_2)...(1+HPR_n)]^{1/n} - 1$",
       "module_id": 1,
       "los_id": "LOS_1c",
-      "related_terms": ["T-QM-007", "T-QM-001", "T-QM-003"],
+      "related_terms": [
+        "T-QM-007",
+        "T-QM-001",
+        "T-QM-003"
+      ],
       "calculator_steps": {
         "worksheet": "Direct Calculation",
         "access": "Standard keys",
@@ -201,7 +227,10 @@
       "formula": "$EAR = \\left(1 + \\frac{r_s}{m}\\right)^m - 1$",
       "module_id": 1,
       "los_id": "LOS_1d",
-      "related_terms": ["T-QM-010", "T-QM-014"],
+      "related_terms": [
+        "T-QM-010",
+        "T-QM-014"
+      ],
       "calculator_steps": {
         "worksheet": "Interest Conversion",
         "access": "[2ND] [ICONV]",
@@ -227,7 +256,10 @@
       "formula": "$r_{cc} = \\ln(1 + HPR) = \\ln\\left(\\frac{P_1}{P_0}\\right)$",
       "module_id": 1,
       "los_id": "LOS_1d",
-      "related_terms": ["T-QM-009", "T-QM-001"],
+      "related_terms": [
+        "T-QM-009",
+        "T-QM-001"
+      ],
       "calculator_steps": {
         "worksheet": "Direct Calculation",
         "access": "[LN] key",
@@ -252,7 +284,10 @@
       "formula": null,
       "module_id": 1,
       "los_id": "LOS_1e",
-      "related_terms": ["T-QM-012", "T-QM-013"],
+      "related_terms": [
+        "T-QM-012",
+        "T-QM-013"
+      ],
       "calculator_steps": null
     },
     {
@@ -264,7 +299,10 @@
       "formula": "$Net\\ Return = Gross\\ Return - Management\\ Fees - Admin\\ Costs$",
       "module_id": 1,
       "los_id": "LOS_1e",
-      "related_terms": ["T-QM-011", "T-QM-013"],
+      "related_terms": [
+        "T-QM-011",
+        "T-QM-013"
+      ],
       "calculator_steps": {
         "worksheet": "Direct Calculation",
         "access": "Standard keys",
@@ -289,7 +327,11 @@
       "formula": "$(1 + Real\\ Return) = \\frac{(1 + Nominal\\ Return)}{(1 + Inflation)}$",
       "module_id": 1,
       "los_id": "LOS_1e",
-      "related_terms": ["T-QM-014", "T-QM-017", "T-QM-018"],
+      "related_terms": [
+        "T-QM-014",
+        "T-QM-017",
+        "T-QM-018"
+      ],
       "calculator_steps": {
         "worksheet": "Direct Calculation",
         "access": "Standard keys",
@@ -314,7 +356,11 @@
       "formula": "$Nominal\\ Return = Real\\ Return + Inflation\\ Premium + Risk\\ Premium$",
       "module_id": 1,
       "los_id": "LOS_1e",
-      "related_terms": ["T-QM-013", "T-QM-017", "T-QM-018"],
+      "related_terms": [
+        "T-QM-013",
+        "T-QM-017",
+        "T-QM-018"
+      ],
       "calculator_steps": {
         "worksheet": "Direct Calculation",
         "access": "Standard keys",
@@ -339,7 +385,10 @@
       "formula": "$R_L = R_P + \\frac{V_B}{V_E}(R_P - r_D)$",
       "module_id": 1,
       "los_id": "LOS_1e",
-      "related_terms": ["T-QM-011", "T-QM-012"],
+      "related_terms": [
+        "T-QM-011",
+        "T-QM-012"
+      ],
       "calculator_steps": {
         "worksheet": "Direct Calculation",
         "access": "Standard keys",
@@ -364,7 +413,13 @@
       "formula": "$r = r_f + Inflation + Default + Liquidity + Maturity\\ Premiums$",
       "module_id": 1,
       "los_id": "LOS_1a",
-      "related_terms": ["T-QM-017", "T-QM-018", "T-QM-019", "T-QM-020", "T-QM-021"],
+      "related_terms": [
+        "T-QM-017",
+        "T-QM-018",
+        "T-QM-019",
+        "T-QM-020",
+        "T-QM-021"
+      ],
       "calculator_steps": {
         "worksheet": "Direct Calculation",
         "access": "Standard keys",
@@ -391,7 +446,10 @@
       "formula": null,
       "module_id": 1,
       "los_id": "LOS_1a",
-      "related_terms": ["T-QM-016", "T-QM-018"],
+      "related_terms": [
+        "T-QM-016",
+        "T-QM-018"
+      ],
       "calculator_steps": null
     },
     {
@@ -403,7 +461,11 @@
       "formula": null,
       "module_id": 1,
       "los_id": "LOS_1a",
-      "related_terms": ["T-QM-016", "T-QM-017", "T-QM-013"],
+      "related_terms": [
+        "T-QM-016",
+        "T-QM-017",
+        "T-QM-013"
+      ],
       "calculator_steps": null
     },
     {
@@ -415,7 +477,10 @@
       "formula": null,
       "module_id": 1,
       "los_id": "LOS_1a",
-      "related_terms": ["T-QM-016", "T-QM-020"],
+      "related_terms": [
+        "T-QM-016",
+        "T-QM-020"
+      ],
       "calculator_steps": null
     },
     {
@@ -427,7 +492,10 @@
       "formula": null,
       "module_id": 1,
       "los_id": "LOS_1a",
-      "related_terms": ["T-QM-016", "T-QM-019"],
+      "related_terms": [
+        "T-QM-016",
+        "T-QM-019"
+      ],
       "calculator_steps": null
     },
     {
@@ -439,7 +507,11 @@
       "formula": null,
       "module_id": 1,
       "los_id": "LOS_1a",
-      "related_terms": ["T-QM-016", "T-QM-019", "T-QM-020"],
+      "related_terms": [
+        "T-QM-016",
+        "T-QM-019",
+        "T-QM-020"
+      ],
       "calculator_steps": null
     },
     {
@@ -451,7 +523,11 @@
       "formula": null,
       "module_id": 2,
       "los_id": "LOS_2a",
-      "related_terms": ["T-QM-023", "T-QM-024", "T-QM-025"],
+      "related_terms": [
+        "T-QM-023",
+        "T-QM-024",
+        "T-QM-025"
+      ],
       "calculator_steps": null
     },
     {
@@ -463,7 +539,11 @@
       "formula": "$PV = \\frac{FV}{(1 + r)^N}$",
       "module_id": 2,
       "los_id": "LOS_2a",
-      "related_terms": ["T-QM-024", "T-QM-025", "T-QM-030"],
+      "related_terms": [
+        "T-QM-024",
+        "T-QM-025",
+        "T-QM-030"
+      ],
       "calculator_steps": {
         "worksheet": "TVM",
         "access": "[2ND] [CLR TVM]",
@@ -491,7 +571,11 @@
       "formula": "$FV = PV \\times (1 + r)^N$",
       "module_id": 2,
       "los_id": "LOS_2a",
-      "related_terms": ["T-QM-023", "T-QM-025", "T-QM-026"],
+      "related_terms": [
+        "T-QM-023",
+        "T-QM-025",
+        "T-QM-026"
+      ],
       "calculator_steps": {
         "worksheet": "TVM",
         "access": "[2ND] [CLR TVM]",
@@ -519,7 +603,10 @@
       "formula": "$FV = PV \\times \\left(1 + \\frac{r_s}{m}\\right)^{mN}$",
       "module_id": 2,
       "los_id": "LOS_2a",
-      "related_terms": ["T-QM-024", "T-QM-026"],
+      "related_terms": [
+        "T-QM-024",
+        "T-QM-026"
+      ],
       "calculator_steps": {
         "worksheet": "TVM",
         "access": "[2ND] [CLR TVM]",
@@ -547,7 +634,10 @@
       "formula": "$FV = PV \\times e^{rN}$ ; $PV = FV \\times e^{-rN}$",
       "module_id": 2,
       "los_id": "LOS_2a",
-      "related_terms": ["T-QM-025", "T-QM-024"],
+      "related_terms": [
+        "T-QM-025",
+        "T-QM-024"
+      ],
       "calculator_steps": {
         "worksheet": "Direct Calculation",
         "access": "Standard keys",
@@ -573,7 +663,11 @@
       "formula": "$PV = \\frac{FV}{(1 + r)^t}$",
       "module_id": 2,
       "los_id": "LOS_2a",
-      "related_terms": ["T-QM-023", "T-QM-028", "T-QM-035"],
+      "related_terms": [
+        "T-QM-023",
+        "T-QM-028",
+        "T-QM-035"
+      ],
       "calculator_steps": {
         "worksheet": "TVM",
         "access": "[2ND] [CLR TVM]",
@@ -601,7 +695,11 @@
       "formula": "$PV = \\sum_{i=1}^{N} \\frac{PMT}{(1+r)^i} + \\frac{FV}{(1+r)^N}$",
       "module_id": 2,
       "los_id": "LOS_2a",
-      "related_terms": ["T-QM-027", "T-QM-029", "T-QM-036"],
+      "related_terms": [
+        "T-QM-027",
+        "T-QM-029",
+        "T-QM-036"
+      ],
       "calculator_steps": {
         "worksheet": "TVM",
         "access": "[2ND] [CLR TVM]",
@@ -629,7 +727,11 @@
       "formula": "$PV = \\frac{PMT}{r}$",
       "module_id": 2,
       "los_id": "LOS_2a",
-      "related_terms": ["T-QM-028", "T-QM-032", "T-QM-036"],
+      "related_terms": [
+        "T-QM-028",
+        "T-QM-032",
+        "T-QM-036"
+      ],
       "calculator_steps": {
         "worksheet": "Direct Calculation",
         "access": "Standard keys",
@@ -653,7 +755,11 @@
       "formula": "$PV = PMT \\times \\frac{1 - (1+r)^{-N}}{r}$ ; $PMT = PV \\times \\frac{r}{1 - (1+r)^{-N}}$",
       "module_id": 2,
       "los_id": "LOS_2a",
-      "related_terms": ["T-QM-031", "T-QM-029", "T-QM-023"],
+      "related_terms": [
+        "T-QM-031",
+        "T-QM-029",
+        "T-QM-023"
+      ],
       "calculator_steps": {
         "worksheet": "TVM",
         "access": "[2ND] [CLR TVM]",
@@ -682,7 +788,10 @@
       "formula": "$PV_{due} = PV_{ordinary} \\times (1+r)$",
       "module_id": 2,
       "los_id": "LOS_2a",
-      "related_terms": ["T-QM-030", "T-QM-029"],
+      "related_terms": [
+        "T-QM-030",
+        "T-QM-029"
+      ],
       "calculator_steps": {
         "worksheet": "TVM",
         "access": "[2ND] [BGN]",
@@ -709,7 +818,11 @@
       "formula": "$PV = \\frac{D}{r}$",
       "module_id": 2,
       "los_id": "LOS_2a",
-      "related_terms": ["T-QM-029", "T-QM-033", "T-QM-037"],
+      "related_terms": [
+        "T-QM-029",
+        "T-QM-033",
+        "T-QM-037"
+      ],
       "calculator_steps": {
         "worksheet": "Direct Calculation",
         "access": "Standard keys",
@@ -733,7 +846,11 @@
       "formula": "$PV = \\frac{D_1}{r - g} = \\frac{D_0(1+g)}{r-g}$",
       "module_id": 2,
       "los_id": "LOS_2a",
-      "related_terms": ["T-QM-032", "T-QM-034", "T-QM-037"],
+      "related_terms": [
+        "T-QM-032",
+        "T-QM-034",
+        "T-QM-037"
+      ],
       "calculator_steps": {
         "worksheet": "Direct Calculation",
         "access": "Standard keys",
@@ -758,7 +875,10 @@
       "formula": "$PV = \\sum_{t=1}^{T} \\frac{D_t}{(1+r)^t} + \\frac{1}{(1+r)^T} \\times \\frac{D_{T+1}}{r-g_L}$",
       "module_id": 2,
       "los_id": "LOS_2a",
-      "related_terms": ["T-QM-033", "T-QM-037"],
+      "related_terms": [
+        "T-QM-033",
+        "T-QM-037"
+      ],
       "calculator_steps": null
     },
     {
@@ -770,7 +890,11 @@
       "formula": "$r = \\left(\\frac{FV}{PV}\\right)^{1/t} - 1$",
       "module_id": 2,
       "los_id": "LOS_2b",
-      "related_terms": ["T-QM-036", "T-QM-037", "T-QM-027"],
+      "related_terms": [
+        "T-QM-036",
+        "T-QM-037",
+        "T-QM-027"
+      ],
       "calculator_steps": {
         "worksheet": "TVM",
         "access": "[2ND] [CLR TVM]",
@@ -798,7 +922,11 @@
       "formula": "$PV = \\sum_{i=1}^{N} \\frac{PMT}{(1+YTM)^i} + \\frac{FV}{(1+YTM)^N}$",
       "module_id": 2,
       "los_id": "LOS_2b",
-      "related_terms": ["T-QM-028", "T-QM-035", "T-QM-029"],
+      "related_terms": [
+        "T-QM-028",
+        "T-QM-035",
+        "T-QM-029"
+      ],
       "calculator_steps": {
         "worksheet": "TVM",
         "access": "[2ND] [CLR TVM]",
@@ -826,7 +954,11 @@
       "formula": "$g = r - \\frac{D_1}{PV}$",
       "module_id": 2,
       "los_id": "LOS_2b",
-      "related_terms": ["T-QM-033", "T-QM-035", "T-QM-034"],
+      "related_terms": [
+        "T-QM-033",
+        "T-QM-035",
+        "T-QM-034"
+      ],
       "calculator_steps": {
         "worksheet": "Direct Calculation",
         "access": "Standard keys",
@@ -850,7 +982,10 @@
       "formula": "$PV_{total} = \\sum_{i=1}^{n} PV_i$",
       "module_id": 2,
       "los_id": "LOS_2c",
-      "related_terms": ["T-QM-039", "T-QM-040"],
+      "related_terms": [
+        "T-QM-039",
+        "T-QM-040"
+      ],
       "calculator_steps": null
     },
     {
@@ -862,7 +997,10 @@
       "formula": null,
       "module_id": 2,
       "los_id": "LOS_2c",
-      "related_terms": ["T-QM-038", "T-QM-030"],
+      "related_terms": [
+        "T-QM-038",
+        "T-QM-030"
+      ],
       "calculator_steps": null
     },
     {
@@ -874,8 +1012,378 @@
       "formula": null,
       "module_id": 2,
       "los_id": "LOS_2c",
-      "related_terms": ["T-QM-038"],
+      "related_terms": [
+        "T-QM-038"
+      ],
       "calculator_steps": null
+    },
+    {
+      "term_id": "T-QM-041",
+      "term_en": "Measures of Central Tendency",
+      "term_ru": "Меры центральной тенденции",
+      "definition_en": "Statistical measures that identify the center or typical value of a dataset. The main measures of central tendency are mean, median, and mode. These measures reveal the center of the empirical distribution of returns and help analysts understand where data points tend to cluster.",
+      "definition_ru": "Статистические меры, определяющие центр или типичное значение набора данных. Основными мерами центральной тенденции являются среднее, медиана и мода. Эти меры показывают центр эмпирического распределения доходностей и помогают аналитикам понять, где группируются точки данных.",
+      "formula": null,
+      "module_id": 3,
+      "los_id": "LOS_3a",
+      "related_terms": [
+        "T-QM-042",
+        "T-QM-043",
+        "T-QM-044"
+      ],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-QM-042",
+      "term_en": "Population Mean",
+      "term_ru": "Среднее значение генеральной совокупности",
+      "definition_en": "The arithmetic average of all observed values in an entire population, calculated by summing all values and dividing by the total number of observations. Denoted by μ (mu), it represents the true mean of the population. Unlike the sample mean, it uses all observations in the population.",
+      "definition_ru": "Арифметическое среднее всех наблюдаемых значений во всей генеральной совокупности, рассчитываемое путем суммирования всех значений и деления на общее количество наблюдений. Обозначается как μ (мю), представляет истинное среднее совокупности. В отличие от выборочного среднего, использует все наблюдения в совокупности.",
+      "formula": "$\\mu = \\frac{\\sum_{i=1}^{N} X_i}{N}$",
+      "module_id": 3,
+      "los_id": "LOS_3a",
+      "related_terms": [
+        "T-QM-002",
+        "T-QM-043"
+      ],
+      "calculator_steps": {
+        "worksheet": "Statistics",
+        "access": "[2ND] [DATA]",
+        "steps": [
+          "[2ND] [DATA] — открыть Statistics Worksheet",
+          "[2ND] [CLR WORK] — очистить предыдущие данные",
+          "X01: ввести первое значение [ENTER] [↓↓]",
+          "X02: ввести второе значение [ENTER] [↓↓]",
+          "Продолжить для всех N значений",
+          "[2ND] [STAT] [↓] до x̄ — показать среднее"
+        ],
+        "example": {
+          "given": "Values: 12%, 13%, 11.5%, 14%, 9.8%, 17%, 16.1%, 13%, 11%, 14%",
+          "input": "X01=12, X02=13, ..., X10=14",
+          "result": "μ = 13.14%"
+        }
+      }
+    },
+    {
+      "term_id": "T-QM-043",
+      "term_en": "Sample Mean",
+      "term_ru": "Выборочное среднее",
+      "definition_en": "The arithmetic average of a subset of observations selected from a population. Denoted by x̄ (x-bar), it is used to estimate the actual population mean when analyzing only a sample rather than the entire population. Analysts use the sample mean to make inferences about the population.",
+      "definition_ru": "Арифметическое среднее подмножества наблюдений, выбранных из генеральной совокупности. Обозначается как x̄ (икс с чертой), используется для оценки фактического среднего генеральной совокупности при анализе только выборки, а не всей совокупности. Аналитики используют выборочное среднее для выводов о совокупности.",
+      "formula": "$\\bar{x} = \\frac{\\sum_{i=1}^{n} X_i}{n}$",
+      "module_id": 3,
+      "los_id": "LOS_3a",
+      "related_terms": [
+        "T-QM-042",
+        "T-QM-002"
+      ],
+      "calculator_steps": {
+        "worksheet": "Statistics",
+        "access": "[2ND] [DATA]",
+        "steps": [
+          "[2ND] [DATA] — открыть Statistics",
+          "[2ND] [CLR WORK] — очистить данные",
+          "Ввести все n значений выборки",
+          "[2ND] [STAT] [↓] до x̄ — выборочное среднее"
+        ],
+        "example": {
+          "given": "Sample of 6 returns: 6%, 7%, 12%, 2%, 3%, 11%",
+          "input": "X01=6, X02=7, X03=12, X04=2, X05=3, X06=11",
+          "result": "x̄ = 6.83%"
+        }
+      }
+    },
+    {
+      "term_id": "T-QM-044",
+      "term_en": "Median",
+      "term_ru": "Медиана",
+      "definition_en": "The middle value in a dataset when observations are arranged in ascending or descending order. For an odd number of observations, it is the value at position (n+1)/2. For an even number, it is the average of the two middle values at positions n/2 and (n+2)/2. Unlike the mean, the median is resistant to extreme observations (outliers).",
+      "definition_ru": "Среднее значение в наборе данных, когда наблюдения упорядочены по возрастанию или убыванию. Для нечетного числа наблюдений это значение в позиции (n+1)/2. Для четного числа — среднее двух средних значений в позициях n/2 и (n+2)/2. В отличие от среднего, медиана устойчива к экстремальным наблюдениям (выбросам).",
+      "formula": "$\\text{Median} = \\begin{cases} X_{(n+1)/2} & \\text{if } n \\text{ is odd} \\\\ \\frac{X_{n/2} + X_{(n+2)/2}}{2} & \\text{if } n \\text{ is even} \\end{cases}$",
+      "module_id": 3,
+      "los_id": "LOS_3a",
+      "related_terms": [
+        "T-QM-042",
+        "T-QM-045"
+      ],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-QM-045",
+      "term_en": "Mode",
+      "term_ru": "Мода",
+      "definition_en": "The value that appears most frequently in a dataset. A dataset may have one mode (unimodal), two modes (bimodal), three modes (trimodal), or no mode at all if all values appear with equal frequency. The mode is the only measure of central tendency that can be used with nominal (categorical) data such as gender or eye color.",
+      "definition_ru": "Значение, которое встречается чаще всего в наборе данных. Набор данных может иметь одну моду (унимодальный), две моды (бимодальный), три моды (тримодальный) или не иметь моды вообще, если все значения встречаются с одинаковой частотой. Мода — единственная мера центральной тенденции, которую можно использовать с номинальными (категориальными) данными, такими как пол или цвет глаз.",
+      "formula": null,
+      "module_id": 3,
+      "los_id": "LOS_3a",
+      "related_terms": [
+        "T-QM-042",
+        "T-QM-044"
+      ],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-QM-046",
+      "term_en": "Outlier",
+      "term_ru": "Выброс",
+      "definition_en": "An observation that is significantly different from other values in a dataset. Outliers may represent a genuine extreme value from the population, an error in recording data, or a value from a different population. They can substantially affect the mean but have less impact on the median. Analysts must decide whether to keep, remove, or adjust outliers.",
+      "definition_ru": "Наблюдение, которое значительно отличается от других значений в наборе данных. Выбросы могут представлять подлинное экстремальное значение из генеральной совокупности, ошибку записи данных или значение из другой совокупности. Они могут существенно повлиять на среднее, но оказывают меньшее влияние на медиану. Аналитики должны решить, сохранить, удалить или скорректировать выбросы.",
+      "formula": null,
+      "module_id": 3,
+      "los_id": "LOS_3a",
+      "related_terms": [
+        "T-QM-047",
+        "T-QM-048",
+        "T-QM-042"
+      ],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-QM-047",
+      "term_en": "Trimmed Mean",
+      "term_ru": "Усеченное среднее",
+      "definition_en": "A measure of central tendency calculated by removing a specified percentage of the smallest and largest values before computing the mean. For example, a 4% trimmed mean excludes the lowest 2% and highest 2% of observations. This approach reduces the impact of outliers on the mean while still using most of the data.",
+      "definition_ru": "Мера центральной тенденции, рассчитываемая путем удаления определенного процента наименьших и наибольших значений перед вычислением среднего. Например, 4% усеченное среднее исключает наименьшие 2% и наибольшие 2% наблюдений. Этот подход уменьшает влияние выбросов на среднее, при этом используя большую часть данных.",
+      "formula": "$\\bar{X}_{\\text{trimmed}} = \\frac{\\sum_{i=k+1}^{n-k} X_{(i)}}{n-2k}$ where k = number of values trimmed from each end",
+      "module_id": 3,
+      "los_id": "LOS_3a",
+      "related_terms": [
+        "T-QM-046",
+        "T-QM-048",
+        "T-QM-042"
+      ],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-QM-048",
+      "term_en": "Winsorized Mean",
+      "term_ru": "Винзоризованное среднее",
+      "definition_en": "A measure of central tendency that handles outliers by replacing extreme values rather than removing them. Values below or above a specified percentile are replaced with the value at that percentile. For example, in a 96% winsorized mean, values in the lowest and highest 2% are replaced with the 2nd and 98th percentile values respectively.",
+      "definition_ru": "Мера центральной тенденции, которая обрабатывает выбросы путем замены экстремальных значений, а не их удаления. Значения ниже или выше заданного перцентиля заменяются значением этого перцентиля. Например, в 96% винзоризованном среднем значения в наименьших и наибольших 2% заменяются значениями 2-го и 98-го перцентилей соответственно.",
+      "formula": null,
+      "module_id": 3,
+      "los_id": "LOS_3a",
+      "related_terms": [
+        "T-QM-046",
+        "T-QM-047"
+      ],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-QM-049",
+      "term_en": "Quartiles",
+      "term_ru": "Квартили",
+      "definition_en": "Values that divide a dataset into four equal parts (quarters). The first quartile (Q1) splits data into the lower 25% and upper 75%. The second quartile (Q2) is the median. The third quartile (Q3) divides data into the lower 75% and upper 25%. The interquartile range (Q3 - Q1) measures the spread of the middle 50% of data.",
+      "definition_ru": "Значения, которые делят набор данных на четыре равные части (четверти). Первый квартиль (Q1) делит данные на нижние 25% и верхние 75%. Второй квартиль (Q2) — это медиана. Третий квартиль (Q3) делит данные на нижние 75% и верхние 25%. Межквартильный размах (Q3 - Q1) измеряет разброс средних 50% данных.",
+      "formula": "$\\text{Position of } Q_y = \\frac{(n+1) \\times y}{4}$ where y = 1, 2, or 3",
+      "module_id": 3,
+      "los_id": "LOS_3a",
+      "related_terms": [
+        "T-QM-050",
+        "T-QM-051",
+        "T-QM-044"
+      ],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-QM-050",
+      "term_en": "Percentiles",
+      "term_ru": "Перцентили",
+      "definition_en": "Values that divide a dataset into 100 equal parts (hundredths). The yth percentile splits data into the lower y% and upper (100-y)% of values. For example, the 77th percentile divides data into the lower 77% and upper 23%. Percentiles are commonly used to rank investment performance and compare values across distributions.",
+      "definition_ru": "Значения, которые делят набор данных на 100 равных частей (сотых). y-й перцентиль делит данные на нижние y% и верхние (100-y)% значений. Например, 77-й перцентиль делит данные на нижние 77% и верхние 23%. Перцентили обычно используются для ранжирования инвестиционной эффективности и сравнения значений в распределениях.",
+      "formula": "$\\text{Position of } P_y = \\frac{(n+1) \\times y}{100}$ where y = 1 to 99",
+      "module_id": 3,
+      "los_id": "LOS_3a",
+      "related_terms": [
+        "T-QM-049",
+        "T-QM-051"
+      ],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-QM-051",
+      "term_en": "Deciles",
+      "term_ru": "Децили",
+      "definition_en": "Values that divide a dataset into 10 equal parts (tenths). There are 9 decile points (D1 through D9) in any dataset. For example, the fourth decile (D4) splits data into the lower 40% and upper 60%. Deciles are useful in investment research for grouping and comparing assets, such as ranking companies by market capitalization.",
+      "definition_ru": "Значения, которые делят набор данных на 10 равных частей (десятых). В любом наборе данных есть 9 децильных точек (D1 до D9). Например, четвертый дециль (D4) делит данные на нижние 40% и верхние 60%. Децили полезны в инвестиционных исследованиях для группировки и сравнения активов, таких как ранжирование компаний по рыночной капитализации.",
+      "formula": "$\\text{Position of } D_y = \\frac{(n+1) \\times y}{10}$ where y = 1 to 9",
+      "module_id": 3,
+      "los_id": "LOS_3a",
+      "related_terms": [
+        "T-QM-049",
+        "T-QM-050"
+      ],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-QM-052",
+      "term_en": "Interquartile Range (IQR)",
+      "term_ru": "Межквартильный размах",
+      "definition_en": "The difference between the third quartile (Q3) and first quartile (Q1), representing the spread of the middle 50% of data. IQR is a robust measure of dispersion that is not affected by outliers, unlike the range which uses only the maximum and minimum values. It provides insight into the variability of the central portion of the distribution.",
+      "definition_ru": "Разница между третьим квартилем (Q3) и первым квартилем (Q1), представляющая разброс средних 50% данных. IQR — это робастная мера дисперсии, которая не зависит от выбросов, в отличие от размаха, который использует только максимальное и минимальное значения. Она дает представление о изменчивости центральной части распределения.",
+      "formula": "$IQR = Q_3 - Q_1$",
+      "module_id": 3,
+      "los_id": "LOS_3a",
+      "related_terms": [
+        "T-QM-049",
+        "T-QM-053",
+        "T-QM-057"
+      ],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-QM-053",
+      "term_en": "Box and Whisker Plot",
+      "term_ru": "Диаграмма размаха (ящик с усами)",
+      "definition_en": "A graphical display of data dispersion across quartiles using a five-number summary: minimum, first quartile (Q1), median (Q2), third quartile (Q3), and maximum. The 'box' represents the interquartile range (IQR), with a line at the median. The 'whiskers' extend from the box to the minimum and maximum values. This plot helps identify outliers and understand data distribution.",
+      "definition_ru": "Графическое отображение дисперсии данных по квартилям с использованием пятичисловой сводки: минимум, первый квартиль (Q1), медиана (Q2), третий квартиль (Q3) и максимум. 'Ящик' представляет межквартильный размах (IQR) с линией на медиане. 'Усы' простираются от ящика до минимального и максимального значений. Эта диаграмма помогает идентифицировать выбросы и понять распределение данных.",
+      "formula": null,
+      "module_id": 3,
+      "los_id": "LOS_3a",
+      "related_terms": [
+        "T-QM-049",
+        "T-QM-052",
+        "T-QM-044"
+      ],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-QM-054",
+      "term_en": "Measures of Dispersion",
+      "term_ru": "Меры дисперсии (рассеяния)",
+      "definition_en": "Statistical measures that describe the variability or spread of data in a sample or population. These measures are used in conjunction with measures of central tendency to provide a complete picture of the data distribution. Main measures include range, mean absolute deviation, variance, and standard deviation. They indicate how well the mean represents the data.",
+      "definition_ru": "Статистические меры, описывающие изменчивость или разброс данных в выборке или генеральной совокупности. Эти меры используются вместе с мерами центральной тенденции для получения полной картины распределения данных. Основные меры включают размах, среднее абсолютное отклонение, дисперсию и стандартное отклонение. Они показывают, насколько хорошо среднее представляет данные.",
+      "formula": null,
+      "module_id": 3,
+      "los_id": "LOS_3b",
+      "related_terms": [
+        "T-QM-055",
+        "T-QM-056",
+        "T-QM-057",
+        "T-QM-058"
+      ],
+      "calculator_steps": null
+    },
+    {
+      "term_id": "T-QM-055",
+      "term_en": "Range",
+      "term_ru": "Размах",
+      "definition_en": "The simplest measure of dispersion, calculated as the difference between the maximum and minimum values in a dataset. While easy to compute, the range has limitations: it provides limited information about distribution (using only two data points), is not reliable for large datasets, and is highly sensitive to outliers.",
+      "definition_ru": "Простейшая мера дисперсии, рассчитываемая как разница между максимальным и минимальным значениями в наборе данных. Хотя размах легко вычислить, он имеет ограничения: предоставляет ограниченную информацию о распределении (используя только две точки данных), ненадежен для больших наборов данных и очень чувствителен к выбросам.",
+      "formula": "$\\text{Range} = X_{\\max} - X_{\\min}$",
+      "module_id": 3,
+      "los_id": "LOS_3b",
+      "related_terms": [
+        "T-QM-052",
+        "T-QM-056"
+      ],
+      "calculator_steps": {
+        "worksheet": "Direct Calculation",
+        "access": "Standard keys",
+        "steps": [
+          "Определить максимальное значение",
+          "Определить минимальное значение",
+          "Max [-] Min [=] — вычислить размах"
+        ],
+        "example": {
+          "given": "Values: 78, 56, 67, 51, 43, 89, 57, 67, 78, 50",
+          "input": "89 - 43",
+          "result": "Range = 46"
+        }
+      }
+    },
+    {
+      "term_id": "T-QM-056",
+      "term_en": "Mean Absolute Deviation (MAD)",
+      "term_ru": "Среднее абсолютное отклонение",
+      "definition_en": "A measure of dispersion representing the average of the absolute values of deviations from the arithmetic mean. It shows how far, on average, each observation lies from the mean. MAD uses absolute values because the sum of deviations from the mean is always zero. It provides an intuitive measure of variability that is less affected by extreme values than variance.",
+      "definition_ru": "Мера дисперсии, представляющая среднее абсолютных значений отклонений от арифметического среднего. Она показывает, насколько далеко в среднем каждое наблюдение находится от среднего. MAD использует абсолютные значения, потому что сумма отклонений от среднего всегда равна нулю. Она обеспечивает интуитивную меру изменчивости, которая менее подвержена влиянию экстремальных значений, чем дисперсия.",
+      "formula": "$MAD = \\frac{\\sum_{i=1}^{n} |X_i - \\bar{X}|}{n}$",
+      "module_id": 3,
+      "los_id": "LOS_3b",
+      "related_terms": [
+        "T-QM-042",
+        "T-QM-057",
+        "T-QM-058"
+      ],
+      "calculator_steps": {
+        "worksheet": "Direct Calculation",
+        "access": "Standard keys",
+        "steps": [
+          "Вычислить среднее x̄",
+          "Для каждого Xi: |Xi - x̄| — абсолютное отклонение",
+          "Сложить все абсолютные отклонения",
+          "Разделить на n — получить MAD"
+        ],
+        "example": {
+          "given": "Returns: 6%, 7%, 12%, 2%, 3%, 11%; Mean = 6.83%",
+          "input": "(|6-6.83| + |7-6.83| + ... + |11-6.83|) / 6",
+          "result": "MAD = 3.17%"
+        }
+      }
+    },
+    {
+      "term_id": "T-QM-057",
+      "term_en": "Sample Variance",
+      "term_ru": "Выборочная дисперсия",
+      "definition_en": "A measure of dispersion for sample data, calculated as the average of squared deviations from the sample mean, divided by (n-1) rather than n. The (n-1) divisor removes bias when estimating population variance from a sample. Variance is expressed in squared units and is the foundation for calculating standard deviation.",
+      "definition_ru": "Мера дисперсии для выборочных данных, рассчитываемая как среднее квадратов отклонений от выборочного среднего, деленное на (n-1), а не на n. Делитель (n-1) устраняет смещение при оценке дисперсии генеральной совокупности по выборке. Дисперсия выражается в квадратных единицах и является основой для расчета стандартного отклонения.",
+      "formula": "$s^2 = \\frac{\\sum_{i=1}^{n} (X_i - \\bar{X})^2}{n-1}$",
+      "module_id": 3,
+      "los_id": "LOS_3b",
+      "related_terms": [
+        "T-QM-058",
+        "T-QM-059",
+        "T-QM-043"
+      ],
+      "calculator_steps": {
+        "worksheet": "Statistics",
+        "access": "[2ND] [DATA]",
+        "steps": [
+          "[2ND] [DATA] — открыть Statistics",
+          "[2ND] [CLR WORK] — очистить данные",
+          "Ввести все значения выборки",
+          "[2ND] [STAT] [↓] до Sx — выборочное стандартное отклонение",
+          "Sx² [x²] [=] — вычислить дисперсию"
+        ],
+        "example": {
+          "given": "Sample returns: 6%, 7%, 12%, 2%, 3%, 11%",
+          "input": "Enter all values, compute Sx, then square",
+          "result": "s² = 15.37"
+        }
+      }
+    },
+    {
+      "term_id": "T-QM-058",
+      "term_en": "Sample Standard Deviation",
+      "term_ru": "Выборочное стандартное отклонение",
+      "definition_en": "The square root of sample variance, providing a measure of dispersion in the same units as the original data. It indicates how spread out the values are from the sample mean. A larger standard deviation means greater variability. It is the most commonly used measure of risk in finance and portfolio management.",
+      "definition_ru": "Квадратный корень из выборочной дисперсии, предоставляющий меру дисперсии в тех же единицах, что и исходные данные. Он показывает, насколько разбросаны значения от выборочного среднего. Большее стандартное отклонение означает большую изменчивость. Это наиболее часто используемая мера риска в финансах и управлении портфелем.",
+      "formula": "$s = \\sqrt{s^2} = \\sqrt{\\frac{\\sum_{i=1}^{n} (X_i - \\bar{X})^2}{n-1}}$",
+      "module_id": 3,
+      "los_id": "LOS_3b",
+      "related_terms": [
+        "T-QM-057",
+        "T-QM-059",
+        "T-QM-060"
+      ],
+      "calculator_steps": {
+        "worksheet": "Statistics",
+        "access": "[2ND] [DATA]",
+        "steps": [
+          "[2ND] [DATA] — открыть Statistics Worksheet",
+          "[2ND] [CLR WORK] — очистить предыдущие данные",
+          "Ввести все значения выборки (X01, X02, ...)",
+          "[2ND] [STAT] — показать статистики",
+          "[↓] до Sx — выборочное стандартное отклонение"
+        ],
+        "example": {
+          "given": "Sample: 15%, 10%, 12%, 3%",
+          "input": "X01=15, X02=10, X03=12, X04=3",
+          "result": "Sx = 5.12%"
+        }
+      }
     }
   ]
 }

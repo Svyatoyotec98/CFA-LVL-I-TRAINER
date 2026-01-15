@@ -1,0 +1,79 @@
+{
+  "book_id": 3,
+  "book_code": "CH-3",
+  "book_name": "Corporate Issuers",
+  "book_name_ru": "Корпоративные эмитенты",
+  "total_modules": 7,
+  "modules": [
+    {
+      "module_id": 1,
+      "module_name": "Introduction to Corporate Governance and Other ESG Considerations",
+      "page_range": "3-19",
+      "question_range": "3-14",
+      "los_codes": [
+        "LOS_1a",
+        "LOS_1b"
+      ]
+    },
+    {
+      "module_id": 2,
+      "module_name": "Capital Investments and Capital Allocation",
+      "page_range": "20-38",
+      "question_range": "15-27",
+      "los_codes": [
+        "LOS_2a",
+        "LOS_2b"
+      ]
+    },
+    {
+      "module_id": 3,
+      "module_name": "Capital Structure",
+      "page_range": "39-54",
+      "question_range": "28-44",
+      "los_codes": [
+        "LOS_3a",
+        "LOS_3b"
+      ]
+    },
+    {
+      "module_id": 4,
+      "module_name": "Business Models and Risks",
+      "page_range": "55-75",
+      "question_range": "45-70",
+      "los_codes": [
+        "LOS_4a",
+        "LOS_4b"
+      ]
+    },
+    {
+      "module_id": 5,
+      "module_name": "Measures of Leverage",
+      "page_range": "76-99",
+      "question_range": "71-152",
+      "los_codes": [
+        "LOS_5a",
+        "LOS_5b"
+      ]
+    },
+    {
+      "module_id": 6,
+      "module_name": "Working Capital Management",
+      "page_range": "100-126",
+      "question_range": "153-183",
+      "los_codes": [
+        "LOS_6a",
+        "LOS_6b"
+      ]
+    },
+    {
+      "module_id": 7,
+      "module_name": "Corporate Restructuring",
+      "page_range": "127-139",
+      "question_range": "184-194",
+      "los_codes": [
+        "LOS_7a",
+        "LOS_7b"
+      ]
+    }
+  ]
+}

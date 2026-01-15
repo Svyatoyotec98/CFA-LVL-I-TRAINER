@@ -1,0 +1,89 @@
+{
+  "book_id": 2,
+  "book_code": "CH-2",
+  "book_name": "Economics",
+  "book_name_ru": "Экономика",
+  "total_modules": 8,
+  "modules": [
+    {
+      "module_id": 1,
+      "module_name": "Topics in Demand and Supply Analysis",
+      "page_range": "3-43",
+      "question_range": "3-30",
+      "los_codes": [
+        "LOS_1a",
+        "LOS_1b"
+      ]
+    },
+    {
+      "module_id": 2,
+      "module_name": "The Firm and Market Structures",
+      "page_range": "44-66",
+      "question_range": "31-49",
+      "los_codes": [
+        "LOS_2a",
+        "LOS_2b"
+      ]
+    },
+    {
+      "module_id": 3,
+      "module_name": "Aggregate Output, Prices and Economic Growth",
+      "page_range": "67-88",
+      "question_range": "50-62",
+      "los_codes": [
+        "LOS_3a",
+        "LOS_3b"
+      ]
+    },
+    {
+      "module_id": 4,
+      "module_name": "Understanding Business Cycles",
+      "page_range": "89-112",
+      "question_range": "63-85",
+      "los_codes": [
+        "LOS_4a",
+        "LOS_4b"
+      ]
+    },
+    {
+      "module_id": 5,
+      "module_name": "Monetary and Fiscal Policy",
+      "page_range": "113-139",
+      "question_range": "86-97",
+      "los_codes": [
+        "LOS_5a",
+        "LOS_5b"
+      ]
+    },
+    {
+      "module_id": 6,
+      "module_name": "International Trade and Capital Flows",
+      "page_range": "140-154",
+      "question_range": "98-112",
+      "los_codes": [
+        "LOS_6a",
+        "LOS_6b"
+      ]
+    },
+    {
+      "module_id": 7,
+      "module_name": "Currency Exchange Rates",
+      "page_range": "155-182",
+      "question_range": "113-136",
+      "los_codes": [
+        "LOS_7a",
+        "LOS_7b"
+      ]
+    },
+    {
+      "module_id": 8,
+      "module_name": "Economic Growth (optional module)",
+      "page_range": "183-195",
+      "question_range": "N/A",
+      "los_codes": [
+        "LOS_8a",
+        "LOS_8b"
+      ]
+    }
+  ]
+}

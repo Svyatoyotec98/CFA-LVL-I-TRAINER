@@ -291,6 +291,23 @@ function selectBook(bookId) {
     showScreen('modules');
 }
 
+// Unlock all modules for testing
+async function unlockAllModules() {
+    if (!confirm('Разблокировать ВСЕ модули для тестирования?')) return;
+
+    // Установить флаг тестового режима
+    localStorage.setItem('testMode', 'true');
+
+    alert('✅ Все модули разблокированы!\n\nТеперь можете открывать любые модули для тестирования.');
+
+    // Перезагрузить текущий экран
+    if (state.currentScreen === 'modules') {
+        loadModules();
+    } else if (state.currentScreen === 'dashboard') {
+        loadDashboard();
+    }
+}
+
 // ============== Modules ==============
 async function loadModules() {
     if (!state.currentBook) {
@@ -317,9 +334,12 @@ async function loadModules() {
             console.error('Failed to load module progress:', e);
         }
 
+        // Check test mode
+        const testMode = localStorage.getItem('testMode') === 'true';
+
         container.innerHTML = modules.map((module, index) => {
             const mp = progressData[module.module_id] || {};
-            const isUnlocked = index === 0 || mp.is_unlocked || (progressData[modules[index-1]?.module_id]?.mastery_percent >= 80);
+            const isUnlocked = testMode || index === 0 || mp.is_unlocked || (progressData[modules[index-1]?.module_id]?.mastery_percent >= 80);
             const questionsCount = module.questions?.length || 0;
             const mastery = mp.mastery_percent || 0;
 
@@ -349,13 +369,12 @@ async function loadBookData(bookId) {
     }
 
     try {
-        const response = await fetch(`data/books/book${bookId}.json`);
-        if (!response.ok) throw new Error('Book data not found');
-        const data = await response.json();
+        const data = await apiGet(`/tests/book-info/${bookId}`);
         state.booksData[bookId] = data;
         return data;
     } catch (error) {
         console.error(`Failed to load book ${bookId}:`, error);
+        showToast('Ошибка загрузки данных книги', 'error');
         throw error;
     }
 }
@@ -1012,6 +1031,7 @@ async function answerReview(questionId, userAnswer, correctAnswer) {
 
 // ============== Glossary ==============
 let glossaryTerms = [];
+let calculatorTemplates = {};
 
 async function loadGlossary() {
     try {
@@ -1024,24 +1044,57 @@ async function loadGlossary() {
     }
 }
 
+async function loadCalculatorTemplates() {
+    try {
+        const response = await fetch('data/v2/calculator_templates.json');
+        const data = await response.json();
+        calculatorTemplates = data.templates || {};
+    } catch (error) {
+        console.error('Failed to load calculator templates:', error);
+        calculatorTemplates = {};
+    }
+}
+
 function renderCalculatorSteps(calc) {
     if (!calc) return '';
+
+    // If calc has template_id, load template
+    let calcData = calc;
+    if (calc.template_id) {
+        const template = calculatorTemplates[calc.template_id];
+        if (!template) {
+            console.warn(`Template not found: ${calc.template_id}`);
+            return '';
+        }
+        calcData = template;
+    }
+
+    // Determine method/worksheet name (support both old and new format)
+    const methodName = calcData.method || calcData.worksheet || 'Calculator';
+
+    // Check if has steps to display
+    if (!calcData.steps || calcData.steps.length === 0) return '';
+
+    // Render description if available (for Multi-step Calculation)
+    const description = calcData.description ? `<p class="calc-description">${calcData.description}</p>` : '';
+
     return `
         <div class="calculator-block">
             <div class="calc-header" onclick="toggleCalculatorBlock(this)">
                 <span class="calc-toggle-icon">▼</span>
                 <span class="calc-icon">📟</span>
-                <span class="calc-title">BA II Plus: ${calc.worksheet || 'Calculator'}</span>
-                ${calc.access ? `<code class="calc-access">${calc.access}</code>` : ''}
+                <span class="calc-title">BA II Plus: ${methodName}</span>
+                ${calcData.access ? `<code class="calc-access">${calcData.access}</code>` : ''}
             </div>
+            ${description}
             <ol class="calc-steps">
-                ${calc.steps.map(step => `<li>${step}</li>`).join('')}
+                ${calcData.steps.map(step => `<li>${step}</li>`).join('')}
             </ol>
-            ${calc.example ? `
+            ${calcData.example ? `
                 <div class="calc-example">
-                    <strong>Пример:</strong> ${calc.example.given || ''}
-                    ${calc.example.input ? `<br><code>${calc.example.input}</code>` : ''}
-                    ${calc.example.result ? `<br><span class="calc-result">→ ${calc.example.result}</span>` : ''}
+                    <strong>Пример:</strong> ${calcData.example.given || ''}
+                    ${calcData.example.input ? `<br><code>${calcData.example.input}</code>` : ''}
+                    ${calcData.example.result ? `<br><span class="calc-result">→ ${calcData.example.result}</span>` : ''}
                 </div>
             ` : ''}
         </div>
@@ -1070,7 +1123,7 @@ function displayGlossary(terms) {
                 <div class="term-definition">${term.definition_en}</div>
                 ${term.definition_ru ? `<div class="term-definition-ru">${term.definition_ru}</div>` : ''}
                 ${term.formula ? `<div class="term-formula">\\(${term.formula.replace(/^\$|\$$/g, '')}\\)</div>` : ''}
-                ${term.calculator_steps ? renderCalculatorSteps(term.calculator_steps) : ''}
+                ${term.calculator ? renderCalculatorSteps(term.calculator) : ''}
             </div>
         </div>
     `).join('');
@@ -1331,6 +1384,9 @@ function updateCountdown() {
 
 // ============== Initialization ==============
 async function init() {
+    // Load calculator templates early
+    loadCalculatorTemplates(); // Load async, no need to await
+
     updateCountdown();
     setInterval(updateCountdown, 86400000); // Update daily
 

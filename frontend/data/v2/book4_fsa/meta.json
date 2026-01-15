@@ -1,0 +1,129 @@
+{
+  "book_id": 4,
+  "book_code": "CH-4",
+  "book_name": "Financial Statement Analysis",
+  "book_name_ru": "Анализ финансовой отчетности",
+  "total_modules": 12,
+  "modules": [
+    {
+      "module_id": 1,
+      "module_name": "Introduction to Financial Statement Analysis",
+      "page_range": "3-27",
+      "question_range": "3-31",
+      "los_codes": [
+        "LOS_1a",
+        "LOS_1b"
+      ]
+    },
+    {
+      "module_id": 2,
+      "module_name": "Analyzing Income Statements",
+      "page_range": "28-60",
+      "question_range": "32-73",
+      "los_codes": [
+        "LOS_2a",
+        "LOS_2b"
+      ]
+    },
+    {
+      "module_id": 3,
+      "module_name": "Analyzing Balance Sheets",
+      "page_range": "61-86",
+      "question_range": "74-99",
+      "los_codes": [
+        "LOS_3a",
+        "LOS_3b"
+      ]
+    },
+    {
+      "module_id": 4,
+      "module_name": "Analyzing Statements of Cash Flows",
+      "page_range": "87-113",
+      "question_range": "100-143",
+      "los_codes": [
+        "LOS_4a",
+        "LOS_4b"
+      ]
+    },
+    {
+      "module_id": 5,
+      "module_name": "Analysis of Inventories",
+      "page_range": "114-129",
+      "question_range": "144-162",
+      "los_codes": [
+        "LOS_5a",
+        "LOS_5b"
+      ]
+    },
+    {
+      "module_id": 6,
+      "module_name": "Analysis of Long-Lived Assets",
+      "page_range": "130-145",
+      "question_range": "163-206",
+      "los_codes": [
+        "LOS_6a",
+        "LOS_6b"
+      ]
+    },
+    {
+      "module_id": 7,
+      "module_name": "Analysis of Income Taxes",
+      "page_range": "146-166",
+      "question_range": "207-242",
+      "los_codes": [
+        "LOS_7a",
+        "LOS_7b"
+      ]
+    },
+    {
+      "module_id": 8,
+      "module_name": "Analysis of Non-Current Liabilities",
+      "page_range": "167-190",
+      "question_range": "243-267",
+      "los_codes": [
+        "LOS_8a",
+        "LOS_8b"
+      ]
+    },
+    {
+      "module_id": 9,
+      "module_name": "Analysis of Financial Institutions",
+      "page_range": "191-212",
+      "question_range": "268-306",
+      "los_codes": [
+        "LOS_9a",
+        "LOS_9b"
+      ]
+    },
+    {
+      "module_id": 10,
+      "module_name": "Analysis of Intercorporate Investments",
+      "page_range": "213-265",
+      "question_range": "307-360",
+      "los_codes": [
+        "LOS_10a",
+        "LOS_10b"
+      ]
+    },
+    {
+      "module_id": 11,
+      "module_name": "Employee Compensation",
+      "page_range": "266-320",
+      "question_range": "361-401",
+      "los_codes": [
+        "LOS_11a",
+        "LOS_11b"
+      ]
+    },
+    {
+      "module_id": 12,
+      "module_name": "Analysis of Financial Reporting Quality",
+      "page_range": "321-341",
+      "question_range": "402-408",
+      "los_codes": [
+        "LOS_12a",
+        "LOS_12b"
+      ]
+    }
+  ]
+}

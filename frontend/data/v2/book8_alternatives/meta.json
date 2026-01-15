@@ -1,0 +1,79 @@
+{
+  "book_id": 8,
+  "book_code": "CH-8",
+  "book_name": "Alternative Investments",
+  "book_name_ru": "Альтернативные инвестиции",
+  "total_modules": 7,
+  "modules": [
+    {
+      "module_id": 1,
+      "module_name": "Introduction to Alternative Investments",
+      "page_range": "3-32",
+      "question_range": "3-41",
+      "los_codes": [
+        "LOS_1a",
+        "LOS_1b"
+      ]
+    },
+    {
+      "module_id": 2,
+      "module_name": "Real Estate Investments",
+      "page_range": "33-58",
+      "question_range": "42-67",
+      "los_codes": [
+        "LOS_2a",
+        "LOS_2b"
+      ]
+    },
+    {
+      "module_id": 3,
+      "module_name": "Private Equity",
+      "page_range": "59-82",
+      "question_range": "68-120",
+      "los_codes": [
+        "LOS_3a",
+        "LOS_3b"
+      ]
+    },
+    {
+      "module_id": 4,
+      "module_name": "Hedge Funds",
+      "page_range": "83-115",
+      "question_range": "121-171",
+      "los_codes": [
+        "LOS_4a",
+        "LOS_4b"
+      ]
+    },
+    {
+      "module_id": 5,
+      "module_name": "Commodities",
+      "page_range": "116-137",
+      "question_range": "172-197",
+      "los_codes": [
+        "LOS_5a",
+        "LOS_5b"
+      ]
+    },
+    {
+      "module_id": 6,
+      "module_name": "Infrastructure Investments",
+      "page_range": "138-164",
+      "question_range": "198-262",
+      "los_codes": [
+        "LOS_6a",
+        "LOS_6b"
+      ]
+    },
+    {
+      "module_id": 7,
+      "module_name": "Other Alternative Investments",
+      "page_range": "165-193",
+      "question_range": "263-297",
+      "los_codes": [
+        "LOS_7a",
+        "LOS_7b"
+      ]
+    }
+  ]
+}

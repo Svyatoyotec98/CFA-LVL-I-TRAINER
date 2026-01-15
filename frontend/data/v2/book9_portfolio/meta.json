@@ -1,0 +1,59 @@
+{
+  "book_id": 9,
+  "book_code": "CH-9",
+  "book_name": "Portfolio Management",
+  "book_name_ru": "Управление портфелем",
+  "total_modules": 5,
+  "modules": [
+    {
+      "module_id": 1,
+      "module_name": "Portfolio Risk and Return: Part I",
+      "page_range": "3-27",
+      "question_range": "3-46",
+      "los_codes": [
+        "LOS_1a",
+        "LOS_1b"
+      ]
+    },
+    {
+      "module_id": 2,
+      "module_name": "Portfolio Risk and Return: Part II",
+      "page_range": "28-62",
+      "question_range": "47-93",
+      "los_codes": [
+        "LOS_2a",
+        "LOS_2b"
+      ]
+    },
+    {
+      "module_id": 3,
+      "module_name": "Basics of Portfolio Planning and Construction",
+      "page_range": "63-104",
+      "question_range": "94-113",
+      "los_codes": [
+        "LOS_3a",
+        "LOS_3b"
+      ]
+    },
+    {
+      "module_id": 4,
+      "module_name": "Introduction to Risk Management",
+      "page_range": "105-125",
+      "question_range": "114-160",
+      "los_codes": [
+        "LOS_4a",
+        "LOS_4b"
+      ]
+    },
+    {
+      "module_id": 5,
+      "module_name": "Fintech in Investment Management",
+      "page_range": "126-152",
+      "question_range": "161-181,182-216",
+      "los_codes": [
+        "LOS_5a",
+        "LOS_5b"
+      ]
+    }
+  ]
+}

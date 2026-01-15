@@ -1,0 +1,109 @@
+{
+  "book_id": 7,
+  "book_code": "CH-7",
+  "book_name": "Derivatives",
+  "book_name_ru": "Производные инструменты",
+  "total_modules": 10,
+  "modules": [
+    {
+      "module_id": 1,
+      "module_name": "Module 1",
+      "page_range": "3-11",
+      "question_range": "3-16",
+      "los_codes": [
+        "LOS_1a",
+        "LOS_1b"
+      ]
+    },
+    {
+      "module_id": 2,
+      "module_name": "Module 2",
+      "page_range": "12-31",
+      "question_range": "17-48",
+      "los_codes": [
+        "LOS_2a",
+        "LOS_2b"
+      ]
+    },
+    {
+      "module_id": 3,
+      "module_name": "Module 3",
+      "page_range": "32-39",
+      "question_range": "49-55",
+      "los_codes": [
+        "LOS_3a",
+        "LOS_3b"
+      ]
+    },
+    {
+      "module_id": 4,
+      "module_name": "Module 4",
+      "page_range": "40-51",
+      "question_range": "56-68",
+      "los_codes": [
+        "LOS_4a",
+        "LOS_4b"
+      ]
+    },
+    {
+      "module_id": 5,
+      "module_name": "Module 5",
+      "page_range": "52-64",
+      "question_range": "69-83",
+      "los_codes": [
+        "LOS_5a",
+        "LOS_5b"
+      ]
+    },
+    {
+      "module_id": 6,
+      "module_name": "Module 6",
+      "page_range": "65-75",
+      "question_range": "84-95",
+      "los_codes": [
+        "LOS_6a",
+        "LOS_6b"
+      ]
+    },
+    {
+      "module_id": 7,
+      "module_name": "Module 7",
+      "page_range": "76-84",
+      "question_range": "96-107",
+      "los_codes": [
+        "LOS_7a",
+        "LOS_7b"
+      ]
+    },
+    {
+      "module_id": 8,
+      "module_name": "Module 8",
+      "page_range": "85-102",
+      "question_range": "108-132",
+      "los_codes": [
+        "LOS_8a",
+        "LOS_8b"
+      ]
+    },
+    {
+      "module_id": 9,
+      "module_name": "Module 9",
+      "page_range": "103-115",
+      "question_range": "133-144",
+      "los_codes": [
+        "LOS_9a",
+        "LOS_9b"
+      ]
+    },
+    {
+      "module_id": 10,
+      "module_name": "Module 10",
+      "page_range": "116-130",
+      "question_range": "145-154",
+      "los_codes": [
+        "LOS_10a",
+        "LOS_10b"
+      ]
+    }
+  ]
+}

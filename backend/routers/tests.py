@@ -26,36 +26,132 @@ router = APIRouter(
     tags=["tests"]
 )
 
-# Path to questions data
-DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "frontend", "data", "books")
+# Path to questions data (v2 structure)
+DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "frontend", "data", "v2")
+
+# Mapping of book_id to folder name
+BOOK_FOLDERS = {
+    1: "book1_quants",
+    2: "book2_economics",
+    3: "book3_corporate",
+    4: "book4_fsa",
+    5: "book5_equity",
+    6: "book6_fixed_income",
+    7: "book7_derivatives",
+    8: "book8_alternatives",
+    9: "book9_portfolio",
+    10: "book10_ethics"
+}
 
 
 def load_book_data(book_id: int) -> dict:
-    """Load book JSON data."""
-    filename = f"book{book_id}.json"
-    filepath = os.path.join(DATA_PATH, filename)
+    """Load book data from v2 structure (aggregates all modules)."""
+    if book_id not in BOOK_FOLDERS:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Book {book_id} not found"
+        )
 
-    if not os.path.exists(filepath):
+    book_folder = BOOK_FOLDERS[book_id]
+    book_path = os.path.join(DATA_PATH, book_folder)
+
+    if not os.path.exists(book_path):
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,
             detail=f"Book {book_id} data not found"
         )
 
-    with open(filepath, 'r', encoding='utf-8') as f:
-        return json.load(f)
+    # Find all module directories (module1, module2, module3, ...)
+    module_dirs = sorted([
+        d for d in os.listdir(book_path)
+        if os.path.isdir(os.path.join(book_path, d)) and d.startswith("module")
+    ])
+
+    if not module_dirs:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"No modules found for book {book_id}"
+        )
+
+    # Load questions from each module
+    learning_modules = []
+    book_name = None
+    book_name_ru = None
+    book_code = None
+
+    for module_dir in module_dirs:
+        questions_file = os.path.join(book_path, module_dir, "questions.json")
+
+        if not os.path.exists(questions_file):
+            continue
+
+        try:
+            with open(questions_file, 'r', encoding='utf-8') as f:
+                module_data = json.load(f)
+
+            # Extract book info from first module
+            if book_name is None:
+                book_name = module_data.get("book_name", "")
+                book_name_ru = module_data.get("book_name_ru", "")
+                book_code = module_data.get("book_code", "")
+
+            # Build module structure compatible with old API
+            learning_modules.append({
+                "module_id": module_data.get("module_id"),
+                "module_name": module_data.get("module_name", ""),
+                "module_name_ru": module_data.get("module_name_ru", ""),
+                "questions": module_data.get("questions", [])
+            })
+        except Exception as e:
+            print(f"Warning: Failed to load {questions_file}: {e}")
+            continue
+
+    # Return structure compatible with old API
+    return {
+        "book_id": book_id,
+        "book_name": book_name or f"Book {book_id}",
+        "book_name_ru": book_name_ru or "",
+        "book_code": book_code or "",
+        "learning_modules": learning_modules
+    }
 
 
 def get_module_questions(book_id: int, module_id: int) -> List[dict]:
-    """Get questions for a specific module."""
-    book_data = load_book_data(book_id)
+    """Get questions for a specific module from v2 structure."""
+    if book_id not in BOOK_FOLDERS:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Book {book_id} not found"
+        )
 
-    for module in book_data.get("learning_modules", []):
-        if module.get("module_id") == module_id:
-            return module.get("questions", [])
+    book_folder = BOOK_FOLDERS[book_id]
+    questions_file = os.path.join(DATA_PATH, book_folder, f"module{module_id}", "questions.json")
 
-    return []
+    if not os.path.exists(questions_file):
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Questions not found for book {book_id}, module {module_id}"
+        )
 
+    try:
+        with open(questions_file, 'r', encoding='utf-8') as f:
+            module_data = json.load(f)
+        return module_data.get("questions", [])
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Failed to load questions: {str(e)}"
+        )
 
+@router.get("/book-info/{book_id}")
+async def get_book_info(
+    book_id: int,
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    """Get book structure with modules and questions for frontend."""
+    return load_book_data(book_id)
+    
 @router.get("/module/{book_id}/{module_id}", response_model=List[QuestionResponse])
 async def get_module_test(
     book_id: int,

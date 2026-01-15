@@ -90,22 +90,43 @@ class OverallProgressResponse(BaseModel):
     books_progress: List[Dict[str, Any]]
 
 
-# ============== Test Schemas ==============
+# ============== Test Schemas (v2 structure) ==============
+
+class OptionSchema(BaseModel):
+    """Option schema for v2 structure"""
+    id: str
+    text: str
+
+
+class ExplanationWrongItemSchema(BaseModel):
+    """Schema for wrong answer explanation"""
+    text: str
+    text_ru: Optional[str] = None
+    formula: Optional[str] = None
+
 
 class QuestionResponse(BaseModel):
+    """Question response schema compatible with v2 structure"""
     question_id: str
+    question_number: Optional[int] = None
+    term_id: Optional[str] = None
+    los_id: Optional[str] = None
     question_text: str
+    question_text_ru: Optional[str] = None
     question_text_formula: Optional[str] = None
+    question_continuation: Optional[str] = None
     has_table: bool = False
-    has_image: bool = False
-    image_path: Optional[str] = None
-    options: Dict[str, str]
-    correct_answer: str
+    table_data: Optional[Any] = None
+    options: List[OptionSchema]  # Changed from Dict to List
+    correct_option_id: str  # Changed from correct_answer
     explanation: str
-    explanation_wrong: Optional[Dict[str, str]] = None
+    explanation_ru: Optional[str] = None
+    explanation_formula: Optional[str] = None
+    explanation_wrong: Optional[Dict[str, ExplanationWrongItemSchema]] = None  # Changed structure
+    requires_calculation: Optional[bool] = None
     calculator_steps: Optional[List[str]] = None
     difficulty: Optional[str] = None
-    los_reference: Optional[str] = None
+    topic_tags: Optional[List[str]] = None
 
 
 class TestStartRequest(BaseModel):
@@ -240,7 +261,7 @@ class CalculatorStatsResponse(BaseModel):
 
 class SyncRequest(BaseModel):
     """For syncing localStorage data with backend."""
-    progress: List[ProgressUpdate]
+    progress: List[UserProgressUpdate]
     last_sync_at: Optional[datetime] = None
 
 
