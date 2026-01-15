@@ -1,0 +1,688 @@
+Learning Module 7: Capital Flows and the FX Market
+LOS 7a: describe the foreign exchange market, including its functions
+and participants, distinguish between nominal and real exchange rates,
+and calculate and interpret the percentage change in a currency relative
+to another currency
+The foreign exchange (FX) market is the world's largest market, with a daily turnover of
+approximately USD 6.6 trillion in 2019. It operates 24 hours daily, facilitating international trade
+and cross-border capital flows with participants from various backgrounds.
+Functions of the Foreign Exchange Market
+1. Facilitating international trade: The FX market enables the exchange of goods and
+services in foreign currencies, essential for companies and individuals engaged in cross-
+border transactions.
+2. Accounting for financial market transactions: Financial market transactions are a
+big part of FX market turnover. When investors move money into or out of foreign assets,
+they often have to convert currencies, which means they might face exchange rate risk.
+For example, if a Canadian investor buys Apple stocks in US dollars, they risk losing
+money if the stock value and the US dollar weaken compared to the Canadian dollar.
+3. Providing flexibility for financial goals: The FX market offers products such as spot
+transactions, FX swaps, options, and forward contracts, providing flexibility for diverse
+financial objectives, including speculation and risk hedging.
+Basic Conventions
+Currencies are often referred to by standardized three-letter codes (e.g., USD for US Dollar,
+EUR for Euro) agreed upon through the International Organization for Standardization
+(ISO).
+It is crucial to distinguish between individual currencies and exchange rates. One can possess an
+individual currency, say, USD 100. On the other hand, an exchange rate is the price of one
+155
+© 2014-2024 AnalystPrep.currency in terms of another.
+The exchange rate can be seen as the number of units of one currency (price currency) that one
+unit of another currency (base currency) will buy. As such, the exchange rate can be viewed as
+the cost of one unit of the base currency in terms of the price currency. For example, EUR/USD
+refers to the exchange rate between the euro and the US dollar.
+Note that the three-letter code can be used to signify an individual currency or an exchange rate.
+For instance, EUR in a professional FX market is the exchange rate between the euro and the US
+dollar (EUR can also signify an individual currency). As such, it is important to understand the
+context in which the three-letter codes are used.
+For the sake of avoiding this confusion, the exchange quoting convention is given by "A/B," which
+implies the number of units of currency A that one unit of currency B will buy.
+Nominal and Real Exchange Rates
+Nominal exchange rates are the actual exchange rates in the market, expressed as the price of
+one currency in terms of another. It is expressed in the convention of "A/B," referring to the
+number of units of currency A that one unit of currency B will buy. For example, a USD/EUR
+exchange rate of 1.1650 means 1 euro will buy 1.1650 US dollars.
+The purchasing power parity (PPP) theory suggests that nominal exchange rates adjust to
+equalize the prices of identical goods in different markets. However, due to factors such as trade
+barriers, transaction costs, and differences in goods and services, nominal exchange rates often
+deviate from PPP.
+Real exchange rates are indexes constructed by economists and other market analysts to
+assess changes in the relative purchasing power of one currency compared with another. In
+other words, real exchange rates adjust nominal rates using price levels in each country to
+compare relative purchasing power.
+The real exchange rate goes up when the nominal exchange rate (how much domestic currency
+you get for one unit of foreign currency) and the foreign price level increase. It goes down when
+the domestic price level increases.
+156
+© 2014-2024 AnalystPrep.As such, the higher the real exchange rate is, the lesser foreign goods, in real terms, an
+individual can buy, and the lower that individual's relative purchasing power will be compared
+with the foreign country.
+Mathematically, the real exchange rate is the relative price levels in the domestic and foreign
+countries. The formula for the real exchange rate between domestic (d) and foreign (f)
+currencies is given by:
+S ×P P
+d/f f f
+Real exchange rate (d/f)= =S ×( )
+d/f
+P P
+d d
+Where:
+S = The spot exchange rate (quoted in terms of the number of units of domestic currency per
+d/f
+one unit of foreign currency).
+P = The foreign price level quoted in terms of the foreign currency.
+f
+P = The domestic price level in terms of the domestic currency.
+d
+Example: Calculating Real Exchange Rate
+An analyst is studying the effects of exchange rates on purchasing power. She comes across the
+following data:
+Nominal spot exchange rate (USD/EUR) = 1.15
+Eurozone Consumer Price Index (CPI ) = 110
+eur
+US Consumer Price Index (CPI ) = 100
+US
+The real exchange rate for an American consumer wanting to buy goods made in the Eurozone is
+closest to:
+Solution
+We know that:
+P
+157
+© 2014-2024 AnalystPrep.P
+f
+Real exchange rate (d/f)= S ×( )
+d/f
+P
+d
+Therefore, for an American consumer, the real exchange rate is given by:
+CPI
+Real exchange rate (USD/EUR)=S ×( EUR)
+USD/EUR
+CPI
+USD
+110
+=1.15× =1.2650
+100
+Change in Real Exchange Rate
+The formula for the Change in the real exchange rate, which considers changes in both domestic
+and foreign price levels and the nominal spot exchange rate, is as follows:
+(1+
+ΔPf
+)
+(1+
+ΔS d/f
+)×
+Pf
+−1
+S ΔP
+d/f (1+ d)
+Pd
+Where:
+S = Spot exchange rate (quoted in terms of the number of units of domestic currency per one
+d/f
+unit of foreign currency).
+?S = Change in spot exchange rate.
+d/f
+P = Foreign price level quoted in terms of the foreign currency.
+f
+?P = Change in foreign price levels.
+f
+P = Domestic price level in terms of the domestic currency.
+d
+?P = Change in the domestic price level.
+d
+Example: Change in Real Exchange Rate
+Consider two countries: Canada and the United States of America, where the US is the domestic
+country. The nominal exchange rate is CAD/USD = 1.25. If the price level in the USA increases
+158
+© 2014-2024 AnalystPrep.by 4% and the price level in Canada increases by 2%, what is the new real exchange rate,
+assuming the nominal exchange rate remains unchanged?
+Solution
+Price level increase in the USA: 4%
+Price level increase in Canada: 5%
+Using the formula:
+(1+
+ΔPf
+)
+(1+
+ΔS d/f
+)×
+Pf
+−1
+S ΔP
+d/f (1+ d)
+Pd
+Using the values from the example:
+ΔS =0
+USD/CAD
+S = 1 =0.8
+USD/CAD 1.25
+ΔP =2%=0.02
+CAD
+P =100%=1
+CAD
+ΔP =4%=0.04
+USD
+P =100%=1
+USD
+Plugging in the values:
+0 1+0.02
+=(1+ )×( )−1
+0.8 1+0.04
+1.02
+=(1)×( )−1
+1.04
+≈0.98077−1=−0.01923
+So, the Change in the real exchange rate is approximately -1.923%, which means the real
+exchange rate decreased by approximately 1.923%.
+159
+© 2014-2024 AnalystPrep.A decrease in the real exchange rate means that the value of the domestic currency (in this case,
+the USD) has decreased relative to the foreign currency (CAD) after adjusting for changes in
+price levels.
+In this example, the price level in Canada (CAD) went up by 2%, while in the United States
+(USD), it increased by 4%. Although the nominal exchange rate remained the same, the varying
+inflation rates between the two countries caused the real exchange rate to decline, signifying a
+real depreciation of the USD against the CAD.
+This real depreciation of the USD could be due to the higher inflation in the United States
+compared to Canada. When a country has a higher inflation rate relative to another country, the
+purchasing power of its currency decreases, which leads to a decrease in the real exchange rate.
+This is consistent with the Purchasing Power Parity (PPP) theory, which suggests that in the long
+term, exchange rates adjust to equalize the purchasing power of different currencies.
+Market Participants
+The foreign exchange (FX) market consists of various participants ranging from multi-billion-
+dollar investment funds to individuals. These participants can be broadly categorized into the
+buy and sell sides.
+Buy Side Participants
+Corporate accounts: These comprise businesses of all sizes participating in FX
+transactions when they buy and sell goods and services across borders, engage in
+international mergers and acquisitions (M&A), invest in foreign assets, and borrow in
+foreign currencies.
+Real money accounts: These are investment funds managed by insurance firms,
+mutual funds, pension funds, endowments, ETFs, and other institutions. They typically
+have limitations on using leverage or financial derivatives.
+Leveraged accounts: This category includes hedge funds, proprietary trading firms,
+160
+© 2014-2024 AnalystPrep.CTAs, high-frequency algorithmic traders, and bank trading desks that actively manage
+FX risks to generate profits.
+Retail accounts: This category includes private individuals, smaller hedge funds,
+active traders, and households utilizing electronic trading platforms for currency
+conversion or speculative activities.
+Governments: These include government bodies requiring FX for transactions or to
+achieve public policy objectives, such as purchasing military equipment, maintaining
+foreign bases, and administering public pension plans and insurance schemes.
+Central banks: These entities intervene in FX markets to impact domestic currency
+values, manage foreign reserves, or address unstable and dysfunctional market
+situations.
+Sovereign Wealth Funds (SWFs): These are government-owned entities primarily
+focusing on investment activities rather than public policy objectives and managing
+international capital inflows resulting from current account surpluses.
+Sell-Side Participants
+Large money center dealing banks: These are the largest multinational banks, such
+as Deutsche Bank, Citigroup, UBS, and HSBC, which provide competitive price quotes
+across a broad range of FX products.
+Second and third-tier banks: These are regional or local banks lacking the
+economies of scale, global client base, or IT expertise required to offer competitive
+pricing across a wide range of currencies and FX products. They often outsource FX
+services to larger tier-one banks.
+Note that the FX market is highly dynamic and complex, with participants having a mix of
+hedging and speculative motives. In the case of public sector participants, public policy motives
+may also be a factor. This dynamic and complex interaction of participants and trading objectives
+makes it difficult to precisely predict movements in FX rates or describe the FX market with
+161
+© 2014-2024 AnalystPrep.simple characterizations.
+Market Composition
+The global foreign exchange (FX) market encompasses spot transactions, forward transactions,
+and FX swaps. The Bank for International Settlements (BIS) conducts a triennial survey to
+analyze the size and distribution of global FX market flows.
+Key Components of the FX Market
+Spot transactions: Involve the immediate exchange of currencies at the prevailing
+exchange rate.
+Forward transactions: Entail the exchange of currencies at a specified future date
+and a pre-agreed exchange rate.
+FX swaps: These are the combination of spot and forward transactions utilized for
+hedging purposes and securing foreign currency at more advantageous rates.
+Exchange Rate Quotations
+Exchange rates represent the value of one currency in terms of another and can be quoted in two
+ways: direct and indirect.
+A direct quote involves the domestic currency as the price currency and the foreign currency as
+the base currency, while an indirect quote is the reverse.
+For instance, if we quote the currency exchange rate as A/B, it implies that one unit of currency
+B buys a certain number of units of currency A. In this case, currency A is the price currency,
+and B is the base currency.
+A direct currency quote considers domestic currency as the price currency and foreign currency
+as the base currency. For instance, a French investor will view EUR/USD as the direct euro-US
+162
+© 2014-2024 AnalystPrep.dollar exchange rate quoted in terms of the number of euros per dollar. Specifically, if EUR/USD
+= 1.2310, implies that 1 USD costs 1.2310 EUR.
+In the case of the indirect quote, the domestic currency is the base currency, and the foreign
+currency is the price currency. For instance, the direct quote EUR/USD = 1.2310 has a
+corresponding indirect tax of 1/ EUR/USD = USD/EUR = 0.8123. It implies that 1EUR costs
+0.8113 dollars.
+The professional FX market does not use the terms 'direct' or 'indirect' due to the varying
+domestic and foreign currencies based on one's location.
+Instead, a set of market conventions has been developed, where major currencies and their
+exchange rate quote conventions are standardized.
+Note that there is always a mix of direct and indirect quotes in common market usage, and a
+market participant must get familiar with how the conventions are used.
+Two-sided Price
+The professional FX market operates on a two-sided price mechanism, which includes banks
+providing a "bid" (buying price) and an "offer" (selling price) when a client asks for an exchange
+rate quote. As we already know, exchange rates involve two currencies, and the terms "base
+currency" and "price currency" clarify the transaction.
+The two-sided price reflects buying or selling the base currency:
+It shows how much of the price currency the client would receive for one unit of the
+base currency (bid).
+It also indicates how much of the price currency the client needs to give to the bank to
+get one unit of the base currency (offer).
+For instance, consider the bid/offer quote of CHF/EUR = 1.160-1.1622. In this case, the euro
+(EUR) is the base currency. A quote of 1.1620-1.1622 implies that the client will receive
+CHF1.1620 for selling EUR1 to the dealer and pay 1.1622 to buy EUR1.
+163
+© 2014-2024 AnalystPrep.Usually, banks profit by buying currencies at a lower price and selling at a higher price, while
+electronic FX systems efficiently connect global buyers and sellers, reducing bid/offer spreads
+due to competition.
+The majority of primary spot exchange rates are often expressed to four decimal points.
+However, the yen is an exception among the main currencies, with its spot exchange rates
+usually given to just two decimal points. For instance, while a USD/EUR rate might be displayed
+as 1.1601, a JPY/EUR rate would show as 1311.88.
+Example: Calculating Bid/Offer Quote
+If the bid/offer quote from the trader were 25.6250–25.6300 INR/USD, then the bid/offer quote
+in USD/INR terms would be closest to:
+1. 03901–0.03902.
+2. 03902–0.03901.
+3. 039015–0.039015.
+Solution
+The correct answer is A.
+An INR/USD quote represents the amount of Indian rupees the trader is bidding (offering) to
+purchase (sell) USD1. The trader's bid to buy USD1 at INR25.6250 is similar to the trader
+handing over INR25.6250 to buy USD1. When you divide both terms by 25.6250, it means the
+trader is handing over (i.e., selling) INR1 to buy USD0.03902. This becomes the offer in
+USD/INR terms. The trader is willing to sell INR1 for a price of USD0.03902.
+In USD/INR terms, the trader's bid for INR1 is 0.03901, determined by inverting the offer of
+25.6300 in INR/USD terms (1/25.6300 = 0.03901). It's crucial to remember that in any bid/offer
+quote, irrespective of the base or price currencies chosen, the bid is always lesser than the offer.
+Percentage Appreciation/Depreciation of Exchange Rates
+164
+© 2014-2024 AnalystPrep.When describing exchange rate changes as a percentage appreciation or depreciation, it's
+crucial to determine the price currency and the base currency.
+For example, if KSH/USD =145, it implies that one unit of US dollar will buy 145 units of Kenyan
+shillings. Intuitively, if KSH/USD decreases, it implies that USD costs less or fewer KSH is
+needed to purchase the USD dollar. In this case, the decline in KSH/USD implies that KSH
+appreciates against the USD, or, in other words, the USD is depreciating against KSH.
+Example: Appreciation and Depreciation of Exchange Rates
+To calculate the percentage change, one must clearly understand the base and price currencies.
+Take the Chinese Yuan (CNY) and South African Rand (ZAR) example. Assume that the ZAR/CNY
+exchange rate increased from 1.6459 to 1.8356. Therefore, the percentage appreciation will be:
+1.8356
+–1=11.5256%
+1.6459
+his represents an 11.5256 percent appreciation in the Chinese Yuan against the South African
+Rand. The ZAR/CNY exchange rate is expressed with the Chinese Yuan as the base currency and
+the South African Rand as the price currency. In other words, you now need more South African
+Rands to buy one Chinese Yuan.
+The appreciation of the Chinese Yuan against the South African Rand can also be expressed as a
+depreciation of the South African Rand against the Chinese Yuan. However, in this case, the
+depreciation percentage will not be equal to the previous appreciation percentage of 11.5256%.
+To invert a currency exchange rate, we have to divide 1 by the exchange rate. If
+ZAR/CNY =1.6459
+Then,
+1
+CNY/ZAR= =0.6076
+1.6459
+To calculate the depreciation percentage of the South African Rand when the exchange rate
+165
+© 2014-2024 AnalystPrep.ZAR/CNY increased from 1.6459 to 1.8356, we need to invert the exchange rate from ZAR/CNY
+to CNY/ZAR, making the Chinese Yuan the price currency and the South African Rand the base
+currency. Here's how you do it:
+1
+1.8356
+–1=0.54480.6076−1=−10.3358%
+1
+1.6459
+166
+© 2014-2024 AnalystPrep.Question
+Which of the following best describes a 4% appreciation in the ZAR/CNY exchange
+rate?
+A. This represents a 4 percent appreciation in the South African Rand (ZAR)
+compared to the Chinese Yuan.
+B. This represents a 4 percent appreciation in the Chinese Yuan (CNY)
+compared to the South African Rand.
+C. This represents a 4 percent depreciation in the Chinese Yuan (CNY)
+compared to the South African Rand.
+Solution
+The correct answer is B.
+A 4% appreciation in the ZAR/CNY exchange rate represents an appreciation of the
+base currency against the price currency. In this case, the Chinese Yuan appreciates
+against the South African Rand. Therefore, the appreciation represents a 4 percent
+increase in the Chinese Yuan relative to the South African Rand.
+167
+© 2014-2024 AnalystPrep.LOS 7b: describe exchange rate regimes and explain the effects of
+exchange rates on countries’ international trade and capital flows
+An exchange rate regime is the framework a country's central bank or government employs to
+determine its currency's relative value in the international market. This regime influences the
+country's trading relationships and capital flows.
+The chosen regime is based on factors such as the country's relative economic stability,
+efficiency, and trading volatility. For example, countries experiencing higher volatility might
+adopt a different exchange rate regime compared to those with more stable economies.
+The design and implementation of the exchange rate regime framework is essential as it can
+impact real economic activity, investment decisions, and the risk profile of foreign assets.
+The "Ideal" Currency Regime and Its Challenges
+The concept of an "ideal" currency regime involves three primary attributes.
+1. Establishing credibly fixed exchange rates between currencies, thereby reducing
+uncertainties related to pricing in terms of goods, services, and financial assets.
+2. Allowing full convertibility of currencies and facilitating unrestricted capital
+movement.
+3. It envisions each country having the autonomy to pursue independent monetary
+policies in line with its domestic objectives, such as economic growth and inflation
+control.
+Achieving all three conditions simultaneously is complex because they are inconsistent. If the
+exchange rate between currencies is credibly fixed and all currencies are convertible, then there
+would be a single global currency. In such a context, converting one national currency to another
+would be as simple as choosing between carrying coins or paper money in your pocket.
+Under these conditions, attempts to control interest rates, asset prices, or inflation by
+manipulating the supply of one currency relative to another are ineffective. As a result, the
+168
+© 2014-2024 AnalystPrep.concept of an independent monetary policy is unworkable. In conclusion, there is no one-size-fits-
+all currency regime.
+Currency Regime Impact on Independent Monetary Policies
+The interplay between currency regimes and a country's ability to implement independent
+monetary policies is a central issue in open-economy macroeconomics. In a hypothetical scenario
+with perfectly mobile capital, attempting to decrease interest rates independently in one country
+could trigger an outflow of capital seeking higher returns elsewhere. This movement of capital
+would necessitate central banks to buy back domestic currency and sell foreign currency to
+maintain fixed exchange rates. Such actions could undermine the effectiveness of independent
+monetary policies.
+Flexibility of Floating Exchange Rates
+A floating exchange rate system provides greater flexibility in responding to economic changes.
+If a country decreases its domestic interest rates, the resulting depreciation of its currency can
+boost exports and decrease imports, thereby reinforcing the expansionary impact of the interest
+rate change. Similarly, raising interest rates can lead to currency appreciation, affecting trade
+dynamics. This flexibility allows countries to adjust to economic shifts more effectively.
+Enhancing Central Bank Effectiveness through Exchange Rate Flexibility
+Allowing exchange rates to fluctuate and imposing controls on convertibility can empower
+central banks to pursue macroeconomic objectives more effectively. Central banks can better
+address domestic economic challenges by having the freedom to adjust exchange rates and enact
+monetary policy measures. While greater exchange rate flexibility enhances a central bank's
+efficacy, it also brings potential drawbacks, which include:
+One significant concern is the increased exposure to exchange rate risk faced by
+businesses engaged in international trade or investment.
+Additionally, excessive exchange rate volatility can lead to misallocation of financial
+169
+© 2014-2024 AnalystPrep.capital, potentially impacting economic efficiency and stability.
+Achieving the right balance between policy effectiveness and potential economic distortions is a
+key challenge in managing exchange rates and their impact on economies.
+Historical Perspective on Currency Regimes
+Throughout history, different currency exchange systems have existed alongside each other, with
+one usually emerging as the dominant system. This has significantly influenced how the world
+economy approaches the valuation and exchange of currencies.
+The Classical Gold Standard and Price-Specie-Flow Mechanism
+During the 19th and early 20th centuries until World War I, the "classical gold standard"
+prevailed. Major currencies like the US dollar and the British pound were tied to fixed gold
+quantities. Gold acted as the standard unit for pricing goods and assets through the "price-
+specie-flow mechanism." Trade surpluses led to increased gold reserves, expanding money
+supply and prices, while deficits caused gold outflows, decreasing prices and boosting exports.
+National currencies were backed by gold, maintaining supply limitations.
+Bretton Woods System and Transition to Flexible Rates
+After World War II, a new system called the Bretton Woods system was introduced in 1944. This
+system featured fixed exchange rates with occasional realignments. The United States, Japan,
+and many European industrial countries adhered to this framework. When exchange rate parities
+deviated significantly from supply-demand equilibrium, periodic realignments were executed to
+correct the imbalances. These realignments were integrated into standard monetary policy
+practices.
+The system collapsed due to chronic inflation, transitioning to flexible exchange rates in 1973—
+this shift, influenced by economists like Milton Friedman, aimed to counter speculator
+disruptions. Flexible rates led to unforeseen exchange rate volatility, partly due to investment-
+170
+© 2014-2024 AnalystPrep.driven foreign exchange transactions.
+However, the transition to flexible exchange rates brought unforeseen consequences, including
+heightened exchange rate volatility. This was attributed to investment-driven FX transactions,
+both for long-term investments and short-term speculation. These transactions played a more
+substantial role in determining spot exchange rates than previously acknowledged.
+European Exchange Rate Mechanism (ERM) and Euro
+Creation
+The European Economic Community introduced the European Exchange Rate Mechanism (ERM)
+to instill a degree of stability in exchange rates. Initially, currency values were expected to
+fluctuate within a narrow range known as "the snake."
+However, the ERM's vulnerability became apparent in the early 1990s. Speculative attacks and
+macroeconomic disparities led to deviations from the ERM's framework, ultimately culminating
+in the UK's forced exit from the system.
+Despite challenges, the euro emerged in the late 20th century for Western European countries,
+enhancing transparency and competition. This aimed to streamline pricing transparency,
+encourage market competition, and optimize resource allocation. However, it also led to trade-
+offs as member states surrendered independent exchange rate control for economic integration.
+Continuing Exchange Rate Historical Evolution
+The historical shifts in currency regimes have been driven by a complex interplay of economic,
+geopolitical, and policy factors. These transitions have shaped how countries value and exchange
+currencies, often reflecting a delicate balance between stability, policy objectives, and market
+forces.
+Taxonomy of Currency Regimes
+171
+© 2014-2024 AnalystPrep.In the ongoing discussions about fixed and flexible exchange rates, many countries have adopted
+intermediary systems that sit between these two extremes.
+Drivers for Intermediate Regimes
+In some cases, a lack of credibility in terms of sound monetary policy drives the
+adoption of intermediate regimes. Nations with a history of hyperinflation might resort
+to a form of fixed-rate regime due to credibility concerns in maintaining a stable
+currency under a floating regime.
+In other cases, political motivations influence currency regime choices. For instance,
+the creation of the euro aimed to foster political unity among European Community
+members with a history of conflicts.
+As of April 2008, the IMF categorized exchange rate regimes into eight distinct categories, each
+representing a different approach to managing a nation's currency value. These categories
+encompass a spectrum of currency arrangements. They include:
+1. Arrangement with No Separate Legal Tender
+According to the IMF, countries with no legal tender can be seen in two ways. One is
+dollarization, where countries don't have their own currency and use foreign currencies. The
+other is when a country is part of a monetary union. Countries with no separate legal tender
+currency arrangement cannot carry out their own monetary policies.
+Dollarization involves adopting another nation's currency as the medium of exchange, granting
+currency credibility but not creditworthiness. Note that a country can adopt any currency, but
+the obvious choice might be the US dollar since it is the main reserve currency. Examples of
+dollarized countries include East Timor, El Salvador, Ecuador, and Panama.
+The European Economic and Monetary Union (EMU) exemplifies a monetary union where
+member countries share the euro. A monetary union alone does not guarantee creditworthiness,
+as evident from the 2010 EMU sovereign debt crisis.
+172
+© 2014-2024 AnalystPrep.Member countries cannot perform independent monetary policy. The monetary union determines
+the monetary policy through their representatives in the European Central Bank.
+2. Currency Board System (CBS)
+A CBS, or Currency Board System, is a monetary arrangement where the government commits to
+exchanging its domestic currency for a specified foreign currency at a fixed rate. It comes with
+restrictions to make sure the government can meet this commitment. In this system, the local
+currency is only issued when there's an equivalent amount of foreign currency held in reserves,
+making it fully backed by foreign assets.
+The currency board system is seen in Hong Kong, where US dollar reserves back the entire Hong
+Kong dollar monetary base.
+Similar to the gold standard, CBS links monetary base expansion and contraction to trade and
+capital flows, assuming flexible domestic prices and limited non-traded sectors.
+3. Fixed Parity
+A fixed parity system involves pegging the exchange rate to a single currency or a basket of
+currencies but without any legislative commitment to maintain it, allowing a country to adjust or
+abandon the parity if necessary.
+The fixed parity regime system allows the central bank to perform traditional functions while
+maintaining a discretionary level of foreign exchange (FX) reserves. Private sector demand for
+the country's currency can affect the fixed parity, with excess demand leading to an increase in
+FX reserves and inflation and deficient demand leading to a depletion of FX reserves and
+deflation. A speculative attack can occur if market participants believe that FX reserves are
+insufficient to sustain the parity, draining the reserves and forcing an immediate devaluation.
+Hence, maintaining an adequate level of reserves is crucial for the credibility of a fixed exchange
+rate regime.
+4. Active and Passive Crawling Pegs
+173
+© 2014-2024 AnalystPrep.Active crawl is when the exchange rates are pre-announced for the coming weeks with the
+changes taking place in small steps to manipulate the expectations of inflation.
+On the other hand, passive crawl is when exchange rates are frequently adjusted (on a daily or
+weekly basis), usually against a single currency such as the US Dollar, to keep pace with the
+inflation rate.
+5. Fixed Parity with Crawling Bands
+A country may initially peg its currency to a foreign currency to stabilize inflation expectations.
+Over time, it can introduce more flexibility by gradually widening a pre-defined range around
+this fixed rate. This system provides an incremental way to transition away from a fixed currency
+rate, especially if the country is not yet equipped for full monetary flexibility due to a lack of
+credibility or financial infrastructure.
+6. Target Zone Regimes
+A target zone system maintains a set parity but comes with broader intervention bands,
+potentially extending up to ±2 percent around the established parity, compared to a basic fixed
+parity model. This expanded bandwidth allows the monetary authority increased flexibility for
+discretionary actions.
+7. Managed Float
+A managed float involves policy interventions to achieve internal or external targets, potentially
+creating instability in FX markets. Exchange rate targets may not be explicitly defined.
+8. Independently Floating Rates
+Independently floating rates leave exchange rates to market determination, allowing the central
+bank to pursue autonomous monetary policy goals while also acting as a lender of last resort.
+Effects of Exchange Rates on Countries' International Trade
+174
+© 2014-2024 AnalystPrep.and Capital Flow
+There are many effects of exchange rates on countries' international trade and capital flow. Most
+of them are listed below.
+Changing Prices of Currencies
+While shifts in supply and demand of products change the prices of those products, constant
+shifts in supply and demand for foreign currencies cause changes in the prices of currencies.
+Likewise, as prices of money change, demand for foreign currencies changes.
+Increase in Demand for Imports
+An increase in the demand for imported goods happens when products of a foreign nation sell at
+lower prices than domestic products. When domestic income rises, demand for imports rises.
+Moreover, in capital markets, when returns on a nation's investments are higher than the
+domestic interest rate, individuals choose to invest in other nations' securities.
+Expensive Products
+Many countries depend more on imports than domestically produced goods. This is because
+exchange rates play a significant role in the determination of the prices of imported products. If
+the domestic currency is weaker, consumers will have to pay higher prices in domestic currency
+for foreign goods.
+They are Self-correcting over Time
+When the supply of dollars in the international market grows, their values depreciate. As time
+goes by, imports become unattractive, and exports become more attractive. The converse is also
+true.
+Development of a Trade Deficit
+175
+© 2014-2024 AnalystPrep.If the interest rates of other nations are higher than those of dollar nations, the demand for
+foreign countries automatically falls. However, a stronger dollar means decreased exports
+because they seem expensive to foreign consumers. This leads to a trade deficit.
+Effect on Standard of Living
+Differences in currency values affect our ability to buy imported goods and export domestic
+goods. A currency crisis affects the lives and well-being of the citizenry in significant ways. For
+example, take Argentina, a country that has defaulted on its debt five times in the last 200 years.
+Every time this happens, their currency gets devalued. As a result, Argentineans cannot import
+goods from other countries cheaply for a few years. This hurts Argentina's economic growth and
+its citizenry's standard of living.
+Exchange Rates and the Trade Balance
+A nation's trade balance and capital account are interrelated; a trade deficit/surplus must
+correspond to a capital account surplus/deficit. Factors affecting trade balance have an equal
+and opposite impact on the capital account and vice versa, highlighting their interdependence.
+Consider the following fundamental equation from macroeconomics:
+X−M =(S−I)+(T −G)
+Where:
+X= Exports.
+M= Imports.
+S= Private savings.
+I= Investment.
+T= Taxes net of transfers.
+176
+© 2014-2024 AnalystPrep.G= Government expenditure.
+From the above equation, it's evident that a trade surplus (X > M) necessitates either a fiscal
+surplus (T > G), a surplus of private savings over investment (S > I), or both. Given that fiscal
+surplus can equate to government saving, it can be concisely stated that a trade surplus
+indicates a nation's savings surpasses what's needed for its infrastructure investments (I). This
+surplus in savings is then channeled towards accumulating financial claims from other countries.
+On the flip side, a trade deficit signifies the country's savings fall short of its investment
+requirements (I), leading to a decrease in its financial holdings from other countries.
+While this equation connects real expenditure and savings decisions with financial asset flows, it
+doesn't specify the type or currency of exchanged assets. Asset prices and exchange rates adjust
+to align with investors' preferences. Anticipated exchange rate changes drive capital flows, but
+adjustments primarily occur in financial markets due to their faster pace compared to goods
+prices.
+Fixed exchange rate regimes involve central bank intervention to maintain pegs adjusting other
+asset prices. Floating exchange rates entail rapid exchange rate shifts that affect investor
+conviction. In the short to intermediate term, capital flows mainly drive exchange rate
+movements, with trade flows becoming increasingly influential over the long term.
+177
+© 2014-2024 AnalystPrep.Question
+In which of the following currency arrangements does a nation adopt another nation's
+currency as its medium of exchange?
+A. Fixed Parity.
+B. Dollarization.
+C. Fixed Parity with Crawling Bands.
+Solution
+The correct answer is B.
+Dollarization is a currency arrangement in which a nation adopts another nation's
+currency as its medium of exchange.
+A is incorrect. A fixed parity system involves pegging the exchange rate to a single
+currency or a basket of currencies but without any legislative commitment to
+maintain it, allowing a country to adjust or abandon the parity if necessary.
+C is incorrect. A fixed parity with crawling bands is when a country that had initially
+pegged its currency to a foreign currency to stabilize inflation gradually widens a pre-
+defined range around the fixed rate to introduce more flexibility.
+178
+© 2014-2024 AnalystPrep.LOS 7c: describe common objectives of capital restrictions imposed by
+governments
+Capital restrictions are the measures that governments or central banks take to control the flow
+of foreign money in and out of a country's economy.
+Objectives of Capital Restrictions
+Economic Stability and Growth
+Governments impose capital restrictions to steer their economies towards desired trajectories.
+Such measures help achieve objectives related to employment and regional development.
+Government regulations on foreign investments allow them to control key sectors vital to their
+growth plans. They can direct necessary funds to these sectors or protect them from potentially
+damaging foreign influences.
+Protecting Strategic Industries
+Some industries hold significant importance not just economically but also strategically.
+Industries like defense, telecommunications, and sometimes even energy are crucial for national
+security and sovereignty. By limiting foreign ownership or investments in these sectors,
+governments can ensure that they remain predominantly under national control, thereby
+protecting them from foreign influences that might not align with national interests.
+Preventing Capital Flight
+During economic downturns or political instability, there's a heightened risk of capital flight – a
+massive and sudden outflow of capital from the country. Such outflows can exacerbate economic
+problems, causing currency devaluations and draining national reserves. Capital restrictions
+help manage and mitigate the risks associated with these sudden, large-scale outflows.
+Monetary and Fiscal Policy Implementation
+179
+© 2014-2024 AnalystPrep.Achieving desired macroeconomic outcomes in an environment of uncontrolled capital mobility
+can be challenging. Standard monetary and fiscal tools might fall short of influencing the
+economy in the desired direction. By introducing capital controls, governments can better
+manage external pressures and achieve a balance between domestic and external policy
+objectives.
+Revenue Generation and Government Financing
+Historically, capital restrictions have been a tool for revenue generation, especially in times of
+war or significant national crises. By limiting capital outflows, governments can keep more
+capital within the domestic economy, making it easier to tax wealth and generate interest
+income. This not only aids in immediate revenue generation but also helps maintain low interest
+rates, reducing government borrowing costs.
+Managing External Balance
+External balance means balancing payments between a country and the world. Governments can
+control capital coming in and going out to maintain a healthy balance, preventing excessive
+external debt and long-term economic stability.
+Yet, imposing these constraints poses certain challenges. They result in substantial
+administrative expenses and potential delays in critical policy changes and can create
+unfavorable market perceptions. The impact of these controls differs, and effective, vigorous
+enforcement is typically essential to achieve the intended results.
+180
+© 2014-2024 AnalystPrep.Question
+Which of the following trade controls is most likely to cause the biggest economic
+gain for an importing country?
+A. Tariffs.
+B. Import quotas.
+C. Export subsidies.
+Solution
+The correct answer is A.
+A tariff is a tax imposed on imported goods and services. Tariffs provide immediate
+revenue for the government imposing them. Additionally, they can protect domestic
+industries by increasing the price of imported goods, which can make domestically
+produced goods more competitive in the market.
+Compared to import quotas and export subsidies, tariffs offer direct fiscal benefits to
+the government and can also have the secondary benefit of boosting domestic
+production.
+B is incorrect. An import quota is a limit a country sets on the quantity of a good
+that can be imported. While quotas can protect domestic industries by limiting
+foreign competition, they do not generate direct revenue for the government.
+Quotas might lead to economic gain by fostering domestic industry, but this is more
+indirect and potentially less substantial than the revenue generated from tariffs.
+Additionally, they can lead to inefficiencies and a lack of competition, which might
+harm the economy in the long run.
+C is incorrect. An export subsidy is a government policy to encourage the export of
+domestic goods. Export subsidies are generally used by countries to increase exports,
+not to regulate imports. They do not generate revenue for the importing country and
+181
+© 2014-2024 AnalystPrep.do not directly affect imports.
+182
+© 2014-2024 AnalystPrep.

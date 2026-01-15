@@ -1,0 +1,380 @@
+Learning Module 8: Exchange Rate Calculations
+LOS 8a: calculate and interpret currency cross-rates
+It is possible to back out the cross rates given two exchange rates involving three currencies.
+Consider a foreign exchange market with the exchange rate between the South African rand and
+the Chinese yuan. This market can also quote the exchange rate between the South African rand
+and the Russian ruble (RUB). It is, therefore, possible to back out the cross-rates between the
+Chinese yuan and the Russian ruble, which is quoted as (RUB/CNY) according to market
+conventions and can be represented as follows:
+RUB ZAR RUB
+× =
+ZAR CNY CNY
+For example, the RUB/ZAR exchange rate is 1.4876, and the ZAR/CNY exchange rate is 1.6459.
+We can calculate the RUB/CNY exchange rate using sample spot exchange rates as follows:
+RUB ZAR
+× =1.4876 ×1.6459 =2.4484 Russian Rubble per Chinese Yuan
+ZAR CNY
+Inversion
+Sometimes, it is important to invert one of the quotes to get the intermediary currency to cancel
+out the equation and get the cross rate. For example, to get the Russian ruble–Japanese yen
+(JPY/RUB) quote, we first invert the South African rand–Russia ruble (RUB/ZAR) quote before
+multiplying it by the South African rand–Japanese yen (JPY/ZAR).
+Example: Currency Cross-Rates
+Let's assume we have spot exchange rates of RUB/ZAR =1.4876 and JPY/ZAR = 70.74. The
+South African rand–Russia ruble (RUB/ZAR) ruble exchange rate of 1.4876 inverts to:
+RUB −1 ZAR 1
+( ) =( ) = =0.6722
+ZAR RUB 1.4876
+183
+© 2014-2024 AnalystPrep.Multiplying this figure with the JPY/ZAR quote of 70.74 gives us the JPY/RUB.
+ZAR JPY
+( )×( ) =0.6722 × 70.74 = 47.5531 JPY per RUB
+RUB ZAR
+Triangular Arbitrage in Cross Rate Calculations
+Market participants can access both cross-rate quotes (e.g., JPY/CAD for Japan yen–Canada) and
+the underlying component exchange rate quotes (e.g., CAD/USD for dollar–Canada and JPY/USD
+for dollar–yen). These cross rates must align with their respective calculations; if not, traders will
+exploit the discrepancy through arbitrage. This type of profit-seeking, termed triangular
+arbitrage (given its involvement with three currencies), would persist until the price imbalance
+is corrected.
+Example: Illustrating Triangular Arbitrage
+To illustrate, consider a JPY/CAD rate derived at 85.98 based on the underlying CAD/USD and
+JPY/USD rates of 1.3020 and 111.94, respectively:
+−1
+JPY CAD JPY
+=( ) ×( )= (1.3020)−1×111.94 =85.98
+CAD USD USD
+If a misinformed dealer simultaneously offers a JPY/CAD rate of 86.20, it presents a different
+price for the same service, which, in this case, is converting yen to Canadian dollars. A savvy
+trader could purchase CAD1 for JPY85.98 and immediately sell it for JPY86.20, making a risk-free
+profit of JPY0.22 per CAD1.
+In practice, such discrepancies in cross-rates are infrequent. Both human traders and automated
+trading algorithms vigilantly monitor the markets for any pricing inefficiencies, ensuring swift
+corrections.
+184
+© 2014-2024 AnalystPrep.Question
+A forex trader noticed the USD/EUR spot rate is 1.3960. Similarly, the CHF/USD spot
+rate is 0.9587. Calculate the spot CHF/EUR cross-rate.
+1. 1.7422.
+2. 1.3383.
+3. 1.4561.
+Solution
+The correct answer is B.
+The spot rate is:
+CHF CHF USD
+= × =1.3960 ×0.9587 =1.3383
+EUR USD EUR
+185
+© 2014-2024 AnalystPrep.LOS 8b: explain the arbitrage relationship between spot and forward
+exchange rates and interest rates, calculate a forward rate using points
+or in percentage terms, and interpret a forward discount or premium
+This section will consider the relationships between spot and forward rates, interest rates, and
+maturities based on market efficiencies.
+Spot and Forward Rates
+In the professional FX market, forward exchange rates are commonly quoted in terms of 'points'
+or 'pips.' These points represent the difference between the forward and spot exchange rate
+quotes. The scale is adjusted so that these points correspond to the last decimal place in the spot
+quote.
+If the forward rate is higher than the spot rate, the points are positive, indicating that the base
+currency trades at a forward premium. On the other hand, when the forward rate is below the
+spot rate, the points are negative, suggesting the base currency trades at a forward discount.
+Notably, when the base currency is at a forward premium, the price currency will be at a forward
+discount, and vice versa.
+To understand this argument, let's look at a scenario in 2023. The spot USD/CAD exchange rate
+was 1.3845, and the six-month forward rate was 1.38475. This suggests that the CAD (base
+currency) was trading at a premium compared to the spot rate. The six-month forward points
+were quoted as 2.5, and this can be calculated as follows:
+1.38475−1.3845 =0.00025
+We multiply by 10,000 to reach the desired result. This scaling ensures the points align with the
+final digit of the spot exchange rate quote, which is usually the fourth decimal place.
+Additionally, it's noteworthy that while points are usually quoted to at least one decimal place,
+the forward rate might extend to five or even more decimal places.
+Among major currencies, the yen stands as an exception. Its spot rates are typically quoted to
+just two decimal places. Therefore, the difference between its forward and spot rates is
+186
+© 2014-2024 AnalystPrep.multiplied by 100 to adjust for its two-decimal-place precision.
+Forward Points and Maturity
+Forward rate quotes are typically presented as the number of forward points for each specific
+maturity, which refers to the time interval between the spot settlement and the forward contract
+settlement. Often, these forward points are also termed 'swap points' since an FX swap
+encompasses both a spot and a forward transaction executed simultaneously.
+To convert forward quotations into an outright forward quotation, let's use an example with the
+RUB/CNY currency pair. We'll use a table that shows maturity and forward or spot rate points.
+Maturity Spot rate or forward points
+Spot 1.6459
+One week −0.2
+One month −0.1
+Three months −5.6
+Six months −12.7
+Twelve-month −25.3
+From the table above, notice that the absolute number of points increases with maturity. This
+trend emerges because the number of points is directly proportional to the yield differential
+between the two involved countries (in this case, Russia and China). This differential is then
+adjusted based on the term to maturity.
+As the term to maturity extends, the absolute number of forward points increases. In the same
+vein, for a fixed term to maturity, a greater interest rate differential results in a higher absolute
+number of forward points.
+Calculating Forward Exchange Rates
+To calculate forward exchange rates using forward points, you divide the points by 10,000. This
+scales down the fourth decimal place found in the spot rate. Then, you add the result to the spot
+exchange rate quote.
+We can take the case of the six-month forward rate in the above table. Here we have:
+−12.7
+187
+© 2014-2024 AnalystPrep.−12.7
+1.6459+ = 1.6459−0.00127= 1.64463
+10000
+Often, the forward rate points are represented as a percentage of the spot and not as an absolute
+number of points. As such, the six-month forward rate for RUB/CNY can be shown as follows:
+1.6459−0.00127
+−1=−0.077%
+1.6459
+To convert this percentage into a forward rate, we simply need to multiply the spot rate by one
+plus the percentage forward premium or discount:
+1.6459×(1+(−0.00077)) =1.6459×0.99923=1.64463
+Arbitrage Relationships between Spot and Forward Rates
+To understand the arbitrage relations between spot and forward exchange rates, we need to
+consider interactions between spot rates, forward rates, and interest rates.
+Note that forward exchange rates are derived from an arbitrage principle that ensures equal
+investment returns on two alternative yet equivalent investment opportunities.
+Using a single-period analogy, an investor who has funds to invest in treasury securities has two
+alternatives:
+1. Invest at the domestic risk-free rate (r ).
+d
+2. Invest at the foreign risk-free rate (r).
+f
+Option i:
+If the investor takes the first option, the fund held at the end of the period would be (1+i ).
+d
+Option ii:
+Alternatively, the investor could convert the domestic currency to be invested in a foreign
+188
+© 2014-2024 AnalystPrep.currency using the spot rate S . It is important to note that (f/d) is the currency quoting
+f/d
+convention that expresses the number of foreign units per single domestic unit.
+At the end of the investment period, S (1+r ) units of foreign currency would be held by the
+f/d f
+investor. Then, the funds would have to be converted back into the domestic currency using the
+initial (pre-agreed) forward rate.
+Note that the two investment alternatives are risk-free because they are invested in risk-free
+assets.
+Since these investment alternatives are equal by considering the risk characteristics, the returns
+must also be equal. As such, we have the following relationship:
+1
+1+r =S (1+r )( )
+d f/d f
+F
+f/d
+This formula above outlines two alternative investments (represented on either side of an
+equation) expected to yield equal returns. Should the returns differ, a risk-free arbitrage
+opportunity arises. An investor can capitalize on this by short-selling the lower-yield investment
+and directing those funds into the higher-yield one.
+Note that is the number of units of domestic currency for each unit of foreign sold forward. The
+relationship above can be rearranged to get the formula for a forward rate as illustrated below:
+1+r
+f
+F = S ( )
+f/d f/d
+1+r
+d
+Where:
+S = Current spot exchange rate.
+f/d
+F = Current forward exchange rate.
+f/d
+r = Domestic risk-free rate.
+d
+r = Foreign risk-free rate.
+f
+189
+© 2014-2024 AnalystPrep.Example: Calculating the Forward Exchange Rate
+Given that the spot exchange S is 1.502, the domestic risk-free rate for 12 months is 4%, and
+f/d
+the 12-month foreign risk-free rate is 6.2%, the forward rate F is:
+f/d
+1+r
+f
+F =S ( )
+f/d f/d 1+r
+d
+1+0.062
+=1.502( ) =1.5338
+1+0.04
+Forward Rate as a Percentage of the Spot Rate
+We can rearrange the no-arbitrage equation between the spot and exchange rates as follows:
+F 1+r
+f/d f
+=
+S 1+r
+f/d d
+Intuitively, from the above equation, under an f/d quoting convention, if foreign interest rates
+exceed domestic rates, the forward rate will be priced at a premium relative to the spot rate.
+Generally speaking, without considering the quoting convention, the currency with the higher
+(lower) interest rate will always trade at a discount (premium) in the forward market.
+We can interpret the forward exchange rate as the expected future spot rates. If we let F =F ,
+t f/d
+S =S and finally F =S then the above equation can be written as:
+t f/d t t+1
+S t+1
+=
+1+r f
+S 1+r
+t d
+⇒%ΔS = S t+1 −1=( r f −r d )
+t+1 S 1+r
+t d
+As such, if we interpret forward rates as expected future spot rates, the expected percentage
+change in the spot rate is proportional to the interest rate differential (r −r ).
+f d
+Interpreting forward rates are interpreted as expected future spot rates have some setbacks. For
+instance, the relationship between spot and forward exchange rates is influenced by any factor
+affecting the yield curve in either the domestic or foreign market. Consequently, FX markets are
+190
+© 2014-2024 AnalystPrep.interconnected with global events, reflecting influences from other global markets.
+As such, in real-world trading, currency traders and strategists do not rely solely on forward
+rates for their currency expectations or strategies.
+However, it is useful to understand forward exchange rates simply as a product of the arbitrage
+equation and forward points as being related to the interest rate differential between the two
+countries.
+Forward Discount Premiums based on Spot and Interest Rates
+Recall that a forward discount is when the domestic current spot exchange rate is traded at a
+higher level than the current domestic future spot rates. On the other hand, A forward premium
+is a situation when the forward exchange rate is higher than the spot exchange rate. Conversely,
+a forward discount is when the forward exchange rate is lower than the spot exchange rate.
+The analysis of the expectations from the market depends mostly on discounts and premiums.
+Also, they enable one to know the currencies that should appreciate and those that will
+depreciate in the near future.
+Calculation
+Recall the arbitrage formula:
+1+i
+f
+F = S ( )
+f/d f/d
+1+i
+d
+Where:
+S = Current spot exchange rate.
+f/d
+F = Current forward exchange rate.
+f/d
+r = Domestic risk-free rate.
+d
+r = Foreign risk-free rate.
+f
+191
+© 2014-2024 AnalystPrep.Note that in the above formula, we assumed a single-period analogy. Suppose the investment
+term is a fraction, τ, of the period for which the interest rates are quoted. Consequently, the
+interest earned in the domestic and foreign markets would be r τ and r τ respectively.
+d f
+As such, the arbitrage formula transforms into:
+1+r τ
+f
+F = S ( )
+f/d f/d
+1+r τ
+d
+Intuitively, if we wish to calculate the forward premium or discount, we find the difference
+between the forward and spot exchange rates:
+1+r τ
+f
+F −S =S ( )−S
+f/d f/d f/d f/d
+1+r τ
+d
+1+r τ
+f
+=S [( )−1]
+f/d
+1+r τ
+d
+r −r
+f d
+=S ( )τ
+f/d
+1+r τ
+d
+r −r
+f d
+∴F −S =S ( )τ
+f/d f/d f/d
+1+r τ
+d
+Therefore, forward points, when appropriately scaled, are proportional to the spot exchange rate
+and the interest rate differential. They are approximately, but not exactly, proportional to the
+horizon of the forward contract.
+The common day count (for example, LIBOR deposits) is actual/360. Consider the following
+example.
+Example: Forward Discount or Premium
+Let's say we have a 31-day forward exchange rate. The domestic 31-day risk-free interest rate is
+2.5% per year, and the foreign 31-day risk-free interest rate is 3.5%. The spot exchange rate is
+1.5630. We can calculate the forward premium or discount using two methods:
+Method 1:
+We first calculate the forward exchange rate, and then we subtract the spot exchange rate from
+192
+© 2014-2024 AnalystPrep.it:
+1+r τ
+f
+F =S ( )
+f/d f/d 1+r τ
+d
+⎛1+0.035× 31 ⎞
+360
+=1.5630 =1.56434
+⎝1+0.025× 31⎠
+360
+Hence, the forward trading premium is:
+F − S =1.56434−1.5630 =0.00134
+f/d f/d
+Since forward premiums or discounts are usually quoted in pips or points, multiplying the result
+by 10,000 will give us 0.00134×10,000=13.4 pips, which is the forward trading premium
+quoted in pips or points.
+Method 2:
+Inserting the data directly into the formula:
+r −r
+f d
+F −S =S ( )τ
+f/d f/d f/d
+1+r τ
+d
+⎛0.035−0.025⎞ 31
+=1.5630 ×
+⎝1+0.025× 31⎠ 360
+360
+=0.00134≈13.4 pips
+193
+© 2014-2024 AnalystPrep.Question #1
+An Italian company has secured a contract with a US client, expecting a payment of
+USD 40 million in 45 days. The finance manager of the Italian firm wishes to hedge
+the FX risk of this deal and gets the following rates from a broker:
+USD/EUR spot rate: 0.9220
+One-month forward points: +2.0
+According to the exchange rate information provided, the finance manager could
+hedge the FX risk by:
+1. Buying euro (selling US dollars) at a forward rate of 0.9222.
+2. Buying euro (selling US dollars) at a forward rate of 0.9200.
+3. Selling euro (buying US dollars) at a forward rate of 0.9200.
+Solution
+The correct answer is A.
+The Italian company would aim to change the US dollar to its home currency, the
+euro (it intends to sell US dollars and buy euros), using a forward rate calculated as
+0.9220 + (+2.0/10,000) = 0.9222.
+By doing this, the company is able to protect itself against any unfavorable
+movements in the foreign exchange rate over the next 45 days (before payment is
+received). In other words, the company wants locks in the exchange rate of USD/EUR
+= 0.9222 now. This can be achieved using a forward contract, which allows the
+company to exchange currencies at a predetermined rate in the future.
+Question #2
+When is a foreign currency most likely trading at a forward premium?
+194
+© 2014-2024 AnalystPrep.1. When the forward rate expressed in the domestic currency is below the spot
+rate.
+2. When the forward rate expressed in the domestic currency is above the spot
+rate.
+3. When the forward rate expressed in the foreign/domestic currency is at
+equilibrium.
+Solution
+The correct answer is B.
+A foreign currency is at a forward premium if the forward rate expressed in domestic
+currency is above the spot rate.
+195
+© 2014-2024 AnalystPrep.
