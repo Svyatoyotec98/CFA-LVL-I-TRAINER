@@ -173,190 +173,33 @@ def generate_latex_formula(question_text, explanation_text, correct_option_text,
 
 # ============== CALCULATOR STEPS GENERATION ==============
 
-def extract_numbers_from_question(question_text, options_text, explanation_text):
-    """Extract numerical values from question text"""
-    combined = question_text + " " + options_text + " " + explanation_text
-
-    numbers = {}
-
-    # Extract percentages: 8%, 10.5%, -3%
-    percent_matches = re.findall(r'([-+]?\d+\.?\d*)\s*%', combined)
-    if percent_matches:
-        numbers['percentages'] = [float(p) for p in percent_matches]
-
-    # Extract money values: $150,000, $1,000, €5000
-    money_matches = re.findall(r'[\$€£¥]\s?([\d,]+(?:\.\d+)?)', combined)
-    if money_matches:
-        numbers['money_values'] = [float(m.replace(',', '')) for m in money_matches]
-
-    # Extract years/periods: "3 years", "5-year", "10 periods"
-    year_matches = re.findall(r'(\d+)[-\s](?:year|yr|period)', combined, re.IGNORECASE)
-    if year_matches:
-        numbers['years'] = [int(y) for y in year_matches]
-
-    # Determine compounding frequency
-    combined_lower = combined.lower()
-    if 'quarterly' in combined_lower or 'quarter' in combined_lower:
-        numbers['compounding_frequency'] = 4
-        numbers['compounding_name'] = 'quarterly'
-    elif 'monthly' in combined_lower or 'month' in combined_lower:
-        numbers['compounding_frequency'] = 12
-        numbers['compounding_name'] = 'monthly'
-    elif 'semiannual' in combined_lower or 'semi-annual' in combined_lower:
-        numbers['compounding_frequency'] = 2
-        numbers['compounding_name'] = 'semiannually'
-    elif 'annual' in combined_lower and 'semi' not in combined_lower:
-        numbers['compounding_frequency'] = 1
-        numbers['compounding_name'] = 'annually'
-    elif 'daily' in combined_lower:
-        numbers['compounding_frequency'] = 365
-        numbers['compounding_name'] = 'daily'
-
-    # Extract return values for geometric/arithmetic mean calculations
-    return_matches = re.findall(r'([-+]?\d+\.?\d*)%', combined)
-    if len(return_matches) >= 2:
-        numbers['returns'] = [float(r) for r in return_matches]
-
-    return numbers
 
 
-def determine_calculation_type(question_text, explanation_text, term_id):
-    """Determine what type of calculation is needed based on question content"""
-    combined = (question_text + " " + explanation_text).lower()
 
-    # TVM calculations
-    if any(word in combined for word in ['future value', ' fv ', 'worth at maturity', 'value in', 'maturity value']):
-        return 'TVM_FV'
 
-    if any(word in combined for word in ['present value', ' pv ', 'worth today', 'invest today', 'initial investment']):
-        return 'TVM_PV'
-
-    # Direct calculations from term_id
-    if term_id == 'QM-1-007' or 'holding period return' in combined:
-        return 'DIRECT_HPR'
-
-    if term_id == 'QM-1-015' or ('effective annual rate' in combined and 'future value' not in combined):
-        return 'DIRECT_EAR'
-
-    if term_id == 'QM-1-016' or 'continuously compounded' in combined or 'continuous return' in combined:
-        return 'DIRECT_continuous_return'
-
-    if term_id == 'QM-1-008' or 'arithmetic mean' in combined:
-        return 'STAT_mean'
-
-    if term_id == 'QM-1-009' or 'geometric mean' in combined:
-        return 'DIRECT_geometric_mean'
-
-    if term_id == 'QM-1-013' or any(word in combined for word in ['money-weighted', 'mwrr', 'internal rate of return', ' irr ']):
-        return 'CF_IRR'
-
-    if term_id == 'QM-1-014' or 'time-weighted' in combined:
-        return 'MULTI_STEP_TWRR'
-
-    if term_id == 'QM-1-019' or 'real return' in combined:
-        return 'DIRECT_real_return'
-
-    if term_id == 'QM-1-021' or 'leveraged return' in combined:
-        return 'DIRECT_leveraged_return'
-
-    return None
 
 
 def generate_calculator_steps(question_text, options_text, explanation_text, term_id, term_map, templates):
-    """Generate calculator steps based on term_id and question content"""
-
-    # Extract numbers from question
-    numbers = extract_numbers_from_question(question_text, options_text, explanation_text)
-
-    # Determine calculation type
-    calc_type = determine_calculation_type(question_text, explanation_text, term_id)
-
-    if not calc_type:
-        return []
-
-    # Get calculator data from glossary if term exists
-    calc_from_glossary = None
+    """Generate calculator steps from glossary template (NO number substitution)"""
+    
+    # Если есть term_id — берём calculator из glossary
     if term_id and term_id in term_map:
         calc_from_glossary = term_map[term_id].get('calculator')
-
-    # Generate steps based on calculation type
-    steps = []
-
-    # TVM calculations
-    if calc_type == 'TVM_FV':
-        steps.append("[2ND] [CLR TVM]")
-
-        # Set P/Y and C/Y if compounding frequency is known
-        if 'compounding_frequency' in numbers:
-            m = numbers['compounding_frequency']
-            steps.append(f"[2ND] [P/Y] {m} [ENTER] [↓] {m} [ENTER]")
-            steps.append("[2ND] [QUIT]")
-
-        # Input known values
-        if 'money_values' in numbers and len(numbers['money_values']) > 0:
-            pv = numbers['money_values'][0]
-            steps.append(f"{pv:,.0f} [+/-] [PV]")
-
-        if 'percentages' in numbers and len(numbers['percentages']) > 0:
-            rate = numbers['percentages'][0]
-            steps.append(f"{rate} [I/Y]")
-
-        if 'years' in numbers and 'compounding_frequency' in numbers:
-            n = numbers['years'][0] * numbers['compounding_frequency']
-            steps.append(f"{n} [N]")
-        elif 'years' in numbers:
-            n = numbers['years'][0]
-            steps.append(f"{n} [N]")
-
-        steps.append("0 [PMT]")
-        steps.append("[CPT] [FV]")
-        return steps
-
-    elif calc_type == 'TVM_PV':
-        steps.append("[2ND] [CLR TVM]")
-
-        if 'compounding_frequency' in numbers:
-            m = numbers['compounding_frequency']
-            steps.append(f"[2ND] [P/Y] {m} [ENTER] [↓] {m} [ENTER]")
-            steps.append("[2ND] [QUIT]")
-
-        if 'money_values' in numbers and len(numbers['money_values']) > 0:
-            fv = numbers['money_values'][0]
-            steps.append(f"{fv:,.0f} [FV]")
-
-        if 'percentages' in numbers and len(numbers['percentages']) > 0:
-            rate = numbers['percentages'][0]
-            steps.append(f"{rate} [I/Y]")
-
-        if 'years' in numbers and 'compounding_frequency' in numbers:
-            n = numbers['years'][0] * numbers['compounding_frequency']
-            steps.append(f"{n} [N]")
-        elif 'years' in numbers:
-            n = numbers['years'][0]
-            steps.append(f"{n} [N]")
-
-        steps.append("0 [PMT]")
-        steps.append("[CPT] [PV]")
-        return steps
-
-    # Template-based calculations
-    elif calc_type in templates:
-        template = templates[calc_type]
-        # Return template steps directly (we could substitute values here, but that's complex)
-        if 'steps' in template:
-            return template['steps']
-
-    # Try to get from glossary calculator
-    elif calc_from_glossary:
-        if 'template_id' in calc_from_glossary:
-            template_id = calc_from_glossary['template_id']
-            if template_id in templates:
-                template = templates[template_id]
-                if 'steps' in template:
-                    return template['steps']
-        elif 'steps' in calc_from_glossary:
-            return calc_from_glossary['steps']
-
+        
+        if calc_from_glossary:
+            # Если есть template_id — загружаем шаблон
+            if 'template_id' in calc_from_glossary:
+                template_id = calc_from_glossary['template_id']
+                if template_id in templates:
+                    template = templates[template_id]
+                    if 'steps' in template:
+                        return template['steps']
+            
+            # Если есть steps напрямую в glossary
+            elif 'steps' in calc_from_glossary:
+                return calc_from_glossary['steps']
+    
+    # Для вопросов без term_id или без calculator — пустой список
     return []
 
 
