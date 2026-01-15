@@ -1,3 +1,1622 @@
 {
-  "questions": []
+  "book_id": 1,
+  "book_code": "QM",
+  "book_name": "Quantitative Methods",
+  "book_name_ru": "Количественные методы",
+  "module_id": 2,
+  "module_name": "Time Value of Money",
+  "module_name_ru": "Временная стоимость денег",
+  "total_questions": 35,
+  "questions": [
+    {
+      "question_id": "QM-2-Q001",
+      "question_number": 1,
+      "term_id": "QM-2-003",
+      "los_id": "LOS_2a",
+      "question_text": "Chad invests $8,000 in a zero-coupon bond that yields 8% annually and matures in four years. The maturity value of this bond is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "$10,800.00"
+        },
+        {
+          "id": "opt2",
+          "text": "$10,883.91"
+        },
+        {
+          "id": "opt3",
+          "text": "$11,256.32"
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "For a zero-coupon bond, we use the future value formula. In this case, PV=$8,000, r=8%, N=4 years. Using the BA II Plus Calculator: [2ND][CLR TVM], 4[N], 8[I/Y], -8000[PV], 0[PMT], [CPT][FV] = 10,883.91",
+      "explanation_ru": "",
+      "explanation_formula": "$FV = PV \\times (1+r)^N = 8,000 \\times (1.08)^4 = 10,883.91$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. This represents simple interest calculation ($8,000 × 1.35), not compound interest which is required for proper bond valuation.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. This value may result from using an incorrect interest rate or compounding frequency in the calculation.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "EASY",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-2-Q002",
+      "question_number": 2,
+      "term_id": "QM-2-004",
+      "los_id": "LOS_2a",
+      "question_text": "A fund continuously accumulates to $4,000 over ten years at a 10% annual interest rate. The present value of this fund is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "$1,471.52"
+        },
+        {
+          "id": "opt2",
+          "text": "$1,542.37"
+        },
+        {
+          "id": "opt3",
+          "text": "$1,628.89"
+        }
+      ],
+      "correct_option_id": "opt1",
+      "explanation": "With continuous compounding, we use PV = FV × e^(-rN). Here FV=$4,000, r=10%, N=10 years. Therefore: PV = $4,000 × e^(-0.10×10) = $4,000 × e^(-1) = $1,471.52",
+      "explanation_ru": "",
+      "explanation_formula": "$PV = FV \\times e^{-rN} = 4,000 \\times e^{-1} = 1,471.52$",
+      "explanation_wrong": {
+        "opt2": {
+          "text": "B is incorrect. This may result from using daily compounding rather than continuous compounding.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. This represents quarterly compounding, not continuous compounding as required.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-2-Q003",
+      "question_number": 3,
+      "term_id": "QM-2-007",
+      "los_id": "LOS_2a",
+      "question_text": "A 5-year bond has a face value of $1,000 and an annual coupon rate of 5%. The market discount rate is 6%. The bond's price is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "$950.00"
+        },
+        {
+          "id": "opt2",
+          "text": "$957.88"
+        },
+        {
+          "id": "opt3",
+          "text": "$1,000.00"
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "Using BA II Plus: [2ND][CLR TVM], 5[N], 6[I/Y], 50[PMT], 1000[FV], [CPT][PV] = -957.88. The bond trades at a discount because the coupon rate (5%) is less than the market discount rate (6%).",
+      "explanation_ru": "",
+      "explanation_formula": "$PV = \\frac{50}{1.06} + \\frac{50}{(1.06)^2} + \\frac{50}{(1.06)^3} + \\frac{50}{(1.06)^4} + \\frac{1,050}{(1.06)^5} = 957.88$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. This underestimates the bond price by not properly discounting all cash flows.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. The bond would trade at par ($1,000) only if the coupon rate equals the market discount rate, which is not the case here.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-2-Q004",
+      "question_number": 4,
+      "term_id": "QM-2-007",
+      "los_id": "LOS_2a",
+      "question_text": "An investor has a 2-year bond with a face value of $1,000 and an annual coupon rate of 6%, paid semi-annually. The market discount rate is 5% annually. The price of the bond is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "$1,000.00"
+        },
+        {
+          "id": "opt2",
+          "text": "$1,018.81"
+        },
+        {
+          "id": "opt3",
+          "text": "$1,037.17"
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "Semi-annual coupon = $1,000 × 6% / 2 = $30. Semi-annual YTM = 5% / 2 = 2.5%. Number of periods = 2 × 2 = 4. Using calculator: [2ND][CLR TVM], 4[N], 2.5[I/Y], 30[PMT], 1000[FV], [CPT][PV] = -1,018.81",
+      "explanation_ru": "",
+      "explanation_formula": "$PV = \\frac{30}{1.025} + \\frac{30}{(1.025)^2} + \\frac{30}{(1.025)^3} + \\frac{1,030}{(1.025)^4} = 1,018.81$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. The bond would only trade at par if the coupon rate equals the market discount rate.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. This overestimates the bond price, possibly by using incorrect compounding frequency.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-2-Q005",
+      "question_number": 5,
+      "term_id": "QM-2-009",
+      "los_id": "LOS_2a",
+      "question_text": "In 2021, XYZ Financial issued $500 million in perpetual bonds with a 4.00% semi-annual coupon. The bond's yield to maturity (YTM) if the market price is $98.50 per $100 face value is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2.03%"
+        },
+        {
+          "id": "opt2",
+          "text": "4.00%"
+        },
+        {
+          "id": "opt3",
+          "text": "4.06%"
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": "For a perpetual bond, PV = PMT / r. Semi-annual coupon = $100 × 4% / 2 = $2. Semi-annual YTM: r = $2 / $98.50 = 0.0203 = 2.03%. Annualized YTM = 2.03% × 2 = 4.06%",
+      "explanation_ru": "",
+      "explanation_formula": "$r_{semi} = \\frac{PMT}{PV} = \\frac{2}{98.50} = 2.03\\%$; $r_{annual} = 2.03\\% \\times 2 = 4.06\\%$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. This is the semi-annual YTM, not the annualized YTM as requested.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt2": {
+          "text": "B is incorrect. This is the coupon rate, which differs from the YTM when the bond trades away from par.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-2-Q006",
+      "question_number": 6,
+      "term_id": "QM-2-012",
+      "los_id": "LOS_2a",
+      "question_text": "Jake is securing a fixed-rate 25-year mortgage to finance 75% of an $800,000 residential property. If the annual interest rate is 4.5%, Jake's monthly mortgage payment is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "$3,000.00"
+        },
+        {
+          "id": "opt2",
+          "text": "$3,334.99"
+        },
+        {
+          "id": "opt3",
+          "text": "$3,600.00"
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "Loan amount = 75% × $800,000 = $600,000. Monthly rate = 4.5% / 12 = 0.375%. Number of payments = 25 × 12 = 300. Using calculator: [2ND][CLR TVM], 300[N], 0.375[I/Y], -600000[PV], 0[FV], [CPT][PMT] = 3,334.99",
+      "explanation_ru": "",
+      "explanation_formula": "$PMT = \\frac{r \\times PV}{1 - (1+r)^{-N}} = \\frac{0.00375 \\times 600,000}{1 - (1.00375)^{-300}} = 3,334.99$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. This underestimates the payment, possibly by using an incorrect interest rate.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. This overestimates the payment and doesn't properly apply the annuity formula.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-2-Q007",
+      "question_number": 7,
+      "term_id": "QM-2-013",
+      "los_id": "LOS_2a",
+      "question_text": "A preferred stock pays a constant annual dividend of $5 per share. The discount rate is 8%. The present value of the stock is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "$50.00"
+        },
+        {
+          "id": "opt2",
+          "text": "$62.50"
+        },
+        {
+          "id": "opt3",
+          "text": "$67.50"
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "For constant dividends (perpetuity), PV = D / r = $5 / 0.08 = $62.50",
+      "explanation_ru": "",
+      "explanation_formula": "$PV = \\frac{D}{r} = \\frac{5}{0.08} = 62.50$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. This undervalues the stock by using an incorrect discount rate.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. This overvalues the stock and doesn't apply the perpetuity formula correctly.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "EASY",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-2-Q008",
+      "question_number": 8,
+      "term_id": "QM-2-014",
+      "los_id": "LOS_2a",
+      "question_text": "A stock currently pays an annual dividend of $2.00 per share. The required rate of return is 10%, and dividends are expected to grow at a constant rate of 5% per year indefinitely. The present value of this stock is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "$40.00"
+        },
+        {
+          "id": "opt2",
+          "text": "$42.00"
+        },
+        {
+          "id": "opt3",
+          "text": "$44.10"
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "Using the Gordon Growth Model: PV = D₁ / (r - g) = ($2.00 × 1.05) / (0.10 - 0.05) = $2.10 / 0.05 = $42.00",
+      "explanation_ru": "",
+      "explanation_formula": "$PV = \\frac{D_t(1+g)}{r-g} = \\frac{2.00 \\times 1.05}{0.10 - 0.05} = \\frac{2.10}{0.05} = 42.00$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. This incorrectly uses the current dividend without adjusting for growth: $2.00 / 0.05 = $40.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. This appears to apply growth incorrectly, possibly compounding twice.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-2-Q009",
+      "question_number": 9,
+      "term_id": "QM-2-015",
+      "los_id": "LOS_2a",
+      "question_text": "A stock has an expected dividend payment of $2 in one period. The discount rate is 10%. The stock is expected to have a high dividend growth rate of 20% for the first three years, followed by a slower growth rate of 5% thereafter. The present value of the stock is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "$54.53"
+        },
+        {
+          "id": "opt2",
+          "text": "$60.49"
+        },
+        {
+          "id": "opt3",
+          "text": "$65.12"
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "PV of high-growth phase: $2/1.10 + $2.40/1.10² + $2.88/1.10³ = $5.965. Terminal value at t=3: D₄/(r-g) = ($2×1.20³×1.05)/(0.10-0.05) = $72.578. PV of terminal = $72.578/1.10³ = $54.527. Total PV = $5.965 + $54.527 = $60.49",
+      "explanation_ru": "",
+      "explanation_formula": "$PV = \\sum_{i=1}^{3}\\frac{D_t(1.20)^i}{(1.10)^i} + \\frac{D_4/(r-g_l)}{(1.10)^3} = 5.965 + 54.527 = 60.49$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. This only calculates the present value of the terminal value, ignoring the high-growth dividends.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. This overvalues the stock, possibly by miscalculating the growth phases.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "HARD",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-2-Q010",
+      "question_number": 10,
+      "term_id": "QM-2-006",
+      "los_id": "LOS_2a",
+      "question_text": "In January 2018, the Swiss government issued 15-year sovereign bonds at a negative yield of -0.08% annually. The present value (PV) of the bond per CHF100 of principal (FV) at the time of issuance is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "CHF 98.81"
+        },
+        {
+          "id": "opt2",
+          "text": "CHF 100.00"
+        },
+        {
+          "id": "opt3",
+          "text": "CHF 101.21"
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": "With negative interest rates, PV > FV. Using the formula: PV = FV × (1+r)^(-N) = 100 × (1-0.0008)^(-15) = 100 × (0.9992)^(-15) = 101.21",
+      "explanation_ru": "",
+      "explanation_formula": "$PV = FV \\times (1+r)^{-N} = 100 \\times (0.9992)^{-15} = 101.21$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. This assumes positive interest rates, which would result in PV < FV.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt2": {
+          "text": "B is incorrect. The bond would only trade at par if the interest rate were exactly zero.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-2-Q011",
+      "question_number": 11,
+      "term_id": "QM-2-017",
+      "los_id": "LOS_2b",
+      "question_text": "A zero-coupon bond has a price of $900, a future value of $1,000, and a maturity of 5 years. The implied annualized return is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2.00%"
+        },
+        {
+          "id": "opt2",
+          "text": "2.13%"
+        },
+        {
+          "id": "opt3",
+          "text": "2.22%"
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "Implied return for a discount bond: r = (FV/PV)^(1/t) - 1 = (1,000/900)^(1/5) - 1 = (1.1111)^0.2 - 1 = 0.0213 = 2.13%",
+      "explanation_ru": "",
+      "explanation_formula": "$r = \\left(\\frac{FV}{PV}\\right)^{\\frac{1}{t}} - 1 = \\left(\\frac{1000}{900}\\right)^{\\frac{1}{5}} - 1 = 2.13\\%$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. This underestimates the return, possibly by using simple interest calculation.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. This overestimates the return by not properly applying the compound interest formula.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-2-Q012",
+      "question_number": 12,
+      "term_id": "QM-2-018",
+      "los_id": "LOS_2b",
+      "question_text": "Milton Inc. issued corporate bonds 5 years ago with a 15-year maturity and semi-annual coupon rate of 7.8% per annum. The current yield to maturity is 8.5% per annum. The current price of Milton Inc's bonds (per CAD100 of par value) is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "CAD 91.23"
+        },
+        {
+          "id": "opt2",
+          "text": "CAD 95.35"
+        },
+        {
+          "id": "opt3",
+          "text": "CAD 96.15"
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "Remaining maturity = 15 - 5 = 10 years = 20 semi-annual periods. Semi-annual coupon = 7.8%/2 = 3.9. Semi-annual YTM = 8.5%/2 = 4.25%. Using calculator: [2ND][CLR TVM], 20[N], 4.25[I/Y], 3.9[PMT], 100[FV], [CPT][PV] = -95.35",
+      "explanation_ru": "",
+      "explanation_formula": "$PV = \\sum_{t=1}^{20}\\frac{3.9}{(1.0425)^t} + \\frac{100}{(1.0425)^{20}} = 95.35$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. This undervalues the bond, possibly by using incorrect number of periods.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. This overvalues the bond by not properly accounting for the YTM being higher than the coupon rate.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-2-Q013",
+      "question_number": 13,
+      "term_id": "QM-2-018",
+      "los_id": "LOS_2b",
+      "question_text": "CityGroup Corp. issued a corporate bond 7 years ago with a face value of $1,000 and a 20-year maturity. The bond pays annual interest at a coupon rate of 6%. Currently, the bond is trading at $1,120. The yield to maturity (YTM) is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "4.23%"
+        },
+        {
+          "id": "opt2",
+          "text": "4.74%"
+        },
+        {
+          "id": "opt3",
+          "text": "5.36%"
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "Remaining maturity = 20 - 7 = 13 years. Using calculator: [2ND][CLR TVM], 13[N], -1120[PV], 60[PMT], 1000[FV], [CPT][I/Y] = 4.74%",
+      "explanation_ru": "",
+      "explanation_formula": "Solve for r: $1,120 = \\sum_{t=1}^{13}\\frac{60}{(1+r)^t} + \\frac{1,000}{(1+r)^{13}}$; $r = 4.74\\%$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. This underestimates YTM, possibly by miscalculating the remaining maturity.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. This overestimates YTM. Since the bond trades above par, YTM must be less than the 6% coupon rate.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-2-Q014",
+      "question_number": 14,
+      "term_id": "QM-2-019",
+      "los_id": "LOS_2b",
+      "question_text": "Apple Inc. stock is trading at $150.00, and its annualized expected dividend per share during the next year is $2.00. An analyst projects that Apple's dividend per share will increase at a constant rate of 5% per year indefinitely. The required return expected by investors is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "5.33%"
+        },
+        {
+          "id": "opt2",
+          "text": "6.40%"
+        },
+        {
+          "id": "opt3",
+          "text": "6.67%"
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "Implied return: r = (D₁/PV) + g = ($2.00 × 1.05) / $150 + 0.05 = $2.10/$150 + 0.05 = 0.014 + 0.05 = 0.064 = 6.40%",
+      "explanation_ru": "",
+      "explanation_formula": "$r = \\frac{D_t(1+g)}{PV} + g = \\frac{2.00 \\times 1.05}{150} + 0.05 = 0.014 + 0.05 = 6.40\\%$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. This only includes the dividend yield without adding the growth rate.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. This miscalculates the dividend yield component of the required return.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-2-Q015",
+      "question_number": 15,
+      "term_id": "QM-2-020",
+      "los_id": "LOS_2b",
+      "question_text": "An investor believes that Apple stock investors should expect a return of 8%. The stock trades at $150 and the next expected dividend is $2.10. The implied dividend growth rate is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "5.60%"
+        },
+        {
+          "id": "opt2",
+          "text": "6.60%"
+        },
+        {
+          "id": "opt3",
+          "text": "6.90%"
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "Implied growth: g = r - (D₁/PV) = 0.08 - ($2.10/$150) = 0.08 - 0.014 = 0.066 = 6.60%",
+      "explanation_ru": "",
+      "explanation_formula": "$g = r - \\frac{D_{t+1}}{PV} = 0.08 - \\frac{2.10}{150} = 0.08 - 0.014 = 6.60\\%$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. This underestimates the growth rate by miscalculating the dividend yield.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. This overestimates the growth rate, possibly by using the wrong dividend value.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-2-Q016",
+      "question_number": 16,
+      "term_id": "QM-2-021",
+      "los_id": "LOS_2b",
+      "question_text": "A company has a forward P/E ratio of 15, a dividend payout ratio of 40%, and a required return of 10%. The implied dividend growth rate is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "6.33%"
+        },
+        {
+          "id": "opt2",
+          "text": "7.33%"
+        },
+        {
+          "id": "opt3",
+          "text": "8.33%"
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "From P/E formula: 15 = 0.4 / (0.10 - g). Solving for g: 0.10 - g = 0.4 / 15 = 0.02667. Therefore g = 0.10 - 0.02667 = 0.07333 = 7.33%",
+      "explanation_ru": "",
+      "explanation_formula": "$\\frac{P}{E} = \\frac{Payout}{r-g}$; $15 = \\frac{0.4}{0.10-g}$; $g = 0.10 - \\frac{0.4}{15} = 7.33\\%$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. This underestimates the growth rate by miscalculating the payout/P/E ratio.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. This overestimates the growth rate, possibly by using an incorrect formula.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-2-Q017",
+      "question_number": 17,
+      "term_id": "QM-2-021",
+      "los_id": "LOS_2b",
+      "question_text": "A company has a forward P/E ratio of 15, a dividend payout ratio of 40%, and an implied dividend growth rate of 7.33%. The required return is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "9.00%"
+        },
+        {
+          "id": "opt2",
+          "text": "10.00%"
+        },
+        {
+          "id": "opt3",
+          "text": "10.67%"
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "From P/E formula: r = (Payout / P/E) + g = (0.4 / 15) + 0.0733 = 0.02667 + 0.0733 = 0.10 = 10.00%",
+      "explanation_ru": "",
+      "explanation_formula": "$r = \\frac{Payout}{P/E} + g = \\frac{0.4}{15} + 0.0733 = 10.00\\%$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. This underestimates the required return, possibly by not adding the growth rate.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. This overestimates the required return by miscalculating the payout yield.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-2-Q018",
+      "question_number": 18,
+      "term_id": "QM-2-019",
+      "los_id": "LOS_2b",
+      "question_text": "Edmund company's stock trades at $50.00. The company's most recent dividend payment of $2.00 occurred yesterday. Analysts expect its dividend to grow at 4% per year. The company's required return is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "8.00%"
+        },
+        {
+          "id": "opt2",
+          "text": "8.16%"
+        },
+        {
+          "id": "opt3",
+          "text": "9.16%"
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "Next dividend: D₁ = $2.00 × 1.04 = $2.08. Required return: r = (D₁/PV) + g = ($2.08/$50) + 0.04 = 0.0416 + 0.04 = 0.0816 = 8.16%",
+      "explanation_ru": "",
+      "explanation_formula": "$r = \\frac{D_t(1+g)}{PV} + g = \\frac{2.00 \\times 1.04}{50} + 0.04 = 0.0416 + 0.04 = 8.16\\%$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. This uses the current dividend instead of next period's expected dividend.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. This miscalculates by possibly adding growth twice or using wrong dividend.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-2-Q019",
+      "question_number": 19,
+      "term_id": "QM-2-016",
+      "los_id": "LOS_2b",
+      "question_text": "A five-year corporate bond issued in 2023 with a 4.00% annual coupon has a price of $110.00 per $100 principal three years later. If an investor can reinvest periodic interest at the original YTM of 4.00%, the implied three-year return is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "3.16%"
+        },
+        {
+          "id": "opt2",
+          "text": "3.65%"
+        },
+        {
+          "id": "opt3",
+          "text": "4.00%"
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "FV after 3 years = $4×(1.04)² + $4×(1.04) + $4 + $110 = $4.3264 + $4.16 + $4 + $110 = $122.49. Implied return: r = (122.49/100)^(1/3) - 1 = 1.0699^(1/3) - 1 = 0.0365 = 3.65%",
+      "explanation_ru": "",
+      "explanation_formula": "$FV = 4(1.04)^2 + 4(1.04) + 4 + 110 = 122.49$; $r = \\sqrt[3]{\\frac{122.49}{100}} - 1 = 3.65\\%$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. This underestimates the return by not properly accounting for reinvested coupons.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. While 4% is the coupon rate and YTM, the actual return differs due to price appreciation.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "HARD",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-2-Q020",
+      "question_number": 20,
+      "term_id": "QM-2-024",
+      "los_id": "LOS_2c",
+      "question_text": "A fixed-income investor receives payments of $6,500 in perpetuity, starting at the end of year 4. If the discount rate is 9%, the present value at t=0 is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "$55,769"
+        },
+        {
+          "id": "opt2",
+          "text": "$62,222"
+        },
+        {
+          "id": "opt3",
+          "text": "$72,222"
+        }
+      ],
+      "correct_option_id": "opt1",
+      "explanation": "PV at t=3 (start of perpetuity): $6,500 / 0.09 = $72,222. PV at t=0: $72,222 / (1.09)³ = $72,222 / 1.2950 = $55,769",
+      "explanation_ru": "",
+      "explanation_formula": "$PV_{t=3} = \\frac{6,500}{0.09} = 72,222$; $PV_{t=0} = \\frac{72,222}{(1.09)^3} = 55,769$",
+      "explanation_wrong": {
+        "opt2": {
+          "text": "B is incorrect. This discounts for only 2 periods instead of 3.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. This is the PV at t=3, not at t=0 as requested.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-2-Q021",
+      "question_number": 21,
+      "term_id": "QM-2-026",
+      "los_id": "LOS_2c",
+      "question_text": "Bond A has a 2-year maturity and yield of 2% per annum. Bond B has a 4-year maturity and yield of 3% per annum. The 2-year forward rate starting in year 2 that prevents arbitrage is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "3.50%"
+        },
+        {
+          "id": "opt2",
+          "text": "4.02%"
+        },
+        {
+          "id": "opt3",
+          "text": "4.50%"
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "No-arbitrage condition: (1.03)⁴ = (1.02)² × (1+F₂,₂)². Solving: 1.1255 = 1.0404 × (1+F₂,₂)². (1+F₂,₂)² = 1.0818. 1+F₂,₂ = 1.0402. F₂,₂ = 4.02% per year",
+      "explanation_ru": "",
+      "explanation_formula": "$(1.03)^4 = (1.02)^2(1+F_{2,2})^2$; $F_{2,2} = \\sqrt{\\frac{1.1255}{1.0404}} - 1 = 4.02\\%$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. This underestimates the forward rate by using a simple average approach.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. This overestimates the forward rate, possibly by miscalculating the ratio.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "HARD",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-2-Q022",
+      "question_number": 22,
+      "term_id": "QM-2-027",
+      "los_id": "LOS_2c",
+      "question_text": "The current USD/CHF exchange rate is 0.9. The risk-free interest rates for one year are 2% for USD and 1% for CHF (continuous compounding). The one-year USD/CHF forward rate that prevents arbitrage is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "USD/CHF 0.891"
+        },
+        {
+          "id": "opt2",
+          "text": "USD/CHF 0.909"
+        },
+        {
+          "id": "opt3",
+          "text": "USD/CHF 0.918"
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "CHF invested: e^0.01 = 1.0101. USD invested and converted: 0.9 × e^0.02 = 0.9182. Forward rate: 0.9182 / 1.0101 = 0.909 USD/CHF",
+      "explanation_ru": "",
+      "explanation_formula": "$F = S \\times \\frac{e^{r_{USD}}}{e^{r_{CHF}}} = 0.9 \\times \\frac{e^{0.02}}{e^{0.01}} = \\frac{0.9182}{1.0101} = 0.909$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. This inverts the interest rate differential.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. This is the USD value before converting back to the forward rate.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "HARD",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-2-Q023",
+      "question_number": 23,
+      "term_id": "QM-2-029",
+      "los_id": "LOS_2c",
+      "question_text": "A stock costs $100 now. Its price might increase by 30% to $130 or decrease by 15% to $85 in one year. An investor sells a call option with a strike price of $120. Using a replicating portfolio approach with a risk-free rate of 2.5%, the fair price of the call option is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "$2.89"
+        },
+        {
+          "id": "opt2",
+          "text": "$3.57"
+        },
+        {
+          "id": "opt3",
+          "text": "$4.12"
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "Option payoffs: c_u=$10, c_d=$0. Hedge ratio: Δ=(10-0)/(130-85)=0.22. Portfolio values: V_u=V_d=$18.89. V_0=$18.89/(1.025)=$18.43. Call price: c_0=Δ×S_0-V_0=0.22×100-18.43=$3.57",
+      "explanation_ru": "",
+      "explanation_formula": "$\\Delta = \\frac{c_u-c_d}{S_u-S_d} = 0.22$; $V_0 = \\frac{18.89}{1.025} = 18.43$; $c_0 = 0.22(100) - 18.43 = 3.57$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. This undervalues the option by miscalculating the replicating portfolio.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. This overvalues the option, possibly by using incorrect discount rate.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "HARD",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-2-Q024",
+      "question_number": 24,
+      "term_id": "QM-2-005",
+      "los_id": "LOS_2a",
+      "question_text": "An investor deposits $10,000 for 5 years at an annual interest rate of 8% with quarterly compounding. The future value is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "$14,693.28"
+        },
+        {
+          "id": "opt2",
+          "text": "$14,859.47"
+        },
+        {
+          "id": "opt3",
+          "text": "$14,918.25"
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "Quarterly rate = 8%/4 = 2%. Number of periods = 5×4 = 20. Using calculator: [2ND][CLR TVM], 20[N], 2[I/Y], -10000[PV], 0[PMT], [CPT][FV] = 14,859.47",
+      "explanation_ru": "",
+      "explanation_formula": "$FV = PV\\left(1+\\frac{r}{m}\\right)^{mN} = 10,000(1.02)^{20} = 14,859.47$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. This uses semi-annual compounding instead of quarterly.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. This uses monthly compounding instead of quarterly.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "EASY",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-2-Q025",
+      "question_number": 25,
+      "term_id": "QM-2-010",
+      "los_id": "LOS_2a",
+      "question_text": "An ordinary annuity pays $100 per period for 10 periods at an interest rate of 5% per period. The present value is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "$735.67"
+        },
+        {
+          "id": "opt2",
+          "text": "$772.17"
+        },
+        {
+          "id": "opt3",
+          "text": "$810.78"
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "Using calculator in END mode: [2ND][CLR TVM], [2ND][BGN] (ensure END mode), 10[N], 5[I/Y], 100[PMT], 0[FV], [CPT][PV] = -772.17",
+      "explanation_ru": "",
+      "explanation_formula": "$PV = PMT \\times \\frac{1-(1+r)^{-N}}{r} = 100 \\times \\frac{1-(1.05)^{-10}}{0.05} = 772.17$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. This undervalues the annuity by using incorrect formula.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. This is the value for an annuity due (payments at beginning), not ordinary annuity.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "EASY",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-2-Q026",
+      "question_number": 26,
+      "term_id": "QM-2-011",
+      "los_id": "LOS_2a",
+      "question_text": "An annuity due pays $100 per period for 10 periods at an interest rate of 5% per period. The present value is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "$772.17"
+        },
+        {
+          "id": "opt2",
+          "text": "$810.78"
+        },
+        {
+          "id": "opt3",
+          "text": "$851.32"
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "Using calculator in BGN mode: [2ND][CLR TVM], [2ND][BGN][2ND][SET] (display shows BGN), 10[N], 5[I/Y], 100[PMT], 0[FV], [CPT][PV] = -810.78. Return to END: [2ND][BGN][2ND][SET]",
+      "explanation_ru": "",
+      "explanation_formula": "$PV_{due} = PV_{ordinary} \\times (1+r) = 772.17 \\times 1.05 = 810.78$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. This is the value for ordinary annuity, not annuity due.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. This overvalues by applying growth factor twice.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-2-Q027",
+      "question_number": 27,
+      "term_id": "QM-2-008",
+      "los_id": "LOS_2a",
+      "question_text": "Which of the following best describes yield-to-maturity (YTM)?",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The coupon rate of the bond"
+        },
+        {
+          "id": "opt2",
+          "text": "The single discount rate that equates the bond's price to the present value of all future cash flows"
+        },
+        {
+          "id": "opt3",
+          "text": "The difference between face value and purchase price"
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "YTM is the single discount rate (market discount rate) that equates the present value of all future cash flows to the current bond price. It assumes all coupons are reinvested at the same YTM.",
+      "explanation_ru": "",
+      "explanation_formula": null,
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. The coupon rate is fixed at issuance, while YTM changes with market prices.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. This describes the dollar discount, not YTM which is a rate of return.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": false,
+      "calculator_steps": [],
+      "difficulty": "EASY",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-2-Q028",
+      "question_number": 28,
+      "term_id": "QM-2-001",
+      "los_id": "LOS_2a",
+      "question_text": "Which of the following is NOT a reason why money today is worth more than money in the future?",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Opportunity cost - money can be invested today"
+        },
+        {
+          "id": "opt2",
+          "text": "Inflation erodes purchasing power"
+        },
+        {
+          "id": "opt3",
+          "text": "Future money is easier to spend"
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": "The three valid reasons for time value of money are: (1) opportunity cost - money available today can be invested, (2) inflation reduces purchasing power over time, and (3) uncertainty about receiving future cash flows. Future money being 'easier to spend' is not a valid economic reason.",
+      "explanation_ru": "",
+      "explanation_formula": null,
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. Opportunity cost is a fundamental reason for TVM - money today can generate returns.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt2": {
+          "text": "B is incorrect. Inflation is a key reason for TVM - it reduces the real value of future money.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": false,
+      "calculator_steps": [],
+      "difficulty": "EASY",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-2-Q029",
+      "question_number": 29,
+      "term_id": "QM-2-025",
+      "los_id": "LOS_2c",
+      "question_text": "The no-arbitrage condition states that:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "All bonds must have the same yield"
+        },
+        {
+          "id": "opt2",
+          "text": "Two investments with identical cash flows and risk must have the same price"
+        },
+        {
+          "id": "opt3",
+          "text": "Future cash flows are always certain"
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "The no-arbitrage condition prevents risk-free profit opportunities by requiring that two investments with identical cash flows and risk profiles must be priced the same. This ensures market efficiency and fair pricing.",
+      "explanation_ru": "",
+      "explanation_formula": null,
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. Bonds with different risks or maturities can have different yields.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. Future cash flows always have some level of uncertainty; no-arbitrage relates to pricing.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": false,
+      "calculator_steps": [],
+      "difficulty": "EASY",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-2-Q030",
+      "question_number": 30,
+      "term_id": "QM-2-024",
+      "los_id": "LOS_2c",
+      "question_text": "According to the cash flow additivity principle:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Cash flows can only be added if they occur at the same time"
+        },
+        {
+          "id": "opt2",
+          "text": "The present value of a stream of cash flows equals the sum of the present values of individual cash flows"
+        },
+        {
+          "id": "opt3",
+          "text": "Future values must always be converted to present values"
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "The cash flow additivity principle states that the present value of any stream of cash flows indexed at the same point equals the sum of the present values of the individual cash flows. This principle is fundamental to no-arbitrage pricing.",
+      "explanation_ru": "",
+      "explanation_formula": "$PV_{total} = PV_1 + PV_2 + ... + PV_n$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. Cash flows at different times can be added after discounting to the same time point.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. While conversion to PV is common, the principle applies to any common time point.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": false,
+      "calculator_steps": [],
+      "difficulty": "EASY",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-2-Q031",
+      "question_number": 31,
+      "term_id": "QM-2-028",
+      "los_id": "LOS_2c",
+      "question_text": "A replicating portfolio in option pricing is:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A portfolio that duplicates the performance of a market index"
+        },
+        {
+          "id": "opt2",
+          "text": "A portfolio constructed to match the cash flows of a derivative"
+        },
+        {
+          "id": "opt3",
+          "text": "A portfolio that minimizes transaction costs"
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "A replicating portfolio is constructed to match the cash flows of another asset or derivative in all scenarios. This allows pricing through no-arbitrage principles by creating a risk-free portfolio whose value can be discounted at the risk-free rate.",
+      "explanation_ru": "",
+      "explanation_formula": null,
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. This describes an index fund, not a replicating portfolio for derivatives pricing.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. While efficiency is desirable, the purpose is to match cash flows, not minimize costs.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": false,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-2-Q032",
+      "question_number": 32,
+      "term_id": "QM-2-022",
+      "los_id": "LOS_2b",
+      "question_text": "The dividend payout ratio is calculated as:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Dividends per share / Stock price"
+        },
+        {
+          "id": "opt2",
+          "text": "Dividends per share / Earnings per share"
+        },
+        {
+          "id": "opt3",
+          "text": "Earnings per share / Stock price"
+        }
+      ],
+      "correct_option_id": "opt2",
+      "explanation": "The dividend payout ratio equals dividends per share divided by earnings per share. It represents the percentage of earnings paid out as dividends. Higher payout leaves less for reinvestment but provides immediate returns to shareholders.",
+      "explanation_ru": "",
+      "explanation_formula": "$Payout\\ Ratio = \\frac{D_t}{E_t}$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. This describes the dividend yield, not the payout ratio.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. This is the inverse of the P/E ratio, not the payout ratio.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": false,
+      "calculator_steps": [],
+      "difficulty": "EASY",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-2-Q033",
+      "question_number": 33,
+      "term_id": "QM-2-005",
+      "los_id": "LOS_2a",
+      "question_text": "An investor deposits $20,000 at 12% annual interest with quarterly compounding for 5 years. The future value is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "$35,247"
+        },
+        {
+          "id": "opt2",
+          "text": "$35,817"
+        },
+        {
+          "id": "opt3",
+          "text": "$36,122"
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": "Quarterly rate = 12%/4 = 3%. Number of periods = 5×4 = 20. Using calculator: [2ND][CLR TVM], 20[N], 3[I/Y], -20000[PV], 0[PMT], [CPT][FV] = 36,122.22",
+      "explanation_ru": "",
+      "explanation_formula": "$FV = PV\\left(1+\\frac{r}{m}\\right)^{mN} = 20,000(1.03)^{20} = 36,122$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. This uses annual compounding instead of quarterly: $20,000(1.12)⁵ = $35,247",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt2": {
+          "text": "B is incorrect. This uses semi-annual compounding instead of quarterly.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-2-Q034",
+      "question_number": 34,
+      "term_id": "QM-2-004",
+      "los_id": "LOS_2a",
+      "question_text": "An investor wants to invest $600,000 in an asset paying 5% interest compounded continuously for four years. The value of the investment in 4 years is closest to:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "$729,304"
+        },
+        {
+          "id": "opt2",
+          "text": "$732,832"
+        },
+        {
+          "id": "opt3",
+          "text": "$732,842"
+        }
+      ],
+      "correct_option_id": "opt3",
+      "explanation": "With continuous compounding: FV = PV × e^(rN) = $600,000 × e^(0.05×4) = $600,000 × e^0.20 = $600,000 × 1.2214 = $732,841.65",
+      "explanation_ru": "",
+      "explanation_formula": "$FV = PV \\times e^{rN} = 600,000 \\times e^{0.20} = 732,842$",
+      "explanation_wrong": {
+        "opt1": {
+          "text": "A is incorrect. This uses annual compounding: $600,000(1.05)⁴ = $729,304",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt2": {
+          "text": "B is incorrect. This uses daily compounding instead of continuous compounding.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": true,
+      "calculator_steps": [],
+      "difficulty": "MEDIUM",
+      "topic_tags": []
+    },
+    {
+      "question_id": "QM-2-Q035",
+      "question_number": 35,
+      "term_id": "QM-2-023",
+      "los_id": "LOS_2c",
+      "question_text": "A timeline is most useful for:",
+      "question_text_ru": "",
+      "question_text_formula": null,
+      "question_continuation": null,
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Visualizing irregular or unequal cash flows"
+        },
+        {
+          "id": "opt2",
+          "text": "Calculating compound interest only"
+        },
+        {
+          "id": "opt3",
+          "text": "Determining tax obligations"
+        }
+      ],
+      "correct_option_id": "opt1",
+      "explanation": "A timeline is a physical illustration of the amounts and timing of cash flows. It is particularly useful for irregular or unequal cash flows where standard formulas (like annuities) don't apply. Timelines help visualize and apply the cash flow additivity principle.",
+      "explanation_ru": "",
+      "explanation_formula": null,
+      "explanation_wrong": {
+        "opt2": {
+          "text": "B is incorrect. Timelines are useful for any TVM calculation, not just compound interest.",
+          "text_ru": "",
+          "formula": null
+        },
+        "opt3": {
+          "text": "C is incorrect. While timelines can help with tax planning, their primary purpose is visualizing cash flows.",
+          "text_ru": "",
+          "formula": null
+        }
+      },
+      "requires_calculation": false,
+      "calculator_steps": [],
+      "difficulty": "EASY",
+      "topic_tags": []
+    }
+  ]
 }
