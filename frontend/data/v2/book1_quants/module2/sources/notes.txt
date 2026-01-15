@@ -1,0 +1,1135 @@
+Learning Module 2: The Time Value of Money in Finance
+LOS 2a: calculate and interpret the present value (PV) of fixed-income
+and equity instruments based on expected future cash flows
+The time value of money (TVM) is a fundamental financial concept. It emphasizes that a sum of
+money is worth more in the present than in the future. There are three key reasons supporting
+this principle:
+The concept of opportunity cost suggests that money available today can be invested
+and generate interest, increasing its value over time. By delaying the use of money, one
+forgoes potential investment opportunities and the growth they offer.
+Inflation poses a threat to the purchasing power of money in the future. Due to
+inflation, the same amount of money may buy fewer goods or services in the future
+compared to its present value. Consequently, having money now is advantageous since
+its purchasing power diminishes as time progresses.
+There is an element of uncertainty regarding future cash flows. Unexpected events
+or circumstances may prevent the receipt of money as planned, rendering it less
+reliable. Until the money is obtained, there is a level of uncertainty attached to its
+availability and utility.
+Time value of money calculations allow us to establish the future value of a given amount of
+money.
+Key Components of Time Value of Money
+Discount rate or interest rate: The rate of discounting or compounding that you
+apply to an amount of money to calculate its present or future value.
+Time periods: The whole number of time periods over which the present or future
+value of a sum is being calculated. These periods can be annually, semi-annually,
+quarterly, monthly, weekly, etc.
+31
+© 2014-2024 AnalystPrep.Present value (PV): The amount of money you have today (or at time T = 0) is
+referred to as the present value.
+Future value (FV): The accumulated amount of money you get after investing the
+original sum at a specific interest rate and for a given time period, say, two years.
+Fundamental Formulas in Time Value of Money Calculations:
+Let,
+FV = Future value.
+PV = Present value.
+r = Stated discount rate per period.
+N = Number of periods (Years).
+Then the future value (FV) of an investment is given by:
+FV PV(1+r)N
+=
+If N is large such that N →∞ the initial cashflow is compounded continuously:
+FV =PVerN
+To find the present value of the investment, we rewrite the above formula so that:
+PV =FV(1+r)−N
+And for the continuous compounding, we have,
+PV =FVe−rN
+t
+Example: Calculating the Present Value of continuously Compounded Cashflows
+A fund continuously accumulates to $4,000 over ten years at a 10% annual interest rate.
+32
+© 2014-2024 AnalystPrep.Calculate the closest present value of this fund.
+Solution
+From the question, FV=4,000, r =10%, N=10
+s
+So,
+PV = FVe−Nrs =$4,000×e−10×0.1 =$1,471.5178
+Frequency of Compounding
+When the frequency of compounding is more than once per year (quarterly, monthly, etc.), the
+formulas are analogously defined as:
+r mN
+FV =PV(1+ s )
+N m
+Where:
+m = Number of compounding periods per year.
+N = Number of years.
+r = Annual stated rate of interest.
+s
+Intuitively, the formula for the PV is given by:
+r −mN
+PV =FV(1+ s)
+m
+In the following discussion, we shall let t =mN denote the number of compounding periods and
+rs =r denote the stated discount rate per period.
+m
+Calculation using a Financial Calculator
+For calculating FV and PV using the BA II PlusTM Financial Calculator, use the following keys:
+N = Number of compounding periods.
+33
+© 2014-2024 AnalystPrep.I/Y = Rate per period.
+PV = Present value.
+FV = Future value.
+PMT = Payment.
+CPT = Compute.
+It is important to note that the sign of PV and FV will be opposite. For example, if PV is
+negative, then FV will be positive. Generally, an inflow is entered with a positive sign, while an
+outflow is entered as a negative sign in the calculator.
+Time Value of Money in Fixed-income Instruments
+Fixed-income instruments are debt securities where an issuer borrows money from an investor
+(lender) in exchange for a promised future payment. Examples of fixed-income instruments are
+bonds, loans, and notes.
+The market discount rate for fixed-income instruments is also known as yield-to-maturity (YTM).
+It's the interest rate investors require to invest in a specific fixed-income instrument.
+Cash Flow Patterns Associated with Fixed-Income Instruments
+The cash flows in fixed-income instruments occur in three general patterns: Discount, periodic
+interest, and level payments.
+Discount Cash Flow Patterns
+For discount cashflow patterns, an investor pays an initial discounted price (PV) for the
+instrument (such as a bond or a loan) and gets one payment (FV) at the end maturity. The
+investor's return is the interest earned, that is, the difference between the initial price and
+principle (FV −PV).
+The discount bonds are also called zero-coupon bonds – they do not have periodic interest
+34
+© 2014-2024 AnalystPrep.payments.
+The price of a discount bond can be calculated using the formula for the present value (PV) of a
+single cash flow, which is as follows:
+PV =FV(1+r)−t
+t
+Where:
+FV = Future value.
+PV = Present value.
+r = Stated discount rate per period.
+t = Number of compounding periods.
+Example: Calculating the Future Value of a Zero-Coupon Bond
+35
+© 2014-2024 AnalystPrep.Assume Chad invests $8,000 in a zero-coupon bond that yields 8% annually and matures in four
+years. The maturity value of this bond is closest to:
+Solution
+Recall that:
+FV = PV(1+r)t
+In this case, we have PV=8,000, r=8%, t=4 so that:
+FV =8,000(1+8%)4 =10,883.91
+Using the BA II PlusTM Financial Calculator
+Steps Explanation Display
+[2nd][QUIT] Return to standard calc Mode 0
+[2nd][CLR TVM] Clears TVM Worksheet 0
+2[N] Years/periods N =4
+10[1/Y] Set interest rate PV = −8,000
+0[PMT] Set payment PMT = 0
+[CPT][FV] Compute future value FV =10,883.91
+Note that zero-coupon bonds can be issued at negative interest rates. In this case, the price (PV)
+of the bond is higher than the face value (FV).
+Example: Calculating the Price of a Discount Bond Issued at Negative Interest Rates
+In January 2018, the Swiss government issued 15-year sovereign bonds at a negative yield of
+-0.08%. The present value (PV) of the bond per CHF100 of principal (FV) at the time of issuance
+is closet to:
+Solution
+Recall for a zero-coupon bond,
+PV =FV (1+r)−t
+t
+=100(1−0.0008)−15 = 101.21
+36
+© 2014-2024 AnalystPrep.Periodic Interest Pattern (Coupon Instrument)
+A coupon instrument is a fixed-income investment. It includes periodic cash flows called coupons
+and repays the principal at maturity. People often use these in coupon bond investments. These
+instruments have a set schedule with regular, equal payments.
+The pricing of a coupon bond involves calculating its present value (PV) based on the market
+discount rate. The general formula for calculating the bond's price is derived from the
+discounted cash flow model. It considers the coupon payments (PMTs) and the final principal
+payment (FV) at maturity. The bond's price is determined by discounting each cash flow using
+the market discount rate (r).
+The formula used to calculate the present value (PV) of a coupon bond is as follows:
+PMT PMT (PMT N +FV N )
+PV(Coupon Bond) = + +...+
+(1+r)1 (1+r)2 (1+r)N
+Where:
+37
+© 2014-2024 AnalystPrep.PMT = Coupon payment.
+FV = Future value.
+r = Market discount rate (YTM).
+N = Number of periods.
+Example 1: Pricing a Coupon Bond on an Annual Basis
+Suppose we have a 5-year bond with a face value of $1,000 and an annual coupon rate of 5%.
+The market discount rate is 6%. The bond’s price is closest to:
+Solution
+PMT PMT (PMT N +FV N )
+PV(Coupon Bond)= + +⋯+
+(1+r)1 (1+r)2 (1+r)N
+In this case, we have PMT=5% of $1,000=$50, r=6%, N=5 years, FV=$1,000 so that:
+$50 $50 $50 $50
+PV = + + +
+(1+0.06)1 (1+0.06)2 (1+0.06)3 (1+0.06)4
+($50+$1,000)
++
+(1+0.06)5
+PV =$47.17+$44.50+$41.98+$39.60+$784.62 =$957.88
+Therefore, the price of the bond would be $957.88
+You could use a BA II Plus Calculator to solve the above question:
+Steps Explanation Display
+[2nd][QUIT] Return to standard calc Mode 0
+[2nd][CLR TVM] Clears TVM Worksheet 0
+5[N] Years/periods N =5
+6[1/Y] Set interest rate I/Y =6.00
+50[PMT] Set payment PMT =50.00
+1000[FV] Set the face value FV =1000.00
+[CPT][PV] Compute the present value PV =−957.88
+Example 2: Pricing a Coupon Bond With a Single Cash Flow on a semi-annual Basis
+38
+© 2014-2024 AnalystPrep.Suppose an investor has a 2-year bond with a face value of $1000 and an annual coupon rate of
+6%, paid semi-annually. The market discount rate is 5%. The price of the bond is closest to:
+Solution
+Recall that:
+PMT PMT (PMT N +FV N )
+PV(Coupon Bond) = + +...+
+(1+r)1 (1+r)2 (1+r)N
+Where:
+6%
+PMT = Coupon payments ($1,000× ) =$30 in this case.
+2
+FV = Future value ($1,000 in this case).
+(5%)
+r = Market discount rate (YTM), ( =2.5%) per period in this case.
+2
+N = Number of periods (4 periods in this case).
+Plugging these values into the formula, we get:
+$30 $30 $30 ($30+$1,000)
+PV = + + +
+(1.025)1 (1.025)2 (1.025)3 (1.025)4
+PV =$29.27+$28.55+27.85+$933.13 =$1,018.81
+Therefore, the bond's price is $1,018.81
+You can easily use the BA II Plus calculator (or any other allowed financial calculator) to solve
+the above question.
+Steps Explanation Display
+[2nd][QUIT] Return to standard calc Mode 0
+[2nd][CLR TVM] Clears TVM Worksheet 0
+4[N] Years/periods N =4
+2.5[1/Y] Set interest rate I/Y =2.50
+30[PMT] Set payment PMT =30.00
+1000[FV] Set the face value FV =1000.00
+[CPT][PV] Compute the present value PV = −1,018.81
+39
+© 2014-2024 AnalystPrep.Perpetual Bonds
+Perpetual bonds are rare types of coupon bonds that do not have a stated date of maturity. They
+are generally issued by firms seeking equity-like financing and usually include redemption
+provisions.
+The formula present value of perpetual bonds is obtained as follows: As N →∞, the formula for
+calculating PV of coupon changes as follows:
+PV (perpetual bond)
+lim PMT PMT (PMT N +FV N )
+= [ + +⋯ + ]
+(N →∞) (1+r)1 (1+r)2 (1+r)N
+PMT
+=
+r
+So, the present value of a perpetuity is given by:
+PMT
+PV =
+r
+Example: Perpetual Bond
+In 2021, XYZ Financial (the holding company for XYZ Bank) issued $500 million in perpetual
+bonds with a 4.00 percent semi-annual coupon. Calculate the bond's yield to maturity (YTM) if
+the market price was $98.50 (per $100).
+Solution
+Recall,
+PMT
+PV =
+r
+Hence,
+PMT
+r =
+PV
+40
+© 2014-2024 AnalystPrep.To solve this problem, we first need to calculate the semi-annual coupon payment, which is,
+$100×4%
+PMT(semi-annual coupon payment) = =$2,PV =$98.50
+2
+Therefore,
+$2
+r = =0.0203 =2.03%
+$98.50
+The annualized yield-to-maturity is:
+r = 0.0203 × 2 ≈ 4.06%
+Level Payments (Annuity Instruments) Patterns
+An annuity is a finite series of cash flows, all with the same value. A fixed-income instrument
+with annuity payments provides a stream of periodic equal cash inflows over a finite period.
+The level payments consist of interest and principal payments. Fixed income instruments with
+level payments include fully amortizing loans such as mortgages.
+There are two types of annuities: ordinary annuities and annuities due. Annuity due is a type of
+annuity where payments start immediately at the beginning of time, at time t =0. In other
+words, payments are made at the beginning of each period.
+On the other hand, an ordinary annuity is an annuity where the cashflows occur at the end of
+each period. Such payments are said to be made in arrears (beginning at time t = 1). We shall
+consider ordinary annuity in this section.
+Ordinary Annuity
+Remember that in an ordinary annuity, the series of payments does not begin immediately.
+Instead, payments are made at the end of each period. It is further worth noting that the present
+value of an annuity is equal to the sum of the current value of each annuity payment:
+41
+© 2014-2024 AnalystPrep.PV = A(1+ r)−1+ A(1 +r)−2+...+A(1+ r)−N−1+ A(1+ r)−N
+= A(1+ r)−1+ (1+ r)−2+...+(1+ r)−(N−1)+ (1 +r)−N
+1− (1 +r)N
+PV = A
+r
+Where:
+A = Periodic cash flow.
+r = Market interest rate per.
+PV = Present value/ Principal Amount of the loan or bond.
+N = Number of payment periods.
+The periodic annuity is calculated as follows:
+r(PV)
+A=
+(1−(1+r)−N
+Consider a fully amortizing mortgage loan. In this case, the borrower receives the mortgage loan
+now and promises to make periodic payments equal to the sum of interest and principal
+payments.
+42
+© 2014-2024 AnalystPrep.Note that the periodic mortgage payment is constant, but the proportion of the interest payment
+decreases while the principal payment increases.
+The cash flow pattern of a fully amortizing mortgage follows the pattern of an ordinary annuity
+with a series of equal cash flows. As such, the periodic annuity (periodic payment) of a fully
+amortizing mortgage is given by:
+r(PV)
+A=
+1−(1+r)−t
+Where:
+43
+© 2014-2024 AnalystPrep.A = Periodic cash flow.
+r = Market interest rate per period.
+PV = Present value or principal amount of loan or bond.
+t = Number of payment periods.
+Example: Calculating the Periodic Payment of a Mortgage
+Jake is looking to secure a fixed-rate 25-year mortgage to finance 75% of the value of an
+$800,000 residential property. If the annual interest rate on the mortgage is 4.5%, Jake's monthly
+mortgage payment is close to:
+Solution
+Remember,
+r(PV)
+A=
+1−(1+r)−t
+Where:
+A = Periodic cash flow.
+r = Market interest rate per period.
+PV = Present value/ Principal Amount of the loan or bond.
+t = Number of payment periods.
+In this case, we have:
+4.5%
+r =0.375%(= )
+12
+N = 300 months(=25 years×12 months/year)
+PV =$600,000(=75%×$800,000)
+Plugging these values into the formula, we get:
+0.00375×$600,000
+44
+© 2014-2024 AnalystPrep.0.00375×$600,000
+A= =$3,334.995≈$3,335
+1−(1+0.00375)−300
+Using a BA II Plus financial calculator:
+Steps Explanation Display
+[2nd][QUIT] Return to standard calc Mode 0
+[2nd][CLR TVM] Clears TVM Worksheet 0
+300[N] Years/periods N = 300
+0.375[1/Y] Set interest rate I/Y = 0.375
+−600,000[PV] Set the present value PV = −600,000.00
+of the mortgage
+0[FV] Set the face value FV = 0.00
+[CPT][PMT] Compute the periodic payment PMT = 3,334.99
+Time Value of Money in Equity Instruments
+Equity investments, such as stocks, enable an investor to acquire a fractional share/ownership by
+the issuing company. This gives investors the right to receive a share of the company's available
+cash flows as dividends.
+In the context of equity instruments, the time value of money (TVM) is used to discount expected
+future cash flows to determine their present value. This allows investors to value the company
+shares.
+The present value of expected future cash flows is calculated using a discount rate, r, which
+represents the expected rate of return on the investment.
+Common Approaches for Valuing Equity Instruments
+Valuing equity investments depends on the dividends cashflows which can take one of three
+forms: constant dividends, constant dividend growth rate, and changing dividend growth rate.
+1. Valuing Equity Instruments based on Constant Dividend: The Constant Dividends model
+values stocks based on the assumption that dividends will remain constant over time. The
+45
+© 2014-2024 AnalystPrep.preferred or common share dividend cash flows are in the form of an infinite series that is valued
+like perpetuity. The formula for the constant dividends model is as follows:
+∞
+D D
+PV = ∑ t = t
+t
+(1+ r)i r
+i=1
+Where:PV = Present value at time t
+t
+D = Dividend payment at time t
+t
+r = Discount rate.
+Example: Valuing Equity Instruments based on Constant Dividend
+Assuming we have a preferred stock with a dividend payment of $5 per year. The discount rate is
+8%. The present value of the stock is closest to:
+Solution
+Recall,
+D
+t
+PV =
+t
+r
+In this case, D=$5, r=8%, PV=?
+So,
+5
+PV = = $62.5
+0.08
+This means that the present value of the stock is $62.5.
+2. Valuing Equity Instruments Based on Constant Dividend Growth Rate The constant
+dividend growth model is a method used to estimate the value of a stock based on its future
+dividends. This model assumes that dividends will grow at a constant rate (g) forever. To derive
+46
+© 2014-2024 AnalystPrep.the formula for this model, we start by considering that the present value of a stock is equal
+to the sum of its future dividends, discounted by the required rate of return r. If dividends
+are assumed to grow at a constant rate, then each future dividend can be calculated by
+multiplying the previous dividend by (1+g).
+Let D represent the expected dividend in the next period. The present value of the stock can
+t
+then be expressed as:
+D D (1 +g) D (1+ g)2
+t t t
+PV = + + + …
+t
+(1+ r) (1 +r)2 (1+ r)3
+∞ D (1 +g)
+t
+= ∑
+(1+ r)i
+i=1
+(1+r)
+This is an infinite geometric series with a common ratio of . Using the formula for the sum of
+(1+g)
+an infinite geometric series, we can simplify this equation to:
+D (1+ g) D
+t t+1
+PV = =
+t
+r− g r− g
+Where:
+PV = Present value at time t.
+t
+D = Expected Dividend in the next period.
+t+1
+r = Required rate of return.
+g = Constant growth rate.
+r−g>0
+Therefore, this is the formula for calculating the present value of a stock using the constant
+dividend growth rate. This model can help estimate the value of a stock when its future dividends
+are expected to grow steadily.
+Example: Valuing Equity Instruments based on Constant Dividend Growth Rate
+47
+© 2014-2024 AnalystPrep.Suppose a stock currently pays an annual dividend of $2.00 per share. The required rate of
+return for this stock is 10%, and the dividends are expected to grow at a constant rate of 5% per
+year indefinitely. Using the constant dividend growth model, the present value of this stock is
+closest to:
+Solution
+Recall that,
+D (1+ g) D
+t t+1
+PV = =
+t
+r− g r− g
+In this case, we know that D =$2.00, r=10%, g=5%
+t
+So,
+2× 1.05 2.10
+PV = = = $42
+r −g 0.10− 0.05
+Therefore, the present value of the stock is $42
+3. Valuing Equity Instruments with Changing Dividend Growth Rates is a dynamic
+process. It begins with the investor buying a stock at an initial price and getting an initial
+dividend. The unique aspect is that the dividend is expected to grow at a rate that evolves as the
+company matures and shifts from high growth to slower growth. This valuation doesn't have a
+single formula because it relies on assumptions about future dividend growth. However, a
+common method is to use a multi-stage dividend discount model. This model assumes that
+dividends will grow at different rates during various stages of the company's growth. To find the
+stock's present value, you sum up the present values of dividends at each stage.
+The Multi-Stage Dividend Discount Model builds on the Constant Dividend Growth Model. It
+accommodates a company's transition from high initial growth to lower, more stable growth.
+Let's say a company has a high short-term growth rate g followed by a perpetual lower growth
+s
+rate g. To find the present value (PV) of the stock at time t using this model, we compute it in
+l
+48
+© 2014-2024 AnalystPrep.two stages:
+I. First Part: The first part calculates the present value of dividends during the initial n
+periods of higher growth (g ). This is done by discounting the dividends for each period
+s
+by the required rate of return r using the following formula:
+n D (1+g )i
+t s
+PV =∑
+t (1+r)i
+i=1
+Where:PV = Present value.n = Number of periods.D = Dividend at time (t).g = Initial
+t s
+higher dividend growth rate.r = Required rate of return.
+II. Second Part: The second part calculates the present value of dividends after the initial n
+periods, assuming constant growth at a lower long-term rate (g). This can be simplified
+l
+using the geometric series simplification, where E(S +n) represents the terminal value
+t
+or stock value in n periods:
+E(S +n)
+PV = t
+t
+(1+r)n
+Where:E(S +n) = D t+n+1 and g is the lower, more stable dividend growth rate.
+t (r−g
+l
+) l
+Example: Valuing Equity Instruments based on Changing Dividend Growth Rate
+Assuming we have a stock with an expected dividend payment of $2 in one period. The discount
+rate is 10%. The stock is expected to have a high dividend growth rate of 20% for the first three
+years, followed by a slower growth rate of 5% thereafter. Calculate the present value of the
+stock.
+Solution
+First, we calculate the present value of the dividends during the high growth period:
+Recall that,
+n D (1+ g )i
+t s
+PV = ∑
+t
+(1+ r)i
+i=1
+49
+© 2014-2024 AnalystPrep.In this case, D =$2, g =0.20, r=0.10, n=3
+t s
+So,
+2 2 ×(1+ 0.20)1 2× (1 +0.20)2
+PV = + +
+1
+(1 +0.10)1 1+ 0.10)2 1+ 0.10)3
+PV = 1.818+ 1.983+ 2.163= 5.965
+1
+PV = $5.97
+1
+Next, we calculate the present value of the dividends during the slower growth period, assuming
+that dividends will grow at a constant rate of 5% thereafter:
+Recall that,
+D
+E(S +n) =
+t+n+1
+t
+(r−g)
+l
+So,
+2(1+0.20)3 ×(1+0.05) 3.629
+E(S +n)= = = $72.578
+t 0.10−0.05 0.05
+Finally, we calculate the present value of P
+4
+$72.578
+PV 2 = =$54.527
+(1+0.10)3
+The total present value of the stock is the sum of PV and PV
+1 2
+PV total=PV
+1
++PV
+2
+=$5.965+54.527
+=$60.493 ≈$60.49
+50
+© 2014-2024 AnalystPrep.Question
+Five years ago, Milton Inc. issued corporate bonds with a 15-year maturity. The bonds
+have a semi-annual coupon rate of 7.8% per annum, and the current yield to maturity
+is 8.5% per annum. The current price of Milton Inc's bonds (per CAD100 of par value)
+is closest to:
+A. CAD91.23.
+B. CAD95.35.
+C. CAD96.15.
+The correct answer is B.
+Solution
+Recall the formula for calculating the price of a bond:
+PMT PMT (PMT N +FV N )
+PV(Coupon Bond) = + +...+
+(1+r)1 (1+r)2 (1+r)N
+First, let's get the semi-annual equivalent rates:
+7.8%
+The semi-annual coupon rate is =3.9%.
+2
+8.5%
+The semi-annual yield to maturity is =4.25%.
+2
+Next, we find the number of periods remaining until the bond matures:
+Since the bonds were issued 5 years ago and have a 15-year maturity, 10(=15−5)
+years remain to maturity. Since interest is paid semi-annually, this equates to
+10×2=20 periods.
+You can plug the above values into the general formula, consuming valuable time.
+Therefore, using BA II plus a financial calculator,
+51
+© 2014-2024 AnalystPrep.Steps Explanation Display
+[2nd][QUIT] Return to standard calc Mode 0
+[2nd][CLR TVM] Clears TVM Worksheet 0
+20[N] Years/periods N =20
+4.25[1/Y] Set interest rate I/Y =4.25
+3.9[PMT] Set the periodic PMT =3.90
+coupon payment
+100[PV] Set the face FV =100.00
+value of the bond
+[CPT][PV] Compute the present value PV =−95.35
+52
+© 2014-2024 AnalystPrep.LOS 2b: Calculate and interpret the implied return of fixed-income
+instruments and the required return and implied growth of equity
+instruments given the present value (PV) and cash flows
+Implied Return for Fixed-Income Instruments
+The growth rate is the rate at which the market expects an asset to grow. On the other hand,
+implied return reflects a return based on the current price and future security cash flows.
+Consider a fixed-income instrument. If we have its present value and assume all future cash
+flows happen as expected, the discount rate rrr, or yield-to-maturity (YTM), shows the implied
+return under these assumptions for the cash flow pattern.
+Now, take an equity investment. If we have the present value, future value, and discount rate, we
+can find the implied growth rate that aligns with these values.
+The implied return or growth rate provides a view of the market expectations incorporated into
+an asset's market price. It is useful for investors to understand these expectations when making
+investment decisions.
+Calculating the Implied Return for Fixed-Income Instruments
+Discount Bond
+In the case of a discount bond or instrument, recall that an investor receives a single principal
+cash flow (FV) at maturity, with (FV −PV) representing the implied return.
+To solve for the implied return earned over the life of an instrument (N periods), we can
+rearrange the single cash flow present value formula.
+Recall that the single cash flow present value formula is:
+PV =FV(1+r)−t
+t
+53
+© 2014-2024 AnalystPrep.Where:
+FV = Future value.
+PV = Present value.
+r = Stated discount rate per period.
+t = Number of compounding periods.
+To solve for r, we can rearrange this formula as follows:
+1
+r=√t FV t −1=( FV t) t −1
+PV PV
+We use this formula to calculate the periodic return earned during the life of the instrument (t
+periods) based on the present value (or price) and future value of the instrument.
+Example: Calculating the Implied Return for a Discount Bond
+Consider a zero-coupon bond with price of $900, a future value of $1,000, and a maturity of 5
+years. Calculate the implied annualized return r.
+Solution
+Recall that,
+1
+FV
+r=( t) t −1
+PV
+In this case, t=5, FV =$1,000, PV=$900
+t
+So,
+1
+10005
+r =( ) −1=2.13%
+900
+This means that an investor who purchases this zero-coupon bond at a price of $900 and holds it
+for five years would earn an annualized return of 2.13%.
+54
+© 2014-2024 AnalystPrep.Coupon Bonds
+Recall that fixed-income instruments that pay periodic interest have cash flows throughout their
+life until maturity. The yield-to-maturity (YTM) is a single implied market discount rate for all
+cash flows, regardless of timing. It assumes an investor expects to receive all promised cash
+flows through maturity and reinvest any cash received at the same YTM.
+The present value of a fixed-income instrument with periodic interest can be calculated using the
+following formula:
+PV = PMT 1 + PMT 2 +⋯+ (PMT N +FV N )
+(1+r)1 (1+r)2 (1+r)N
+Where:
+PV = Present value (or price) of the instrument.
+PMT = Periodic payment.
+FV = Bond's principal.
+N = Number of periods to maturity.
+r = Discount rate (or internal rate of return) (YTM).
+Example: Implied Return for Fixed-income Instruments With Periodic Interest
+Consider a five-year corporate bond issued in 2023 with a 4.00 percent annual coupon and a
+price of USD110.00 per USD100 principal three years later. If Milka can reinvest periodic
+interest at the original YTM of 4.00 percent, the implied three-year return is closest to:
+Solution
+We can calculate the future value (FV) after three years, including the future price of 110.00 and
+all cash flows reinvested to that date:
+FV =PMT (1+r)2+PMT (1+r)+PMT +PV
+3 1 2 3 3
+=4×(1.04)2+4×(1.04)+4+110.00
+=$122.49
+55
+© 2014-2024 AnalystPrep.We can then solve for Milka's annualized return r using the formula for implied return since we
+have PV=100, FV=122.49, N= 3 as follows:
+FV 122.49
+r= √t t −1= √3 −1=3.65%
+PV 110
+This means that Milka, who purchased the corporate bond at a price of 100 and held it for three
+years, would earn an annualized return of 3.65%.
+Example: Calculating the Yield-to-Maturity of a Coupon Bond
+CityGroup Corp. issued a corporate bond 7 years ago with a face value of $1,000 and a 20-year
+maturity. The bond pays annual interest at a coupon rate of 6%. Currently, the bond is trading at
+$1,120. The yield to maturity (YTM) of CityGroup Corp.'s bond is closest to:
+Solution
+Using the BA II Plus calculator, we solve the question as follows:
+We have
+Steps Explanation Display
+[2nd][QUIT] Return to standard calc Mode 0
+[2nd][CLR TVM] Clears TVM Worksheet 0
+13[N] Years/periods N =13
+−1,120[PV] Set the present value PV = −1,120
+of the bond
+60[PMT] Set the periodic PMT =3.90
+coupon payment
+1,000[PV] Set the face value FV =1000.00
+of the bond
+[CPT][I/Y] Compute the YTM I/Y =4.74%
+Therefore, the YTM is 4.74%.
+Implied Return and Growth for Equity Instruments
+The value of a stock is determined by both the expected return and the growth of its cash flows.
+56
+© 2014-2024 AnalystPrep.By assuming a constant growth rate for dividends, we can use the formula for the present value
+of an equity investment to calculate the stock's implied return or growth rate.
+Implied Return
+Recall that the present value of a stock for constant growth of dividends is given by:
+D (1+g) D
+PV =
+t
+=
+t+1
+t r−g r−g
+Where:
+PV = Present value at time t.
+t
+D = Expected Dividend in the next period.
+t
+r = Required rate of return.
+g = Constant growth rate.
+r−g>0
+Therefore, we can calculate the implied return on a stock given its expected dividend yield and
+implied growth by rearranging the above formula as follows:
+D (1+g) D
+r =
+t
++g=
+t+1
++g
+PV PV
+t t
+In simple terms, if we assume a stock's dividends will grow at a steady rate forever, the implied
+return is the combination of its expected dividend yield and the constant growth rate.
+Example: Implied Return and Growth
+Suppose Apple Inc. stock is trading at a share price of USD150.00, and its annualized expected
+dividend per share during the next year is USD2.00.
+Moh, an analyst, projects that Apple's dividend per share will increase at a constant rate of 5%
+per year indefinitely. The required return expected by investors on the stock is closest to:
+57
+© 2014-2024 AnalystPrep.Solution
+Recall that the implied return formula is,
+D (1+g) D
+r =
+t
++g=
+t+1
++g
+PV PV
+t t
+In this case, D=$2.00, PV=$150, g=5%
+Therefore,
+2.00(1.05)
+r= +0.05=6.4%
+150
+Implied Growth
+We can also solve for a stock's implied growth rate, which is given by the following formula:
+r×PV −D r−D
+g= t t+D = t+1
+t
+PV PV
+t t
+Example: Calculating the Implied
+Consider the previous example. Suppose Moh believes that Apple stock investors should expect a
+return of 8%. Calculate the implied dividend growth rate for Apple Inc.
+Solution
+Recall that the formula for calculating implied growth is as follows.
+r×PV −D r−D
+g= t t+D = t+1
+t
+PV PV
+t t
+So,
+2.00×1.05
+g=0.08− = 0.066=6.60%
+150
+Price-to-Earnings Ratio
+58
+© 2014-2024 AnalystPrep.In equity instruments, it is common practice to compare the price-to-earnings ratio.
+The price-to-earnings (P/E) ratio is a valuation metric that compares the current share price
+of a stock to its earnings per share. Investors and analysts use it to determine the relative value
+of a company’s shares compared to other companies or the market.
+A stock with a higher price-to-earnings ratio is more expensive than a lower one, as investors are
+willing to pay more for each unit of earnings. This ratio is also a valuation metric for stock
+indexes, such as S&P 500.
+Relating P/E Ratio to Expected Future Cash Flows
+The P/E ratio can relate to our earlier discussion on a stock's price (PV) to the expected future
+cash flow relationship. Recall the following equation:
+D ×(1+g)
+t
+PV =
+t r−g
+By dividing both sides of the equation by E , which represents earnings per share for period t, we
+t
+get the following equation:
+D
+t ×(1−g)
+PV t
+=
+Et
+E r−g
+t
+Where:
+PVt
+= Price-to-earnings (P/E) ratio.
+E
+t
+Dt
+= Dividend payout ratio.
+E
+t
+g = Growth rate.
+r = Required rate of return.
+The dividend payout ratio represents the percentage of a company's earnings paid out to
+shareholders in the form of dividends.
+59
+© 2014-2024 AnalystPrep.Typically, the forward P/E ratio, which is based on a projection of a company's earnings per
+share for the next period (t +1), is used. This ratio is positively correlated with higher expected
+dividend payouts and growth rates but negatively correlated with the required return.
+Therefore, the equation:
+Dt
+×(1−g)
+PV t = E t
+E r−g
+t
+Can be simplified as below to find the forward P/E ratio:
+D t+1
+PV t = Et+1 = D t+1 × 1
+E r−g E r−g
+t+1 t+1
+Example: Solving for Implied Dividend Growth Rate
+Suppose a company has a forward P/E ratio of 15, a dividend payout ratio of 40%, and a required
+return of 10%. The implied dividend growth rate for this company is closest to:
+Solution:
+First, we can use the formula for the forward P/E ratio to solve for the implied dividend growth
+rate:
+PV D 1
+t = t+1 ×
+E E r−g
+t+1 t+1
+Where:
+PV = Present value at time t.
+t
+E = Earnings per share for the next period.
+t+1
+D = Dividend payout for the next period.
+t+1
+r = Required return.
+g = Implied dividend growth rate.
+60
+© 2014-2024 AnalystPrep.Substituting the given values into the formula, we get:
+0.4
+15=
+0.1 −g
+Solving for g, we get:
+0.4
+g =0.1− = 0.0733
+15
+Therefore, the implied dividend growth rate for this company is 7.33%
+Example: Solving for Required Return
+Let's assume you are not given the required rate of return in the question above so that the
+company has a forward P/E ratio of 15, a dividend payout ratio of 40%, and an implied dividend
+growth rate of 7.33%. What is the required return for this company?
+Solution
+Recall the formula for the forward P/E ratio to solve for the required return:
+PV D 1
+t = t+1 ×
+E E r−g
+t+1 t+1
+Substituting the given values into the formula, we get:
+0.4
+15 =
+r−0.0733
+Solving for r, we get:
+0.4
+r= +0.0733 =0.1000
+15
+Therefore, the required return for this company is 10%.
+61
+© 2014-2024 AnalystPrep.Question
+Edmund company's stock trades at USD50.00. The company pays an annual dividend
+to its shareholders, and its most recent payment of USD 2.00 occurred yesterday.
+Analysts following the company expect its dividend to grow at a constant rate of 4
+percent per year. What is the company's required return?
+A. 8.16%.
+B. 8.48%.
+C. 9.16%.
+The correct answer is A.
+Solution
+Recall that:
+D ×(1+g)
+t+1
+PV =
+r−g
+Where:
+PV = Current stock price.
+D = Recent dividend payout.
+t+1
+g = Expected dividend growth rate.
+r = Required return.
+Substituting the given value into the formula, we get:
+2×(1+0.04)
+50 =
+r−0.04
+Solving for r, we get:
+2×(1+0.04)
+62
+© 2014-2024 AnalystPrep.2×(1+0.04)
+r = +0.04=0.0816
+50
+r =0.0816
+Edmund's required return is 8.16%.
+63
+© 2014-2024 AnalystPrep.LOS 2c: explain the cash flow additivity principle, its importance for the
+no-arbitrage condition, and its use in calculating implied forward
+interest rates, forward exchange rates, and option values
+A timeline is a physical illustration of the amounts and timing of cashflows associated with an
+investment project. For cashflows that are regular and of equal amounts, the standard annuity
+formula or the financial calculator can be used. However, a timeline is preferred for irregular,
+unequal, or both cashflows.
+Remember that the general formula that relates the present value and the future value of an
+investment is given by:
+FV =PV(1+r)N
+N
+Where:
+PV = Present value of the investment.
+FV = Future value of the investment N periods from today.
+N
+r = Rate of interest per period.
+We can represent this in a timeline:
+64
+© 2014-2024 AnalystPrep.In a particular timeline, a time index, t, represents a particular point in time, a specified number
+of periods from today. Therefore, the present value is the investment amount today (t = 0), and
+by using this amount, we can calculate the future value (t = N). Alternatively, we can use the
+future value to calculate the present value.
+The above argument can be written in terms of the present value. That is:
+PV =FV
+N
+(1+r)−N
+Example: Applying a Timeline to Model Cashflows
+A fixed-income investor receives a series of payments, each amounting to $6,500, set to be
+received in perpetuity. Payments are to be made at the end of each year, starting at the end of
+year 4. If the discount rate is 9%, then what is the present value of the perpetuity at t = 0?
+Solution
+We would then draw a timeline to understand the problem better:
+65
+© 2014-2024 AnalystPrep.Here, we can see that the investor is receiving $6,500 in perpetuity. Recall that the PV of
+aperpetuity is given by:
+C
+PV of a perpetuity =
+r
+So, in this case:
+$6,500
+PV = =$72,222
+3
+9%
+This is the value of the perpetuity at t = 3, so we need to discount it for three more periods to
+get the value at t = 0. Using the formula:
+PV =FV (1+r)−N
+0 N
+The PV at time zero is
+$72,222
+=$55,769
+(1+0.09)3
+Why is the Use of a Timeline Recommended?
+There are many instances in real life when cashflows are uneven. A good example is a pension
+66
+© 2014-2024 AnalystPrep.contribution that varies with age. Applying one of the basic time value formulae is impossible in
+such cases. You are advised to draw a timeline even if the question appears relatively
+straightforward. It will help you understand the question structure better. A timeline also helps
+candidates add cashflows indexed to the same period and apply the value additivity principle.
+Cashflow Additivity Principle
+According to the cashflow additivity principle, the present value of any stream of cashflows
+indexed at the same point equals the sum of the present values of the cashflows. This principle
+has different applications in time value of money problems. Besides, this principle can be applied
+to in different economic scenarios.
+Application of Cashflow Additivity
+Investing in Different Currencies
+The principle of cash flow additivity can be applied to scenarios involving different currencies by
+converting all cash flows to a common currency using the appropriate exchange rates. Doing so
+allows us to compare and combine cash flows from different currencies and make investment
+decisions based on their combined value.
+For example, suppose we have two investment opportunities, one in US dollars and one in
+Japanese yen. In that case, we can convert the expected cash flows from the Japanese yen
+investment into US dollars using the appropriate exchange rates. Then, we can compare the
+combined value of the two investments and decide based on their relative values.
+Dealing with different currencies assumes continuous compounding. Recall that the present
+value of a continuous compounding is given by:
+PV =FV e−Nrs
+N
+Example: Applying the Cash Flow Additivity Principle
+Consider an investor with USD 2,000 who wants to invest it for three months. The investor can
+67
+© 2014-2024 AnalystPrep.choose between two options: investing in the US government debt or German government debt.
+Option 1: Investing in US Government Debt
+The investor can invest his USD 2,000 in a three-month US Treasury bill. This means that he
+lends the government USD 2,000, and it promises to pay him back with interest in three months.
+The interest is 3%, so after three months, he will receive:
+Recall that,
+3
+FV =2,000×e0.03× 12 =USD 2,015
+Option 2: Investing in German Government Debt
+The investor chooses to invest in German government debt. To do this, the investor must convert
+his USD 2,000 into Euros at the current exchange of EUR/USD = 0.92 (1 USD =0.92EUR). This
+means that the investor will receive (2,000×0.92) =EUR 1840. He can then lend this money to
+the German government by investing in a three-month German Treasury bill. Assuming the
+interest rate is 0.06 percent, after three months, the investor will receive:
+FV =EUR 1840×e
+0.06×
+1
+3
+2
+=EUR 1,867.81
+Assuming the investor wants his money in US dollars, we need to convert the EUR1867.81 back
+into USD at the forward exchange rate of USD/EUR = 1.0788. This means that the investor will
+receive:
+EUR 1,867.81×USD 1.07
+=
+88
+$2,014.99 ≈2,015
+1 EUR
+Both options give you the same amount of money after three months: USD 2,015. The difference
+is that one option involves investing in US dollars, and the other involves converting your money
+into Euros and back into US dollars.
+The forward exchange rate of 1.0788 USD/EUR is important because it determines how much
+money you, the investor, will receive when converting your Euros back into US dollars. If this
+rate differs from 1.0788, there would be an arbitrage opportunity in converting Euros to dollars.
+68
+© 2014-2024 AnalystPrep.More on foreign exchange rates will be discussed later in the curriculum.
+Implied Forward Rates
+Consider two zero-coupon bonds. Bond A has a maturity of two years and a yield of 2% per
+annum, while bond B has a maturity of four years and a yield of 3%. An investor, who doesn't
+seek to take advantage of price differences and is risk-neutral, has $1,000 to invest. The investor
+has two investment options that earn the same return.
+Option 1: The investor can put their money into bond B now, which has an annual yield of 3%,
+and will pay out at the end of the four years. The Future Value (FV) of this investment in four
+years, using the formula for compound interest, is:
+FV =PV (1+r )4=1000(1.03)4 =1,125.51
+4 0 4
+Option 2: Alternatively, the investor can initially invest in bond A and, after two years, reinvest
+the proceeds at a forward rate F which represents a two-year forward rate starting in year
+2,2
+two.
+By the principle of cash flow additivity, a risk-neutral investor will not prefer one option over the
+other - they are indifferent between Options 1 and 2. This is because the Future Values of both
+investments at the end of four years should be the same:
+FV =PV (1+r )4= PV (1+r )(1+F )
+4 0 4 0 2 2,2
+In this scenario, this simplifies to:
+1,125.51= 1,000(1.02)2(1+F )
+2,2
+Solving this equation for the forward rate gives:
+1,125.51
+⇒F = −1= 8.18%
+2,2 1,000(1.02)2
+Therefore, to prevent arbitrage opportunities, the forward rate F should be set to 8.18%. This
+2,2
+69
+© 2014-2024 AnalystPrep.ensures that there is no potential for risk-free profits, maintaining market efficiency.
+Cashflow Additivity and Option Pricing
+Cash flow additivity can be used to determine the fair price of an option contract. An option
+contract gives the buyer the right, but not the obligation, to buy (call) or sell (put) an underlying
+asset at a specified price within a certain period.
+Cash flow additivity allows investors to compare different strategies and determine a no-
+arbitrage price for a financial instrument.
+Example: Illustrating Cashflow Additivity in Call Option
+Consider a stock that costs $100 now. Its price might increase by 30% to $130 or decrease by
+15% to $85 in one year.
+Let's say an investor wants to sell a call on the stock that gives the buyer the right, but not the
+obligation, to purchase the asset for $120. The principle of cash flow additivity can be used to
+70
+© 2014-2024 AnalystPrep.determine the contract's no-arbitrage price.
+If the stock price goes up, the contract is worth cu =10. That's because the buyer can use the
+1
+contract to buy the asset for $120 and then sell it for $130, making a profit of $10. But if the
+price goes down, the contract is worth nothing. The buyer wouldn't want to use the contract to
+buy the asset for $120 when they could just buy it for $85 without the contract.
+The underlying argument here is that the value of the option is each movement of the stock
+option may be used to construct a risk-free portfolio (the value of the portfolio is the same in
+both scenarios).
+Denote the initial value of the call option by c , which we wish to determine using cash flow
+0
+additivity and no-arbitrage pricing. Also, denote the value of the portfolio at t =0 by V 0 , when
+the stock price increases by Vu and when the stock price decreases by Vd
+1 1
+Assume that at t =0 creates a risk-free portfolio by selling a call option at c 0 and buying 0.22
+units of underlying assets. Then, the value of the portfolio at inception is:
+V
+0
+=0.22×100−c
+0
+This portfolio is called a replicating portfolio because it is designed to create a matching
+future cash flow stream to that of a risk-free asset.
+Similarly, in each scenario of stock price decrease and increase:
+V u=0.22×130−10 =18.89
+1
+V d=0.22×85−0=18.89
+1
+Intuitively, the value replicating portfolio equals 18.89, whether the stock prices rise or decline.
+As such, the replicating portfolio is risk-free and can be discounted as a risk-free asset. Assuming
+that risk-free rate is r = 2.5%, then:
+V =V u(1+r)−1 =Vd(1+r)−1
+0 1 1
+=18.89(1.025)−1 =18.43
+At this point, we can calculate the value of c rearranging the initial portfolio value equation:
+0
+71
+© 2014-2024 AnalystPrep.V
+0
+=0.22×100−c
+0
+⇒18.43 =0.22×100−c
+0
+∴c
+0
+=3.57
+As such, the fair price of the call option is $3.57, which the seller expects to receive from the
+buyer.
+72
+© 2014-2024 AnalystPrep.Question
+The current USD/CHF exchange rate is 0.9. The risk-free interest rates for one year
+are 2% for the US dollar and 1% for the Swiss franc. Which of the following one-year
+USD/CHF forward rates would best prevent arbitrage opportunities?
+A. USD/CHF 0.909.
+B. USD/CHF 0.099.
+C. USD/CHF 0.891.
+Solution
+The correct Answer is A.
+Dealing with different currencies assumes continuous compounding. Recall that the
+future value of a continuous compounding is given by:
+FV =PV
+N
+eNrs
+So,
+In one year, a single unit of Swiss franc invested is:
+e0.01 =CHF 1.0101
+In one year, a single unit of Swiss Franc converted to US dollars and then invested
+risk-free is worth;
+0.9e0.02 =USD 0.9182
+Therefore, to convert USD 0.9182 into CHF 1.0101 requires a forward exchange rate
+of:
+0.9182
+=USD/CHF 0.909
+1.0101
+73
+© 2014-2024 AnalystPrep.
