@@ -319,8 +319,8 @@ async function loadModules() {
 
         container.innerHTML = modules.map((module, index) => {
             const mp = progressData[module.module_id] || {};
-            const isUnlocked = index === 0 || mp.is_unlocked || (progressData[modules[index-1]?.module_id]?.mastery_percent >= 80);
-            const questionsCount = module.questions?.length || 0;
+            const isUnlocked = testMode || index === 0 || mp.is_unlocked || (progressData[modules[index-1]?.module_id]?.mastery_percent >= 80);
+            const questionsCount = module.questions_count || 0;
             const mastery = mp.mastery_percent || 0;
 
             return `
@@ -349,9 +349,7 @@ async function loadBookData(bookId) {
     }
 
     try {
-        const response = await fetch(`data/books/book${bookId}.json`);
-        if (!response.ok) throw new Error('Book data not found');
-        const data = await response.json();
+        const data = await apiGet(`/books/${bookId}`);
         state.booksData[bookId] = data;
         return data;
     } catch (error) {
@@ -367,7 +365,7 @@ function selectModule(moduleId, moduleName) {
     // Get questions count
     const bookData = state.booksData[state.currentBook.id];
     const module = bookData?.learning_modules?.find(m => m.module_id === moduleId);
-    const count = module?.questions?.length || 0;
+    const count = module?.questions_count || 0;
     document.getElementById('test-questions-count').textContent = `${count} вопросов`;
 
     showScreen('test-mode');
@@ -383,14 +381,15 @@ async function startTest(mode) {
 
     try {
         showLoading();
-        // Load questions from API or local data
-        const bookData = state.booksData[state.currentBook.id];
-        const module = bookData?.learning_modules?.find(m => m.module_id === state.currentModule.id);
-        state.questions = shuffleArray([...(module?.questions || [])]);
+        // Load questions from API
+        const shuffle = mode !== 'learning'; // Don't shuffle in learning mode
+        const questions = await apiGet(`/tests/module/${state.currentBook.id}/${state.currentModule.id}?shuffle=${shuffle}`);
 
-        if (state.questions.length === 0) {
+        if (!questions || questions.length === 0) {
             throw new Error('Нет вопросов для этого модуля');
         }
+
+        state.questions = questions;
 
         document.getElementById('test-total').textContent = state.questions.length;
 

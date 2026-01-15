@@ -9,7 +9,7 @@ from contextlib import asynccontextmanager
 import os
 
 from .database import init_db
-from .routers import users, progress, tests, errors, glossary, calculator
+from .routers import users, progress, tests, errors, glossary, calculator, books
 
 
 @asynccontextmanager
@@ -59,6 +59,7 @@ app.include_router(tests.router)
 app.include_router(errors.router)
 app.include_router(glossary.router)
 app.include_router(calculator.router)
+app.include_router(books.router)
 
 
 @app.get("/")
