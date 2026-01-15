@@ -82,7 +82,8 @@ def extract_questions_from_docx():
             if current_question is not None:
                 questions_raw.append({
                     'number': current_question,
-                    'lines': current_lines
+                    'lines': current_lines,
+                    'tables': []  # Tables will be empty for now
                 })
 
             # Extract question number
@@ -96,7 +97,8 @@ def extract_questions_from_docx():
     if current_question is not None:
         questions_raw.append({
             'number': current_question,
-            'lines': current_lines
+            'lines': current_lines,
+            'tables': []
         })
 
     print(f"✅ Extracted {len(questions_raw)} questions from DOCX")
@@ -208,6 +210,8 @@ def parse_question(raw_question, term_map, templates):
     """Parse a single raw question into structured format"""
     lines = raw_question['lines']
     q_num = raw_question['number']
+    has_table = len(raw_question.get('tables', [])) > 0
+    table_data = raw_question.get('tables', []) if has_table else None
 
     # Extract question text (first line)
     question_text = re.sub(r'^Q\.\d+\s+', '', lines[0])
@@ -321,7 +325,10 @@ def parse_question(raw_question, term_map, templates):
 
     # Generate calculator steps from glossary + question numbers
     options_text = " ".join([opt['text'] for opt in options])
-    calculator_steps = generate_calculator_steps(question_text, options_text, explanation, term_id, term_map, templates)
+    calculator_steps = []  # Disabled - calculator instructions are in glossary
+
+    has_table = len(raw_question.get('tables', [])) > 0
+    table_data = raw_question.get('tables', []) if has_table else None
 
     # Build question object
     question = {
@@ -333,8 +340,8 @@ def parse_question(raw_question, term_map, templates):
         'question_text_ru': "",  # Will be filled later
         'question_text_formula': None,
         'question_continuation': None,
-        'has_table': False,
-        'table_data': None,
+        'has_table': has_table,
+        'table_data': table_data,
         'options': options,
         'correct_option_id': correct_option_id,
         'explanation': explanation,

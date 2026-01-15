@@ -50,16 +50,7 @@
         }
       },
       "requires_calculation": true,
-      "calculator_steps": [
-        "[2ND] [CLR TVM]",
-        "[2ND] [P/Y] 4 [ENTER] [↓] 4 [ENTER]",
-        "[2ND] [QUIT]",
-        "150,000 [+/-] [PV]",
-        "8.0 [I/Y]",
-        "12 [N]",
-        "0 [PMT]",
-        "[CPT] [FV]"
-      ],
+      "calculator_steps": [],
       "difficulty": "MEDIUM",
       "topic_tags": []
     },
@@ -100,15 +91,7 @@
         }
       },
       "requires_calculation": true,
-      "calculator_steps": [
-        "[2ND] [CLR TVM]",
-        "[2ND] [P/Y] 12 [ENTER] [↓] 12 [ENTER]",
-        "[2ND] [QUIT]",
-        "2,000,000 [+/-] [PV]",
-        "10.0 [I/Y]",
-        "0 [PMT]",
-        "[CPT] [FV]"
-      ],
+      "calculator_steps": [],
       "difficulty": "MEDIUM",
       "topic_tags": []
     },
@@ -154,16 +137,7 @@
         }
       },
       "requires_calculation": true,
-      "calculator_steps": [
-        "[2ND] [CLR TVM]",
-        "[2ND] [P/Y] 4 [ENTER] [↓] 4 [ENTER]",
-        "[2ND] [QUIT]",
-        "400,000 [+/-] [PV]",
-        "13.0 [I/Y]",
-        "12 [N]",
-        "0 [PMT]",
-        "[CPT] [FV]"
-      ],
+      "calculator_steps": [],
       "difficulty": "MEDIUM",
       "topic_tags": []
     },
@@ -209,14 +183,7 @@
         }
       },
       "requires_calculation": true,
-      "calculator_steps": [
-        "[2ND] [CLR TVM]",
-        "600,000 [+/-] [PV]",
-        "5.0 [I/Y]",
-        "4 [N]",
-        "0 [PMT]",
-        "[CPT] [FV]"
-      ],
+      "calculator_steps": [],
       "difficulty": "EASY",
       "topic_tags": []
     },
@@ -262,14 +229,7 @@
         }
       },
       "requires_calculation": true,
-      "calculator_steps": [
-        "[2ND] [CLR TVM]",
-        "[2ND] [P/Y] 4 [ENTER] [↓] 4 [ENTER]",
-        "[2ND] [QUIT]",
-        "11.0 [I/Y]",
-        "0 [PMT]",
-        "[CPT] [FV]"
-      ],
+      "calculator_steps": [],
       "difficulty": "EASY",
       "topic_tags": []
     },
@@ -315,13 +275,7 @@
         }
       },
       "requires_calculation": true,
-      "calculator_steps": [
-        "Введите начальную цену: {P0} [÷] [1] [=] [STO] [1]",
-        "Введите конечную цену: {P1} [-] [RCL] [1] [=]",
-        "Добавьте доход: [+] {D1} [=]",
-        "Разделите на начальную цену: [÷] [RCL] [1] [=]",
-        "Результат: HPR в десятичной форме"
-      ],
+      "calculator_steps": [],
       "difficulty": "EASY",
       "topic_tags": []
     },
@@ -413,13 +367,7 @@
         }
       },
       "requires_calculation": true,
-      "calculator_steps": [
-        "Введите начальную цену: {P0} [÷] [1] [=] [STO] [1]",
-        "Введите конечную цену: {P1} [-] [RCL] [1] [=]",
-        "Добавьте доход: [+] {D1} [=]",
-        "Разделите на начальную цену: [÷] [RCL] [1] [=]",
-        "Результат: HPR в десятичной форме"
-      ],
+      "calculator_steps": [],
       "difficulty": "MEDIUM",
       "topic_tags": []
     },
@@ -465,16 +413,7 @@
         }
       },
       "requires_calculation": true,
-      "calculator_steps": [
-        "[2ND] [CLR TVM]",
-        "[2ND] [P/Y] 12 [ENTER] [↓] 12 [ENTER]",
-        "[2ND] [QUIT]",
-        "10,000 [+/-] [PV]",
-        "6.0 [I/Y]",
-        "120 [N]",
-        "0 [PMT]",
-        "[CPT] [FV]"
-      ],
+      "calculator_steps": [],
       "difficulty": "MEDIUM",
       "topic_tags": []
     },
@@ -515,15 +454,7 @@
         }
       },
       "requires_calculation": true,
-      "calculator_steps": [
-        "[2ND] [CLR TVM]",
-        "[2ND] [P/Y] 12 [ENTER] [↓] 12 [ENTER]",
-        "[2ND] [QUIT]",
-        "30,000 [+/-] [PV]",
-        "9.0 [I/Y]",
-        "0 [PMT]",
-        "[CPT] [FV]"
-      ],
+      "calculator_steps": [],
       "difficulty": "MEDIUM",
       "topic_tags": []
     },
@@ -564,13 +495,7 @@
         }
       },
       "requires_calculation": true,
-      "calculator_steps": [
-        "Введите начальную цену: {P0} [÷] [1] [=] [STO] [1]",
-        "Введите конечную цену: {P1} [-] [RCL] [1] [=]",
-        "Добавьте доход: [+] {D1} [=]",
-        "Разделите на начальную цену: [÷] [RCL] [1] [=]",
-        "Результат: HPR в десятичной форме"
-      ],
+      "calculator_steps": [],
       "difficulty": "MEDIUM",
       "topic_tags": []
     },
@@ -616,13 +541,7 @@
         }
       },
       "requires_calculation": true,
-      "calculator_steps": [
-        "Введите начальную цену: {P0} [÷] [1] [=] [STO] [1]",
-        "Введите конечную цену: {P1} [-] [RCL] [1] [=]",
-        "Добавьте доход: [+] {D1} [=]",
-        "Разделите на начальную цену: [÷] [RCL] [1] [=]",
-        "Результат: HPR в десятичной форме"
-      ],
+      "calculator_steps": [],
       "difficulty": "EASY",
       "topic_tags": []
     },
@@ -668,13 +587,7 @@
         }
       },
       "requires_calculation": true,
-      "calculator_steps": [
-        "Очистите данные: [2ND] [CLR WORK]",
-        "Введите первое значение: {X1} [ENTER] [↓]",
-        "Введите второе значение: {X2} [ENTER] [↓]",
-        "Повторите для всех значений",
-        "Вычислите среднее: [2ND] [STAT] [↓] [↓] (выберите X̄) [CPT]"
-      ],
+      "calculator_steps": [],
       "difficulty": "MEDIUM",
       "topic_tags": []
     },
@@ -720,13 +633,7 @@
         }
       },
       "requires_calculation": true,
-      "calculator_steps": [
-        "Конвертируйте каждую доходность в (1 + R): {R1} [+] [1] [=]",
-        "Перемножьте все факторы: [×] [(] {R2} [+] [1] [)] [×] ... [=]",
-        "Возьмите корень n-й степени: [yˣ] [(] [1] [÷] {n} [)] [=]",
-        "Вычтите 1: [-] [1] [=]",
-        "Результат: среднее геометрическое"
-      ],
+      "calculator_steps": [],
       "difficulty": "EASY",
       "topic_tags": []
     },
@@ -772,11 +679,7 @@
         }
       },
       "requires_calculation": true,
-      "calculator_steps": [
-        "Шаг 1: {r_I} [-] {r_D} [=] — разница доходностей",
-        "Шаг 2: [×] {Debt/Equity} [=] — умножить на плечо",
-        "Шаг 3: [+] {r_I} [=] — добавить базовую доходность"
-      ],
+      "calculator_steps": [],
       "difficulty": "MEDIUM",
       "topic_tags": []
     },
@@ -863,13 +766,7 @@
         }
       },
       "requires_calculation": true,
-      "calculator_steps": [
-        "Конвертируйте каждую доходность в (1 + R): {R1} [+] [1] [=]",
-        "Перемножьте все факторы: [×] [(] {R2} [+] [1] [)] [×] ... [=]",
-        "Возьмите корень n-й степени: [yˣ] [(] [1] [÷] {n} [)] [=]",
-        "Вычтите 1: [-] [1] [=]",
-        "Результат: среднее геометрическое"
-      ],
+      "calculator_steps": [],
       "difficulty": "EASY",
       "topic_tags": []
     },
@@ -910,13 +807,7 @@
         }
       },
       "requires_calculation": true,
-      "calculator_steps": [
-        "Очистите данные: [2ND] [CLR WORK]",
-        "Введите первое значение: {X1} [ENTER] [↓]",
-        "Введите второе значение: {X2} [ENTER] [↓]",
-        "Повторите для всех значений",
-        "Вычислите среднее: [2ND] [STAT] [↓] [↓] (выберите X̄) [CPT]"
-      ],
+      "calculator_steps": [],
       "difficulty": "EASY",
       "topic_tags": []
     },
@@ -962,13 +853,7 @@
         }
       },
       "requires_calculation": true,
-      "calculator_steps": [
-        "Введите начальную цену: {P0} [÷] [1] [=] [STO] [1]",
-        "Введите конечную цену: {P1} [-] [RCL] [1] [=]",
-        "Добавьте доход: [+] {D1} [=]",
-        "Разделите на начальную цену: [÷] [RCL] [1] [=]",
-        "Результат: HPR в десятичной форме"
-      ],
+      "calculator_steps": [],
       "difficulty": "EASY",
       "topic_tags": []
     },
@@ -1014,13 +899,7 @@
         }
       },
       "requires_calculation": true,
-      "calculator_steps": [
-        "[2ND] [CLR TVM]",
-        "30 [FV]",
-        "33.88 [I/Y]",
-        "0 [PMT]",
-        "[CPT] [PV]"
-      ],
+      "calculator_steps": [],
       "difficulty": "MEDIUM",
       "topic_tags": []
     },
@@ -1066,10 +945,7 @@
         }
       },
       "requires_calculation": true,
-      "calculator_steps": [
-        "Приближённая формула: {r_nominal} [-] {inflation} [=]",
-        "Точная формула: [(] [1] [+] {r_nominal} [)] [÷] [(] [1] [+] {inflation} [)] [-] [1] [=]"
-      ],
+      "calculator_steps": [],
       "difficulty": "EASY",
       "topic_tags": []
     },
@@ -1115,13 +991,7 @@
         }
       },
       "requires_calculation": true,
-      "calculator_steps": [
-        "[2ND] [CLR TVM]",
-        "110 [+/-] [PV]",
-        "6.31 [I/Y]",
-        "0 [PMT]",
-        "[CPT] [FV]"
-      ],
+      "calculator_steps": [],
       "difficulty": "MEDIUM",
       "topic_tags": []
     },
@@ -1167,13 +1037,7 @@
         }
       },
       "requires_calculation": true,
-      "calculator_steps": [
-        "Введите начальную цену: {P0} [÷] [1] [=] [STO] [1]",
-        "Введите конечную цену: {P1} [-] [RCL] [1] [=]",
-        "Добавьте доход: [+] {D1} [=]",
-        "Разделите на начальную цену: [÷] [RCL] [1] [=]",
-        "Результат: HPR в десятичной форме"
-      ],
+      "calculator_steps": [],
       "difficulty": "MEDIUM",
       "topic_tags": []
     },
@@ -1219,13 +1083,7 @@
         }
       },
       "requires_calculation": true,
-      "calculator_steps": [
-        "Введите начальную цену: {P0} [÷] [1] [=] [STO] [1]",
-        "Введите конечную цену: {P1} [-] [RCL] [1] [=]",
-        "Добавьте доход: [+] {D1} [=]",
-        "Разделите на начальную цену: [÷] [RCL] [1] [=]",
-        "Результат: HPR в десятичной форме"
-      ],
+      "calculator_steps": [],
       "difficulty": "MEDIUM",
       "topic_tags": []
     },
@@ -1271,13 +1129,7 @@
         }
       },
       "requires_calculation": true,
-      "calculator_steps": [
-        "Введите начальную цену: {P0} [÷] [1] [=] [STO] [1]",
-        "Введите конечную цену: {P1} [-] [RCL] [1] [=]",
-        "Добавьте доход: [+] {D1} [=]",
-        "Разделите на начальную цену: [÷] [RCL] [1] [=]",
-        "Результат: HPR в десятичной форме"
-      ],
+      "calculator_steps": [],
       "difficulty": "MEDIUM",
       "topic_tags": []
     },
@@ -1323,13 +1175,7 @@
         }
       },
       "requires_calculation": true,
-      "calculator_steps": [
-        "Введите начальную цену: {P0} [÷] [1] [=] [STO] [1]",
-        "Введите конечную цену: {P1} [-] [RCL] [1] [=]",
-        "Добавьте доход: [+] {D1} [=]",
-        "Разделите на начальную цену: [÷] [RCL] [1] [=]",
-        "Результат: HPR в десятичной форме"
-      ],
+      "calculator_steps": [],
       "difficulty": "MEDIUM",
       "topic_tags": []
     },
@@ -1375,13 +1221,7 @@
         }
       },
       "requires_calculation": true,
-      "calculator_steps": [
-        "Очистите данные: [2ND] [CLR WORK]",
-        "Введите первое значение: {X1} [ENTER] [↓]",
-        "Введите второе значение: {X2} [ENTER] [↓]",
-        "Повторите для всех значений",
-        "Вычислите среднее: [2ND] [STAT] [↓] [↓] (выберите X̄) [CPT]"
-      ],
+      "calculator_steps": [],
       "difficulty": "EASY",
       "topic_tags": []
     },
@@ -1427,13 +1267,7 @@
         }
       },
       "requires_calculation": true,
-      "calculator_steps": [
-        "Введите начальную цену: {P0} [÷] [1] [=] [STO] [1]",
-        "Введите конечную цену: {P1} [-] [RCL] [1] [=]",
-        "Добавьте доход: [+] {D1} [=]",
-        "Разделите на начальную цену: [÷] [RCL] [1] [=]",
-        "Результат: HPR в десятичной форме"
-      ],
+      "calculator_steps": [],
       "difficulty": "MEDIUM",
       "topic_tags": []
     },
@@ -1525,10 +1359,7 @@
         }
       },
       "requires_calculation": true,
-      "calculator_steps": [
-        "Приближённая формула: {r_nominal} [-] {inflation} [=]",
-        "Точная формула: [(] [1] [+] {r_nominal} [)] [÷] [(] [1] [+] {inflation} [)] [-] [1] [=]"
-      ],
+      "calculator_steps": [],
       "difficulty": "MEDIUM",
       "topic_tags": []
     },
@@ -1574,15 +1405,7 @@
         }
       },
       "requires_calculation": true,
-      "calculator_steps": [
-        "[2ND] [CLR TVM]",
-        "[2ND] [P/Y] 4 [ENTER] [↓] 4 [ENTER]",
-        "[2ND] [QUIT]",
-        "20,000 [+/-] [PV]",
-        "12.0 [I/Y]",
-        "0 [PMT]",
-        "[CPT] [FV]"
-      ],
+      "calculator_steps": [],
       "difficulty": "MEDIUM",
       "topic_tags": []
     },
@@ -1628,11 +1451,7 @@
         }
       },
       "requires_calculation": true,
-      "calculator_steps": [
-        "Разделите конечную цену на начальную: {P1} [÷] {P0} [=]",
-        "Возьмите натуральный логарифм: [LN]",
-        "Результат: непрерывно начисляемая доходность"
-      ],
+      "calculator_steps": [],
       "difficulty": "EASY",
       "topic_tags": []
     },
@@ -1678,13 +1497,7 @@
         }
       },
       "requires_calculation": true,
-      "calculator_steps": [
-        "Введите начальную цену: {P0} [÷] [1] [=] [STO] [1]",
-        "Введите конечную цену: {P1} [-] [RCL] [1] [=]",
-        "Добавьте доход: [+] {D1} [=]",
-        "Разделите на начальную цену: [÷] [RCL] [1] [=]",
-        "Результат: HPR в десятичной форме"
-      ],
+      "calculator_steps": [],
       "difficulty": "EASY",
       "topic_tags": []
     },
@@ -1776,15 +1589,7 @@
         }
       },
       "requires_calculation": true,
-      "calculator_steps": [
-        "[2ND] [CLR TVM]",
-        "[2ND] [P/Y] 4 [ENTER] [↓] 4 [ENTER]",
-        "[2ND] [QUIT]",
-        "1,011 [FV]",
-        "12.0 [I/Y]",
-        "0 [PMT]",
-        "[CPT] [PV]"
-      ],
+      "calculator_steps": [],
       "difficulty": "MEDIUM",
       "topic_tags": []
     },
