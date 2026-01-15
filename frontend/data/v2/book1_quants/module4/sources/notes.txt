@@ -1,0 +1,407 @@
+Learning Module 4: Probability Trees and Conditional Expectations
+LOS 4a: calculate expected values, variances, and standard deviations
+and demonstrate their application to investment problems
+Expected Value
+Expected value is an essential quantitative concept investors use to estimate investment returns
+and analyze any factor that may impact their financial position.
+Mathematically, the expected value is the probability-weighted average of the possible outcomes
+of the random variable. For a random variable X, the expected value of X is denoted E(X). More
+specifically,
+E(X)=P(X )X +P(X )X +⋯ +P(X )X
+1 1 2 2 n n
+n
+=∑ P(X)X
+i i
+i=1
+Where,
+X= One of n possible outcomes of the discrete random variable X.
+i
+P(X
+i
+)=P(X
+i
+=x
+i
+) = Probability of X taking the value x.
+Note that the expected can be a forecast (looking into the future) or the true value of the
+population mean.
+The sample mean differs from the expected value. The sample mean is a central value for a
+specific set of observations, calculated as an equally weighted average of those observations.
+Example: Calculating Expected Value
+An analyst anticipates the following returns from an asset:
+Return Probability
+5% 65%
+7% 25%
+8% 10%
+109
+© 2014-2024 AnalystPrep.The expected value of the investment is closest to:
+Solution
+Recall that,
+n
+E(X) =∑ P(X)X
+i i
+i=1
+=0.05×0.65+0.07×0.25+0.10×0.08
+=0.0325+0.0175+0.008
+=0.058=5.8%
+Variance and Standard Deviation
+Consider expected value as a forecast of the outcome of an investment. Then, variance and
+standard deviation measure the risk of an investment. That is the dispersion of outcomes around
+the mean.
+The variance of a random variable is the expected value (the probability-weighted average) of
+squared deviations from the random variable's expected value. Denoted by σ2(X) or Var(X), its
+formula is given by:
+Var(X)=E[X−E(X)]2
+=P(X
+1
+)[X
+1
+−E(X)]2 +P(X
+2
+)[X
+2
+−E(X)]2+⋯
++P(X )[X −E(X)]2
+n n
+n
+⇒ Var(X)=∑ P(X
+i
+)[X
+i
+−E(X)]2
+i=1
+Since variance is in squared terms, it can take any number greater than or equal to
+0(Var(X) ≥0). Intuitively, if Var(X) =0, there is no risk (dispersion). On the other hand, if
+Var(X) >0, it signifies the dispersion of outcomes.
+Moreover, Var(X) is a quantity given in square units of X. That is, if the X is given in percentage,
+then Var(X) is given in squared percentage.
+The standard deviation is the square root of variance:
+110
+© 2014-2024 AnalystPrep.σ(X)=√σ2(X) =√Var(X)
+The standard deviation is given in the same units as the random variance; hence it is easy to
+interpret.
+111
+© 2014-2024 AnalystPrep.Question
+An analyst anticipates the following returns from an asset:
+Return Probability
+5% 65%
+7% 25%
+8% 10%
+The variance and standard deviation of the investment are closest to:
+Solution
+We know that,
+n
+Var(X) =∑ P(X
+i
+)[X
+i
+−E(X)]2
+i=1
+=0.65(0.05−0.058)2+0.25(0.07−0.058)2
++0.10(0.08−0.058)2
+=0.000126
+For standard deviation,
+σ(X) =√Var(X) =√0.000126 =0.0112
+112
+© 2014-2024 AnalystPrep.LOS 4b: Formulate an investment problem as a probability tree and
+explain the use of conditional expectations in investment application
+A tree diagram is a visual representation of all possible future outcomes and the associated
+probabilities of a random variable. Tree diagrams are handy when we have several possible
+outcomes.
+They facilitate the recording of all the possibilities in a clear, uncomplicated manner. Each
+branch in a tree diagram represents an outcome.
+Example: Probability Tree
+Let's consider a scenario where we toss a fair coin twice. The outcomes of these tosses are
+independent, meaning the first toss doesn't influence the second one.
+For the first toss, we have two possibilities: It can result in either a head or a tail. Similarly, we
+still have the same two possibilities for the second toss: head or tail. Importantly, the outcome of
+the second toss is not affected by what happened in the first toss because coins don't have
+memory.
+We can visualize these probabilities using a tree diagram like this:
+113
+© 2014-2024 AnalystPrep.Please, note the following:
+The tree diagram must include all the possible outcomes.
+The sum of the probabilities must add up to 1.
+The number of branches is the number of different possibilities.
+The numbers on the branches present probabilities.
+To calculate probabilities, we follow the tree branches from left to right and multiply any
+probabilities we encounter.
+So, to find the probability of getting two heads (HH), we multiply the probabilities along the
+path.
+1 1 1
+114
+© 2014-2024 AnalystPrep.1 1 1
+P(HH)= × =
+2 2 4
+If we sum up the probabilities of all possibilities, we get 1.
+Conditional Expectations
+In investments, conditional expectation means predicting the expected value of an investment
+based on specific real-world events. Analysts consider the probability and impact of future events
+when calculating this value.
+Competitors, governments, and other financial institutions keep releasing new information. Such
+pieces of information may have a positive or a negative impact on investment. This means that a
+project's expected value must be based on real-world dynamics.
+In statistics, the conditional expected value is the expected value of a random variable X given an
+event or scenario S, denoted by E(X∣S).
+Now, assume that X can take on any of n different outcomes X ,X ,…,X , which are outcomes
+1 2 n
+from a set of mutually exclusive and exhaustive events. Then,
+E(X∣ S) =X
+1
+⋅P(X
+1
+∣ S)+X
+2
+⋅P(X
+2
+∣ S)+⋯+X
+n
+⋅P(X
+n
+∣ S)
+n
+=∑ X
+i
+⋅P(X
+i
+∣S)
+i=1
+Stating Unconditional Expected Value in Terms of Conditional
+Expected Value
+To state the unconditional expected values in terms of conditional expected value, we use the
+total probability rule for expected value, which is built from the following formula:
+E(X) =P(S)⋅E(X∣ S)+P(SC) ⋅E(X∣SC)
+Where SC is the complement (event or scenario “S” does not occur) of S.
+115
+© 2014-2024 AnalystPrep.Now assume that S can take on any of S 1,S 2,…,S
+n
+mutually exclusive and exhaustive scenarios
+or events, then.
+E(X) =P(S
+1
+) ⋅E(X∣S
+1
+)+P(S
+2
+)⋅E(X∣S
+2
+)+⋯+P(S
+n
+)⋅E(X∣ S
+n
+)
+n
+=∑ P(S
+i
+)⋅E(X∣ S
+i
+)
+i=1
+Example: Conditional Expectation
+The probability of relaxed trade restrictions in a given country is 40%. Therefore, shareholders of
+XYZ Company Limited expect a 5% share return if trade restrictions are maintained and a loss of
+8% if they are relaxed. The expected change in return is closest to:
+Solution
+We must take every possibility into account. We have a 40% chance of relaxed trade restrictions
+in this case. Intuitively, this means there is a 60% chance that the current restrictions will be
+maintained. Therefore:
+n
+E(X)=∑ P(S)⋅E(X∣S )
+i i
+i=1
+=0.6(0.05) ×0.4(−0.08)
+=−0.002
+Example: Total Probability Rule for Expected Value
+BlueChip Inc.'s profits are sensitive to economic growth, benefitting significantly during periods
+of high economic growth. Suppose there is a 0.70 probability that BlueChip Inc. will operate in a
+high-growth economic environment in the next fiscal year and a 0.30 probability that it will
+operate in a moderate-growth environment. Assume that the chance of a recession is negligible.
+If a high-growth economic environment occurs, the probability that EPS will be USD 3.00 is
+estimated at 0.40, and the probability that EPS will be USD 2.80 is estimated at 0.60.
+On the other hand, if the company operates in a moderate-growth environment, the probabilities
+that the EPS will be USD 2.50 and USD 2.25 are 20% and 80%, respectively.
+116
+© 2014-2024 AnalystPrep.Calculate the expected value of EPS for BlueChip Inc. in the next fiscal year.
+Solution
+We start by drawing a probability tree:
+We first need to calculate the conditional expectations of EPS for each scenario: High-growth
+environment and moderate-growth environment. That is,
+E(EPS ∣ High-growth environment)=0.40×3.00+0.60×2.80
+=USD 2.88
+E(EPS ∣Moderate-growth environment)=0.20×2.50+0.80×2.25
+=USD 2.30
+Using the total probability for the expected value, we have:
+117
+© 2014-2024 AnalystPrep.E(EPS) =P(High-growth environment)
+⋅E(EPS ∣High-growth environment)
++P(High-growth environment)
+⋅E(EPS?Moderate-growth environment)
+=0.70×2.88+0.30×2.30
+=USD 2.71
+118
+© 2014-2024 AnalystPrep.Question 1
+Someone picks a card from an ordinary pack of 52 playing cards without
+replacement. He then picks another one. Draw a probability tree and use it to
+calculate the probability of picking two red cards.
+A. 25.
+102
+B. 13.
+51
+C. 26.
+51
+Solution
+The correct answer is A.
+119
+© 2014-2024 AnalystPrep.Question 2
+There is a 20% chance that the government will impose a tariff on imported cars. A
+company that assembles cars locally expects returns of 14% if the tariff is imposed
+and returns of 11% otherwise. The (unconditional) expected return is closest to:
+A. 11.6%.
+B. 12.8%.
+C. 12.5%.
+Solution
+The correct answer is A.
+The unconditional expected return will be the sum of:
+1. The expected return given no tariff times the probability that a tariff
+will not be imposed.
+2. The expected return given tariff times the probability that the tariff
+will be imposed. Therefore,
+n
+E(X)=∑ P(S
+i
+)+E(X ∣S
+i
+)
+i=1
+=0.11(0.8) +0.14(0.2)
+=0.116 =11.6%
+120
+© 2014-2024 AnalystPrep.LOS 4c: calculate and interpret an updated probability in an investment
+setting using Bayes’ formula
+Investors make investment decisions based on their experience and expertise. Their decisions
+may change in the wake of new knowledge and observations.
+Bayes' formula allows us to update our decisions as we receive new information. In other words,
+Bayes' formula is used to calculate an updated or posterior probability given a set of prior
+probabilities for a given event.
+Given a set of prior probabilities for an event, if we receive new information, the updated
+probability is as follows:
+Probability of the new information given event
+Updated probability of an event given the new information=
+Unconditional probability of the new information
+×Prior probability of event.
+The above equation can be written as:
+P(Information ∣ Event)
+P(Event∣ Information)= ⋅P(Event)
+P(Information)
+Deriving Bayes' Formula
+Let B ,B ,B ,…,B be a set of mutually exclusive and exhaustive events.
+1 2 3 n
+Using the conditional probability:
+P(B ∩A)
+i
+P(B i ∣ A) = ……(1)
+P(A)
+And also, the relationship:
+P(B
+i
+∩A) =P(A∩B
+i
+)= P(B
+i
+)⋅P(A∣B
+i
+)……(2)
+Also, using the total probability rule:
+121
+© 2014-2024 AnalystPrep.n n
+P(A) =∑ P(A∩B i ) =∑ P(B i ) ⋅P(A∣ B i )……(3)
+i=1 i=1
+Substituting equations (2) and (3) in (1), we have:
+(P(A∣B)
+i
+P(B
+i
+∣A)= ⋅P(B
+i
+)
+∑n P(B)⋅P(A∣ B)
+i=1 i i
+This is the Bayes' formula, and it allows us to ‘turnaround’ conditional probabilities, i.e., we can
+calculate P(B ∣A) if given information only about P(A∣B ).
+i i
+Note that:
+1. P(B) are known as prior probabilities.
+i
+2. Event A is some event known to have occurred.
+3. P(B ∣A) is the posterior probability.
+i
+Example: Bayes' Formula
+An Investment Analyst wishes to investigate the performance of stocks by considering a number
+of stocks listed on different exchanges. In the sample, 50% of stocks were listed on the New York
+Stock Exchange (NYSE), 30% on the London Stock Exchange (LSE), and 20% on the Tokyo Stock
+Exchange (TSE).
+The probability of a stock posting a negative return on the NYSE, LSE, and TSE is 40%, 35%, and
+25%, respectively.
+If the Analyst picks a stock at random from this group, what is the probability that it has a
+negative return on the NYSE?
+Solution
+We are looking for P(NYSE | Negative Return).
+Let’s define the following events:
+NYSE is the event “A stock chosen at random is listed on the NYSE.”
+122
+© 2014-2024 AnalystPrep.LSE is the event “A stock chosen at random is listed on the LSE.”
+TSE is the event “A stock chosen at random is listed on the TSE.”
+Finally, let NR be the event “A randomly chosen stock posts a negative return.”
+Therefore,
+P(NYSE)P(NR|NYSE)
+P(NYSE|NR) =
+P (NYSE)P(NR|NYSE)+P(LSE)P (NR|LSE)+P(TSE)P(NR|TSE)
+0.5×0.4
+=
+0.5×0.4+0.3×0.35+0.2×0.25
+0.2
+=
+0.355
+=0.5634 ≈56.3%
+123
+© 2014-2024 AnalystPrep.Question
+You have developed a set of criteria for assessing potential investments in growth-
+stage companies. Companies not meeting these criteria are predicted to be insolvent
+within 24 months. You gathered the following information when validating your
+criteria:
+Fifty percent of the companies that have been assessed will become
+insolvent within 24 months: P(insolvency) =0.50.
+Sixty-five percent of the companies assessed meet the criteria:
+P(meet criteria)=0.65.
+The probability that a company will meet the criteria given that it remains
+solvent for 24 months is 0.80: P(meet criteria∣ solvency) =0.80.
+The probability that a company will remain solvent, given that it meets the criteria,
+that is, P(solvency∣ meet criteria), is closest to:
+A. 20%.
+B. 50%.
+C. 62%.
+Solution
+Using Bayes' formula, we have:
+P(solvency ∣meet criteria)
+P(meet criteria ∣solvency)P(solvency)
+=
+[P(meet criteria ∣solvency)P(solvency)
++P(meet criteria∣ insolvency)P(insolvency)]
+0.80×0.50
+=
+0.80×0.50+P(meet criteria ∣ insolvency)×0.50
+Clearly, we need to calculate the P(meet criteria ∣insolvency). Using the total
+probability:
+124
+© 2014-2024 AnalystPrep.P(meet criteria)=P(meet criteria ∣solvency)P(solvency)
++P(meet criteria ∣insolvency)P(insolvency)
+⇒0.65=0.80×0.50+P(meet criteria ∣ insolvency)×0.50
+0.65−0.80×0.50
+∴P(meet criteria∣ insolvency) = =0.50
+0.50
+As such,
+0.80×0.50
+P(solvency ∣meet criteria) = =0.6153 ≈62%
+0.80×0.50+0.50×0.50
+125
+© 2014-2024 AnalystPrep.

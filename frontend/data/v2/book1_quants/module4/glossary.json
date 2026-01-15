@@ -1,3 +1,291 @@
 {
-  "terms": []
+  "book_id": 1,
+  "book_code": "QM",
+  "book_name": "Quantitative Methods",
+  "book_name_ru": "Количественные методы",
+
+  "module_id": 4,
+  "module_name": "Probability Trees and Conditional Expectations",
+  "module_name_ru": "Деревья вероятностей и условные ожидания",
+
+  "los_list": ["LOS_4a", "LOS_4b", "LOS_4c"],
+  "total_terms": 18,
+
+  "terms": [
+    {
+      "term_id": "QM-4-001",
+      "term_en": "Expected Value (Expected Return)",
+      "term_ru": "Ожидаемое значение (ожидаемая доходность)",
+      "definition_en": "The probability-weighted average of all possible outcomes of a random variable. Used by investors to estimate investment returns. Can be a forecast (looking into the future) or the true value of the population mean.",
+      "definition_ru": "Взвешенное по вероятности среднее всех возможных исходов случайной величины. Используется инвесторами для оценки доходности инвестиций. Может быть прогнозом (взгляд в будущее) или истинным значением среднего генеральной совокупности.",
+      "formula": "$E(X) = \\sum_{i=1}^{n}P(X_i)X_i$",
+      "los_id": "LOS_4a",
+      "calculator": {
+        "method": "Direct Calculation",
+        "steps": [
+          "For each outcome i:",
+          "Multiply probability P(Xi) by outcome Xi",
+          "Sum all products: P(X1)×X1 + P(X2)×X2 + ... + P(Xn)×Xn",
+          "Result: Expected value E(X)"
+        ],
+        "example": {
+          "given": "Returns: 5% (p=65%), 7% (p=25%), 8% (p=10%)",
+          "input": "0.05×0.65 + 0.07×0.25 + 0.08×0.10",
+          "result": "E(X) = 5.8%"
+        }
+      }
+    },
+    {
+      "term_id": "QM-4-002",
+      "term_en": "Random Variable",
+      "term_ru": "Случайная величина",
+      "definition_en": "A variable whose value is uncertain and depends on chance. In finance, represents uncertain outcomes such as investment returns, stock prices, or economic indicators. Can be discrete (specific values) or continuous (range of values).",
+      "definition_ru": "Переменная, значение которой неопределенно и зависит от случая. В финансах представляет неопределенные исходы, такие как доходность инвестиций, цены акций или экономические показатели. Может быть дискретной (конкретные значения) или непрерывной (диапазон значений).",
+      "formula": null,
+      "los_id": "LOS_4a",
+      "calculator": null
+    },
+    {
+      "term_id": "QM-4-003",
+      "term_en": "Variance of Random Variable",
+      "term_ru": "Дисперсия случайной величины",
+      "definition_en": "The expected value (probability-weighted average) of squared deviations from the random variable's expected value. Measures the risk or dispersion of outcomes around the mean. Always non-negative (Var(X) ≥ 0). Given in squared units.",
+      "definition_ru": "Ожидаемое значение (взвешенное по вероятности среднее) квадратов отклонений от ожидаемого значения случайной величины. Измеряет риск или разброс исходов вокруг среднего. Всегда неотрицательна (Var(X) ≥ 0). Дается в квадратных единицах.",
+      "formula": "$Var(X) = E[X - E(X)]^2 = \\sum_{i=1}^{n}P(X_i)[X_i - E(X)]^2$",
+      "los_id": "LOS_4a",
+      "calculator": {
+        "method": "Direct Calculation",
+        "steps": [
+          "Calculate expected value E(X) first",
+          "For each outcome i:",
+          "Calculate deviation: Xi - E(X)",
+          "Square the deviation: [Xi - E(X)]²",
+          "Multiply by probability: P(Xi) × [Xi - E(X)]²",
+          "Sum all products",
+          "Result: Variance Var(X)"
+        ],
+        "example": {
+          "given": "Returns: 5% (p=65%), 7% (p=25%), 8% (p=10%), E(X)=5.8%",
+          "input": "0.65(0.05-0.058)² + 0.25(0.07-0.058)² + 0.10(0.08-0.058)²",
+          "result": "Var(X) = 0.000126"
+        }
+      }
+    },
+    {
+      "term_id": "QM-4-004",
+      "term_en": "Standard Deviation of Random Variable",
+      "term_ru": "Среднеквадратическое отклонение случайной величины",
+      "definition_en": "The positive square root of variance. Measures risk or dispersion of outcomes in the same units as the original random variable, making it easier to interpret than variance. Commonly used to quantify investment risk.",
+      "definition_ru": "Положительный квадратный корень из дисперсии. Измеряет риск или разброс исходов в тех же единицах, что и исходная случайная величина, что делает его более легким для интерпретации, чем дисперсия. Обычно используется для количественной оценки инвестиционного риска.",
+      "formula": "$\\sigma(X) = \\sqrt{Var(X)} = \\sqrt{\\sum_{i=1}^{n}P(X_i)[X_i - E(X)]^2}$",
+      "los_id": "LOS_4a",
+      "calculator": {
+        "method": "Direct Calculation",
+        "steps": [
+          "Calculate variance Var(X) first",
+          "Take the square root: √Var(X)",
+          "Result: Standard deviation σ(X)"
+        ],
+        "example": {
+          "given": "Var(X) = 0.000126",
+          "input": "√0.000126",
+          "result": "σ(X) = 0.0112 or 1.12%"
+        }
+      }
+    },
+    {
+      "term_id": "QM-4-005",
+      "term_en": "Sample Mean vs Expected Value",
+      "term_ru": "Выборочное среднее против ожидаемого значения",
+      "definition_en": "The sample mean is a central value for a specific set of observations, calculated as an equally weighted average. The expected value is probability-weighted and can be a forecast or true population mean. Sample mean uses observed data; expected value uses probabilities.",
+      "definition_ru": "Выборочное среднее - это центральное значение для конкретного набора наблюдений, рассчитанное как равновзвешенное среднее. Ожидаемое значение взвешено по вероятности и может быть прогнозом или истинным средним генеральной совокупности. Выборочное среднее использует наблюдаемые данные; ожидаемое значение использует вероятности.",
+      "formula": "Sample mean: $\\bar{X} = \\frac{\\sum X_i}{n}$; Expected value: $E(X) = \\sum P(X_i)X_i$",
+      "los_id": "LOS_4a",
+      "calculator": null
+    },
+    {
+      "term_id": "QM-4-006",
+      "term_en": "Probability Tree (Tree Diagram)",
+      "term_ru": "Дерево вероятностей (древовидная диаграмма)",
+      "definition_en": "A visual representation of all possible future outcomes and their associated probabilities for a random variable. Each branch represents an outcome. Useful when there are multiple stages or sequential events. Must include all outcomes; probabilities sum to 1.",
+      "definition_ru": "Визуальное представление всех возможных будущих исходов и связанных с ними вероятностей для случайной величины. Каждая ветвь представляет исход. Полезно, когда есть несколько этапов или последовательные события. Должно включать все исходы; вероятности в сумме дают 1.",
+      "formula": "Joint probability: Multiply along branches from left to right",
+      "los_id": "LOS_4b",
+      "calculator": null
+    },
+    {
+      "term_id": "QM-4-007",
+      "term_en": "Joint Probability (Multiplication Rule)",
+      "term_ru": "Совместная вероятность (правило умножения)",
+      "definition_en": "The probability that two or more events occur together. Calculated by multiplying probabilities along the path of a tree diagram from left to right. For independent events: P(A∩B) = P(A)×P(B).",
+      "definition_ru": "Вероятность того, что два или более событий происходят вместе. Рассчитывается путем умножения вероятностей вдоль пути древовидной диаграммы слева направо. Для независимых событий: P(A∩B) = P(A)×P(B).",
+      "formula": "$P(A \\cap B) = P(A) \\times P(B|A)$ (general); $P(A \\cap B) = P(A) \\times P(B)$ (independent)",
+      "los_id": "LOS_4b",
+      "calculator": {
+        "method": "Direct Calculation",
+        "steps": [
+          "Identify the path through the tree",
+          "Multiply all probabilities along the path",
+          "Result: Joint probability"
+        ],
+        "example": {
+          "given": "Two coin tosses: P(H) = 0.5 each toss",
+          "input": "P(HH) = 0.5 × 0.5",
+          "result": "P(HH) = 0.25"
+        }
+      }
+    },
+    {
+      "term_id": "QM-4-008",
+      "term_en": "Mutually Exclusive Events",
+      "term_ru": "Взаимоисключающие события",
+      "definition_en": "Events that cannot occur simultaneously. If one event occurs, the others cannot. The probability of both occurring is zero: P(A∩B) = 0. Important for probability trees where branches represent distinct outcomes.",
+      "definition_ru": "События, которые не могут произойти одновременно. Если происходит одно событие, другие не могут. Вероятность обоих равна нулю: P(A∩B) = 0. Важно для деревьев вероятностей, где ветви представляют отдельные исходы.",
+      "formula": "$P(A \\cap B) = 0$; $P(A \\cup B) = P(A) + P(B)$",
+      "los_id": "LOS_4b",
+      "calculator": null
+    },
+    {
+      "term_id": "QM-4-009",
+      "term_en": "Exhaustive Events",
+      "term_ru": "Исчерпывающие события",
+      "definition_en": "A set of events that covers all possible outcomes. At least one of the events must occur. The sum of their probabilities equals 1. Essential for complete probability trees and scenarios.",
+      "definition_ru": "Набор событий, который охватывает все возможные исходы. Хотя бы одно из событий должно произойти. Сумма их вероятностей равна 1. Существенно для полных деревьев вероятностей и сценариев.",
+      "formula": "$\\sum_{i=1}^{n}P(S_i) = 1$ for exhaustive scenarios $S_1, S_2, ..., S_n$",
+      "los_id": "LOS_4b",
+      "calculator": null
+    },
+    {
+      "term_id": "QM-4-010",
+      "term_en": "Conditional Expectation",
+      "term_ru": "Условное ожидание",
+      "definition_en": "The expected value of a random variable X given that a specific event or scenario S has occurred, denoted E(X|S). Used in investments to predict expected returns based on real-world events like policy changes or market conditions.",
+      "definition_ru": "Ожидаемое значение случайной величины X при условии, что произошло конкретное событие или сценарий S, обозначается E(X|S). Используется в инвестициях для прогнозирования ожидаемой доходности на основе реальных событий, таких как изменения политики или рыночные условия.",
+      "formula": "$E(X|S) = \\sum_{i=1}^{n}X_i \\cdot P(X_i|S)$",
+      "los_id": "LOS_4b",
+      "calculator": {
+        "method": "Direct Calculation",
+        "steps": [
+          "Identify the scenario S that has occurred",
+          "For each outcome Xi conditional on S:",
+          "Multiply Xi by conditional probability P(Xi|S)",
+          "Sum all products",
+          "Result: Conditional expectation E(X|S)"
+        ],
+        "example": {
+          "given": "High-growth scenario: EPS $3.00 (p=0.40), EPS $2.80 (p=0.60)",
+          "input": "E(EPS|High-growth) = 0.40×3.00 + 0.60×2.80",
+          "result": "E(EPS|High-growth) = $2.88"
+        }
+      }
+    },
+    {
+      "term_id": "QM-4-011",
+      "term_en": "Unconditional Expected Value",
+      "term_ru": "Безусловное ожидаемое значение",
+      "definition_en": "The overall expected value of a random variable considering all possible scenarios, without conditioning on any specific event. Calculated using the total probability rule by weighting conditional expectations by scenario probabilities.",
+      "definition_ru": "Общее ожидаемое значение случайной величины с учетом всех возможных сценариев, без условия на какое-либо конкретное событие. Рассчитывается с использованием правила полной вероятности путем взвешивания условных ожиданий по вероятностям сценариев.",
+      "formula": "$E(X) = \\sum_{i=1}^{n}P(S_i) \\cdot E(X|S_i)$",
+      "los_id": "LOS_4b",
+      "calculator": {
+        "method": "Total Probability Rule",
+        "steps": [
+          "Calculate conditional expectation E(X|Si) for each scenario",
+          "Multiply each by scenario probability P(Si)",
+          "Sum all products: ΣP(Si)×E(X|Si)",
+          "Result: Unconditional expected value E(X)"
+        ],
+        "example": {
+          "given": "High-growth (p=0.70, E=2.88), Moderate-growth (p=0.30, E=2.30)",
+          "input": "E(EPS) = 0.70×2.88 + 0.30×2.30",
+          "result": "E(EPS) = $2.71"
+        }
+      }
+    },
+    {
+      "term_id": "QM-4-012",
+      "term_en": "Total Probability Rule for Expected Value",
+      "term_ru": "Правило полной вероятности для ожидаемого значения",
+      "definition_en": "A formula to express unconditional expected value in terms of conditional expected values. States that E(X) equals the sum of conditional expectations weighted by the probabilities of each scenario occurring.",
+      "definition_ru": "Формула для выражения безусловного ожидаемого значения через условные ожидаемые значения. Утверждает, что E(X) равно сумме условных ожиданий, взвешенных по вероятностям возникновения каждого сценария.",
+      "formula": "$E(X) = P(S)\\cdot E(X|S) + P(S^C)\\cdot E(X|S^C)$ or $E(X) = \\sum_{i=1}^{n}P(S_i)\\cdot E(X|S_i)$",
+      "los_id": "LOS_4b",
+      "calculator": null
+    },
+    {
+      "term_id": "QM-4-013",
+      "term_en": "Complement Event",
+      "term_ru": "Дополнительное событие",
+      "definition_en": "The event that a specific event S does not occur, denoted Sᶜ or S'. If P(S) is the probability that event S occurs, then P(Sᶜ) = 1 - P(S). Used in calculating unconditional probabilities and expectations.",
+      "definition_ru": "Событие, что конкретное событие S не происходит, обозначается Sᶜ или S'. Если P(S) - вероятность того, что событие S произойдет, то P(Sᶜ) = 1 - P(S). Используется при расчете безусловных вероятностей и ожиданий.",
+      "formula": "$P(S^C) = 1 - P(S)$; $P(S) + P(S^C) = 1$",
+      "los_id": "LOS_4b",
+      "calculator": null
+    },
+    {
+      "term_id": "QM-4-014",
+      "term_en": "Bayes' Formula (Bayes' Theorem)",
+      "term_ru": "Формула Байеса (теорема Байеса)",
+      "definition_en": "A formula to calculate updated (posterior) probabilities given a set of prior probabilities and new information. Allows investors to revise decisions as new data becomes available. 'Turnarounds' conditional probabilities: calculates P(B|A) from P(A|B).",
+      "definition_ru": "Формула для расчета обновленных (апостериорных) вероятностей при заданном наборе априорных вероятностей и новой информации. Позволяет инвесторам пересматривать решения по мере поступления новых данных. 'Разворачивает' условные вероятности: рассчитывает P(B|A) из P(A|B).",
+      "formula": "$P(B_i|A) = \\frac{P(A|B_i) \\cdot P(B_i)}{\\sum_{i=1}^{n}P(B_i) \\cdot P(A|B_i)}$",
+      "los_id": "LOS_4c",
+      "calculator": {
+        "method": "Direct Calculation",
+        "steps": [
+          "Identify: P(Bi) = prior probabilities",
+          "Identify: P(A|Bi) = likelihood of A given Bi",
+          "Calculate numerator: P(A|Bi) × P(Bi)",
+          "Calculate denominator: Σ[P(Bj) × P(A|Bj)] for all j",
+          "Divide: Numerator ÷ Denominator",
+          "Result: Posterior probability P(Bi|A)"
+        ],
+        "example": {
+          "given": "NYSE: P=0.5, P(NR|NYSE)=0.4; LSE: P=0.3, P(NR|LSE)=0.35; TSE: P=0.2, P(NR|TSE)=0.25",
+          "input": "P(NYSE|NR) = (0.5×0.4) / (0.5×0.4 + 0.3×0.35 + 0.2×0.25)",
+          "result": "P(NYSE|NR) = 0.2/0.355 = 56.3%"
+        }
+      }
+    },
+    {
+      "term_id": "QM-4-015",
+      "term_en": "Prior Probability",
+      "term_ru": "Априорная вероятность",
+      "definition_en": "The initial probability assessment before receiving new information. Denoted P(Bi). Represents beliefs or knowledge about the likelihood of events before considering additional evidence. Updated using Bayes' formula when new data arrives.",
+      "definition_ru": "Начальная оценка вероятности до получения новой информации. Обозначается P(Bi). Представляет убеждения или знания о вероятности событий до рассмотрения дополнительных доказательств. Обновляется с помощью формулы Байеса при поступлении новых данных.",
+      "formula": "Denoted $P(B_i)$ in Bayes' formula",
+      "los_id": "LOS_4c",
+      "calculator": null
+    },
+    {
+      "term_id": "QM-4-016",
+      "term_en": "Posterior Probability (Updated Probability)",
+      "term_ru": "Апостериорная вероятность (обновленная вероятность)",
+      "definition_en": "The revised probability of an event after considering new information. Calculated using Bayes' formula. Represents updated beliefs that combine prior probabilities with new evidence. Used to make better-informed investment decisions.",
+      "definition_ru": "Пересмотренная вероятность события после рассмотрения новой информации. Рассчитывается с использованием формулы Байеса. Представляет обновленные убеждения, которые сочетают априорные вероятности с новыми доказательствами. Используется для принятия более обоснованных инвестиционных решений.",
+      "formula": "Denoted $P(B_i|A)$ in Bayes' formula - probability of Bi given new information A",
+      "los_id": "LOS_4c",
+      "calculator": null
+    },
+    {
+      "term_id": "QM-4-017",
+      "term_en": "Likelihood",
+      "term_ru": "Правдоподобие",
+      "definition_en": "In Bayes' formula, the probability of observing the new information (event A) given that a specific scenario (Bi) is true. Denoted P(A|Bi). Measures how consistent the new data is with each possible scenario.",
+      "definition_ru": "В формуле Байеса - вероятность наблюдения новой информации (событие A) при условии, что конкретный сценарий (Bi) истинен. Обозначается P(A|Bi). Измеряет, насколько новые данные согласуются с каждым возможным сценарием.",
+      "formula": "Denoted $P(A|B_i)$ - appears in numerator of Bayes' formula",
+      "los_id": "LOS_4c",
+      "calculator": null
+    },
+    {
+      "term_id": "QM-4-018",
+      "term_en": "Total Probability Rule",
+      "term_ru": "Правило полной вероятности",
+      "definition_en": "A rule stating that the unconditional probability of an event A equals the sum of probabilities of A occurring under each mutually exclusive and exhaustive scenario, weighted by scenario probabilities. Foundation for Bayes' formula denominator.",
+      "definition_ru": "Правило, утверждающее, что безусловная вероятность события A равна сумме вероятностей возникновения A при каждом взаимоисключающем и исчерпывающем сценарии, взвешенной по вероятностям сценариев. Основа для знаменателя формулы Байеса.",
+      "formula": "$P(A) = \\sum_{i=1}^{n}P(B_i) \\cdot P(A|B_i)$ for mutually exclusive and exhaustive events Bi",
+      "los_id": "LOS_4c",
+      "calculator": null
+    }
+  ]
 }
