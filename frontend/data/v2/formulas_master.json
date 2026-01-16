@@ -109,6 +109,7 @@
       "description": "Gross Domestic Product calculated using the expenditure approach.",
       "description_ru": "Валовой внутренний продукт, рассчитанный методом расходов.",
       "calculator_category": "none",
+      "calculator_template": null,
       "calculator_note": "Простое сложение: C + I + G + (X - M)",
       "variables": [
         {
@@ -187,6 +188,7 @@
       "description": "The P/E ratio measures how much investors are willing to pay per dollar of earnings.",
       "description_ru": "Коэффициент P/E показывает, сколько инвесторы готовы заплатить за доллар прибыли.",
       "calculator_category": "none",
+      "calculator_template": null,
       "calculator_note": "Простое деление: Price ÷ EPS",
       "variables": [
         {
@@ -211,6 +213,7 @@
       "description": "The Sharpe ratio measures risk-adjusted return.",
       "description_ru": "Коэффициент Шарпа измеряет доходность с поправкой на риск.",
       "calculator_category": "none",
+      "calculator_template": null,
       "calculator_note": "(Rp - Rf) ÷ σp",
       "variables": [
         {
@@ -240,6 +243,7 @@
       "description": "Measures a company's ability to pay short-term obligations.",
       "description_ru": "Измеряет способность компании погашать краткосрочные обязательства.",
       "calculator_category": "none",
+      "calculator_template": null,
       "calculator_note": "Простое деление: Current Assets ÷ Current Liabilities",
       "variables": [
         {
@@ -264,6 +268,7 @@
       "description": "Black-Scholes formula for European call option pricing.",
       "description_ru": "Формула Блэка-Шоулза для оценки европейского опциона колл.",
       "calculator_category": "complex",
+      "calculator_template": null,
       "variables": [
         {
           "symbol": "C",
