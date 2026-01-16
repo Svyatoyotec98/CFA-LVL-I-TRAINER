@@ -1307,7 +1307,6 @@ function filterGlossary() {
 
 // ============== Formulas ==============
 let formulasData = [];
-let calculatorTemplates = {};
 
 async function loadFormulas() {
     try {
