@@ -8,6 +8,8 @@
       "category": "Statistics",
       "formula": "\\bar{X} = \\frac{\\sum_{i=1}^{n} X_i}{n}",
       "description": "The arithmetic mean is the sum of all values divided by the number of values.",
+      "calculator_category": "worksheet",
+      "calculator_template": "STAT_mean",
       "variables": [
         {
           "symbol": "\\bar{X}",
@@ -35,6 +37,8 @@
       "category": "Statistics",
       "formula": "s^2 = \\frac{\\sum_{i=1}^{n} (X_i - \\bar{X})^2}{n-1}",
       "description": "Sample variance measures the dispersion of data points around the mean.",
+      "calculator_category": "worksheet",
+      "calculator_template": "STAT_variance",
       "variables": [
         {
           "symbol": "s^2",
@@ -66,6 +70,8 @@
       "category": "Time Value of Money",
       "formula": "FV = PV \\times (1 + r)^n",
       "description": "Future value of a single sum compounded at rate r for n periods.",
+      "calculator_category": "worksheet",
+      "calculator_template": "TVM_FV",
       "variables": [
         {
           "symbol": "FV",
@@ -98,6 +104,8 @@
       "category": "Economics",
       "formula": "GDP = C + I + G + (X - M)",
       "description": "Gross Domestic Product calculated using the expenditure approach.",
+      "calculator_category": "none",
+      "calculator_note": "Простое сложение: C + I + G + (X - M)",
       "variables": [
         {
           "symbol": "C",
@@ -134,6 +142,8 @@
       "category": "Fixed Income",
       "formula": "P = \\frac{C}{(1+r)^1} + \\frac{C}{(1+r)^2} + \\cdots + \\frac{C + FV}{(1+r)^n}",
       "description": "Price of a bond is the present value of all future cash flows (coupons and face value).",
+      "calculator_category": "worksheet",
+      "calculator_template": "BOND_price",
       "variables": [
         {
           "symbol": "P",
@@ -170,6 +180,8 @@
       "category": "Equity Valuation",
       "formula": "P/E = \\frac{\\text{Price per Share}}{\\text{EPS}}",
       "description": "The P/E ratio measures how much investors are willing to pay per dollar of earnings.",
+      "calculator_category": "none",
+      "calculator_note": "Простое деление: Price ÷ EPS",
       "variables": [
         {
           "symbol": "P/E",
@@ -191,6 +203,8 @@
       "category": "Portfolio Performance",
       "formula": "\\text{Sharpe Ratio} = \\frac{R_p - R_f}{\\sigma_p}",
       "description": "The Sharpe ratio measures risk-adjusted return.",
+      "calculator_category": "none",
+      "calculator_note": "(Rp - Rf) ÷ σp",
       "variables": [
         {
           "symbol": "R_p",
@@ -217,6 +231,8 @@
       "category": "Financial Ratios",
       "formula": "\\text{Current Ratio} = \\frac{\\text{Current Assets}}{\\text{Current Liabilities}}",
       "description": "Measures a company's ability to pay short-term obligations.",
+      "calculator_category": "none",
+      "calculator_note": "Простое деление: Current Assets ÷ Current Liabilities",
       "variables": [
         {
           "symbol": "Current Assets",
@@ -238,6 +254,7 @@
       "category": "Options",
       "formula": "C = S_0 N(d_1) - X e^{-rT} N(d_2)",
       "description": "Black-Scholes formula for European call option pricing.",
+      "calculator_category": "complex",
       "variables": [
         {
           "symbol": "C",
