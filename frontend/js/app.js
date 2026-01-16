@@ -1307,6 +1307,9 @@ function filterGlossary() {
 
 // ============== Formulas ==============
 let formulasData = [];
+let currentFormulasPage = 1;
+let formulasPerPage = 5;
+let currentFilteredFormulas = [];
 
 async function loadFormulas() {
     try {
@@ -1321,6 +1324,12 @@ async function loadFormulas() {
         formulasData = formulasData_raw.formulas || [];
         calculatorTemplates = templatesData.templates || {};
 
+        // Load saved page from localStorage
+        const savedPage = localStorage.getItem('formulas_current_page');
+        if (savedPage) {
+            currentFormulasPage = parseInt(savedPage, 10);
+        }
+
         displayFormulas(formulasData);
     } catch (error) {
         console.error('Failed to load formulas:', error);
@@ -1330,12 +1339,35 @@ async function loadFormulas() {
 }
 
 function displayFormulas(formulas) {
+    currentFilteredFormulas = formulas;
     const container = document.getElementById('formulas-list');
     const countEl = document.getElementById('formulas-count');
 
     if (countEl) countEl.textContent = `${formulas.length} формул`;
 
-    container.innerHTML = formulas.map(formula => `
+    // Calculate pagination
+    const totalPages = Math.ceil(formulas.length / formulasPerPage);
+
+    // Ensure current page is valid
+    if (currentFormulasPage > totalPages) {
+        currentFormulasPage = Math.max(1, totalPages);
+    }
+    if (currentFormulasPage < 1) {
+        currentFormulasPage = 1;
+    }
+
+    // Get formulas for current page
+    const startIndex = (currentFormulasPage - 1) * formulasPerPage;
+    const endIndex = startIndex + formulasPerPage;
+    const pageFormulas = formulas.slice(startIndex, endIndex);
+
+    if (pageFormulas.length === 0) {
+        container.innerHTML = '<p class="text-center text-muted">Формулы не найдены</p>';
+        document.getElementById('formulas-pagination').innerHTML = '';
+        return;
+    }
+
+    container.innerHTML = pageFormulas.map(formula => `
         <div class="glossary-item" data-formula-id="${formula.id || ''}">
             <div class="term-header">
                 <div class="term-title">
@@ -1385,6 +1417,9 @@ function displayFormulas(formulas) {
     if (window.MathJax && window.MathJax.typesetPromise) {
         window.MathJax.typesetPromise();
     }
+
+    // Render pagination
+    renderFormulasPagination(totalPages);
 }
 
 function getCalculatorSteps(formula) {
@@ -1484,7 +1519,96 @@ function filterFormulas() {
         );
     }
 
+    // Reset to first page when filtering
+    currentFormulasPage = 1;
     displayFormulas(filtered);
+}
+
+function renderFormulasPagination(totalPages) {
+    const paginationContainer = document.getElementById('formulas-pagination');
+
+    if (totalPages <= 1) {
+        paginationContainer.innerHTML = '';
+        return;
+    }
+
+    let paginationHTML = '<div class="pagination">';
+
+    // Previous button
+    if (currentFormulasPage > 1) {
+        paginationHTML += `<button class="pagination-btn" onclick="prevFormulasPage()">« Назад</button>`;
+    } else {
+        paginationHTML += `<button class="pagination-btn pagination-btn-disabled" disabled>« Назад</button>`;
+    }
+
+    // Page numbers
+    const maxVisiblePages = 7;
+    let startPage = Math.max(1, currentFormulasPage - Math.floor(maxVisiblePages / 2));
+    let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
+
+    if (endPage - startPage < maxVisiblePages - 1) {
+        startPage = Math.max(1, endPage - maxVisiblePages + 1);
+    }
+
+    // First page
+    if (startPage > 1) {
+        paginationHTML += `<button class="pagination-btn" onclick="goToFormulasPage(1)">1</button>`;
+        if (startPage > 2) {
+            paginationHTML += `<span class="pagination-ellipsis">...</span>`;
+        }
+    }
+
+    // Page number buttons
+    for (let i = startPage; i <= endPage; i++) {
+        if (i === currentFormulasPage) {
+            paginationHTML += `<button class="pagination-btn pagination-btn-active">${i}</button>`;
+        } else {
+            paginationHTML += `<button class="pagination-btn" onclick="goToFormulasPage(${i})">${i}</button>`;
+        }
+    }
+
+    // Last page
+    if (endPage < totalPages) {
+        if (endPage < totalPages - 1) {
+            paginationHTML += `<span class="pagination-ellipsis">...</span>`;
+        }
+        paginationHTML += `<button class="pagination-btn" onclick="goToFormulasPage(${totalPages})">${totalPages}</button>`;
+    }
+
+    // Next button
+    if (currentFormulasPage < totalPages) {
+        paginationHTML += `<button class="pagination-btn" onclick="nextFormulasPage()">Вперёд »</button>`;
+    } else {
+        paginationHTML += `<button class="pagination-btn pagination-btn-disabled" disabled>Вперёд »</button>`;
+    }
+
+    paginationHTML += '</div>';
+    paginationContainer.innerHTML = paginationHTML;
+}
+
+function goToFormulasPage(page) {
+    const totalPages = Math.ceil(currentFilteredFormulas.length / formulasPerPage);
+    if (page < 1 || page > totalPages) return;
+
+    currentFormulasPage = page;
+    localStorage.setItem('formulas_current_page', currentFormulasPage);
+    displayFormulas(currentFilteredFormulas);
+
+    // Scroll to top of formulas list
+    document.getElementById('formulas-list').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function nextFormulasPage() {
+    const totalPages = Math.ceil(currentFilteredFormulas.length / formulasPerPage);
+    if (currentFormulasPage < totalPages) {
+        goToFormulasPage(currentFormulasPage + 1);
+    }
+}
+
+function prevFormulasPage() {
+    if (currentFormulasPage > 1) {
+        goToFormulasPage(currentFormulasPage - 1);
+    }
 }
 
 // ============== Statistics ==============
