@@ -1392,12 +1392,15 @@ function getCalculatorSteps(formula) {
     if (!formula.calculator_template) {
         if (formula.calculator_note) {
             return `
-                <div class="calculator-steps">
-                    <div class="calculator-header">
+                <div class="calculator-section collapsed">
+                    <div class="calculator-header" onclick="toggleCalculator(this)">
+                        <span class="calculator-arrow">▶</span>
                         <span class="calculator-icon">🧮</span>
-                        <strong>Калькулятор:</strong>
+                        <strong>Калькулятор</strong>
                     </div>
-                    <div class="calculator-note">${formula.calculator_note}</div>
+                    <div class="calculator-content">
+                        <div class="calculator-note">${formula.calculator_note}</div>
+                    </div>
                 </div>
             `;
         }
@@ -1412,32 +1415,49 @@ function getCalculatorSteps(formula) {
     }
 
     return `
-        <div class="calculator-steps">
-            <div class="calculator-header">
+        <div class="calculator-section collapsed">
+            <div class="calculator-header" onclick="toggleCalculator(this)">
+                <span class="calculator-arrow">▶</span>
                 <span class="calculator-icon">🧮</span>
-                <strong>BA II Plus: ${template.method || ''}</strong>
+                <strong>BA II Plus: ${template.method || ''}${template.access ? ` ${template.access}` : ''}</strong>
             </div>
-            ${template.access ? `<div class="calculator-access"><strong>Доступ:</strong> <code>${template.access}</code></div>` : ''}
-            ${template.steps && template.steps.length > 0 ? `
-                <div class="calculator-steps-list">
-                    <strong>Шаги:</strong>
-                    <ol>
-                        ${template.steps.map(step => `<li>${step}</li>`).join('')}
-                    </ol>
-                </div>
-            ` : ''}
-            ${template.example ? `
-                <div class="calculator-example">
-                    <strong>Пример:</strong>
-                    <div class="example-content">
-                        ${template.example.given ? `<div><strong>Дано:</strong> ${template.example.given}</div>` : ''}
-                        ${template.example.input ? `<div><strong>Ввод:</strong> <code>${template.example.input}</code></div>` : ''}
-                        ${template.example.result ? `<div><strong>Результат:</strong> ${template.example.result}</div>` : ''}
+            <div class="calculator-content">
+                ${template.steps && template.steps.length > 0 ? `
+                    <div class="calculator-steps-list">
+                        <strong>Шаги:</strong>
+                        <ol>
+                            ${template.steps.map(step => `<li>${step}</li>`).join('')}
+                        </ol>
                     </div>
-                </div>
-            ` : ''}
+                ` : ''}
+                ${template.example ? `
+                    <div class="calculator-example">
+                        <strong>Пример:</strong>
+                        <div class="example-content">
+                            ${template.example.given ? `<div><strong>Дано:</strong> ${template.example.given}</div>` : ''}
+                            ${template.example.input ? `<div><strong>Ввод:</strong> <code>${template.example.input}</code></div>` : ''}
+                            ${template.example.result ? `<div><strong>Результат:</strong> ${template.example.result}</div>` : ''}
+                        </div>
+                    </div>
+                ` : ''}
+            </div>
         </div>
     `;
+}
+
+function toggleCalculator(headerElement) {
+    const section = headerElement.parentElement;
+    const arrow = headerElement.querySelector('.calculator-arrow');
+
+    if (section.classList.contains('collapsed')) {
+        section.classList.remove('collapsed');
+        section.classList.add('expanded');
+        arrow.textContent = '▼';
+    } else {
+        section.classList.remove('expanded');
+        section.classList.add('collapsed');
+        arrow.textContent = '▶';
+    }
 }
 
 function searchFormulas() {

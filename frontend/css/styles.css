@@ -1557,9 +1557,9 @@ a:hover {
 }
 
 /* ============== Calculator Steps Styles ============== */
-.calculator-steps {
+.calculator-section {
     margin-top: 1.5rem;
-    padding: 1.5rem;
+    padding: 1rem;
     background: rgba(79, 70, 229, 0.1);
     border: 1px solid rgba(79, 70, 229, 0.3);
     border-radius: 8px;
@@ -1569,13 +1569,40 @@ a:hover {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    margin-bottom: 1rem;
     font-size: 1.1rem;
     color: var(--primary);
+    cursor: pointer;
+    user-select: none;
+    transition: color 0.2s ease;
+}
+
+.calculator-header:hover {
+    color: var(--accent);
+}
+
+.calculator-arrow {
+    display: inline-block;
+    font-size: 0.9rem;
+    transition: transform 0.2s ease;
+    width: 1rem;
+    text-align: center;
 }
 
 .calculator-icon {
     font-size: 1.5rem;
+}
+
+.calculator-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.calculator-section.expanded .calculator-content {
+    max-height: 2000px;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(79, 70, 229, 0.2);
 }
 
 .calculator-access {
