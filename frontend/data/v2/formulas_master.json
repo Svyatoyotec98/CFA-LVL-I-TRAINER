@@ -1,0 +1,578 @@
+{
+  "version": "1.0",
+  "description": "CFA Level 1 Formula Master - Golden Reference",
+  "total_formulas": 45,
+  
+  "books": [
+    {"book_id": 1, "book_code": "QM", "book_name": "Quantitative Methods"},
+    {"book_id": 2, "book_code": "EC", "book_name": "Economics"},
+    {"book_id": 3, "book_code": "FSA", "book_name": "Financial Statement Analysis"},
+    {"book_id": 4, "book_code": "CI", "book_name": "Corporate Issuers"},
+    {"book_id": 5, "book_code": "EQ", "book_name": "Equity Investments"},
+    {"book_id": 6, "book_code": "FI", "book_name": "Fixed Income"},
+    {"book_id": 7, "book_code": "DER", "book_name": "Derivatives"},
+    {"book_id": 8, "book_code": "ALT", "book_name": "Alternative Investments"},
+    {"book_id": 9, "book_code": "PM", "book_name": "Portfolio Management"},
+    {"book_id": 10, "book_code": "ETH", "book_name": "Ethics"}
+  ],
+
+  "formulas": [
+    {
+      "formula_id": "QM-001",
+      "name_en": "Holding Period Return (HPR)",
+      "name_ru": "Доходность за период владения",
+      "book_id": 1,
+      "formula_latex": "$HPR = \\frac{P_1 - P_0 + D_1}{P_0}$",
+      "variables": {
+        "P_1": "Ending price / Конечная цена",
+        "P_0": "Beginning price / Начальная цена",
+        "D_1": "Dividend or cash flow / Дивиденд или денежный поток"
+      }
+    },
+    {
+      "formula_id": "QM-002",
+      "name_en": "Arithmetic Mean Return",
+      "name_ru": "Среднее арифметическое доходности",
+      "book_id": 1,
+      "formula_latex": "$\\bar{R} = \\frac{1}{T} \\sum_{t=1}^{T} R_t$",
+      "variables": {
+        "R_t": "Return in period t / Доходность в периоде t",
+        "T": "Number of periods / Количество периодов"
+      }
+    },
+    {
+      "formula_id": "QM-003",
+      "name_en": "Geometric Mean Return",
+      "name_ru": "Среднее геометрическое доходности",
+      "book_id": 1,
+      "formula_latex": "$R_G = \\sqrt[T]{\\prod_{t=1}^{T}(1+R_t)} - 1 = \\left[\\prod_{t=1}^{T}(1+R_t)\\right]^{1/T} - 1$",
+      "variables": {
+        "R_t": "Return in period t / Доходность в периоде t",
+        "T": "Number of periods / Количество периодов"
+      }
+    },
+    {
+      "formula_id": "QM-004",
+      "name_en": "Harmonic Mean",
+      "name_ru": "Среднее гармоническое",
+      "book_id": 1,
+      "formula_latex": "$\\bar{X}_H = \\frac{n}{\\sum_{i=1}^{n} \\frac{1}{X_i}}$",
+      "variables": {
+        "X_i": "Individual values / Отдельные значения",
+        "n": "Number of observations / Количество наблюдений"
+      }
+    },
+    {
+      "formula_id": "QM-005",
+      "name_en": "Money-Weighted Rate of Return (MWRR / IRR)",
+      "name_ru": "Взвешенная по деньгам доходность (IRR)",
+      "book_id": 1,
+      "formula_latex": "$\\sum_{t=0}^{T} \\frac{CF_t}{(1+MWRR)^t} = 0$",
+      "variables": {
+        "CF_t": "Cash flow at time t / Денежный поток в момент t",
+        "MWRR": "Money-weighted rate of return / Взвешенная по деньгам доходность"
+      }
+    },
+    {
+      "formula_id": "QM-006",
+      "name_en": "Time-Weighted Rate of Return (TWRR)",
+      "name_ru": "Взвешенная по времени доходность",
+      "book_id": 1,
+      "formula_latex": "$TWRR = \\left[\\prod_{t=1}^{T}(1+HPR_t)\\right]^{1/T} - 1$",
+      "variables": {
+        "HPR_t": "Holding period return for sub-period t / Доходность за подпериод t",
+        "T": "Number of sub-periods / Количество подпериодов"
+      }
+    },
+    {
+      "formula_id": "QM-007",
+      "name_en": "Effective Annual Rate (EAR)",
+      "name_ru": "Эффективная годовая ставка",
+      "book_id": 1,
+      "formula_latex": "$EAR = \\left(1 + \\frac{r_s}{m}\\right)^m - 1$",
+      "variables": {
+        "r_s": "Stated annual rate / Номинальная годовая ставка",
+        "m": "Compounding periods per year / Периодов начисления в год"
+      }
+    },
+    {
+      "formula_id": "QM-008",
+      "name_en": "Continuously Compounded Return",
+      "name_ru": "Непрерывно начисляемая доходность",
+      "book_id": 1,
+      "formula_latex": "$r_{cc} = \\ln\\left(\\frac{P_1}{P_0}\\right) = \\ln(1 + HPR)$",
+      "variables": {
+        "P_1": "Ending price / Конечная цена",
+        "P_0": "Beginning price / Начальная цена",
+        "HPR": "Holding period return / Доходность за период"
+      }
+    },
+    {
+      "formula_id": "QM-009",
+      "name_en": "Real Return (Exact)",
+      "name_ru": "Реальная доходность (точная)",
+      "book_id": 1,
+      "formula_latex": "$1 + r_{real} = \\frac{1 + r_{nominal}}{1 + \\pi}$",
+      "variables": {
+        "r_real": "Real return / Реальная доходность",
+        "r_nominal": "Nominal return / Номинальная доходность",
+        "π": "Inflation rate / Уровень инфляции"
+      }
+    },
+    {
+      "formula_id": "QM-010",
+      "name_en": "Real Return (Approximate)",
+      "name_ru": "Реальная доходность (приближённая)",
+      "book_id": 1,
+      "formula_latex": "$r_{real} \\approx r_{nominal} - \\pi$",
+      "variables": {
+        "r_real": "Real return / Реальная доходность",
+        "r_nominal": "Nominal return / Номинальная доходность",
+        "π": "Inflation rate / Уровень инфляции"
+      }
+    },
+    {
+      "formula_id": "QM-011",
+      "name_en": "Leveraged Return",
+      "name_ru": "Доходность с использованием заёмных средств",
+      "book_id": 1,
+      "formula_latex": "$R_L = R_p + \\frac{V_B}{V_E}(R_p - R_B)$",
+      "variables": {
+        "R_L": "Leveraged return / Доходность с левериджем",
+        "R_p": "Portfolio return / Доходность портфеля",
+        "V_B": "Borrowed amount / Сумма займа",
+        "V_E": "Equity amount / Собственный капитал",
+        "R_B": "Borrowing cost / Стоимость заимствования"
+      }
+    },
+    {
+      "formula_id": "QM-012",
+      "name_en": "Future Value (Single Sum)",
+      "name_ru": "Будущая стоимость (единовременная сумма)",
+      "book_id": 1,
+      "formula_latex": "$FV = PV \\times (1 + r)^N$",
+      "variables": {
+        "FV": "Future value / Будущая стоимость",
+        "PV": "Present value / Текущая стоимость",
+        "r": "Interest rate per period / Ставка за период",
+        "N": "Number of periods / Количество периодов"
+      }
+    },
+    {
+      "formula_id": "QM-013",
+      "name_en": "Present Value (Single Sum)",
+      "name_ru": "Текущая стоимость (единовременная сумма)",
+      "book_id": 1,
+      "formula_latex": "$PV = \\frac{FV}{(1 + r)^N}$",
+      "variables": {
+        "PV": "Present value / Текущая стоимость",
+        "FV": "Future value / Будущая стоимость",
+        "r": "Discount rate per period / Ставка дисконтирования за период",
+        "N": "Number of periods / Количество периодов"
+      }
+    },
+    {
+      "formula_id": "QM-014",
+      "name_en": "Future Value with Compounding",
+      "name_ru": "Будущая стоимость с начислением процентов",
+      "book_id": 1,
+      "formula_latex": "$FV_N = PV \\times \\left(1 + \\frac{r_s}{m}\\right)^{m \\times N}$",
+      "variables": {
+        "FV_N": "Future value / Будущая стоимость",
+        "PV": "Present value / Текущая стоимость",
+        "r_s": "Stated annual rate / Номинальная годовая ставка",
+        "m": "Compounding periods per year / Периодов начисления в год",
+        "N": "Number of years / Количество лет"
+      }
+    },
+    {
+      "formula_id": "QM-015",
+      "name_en": "Present Value of Ordinary Annuity",
+      "name_ru": "Текущая стоимость обычного аннуитета",
+      "book_id": 1,
+      "formula_latex": "$PV = PMT \\times \\frac{1 - (1+r)^{-N}}{r}$",
+      "variables": {
+        "PV": "Present value / Текущая стоимость",
+        "PMT": "Payment per period / Платёж за период",
+        "r": "Interest rate per period / Ставка за период",
+        "N": "Number of periods / Количество периодов"
+      }
+    },
+    {
+      "formula_id": "QM-016",
+      "name_en": "Future Value of Ordinary Annuity",
+      "name_ru": "Будущая стоимость обычного аннуитета",
+      "book_id": 1,
+      "formula_latex": "$FV = PMT \\times \\frac{(1+r)^N - 1}{r}$",
+      "variables": {
+        "FV": "Future value / Будущая стоимость",
+        "PMT": "Payment per period / Платёж за период",
+        "r": "Interest rate per period / Ставка за период",
+        "N": "Number of periods / Количество периодов"
+      }
+    },
+    {
+      "formula_id": "QM-017",
+      "name_en": "Present Value of Perpetuity",
+      "name_ru": "Текущая стоимость перпетуитета",
+      "book_id": 1,
+      "formula_latex": "$PV = \\frac{PMT}{r}$",
+      "variables": {
+        "PV": "Present value / Текущая стоимость",
+        "PMT": "Payment per period / Платёж за период",
+        "r": "Discount rate / Ставка дисконтирования"
+      }
+    },
+    {
+      "formula_id": "QM-018",
+      "name_en": "Present Value of Growing Perpetuity",
+      "name_ru": "Текущая стоимость растущего перпетуитета",
+      "book_id": 1,
+      "formula_latex": "$PV = \\frac{PMT}{r - g}$",
+      "variables": {
+        "PV": "Present value / Текущая стоимость",
+        "PMT": "First payment / Первый платёж",
+        "r": "Discount rate / Ставка дисконтирования",
+        "g": "Growth rate / Темп роста"
+      }
+    },
+    {
+      "formula_id": "QM-019",
+      "name_en": "Net Present Value (NPV)",
+      "name_ru": "Чистая приведённая стоимость",
+      "book_id": 1,
+      "formula_latex": "$NPV = \\sum_{t=0}^{N} \\frac{CF_t}{(1+r)^t}$",
+      "variables": {
+        "NPV": "Net present value / Чистая приведённая стоимость",
+        "CF_t": "Cash flow at time t / Денежный поток в момент t",
+        "r": "Discount rate / Ставка дисконтирования",
+        "N": "Number of periods / Количество периодов"
+      }
+    },
+    {
+      "formula_id": "QM-020",
+      "name_en": "Population Variance",
+      "name_ru": "Дисперсия генеральной совокупности",
+      "book_id": 1,
+      "formula_latex": "$\\sigma^2 = \\frac{\\sum_{i=1}^{N}(X_i - \\mu)^2}{N}$",
+      "variables": {
+        "σ²": "Population variance / Дисперсия совокупности",
+        "X_i": "Individual observation / Отдельное наблюдение",
+        "μ": "Population mean / Среднее совокупности",
+        "N": "Population size / Размер совокупности"
+      }
+    },
+    {
+      "formula_id": "QM-021",
+      "name_en": "Sample Variance",
+      "name_ru": "Выборочная дисперсия",
+      "book_id": 1,
+      "formula_latex": "$s^2 = \\frac{\\sum_{i=1}^{n}(X_i - \\bar{X})^2}{n-1}$",
+      "variables": {
+        "s²": "Sample variance / Выборочная дисперсия",
+        "X_i": "Individual observation / Отдельное наблюдение",
+        "X̄": "Sample mean / Выборочное среднее",
+        "n": "Sample size / Размер выборки"
+      }
+    },
+    {
+      "formula_id": "QM-022",
+      "name_en": "Standard Deviation",
+      "name_ru": "Стандартное отклонение",
+      "book_id": 1,
+      "formula_latex": "$\\sigma = \\sqrt{\\sigma^2}, \\quad s = \\sqrt{s^2}$",
+      "variables": {
+        "σ": "Population standard deviation / Стандартное отклонение совокупности",
+        "s": "Sample standard deviation / Выборочное стандартное отклонение"
+      }
+    },
+    {
+      "formula_id": "QM-023",
+      "name_en": "Coefficient of Variation (CV)",
+      "name_ru": "Коэффициент вариации",
+      "book_id": 1,
+      "formula_latex": "$CV = \\frac{s}{\\bar{X}}$",
+      "variables": {
+        "CV": "Coefficient of variation / Коэффициент вариации",
+        "s": "Standard deviation / Стандартное отклонение",
+        "X̄": "Mean / Среднее"
+      }
+    },
+    {
+      "formula_id": "QM-024",
+      "name_en": "Sharpe Ratio",
+      "name_ru": "Коэффициент Шарпа",
+      "book_id": 1,
+      "formula_latex": "$Sharpe = \\frac{R_p - R_f}{\\sigma_p}$",
+      "variables": {
+        "R_p": "Portfolio return / Доходность портфеля",
+        "R_f": "Risk-free rate / Безрисковая ставка",
+        "σ_p": "Portfolio standard deviation / Стандартное отклонение портфеля"
+      }
+    },
+    {
+      "formula_id": "QM-025",
+      "name_en": "Covariance",
+      "name_ru": "Ковариация",
+      "book_id": 1,
+      "formula_latex": "$Cov(X,Y) = \\frac{\\sum_{i=1}^{n}(X_i - \\bar{X})(Y_i - \\bar{Y})}{n-1}$",
+      "variables": {
+        "Cov(X,Y)": "Covariance between X and Y / Ковариация между X и Y",
+        "X_i, Y_i": "Individual observations / Отдельные наблюдения",
+        "X̄, Ȳ": "Sample means / Выборочные средние"
+      }
+    },
+    {
+      "formula_id": "QM-026",
+      "name_en": "Correlation Coefficient",
+      "name_ru": "Коэффициент корреляции",
+      "book_id": 1,
+      "formula_latex": "$\\rho_{X,Y} = \\frac{Cov(X,Y)}{\\sigma_X \\times \\sigma_Y}$",
+      "variables": {
+        "ρ": "Correlation coefficient / Коэффициент корреляции",
+        "Cov(X,Y)": "Covariance / Ковариация",
+        "σ_X, σ_Y": "Standard deviations / Стандартные отклонения"
+      }
+    },
+    {
+      "formula_id": "QM-027",
+      "name_en": "Skewness",
+      "name_ru": "Асимметрия (скошенность)",
+      "book_id": 1,
+      "formula_latex": "$Skew = \\frac{1}{n} \\sum_{i=1}^{n} \\left(\\frac{X_i - \\bar{X}}{s}\\right)^3$",
+      "variables": {
+        "Skew": "Skewness / Асимметрия",
+        "X_i": "Individual observation / Отдельное наблюдение",
+        "X̄": "Sample mean / Выборочное среднее",
+        "s": "Sample standard deviation / Выборочное стандартное отклонение"
+      }
+    },
+    {
+      "formula_id": "QM-028",
+      "name_en": "Kurtosis",
+      "name_ru": "Эксцесс",
+      "book_id": 1,
+      "formula_latex": "$Kurt = \\frac{1}{n} \\sum_{i=1}^{n} \\left(\\frac{X_i - \\bar{X}}{s}\\right)^4$",
+      "variables": {
+        "Kurt": "Kurtosis / Эксцесс",
+        "X_i": "Individual observation / Отдельное наблюдение",
+        "X̄": "Sample mean / Выборочное среднее",
+        "s": "Sample standard deviation / Выборочное стандартное отклонение"
+      }
+    },
+    {
+      "formula_id": "QM-029",
+      "name_en": "Excess Kurtosis",
+      "name_ru": "Избыточный эксцесс",
+      "book_id": 1,
+      "formula_latex": "$Excess\\ Kurtosis = Kurtosis - 3$",
+      "variables": {
+        "Excess Kurtosis": "Excess kurtosis / Избыточный эксцесс (относительно нормального распределения)"
+      }
+    },
+    {
+      "formula_id": "QM-030",
+      "name_en": "Expected Value (Discrete)",
+      "name_ru": "Математическое ожидание (дискретное)",
+      "book_id": 1,
+      "formula_latex": "$E(X) = \\sum_{i=1}^{n} P(X_i) \\times X_i$",
+      "variables": {
+        "E(X)": "Expected value / Математическое ожидание",
+        "P(X_i)": "Probability of outcome X_i / Вероятность исхода X_i",
+        "X_i": "Outcome value / Значение исхода"
+      }
+    },
+    {
+      "formula_id": "QM-031",
+      "name_en": "Portfolio Expected Return",
+      "name_ru": "Ожидаемая доходность портфеля",
+      "book_id": 1,
+      "formula_latex": "$E(R_p) = \\sum_{i=1}^{n} w_i \\times E(R_i)$",
+      "variables": {
+        "E(R_p)": "Expected portfolio return / Ожидаемая доходность портфеля",
+        "w_i": "Weight of asset i / Вес актива i",
+        "E(R_i)": "Expected return of asset i / Ожидаемая доходность актива i"
+      }
+    },
+    {
+      "formula_id": "QM-032",
+      "name_en": "Portfolio Variance (Two Assets)",
+      "name_ru": "Дисперсия портфеля (два актива)",
+      "book_id": 1,
+      "formula_latex": "$\\sigma_p^2 = w_1^2\\sigma_1^2 + w_2^2\\sigma_2^2 + 2w_1w_2Cov(R_1,R_2)$",
+      "variables": {
+        "σ²_p": "Portfolio variance / Дисперсия портфеля",
+        "w_1, w_2": "Weights / Веса активов",
+        "σ²_1, σ²_2": "Variances of assets / Дисперсии активов",
+        "Cov(R_1,R_2)": "Covariance / Ковариация"
+      }
+    },
+    {
+      "formula_id": "QM-033",
+      "name_en": "Bayes' Formula",
+      "name_ru": "Формула Байеса",
+      "book_id": 1,
+      "formula_latex": "$P(A|B) = \\frac{P(B|A) \\times P(A)}{P(B)}$",
+      "variables": {
+        "P(A|B)": "Probability of A given B / Вероятность A при условии B",
+        "P(B|A)": "Probability of B given A / Вероятность B при условии A",
+        "P(A)": "Prior probability of A / Априорная вероятность A",
+        "P(B)": "Probability of B / Вероятность B"
+      }
+    },
+    {
+      "formula_id": "QM-034",
+      "name_en": "Combination Formula",
+      "name_ru": "Формула сочетаний",
+      "book_id": 1,
+      "formula_latex": "$C_n^r = \\binom{n}{r} = \\frac{n!}{r!(n-r)!}$",
+      "variables": {
+        "n": "Total items / Всего элементов",
+        "r": "Items chosen / Выбираемых элементов"
+      }
+    },
+    {
+      "formula_id": "QM-035",
+      "name_en": "Permutation Formula",
+      "name_ru": "Формула перестановок",
+      "book_id": 1,
+      "formula_latex": "$P_n^r = \\frac{n!}{(n-r)!}$",
+      "variables": {
+        "n": "Total items / Всего элементов",
+        "r": "Items arranged / Упорядочиваемых элементов"
+      }
+    },
+    {
+      "formula_id": "QM-036",
+      "name_en": "Normal Distribution Z-Score",
+      "name_ru": "Z-оценка нормального распределения",
+      "book_id": 1,
+      "formula_latex": "$z = \\frac{X - \\mu}{\\sigma}$",
+      "variables": {
+        "z": "Z-score / Z-оценка",
+        "X": "Observed value / Наблюдаемое значение",
+        "μ": "Population mean / Среднее совокупности",
+        "σ": "Population standard deviation / Стандартное отклонение совокупности"
+      }
+    },
+    {
+      "formula_id": "QM-037",
+      "name_en": "Confidence Interval",
+      "name_ru": "Доверительный интервал",
+      "book_id": 1,
+      "formula_latex": "$CI = \\bar{X} \\pm z_{\\alpha/2} \\times \\frac{\\sigma}{\\sqrt{n}}$",
+      "variables": {
+        "CI": "Confidence interval / Доверительный интервал",
+        "X̄": "Sample mean / Выборочное среднее",
+        "z_α/2": "Critical z-value / Критическое значение z",
+        "σ": "Population standard deviation / Стандартное отклонение",
+        "n": "Sample size / Размер выборки"
+      }
+    },
+    {
+      "formula_id": "QM-038",
+      "name_en": "Standard Error of Mean",
+      "name_ru": "Стандартная ошибка среднего",
+      "book_id": 1,
+      "formula_latex": "$SE = \\frac{\\sigma}{\\sqrt{n}}$",
+      "variables": {
+        "SE": "Standard error / Стандартная ошибка",
+        "σ": "Population standard deviation / Стандартное отклонение совокупности",
+        "n": "Sample size / Размер выборки"
+      }
+    },
+    {
+      "formula_id": "QM-039",
+      "name_en": "t-Statistic",
+      "name_ru": "t-статистика",
+      "book_id": 1,
+      "formula_latex": "$t = \\frac{\\bar{X} - \\mu_0}{s / \\sqrt{n}}$",
+      "variables": {
+        "t": "t-statistic / t-статистика",
+        "X̄": "Sample mean / Выборочное среднее",
+        "μ_0": "Hypothesized mean / Гипотетическое среднее",
+        "s": "Sample standard deviation / Выборочное стандартное отклонение",
+        "n": "Sample size / Размер выборки"
+      }
+    },
+    {
+      "formula_id": "QM-040",
+      "name_en": "Simple Linear Regression",
+      "name_ru": "Простая линейная регрессия",
+      "book_id": 1,
+      "formula_latex": "$Y = b_0 + b_1 X + \\varepsilon$",
+      "variables": {
+        "Y": "Dependent variable / Зависимая переменная",
+        "b_0": "Intercept / Свободный член",
+        "b_1": "Slope coefficient / Коэффициент наклона",
+        "X": "Independent variable / Независимая переменная",
+        "ε": "Error term / Ошибка"
+      }
+    },
+    {
+      "formula_id": "QM-041",
+      "name_en": "Slope Coefficient",
+      "name_ru": "Коэффициент наклона",
+      "book_id": 1,
+      "formula_latex": "$b_1 = \\frac{Cov(X,Y)}{Var(X)} = \\frac{\\sum(X_i - \\bar{X})(Y_i - \\bar{Y})}{\\sum(X_i - \\bar{X})^2}$",
+      "variables": {
+        "b_1": "Slope coefficient / Коэффициент наклона",
+        "Cov(X,Y)": "Covariance / Ковариация",
+        "Var(X)": "Variance of X / Дисперсия X"
+      }
+    },
+    {
+      "formula_id": "QM-042",
+      "name_en": "Coefficient of Determination",
+      "name_ru": "Коэффициент детерминации",
+      "book_id": 1,
+      "formula_latex": "$R^2 = \\frac{SSR}{SST} = 1 - \\frac{SSE}{SST}$",
+      "variables": {
+        "R²": "Coefficient of determination / Коэффициент детерминации",
+        "SSR": "Sum of squares regression / Сумма квадратов регрессии",
+        "SST": "Total sum of squares / Общая сумма квадратов",
+        "SSE": "Sum of squares error / Сумма квадратов ошибок"
+      }
+    },
+    {
+      "formula_id": "QM-043",
+      "name_en": "F-Statistic",
+      "name_ru": "F-статистика",
+      "book_id": 1,
+      "formula_latex": "$F = \\frac{MSR}{MSE} = \\frac{SSR/k}{SSE/(n-k-1)}$",
+      "variables": {
+        "F": "F-statistic / F-статистика",
+        "MSR": "Mean square regression / Средний квадрат регрессии",
+        "MSE": "Mean square error / Средний квадрат ошибки",
+        "k": "Number of independent variables / Число независимых переменных",
+        "n": "Sample size / Размер выборки"
+      }
+    },
+    {
+      "formula_id": "QM-044",
+      "name_en": "Roy's Safety-First Ratio (SFRatio)",
+      "name_ru": "Коэффициент безопасности Роя",
+      "book_id": 1,
+      "formula_latex": "$SFRatio = \\frac{E(R_p) - R_L}{\\sigma_p}$",
+      "variables": {
+        "SFRatio": "Safety-first ratio / Коэффициент безопасности",
+        "E(R_p)": "Expected portfolio return / Ожидаемая доходность портфеля",
+        "R_L": "Threshold return / Пороговая доходность",
+        "σ_p": "Portfolio standard deviation / Стандартное отклонение портфеля"
+      }
+    },
+    {
+      "formula_id": "QM-045",
+      "name_en": "Binomial Probability",
+      "name_ru": "Биномиальная вероятность",
+      "book_id": 1,
+      "formula_latex": "$P(X=x) = \\binom{n}{x} p^x (1-p)^{n-x}$",
+      "variables": {
+        "P(X=x)": "Probability of x successes / Вероятность x успехов",
+        "n": "Number of trials / Число испытаний",
+        "x": "Number of successes / Число успехов",
+        "p": "Probability of success / Вероятность успеха"
+      }
+    }
+  ]
+}
