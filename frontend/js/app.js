@@ -1345,9 +1345,24 @@ function displayFormulas(formulas) {
                     <div class="formula-variables">
                         <strong>Переменные:</strong>
                         <ul>
-                            ${formula.variables.map(v => `
-                                <li><strong>${v.symbol || v.name || ''}:</strong> ${v.description || ''}</li>
-                            `).join('')}
+                            ${formula.variables.map(v => {
+                                const symbol = v.symbol || v.name || '';
+                                const description = v.description || '';
+
+                                // Wrap symbol in $...$ for MathJax rendering
+                                const renderedSymbol = symbol ? `$${symbol}$` : '';
+
+                                // Split description into EN / RU if contains " / "
+                                let descriptionHtml = '';
+                                if (description.includes(' / ')) {
+                                    const [en, ru] = description.split(' / ').map(s => s.trim());
+                                    descriptionHtml = `${en}<br><span class="var-description-ru">${ru}</span>`;
+                                } else {
+                                    descriptionHtml = description;
+                                }
+
+                                return `<li><strong>${renderedSymbol}:</strong> ${descriptionHtml}</li>`;
+                            }).join('')}
                         </ul>
                     </div>
                 ` : ''}

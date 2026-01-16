@@ -12,17 +12,17 @@
         {
           "symbol": "\\bar{X}",
           "name": "X-bar",
-          "description": "Sample mean"
+          "description": "Sample mean / Среднее значение выборки"
         },
         {
           "symbol": "X_i",
           "name": "X sub i",
-          "description": "Individual observation"
+          "description": "Individual observation / Отдельное наблюдение"
         },
         {
           "symbol": "n",
           "name": "n",
-          "description": "Number of observations"
+          "description": "Number of observations / Количество наблюдений"
         }
       ],
       "example": "For data set {2, 4, 6, 8}: Mean = (2+4+6+8)/4 = 5"
@@ -39,22 +39,22 @@
         {
           "symbol": "s^2",
           "name": "s-squared",
-          "description": "Sample variance"
+          "description": "Sample variance / Дисперсия выборки"
         },
         {
           "symbol": "X_i",
           "name": "X sub i",
-          "description": "Individual observation"
+          "description": "Individual observation / Отдельное наблюдение"
         },
         {
           "symbol": "\\bar{X}",
           "name": "X-bar",
-          "description": "Sample mean"
+          "description": "Sample mean / Среднее значение выборки"
         },
         {
           "symbol": "n",
           "name": "n",
-          "description": "Number of observations"
+          "description": "Number of observations / Количество наблюдений"
         }
       ]
     },
@@ -70,22 +70,22 @@
         {
           "symbol": "FV",
           "name": "FV",
-          "description": "Future Value"
+          "description": "Future Value / Будущая стоимость"
         },
         {
           "symbol": "PV",
           "name": "PV",
-          "description": "Present Value"
+          "description": "Present Value / Текущая стоимость"
         },
         {
           "symbol": "r",
           "name": "r",
-          "description": "Interest rate per period"
+          "description": "Interest rate per period / Процентная ставка за период"
         },
         {
           "symbol": "n",
           "name": "n",
-          "description": "Number of periods"
+          "description": "Number of periods / Количество периодов"
         }
       ],
       "example": "If you invest $1,000 at 5% for 3 years: FV = 1000 × (1.05)³ = $1,157.63"

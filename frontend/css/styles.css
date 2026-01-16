@@ -913,6 +913,37 @@ a:hover {
     overflow-x: auto;
 }
 
+.formula-variables {
+    margin-top: 12px;
+}
+
+.formula-variables ul {
+    padding-left: 20px;
+    margin: 8px 0;
+}
+
+.formula-variables li {
+    margin-bottom: 6px;
+}
+
+.var-description-ru {
+    color: var(--text-muted);
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.formula-example {
+    margin-top: 12px;
+    padding: 12px;
+    background: rgba(79, 70, 229, 0.05);
+    border-left: 3px solid var(--primary);
+    border-radius: 4px;
+}
+
+.formula-example p {
+    margin: 4px 0 0 0;
+}
+
 /* Calculator Block in Glossary - collapsible */
 .calculator-block {
     background: rgba(79, 70, 229, 0.1);
