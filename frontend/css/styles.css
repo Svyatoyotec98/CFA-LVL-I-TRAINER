@@ -1555,3 +1555,86 @@ a:hover {
     cursor: not-allowed;
     opacity: 0.9;
 }
+
+/* ============== Calculator Steps Styles ============== */
+.calculator-steps {
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    background: rgba(79, 70, 229, 0.1);
+    border: 1px solid rgba(79, 70, 229, 0.3);
+    border-radius: 8px;
+}
+
+.calculator-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    color: var(--primary);
+}
+
+.calculator-icon {
+    font-size: 1.5rem;
+}
+
+.calculator-access {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+
+.calculator-access code {
+    color: #10B981;
+    font-weight: 600;
+}
+
+.calculator-steps-list {
+    margin-bottom: 1rem;
+}
+
+.calculator-steps-list ol {
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.calculator-steps-list li {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.calculator-example {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: rgba(139, 92, 246, 0.1);
+    border-left: 3px solid var(--accent);
+    border-radius: 6px;
+}
+
+.calculator-example .example-content {
+    margin-top: 0.5rem;
+}
+
+.calculator-example .example-content > div {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.calculator-example code {
+    color: #F59E0B;
+    font-family: 'Courier New', monospace;
+    font-size: 0.95em;
+}
+
+.calculator-note {
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    font-style: italic;
+    color: var(--text-muted);
+}

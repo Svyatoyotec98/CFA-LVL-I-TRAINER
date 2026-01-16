@@ -1307,12 +1307,21 @@ function filterGlossary() {
 
 // ============== Formulas ==============
 let formulasData = [];
+let calculatorTemplates = {};
 
 async function loadFormulas() {
     try {
-        const response = await fetch('data/v2/formulas_master.json');
-        const data = await response.json();
-        formulasData = data.formulas || [];
+        const [formulasResponse, templatesResponse] = await Promise.all([
+            fetch('data/v2/formulas_master.json'),
+            fetch('data/v2/calculator_templates.json')
+        ]);
+
+        const formulasData_raw = await formulasResponse.json();
+        const templatesData = await templatesResponse.json();
+
+        formulasData = formulasData_raw.formulas || [];
+        calculatorTemplates = templatesData.templates || {};
+
         displayFormulas(formulasData);
     } catch (error) {
         console.error('Failed to load formulas:', error);
@@ -1368,6 +1377,7 @@ function displayFormulas(formulas) {
                 ` : ''}
                 ${formula.description ? `<div class="term-definition">${formula.description}</div>` : ''}
                 ${formula.description_ru ? `<div class="term-definition-ru">${formula.description_ru}</div>` : ''}
+                ${getCalculatorSteps(formula)}
             </div>
         </div>
     `).join('');
@@ -1376,6 +1386,59 @@ function displayFormulas(formulas) {
     if (window.MathJax && window.MathJax.typesetPromise) {
         window.MathJax.typesetPromise();
     }
+}
+
+function getCalculatorSteps(formula) {
+    // If no calculator template specified, check for calculator_note
+    if (!formula.calculator_template) {
+        if (formula.calculator_note) {
+            return `
+                <div class="calculator-steps">
+                    <div class="calculator-header">
+                        <span class="calculator-icon">🧮</span>
+                        <strong>Калькулятор:</strong>
+                    </div>
+                    <div class="calculator-note">${formula.calculator_note}</div>
+                </div>
+            `;
+        }
+        return '';
+    }
+
+    // Get template from calculator_templates
+    const template = calculatorTemplates[formula.calculator_template];
+    if (!template) {
+        console.warn(`Template ${formula.calculator_template} not found`);
+        return '';
+    }
+
+    return `
+        <div class="calculator-steps">
+            <div class="calculator-header">
+                <span class="calculator-icon">🧮</span>
+                <strong>BA II Plus: ${template.method || ''}</strong>
+            </div>
+            ${template.access ? `<div class="calculator-access"><strong>Доступ:</strong> <code>${template.access}</code></div>` : ''}
+            ${template.steps && template.steps.length > 0 ? `
+                <div class="calculator-steps-list">
+                    <strong>Шаги:</strong>
+                    <ol>
+                        ${template.steps.map(step => `<li>${step}</li>`).join('')}
+                    </ol>
+                </div>
+            ` : ''}
+            ${template.example ? `
+                <div class="calculator-example">
+                    <strong>Пример:</strong>
+                    <div class="example-content">
+                        ${template.example.given ? `<div><strong>Дано:</strong> ${template.example.given}</div>` : ''}
+                        ${template.example.input ? `<div><strong>Ввод:</strong> <code>${template.example.input}</code></div>` : ''}
+                        ${template.example.result ? `<div><strong>Результат:</strong> ${template.example.result}</div>` : ''}
+                    </div>
+                </div>
+            ` : ''}
+        </div>
+    `;
 }
 
 function searchFormulas() {
