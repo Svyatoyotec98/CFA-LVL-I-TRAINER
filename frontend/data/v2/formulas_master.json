@@ -114,27 +114,27 @@
         {
           "symbol": "C",
           "name": "C",
-          "description": "Consumer spending"
+          "description": "Consumer spending / Потребительские расходы"
         },
         {
           "symbol": "I",
           "name": "I",
-          "description": "Investment"
+          "description": "Investment / Инвестиции"
         },
         {
           "symbol": "G",
           "name": "G",
-          "description": "Government spending"
+          "description": "Government spending / Государственные расходы"
         },
         {
           "symbol": "X",
           "name": "X",
-          "description": "Exports"
+          "description": "Exports / Экспорт"
         },
         {
           "symbol": "M",
           "name": "M",
-          "description": "Imports"
+          "description": "Imports / Импорт"
         }
       ]
     },
@@ -153,27 +153,27 @@
         {
           "symbol": "P",
           "name": "P",
-          "description": "Bond price"
+          "description": "Bond price / Цена облигации"
         },
         {
           "symbol": "C",
           "name": "C",
-          "description": "Coupon payment"
+          "description": "Coupon payment / Купонный платеж"
         },
         {
           "symbol": "r",
           "name": "r",
-          "description": "Discount rate (YTM)"
+          "description": "Discount rate (YTM) / Ставка дисконтирования (доходность к погашению)"
         },
         {
           "symbol": "FV",
           "name": "FV",
-          "description": "Face value (par value)"
+          "description": "Face value (par value) / Номинальная стоимость"
         },
         {
           "symbol": "n",
           "name": "n",
-          "description": "Number of periods to maturity"
+          "description": "Number of periods to maturity / Количество периодов до погашения"
         }
       ]
     },
@@ -192,12 +192,12 @@
         {
           "symbol": "P/E",
           "name": "P/E",
-          "description": "Price-to-Earnings ratio"
+          "description": "Price-to-Earnings ratio / Коэффициент цена/прибыль"
         },
         {
           "symbol": "EPS",
           "name": "EPS",
-          "description": "Earnings Per Share"
+          "description": "Earnings Per Share / Прибыль на акцию"
         }
       ]
     },
@@ -216,17 +216,17 @@
         {
           "symbol": "R_p",
           "name": "R sub p",
-          "description": "Portfolio return"
+          "description": "Portfolio return / Доходность портфеля"
         },
         {
           "symbol": "R_f",
           "name": "R sub f",
-          "description": "Risk-free rate"
+          "description": "Risk-free rate / Безрисковая ставка"
         },
         {
           "symbol": "\\sigma_p",
           "name": "sigma sub p",
-          "description": "Portfolio standard deviation"
+          "description": "Portfolio standard deviation / Стандартное отклонение портфеля"
         }
       ]
     },
@@ -245,12 +245,12 @@
         {
           "symbol": "Current Assets",
           "name": "Current Assets",
-          "description": "Assets expected to be converted to cash within one year"
+          "description": "Assets expected to be converted to cash within one year / Активы, которые будут конвертированы в денежные средства в течение года"
         },
         {
           "symbol": "Current Liabilities",
           "name": "Current Liabilities",
-          "description": "Obligations due within one year"
+          "description": "Obligations due within one year / Обязательства со сроком погашения в течение года"
         }
       ]
     },
@@ -268,32 +268,32 @@
         {
           "symbol": "C",
           "name": "C",
-          "description": "Call option value"
+          "description": "Call option value / Стоимость опциона колл"
         },
         {
           "symbol": "S_0",
           "name": "S sub 0",
-          "description": "Current stock price"
+          "description": "Current stock price / Текущая цена акции"
         },
         {
           "symbol": "X",
           "name": "X",
-          "description": "Exercise price"
+          "description": "Exercise price / Цена исполнения"
         },
         {
           "symbol": "r",
           "name": "r",
-          "description": "Risk-free rate"
+          "description": "Risk-free rate / Безрисковая ставка"
         },
         {
           "symbol": "T",
           "name": "T",
-          "description": "Time to expiration"
+          "description": "Time to expiration / Время до истечения срока"
         },
         {
           "symbol": "N(d)",
           "name": "N(d)",
-          "description": "Cumulative normal distribution"
+          "description": "Cumulative normal distribution / Кумулятивное нормальное распределение"
         }
       ]
     }
