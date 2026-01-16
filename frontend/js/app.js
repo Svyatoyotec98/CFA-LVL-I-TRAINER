@@ -1367,12 +1367,6 @@ function displayFormulas(formulas) {
                     </div>
                 ` : ''}
                 ${formula.description ? `<div class="term-definition">${formula.description}</div>` : ''}
-                ${formula.example ? `
-                    <div class="formula-example">
-                        <strong>Пример:</strong>
-                        <p>${formula.example}</p>
-                    </div>
-                ` : ''}
             </div>
         </div>
     `).join('');
