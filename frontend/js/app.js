@@ -30,7 +30,7 @@ let state = {
 const screens = [
     'landing', 'login', 'register', 'dashboard', 'books', 'modules',
     'test-mode', 'test', 'results', 'mock-exam', 'calculator',
-    'review', 'glossary', 'statistics'
+    'review', 'glossary', 'formulas', 'statistics'
 ];
 
 function hideAllScreens() {
@@ -61,6 +61,9 @@ function showScreen(screenName) {
                 break;
             case 'glossary':
                 loadGlossary();
+                break;
+            case 'formulas':
+                loadFormulas();
                 break;
             case 'statistics':
                 loadStatistics();
@@ -1300,6 +1303,96 @@ function filterGlossary() {
     }
 
     displayGlossary(filtered);
+}
+
+// ============== Formulas ==============
+let formulasData = [];
+
+async function loadFormulas() {
+    try {
+        const response = await fetch('data/v2/formulas_master.json');
+        const data = await response.json();
+        formulasData = data.formulas || [];
+        displayFormulas(formulasData);
+    } catch (error) {
+        console.error('Failed to load formulas:', error);
+        document.getElementById('formulas-list').innerHTML =
+            '<p class="text-center text-muted">Ошибка загрузки формул</p>';
+    }
+}
+
+function displayFormulas(formulas) {
+    const container = document.getElementById('formulas-list');
+    const countEl = document.getElementById('formulas-count');
+
+    if (countEl) countEl.textContent = `${formulas.length} формул`;
+
+    container.innerHTML = formulas.map(formula => `
+        <div class="glossary-item" data-formula-id="${formula.id || ''}">
+            <div class="term-header">
+                <div class="term-title">
+                    <span class="term-name">${formula.name_en || formula.name || ''}</span>
+                    ${formula.name_ru ? `<span class="term-name-ru">— ${formula.name_ru}</span>` : ''}
+                </div>
+                <div class="term-badges">
+                    ${formula.book_id ? `<span class="term-module">Book ${formula.book_id}</span>` : ''}
+                    ${formula.category ? `<span class="term-los">${formula.category}</span>` : ''}
+                </div>
+            </div>
+            <div class="term-content">
+                ${formula.formula ? `<div class="term-formula">\\[${formula.formula.replace(/^\$|\$$/g, '')}\\]</div>` : ''}
+                ${formula.variables && formula.variables.length > 0 ? `
+                    <div class="formula-variables">
+                        <strong>Переменные:</strong>
+                        <ul>
+                            ${formula.variables.map(v => `
+                                <li><strong>${v.symbol || v.name || ''}:</strong> ${v.description || ''}</li>
+                            `).join('')}
+                        </ul>
+                    </div>
+                ` : ''}
+                ${formula.description ? `<div class="term-definition">${formula.description}</div>` : ''}
+                ${formula.example ? `
+                    <div class="formula-example">
+                        <strong>Пример:</strong>
+                        <p>${formula.example}</p>
+                    </div>
+                ` : ''}
+            </div>
+        </div>
+    `).join('');
+
+    // Re-render MathJax after adding formulas
+    if (window.MathJax && window.MathJax.typesetPromise) {
+        window.MathJax.typesetPromise();
+    }
+}
+
+function searchFormulas() {
+    filterFormulas();
+}
+
+function filterFormulas() {
+    const bookId = document.getElementById('formulas-book-filter').value;
+    const query = document.getElementById('formulas-search').value.toLowerCase();
+
+    let filtered = formulasData;
+
+    if (bookId) {
+        filtered = filtered.filter(f => f.book_id == bookId);
+    }
+
+    if (query) {
+        filtered = filtered.filter(f =>
+            (f.name_en && f.name_en.toLowerCase().includes(query)) ||
+            (f.name && f.name.toLowerCase().includes(query)) ||
+            (f.name_ru && f.name_ru.toLowerCase().includes(query)) ||
+            (f.description && f.description.toLowerCase().includes(query)) ||
+            (f.category && f.category.toLowerCase().includes(query))
+        );
+    }
+
+    displayFormulas(filtered);
 }
 
 // ============== Statistics ==============
