@@ -1205,6 +1205,77 @@ function getModulesForBook(bookId) {
             {id: 9, name: 'Multiple Regression'},
             {id: 10, name: 'Time Series'},
             {id: 11, name: 'Big Data'}
+        ],
+        '2': [
+            {id: 1, name: 'Firm & Market Structures'},
+            {id: 2, name: 'Understanding Business Cycles'},
+            {id: 3, name: 'Fiscal Policy'},
+            {id: 4, name: 'Monetary Policy'},
+            {id: 5, name: 'Introduction to Geopolitics'},
+            {id: 6, name: 'International Trade'},
+            {id: 7, name: 'Capital Flows and FX Market'},
+            {id: 8, name: 'Exchange Rate Calculations'}
+        ],
+        '3': [
+            {id: 1, name: 'Corporate Governance'},
+            {id: 2, name: 'Capital Budgeting'},
+            {id: 3, name: 'Cost of Capital'},
+            {id: 4, name: 'Measures of Leverage'},
+            {id: 5, name: 'Dividends and Share Repurchases'},
+            {id: 6, name: 'Working Capital Management'}
+        ],
+        '4': [
+            {id: 1, name: 'Introduction to FSA'},
+            {id: 2, name: 'Income Statements'},
+            {id: 3, name: 'Balance Sheets'},
+            {id: 4, name: 'Cash Flow Statements'},
+            {id: 5, name: 'Financial Analysis Techniques'},
+            {id: 6, name: 'Inventories'},
+            {id: 7, name: 'Long-Lived Assets'},
+            {id: 8, name: 'Income Taxes'},
+            {id: 9, name: 'Non-Current Liabilities'},
+            {id: 10, name: 'Financial Reporting Quality'}
+        ],
+        '5': [
+            {id: 1, name: 'Market Organization'},
+            {id: 2, name: 'Security Market Indexes'},
+            {id: 3, name: 'Market Efficiency'},
+            {id: 4, name: 'Overview of Equity Securities'},
+            {id: 5, name: 'Introduction to Industry Analysis'},
+            {id: 6, name: 'Equity Valuation'}
+        ],
+        '6': [
+            {id: 1, name: 'Fixed-Income Instrument Features'},
+            {id: 2, name: 'Fixed-Income Issuance and Trading'},
+            {id: 3, name: 'Fixed-Income Valuation'},
+            {id: 4, name: 'Yield and Yield Spread'},
+            {id: 5, name: 'Yield Curve'},
+            {id: 6, name: 'Fixed-Income Risk and Return'},
+            {id: 7, name: 'Fundamentals of Credit Analysis'},
+            {id: 8, name: 'Structured Credit Products'}
+        ],
+        '7': [
+            {id: 1, name: 'Derivative Instrument Features'},
+            {id: 2, name: 'Forward Commitment Pricing'},
+            {id: 3, name: 'Valuation of Contingent Claims'}
+        ],
+        '8': [
+            {id: 1, name: 'Alternative Investments'},
+            {id: 2, name: 'Real Estate Investments'},
+            {id: 3, name: 'Hedge Funds'},
+            {id: 4, name: 'Private Equity'}
+        ],
+        '9': [
+            {id: 1, name: 'Portfolio Management Basics'},
+            {id: 2, name: 'Portfolio Risk and Return'},
+            {id: 3, name: 'Efficient Frontier'},
+            {id: 4, name: 'Asset Allocation'}
+        ],
+        '10': [
+            {id: 1, name: 'Ethics and Trust'},
+            {id: 2, name: 'Code of Ethics'},
+            {id: 3, name: 'Standards of Practice'},
+            {id: 4, name: 'Application of Standards'}
         ]
     };
 
