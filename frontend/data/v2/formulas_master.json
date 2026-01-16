@@ -1,0 +1,275 @@
+{
+  "formulas": [
+    {
+      "id": "QM-001",
+      "name_en": "Mean (Average)",
+      "name_ru": "Среднее значение",
+      "book_id": 1,
+      "category": "Statistics",
+      "formula": "\\bar{X} = \\frac{\\sum_{i=1}^{n} X_i}{n}",
+      "description": "The arithmetic mean is the sum of all values divided by the number of values.",
+      "variables": [
+        {
+          "symbol": "\\bar{X}",
+          "name": "X-bar",
+          "description": "Sample mean"
+        },
+        {
+          "symbol": "X_i",
+          "name": "X sub i",
+          "description": "Individual observation"
+        },
+        {
+          "symbol": "n",
+          "name": "n",
+          "description": "Number of observations"
+        }
+      ],
+      "example": "For data set {2, 4, 6, 8}: Mean = (2+4+6+8)/4 = 5"
+    },
+    {
+      "id": "QM-002",
+      "name_en": "Variance",
+      "name_ru": "Дисперсия",
+      "book_id": 1,
+      "category": "Statistics",
+      "formula": "s^2 = \\frac{\\sum_{i=1}^{n} (X_i - \\bar{X})^2}{n-1}",
+      "description": "Sample variance measures the dispersion of data points around the mean.",
+      "variables": [
+        {
+          "symbol": "s^2",
+          "name": "s-squared",
+          "description": "Sample variance"
+        },
+        {
+          "symbol": "X_i",
+          "name": "X sub i",
+          "description": "Individual observation"
+        },
+        {
+          "symbol": "\\bar{X}",
+          "name": "X-bar",
+          "description": "Sample mean"
+        },
+        {
+          "symbol": "n",
+          "name": "n",
+          "description": "Number of observations"
+        }
+      ]
+    },
+    {
+      "id": "QM-003",
+      "name_en": "Future Value (Single Sum)",
+      "name_ru": "Будущая стоимость (разовый платеж)",
+      "book_id": 1,
+      "category": "Time Value of Money",
+      "formula": "FV = PV \\times (1 + r)^n",
+      "description": "Future value of a single sum compounded at rate r for n periods.",
+      "variables": [
+        {
+          "symbol": "FV",
+          "name": "FV",
+          "description": "Future Value"
+        },
+        {
+          "symbol": "PV",
+          "name": "PV",
+          "description": "Present Value"
+        },
+        {
+          "symbol": "r",
+          "name": "r",
+          "description": "Interest rate per period"
+        },
+        {
+          "symbol": "n",
+          "name": "n",
+          "description": "Number of periods"
+        }
+      ],
+      "example": "If you invest $1,000 at 5% for 3 years: FV = 1000 × (1.05)³ = $1,157.63"
+    },
+    {
+      "id": "EC-001",
+      "name_en": "GDP (Expenditure Approach)",
+      "name_ru": "ВВП (расходный метод)",
+      "book_id": 2,
+      "category": "Economics",
+      "formula": "GDP = C + I + G + (X - M)",
+      "description": "Gross Domestic Product calculated using the expenditure approach.",
+      "variables": [
+        {
+          "symbol": "C",
+          "name": "C",
+          "description": "Consumer spending"
+        },
+        {
+          "symbol": "I",
+          "name": "I",
+          "description": "Investment"
+        },
+        {
+          "symbol": "G",
+          "name": "G",
+          "description": "Government spending"
+        },
+        {
+          "symbol": "X",
+          "name": "X",
+          "description": "Exports"
+        },
+        {
+          "symbol": "M",
+          "name": "M",
+          "description": "Imports"
+        }
+      ]
+    },
+    {
+      "id": "FI-001",
+      "name_en": "Bond Price",
+      "name_ru": "Цена облигации",
+      "book_id": 6,
+      "category": "Fixed Income",
+      "formula": "P = \\frac{C}{(1+r)^1} + \\frac{C}{(1+r)^2} + \\cdots + \\frac{C + FV}{(1+r)^n}",
+      "description": "Price of a bond is the present value of all future cash flows (coupons and face value).",
+      "variables": [
+        {
+          "symbol": "P",
+          "name": "P",
+          "description": "Bond price"
+        },
+        {
+          "symbol": "C",
+          "name": "C",
+          "description": "Coupon payment"
+        },
+        {
+          "symbol": "r",
+          "name": "r",
+          "description": "Discount rate (YTM)"
+        },
+        {
+          "symbol": "FV",
+          "name": "FV",
+          "description": "Face value (par value)"
+        },
+        {
+          "symbol": "n",
+          "name": "n",
+          "description": "Number of periods to maturity"
+        }
+      ]
+    },
+    {
+      "id": "EQ-001",
+      "name_en": "Price-to-Earnings Ratio",
+      "name_ru": "Коэффициент цена/прибыль",
+      "book_id": 5,
+      "category": "Equity Valuation",
+      "formula": "P/E = \\frac{\\text{Price per Share}}{\\text{EPS}}",
+      "description": "The P/E ratio measures how much investors are willing to pay per dollar of earnings.",
+      "variables": [
+        {
+          "symbol": "P/E",
+          "name": "P/E",
+          "description": "Price-to-Earnings ratio"
+        },
+        {
+          "symbol": "EPS",
+          "name": "EPS",
+          "description": "Earnings Per Share"
+        }
+      ]
+    },
+    {
+      "id": "PM-001",
+      "name_en": "Sharpe Ratio",
+      "name_ru": "Коэффициент Шарпа",
+      "book_id": 9,
+      "category": "Portfolio Performance",
+      "formula": "\\text{Sharpe Ratio} = \\frac{R_p - R_f}{\\sigma_p}",
+      "description": "The Sharpe ratio measures risk-adjusted return.",
+      "variables": [
+        {
+          "symbol": "R_p",
+          "name": "R sub p",
+          "description": "Portfolio return"
+        },
+        {
+          "symbol": "R_f",
+          "name": "R sub f",
+          "description": "Risk-free rate"
+        },
+        {
+          "symbol": "\\sigma_p",
+          "name": "sigma sub p",
+          "description": "Portfolio standard deviation"
+        }
+      ]
+    },
+    {
+      "id": "FSA-001",
+      "name_en": "Current Ratio",
+      "name_ru": "Коэффициент текущей ликвидности",
+      "book_id": 3,
+      "category": "Financial Ratios",
+      "formula": "\\text{Current Ratio} = \\frac{\\text{Current Assets}}{\\text{Current Liabilities}}",
+      "description": "Measures a company's ability to pay short-term obligations.",
+      "variables": [
+        {
+          "symbol": "Current Assets",
+          "name": "Current Assets",
+          "description": "Assets expected to be converted to cash within one year"
+        },
+        {
+          "symbol": "Current Liabilities",
+          "name": "Current Liabilities",
+          "description": "Obligations due within one year"
+        }
+      ]
+    },
+    {
+      "id": "DER-001",
+      "name_en": "Call Option Value (Black-Scholes)",
+      "name_ru": "Стоимость опциона колл (Блэк-Шоулз)",
+      "book_id": 7,
+      "category": "Options",
+      "formula": "C = S_0 N(d_1) - X e^{-rT} N(d_2)",
+      "description": "Black-Scholes formula for European call option pricing.",
+      "variables": [
+        {
+          "symbol": "C",
+          "name": "C",
+          "description": "Call option value"
+        },
+        {
+          "symbol": "S_0",
+          "name": "S sub 0",
+          "description": "Current stock price"
+        },
+        {
+          "symbol": "X",
+          "name": "X",
+          "description": "Exercise price"
+        },
+        {
+          "symbol": "r",
+          "name": "r",
+          "description": "Risk-free rate"
+        },
+        {
+          "symbol": "T",
+          "name": "T",
+          "description": "Time to expiration"
+        },
+        {
+          "symbol": "N(d)",
+          "name": "N(d)",
+          "description": "Cumulative normal distribution"
+        }
+      ]
+    }
+  ]
+}

@@ -166,6 +166,12 @@
                     <p>Термины и определения</p>
                 </div>
 
+                <div class="card" onclick="showScreen('formulas')">
+                    <div class="card-icon">📐</div>
+                    <h3>Формулы</h3>
+                    <p>Справочник формул CFA</p>
+                </div>
+
                 <div class="card" onclick="showScreen('statistics')">
                     <div class="card-icon">📊</div>
                     <h3>Статистика</h3>
@@ -481,6 +487,41 @@
 
             <div id="glossary-list" class="glossary-list">
                 <!-- Terms list -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Formulas Screen -->
+    <div id="formulas-screen" class="screen hidden">
+        <nav class="top-nav">
+            <button class="btn btn-ghost" onclick="showScreen('dashboard')">← Назад</button>
+            <div class="nav-title">Формулы</div>
+            <div></div>
+        </nav>
+
+        <div class="glossary-container">
+            <div class="search-box glass-container">
+                <input type="text" id="formulas-search" placeholder="Поиск формул..." oninput="searchFormulas()">
+                <select id="formulas-book-filter" onchange="filterFormulas()">
+                    <option value="">Все книги</option>
+                    <option value="1">Book 1: Quantitative Methods</option>
+                    <option value="2">Book 2: Economics</option>
+                    <option value="3">Book 3: Financial Statement Analysis</option>
+                    <option value="4">Book 4: Corporate Issuers</option>
+                    <option value="5">Book 5: Equity Investments</option>
+                    <option value="6">Book 6: Fixed Income</option>
+                    <option value="7">Book 7: Derivatives</option>
+                    <option value="8">Book 8: Alternative Investments</option>
+                    <option value="9">Book 9: Portfolio Management</option>
+                    <option value="10">Book 10: Ethics</option>
+                </select>
+            </div>
+            <div class="glossary-actions">
+                <span id="formulas-count" class="text-muted"></span>
+            </div>
+
+            <div id="formulas-list" class="glossary-list">
+                <!-- Formulas list -->
             </div>
         </div>
     </div>
