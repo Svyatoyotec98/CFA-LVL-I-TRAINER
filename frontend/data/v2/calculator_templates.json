@@ -145,6 +145,216 @@
         "input": "56 ÷ 50 = 1.12, LN =",
         "result": "11.33%"
       }
+    },
+    "TVM_PV": {
+      "method": "Time Value of Money Worksheet",
+      "access": "[2ND] [CLR TVM]",
+      "steps": [
+        "Сбросьте переменные TVM: [2ND] [CLR TVM]",
+        "Установите количество платежей в год: [2ND] [P/Y] {P/Y} [ENTER]",
+        "Вернитесь в режим калькулятора: [2ND] [QUIT]",
+        "Введите количество периодов: {N} [N]",
+        "Введите процентную ставку: {I/Y} [I/Y]",
+        "Введите платеж (0 если нет): {PMT} [PMT]",
+        "Введите будущую стоимость (0 если нет): {FV} [FV]",
+        "Вычислите текущую стоимость: [CPT] [PV]"
+      ],
+      "example": {
+        "given": "N=20, I/Y=0.5%, PMT=0, FV=10000",
+        "input": "2ND CLR TVM, 20 N, 0.5 I/Y, 10000 FV, CPT PV",
+        "result": "PV = -9,050.63"
+      }
+    },
+    "TVM_FV": {
+      "method": "Time Value of Money Worksheet",
+      "access": "[2ND] [CLR TVM]",
+      "steps": [
+        "Сбросьте переменные TVM: [2ND] [CLR TVM]",
+        "Установите количество платежей в год: [2ND] [P/Y] {P/Y} [ENTER]",
+        "Вернитесь в режим калькулятора: [2ND] [QUIT]",
+        "Введите количество периодов: {N} [N]",
+        "Введите процентную ставку: {I/Y} [I/Y]",
+        "Введите текущую стоимость (со знаком минус для оттока): {PV} [+/-] [PV]",
+        "Введите платеж (0 если нет): {PMT} [PMT]",
+        "Вычислите будущую стоимость: [CPT] [FV]"
+      ],
+      "example": {
+        "given": "N=20, I/Y=0.5%, PV=5000, PMT=0",
+        "input": "2ND CLR TVM, 20 N, 0.5 I/Y, 5000 +/- PV, CPT FV",
+        "result": "FV = 5,524.48"
+      }
+    },
+    "TVM_PMT": {
+      "method": "Time Value of Money Worksheet",
+      "access": "[2ND] [CLR TVM]",
+      "steps": [
+        "Сбросьте переменные TVM: [2ND] [CLR TVM]",
+        "Установите количество платежей в год: [2ND] [P/Y] {P/Y} [ENTER]",
+        "Вернитесь в режим калькулятора: [2ND] [QUIT]",
+        "Введите количество периодов (используйте [2ND] [xP/Y] для умножения лет): {years} [2ND] [xP/Y] [N]",
+        "Введите процентную ставку: {I/Y} [I/Y]",
+        "Введите сумму займа (текущую стоимость): {PV} [PV]",
+        "Вычислите платеж: [CPT] [PMT]"
+      ],
+      "example": {
+        "given": "Заем $75,000 на 30 лет под 5.5% с ежемесячными платежами",
+        "input": "2ND P/Y 12 ENTER, 2ND QUIT, 30 2ND xP/Y N, 5.5 I/Y, 75000 PV, CPT PMT",
+        "result": "PMT = -425.84"
+      }
+    },
+    "TVM_N": {
+      "method": "Time Value of Money Worksheet",
+      "access": "[2ND] [CLR TVM]",
+      "steps": [
+        "Сбросьте переменные TVM: [2ND] [CLR TVM]",
+        "Установите количество платежей в год: [2ND] [P/Y] {P/Y} [ENTER]",
+        "Вернитесь в режим калькулятора: [2ND] [QUIT]",
+        "Введите процентную ставку: {I/Y} [I/Y]",
+        "Введите текущую стоимость: {PV} [PV]",
+        "Введите платеж (со знаком минус): {PMT} [+/-] [PMT]",
+        "Введите будущую стоимость (0 если нет): {FV} [FV]",
+        "Вычислите количество периодов: [CPT] [N]"
+      ],
+      "example": {
+        "given": "PV=75000, PMT=-425.84, I/Y=5.5%, FV=0",
+        "input": "2ND P/Y 12 ENTER, 2ND QUIT, 5.5 I/Y, 75000 PV, 425.84 +/- PMT, CPT N",
+        "result": "N = 360 (30 лет)"
+      }
+    },
+    "TVM_IY": {
+      "method": "Time Value of Money Worksheet",
+      "access": "[2ND] [CLR TVM]",
+      "steps": [
+        "Сбросьте переменные TVM: [2ND] [CLR TVM]",
+        "Установите количество платежей в год: [2ND] [P/Y] {P/Y} [ENTER]",
+        "Вернитесь в режим калькулятора: [2ND] [QUIT]",
+        "Введите количество периодов: {years} [2ND] [xP/Y] [N]",
+        "Введите сумму займа: {PV} [PV]",
+        "Введите платеж (со знаком минус): {PMT} [+/-] [PMT]",
+        "Вычислите процентную ставку: [CPT] [I/Y]"
+      ],
+      "example": {
+        "given": "Заем $75,000 на 30 лет, платеж $425.84/месяц",
+        "input": "2ND P/Y 12 ENTER, 2ND QUIT, 30 2ND xP/Y N, 75000 PV, 425.84 +/- PMT, CPT I/Y",
+        "result": "I/Y = 5.50%"
+      }
+    },
+    "CF_NPV": {
+      "method": "Cash Flow Worksheet",
+      "access": "[CF]",
+      "steps": [
+        "Очистите Cash Flow worksheet: [CF] [2ND] [CLR WORK]",
+        "Введите начальный денежный поток CFo: {CFo} [ENTER] [↓]",
+        "Введите первый денежный поток C01: {C01} [ENTER] [↓]",
+        "Введите частоту F01 (по умолчанию 1): {F01} [ENTER] [↓]",
+        "Повторите для всех денежных потоков (C02, F02 и т.д.)",
+        "Введите ставку дисконтирования: [NPV] {I} [ENTER] [↓]",
+        "Вычислите NPV: [CPT]"
+      ],
+      "example": {
+        "given": "CFo=-7000, C01=3000, C02=5000×4, C03=4000, I=20%",
+        "input": "CF 2ND CLR WORK, 7000 +/- ENTER ↓, 3000 ENTER ↓↓, 5000 ENTER ↓ 4 ENTER ↓, 4000 ENTER, NPV 20 ENTER ↓ CPT",
+        "result": "NPV = 7,266.44"
+      }
+    },
+    "BOND_price": {
+      "method": "Bond Worksheet",
+      "access": "[2ND] [BOND]",
+      "steps": [
+        "Войдите в Bond worksheet: [2ND] [BOND]",
+        "Очистите worksheet: [2ND] [CLR WORK]",
+        "Введите дату расчетов SDT: {mm.ddyy} [ENTER] [↓]",
+        "Введите купонную ставку CPN: {CPN%} [ENTER] [↓]",
+        "Введите дату погашения RDT: {mm.ddyy} [ENTER] [↓]",
+        "Пропустите RV (по умолчанию 100): [↓]",
+        "Выберите метод подсчета дней: [↓] [2ND] [SET] (ACT или 360)",
+        "Пропустите частоту купонов: [↓]",
+        "Введите доходность YLD: {YLD%} [ENTER] [↓]",
+        "Вычислите цену: [CPT]"
+      ],
+      "example": {
+        "given": "SDT=6.1206, CPN=7%, RDT=12.3107, YLD=8%",
+        "input": "2ND BOND, 2ND CLR WORK, 6.1206 ENTER ↓, 7 ENTER ↓, 12.3107 ENTER ↓↓, 2ND SET ↓, 8 ENTER ↓ CPT",
+        "result": "PRI = 98.56"
+      }
+    },
+    "BOND_yield": {
+      "method": "Bond Worksheet",
+      "access": "[2ND] [BOND]",
+      "steps": [
+        "Войдите в Bond worksheet: [2ND] [BOND]",
+        "Очистите worksheet: [2ND] [CLR WORK]",
+        "Введите дату расчетов SDT: {mm.ddyy} [ENTER] [↓]",
+        "Введите купонную ставку CPN: {CPN%} [ENTER] [↓]",
+        "Введите дату погашения RDT: {mm.ddyy} [ENTER] [↓]",
+        "Пропустите RV (по умолчанию 100): [↓]",
+        "Выберите метод подсчета дней: [↓] [2ND] [SET] (ACT или 360)",
+        "Пропустите частоту купонов: [↓↓]",
+        "Введите цену PRI: {PRI} [ENTER] [↑]",
+        "Вычислите доходность: [CPT]"
+      ],
+      "example": {
+        "given": "SDT=6.1206, CPN=7%, RDT=12.3107, PRI=98.56",
+        "input": "2ND BOND, 2ND CLR WORK, 6.1206 ENTER ↓, 7 ENTER ↓, 12.3107 ENTER ↓↓, 2ND SET ↓↓, 98.56 ENTER ↑ CPT",
+        "result": "YLD = 8.00%"
+      }
+    },
+    "STAT_variance": {
+      "method": "Statistics Worksheet",
+      "access": "[2ND] [DATA]",
+      "steps": [
+        "Войдите в DATA worksheet: [2ND] [DATA]",
+        "Очистите данные: [2ND] [CLR WORK]",
+        "Введите первое значение X01: {X1} [ENTER] [↓]",
+        "Введите частоту Y01 (по умолчанию 1): [↓] или {freq} [ENTER] [↓]",
+        "Повторите для всех значений (X02, X03...)",
+        "Войдите в STAT: [2ND] [STAT]",
+        "Выберите 1-V для одномерной статистики: [2ND] [SET]",
+        "Найдите Sx (выборочное стандартное отклонение): [↓] [↓] [↓]",
+        "Вычислите дисперсию: Sx² используя [x²]"
+      ],
+      "example": {
+        "given": "Данные: 5, 8, -2, 10",
+        "input": "2ND DATA, 2ND CLR WORK, 5 ENTER ↓↓, 8 ENTER ↓↓, -2 ENTER ↓↓, 10 ENTER, 2ND STAT, 2ND SET, ↓↓↓, затем x²",
+        "result": "Sx = 5.123, s² = 26.25"
+      }
+    },
+    "STAT_std_dev": {
+      "method": "Statistics Worksheet",
+      "access": "[2ND] [DATA]",
+      "steps": [
+        "Войдите в DATA worksheet: [2ND] [DATA]",
+        "Очистите данные: [2ND] [CLR WORK]",
+        "Введите первое значение X01: {X1} [ENTER] [↓]",
+        "Введите частоту Y01 (по умолчанию 1): [↓] или {freq} [ENTER] [↓]",
+        "Повторите для всех значений (X02, X03...)",
+        "Войдите в STAT: [2ND] [STAT]",
+        "Выберите 1-V для одномерной статистики: [2ND] [SET]",
+        "Найдите Sx (выборочное стандартное отклонение): [↓] [↓] [↓]"
+      ],
+      "example": {
+        "given": "Данные: 5, 8, -2, 10",
+        "input": "2ND DATA, 2ND CLR WORK, 5 ENTER ↓↓, 8 ENTER ↓↓, -2 ENTER ↓↓, 10 ENTER, 2ND STAT, 2ND SET, ↓↓↓",
+        "result": "Sx = 5.123"
+      }
+    },
+    "ICONV_EAR": {
+      "method": "Interest Conversion Worksheet",
+      "access": "[2ND] [ICONV]",
+      "steps": [
+        "Войдите в Interest Conversion worksheet: [2ND] [2] (ICONV)",
+        "Очистите worksheet: [2ND] [CLR WORK]",
+        "Введите номинальную ставку NOM: {NOM%} [ENTER]",
+        "Перейдите к C/Y: [↓] [↓]",
+        "Введите количество периодов начисления в год: {C/Y} [ENTER]",
+        "Вернитесь к EFF: [↑]",
+        "Вычислите эффективную ставку: [CPT]"
+      ],
+      "example": {
+        "given": "NOM=15%, C/Y=4 (квартальное начисление)",
+        "input": "2ND 2, 2ND CLR WORK, 15 ENTER ↓↓, 4 ENTER ↑ CPT",
+        "result": "EFF = 15.87%"
+      }
     }
   }
 }
