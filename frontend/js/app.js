@@ -1367,6 +1367,7 @@ function displayFormulas(formulas) {
                     </div>
                 ` : ''}
                 ${formula.description ? `<div class="term-definition">${formula.description}</div>` : ''}
+                ${formula.description_ru ? `<div class="term-definition-ru">${formula.description_ru}</div>` : ''}
             </div>
         </div>
     `).join('');
