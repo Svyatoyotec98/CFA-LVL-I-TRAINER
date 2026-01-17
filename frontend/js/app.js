@@ -423,39 +423,85 @@ async function loadBookData(bookId) {
     }
 
     try {
-        // Load from local v2 qbank JSON file
-        // TODO: Make this dynamic based on bookId and moduleId
-        if (bookId === 1) {
-            const response = await fetch('data/v2/books/book1_quants/module1/qbank_module_1.json');
-            const qbankData = await response.json();
+        // Map bookId to folder name
+        const bookFolders = {
+            1: 'book1_quants',
+            2: 'book2_economics',
+            3: 'book3_fsa',
+            4: 'book4_corporate',
+            5: 'book5_equity',
+            6: 'book6_fixed_income',
+            7: 'book7_derivatives',
+            8: 'book8_alternatives',
+            9: 'book9_portfolio',
+            10: 'book10_ethics'
+        };
 
-            // Transform to expected structure
-            const data = {
-                book_id: qbankData.metadata.book_id,
-                book_code: qbankData.metadata.book_code,
-                book_name: qbankData.metadata.book_name,
-                book_name_ru: qbankData.metadata.book_name_ru,
-                learning_modules: [
-                    {
-                        module_id: qbankData.metadata.module_id,
-                        module_name: qbankData.metadata.module_name,
-                        module_name_ru: qbankData.metadata.module_name_ru,
-                        questions: qbankData.questions
-                    }
-                ]
-            };
-            state.booksData[bookId] = data;
-            return data;
+        const bookFolder = bookFolders[bookId];
+        if (!bookFolder) {
+            throw new Error(`Unknown book ID: ${bookId}`);
         }
 
-        // Fallback to API for other books
-        const data = await apiGet(`/tests/book-info/${bookId}`);
+        // Load meta.json for the book
+        const metaResponse = await fetch(`data/v2/books/${bookFolder}/meta.json`);
+        if (!metaResponse.ok) {
+            throw new Error(`Failed to load meta.json for book ${bookId}`);
+        }
+        const metaData = await metaResponse.json();
+
+        // Build learning_modules array from meta.json
+        const learning_modules = [];
+
+        for (const module of metaData.modules) {
+            const moduleData = {
+                module_id: module.module_id,
+                module_name: module.module_name,
+                module_name_ru: module.module_name_ru,
+                status: module.status,
+                questions: []
+            };
+
+            // Load qbank if available (status = "complete" and qbank_file exists)
+            if (module.qbank_file && module.status === 'complete') {
+                try {
+                    const qbankResponse = await fetch(
+                        `data/v2/books/${bookFolder}/module${module.module_id}/${module.qbank_file}`
+                    );
+                    if (qbankResponse.ok) {
+                        const qbankData = await qbankResponse.json();
+                        moduleData.questions = qbankData.questions || [];
+                    }
+                } catch (e) {
+                    console.warn(`Failed to load qbank for module ${module.module_id}:`, e);
+                }
+            }
+
+            learning_modules.push(moduleData);
+        }
+
+        const data = {
+            book_id: metaData.book_id,
+            book_code: metaData.book_code,
+            book_name: metaData.book_name,
+            book_name_ru: metaData.book_name_ru,
+            learning_modules
+        };
+
         state.booksData[bookId] = data;
         return data;
+
     } catch (error) {
         console.error(`Failed to load book ${bookId}:`, error);
-        showToast('Ошибка загрузки данных книги', 'error');
-        throw error;
+
+        // Fallback to API for other books
+        try {
+            const data = await apiGet(`/tests/book-info/${bookId}`);
+            state.booksData[bookId] = data;
+            return data;
+        } catch (apiError) {
+            showToast('Ошибка загрузки данных книги', 'error');
+            throw error;
+        }
     }
 }
 
