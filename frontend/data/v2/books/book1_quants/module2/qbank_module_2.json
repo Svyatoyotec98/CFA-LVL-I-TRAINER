@@ -7,7 +7,7 @@
     "module_id": 2,
     "module_name": "Time Value of Money",
     "module_name_ru": "Временная стоимость денег",
-    "total_questions": 20,
+    "total_questions": 30,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -787,6 +787,392 @@
       },
       "difficulty": "medium",
       "topic_tags": ["rule_of_72", "solve_for_n"]
+    },
+    {
+      "question_id": "QM-2-Q021",
+      "original_question_number": 53,
+      "los_id": "LOS_2b",
+      "question_text_en": "GHG Corp.'s net profit increased from £2,300,000 in 2012 to £4,800,000 in 2016. The net profit growth rate is closest to:",
+      "question_text_ru": "Чистая прибыль GHG Corp. выросла с £2,300,000 в 2012 году до £4,800,000 в 2016 году. Темп роста чистой прибыли ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "15.90%", "text_ru": "15.90%"},
+        {"id": "opt_b", "text_en": "20.20%", "text_ru": "20.20%"},
+        {"id": "opt_c", "text_en": "52.10%", "text_ru": "52.10%"}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Growth rate: g = (FV/PV)^(1/N) - 1 = (4.8/2.3)^(1/4) - 1 = 20.19%",
+      "explanation_ru": "Темп роста: g = (FV/PV)^(1/N) - 1 = (4.8/2.3)^(1/4) - 1 = 20.19%",
+      "explanation_formula": "$g = \\left(\\frac{4,800,000}{2,300,000}\\right)^{\\frac{1}{4}} - 1 = 20.19\\%$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This assumes N=5 instead of 4 years.",
+          "text_ru": "Неверно. Это предполагает N=5 вместо 4 лет."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This is simple percentage change without compounding.",
+          "text_ru": "Неверно. Это простое процентное изменение без сложного процента."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM Worksheet",
+        "steps_en": ["N = 4", "PV = -2,300,000", "PMT = 0", "FV = 4,800,000", "CPT → I/Y = 20.19%"],
+        "steps_ru": ["N = 4", "PV = -2,300,000", "PMT = 0", "FV = 4,800,000", "CPT → I/Y = 20.19%"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["growth_rate", "implied_return"]
+    },
+    {
+      "question_id": "QM-2-Q022",
+      "original_question_number": 398,
+      "los_id": "LOS_2a",
+      "question_text_en": "The Effective Annual Rate (EAR) of an investment with a stated annual interest rate of 33%, if the rate is compounded daily is closest to:",
+      "question_text_ru": "Эффективная годовая ставка (EAR) инвестиции с номинальной годовой ставкой 33% при ежедневном начислении ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "35.70%", "text_ru": "35.70%"},
+        {"id": "opt_b", "text_en": "37.30%", "text_ru": "37.30%"},
+        {"id": "opt_c", "text_en": "39.10%", "text_ru": "39.10%"}
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "EAR = (1 + r/m)^m - 1 = (1 + 0.33/365)^365 - 1 = 39.09%",
+      "explanation_ru": "EAR = (1 + r/m)^m - 1 = (1 + 0.33/365)^365 - 1 = 39.09%",
+      "explanation_formula": "$EAR = \\left(1 + \\frac{0.33}{365}\\right)^{365} - 1 = 39.09\\%$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This is EAR with semi-annual compounding.",
+          "text_ru": "Неверно. Это EAR с полугодовым начислением."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. This is EAR with quarterly compounding.",
+          "text_ru": "Неверно. Это EAR с квартальным начислением."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Direct Calculation",
+        "steps_en": ["1 + 0.33/365 = 1.000904", "(1.000904)^365 = 1.3909", "1.3909 - 1 = 0.3909 = 39.09%"],
+        "steps_ru": ["1 + 0.33/365 = 1.000904", "(1.000904)^365 = 1.3909", "1.3909 - 1 = 0.3909 = 39.09%"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["effective_annual_rate", "daily_compounding"]
+    },
+    {
+      "question_id": "QM-2-Q023",
+      "original_question_number": 401,
+      "los_id": "LOS_2a",
+      "question_text_en": "The current valuation of Genius Corporation confirms a net worth of AUD 2.5 million. Three years ago, the firm was sold to its new investors for AUD 800,000. The growth rate for the Genius Corporation within the three years is closest to:",
+      "question_text_ru": "Текущая оценка Genius Corporation подтверждает чистую стоимость AUD 2.5 миллиона. Три года назад фирма была продана новым инвесторам за AUD 800,000. Темп роста Genius Corporation за три года ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "32.00%", "text_ru": "32.00%"},
+        {"id": "opt_b", "text_en": "46.20%", "text_ru": "46.20%"},
+        {"id": "opt_c", "text_en": "68.00%", "text_ru": "68.00%"}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Growth rate: g = (FV/PV)^(1/N) - 1 = (2.5/0.8)^(1/3) - 1 = 46.19%",
+      "explanation_ru": "Темп роста: g = (FV/PV)^(1/N) - 1 = (2.5/0.8)^(1/3) - 1 = 46.19%",
+      "explanation_formula": "$g = \\left(\\frac{2,500,000}{800,000}\\right)^{\\frac{1}{3}} - 1 = 46.19\\%$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This is an erroneous calculation method.",
+          "text_ru": "Неверно. Это ошибочный метод расчёта."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This is an erroneous calculation method.",
+          "text_ru": "Неверно. Это ошибочный метод расчёта."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM Worksheet",
+        "steps_en": ["N = 3", "PV = -800,000", "PMT = 0", "FV = 2,500,000", "CPT → I/Y = 46.19%"],
+        "steps_ru": ["N = 3", "PV = -800,000", "PMT = 0", "FV = 2,500,000", "CPT → I/Y = 46.19%"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["growth_rate", "implied_return"]
+    },
+    {
+      "question_id": "QM-2-Q024",
+      "original_question_number": 402,
+      "los_id": "LOS_2b",
+      "question_text_en": "Mr. Thomas Newborn wants to purchase a $150,000 home and has already made a cash deposit of $20,000. The balance is financed through a 25-year mortgage borrowing with an annual interest rate of 6% compounded monthly. The first monthly mortgage payment is due at t = 1. The monthly mortgage repayment rate is closest to:",
+      "question_text_ru": "Мистер Томас Ньюборн хочет купить дом за $150,000 и уже внёс депозит $20,000. Остаток финансируется через 25-летнюю ипотеку с годовой ставкой 6% с ежемесячным начислением. Первый ежемесячный платёж по ипотеке в t = 1. Ежемесячный платёж по ипотеке ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "$837.59", "text_ru": "$837.59"},
+        {"id": "opt_b", "text_en": "$875.92", "text_ru": "$875.92"},
+        {"id": "opt_c", "text_en": "$966.49", "text_ru": "$966.49"}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Loan amount = $150,000 - $20,000 = $130,000. N = 300 months, I/Y = 0.5%.",
+      "explanation_ru": "Сумма займа = $150,000 - $20,000 = $130,000. N = 300 месяцев, I/Y = 0.5%.",
+      "explanation_formula": "$PMT = \\frac{r \\times PV}{1 - (1+r)^{-N}} = \\$837.59$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This is the payment for annuity due (payments at beginning).",
+          "text_ru": "Неверно. Это платёж для аннуитета пренумерандо (платежи в начале)."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This does not subtract the $20,000 deposit.",
+          "text_ru": "Неверно. Не вычтен депозит $20,000."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM Worksheet",
+        "steps_en": ["N = 300", "I/Y = 0.5", "PV = -130,000", "FV = 0", "CPT → PMT = 837.59"],
+        "steps_ru": ["N = 300", "I/Y = 0.5", "PV = -130,000", "FV = 0", "CPT → PMT = 837.59"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["mortgage", "loan_payment"]
+    },
+    {
+      "question_id": "QM-2-Q025",
+      "original_question_number": 3403,
+      "los_id": "LOS_2b",
+      "question_text_en": "A bank advertises that it pays an annual interest of 10% with semi-annual compounding on its savings account. The effective annual rate is closest to:",
+      "question_text_ru": "Банк рекламирует годовой процент 10% с полугодовым начислением по сберегательному счёту. Эффективная годовая ставка ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "10.25%", "text_ru": "10.25%"},
+        {"id": "opt_b", "text_en": "10.38%", "text_ru": "10.38%"},
+        {"id": "opt_c", "text_en": "10.47%", "text_ru": "10.47%"}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "EAR = (1 + r/m)^m - 1 = (1 + 0.10/2)^2 - 1 = (1.05)^2 - 1 = 10.25%",
+      "explanation_ru": "EAR = (1 + r/m)^m - 1 = (1 + 0.10/2)^2 - 1 = (1.05)^2 - 1 = 10.25%",
+      "explanation_formula": "$EAR = (1.05)^2 - 1 = 10.25\\%$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This is EAR with quarterly compounding.",
+          "text_ru": "Неверно. Это EAR с квартальным начислением."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This is EAR with monthly compounding.",
+          "text_ru": "Неверно. Это EAR с ежемесячным начислением."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["effective_annual_rate", "semi_annual_compounding"]
+    },
+    {
+      "question_id": "QM-2-Q026",
+      "original_question_number": 3405,
+      "los_id": "LOS_2b",
+      "question_text_en": "Norman Smith is considering an investment opportunity presented by his portfolio manager, which involves making an annual investment of $1,000 at the end of each year for a duration of 10 years. Assuming the investment yields an annual return of 10%, the amount that Smith can expect to receive at the end of the 10th year is closest to:",
+      "question_text_ru": "Норман Смит рассматривает инвестиционную возможность от своего портфельного менеджера: ежегодные инвестиции $1,000 в конце каждого года в течение 10 лет. При годовой доходности 10% сумма, которую Смит может ожидать в конце 10-го года, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "$10,000.00", "text_ru": "$10,000.00"},
+        {"id": "opt_b", "text_en": "$15,937.42", "text_ru": "$15,937.42"},
+        {"id": "opt_c", "text_en": "$17,531.17", "text_ru": "$17,531.17"}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "This is an ordinary annuity FV calculation. FV = $1,000 × [(1.10)^10 - 1]/0.10 = $15,937.42",
+      "explanation_ru": "Это расчёт FV обычного аннуитета. FV = $1,000 × [(1.10)^10 - 1]/0.10 = $15,937.42",
+      "explanation_formula": "$FV = \\$1,000 \\times \\frac{(1.10)^{10} - 1}{0.10} = \\$15,937.42$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This is simply the sum without interest: $1,000 × 10 = $10,000.",
+          "text_ru": "Неверно. Это просто сумма без процентов: $1,000 × 10 = $10,000."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This is FV of annuity due (BGN mode): $15,937.42 × 1.10 = $17,531.17",
+          "text_ru": "Неверно. Это FV аннуитета пренумерандо (режим BGN): $15,937.42 × 1.10 = $17,531.17"
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM Worksheet",
+        "steps_en": ["N = 10", "I/Y = 10", "PV = 0", "PMT = -1,000", "CPT → FV = 15,937.42"],
+        "steps_ru": ["N = 10", "I/Y = 10", "PV = 0", "PMT = -1,000", "CPT → FV = 15,937.42"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["future_value", "ordinary_annuity"]
+    },
+    {
+      "question_id": "QM-2-Q027",
+      "original_question_number": 3406,
+      "los_id": "LOS_2b",
+      "question_text_en": "An investor wants to invest $1,000 at the beginning of each year for the next 10 years, after which he can redeem his investment at the beginning of the 10th year. The amount received by the investor at the end of the 10th year, if the investment generates a yearly return of 10%, is closest to:",
+      "question_text_ru": "Инвестор хочет вкладывать $1,000 в начале каждого года в течение 10 лет. Сумма, полученная инвестором в конце 10-го года при годовой доходности 10%, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "$2,593.74", "text_ru": "$2,593.74"},
+        {"id": "opt_b", "text_en": "$15,937.42", "text_ru": "$15,937.42"},
+        {"id": "opt_c", "text_en": "$17,531.17", "text_ru": "$17,531.17"}
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "This is an annuity due. FV(annuity due) = FV(ordinary) × (1+r) = $15,937.42 × 1.10 = $17,531.17",
+      "explanation_ru": "Это аннуитет пренумерандо. FV(пренумерандо) = FV(обычный) × (1+r) = $15,937.42 × 1.10 = $17,531.17",
+      "explanation_formula": "$FV_{due} = FV_{ordinary} \\times (1+r) = \\$15,937.42 \\times 1.10 = \\$17,531.17$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This is FV of a single lump sum: $1,000 × (1.10)^10 = $2,593.74",
+          "text_ru": "Неверно. Это FV единовременной суммы: $1,000 × (1.10)^10 = $2,593.74"
+        },
+        "opt_b": {
+          "text_en": "Incorrect. This is FV of ordinary annuity, not annuity due.",
+          "text_ru": "Неверно. Это FV обычного аннуитета, а не аннуитета пренумерандо."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM Worksheet (BGN mode)",
+        "steps_en": ["Set BGN mode", "N = 10", "I/Y = 10", "PV = 0", "PMT = -1,000", "CPT → FV = 17,531.17"],
+        "steps_ru": ["Установить режим BGN", "N = 10", "I/Y = 10", "PV = 0", "PMT = -1,000", "CPT → FV = 17,531.17"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["future_value", "annuity_due"]
+    },
+    {
+      "question_id": "QM-2-Q028",
+      "original_question_number": 3407,
+      "los_id": "LOS_2b",
+      "question_text_en": "Nathan Lewis is planning to subscribe to an investment plan which will generate a return of 5% and provide him with $2,000 at the end of each year for the next 5 years. However, due to financial constraints, he plans to subscribe to the investment plan in 2 years. The present value of the investment plan today is closest to:",
+      "question_text_ru": "Натан Льюис планирует подписаться на инвестиционный план с доходностью 5%, который принесёт ему $2,000 в конце каждого года в течение 5 лет. Однако из-за финансовых ограничений он планирует подписаться через 2 года. Приведённая стоимость плана сегодня ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "$4,942.26", "text_ru": "$4,942.26"},
+        {"id": "opt_b", "text_en": "$8,246.62", "text_ru": "$8,246.62"},
+        {"id": "opt_c", "text_en": "$8,658.95", "text_ru": "$8,658.95"}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Step 1: PV of annuity at t=2 (when it starts) for 3 years = $5,446.52. Step 2: Discount to t=0: PV = $5,446.52/(1.05)^2 = $4,942.26",
+      "explanation_ru": "Шаг 1: PV аннуитета при t=2 (когда он начинается) за 3 года = $5,446.52. Шаг 2: Дисконтировать к t=0: PV = $5,446.52/(1.05)^2 = $4,942.26",
+      "explanation_formula": "$PV_{t=0} = \\frac{PV_{annuity,t=2}}{(1.05)^2} = \\frac{5,446.52}{1.1025} = 4,942.26$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This is the PV of the annuity at t=2, not at t=0.",
+          "text_ru": "Неверно. Это PV аннуитета при t=2, а не при t=0."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This is PV of annuity due at t=0, not ordinary annuity.",
+          "text_ru": "Неверно. Это PV аннуитета пренумерандо при t=0, а не обычного аннуитета."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM Worksheet",
+        "steps_en": ["N = 3", "I/Y = 5", "PMT = 2,000", "FV = 0", "CPT → PV = -5,446.52", "Then: 5,446.52 ÷ (1.05)^2 = 4,942.26"],
+        "steps_ru": ["N = 3", "I/Y = 5", "PMT = 2,000", "FV = 0", "CPT → PV = -5,446.52", "Затем: 5,446.52 ÷ (1.05)^2 = 4,942.26"]
+      },
+      "difficulty": "hard",
+      "topic_tags": ["deferred_annuity", "present_value"]
+    },
+    {
+      "question_id": "QM-2-Q029",
+      "original_question_number": 3408,
+      "los_id": "LOS_2b",
+      "question_text_en": "A construction company is bidding for a new project. The projected cash flows are: $100,000 at the end of Year 1 and $600,000 at the end of Year 2. If the company intends to generate a return of 10%, then the present value of the projected cash flows today is closest to:",
+      "question_text_ru": "Строительная компания участвует в тендере на новый проект. Прогнозируемые денежные потоки: $100,000 в конце 1-го года и $600,000 в конце 2-го года. При желаемой доходности 10% приведённая стоимость денежных потоков сегодня ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "$525,920.36", "text_ru": "$525,920.36"},
+        {"id": "opt_b", "text_en": "$578,512.40", "text_ru": "$578,512.40"},
+        {"id": "opt_c", "text_en": "$586,776.86", "text_ru": "$586,776.86"}
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "PV = $100,000/1.10 + $600,000/1.10^2 = $90,909.09 + $495,867.77 = $586,776.86",
+      "explanation_ru": "PV = $100,000/1.10 + $600,000/1.10^2 = $90,909.09 + $495,867.77 = $586,776.86",
+      "explanation_formula": "$PV = \\frac{100,000}{1.10} + \\frac{600,000}{1.10^2} = 90,909.09 + 495,867.77 = 586,776.86$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This discounts the total ($700,000) by 3 years.",
+          "text_ru": "Неверно. Это дисконтирует общую сумму ($700,000) на 3 года."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. This discounts both cash flows by 2 years.",
+          "text_ru": "Неверно. Это дисконтирует оба потока на 2 года."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Cash Flow Worksheet",
+        "steps_en": ["CF0 = 0", "CF1 = 100,000", "CF2 = 600,000", "I = 10", "CPT → NPV = 586,776.86"],
+        "steps_ru": ["CF0 = 0", "CF1 = 100,000", "CF2 = 600,000", "I = 10", "CPT → NPV = 586,776.86"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["npv", "uneven_cash_flows"]
+    },
+    {
+      "question_id": "QM-2-Q030",
+      "original_question_number": 3409,
+      "los_id": "LOS_2b",
+      "question_text_en": "A project manager is looking to fund his new project through bank borrowings. The new project requires funding of $1,000,000, so the manager approaches a commercial bank. The bank is willing to fund the project at an interest rate of 3% and wants the firm to pay back the entire loan in 10 years in 10 equal payments. The yearly payment required to completely pay off the loan is closest to:",
+      "question_text_ru": "Менеджер проекта ищет финансирование через банковский кредит. Проект требует $1,000,000. Банк готов финансировать под 3% и требует погашения займа за 10 лет равными ежегодными платежами. Годовой платёж для полного погашения ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "$101,380.15", "text_ru": "$101,380.15"},
+        {"id": "opt_b", "text_en": "$104,171.23", "text_ru": "$104,171.23"},
+        {"id": "opt_c", "text_en": "$117,230.51", "text_ru": "$117,230.51"}
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Calculate loan payment: N=10, I/Y=3, PV=-1,000,000, FV=0, CPT → PMT = $117,230.51",
+      "explanation_ru": "Рассчитайте платёж по кредиту: N=10, I/Y=3, PV=-1,000,000, FV=0, CPT → PMT = $117,230.51",
+      "explanation_formula": "$PMT = \\frac{r \\times PV}{1 - (1+r)^{-N}} = \\$117,230.51$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This uses monthly rate (3%/12) instead of annual.",
+          "text_ru": "Неверно. Используется ежемесячная ставка (3%/12) вместо годовой."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. This uses quarterly rate (3%/4) instead of annual.",
+          "text_ru": "Неверно. Используется квартальная ставка (3%/4) вместо годовой."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM Worksheet",
+        "steps_en": ["N = 10", "I/Y = 3", "PV = -1,000,000", "FV = 0", "CPT → PMT = 117,230.51"],
+        "steps_ru": ["N = 10", "I/Y = 3", "PV = -1,000,000", "FV = 0", "CPT → PMT = 117,230.51"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["loan_payment", "amortization"]
     }
   ]
 }
