@@ -1129,8 +1129,9 @@ function renderCalculatorSteps(calc) {
     // Determine method/worksheet name (support both old and new format)
     const methodName = calcData.method || calcData.worksheet || 'Calculator';
 
-    // Check if has steps to display
-    if (!calcData.steps || calcData.steps.length === 0) return '';
+    // Support both steps and steps_ru
+    const steps = calcData.steps_ru || calcData.steps;
+    if (!steps || steps.length === 0) return '';
 
     // Render description if available (for Multi-step Calculation)
     const description = calcData.description ? `<p class="calc-description">${calcData.description}</p>` : '';
@@ -1140,12 +1141,12 @@ function renderCalculatorSteps(calc) {
             <div class="calc-header" onclick="toggleCalculatorBlock(this)">
                 <span class="calc-toggle-icon">▼</span>
                 <span class="calc-icon">📟</span>
-                <span class="calc-title">BA II Plus: ${methodName}</span>
+                <span class="calc-title">${methodName}</span>
                 ${calcData.access ? `<code class="calc-access">${calcData.access}</code>` : ''}
             </div>
             ${description}
             <ol class="calc-steps">
-                ${calcData.steps.map(step => `<li>${step}</li>`).join('')}
+                ${steps.map(step => `<li>${step}</li>`).join('')}
             </ol>
             ${calcData.example ? `
                 <div class="calc-example">

@@ -867,6 +867,13 @@ a:hover {
     padding: 8px;
 }
 
+#glossary-los-filter {
+    max-width: 250px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 .glossary-list {
     display: flex;
     flex-direction: column;
@@ -1917,6 +1924,7 @@ a:hover {
 .option-text {
     flex: 1;
     line-height: 1.5;
+    color: var(--text);
 }
 
 .option-text-ru {
