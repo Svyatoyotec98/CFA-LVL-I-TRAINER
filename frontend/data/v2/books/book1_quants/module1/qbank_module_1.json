@@ -1480,8 +1480,8 @@
       "question_id": "QM-1-Q028",
       "original_question_number": 2836,
       "los_id": "LOS_1b",
-      "question_text_en": "TexCo stock data table. Calculate HPR for 2012.",
-      "question_text_ru": "Данные акций TexCo. Рассчитайте HPR за 2012.",
+      "question_text_en": "TexCo is a textile firm in Shanghai. The stock of TexCo has been closing higher every year for the past 7 years. Using the stock data provided in the following table, calculate the Holding Period Return on TexCo's stock for the year 2012.",
+      "question_text_ru": "TexCo - текстильная компания в Шанхае. Акции TexCo росли каждый год последние 7 лет. Используя данные в таблице, рассчитайте HPR за 2012 год.",
       "has_table": true,
       "table_data": {
         "headers": [
@@ -1489,7 +1489,22 @@
           "Closing Price",
           "Dividend"
         ],
+        "headers_ru": [
+          "Год",
+          "Цена закрытия",
+          "Дивиденд"
+        ],
         "rows": [
+          [
+            "2009",
+            "$23.78",
+            "$1.10"
+          ],
+          [
+            "2010",
+            "$25.25",
+            "$1.80"
+          ],
           [
             "2011",
             "$28.21",
@@ -1499,6 +1514,21 @@
             "2012",
             "$30.50",
             "$2.50"
+          ],
+          [
+            "2013",
+            "$31.50",
+            "$1.50"
+          ],
+          [
+            "2014",
+            "$32.00",
+            "$3.00"
+          ],
+          [
+            "2015",
+            "$34.00",
+            "$2.00"
           ]
         ]
       },

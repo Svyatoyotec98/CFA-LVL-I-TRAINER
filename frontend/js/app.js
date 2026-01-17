@@ -553,8 +553,9 @@ function displayQuestion() {
     // Question continuation (text after table)
     const continuationDiv = document.getElementById('question-continuation');
     if (continuationDiv) {
-        if (question.question_continuation) {
-            continuationDiv.textContent = question.question_continuation;
+        const continuationText = getText(question, 'question_continuation');
+        if (continuationText) {
+            continuationDiv.textContent = continuationText;
             continuationDiv.classList.remove('hidden');
         } else {
             continuationDiv.textContent = '';
