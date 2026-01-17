@@ -694,6 +694,18 @@ function showQuestionResult(question, userAnswer) {
         }
     }
 
+    // Explanation table (for tables that are part of solution, not question)
+    const explanationTableDiv = document.getElementById('explanation-table');
+    if (explanationTableDiv) {
+        if (question.explanation_table) {
+            explanationTableDiv.innerHTML = renderTable(question.explanation_table);
+            explanationTableDiv.classList.remove('hidden');
+        } else {
+            explanationTableDiv.innerHTML = '';
+            explanationTableDiv.classList.add('hidden');
+        }
+    }
+
     // Wrong answer explanation (supports old string and new object format)
     const wrongEl = document.getElementById('explanation-wrong');
     if (wrongEl) {

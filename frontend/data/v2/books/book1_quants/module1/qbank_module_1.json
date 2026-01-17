@@ -1124,8 +1124,30 @@
       "los_id": "LOS_1g",
       "question_text_en": "Jane Sonam purchases 10 shares of Solar Inc. at $110. One year later, she purchased an additional 5 shares at $120. The stock paid a dividend of $2 per share each year. Calculate the money-weighted return if she sold all 15 shares for $122 at the end of the second year.",
       "question_text_ru": "Джейн Сонам покупает 10 акций Solar Inc. по $110. Год спустя ещё 5 по $120. Дивиденд $2 на акцию. MWR если продала все 15 по $122:",
-      "has_table": true,
-      "table_data": {
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "6.31%",
+          "text_ru": "6.31%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "10.58%",
+          "text_ru": "10.58%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "12.35%",
+          "text_ru": "12.35%"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "CF0=-1100; CF1=-580; CF2=1860; IRR=6.31%",
+      "explanation_ru": "CF0=-1100; CF1=-580; CF2=1860; IRR=6.31%",
+      "explanation_formula": null,
+      "explanation_table": {
         "headers": [
           "Time",
           "Share Value",
@@ -1159,27 +1181,6 @@
           ]
         ]
       },
-      "options": [
-        {
-          "id": "opt_a",
-          "text_en": "6.31%",
-          "text_ru": "6.31%"
-        },
-        {
-          "id": "opt_b",
-          "text_en": "10.58%",
-          "text_ru": "10.58%"
-        },
-        {
-          "id": "opt_c",
-          "text_en": "12.35%",
-          "text_ru": "12.35%"
-        }
-      ],
-      "correct_option_id": "opt_a",
-      "explanation_en": "CF0=-1100; CF1=-580; CF2=1860; IRR=6.31%",
-      "explanation_ru": "CF0=-1100; CF1=-580; CF2=1860; IRR=6.31%",
-      "explanation_formula": null,
       "explanation_wrong": {
         "opt_b": {
           "text_en": "Incorrect.",
