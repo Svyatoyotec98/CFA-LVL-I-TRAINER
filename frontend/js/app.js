@@ -1042,7 +1042,7 @@ let calculatorTemplates = {};
 async function loadGlossary() {
     try {
         // Временно загружаем из локального файла v2
-        const response = await fetch('data/v2/book1_quants/module1/glossary_module_1_v2.json');
+        const response = await fetch('data/v2/books/book1_quants/module1/glossary_module_1_v2.json');
         const data = await response.json();
         glossaryData = data;
 
@@ -1103,7 +1103,7 @@ function updateLosFilter(losList) {
 
 async function loadCalculatorTemplates() {
     try {
-        const response = await fetch('data/v2/calculator_templates.json');
+        const response = await fetch('data/v2/templates/calculator_templates.json');
         const data = await response.json();
         calculatorTemplates = data.templates || {};
     } catch (error) {
@@ -1573,8 +1573,8 @@ let currentFilteredFormulas = [];
 async function loadFormulas() {
     try {
         const [formulasResponse, templatesResponse] = await Promise.all([
-            fetch('data/v2/formulas_master.json'),
-            fetch('data/v2/calculator_templates.json')
+            fetch('data/v2/templates/formulas_master.json'),
+            fetch('data/v2/templates/calculator_templates.json')
         ]);
 
         const formulasData_raw = await formulasResponse.json();
