@@ -1,0 +1,1977 @@
+{
+  "metadata": {
+    "book_id": 1,
+    "book_code": "QM",
+    "book_name": "Quantitative Methods",
+    "book_name_ru": "Количественные методы",
+    "module_id": 1,
+    "module_name": "Rates and Returns",
+    "module_name_ru": "Ставки и доходность",
+    "total_questions": 36,
+    "version": "2.0",
+    "source": "AnalystPrep QBank"
+  },
+  "questions": [
+    {
+      "question_id": "QM-1-Q001",
+      "original_question_number": 13,
+      "los_id": "LOS_1d",
+      "question_text_en": "A bank offers you a Certificate of Deposit (CD) with a three-year maturity with a stated annual interest rate of 8% compounded quarterly and allows you to reinvest the interests at the same rate. The worth of the CD at maturity if you invest $150,000 now is closest to:",
+      "question_text_ru": "Банк предлагает вам депозитный сертификат (CD) сроком на три года с заявленной годовой процентной ставкой 8%, начисляемой ежеквартально. Стоимость CD на момент погашения при инвестиции $150,000 ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$188,956.80",
+          "text_ru": "$188,956.80"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$189,797.85",
+          "text_ru": "$189,797.85"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$190,236.27",
+          "text_ru": "$190,236.27"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "FV = $150,000 × [1 + 0.08/4]^12 = $150,000 × 1.268 = $190,236.27",
+      "explanation_ru": "FV = $150,000 × [1 + 0.08/4]^12 = $150,000 × 1.268 = $190,236.27",
+      "explanation_formula": "$FV_N = PV \\left[1 + \\frac{r_s}{m}\\right]^{mN}$",
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Annual compounding: FV = $150,000 × (1.08)^3 = $188,956.80",
+          "text_ru": "Неверно. Годовое начисление: FV = $150,000 × (1.08)^3 = $188,956.80"
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Semi-annual compounding: FV = $150,000 × [1.04]^6 = $189,797.85",
+          "text_ru": "Неверно. Полугодовое начисление: FV = $150,000 × [1.04]^6 = $189,797.85"
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM Worksheet",
+        "steps_en": [
+          "N = 12",
+          "I/Y = 2",
+          "PV = -150,000",
+          "PMT = 0",
+          "CPT → FV = 190,236.27"
+        ],
+        "steps_ru": [
+          "N = 12",
+          "I/Y = 2",
+          "PV = -150,000",
+          "PMT = 0",
+          "CPT → FV = 190,236.27"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": [
+        "future_value",
+        "quarterly_compounding"
+      ]
+    },
+    {
+      "question_id": "QM-1-Q002",
+      "original_question_number": 15,
+      "los_id": "LOS_1d",
+      "question_text_en": "Spire Bank offers to pay an investor a 10% interest payment compounded monthly. If interest payments are reinvested at 10%, the investor's future value if the initial investment is $2,000,000 for one year is closest to:",
+      "question_text_ru": "Spire Bank предлагает инвестору 10% с ежемесячным начислением. Будущая стоимость при начальной инвестиции $2,000,000 на один год ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$2,200,000",
+          "text_ru": "$2,200,000"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$2,205,000",
+          "text_ru": "$2,205,000"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$2,209,426",
+          "text_ru": "$2,209,426"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "FV = $2,000,000 × [1 + 0.10/12]^12 = $2,209,426.14",
+      "explanation_ru": "FV = $2,000,000 × [1 + 0.10/12]^12 = $2,209,426.14",
+      "explanation_formula": "$FV_N = PV \\left[1 + \\frac{r}{m}\\right]^{mN}$",
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Annual compounding: FV = $2,200,000",
+          "text_ru": "Неверно. Годовое начисление: FV = $2,200,000"
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Semi-annual compounding: FV = $2,205,000",
+          "text_ru": "Неверно. Полугодовое начисление: FV = $2,205,000"
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM Worksheet",
+        "steps_en": [
+          "PV = -2,000,000",
+          "I/Y = 0.833",
+          "N = 12",
+          "PMT = 0",
+          "CPT → FV = 2,209,426.14"
+        ],
+        "steps_ru": [
+          "PV = -2,000,000",
+          "I/Y = 0.833",
+          "N = 12",
+          "PMT = 0",
+          "CPT → FV = 2,209,426.14"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": [
+        "future_value",
+        "monthly_compounding"
+      ]
+    },
+    {
+      "question_id": "QM-1-Q003",
+      "original_question_number": 24,
+      "los_id": "LOS_1d",
+      "question_text_en": "An investment asset offers to pay a 13% interest compounded quarterly with a maturity of 3 years. If an investor currently invests $400,000, the worth of the investment asset at maturity is closest to:",
+      "question_text_ru": "Инвестиционный актив предлагает 13% с ежеквартальным начислением на 3 года. Стоимость при инвестиции $400,000 ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "USD 577,158.80",
+          "text_ru": "USD 577,158.80"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "USD 583,656.92",
+          "text_ru": "USD 583,656.92"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "USD 587,138.71",
+          "text_ru": "USD 587,138.71"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "FV = $400,000 × [1 + 0.13/4]^12 = $587,138.71",
+      "explanation_ru": "FV = $400,000 × [1 + 0.13/4]^12 = $587,138.71",
+      "explanation_formula": "$FV_N = PV \\left[1 + \\frac{r_s}{m}\\right]^{mN}$",
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Annual compounding gives $577,158.80",
+          "text_ru": "Неверно. Годовое начисление даёт $577,158.80"
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Semi-annual compounding gives $583,656.92",
+          "text_ru": "Неверно. Полугодовое начисление даёт $583,656.92"
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM Worksheet",
+        "steps_en": [
+          "N = 12",
+          "I/Y = 3.25",
+          "PMT = 0",
+          "PV = -400,000",
+          "CPT → FV = 587,138.71"
+        ],
+        "steps_ru": [
+          "N = 12",
+          "I/Y = 3.25",
+          "PMT = 0",
+          "PV = -400,000",
+          "CPT → FV = 587,138.71"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": [
+        "future_value",
+        "quarterly_compounding"
+      ]
+    },
+    {
+      "question_id": "QM-1-Q004",
+      "original_question_number": 26,
+      "los_id": "LOS_1d",
+      "question_text_en": "An investor wants to invest $600,000 in an asset paying a 5% interest compounded continuously for four years. The value of the investment in 4 years is closest to:",
+      "question_text_ru": "Инвестор хочет инвестировать $600,000 в актив с 5% при непрерывном начислении на 4 года. Стоимость через 4 года ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$729,303.75",
+          "text_ru": "$729,303.75"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$732,831.62",
+          "text_ru": "$732,831.62"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$732,841.65",
+          "text_ru": "$732,841.65"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "FV = $600,000 × e^(0.05×4) = $732,841.65. Note: BA II Plus Pro is not applicable for continuous compounding.",
+      "explanation_ru": "FV = $600,000 × e^(0.05×4) = $732,841.65. Калькулятор BA II Plus Pro не применим для непрерывного начисления.",
+      "explanation_formula": "$FV_N = PV \\cdot e^{r_s \\cdot N}$",
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Annual compounding: $729,303.75",
+          "text_ru": "Неверно. Годовое начисление: $729,303.75"
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Daily compounding: $732,831.62",
+          "text_ru": "Неверно. Ежедневное начисление: $732,831.62"
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "future_value",
+        "continuous_compounding"
+      ]
+    },
+    {
+      "question_id": "QM-1-Q005",
+      "original_question_number": 45,
+      "los_id": "LOS_1d",
+      "question_text_en": "Consider an investment with a stated annual interest rate of 11%. The effective interest rate (EAR) using quarterly compounding for this investment is closest to:",
+      "question_text_ru": "Рассмотрим инвестицию с заявленной годовой ставкой 11%. EAR при ежеквартальном начислении ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "2.75%",
+          "text_ru": "2.75%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "11.00%",
+          "text_ru": "11.00%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "11.50%",
+          "text_ru": "11.50%"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Periodic rate = 11/4 = 2.75%. EAR = (1 + 0.0275)^4 - 1 = 11.50%",
+      "explanation_ru": "Периодическая ставка = 11/4 = 2.75%. EAR = (1 + 0.0275)^4 - 1 = 11.50%",
+      "explanation_formula": "$EAR = (1 + \\frac{r_s}{m})^m - 1$",
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. 2.75% is the periodic rate, not EAR.",
+          "text_ru": "Неверно. 2.75% — периодическая ставка, не EAR."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. 11% is the stated rate, not EAR.",
+          "text_ru": "Неверно. 11% — заявленная ставка, не EAR."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "effective_annual_rate"
+      ]
+    },
+    {
+      "question_id": "QM-1-Q006",
+      "original_question_number": 128,
+      "los_id": "LOS_1b",
+      "question_text_en": "An asset manager's portfolio had the following annual rates of return:\n2012: +8%\n2013: +6%\n2014: -2%\nWhat is the holding period return for this portfolio?",
+      "question_text_ru": "Портфель управляющего имел следующие годовые доходности:\n2012: +8%\n2013: +6%\n2014: -2%\nКакова доходность за период владения?",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "3.91%",
+          "text_ru": "3.91%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "4%",
+          "text_ru": "4%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "12.19%",
+          "text_ru": "12.19%"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "HPR = [(1.08) × (1.06) × (0.98)] - 1 = 12.19%",
+      "explanation_ru": "HPR = [(1.08) × (1.06) × (0.98)] - 1 = 12.19%",
+      "explanation_formula": "$HPR = \\prod_{i=1}^{n}(1 + R_i) - 1$",
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Does not apply compounding correctly.",
+          "text_ru": "Неверно. Не применяет сложный процент правильно."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Simple average without compounding.",
+          "text_ru": "Неверно. Простое среднее без сложного процента."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "holding_period_return"
+      ]
+    },
+    {
+      "question_id": "QM-1-Q007",
+      "original_question_number": 219,
+      "los_id": "LOS_1a",
+      "question_text_en": "You expect XYZ's stock to have a price of USD 142 at the end of the year. Also, you expect to receive a dividend of USD 4. How much will you pay for a stock today in order to realize a return on investment of 11%?",
+      "question_text_ru": "Вы ожидаете цену акций XYZ 142 USD в конце года и дивиденд 4 USD. Сколько заплатите сегодня для доходности 11%?",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "USD 144.60",
+          "text_ru": "USD 144.60"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "USD 122.80",
+          "text_ru": "USD 122.80"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "USD 131.50",
+          "text_ru": "USD 131.50"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "0.11 = (142 - P + 4) / P → 146 = 1.11P → P = 131.50",
+      "explanation_ru": "0.11 = (142 - P + 4) / P → 146 = 1.11P → P = 131.50",
+      "explanation_formula": "$HPR = \\frac{P_1 - P_0 + D_1}{P_0}$",
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Does not correctly apply the HPR formula.",
+          "text_ru": "Неверно. Не применяет формулу HPR правильно."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Misunderstands the relationship between price and return.",
+          "text_ru": "Неверно. Неправильно понимает связь цены и доходности."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "holding_period_return",
+        "stock_valuation"
+      ]
+    },
+    {
+      "question_id": "QM-1-Q008",
+      "original_question_number": 221,
+      "los_id": "LOS_1a",
+      "question_text_en": "An investor buys 4 shares of UUA stock at $44. During the year, the company pays a $3 special dividend per share. Then, at the end of the first year, the investor buys 5 more shares at $46. Lastly, at the end of the second year, he sold all the shares for $57. If there was no dividend during the second year, what is the time-weighted rate of return of this investment?",
+      "question_text_ru": "Инвестор покупает 4 акции UUA по $44. Компания выплачивает дивиденд $3 на акцию. В конце первого года покупает ещё 5 акций по $46. В конце второго года продаёт все по $57. Какова TWR?",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "11.4%",
+          "text_ru": "11.4%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "15.2%",
+          "text_ru": "15.2%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "17.4%",
+          "text_ru": "17.4%"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "HPR1 = (46 - 44 + 3)/44 = 11.36%. HPR2 = (57 - 46)/46 = 23.91%. TWR = [(1.1136)(1.2391)]^0.5 - 1 = 17.4%",
+      "explanation_ru": "HPR1 = (46 - 44 + 3)/44 = 11.36%. HPR2 = (57 - 46)/46 = 23.91%. TWR = [(1.1136)(1.2391)]^0.5 - 1 = 17.4%",
+      "explanation_formula": "$TWR = \\left[\\prod_{i=1}^{n}(1 + HPR_i)\\right]^{1/n} - 1$",
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Only considers first year.",
+          "text_ru": "Неверно. Учитывает только первый год."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Underestimates the geometric linking.",
+          "text_ru": "Неверно. Недооценивает геометрическое связывание."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": [
+        "time_weighted_return"
+      ]
+    },
+    {
+      "question_id": "QM-1-Q009",
+      "original_question_number": 397,
+      "los_id": "LOS_1d",
+      "question_text_en": "For an investment of ¥10,000, an institution promises to pay you a lump sum 10 years from now at a 6% annual interest rate. The future amount you can expect if the interest is compounded monthly is closest to:",
+      "question_text_ru": "При инвестиции ¥10,000 учреждение обещает выплатить сумму через 10 лет при ставке 6%. Будущая сумма при ежемесячном начислении ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "¥ 17,908.48",
+          "text_ru": "¥ 17,908.48"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "¥ 18,193.97",
+          "text_ru": "¥ 18,193.97"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "¥ 18,220.29",
+          "text_ru": "¥ 18,220.29"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "FV = ¥10,000 × [1 + 0.06/12]^120 = ¥18,193.97",
+      "explanation_ru": "FV = ¥10,000 × [1 + 0.06/12]^120 = ¥18,193.97",
+      "explanation_formula": "$FV_N = PV \\left(1 + \\frac{r}{m}\\right)^{mN}$",
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Annual compounding: ¥17,908.48",
+          "text_ru": "Неверно. Годовое начисление: ¥17,908.48"
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Daily compounding: ¥18,220.29",
+          "text_ru": "Неверно. Ежедневное начисление: ¥18,220.29"
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM Worksheet",
+        "steps_en": [
+          "N = 120",
+          "I/Y = 0.5",
+          "PV = -10,000",
+          "PMT = 0",
+          "CPT → FV = 18,193.97"
+        ],
+        "steps_ru": [
+          "N = 120",
+          "I/Y = 0.5",
+          "PV = -10,000",
+          "PMT = 0",
+          "CPT → FV = 18,193.97"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": [
+        "future_value",
+        "monthly_compounding"
+      ]
+    },
+    {
+      "question_id": "QM-1-Q010",
+      "original_question_number": 399,
+      "los_id": "LOS_1d",
+      "question_text_en": "Chris Wright wants to save money to travel around the world. He decides to save $30,000 for a year in a bank, and the bank offers to pay him 9% compounded monthly. The future value of Mr. Wright's investment if interest payments are reinvested at 9% is closest to:",
+      "question_text_ru": "Крис Райт хочет накопить на путешествие. Он кладёт $30,000 на год под 9% с ежемесячным начислением. Будущая стоимость ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "USD 32,700.00",
+          "text_ru": "USD 32,700.00"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "USD 32,792.50",
+          "text_ru": "USD 32,792.50"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "USD 32,814.21",
+          "text_ru": "USD 32,814.21"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "FV = $30,000 × [1 + 0.09/12]^12 = $32,814.21",
+      "explanation_ru": "FV = $30,000 × [1 + 0.09/12]^12 = $32,814.21",
+      "explanation_formula": "$FV_N = PV \\left[1 + \\frac{r_s}{m}\\right]^{mN}$",
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Annual compounding: $32,700.00",
+          "text_ru": "Неверно. Годовое начисление: $32,700.00"
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Quarterly compounding: $32,792.50",
+          "text_ru": "Неверно. Квартальное начисление: $32,792.50"
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM Worksheet",
+        "steps_en": [
+          "N = 12",
+          "I/Y = 0.75",
+          "PV = -30,000",
+          "PMT = 0",
+          "CPT → FV = 32,814.21"
+        ],
+        "steps_ru": [
+          "N = 12",
+          "I/Y = 0.75",
+          "PV = -30,000",
+          "PMT = 0",
+          "CPT → FV = 32,814.21"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": [
+        "future_value",
+        "monthly_compounding"
+      ]
+    },
+    {
+      "question_id": "QM-1-Q011",
+      "original_question_number": 404,
+      "los_id": "LOS_1b",
+      "question_text_en": "An 8% annual-coupon bond was purchased for $1,000. Exactly one year later, the bond was sold for $975. What is the investor's holding period yield if the face value of the bond is $1,000?",
+      "question_text_ru": "Облигация с 8% годовым купоном куплена за $1,000. Через год продана за $975. Какова доходность за период владения?",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "-2.5%",
+          "text_ru": "-2.5%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "5.5%",
+          "text_ru": "5.5%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "8%",
+          "text_ru": "8%"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "HPR = (975 - 1000 + 80) / 1000 = 55/1000 = 5.5%. Coupon = 8% × $1,000 = $80.",
+      "explanation_ru": "HPR = (975 - 1000 + 80) / 1000 = 55/1000 = 5.5%. Купон = 8% × $1,000 = $80.",
+      "explanation_formula": "$R = \\frac{(P_1 - P_0) + I_1}{P_0}$",
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Only considers capital loss, ignores coupon.",
+          "text_ru": "Неверно. Учитывает только убыток капитала, игнорирует купон."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Only considers coupon rate, ignores capital loss.",
+          "text_ru": "Неверно. Учитывает только купонную ставку, игнорирует убыток капитала."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "holding_period_return",
+        "bond_return"
+      ]
+    },
+    {
+      "question_id": "QM-1-Q012",
+      "original_question_number": 770,
+      "los_id": "LOS_1b",
+      "question_text_en": "Rick Hassler earned the following annual rates of return by holding shares of XYZ Inc. for a period of five years:",
+      "question_text_ru": "Рик Хасслер получил следующие годовые доходности, владея акциями XYZ Inc. пять лет:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Year",
+          "Return (%)"
+        ],
+        "headers_ru": [
+          "Год",
+          "Доходность (%)"
+        ],
+        "rows": [
+          [
+            "2011",
+            "13"
+          ],
+          [
+            "2012",
+            "19"
+          ],
+          [
+            "2013",
+            "-11"
+          ],
+          [
+            "2014",
+            "25"
+          ],
+          [
+            "2015",
+            "30"
+          ]
+        ]
+      },
+      "question_continuation_en": "The share's holding period return over the five-year period is closest to:",
+      "question_continuation_ru": "Доходность за период владения за пять лет ближе всего к:",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "94%",
+          "text_ru": "94%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "21%",
+          "text_ru": "21%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "14%",
+          "text_ru": "14%"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "HPR = (1.13)(1.19)(0.89)(1.25)(1.30) - 1 = 0.94 or 94%",
+      "explanation_ru": "HPR = (1.13)(1.19)(0.89)(1.25)(1.30) - 1 = 0.94 или 94%",
+      "explanation_formula": "$HPR = \\prod_{i=1}^{n}(1 + R_i) - 1$",
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Simple average without compounding.",
+          "text_ru": "Неверно. Простое среднее без сложного процента."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Significantly underestimates the compounded return.",
+          "text_ru": "Неверно. Значительно недооценивает составную доходность."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "holding_period_return"
+      ]
+    },
+    {
+      "question_id": "QM-1-Q013",
+      "original_question_number": 1303,
+      "los_id": "LOS_1d",
+      "question_text_en": "A stock returned 2%, 9%, -3%, 13%, and x over five years. If the arithmetic mean return over the five years is 2.8%, then the fifth year return is closest to:",
+      "question_text_ru": "Акция показала 2%, 9%, -3%, 13% и x за пять лет. Если среднее арифметическое = 2.8%, пятый год ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "10%",
+          "text_ru": "10%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "21%",
+          "text_ru": "21%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "-7%",
+          "text_ru": "-7%"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "(2 + 9 - 3 + 13 + x)/5 = 2.8 → 21 + x = 14 → x = -7%",
+      "explanation_ru": "(2 + 9 - 3 + 13 + x)/5 = 2.8 → 21 + x = 14 → x = -7%",
+      "explanation_formula": "$\\bar{R} = \\frac{\\sum R_i}{n}$",
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Would give arithmetic mean higher than 2.8%.",
+          "text_ru": "Неверно. Дало бы среднее выше 2.8%."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Would give arithmetic mean much higher than 2.8%.",
+          "text_ru": "Неверно. Дало бы среднее намного выше 2.8%."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "arithmetic_mean"
+      ]
+    },
+    {
+      "question_id": "QM-1-Q014",
+      "original_question_number": 1305,
+      "los_id": "LOS_1b",
+      "question_text_en": "Calculate the geometric mean of a fund that returned -22%, 18%, 9%, 6% and -2% in 5 years.",
+      "question_text_ru": "Рассчитайте среднее геометрическое фонда с доходностями -22%, 18%, 9%, 6% и -2% за 5 лет.",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "0.83%",
+          "text_ru": "0.83%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "6%",
+          "text_ru": "6%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "18%",
+          "text_ru": "18%"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "G = [(0.78)(1.18)(1.09)(1.06)(0.98)]^(1/5) - 1 = 0.83%",
+      "explanation_ru": "G = [(0.78)(1.18)(1.09)(1.06)(0.98)]^(1/5) - 1 = 0.83%",
+      "explanation_formula": "$G = \\left[\\prod_{i=1}^{n}(1 + R_i)\\right]^{1/n} - 1$",
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Simple average, not geometric.",
+          "text_ru": "Неверно. Простое среднее, не геометрическое."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Significantly overestimates.",
+          "text_ru": "Неверно. Значительно переоценивает."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "geometric_mean"
+      ]
+    },
+    {
+      "question_id": "QM-1-Q015",
+      "original_question_number": 1317,
+      "los_id": "LOS_1b",
+      "question_text_en": "An investment grows in value from $1000 to $1352. However, the investor had invested $500 of his money and the remaining $500 was borrowed money. Assuming no interest, the return on the leveraged position is closest to:",
+      "question_text_ru": "Инвестиция выросла с $1000 до $1352. Инвестор вложил $500 своих и $500 заёмных. Доходность левериджированной позиции ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "70%",
+          "text_ru": "70%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "35%",
+          "text_ru": "35%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "105%",
+          "text_ru": "105%"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Unleveraged: (1352-1000)/1000 = 35.2%. Leveraged: (1352-1000)/500 = 70.4%",
+      "explanation_ru": "Без левериджа: (1352-1000)/1000 = 35.2%. С левериджем: (1352-1000)/500 = 70.4%",
+      "explanation_formula": "$R_{leveraged} = \\frac{Gain}{Equity}$",
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This is the unleveraged return.",
+          "text_ru": "Неверно. Это доходность без левериджа."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Overestimates the leverage effect.",
+          "text_ru": "Неверно. Переоценивает эффект левериджа."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "leveraged_return"
+      ]
+    },
+    {
+      "question_id": "QM-1-Q016",
+      "original_question_number": 1318,
+      "los_id": "LOS_1g",
+      "question_text_en": "A portfolio return which is calculated after deducting fees from its return is called:",
+      "question_text_ru": "Доходность портфеля после вычета комиссий называется:",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Gross return",
+          "text_ru": "Валовая доходность"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Net return",
+          "text_ru": "Чистая доходность"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Geometric return",
+          "text_ru": "Геометрическая доходность"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Net return is calculated after deducting management fees and other expenses.",
+      "explanation_ru": "Чистая доходность рассчитывается после вычета комиссий за управление и других расходов.",
+      "explanation_formula": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Gross return is before fees.",
+          "text_ru": "Неверно. Валовая доходность — до комиссий."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Geometric return measures compounded growth.",
+          "text_ru": "Неверно. Геометрическая доходность измеряет составной рост."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "net_return",
+        "gross_return"
+      ]
+    },
+    {
+      "question_id": "QM-1-Q017",
+      "original_question_number": 1319,
+      "los_id": "LOS_1d",
+      "question_text_en": "A 3-year fund returned -3%, 6% and 8% respectively. The geometric mean for this fund is closest to:",
+      "question_text_ru": "Трёхлетний фонд показал -3%, 6% и 8%. Среднее геометрическое ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "3.55%",
+          "text_ru": "3.55%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "4%",
+          "text_ru": "4%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "2.78%",
+          "text_ru": "2.78%"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "G = [(0.97)(1.06)(1.08)]^(1/3) - 1 = 3.55%",
+      "explanation_ru": "G = [(0.97)(1.06)(1.08)]^(1/3) - 1 = 3.55%",
+      "explanation_formula": "$G = \\left[(1+R_1)(1+R_2)(1+R_3)\\right]^{1/3} - 1$",
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Overestimates the geometric mean.",
+          "text_ru": "Неверно. Переоценивает геометрическое среднее."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Underestimates the geometric mean.",
+          "text_ru": "Неверно. Недооценивает геометрическое среднее."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "geometric_mean"
+      ]
+    },
+    {
+      "question_id": "QM-1-Q018",
+      "original_question_number": 1320,
+      "los_id": "LOS_1b",
+      "question_text_en": "An investor holds a stock that has been quite volatile over the past few years. The geometric mean return value will most likely be:",
+      "question_text_ru": "Инвестор владеет волатильной акцией. Среднее геометрическое доходности скорее всего будет:",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Higher than the arithmetic mean return value",
+          "text_ru": "Выше среднего арифметического"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Lower than the arithmetic mean return value",
+          "text_ru": "Ниже среднего арифметического"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The same as the arithmetic mean return value",
+          "text_ru": "Таким же, как среднее арифметическое"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "When returns vary, geometric mean < arithmetic mean. Greater variance = larger gap.",
+      "explanation_ru": "При варьировании доходностей геометрическое среднее < арифметического. Больше дисперсия = больше разница.",
+      "explanation_formula": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Geometric mean is always ≤ arithmetic mean.",
+          "text_ru": "Неверно. Геометрическое среднее всегда ≤ арифметического."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. They are equal only when all returns are identical.",
+          "text_ru": "Неверно. Они равны только когда все доходности одинаковы."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "geometric_mean",
+        "arithmetic_mean",
+        "volatility"
+      ]
+    },
+    {
+      "question_id": "QM-1-Q019",
+      "original_question_number": 1322,
+      "los_id": "LOS_1b",
+      "question_text_en": "Which of the following is used to measure the return on an investment over a specific period?",
+      "question_text_ru": "Какой показатель используется для измерения доходности за определённый период?",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Holding period return",
+          "text_ru": "Доходность за период владения"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Geometric mean",
+          "text_ru": "Среднее геометрическое"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Arithmetic mean",
+          "text_ru": "Среднее арифметическое"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "HPR measures return over a specific period. Arithmetic and geometric means are for multiple periods.",
+      "explanation_ru": "HPR измеряет доходность за определённый период. Среднее арифметическое и геометрическое — для нескольких периодов.",
+      "explanation_formula": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Geometric mean is for multiple periods.",
+          "text_ru": "Неверно. Геометрическое среднее — для нескольких периодов."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Arithmetic mean is for multiple periods.",
+          "text_ru": "Неверно. Арифметическое среднее — для нескольких периодов."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "holding_period_return"
+      ]
+    },
+    {
+      "question_id": "QM-1-Q020",
+      "original_question_number": 1324,
+      "los_id": "LOS_1b",
+      "question_text_en": "Janet Taylor purchased a single share of AMC Corp for $30 at t=0. She bought an additional unit for $42 at t=1. If at t=2 she sold both shares for $55 each, the money-weighted return of the investment is closest to:",
+      "question_text_ru": "Джанет Тейлор купила акцию AMC Corp за $30 в t=0. Купила ещё за $42 в t=1. В t=2 продала обе по $55. MWR ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "33.88%",
+          "text_ru": "33.88%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "31.78%",
+          "text_ru": "31.78%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "29.45%",
+          "text_ru": "29.45%"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Using Cash Flow: CF0 = -30; CF1 = -42; CF2 = 110; CPT → IRR = 33.88%",
+      "explanation_ru": "Используя Cash Flow: CF0 = -30; CF1 = -42; CF2 = 110; CPT → IRR = 33.88%",
+      "explanation_formula": "$PV_{outflows} = PV_{inflows}$",
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Miscalculation of IRR.",
+          "text_ru": "Неверно. Ошибка в расчёте IRR."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Underestimates the return.",
+          "text_ru": "Неверно. Недооценивает доходность."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Cash Flow Worksheet",
+        "steps_en": [
+          "CF0 = -30",
+          "CF1 = -42",
+          "CF2 = 110",
+          "CPT → IRR = 33.88%"
+        ],
+        "steps_ru": [
+          "CF0 = -30",
+          "CF1 = -42",
+          "CF2 = 110",
+          "CPT → IRR = 33.88%"
+        ]
+      },
+      "difficulty": "hard",
+      "topic_tags": [
+        "money_weighted_return",
+        "irr"
+      ]
+    },
+    {
+      "question_id": "QM-1-Q021",
+      "original_question_number": 1325,
+      "los_id": "LOS_1b",
+      "question_text_en": "What is the exact real return of an investment which earned a yearly nominal return of 11% if the inflation during the same period was 4%?",
+      "question_text_ru": "Какова точная реальная доходность инвестиции с номинальной доходностью 11% при инфляции 4%?",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "7%",
+          "text_ru": "7%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "9.34%",
+          "text_ru": "9.34%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "6.73%",
+          "text_ru": "6.73%"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Real return = (1.11)/(1.04) - 1 = 6.73%",
+      "explanation_ru": "Реальная доходность = (1.11)/(1.04) - 1 = 6.73%",
+      "explanation_formula": "$r_{real} = \\frac{1 + r_{nominal}}{1 + \\pi} - 1$",
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Simple subtraction ignores compounding.",
+          "text_ru": "Неверно. Простое вычитание игнорирует сложный процент."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Overestimates.",
+          "text_ru": "Неверно. Переоценивает."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "real_return",
+        "inflation"
+      ]
+    },
+    {
+      "question_id": "QM-1-Q022",
+      "original_question_number": 2670,
+      "los_id": "LOS_1g",
+      "question_text_en": "Jane Sonam purchases 10 shares of Solar Inc. at $110. One year later, she purchased an additional 5 shares at $120. The stock paid a dividend of $2 per share each year. Calculate the money-weighted return if she sold all 15 shares for $122 at the end of the second year.",
+      "question_text_ru": "Джейн Сонам покупает 10 акций Solar Inc. по $110. Год спустя ещё 5 по $120. Дивиденд $2 на акцию. MWR если продала все 15 по $122:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Time",
+          "Share Value",
+          "Dividend",
+          "Net Cash Flow"
+        ],
+        "headers_ru": [
+          "Время",
+          "Стоимость",
+          "Дивиденд",
+          "Чистый поток"
+        ],
+        "rows": [
+          [
+            "Year 0",
+            "-$1,100",
+            "$0",
+            "-$1,100"
+          ],
+          [
+            "Year 1",
+            "-$600",
+            "$20",
+            "-$580"
+          ],
+          [
+            "Year 2",
+            "$1,830",
+            "$30",
+            "$1,860"
+          ]
+        ]
+      },
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "6.31%",
+          "text_ru": "6.31%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "10.58%",
+          "text_ru": "10.58%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "12.35%",
+          "text_ru": "12.35%"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "CF0=-1100; CF1=-580; CF2=1860; IRR=6.31%",
+      "explanation_ru": "CF0=-1100; CF1=-580; CF2=1860; IRR=6.31%",
+      "explanation_formula": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        },
+        "opt_c": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Cash Flow Worksheet",
+        "steps_en": [
+          "CF0 = -1,100",
+          "CF1 = -580",
+          "CF2 = 1,860",
+          "CPT IRR = 6.31%"
+        ],
+        "steps_ru": [
+          "CF0 = -1,100",
+          "CF1 = -580",
+          "CF2 = 1,860",
+          "CPT IRR = 6.31%"
+        ]
+      },
+      "difficulty": "hard",
+      "topic_tags": [
+        "money_weighted_return",
+        "irr"
+      ]
+    },
+    {
+      "question_id": "QM-1-Q023",
+      "original_question_number": 2673,
+      "los_id": "LOS_1g",
+      "question_text_en": "A university endowment fund invests in emerging markets. Using the table data, the time-weighted return is closest to:",
+      "question_text_ru": "Эндаумент-фонд инвестирует в развивающиеся рынки. TWR ближе всего к:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4"
+        ],
+        "rows": [
+          [
+            "Beginning Value",
+            "$7,945,600",
+            "$10,750,200",
+            "$12,000,000",
+            "$9,995,000"
+          ],
+          [
+            "Inflow (Outflow)",
+            "$1,200,000",
+            "$850,000",
+            "($1,750,000)",
+            "$1,100,000"
+          ],
+          [
+            "Ending Value",
+            "$10,750,200",
+            "$12,000,000",
+            "$9,995,000",
+            "$10,090,000"
+          ]
+        ]
+      },
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "7.7%",
+          "text_ru": "7.7%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "5.4%",
+          "text_ru": "5.4%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "1.9%",
+          "text_ru": "1.9%"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "TWR = (1.175 x 1.034 x 0.975 x 0.909)^0.25 - 1 = 1.9%",
+      "explanation_ru": "TWR = (1.175 x 1.034 x 0.975 x 0.909)^0.25 - 1 = 1.9%",
+      "explanation_formula": "$r_{tw} = [\\prod(1+HPR_i)]^{1/n} - 1$",
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        },
+        "opt_b": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": [
+        "time_weighted_return"
+      ]
+    },
+    {
+      "question_id": "QM-1-Q024",
+      "original_question_number": 2674,
+      "los_id": "LOS_1d",
+      "question_text_en": "An investor purchased 1,000 shares at INR 33.23 and received dividend INR 0.41. Sold at INR 33.92. HPR is:",
+      "question_text_ru": "Инвестор купил 1,000 акций по 33.23 INR, дивиденд 0.41 INR, продал по 33.92 INR. HPR:",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "1.04%",
+          "text_ru": "1.04%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "3.31%",
+          "text_ru": "3.31%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "10.33%",
+          "text_ru": "10.33%"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "HPR = (33.92 + 0.41 - 33.23)/33.23 = 3.31%",
+      "explanation_ru": "HPR = (33.92 + 0.41 - 33.23)/33.23 = 3.31%",
+      "explanation_formula": "$HPR = \\frac{P_1 + D - P_0}{P_0}$",
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Ignores dividend.",
+          "text_ru": "Неверно. Игнорирует дивиденд."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Overestimates.",
+          "text_ru": "Неверно. Переоценивает."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "holding_period_return"
+      ]
+    },
+    {
+      "question_id": "QM-1-Q025",
+      "original_question_number": 2676,
+      "los_id": "LOS_1b",
+      "question_text_en": "Bond coupon $20, purchased $890, HPR 4.49%. Sale price is:",
+      "question_text_ru": "Облигация купон $20, куплена $890, HPR 4.49%. Цена продажи:",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$1,000",
+          "text_ru": "$1,000"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$910",
+          "text_ru": "$910"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$930",
+          "text_ru": "$930"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "P1 = 0.0449 x 890 + 890 - 20 = $910",
+      "explanation_ru": "P1 = 0.0449 x 890 + 890 - 20 = $910",
+      "explanation_formula": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        },
+        "opt_c": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "holding_period_return",
+        "bond"
+      ]
+    },
+    {
+      "question_id": "QM-1-Q026",
+      "original_question_number": 2680,
+      "los_id": "LOS_1b",
+      "question_text_en": "100 shares at $10, then 200 at $15, sold all 300 at $17. Annualized TWR:",
+      "question_text_ru": "100 акций по $10, потом 200 по $15, продал 300 по $17. Годовая TWR:",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "27.5%",
+          "text_ru": "27.5%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "30.38%",
+          "text_ru": "30.38%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "21.11%",
+          "text_ru": "21.11%"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "TWR = [(15/10) x (17/15)]^0.5 - 1 = 30.38%",
+      "explanation_ru": "TWR = [(15/10) x (17/15)]^0.5 - 1 = 30.38%",
+      "explanation_formula": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        },
+        "opt_c": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "time_weighted_return"
+      ]
+    },
+    {
+      "question_id": "QM-1-Q027",
+      "original_question_number": 2835,
+      "los_id": "LOS_1b",
+      "question_text_en": "Returns: 6%, 2.5%, -3%, 8%, -6%. Which statement is accurate?",
+      "question_text_ru": "Доходности: 6%, 2.5%, -3%, 8%, -6%. Какое утверждение верно?",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Geometric mean = arithmetic mean",
+          "text_ru": "Геом. среднее = арифм. среднее"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Geometric mean < arithmetic mean",
+          "text_ru": "Геом. среднее < арифм. среднее"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Geometric mean > arithmetic mean",
+          "text_ru": "Геом. среднее > арифм. среднее"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "When returns vary, geometric < arithmetic.",
+      "explanation_ru": "При варьировании доходностей геометрическое < арифметического.",
+      "explanation_formula": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Only equal when all returns identical.",
+          "text_ru": "Равны только при одинаковых доходностях."
+        },
+        "opt_c": {
+          "text_en": "Geometric is always <= arithmetic.",
+          "text_ru": "Геометрическое всегда <= арифметического."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "geometric_mean",
+        "arithmetic_mean"
+      ]
+    },
+    {
+      "question_id": "QM-1-Q028",
+      "original_question_number": 2836,
+      "los_id": "LOS_1b",
+      "question_text_en": "TexCo stock data table. Calculate HPR for 2012.",
+      "question_text_ru": "Данные акций TexCo. Рассчитайте HPR за 2012.",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Year",
+          "Closing Price",
+          "Dividend"
+        ],
+        "rows": [
+          [
+            "2011",
+            "$28.21",
+            "$2.00"
+          ],
+          [
+            "2012",
+            "$30.50",
+            "$2.50"
+          ]
+        ]
+      },
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "19.64%",
+          "text_ru": "19.64%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "18.85%",
+          "text_ru": "18.85%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "16.98%",
+          "text_ru": "16.98%"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "HPR = (30.50 + 2.50 - 28.21)/28.21 = 16.98%",
+      "explanation_ru": "HPR = (30.50 + 2.50 - 28.21)/28.21 = 16.98%",
+      "explanation_formula": "$HPR = \\frac{P_1 + D - P_0}{P_0}$",
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        },
+        "opt_b": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "holding_period_return"
+      ]
+    },
+    {
+      "question_id": "QM-1-Q029",
+      "original_question_number": 2838,
+      "los_id": "LOS_1b",
+      "question_text_en": "Which return measure will most likely be the lowest?",
+      "question_text_ru": "Какой показатель доходности будет самым низким?",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Gross return",
+          "text_ru": "Валовая доходность"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Net return",
+          "text_ru": "Чистая доходность"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Pre-tax nominal return",
+          "text_ru": "Номинальная до налогов"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Net return is after fees, so lowest.",
+      "explanation_ru": "Чистая доходность после комиссий, поэтому самая низкая.",
+      "explanation_formula": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Gross is before fees.",
+          "text_ru": "Валовая до комиссий."
+        },
+        "opt_c": {
+          "text_en": "Pre-tax is higher than net.",
+          "text_ru": "До налогов выше чистой."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "net_return",
+        "gross_return"
+      ]
+    },
+    {
+      "question_id": "QM-1-Q030",
+      "original_question_number": 2839,
+      "los_id": "LOS_1b",
+      "question_text_en": "Nominal return 18%, CPI 6%, tax 38.9%. Real return is:",
+      "question_text_ru": "Номинальная 18%, ИПЦ 6%, налог 38.9%. Реальная доходность:",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "19.08%",
+          "text_ru": "19.08%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "11.32%",
+          "text_ru": "11.32%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "6.92%",
+          "text_ru": "6.92%"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Real = (1.18/1.06) - 1 = 11.32%. Tax not used.",
+      "explanation_ru": "Реальная = (1.18/1.06) - 1 = 11.32%. Налог не используется.",
+      "explanation_formula": "$r_{real} = \\frac{1+r_{nom}}{1+\\pi} - 1$",
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Ignores inflation.",
+          "text_ru": "Игнорирует инфляцию."
+        },
+        "opt_c": {
+          "text_en": "Underestimates.",
+          "text_ru": "Недооценивает."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "real_return",
+        "inflation"
+      ]
+    },
+    {
+      "question_id": "QM-1-Q031",
+      "original_question_number": 3404,
+      "los_id": "LOS_1d",
+      "question_text_en": "$20,000 at 12% quarterly for 5 years. FV is:",
+      "question_text_ru": "$20,000 под 12% ежеквартально на 5 лет. FV:",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$36,122",
+          "text_ru": "$36,122"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$35,817",
+          "text_ru": "$35,817"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$35,247",
+          "text_ru": "$35,247"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "FV = 20,000 x (1.03)^20 = $36,122",
+      "explanation_ru": "FV = 20,000 x (1.03)^20 = $36,122",
+      "explanation_formula": "$FV = PV(1+r/m)^{mn}$",
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Semi-annual.",
+          "text_ru": "Полугодовое."
+        },
+        "opt_c": {
+          "text_en": "Annual.",
+          "text_ru": "Годовое."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM",
+        "steps_en": [
+          "N=20",
+          "I/Y=3",
+          "PV=-20000",
+          "PMT=0",
+          "CPT FV=36,122"
+        ],
+        "steps_ru": [
+          "N=20",
+          "I/Y=3",
+          "PV=-20000",
+          "PMT=0",
+          "CPT FV=36,122"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": [
+        "future_value"
+      ]
+    },
+    {
+      "question_id": "QM-1-Q032",
+      "original_question_number": 3465,
+      "los_id": "LOS_1d",
+      "question_text_en": "Stock price $24 to $40 in 2 years. Continuous 2-year return:",
+      "question_text_ru": "Цена акции $24 до $40 за 2 года. Непрерывная 2-летняя доходность:",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "25.54%",
+          "text_ru": "25.54%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "28.00%",
+          "text_ru": "28.00%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "51.08%",
+          "text_ru": "51.08%"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "r = ln(40/24) = 51.08%",
+      "explanation_ru": "r = ln(40/24) = 51.08%",
+      "explanation_formula": "$r_{cc} = \\ln(P_1/P_0)$",
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Annualized (51.08%/2).",
+          "text_ru": "Годовая (51.08%/2)."
+        },
+        "opt_b": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "continuous_compounding"
+      ]
+    },
+    {
+      "question_id": "QM-1-Q033",
+      "original_question_number": 3467,
+      "los_id": "LOS_1d",
+      "question_text_en": "Expected 10% annual return. Continuous compounded return:",
+      "question_text_ru": "Ожидаемая 10% годовая доходность. Непрерывно начисляемая:",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "9.53%",
+          "text_ru": "9.53%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "10.00%",
+          "text_ru": "10.00%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "11.53%",
+          "text_ru": "11.53%"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "r_cc = ln(1.10) = 9.53%",
+      "explanation_ru": "r_cc = ln(1.10) = 9.53%",
+      "explanation_formula": "$r_{cc} = \\ln(1+HPR)$",
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Discrete, not continuous.",
+          "text_ru": "Дискретная, не непрерывная."
+        },
+        "opt_c": {
+          "text_en": "Overestimates.",
+          "text_ru": "Переоценивает."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "continuous_compounding"
+      ]
+    },
+    {
+      "question_id": "QM-1-Q034",
+      "original_question_number": 3497,
+      "los_id": "LOS_1b",
+      "question_text_en": "$5,040.11 to $5,500 in 1 year. Monthly rate:",
+      "question_text_ru": "$5,040.11 до $5,500 за год. Ежемесячная ставка:",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "0.73%",
+          "text_ru": "0.73%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "0.76%",
+          "text_ru": "0.76%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "9.12%",
+          "text_ru": "9.12%"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Annual=9.12%, Monthly=(1.0912)^(1/12)-1=0.73%",
+      "explanation_ru": "Годовая=9.12%, Ежемесячная=(1.0912)^(1/12)-1=0.73%",
+      "explanation_formula": "$r_m = (1+r_a)^{1/12}-1$",
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Slightly overestimates.",
+          "text_ru": "Немного переоценивает."
+        },
+        "opt_c": {
+          "text_en": "Annual rate, not monthly.",
+          "text_ru": "Годовая, не ежемесячная."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM",
+        "steps_en": [
+          "PV=-5040.11",
+          "FV=5500",
+          "N=12",
+          "PMT=0",
+          "CPT I/Y=0.73%"
+        ],
+        "steps_ru": [
+          "PV=-5040.11",
+          "FV=5500",
+          "N=12",
+          "PMT=0",
+          "CPT I/Y=0.73%"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": [
+        "interest_rate"
+      ]
+    },
+    {
+      "question_id": "QM-1-Q035",
+      "original_question_number": 3498,
+      "los_id": "LOS_1d",
+      "question_text_en": "$1,011 at 12% quarterly for 1 year. FV is:",
+      "question_text_ru": "$1,011 под 12% ежеквартально на 1 год. FV:",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$1,132.32",
+          "text_ru": "$1,132.32"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$1,135.96",
+          "text_ru": "$1,135.96"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$1,137.89",
+          "text_ru": "$1,137.89"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "FV = 1,011 x (1.03)^4 = $1,137.89",
+      "explanation_ru": "FV = 1,011 x (1.03)^4 = $1,137.89",
+      "explanation_formula": "$FV = PV(1+r/m)^{mn}$",
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Annual compounding.",
+          "text_ru": "Годовое начисление."
+        },
+        "opt_b": {
+          "text_en": "Semi-annual.",
+          "text_ru": "Полугодовое."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM",
+        "steps_en": [
+          "N=4",
+          "I/Y=3",
+          "PV=-1011",
+          "PMT=0",
+          "CPT FV=1,137.89"
+        ],
+        "steps_ru": [
+          "N=4",
+          "I/Y=3",
+          "PV=-1011",
+          "PMT=0",
+          "CPT FV=1,137.89"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": [
+        "future_value"
+      ]
+    },
+    {
+      "question_id": "QM-1-Q036",
+      "original_question_number": 3499,
+      "los_id": "LOS_1d",
+      "question_text_en": "$100,000 received after 5 years at 12% monthly. Initial deposit:",
+      "question_text_ru": "$100,000 получено через 5 лет под 12% ежемесячно. Начальный депозит:",
+      "has_table": false,
+      "table_data": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$55,044.96",
+          "text_ru": "$55,044.96"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$55,367.58",
+          "text_ru": "$55,367.58"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$56,742.69",
+          "text_ru": "$56,742.69"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "PV = 100,000 / (1.01)^60 = $55,044.96",
+      "explanation_ru": "PV = 100,000 / (1.01)^60 = $55,044.96",
+      "explanation_formula": "$PV = FV / (1+r/m)^{mn}$",
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Quarterly compounding.",
+          "text_ru": "Квартальное начисление."
+        },
+        "opt_c": {
+          "text_en": "Annual compounding.",
+          "text_ru": "Годовое начисление."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM",
+        "steps_en": [
+          "N=60",
+          "I/Y=1",
+          "FV=100000",
+          "PMT=0",
+          "CPT PV=-55,044.96"
+        ],
+        "steps_ru": [
+          "N=60",
+          "I/Y=1",
+          "FV=100000",
+          "PMT=0",
+          "CPT PV=-55,044.96"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": [
+        "present_value"
+      ]
+    }
+  ]
+}
