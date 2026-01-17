@@ -24,7 +24,7 @@ let state = {
     timerInterval: null,
     booksData: {},
     progress: {},
-    currentLanguage: 'ru' // Default language: 'ru' or 'en'
+    currentLanguage: localStorage.getItem('cfa_language') || 'en' // Default language: 'en' or 'ru'
 };
 
 // ============== Screen Management ==============
@@ -91,6 +91,42 @@ function getText(obj, field) {
     const lang = state.currentLanguage;
     const langField = `${field}_${lang}`;
     return obj[langField] || obj[field] || '';
+}
+
+/**
+ * Toggle language between EN and RU
+ */
+function toggleLanguage() {
+    state.currentLanguage = state.currentLanguage === 'en' ? 'ru' : 'en';
+    localStorage.setItem('cfa_language', state.currentLanguage);
+
+    // Update toggle button text
+    updateLanguageToggle();
+
+    // Re-render current question if on test screen
+    if (state.currentScreen === 'test' && state.questions.length > 0) {
+        displayQuestion();
+
+        // If explanation is showing, re-render it
+        const expContainer = document.getElementById('explanation-container');
+        if (expContainer && !expContainer.classList.contains('hidden')) {
+            const question = state.questions[state.currentQuestionIndex];
+            const userAnswer = state.answers[question.question_id];
+            if (userAnswer) {
+                showQuestionResult(question, userAnswer);
+            }
+        }
+    }
+}
+
+/**
+ * Update language toggle button text
+ */
+function updateLanguageToggle() {
+    const toggleBtn = document.getElementById('language-toggle');
+    if (toggleBtn) {
+        toggleBtn.textContent = state.currentLanguage.toUpperCase();
+    }
 }
 
 // ============== Authentication ==============
@@ -1988,10 +2024,13 @@ function renderTable(tableData) {
 
     let html = '<table class="question-table">';
 
-    // Headers
-    if (tableData.headers && tableData.headers.length > 0) {
+    // Headers (with bilingual support)
+    const lang = state.currentLanguage;
+    const headers = tableData[`headers_${lang}`] || tableData.headers || [];
+
+    if (headers && headers.length > 0) {
         html += '<thead><tr>';
-        tableData.headers.forEach(h => {
+        headers.forEach(h => {
             html += `<th>${h}</th>`;
         });
         html += '</tr></thead>';
@@ -2081,6 +2120,9 @@ function updateCountdown() {
 async function init() {
     // Load calculator templates early
     loadCalculatorTemplates(); // Load async, no need to await
+
+    // Initialize language toggle
+    updateLanguageToggle();
 
     updateCountdown();
     setInterval(updateCountdown, 86400000); // Update daily

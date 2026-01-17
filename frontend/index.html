@@ -263,7 +263,10 @@
             <div class="test-progress">
                 <span id="test-current">1</span>/<span id="test-total">20</span>
             </div>
-            <button class="btn btn-ghost btn-sm" onclick="flagQuestion()" id="flag-btn">🚩</button>
+            <div style="display: flex; gap: 8px; align-items: center;">
+                <button class="btn btn-ghost btn-sm" onclick="flagQuestion()" id="flag-btn">🚩</button>
+                <button class="btn btn-ghost btn-sm" onclick="toggleLanguage()" id="language-toggle">EN</button>
+            </div>
         </div>
 
         <div class="test-content">
@@ -577,6 +580,6 @@
     <!-- Toast Notifications -->
     <div id="toast-container" class="toast-container"></div>
 
-    <script src="js/app.js?v=20260117_6"></script>
+    <script src="js/app.js?v=20260117_7"></script>
 </body>
 </html>
