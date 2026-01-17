@@ -1,0 +1,406 @@
+{
+  "metadata": {
+    "book_id": 1,
+    "book_code": "QM",
+    "book_name": "Quantitative Methods",
+    "book_name_ru": "Количественные методы",
+    "module_id": 2,
+    "module_name": "Time Value of Money",
+    "module_name_ru": "Временная стоимость денег",
+    "total_questions": 10,
+    "version": "2.0",
+    "source": "AnalystPrep QBank"
+  },
+  "questions": [
+    {
+      "question_id": "QM-2-Q001",
+      "original_question_number": 8,
+      "los_id": "LOS_2a",
+      "question_text_en": "If you invest $100,000 currently in a project paying an 8% interest rate compounded annually, the amount of the investment after three years is closest to:",
+      "question_text_ru": "Если вы инвестируете $100,000 в проект с годовой процентной ставкой 8% с ежегодным начислением, сумма инвестиций через три года будет ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "$108,000.00", "text_ru": "$108,000.00"},
+        {"id": "opt_b", "text_en": "$108,215.23", "text_ru": "$108,215.23"},
+        {"id": "opt_c", "text_en": "$125,971.20", "text_ru": "$125,971.20"}
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "This question requires calculating the future value of a single-sum investment using compound interest. FV = PV × (1 + r)^N = $100,000 × (1.08)^3 = $125,971.20",
+      "explanation_ru": "Вопрос требует расчета будущей стоимости единовременной инвестиции с использованием сложного процента. FV = PV × (1 + r)^N = $100,000 × (1.08)^3 = $125,971.20",
+      "explanation_formula": "$FV = PV \\times (1 + r)^N = \\$100,000 \\times (1.08)^3 = \\$125,971.20$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This represents one year of simple interest: $100,000 + (0.08 × $100,000) = $108,000. The question asks for compound interest over 3 years.",
+          "text_ru": "Неверно. Это представляет один год простого процента: $100,000 + (0.08 × $100,000) = $108,000. Вопрос требует сложный процент за 3 года."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. This result comes from incorrectly dividing the interest rate by the number of years instead of compounding.",
+          "text_ru": "Неверно. Этот результат получается при неправильном делении процентной ставки на количество лет вместо начисления сложного процента."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM Worksheet",
+        "steps_en": ["N = 3", "I/Y = 8", "PV = -100,000", "PMT = 0", "CPT → FV = 125,971.20"],
+        "steps_ru": ["N = 3", "I/Y = 8", "PV = -100,000", "PMT = 0", "CPT → FV = 125,971.20"]
+      },
+      "difficulty": "easy",
+      "topic_tags": ["future_value", "compound_interest"]
+    },
+    {
+      "question_id": "QM-2-Q002",
+      "original_question_number": 11,
+      "los_id": "LOS_2a",
+      "question_text_en": "How much is an asset worth today if it is supposed to pay $7,000 per year for 10 years? The first payment is due one year from now and the required rate is 6% per year.",
+      "question_text_ru": "Сколько стоит актив сегодня, если он будет приносить $7,000 в год в течение 10 лет? Первый платёж ожидается через год, требуемая ставка доходности — 6% в год.",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "$12,535.93", "text_ru": "$12,535.93"},
+        {"id": "opt_b", "text_en": "$51,520.61", "text_ru": "$51,520.61"},
+        {"id": "opt_c", "text_en": "$54,611.85", "text_ru": "$54,611.85"}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "This requires calculating the Present Value of an ordinary annuity. Since payments begin at t=1, this is an ordinary annuity.",
+      "explanation_ru": "Требуется рассчитать приведённую стоимость обычного аннуитета. Поскольку платежи начинаются в t=1, это обычный аннуитет.",
+      "explanation_formula": "$PV = A \\times \\frac{1 - (1+r)^{-N}}{r} = \\$7,000 \\times \\frac{1 - (1.06)^{-10}}{0.06} = \\$51,520.61$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This is the future value of a lump sum: FV = $7,000 × (1.06)^10 = $12,535.93, not the PV of an annuity.",
+          "text_ru": "Неверно. Это будущая стоимость единовременной суммы: FV = $7,000 × (1.06)^10 = $12,535.93, а не PV аннуитета."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This is the PV of an annuity due (payments at beginning): $51,520.61 × 1.06 = $54,611.85.",
+          "text_ru": "Неверно. Это PV аннуитета пренумерандо (платежи в начале): $51,520.61 × 1.06 = $54,611.85."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM Worksheet",
+        "steps_en": ["N = 10", "I/Y = 6", "PMT = 7,000", "FV = 0", "CPT → PV = -51,520.61"],
+        "steps_ru": ["N = 10", "I/Y = 6", "PMT = 7,000", "FV = 0", "CPT → PV = -51,520.61"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["present_value", "ordinary_annuity"]
+    },
+    {
+      "question_id": "QM-2-Q003",
+      "original_question_number": 19,
+      "los_id": "LOS_2a",
+      "question_text_en": "Suppose a $200,000 investment will earn 6% compounded continuously for 4 years. The future value of this asset is closest to:",
+      "question_text_ru": "Предположим, инвестиция в $200,000 будет приносить 6% с непрерывным начислением в течение 4 лет. Будущая стоимость этого актива ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "$252,495.39", "text_ru": "$252,495.39"},
+        {"id": "opt_b", "text_en": "$253,354.02", "text_ru": "$253,354.02"},
+        {"id": "opt_c", "text_en": "$254,249.83", "text_ru": "$254,249.83"}
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "For continuous compounding, use FV = PV × e^(r×N) = $200,000 × e^(0.06×4) = $200,000 × e^0.24 = $254,249.83",
+      "explanation_ru": "При непрерывном начислении используем FV = PV × e^(r×N) = $200,000 × e^(0.06×4) = $200,000 × e^0.24 = $254,249.83",
+      "explanation_formula": "$FV = PV \\times e^{rN} = \\$200,000 \\times e^{0.24} = \\$254,249.83$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This is the FV with annual compounding: $200,000 × (1.06)^4 = $252,495.39",
+          "text_ru": "Неверно. Это FV с годовым начислением: $200,000 × (1.06)^4 = $252,495.39"
+        },
+        "opt_b": {
+          "text_en": "Incorrect. This is the FV with semi-annual compounding instead of continuous.",
+          "text_ru": "Неверно. Это FV с полугодовым начислением вместо непрерывного."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Direct Calculation",
+        "steps_en": ["0.06 × 4 = 0.24", "e^0.24 = 1.2712", "200,000 × 1.2712 = 254,249.83"],
+        "steps_ru": ["0.06 × 4 = 0.24", "e^0.24 = 1.2712", "200,000 × 1.2712 = 254,249.83"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["future_value", "continuous_compounding"]
+    },
+    {
+      "question_id": "QM-2-Q004",
+      "original_question_number": 21,
+      "los_id": "LOS_2a",
+      "question_text_en": "An asset will pay $2,500 per year for seven years, with the first payment being made one year from today. If the required rate of return is 14% per year, the amount you will pay for this asset is closest to:",
+      "question_text_ru": "Актив будет приносить $2,500 в год в течение семи лет, первый платёж — через год. При требуемой доходности 14% в год, сумма, которую вы заплатите за этот актив, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "$10,720.76", "text_ru": "$10,720.76"},
+        {"id": "opt_b", "text_en": "$12,221.67", "text_ru": "$12,221.67"},
+        {"id": "opt_c", "text_en": "$26,826.23", "text_ru": "$26,826.23"}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Calculate the Present Value of an ordinary annuity with A=$2,500, r=14%, N=7 years.",
+      "explanation_ru": "Рассчитайте приведённую стоимость обычного аннуитета с A=$2,500, r=14%, N=7 лет.",
+      "explanation_formula": "$PV = A \\times \\frac{1 - (1+r)^{-N}}{r} = \\$2,500 \\times \\frac{1 - (1.14)^{-7}}{0.14} = \\$10,720.76$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This is the PV of an annuity due: $10,720.76 × 1.14 = $12,221.67",
+          "text_ru": "Неверно. Это PV аннуитета пренумерандо: $10,720.76 × 1.14 = $12,221.67"
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This is the Future Value of the ordinary annuity, not its Present Value.",
+          "text_ru": "Неверно. Это будущая стоимость обычного аннуитета, а не его приведённая стоимость."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM Worksheet",
+        "steps_en": ["N = 7", "I/Y = 14", "PMT = 2,500", "FV = 0", "CPT → PV = -10,720.76"],
+        "steps_ru": ["N = 7", "I/Y = 14", "PMT = 2,500", "FV = 0", "CPT → PV = -10,720.76"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["present_value", "ordinary_annuity"]
+    },
+    {
+      "question_id": "QM-2-Q005",
+      "original_question_number": 22,
+      "los_id": "LOS_2b",
+      "question_text_en": "The amount of money an investor has after ten years if they invest $25,000 per year in an index fund that pays 7% annually is closest to:",
+      "question_text_ru": "Сумма денег у инвестора через десять лет, если он инвестирует $25,000 в год в индексный фонд с доходностью 7% годовых, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "$349,178.78", "text_ru": "$349,178.78"},
+        {"id": "opt_b", "text_en": "$349,744.72", "text_ru": "$349,744.72"},
+        {"id": "opt_c", "text_en": "$345,411.20", "text_ru": "$345,411.20"}
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Calculate the Future Value of an ordinary annuity with annual payments of $25,000 at 7% for 10 years.",
+      "explanation_ru": "Рассчитайте будущую стоимость обычного аннуитета с ежегодными платежами $25,000 под 7% на 10 лет.",
+      "explanation_formula": "$FV = A \\times \\frac{(1+r)^N - 1}{r} = \\$25,000 \\times \\frac{(1.07)^{10} - 1}{0.07} = \\$345,411.20$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This value is higher than the correct future value of the annuity.",
+          "text_ru": "Неверно. Это значение выше правильной будущей стоимости аннуитета."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. This value is also higher than the correct future value of the annuity.",
+          "text_ru": "Неверно. Это значение также выше правильной будущей стоимости аннуитета."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM Worksheet",
+        "steps_en": ["N = 10", "I/Y = 7", "PV = 0", "PMT = -25,000", "CPT → FV = 345,411.20"],
+        "steps_ru": ["N = 10", "I/Y = 7", "PV = 0", "PMT = -25,000", "CPT → FV = 345,411.20"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["future_value", "ordinary_annuity"]
+    },
+    {
+      "question_id": "QM-2-Q006",
+      "original_question_number": 23,
+      "los_id": "LOS_2b",
+      "question_text_en": "An index fund is projected to pay an investor a 9% annual interest for eight years. The investor intends to invest $15,000 every year, beginning next year. The total amount of money the investor will have at the end of the eight years is closest to:",
+      "question_text_ru": "Индексный фонд предполагает выплату инвестору 9% годовых в течение восьми лет. Инвестор намерен вкладывать $15,000 каждый год, начиная со следующего года. Общая сумма денег у инвестора в конце восьми лет ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "$120,000.00", "text_ru": "$120,000.00"},
+        {"id": "opt_b", "text_en": "$165,427.11", "text_ru": "$165,427.11"},
+        {"id": "opt_c", "text_en": "$180,315.55", "text_ru": "$180,315.55"}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Calculate the Future Value of an ordinary annuity. FV Annuity Factor = [(1.09)^8 - 1] / 0.09 = 11.028. Then FV = $15,000 × 11.028 = $165,427.11",
+      "explanation_ru": "Рассчитайте будущую стоимость обычного аннуитета. Коэффициент FV аннуитета = [(1.09)^8 - 1] / 0.09 = 11.028. Тогда FV = $15,000 × 11.028 = $165,427.11",
+      "explanation_formula": "$FV = A \\times \\frac{(1+r)^N - 1}{r} = \\$15,000 \\times 11.028 = \\$165,427.11$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This is simply the sum of payments without interest: $15,000 × 8 = $120,000",
+          "text_ru": "Неверно. Это просто сумма платежей без процентов: $15,000 × 8 = $120,000"
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This is the FV of an annuity due: $165,427.11 × 1.09 = $180,315.55",
+          "text_ru": "Неверно. Это FV аннуитета пренумерандо: $165,427.11 × 1.09 = $180,315.55"
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM Worksheet",
+        "steps_en": ["N = 8", "I/Y = 9", "PV = 0", "PMT = -15,000", "CPT → FV = 165,427.11"],
+        "steps_ru": ["N = 8", "I/Y = 9", "PV = 0", "PMT = -15,000", "CPT → FV = 165,427.11"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["future_value", "ordinary_annuity"]
+    },
+    {
+      "question_id": "QM-2-Q007",
+      "original_question_number": 25,
+      "los_id": "LOS_2a",
+      "question_text_en": "Assume an investment asset will pay $75,000 after two years with an interest rate of 11%. The current value of the investment asset is closest to:",
+      "question_text_ru": "Предположим, что инвестиционный актив выплатит $75,000 через два года при процентной ставке 11%. Текущая стоимость инвестиционного актива ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "$60,871.70", "text_ru": "$60,871.70"},
+        {"id": "opt_b", "text_en": "$92,407.50", "text_ru": "$92,407.50"},
+        {"id": "opt_c", "text_en": "$128,439.25", "text_ru": "$128,439.25"}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Calculate the Present Value of a future lump sum payment: PV = FV × (1 + r)^(-N) = $75,000 × (1.11)^(-2) = $60,871.68",
+      "explanation_ru": "Рассчитайте приведённую стоимость будущего единовременного платежа: PV = FV × (1 + r)^(-N) = $75,000 × (1.11)^(-2) = $60,871.68",
+      "explanation_formula": "$PV = FV \\times (1 + r)^{-N} = \\$75,000 \\times (1.11)^{-2} = \\$60,871.68$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This is the Future Value, not Present Value: FV = $75,000 × (1.11)^2 = $92,407.50",
+          "text_ru": "Неверно. Это будущая стоимость, а не приведённая: FV = $75,000 × (1.11)^2 = $92,407.50"
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This represents the present value of an ordinary annuity, which is not stated in the question.",
+          "text_ru": "Неверно. Это представляет приведённую стоимость обычного аннуитета, что не указано в вопросе."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM Worksheet",
+        "steps_en": ["N = 2", "I/Y = 11", "PMT = 0", "FV = 75,000", "CPT → PV = -60,871.68"],
+        "steps_ru": ["N = 2", "I/Y = 11", "PMT = 0", "FV = 75,000", "CPT → PV = -60,871.68"]
+      },
+      "difficulty": "easy",
+      "topic_tags": ["present_value", "lump_sum"]
+    },
+    {
+      "question_id": "QM-2-Q008",
+      "original_question_number": 34,
+      "los_id": "LOS_2a",
+      "question_text_en": "You have a choice to take your retirement benefit either as a lump-sum or as an annuity. You can take a lump-sum of $4.5 million or an annuity with 15 payments of $400,000 a year with the first payment starting at t=1. The interest rate is 7% per year compounded annually. Which option is preferable, on the basis that it has the greater present value?",
+      "question_text_ru": "У вас есть выбор: получить пенсионное пособие единовременной суммой или аннуитетом. Вы можете взять $4.5 миллиона единовременно или аннуитет с 15 платежами по $400,000 в год, первый платёж в t=1. Процентная ставка 7% годовых. Какой вариант предпочтительнее по критерию большей приведённой стоимости?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "The annuity payment option.", "text_ru": "Вариант аннуитетных платежей."},
+        {"id": "opt_b", "text_en": "The lump-sum payment option.", "text_ru": "Вариант единовременной выплаты."},
+        {"id": "opt_c", "text_en": "There is no significant difference between the two options.", "text_ru": "Нет существенной разницы между двумя вариантами."}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Calculate PV of annuity: N=15, I/Y=7, PMT=400,000, FV=0 → PV = $3,643,165.60. Since $3,643,165.60 < $4,500,000, the lump sum is preferable.",
+      "explanation_ru": "Рассчитайте PV аннуитета: N=15, I/Y=7, PMT=400,000, FV=0 → PV = $3,643,165.60. Поскольку $3,643,165.60 < $4,500,000, единовременная выплата предпочтительнее.",
+      "explanation_formula": "$PV_{annuity} = \\$400,000 \\times \\frac{1 - (1.07)^{-15}}{0.07} = \\$3,643,165.60 < \\$4,500,000$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The PV of the annuity ($3,643,165.60) is less than the lump sum ($4,500,000).",
+          "text_ru": "Неверно. PV аннуитета ($3,643,165.60) меньше единовременной суммы ($4,500,000)."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. There is a significant difference of about $857,000 in favor of the lump sum.",
+          "text_ru": "Неверно. Существует значительная разница около $857,000 в пользу единовременной выплаты."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM Worksheet",
+        "steps_en": ["N = 15", "I/Y = 7", "PMT = 400,000", "FV = 0", "CPT → PV = -3,643,165.60"],
+        "steps_ru": ["N = 15", "I/Y = 7", "PMT = 400,000", "FV = 0", "CPT → PV = -3,643,165.60"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["present_value", "annuity_vs_lump_sum"]
+    },
+    {
+      "question_id": "QM-2-Q009",
+      "original_question_number": 35,
+      "los_id": "LOS_2a",
+      "question_text_en": "XYZ Pension Fund plans to pay its retirees a total of $29 million every year beginning in 2017. The payments will be made at the end of each year until 2031 for a total of 15 payments. Assuming a discount rate of 4% compounded annually, the present value of the pension payments to the retirees in 2017 is closest to:",
+      "question_text_ru": "Пенсионный фонд XYZ планирует выплачивать пенсионерам $29 миллионов каждый год, начиная с 2017. Платежи будут производиться в конце каждого года до 2031 (всего 15 платежей). При ставке дисконтирования 4% годовых приведённая стоимость пенсионных выплат ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "$52,277,361.66", "text_ru": "$52,277,361.66"},
+        {"id": "opt_b", "text_en": "$322,433,235.50", "text_ru": "$322,433,235.50"},
+        {"id": "opt_c", "text_en": "$335,330,564.90", "text_ru": "$335,330,564.90"}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Calculate PV of ordinary annuity with 15 payments of $29 million at 4%.",
+      "explanation_ru": "Рассчитайте PV обычного аннуитета с 15 платежами по $29 миллионов под 4%.",
+      "explanation_formula": "$PV = A \\times \\frac{1 - (1+r)^{-N}}{r} = \\$29,000,000 \\times \\frac{1 - (1.04)^{-15}}{0.04} = \\$322,433,235.50$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This represents the future value of a lump sum with annual compounding.",
+          "text_ru": "Неверно. Это представляет будущую стоимость единовременной суммы с годовым начислением."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This is the PV of an annuity due: $322,433,235.50 × 1.04 = $335,330,564.90",
+          "text_ru": "Неверно. Это PV аннуитета пренумерандо: $322,433,235.50 × 1.04 = $335,330,564.90"
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM Worksheet",
+        "steps_en": ["N = 15", "I/Y = 4", "PMT = 29,000,000", "FV = 0", "CPT → PV = -322,433,235.50"],
+        "steps_ru": ["N = 15", "I/Y = 4", "PMT = 29,000,000", "FV = 0", "CPT → PV = -322,433,235.50"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["present_value", "ordinary_annuity", "pension"]
+    },
+    {
+      "question_id": "QM-2-Q010",
+      "original_question_number": 37,
+      "los_id": "LOS_2a",
+      "question_text_en": "Consider an annuity due with 20 payments of $55,000 every year with a required rate of interest of 10% compounded annually. The present value of the annuity if the first payment is due at the end of the year is closest to:",
+      "question_text_ru": "Рассмотрим аннуитет с 20 платежами по $55,000 каждый год при требуемой процентной ставке 10% годовых. Приведённая стоимость аннуитета, если первый платёж причитается в конце года, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "$370,012.50", "text_ru": "$370,012.50"},
+        {"id": "opt_b", "text_en": "$468,246.00", "text_ru": "$468,246.00"},
+        {"id": "opt_c", "text_en": "$566,577.67", "text_ru": "$566,577.67"}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Despite mentioning 'annuity due' in the question, the first payment is at the end of the year, making it an ordinary annuity. Calculate PV of ordinary annuity.",
+      "explanation_ru": "Несмотря на упоминание 'аннуитета пренумерандо', первый платёж в конце года делает его обычным аннуитетом. Рассчитайте PV обычного аннуитета.",
+      "explanation_formula": "$PV = A \\times \\frac{1 - (1+r)^{-N}}{r} = \\$55,000 \\times \\frac{1 - (1.10)^{-20}}{0.10} = \\$468,246.00$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This is the projected FV of a lump sum: FV = $55,000 × (1.10)^20 = $370,012.50",
+          "text_ru": "Неверно. Это проектируемая FV единовременной суммы: FV = $55,000 × (1.10)^20 = $370,012.50"
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This is the FV of an annuity due: $515,070.60 × 1.10 = $566,577.67",
+          "text_ru": "Неверно. Это FV аннуитета пренумерандо: $515,070.60 × 1.10 = $566,577.67"
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM Worksheet",
+        "steps_en": ["N = 20", "I/Y = 10", "PMT = 55,000", "FV = 0", "CPT → PV = -468,246.00"],
+        "steps_ru": ["N = 20", "I/Y = 10", "PMT = 55,000", "FV = 0", "CPT → PV = -468,246.00"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["present_value", "ordinary_annuity"]
+    }
+  ]
+}
