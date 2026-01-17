@@ -1033,18 +1033,72 @@ async function answerReview(questionId, userAnswer, correctAnswer) {
 }
 
 // ============== Glossary ==============
-let glossaryTerms = [];
+let glossaryData = null;        // Полные данные глоссария
+let glossaryTerms = [];         // Плоский список терминов для поиска
+let glossaryExercises = [];     // Плоский список упражнений
+let currentLosFilter = '';      // Текущий фильтр по LOS
 let calculatorTemplates = {};
 
 async function loadGlossary() {
     try {
-        const data = await apiGet('/glossary?limit=10000');
-        glossaryTerms = data.terms || [];
-        displayGlossary(glossaryTerms);
+        // Временно загружаем из локального файла v2
+        const response = await fetch('data/v2/book1_quants/module1/glossary_module_1_v2.json');
+        const data = await response.json();
+        glossaryData = data;
+
+        // Создаём плоские списки для поиска и фильтрации
+        glossaryTerms = [];
+        glossaryExercises = [];
+
+        if (data.los) {
+            data.los.forEach(los => {
+                // Добавляем LOS info к каждому термину
+                los.terms.forEach(term => {
+                    glossaryTerms.push({
+                        ...term,
+                        los_id: los.los_id,
+                        los_code: los.los_code,
+                        los_description_en: los.los_description_en,
+                        module_id: data.metadata.module_id,
+                        book_id: data.metadata.book_id
+                    });
+                });
+
+                // Собираем упражнения
+                if (los.exercises) {
+                    los.exercises.forEach(ex => {
+                        glossaryExercises.push({
+                            ...ex,
+                            los_id: los.los_id
+                        });
+                    });
+                }
+            });
+        }
+
+        // Обновляем фильтр LOS
+        updateLosFilter(data.los || []);
+
+        // Отображаем
+        displayGlossaryByLos(data);
+
     } catch (error) {
+        console.error('Failed to load glossary:', error);
         document.getElementById('glossary-list').innerHTML =
             '<p class="text-center text-muted">Ошибка загрузки глоссария</p>';
     }
+}
+
+function updateLosFilter(losList) {
+    const container = document.getElementById('glossary-los-filter');
+    if (!container) return;
+
+    container.innerHTML = `
+        <option value="">Все LOS</option>
+        ${losList.map(los => `
+            <option value="${los.los_id}">${los.los_code}: ${los.los_description_en.substring(0, 50)}...</option>
+        `).join('')}
+    `;
 }
 
 async function loadCalculatorTemplates() {
@@ -1102,6 +1156,203 @@ function renderCalculatorSteps(calc) {
             ` : ''}
         </div>
     `;
+}
+
+function displayGlossaryByLos(data) {
+    const container = document.getElementById('glossary-list');
+    const countEl = document.getElementById('glossary-count');
+
+    if (!data || !data.los) {
+        container.innerHTML = '<p class="text-center text-muted">Нет данных</p>';
+        return;
+    }
+
+    // Подсчёт
+    const totalTerms = data.los.reduce((sum, los) => sum + los.terms.length, 0);
+    const totalExercises = data.los.reduce((sum, los) => sum + (los.exercises?.length || 0), 0);
+    if (countEl) countEl.textContent = `${totalTerms} терминов • ${totalExercises} упражнений`;
+
+    // Фильтрация по LOS если выбран
+    let losToDisplay = data.los;
+    if (currentLosFilter) {
+        losToDisplay = data.los.filter(los => los.los_id === currentLosFilter);
+    }
+
+    // Рендер по LOS группам
+    container.innerHTML = losToDisplay.map(los => `
+        <div class="los-section" data-los-id="${los.los_id}">
+            <div class="los-header" onclick="toggleLosSection(this)">
+                <div class="los-title">
+                    <span class="los-code">${los.los_code}</span>
+                    <span class="los-description">${los.los_description_en}</span>
+                </div>
+                <div class="los-stats">
+                    <span class="los-terms-count">${los.terms.length} терминов</span>
+                    ${los.exercises?.length ? `<span class="los-exercises-count">${los.exercises.length} упражнений</span>` : ''}
+                </div>
+                <span class="los-toggle-icon">▼</span>
+            </div>
+
+            ${los.los_description_ru ? `<div class="los-description-ru">${los.los_description_ru}</div>` : ''}
+
+            <div class="los-content">
+                <!-- Термины -->
+                <div class="los-terms">
+                    ${los.terms.map(term => renderGlossaryTerm(term, los)).join('')}
+                </div>
+
+                <!-- Упражнения -->
+                ${los.exercises?.length ? `
+                    <div class="los-exercises">
+                        <h4 class="exercises-header">📝 Упражнения</h4>
+                        ${los.exercises.map(ex => renderExercise(ex)).join('')}
+                    </div>
+                ` : ''}
+            </div>
+        </div>
+    `).join('');
+
+    // MathJax
+    if (window.MathJax && MathJax.typesetPromise) {
+        MathJax.typesetPromise([container]).catch(err => console.log('MathJax error:', err));
+    }
+}
+
+function renderGlossaryTerm(term, los) {
+    return `
+        <div class="glossary-item" data-term-id="${term.term_id}">
+            <div class="term-header">
+                <div class="term-title">
+                    <span class="term-name">${term.term_en}</span>
+                    ${term.term_ru ? `<span class="term-name-ru">— ${term.term_ru}</span>` : ''}
+                </div>
+                <div class="term-badges">
+                    ${term.type ? `<span class="term-type term-type-${term.type}">${term.type}</span>` : ''}
+                </div>
+            </div>
+            <div class="term-content">
+                <div class="term-definition">${term.definition_en}</div>
+                ${term.definition_ru ? `<div class="term-definition-ru">${term.definition_ru}</div>` : ''}
+                ${term.formula ? `<div class="term-formula">\\(${term.formula.replace(/^\$|\$$/g, '')}\\)</div>` : ''}
+                ${term.variables ? renderVariables(term.variables) : ''}
+                ${term.calculator ? renderCalculatorSteps(term.calculator) : ''}
+            </div>
+        </div>
+    `;
+}
+
+function renderVariables(variables) {
+    if (!variables || variables.length === 0) return '';
+
+    return `
+        <div class="term-variables">
+            <strong>Переменные:</strong>
+            <ul>
+                ${variables.map(v => `
+                    <li>
+                        <span class="var-symbol">\\(${v.symbol}\\)</span>:
+                        ${v.name_en}
+                        ${v.name_ru ? `<span class="var-name-ru">${v.name_ru}</span>` : ''}
+                    </li>
+                `).join('')}
+            </ul>
+        </div>
+    `;
+}
+
+function renderExercise(exercise) {
+    return `
+        <div class="exercise-item" data-exercise-id="${exercise.exercise_id}">
+            <div class="exercise-question">
+                <span class="exercise-number">${exercise.exercise_id}</span>
+                <p class="exercise-text-en">${exercise.question_en}</p>
+                ${exercise.question_ru ? `<p class="exercise-text-ru">${exercise.question_ru}</p>` : ''}
+            </div>
+
+            <div class="exercise-options">
+                ${exercise.options.map(opt => `
+                    <button class="exercise-option"
+                            data-letter="${opt.letter}"
+                            onclick="checkExerciseAnswer(this, '${exercise.exercise_id}', '${opt.letter}', '${exercise.correct_answer}')">
+                        <span class="option-letter">${opt.letter}</span>
+                        <span class="option-text">${opt.text_en}</span>
+                        ${opt.text_ru ? `<span class="option-text-ru">${opt.text_ru}</span>` : ''}
+                    </button>
+                `).join('')}
+            </div>
+
+            <div class="exercise-solution hidden" id="solution-${exercise.exercise_id}">
+                <div class="solution-status"></div>
+                <div class="solution-text">
+                    <p>${exercise.solution_en}</p>
+                    ${exercise.solution_ru ? `<p class="solution-ru">${exercise.solution_ru}</p>` : ''}
+                </div>
+            </div>
+        </div>
+    `;
+}
+
+function checkExerciseAnswer(button, exerciseId, selectedLetter, correctLetter) {
+    const container = button.closest('.exercise-item');
+    const options = container.querySelectorAll('.exercise-option');
+    const solutionDiv = document.getElementById(`solution-${exerciseId}`);
+    const statusDiv = solutionDiv.querySelector('.solution-status');
+
+    const isCorrect = selectedLetter === correctLetter;
+
+    // Disable all options
+    options.forEach(opt => {
+        opt.disabled = true;
+        const letter = opt.dataset.letter;
+
+        if (letter === correctLetter) {
+            opt.classList.add('correct');
+        } else if (letter === selectedLetter && !isCorrect) {
+            opt.classList.add('incorrect');
+        }
+    });
+
+    // Show solution
+    statusDiv.innerHTML = isCorrect
+        ? '<span class="result-correct">✓ Правильно!</span>'
+        : `<span class="result-incorrect">✗ Неправильно. Правильный ответ: ${correctLetter}</span>`;
+
+    solutionDiv.classList.remove('hidden');
+}
+
+function toggleLosSection(headerEl) {
+    const section = headerEl.closest('.los-section');
+    section.classList.toggle('collapsed');
+}
+
+function displayFlatGlossary(terms) {
+    const container = document.getElementById('glossary-list');
+    const countEl = document.getElementById('glossary-count');
+
+    if (countEl) countEl.textContent = `${terms.length} результатов`;
+
+    container.innerHTML = terms.map(term => `
+        <div class="glossary-item" data-term-id="${term.term_id}">
+            <div class="term-header">
+                <div class="term-title">
+                    <span class="term-name">${term.term_en}</span>
+                    ${term.term_ru ? `<span class="term-name-ru">— ${term.term_ru}</span>` : ''}
+                </div>
+                <div class="term-badges">
+                    ${term.los_id ? `<span class="term-los">${term.los_id}</span>` : ''}
+                    ${term.module_id ? `<span class="term-module">M${term.module_id}</span>` : ''}
+                </div>
+            </div>
+            <div class="term-content">
+                <div class="term-definition">${term.definition_en}</div>
+                ${term.definition_ru ? `<div class="term-definition-ru">${term.definition_ru}</div>` : ''}
+                ${term.formula ? `<div class="term-formula">\\(${term.formula.replace(/^\$|\$$/g, '')}\\)</div>` : ''}
+                ${term.calculator ? renderCalculatorSteps(term.calculator) : ''}
+            </div>
+        </div>
+    `).join('');
+
+    if (window.MathJax) MathJax.typeset([container]);
 }
 
 function displayGlossary(terms) {
@@ -1162,22 +1413,29 @@ function collapseAllCalcBlocks() {
 function searchGlossary() {
     const query = document.getElementById('glossary-search').value.toLowerCase();
     const bookId = document.getElementById('glossary-book-filter').value;
-    const moduleId = document.getElementById('glossary-module-filter').value;
+    const losId = document.getElementById('glossary-los-filter')?.value || '';
 
-    let filtered = glossaryTerms;
+    currentLosFilter = losId;
 
-    if (bookId) filtered = filtered.filter(t => t.book_id == bookId);
-    if (moduleId) filtered = filtered.filter(t => t.module_id == moduleId);
+    if (!glossaryData) return;
+
+    // Если есть поисковый запрос — ищем по плоскому списку
     if (query) {
-        filtered = filtered.filter(t =>
+        let filtered = glossaryTerms.filter(t =>
             t.term_en.toLowerCase().includes(query) ||
             (t.term_ru && t.term_ru.toLowerCase().includes(query)) ||
             t.definition_en.toLowerCase().includes(query) ||
             (t.los_id && t.los_id.toLowerCase().includes(query))
         );
-    }
 
-    displayGlossary(filtered);
+        if (bookId) filtered = filtered.filter(t => t.book_id == bookId);
+        if (losId) filtered = filtered.filter(t => t.los_id === losId);
+
+        displayFlatGlossary(filtered);
+    } else {
+        // Иначе показываем по LOS
+        displayGlossaryByLos(glossaryData);
+    }
 }
 
 function onBookFilterChange() {
