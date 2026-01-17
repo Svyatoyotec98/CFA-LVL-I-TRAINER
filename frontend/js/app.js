@@ -23,7 +23,8 @@ let state = {
     questionStartTime: null,
     timerInterval: null,
     booksData: {},
-    progress: {}
+    progress: {},
+    currentLanguage: 'ru' // Default language: 'ru' or 'en'
 };
 
 // ============== Screen Management ==============
@@ -76,6 +77,20 @@ function showScreen(screenName) {
                 break;
         }
     }
+}
+
+// ============== Utility Functions ==============
+/**
+ * Get bilingual text based on current language setting
+ * @param {Object} obj - The object containing bilingual fields
+ * @param {string} field - The field name without language suffix (e.g., 'text', 'question_text')
+ * @returns {string} The text in the current language
+ */
+function getText(obj, field) {
+    if (!obj) return '';
+    const lang = state.currentLanguage;
+    const langField = `${field}_${lang}`;
+    return obj[langField] || obj[field] || '';
 }
 
 // ============== Authentication ==============
@@ -372,6 +387,32 @@ async function loadBookData(bookId) {
     }
 
     try {
+        // Load from local v2 qbank JSON file
+        // TODO: Make this dynamic based on bookId and moduleId
+        if (bookId === 1) {
+            const response = await fetch('data/v2/books/book1_quants/module1/qbank_module_1.json');
+            const qbankData = await response.json();
+
+            // Transform to expected structure
+            const data = {
+                book_id: qbankData.metadata.book_id,
+                book_code: qbankData.metadata.book_code,
+                book_name: qbankData.metadata.book_name,
+                book_name_ru: qbankData.metadata.book_name_ru,
+                learning_modules: [
+                    {
+                        module_id: qbankData.metadata.module_id,
+                        module_name: qbankData.metadata.module_name,
+                        module_name_ru: qbankData.metadata.module_name_ru,
+                        questions: qbankData.questions
+                    }
+                ]
+            };
+            state.booksData[bookId] = data;
+            return data;
+        }
+
+        // Fallback to API for other books
         const data = await apiGet(`/tests/book-info/${bookId}`);
         state.booksData[bookId] = data;
         return data;
@@ -459,7 +500,7 @@ function displayQuestion() {
 
     document.getElementById('q-num').textContent = state.currentQuestionIndex + 1;
     document.getElementById('test-current').textContent = state.currentQuestionIndex + 1;
-    document.getElementById('question-text').textContent = question.question_text;
+    document.getElementById('question-text').textContent = getText(question, 'question_text');
 
     // Table (if question has table data)
     const tableDiv = document.getElementById('question-table');
@@ -511,11 +552,12 @@ function displayQuestion() {
 
     optionsContainer.innerHTML = shuffledOptions.map(opt => {
         const isSelected = state.answers[question.question_id] === opt.id;
+        const optionText = getText(opt, 'text');
         return `
             <button class="option ${isSelected ? 'selected' : ''}"
                     data-option-id="${opt.id}"
                     onclick="selectAnswer('${opt.id}')">
-                ${opt.text}
+                ${optionText}
             </button>
         `;
     }).join('');
@@ -574,7 +616,7 @@ function showQuestionResult(question, userAnswer) {
     // Find correct option text for display
     const options = getOptions(question);
     const correctOption = options.find(opt => opt.id === correctOptionId);
-    const correctText = correctOption ? correctOption.text : '';
+    const correctText = correctOption ? getText(correctOption, 'text') : '';
 
     // Highlight correct/incorrect options
     document.querySelectorAll('.option').forEach(btn => {
@@ -600,7 +642,7 @@ function showQuestionResult(question, userAnswer) {
         statusEl.innerHTML += `<span class="correct-answer">Правильный ответ: ${correctText}</span>`;
     }
 
-    document.getElementById('explanation-text').textContent = question.explanation || '';
+    document.getElementById('explanation-text').textContent = getText(question, 'explanation');
 
     // Explanation formula
     const formulaEl = document.getElementById('explanation-formula');
@@ -626,7 +668,7 @@ function showQuestionResult(question, userAnswer) {
             if (typeof wrongExplanation === 'string') {
                 wrongHtml += wrongExplanation;
             } else {
-                wrongHtml += wrongExplanation.text || wrongExplanation.text_ru || '';
+                wrongHtml += getText(wrongExplanation, 'text');
                 if (wrongExplanation.formula) {
                     wrongHtml += `<div class="wrong-formula">${wrongExplanation.formula}</div>`;
                 }
@@ -643,12 +685,26 @@ function showQuestionResult(question, userAnswer) {
         }
     }
 
-    // Calculator steps
+    // Calculator steps (support both new calculator_keystrokes and old calculator_steps format)
     const calcStepsContainer = document.getElementById('calculator-steps');
     if (calcStepsContainer) {
-        if (question.calculator_steps && question.calculator_steps.length > 0) {
+        let steps = [];
+
+        // New format: calculator_keystrokes with bilingual steps
+        if (question.calculator_keystrokes) {
+            const lang = state.currentLanguage;
+            steps = question.calculator_keystrokes[`steps_${lang}`] ||
+                    question.calculator_keystrokes.steps_ru ||
+                    [];
+        }
+        // Old format: calculator_steps array
+        else if (question.calculator_steps) {
+            steps = question.calculator_steps;
+        }
+
+        if (steps && steps.length > 0) {
             document.getElementById('calc-steps-list').innerHTML =
-                question.calculator_steps.map(step => `<li><code>${step}</code></li>`).join('');
+                steps.map(step => `<li><code>${step}</code></li>`).join('');
             calcStepsContainer.classList.remove('hidden');
         } else {
             calcStepsContainer.classList.add('hidden');
