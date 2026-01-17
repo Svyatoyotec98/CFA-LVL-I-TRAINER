@@ -7,7 +7,7 @@
     "module_id": 2,
     "module_name": "Time Value of Money",
     "module_name_ru": "Временная стоимость денег",
-    "total_questions": 10,
+    "total_questions": 20,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -401,6 +401,392 @@
       },
       "difficulty": "medium",
       "topic_tags": ["present_value", "ordinary_annuity"]
+    },
+    {
+      "question_id": "QM-2-Q011",
+      "original_question_number": 38,
+      "los_id": "LOS_2b",
+      "question_text_en": "ABC Company Ltd has been in operation since 1966. In 2012 the company recorded revenue of $15.8 million compared to $11.4 million in 2006. The revenue growth rate for the company for the six years is closest to:",
+      "question_text_ru": "Компания ABC Ltd работает с 1966 года. В 2012 году компания зафиксировала выручку $15.8 млн по сравнению с $11.4 млн в 2006 году. Темп роста выручки компании за шесть лет ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "-5.30%", "text_ru": "-5.30%"},
+        {"id": "opt_b", "text_en": "5.59%", "text_ru": "5.59%"},
+        {"id": "opt_c", "text_en": "38.60%", "text_ru": "38.60%"}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Calculate the growth rate using: g = (FV/PV)^(1/N) - 1 = (15.8/11.4)^(1/6) - 1 = 5.59%",
+      "explanation_ru": "Рассчитайте темп роста по формуле: g = (FV/PV)^(1/N) - 1 = (15.8/11.4)^(1/6) - 1 = 5.59%",
+      "explanation_formula": "$g = \\left(\\frac{FV}{PV}\\right)^{\\frac{1}{N}} - 1 = \\left(\\frac{15.8}{11.4}\\right)^{\\frac{1}{6}} - 1 = 5.59\\%$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This is the result of an inverse calculation.",
+          "text_ru": "Неверно. Это результат обратного расчёта."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This ignores compounding: ($15.8M - $11.4M) / $11.4M = 38.6%",
+          "text_ru": "Неверно. Это игнорирует сложный процент: ($15.8M - $11.4M) / $11.4M = 38.6%"
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM Worksheet",
+        "steps_en": ["N = 6", "PV = -11.4", "PMT = 0", "FV = 15.8", "CPT → I/Y = 5.59%"],
+        "steps_ru": ["N = 6", "PV = -11.4", "PMT = 0", "FV = 15.8", "CPT → I/Y = 5.59%"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["growth_rate", "implied_return"]
+    },
+    {
+      "question_id": "QM-2-Q012",
+      "original_question_number": 39,
+      "los_id": "LOS_2b",
+      "question_text_en": "A Government Bond pays $2,500 per quarter year in perpetuity. If the required rate of return is 10%, the price of the bond today is closest to:",
+      "question_text_ru": "Государственная облигация выплачивает $2,500 ежеквартально бессрочно. При требуемой доходности 10% цена облигации сегодня ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "$11,000", "text_ru": "$11,000"},
+        {"id": "opt_b", "text_en": "$25,000", "text_ru": "$25,000"},
+        {"id": "opt_c", "text_en": "$100,000", "text_ru": "$100,000"}
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "For a perpetuity: PV = A/r. Quarterly payment = $2,500, quarterly rate = 10%/4 = 2.5%. PV = $2,500 / 0.025 = $100,000",
+      "explanation_ru": "Для перпетуитета: PV = A/r. Квартальный платёж = $2,500, квартальная ставка = 10%/4 = 2.5%. PV = $2,500 / 0.025 = $100,000",
+      "explanation_formula": "$PV = \\frac{A}{r} = \\frac{\\$2,500}{0.025} = \\$100,000$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This ignores the perpetuity calculation: $2,500 × (1.10) × 4 = $11,000",
+          "text_ru": "Неверно. Это игнорирует расчёт перпетуитета: $2,500 × (1.10) × 4 = $11,000"
+        },
+        "opt_b": {
+          "text_en": "Incorrect. This uses annual payment instead of considering quarterly frequency correctly.",
+          "text_ru": "Неверно. Используется годовой платёж вместо правильного учёта квартальной частоты."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["perpetuity", "present_value"]
+    },
+    {
+      "question_id": "QM-2-Q013",
+      "original_question_number": 40,
+      "los_id": "LOS_2b",
+      "question_text_en": "Mr. Smith is planning to borrow $150,000 from ABC Bank with a 20-year fixed-rate mortgage with monthly payments, and the first payment is due in exactly one month. Mr. Smith's monthly payment if the interest rate is 7% compounded monthly is closest to:",
+      "question_text_ru": "Мистер Смит планирует занять $150,000 у банка ABC по 20-летней ипотеке с фиксированной ставкой и ежемесячными платежами, первый платёж через месяц. Ежемесячный платёж при ставке 7% с ежемесячным начислением ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "$1,162.93", "text_ru": "$1,162.93"},
+        {"id": "opt_b", "text_en": "$1,245.02", "text_ru": "$1,245.02"},
+        {"id": "opt_c", "text_en": "$1,156.20", "text_ru": "$1,156.20"}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Calculate mortgage payment: N = 20×12 = 240 months, I/Y = 7/12 = 0.5833%, PV = $150,000",
+      "explanation_ru": "Рассчитайте платёж по ипотеке: N = 20×12 = 240 месяцев, I/Y = 7/12 = 0.5833%, PV = $150,000",
+      "explanation_formula": "$PMT = \\frac{r \\times PV}{1 - (1+r)^{-N}} = \\$1,162.93$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This is the payment for an annuity due: $1,162.93 × 1.07 = $1,245.02",
+          "text_ru": "Неверно. Это платёж для аннуитета пренумерандо: $1,162.93 × 1.07 = $1,245.02"
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This results from not dividing the interest rate by 12 for monthly payments.",
+          "text_ru": "Неверно. Результат неделения процентной ставки на 12 для ежемесячных платежей."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM Worksheet",
+        "steps_en": ["N = 240", "I/Y = 0.5833", "PV = -150,000", "FV = 0", "CPT → PMT = 1,162.93"],
+        "steps_ru": ["N = 240", "I/Y = 0.5833", "PV = -150,000", "FV = 0", "CPT → PMT = 1,162.93"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["mortgage", "loan_payment", "amortization"]
+    },
+    {
+      "question_id": "QM-2-Q014",
+      "original_question_number": 42,
+      "los_id": "LOS_2b",
+      "question_text_en": "Consider a level perpetuity of $27,000 per year, with its first payment being at the end of year seven (t = 7). Its present value today (at t = 0), given an 8% discount rate is closest to:",
+      "question_text_ru": "Рассмотрим равномерный перпетуитет в $27,000 в год с первым платежом в конце седьмого года (t = 7). Его приведённая стоимость сегодня (при t = 0) при ставке дисконтирования 8% ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "$124,817.75", "text_ru": "$124,817.75"},
+        {"id": "opt_b", "text_en": "$212,682.25", "text_ru": "$212,682.25"},
+        {"id": "opt_c", "text_en": "$337,500.00", "text_ru": "$337,500.00"}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Step 1: PV at t=6 = $27,000/0.08 = $337,500. Step 2: Discount to t=0: PV = $337,500/(1.08)^6 = $212,682.25",
+      "explanation_ru": "Шаг 1: PV при t=6 = $27,000/0.08 = $337,500. Шаг 2: Дисконтировать к t=0: PV = $337,500/(1.08)^6 = $212,682.25",
+      "explanation_formula": "$PV_{t=6} = \\frac{27,000}{0.08} = 337,500$; $PV_{t=0} = \\frac{337,500}{(1.08)^6} = 212,682.25$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This is the difference between PV at t=6 and PV at t=0.",
+          "text_ru": "Неверно. Это разница между PV при t=6 и PV при t=0."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This is the PV at t=6, not at t=0 as required.",
+          "text_ru": "Неверно. Это PV при t=6, а не при t=0, как требуется."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Direct Calculation",
+        "steps_en": ["27,000 ÷ 0.08 = 337,500", "337,500 ÷ (1.08)^6 = 212,682.25"],
+        "steps_ru": ["27,000 ÷ 0.08 = 337,500", "337,500 ÷ (1.08)^6 = 212,682.25"]
+      },
+      "difficulty": "hard",
+      "topic_tags": ["deferred_perpetuity", "present_value"]
+    },
+    {
+      "question_id": "QM-2-Q015",
+      "original_question_number": 43,
+      "los_id": "LOS_2b",
+      "question_text_en": "You are presented with 2 investment opportunities and must choose the one with the greater present value: A lump-sum of $2.5 million or an annuity with 25 payments of $250,000 a year with the first payment starting today. The interest rate is 9% per year compounded annually. Which one will you choose?",
+      "question_text_ru": "Вам предложены 2 инвестиционные возможности, и вы должны выбрать ту, у которой большая приведённая стоимость: единовременная сумма $2.5 млн или аннуитет с 25 платежами по $250,000 в год, первый платёж сегодня. Процентная ставка 9% годовых. Что вы выберете?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "Annuity option.", "text_ru": "Вариант аннуитета."},
+        {"id": "opt_b", "text_en": "Lump-sum.", "text_ru": "Единовременная сумма."},
+        {"id": "opt_c", "text_en": "Invest in both options since there's no difference between the two.", "text_ru": "Инвестировать в оба варианта, так как между ними нет разницы."}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "This is an annuity due (first payment today). PV = $250,000 + PV of ordinary annuity for 24 years = $250,000 + $2,426,652.94 = $2,676,652.94 > $2,500,000",
+      "explanation_ru": "Это аннуитет пренумерандо (первый платёж сегодня). PV = $250,000 + PV обычного аннуитета за 24 года = $250,000 + $2,426,652.94 = $2,676,652.94 > $2,500,000",
+      "explanation_formula": "$PV_{due} = \\$250,000 + PV_{ordinary,24} = \\$250,000 + \\$2,426,652.94 = \\$2,676,652.94$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. The PV of the annuity due ($2,676,652.94) exceeds the lump sum ($2,500,000).",
+          "text_ru": "Неверно. PV аннуитета пренумерандо ($2,676,652.94) превышает единовременную сумму ($2,500,000)."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. There is a significant difference of about $177,000 in favor of the annuity.",
+          "text_ru": "Неверно. Существует значительная разница около $177,000 в пользу аннуитета."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM Worksheet",
+        "steps_en": ["N = 24", "I/Y = 9", "PMT = 250,000", "FV = 0", "CPT → PV = -2,426,652.94", "Add 250,000 = 2,676,652.94"],
+        "steps_ru": ["N = 24", "I/Y = 9", "PMT = 250,000", "FV = 0", "CPT → PV = -2,426,652.94", "Добавить 250,000 = 2,676,652.94"]
+      },
+      "difficulty": "hard",
+      "topic_tags": ["annuity_due", "present_value", "comparison"]
+    },
+    {
+      "question_id": "QM-2-Q016",
+      "original_question_number": 44,
+      "los_id": "LOS_2b",
+      "question_text_en": "Consider an investor with a Certificate of Deposit (CD) worth $3 million and pays a 5% interest rate compounded annually. The number of years that it will take for the CD to triple in value is closest to:",
+      "question_text_ru": "Рассмотрим инвестора с депозитным сертификатом (CD) на $3 млн с процентной ставкой 5% годовых. Количество лет, за которое CD утроится в стоимости, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "2.9 years", "text_ru": "2.9 лет"},
+        {"id": "opt_b", "text_en": "3 years", "text_ru": "3 года"},
+        {"id": "opt_c", "text_en": "22.5 years", "text_ru": "22.5 лет"}
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Solve for N: FV = PV × (1+r)^N → 9 = 3 × (1.05)^N → N = ln(3)/ln(1.05) = 22.52 years",
+      "explanation_ru": "Решите для N: FV = PV × (1+r)^N → 9 = 3 × (1.05)^N → N = ln(3)/ln(1.05) = 22.52 лет",
+      "explanation_formula": "$N = \\frac{\\ln(FV/PV)}{\\ln(1+r)} = \\frac{\\ln(3)}{\\ln(1.05)} = 22.52$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This result assumes the natural logarithm in the formula incorrectly.",
+          "text_ru": "Неверно. Этот результат неправильно применяет натуральный логарифм в формуле."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Simply dividing FV by PV does not give the number of years to triple.",
+          "text_ru": "Неверно. Простое деление FV на PV не даёт количество лет для утроения."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM Worksheet",
+        "steps_en": ["I/Y = 5", "PV = -3", "PMT = 0", "FV = 9", "CPT → N = 22.52"],
+        "steps_ru": ["I/Y = 5", "PV = -3", "PMT = 0", "FV = 9", "CPT → N = 22.52"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["solve_for_n", "compound_interest"]
+    },
+    {
+      "question_id": "QM-2-Q017",
+      "original_question_number": 47,
+      "los_id": "LOS_2b",
+      "question_text_en": "Consider a series of payments, each amounting to £6,500 is set to be received by an investor in perpetuity. Payments are to be made at the end of each year, with the first payment expected to start at the end of year 4. Suppose the discount rate is 9%, the present value of the perpetuity at t = 0 is closest to:",
+      "question_text_ru": "Рассмотрим серию платежей по £6,500, которые инвестор будет получать бессрочно. Платежи производятся в конце каждого года, первый платёж ожидается в конце 4-го года. При ставке дисконтирования 9% приведённая стоимость перпетуитета при t = 0 ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "£51,164.03", "text_ru": "£51,164.03"},
+        {"id": "opt_b", "text_en": "£55,768.79", "text_ru": "£55,768.79"},
+        {"id": "opt_c", "text_en": "£72,222.20", "text_ru": "£72,222.20"}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Step 1: PV at t=3 = £6,500/0.09 = £72,222.20. Step 2: Discount to t=0: PV = £72,222.20/(1.09)^3 = £55,768.79",
+      "explanation_ru": "Шаг 1: PV при t=3 = £6,500/0.09 = £72,222.20. Шаг 2: Дисконтировать к t=0: PV = £72,222.20/(1.09)^3 = £55,768.79",
+      "explanation_formula": "$PV_{t=3} = \\frac{6,500}{0.09} = 72,222.20$; $PV_{t=0} = \\frac{72,222.20}{(1.09)^3} = 55,768.79$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This discounts for 4 years instead of 3: £72,222.20/(1.09)^4 = £51,164.03",
+          "text_ru": "Неверно. Это дисконтирует на 4 года вместо 3: £72,222.20/(1.09)^4 = £51,164.03"
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This is the PV at t=3, not at t=0 as required.",
+          "text_ru": "Неверно. Это PV при t=3, а не при t=0, как требуется."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Direct Calculation",
+        "steps_en": ["6,500 ÷ 0.09 = 72,222.20", "72,222.20 ÷ (1.09)^3 = 55,768.79"],
+        "steps_ru": ["6,500 ÷ 0.09 = 72,222.20", "72,222.20 ÷ (1.09)^3 = 55,768.79"]
+      },
+      "difficulty": "hard",
+      "topic_tags": ["deferred_perpetuity", "present_value"]
+    },
+    {
+      "question_id": "QM-2-Q018",
+      "original_question_number": 49,
+      "los_id": "LOS_2b",
+      "question_text_en": "Consider a homeowner who wants to purchase a £230,000 home by making a down payment of £60,000 and borrowing the remainder with a 25 year fixed rate mortgage with monthly payments and the stated annual interest rate of 9% with monthly compounding. The monthly mortgage payment is closest to:",
+      "question_text_ru": "Рассмотрим домовладельца, который хочет купить дом за £230,000, внеся первоначальный взнос £60,000 и заняв остаток по 25-летней ипотеке с фиксированной ставкой, ежемесячными платежами и годовой ставкой 9% с ежемесячным начислением. Ежемесячный платёж по ипотеке ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "£1,267.50", "text_ru": "£1,267.50"},
+        {"id": "opt_b", "text_en": "£1,426.63", "text_ru": "£1,426.63"},
+        {"id": "opt_c", "text_en": "£1,901.30", "text_ru": "£1,901.30"}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Loan amount = £230,000 - £60,000 = £170,000. N = 25×12 = 300, I/Y = 9/12 = 0.75%",
+      "explanation_ru": "Сумма займа = £230,000 - £60,000 = £170,000. N = 25×12 = 300, I/Y = 9/12 = 0.75%",
+      "explanation_formula": "$PMT = \\frac{r \\times PV}{1 - (1+r)^{-N}} = £1,426.63$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This is the payment for annual compounding instead of monthly.",
+          "text_ru": "Неверно. Это платёж для годового начисления вместо ежемесячного."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This does not subtract the down payment of £60,000.",
+          "text_ru": "Неверно. Не вычтен первоначальный взнос £60,000."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM Worksheet",
+        "steps_en": ["N = 300", "I/Y = 0.75", "PV = -170,000", "FV = 0", "CPT → PMT = 1,426.63"],
+        "steps_ru": ["N = 300", "I/Y = 0.75", "PV = -170,000", "FV = 0", "CPT → PMT = 1,426.63"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["mortgage", "loan_payment"]
+    },
+    {
+      "question_id": "QM-2-Q019",
+      "original_question_number": 50,
+      "los_id": "LOS_2a",
+      "question_text_en": "Suppose a Certificate of Deposit (CD) pays a 10% annual interest rate, the Effective Annual Rate (EAR) if the CD compounded monthly is closest to:",
+      "question_text_ru": "Предположим, депозитный сертификат (CD) платит 10% годовых, эффективная годовая ставка (EAR) при ежемесячном начислении ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "10.30%", "text_ru": "10.30%"},
+        {"id": "opt_b", "text_en": "10.40%", "text_ru": "10.40%"},
+        {"id": "opt_c", "text_en": "10.50%", "text_ru": "10.50%"}
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "EAR = (1 + r/m)^m - 1 = (1 + 0.10/12)^12 - 1 = 10.47% ≈ 10.50%",
+      "explanation_ru": "EAR = (1 + r/m)^m - 1 = (1 + 0.10/12)^12 - 1 = 10.47% ≈ 10.50%",
+      "explanation_formula": "$EAR = \\left(1 + \\frac{r}{m}\\right)^m - 1 = \\left(1 + \\frac{0.10}{12}\\right)^{12} - 1 = 10.47\\%$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This is EAR with semi-annual compounding: (1.05)^2 - 1 = 10.25%",
+          "text_ru": "Неверно. Это EAR с полугодовым начислением: (1.05)^2 - 1 = 10.25%"
+        },
+        "opt_b": {
+          "text_en": "Incorrect. This is EAR with quarterly compounding: (1.025)^4 - 1 = 10.38%",
+          "text_ru": "Неверно. Это EAR с квартальным начислением: (1.025)^4 - 1 = 10.38%"
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Direct Calculation",
+        "steps_en": ["1 + 0.10/12 = 1.008333", "(1.008333)^12 = 1.1047", "1.1047 - 1 = 0.1047 = 10.47%"],
+        "steps_ru": ["1 + 0.10/12 = 1.008333", "(1.008333)^12 = 1.1047", "1.1047 - 1 = 0.1047 = 10.47%"]
+      },
+      "difficulty": "easy",
+      "topic_tags": ["effective_annual_rate", "compounding"]
+    },
+    {
+      "question_id": "QM-2-Q020",
+      "original_question_number": 52,
+      "los_id": "LOS_2a",
+      "question_text_en": "Consider an investor who wants to double his £1,500,000 worth of investments. If the interest rate is 9% compounded annually, the time it will take for the value of the investment to double is closest to:",
+      "question_text_ru": "Рассмотрим инвестора, который хочет удвоить свои инвестиции в £1,500,000. При процентной ставке 9% годовых время, необходимое для удвоения инвестиций, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "1 year", "text_ru": "1 год"},
+        {"id": "opt_b", "text_en": "8 years", "text_ru": "8 лет"},
+        {"id": "opt_c", "text_en": "12 years", "text_ru": "12 лет"}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Solve for N: 3,000,000 = 1,500,000 × (1.09)^N → N = ln(2)/ln(1.09) = 8.04 years",
+      "explanation_ru": "Решите для N: 3,000,000 = 1,500,000 × (1.09)^N → N = ln(2)/ln(1.09) = 8.04 лет",
+      "explanation_formula": "$N = \\frac{\\ln(2)}{\\ln(1.09)} = 8.04$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. At 9% annual rate, it takes about 8 years to double, not 1 year.",
+          "text_ru": "Неверно. При ставке 9% годовых требуется около 8 лет для удвоения, а не 1 год."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. 12 years would be needed to triple the investment, not double it.",
+          "text_ru": "Неверно. 12 лет понадобилось бы для утроения инвестиций, а не удвоения."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM Worksheet",
+        "steps_en": ["I/Y = 9", "PV = -1,500,000", "PMT = 0", "FV = 3,000,000", "CPT → N = 8.04"],
+        "steps_ru": ["I/Y = 9", "PV = -1,500,000", "PMT = 0", "FV = 3,000,000", "CPT → N = 8.04"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["rule_of_72", "solve_for_n"]
     }
   ]
 }
