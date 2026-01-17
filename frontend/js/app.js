@@ -23,7 +23,8 @@ let state = {
     questionStartTime: null,
     timerInterval: null,
     booksData: {},
-    progress: {}
+    progress: {},
+    currentLanguage: localStorage.getItem('cfa_language') || 'en' // Default language: 'en' or 'ru'
 };
 
 // ============== Screen Management ==============
@@ -75,6 +76,56 @@ function showScreen(screenName) {
                 loadCalculatorProblem();
                 break;
         }
+    }
+}
+
+// ============== Utility Functions ==============
+/**
+ * Get bilingual text based on current language setting
+ * @param {Object} obj - The object containing bilingual fields
+ * @param {string} field - The field name without language suffix (e.g., 'text', 'question_text')
+ * @returns {string} The text in the current language
+ */
+function getText(obj, field) {
+    if (!obj) return '';
+    const lang = state.currentLanguage;
+    const langField = `${field}_${lang}`;
+    return obj[langField] || obj[field] || '';
+}
+
+/**
+ * Toggle language between EN and RU
+ */
+function toggleLanguage() {
+    state.currentLanguage = state.currentLanguage === 'en' ? 'ru' : 'en';
+    localStorage.setItem('cfa_language', state.currentLanguage);
+
+    // Update toggle button text
+    updateLanguageToggle();
+
+    // Re-render current question if on test screen
+    if (state.currentScreen === 'test' && state.questions.length > 0) {
+        displayQuestion();
+
+        // If explanation is showing, re-render it
+        const expContainer = document.getElementById('explanation-container');
+        if (expContainer && !expContainer.classList.contains('hidden')) {
+            const question = state.questions[state.currentQuestionIndex];
+            const userAnswer = state.answers[question.question_id];
+            if (userAnswer) {
+                showQuestionResult(question, userAnswer);
+            }
+        }
+    }
+}
+
+/**
+ * Update language toggle button text
+ */
+function updateLanguageToggle() {
+    const toggleBtn = document.getElementById('language-toggle');
+    if (toggleBtn) {
+        toggleBtn.textContent = state.currentLanguage.toUpperCase();
     }
 }
 
@@ -372,6 +423,32 @@ async function loadBookData(bookId) {
     }
 
     try {
+        // Load from local v2 qbank JSON file
+        // TODO: Make this dynamic based on bookId and moduleId
+        if (bookId === 1) {
+            const response = await fetch('data/v2/books/book1_quants/module1/qbank_module_1.json');
+            const qbankData = await response.json();
+
+            // Transform to expected structure
+            const data = {
+                book_id: qbankData.metadata.book_id,
+                book_code: qbankData.metadata.book_code,
+                book_name: qbankData.metadata.book_name,
+                book_name_ru: qbankData.metadata.book_name_ru,
+                learning_modules: [
+                    {
+                        module_id: qbankData.metadata.module_id,
+                        module_name: qbankData.metadata.module_name,
+                        module_name_ru: qbankData.metadata.module_name_ru,
+                        questions: qbankData.questions
+                    }
+                ]
+            };
+            state.booksData[bookId] = data;
+            return data;
+        }
+
+        // Fallback to API for other books
         const data = await apiGet(`/tests/book-info/${bookId}`);
         state.booksData[bookId] = data;
         return data;
@@ -459,7 +536,7 @@ function displayQuestion() {
 
     document.getElementById('q-num').textContent = state.currentQuestionIndex + 1;
     document.getElementById('test-current').textContent = state.currentQuestionIndex + 1;
-    document.getElementById('question-text').textContent = question.question_text;
+    document.getElementById('question-text').textContent = getText(question, 'question_text');
 
     // Table (if question has table data)
     const tableDiv = document.getElementById('question-table');
@@ -476,8 +553,9 @@ function displayQuestion() {
     // Question continuation (text after table)
     const continuationDiv = document.getElementById('question-continuation');
     if (continuationDiv) {
-        if (question.question_continuation) {
-            continuationDiv.textContent = question.question_continuation;
+        const continuationText = getText(question, 'question_continuation');
+        if (continuationText) {
+            continuationDiv.textContent = continuationText;
             continuationDiv.classList.remove('hidden');
         } else {
             continuationDiv.textContent = '';
@@ -511,11 +589,12 @@ function displayQuestion() {
 
     optionsContainer.innerHTML = shuffledOptions.map(opt => {
         const isSelected = state.answers[question.question_id] === opt.id;
+        const optionText = getText(opt, 'text');
         return `
             <button class="option ${isSelected ? 'selected' : ''}"
                     data-option-id="${opt.id}"
                     onclick="selectAnswer('${opt.id}')">
-                ${opt.text}
+                ${optionText}
             </button>
         `;
     }).join('');
@@ -574,7 +653,7 @@ function showQuestionResult(question, userAnswer) {
     // Find correct option text for display
     const options = getOptions(question);
     const correctOption = options.find(opt => opt.id === correctOptionId);
-    const correctText = correctOption ? correctOption.text : '';
+    const correctText = correctOption ? getText(correctOption, 'text') : '';
 
     // Highlight correct/incorrect options
     document.querySelectorAll('.option').forEach(btn => {
@@ -600,7 +679,7 @@ function showQuestionResult(question, userAnswer) {
         statusEl.innerHTML += `<span class="correct-answer">Правильный ответ: ${correctText}</span>`;
     }
 
-    document.getElementById('explanation-text').textContent = question.explanation || '';
+    document.getElementById('explanation-text').textContent = getText(question, 'explanation');
 
     // Explanation formula
     const formulaEl = document.getElementById('explanation-formula');
@@ -616,6 +695,18 @@ function showQuestionResult(question, userAnswer) {
         }
     }
 
+    // Explanation table (for tables that are part of solution, not question)
+    const explanationTableDiv = document.getElementById('explanation-table');
+    if (explanationTableDiv) {
+        if (question.explanation_table) {
+            explanationTableDiv.innerHTML = renderTable(question.explanation_table);
+            explanationTableDiv.classList.remove('hidden');
+        } else {
+            explanationTableDiv.innerHTML = '';
+            explanationTableDiv.classList.add('hidden');
+        }
+    }
+
     // Wrong answer explanation (supports old string and new object format)
     const wrongEl = document.getElementById('explanation-wrong');
     if (wrongEl) {
@@ -626,7 +717,7 @@ function showQuestionResult(question, userAnswer) {
             if (typeof wrongExplanation === 'string') {
                 wrongHtml += wrongExplanation;
             } else {
-                wrongHtml += wrongExplanation.text || wrongExplanation.text_ru || '';
+                wrongHtml += getText(wrongExplanation, 'text');
                 if (wrongExplanation.formula) {
                     wrongHtml += `<div class="wrong-formula">${wrongExplanation.formula}</div>`;
                 }
@@ -643,12 +734,26 @@ function showQuestionResult(question, userAnswer) {
         }
     }
 
-    // Calculator steps
+    // Calculator steps (support both new calculator_keystrokes and old calculator_steps format)
     const calcStepsContainer = document.getElementById('calculator-steps');
     if (calcStepsContainer) {
-        if (question.calculator_steps && question.calculator_steps.length > 0) {
+        let steps = [];
+
+        // New format: calculator_keystrokes with bilingual steps
+        if (question.calculator_keystrokes) {
+            const lang = state.currentLanguage;
+            steps = question.calculator_keystrokes[`steps_${lang}`] ||
+                    question.calculator_keystrokes.steps_ru ||
+                    [];
+        }
+        // Old format: calculator_steps array
+        else if (question.calculator_steps) {
+            steps = question.calculator_steps;
+        }
+
+        if (steps && steps.length > 0) {
             document.getElementById('calc-steps-list').innerHTML =
-                question.calculator_steps.map(step => `<li><code>${step}</code></li>`).join('');
+                steps.map(step => `<li><code>${step}</code></li>`).join('');
             calcStepsContainer.classList.remove('hidden');
         } else {
             calcStepsContainer.classList.add('hidden');
@@ -1033,23 +1138,77 @@ async function answerReview(questionId, userAnswer, correctAnswer) {
 }
 
 // ============== Glossary ==============
-let glossaryTerms = [];
+let glossaryData = null;        // Полные данные глоссария
+let glossaryTerms = [];         // Плоский список терминов для поиска
+let glossaryExercises = [];     // Плоский список упражнений
+let currentLosFilter = '';      // Текущий фильтр по LOS
 let calculatorTemplates = {};
 
 async function loadGlossary() {
     try {
-        const data = await apiGet('/glossary?limit=10000');
-        glossaryTerms = data.terms || [];
-        displayGlossary(glossaryTerms);
+        // Временно загружаем из локального файла v2
+        const response = await fetch('data/v2/books/book1_quants/module1/glossary_module_1_v2.json');
+        const data = await response.json();
+        glossaryData = data;
+
+        // Создаём плоские списки для поиска и фильтрации
+        glossaryTerms = [];
+        glossaryExercises = [];
+
+        if (data.los) {
+            data.los.forEach(los => {
+                // Добавляем LOS info к каждому термину
+                los.terms.forEach(term => {
+                    glossaryTerms.push({
+                        ...term,
+                        los_id: los.los_id,
+                        los_code: los.los_code,
+                        los_description_en: los.los_description_en,
+                        module_id: data.metadata.module_id,
+                        book_id: data.metadata.book_id
+                    });
+                });
+
+                // Собираем упражнения
+                if (los.exercises) {
+                    los.exercises.forEach(ex => {
+                        glossaryExercises.push({
+                            ...ex,
+                            los_id: los.los_id
+                        });
+                    });
+                }
+            });
+        }
+
+        // Обновляем фильтр LOS
+        updateLosFilter(data.los || []);
+
+        // Отображаем
+        displayGlossaryByLos(data);
+
     } catch (error) {
+        console.error('Failed to load glossary:', error);
         document.getElementById('glossary-list').innerHTML =
             '<p class="text-center text-muted">Ошибка загрузки глоссария</p>';
     }
 }
 
+function updateLosFilter(losList) {
+    const container = document.getElementById('glossary-los-filter');
+    if (!container) return;
+
+    container.innerHTML = `
+        <option value="">Все LOS</option>
+        ${losList.map(los => `
+            <option value="${los.los_id}">${los.los_code}: ${los.los_description_en.substring(0, 50)}...</option>
+        `).join('')}
+    `;
+}
+
 async function loadCalculatorTemplates() {
     try {
-        const response = await fetch('data/v2/calculator_templates.json');
+        const response = await fetch('data/v2/templates/calculator_templates.json');
         const data = await response.json();
         calculatorTemplates = data.templates || {};
     } catch (error) {
@@ -1075,8 +1234,9 @@ function renderCalculatorSteps(calc) {
     // Determine method/worksheet name (support both old and new format)
     const methodName = calcData.method || calcData.worksheet || 'Calculator';
 
-    // Check if has steps to display
-    if (!calcData.steps || calcData.steps.length === 0) return '';
+    // Support both steps and steps_ru
+    const steps = calcData.steps_ru || calcData.steps;
+    if (!steps || steps.length === 0) return '';
 
     // Render description if available (for Multi-step Calculation)
     const description = calcData.description ? `<p class="calc-description">${calcData.description}</p>` : '';
@@ -1086,12 +1246,12 @@ function renderCalculatorSteps(calc) {
             <div class="calc-header" onclick="toggleCalculatorBlock(this)">
                 <span class="calc-toggle-icon">▼</span>
                 <span class="calc-icon">📟</span>
-                <span class="calc-title">BA II Plus: ${methodName}</span>
+                <span class="calc-title">${methodName}</span>
                 ${calcData.access ? `<code class="calc-access">${calcData.access}</code>` : ''}
             </div>
             ${description}
             <ol class="calc-steps">
-                ${calcData.steps.map(step => `<li>${step}</li>`).join('')}
+                ${steps.map(step => `<li>${step}</li>`).join('')}
             </ol>
             ${calcData.example ? `
                 <div class="calc-example">
@@ -1102,6 +1262,203 @@ function renderCalculatorSteps(calc) {
             ` : ''}
         </div>
     `;
+}
+
+function displayGlossaryByLos(data) {
+    const container = document.getElementById('glossary-list');
+    const countEl = document.getElementById('glossary-count');
+
+    if (!data || !data.los) {
+        container.innerHTML = '<p class="text-center text-muted">Нет данных</p>';
+        return;
+    }
+
+    // Подсчёт
+    const totalTerms = data.los.reduce((sum, los) => sum + los.terms.length, 0);
+    const totalExercises = data.los.reduce((sum, los) => sum + (los.exercises?.length || 0), 0);
+    if (countEl) countEl.textContent = `${totalTerms} терминов • ${totalExercises} упражнений`;
+
+    // Фильтрация по LOS если выбран
+    let losToDisplay = data.los;
+    if (currentLosFilter) {
+        losToDisplay = data.los.filter(los => los.los_id === currentLosFilter);
+    }
+
+    // Рендер по LOS группам
+    container.innerHTML = losToDisplay.map(los => `
+        <div class="los-section" data-los-id="${los.los_id}">
+            <div class="los-header" onclick="toggleLosSection(this)">
+                <div class="los-title">
+                    <span class="los-code">${los.los_code}</span>
+                    <span class="los-description">${los.los_description_en}</span>
+                </div>
+                <div class="los-stats">
+                    <span class="los-terms-count">${los.terms.length} терминов</span>
+                    ${los.exercises?.length ? `<span class="los-exercises-count">${los.exercises.length} упражнений</span>` : ''}
+                </div>
+                <span class="los-toggle-icon">▼</span>
+            </div>
+
+            ${los.los_description_ru ? `<div class="los-description-ru">${los.los_description_ru}</div>` : ''}
+
+            <div class="los-content">
+                <!-- Термины -->
+                <div class="los-terms">
+                    ${los.terms.map(term => renderGlossaryTerm(term, los)).join('')}
+                </div>
+
+                <!-- Упражнения -->
+                ${los.exercises?.length ? `
+                    <div class="los-exercises">
+                        <h4 class="exercises-header">📝 Упражнения</h4>
+                        ${los.exercises.map(ex => renderExercise(ex)).join('')}
+                    </div>
+                ` : ''}
+            </div>
+        </div>
+    `).join('');
+
+    // MathJax
+    if (window.MathJax && MathJax.typesetPromise) {
+        MathJax.typesetPromise([container]).catch(err => console.log('MathJax error:', err));
+    }
+}
+
+function renderGlossaryTerm(term, los) {
+    return `
+        <div class="glossary-item" data-term-id="${term.term_id}">
+            <div class="term-header">
+                <div class="term-title">
+                    <span class="term-name">${term.term_en}</span>
+                    ${term.term_ru ? `<span class="term-name-ru">— ${term.term_ru}</span>` : ''}
+                </div>
+                <div class="term-badges">
+                    ${term.type ? `<span class="term-type term-type-${term.type}">${term.type}</span>` : ''}
+                </div>
+            </div>
+            <div class="term-content">
+                <div class="term-definition">${term.definition_en}</div>
+                ${term.definition_ru ? `<div class="term-definition-ru">${term.definition_ru}</div>` : ''}
+                ${term.formula ? `<div class="term-formula">\\(${term.formula.replace(/^\$|\$$/g, '')}\\)</div>` : ''}
+                ${term.variables ? renderVariables(term.variables) : ''}
+                ${term.calculator ? renderCalculatorSteps(term.calculator) : ''}
+            </div>
+        </div>
+    `;
+}
+
+function renderVariables(variables) {
+    if (!variables || variables.length === 0) return '';
+
+    return `
+        <div class="term-variables">
+            <strong>Переменные:</strong>
+            <ul>
+                ${variables.map(v => `
+                    <li>
+                        <span class="var-symbol">\\(${v.symbol}\\)</span>:
+                        ${v.name_en}
+                        ${v.name_ru ? `<span class="var-name-ru">${v.name_ru}</span>` : ''}
+                    </li>
+                `).join('')}
+            </ul>
+        </div>
+    `;
+}
+
+function renderExercise(exercise) {
+    return `
+        <div class="exercise-item" data-exercise-id="${exercise.exercise_id}">
+            <div class="exercise-question">
+                <span class="exercise-number">${exercise.exercise_id}</span>
+                <p class="exercise-text-en">${exercise.question_en}</p>
+                ${exercise.question_ru ? `<p class="exercise-text-ru">${exercise.question_ru}</p>` : ''}
+            </div>
+
+            <div class="exercise-options">
+                ${exercise.options.map(opt => `
+                    <button class="exercise-option"
+                            data-letter="${opt.letter}"
+                            onclick="checkExerciseAnswer(this, '${exercise.exercise_id}', '${opt.letter}', '${exercise.correct_answer}')">
+                        <span class="option-letter">${opt.letter}</span>
+                        <span class="option-text">${opt.text_en}</span>
+                        ${opt.text_ru ? `<span class="option-text-ru">${opt.text_ru}</span>` : ''}
+                    </button>
+                `).join('')}
+            </div>
+
+            <div class="exercise-solution hidden" id="solution-${exercise.exercise_id}">
+                <div class="solution-status"></div>
+                <div class="solution-text">
+                    <p>${exercise.solution_en}</p>
+                    ${exercise.solution_ru ? `<p class="solution-ru">${exercise.solution_ru}</p>` : ''}
+                </div>
+            </div>
+        </div>
+    `;
+}
+
+function checkExerciseAnswer(button, exerciseId, selectedLetter, correctLetter) {
+    const container = button.closest('.exercise-item');
+    const options = container.querySelectorAll('.exercise-option');
+    const solutionDiv = document.getElementById(`solution-${exerciseId}`);
+    const statusDiv = solutionDiv.querySelector('.solution-status');
+
+    const isCorrect = selectedLetter === correctLetter;
+
+    // Disable all options
+    options.forEach(opt => {
+        opt.disabled = true;
+        const letter = opt.dataset.letter;
+
+        if (letter === correctLetter) {
+            opt.classList.add('correct');
+        } else if (letter === selectedLetter && !isCorrect) {
+            opt.classList.add('incorrect');
+        }
+    });
+
+    // Show solution
+    statusDiv.innerHTML = isCorrect
+        ? '<span class="result-correct">✓ Правильно!</span>'
+        : `<span class="result-incorrect">✗ Неправильно. Правильный ответ: ${correctLetter}</span>`;
+
+    solutionDiv.classList.remove('hidden');
+}
+
+function toggleLosSection(headerEl) {
+    const section = headerEl.closest('.los-section');
+    section.classList.toggle('collapsed');
+}
+
+function displayFlatGlossary(terms) {
+    const container = document.getElementById('glossary-list');
+    const countEl = document.getElementById('glossary-count');
+
+    if (countEl) countEl.textContent = `${terms.length} результатов`;
+
+    container.innerHTML = terms.map(term => `
+        <div class="glossary-item" data-term-id="${term.term_id}">
+            <div class="term-header">
+                <div class="term-title">
+                    <span class="term-name">${term.term_en}</span>
+                    ${term.term_ru ? `<span class="term-name-ru">— ${term.term_ru}</span>` : ''}
+                </div>
+                <div class="term-badges">
+                    ${term.los_id ? `<span class="term-los">${term.los_id}</span>` : ''}
+                    ${term.module_id ? `<span class="term-module">M${term.module_id}</span>` : ''}
+                </div>
+            </div>
+            <div class="term-content">
+                <div class="term-definition">${term.definition_en}</div>
+                ${term.definition_ru ? `<div class="term-definition-ru">${term.definition_ru}</div>` : ''}
+                ${term.formula ? `<div class="term-formula">\\(${term.formula.replace(/^\$|\$$/g, '')}\\)</div>` : ''}
+                ${term.calculator ? renderCalculatorSteps(term.calculator) : ''}
+            </div>
+        </div>
+    `).join('');
+
+    if (window.MathJax) MathJax.typeset([container]);
 }
 
 function displayGlossary(terms) {
@@ -1162,22 +1519,29 @@ function collapseAllCalcBlocks() {
 function searchGlossary() {
     const query = document.getElementById('glossary-search').value.toLowerCase();
     const bookId = document.getElementById('glossary-book-filter').value;
-    const moduleId = document.getElementById('glossary-module-filter').value;
+    const losId = document.getElementById('glossary-los-filter')?.value || '';
 
-    let filtered = glossaryTerms;
+    currentLosFilter = losId;
 
-    if (bookId) filtered = filtered.filter(t => t.book_id == bookId);
-    if (moduleId) filtered = filtered.filter(t => t.module_id == moduleId);
+    if (!glossaryData) return;
+
+    // Если есть поисковый запрос — ищем по плоскому списку
     if (query) {
-        filtered = filtered.filter(t =>
+        let filtered = glossaryTerms.filter(t =>
             t.term_en.toLowerCase().includes(query) ||
             (t.term_ru && t.term_ru.toLowerCase().includes(query)) ||
             t.definition_en.toLowerCase().includes(query) ||
             (t.los_id && t.los_id.toLowerCase().includes(query))
         );
-    }
 
-    displayGlossary(filtered);
+        if (bookId) filtered = filtered.filter(t => t.book_id == bookId);
+        if (losId) filtered = filtered.filter(t => t.los_id === losId);
+
+        displayFlatGlossary(filtered);
+    } else {
+        // Иначе показываем по LOS
+        displayGlossaryByLos(glossaryData);
+    }
 }
 
 function onBookFilterChange() {
@@ -1307,12 +1671,29 @@ function filterGlossary() {
 
 // ============== Formulas ==============
 let formulasData = [];
+let currentFormulasPage = 1;
+let formulasPerPage = 5;
+let currentFilteredFormulas = [];
 
 async function loadFormulas() {
     try {
-        const response = await fetch('data/v2/formulas_master.json');
-        const data = await response.json();
-        formulasData = data.formulas || [];
+        const [formulasResponse, templatesResponse] = await Promise.all([
+            fetch('data/v2/templates/formulas_master.json'),
+            fetch('data/v2/templates/calculator_templates.json')
+        ]);
+
+        const formulasData_raw = await formulasResponse.json();
+        const templatesData = await templatesResponse.json();
+
+        formulasData = formulasData_raw.formulas || [];
+        calculatorTemplates = templatesData.templates || {};
+
+        // Load saved page from localStorage
+        const savedPage = localStorage.getItem('formulas_current_page');
+        if (savedPage) {
+            currentFormulasPage = parseInt(savedPage, 10);
+        }
+
         displayFormulas(formulasData);
     } catch (error) {
         console.error('Failed to load formulas:', error);
@@ -1322,12 +1703,35 @@ async function loadFormulas() {
 }
 
 function displayFormulas(formulas) {
+    currentFilteredFormulas = formulas;
     const container = document.getElementById('formulas-list');
     const countEl = document.getElementById('formulas-count');
 
     if (countEl) countEl.textContent = `${formulas.length} формул`;
 
-    container.innerHTML = formulas.map(formula => `
+    // Calculate pagination
+    const totalPages = Math.ceil(formulas.length / formulasPerPage);
+
+    // Ensure current page is valid
+    if (currentFormulasPage > totalPages) {
+        currentFormulasPage = Math.max(1, totalPages);
+    }
+    if (currentFormulasPage < 1) {
+        currentFormulasPage = 1;
+    }
+
+    // Get formulas for current page
+    const startIndex = (currentFormulasPage - 1) * formulasPerPage;
+    const endIndex = startIndex + formulasPerPage;
+    const pageFormulas = formulas.slice(startIndex, endIndex);
+
+    if (pageFormulas.length === 0) {
+        container.innerHTML = '<p class="text-center text-muted">Формулы не найдены</p>';
+        document.getElementById('formulas-pagination').innerHTML = '';
+        return;
+    }
+
+    container.innerHTML = pageFormulas.map(formula => `
         <div class="glossary-item" data-formula-id="${formula.id || ''}">
             <div class="term-header">
                 <div class="term-title">
@@ -1368,6 +1772,7 @@ function displayFormulas(formulas) {
                 ` : ''}
                 ${formula.description ? `<div class="term-definition">${formula.description}</div>` : ''}
                 ${formula.description_ru ? `<div class="term-definition-ru">${formula.description_ru}</div>` : ''}
+                ${getCalculatorSteps(formula)}
             </div>
         </div>
     `).join('');
@@ -1375,6 +1780,82 @@ function displayFormulas(formulas) {
     // Re-render MathJax after adding formulas
     if (window.MathJax && window.MathJax.typesetPromise) {
         window.MathJax.typesetPromise();
+    }
+
+    // Render pagination
+    renderFormulasPagination(totalPages);
+}
+
+function getCalculatorSteps(formula) {
+    // If no calculator template specified, check for calculator_note
+    if (!formula.calculator_template) {
+        if (formula.calculator_note) {
+            return `
+                <div class="calculator-section collapsed">
+                    <div class="calculator-header" onclick="toggleCalculator(this)">
+                        <span class="calculator-arrow">▶</span>
+                        <span class="calculator-icon">🧮</span>
+                        <strong>Калькулятор</strong>
+                    </div>
+                    <div class="calculator-content">
+                        <div class="calculator-note">${formula.calculator_note}</div>
+                    </div>
+                </div>
+            `;
+        }
+        return '';
+    }
+
+    // Get template from calculator_templates
+    const template = calculatorTemplates[formula.calculator_template];
+    if (!template) {
+        console.warn(`Template ${formula.calculator_template} not found`);
+        return '';
+    }
+
+    return `
+        <div class="calculator-section collapsed">
+            <div class="calculator-header" onclick="toggleCalculator(this)">
+                <span class="calculator-arrow">▶</span>
+                <span class="calculator-icon">🧮</span>
+                <strong>BA II Plus: ${template.method || ''}${template.access ? ` ${template.access}` : ''}</strong>
+            </div>
+            <div class="calculator-content">
+                ${template.steps && template.steps.length > 0 ? `
+                    <div class="calculator-steps-list">
+                        <strong>Шаги:</strong>
+                        <ol>
+                            ${template.steps.map(step => `<li>${step}</li>`).join('')}
+                        </ol>
+                    </div>
+                ` : ''}
+                ${template.example ? `
+                    <div class="calculator-example">
+                        <strong>Пример:</strong>
+                        <div class="example-content">
+                            ${template.example.given ? `<div><strong>Дано:</strong> ${template.example.given}</div>` : ''}
+                            ${template.example.input ? `<div><strong>Ввод:</strong> <code>${template.example.input}</code></div>` : ''}
+                            ${template.example.result ? `<div><strong>Результат:</strong> ${template.example.result}</div>` : ''}
+                        </div>
+                    </div>
+                ` : ''}
+            </div>
+        </div>
+    `;
+}
+
+function toggleCalculator(headerElement) {
+    const section = headerElement.parentElement;
+    const arrow = headerElement.querySelector('.calculator-arrow');
+
+    if (section.classList.contains('collapsed')) {
+        section.classList.remove('collapsed');
+        section.classList.add('expanded');
+        arrow.textContent = '▼';
+    } else {
+        section.classList.remove('expanded');
+        section.classList.add('collapsed');
+        arrow.textContent = '▶';
     }
 }
 
@@ -1402,7 +1883,96 @@ function filterFormulas() {
         );
     }
 
+    // Reset to first page when filtering
+    currentFormulasPage = 1;
     displayFormulas(filtered);
+}
+
+function renderFormulasPagination(totalPages) {
+    const paginationContainer = document.getElementById('formulas-pagination');
+
+    if (totalPages <= 1) {
+        paginationContainer.innerHTML = '';
+        return;
+    }
+
+    let paginationHTML = '<div class="pagination">';
+
+    // Previous button
+    if (currentFormulasPage > 1) {
+        paginationHTML += `<button class="pagination-btn" onclick="prevFormulasPage()">« Назад</button>`;
+    } else {
+        paginationHTML += `<button class="pagination-btn pagination-btn-disabled" disabled>« Назад</button>`;
+    }
+
+    // Page numbers
+    const maxVisiblePages = 7;
+    let startPage = Math.max(1, currentFormulasPage - Math.floor(maxVisiblePages / 2));
+    let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
+
+    if (endPage - startPage < maxVisiblePages - 1) {
+        startPage = Math.max(1, endPage - maxVisiblePages + 1);
+    }
+
+    // First page
+    if (startPage > 1) {
+        paginationHTML += `<button class="pagination-btn" onclick="goToFormulasPage(1)">1</button>`;
+        if (startPage > 2) {
+            paginationHTML += `<span class="pagination-ellipsis">...</span>`;
+        }
+    }
+
+    // Page number buttons
+    for (let i = startPage; i <= endPage; i++) {
+        if (i === currentFormulasPage) {
+            paginationHTML += `<button class="pagination-btn pagination-btn-active">${i}</button>`;
+        } else {
+            paginationHTML += `<button class="pagination-btn" onclick="goToFormulasPage(${i})">${i}</button>`;
+        }
+    }
+
+    // Last page
+    if (endPage < totalPages) {
+        if (endPage < totalPages - 1) {
+            paginationHTML += `<span class="pagination-ellipsis">...</span>`;
+        }
+        paginationHTML += `<button class="pagination-btn" onclick="goToFormulasPage(${totalPages})">${totalPages}</button>`;
+    }
+
+    // Next button
+    if (currentFormulasPage < totalPages) {
+        paginationHTML += `<button class="pagination-btn" onclick="nextFormulasPage()">Вперёд »</button>`;
+    } else {
+        paginationHTML += `<button class="pagination-btn pagination-btn-disabled" disabled>Вперёд »</button>`;
+    }
+
+    paginationHTML += '</div>';
+    paginationContainer.innerHTML = paginationHTML;
+}
+
+function goToFormulasPage(page) {
+    const totalPages = Math.ceil(currentFilteredFormulas.length / formulasPerPage);
+    if (page < 1 || page > totalPages) return;
+
+    currentFormulasPage = page;
+    localStorage.setItem('formulas_current_page', currentFormulasPage);
+    displayFormulas(currentFilteredFormulas);
+
+    // Scroll to top of formulas list
+    document.getElementById('formulas-list').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function nextFormulasPage() {
+    const totalPages = Math.ceil(currentFilteredFormulas.length / formulasPerPage);
+    if (currentFormulasPage < totalPages) {
+        goToFormulasPage(currentFormulasPage + 1);
+    }
+}
+
+function prevFormulasPage() {
+    if (currentFormulasPage > 1) {
+        goToFormulasPage(currentFormulasPage - 1);
+    }
 }
 
 // ============== Statistics ==============
@@ -1467,10 +2037,13 @@ function renderTable(tableData) {
 
     let html = '<table class="question-table">';
 
-    // Headers
-    if (tableData.headers && tableData.headers.length > 0) {
+    // Headers (with bilingual support)
+    const lang = state.currentLanguage;
+    const headers = tableData[`headers_${lang}`] || tableData.headers || [];
+
+    if (headers && headers.length > 0) {
         html += '<thead><tr>';
-        tableData.headers.forEach(h => {
+        headers.forEach(h => {
             html += `<th>${h}</th>`;
         });
         html += '</tr></thead>';
@@ -1560,6 +2133,9 @@ function updateCountdown() {
 async function init() {
     // Load calculator templates early
     loadCalculatorTemplates(); // Load async, no need to await
+
+    // Initialize language toggle
+    updateLanguageToggle();
 
     updateCountdown();
     setInterval(updateCountdown, 86400000); // Update daily

@@ -1,6 +1,6 @@
 {
   "book_id": 10,
-  "book_code": "CH-10",
+  "book_code": "ETH",
   "book_name": "Ethics and Professional Standards",
   "book_name_ru": "Этика и профессиональные стандарты",
   "total_modules": 5,
@@ -13,7 +13,10 @@
       "los_codes": [
         "LOS_1a",
         "LOS_1b"
-      ]
+      ],
+      "module_name_ru": "Кодекс этики и стандарты профессионального поведения",
+      "glossary_file": "glossary_module_1.json",
+      "status": "pending"
     },
     {
       "module_id": 2,
@@ -23,7 +26,10 @@
       "los_codes": [
         "LOS_2a",
         "LOS_2b"
-      ]
+      ],
+      "module_name_ru": "Руководство по стандартам I-VII",
+      "glossary_file": "glossary_module_2.json",
+      "status": "pending"
     },
     {
       "module_id": 3,
@@ -33,7 +39,10 @@
       "los_codes": [
         "LOS_3a",
         "LOS_3b"
-      ]
+      ],
+      "module_name_ru": "Application of the Standards",
+      "glossary_file": "glossary_module_3.json",
+      "status": "pending"
     },
     {
       "module_id": 4,
@@ -43,7 +52,10 @@
       "los_codes": [
         "LOS_4a",
         "LOS_4b"
-      ]
+      ],
+      "module_name_ru": "Введение в глобальные стандарты инвестиционной эффективности (GIPS)",
+      "glossary_file": "glossary_module_4.json",
+      "status": "pending"
     },
     {
       "module_id": 5,
@@ -53,7 +65,10 @@
       "los_codes": [
         "LOS_5a",
         "LOS_5b"
-      ]
+      ],
+      "module_name_ru": "Стандарты GIPS",
+      "glossary_file": "glossary_module_5.json",
+      "status": "pending"
     }
   ]
 }

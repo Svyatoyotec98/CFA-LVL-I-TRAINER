@@ -1,6 +1,6 @@
 {
   "book_id": 8,
-  "book_code": "CH-8",
+  "book_code": "ALT",
   "book_name": "Alternative Investments",
   "book_name_ru": "Альтернативные инвестиции",
   "total_modules": 7,
@@ -13,7 +13,10 @@
       "los_codes": [
         "LOS_1a",
         "LOS_1b"
-      ]
+      ],
+      "module_name_ru": "Introduction to Alternative Investments",
+      "glossary_file": "glossary_module_1.json",
+      "status": "pending"
     },
     {
       "module_id": 2,
@@ -23,7 +26,10 @@
       "los_codes": [
         "LOS_2a",
         "LOS_2b"
-      ]
+      ],
+      "module_name_ru": "Real Estate Investments",
+      "glossary_file": "glossary_module_2.json",
+      "status": "pending"
     },
     {
       "module_id": 3,
@@ -33,7 +39,10 @@
       "los_codes": [
         "LOS_3a",
         "LOS_3b"
-      ]
+      ],
+      "module_name_ru": "Private Equity",
+      "glossary_file": "glossary_module_3.json",
+      "status": "pending"
     },
     {
       "module_id": 4,
@@ -43,7 +52,10 @@
       "los_codes": [
         "LOS_4a",
         "LOS_4b"
-      ]
+      ],
+      "module_name_ru": "Hedge Funds",
+      "glossary_file": "glossary_module_4.json",
+      "status": "pending"
     },
     {
       "module_id": 5,
@@ -53,7 +65,10 @@
       "los_codes": [
         "LOS_5a",
         "LOS_5b"
-      ]
+      ],
+      "module_name_ru": "Commodities",
+      "glossary_file": "glossary_module_5.json",
+      "status": "pending"
     },
     {
       "module_id": 6,
@@ -63,7 +78,10 @@
       "los_codes": [
         "LOS_6a",
         "LOS_6b"
-      ]
+      ],
+      "module_name_ru": "Infrastructure Investments",
+      "glossary_file": "glossary_module_6.json",
+      "status": "pending"
     },
     {
       "module_id": 7,
@@ -73,7 +91,10 @@
       "los_codes": [
         "LOS_7a",
         "LOS_7b"
-      ]
+      ],
+      "module_name_ru": "Other Alternative Investments",
+      "glossary_file": "glossary_module_7.json",
+      "status": "pending"
     }
   ]
 }
