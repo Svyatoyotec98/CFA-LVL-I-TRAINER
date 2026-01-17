@@ -1147,7 +1147,7 @@ let calculatorTemplates = {};
 async function loadGlossary() {
     try {
         // Временно загружаем из локального файла v2
-        const response = await fetch('data/v2/books/book1_quants/module1/glossary_module_1_v2.json');
+        const response = await fetch('data/v2/books/book1_quants/module1/glossary_module_1.json');
         const data = await response.json();
         glossaryData = data;
 
