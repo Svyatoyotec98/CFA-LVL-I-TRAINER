@@ -1144,10 +1144,10 @@ let glossaryExercises = [];     // Плоский список упражнен�
 let currentLosFilter = '';      // Текущий фильтр по LOS
 let calculatorTemplates = {};
 
-async function loadGlossary() {
+async function loadGlossary(moduleId = 1) {
     try {
-        // Временно загружаем из локального файла v2
-        const response = await fetch('data/v2/books/book1_quants/module1/glossary_module_1.json');
+        // Загружаем глоссарий для выбранного модуля
+        const response = await fetch(`data/v2/books/book1_quants/module${moduleId}/glossary_module_${moduleId}.json`);
         const data = await response.json();
         glossaryData = data;
 
@@ -1554,6 +1554,13 @@ function onBookFilterChange() {
         modules.map(m => `<option value="${m.id}">Module ${m.id}: ${m.name}</option>`).join('');
 
     filterGlossary();
+}
+
+function onModuleFilterChange() {
+    const moduleId = document.getElementById('glossary-module-filter').value;
+    if (moduleId) {
+        loadGlossary(parseInt(moduleId));
+    }
 }
 
 function getModulesForBook(bookId) {
