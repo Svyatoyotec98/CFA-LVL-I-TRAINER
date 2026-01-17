@@ -853,6 +853,7 @@ a:hover {
 
 .search-box select {
     flex: 1;
+    min-width: 0;
     padding: 12px;
     background: #1a1a2e;
     border: 1px solid var(--glass-border);
@@ -868,10 +869,7 @@ a:hover {
 }
 
 #glossary-los-filter {
-    max-width: 250px;
     text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
 }
 
 .glossary-list {
