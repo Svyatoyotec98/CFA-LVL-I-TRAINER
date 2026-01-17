@@ -7,7 +7,7 @@
     "module_id": 2,
     "module_name": "Time Value of Money",
     "module_name_ru": "Временная стоимость денег",
-    "total_questions": 30,
+    "total_questions": 31,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -1173,6 +1173,45 @@
       },
       "difficulty": "medium",
       "topic_tags": ["loan_payment", "amortization"]
+    },
+    {
+      "question_id": "QM-2-Q031",
+      "original_question_number": 3410,
+      "los_id": "LOS_2c",
+      "question_text_en": "Veronica Rose borrowed $5,000 from GRF Bank. The loan terms specify: 3-year repayment period, 3% annual interest rate, payments at end of each year. If Rose decided to make a payment of $2,000 at the end of the 1st year (instead of the scheduled payment), the payments required for the remaining 2 years would be closest to:",
+      "question_text_ru": "Вероника Роуз заняла $5,000 у банка GRF. Условия займа: 3-летний срок погашения, 3% годовых, платежи в конце каждого года. Если Роуз решит заплатить $2,000 в конце 1-го года (вместо запланированного платежа), платежи за оставшиеся 2 года будут ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "$1,646.22", "text_ru": "$1,646.22"},
+        {"id": "opt_b", "text_en": "$1,676.22", "text_ru": "$1,676.22"},
+        {"id": "opt_c", "text_en": "$1,686.22", "text_ru": "$1,686.22"}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Step 1: Original PMT = $1,767.65. Interest Y1 = $5,000 × 0.03 = $150. After $2,000 payment: Principal remaining = $5,000 + $150 - $2,000 = $3,150. Step 2: New PMT for 2 years: N=2, I/Y=3, PV=3,150, FV=0 → PMT = $1,646.22",
+      "explanation_ru": "Шаг 1: Исходный PMT = $1,767.65. Проценты за год 1 = $5,000 × 0.03 = $150. После платежа $2,000: Остаток основного долга = $5,000 + $150 - $2,000 = $3,150. Шаг 2: Новый PMT за 2 года: N=2, I/Y=3, PV=3,150, FV=0 → PMT = $1,646.22",
+      "explanation_formula": "$PMT = \\frac{3,150 \\times 0.03}{1 - (1.03)^{-2}} = \\$1,646.22$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This would be the payment if she had not paid the extra $2,000.",
+          "text_ru": "Неверно. Это был бы платёж, если бы она не заплатила дополнительные $2,000."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This is the remaining balance divided by 2 without factoring in interest.",
+          "text_ru": "Неверно. Это остаток, делённый на 2, без учёта процентов."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM Worksheet",
+        "steps_en": ["N = 2", "I/Y = 3", "PV = -3,150", "FV = 0", "CPT → PMT = 1,646.22"],
+        "steps_ru": ["N = 2", "I/Y = 3", "PV = -3,150", "FV = 0", "CPT → PMT = 1,646.22"]
+      },
+      "difficulty": "hard",
+      "topic_tags": ["loan_amortization", "early_payment"]
     }
   ]
 }
