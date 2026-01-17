@@ -1,0 +1,871 @@
+{
+  "metadata": {
+    "book_id": 1,
+    "book_code": "QM",
+    "book_name": "Quantitative Methods",
+    "book_name_ru": "Количественные методы",
+    "module_id": 2,
+    "module_name": "Time Value of Money",
+    "module_name_ru": "Временная стоимость денег",
+    "page_range": "31-73",
+    "total_terms": 30,
+    "total_exercises": 6,
+    "version": "2.0",
+    "last_updated": "2026-01-17"
+  },
+  "los": [
+    {
+      "los_id": "LOS_2a",
+      "los_code": "2a",
+      "los_description_en": "Calculate the future value (FV) and present value (PV) of a single sum of money, an ordinary annuity, an annuity due, a perpetuity, and a series of unequal cash flows",
+      "los_description_ru": "Рассчитывать будущую стоимость (FV) и приведённую стоимость (PV) единовременной суммы, обычного аннуитета, аннуитета пренумерандо, перпетуитета и серии неравных денежных потоков",
+      "terms": [
+        {
+          "term_id": "QM-2-001",
+          "term_en": "Time Value of Money (TVM)",
+          "term_ru": "Временная стоимость денег",
+          "definition_en": "A fundamental financial concept that emphasizes that a sum of money is worth more in the present than in the future due to opportunity cost, inflation, and uncertainty.",
+          "definition_ru": "Фундаментальная финансовая концепция, подчеркивающая, что сумма денег стоит больше в настоящем, чем в будущем, из-за альтернативных издержек, инфляции и неопределенности.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-2-002",
+          "term_en": "Present Value (PV)",
+          "term_ru": "Приведённая стоимость",
+          "definition_en": "The current value of a future sum of money or stream of cash flows, given a specified rate of return. It represents the amount of money you have today (at time T=0).",
+          "definition_ru": "Текущая стоимость будущей суммы денег или потока денежных средств при заданной ставке доходности. Представляет собой сумму денег, которую вы имеете сегодня (в момент времени T=0).",
+          "type": "formula",
+          "formula": "$PV = FV \\times (1+r)^{-N}$",
+          "formula_ref": "QM-TVM-006",
+          "variables": [
+            {"symbol": "PV", "name_en": "Present Value", "name_ru": "Приведённая стоимость"},
+            {"symbol": "FV", "name_en": "Future Value", "name_ru": "Будущая стоимость"},
+            {"symbol": "r", "name_en": "Interest rate per period", "name_ru": "Процентная ставка за период"},
+            {"symbol": "N", "name_en": "Number of periods", "name_ru": "Количество периодов"}
+          ],
+          "calculator": {
+            "method": "BA II Plus: TVM Worksheet",
+            "steps_ru": [
+              "1. [2nd] [CLR TVM] — очистка TVM worksheet",
+              "2. Введите количество периодов: {N} [N]",
+              "3. Введите процентную ставку: {I/Y} [I/Y]",
+              "4. Введите будущую стоимость: {FV} [FV]",
+              "5. Установите платёж в ноль: 0 [PMT]",
+              "6. Рассчитайте: [CPT] [PV]"
+            ],
+            "example": {
+              "given": "FV=$1,000, r=5%, N=10 лет",
+              "input": "10 N, 5 I/Y, 1000 FV, 0 PMT, CPT PV",
+              "result": "PV = -613.91"
+            }
+          }
+        },
+        {
+          "term_id": "QM-2-003",
+          "term_en": "Future Value (FV)",
+          "term_ru": "Будущая стоимость",
+          "definition_en": "The accumulated amount of money you get after investing the original sum at a specific interest rate for a given time period. Calculated using compound interest formula.",
+          "definition_ru": "Накопленная сумма денег, которую вы получаете после инвестирования первоначальной суммы по определенной процентной ставке в течение заданного периода времени. Рассчитывается по формуле сложного процента.",
+          "type": "formula",
+          "formula": "$FV = PV \\times (1+r)^N$",
+          "formula_ref": "QM-TVM-007",
+          "variables": [
+            {"symbol": "FV", "name_en": "Future Value", "name_ru": "Будущая стоимость"},
+            {"symbol": "PV", "name_en": "Present Value", "name_ru": "Приведённая стоимость"},
+            {"symbol": "r", "name_en": "Interest rate per period", "name_ru": "Процентная ставка за период"},
+            {"symbol": "N", "name_en": "Number of periods", "name_ru": "Количество периодов"}
+          ],
+          "calculator": {
+            "method": "BA II Plus: TVM Worksheet",
+            "steps_ru": [
+              "1. [2nd] [CLR TVM] — очистка TVM worksheet",
+              "2. Введите количество периодов: {N} [N]",
+              "3. Введите процентную ставку: {I/Y} [I/Y]",
+              "4. Введите текущую стоимость (отрицательное): {PV} [+/-] [PV]",
+              "5. Установите платёж в ноль: 0 [PMT]",
+              "6. Рассчитайте: [CPT] [FV]"
+            ],
+            "example": {
+              "given": "PV=$8,000, r=8%, N=4 года",
+              "input": "4 N, 8 I/Y, 8000 +/- PV, 0 PMT, CPT FV",
+              "result": "FV = 10,883.91"
+            }
+          }
+        },
+        {
+          "term_id": "QM-2-004",
+          "term_en": "Continuous Compounding",
+          "term_ru": "Непрерывное начисление процентов",
+          "definition_en": "A method of calculating interest where compounding occurs continuously (infinite number of times per year), using the mathematical constant e. Results in maximum possible compound interest.",
+          "definition_ru": "Метод расчета процентов, при котором начисление происходит непрерывно (бесконечное число раз в год) с использованием математической константы e. Приводит к максимально возможному сложному проценту.",
+          "type": "formula",
+          "formula": "$FV = PV \\times e^{rN}$ или $PV = FV \\times e^{-rN}$",
+          "formula_ref": "QM-TVM-008",
+          "variables": [
+            {"symbol": "e", "name_en": "Euler's number (≈2.71828)", "name_ru": "Число Эйлера (≈2.71828)"},
+            {"symbol": "r", "name_en": "Annual interest rate", "name_ru": "Годовая процентная ставка"},
+            {"symbol": "N", "name_en": "Number of years", "name_ru": "Количество лет"}
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Рассчитайте показатель степени: {r} [×] {N} [=]",
+              "2. Возведите e в степень: [2nd] [e^x]",
+              "3. Умножьте на PV: [×] {PV} [=]",
+              "4. Результат: FV"
+            ],
+            "example": {
+              "given": "PV=$1,000, r=10%, N=2 года",
+              "input": "0.10 × 2 = 0.20, 2nd e^x = 1.2214, × 1000 =",
+              "result": "FV = $1,221.40"
+            }
+          }
+        },
+        {
+          "term_id": "QM-2-005",
+          "term_en": "Frequency of Compounding",
+          "term_ru": "Частота начисления процентов",
+          "definition_en": "The number of times per year that interest is compounded. Common frequencies include annual (m=1), semi-annual (m=2), quarterly (m=4), monthly (m=12). More frequent compounding results in higher effective returns.",
+          "definition_ru": "Количество раз в год, когда начисляются проценты. Распространенные частоты: годовая (m=1), полугодовая (m=2), квартальная (m=4), месячная (m=12). Более частое начисление приводит к более высокой эффективной доходности.",
+          "type": "formula",
+          "formula": "$FV = PV \\times \\left(1 + \\frac{r_s}{m}\\right)^{mN}$",
+          "formula_ref": null,
+          "variables": [
+            {"symbol": "r_s", "name_en": "Stated annual rate", "name_ru": "Заявленная годовая ставка"},
+            {"symbol": "m", "name_en": "Compounding periods per year", "name_ru": "Периодов начисления в год"},
+            {"symbol": "N", "name_en": "Number of years", "name_ru": "Количество лет"}
+          ],
+          "calculator": {
+            "method": "BA II Plus: TVM Worksheet",
+            "steps_ru": [
+              "1. [2nd] [CLR TVM] — очистка",
+              "2. [2nd] [P/Y] — установите частоту: {m} [ENTER]",
+              "3. Введите количество лет × периоды: {N_years} [×] {m} [=] [N]",
+              "4. Введите годовую ставку: {r_annual} [I/Y]",
+              "5. Введите PV: {PV} [+/-] [PV]",
+              "6. 0 [PMT], [CPT] [FV]"
+            ],
+            "example": {
+              "given": "PV=$10,000, r=8%, N=5 лет, квартальное (m=4)",
+              "input": "2ND P/Y 4 ENTER, 20 N, 8 I/Y, 10000 +/- PV, 0 PMT, CPT FV",
+              "result": "FV = 14,859.47"
+            }
+          }
+        },
+        {
+          "term_id": "QM-2-006",
+          "term_en": "Zero-Coupon Bond (Discount Bond)",
+          "term_ru": "Бескупонная облигация (дисконтная облигация)",
+          "definition_en": "A bond that does not make periodic interest payments. Investor pays a discounted price today (PV) and receives a single payment (FV) at maturity. The return is the difference between purchase price and face value.",
+          "definition_ru": "Облигация, которая не выплачивает периодические проценты. Инвестор платит дисконтированную цену сегодня (PV) и получает единовременный платеж (FV) при погашении. Доход - это разница между ценой покупки и номинальной стоимостью.",
+          "type": "formula",
+          "formula": "$PV = FV \\times (1+r)^{-t}$",
+          "formula_ref": "QM-TVM-015",
+          "variables": [
+            {"symbol": "PV", "name_en": "Price (Present Value)", "name_ru": "Цена (приведённая стоимость)"},
+            {"symbol": "FV", "name_en": "Face Value", "name_ru": "Номинальная стоимость"},
+            {"symbol": "r", "name_en": "Yield to maturity", "name_ru": "Доходность к погашению"},
+            {"symbol": "t", "name_en": "Time to maturity", "name_ru": "Время до погашения"}
+          ],
+          "calculator": {
+            "method": "BA II Plus: TVM Worksheet",
+            "steps_ru": [
+              "1. [2nd] [CLR TVM] — очистка",
+              "2. Введите срок: {t} [N]",
+              "3. Введите доходность: {r} [I/Y]",
+              "4. Введите номинал: {FV} [FV]",
+              "5. 0 [PMT]",
+              "6. [CPT] [PV] — цена облигации"
+            ],
+            "example": {
+              "given": "FV=$1,000, YTM=6%, t=5 лет",
+              "input": "5 N, 6 I/Y, 1000 FV, 0 PMT, CPT PV",
+              "result": "PV = -747.26"
+            }
+          }
+        },
+        {
+          "term_id": "QM-2-007",
+          "term_en": "Coupon Bond",
+          "term_ru": "Купонная облигация",
+          "definition_en": "A fixed-income instrument that makes periodic interest payments (coupons) and repays the principal at maturity. Price is calculated by discounting all future cash flows at the market discount rate (YTM).",
+          "definition_ru": "Инструмент с фиксированным доходом, который выплачивает периодические процентные платежи (купоны) и возвращает основную сумму при погашении. Цена рассчитывается путем дисконтирования всех будущих денежных потоков по рыночной ставке дисконтирования (YTM).",
+          "type": "formula",
+          "formula": "$PV = \\sum_{t=1}^{N} \\frac{PMT}{(1+r)^t} + \\frac{FV}{(1+r)^N}$",
+          "formula_ref": "QM-TVM-016",
+          "variables": [
+            {"symbol": "PMT", "name_en": "Coupon payment", "name_ru": "Купонный платёж"},
+            {"symbol": "FV", "name_en": "Face Value", "name_ru": "Номинальная стоимость"},
+            {"symbol": "r", "name_en": "Yield to maturity per period", "name_ru": "Доходность к погашению за период"},
+            {"symbol": "N", "name_en": "Number of periods", "name_ru": "Количество периодов"}
+          ],
+          "calculator": {
+            "method": "BA II Plus: TVM Worksheet",
+            "steps_ru": [
+              "1. [2nd] [CLR TVM] — очистка",
+              "2. Введите количество периодов: {N} [N]",
+              "3. Введите доходность: {YTM} [I/Y]",
+              "4. Введите купон: {PMT} [PMT]",
+              "5. Введите номинал: {FV} [FV]",
+              "6. [CPT] [PV] — цена облигации"
+            ],
+            "example": {
+              "given": "5-летняя облигация, FV=$1,000, купон=5%, YTM=6%",
+              "input": "5 N, 6 I/Y, 50 PMT, 1000 FV, CPT PV",
+              "result": "PV = -957.88"
+            }
+          }
+        },
+        {
+          "term_id": "QM-2-008",
+          "term_en": "Yield-to-Maturity (YTM)",
+          "term_ru": "Доходность к погашению",
+          "definition_en": "The total return anticipated on a bond if held until maturity. It is the single discount rate that equates the present value of all future cash flows to the current bond price. Also called market discount rate.",
+          "definition_ru": "Общая доходность, ожидаемая по облигации при удержании до погашения. Это единая ставка дисконтирования, которая приравнивает приведенную стоимость всех будущих денежных потоков к текущей цене облигации. Также называется рыночной ставкой дисконтирования.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-2-009",
+          "term_en": "Perpetual Bond (Perpetuity)",
+          "term_ru": "Бессрочная облигация (перпетуитет)",
+          "definition_en": "A bond with no maturity date that pays constant periodic coupon payments forever. Present value equals the periodic payment divided by the discount rate.",
+          "definition_ru": "Облигация без срока погашения, которая выплачивает постоянные периодические купонные платежи бесконечно. Приведенная стоимость равна периодическому платежу, деленному на ставку дисконтирования.",
+          "type": "formula",
+          "formula": "$PV = \\frac{PMT}{r}$",
+          "formula_ref": "QM-TVM-017",
+          "variables": [
+            {"symbol": "PV", "name_en": "Present Value", "name_ru": "Приведённая стоимость"},
+            {"symbol": "PMT", "name_en": "Periodic payment", "name_ru": "Периодический платёж"},
+            {"symbol": "r", "name_en": "Discount rate", "name_ru": "Ставка дисконтирования"}
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Введите периодический платёж: {PMT}",
+              "2. Разделите на ставку: [÷] {r} [=]",
+              "3. Результат: PV перпетуитета"
+            ],
+            "example": {
+              "given": "Полугодовой PMT=$2, рыночная цена=$98.50",
+              "input": "Для r: 2 ÷ 98.50 = 0.0203 (полугодовая), годовая: 2.03 × 2 =",
+              "result": "YTM = 4.06%"
+            }
+          }
+        },
+        {
+          "term_id": "QM-2-010",
+          "term_en": "Ordinary Annuity",
+          "term_ru": "Обычный аннуитет",
+          "definition_en": "A series of equal payments made at the end of each period for a finite number of periods. Common in loans and mortgages.",
+          "definition_ru": "Серия равных платежей, производимых в конце каждого периода в течение конечного числа периодов. Часто встречается в кредитах и ипотеках.",
+          "type": "formula",
+          "formula": "$PV = A \\times \\frac{1 - (1+r)^{-N}}{r}$",
+          "formula_ref": "QM-TVM-019",
+          "variables": [
+            {"symbol": "A", "name_en": "Annuity payment", "name_ru": "Аннуитетный платёж"},
+            {"symbol": "r", "name_en": "Interest rate per period", "name_ru": "Ставка за период"},
+            {"symbol": "N", "name_en": "Number of periods", "name_ru": "Количество периодов"}
+          ],
+          "calculator": {
+            "method": "BA II Plus: TVM Worksheet",
+            "steps_ru": [
+              "1. [2nd] [CLR TVM] — очистка",
+              "2. Убедитесь в режиме END: [2nd] [BGN] (должно показывать END)",
+              "3. Введите: {N} [N]",
+              "4. Введите: {r} [I/Y]",
+              "5. Введите: {A} [PMT]",
+              "6. 0 [FV]",
+              "7. [CPT] [PV]"
+            ],
+            "example": {
+              "given": "Платёж=$100, r=5%, N=10 периодов",
+              "input": "10 N, 5 I/Y, 100 PMT, 0 FV, CPT PV",
+              "result": "PV = -772.17"
+            }
+          }
+        },
+        {
+          "term_id": "QM-2-011",
+          "term_en": "Annuity Due",
+          "term_ru": "Аннуитет пренумерандо",
+          "definition_en": "A series of equal payments made at the beginning of each period. Has higher present value than ordinary annuity due to earlier cash flows.",
+          "definition_ru": "Серия равных платежей, производимых в начале каждого периода. Имеет более высокую приведённую стоимость из-за более ранних денежных потоков.",
+          "type": "formula",
+          "formula": "$PV_{due} = PV_{ordinary} \\times (1+r)$",
+          "formula_ref": null,
+          "variables": [
+            {"symbol": "PV_{due}", "name_en": "PV of annuity due", "name_ru": "PV аннуитета пренумерандо"},
+            {"symbol": "PV_{ordinary}", "name_en": "PV of ordinary annuity", "name_ru": "PV обычного аннуитета"},
+            {"symbol": "r", "name_en": "Interest rate per period", "name_ru": "Ставка за период"}
+          ],
+          "calculator": {
+            "method": "BA II Plus: TVM Worksheet (BGN mode)",
+            "steps_ru": [
+              "1. [2nd] [CLR TVM] — очистка",
+              "2. Установите режим BGN: [2nd] [BGN] [2nd] [SET] (показывает BGN)",
+              "3. Введите: {N} [N]",
+              "4. Введите: {r} [I/Y]",
+              "5. Введите: {A} [PMT]",
+              "6. 0 [FV]",
+              "7. [CPT] [PV]",
+              "8. Верните режим END: [2nd] [BGN] [2nd] [SET]"
+            ],
+            "example": {
+              "given": "Платёж=$100, r=5%, N=10, режим BGN",
+              "input": "2ND BGN 2ND SET, 10 N, 5 I/Y, 100 PMT, 0 FV, CPT PV",
+              "result": "PV = -810.78 (vs -772.17 для ordinary)"
+            }
+          }
+        },
+        {
+          "term_id": "QM-2-012",
+          "term_en": "Fully Amortizing Loan",
+          "term_ru": "Полностью амортизируемый кредит",
+          "definition_en": "A loan with level periodic payments consisting of both interest and principal, such that the loan is fully paid off at maturity. Early payments are mostly interest, later payments mostly principal.",
+          "definition_ru": "Кредит с равными периодическими платежами, состоящими из процентов и основного долга, так что кредит полностью погашается при наступлении срока. Ранние платежи в основном проценты, поздние — основной долг.",
+          "type": "formula",
+          "formula": "$A = \\frac{r \\times PV}{1 - (1+r)^{-t}}$",
+          "formula_ref": "QM-TVM-020",
+          "variables": [
+            {"symbol": "A", "name_en": "Periodic payment", "name_ru": "Периодический платёж"},
+            {"symbol": "PV", "name_en": "Loan amount", "name_ru": "Сумма кредита"},
+            {"symbol": "r", "name_en": "Interest rate per period", "name_ru": "Ставка за период"},
+            {"symbol": "t", "name_en": "Number of payments", "name_ru": "Количество платежей"}
+          ],
+          "calculator": {
+            "method": "BA II Plus: TVM Worksheet",
+            "steps_ru": [
+              "1. [2nd] [CLR TVM] — очистка",
+              "2. Введите количество платежей: {t} [N]",
+              "3. Введите ставку за период: {r} [I/Y]",
+              "4. Введите сумму кредита (отрицательная): {PV} [+/-] [PV]",
+              "5. 0 [FV]",
+              "6. [CPT] [PMT] — периодический платёж"
+            ],
+            "example": {
+              "given": "Кредит=$600,000, r=4.5% годовых, месячные платежи, 25 лет",
+              "input": "300 N (25×12), 0.375 I/Y (4.5/12), -600000 PV, 0 FV, CPT PMT",
+              "result": "PMT = 3,334.99"
+            }
+          }
+        },
+        {
+          "term_id": "QM-2-013",
+          "term_en": "Constant Dividend Model (Preferred Stock)",
+          "term_ru": "Модель постоянного дивиденда (привилегированные акции)",
+          "definition_en": "An equity valuation model assuming dividends remain constant forever. The stock value equals the annual dividend divided by the required rate of return.",
+          "definition_ru": "Модель оценки акций, предполагающая, что дивиденды остаются постоянными навсегда. Стоимость акции равна годовому дивиденду, делённому на требуемую норму доходности.",
+          "type": "formula",
+          "formula": "$PV = \\frac{D}{r}$",
+          "formula_ref": "QM-TVM-021",
+          "variables": [
+            {"symbol": "PV", "name_en": "Stock price", "name_ru": "Цена акции"},
+            {"symbol": "D", "name_en": "Annual dividend", "name_ru": "Годовой дивиденд"},
+            {"symbol": "r", "name_en": "Required return", "name_ru": "Требуемая доходность"}
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Введите годовой дивиденд: {D}",
+              "2. Разделите на ставку: [÷] {r} [=]",
+              "3. Результат: цена акции"
+            ],
+            "example": {
+              "given": "Годовой дивиденд=$5, r=8%",
+              "input": "5 ÷ 0.08 =",
+              "result": "PV = $62.50"
+            }
+          }
+        },
+        {
+          "term_id": "QM-2-014",
+          "term_en": "Gordon Growth Model (DDM)",
+          "term_ru": "Модель Гордона (модель дисконтирования дивидендов)",
+          "definition_en": "An equity valuation model assuming dividends grow at a constant rate forever. Stock value equals next period's expected dividend divided by the difference between required return and growth rate.",
+          "definition_ru": "Модель оценки акций, предполагающая постоянный темп роста дивидендов. Стоимость акции равна ожидаемому дивиденду следующего периода, делённому на разницу между требуемой доходностью и темпом роста.",
+          "type": "formula",
+          "formula": "$PV = \\frac{D_{t+1}}{r - g} = \\frac{D_t \\times (1+g)}{r - g}$, где $r > g$",
+          "formula_ref": "QM-TVM-022",
+          "variables": [
+            {"symbol": "D_{t+1}", "name_en": "Next period dividend", "name_ru": "Дивиденд следующего периода"},
+            {"symbol": "D_t", "name_en": "Current dividend", "name_ru": "Текущий дивиденд"},
+            {"symbol": "r", "name_en": "Required return", "name_ru": "Требуемая доходность"},
+            {"symbol": "g", "name_en": "Dividend growth rate", "name_ru": "Темп роста дивидендов"}
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Рассчитайте дивиденд: {D_t} [×] (1 [+] {g}) [=] [STO] [1]",
+              "2. Рассчитайте разницу ставок: {r} [-] {g} [=] [STO] [2]",
+              "3. Разделите: [RCL] [1] [÷] [RCL] [2] [=]",
+              "4. Результат: цена акции"
+            ],
+            "example": {
+              "given": "D_0=$2.00, r=10%, g=5%",
+              "input": "2 × 1.05 = 2.10 STO 1, 0.10 - 0.05 = 0.05 STO 2, RCL 1 ÷ RCL 2 =",
+              "result": "PV = $42.00"
+            }
+          }
+        },
+        {
+          "term_id": "QM-2-015",
+          "term_en": "Multi-Stage Dividend Discount Model",
+          "term_ru": "Многоступенчатая модель дисконтирования дивидендов",
+          "definition_en": "An equity valuation model that accommodates changing dividend growth rates. Typically has an initial high-growth phase followed by a stable growth phase.",
+          "definition_ru": "Модель оценки акций, учитывающая изменяющиеся темпы роста дивидендов. Обычно имеет начальную фазу высокого роста, за которой следует фаза стабильного роста.",
+          "type": "method",
+          "formula": "$PV = \\sum_{i=1}^{n} \\frac{D_t(1+g_s)^i}{(1+r)^i} + \\frac{Terminal Value}{(1+r)^n}$",
+          "formula_ref": null,
+          "calculator": {
+            "method": "BA II Plus: Multi-step Calculation",
+            "steps_ru": [
+              "1. Рассчитайте PV дивидендов фазы высокого роста (годы 1 до n)",
+              "2. Рассчитайте терминальную стоимость в год n: TV = D_{n+1} ÷ (r - g_l)",
+              "3. Дисконтируйте TV к настоящему: TV ÷ (1+r)^n",
+              "4. Сложите PV фазы 1 и дисконтированную TV"
+            ],
+            "example": {
+              "given": "D=$2, r=10%, высокий рост g=20% на 3 года, затем g=5%",
+              "result": "PV ≈ $60.49"
+            }
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "QM-2-EX-001",
+          "question_en": "An investor deposits $10,000 today in an account paying 5% interest compounded annually. What will be the account balance in 10 years?",
+          "question_ru": "Инвестор вносит сегодня $10,000 на счёт с 5% годовых при ежегодном начислении. Какой будет баланс через 10 лет?",
+          "options": [
+            {"letter": "A", "text_en": "$15,000.00", "text_ru": "$15,000.00"},
+            {"letter": "B", "text_en": "$16,288.95", "text_ru": "$16,288.95"},
+            {"letter": "C", "text_en": "$16,470.09", "text_ru": "$16,470.09"}
+          ],
+          "correct_answer": "B",
+          "solution_en": "FV = PV × (1+r)^N = $10,000 × (1.05)^10 = $10,000 × 1.6289 = $16,288.95",
+          "solution_ru": "FV = PV × (1+r)^N = $10,000 × (1.05)^10 = $10,000 × 1.6289 = $16,288.95"
+        },
+        {
+          "exercise_id": "QM-2-EX-002",
+          "question_en": "A perpetual bond pays $50 annually. If the required return is 8%, what is the bond's price?",
+          "question_ru": "Бессрочная облигация выплачивает $50 ежегодно. Если требуемая доходность 8%, какова цена облигации?",
+          "options": [
+            {"letter": "A", "text_en": "$400.00", "text_ru": "$400.00"},
+            {"letter": "B", "text_en": "$500.00", "text_ru": "$500.00"},
+            {"letter": "C", "text_en": "$625.00", "text_ru": "$625.00"}
+          ],
+          "correct_answer": "C",
+          "solution_en": "PV = PMT / r = $50 / 0.08 = $625.00",
+          "solution_ru": "PV = PMT / r = $50 / 0.08 = $625.00"
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_2b",
+      "los_code": "2b",
+      "los_description_en": "Demonstrate the use of a time line in modeling and solving time value of money problems",
+      "los_description_ru": "Демонстрировать использование временной диаграммы при моделировании и решении задач временной стоимости денег",
+      "terms": [
+        {
+          "term_id": "QM-2-016",
+          "term_en": "Implied Return",
+          "term_ru": "Подразумеваемая доходность",
+          "definition_en": "The return rate calculated from current market price and expected future cash flows. Represents market expectations embedded in asset prices.",
+          "definition_ru": "Ставка доходности, рассчитанная на основе текущей рыночной цены и ожидаемых будущих денежных потоков. Представляет рыночные ожидания, заложенные в ценах активов.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-2-017",
+          "term_en": "Implied Return for Discount Bond",
+          "term_ru": "Подразумеваемая доходность дисконтной облигации",
+          "definition_en": "The annualized return earned over the life of a zero-coupon bond, calculated from the price (PV) and face value (FV).",
+          "definition_ru": "Годовая доходность за время жизни бескупонной облигации, рассчитанная на основе цены (PV) и номинальной стоимости (FV).",
+          "type": "formula",
+          "formula": "$r = \\left(\\frac{FV}{PV}\\right)^{\\frac{1}{t}} - 1$",
+          "formula_ref": null,
+          "variables": [
+            {"symbol": "r", "name_en": "Implied return", "name_ru": "Подразумеваемая доходность"},
+            {"symbol": "FV", "name_en": "Face value", "name_ru": "Номинальная стоимость"},
+            {"symbol": "PV", "name_en": "Current price", "name_ru": "Текущая цена"},
+            {"symbol": "t", "name_en": "Time to maturity", "name_ru": "Срок до погашения"}
+          ],
+          "calculator": {
+            "method": "BA II Plus: TVM Worksheet",
+            "steps_ru": [
+              "1. [2nd] [CLR TVM]",
+              "2. Введите: {t} [N]",
+              "3. Введите цену (отрицательная): {PV} [+/-] [PV]",
+              "4. Введите номинал: {FV} [FV]",
+              "5. 0 [PMT]",
+              "6. [CPT] [I/Y] — подразумеваемая доходность"
+            ],
+            "example": {
+              "given": "PV=$900, FV=$1,000, t=5 лет",
+              "input": "5 N, 900 +/- PV, 1000 FV, 0 PMT, CPT I/Y",
+              "result": "r = 2.13%"
+            }
+          }
+        },
+        {
+          "term_id": "QM-2-018",
+          "term_en": "Implied Return for Coupon Bond (YTM)",
+          "term_ru": "Подразумеваемая доходность купонной облигации (YTM)",
+          "definition_en": "The single discount rate that equates a bond's price to the present value of all future cash flows. Calculated iteratively using financial calculator.",
+          "definition_ru": "Единая ставка дисконтирования, которая приравнивает цену облигации к приведённой стоимости всех будущих денежных потоков. Рассчитывается итеративно с помощью калькулятора.",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": {
+            "method": "BA II Plus: TVM Worksheet",
+            "steps_ru": [
+              "1. [2nd] [CLR TVM]",
+              "2. Введите оставшиеся периоды: {N} [N]",
+              "3. Введите текущую цену (отрицательная): {PV} [+/-] [PV]",
+              "4. Введите купон: {PMT} [PMT]",
+              "5. Введите номинал: {FV} [FV]",
+              "6. [CPT] [I/Y] — YTM"
+            ],
+            "example": {
+              "given": "7-летняя облигация (из 20-летней), FV=$1,000, купон=6%, цена=$1,120",
+              "input": "13 N, 1120 +/- PV, 60 PMT, 1000 FV, CPT I/Y",
+              "result": "I/Y = 4.74%"
+            }
+          }
+        },
+        {
+          "term_id": "QM-2-019",
+          "term_en": "Implied Return for Equity",
+          "term_ru": "Подразумеваемая доходность акции",
+          "definition_en": "The expected return on a stock combining dividend yield and growth rate. For constant growth model: r = dividend yield + growth rate.",
+          "definition_ru": "Ожидаемая доходность акции, объединяющая дивидендную доходность и темп роста. Для модели постоянного роста: r = дивидендная доходность + темп роста.",
+          "type": "formula",
+          "formula": "$r = \\frac{D_{t+1}}{PV} + g$",
+          "formula_ref": null,
+          "variables": [
+            {"symbol": "r", "name_en": "Required/implied return", "name_ru": "Требуемая/подразумеваемая доходность"},
+            {"symbol": "D_{t+1}", "name_en": "Next period dividend", "name_ru": "Дивиденд следующего периода"},
+            {"symbol": "PV", "name_en": "Current stock price", "name_ru": "Текущая цена акции"},
+            {"symbol": "g", "name_en": "Dividend growth rate", "name_ru": "Темп роста дивидендов"}
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Рассчитайте следующий дивиденд: {D_t} [×] (1 [+] {g}) [=]",
+              "2. Разделите на цену: [÷] {PV} [=]",
+              "3. Добавьте темп роста: [+] {g} [=]",
+              "4. Результат: требуемая доходность"
+            ],
+            "example": {
+              "given": "Цена=$150, D_1=$2.00, g=5%",
+              "input": "2.00 × 1.05 = 2.10, ÷ 150 = 0.014, + 0.05 =",
+              "result": "r = 6.4%"
+            }
+          }
+        },
+        {
+          "term_id": "QM-2-020",
+          "term_en": "Implied Growth Rate",
+          "term_ru": "Подразумеваемый темп роста",
+          "definition_en": "The constant growth rate of dividends implied by current stock price, expected dividend, and required return.",
+          "definition_ru": "Постоянный темп роста дивидендов, подразумеваемый текущей ценой акции, ожидаемым дивидендом и требуемой доходностью.",
+          "type": "formula",
+          "formula": "$g = r - \\frac{D_{t+1}}{PV}$",
+          "formula_ref": null,
+          "variables": [
+            {"symbol": "g", "name_en": "Implied growth rate", "name_ru": "Подразумеваемый темп роста"},
+            {"symbol": "r", "name_en": "Required return", "name_ru": "Требуемая доходность"},
+            {"symbol": "D_{t+1}", "name_en": "Next dividend", "name_ru": "Следующий дивиденд"},
+            {"symbol": "PV", "name_en": "Stock price", "name_ru": "Цена акции"}
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Рассчитайте дивидендную доходность: {D_{t+1}} [÷] {PV} [=]",
+              "2. Вычтите из требуемой доходности: {r} [-] (результат) [=]",
+              "3. Результат: подразумеваемый темп роста"
+            ],
+            "example": {
+              "given": "Цена=$150, D_1=$2.10, r=8%",
+              "input": "2.10 ÷ 150 = 0.014, 0.08 - 0.014 =",
+              "result": "g = 6.6%"
+            }
+          }
+        },
+        {
+          "term_id": "QM-2-021",
+          "term_en": "Price-to-Earnings (P/E) Ratio",
+          "term_ru": "Коэффициент цена/прибыль (P/E)",
+          "definition_en": "A valuation metric comparing stock price to earnings per share. Higher P/E suggests higher expected growth or lower risk.",
+          "definition_ru": "Метрика оценки, сравнивающая цену акции с прибылью на акцию. Более высокий P/E предполагает ожидание более высокого роста или более низкого риска.",
+          "type": "formula",
+          "formula": "$\\frac{P}{E} = \\frac{Payout Ratio}{r - g}$",
+          "formula_ref": null,
+          "variables": [
+            {"symbol": "P/E", "name_en": "Price-to-Earnings ratio", "name_ru": "Коэффициент P/E"},
+            {"symbol": "Payout Ratio", "name_en": "Dividend payout ratio", "name_ru": "Коэффициент выплаты дивидендов"},
+            {"symbol": "r", "name_en": "Required return", "name_ru": "Требуемая доходность"},
+            {"symbol": "g", "name_en": "Growth rate", "name_ru": "Темп роста"}
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Для поиска g: Payout Ratio [÷] P/E [=]",
+              "2. Вычтите из r: {r} [-] (результат) [=]",
+              "3. Результат: подразумеваемый темп роста"
+            ],
+            "example": {
+              "given": "Forward P/E=15, payout=40%, r=10%",
+              "input": "0.4 ÷ 15 = 0.0267, 0.10 - 0.0267 =",
+              "result": "g = 7.33%"
+            }
+          }
+        },
+        {
+          "term_id": "QM-2-022",
+          "term_en": "Dividend Payout Ratio",
+          "term_ru": "Коэффициент выплаты дивидендов",
+          "definition_en": "The percentage of a company's earnings paid out as dividends. Calculated as dividends per share divided by earnings per share.",
+          "definition_ru": "Процент прибыли компании, выплачиваемый в виде дивидендов. Рассчитывается как дивиденды на акцию, делённые на прибыль на акцию.",
+          "type": "formula",
+          "formula": "$Payout = \\frac{D}{EPS}$",
+          "formula_ref": null,
+          "variables": [
+            {"symbol": "D", "name_en": "Dividend per share", "name_ru": "Дивиденд на акцию"},
+            {"symbol": "EPS", "name_en": "Earnings per share", "name_ru": "Прибыль на акцию"}
+          ],
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "QM-2-EX-003",
+          "question_en": "A zero-coupon bond with a face value of $1,000 is currently trading at $900. If the bond matures in 5 years, what is the implied annual return?",
+          "question_ru": "Бескупонная облигация номиналом $1,000 торгуется по $900. Если срок погашения 5 лет, какова подразумеваемая годовая доходность?",
+          "options": [
+            {"letter": "A", "text_en": "2.00%", "text_ru": "2.00%"},
+            {"letter": "B", "text_en": "2.13%", "text_ru": "2.13%"},
+            {"letter": "C", "text_en": "2.22%", "text_ru": "2.22%"}
+          ],
+          "correct_answer": "B",
+          "solution_en": "r = (FV/PV)^(1/t) - 1 = (1000/900)^(1/5) - 1 = (1.1111)^0.2 - 1 = 1.0213 - 1 = 2.13%",
+          "solution_ru": "r = (FV/PV)^(1/t) - 1 = (1000/900)^(1/5) - 1 = (1.1111)^0.2 - 1 = 1.0213 - 1 = 2.13%"
+        },
+        {
+          "exercise_id": "QM-2-EX-004",
+          "question_en": "A stock currently pays a dividend of $2.00 and is expected to grow at 5% indefinitely. If the stock price is $50, what is the implied required return?",
+          "question_ru": "Акция выплачивает дивиденд $2.00 и ожидается постоянный рост 5%. Если цена акции $50, какова подразумеваемая требуемая доходность?",
+          "options": [
+            {"letter": "A", "text_en": "9.0%", "text_ru": "9.0%"},
+            {"letter": "B", "text_en": "9.2%", "text_ru": "9.2%"},
+            {"letter": "C", "text_en": "9.5%", "text_ru": "9.5%"}
+          ],
+          "correct_answer": "B",
+          "solution_en": "r = D1/P + g = ($2.00 × 1.05)/$50 + 0.05 = $2.10/$50 + 0.05 = 0.042 + 0.05 = 9.2%",
+          "solution_ru": "r = D1/P + g = ($2.00 × 1.05)/$50 + 0.05 = $2.10/$50 + 0.05 = 0.042 + 0.05 = 9.2%"
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_2c",
+      "los_code": "2c",
+      "los_description_en": "Explain how the concepts of present value and future value are linked to the principle of cash flow additivity in applications involving no-arbitrage and forward interest rates",
+      "los_description_ru": "Объяснять, как концепции приведённой и будущей стоимости связаны с принципом аддитивности денежных потоков в приложениях, включающих безарбитражность и форвардные процентные ставки",
+      "terms": [
+        {
+          "term_id": "QM-2-023",
+          "term_en": "Timeline",
+          "term_ru": "Временная диаграмма",
+          "definition_en": "A physical illustration showing the amounts and timing of cash flows associated with an investment. Particularly useful for irregular or unequal cash flows.",
+          "definition_ru": "Физическое представление, показывающее суммы и время денежных потоков, связанных с инвестицией. Особенно полезно для нерегулярных или неравных денежных потоков.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-2-024",
+          "term_en": "Cash Flow Additivity Principle",
+          "term_ru": "Принцип аддитивности денежных потоков",
+          "definition_en": "The principle stating that the present value of any stream of cash flows equals the sum of the present values of the individual cash flows. Fundamental to no-arbitrage pricing.",
+          "definition_ru": "Принцип, согласно которому приведённая стоимость любого потока денежных средств равна сумме приведённых стоимостей отдельных денежных потоков. Фундаментален для безарбитражного ценообразования.",
+          "type": "concept",
+          "formula": "$PV_{total} = PV_1 + PV_2 + ... + PV_n$",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-2-025",
+          "term_en": "No-Arbitrage Condition",
+          "term_ru": "Условие отсутствия арбитража",
+          "definition_en": "The principle that two investments with identical cash flows and risk must have the same price, preventing risk-free profit opportunities.",
+          "definition_ru": "Принцип, согласно которому две инвестиции с идентичными денежными потоками и риском должны иметь одинаковую цену, предотвращая возможности безрисковой прибыли.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-2-026",
+          "term_en": "Implied Forward Rate",
+          "term_ru": "Подразумеваемая форвардная ставка",
+          "definition_en": "The future interest rate implied by current spot rates that prevents arbitrage. Calculated from zero-coupon bond yields using cash flow additivity.",
+          "definition_ru": "Будущая процентная ставка, подразумеваемая текущими спотовыми ставками, которая предотвращает арбитраж. Рассчитывается на основе доходностей бескупонных облигаций.",
+          "type": "formula",
+          "formula": "$F_{t_1,t_2} = \\frac{(1+r_{t_2})^{t_2}}{(1+r_{t_1})^{t_1}} - 1$",
+          "formula_ref": null,
+          "variables": [
+            {"symbol": "F_{t_1,t_2}", "name_en": "Forward rate from t1 to t2", "name_ru": "Форвардная ставка от t1 до t2"},
+            {"symbol": "r_{t_1}", "name_en": "Spot rate for period t1", "name_ru": "Спотовая ставка на период t1"},
+            {"symbol": "r_{t_2}", "name_en": "Spot rate for period t2", "name_ru": "Спотовая ставка на период t2"}
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Рассчитайте FV длинной облигации: (1 [+] {r_long}) [y^x] {t_long} [=] [STO] [1]",
+              "2. Рассчитайте FV короткой облигации: (1 [+] {r_short}) [y^x] {t_short} [=]",
+              "3. Разделите: [RCL] [1] [÷] (результат) [=]",
+              "4. Вычтите 1: [-] 1 [=]",
+              "5. Результат: форвардная ставка"
+            ],
+            "example": {
+              "given": "Облигация A: 2 года, r=2%; Облигация B: 4 года, r=3%",
+              "input": "1.03 y^x 4 = 1.1255, ÷ (1.02 y^x 2) = 1.0808, y^x 0.5 = 1.0396, - 1 =",
+              "result": "F(2,2) ≈ 4.0% годовых"
+            }
+          }
+        },
+        {
+          "term_id": "QM-2-027",
+          "term_en": "Forward Exchange Rate",
+          "term_ru": "Форвардный валютный курс",
+          "definition_en": "The exchange rate for currency conversion at a future date, determined by current spot rate and interest rate differential between currencies.",
+          "definition_ru": "Обменный курс для конвертации валюты на будущую дату, определяемый текущим спотовым курсом и разницей процентных ставок между валютами.",
+          "type": "formula",
+          "formula": "$F = S \\times \\frac{(1+r_{domestic})^t}{(1+r_{foreign})^t}$",
+          "formula_ref": null,
+          "variables": [
+            {"symbol": "F", "name_en": "Forward exchange rate", "name_ru": "Форвардный курс"},
+            {"symbol": "S", "name_en": "Spot exchange rate", "name_ru": "Спотовый курс"},
+            {"symbol": "r_{domestic}", "name_en": "Domestic interest rate", "name_ru": "Внутренняя процентная ставка"},
+            {"symbol": "r_{foreign}", "name_en": "Foreign interest rate", "name_ru": "Иностранная процентная ставка"}
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Рассчитайте множитель внутренней ставки: (1 [+] {r_dom}) [y^x] {t} [=] [STO] [1]",
+              "2. Рассчитайте множитель иностранной ставки: (1 [+] {r_for}) [y^x] {t} [=]",
+              "3. Разделите: [RCL] [1] [÷] (результат) [=]",
+              "4. Умножьте на спот: [×] {S} [=]",
+              "5. Результат: форвардный курс"
+            ],
+            "example": {
+              "given": "USD/CHF=0.9, r_USD=2%, r_CHF=1%, t=1 год",
+              "input": "1.02 ÷ 1.01 × 0.9 =",
+              "result": "Forward = USD/CHF 0.909"
+            }
+          }
+        },
+        {
+          "term_id": "QM-2-028",
+          "term_en": "Replicating Portfolio",
+          "term_ru": "Реплицирующий портфель",
+          "definition_en": "A portfolio of assets constructed to match the cash flows of another asset or derivative. Used in option pricing to create a risk-free portfolio.",
+          "definition_ru": "Портфель активов, созданный для соответствия денежным потокам другого актива или производного инструмента. Используется в ценообразовании опционов.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-2-029",
+          "term_en": "Call Option Valuation (No-Arbitrage)",
+          "term_ru": "Оценка колл-опциона (безарбитражная)",
+          "definition_en": "Determining fair option price by constructing a replicating portfolio that matches option payoffs in all scenarios. Uses cash flow additivity to ensure no arbitrage.",
+          "definition_ru": "Определение справедливой цены опциона путем построения реплицирующего портфеля, который соответствует выплатам опциона во всех сценариях.",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": {
+            "method": "BA II Plus: Multi-step Calculation",
+            "steps_ru": [
+              "1. Рассчитайте hedge ratio: Δ = (c_u - c_d) / (S_u - S_d)",
+              "2. Рассчитайте стоимость портфеля в up state: V_u = Δ × S_u - c_u",
+              "3. Проверьте в down state: V_d = Δ × S_d - c_d = V_u",
+              "4. Дисконтируйте к настоящему: V_0 = V_u / (1+r)",
+              "5. Решите для цены опциона: c_0 = Δ × S_0 - V_0"
+            ],
+            "example": {
+              "given": "S_0=$100, S_u=$130, S_d=$85, strike=$120, r=2.5%, c_u=$10, c_d=$0",
+              "result": "Δ=0.22, V_u=V_d=$18.89, V_0=$18.43, c_0=$3.57"
+            }
+          }
+        },
+        {
+          "term_id": "QM-2-030",
+          "term_en": "Perpetuity Starting at Future Date",
+          "term_ru": "Перпетуитет с началом в будущем",
+          "definition_en": "The formula for valuing a perpetual stream of equal cash flows starting at a future point. PV at start equals C/r, which must then be discounted to present.",
+          "definition_ru": "Формула для оценки бесконечного потока равных денежных потоков, начинающегося в будущей точке. PV на начало равна C/r, которая затем дисконтируется к настоящему.",
+          "type": "formula",
+          "formula": "$PV_{t=0} = \\frac{C/r}{(1+r)^{t-1}}$",
+          "formula_ref": null,
+          "variables": [
+            {"symbol": "C", "name_en": "Periodic cash flow", "name_ru": "Периодический денежный поток"},
+            {"symbol": "r", "name_en": "Discount rate", "name_ru": "Ставка дисконтирования"},
+            {"symbol": "t", "name_en": "Period when perpetuity starts", "name_ru": "Период начала перпетуитета"}
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Рассчитайте PV на начало перпетуитета: {C} [÷] {r} [=] [STO] [1]",
+              "2. Дисконтируйте к t=0: [RCL] [1] [÷] (1 [+] {r}) [y^x] {t-1} [=]",
+              "3. Результат: PV в момент t=0"
+            ],
+            "example": {
+              "given": "Перпетуитет $6,500 начиная с конца года 4, r=9%",
+              "input": "6500 ÷ 0.09 = 72222 (PV в t=3), затем 72222 ÷ 1.09^3 =",
+              "result": "PV в t=0 = $55,769"
+            }
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "QM-2-EX-005",
+          "question_en": "The 2-year spot rate is 3% and the 4-year spot rate is 4%. What is the implied 2-year forward rate starting in 2 years?",
+          "question_ru": "2-летняя спотовая ставка составляет 3%, а 4-летняя — 4%. Какова подразумеваемая 2-летняя форвардная ставка, начинающаяся через 2 года?",
+          "options": [
+            {"letter": "A", "text_en": "4.0%", "text_ru": "4.0%"},
+            {"letter": "B", "text_en": "5.0%", "text_ru": "5.0%"},
+            {"letter": "C", "text_en": "5.02%", "text_ru": "5.02%"}
+          ],
+          "correct_answer": "C",
+          "solution_en": "(1+r_4)^4 = (1+r_2)^2 × (1+f)^2. (1.04)^4 / (1.03)^2 = (1+f)^2. 1.1699 / 1.0609 = 1.1028. f = (1.1028)^0.5 - 1 = 5.02%",
+          "solution_ru": "(1+r_4)^4 = (1+r_2)^2 × (1+f)^2. (1.04)^4 / (1.03)^2 = (1+f)^2. 1.1699 / 1.0609 = 1.1028. f = (1.1028)^0.5 - 1 = 5.02%"
+        },
+        {
+          "exercise_id": "QM-2-EX-006",
+          "question_en": "An investor will receive a perpetuity of $5,000 per year starting at the end of year 5. If the discount rate is 10%, what is the present value today?",
+          "question_ru": "Инвестор получит перпетуитет $5,000 в год, начиная с конца года 5. При ставке дисконтирования 10%, какова приведённая стоимость сегодня?",
+          "options": [
+            {"letter": "A", "text_en": "$31,046", "text_ru": "$31,046"},
+            {"letter": "B", "text_en": "$34,151", "text_ru": "$34,151"},
+            {"letter": "C", "text_en": "$50,000", "text_ru": "$50,000"}
+          ],
+          "correct_answer": "B",
+          "solution_en": "PV at t=4 = $5,000/0.10 = $50,000. PV at t=0 = $50,000/(1.10)^4 = $50,000/1.4641 = $34,151",
+          "solution_ru": "PV в t=4 = $5,000/0.10 = $50,000. PV в t=0 = $50,000/(1.10)^4 = $50,000/1.4641 = $34,151"
+        }
+      ]
+    }
+  ]
+}
