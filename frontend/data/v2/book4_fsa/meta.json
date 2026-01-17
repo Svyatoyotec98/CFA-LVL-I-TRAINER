@@ -1,6 +1,6 @@
 {
   "book_id": 4,
-  "book_code": "CH-4",
+  "book_code": "FSA",
   "book_name": "Financial Statement Analysis",
   "book_name_ru": "Анализ финансовой отчетности",
   "total_modules": 12,
@@ -13,7 +13,10 @@
       "los_codes": [
         "LOS_1a",
         "LOS_1b"
-      ]
+      ],
+      "module_name_ru": "Introduction to Financial Statement Analysis",
+      "glossary_file": "glossary_module_1.json",
+      "status": "pending"
     },
     {
       "module_id": 2,
@@ -23,7 +26,10 @@
       "los_codes": [
         "LOS_2a",
         "LOS_2b"
-      ]
+      ],
+      "module_name_ru": "Analyzing Income Statements",
+      "glossary_file": "glossary_module_2.json",
+      "status": "pending"
     },
     {
       "module_id": 3,
@@ -33,7 +39,10 @@
       "los_codes": [
         "LOS_3a",
         "LOS_3b"
-      ]
+      ],
+      "module_name_ru": "Analyzing Balance Sheets",
+      "glossary_file": "glossary_module_3.json",
+      "status": "pending"
     },
     {
       "module_id": 4,
@@ -43,7 +52,10 @@
       "los_codes": [
         "LOS_4a",
         "LOS_4b"
-      ]
+      ],
+      "module_name_ru": "Analyzing Statements of Cash Flows",
+      "glossary_file": "glossary_module_4.json",
+      "status": "pending"
     },
     {
       "module_id": 5,
@@ -53,7 +65,10 @@
       "los_codes": [
         "LOS_5a",
         "LOS_5b"
-      ]
+      ],
+      "module_name_ru": "Analysis of Inventories",
+      "glossary_file": "glossary_module_5.json",
+      "status": "pending"
     },
     {
       "module_id": 6,
@@ -63,7 +78,10 @@
       "los_codes": [
         "LOS_6a",
         "LOS_6b"
-      ]
+      ],
+      "module_name_ru": "Analysis of Long-Lived Assets",
+      "glossary_file": "glossary_module_6.json",
+      "status": "pending"
     },
     {
       "module_id": 7,
@@ -73,7 +91,10 @@
       "los_codes": [
         "LOS_7a",
         "LOS_7b"
-      ]
+      ],
+      "module_name_ru": "Analysis of Income Taxes",
+      "glossary_file": "glossary_module_7.json",
+      "status": "pending"
     },
     {
       "module_id": 8,
@@ -83,7 +104,10 @@
       "los_codes": [
         "LOS_8a",
         "LOS_8b"
-      ]
+      ],
+      "module_name_ru": "Analysis of Non-Current Liabilities",
+      "glossary_file": "glossary_module_8.json",
+      "status": "pending"
     },
     {
       "module_id": 9,
@@ -93,7 +117,10 @@
       "los_codes": [
         "LOS_9a",
         "LOS_9b"
-      ]
+      ],
+      "module_name_ru": "Analysis of Financial Institutions",
+      "glossary_file": "glossary_module_9.json",
+      "status": "pending"
     },
     {
       "module_id": 10,
@@ -103,7 +130,10 @@
       "los_codes": [
         "LOS_10a",
         "LOS_10b"
-      ]
+      ],
+      "module_name_ru": "Analysis of Intercorporate Investments",
+      "glossary_file": "glossary_module_10.json",
+      "status": "pending"
     },
     {
       "module_id": 11,
@@ -113,7 +143,10 @@
       "los_codes": [
         "LOS_11a",
         "LOS_11b"
-      ]
+      ],
+      "module_name_ru": "Employee Compensation",
+      "glossary_file": "glossary_module_11.json",
+      "status": "pending"
     },
     {
       "module_id": 12,
@@ -123,7 +156,10 @@
       "los_codes": [
         "LOS_12a",
         "LOS_12b"
-      ]
+      ],
+      "module_name_ru": "Analysis of Financial Reporting Quality",
+      "glossary_file": "glossary_module_12.json",
+      "status": "pending"
     }
   ]
 }

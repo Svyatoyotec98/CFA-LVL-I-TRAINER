@@ -1,6 +1,6 @@
 {
   "book_id": 1,
-  "book_code": "CH-1",
+  "book_code": "QM",
   "book_name": "Quantitative Methods",
   "book_name_ru": "Количественные методы",
   "total_modules": 11,
@@ -10,77 +10,153 @@
       "module_name": "Rates and Returns",
       "page_range": "3-30",
       "question_range": "3-39",
-      "los_codes": ["LOS_1a", "LOS_1b", "LOS_1c", "LOS_1d"]
+      "los_codes": [
+        "LOS_1a",
+        "LOS_1b",
+        "LOS_1c",
+        "LOS_1d"
+      ],
+      "module_name_ru": "Ставки и доходность",
+      "glossary_file": "glossary_module_1.json",
+      "status": "complete"
     },
     {
       "module_id": 2,
       "module_name": "Time Value of Money",
       "page_range": "31-73",
       "question_range": "40-75",
-      "los_codes": ["LOS_2a", "LOS_2b", "LOS_2c"]
+      "los_codes": [
+        "LOS_2a",
+        "LOS_2b",
+        "LOS_2c"
+      ],
+      "module_name_ru": "Временная стоимость денег",
+      "glossary_file": "glossary_module_2.json",
+      "status": "pending"
     },
     {
       "module_id": 3,
       "module_name": "Statistical Measures of Asset Returns",
       "page_range": "74-108",
       "question_range": "76-111",
-      "los_codes": ["LOS_3a", "LOS_3b", "LOS_3c", "LOS_3d"]
+      "los_codes": [
+        "LOS_3a",
+        "LOS_3b",
+        "LOS_3c",
+        "LOS_3d"
+      ],
+      "module_name_ru": "Статистические показатели доходности активов",
+      "glossary_file": "glossary_module_3.json",
+      "status": "pending"
     },
     {
       "module_id": 4,
       "module_name": "Probability Concepts",
       "page_range": "109-125",
       "question_range": "112-152",
-      "los_codes": ["LOS_4a", "LOS_4b", "LOS_4c"]
+      "los_codes": [
+        "LOS_4a",
+        "LOS_4b",
+        "LOS_4c"
+      ],
+      "module_name_ru": "Концепции вероятности",
+      "glossary_file": "glossary_module_4.json",
+      "status": "pending"
     },
     {
       "module_id": 5,
       "module_name": "Common Probability Distributions",
       "page_range": "126-144",
       "question_range": "153-167",
-      "los_codes": ["LOS_5a", "LOS_5b", "LOS_5c"]
+      "los_codes": [
+        "LOS_5a",
+        "LOS_5b",
+        "LOS_5c"
+      ],
+      "module_name_ru": "Общие распределения вероятностей",
+      "glossary_file": "glossary_module_5.json",
+      "status": "pending"
     },
     {
       "module_id": 6,
       "module_name": "Sampling and Estimation",
       "page_range": "145-161",
       "question_range": "168-182",
-      "los_codes": ["LOS_6a", "LOS_6b"]
+      "los_codes": [
+        "LOS_6a",
+        "LOS_6b"
+      ],
+      "module_name_ru": "Выборка и оценка",
+      "glossary_file": "glossary_module_6.json",
+      "status": "pending"
     },
     {
       "module_id": 7,
       "module_name": "Hypothesis Testing",
       "page_range": "162-177",
       "question_range": "183-203",
-      "los_codes": ["LOS_7a", "LOS_7b", "LOS_7c"]
+      "los_codes": [
+        "LOS_7a",
+        "LOS_7b",
+        "LOS_7c"
+      ],
+      "module_name_ru": "Проверка гипотез",
+      "glossary_file": "glossary_module_7.json",
+      "status": "pending"
     },
     {
       "module_id": 8,
       "module_name": "Parametric and Non-Parametric Tests",
       "page_range": "178-216",
       "question_range": "204-263",
-      "los_codes": ["LOS_8a", "LOS_8b", "LOS_8c"]
+      "los_codes": [
+        "LOS_8a",
+        "LOS_8b",
+        "LOS_8c"
+      ],
+      "module_name_ru": "Параметрические и непараметрические тесты",
+      "glossary_file": "glossary_module_8.json",
+      "status": "pending"
     },
     {
       "module_id": 9,
       "module_name": "Simple Linear Regression",
       "page_range": "217-229",
       "question_range": "264-280",
-      "los_codes": ["LOS_9a", "LOS_9b"]
+      "los_codes": [
+        "LOS_9a",
+        "LOS_9b"
+      ],
+      "module_name_ru": "Простая линейная регрессия",
+      "glossary_file": "glossary_module_9.json",
+      "status": "pending"
     },
     {
       "module_id": 10,
       "module_name": "Multiple Regression",
       "page_range": "230-280",
       "question_range": "281-304",
-      "los_codes": ["LOS_10a", "LOS_10b", "LOS_10c"]
+      "los_codes": [
+        "LOS_10a",
+        "LOS_10b",
+        "LOS_10c"
+      ],
+      "module_name_ru": "Множественная регрессия",
+      "glossary_file": "glossary_module_10.json",
+      "status": "pending"
     },
     {
       "module_id": 11,
       "module_name": "Time Series Analysis",
       "page_range": "281-291",
       "question_range": "305-310",
-      "los_codes": ["LOS_11a", "LOS_11b"]
+      "los_codes": [
+        "LOS_11a",
+        "LOS_11b"
+      ],
+      "module_name_ru": "Анализ временных рядов",
+      "glossary_file": "glossary_module_11.json",
+      "status": "pending"
     }
   ]
 }

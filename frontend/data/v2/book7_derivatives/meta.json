@@ -1,6 +1,6 @@
 {
   "book_id": 7,
-  "book_code": "CH-7",
+  "book_code": "DER",
   "book_name": "Derivatives",
   "book_name_ru": "Производные инструменты",
   "total_modules": 10,
@@ -13,7 +13,10 @@
       "los_codes": [
         "LOS_1a",
         "LOS_1b"
-      ]
+      ],
+      "module_name_ru": "Module 1",
+      "glossary_file": "glossary_module_1.json",
+      "status": "pending"
     },
     {
       "module_id": 2,
@@ -23,7 +26,10 @@
       "los_codes": [
         "LOS_2a",
         "LOS_2b"
-      ]
+      ],
+      "module_name_ru": "Module 2",
+      "glossary_file": "glossary_module_2.json",
+      "status": "pending"
     },
     {
       "module_id": 3,
@@ -33,7 +39,10 @@
       "los_codes": [
         "LOS_3a",
         "LOS_3b"
-      ]
+      ],
+      "module_name_ru": "Module 3",
+      "glossary_file": "glossary_module_3.json",
+      "status": "pending"
     },
     {
       "module_id": 4,
@@ -43,7 +52,10 @@
       "los_codes": [
         "LOS_4a",
         "LOS_4b"
-      ]
+      ],
+      "module_name_ru": "Module 4",
+      "glossary_file": "glossary_module_4.json",
+      "status": "pending"
     },
     {
       "module_id": 5,
@@ -53,7 +65,10 @@
       "los_codes": [
         "LOS_5a",
         "LOS_5b"
-      ]
+      ],
+      "module_name_ru": "Module 5",
+      "glossary_file": "glossary_module_5.json",
+      "status": "pending"
     },
     {
       "module_id": 6,
@@ -63,7 +78,10 @@
       "los_codes": [
         "LOS_6a",
         "LOS_6b"
-      ]
+      ],
+      "module_name_ru": "Module 6",
+      "glossary_file": "glossary_module_6.json",
+      "status": "pending"
     },
     {
       "module_id": 7,
@@ -73,7 +91,10 @@
       "los_codes": [
         "LOS_7a",
         "LOS_7b"
-      ]
+      ],
+      "module_name_ru": "Module 7",
+      "glossary_file": "glossary_module_7.json",
+      "status": "pending"
     },
     {
       "module_id": 8,
@@ -83,7 +104,10 @@
       "los_codes": [
         "LOS_8a",
         "LOS_8b"
-      ]
+      ],
+      "module_name_ru": "Module 8",
+      "glossary_file": "glossary_module_8.json",
+      "status": "pending"
     },
     {
       "module_id": 9,
@@ -93,7 +117,10 @@
       "los_codes": [
         "LOS_9a",
         "LOS_9b"
-      ]
+      ],
+      "module_name_ru": "Module 9",
+      "glossary_file": "glossary_module_9.json",
+      "status": "pending"
     },
     {
       "module_id": 10,
@@ -103,7 +130,10 @@
       "los_codes": [
         "LOS_10a",
         "LOS_10b"
-      ]
+      ],
+      "module_name_ru": "Module 10",
+      "glossary_file": "glossary_module_10.json",
+      "status": "pending"
     }
   ]
 }
