@@ -7,7 +7,7 @@
     "module_id": 3,
     "module_name": "Statistical Measures of Asset Returns",
     "module_name_ru": "Статистические показатели доходности активов",
-    "total_questions": 10,
+    "total_questions": 20,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -459,6 +459,500 @@
       },
       "difficulty": "medium",
       "topic_tags": ["median", "mean", "central_tendency"]
+    },
+    {
+      "question_id": "QM-3-Q011",
+      "original_question_number": 2694,
+      "los_id": "LOS_3a",
+      "question_text_en": "Smith Hermes is a portfolio manager that invests in small cap stocks that are subject to mergers and acquisitions. The asset allocation and the return data of Smith's portfolio are provided in the following table. Using the given data, the deviation of the weighted average (mean) return from the arithmetic mean return of the portfolio will be closest to:",
+      "question_text_ru": "Смит Хермес — портфельный управляющий, инвестирующий в акции малой капитализации, подверженные слияниям и поглощениям. Распределение активов и данные о доходности портфеля Смита представлены в следующей таблице. Используя данные, отклонение средневзвешенной доходности от арифметической средней доходности портфеля будет ближе всего к:",
+      "has_table": true,
+      "table_data": {
+        "headers": ["Asset", "Asset Return", "Asset Allocation"],
+        "headers_ru": ["Актив", "Доходность актива", "Распределение актива"],
+        "rows": [
+          ["Solar Panel Corp.", "21%", "13%"],
+          ["Crowd fund Inc.", "17.50%", "24%"],
+          ["Peer-Loaning Co.", "-11%", "27%"],
+          ["Dimitri Bogus Ltd.", "-9%", "17%"],
+          ["Hanover Corp.", "27%", "19%"]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "The weighted average mean deviates by -1.54%", "text_ru": "Средневзвешенное отклоняется на -1.54%"},
+        {"id": "opt_b", "text_en": "The weighted average mean deviates by 7.80%", "text_ru": "Средневзвешенное отклоняется на 7.80%"},
+        {"id": "opt_c", "text_en": "The weighted average mean deviates by 1.21%", "text_ru": "Средневзвешенное отклоняется на 1.21%"}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Weighted average return on each asset = Weight of asset × Return of asset. Weighted Average Mean = (21%×13% + 17.5%×24% + (-11%)×27% + (-9%)×17% + 27%×19%) / 100% = 7.56%. Arithmetic Mean = (21% + 17.5% + (-11%) + (-9%) + 27%) / 5 = 9.10%. Deviation = 7.56% - 9.10% = -1.54%",
+      "explanation_ru": "Средневзвешенная доходность каждого актива = Вес актива × Доходность актива. Средневзвешенное = (21%×13% + 17.5%×24% + (-11%)×27% + (-9%)×17% + 27%×19%) / 100% = 7.56%. Арифметическое среднее = (21% + 17.5% + (-11%) + (-9%) + 27%) / 5 = 9.10%. Отклонение = 7.56% - 9.10% = -1.54%",
+      "explanation_formula": "$\\text{Deviation} = \\bar{X}_w - \\bar{X}$",
+      "explanation_table": {
+        "headers": ["Asset", "Asset Return", "Asset Allocation", "Weighted Avg."],
+        "headers_ru": ["Актив", "Доходность", "Распределение", "Взвеш. сред."],
+        "rows": [
+          ["Solar Panel Corp.", "21%", "13%", "2.73%"],
+          ["Crowd fund Inc.", "17.50%", "24%", "4.20%"],
+          ["Peer-Loaning Co.", "-11%", "27%", "-2.97%"],
+          ["Dimitri Bogus Ltd.", "-9%", "17%", "-1.53%"],
+          ["Hanover Corp.", "27%", "19%", "5.13%"],
+          ["Arithmetic Mean", "9.10%", "", ""],
+          ["Weighted Average Mean", "7.56%", "", ""]
+        ]
+      },
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. It indicates the Weighted Average Mean.",
+          "text_ru": "Неверно. Это указывает на средневзвешенное значение."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It indicates the Arithmetic Mean.",
+          "text_ru": "Неверно. Это указывает на арифметическое среднее."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Direct Calculation",
+        "steps_en": ["Weighted Mean = 0.21×0.13 + 0.175×0.24 + (-0.11)×0.27 + (-0.09)×0.17 + 0.27×0.19 = 0.0756", "Arithmetic Mean = (0.21 + 0.175 - 0.11 - 0.09 + 0.27) / 5 = 0.091", "Deviation = 0.0756 - 0.091 = -0.0154 = -1.54%"],
+        "steps_ru": ["Взвешенное среднее = 0.21×0.13 + 0.175×0.24 + (-0.11)×0.27 + (-0.09)×0.17 + 0.27×0.19 = 0.0756", "Арифметическое среднее = (0.21 + 0.175 - 0.11 - 0.09 + 0.27) / 5 = 0.091", "Отклонение = 0.0756 - 0.091 = -0.0154 = -1.54%"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["weighted_mean", "arithmetic_mean", "deviation"]
+    },
+    {
+      "question_id": "QM-3-Q012",
+      "original_question_number": 2696,
+      "los_id": "LOS_3a",
+      "question_text_en": "Jennifer Hollanda is a long-term trader who purchased a Petro Co. share at the price of $50 at the beginning of the year. Assuming that the price of the share increased to $100 in Year 1, decreased to $50 in year 2, decreased to $25 in year 3 and increased to $50 in year 4, the geometric mean return of the Petro Co. share is closest to:",
+      "question_text_ru": "Дженнифер Холланда — долгосрочный трейдер, купивший акцию Petro Co. по цене $50 в начале года. Предполагая, что цена акции выросла до $100 в 1-й год, снизилась до $50 во 2-й год, снизилась до $25 в 3-й год и выросла до $50 в 4-й год, геометрическая средняя доходность акции Petro Co. ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "-50%", "text_ru": "-50%"},
+        {"id": "opt_b", "text_en": "0%", "text_ru": "0%"},
+        {"id": "opt_c", "text_en": "100%", "text_ru": "100%"}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Return for year 1: 100/50 - 1 = 100%. Return for year 2: 50/100 - 1 = -50%. Return for year 3: 25/50 - 1 = -50%. Return for year 4: 50/25 - 1 = 100%. Converting to (1 + Rt): Year 1 = 2, Year 2 = 0.5, Year 3 = 0.5, Year 4 = 2. Geometric mean = (2 × 0.5 × 0.5 × 2)^(1/4) - 1 = 1 - 1 = 0%",
+      "explanation_ru": "Доходность за 1-й год: 100/50 - 1 = 100%. Доходность за 2-й год: 50/100 - 1 = -50%. Доходность за 3-й год: 25/50 - 1 = -50%. Доходность за 4-й год: 50/25 - 1 = 100%. Преобразование в (1 + Rt): Год 1 = 2, Год 2 = 0.5, Год 3 = 0.5, Год 4 = 2. Геом. среднее = (2 × 0.5 × 0.5 × 2)^(1/4) - 1 = 1 - 1 = 0%",
+      "explanation_formula": "$G = \\left(\\prod_{i=1}^{n}(1 + R_i)\\right)^{\\frac{1}{n}} - 1$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. It indicates the returns for years 2 and 3, respectively.",
+          "text_ru": "Неверно. Это указывает на доходности за 2-й и 3-й годы соответственно."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It indicates the returns for years 1 and 4, respectively.",
+          "text_ru": "Неверно. Это указывает на доходности за 1-й и 4-й годы соответственно."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Direct Calculation",
+        "steps_en": ["Product = 2 × 0.5 × 0.5 × 2 = 1", "Geometric mean = 1^(1/4) - 1 = 1 - 1 = 0%"],
+        "steps_ru": ["Произведение = 2 × 0.5 × 0.5 × 2 = 1", "Геом. среднее = 1^(1/4) - 1 = 1 - 1 = 0%"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["geometric_mean", "return_calculation"]
+    },
+    {
+      "question_id": "QM-3-Q013",
+      "original_question_number": 2698,
+      "los_id": "LOS_3a",
+      "question_text_en": "After the 2008 financial crisis, the emerging market economies have demonstrated tremendous GDP growth. The following table contains the hypothetical GDP of 10 emerging markets.",
+      "question_text_ru": "После финансового кризиса 2008 года экономики развивающихся рынков продемонстрировали огромный рост ВВП. Следующая таблица содержит гипотетический ВВП 10 развивающихся рынков.",
+      "has_table": true,
+      "table_data": {
+        "headers": ["Emerging Markets", "GDP (Trillion USD)"],
+        "headers_ru": ["Развивающиеся рынки", "ВВП (трлн USD)"],
+        "rows": [
+          ["Taiwan", "1.1"],
+          ["Thailand", "1.1"],
+          ["Pakistan", "1.3"],
+          ["Iran", "1.4"],
+          ["Turkey", "1.5"],
+          ["Saudi Arabia", "1.6"],
+          ["Korea", "1.8"],
+          ["Mexico", "2.2"],
+          ["Indonesia", "2.8"],
+          ["Brazil", "3.2"]
+        ]
+      },
+      "question_continuation_en": "Using the given data, the 60th percentile of emerging markets GDP is closest to:",
+      "question_continuation_ru": "Используя данные, 60-й процентиль ВВП развивающихся рынков ближе всего к:",
+      "options": [
+        {"id": "opt_a", "text_en": "USD 6.6 trillion", "text_ru": "6.6 трлн USD"},
+        {"id": "opt_b", "text_en": "USD 2.68 trillion", "text_ru": "2.68 трлн USD"},
+        {"id": "opt_c", "text_en": "USD 1.72 trillion", "text_ru": "1.72 трлн USD"}
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Since n=10, then 60th percentile = (n + 1) × L/100 = (10 + 1) × 60/100 = 6.6. The X₆ = 1.6 and X₇ = 1.8. Therefore: Estimated 60th percentile = X₆ + 0.6(X₇ - X₆) = 1.6 + 0.6 × (1.8 - 1.6) = 1.72",
+      "explanation_ru": "Поскольку n=10, то 60-й процентиль = (n + 1) × L/100 = (10 + 1) × 60/100 = 6.6. X₆ = 1.6 и X₇ = 1.8. Следовательно: Оцененный 60-й процентиль = X₆ + 0.6(X₇ - X₆) = 1.6 + 0.6 × (1.8 - 1.6) = 1.72",
+      "explanation_formula": "$L_y = (n + 1) \\times \\frac{y}{100}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. It indicates the approximate value of a percentile location (6.6), not the actual value.",
+          "text_ru": "Неверно. Это указывает на приблизительное значение позиции процентиля (6.6), а не фактическое значение."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. It indicates the arithmetic mean of the resulting GDPs.",
+          "text_ru": "Неверно. Это указывает на арифметическое среднее результирующих ВВП."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Direct Calculation",
+        "steps_en": ["Location = (10 + 1) × 0.60 = 6.6", "X₆ = 1.6, X₇ = 1.8", "P₆₀ = 1.6 + 0.6 × (1.8 - 1.6) = 1.72"],
+        "steps_ru": ["Позиция = (10 + 1) × 0.60 = 6.6", "X₆ = 1.6, X₇ = 1.8", "P₆₀ = 1.6 + 0.6 × (1.8 - 1.6) = 1.72"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["percentile", "quantile"]
+    },
+    {
+      "question_id": "QM-3-Q014",
+      "original_question_number": 2699,
+      "los_id": "LOS_3b",
+      "question_text_en": "Muller Investments has been investing in Curex Pharma for the last 6 years. The returns of Curex Pharma's shares are provided in the following table:",
+      "question_text_ru": "Muller Investments инвестирует в Curex Pharma последние 6 лет. Доходности акций Curex Pharma представлены в следующей таблице:",
+      "has_table": true,
+      "table_data": {
+        "headers": ["Year", "Returns"],
+        "headers_ru": ["Год", "Доходность"],
+        "rows": [
+          ["2001", "45%"],
+          ["2002", "29%"],
+          ["2003", "-16%"],
+          ["2004", "-9%"],
+          ["2005", "13%"],
+          ["2006", "16%"]
+        ]
+      },
+      "question_continuation_en": "Given the information, the mean absolute deviation (MAD) of the returns of Curex Pharma over the 6-year period is closest to:",
+      "question_continuation_ru": "Исходя из информации, среднее абсолютное отклонение (MAD) доходностей Curex Pharma за 6-летний период ближе всего к:",
+      "options": [
+        {"id": "opt_a", "text_en": "13%", "text_ru": "13%"},
+        {"id": "opt_b", "text_en": "17%", "text_ru": "17%"},
+        {"id": "opt_c", "text_en": "61%", "text_ru": "61%"}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Arithmetic Mean = (45% + 29% - 16% - 9% + 13% + 16%) / 6 = 78% / 6 = 13%. MAD = Σ|Xᵢ - X̄| / n = (|45-13| + |29-13| + |-16-13| + |-9-13| + |13-13| + |16-13|) / 6 = (32 + 16 + 29 + 22 + 0 + 3) / 6 = 102% / 6 = 17%",
+      "explanation_ru": "Арифметическое среднее = (45% + 29% - 16% - 9% + 13% + 16%) / 6 = 78% / 6 = 13%. MAD = Σ|Xᵢ - X̄| / n = (|45-13| + |29-13| + |-16-13| + |-9-13| + |13-13| + |16-13|) / 6 = (32 + 16 + 29 + 22 + 0 + 3) / 6 = 102% / 6 = 17%",
+      "explanation_formula": "$MAD = \\frac{\\sum_{i=1}^{n}|X_i - \\bar{X}|}{n}$",
+      "explanation_table": {
+        "headers": ["Year", "Returns", "|Xᵢ - X̄|"],
+        "headers_ru": ["Год", "Доходность", "|Xᵢ - X̄|"],
+        "rows": [
+          ["2001", "45%", "|45% - 13%| = 32%"],
+          ["2002", "29%", "|29% - 13%| = 16%"],
+          ["2003", "-16%", "|-16% - 13%| = 29%"],
+          ["2004", "-9%", "|-9% - 13%| = 22%"],
+          ["2005", "13%", "|13% - 13%| = 0%"],
+          ["2006", "16%", "|16% - 13%| = 3%"],
+          ["Arithmetic Mean", "13%", "Total = 102%"],
+          ["MAD", "", "102%/6 = 17%"]
+        ]
+      },
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. It denotes the Arithmetic Mean and not MAD.",
+          "text_ru": "Неверно. Это обозначает арифметическое среднее, а не MAD."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It represents the range of the returns.",
+          "text_ru": "Неверно. Это представляет размах доходностей."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Direct Calculation",
+        "steps_en": ["Mean = (45 + 29 - 16 - 9 + 13 + 16) / 6 = 13%", "Sum |Xᵢ - 13| = 32 + 16 + 29 + 22 + 0 + 3 = 102", "MAD = 102 / 6 = 17%"],
+        "steps_ru": ["Среднее = (45 + 29 - 16 - 9 + 13 + 16) / 6 = 13%", "Сумма |Xᵢ - 13| = 32 + 16 + 29 + 22 + 0 + 3 = 102", "MAD = 102 / 6 = 17%"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["mean_absolute_deviation", "dispersion"]
+    },
+    {
+      "question_id": "QM-3-Q015",
+      "original_question_number": 2700,
+      "los_id": "LOS_3b",
+      "question_text_en": "Muller Investments has been investing in Curex Pharma for the last 6 years. The returns of Curex Pharma's shares are provided in the following table. As an analyst, the variance of the returns is closest to:",
+      "question_text_ru": "Muller Investments инвестирует в Curex Pharma последние 6 лет. Доходности акций Curex Pharma представлены в следующей таблице. Как аналитик, дисперсия доходностей ближе всего к:",
+      "has_table": true,
+      "table_data": {
+        "headers": ["Year", "Returns"],
+        "headers_ru": ["Год", "Доходность"],
+        "rows": [
+          ["2001", "45%"],
+          ["2002", "29%"],
+          ["2003", "-16%"],
+          ["2004", "-9%"],
+          ["2005", "13%"],
+          ["2006", "16%"]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "5.23%", "text_ru": "5.23%"},
+        {"id": "opt_b", "text_en": "13.00%", "text_ru": "13.00%"},
+        {"id": "opt_c", "text_en": "17.00%", "text_ru": "17.00%"}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Arithmetic Mean = 13%. Variance = Σ(Xᵢ - X̄)² / (n-1) = [(45-13)² + (29-13)² + (-16-13)² + (-9-13)² + (13-13)² + (16-13)²] / 5 = [1024 + 256 + 841 + 484 + 0 + 9] / 5 = 2614 / 5 = 0.05228 = 5.23%",
+      "explanation_ru": "Арифметическое среднее = 13%. Дисперсия = Σ(Xᵢ - X̄)² / (n-1) = [(45-13)² + (29-13)² + (-16-13)² + (-9-13)² + (13-13)² + (16-13)²] / 5 = [1024 + 256 + 841 + 484 + 0 + 9] / 5 = 2614 / 5 = 0.05228 = 5.23%",
+      "explanation_formula": "$s^2 = \\frac{\\sum(X_i - \\bar{X})^2}{n-1}$",
+      "explanation_table": {
+        "headers": ["Year", "Returns", "Return - Mean", "Variance"],
+        "headers_ru": ["Год", "Доходность", "Доходность - Среднее", "Дисперсия"],
+        "rows": [
+          ["2001", "45%", "|45% - 13%|", "(45% - 13%)²"],
+          ["2002", "29%", "|29% - 13%|", "(29% - 13%)²"],
+          ["2003", "-16%", "|-16% - 13%|", "(-16% - 13%)²"],
+          ["2004", "-9%", "|-9% - 13%|", "(-9% - 13%)²"],
+          ["2005", "13%", "|13% - 13%|", "(13% - 13%)²"],
+          ["2006", "16%", "|16% - 13%|", "(16% - 13%)²"],
+          ["Arithmetic Mean", "13%", "", ""],
+          ["MAD", "17%", "", ""],
+          ["Variance", "", "", "0.2614/5 = 5.23%"]
+        ]
+      },
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. It denotes the Arithmetic Mean.",
+          "text_ru": "Неверно. Это обозначает арифметическое среднее."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It denotes the mean absolute deviation (MAD).",
+          "text_ru": "Неверно. Это обозначает среднее абсолютное отклонение (MAD)."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "DATA/STAT Worksheet",
+        "steps_en": ["Enter returns: 45, 29, -16, -9, 13, 16", "Calculate sample standard deviation Sₓ", "Square Sₓ to get variance"],
+        "steps_ru": ["Введите доходности: 45, 29, -16, -9, 13, 16", "Рассчитайте выборочное стандартное отклонение Sₓ", "Возведите Sₓ в квадрат для получения дисперсии"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["variance", "dispersion"]
+    },
+    {
+      "question_id": "QM-3-Q016",
+      "original_question_number": 2751,
+      "los_id": "LOS_3b",
+      "question_text_en": "The continuous compounded daily return of Galata Corp's shares is given in the following table. The standard deviation of share returns during this four-day period is closest to:",
+      "question_text_ru": "Непрерывно начисляемая дневная доходность акций Galata Corp приведена в следующей таблице. Стандартное отклонение доходности акций за этот четырехдневный период ближе всего к:",
+      "has_table": true,
+      "table_data": {
+        "headers": ["Date", "Compounded Daily Return"],
+        "headers_ru": ["Дата", "Компаундированная дневная доходность"],
+        "rows": [
+          ["2-Jan-14", "0.0298"],
+          ["15-Jan-14", "0.0132"],
+          ["5-Feb-14", "-0.0202"],
+          ["8-Mar-14", "-0.0300"]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "-0.18%", "text_ru": "-0.18%"},
+        {"id": "opt_b", "text_en": "2.43%", "text_ru": "2.43%"},
+        {"id": "opt_c", "text_en": "5.89%", "text_ru": "5.89%"}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "First, we calculate the mean return: μ = (2.98% + 1.32% - 2.02% - 3.00%) / 4 = -0.18%. Then, we calculate the variance and standard deviation: σ² = [(2.98 - (-0.18))² + (1.32 - (-0.18))² + (-2.02 - (-0.18))² + (-3.00 - (-0.18))²] / 4 = 5.8934. σ = √5.8934 ≈ 2.43%",
+      "explanation_ru": "Сначала рассчитываем среднюю доходность: μ = (2.98% + 1.32% - 2.02% - 3.00%) / 4 = -0.18%. Затем рассчитываем дисперсию и стандартное отклонение: σ² = [(2.98 - (-0.18))² + (1.32 - (-0.18))² + (-2.02 - (-0.18))² + (-3.00 - (-0.18))²] / 4 = 5.8934. σ = √5.8934 ≈ 2.43%",
+      "explanation_formula": "$\\sigma = \\sqrt{\\frac{\\sum(x_i - \\mu)^2}{N}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. It denotes the value of the mean in the above calculation.",
+          "text_ru": "Неверно. Это обозначает значение среднего в приведенном расчете."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It denotes the value of the variance in the above calculation.",
+          "text_ru": "Неверно. Это обозначает значение дисперсии в приведенном расчете."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "DATA/STAT Worksheet",
+        "steps_en": ["Enter: 2.98, 1.32, -2.02, -3.00", "Calculate σₓ = 2.43%"],
+        "steps_ru": ["Введите: 2.98, 1.32, -2.02, -3.00", "Рассчитайте σₓ = 2.43%"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["standard_deviation", "population_statistics"]
+    },
+    {
+      "question_id": "QM-3-Q017",
+      "original_question_number": 3429,
+      "los_id": "LOS_3b",
+      "question_text_en": "Which of the following is least likely accurate regarding frequency distributions?",
+      "question_text_ru": "Какое из следующих утверждений наименее вероятно верно относительно распределений частот?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "Risk managers can use frequency distributions to find out tail events.", "text_ru": "Риск-менеджеры могут использовать распределения частот для выявления хвостовых событий."},
+        {"id": "opt_b", "text_en": "While constructing a frequency distribution, an observation can fall in more than one interval.", "text_ru": "При построении распределения частот наблюдение может попасть более чем в один интервал."},
+        {"id": "opt_c", "text_en": "A frequency distribution can help in identifying whether the distribution is evenly distributed or lopsided.", "text_ru": "Распределение частот может помочь определить, является ли распределение равномерным или асимметричным."}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Frequency distribution displays the observations falling in a particular interval. Hence, frequency distributions help risk managers find out the frequency of a particular tail event. As it shows the frequency at which observations occur, it can be useful in identifying whether the distribution is evenly distributed or lopsided. However, an observation can fall in only one interval.",
+      "explanation_ru": "Распределение частот показывает наблюдения, попадающие в определенный интервал. Следовательно, распределения частот помогают риск-менеджерам определить частоту конкретного хвостового события. Поскольку оно показывает частоту появления наблюдений, оно может быть полезно для определения того, является ли распределение равномерным или асимметричным. Однако наблюдение может попасть только в один интервал.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Frequency distribution displays the observations falling in a particular interval. Hence, frequency distributions help risk managers find out the frequency of a particular tail event.",
+          "text_ru": "Неверно. Распределение частот показывает наблюдения, попадающие в определенный интервал. Следовательно, распределения частот помогают риск-менеджерам определить частоту конкретного хвостового события."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. As it shows the frequency at which observations occur, it can be useful in identifying whether the distribution is evenly distributed or lopsided.",
+          "text_ru": "Неверно. Поскольку оно показывает частоту появления наблюдений, оно может быть полезно для определения того, является ли распределение равномерным или асимметричным."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["frequency_distribution"]
+    },
+    {
+      "question_id": "QM-3-Q018",
+      "original_question_number": 3431,
+      "los_id": "LOS_3a",
+      "question_text_en": "Consider the following statements:\nI. The geometric mean is always greater or equal to the arithmetic mean.\nII. The geometric mean measures the compounded rate of return.\nIII. If the returns in a data set have no volatility, then the geometric mean is equal to the arithmetic mean.\nWhich of these statements is/are most accurate?",
+      "question_text_ru": "Рассмотрите следующие утверждения:\nI. Геометрическое среднее всегда больше или равно арифметическому среднему.\nII. Геометрическое среднее измеряет сложную ставку доходности.\nIII. Если доходности в наборе данных не имеют волатильности, то геометрическое среднее равно арифметическому среднему.\nКакое из этих утверждений наиболее точно?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "I, II & III.", "text_ru": "I, II и III."},
+        {"id": "opt_b", "text_en": "I & II only.", "text_ru": "Только I и II."},
+        {"id": "opt_c", "text_en": "II & III only.", "text_ru": "Только II и III."}
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Statement I is incorrect. The geometric mean is always smaller or equal to the arithmetic mean. Statement II is correct. The geometric mean measures the compounded rate of return. Statement III is correct. If the returns in a data set have no volatility (volatility = 0), then the geometric mean is equal to the arithmetic mean.",
+      "explanation_ru": "Утверждение I неверно. Геометрическое среднее всегда меньше или равно арифметическому среднему. Утверждение II верно. Геометрическое среднее измеряет сложную ставку доходности. Утверждение III верно. Если доходности в наборе данных не имеют волатильности (волатильность = 0), то геометрическое среднее равно арифметическому среднему.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Statement I is false - the geometric mean is always smaller or equal to the arithmetic mean.",
+          "text_ru": "Неверно. Утверждение I ложно — геометрическое среднее всегда меньше или равно арифметическому среднему."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Statement I is false - the geometric mean is always smaller or equal to the arithmetic mean.",
+          "text_ru": "Неверно. Утверждение I ложно — геометрическое среднее всегда меньше или равно арифметическому среднему."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["geometric_mean", "arithmetic_mean"]
+    },
+    {
+      "question_id": "QM-3-Q019",
+      "original_question_number": 3432,
+      "los_id": "LOS_3a",
+      "question_text_en": "The returns generated by a sample of five stocks from the Karachi Stock Exchange are given in the exhibit below.",
+      "question_text_ru": "Доходности, сгенерированные выборкой из пяти акций Карачинской фондовой биржи, приведены в таблице ниже.",
+      "has_table": true,
+      "table_data": {
+        "headers": ["Stock", "Return"],
+        "headers_ru": ["Акция", "Доходность"],
+        "rows": [
+          ["A", "12%"],
+          ["B", "13%"],
+          ["C", "5%"],
+          ["D", "4%"],
+          ["E", "20%"]
+        ]
+      },
+      "question_continuation_en": "The standard deviation is closest to:",
+      "question_continuation_ru": "Стандартное отклонение ближе всего к:",
+      "options": [
+        {"id": "opt_a", "text_en": "5.84%", "text_ru": "5.84%"},
+        {"id": "opt_b", "text_en": "6.53%", "text_ru": "6.53%"},
+        {"id": "opt_c", "text_en": "10.80%", "text_ru": "10.80%"}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Mean = (0.12 + 0.13 + 0.05 + 0.04 + 0.20) / 5 = 0.108 = 10.8%. Sample deviation = √(0.017080/4) = 6.53%. Note: The standard deviation calculated with a divisor of n-1 is a standard deviation calculated from the sample as an estimate of the standard deviation of the population from which the sample was drawn.",
+      "explanation_ru": "Среднее = (0.12 + 0.13 + 0.05 + 0.04 + 0.20) / 5 = 0.108 = 10.8%. Выборочное отклонение = √(0.017080/4) = 6.53%. Примечание: Стандартное отклонение, рассчитанное с делителем n-1, является стандартным отклонением, рассчитанным по выборке как оценка стандартного отклонения генеральной совокупности.",
+      "explanation_formula": "$s = \\sqrt{\\frac{\\sum(X_i - \\bar{X})^2}{n-1}}$",
+      "explanation_table": {
+        "headers": ["Stock", "Return", "X - Mean", "X - Mean²"],
+        "headers_ru": ["Акция", "Доходность", "X - Среднее", "(X - Среднее)²"],
+        "rows": [
+          ["A", "12%", "1.2%", "0.000144"],
+          ["B", "13%", "2.2%", "0.000484"],
+          ["C", "5%", "-5.8%", "0.003364"],
+          ["D", "4%", "-6.8%", "0.004624"],
+          ["E", "20%", "9.2%", "0.008464"],
+          ["Total", "", "", "0.017080"]
+        ]
+      },
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. It denotes the value of the population and not a sample.",
+          "text_ru": "Неверно. Это обозначает значение генеральной совокупности, а не выборки."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It denotes the mean.",
+          "text_ru": "Неверно. Это обозначает среднее значение."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "DATA/STAT Worksheet",
+        "steps_en": ["2ND 7 (DATA)", "X01=12, X02=13, X03=5, X04=4, X05=20", "2ND 8 (STAT)", "↓↓↓ Sₓ = 6.53"],
+        "steps_ru": ["2ND 7 (DATA)", "X01=12, X02=13, X03=5, X04=4, X05=20", "2ND 8 (STAT)", "↓↓↓ Sₓ = 6.53"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["standard_deviation", "sample_statistics"]
+    },
+    {
+      "question_id": "QM-3-Q020",
+      "original_question_number": 3436,
+      "los_id": "LOS_3c",
+      "question_text_en": "For a unimodal positively skewed distribution:",
+      "question_text_ru": "Для унимодального положительно асимметричного распределения:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "Mode < Median < Mean.", "text_ru": "Мода < Медиана < Среднее."},
+        {"id": "opt_b", "text_en": "Median < Mode < Mean.", "text_ru": "Медиана < Мода < Среднее."},
+        {"id": "opt_c", "text_en": "Mean < Median < Mode.", "text_ru": "Среднее < Медиана < Мода."}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "For a positively skewed distribution that only has one mode, Mode < Median < Mean.",
+      "explanation_ru": "Для положительно асимметричного распределения с одной модой: Мода < Медиана < Среднее.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. For a positively skewed distribution the median is always greater than the mode.",
+          "text_ru": "Неверно. Для положительно асимметричного распределения медиана всегда больше моды."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. For a positively skewed distribution the mean is always greater than both the Median and the Mode.",
+          "text_ru": "Неверно. Для положительно асимметричного распределения среднее всегда больше и медианы, и моды."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["skewness", "distribution"]
     }
   ]
 }
