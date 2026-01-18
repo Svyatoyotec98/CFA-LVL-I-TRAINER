@@ -7,7 +7,7 @@
     "module_id": 3,
     "module_name": "Statistical Measures of Asset Returns",
     "module_name_ru": "Статистические показатели доходности активов",
-    "total_questions": 30,
+    "total_questions": 34,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -1343,6 +1343,172 @@
       },
       "difficulty": "medium",
       "topic_tags": ["population_variance", "variance"]
+    },
+    {
+      "question_id": "QM-3-Q031",
+      "original_question_number": 3987,
+      "los_id": "LOS_3a",
+      "question_text_en": "Consider the following annual returns of a stock for a period of 10 years: { 15%, 17%, 12.5%, 16%, 13.6%, 19%, 14.6%, 10%, 11%, 16% }. The population mean is closest to:",
+      "question_text_ru": "Рассмотрим следующие годовые доходности акции за период 10 лет: { 15%, 17%, 12.5%, 16%, 13.6%, 19%, 14.6%, 10%, 11%, 16% }. Популяционное среднее ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "14.47%", "text_ru": "14.47%"},
+        {"id": "opt_b", "text_en": "14.80%", "text_ru": "14.80%"},
+        {"id": "opt_c", "text_en": "14.82%", "text_ru": "14.82%"}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The population mean is determined as follows: Population mean = (0.15 + 0.17 + 0.125 + 0.16 + 0.136 + 0.19 + 0.146 + 0.1 + 0.11 + 0.16) / 10 = 14.47%",
+      "explanation_ru": "Популяционное среднее определяется следующим образом: Популяционное среднее = (0.15 + 0.17 + 0.125 + 0.16 + 0.136 + 0.19 + 0.146 + 0.1 + 0.11 + 0.16) / 10 = 14.47%",
+      "explanation_formula": "$\\mu = \\frac{\\sum X_i}{N}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. It assumes the median values. Rearranging the values in ascending order: 10%, 11%, 12.5%, 13.6%, 14.6%, 15%, 16%, 16%, 17%, 19%. The median = (0.146 + 0.15) / 2 = 14.80%",
+          "text_ru": "Неверно. Предполагается медианное значение. При расположении значений в порядке возрастания: 10%, 11%, 12.5%, 13.6%, 14.6%, 15%, 16%, 16%, 17%, 19%. Медиана = (0.146 + 0.15) / 2 = 14.80%"
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It assumes a sample mean for the first 5 years: (0.15 + 0.17 + 0.125 + 0.16 + 0.136) / 5 = 14.82%",
+          "text_ru": "Неверно. Предполагается выборочное среднее за первые 5 лет: (0.15 + 0.17 + 0.125 + 0.16 + 0.136) / 5 = 14.82%"
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Direct Calculation",
+        "steps_en": ["Sum = 15 + 17 + 12.5 + 16 + 13.6 + 19 + 14.6 + 10 + 11 + 16 = 144.7", "Population mean = 144.7 / 10 = 14.47%"],
+        "steps_ru": ["Сумма = 15 + 17 + 12.5 + 16 + 13.6 + 19 + 14.6 + 10 + 11 + 16 = 144.7", "Популяционное среднее = 144.7 / 10 = 14.47%"]
+      },
+      "difficulty": "easy",
+      "topic_tags": ["population_mean", "arithmetic_mean"]
+    },
+    {
+      "question_id": "QM-3-Q032",
+      "original_question_number": 3988,
+      "los_id": "LOS_3c",
+      "question_text_en": "In kurtosis, the distribution that has thinner tails than the normal distribution is best described as:",
+      "question_text_ru": "В куртозисе распределение, которое имеет более тонкие хвосты, чем нормальное распределение, лучше всего описывается как:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "leptokurtic.", "text_ru": "лептокуртическое."},
+        {"id": "opt_b", "text_en": "mesokurtic.", "text_ru": "мезокуртическое."},
+        {"id": "opt_c", "text_en": "platykurtic.", "text_ru": "платикуртическое."}
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Platykurtic, also known as thin tailed, is the distribution that has thinner tails (lower peak) than the normal distribution.",
+      "explanation_ru": "Платикуртическое распределение, также известное как тонкохвостое, — это распределение, которое имеет более тонкие хвосты (более низкий пик), чем нормальное распределение.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Leptokurtic distribution has fatter tails (more peaked) than the normal distribution and is also referred to as fat-tailed distribution.",
+          "text_ru": "Неверно. Лептокуртическое распределение имеет более толстые хвосты (более острый пик), чем нормальное распределение, и также называется распределением с толстыми хвостами."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Mesokurtic distribution refers to distribution like the normal distribution concerning relative weight in the tails.",
+          "text_ru": "Неверно. Мезокуртическое распределение относится к распределению, подобному нормальному распределению относительно веса в хвостах."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["kurtosis", "platykurtic"]
+    },
+    {
+      "question_id": "QM-3-Q033",
+      "original_question_number": 3989,
+      "los_id": "LOS_3d",
+      "question_text_en": "Given two variables, X and Y, variable X has a mean of -0.87, with variable Y having a mean of 0.46, and a negative covariance exists between the two variables. The correlation between variables X and Y is most likely:",
+      "question_text_ru": "Даны две переменные X и Y, переменная X имеет среднее значение -0.87, переменная Y имеет среднее значение 0.46, и между двумя переменными существует отрицательная ковариация. Корреляция между переменными X и Y, скорее всего:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "zero.", "text_ru": "нулевая."},
+        {"id": "opt_b", "text_en": "negative.", "text_ru": "отрицательная."},
+        {"id": "opt_c", "text_en": "positive.", "text_ru": "положительная."}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Covariance is a measure of the relationship between two variables. A positive covariance indicates that the variables tend to move in the same direction, while a negative covariance indicates that the variables tend to move in opposite directions. Correlation is a standardized measure of the relationship between two variables. It ranges from -1 to 1. Since we know that the covariance between variables X and Y is negative and a negative covariance indicates a negative correlation, it is most likely that the correlation between variables X and Y is negative.",
+      "explanation_ru": "Ковариация — это мера взаимосвязи между двумя переменными. Положительная ковариация указывает, что переменные имеют тенденцию двигаться в одном направлении, тогда как отрицательная ковариация указывает, что переменные имеют тенденцию двигаться в противоположных направлениях. Корреляция — это стандартизированная мера взаимосвязи между двумя переменными. Она находится в диапазоне от -1 до 1. Поскольку мы знаем, что ковариация между переменными X и Y отрицательная, а отрицательная ковариация указывает на отрицательную корреляцию, наиболее вероятно, что корреляция между переменными X и Y отрицательная.",
+      "explanation_formula": "$\\rho_{X,Y} = \\frac{Cov(X,Y)}{\\sigma_X \\sigma_Y}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. If two variables have zero correlation, it indicates that they're not related in any way. A negative covariance implies negative correlation.",
+          "text_ru": "Неверно. Если две переменные имеют нулевую корреляцию, это указывает, что они никак не связаны. Отрицательная ковариация подразумевает отрицательную корреляцию."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. A positive correlation and covariance for two variables exist when both variables are above or below their means. Here, covariance is negative.",
+          "text_ru": "Неверно. Положительная корреляция и ковариация для двух переменных существует, когда обе переменные находятся выше или ниже своих средних значений. Здесь ковариация отрицательная."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["correlation", "covariance"]
+    },
+    {
+      "question_id": "QM-3-Q034",
+      "original_question_number": 3991,
+      "los_id": "LOS_3b",
+      "question_text_en": "Consider the following returns of a portfolio.",
+      "question_text_ru": "Рассмотрим следующие доходности портфеля.",
+      "has_table": true,
+      "table_data": {
+        "headers": ["Month", "Return (%)"],
+        "headers_ru": ["Месяц", "Доходность (%)"],
+        "rows": [
+          ["Jan", "6"],
+          ["Feb", "4"],
+          ["Mar", "-2"],
+          ["Apr", "-5"]
+        ]
+      },
+      "question_continuation_en": "The target downside deviation when the target return is 4% is closest to:",
+      "question_continuation_ru": "Целевое нижнее отклонение при целевой доходности 4% ближе всего к:",
+      "options": [
+        {"id": "opt_a", "text_en": "6.24%", "text_ru": "6.24%"},
+        {"id": "opt_b", "text_en": "7.51%", "text_ru": "7.51%"},
+        {"id": "opt_c", "text_en": "8.66%", "text_ru": "8.66%"}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Target downside deviation formula: S_Target = √[Σ(Xi - B)² / (n-1)] for all Xi ≤ B. Where B = 4% (target). Deviations below target: Jan: 6% > 4% (not counted), Feb: 4% = 4% (not counted), Mar: -2% - 4% = -6 (squared: 36), Apr: -5% - 4% = -9 (squared: 81). Sum of squared deviations = 36 + 81 = 117. Target semi-deviation = √(117 / 3) = √39 = 6.24%",
+      "explanation_ru": "Формула целевого нижнего отклонения: S_Target = √[Σ(Xi - B)² / (n-1)] для всех Xi ≤ B. Где B = 4% (целевая доходность). Отклонения ниже цели: Янв: 6% > 4% (не считается), Фев: 4% = 4% (не считается), Март: -2% - 4% = -6 (в квадрате: 36), Апр: -5% - 4% = -9 (в квадрате: 81). Сумма квадратов отклонений = 36 + 81 = 117. Целевое полуотклонение = √(117 / 3) = √39 = 6.24%",
+      "explanation_formula": "$S_{Target} = \\sqrt{\\frac{\\sum_{X_i \\leq B}(X_i - B)^2}{n-1}}$",
+      "explanation_table": {
+        "headers": ["Month", "Observation", "Deviation from 4% target", "Deviations below target", "Squared deviations below target"],
+        "headers_ru": ["Месяц", "Наблюдение", "Отклонение от цели 4%", "Отклонения ниже цели", "Квадраты отклонений ниже цели"],
+        "rows": [
+          ["Jan", "6", "2", "0", "0"],
+          ["Feb", "4", "0", "0", "0"],
+          ["Mar", "-2", "-6", "-6", "36"],
+          ["Apr", "-5", "-9", "-9", "81"]
+        ]
+      },
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. It assumes the total sum of the deviation from the 4% target in the calculation: √((-13)² / 3) = 7.51%",
+          "text_ru": "Неверно. Предполагается общая сумма отклонений от целевого значения 4% в расчёте: √((-13)² / 3) = 7.51%"
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It assumes the total sum of the deviations below the target is squared: √((-15)² / 3) = 8.66%",
+          "text_ru": "Неверно. Предполагается, что общая сумма отклонений ниже цели возводится в квадрат: √((-15)² / 3) = 8.66%"
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Direct Calculation",
+        "steps_en": ["Identify returns below target (4%): Mar (-2%), Apr (-5%)", "Calculate deviations: (-2 - 4) = -6, (-5 - 4) = -9", "Square deviations: 36 + 81 = 117", "Target semi-deviation = √(117 / 3) = 6.24%"],
+        "steps_ru": ["Определить доходности ниже цели (4%): Март (-2%), Апр (-5%)", "Рассчитать отклонения: (-2 - 4) = -6, (-5 - 4) = -9", "Возвести в квадрат: 36 + 81 = 117", "Целевое полуотклонение = √(117 / 3) = 6.24%"]
+      },
+      "difficulty": "hard",
+      "topic_tags": ["target_downside_deviation", "semi_deviation"]
     }
   ]
 }
