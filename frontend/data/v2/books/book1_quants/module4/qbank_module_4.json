@@ -1,0 +1,366 @@
+{
+  "metadata": {
+    "book_id": 1,
+    "book_code": "QM",
+    "book_name": "Quantitative Methods",
+    "book_name_ru": "Количественные методы",
+    "module_id": 4,
+    "module_name": "Probability Trees and Conditional Expectations",
+    "module_name_ru": "Деревья вероятностей и условные ожидания",
+    "total_questions": 10,
+    "version": "2.0",
+    "source": "AnalystPrep QBank"
+  },
+  "questions": [
+    {
+      "question_id": "QM-4-Q001",
+      "original_question_number": 300,
+      "los_id": "LOS_4c",
+      "question_text_en": "An investor owns shares of both Apple and Microsoft. He assumes that the probability of Apple's share price declining by more than 5% this year is 0.4, while the probability of Microsoft's share price declining by more than 5% is 0.3. The probability that either Apple or Microsoft's share prices will decline in price by more than 5% this year is closest to:",
+      "question_text_ru": "Инвестор владеет акциями Apple и Microsoft. Он предполагает, что вероятность снижения цены акций Apple более чем на 5% в этом году составляет 0.4, а вероятность снижения цены акций Microsoft более чем на 5% — 0.3. Вероятность того, что цена акций Apple или Microsoft снизится более чем на 5% в этом году, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "0.12", "text_ru": "0.12"},
+        {"id": "opt_b", "text_en": "0.58", "text_ru": "0.58"},
+        {"id": "opt_c", "text_en": "0.70", "text_ru": "0.70"}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "These are non-mutually exclusive events. The probability of Apple's share price declining is not in any way dependent on the probability of Microsoft's share declining. Both events can occur simultaneously. For non-mutually exclusive events, P(A or B) = P(A) + P(B) - P(AB). Since independent: P(AB) = P(A) × P(B). Thus P(A or B) = 0.4 + 0.3 - (0.4 × 0.3) = 0.58.",
+      "explanation_ru": "Это не взаимоисключающие события. Вероятность снижения цены акций Apple не зависит от вероятности снижения Microsoft. Оба события могут произойти одновременно. Для не взаимоисключающих событий: P(A или B) = P(A) + P(B) - P(AB). Поскольку события независимы: P(AB) = P(A) × P(B). Таким образом, P(A или B) = 0.4 + 0.3 - (0.4 × 0.3) = 0.58.",
+      "explanation_formula": "$P(A \\cup B) = P(A) + P(B) - P(A \\cap B) = 0.4 + 0.3 - (0.4 \\times 0.3) = 0.58$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This is P(AB) = P(A) × P(B) = 0.4 × 0.3 = 0.12, which is the joint probability, not the probability of either event occurring.",
+          "text_ru": "Неверно. Это P(AB) = P(A) × P(B) = 0.4 × 0.3 = 0.12 — совместная вероятность, а не вероятность наступления хотя бы одного события."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This is P(A) + P(B) = 0.4 + 0.3 = 0.70, which incorrectly assumes mutually exclusive events and does not subtract the joint probability.",
+          "text_ru": "Неверно. Это P(A) + P(B) = 0.4 + 0.3 = 0.70 — ошибочно предполагает взаимоисключающие события и не вычитает совместную вероятность."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["addition_rule", "independent_events", "probability"]
+    },
+    {
+      "question_id": "QM-4-Q002",
+      "original_question_number": 310,
+      "los_id": "LOS_4c",
+      "question_text_en": "Suppose A and B are mutually exclusive events, and P(A)=0.2, P(B)=0.5. The probability P(A and B) is closest to:",
+      "question_text_ru": "Предположим, что A и B — взаимоисключающие события, и P(A)=0.2, P(B)=0.5. Вероятность P(A и B) ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "0", "text_ru": "0"},
+        {"id": "opt_b", "text_en": "0.01", "text_ru": "0.01"},
+        {"id": "opt_c", "text_en": "0.7", "text_ru": "0.7"}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "If two events, A and B, are mutually exclusive, only one of the events can occur at any particular time. The two events cannot both occur at the same time. The probability of occurring of 2 mutually exclusive events simultaneously is 0.",
+      "explanation_ru": "Если два события A и B взаимоисключающие, то в любой момент времени может произойти только одно из них. Два события не могут произойти одновременно. Вероятность одновременного наступления двух взаимоисключающих событий равна 0.",
+      "explanation_formula": "$P(A \\cap B) = 0$ для взаимоисключающих событий",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This assumes both events can occur at the same time (0.2 × 0.05 = 0.01), which contradicts the mutually exclusive definition.",
+          "text_ru": "Неверно. Предполагает, что оба события могут произойти одновременно (0.2 × 0.05 = 0.01), что противоречит определению взаимоисключающих событий."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This is P(A) + P(B) = 0.2 + 0.5 = 0.7, which is P(A or B) for mutually exclusive events, not P(A and B).",
+          "text_ru": "Неверно. Это P(A) + P(B) = 0.2 + 0.5 = 0.7 — вероятность P(A или B) для взаимоисключающих событий, а не P(A и B)."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["mutually_exclusive_events", "probability"]
+    },
+    {
+      "question_id": "QM-4-Q003",
+      "original_question_number": 313,
+      "los_id": "LOS_4c",
+      "question_text_en": "You own shares of Corp. A and Corp.B. You think that the probability of Corp. A to go bankrupt this year is 0.15, and Corp.B to go bankrupt is 0.25. The companies going bankrupt are independent of each other. The probability that at least one of these two companies will go bankrupt this year is closest to:",
+      "question_text_ru": "Вы владеете акциями Corp. A и Corp. B. Вы считаете, что вероятность банкротства Corp. A в этом году составляет 0.15, а Corp. B — 0.25. Банкротства компаний независимы друг от друга. Вероятность того, что хотя бы одна из этих двух компаний обанкротится в этом году, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "0.0375", "text_ru": "0.0375"},
+        {"id": "opt_b", "text_en": "0.3625", "text_ru": "0.3625"},
+        {"id": "opt_c", "text_en": "0.4", "text_ru": "0.4"}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "P(A or B) = P(A) + P(B) - P(AB) = P(A) + P(B) - P(A) × P(B) = 0.15 + 0.25 - 0.15 × 0.25 = 0.3625",
+      "explanation_ru": "P(A или B) = P(A) + P(B) - P(AB) = P(A) + P(B) - P(A) × P(B) = 0.15 + 0.25 - 0.15 × 0.25 = 0.3625",
+      "explanation_formula": "$P(A \\cup B) = P(A) + P(B) - P(A)P(B) = 0.15 + 0.25 - 0.0375 = 0.3625$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This is the joint probability P(A and B) = 0.15 × 0.25 = 0.0375, not the probability of at least one occurring.",
+          "text_ru": "Неверно. Это совместная вероятность P(A и B) = 0.15 × 0.25 = 0.0375, а не вероятность наступления хотя бы одного события."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This is P(A) + P(B) = 0.15 + 0.25 = 0.4, which does not subtract the joint probability.",
+          "text_ru": "Неверно. Это P(A) + P(B) = 0.15 + 0.25 = 0.4, что не учитывает вычитание совместной вероятности."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["addition_rule", "independent_events", "probability"]
+    },
+    {
+      "question_id": "QM-4-Q004",
+      "original_question_number": 412,
+      "los_id": "LOS_4a",
+      "question_text_en": "There is a 40% chance that the economy keeps sinking into recession next year and a 60% chance that it will rebound. If the economy rebounds, Company ABC will hire 2,000 employees. If the economy keeps sinking, there is an 80% probability that it will cut 1,000 jobs and a 20% chance to go bankrupt and cut 9,000 jobs. The firm's expected job hires/cut is closest to:",
+      "question_text_ru": "Вероятность 40%, что экономика продолжит погружаться в рецессию в следующем году, и 60%, что она восстановится. Если экономика восстановится, компания ABC наймёт 2000 сотрудников. Если экономика продолжит падать, есть 80% вероятность сокращения 1000 рабочих мест и 20% вероятность банкротства с сокращением 9000 рабочих мест. Ожидаемое количество наймов/сокращений компании ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "-2,600 employees", "text_ru": "-2600 сотрудников"},
+        {"id": "opt_b", "text_en": "+160 employees", "text_ru": "+160 сотрудников"},
+        {"id": "opt_c", "text_en": "+2,000 employees", "text_ru": "+2000 сотрудников"}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "X = (0.6 × 2,000) + 0.4 × ((0.8 × -1,000) + (0.2 × -9,000)) = 1,200 + 0.4 × (-800 + -1,800) = 1,200 + 0.4 × (-2,600) = 1,200 - 1,040 = 160",
+      "explanation_ru": "X = (0.6 × 2000) + 0.4 × ((0.8 × -1000) + (0.2 × -9000)) = 1200 + 0.4 × (-800 + -1800) = 1200 + 0.4 × (-2600) = 1200 - 1040 = 160",
+      "explanation_formula": "$E[X] = 0.6 \\times 2000 + 0.4 \\times [0.8 \\times (-1000) + 0.2 \\times (-9000)] = +160$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This results from 80% × -1,000 + 20% × -9,000 = -2,600, which only considers the recession scenario without weighting by the probability of recession.",
+          "text_ru": "Неверно. Это результат 80% × -1000 + 20% × -9000 = -2600, который учитывает только сценарий рецессии без взвешивания на вероятность рецессии."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This assumes the company will hire 2,000 employees with certainty, ignoring the recession scenario.",
+          "text_ru": "Неверно. Предполагает, что компания точно наймёт 2000 сотрудников, игнорируя сценарий рецессии."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["expected_value", "probability_tree"]
+    },
+    {
+      "question_id": "QM-4-Q005",
+      "original_question_number": 415,
+      "los_id": "LOS_4c",
+      "question_text_en": "You have been given the following probabilities:\nP(A) = 35%\nP(B) = 65%\nP(B | A) = 65%\nThe probability that Event A and Event B occur is closest to:",
+      "question_text_ru": "Вам даны следующие вероятности:\nP(A) = 35%\nP(B) = 65%\nP(B | A) = 65%\nВероятность того, что произойдут события A и B, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "22.75%", "text_ru": "22.75%"},
+        {"id": "opt_b", "text_en": "35%", "text_ru": "35%"},
+        {"id": "opt_c", "text_en": "65%", "text_ru": "65%"}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Since P(B|A) = P(B), we know that A and B are independent events. This means that P(A and B) = P(A) × P(B). Thus, P(A and B) = 0.65 × 0.35 = 0.2275 = 22.75%",
+      "explanation_ru": "Поскольку P(B|A) = P(B), мы знаем, что A и B — независимые события. Это означает, что P(A и B) = P(A) × P(B). Таким образом, P(A и B) = 0.65 × 0.35 = 0.2275 = 22.75%",
+      "explanation_formula": "$P(A \\cap B) = P(A) \\times P(B) = 0.35 \\times 0.65 = 0.2275$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This is only the probability of A occurring, not the joint probability.",
+          "text_ru": "Неверно. Это только вероятность наступления события A, а не совместная вероятность."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This is only the probability of B occurring, not the joint probability.",
+          "text_ru": "Неверно. Это только вероятность наступления события B, а не совместная вероятность."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["independent_events", "joint_probability", "multiplication_rule"]
+    },
+    {
+      "question_id": "QM-4-Q006",
+      "original_question_number": 2714,
+      "los_id": "LOS_4c",
+      "question_text_en": "Which of the following is the most appropriate term used for events that cover all the possible outcomes?",
+      "question_text_ru": "Какой из следующих терминов наиболее подходит для событий, охватывающих все возможные исходы?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "Exhaustive events.", "text_ru": "Исчерпывающие события."},
+        {"id": "opt_b", "text_en": "Independent events.", "text_ru": "Независимые события."},
+        {"id": "opt_c", "text_en": "Mutually exclusive events.", "text_ru": "Взаимоисключающие события."}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Exhaustive events are events that cover all possible outcomes. In probability theory and logic, a set of events is jointly or collectively exhaustive if at least one of the events must occur. For example, when rolling a six-sided die, the outcomes 1, 2, 3, 4, 5, and 6 are collectively exhaustive, because they encompass the entire range of possible outcomes.",
+      "explanation_ru": "Исчерпывающие события — это события, охватывающие все возможные исходы. В теории вероятностей и логике множество событий является совместно или коллективно исчерпывающим, если хотя бы одно из событий должно произойти. Например, при броске шестигранного кубика исходы 1, 2, 3, 4, 5 и 6 являются коллективно исчерпывающими, поскольку охватывают весь диапазон возможных исходов.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Independent events are events that are not affected by the outcome of previous events; for instance, when tossing a coin, the probability of getting head or tail does not in any way depend on whether you got head or tail on the first toss.",
+          "text_ru": "Неверно. Независимые события — это события, на которые не влияет исход предыдущих событий; например, при подбрасывании монеты вероятность выпадения орла или решки никак не зависит от того, что выпало при первом броске."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Mutually exclusive events are events that cannot both occur simultaneously; for example, when tossing a coin, you can get either head or tail, there is no possibility of getting both head and tail simultaneously.",
+          "text_ru": "Неверно. Взаимоисключающие события — это события, которые не могут произойти одновременно; например, при подбрасывании монеты можно получить либо орла, либо решку, нет возможности получить и то, и другое одновременно."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["exhaustive_events", "probability_concepts"]
+    },
+    {
+      "question_id": "QM-4-Q007",
+      "original_question_number": 2715,
+      "los_id": "LOS_4c",
+      "question_text_en": "If the probability that students use preparation materials for the CFA Level 1 exam is 80% and the probability that the students will pass the CFA Level 1 exam given that they use preparation materials is 54%, then the joint probability of using preparation materials and passing the CFA Level 1 exam is closest to:",
+      "question_text_ru": "Если вероятность того, что студенты используют подготовительные материалы для экзамена CFA Level 1, составляет 80%, а вероятность того, что студенты сдадут экзамен CFA Level 1, при условии, что они используют подготовительные материалы, составляет 54%, то совместная вероятность использования подготовительных материалов и сдачи экзамена CFA Level 1 ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "43.2%", "text_ru": "43.2%"},
+        {"id": "opt_b", "text_en": "80.0%", "text_ru": "80.0%"},
+        {"id": "opt_c", "text_en": "90.8%", "text_ru": "90.8%"}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Let p(A) = 0.8 (the probability that the students use preparation materials for the CFA Level 1 exam is 80%) and p(P|A) = 0.54 (the probability that the students will pass the CFA Level 1 exam given that they use preparation materials). To get the joint probability p(PA), we need to use the multiplication rule: p(PA) = p(P|A) × p(A) = 0.8 × 0.54 = 0.432 = 43.2%",
+      "explanation_ru": "Пусть p(A) = 0.8 (вероятность использования подготовительных материалов — 80%) и p(P|A) = 0.54 (вероятность сдачи экзамена при использовании материалов). Для получения совместной вероятности p(PA) используем правило умножения: p(PA) = p(P|A) × p(A) = 0.8 × 0.54 = 0.432 = 43.2%",
+      "explanation_formula": "$P(P \\cap A) = P(P|A) \\times P(A) = 0.54 \\times 0.80 = 0.432$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This assumes P(AB) = P(A|B) × P(B) = (0.8/0.54) × 0.54 = 0.80 = 80.0%, which incorrectly inverts the conditional probability calculation.",
+          "text_ru": "Неверно. Предполагает P(AB) = P(A|B) × P(B) = (0.8/0.54) × 0.54 = 0.80 = 80.0%, что неправильно инвертирует расчёт условной вероятности."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This uses the addition rule P(A or B) = P(A) + P(B) - P(AB) = (0.8 + 0.54) - (0.8 × 0.54) = 0.908 = 90.8%, which calculates the probability of at least one event occurring, not the joint probability.",
+          "text_ru": "Неверно. Использует правило сложения P(A или B) = P(A) + P(B) - P(AB) = (0.8 + 0.54) - (0.8 × 0.54) = 0.908 = 90.8%, что вычисляет вероятность хотя бы одного события, а не совместную вероятность."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["joint_probability", "multiplication_rule", "conditional_probability"]
+    },
+    {
+      "question_id": "QM-4-Q008",
+      "original_question_number": 2716,
+      "los_id": "LOS_4c",
+      "question_text_en": "The probability that the Eurozone economy will grow this year is 48%, and the probability that the European Central Bank (ECB) will loosen its monetary policy is 50%. Assuming that the joint probability that the Eurozone economy will grow and the ECB will loosen its monetary policy is 40%, then the probability that either the Eurozone economy will grow or the ECB will loosen its monetary policy is closest to:",
+      "question_text_ru": "Вероятность того, что экономика Еврозоны вырастет в этом году, составляет 48%, а вероятность того, что Европейский центральный банк (ЕЦБ) смягчит денежно-кредитную политику — 50%. Если совместная вероятность роста экономики Еврозоны и смягчения политики ЕЦБ составляет 40%, то вероятность того, что экономика Еврозоны вырастет или ЕЦБ смягчит политику, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "40%", "text_ru": "40%"},
+        {"id": "opt_b", "text_en": "48%", "text_ru": "48%"},
+        {"id": "opt_c", "text_en": "58%", "text_ru": "58%"}
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "The addition rule of probability is used: P(E) = 0.48 (the probability that the Eurozone economy will grow is 48%), P(M) = 0.50 (the probability that the ECB will loosen the monetary policy is 50%), P(E ∩ M) = 0.40 (the joint probability is 40%). P(E ∪ M) = P(E) + P(M) - P(E ∩ M) = 0.48 + 0.50 - 0.40 = 0.58",
+      "explanation_ru": "Используется правило сложения вероятностей: P(E) = 0.48 (вероятность роста экономики Еврозоны — 48%), P(M) = 0.50 (вероятность смягчения политики ЕЦБ — 50%), P(E ∩ M) = 0.40 (совместная вероятность — 40%). P(E ∪ M) = P(E) + P(M) - P(E ∩ M) = 0.48 + 0.50 - 0.40 = 0.58",
+      "explanation_formula": "$P(E \\cup M) = P(E) + P(M) - P(E \\cap M) = 0.48 + 0.50 - 0.40 = 0.58$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This is the joint probability that the Eurozone economy will grow and the ECB will loosen its monetary policy.",
+          "text_ru": "Неверно. Это совместная вероятность того, что экономика Еврозоны вырастет и ЕЦБ смягчит политику."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. This is only the probability that the Eurozone economy will grow.",
+          "text_ru": "Неверно. Это только вероятность роста экономики Еврозоны."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["addition_rule", "probability"]
+    },
+    {
+      "question_id": "QM-4-Q009",
+      "original_question_number": 2717,
+      "los_id": "LOS_4c",
+      "question_text_en": "Which of the following statements regarding the probability rules is least likely accurate?",
+      "question_text_ru": "Какое из следующих утверждений относительно правил вероятности с наименьшей вероятностью является точным?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "Joint probability: p(X|Y) * p(Y)", "text_ru": "Совместная вероятность: p(X|Y) * p(Y)"},
+        {"id": "opt_b", "text_en": "Addition rule: p(T) + p(U) - p(TU)", "text_ru": "Правило сложения: p(T) + p(U) - p(TU)"},
+        {"id": "opt_c", "text_en": "For independent events: p(K|L) = p(L)", "text_ru": "Для независимых событий: p(K|L) = p(L)"}
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "A and B are independent events if the occurrence of event A does not in any way affect the occurrence of event B. Events K and L are independent events only if p(K|L) = p(K), not p(K|L) = p(L). The conditional probability of K given L equals the unconditional probability of K, not L.",
+      "explanation_ru": "A и B — независимые события, если наступление события A никак не влияет на наступление события B. События K и L независимы только если p(K|L) = p(K), а не p(K|L) = p(L). Условная вероятность K при данном L равна безусловной вероятности K, а не L.",
+      "explanation_formula": "Для независимых событий: $P(K|L) = P(K)$, а НЕ $P(K|L) = P(L)$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect (this is actually correct). The joint conditional probability is P(AB) = P(A) × P(B|A) = P(A|B) × P(B).",
+          "text_ru": "Неверно (это утверждение на самом деле верное). Совместная условная вероятность: P(AB) = P(A) × P(B|A) = P(A|B) × P(B)."
+        },
+        "opt_b": {
+          "text_en": "Incorrect (this is actually correct). For any two events, A and B, the probability of either A or B is the sum of the two events minus the shared probability: P(A or B) = P(A) + P(B) - P(AB).",
+          "text_ru": "Неверно (это утверждение на самом деле верное). Для любых двух событий A и B вероятность наступления A или B равна сумме вероятностей минус общая вероятность: P(A или B) = P(A) + P(B) - P(AB)."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["probability_rules", "independent_events", "conditional_probability"]
+    },
+    {
+      "question_id": "QM-4-Q010",
+      "original_question_number": 2718,
+      "los_id": "LOS_4c",
+      "question_text_en": "A company which produces 5G communication equipment has two factories, A and B. 40% of the equipment are made in factory A, 60% in factory B. It has been established that 90% of the equipment produced by factory A meets specifications while only 75% of the equipment produced by factory B meets specifications. If a Telco buys the equipment, the probability that it meets specifications is closest to:",
+      "question_text_ru": "Компания, производящая оборудование 5G, имеет два завода A и B. 40% оборудования производится на заводе A, 60% — на заводе B. Установлено, что 90% оборудования завода A соответствует спецификациям, тогда как только 75% оборудования завода B соответствует спецификациям. Если телеком-компания покупает оборудование, вероятность того, что оно соответствует спецификациям, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "0.40", "text_ru": "0.40"},
+        {"id": "opt_b", "text_en": "0.76", "text_ru": "0.76"},
+        {"id": "opt_c", "text_en": "0.81", "text_ru": "0.81"}
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Using the total probability rule: P(A) = 0.4, P(B) = 0.6, P(M|A) = 0.9, P(M|B) = 0.75. P(M) = P(M|A)P(A) + P(M|B)P(B) = 0.9 × 0.4 + 0.75 × 0.6 = 0.36 + 0.45 = 0.81",
+      "explanation_ru": "Используя правило полной вероятности: P(A) = 0.4, P(B) = 0.6, P(M|A) = 0.9, P(M|B) = 0.75. P(M) = P(M|A)P(A) + P(M|B)P(B) = 0.9 × 0.4 + 0.75 × 0.6 = 0.36 + 0.45 = 0.81",
+      "explanation_formula": "$P(M) = P(M|A)P(A) + P(M|B)P(B) = 0.9 \\times 0.4 + 0.75 \\times 0.6 = 0.81$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This assumes P(AB) = P(A|B) × P(B) = (0.4/0.6) × 0.6 = 0.40, which incorrectly applies the multiplication rule.",
+          "text_ru": "Неверно. Предполагает P(AB) = P(A|B) × P(B) = (0.4/0.6) × 0.6 = 0.40, что неправильно применяет правило умножения."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. This uses the addition rule P(A or B) = P(A) + P(B) - P(AB) = (0.4 + 0.6) - (0.4 × 0.6) = 0.76, which is not the correct approach for this problem.",
+          "text_ru": "Неверно. Использует правило сложения P(A или B) = P(A) + P(B) - P(AB) = (0.4 + 0.6) - (0.4 × 0.6) = 0.76, что не является правильным подходом для этой задачи."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["total_probability_rule", "probability_tree"]
+    }
+  ]
+}
