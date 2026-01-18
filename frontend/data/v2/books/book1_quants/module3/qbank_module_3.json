@@ -7,7 +7,7 @@
     "module_id": 3,
     "module_name": "Statistical Measures of Asset Returns",
     "module_name_ru": "Статистические показатели доходности активов",
-    "total_questions": 20,
+    "total_questions": 30,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -1609,6 +1609,542 @@
         "skewness",
         "positive_skewness",
         "mean_median_mode"
+      ]
+    },
+    {
+      "question_id": "QM-3-Q021",
+      "original_question_number": 3437,
+      "los_id": "LOS_3a",
+      "question_text_en": "A mutual fund achieved the following rates of growth over an 11-month period: {3%, 2%, 7%, 8%, 2%, 4%, 3%, 7.5%, 7.2%, 2.7%, 2.09%}. The 5th decile from the data is closest to:",
+      "question_text_ru": "Взаимный фонд достиг следующих темпов роста за 11-месячный период: {3%, 2%, 7%, 8%, 2%, 4%, 3%, 7.5%, 7.2%, 2.7%, 2.09%}. 5-й дециль данных ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "2%",
+          "text_ru": "2%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "3%",
+          "text_ru": "3%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "4%",
+          "text_ru": "4%"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "First, arrange data in ascending order: {2%, 2%, 2.09%, 2.7%, 3%, 3%, 4%, 7%, 7.2%, 7.5%, 8%}. The 5th decile is the 50th percentile (median). Position = (1+11)×50/100 = 12×0.5 = 6, i.e., the 6th data point. Therefore, the 5th decile = 50th percentile = Median = 3%",
+      "explanation_ru": "Сначала расположите данные в порядке возрастания: {2%, 2%, 2.09%, 2.7%, 3%, 3%, 4%, 7%, 7.2%, 7.5%, 8%}. 5-й дециль - это 50-й процентиль (медиана). Позиция = (1+11)×50/100 = 12×0.5 = 6, т.е. 6-я точка данных. Следовательно, 5-й дециль = 50-й процентиль = Медиана = 3%",
+      "explanation_formula": "$P_{50} = \\frac{(n+1) \\times 50}{100}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This is the minimum value in the dataset, not the 5th decile.",
+          "text_ru": "Неверно. Это минимальное значение в наборе данных, а не 5-й дециль."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This would be the 7th value in the ordered data, not the 6th (5th decile).",
+          "text_ru": "Неверно. Это было бы 7-е значение в упорядоченных данных, а не 6-е (5-й дециль)."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "decile",
+        "percentile",
+        "median"
+      ]
+    },
+    {
+      "question_id": "QM-3-Q022",
+      "original_question_number": 3438,
+      "los_id": "LOS_3b",
+      "question_text_en": "If a security has a mean expected return of 10% and a standard deviation of 5%, its coefficient of variation is closest to:",
+      "question_text_ru": "Если ценная бумага имеет ожидаемую среднюю доходность 10% и стандартное отклонение 5%, её коэффициент вариации ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "0.005",
+          "text_ru": "0.005"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "0.500",
+          "text_ru": "0.500"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "2.000",
+          "text_ru": "2.000"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "CV = s / x̄ = 0.05 / 0.10 = 0.5. The coefficient of variation measures risk per unit of return.",
+      "explanation_ru": "CV = s / x̄ = 0.05 / 0.10 = 0.5. Коэффициент вариации измеряет риск на единицу доходности.",
+      "explanation_formula": "$CV = \\frac{s}{\\bar{X}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This calculation incorrectly uses 0.05/10 = 0.005, dividing by 10 instead of 0.10.",
+          "text_ru": "Неверно. Этот расчет ошибочно использует 0.05/10 = 0.005, деля на 10 вместо 0.10."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This calculation inverts the formula: 10/5 = 2, using mean/std dev instead of std dev/mean.",
+          "text_ru": "Неверно. Этот расчет инвертирует формулу: 10/5 = 2, используя среднее/ст.откл. вместо ст.откл./среднее."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "coefficient_of_variation",
+        "risk_measurement"
+      ]
+    },
+    {
+      "question_id": "QM-3-Q023",
+      "original_question_number": 3439,
+      "los_id": "LOS_3b",
+      "question_text_en": "You have been given the following data: {12, 13, 54, 56, 25}. Assuming that this is a sample from a certain population, the sample standard deviation is closest to:",
+      "question_text_ru": "Вам предоставлены следующие данные: {12, 13, 54, 56, 25}. Предполагая, что это выборка из определённой генеральной совокупности, выборочное стандартное отклонение ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "21.62",
+          "text_ru": "21.62"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "374.00",
+          "text_ru": "374.00"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "1,870.00",
+          "text_ru": "1,870.00"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "X̄ = (12+13+54+56+25)/5 = 160/5 = 32. s² = [(12-32)² + (13-32)² + (54-32)² + (56-32)² + (25-32)²] / 4 = [400+361+484+576+49] / 4 = 1870/4 = 467.5. Therefore, s = √467.5 = 21.62",
+      "explanation_ru": "X̄ = (12+13+54+56+25)/5 = 160/5 = 32. s² = [(12-32)² + (13-32)² + (54-32)² + (56-32)² + (25-32)²] / 4 = [400+361+484+576+49] / 4 = 1870/4 = 467.5. Следовательно, s = √467.5 = 21.62",
+      "explanation_formula": "$s = \\sqrt{\\frac{\\sum(X_i - \\bar{X})^2}{n-1}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This is close to the sample variance (467.5), not the standard deviation.",
+          "text_ru": "Неверно. Это близко к выборочной дисперсии (467.5), а не к стандартному отклонению."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This is the sum of squared deviations, not divided by (n-1).",
+          "text_ru": "Неверно. Это сумма квадратов отклонений, не разделённая на (n-1)."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "DATA/STAT Worksheet",
+        "steps_en": [
+          "2ND 7 (DATA)",
+          "X01=12, X02=13, X03=54, X04=56, X05=25",
+          "2ND QUIT",
+          "2ND 8 (STAT)",
+          "↓↓↓ Sx = 21.62"
+        ],
+        "steps_ru": [
+          "2ND 7 (DATA)",
+          "X01=12, X02=13, X03=54, X04=56, X05=25",
+          "2ND QUIT",
+          "2ND 8 (STAT)",
+          "↓↓↓ Sx = 21.62"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": [
+        "sample_standard_deviation",
+        "variance"
+      ]
+    },
+    {
+      "question_id": "QM-3-Q024",
+      "original_question_number": 3440,
+      "los_id": "LOS_3c",
+      "question_text_en": "The skewness of the normal distribution is most likely:",
+      "question_text_ru": "Асимметрия нормального распределения наиболее вероятно равна:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Zero",
+          "text_ru": "Нулю"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Positive",
+          "text_ru": "Положительной"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Negative",
+          "text_ru": "Отрицательной"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Since the normal curve is symmetric about its mean, its skewness is zero. The left and right sides of a normal distribution are mirror images of each other.",
+      "explanation_ru": "Поскольку нормальная кривая симметрична относительно своего среднего, её асимметрия равна нулю. Левая и правая стороны нормального распределения являются зеркальными отражениями друг друга.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. A positively skewed distribution has a long right tail, which is not the case for a normal distribution.",
+          "text_ru": "Неверно. Распределение с положительной асимметрией имеет длинный правый хвост, что не характерно для нормального распределения."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. A negatively skewed distribution has a long left tail, which is not the case for a normal distribution.",
+          "text_ru": "Неверно. Распределение с отрицательной асимметрией имеет длинный левый хвост, что не характерно для нормального распределения."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "skewness",
+        "normal_distribution",
+        "symmetry"
+      ]
+    },
+    {
+      "question_id": "QM-3-Q025",
+      "original_question_number": 3441,
+      "los_id": "LOS_3c",
+      "question_text_en": "A frequency distribution in which there are too few scores at the extremes of the distribution is most likely called:",
+      "question_text_ru": "Частотное распределение, в котором слишком мало значений на крайних точках распределения, наиболее вероятно называется:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Platykurtic",
+          "text_ru": "Платикуртическим"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Leptokurtic",
+          "text_ru": "Лептокуртическим"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Mesokurtic",
+          "text_ru": "Мезокуртическим"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "A platykurtic distribution has 'thin' tails and is flatter compared to a normal distribution. It implies that there are fewer scores at the extremes of the distribution, resulting in excess kurtosis less than 3.",
+      "explanation_ru": "Платикуртическое распределение имеет 'тонкие' хвосты и является более плоским по сравнению с нормальным распределением. Это означает, что на крайних точках распределения меньше значений, что приводит к эксцессу менее 3.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. A leptokurtic distribution has fat tails, meaning more extreme values than a normal distribution.",
+          "text_ru": "Неверно. Лептокуртическое распределение имеет толстые хвосты, что означает больше экстремальных значений, чем в нормальном распределении."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. A mesokurtic distribution has kurtosis equal to a normal distribution.",
+          "text_ru": "Неверно. Мезокуртическое распределение имеет эксцесс, равный нормальному распределению."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "kurtosis",
+        "platykurtic",
+        "distribution_shape"
+      ]
+    },
+    {
+      "question_id": "QM-3-Q026",
+      "original_question_number": 3442,
+      "los_id": "LOS_3c",
+      "question_text_en": "When most of the data are concentrated on the left of the distribution, it is most likely called:",
+      "question_text_ru": "Когда большинство данных сконцентрировано слева от распределения, это наиболее вероятно называется:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Symmetric distribution",
+          "text_ru": "Симметричное распределение"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Positively skewed distribution",
+          "text_ru": "Распределение с положительной асимметрией"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Negatively skewed distribution",
+          "text_ru": "Распределение с отрицательной асимметрией"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "A distribution is said to be skewed to the right or positively skewed when most of the data are concentrated on the left of the distribution. The right tail extends farther from the distribution's center.",
+      "explanation_ru": "Распределение называется скошенным вправо или с положительной асимметрией, когда большинство данных сконцентрировано слева от распределения. Правый хвост простирается дальше от центра распределения.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. A symmetric distribution has equal amounts of data on both sides of the mean.",
+          "text_ru": "Неверно. Симметричное распределение имеет одинаковое количество данных по обе стороны от среднего."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. A negatively skewed distribution has most data concentrated on the right, with the left tail extending farther.",
+          "text_ru": "Неверно. Распределение с отрицательной асимметрией имеет большинство данных, сконцентрированных справа, с левым хвостом, простирающимся дальше."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "skewness",
+        "positive_skewness",
+        "distribution_shape"
+      ]
+    },
+    {
+      "question_id": "QM-3-Q027",
+      "original_question_number": 3443,
+      "los_id": "LOS_3d",
+      "question_text_en": "The correlation coefficient between X and Y is 0.7, and the covariance is 29. If the variance of Y is 25, the variance of X is closest to:",
+      "question_text_ru": "Коэффициент корреляции между X и Y равен 0.7, а ковариация равна 29. Если дисперсия Y равна 25, дисперсия X ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "8.29",
+          "text_ru": "8.29"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "29.00",
+          "text_ru": "29.00"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "68.65",
+          "text_ru": "68.65"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "r_XY = Cov(X,Y) / (σ_X × σ_Y). Given: r = 0.7, Cov = 29, σ_Y = √25 = 5. Solving: 0.7 = 29 / (σ_X × 5) → σ_X = 29 / (0.7 × 5) = 8.2857. Variance of X = σ_X² = 8.2857² = 68.65",
+      "explanation_ru": "r_XY = Cov(X,Y) / (σ_X × σ_Y). Дано: r = 0.7, Cov = 29, σ_Y = √25 = 5. Решение: 0.7 = 29 / (σ_X × 5) → σ_X = 29 / (0.7 × 5) = 8.2857. Дисперсия X = σ_X² = 8.2857² = 68.65",
+      "explanation_formula": "$r_{XY} = \\frac{Cov(X,Y)}{\\sigma_X \\times \\sigma_Y}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This is the standard deviation of X, not the variance.",
+          "text_ru": "Неверно. Это стандартное отклонение X, а не дисперсия."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. This is the covariance value, not the variance of X.",
+          "text_ru": "Неверно. Это значение ковариации, а не дисперсия X."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Direct Calculation",
+        "steps_en": [
+          "σ_Y = √25 = 5",
+          "σ_X = 29 / (0.7 × 5) = 29 / 3.5 = 8.2857",
+          "Var(X) = 8.2857² = 68.65"
+        ],
+        "steps_ru": [
+          "σ_Y = √25 = 5",
+          "σ_X = 29 / (0.7 × 5) = 29 / 3.5 = 8.2857",
+          "Var(X) = 8.2857² = 68.65"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": [
+        "correlation",
+        "covariance",
+        "variance"
+      ]
+    },
+    {
+      "question_id": "QM-3-Q028",
+      "original_question_number": 3444,
+      "los_id": "LOS_3c",
+      "question_text_en": "A distribution that is more peaked than the normal distribution with fatter tails is most likely described as:",
+      "question_text_ru": "Распределение, которое имеет более острый пик, чем нормальное распределение, с более толстыми хвостами, наиболее вероятно описывается как:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Leptokurtic",
+          "text_ru": "Лептокуртическое"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Platykurtic",
+          "text_ru": "Платикуртическое"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Mesokurtic",
+          "text_ru": "Мезокуртическое"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "A leptokurtic distribution is more peaked than the normal distribution with fat tails. The coefficient of kurtosis is usually more than 3 (positive excess kurtosis). The higher peak results from the clustering of data points along the x-axis.",
+      "explanation_ru": "Лептокуртическое распределение имеет более острый пик, чем нормальное распределение, с толстыми хвостами. Коэффициент эксцесса обычно больше 3 (положительный избыточный эксцесс). Более высокий пик возникает из-за кластеризации точек данных вдоль оси x.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. A platykurtic distribution is flatter than normal with thin tails (negative excess kurtosis).",
+          "text_ru": "Неверно. Платикуртическое распределение более плоское, чем нормальное, с тонкими хвостами (отрицательный избыточный эксцесс)."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. A mesokurtic distribution has the same kurtosis as a normal distribution (excess kurtosis = 0).",
+          "text_ru": "Неверно. Мезокуртическое распределение имеет такой же эксцесс, как нормальное распределение (избыточный эксцесс = 0)."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "kurtosis",
+        "leptokurtic",
+        "distribution_shape"
+      ]
+    },
+    {
+      "question_id": "QM-3-Q029",
+      "original_question_number": 3445,
+      "los_id": "LOS_3d",
+      "question_text_en": "Which of the following statements about correlation is least likely accurate?",
+      "question_text_ru": "Какое из следующих утверждений о корреляции наименее вероятно является точным?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Correlation ranges between -1 and +1.",
+          "text_ru": "Корреляция находится в диапазоне от -1 до +1."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "A correlation of 0 indicates no relationship between two variables.",
+          "text_ru": "Корреляция 0 указывает на отсутствие связи между двумя переменными."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "A correlation of +1 indicates a perfect positive linear relationship.",
+          "text_ru": "Корреляция +1 указывает на совершенную положительную линейную связь."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "A correlation of 0 indicates no LINEAR relationship between variables, but there may still be a strong nonlinear relationship. Two variables can have very low correlation despite having a strong nonlinear relationship.",
+      "explanation_ru": "Корреляция 0 указывает на отсутствие ЛИНЕЙНОЙ связи между переменными, но может существовать сильная нелинейная связь. Две переменные могут иметь очень низкую корреляцию, несмотря на сильную нелинейную связь.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This is a true statement. Correlation always ranges between -1 and +1.",
+          "text_ru": "Неверно. Это правильное утверждение. Корреляция всегда находится в диапазоне от -1 до +1."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This is a true statement. A correlation of +1 indicates a perfect positive linear relationship.",
+          "text_ru": "Неверно. Это правильное утверждение. Корреляция +1 указывает на совершенную положительную линейную связь."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "correlation",
+        "linear_relationship",
+        "nonlinear_relationship"
+      ]
+    },
+    {
+      "question_id": "QM-3-Q030",
+      "original_question_number": 3446,
+      "los_id": "LOS_3b",
+      "question_text_en": "An analyst is comparing two investment options. Investment A has a mean return of 8% with a standard deviation of 4%. Investment B has a mean return of 12% with a standard deviation of 8%. Which investment has less risk per unit of return?",
+      "question_text_ru": "Аналитик сравнивает два инвестиционных варианта. Инвестиция A имеет среднюю доходность 8% со стандартным отклонением 4%. Инвестиция B имеет среднюю доходность 12% со стандартным отклонением 8%. Какая инвестиция имеет меньший риск на единицу доходности?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Investment A",
+          "text_ru": "Инвестиция A"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Investment B",
+          "text_ru": "Инвестиция B"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Both have equal risk per unit of return",
+          "text_ru": "Обе имеют одинаковый риск на единицу доходности"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "CV_A = 4%/8% = 0.5. CV_B = 8%/12% = 0.667. Investment A has a lower coefficient of variation, meaning less risk per unit of return.",
+      "explanation_ru": "CV_A = 4%/8% = 0.5. CV_B = 8%/12% = 0.667. Инвестиция A имеет более низкий коэффициент вариации, что означает меньший риск на единицу доходности.",
+      "explanation_formula": "$CV = \\frac{\\sigma}{\\bar{X}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Investment B has CV = 0.667, which is higher than Investment A's CV = 0.5, meaning more risk per unit of return.",
+          "text_ru": "Неверно. Инвестиция B имеет CV = 0.667, что выше, чем CV инвестиции A = 0.5, что означает больший риск на единицу доходности."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The CVs are different: CV_A = 0.5 and CV_B = 0.667.",
+          "text_ru": "Неверно. Коэффициенты вариации различаются: CV_A = 0.5 и CV_B = 0.667."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "coefficient_of_variation",
+        "risk_comparison",
+        "investment_analysis"
       ]
     }
   ]
