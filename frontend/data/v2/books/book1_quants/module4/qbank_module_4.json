@@ -7,7 +7,7 @@
     "module_id": 4,
     "module_name": "Probability Trees and Conditional Expectations",
     "module_name_ru": "Деревья вероятностей и условные ожидания",
-    "total_questions": 10,
+    "total_questions": 20,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -361,6 +361,382 @@
       "calculator_keystrokes": null,
       "difficulty": "medium",
       "topic_tags": ["total_probability_rule", "probability_tree"]
+    },
+    {
+      "question_id": "QM-4-Q011",
+      "original_question_number": 2720,
+      "los_id": "LOS_4a",
+      "question_text_en": "An analyst at Hampton Investments Company is calculating the expected value dividend to be received on Healthcare Co. shares. As an analyst, using the forecasts of different analysts and their probabilities given in the following table, the estimated value of Healthcare's dividend is closest to:",
+      "question_text_ru": "Аналитик Hampton Investments Company рассчитывает ожидаемую стоимость дивидендов по акциям Healthcare Co. Используя прогнозы различных аналитиков и их вероятности, указанные в следующей таблице, расчётная стоимость дивидендов Healthcare ближе всего к:",
+      "has_table": true,
+      "table_data": {
+        "headers": ["Analysts", "Dividend Forecast", "Probability"],
+        "headers_ru": ["Аналитики", "Прогноз дивидендов", "Вероятность"],
+        "rows": [
+          ["PICO", "$1.80", "0.27"],
+          ["Stock Ninja", "$8.60", "0.10"],
+          ["Hermes Smith", "$5.00", "0.09"],
+          ["John Kenen", "$2.22", "0.35"],
+          ["Hira Ahmed", "$0.95", "0.19"]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "$0.55", "text_ru": "$0.55"},
+        {"id": "opt_b", "text_en": "$0.86", "text_ru": "$0.86"},
+        {"id": "opt_c", "text_en": "$2.75", "text_ru": "$2.75"}
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "To solve this problem, we multiply the expected dividend by the probability: PICO: 1.80 × 0.27 = $0.49; Stock Ninja: 8.60 × 0.10 = $0.86; Hermes Smith: 5.00 × 0.09 = $0.45; John Kenen: 2.22 × 0.35 = $0.78; Hira Ahmed: 0.95 × 0.19 = $0.18. Sum = $0.49 + $0.86 + $0.45 + $0.78 + $0.18 = $2.75",
+      "explanation_ru": "Для решения умножаем ожидаемые дивиденды на вероятность: PICO: 1.80 × 0.27 = $0.49; Stock Ninja: 8.60 × 0.10 = $0.86; Hermes Smith: 5.00 × 0.09 = $0.45; John Kenen: 2.22 × 0.35 = $0.78; Hira Ahmed: 0.95 × 0.19 = $0.18. Сумма = $0.49 + $0.86 + $0.45 + $0.78 + $0.18 = $2.75",
+      "explanation_formula": "$E[X] = \\sum_{i=1}^{n} x_i \\cdot P(x_i)$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This is an average of the expected value of the dividends, i.e., 2.75/5 = 0.55.",
+          "text_ru": "Неверно. Это среднее значение ожидаемых дивидендов, т.е. 2.75/5 = 0.55."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. This is the expected dividend value for Stock Ninja only (8.60 × 0.10 = 0.86).",
+          "text_ru": "Неверно. Это ожидаемое значение дивидендов только для Stock Ninja (8.60 × 0.10 = 0.86)."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["expected_value", "probability"]
+    },
+    {
+      "question_id": "QM-4-Q012",
+      "original_question_number": 2721,
+      "los_id": "LOS_4b",
+      "question_text_en": "If event C and event D are mutually exclusive, then which of the following statements is the least likely appropriate?",
+      "question_text_ru": "Если события C и D взаимоисключающие, то какое из следующих утверждений с наименьшей вероятностью является верным?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "Event D could not occur.", "text_ru": "Событие D не может произойти."},
+        {"id": "opt_b", "text_en": "Only event C could occur.", "text_ru": "Может произойти только событие C."},
+        {"id": "opt_c", "text_en": "Event C and D could occur together.", "text_ru": "События C и D могут произойти вместе."}
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "If the two events are mutually exclusive, then they can never occur together. Therefore, the statement that event C and D could occur together is least appropriate.",
+      "explanation_ru": "Если два события взаимоисключающие, они никогда не могут произойти вместе. Поэтому утверждение о том, что события C и D могут произойти вместе, наименее корректно.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect (this could be true). If event C occurs, then event D will not occur.",
+          "text_ru": "Неверно (это может быть правдой). Если событие C происходит, то событие D не произойдёт."
+        },
+        "opt_b": {
+          "text_en": "Incorrect (this could be true). Mutually exclusive events cannot both occur at the same time. Event C could occur if event D does not occur.",
+          "text_ru": "Неверно (это может быть правдой). Взаимоисключающие события не могут произойти одновременно. Событие C может произойти, если событие D не происходит."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["mutually_exclusive_events", "probability_concepts"]
+    },
+    {
+      "question_id": "QM-4-Q013",
+      "original_question_number": 2722,
+      "los_id": "LOS_4a",
+      "question_text_en": "Assume you are a financial analyst at an investment management firm where you're given the task to estimate the dispersion of a specific equity price around its forecasted value. As a financial analyst, the variance of equity value using the data provided in the following table is closest to:",
+      "question_text_ru": "Предположим, вы финансовый аналитик в инвестиционной управляющей компании, и вам поручено оценить дисперсию цены конкретной акции относительно её прогнозируемого значения. Дисперсия стоимости акции на основе данных из следующей таблицы ближе всего к:",
+      "has_table": true,
+      "table_data": {
+        "headers": ["Probability", "Equity Value"],
+        "headers_ru": ["Вероятность", "Стоимость акции"],
+        "rows": [
+          ["0.33", "$62.15"],
+          ["0.39", "$60.75"],
+          ["0.28", "$63.00"]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "0.495", "text_ru": "0.495"},
+        {"id": "opt_b", "text_en": "0.872", "text_ru": "0.872"},
+        {"id": "opt_c", "text_en": "0.934", "text_ru": "0.934"}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "First, calculate expected value: X̄ = 0.33 × 62.15 + 0.39 × 60.75 + 0.28 × 63.00 = 61.84. Then, Variance = 0.33(62.15 - 61.84)² + 0.39(60.75 - 61.84)² + 0.28(63 - 61.84)² = 0.33(0.0961) + 0.39(1.1881) + 0.28(1.3456) = 0.0317 + 0.4633 + 0.3768 = 0.872",
+      "explanation_ru": "Сначала рассчитаем ожидаемое значение: X̄ = 0.33 × 62.15 + 0.39 × 60.75 + 0.28 × 63.00 = 61.84. Затем, дисперсия = 0.33(62.15 - 61.84)² + 0.39(60.75 - 61.84)² + 0.28(63 - 61.84)² = 0.33(0.0961) + 0.39(1.1881) + 0.28(1.3456) = 0.0317 + 0.4633 + 0.3768 = 0.872",
+      "explanation_formula": "$Var(X) = \\sum_{i=1}^{n} P(X_i)(X_i - \\bar{X})^2$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This indicates the variance of the first two equity values only: 0.33(62.15 - 61.84) + 0.39(60.75 - 61.84) = 0.495.",
+          "text_ru": "Неверно. Это дисперсия только первых двух значений: 0.33(62.15 - 61.84) + 0.39(60.75 - 61.84) = 0.495."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This is the standard deviation: √0.872 = 0.934.",
+          "text_ru": "Неверно. Это стандартное отклонение: √0.872 = 0.934."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["variance", "expected_value", "probability"]
+    },
+    {
+      "question_id": "QM-4-Q014",
+      "original_question_number": 2723,
+      "los_id": "LOS_4a",
+      "question_text_en": "Assume you are an associate at an investment management firm where you're given the task to estimate the dispersion of a specific equity price around its forecasted value. The forecasted values and probabilities associated with them are given in the following table. Using the given data, the standard deviation is closest to:",
+      "question_text_ru": "Предположим, вы сотрудник инвестиционной управляющей компании, и вам поручено оценить дисперсию цены конкретной акции относительно её прогнозируемого значения. Прогнозируемые значения и связанные с ними вероятности указаны в следующей таблице. Используя данные, стандартное отклонение ближе всего к:",
+      "has_table": true,
+      "table_data": {
+        "headers": ["Probability", "Equity Value"],
+        "headers_ru": ["Вероятность", "Стоимость акции"],
+        "rows": [
+          ["0.33", "$62.15"],
+          ["0.39", "$60.75"],
+          ["0.28", "$63.00"]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "0.50", "text_ru": "0.50"},
+        {"id": "opt_b", "text_en": "0.87", "text_ru": "0.87"},
+        {"id": "opt_c", "text_en": "0.93", "text_ru": "0.93"}
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Variance = 0.33(62.15 - 61.84)² + 0.39(60.75 - 61.84)² + 0.28(63 - 61.84)² = 0.87. Standard deviation = √Variance = √0.87 = 0.93",
+      "explanation_ru": "Дисперсия = 0.33(62.15 - 61.84)² + 0.39(60.75 - 61.84)² + 0.28(63 - 61.84)² = 0.87. Стандартное отклонение = √Дисперсия = √0.87 = 0.93",
+      "explanation_formula": "$\\sigma = \\sqrt{Var(X)} = \\sqrt{0.87} = 0.93$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This indicates the variance of the first two equity values only.",
+          "text_ru": "Неверно. Это дисперсия только первых двух значений."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. This is the variance, not the standard deviation.",
+          "text_ru": "Неверно. Это дисперсия, а не стандартное отклонение."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["standard_deviation", "variance", "probability"]
+    },
+    {
+      "question_id": "QM-4-Q015",
+      "original_question_number": 2724,
+      "los_id": "LOS_4c",
+      "question_text_en": "Suppose there is a 65% probability that the Gross Domestic Product (GDP) of Trivia Land will grow this year. If the GDP grows, there is a 75% probability that the GDP will be $5.5 trillion and a 25% probability that the GDP will be $5.1 trillion. On the other hand, there is a 35% probability that the GDP will fall, and if it falls, there is a 55% probability that the GDP will be $4.7 trillion and only a 45% probability that the GDP will be $4.0 trillion. Using the given assumptions, the unconditional probability that the expected GDP will be $4.0 trillion is closest to:",
+      "question_text_ru": "Предположим, что вероятность роста ВВП Trivia Land в этом году составляет 65%. Если ВВП вырастет, есть 75% вероятность, что ВВП составит $5.5 трлн, и 25% вероятность, что ВВП составит $5.1 трлн. С другой стороны, есть 35% вероятность падения ВВП, и если он упадёт, есть 55% вероятность, что ВВП составит $4.7 трлн, и только 45% вероятность, что ВВП составит $4.0 трлн. Используя данные предположения, безусловная вероятность того, что ожидаемый ВВП составит $4.0 трлн, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "15.75%", "text_ru": "15.75%"},
+        {"id": "opt_b", "text_en": "35%", "text_ru": "35%"},
+        {"id": "opt_c", "text_en": "45%", "text_ru": "45%"}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "There is only a 45% probability that the expected GDP will be $4.0 trillion, given that the GDP will fall. Therefore, the unconditional probability of GDP being $4.0 trillion = 35% × 45% = 0.1575 = 15.75%",
+      "explanation_ru": "Вероятность того, что ожидаемый ВВП составит $4.0 трлн при условии падения ВВП — 45%. Следовательно, безусловная вероятность ВВП $4.0 трлн = 35% × 45% = 0.1575 = 15.75%",
+      "explanation_formula": "$P(GDP = 4.0) = P(Fall) \\times P(4.0|Fall) = 0.35 \\times 0.45 = 0.1575$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This only indicates the probability that the GDP will fall.",
+          "text_ru": "Неверно. Это только вероятность падения ВВП."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This only indicates the probability that the expected GDP will be $4.0 trillion, given that the GDP will fall (conditional probability).",
+          "text_ru": "Неверно. Это только вероятность того, что ожидаемый ВВП составит $4.0 трлн при условии падения ВВП (условная вероятность)."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["unconditional_probability", "probability_tree"]
+    },
+    {
+      "question_id": "QM-4-Q016",
+      "original_question_number": 2725,
+      "los_id": "LOS_4c",
+      "question_text_en": "Suppose there is a 65% probability that the Gross Domestic Product (GDP) of Trivia Land will grow this year. If the GDP grows, there is a 75% probability that the GDP will be $5.5 trillion and a 25% probability that the GDP will be $5.1 trillion. On another hand, there is a 35% probability that the GDP will fall, and if it falls, there is a 55% probability that the GDP will be $4.7 trillion and only a 45% probability that the GDP will be $4.0 trillion. Using the given assumptions the expected GDP of Trivia Land given that the GDP will grow is closest:",
+      "question_text_ru": "Предположим, что вероятность роста ВВП Trivia Land в этом году составляет 65%. Если ВВП вырастет, есть 75% вероятность, что ВВП составит $5.5 трлн, и 25% вероятность, что ВВП составит $5.1 трлн. С другой стороны, есть 35% вероятность падения ВВП, и если он упадёт, есть 55% вероятность, что ВВП составит $4.7 трлн, и только 45% вероятность, что ВВП составит $4.0 трлн. Используя данные предположения, ожидаемый ВВП Trivia Land при условии роста ВВП ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "$5.40 trillion", "text_ru": "$5.40 трлн"},
+        {"id": "opt_b", "text_en": "$5.10 trillion", "text_ru": "$5.10 трлн"},
+        {"id": "opt_c", "text_en": "$5.50 trillion", "text_ru": "$5.50 трлн"}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The expected GDP if the GDP grows = 0.75 × ($5.5 trillion) + 0.25 × ($5.1 trillion) = $4.125 trillion + $1.275 trillion = $5.40 trillion",
+      "explanation_ru": "Ожидаемый ВВП при росте = 0.75 × ($5.5 трлн) + 0.25 × ($5.1 трлн) = $4.125 трлн + $1.275 трлн = $5.40 трлн",
+      "explanation_formula": "$E[GDP|Growth] = 0.75 \\times 5.5 + 0.25 \\times 5.1 = 5.40$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This indicates only the probability of a 25% chance of the GDP growth up to $5.1 trillion.",
+          "text_ru": "Неверно. Это только вероятность 25% роста ВВП до $5.1 трлн."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This indicates a 75% chance of GDP growing up to $5.5 trillion, not the expected value.",
+          "text_ru": "Неверно. Это 75% вероятность роста ВВП до $5.5 трлн, а не ожидаемое значение."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["conditional_expected_value", "probability_tree"]
+    },
+    {
+      "question_id": "QM-4-Q017",
+      "original_question_number": 2727,
+      "los_id": "LOS_4a",
+      "question_text_en": "Suppose there is a 65% probability that the Gross Domestic Product (GDP) of Trivia Land will grow this year. If the GDP grows, there is a 75% probability that the GDP will be $5.5 trillion and a 25% probability that the GDP will be $5.1 trillion. On the other hand, there is a 35% probability that the GDP will fall, and if it falls, there is a 55% probability that the GDP will be $4.7 trillion and only a 45% probability that the GDP will be $4.0 trillion. Using the given assumptions, the conditional variance of GDP in the environment where the GDP is expected to grow is closest to:",
+      "question_text_ru": "Предположим, что вероятность роста ВВП Trivia Land в этом году составляет 65%. Если ВВП вырастет, есть 75% вероятность, что ВВП составит $5.5 трлн, и 25% вероятность, что ВВП составит $5.1 трлн. С другой стороны, есть 35% вероятность падения ВВП, и если он упадёт, есть 55% вероятность, что ВВП составит $4.7 трлн, и только 45% вероятность, что ВВП составит $4.0 трлн. Используя данные предположения, условная дисперсия ВВП в среде ожидаемого роста ВВП ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "0.03", "text_ru": "0.03"},
+        {"id": "opt_b", "text_en": "0.04", "text_ru": "0.04"},
+        {"id": "opt_c", "text_en": "0.173", "text_ru": "0.173"}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Expected GDP in GDP growth environment = 0.75($5.5) + 0.25($5.1) = $5.4 trillion. Variance = 0.75(5.5 - 5.4)² + 0.25(5.1 - 5.4)² = 0.75(0.01) + 0.25(0.09) = 0.0075 + 0.0225 = 0.03",
+      "explanation_ru": "Ожидаемый ВВП в среде роста = 0.75($5.5) + 0.25($5.1) = $5.4 трлн. Дисперсия = 0.75(5.5 - 5.4)² + 0.25(5.1 - 5.4)² = 0.75(0.01) + 0.25(0.09) = 0.0075 + 0.0225 = 0.03",
+      "explanation_formula": "$Var = 0.75(5.5 - 5.4)^2 + 0.25(5.1 - 5.4)^2 = 0.03$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This indicates the variance assuming the GDP falls, not grows.",
+          "text_ru": "Неверно. Это дисперсия при условии падения ВВП, а не роста."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This is the resulting standard deviation of the GDP in the GDP growth environment (√0.03 = 0.173).",
+          "text_ru": "Неверно. Это стандартное отклонение ВВП в среде роста (√0.03 = 0.173)."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["conditional_variance", "probability_tree", "variance"]
+    },
+    {
+      "question_id": "QM-4-Q018",
+      "original_question_number": 3438,
+      "los_id": "LOS_4b",
+      "question_text_en": "At the University of Alabama, a portfolio management test has ten questions, and each question has four option choices, out of which only one is correct. James Sigh selects a random option for each of the ten questions. The probability that all his answers are correct is closest to:",
+      "question_text_ru": "В Университете Алабамы тест по управлению портфелем содержит десять вопросов, и каждый вопрос имеет четыре варианта ответа, из которых только один правильный. Джеймс Сай выбирает случайный вариант для каждого из десяти вопросов. Вероятность того, что все его ответы правильные, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "(1/4)^10", "text_ru": "(1/4)^10"},
+        {"id": "opt_b", "text_en": "(1/10)^4", "text_ru": "(1/10)^4"},
+        {"id": "opt_c", "text_en": "1/4", "text_ru": "1/4"}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The number of ways in which the test can be answered is 4^10. The number of ways in which all correct options can be selected is 1. Therefore, the probability of all correct answers = (1/4)^10.",
+      "explanation_ru": "Количество способов ответить на тест — 4^10. Количество способов выбрать все правильные варианты — 1. Следовательно, вероятность всех правильных ответов = (1/4)^10.",
+      "explanation_formula": "$P(all\\ correct) = \\left(\\frac{1}{4}\\right)^{10}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This is the inverse of the probability of all the correct answers, using wrong base and exponent.",
+          "text_ru": "Неверно. Это обратная величина вероятности всех правильных ответов с неправильными основанием и показателем степени."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This does not include the power of 10, only considering one question.",
+          "text_ru": "Неверно. Не включает степень 10, учитывая только один вопрос."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["independent_events", "multiplication_rule", "probability"]
+    },
+    {
+      "question_id": "QM-4-Q019",
+      "original_question_number": 3445,
+      "los_id": "LOS_4b",
+      "question_text_en": "Box A contains 20 red balls, while Box B contains 10 white balls. A box is randomly selected, and a ball is drawn out. The probability that the ball is white is closest to:",
+      "question_text_ru": "Коробка A содержит 20 красных шаров, а коробка B содержит 10 белых шаров. Случайным образом выбирается коробка, и из неё достаётся шар. Вероятность того, что шар белый, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "0.33", "text_ru": "0.33"},
+        {"id": "opt_b", "text_en": "0.50", "text_ru": "0.50"},
+        {"id": "opt_c", "text_en": "0.67", "text_ru": "0.67"}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Probability of selecting box B = 1/2. Once Box B is selected, the probability of picking up a white ball = 1 (since all balls within box B are white). P(selecting white ball) = 1/2 × 1 = 1/2 = 0.50",
+      "explanation_ru": "Вероятность выбора коробки B = 1/2. После выбора коробки B вероятность достать белый шар = 1 (так как все шары в коробке B белые). P(белый шар) = 1/2 × 1 = 1/2 = 0.50",
+      "explanation_formula": "$P(white) = P(B) \\times P(white|B) = \\frac{1}{2} \\times 1 = 0.50$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This assumes one chance in thirty that a white ball will be drawn (10/30 = 0.33), ignoring the box selection probability.",
+          "text_ru": "Неверно. Предполагает один шанс из тридцати достать белый шар (10/30 = 0.33), игнорируя вероятность выбора коробки."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This assumes two chances in thirty that a red ball will be drawn (20/30 = 0.67), which is the probability of red, not white.",
+          "text_ru": "Неверно. Предполагает два шанса из тридцати достать красный шар (20/30 = 0.67), что является вероятностью красного, а не белого."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["conditional_probability", "probability_tree"]
+    },
+    {
+      "question_id": "QM-4-Q020",
+      "original_question_number": 3451,
+      "los_id": "LOS_4c",
+      "question_text_en": "Three events (A, B, and C) are independent of each other. The probability of occurrences of each event is 0.30, 0.25, and 0.20, respectively. The probability that all the events occur simultaneously is closest to:",
+      "question_text_ru": "Три события (A, B и C) независимы друг от друга. Вероятности наступления каждого события составляют 0.30, 0.25 и 0.20 соответственно. Вероятность того, что все события произойдут одновременно, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "0.015", "text_ru": "0.015"},
+        {"id": "opt_b", "text_en": "0.735", "text_ru": "0.735"},
+        {"id": "opt_c", "text_en": "0.750", "text_ru": "0.750"}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "As the events are independent of each other, the probability that all the events occur simultaneously is: P(all occurs simultaneously) = 0.30 × 0.25 × 0.20 = 0.015",
+      "explanation_ru": "Поскольку события независимы друг от друга, вероятность того, что все события произойдут одновременно: P(все одновременно) = 0.30 × 0.25 × 0.20 = 0.015",
+      "explanation_formula": "$P(A \\cap B \\cap C) = P(A) \\times P(B) \\times P(C) = 0.30 \\times 0.25 \\times 0.20 = 0.015$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This indicates the probability of either one event occurring: P(A or B or C) = (0.30 + 0.25 + 0.20) - (0.30 × 0.25 × 0.20) = 0.735.",
+          "text_ru": "Неверно. Это вероятность наступления хотя бы одного события: P(A или B или C) = (0.30 + 0.25 + 0.20) - (0.30 × 0.25 × 0.20) = 0.735."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This is the total sum of all the probabilities: 0.30 + 0.25 + 0.20 = 0.750.",
+          "text_ru": "Неверно. Это сумма всех вероятностей: 0.30 + 0.25 + 0.20 = 0.750."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["independent_events", "joint_probability", "multiplication_rule"]
     }
   ]
 }
