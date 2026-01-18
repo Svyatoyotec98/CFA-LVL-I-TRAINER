@@ -7,7 +7,7 @@
     "module_id": 4,
     "module_name": "Probability Trees and Conditional Expectations",
     "module_name_ru": "Деревья вероятностей и условные ожидания",
-    "total_questions": 20,
+    "total_questions": 30,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -737,6 +737,383 @@
       "calculator_keystrokes": null,
       "difficulty": "easy",
       "topic_tags": ["independent_events", "joint_probability", "multiplication_rule"]
+    },
+    {
+      "question_id": "QM-4-Q021",
+      "original_question_number": 3452,
+      "los_id": "LOS_4c",
+      "question_text_en": "An equity analyst tracks a stock and has forecasted the price of stocks under various conditions, as given in the following exhibit. Given that the stock index fell in March 2016, the probability that the price of the stock increased is closest to:",
+      "question_text_ru": "Аналитик по акциям отслеживает акцию и спрогнозировал цену акций при различных условиях, как показано в следующей таблице. При условии, что фондовый индекс упал в марте 2016 года, вероятность того, что цена акции выросла, ближе всего к:",
+      "has_table": true,
+      "table_data": {
+        "headers": ["Event", "Probability"],
+        "headers_ru": ["Событие", "Вероятность"],
+        "rows": [
+          ["The stock index rises", "40%"],
+          ["The stock index falls", "60%"],
+          ["The price of the stock increases given that the stock index rises", "20%"],
+          ["The price of the stock increases", "40%"]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "0.20", "text_ru": "0.20"},
+        {"id": "opt_b", "text_en": "0.53", "text_ru": "0.53"},
+        {"id": "opt_c", "text_en": "0.60", "text_ru": "0.60"}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Using the total probability rule: P(A) = P(A|X1)*P(X1) + P(A|X2)*P(X2). Let A = stock price increases, X1 = stock index rises, X2 = stock index falls. P(A) = P(A|X1)*P(X1) + P(A|X2)*P(X2). 0.40 = 0.20 * 0.40 + P(A|X2) * 0.60. 0.40 = 0.08 + P(A|X2)*0.60. P(A|X2) = 0.32/0.60 = 0.53 = 53%",
+      "explanation_ru": "Используя правило полной вероятности: P(A) = P(A|X1)*P(X1) + P(A|X2)*P(X2). Пусть A = цена акции растёт, X1 = индекс растёт, X2 = индекс падает. P(A) = P(A|X1)*P(X1) + P(A|X2)*P(X2). 0.40 = 0.20 * 0.40 + P(A|X2) * 0.60. 0.40 = 0.08 + P(A|X2)*0.60. P(A|X2) = 0.32/0.60 = 0.53 = 53%",
+      "explanation_formula": "$P(A|X_2) = \\frac{P(A) - P(A|X_1)P(X_1)}{P(X_2)} = \\frac{0.40 - 0.08}{0.60} = 0.53$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This is the probability that the price of the stock increases, given that the stock index rises.",
+          "text_ru": "Неверно. Это вероятность того, что цена акции вырастет при условии, что индекс растёт."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This is the probability that the stock index falls.",
+          "text_ru": "Неверно. Это вероятность того, что фондовый индекс упадёт."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": ["total_probability_rule", "conditional_probability", "bayes"]
+    },
+    {
+      "question_id": "QM-4-Q022",
+      "original_question_number": 3456,
+      "los_id": "LOS_4c",
+      "question_text_en": "The research team of an investment bank makes the following predictions. The probability that the stock market will rise, irrespective of a rate cut or not, is closest to:",
+      "question_text_ru": "Исследовательская группа инвестиционного банка делает следующие прогнозы. Вероятность того, что фондовый рынок вырастет, независимо от снижения ставки, ближе всего к:",
+      "has_table": true,
+      "table_data": {
+        "headers": ["Scenario", "Sub Event", "Probability"],
+        "headers_ru": ["Сценарий", "Подсобытие", "Вероятность"],
+        "rows": [
+          ["Rate cut by the central bank (Probability 60%)", "Stock market rises", "70%"],
+          ["Rate cut by the central bank (Probability 60%)", "Stock market falls", "30%"],
+          ["No rate cut by the central bank (Probability 40%)", "Stock market rises", "40%"],
+          ["No rate cut by the central bank (Probability 40%)", "Stock market falls", "60%"]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "42%", "text_ru": "42%"},
+        {"id": "opt_b", "text_en": "58%", "text_ru": "58%"},
+        {"id": "opt_c", "text_en": "82%", "text_ru": "82%"}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Using the total probability rule: P(stock market increase) = P(stock market increase|rate cut) × P(rate cut) + P(stock market increase|no rate cut) × P(no rate cut) = 0.70 × 0.60 + 0.40 × 0.40 = 0.42 + 0.16 = 0.58 = 58%",
+      "explanation_ru": "Используя правило полной вероятности: P(рост рынка) = P(рост|снижение ставки) × P(снижение ставки) + P(рост|без снижения) × P(без снижения) = 0.70 × 0.60 + 0.40 × 0.40 = 0.42 + 0.16 = 0.58 = 58%",
+      "explanation_formula": "$P(rise) = 0.70 \\times 0.60 + 0.40 \\times 0.40 = 0.58$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This is the probability that the stock market will fall irrespective of a rate cut or not: P(fall) = (0.3 × 0.6) + (0.6 × 0.4) = 0.42 = 42%.",
+          "text_ru": "Неверно. Это вероятность падения рынка независимо от снижения ставки: P(падение) = (0.3 × 0.6) + (0.6 × 0.4) = 0.42 = 42%."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This incorrectly uses the addition rule: P(rise) = (0.7 + 0.4) - (0.7 × 0.4) = 0.82 = 82%.",
+          "text_ru": "Неверно. Это неправильно использует правило сложения: P(рост) = (0.7 + 0.4) - (0.7 × 0.4) = 0.82 = 82%."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["total_probability_rule", "probability_tree"]
+    },
+    {
+      "question_id": "QM-4-Q023",
+      "original_question_number": 3459,
+      "los_id": "LOS_4c",
+      "question_text_en": "A portfolio manager has the mandate of creating portfolios by including two pharmaceutical stocks and one engineering stock. If the portfolio manager has the option to select from ten pharmaceutical and four engineering stocks, respectively, then the maximum number of portfolios that can be created is closest to:",
+      "question_text_ru": "Портфельный управляющий имеет мандат на создание портфелей, включающих две фармацевтические акции и одну инженерную акцию. Если портфельный управляющий может выбирать из десяти фармацевтических и четырёх инженерных акций соответственно, то максимальное количество портфелей, которые можно создать, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "180", "text_ru": "180"},
+        {"id": "opt_b", "text_en": "270", "text_ru": "270"},
+        {"id": "opt_c", "text_en": "360", "text_ru": "360"}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "This is a combination counting problem. The number of ways to select 2 pharmaceutical stocks from 10: 10C2 = 45. The number of ways to select 1 engineering stock from 4: 4C1 = 4. Total number of portfolios = 45 × 4 = 180.",
+      "explanation_ru": "Это задача на комбинации. Количество способов выбрать 2 фармацевтические акции из 10: 10C2 = 45. Количество способов выбрать 1 инженерную акцию из 4: 4C1 = 4. Общее количество портфелей = 45 × 4 = 180.",
+      "explanation_formula": "$_{10}C_2 \\times _4C_1 = 45 \\times 4 = 180$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This results from 10C2 × 4C2 = 45 × 6 = 270, which incorrectly selects 2 engineering stocks instead of 1.",
+          "text_ru": "Неверно. Это результат 10C2 × 4C2 = 45 × 6 = 270, что неправильно выбирает 2 инженерные акции вместо 1."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This results from 10C3 × 3C1 = 120 × 3 = 360, which incorrectly selects 3 pharmaceutical stocks.",
+          "text_ru": "Неверно. Это результат 10C3 × 3C1 = 120 × 3 = 360, что неправильно выбирает 3 фармацевтические акции."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": "Press 10, then press 2ND + (nCr), then press 2 to get 45. Press 4, then press 2ND + (nCr), then press 1 to get 4. Multiply: 45 × 4 = 180.",
+      "difficulty": "medium",
+      "topic_tags": ["combinations", "counting"]
+    },
+    {
+      "question_id": "QM-4-Q024",
+      "original_question_number": 3463,
+      "los_id": "LOS_4c",
+      "question_text_en": "An equity research analyst forecasts the share price of Equidor Inc.'s stock and the probability of achieving the price target. The forecast made by the analyst is given in the following exhibit. The variance of Equidor Inc.'s stock price is closest to:",
+      "question_text_ru": "Аналитик по акциям прогнозирует цену акций Equidor Inc. и вероятность достижения целевой цены. Прогноз аналитика представлен в следующей таблице. Дисперсия цены акций Equidor Inc. ближе всего к:",
+      "has_table": true,
+      "table_data": {
+        "headers": ["Probability", "Share Price"],
+        "headers_ru": ["Вероятность", "Цена акции"],
+        "rows": [
+          ["20%", "$32.00"],
+          ["25%", "$28.00"],
+          ["40%", "$34.00"],
+          ["15%", "$40.00"]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "3.77", "text_ru": "3.77"},
+        {"id": "opt_b", "text_en": "14.20", "text_ru": "14.20"},
+        {"id": "opt_c", "text_en": "33.00", "text_ru": "33.00"}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "First, calculate expected value: E(X) = 0.20×32 + 0.25×28 + 0.40×34 + 0.15×40 = 6.4 + 7 + 13.6 + 6 = 33. Then, Var(X) = 0.20(32-33)² + 0.25(28-33)² + 0.40(34-33)² + 0.15(40-33)² = 0.20(1) + 0.25(25) + 0.40(1) + 0.15(49) = 0.20 + 6.25 + 0.40 + 7.35 = 14.20",
+      "explanation_ru": "Сначала рассчитаем ожидаемое значение: E(X) = 0.20×32 + 0.25×28 + 0.40×34 + 0.15×40 = 6.4 + 7 + 13.6 + 6 = 33. Затем, Var(X) = 0.20(32-33)² + 0.25(28-33)² + 0.40(34-33)² + 0.15(40-33)² = 0.20(1) + 0.25(25) + 0.40(1) + 0.15(49) = 0.20 + 6.25 + 0.40 + 7.35 = 14.20",
+      "explanation_formula": "$Var(X) = \\sum P(x)[X - E(X)]^2 = 14.20$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This is the standard deviation: √14.20 = 3.77.",
+          "text_ru": "Неверно. Это стандартное отклонение: √14.20 = 3.77."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This is the expected value of the share price.",
+          "text_ru": "Неверно. Это ожидаемое значение цены акции."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["variance", "expected_value", "probability"]
+    },
+    {
+      "question_id": "QM-4-Q025",
+      "original_question_number": 3488,
+      "los_id": "LOS_4c",
+      "question_text_en": "The probabilities that Bond A and Bond X will default in the next two years are 10% and 8%, respectively. The probability that both bonds will default simultaneously in the next two years is 5%. The probability that Bond A will default given that Bond X has already defaulted is closest to:",
+      "question_text_ru": "Вероятности того, что облигация A и облигация X объявят дефолт в течение следующих двух лет, составляют 10% и 8% соответственно. Вероятность того, что обе облигации объявят дефолт одновременно в течение следующих двух лет, составляет 5%. Вероятность того, что облигация A объявит дефолт при условии, что облигация X уже объявила дефолт, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "10%", "text_ru": "10%"},
+        {"id": "opt_b", "text_en": "17.2%", "text_ru": "17.2%"},
+        {"id": "opt_c", "text_en": "62.5%", "text_ru": "62.5%"}
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "P(X) = 8%, P(A) = 10%, P(X ∩ A) = 5%. Using conditional probability: P(A|X) = P(A ∩ X)/P(X) = 5%/8% = 62.5%",
+      "explanation_ru": "P(X) = 8%, P(A) = 10%, P(X ∩ A) = 5%. Используя условную вероятность: P(A|X) = P(A ∩ X)/P(X) = 5%/8% = 62.5%",
+      "explanation_formula": "$P(A|X) = \\frac{P(A \\cap X)}{P(X)} = \\frac{0.05}{0.08} = 0.625$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This assumes P(AX) = (0.1/0.08) × 0.08 = 0.1 = 10%, which incorrectly applies the multiplication rule.",
+          "text_ru": "Неверно. Предполагает P(AX) = (0.1/0.08) × 0.08 = 0.1 = 10%, что неправильно применяет правило умножения."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. This uses the addition rule P(A or B) = (0.1 + 0.08) - (0.1 × 0.08) = 0.172 = 17.2%, which calculates the probability of at least one default.",
+          "text_ru": "Неверно. Использует правило сложения P(A или B) = (0.1 + 0.08) - (0.1 × 0.08) = 0.172 = 17.2%, что вычисляет вероятность хотя бы одного дефолта."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["conditional_probability", "joint_probability"]
+    },
+    {
+      "question_id": "QM-4-Q026",
+      "original_question_number": 3508,
+      "los_id": "LOS_4c",
+      "question_text_en": "An analyst covers the international bonds market. The probability that Italy defaults and Japan defaults are 0.01 and 0.02, respectively. Both events are independent of each other. The probability that Italy defaults given that Japan has already defaulted is closest to:",
+      "question_text_ru": "Аналитик покрывает международный рынок облигаций. Вероятности того, что Италия и Япония объявят дефолт, составляют 0.01 и 0.02 соответственно. Оба события независимы друг от друга. Вероятность того, что Италия объявит дефолт при условии, что Япония уже объявила дефолт, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "0.01", "text_ru": "0.01"},
+        {"id": "opt_b", "text_en": "0.03", "text_ru": "0.03"},
+        {"id": "opt_c", "text_en": "0.118", "text_ru": "0.118"}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Let P(A) = probability that Italy defaults and P(B) = probability that Japan defaults. As the events are independent, the probability of occurrence of one event does not affect the probability of the other. P(A|B) = P(AB)/P(B). Since events are independent: P(AB) = P(A) × P(B). Therefore P(A|B) = P(A) = 0.01.",
+      "explanation_ru": "Пусть P(A) = вероятность дефолта Италии и P(B) = вероятность дефолта Японии. Поскольку события независимы, вероятность одного события не влияет на другое. P(A|B) = P(AB)/P(B). Поскольку события независимы: P(AB) = P(A) × P(B). Следовательно, P(A|B) = P(A) = 0.01.",
+      "explanation_formula": "Для независимых событий: $P(A|B) = P(A) = 0.01$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This assumes the events are mutually exclusive: P(AB) = 0.01 + 0.02 = 0.03.",
+          "text_ru": "Неверно. Предполагает, что события взаимоисключающие: P(AB) = 0.01 + 0.02 = 0.03."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This uses the addition rule: P(A or B) = (0.1 + 0.02) - (0.1 × 0.02) = 0.118.",
+          "text_ru": "Неверно. Использует правило сложения: P(A или B) = (0.1 + 0.02) - (0.1 × 0.02) = 0.118."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["independent_events", "conditional_probability"]
+    },
+    {
+      "question_id": "QM-4-Q027",
+      "original_question_number": 3509,
+      "los_id": "LOS_4c",
+      "question_text_en": "An analyst covers two companies – Xela Ltd. and Yena Inc. Yena Inc. is a subsidiary of Xela. The probability that the return on equity (ROE) of Xela exceeds 20% this year is 0.10, while the probability that the ROE of Yena exceeds 30% is 0.05 for the same time period. If the probability that the ROE of Xela exceeds 20% and the ROE of Yena exceeds 30% is 0.02, then the probability that the ROE of Yena exceeds 30% given that the ROE of Xela has already exceeded 20% is closest to:",
+      "question_text_ru": "Аналитик покрывает две компании — Xela Ltd. и Yena Inc. Yena Inc. является дочерней компанией Xela. Вероятность того, что рентабельность собственного капитала (ROE) Xela превысит 20% в этом году, составляет 0.10, а вероятность того, что ROE Yena превысит 30% за тот же период — 0.05. Если вероятность того, что ROE Xela превысит 20% и ROE Yena превысит 30%, составляет 0.02, то вероятность того, что ROE Yena превысит 30% при условии, что ROE Xela уже превысила 20%, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "0.05", "text_ru": "0.05"},
+        {"id": "opt_b", "text_en": "0.10", "text_ru": "0.10"},
+        {"id": "opt_c", "text_en": "0.20", "text_ru": "0.20"}
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Event A: ROE of Xela exceeds 20%, Event B: ROE of Yena exceeds 30%. P(A) = 0.10, P(B) = 0.05, P(A and B) = 0.02. According to the conditional probability rule: P(B|A) = P(A and B)/P(A) = 0.02/0.10 = 0.20",
+      "explanation_ru": "Событие A: ROE Xela превышает 20%, Событие B: ROE Yena превышает 30%. P(A) = 0.10, P(B) = 0.05, P(A и B) = 0.02. Согласно правилу условной вероятности: P(B|A) = P(A и B)/P(A) = 0.02/0.10 = 0.20",
+      "explanation_formula": "$P(B|A) = \\frac{P(A \\cap B)}{P(A)} = \\frac{0.02}{0.10} = 0.20$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This is the unconditional probability that the ROE of Yena exceeds 30%.",
+          "text_ru": "Неверно. Это безусловная вероятность того, что ROE Yena превысит 30%."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. This is the probability that the return on equity (ROE) of Xela exceeds 20%.",
+          "text_ru": "Неверно. Это вероятность того, что ROE Xela превысит 20%."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["conditional_probability", "joint_probability"]
+    },
+    {
+      "question_id": "QM-4-Q028",
+      "original_question_number": 3715,
+      "los_id": "LOS_4c",
+      "question_text_en": "An empirical study of ABC stock listed on the New York Exchange reveals that the stock has closed higher on one-third of all days in the past few months. Given that up and down days are independent, the probability of ABC stock closing higher for six consecutive days is closest to:",
+      "question_text_ru": "Эмпирическое исследование акций ABC, котирующихся на Нью-Йоркской бирже, показывает, что акции закрывались выше в одну треть всех дней за последние несколько месяцев. При условии, что дни роста и падения независимы, вероятность того, что акции ABC закроются выше шесть дней подряд, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "0.00137", "text_ru": "0.00137"},
+        {"id": "opt_b", "text_en": "0.088", "text_ru": "0.088"},
+        {"id": "opt_c", "text_en": "0.776", "text_ru": "0.776"}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The probability of closing higher = 1/3. Using independence, the probability of 6 consecutive 'highs' = (1/3)^6 = 1/729 = 0.00137. (If A and B are independent events, then P(A ∩ B) = P(A) × P(B).)",
+      "explanation_ru": "Вероятность закрытия выше = 1/3. Используя независимость, вероятность 6 последовательных 'ростов' = (1/3)^6 = 1/729 = 0.00137. (Если A и B — независимые события, то P(A ∩ B) = P(A) × P(B).)",
+      "explanation_formula": "$P(6\\ consecutive\\ highs) = \\left(\\frac{1}{3}\\right)^6 = 0.00137$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This assumes the stock has NOT closed higher on one-third of all days: (2/3)^6 = 0.088.",
+          "text_ru": "Неверно. Предполагает, что акции НЕ закрывались выше в одну треть дней: (2/3)^6 = 0.088."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This uses the addition rule: P(A or B) = (0.33 + 0.67) - (0.33 × 0.67) = 0.776.",
+          "text_ru": "Неверно. Использует правило сложения: P(A или B) = (0.33 + 0.67) - (0.33 × 0.67) = 0.776."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["independent_events", "multiplication_rule"]
+    },
+    {
+      "question_id": "QM-4-Q029",
+      "original_question_number": 3716,
+      "los_id": "LOS_4c",
+      "question_text_en": "A fruit juice shop allows customers to choose apple juice, mango juice or passion juice. The probability of a customer ordering passion juice is 0.45, mango juice and apple juice 0.19, passion juice and mango juice 0.15, passion juice and apple juice 0.25, passion juice or mango juice 0.6, passion juice or apple juice 0.84, and 0.9 for at least one of them. The probability that a customer orders all three juices is closest to:",
+      "question_text_ru": "Магазин фруктовых соков позволяет покупателям выбирать яблочный сок, манговый сок или маракуйевый сок. Вероятность заказа маракуйевого сока — 0.45, мангового и яблочного — 0.19, маракуйевого и мангового — 0.15, маракуйевого и яблочного — 0.25, маракуйевого или мангового — 0.6, маракуйевого или яблочного — 0.84, и 0.9 для хотя бы одного из них. Вероятность того, что покупатель закажет все три сока, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "0.10", "text_ru": "0.10"},
+        {"id": "opt_b", "text_en": "0.30", "text_ru": "0.30"},
+        {"id": "opt_c", "text_en": "0.64", "text_ru": "0.64"}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Using the addition rule with three sets: P(A ∪ M ∪ S) = P(A) + P(M) + P(S) - P(M ∩ A) - P(M ∩ S) - P(A ∩ S) + P(A ∩ M ∩ S). From P(M ∪ S) = P(M) + P(S) - P(M ∩ S): P(M) = 0.6 + 0.15 - 0.45 = 0.3. From P(A ∪ S) = P(A) + P(S) - P(A ∩ S): P(A) = 0.84 - 0.45 + 0.25 = 0.64. Therefore: 0.9 = 0.64 + 0.3 + 0.45 - 0.19 - 0.15 - 0.25 + P(A ∩ M ∩ S). P(A ∩ M ∩ S) = 0.1",
+      "explanation_ru": "Используя правило сложения для трёх множеств: P(A ∪ M ∪ S) = P(A) + P(M) + P(S) - P(M ∩ A) - P(M ∩ S) - P(A ∩ S) + P(A ∩ M ∩ S). Из P(M ∪ S) = P(M) + P(S) - P(M ∩ S): P(M) = 0.6 + 0.15 - 0.45 = 0.3. Из P(A ∪ S) = P(A) + P(S) - P(A ∩ S): P(A) = 0.84 - 0.45 + 0.25 = 0.64. Следовательно: 0.9 = 0.64 + 0.3 + 0.45 - 0.19 - 0.15 - 0.25 + P(A ∩ M ∩ S). P(A ∩ M ∩ S) = 0.1",
+      "explanation_formula": "$P(A \\cap M \\cap S) = P(A \\cup M \\cup S) - P(A) - P(M) - P(S) + P(M \\cap A) + P(M \\cap S) + P(A \\cap S) = 0.10$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This is P(M) = P(M ∪ S) - P(S) + P(M ∩ S) = 0.6 - 0.45 + 0.15 = 0.3.",
+          "text_ru": "Неверно. Это P(M) = P(M ∪ S) - P(S) + P(M ∩ S) = 0.6 - 0.45 + 0.15 = 0.3."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This is P(A) = P(A ∪ S) - P(S) + P(A ∩ S) = 0.84 - 0.45 + 0.25 = 0.64.",
+          "text_ru": "Неверно. Это P(A) = P(A ∪ S) - P(S) + P(A ∩ S) = 0.84 - 0.45 + 0.25 = 0.64."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": ["addition_rule", "probability", "three_events"]
+    },
+    {
+      "question_id": "QM-4-Q030",
+      "original_question_number": 3729,
+      "los_id": "LOS_4c",
+      "question_text_en": "The punctuality of filing tax returns has been investigated by considering the number of citizens in different geographical regions. In the sample, 60% of respondents were from Africa, 20% Europe, and 20% South America. The probabilities of late filing of returns in Africa, Europe, and South America are 45%, 15%, and 20% respectively. If a late submitter is picked at random from the area under study, the probability that they are from Africa is closest to:",
+      "question_text_ru": "Пунктуальность подачи налоговых деклараций была исследована с учётом количества граждан в различных географических регионах. В выборке 60% респондентов были из Африки, 20% из Европы и 20% из Южной Америки. Вероятности поздней подачи деклараций в Африке, Европе и Южной Америке составляют 45%, 15% и 20% соответственно. Если случайно выбранный опоздавший подавший декларацию, вероятность того, что он из Африки, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "0.45", "text_ru": "0.45"},
+        {"id": "opt_b", "text_en": "0.7941", "text_ru": "0.7941"},
+        {"id": "opt_c", "text_en": "0.80", "text_ru": "0.80"}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Using Bayes' Theorem: P(A|L) = [P(A) × P(L|A)] / [P(A) × P(L|A) + P(E) × P(L|E) + P(S) × P(L|S)] = (0.6 × 0.45) / [(0.6 × 0.45) + (0.2 × 0.15) + (0.2 × 0.20)] = 0.27 / (0.27 + 0.03 + 0.04) = 0.27 / 0.34 = 0.7941",
+      "explanation_ru": "Используя теорему Байеса: P(A|L) = [P(A) × P(L|A)] / [P(A) × P(L|A) + P(E) × P(L|E) + P(S) × P(L|S)] = (0.6 × 0.45) / [(0.6 × 0.45) + (0.2 × 0.15) + (0.2 × 0.20)] = 0.27 / (0.27 + 0.03 + 0.04) = 0.27 / 0.34 = 0.7941",
+      "explanation_formula": "$P(Africa|Late) = \\frac{0.6 \\times 0.45}{(0.6 \\times 0.45) + (0.2 \\times 0.15) + (0.2 \\times 0.20)} = 0.7941$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This is the probability of late filing of returns in Africa, not the conditional probability.",
+          "text_ru": "Неверно. Это вероятность поздней подачи декларации в Африке, а не условная вероятность."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This assumes the events are mutually exclusive: P(Late submitter) = 0.45 + 0.15 + 0.20 = 0.80.",
+          "text_ru": "Неверно. Предполагает, что события взаимоисключающие: P(опоздавший) = 0.45 + 0.15 + 0.20 = 0.80."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": ["bayes_theorem", "conditional_probability"]
     }
   ]
 }
