@@ -8,6 +8,74 @@
 
 ---
 
+## 🛠️ ВАЛИДАТОР (ОБЯЗАТЕЛЬНО!)
+
+**Запускай валидатор ПЕРЕД КАЖДЫМ чекпоинтом:**
+
+```bash
+python frontend/data/v2/scripts/validate_qbank.py qbank_module_X.json --fix
+```
+
+### Что авто-исправляет:
+- ✅ `total_questions` (пересчитывает)
+- ✅ Дублирующиеся `question_id` (добавляет суффикс)
+- ✅ `has_table=true` без `table_data` (ставит false)
+- ✅ `requires_calculator=true` без `keystrokes` (ставит false)
+
+### Что требует ручного исправления:
+- ❌ JSON синтаксис
+- ❌ Пустые поля (question_text, explanation, options)
+- ❌ Недостающие переводы EN/RU
+- ❌ Неправильный `correct_option_id`
+
+**Workflow каждого чекпоинта:**
+```
+1. Добавить вопросы
+2. python scripts/validate_qbank.py file.json --fix
+3. Убедиться что 100% ✓
+4. git commit
+```
+
+**Путь к валидатору:** `scripts/validate_qbank.py`
+
+---
+
+# ============================================
+# ОБНОВИТЬ СЕКЦИЮ ЧЕКПОИНТОВ:
+# ============================================
+
+## Чекпоинт 1: Metadata + первые 10 вопросов
+
+1. Создай файл с metadata
+2. Добавь вопросы Q001-Q010
+3. **ВАЛИДАЦИЯ:** `python scripts/validate_qbank.py qbank_module_X.json --fix`
+4. Убедись что 100% ✓
+5. **GIT COMMIT:** `git add . && git commit -m "QBank Module X: checkpoint 1 - Q001-Q010"`
+
+## Чекпоинт 2: Вопросы 11-20
+
+1. Добавь вопросы Q011-Q020
+2. **ВАЛИДАЦИЯ:** `python scripts/validate_qbank.py qbank_module_X.json --fix`
+3. Убедись что 100% ✓
+4. **GIT COMMIT:** `git add . && git commit -m "QBank Module X: checkpoint 2 - Q011-Q020"`
+
+## Чекпоинт 3: Вопросы 21-30
+
+1. Добавь вопросы Q021-Q030
+2. **ВАЛИДАЦИЯ:** `python scripts/validate_qbank.py qbank_module_X.json --fix`
+3. Убедись что 100% ✓
+4. **GIT COMMIT:** `git add . && git commit -m "QBank Module X: checkpoint 3 - Q021-Q030"`
+
+## Чекпоинт 4: Финализация
+
+1. Добавь оставшиеся вопросы (Q031+)
+2. **ФИНАЛЬНАЯ ВАЛИДАЦИЯ:** `python scripts/validate_qbank.py qbank_module_X.json --fix`
+3. Убедись что 100% ✓
+4. **GIT COMMIT:** `git add . && git commit -m "QBank Module X: complete - N questions"`
+5. **GIT PUSH:** `git push`
+
+---
+
 ## Входные данные
 
 - **PDF файл:** `qbank.pdf` (загружается пользователем)

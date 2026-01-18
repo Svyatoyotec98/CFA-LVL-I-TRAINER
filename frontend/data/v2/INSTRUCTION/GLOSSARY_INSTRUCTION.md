@@ -20,6 +20,68 @@
 
 ---
 
+## 🛠️ ВАЛИДАТОР (ОБЯЗАТЕЛЬНО!)
+
+**Запускай валидатор ПЕРЕД КАЖДЫМ чекпоинтом:**
+
+```bash
+python frontend/data/v2/scripts/validate_glossary.py glossary_module_X.json --fix
+```
+
+### Что авто-исправляет:
+- ✅ `total_terms` (пересчитывает)
+- ✅ Дублирующиеся `term_id` (добавляет суффикс)
+
+### Что требует ручного исправления:
+- ❌ JSON синтаксис
+- ❌ Пустые поля (term_en, definition_en/ru)
+- ❌ Недостающие переводы EN/RU
+- ❌ Мало терминов (<10)
+
+### Проверки валидатора (9 штук):
+1. JSON синтаксис
+2. Metadata существует
+3. Обязательные поля metadata
+4. LOS массив существует
+5. Минимум 10 терминов
+6. Все термины имеют обязательные поля
+7. Уникальные term_id
+8. total_terms совпадает
+9. EN/RU определения различаются (не copy-paste)
+
+**Workflow каждого чекпоинта:**
+```
+1. Добавить термины
+2. python scripts/validate_glossary.py file.json --fix
+3. Убедиться что 100% ✓
+4. git commit
+```
+
+**Путь к валидатору:** `scripts/validate_glossary.py`
+
+---
+
+# ============================================
+# ОБНОВИТЬ СЕКЦИЮ ЧЕКПОИНТОВ (если есть):
+# ============================================
+
+## Чекпоинт N:
+
+1. Добавь термины для LOS_Xa - LOS_Xb
+2. **ВАЛИДАЦИЯ:** `python scripts/validate_glossary.py glossary_module_X.json --fix`
+3. Убедись что 100% ✓
+4. **GIT COMMIT:** `git add . && git commit -m "Glossary Module X: checkpoint N"`
+
+## Финальный чекпоинт:
+
+1. Добавь оставшиеся термины + exercises
+2. **ФИНАЛЬНАЯ ВАЛИДАЦИЯ:** `python scripts/validate_glossary.py glossary_module_X.json --fix`
+3. Убедись что 100% ✓
+4. **GIT COMMIT:** `git add . && git commit -m "Glossary Module X: complete - N terms"`
+5. **GIT PUSH:** `git push`
+
+---
+
 ## 📁 СТРУКТУРА ФАЙЛОВ
 
 ```
