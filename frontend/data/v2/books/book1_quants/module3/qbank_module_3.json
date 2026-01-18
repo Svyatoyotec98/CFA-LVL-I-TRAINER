@@ -7,7 +7,7 @@
     "module_id": 3,
     "module_name": "Statistical Measures of Asset Returns",
     "module_name_ru": "Статистические показатели доходности активов",
-    "total_questions": 30,
+    "total_questions": 34,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -2145,6 +2145,211 @@
         "coefficient_of_variation",
         "risk_comparison",
         "investment_analysis"
+      ]
+    },
+    {
+      "question_id": "QM-3-Q031",
+      "original_question_number": 3447,
+      "los_id": "LOS_3a",
+      "question_text_en": "A dataset contains the following values: {20%, 23%, 20%, 16%, 21%, 20%, 16%, 23%, 25%, 27%, 20%}. This dataset is most likely:",
+      "question_text_ru": "Набор данных содержит следующие значения: {20%, 23%, 20%, 16%, 21%, 20%, 16%, 23%, 25%, 27%, 20%}. Этот набор данных наиболее вероятно является:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Unimodal with mode = 20%",
+          "text_ru": "Унимодальным с модой = 20%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Bimodal with modes = 20% and 23%",
+          "text_ru": "Бимодальным с модами = 20% и 23%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Trimodal with modes = 16%, 20%, and 23%",
+          "text_ru": "Тримодальным с модами = 16%, 20% и 23%"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The mode is 20%. It occurs four times, a frequency higher than any other value in the dataset. The value 16% occurs twice, 23% occurs twice, and all other values occur once. Since 20% has the highest frequency, this dataset is unimodal.",
+      "explanation_ru": "Мода равна 20%. Она встречается четыре раза, что чаще любого другого значения в наборе данных. Значение 16% встречается дважды, 23% встречается дважды, а все остальные значения встречаются один раз. Поскольку 20% имеет наибольшую частоту, этот набор данных является унимодальным.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Although 23% appears twice, 20% appears four times, making it the only mode.",
+          "text_ru": "Неверно. Хотя 23% встречается дважды, 20% встречается четыре раза, что делает его единственной модой."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. For trimodal distribution, three values must share the highest frequency. Here, only 20% has the highest frequency.",
+          "text_ru": "Неверно. Для тримодального распределения три значения должны иметь одинаковую наивысшую частоту. Здесь только 20% имеет наивысшую частоту."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "mode",
+        "unimodal",
+        "frequency"
+      ]
+    },
+    {
+      "question_id": "QM-3-Q032",
+      "original_question_number": 3448,
+      "los_id": "LOS_3b",
+      "question_text_en": "The range of a dataset is calculated as the difference between the maximum and minimum values. Which of the following is a disadvantage of using the range as a measure of dispersion?",
+      "question_text_ru": "Размах набора данных рассчитывается как разница между максимальным и минимальным значениями. Какой из следующих пунктов является недостатком использования размаха как меры дисперсии?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "It is difficult to calculate.",
+          "text_ru": "Его сложно рассчитать."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "It uses all data points in the calculation.",
+          "text_ru": "Он использует все точки данных в расчёте."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "It is sensitive to outliers.",
+          "text_ru": "Он чувствителен к выбросам."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "The range is sensitive to outliers because it only uses two data points (maximum and minimum). A single extreme value can significantly affect the range, making it an unreliable measure of dispersion for datasets with outliers.",
+      "explanation_ru": "Размах чувствителен к выбросам, потому что использует только две точки данных (максимум и минимум). Одно экстремальное значение может значительно повлиять на размах, делая его ненадёжной мерой дисперсии для наборов данных с выбросами.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The range is actually easy to compute - it's simply the maximum minus the minimum value.",
+          "text_ru": "Неверно. Размах на самом деле легко вычислить - это просто максимум минус минимум."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. This would be an advantage, not a disadvantage. However, the range only uses two data points, not all of them.",
+          "text_ru": "Неверно. Это было бы преимуществом, а не недостатком. Однако размах использует только две точки данных, а не все."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "range",
+        "dispersion",
+        "outliers"
+      ]
+    },
+    {
+      "question_id": "QM-3-Q033",
+      "original_question_number": 3449,
+      "los_id": "LOS_3d",
+      "question_text_en": "If the covariance between two variables X and Y is positive, it indicates that:",
+      "question_text_ru": "Если ковариация между двумя переменными X и Y положительна, это указывает на то, что:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "X and Y move in opposite directions.",
+          "text_ru": "X и Y движутся в противоположных направлениях."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "X and Y move in the same direction.",
+          "text_ru": "X и Y движутся в одном направлении."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "There is no relationship between X and Y.",
+          "text_ru": "Между X и Y нет связи."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "A positive covariance indicates that the two variables move in the same direction. When one variable is above its mean, the other tends to be above its mean as well, and vice versa.",
+      "explanation_ru": "Положительная ковариация указывает на то, что две переменные движутся в одном направлении. Когда одна переменная выше своего среднего, другая также склонна быть выше своего среднего, и наоборот.",
+      "explanation_formula": "$Cov(X,Y) = \\frac{\\sum(X_i - \\bar{X})(Y_i - \\bar{Y})}{n-1}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. A negative covariance indicates that variables move in opposite directions, not a positive covariance.",
+          "text_ru": "Неверно. Отрицательная ковариация указывает на движение переменных в противоположных направлениях, а не положительная."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. A covariance near zero would indicate no linear relationship. A positive covariance indicates a positive relationship.",
+          "text_ru": "Неверно. Ковариация близкая к нулю указывала бы на отсутствие линейной связи. Положительная ковариация указывает на положительную связь."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "covariance",
+        "positive_relationship",
+        "variable_relationship"
+      ]
+    },
+    {
+      "question_id": "QM-3-Q034",
+      "original_question_number": 3450,
+      "los_id": "LOS_3c",
+      "question_text_en": "An analyst observes that the returns of a stock have a skewness of -0.5 and an excess kurtosis of 2.3. Which of the following statements is most likely correct?",
+      "question_text_ru": "Аналитик наблюдает, что доходность акции имеет асимметрию -0.5 и избыточный эксцесс 2.3. Какое из следующих утверждений наиболее вероятно верно?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The distribution is negatively skewed and leptokurtic.",
+          "text_ru": "Распределение имеет отрицательную асимметрию и является лептокуртическим."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The distribution is positively skewed and platykurtic.",
+          "text_ru": "Распределение имеет положительную асимметрию и является платикуртическим."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The distribution is negatively skewed and platykurtic.",
+          "text_ru": "Распределение имеет отрицательную асимметрию и является платикуртическим."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "A skewness of -0.5 (negative) indicates the distribution is negatively skewed (left-tailed). An excess kurtosis of 2.3 (positive) indicates the distribution is leptokurtic (more peaked than normal with fat tails). Leptokurtic distributions have positive excess kurtosis.",
+      "explanation_ru": "Асимметрия -0.5 (отрицательная) указывает, что распределение имеет отрицательную асимметрию (левосторонний хвост). Избыточный эксцесс 2.3 (положительный) указывает, что распределение лептокуртическое (более острый пик, чем у нормального, с толстыми хвостами). Лептокуртические распределения имеют положительный избыточный эксцесс.",
+      "explanation_formula": "$\\text{Excess Kurtosis} = \\text{Kurtosis} - 3$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. A skewness of -0.5 indicates negative skewness, not positive. And excess kurtosis of 2.3 indicates leptokurtic, not platykurtic.",
+          "text_ru": "Неверно. Асимметрия -0.5 указывает на отрицательную асимметрию, а не положительную. И избыточный эксцесс 2.3 указывает на лептокуртическое распределение, а не платикуртическое."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. While the skewness is negative, an excess kurtosis of 2.3 (positive) indicates leptokurtic, not platykurtic. Platykurtic would have negative excess kurtosis.",
+          "text_ru": "Неверно. Хотя асимметрия отрицательная, избыточный эксцесс 2.3 (положительный) указывает на лептокуртическое распределение, а не платикуртическое. Платикуртическое имело бы отрицательный избыточный эксцесс."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "skewness",
+        "kurtosis",
+        "leptokurtic",
+        "distribution_analysis"
       ]
     }
   ]
