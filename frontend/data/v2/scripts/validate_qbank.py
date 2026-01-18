@@ -171,7 +171,7 @@ def validate_qbank(filepath: str, auto_fix: bool = False) -> Dict:
             print_manual(f"Измени total_questions с {declared_total} на {len(questions)}")
     
     # ========== CHECK 7: Required question fields ==========
-    required_q_fields = ['question_id', 'question_text_en', 'question_text_ru', 'options', 'correct_option_id']
+    required_q_fields = ['question_id', 'original_question_number', 'question_text_en', 'question_text_ru', 'options', 'correct_option_id']
     q_issues = []
     
     for q in questions:
@@ -311,18 +311,10 @@ def validate_qbank(filepath: str, auto_fix: bool = False) -> Dict:
     if table_ok:
         results['passed'] += 1
     else:
-        if auto_fix:
-            for q in questions:
-                if q.get('has_table') == True and not q.get('table_data'):
-                    q['has_table'] = False
-                    print_fix(f"Вопрос {q.get('question_id')}: has_table → false")
-            modified = True
-            results['fixed'] += 1
-        else:
-            results['failed'] += 1
-            for qid in table_issues:
-                results['manual_fixes'].append(f"Вопрос {qid}: добавь table_data или поставь has_table: false")
-                print_manual(f"Вопрос {qid}: добавь table_data или has_table: false")
+        results['failed'] += 1
+        for qid in table_issues:
+            results['manual_fixes'].append(f"Вопрос {qid}: has_table=true но table_data пустой. ДОБАВЬ ТАБЛИЦУ из PDF!")
+            print_manual(f"Вопрос {qid}: ДОБАВЬ table_data из PDF (не удаляй has_table!)")
     
     # ========== CHECK 13: Calculator consistency ==========
     calc_issues = []
@@ -387,6 +379,36 @@ def validate_qbank(filepath: str, auto_fix: bool = False) -> Dict:
         for qid, row_count in table_warnings:
             print(f"     {YELLOW}Вопрос {qid}: таблица имеет только {row_count} строк — убедись что это полная таблица из PDF{RESET}")
 
+    # ========== CHECK 16: original_question_number validation ==========
+    oqn_issues = []
+    oqn_values = []
+    for q in questions:
+        oqn = q.get('original_question_number')
+        if oqn is None:
+            oqn_issues.append((q.get('question_id'), 'missing'))
+        elif not isinstance(oqn, int):
+            oqn_issues.append((q.get('question_id'), f'not int: {oqn}'))
+        else:
+            oqn_values.append(oqn)
+
+    oqn_ok = len(oqn_issues) == 0
+    results['checks'].append(('original_question_number заполнен', oqn_ok,
+                             f"{len(oqn_issues)} issues" if not oqn_ok else ""))
+    print_result('original_question_number заполнен', oqn_ok,
+                f"{len(oqn_issues)} issues" if not oqn_ok else "")
+
+    if oqn_ok:
+        results['passed'] += 1
+    else:
+        results['failed'] += 1
+        for qid, issue in oqn_issues[:5]:
+            print_manual(f"Вопрос {qid}: original_question_number {issue}")
+
+    # Show range info
+    if oqn_values:
+        print(f"\n  {CYAN}ℹ️  original_question_number диапазон: {min(oqn_values)} - {max(oqn_values)} ({len(oqn_values)} вопросов){RESET}")
+        print(f"  {CYAN}   Проверь что это совпадает с question_range в meta.json!{RESET}")
+
     # ========== SAVE FIXES ==========
     if modified and auto_fix:
         backup = backup_file(filepath)
@@ -432,7 +454,6 @@ def main():
 Авто-исправляет:
   ✓ total_questions (пересчитывает)
   ✓ Дублирующиеся question_id (добавляет суффикс)
-  ✓ has_table=true без table_data (ставит false)
   ✓ requires_calculator=true без keystrokes (ставит false)
 
 Требует ручного исправления:
@@ -440,6 +461,8 @@ def main():
   ✗ Пустые поля (question_text, explanation, options)
   ✗ Недостающие переводы EN/RU
   ✗ Неправильный correct_option_id
+  ✗ has_table=true без table_data (ДОБАВЬ ТАБЛИЦУ!)
+  ✗ original_question_number (должен быть int из PDF)
         """)
         sys.exit(1)
     
