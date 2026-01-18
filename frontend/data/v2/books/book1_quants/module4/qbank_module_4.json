@@ -7,7 +7,7 @@
     "module_id": 4,
     "module_name": "Probability Trees and Conditional Expectations",
     "module_name_ru": "Деревья вероятностей и условные ожидания",
-    "total_questions": 30,
+    "total_questions": 37,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -1108,6 +1108,260 @@
         "opt_c": {
           "text_en": "Incorrect. This assumes the events are mutually exclusive: P(Late submitter) = 0.45 + 0.15 + 0.20 = 0.80.",
           "text_ru": "Неверно. Предполагает, что события взаимоисключающие: P(опоздавший) = 0.45 + 0.15 + 0.20 = 0.80."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": ["bayes_theorem", "conditional_probability"]
+    },
+    {
+      "question_id": "QM-4-Q031",
+      "original_question_number": 3732,
+      "los_id": "LOS_4c",
+      "question_text_en": "An investment firm classifies capital projects into three different categories, depending on risk level: Standard, Preferred, and Ultra-preferred. Of the firm's projects, 60% are standard, 30% are preferred, and 10% are ultra-preferred. The probabilities of a project making a loss are 0.01, 0.005, and 0.001 for categories standard, preferred, and ultra-preferred respectively. If a capital project makes a loss in the next year, the probability that the project was standard is closest to:",
+      "question_text_ru": "Инвестиционная фирма классифицирует капитальные проекты на три категории в зависимости от уровня риска: стандартные, привилегированные и ультра-привилегированные. 60% проектов фирмы — стандартные, 30% — привилегированные и 10% — ультра-привилегированные. Вероятности убытка проекта составляют 0.01, 0.005 и 0.001 для категорий стандартных, привилегированных и ультра-привилегированных соответственно. Если капитальный проект понёс убыток в следующем году, вероятность того, что проект был стандартным, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "79%", "text_ru": "79%"},
+        {"id": "opt_b", "text_en": "72%", "text_ru": "72%"},
+        {"id": "opt_c", "text_en": "78%", "text_ru": "78%"}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Using Bayes' theorem: P(S|L) = [P(S) × P(L|S)] / [P(P1) × P(L|P1) + P(U) × P(L|U) + P(S) × P(L|S)] = (0.6 × 0.01) / [(0.6 × 0.01) + (0.3 × 0.005) + (0.1 × 0.001)] = 0.006 / (0.006 + 0.0015 + 0.0001) = 0.006 / 0.0076 = 0.7895 ≈ 79%",
+      "explanation_ru": "Используя теорему Байеса: P(S|L) = [P(S) × P(L|S)] / [P(P1) × P(L|P1) + P(U) × P(L|U) + P(S) × P(L|S)] = (0.6 × 0.01) / [(0.6 × 0.01) + (0.3 × 0.005) + (0.1 × 0.001)] = 0.006 / (0.006 + 0.0015 + 0.0001) = 0.006 / 0.0076 = 0.7895 ≈ 79%",
+      "explanation_formula": "$P(Standard|Loss) = \\frac{0.6 \\times 0.01}{(0.6 \\times 0.01) + (0.3 \\times 0.005) + (0.1 \\times 0.001)} = 0.79$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This assumes incorrect weighting in the Bayes' calculation.",
+          "text_ru": "Неверно. Предполагает неправильное взвешивание в расчёте Байеса."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This assumes different conditional probabilities in the calculation.",
+          "text_ru": "Неверно. Предполагает другие условные вероятности в расчёте."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": ["bayes_theorem", "conditional_probability"]
+    },
+    {
+      "question_id": "QM-4-Q032",
+      "original_question_number": 3733,
+      "los_id": "LOS_4c",
+      "question_text_en": "Upon arrival at a cancer treatment center, patients are categorized into one of four stages namely: stage 1, stage 2, stage 3, and stage 4. In the past year: 10% of patients arriving were in stage 1, 40% were in stage 2, 30% were in stage 3, and the rest were in stage 4. Additionally, 10% of stage 1 patients died, 20% of stage 2 patients died, 30% of stage 3 patients died, and 50% of stage 4 patients died. Of the patients who survived, the probability that they arrived in stage 4 is closest to:",
+      "question_text_ru": "По прибытии в онкологический центр пациенты распределяются по одной из четырёх стадий: стадия 1, стадия 2, стадия 3 и стадия 4. За прошедший год: 10% прибывших пациентов были на стадии 1, 40% — на стадии 2, 30% — на стадии 3, остальные — на стадии 4. Кроме того, умерли 10% пациентов 1 стадии, 20% пациентов 2 стадии, 30% пациентов 3 стадии и 50% пациентов 4 стадии. Из выживших пациентов вероятность того, что они прибыли на стадии 4, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "13%", "text_ru": "13%"},
+        {"id": "opt_b", "text_en": "14%", "text_ru": "14%"},
+        {"id": "opt_c", "text_en": "12%", "text_ru": "12%"}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Using Bayes' Theorem: P(C4) = 0.2 (rest of 10+40+30), P(Survive|C4) = 0.5. P(C4|Survive) = [P(C4) × P(Survive|C4)] / [P(C4)×P(Survive|C4) + P(C1)×P(Survive|C1) + P(C2)×P(Survive|C2) + P(C3)×P(Survive|C3)] = (0.2 × 0.5) / [(0.2 × 0.5) + (0.1 × 0.9) + (0.4 × 0.8) + (0.3 × 0.7)] = 0.1 / (0.1 + 0.09 + 0.32 + 0.21) = 0.1 / 0.72 = 14%",
+      "explanation_ru": "Используя теорему Байеса: P(C4) = 0.2 (остаток от 10+40+30), P(Выжить|C4) = 0.5. P(C4|Выжить) = [P(C4) × P(Выжить|C4)] / [P(C4)×P(Выжить|C4) + P(C1)×P(Выжить|C1) + P(C2)×P(Выжить|C2) + P(C3)×P(Выжить|C3)] = (0.2 × 0.5) / [(0.2 × 0.5) + (0.1 × 0.9) + (0.4 × 0.8) + (0.3 × 0.7)] = 0.1 / (0.1 + 0.09 + 0.32 + 0.21) = 0.1 / 0.72 = 14%",
+      "explanation_formula": "$P(Stage4|Survive) = \\frac{0.2 \\times 0.5}{0.2 \\times 0.5 + 0.1 \\times 0.9 + 0.4 \\times 0.8 + 0.3 \\times 0.7} = 0.14$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This assumes 30% probability that the rest of the arriving patients in stage 4 survive.",
+          "text_ru": "Неверно. Предполагает 30% вероятность выживания остальных пациентов на стадии 4."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This assumes the indicated rate of 50% of stage 4 patients survive.",
+          "text_ru": "Неверно. Предполагает указанную ставку 50% выживания пациентов 4 стадии."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": ["bayes_theorem", "conditional_probability"]
+    },
+    {
+      "question_id": "QM-4-Q033",
+      "original_question_number": 3734,
+      "los_id": "LOS_4c",
+      "question_text_en": "You are an analyst at a large mutual fund. After examining historical data, you establish that all fund managers fall into 2 categories: superstars (S) and ordinaries (O). Superstars are by far the best managers. The probability that a superstar will beat the market in any given year stands at 70%. Ordinaries, on the other hand, are just as likely to beat the market as they are to underperform it. Regardless of the category in which a manager falls, the probability of beating the market is independent of year to year. Superstars are rare diamonds because only a meager 16% of all recruits turn out to be superstars. During the analysis, you stumble upon the profile of a manager recruited 3 years ago, who has since gone on to beat the market every year. The probability that the manager is a superstar is closest to:",
+      "question_text_ru": "Вы аналитик в крупном взаимном фонде. Изучив исторические данные, вы установили, что все управляющие фондами делятся на 2 категории: суперзвёзды (S) и обычные (O). Суперзвёзды — безусловно лучшие управляющие. Вероятность того, что суперзвезда опередит рынок в любой год, составляет 70%. Обычные же с равной вероятностью могут опередить или отстать от рынка. Независимо от категории, вероятность опередить рынок не зависит от года к году. Суперзвёзды — редкие бриллианты, так как только 16% всех рекрутов оказываются суперзвёздами. В ходе анализа вы наткнулись на профиль управляющего, нанятого 3 года назад, который с тех пор опережал рынок каждый год. Вероятность того, что управляющий — суперзвезда, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "46%", "text_ru": "46%"},
+        {"id": "opt_b", "text_en": "34%", "text_ru": "34%"},
+        {"id": "opt_c", "text_en": "84%", "text_ru": "84%"}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "P(S) = 16% = 4/25, P(3B|S) = (7/10)³ = 343/1000. P(3B) = P(3B|S)×P(S) + P(3B|O)×P(O) = (7/10)³ × 4/25 + (1/2)³ × 21/25 = (343/1000 × 4/25) + (1/8 × 21/25) = 1372/25000 + 21/200 = 16%. P(S|3B) = P(S) × P(3B|S)/P(3B) = 16% × 34.3%/16% = 34.3%",
+      "explanation_ru": "P(S) = 16% = 4/25, P(3B|S) = (7/10)³ = 343/1000. P(3B) = P(3B|S)×P(S) + P(3B|O)×P(O) = (7/10)³ × 4/25 + (1/2)³ × 21/25 = (343/1000 × 4/25) + (1/8 × 21/25) = 1372/25000 + 21/200 = 16%. P(S|3B) = P(S) × P(3B|S)/P(3B) = 16% × 34.3%/16% = 34.3%",
+      "explanation_formula": "$P(S|3B) = \\frac{P(S) \\times P(3B|S)}{P(3B)} = 34.3\\%$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This assumes the unconditional probability of beating the market in 3 consecutive years is equal to the weighted average probability.",
+          "text_ru": "Неверно. Предполагает, что безусловная вероятность опережения рынка 3 года подряд равна средневзвешенной вероятности."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This assumes the indicated probability that a superstar will beat the market in any given year.",
+          "text_ru": "Неверно. Предполагает указанную вероятность того, что суперзвезда опередит рынок в любой год."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": ["bayes_theorem", "conditional_probability", "independent_events"]
+    },
+    {
+      "question_id": "QM-4-Q034",
+      "original_question_number": 3735,
+      "los_id": "LOS_4c",
+      "question_text_en": "A human health organization tracked a group of individuals for 5 years. At the commencement of the study, 25% were categorized as heavy smokers, 40% as light smokers and the remaining as nonsmokers. Results revealed that light smokers were twice as likely as nonsmokers to die during the half-decade study, but only half as likely as heavy smokers. During the period, a randomly selected group member passed on. The probability that the individual who died was a heavy smoker is closest to:",
+      "question_text_ru": "Организация здравоохранения отслеживала группу людей в течение 5 лет. В начале исследования 25% были классифицированы как заядлые курильщики, 40% — как лёгкие курильщики, остальные — как некурящие. Результаты показали, что лёгкие курильщики в два раза чаще умирали за период исследования, чем некурящие, но вдвое реже, чем заядлые курильщики. За этот период случайно выбранный член группы умер. Вероятность того, что умерший был заядлым курильщиком, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "0.19", "text_ru": "0.19"},
+        {"id": "opt_b", "text_en": "0.53", "text_ru": "0.53"},
+        {"id": "opt_c", "text_en": "0.47", "text_ru": "0.47"}
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "P(D|L) = 2P(D|N) and P(D|L) = 1/2 P(D|H). Using Bayes' theorem: P(H|D) = [P(H) × P(D|H)] / [P(H)×P(D|H) + P(L)×P(D|L) + P(N)×P(D|N)] = (2P(D|L) × 0.25) / [(2P(D|L) × 0.25) + P(D|L) × 0.4 + 1/2 P(D|L) × 0.35] = 0.5 / (0.5 + 0.4 + 0.175) = 0.5 / 1.075 = 0.4651 ≈ 0.47",
+      "explanation_ru": "P(D|L) = 2P(D|N) и P(D|L) = 1/2 P(D|H). Используя теорему Байеса: P(H|D) = [P(H) × P(D|H)] / [P(H)×P(D|H) + P(L)×P(D|L) + P(N)×P(D|N)] = (2P(D|L) × 0.25) / [(2P(D|L) × 0.25) + P(D|L) × 0.4 + 1/2 P(D|L) × 0.35] = 0.5 / (0.5 + 0.4 + 0.175) = 0.5 / 1.075 = 0.4651 ≈ 0.47",
+      "explanation_formula": "$P(Heavy|Death) = \\frac{0.5}{0.5 + 0.4 + 0.175} = 0.47$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This is the indicative probability of nonsmokers.",
+          "text_ru": "Неверно. Это ориентировочная вероятность для некурящих."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. This is the indicative probability of light smokers.",
+          "text_ru": "Неверно. Это ориентировочная вероятность для лёгких курильщиков."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": ["bayes_theorem", "conditional_probability"]
+    },
+    {
+      "question_id": "QM-4-Q035",
+      "original_question_number": 3819,
+      "los_id": "LOS_4a",
+      "question_text_en": "The amount of the annual dividend paid by ART Enterprises to its shareholders depends on the profits available for distribution. There is a 30% probability that the company will generate profits less than $50,000. If the company generates less than $50,000, there is a 15% chance of the company paying a $3 dividend. There is a 70% probability that profits will exceed $50,000 and the company will pay a dividend per share of $6 with a probability of 45%. The expected dividend payment, given ART Enterprises generates profits of less than $50,000, is closest to:",
+      "question_text_ru": "Сумма годовых дивидендов, выплачиваемых ART Enterprises своим акционерам, зависит от прибыли, доступной для распределения. Вероятность того, что компания получит прибыль менее $50,000, составляет 30%. Если компания генерирует менее $50,000, есть 15% вероятность выплаты дивидендов $3. Вероятность того, что прибыль превысит $50,000 — 70%, и компания выплатит дивиденды $6 на акцию с вероятностью 45%. Ожидаемая выплата дивидендов при условии, что ART Enterprises генерирует прибыль менее $50,000, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "0.189", "text_ru": "0.189"},
+        {"id": "opt_b", "text_en": "0.45", "text_ru": "0.45"},
+        {"id": "opt_c", "text_en": "3", "text_ru": "3"}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Expected dividend per share if less than $50,000 are generated = 0.15 × $3.00 = $0.45",
+      "explanation_ru": "Ожидаемые дивиденды на акцию, если генерируется менее $50,000 = 0.15 × $3.00 = $0.45",
+      "explanation_formula": "$E[Dividend|<50k] = 0.15 \\times \\$3.00 = \\$0.45$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This assumes the probability of the expected dividend to be (0.7 × 0.6 × 0.45) = $0.189.",
+          "text_ru": "Неверно. Предполагает вероятность ожидаемых дивидендов (0.7 × 0.6 × 0.45) = $0.189."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This assumes the indicative dividend rate of $3 will be the expected dividend payment.",
+          "text_ru": "Неверно. Предполагает, что ориентировочная ставка дивидендов $3 будет ожидаемой выплатой."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["expected_value", "conditional_probability"]
+    },
+    {
+      "question_id": "QM-4-Q036",
+      "original_question_number": 3821,
+      "los_id": "LOS_4c",
+      "question_text_en": "Lance Thackery is an equity analyst at Eve Scott Associates. Thackery is following the stock of a pharmaceutical company. She is attempting to analyze whether the upcoming launch of a Type-I diabetic drug will be successful and increase the market price of the pharmaceutical's share. The probability that the stock price will increase given a successful drug launch, P(A|S), is 0.35. Thackery has summarized important forecast probabilities in the exhibit below. The probability that the stock price increases, given that the drug launch is unsuccessful, is closest to:",
+      "question_text_ru": "Лэнс Тэкери — аналитик по акциям в Eve Scott Associates. Тэкери следит за акциями фармацевтической компании. Она пытается проанализировать, будет ли успешным предстоящий запуск препарата для диабета I типа и повысит ли он рыночную цену акций. Вероятность роста цены акций при успешном запуске препарата, P(A|S), составляет 0.35. Тэкери обобщила важные прогнозные вероятности в таблице ниже. Вероятность роста цены акций при условии неуспешного запуска препарата ближе всего к:",
+      "has_table": true,
+      "table_data": {
+        "headers": ["Event", "Probability"],
+        "headers_ru": ["Событие", "Вероятность"],
+        "rows": [
+          ["Probability stock price increases", "0.40"],
+          ["Probability stock price is unchanged", "0.60"],
+          ["Probability drug launch is successful", "0.45"],
+          ["Probability drug launch is unsuccessful", "0.55"]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "0.44", "text_ru": "0.44"},
+        {"id": "opt_b", "text_en": "0.40", "text_ru": "0.40"},
+        {"id": "opt_c", "text_en": "0.55", "text_ru": "0.55"}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "P(A) = Probability stock price increases, P(S) = Probability drug launch is successful. P(A) = P(A|S)P(S) + P(A|S^C)P(S^C). 0.40 = 0.35(0.45) + P(A|S^C)(0.55). 0.40 = 0.1575 + P(A|S^C)(0.55). P(A|S^C) = (0.40 - 0.1575)/0.55 = 0.44",
+      "explanation_ru": "P(A) = вероятность роста цены акций, P(S) = вероятность успешного запуска. P(A) = P(A|S)P(S) + P(A|S^C)P(S^C). 0.40 = 0.35(0.45) + P(A|S^C)(0.55). 0.40 = 0.1575 + P(A|S^C)(0.55). P(A|S^C) = (0.40 - 0.1575)/0.55 = 0.44",
+      "explanation_formula": "$P(A|S^C) = \\frac{P(A) - P(A|S)P(S)}{P(S^C)} = \\frac{0.40 - 0.1575}{0.55} = 0.44$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This is the probability that the stock price increases (unconditional).",
+          "text_ru": "Неверно. Это вероятность роста цены акций (безусловная)."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This is probability that the drug launch is unsuccessful.",
+          "text_ru": "Неверно. Это вероятность неуспешного запуска препарата."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": ["total_probability_rule", "conditional_probability"]
+    },
+    {
+      "question_id": "QM-4-Q037",
+      "original_question_number": 3826,
+      "los_id": "LOS_4c",
+      "question_text_en": "A financial risk manager has three routes to get to the office. The probability that she gets to the office on time using routes X, Y, and Z are 60%, 65%, and 70%. She does not have a preferred route and is therefore equally likely to choose any of the three routes. Given that she arrives to work on time, the probability that she chose route Z is closest to:",
+      "question_text_ru": "Финансовый риск-менеджер имеет три маршрута до офиса. Вероятность того, что она прибудет вовремя, используя маршруты X, Y и Z, составляет 60%, 65% и 70%. У неё нет предпочтительного маршрута, поэтому она с равной вероятностью выбирает любой из трёх маршрутов. При условии, что она прибыла на работу вовремя, вероятность того, что она выбрала маршрут Z, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "0.36", "text_ru": "0.36"},
+        {"id": "opt_b", "text_en": "0.56", "text_ru": "0.56"},
+        {"id": "opt_c", "text_en": "0.52", "text_ru": "0.52"}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "P(Z|O) = [P(Z) × P(O|Z)] / [P(Z)×P(O|Z) + P(Y)×P(O|Y) + P(X)×P(O|X)] = (1/3 × 0.7) / [(1/3 × 0.7) + (1/3 × 0.65) + (1/3 × 0.6)] = 0.2333 / (0.2333 + 0.2167 + 0.2) = 0.2333 / 0.65 = 0.3589 ≈ 0.36",
+      "explanation_ru": "P(Z|O) = [P(Z) × P(O|Z)] / [P(Z)×P(O|Z) + P(Y)×P(O|Y) + P(X)×P(O|X)] = (1/3 × 0.7) / [(1/3 × 0.7) + (1/3 × 0.65) + (1/3 × 0.6)] = 0.2333 / (0.2333 + 0.2167 + 0.2) = 0.2333 / 0.65 = 0.3589 ≈ 0.36",
+      "explanation_formula": "$P(Z|OnTime) = \\frac{\\frac{1}{3} \\times 0.7}{\\frac{1}{3}(0.7 + 0.65 + 0.6)} = 0.36$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This excludes P(Z) × P(O|Z) in the denominator.",
+          "text_ru": "Неверно. Исключает P(Z) × P(O|Z) в знаменателе."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This excludes P(Y) × P(O|Y) in the denominator.",
+          "text_ru": "Неверно. Исключает P(Y) × P(O|Y) в знаменателе."
         }
       },
       "requires_calculator": false,
