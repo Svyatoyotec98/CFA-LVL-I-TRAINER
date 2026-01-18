@@ -76,6 +76,46 @@ python frontend/data/v2/scripts/validate_qbank.py qbank_module_X.json --fix
 
 ---
 
+## 🔄 ОБЯЗАТЕЛЬНО: Обновление meta.json
+
+**После создания qbank файла — ОБЯЗАТЕЛЬНО обнови meta.json книги:**
+
+1. Открой `frontend/data/v2/books/book{N}_{name}/meta.json`
+2. Найди нужный модуль по `module_id`
+3. Добавь/обнови поле: `"qbank_file": "qbank_module_X.json"`
+4. Обнови статус:
+   - Если glossary уже есть → `"status": "complete"`
+   - Если glossary ещё нет → `"status": "in_progress"`
+5. Сохрани файл
+6. Включи meta.json в коммит
+
+**Пример изменения:**
+```json
+{
+  "module_id": 3,
+  "module_name": "Statistical Measures of Asset Returns",
+  "qbank_file": "qbank_module_3.json",  // ← ДОБАВИТЬ
+  "glossary_file": "glossary_module_3.json",
+  "status": "in_progress"  // ← ОБНОВИТЬ
+}
+```
+
+**БЕЗ ЭТОГО ШАГА ФРОНТЕНД НЕ УВИДИТ НОВЫЙ QBANK!**
+
+---
+
+## 📊 Статусы модулей в meta.json
+
+| Статус | Значение | Когда ставить |
+|--------|----------|---------------|
+| `"pending"` | Контент не создан | По умолчанию |
+| `"in_progress"` | Частично готов | QBank ИЛИ Glossary создан |
+| `"complete"` | Полностью готов | QBank И Glossary оба готовы |
+
+**Правило:** Модули со статусом `pending` НЕ загружаются на фронтенде.
+
+---
+
 ## Входные данные
 
 - **PDF файл:** `qbank.pdf` (загружается пользователем)
@@ -281,37 +321,6 @@ python frontend/data/v2/scripts/validate_qbank.py qbank_module_X.json --fix
 | 8 | ALT | Alternative Investments |
 | 9 | PM | Portfolio Management |
 | 10 | ETH | Ethics |
-
----
-
-# ЧЕКПОИНТЫ (КРИТИЧЕСКИ ВАЖНО!)
-
-## Чекпоинт 1: Metadata + первые 10 вопросов
-
-1. Создай файл с metadata
-2. Добавь вопросы Q001-Q010
-3. Валидируй JSON: `python3 -c "import json; json.load(open('file.json'))"`
-4. **GIT COMMIT:** `git add . && git commit -m "QBank Module X: checkpoint 1 - Q001-Q010"`
-
-## Чекпоинт 2: Вопросы 11-20
-
-1. Добавь вопросы Q011-Q020
-2. Валидируй JSON
-3. **GIT COMMIT:** `git add . && git commit -m "QBank Module X: checkpoint 2 - Q011-Q020"`
-
-## Чекпоинт 3: Вопросы 21-30
-
-1. Добавь вопросы Q021-Q030
-2. Валидируй JSON
-3. **GIT COMMIT:** `git add . && git commit -m "QBank Module X: checkpoint 3 - Q021-Q030"`
-
-## Чекпоинт 4: Оставшиеся вопросы + финализация
-
-1. Добавь оставшиеся вопросы (Q031+)
-2. Обнови `total_questions` в metadata
-3. Финальная валидация JSON
-4. **GIT COMMIT:** `git add . && git commit -m "QBank Module X: complete - N questions"`
-5. **GIT PUSH:** `git push`
 
 ---
 

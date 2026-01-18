@@ -461,8 +461,8 @@ async function loadBookData(bookId) {
                 questions: []
             };
 
-            // Load qbank if available (status = "complete" and qbank_file exists)
-            if (module.qbank_file && module.status === 'complete') {
+            // Load qbank if available (status = "complete" or "in_progress" and qbank_file exists)
+            if (module.qbank_file && (module.status === 'complete' || module.status === 'in_progress')) {
                 try {
                     const qbankResponse = await fetch(
                         `data/v2/books/${bookFolder}/module${module.module_id}/${module.qbank_file}`

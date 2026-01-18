@@ -372,7 +372,21 @@ def validate_qbank(filepath: str, auto_fix: bool = False) -> Dict:
         for qid in copy_paste_q[:3]:
             results['manual_fixes'].append(f"Переведи question_text_ru для вопроса {qid}")
             print_manual(f"Вопрос {qid}: question_text_en == question_text_ru (нужен перевод)")
-    
+
+    # ========== CHECK 15: Tables have data (WARNING) ==========
+    table_warnings = []
+    for q in questions:
+        if q.get('has_table') == True:
+            table_data = q.get('table_data', {})
+            rows = table_data.get('rows', [])
+            if len(rows) < 2:
+                table_warnings.append((q.get('question_id'), len(rows)))
+
+    if table_warnings:
+        print(f"\n  {YELLOW}⚠️  WARNINGS (проверь вручную):{RESET}")
+        for qid, row_count in table_warnings:
+            print(f"     {YELLOW}Вопрос {qid}: таблица имеет только {row_count} строк — убедись что это полная таблица из PDF{RESET}")
+
     # ========== SAVE FIXES ==========
     if modified and auto_fix:
         backup = backup_file(filepath)
