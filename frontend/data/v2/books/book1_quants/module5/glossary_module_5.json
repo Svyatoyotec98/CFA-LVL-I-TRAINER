@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "book_id": 1,
+    "book_code": "QM",
+    "book_name": "Quantitative Methods",
+    "book_name_ru": "Количественные методы",
+    "module_id": 5,
+    "module_name": "Portfolio Mathematics",
+    "module_name_ru": "Портфельная математика",
+    "page_range": "126-144",
+    "total_terms": 16,
+    "total_exercises": 3,
+    "version": "2.0",
+    "last_updated": "2026-01-19"
+  },
+  "los": [
+    {
+      "los_id": "LOS_5a",
+      "los_code": "5a",
+      "los_description_en": "calculate and interpret the expected value, variance, standard deviation, covariances, and correlations of portfolio returns",
+      "los_description_ru": "рассчитывать и интерпретировать ожидаемое значение, дисперсию, стандартное отклонение, ковариации и корреляции доходности портфеля",
+      "terms": [
+        {
+          "term_id": "QM-5-001",
+          "term_en": "Portfolio",
+          "term_ru": "Портфель",
+          "definition_en": "A collection of investments that a company, mutual fund, or individual investor holds. A portfolio consists of assets such as stocks, bonds, or cash equivalents.",
+          "definition_ru": "Совокупность инвестиций, которыми владеет компания, взаимный фонд или индивидуальный инвестор. Портфель состоит из таких активов, как акции, облигации или денежные эквиваленты.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-5-002",
+          "term_en": "Portfolio Expected Return",
+          "term_ru": "Ожидаемая доходность портфеля",
+          "definition_en": "The weighted average of expected returns of each security in the portfolio, where each security's expected return is multiplied by its proportion in the portfolio.",
+          "definition_ru": "Средневзвешенное значение ожидаемых доходностей каждой ценной бумаги в портфеле, где ожидаемая доходность каждой ценной бумаги умножается на её долю в портфеле.",
+          "type": "formula",
+          "formula": "$E(R_p) = w_1E(R_1) + w_2E(R_2) + \\cdots + w_nE(R_n)$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "E(R_p)",
+              "name_en": "Expected portfolio return",
+              "name_ru": "Ожидаемая доходность портфеля"
+            },
+            {
+              "symbol": "w_i",
+              "name_en": "Weight of asset i (market value of asset / market value of portfolio)",
+              "name_ru": "Вес актива i (рыночная стоимость актива / рыночная стоимость портфеля)"
+            },
+            {
+              "symbol": "E(R_i)",
+              "name_en": "Expected return of asset i",
+              "name_ru": "Ожидаемая доходность актива i"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Рассчитайте для каждого актива: вес × ожидаемая доходность",
+              "2. Введите первое произведение: w₁ × R₁ [=]",
+              "3. Добавьте остальные произведения: [+] w₂ × R₂ [=]",
+              "4. Продолжайте для всех активов",
+              "5. Результат: ожидаемая доходность портфеля"
+            ],
+            "example": {
+              "given": "50% stocks (8% return), 50% bonds (6% return)",
+              "input": "0.5 × 8 = 4, + 0.5 × 6 = 7",
+              "result": "E(Rp) = 7%"
+            }
+          }
+        },
+        {
+          "term_id": "QM-5-003",
+          "term_en": "Portfolio Variance",
+          "term_ru": "Дисперсия портфеля",
+          "definition_en": "A measure of risk that is a function of the individual asset variances as well as the covariance between each of them. The higher the variance, the higher the risk.",
+          "definition_ru": "Мера риска, которая является функцией индивидуальных дисперсий активов, а также ковариации между ними. Чем выше дисперсия, тем выше риск.",
+          "type": "formula",
+          "formula": "$\\sigma^2_p = W^2_A\\sigma^2(R_A) + W^2_B\\sigma^2(R_B) + 2(W_A)(W_B)Cov(R_A, R_B)$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "\\sigma^2_p",
+              "name_en": "Portfolio variance",
+              "name_ru": "Дисперсия портфеля"
+            },
+            {
+              "symbol": "W_A, W_B",
+              "name_en": "Weights of assets A and B in the portfolio",
+              "name_ru": "Веса активов A и B в портфеле"
+            },
+            {
+              "symbol": "\\sigma^2(R_A), \\sigma^2(R_B)",
+              "name_en": "Variances of returns on assets A and B",
+              "name_ru": "Дисперсии доходности активов A и B"
+            },
+            {
+              "symbol": "Cov(R_A, R_B)",
+              "name_en": "Covariance of returns between assets A and B",
+              "name_ru": "Ковариация доходности между активами A и B"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Multi-step Calculation",
+            "steps_ru": [
+              "1. Рассчитайте W²ₐ × σ²ₐ [STO] [1]",
+              "2. Рассчитайте W²ᵦ × σ²ᵦ [+] [RCL] [1] [=] [STO] [2]",
+              "3. Рассчитайте 2 × Wₐ × Wᵦ × Cov(A,B)",
+              "4. Сложите с результатом: [+] [RCL] [2] [=]",
+              "5. Результат: дисперсия портфеля"
+            ],
+            "example": {
+              "given": "Wₐ=0.5, Wᵦ=0.5, σ²ₐ=0.04, σ²ᵦ=0.05, Cov=0.015",
+              "result": "σ²p = 0.0305"
+            }
+          }
+        },
+        {
+          "term_id": "QM-5-004",
+          "term_en": "Portfolio Standard Deviation",
+          "term_ru": "Стандартное отклонение портфеля",
+          "definition_en": "The square root of the portfolio variance. It is a measure of the riskiness of a portfolio expressed in the same units as returns.",
+          "definition_ru": "Квадратный корень из дисперсии портфеля. Это мера рискованности портфеля, выраженная в тех же единицах, что и доходность.",
+          "type": "formula",
+          "formula": "$\\sigma_p = \\sqrt{W^2_A\\sigma^2(R_A) + W^2_B\\sigma^2(R_B) + 2(W_A)(W_B)Cov(R_A, R_B)}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "\\sigma_p",
+              "name_en": "Portfolio standard deviation",
+              "name_ru": "Стандартное отклонение портфеля"
+            },
+            {
+              "symbol": "W_A, W_B",
+              "name_en": "Weights of assets A and B",
+              "name_ru": "Веса активов A и B"
+            },
+            {
+              "symbol": "\\sigma^2(R_A), \\sigma^2(R_B)",
+              "name_en": "Variances of returns on assets A and B",
+              "name_ru": "Дисперсии доходности активов A и B"
+            },
+            {
+              "symbol": "Cov(R_A, R_B)",
+              "name_en": "Covariance of returns",
+              "name_ru": "Ковариация доходности"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Multi-step Calculation",
+            "steps_ru": [
+              "1. Сначала рассчитайте дисперсию портфеля (см. Portfolio Variance)",
+              "2. Возьмите квадратный корень: [√x] или [2nd] [x²]",
+              "3. Результат: стандартное отклонение портфеля"
+            ],
+            "example": {
+              "given": "Portfolio variance = 0.00007234",
+              "input": "0.00007234, затем √",
+              "result": "σp = 0.00851 or 0.851%"
+            }
+          }
+        },
+        {
+          "term_id": "QM-5-005",
+          "term_en": "Covariance",
+          "term_ru": "Ковариация",
+          "definition_en": "A measure of the degree of co-movement between two random variables. It takes the probability-weighted average of the cross-products of the random variables' deviations from their expected values for every possible outcome.",
+          "definition_ru": "Мера степени совместного движения двух случайных величин. Она представляет собой средневзвешенное по вероятности произведение отклонений случайных величин от их ожидаемых значений для каждого возможного исхода.",
+          "type": "formula",
+          "formula": "$Cov(X, Y) = \\sigma(X, Y) = E[(X - E[X])(Y - E[Y])]$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "Cov(X, Y)",
+              "name_en": "Covariance of X and Y",
+              "name_ru": "Ковариация X и Y"
+            },
+            {
+              "symbol": "E[X]",
+              "name_en": "Expected value of random variable X",
+              "name_ru": "Ожидаемое значение случайной величины X"
+            },
+            {
+              "symbol": "E[Y]",
+              "name_en": "Expected value of random variable Y",
+              "name_ru": "Ожидаемое значение случайной величины Y"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Multi-step Calculation",
+            "steps_ru": [
+              "1. Рассчитайте E[X] и E[Y] (ожидаемые значения)",
+              "2. Для каждого исхода вычислите: (Xᵢ - E[X]) × (Yᵢ - E[Y])",
+              "3. Умножьте каждый результат на вероятность Pᵢ",
+              "4. Сложите все произведения: Σ[Pᵢ × (Xᵢ - E[X]) × (Yᵢ - E[Y])]",
+              "5. Результат: ковариация"
+            ],
+            "example": {
+              "given": "См. примеры в тексте",
+              "result": "Positive = co-movement, Negative = opposite movement, Zero = no relationship"
+            }
+          }
+        },
+        {
+          "term_id": "QM-5-006",
+          "term_en": "Sample Covariance",
+          "term_ru": "Выборочная ковариация",
+          "definition_en": "The covariance calculated from sample data of size n, using the formula that divides by (n-1) rather than n to provide an unbiased estimate.",
+          "definition_ru": "Ковариация, рассчитанная на основе выборочных данных размера n, с использованием формулы, которая делит на (n-1), а не на n, для получения несмещенной оценки.",
+          "type": "formula",
+          "formula": "$Cov(X, Y) = \\frac{\\sum_{i=1}^{n}(X_i - \\bar{X})(Y_i - \\bar{Y})}{n - 1}$",
+          "formula_ref": "QM-STAT-009",
+          "variables": [
+            {
+              "symbol": "\\bar{X}",
+              "name_en": "Sample mean of X",
+              "name_ru": "Выборочное среднее X"
+            },
+            {
+              "symbol": "\\bar{Y}",
+              "name_en": "Sample mean of Y",
+              "name_ru": "Выборочное среднее Y"
+            },
+            {
+              "symbol": "X_i, Y_i",
+              "name_en": "i-th data points of X and Y",
+              "name_ru": "i-е точки данных X и Y"
+            },
+            {
+              "symbol": "n",
+              "name_en": "Sample size",
+              "name_ru": "Размер выборки"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: STAT Worksheet",
+            "steps_ru": [
+              "1. [2nd] [DATA] — войти в режим ввода данных",
+              "2. Введите пары данных: X01, Y01, X02, Y02...",
+              "3. [2nd] [STAT] → выберите линейную регрессию",
+              "4. Прокрутите до r (коэффициент корреляции)",
+              "5. Рассчитайте: Cov = r × σx × σy",
+              "6. Результат: выборочная ковариация"
+            ],
+            "example": {
+              "given": "Парные данные о доходности",
+              "result": "Используйте r, sx, sy из STAT для расчета"
+            }
+          }
+        },
+        {
+          "term_id": "QM-5-007",
+          "term_en": "Covariance Matrix",
+          "term_ru": "Ковариационная матрица",
+          "definition_en": "A matrix that displays a complete list of covariances between assets needed to calculate portfolio variance. For n securities, there are n(n-1)/2 distinct covariances and n variances.",
+          "definition_ru": "Матрица, которая отображает полный список ковариаций между активами, необходимых для расчета дисперсии портфеля. Для n ценных бумаг существует n(n-1)/2 различных ковариаций и n дисперсий.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-5-008",
+          "term_en": "Correlation",
+          "term_ru": "Корреляция",
+          "definition_en": "The covariance ratio between two random variables and the product of their two standard deviations. Correlation measures the strength of the linear relationship between two variables and is always between -1 and +1.",
+          "definition_ru": "Отношение ковариации между двумя случайными величинами к произведению их двух стандартных отклонений. Корреляция измеряет силу линейной связи между двумя переменными и всегда находится в диапазоне от -1 до +1.",
+          "type": "formula",
+          "formula": "$\\rho(X, Y) = \\frac{Cov(X, Y)}{\\sigma_X \\sigma_Y}$",
+          "formula_ref": "QM-STAT-010",
+          "variables": [
+            {
+              "symbol": "\\rho(X, Y)",
+              "name_en": "Correlation coefficient between X and Y",
+              "name_ru": "Коэффициент корреляции между X и Y"
+            },
+            {
+              "symbol": "Cov(X, Y)",
+              "name_en": "Covariance of X and Y",
+              "name_ru": "Ковариация X и Y"
+            },
+            {
+              "symbol": "\\sigma_X",
+              "name_en": "Standard deviation of X",
+              "name_ru": "Стандартное отклонение X"
+            },
+            {
+              "symbol": "\\sigma_Y",
+              "name_en": "Standard deviation of Y",
+              "name_ru": "Стандартное отклонение Y"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: STAT Worksheet",
+            "steps_ru": [
+              "1. [2nd] [DATA] — войти в режим ввода данных",
+              "2. Введите пары данных: X, Y для каждого наблюдения",
+              "3. [2nd] [STAT] → выберите [LIN]",
+              "4. Прокрутите до r (коэффициент корреляции)",
+              "5. [ENTER] для просмотра значения",
+              "6. Результат: коэффициент корреляции"
+            ],
+            "example": {
+              "given": "Парные данные доходности активов",
+              "result": "r = +1 (идеальная положительная), r = 0 (нет корреляции), r = -1 (идеальная отрицательная)"
+            }
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "QM-5-EX-001",
+          "question_en": "Assume that we have investments in two companies, ABC and XYZ. For ABC, there's a 15% chance of a 6% return, a 60% chance of an 8% return, and a 25% chance of a 10% return. The expected return for ABC is 8.2%, and the standard deviation is 1.249%. For XYZ, there are similar probabilities of 4%, 5%, and 5.5% returns. The expected return for XYZ is 4.975%, and the standard deviation is 0.46%. Assuming equal weights, the portfolio standard deviation is closest to:",
+          "question_ru": "Предположим, у нас есть инвестиции в две компании, ABC и XYZ. Для ABC существует 15% вероятность доходности 6%, 60% вероятность доходности 8% и 25% вероятность доходности 10%. Ожидаемая доходность ABC составляет 8,2%, а стандартное отклонение - 1,249%. Для XYZ при тех же вероятностях доходности составляют 4%, 5% и 5,5%. Ожидаемая доходность XYZ составляет 4,975%, а стандартное отклонение - 0,46%. При равных весах стандартное отклонение портфеля наиболее близко к:",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "0.0000561",
+              "text_ru": "0,0000561"
+            },
+            {
+              "letter": "B",
+              "text_en": "0.00007234",
+              "text_ru": "0,00007234"
+            },
+            {
+              "letter": "C",
+              "text_en": "0.00851",
+              "text_ru": "0,00851"
+            }
+          ],
+          "correct_answer": "C",
+          "solution_en": "First, calculate the covariance: Cov(ABC,XYZ) = 0.15(0.06-0.082)(0.04-0.04975) + 0.6(0.08-0.082)(0.05-0.04975) + 0.25(0.10-0.082)(0.055-0.04975) = 0.0000561. Then calculate portfolio variance: σ²p = 0.5² × 0.01249² + 0.5² × 0.0046² + 2 × 0.5 × 0.5 × 0.0000561 = 0.00007234. Finally, take the square root: √0.00007234 = 0.00851.",
+          "solution_ru": "Сначала рассчитайте ковариацию: Cov(ABC,XYZ) = 0,15(0,06-0,082)(0,04-0,04975) + 0,6(0,08-0,082)(0,05-0,04975) + 0,25(0,10-0,082)(0,055-0,04975) = 0,0000561. Затем рассчитайте дисперсию портфеля: σ²p = 0,5² × 0,01249² + 0,5² × 0,0046² + 2 × 0,5 × 0,5 × 0,0000561 = 0,00007234. Наконец, извлеките квадратный корень: √0,00007234 = 0,00851."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_5b",
+      "los_code": "5b",
+      "los_description_en": "Calculate and interpret the covariance and correlation of portfolio returns using a joint probability function for returns",
+      "los_description_ru": "Рассчитывать и интерпретировать ковариацию и корреляцию доходности портфеля с использованием функции совместной вероятности доходности",
+      "terms": [
+        {
+          "term_id": "QM-5-009",
+          "term_en": "Joint Probability Function",
+          "term_ru": "Функция совместной вероятности",
+          "definition_en": "The probability that values of two random variables X and Y will occur simultaneously, denoted as P(X,Y). It is used to calculate covariance by taking the sum of products of deviations weighted by joint probabilities.",
+          "definition_ru": "Вероятность того, что значения двух случайных величин X и Y произойдут одновременно, обозначается как P(X,Y). Используется для расчета ковариации путем суммирования произведений отклонений, взвешенных по совместным вероятностям.",
+          "type": "concept",
+          "formula": "$Cov(X,Y) = \\sum_i \\sum_j P(X = x_i, Y = y_j)(X_i - \\bar{X})(Y_j - \\bar{Y})$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "P(X = x_i, Y = y_j)",
+              "name_en": "Joint probability of X and Y taking specific values",
+              "name_ru": "Совместная вероятность того, что X и Y принимают определенные значения"
+            },
+            {
+              "symbol": "X_i, Y_j",
+              "name_en": "Specific values of X and Y",
+              "name_ru": "Конкретные значения X и Y"
+            },
+            {
+              "symbol": "\\bar{X}, \\bar{Y}",
+              "name_en": "Expected values of X and Y",
+              "name_ru": "Ожидаемые значения X и Y"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Multi-step Calculation",
+            "steps_ru": [
+              "1. Рассчитайте E[X] и E[Y] из совместного распределения",
+              "2. Для каждой комбинации (xi, yj) вычислите: P(xi,yj) × (xi - E[X]) × (yj - E[Y])",
+              "3. Сложите все произведения",
+              "4. Результат: ковариация из совместной вероятности"
+            ],
+            "example": {
+              "given": "Таблица совместных вероятностей для доходности активов",
+              "result": "Сумма всех вероятностно-взвешенных произведений отклонений"
+            }
+          }
+        },
+        {
+          "term_id": "QM-5-010",
+          "term_en": "Independence of Random Variables",
+          "term_ru": "Независимость случайных величин",
+          "definition_en": "Two random variables X and Y are independent if P(X,Y) = P(X) · P(Y). For independent variables, the joint probability equals the product of individual probabilities, and E(XY) = E(X) · E(Y).",
+          "definition_ru": "Две случайные величины X и Y являются независимыми, если P(X,Y) = P(X) · P(Y). Для независимых переменных совместная вероятность равна произведению индивидуальных вероятностей, и E(XY) = E(X) · E(Y).",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-5-011",
+          "term_en": "Uncorrelated Random Variables",
+          "term_ru": "Некоррелированные случайные величины",
+          "definition_en": "Random variables X and Y are uncorrelated when their correlation coefficient is zero. Note that independence is a stronger property than correlation - independent variables are always uncorrelated, but uncorrelated variables are not necessarily independent.",
+          "definition_ru": "Случайные величины X и Y некоррелированы, когда их коэффициент корреляции равен нулю. Обратите внимание, что независимость является более сильным свойством, чем корреляция - независимые переменные всегда некоррелированы, но некоррелированные переменные не обязательно независимы.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "QM-5-EX-002",
+          "question_en": "The following table represents the estimated returns for two motor vehicle production brands – TY and Ford, in 3 industrial environments: strong (50% probability), average (30% probability), and weak (20% probability). TY returns: +6%, +3%, -1%. Ford returns: +10%, +4%, -4%. Given the above joint probability function, the covariance between TY and Ford returns is closest to:",
+          "question_ru": "Следующая таблица представляет оценочную доходность для двух брендов производства автомобилей – TY и Ford, в 3 промышленных средах: сильной (вероятность 50%), средней (вероятность 30%) и слабой (вероятность 20%). Доходность TY: +6%, +3%, -1%. Доходность Ford: +10%, +4%, -4%. Учитывая вышеприведенную функцию совместной вероятности, ковариация между доходностями TY и Ford наиболее близка к:",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "0.054",
+              "text_ru": "0,054"
+            },
+            {
+              "letter": "B",
+              "text_en": "0.1542",
+              "text_ru": "0,1542"
+            },
+            {
+              "letter": "C",
+              "text_en": "0.1442",
+              "text_ru": "0,1442"
+            }
+          ],
+          "correct_answer": "C",
+          "solution_en": "First, calculate expected returns. For TY: (0.5 × 6%) + (0.3 × 3%) + (0.2 × (-1%)) = 3.7%. For Ford: (0.5 × 10%) + (0.3 × 4%) + (0.2 × (-4%)) = 5.4%. Then calculate covariance: 0.5(6%-3.7%)(10%-5.4%) + 0.3(3%-3.7%)(4%-5.4%) + 0.2(-1%-3.7%)(-4%-5.4%) = 5.29% + 0.294% + 8.836% = 0.1442. The positive covariance indicates that returns move in the same direction.",
+          "solution_ru": "Сначала рассчитайте ожидаемые доходности. Для TY: (0,5 × 6%) + (0,3 × 3%) + (0,2 × (-1%)) = 3,7%. Для Ford: (0,5 × 10%) + (0,3 × 4%) + (0,2 × (-4%)) = 5,4%. Затем рассчитайте ковариацию: 0,5(6%-3,7%)(10%-5,4%) + 0,3(3%-3,7%)(4%-5,4%) + 0,2(-1%-3,7%)(-4%-5,4%) = 5,29% + 0,294% + 8,836% = 0,1442. Положительная ковариация указывает на то, что доходности движутся в одном направлении."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_5c",
+      "los_code": "5c",
+      "los_description_en": "define shortfall risk, calculate the safety-first ratio, and identify an optimal portfolio using Roy's safety-first criterion",
+      "los_description_ru": "определять риск недостижения цели, рассчитывать коэффициент безопасности и определять оптимальный портфель с использованием критерия безопасности Роя",
+      "terms": [
+        {
+          "term_id": "QM-5-012",
+          "term_en": "Modern Portfolio Theory (MPT)",
+          "term_ru": "Современная теория портфеля",
+          "definition_en": "A theory that evaluates investment options based on mean return and return variance, applicable when investors are risk-averse and seek to maximize their expected utility from investments.",
+          "definition_ru": "Теория, которая оценивает инвестиционные опции на основе средней доходности и дисперсии доходности, применимая когда инвесторы не склонны к риску и стремятся максимизировать свою ожидаемую полезность от инвестиций.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-5-013",
+          "term_en": "Mean-Variance Analysis",
+          "term_ru": "Анализ средней-дисперсии",
+          "definition_en": "An investment analysis approach that considers risk symmetrically using standard deviation, which reflects variability above and below the mean. It assumes returns follow a normal distribution and investors have quadratic utility functions.",
+          "definition_ru": "Подход к анализу инвестиций, который рассматривает риск симметрично с использованием стандартного отклонения, которое отражает изменчивость выше и ниже среднего. Он предполагает, что доходность следует нормальному распределению, а инвесторы имеют квадратичные функции полезности.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-5-014",
+          "term_en": "Shortfall Risk",
+          "term_ru": "Риск недостижения цели",
+          "definition_en": "The probability that a portfolio will not exceed the minimum (benchmark) return an investor sets. It is the risk that a portfolio will fall short of the level of return considered acceptable by an investor. Shortfall risk is a downside risk measure.",
+          "definition_ru": "Вероятность того, что портфель не превысит минимальную (целевую) доходность, установленную инвестором. Это риск того, что портфель не достигнет уровня доходности, считающегося приемлемым для инвестора. Риск недостижения цели является мерой риска снижения.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-5-015",
+          "term_en": "Safety-First Ratio (SFRatio)",
+          "term_ru": "Коэффициент безопасности",
+          "definition_en": "A ratio that measures the excess return over a threshold level per unit of risk. It is calculated as the difference between the expected portfolio return and the threshold return, divided by the portfolio standard deviation. The optimal portfolio has the highest SFRatio.",
+          "definition_ru": "Коэффициент, который измеряет избыточную доходность над пороговым уровнем на единицу риска. Рассчитывается как разность между ожидаемой доходностью портфеля и пороговой доходностью, деленная на стандартное отклонение портфеля. Оптимальный портфель имеет наивысший коэффициент безопасности.",
+          "type": "formula",
+          "formula": "$SFRatio = \\frac{E(R_P) - R_L}{\\sigma_P}$",
+          "formula_ref": "QM-PORTFOLIO-015",
+          "variables": [
+            {
+              "symbol": "E(R_P)",
+              "name_en": "Expected portfolio return",
+              "name_ru": "Ожидаемая доходность портфеля"
+            },
+            {
+              "symbol": "R_L",
+              "name_en": "Threshold (minimum acceptable) return",
+              "name_ru": "Пороговая (минимально приемлемая) доходность"
+            },
+            {
+              "symbol": "\\sigma_P",
+              "name_en": "Portfolio standard deviation",
+              "name_ru": "Стандартное отклонение портфеля"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Введите ожидаемую доходность: E(Rp) [ENTER]",
+              "2. Вычтите пороговую доходность: [-] RL [=] [STO] [1]",
+              "3. Разделите на стандартное отклонение: [÷] σP [=]",
+              "4. Результат: коэффициент безопасности",
+              "5. Выберите портфель с наивысшим SFRatio"
+            ],
+            "example": {
+              "given": "E(Rp)=14%, RL=10%, σP=17%",
+              "input": "14 - 10 = 4, ÷ 17 =",
+              "result": "SFRatio = 0.24"
+            }
+          }
+        },
+        {
+          "term_id": "QM-5-016",
+          "term_en": "Roy's Safety-First Criterion",
+          "term_ru": "Критерий безопасности Роя",
+          "definition_en": "A portfolio selection criterion that states the optimal portfolio is the one that minimizes the probability that portfolio return will fall below a threshold level. For normally distributed returns, this is equivalent to maximizing the safety-first ratio. P(RP < RL) = N(-SFRatio).",
+          "definition_ru": "Критерий выбора портфеля, который утверждает, что оптимальный портфель - это тот, который минимизирует вероятность того, что доходность портфеля упадет ниже порогового уровня. Для нормально распределенной доходности это эквивалентно максимизации коэффициента безопасности. P(RP < RL) = N(-SFRatio).",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": {
+            "method": "BA II Plus: Multi-step Calculation",
+            "steps_ru": [
+              "1. Рассчитайте SFRatio для каждого портфеля",
+              "2. Выберите портфель с наивысшим SFRatio",
+              "3. Для расчета P(RP < RL): возьмите отрицательное значение SFRatio",
+              "4. Найдите N(-SFRatio) в таблице нормального распределения",
+              "5. Это вероятность недостижения порогового уровня"
+            ],
+            "example": {
+              "given": "SFRatio = 0.24",
+              "input": "N(-0.24) = 1 - N(0.24) = 1 - 0.5948",
+              "result": "P(RP < RL) = 0.4052 or 40.52%"
+            }
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "QM-5-EX-003",
+          "question_en": "The returns on a fund are distributed normally. At the end of year t, the fund has a value of $100,000. At the end of year t+1, the fund manager wishes to withdraw $10,000 for further funding but is reluctant to tap into the $100,000. Portfolio A has an expected return of 14% and standard deviation of 17%. Portfolio B has an expected return of 13% and standard deviation of 20%. Which portfolio is preferable for the manager?",
+          "question_ru": "Доходность фонда распределена нормально. В конце года t фонд имеет стоимость $100,000. В конце года t+1 управляющий фондом хочет снять $10,000 для дальнейшего финансирования, но не хочет трогать $100,000. Портфель A имеет ожидаемую доходность 14% и стандартное отклонение 17%. Портфель B имеет ожидаемую доходность 13% и стандартное отклонение 20%. Какой портфель предпочтителен для управляющего?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Portfolio A",
+              "text_ru": "Портфель A"
+            },
+            {
+              "letter": "B",
+              "text_en": "Portfolio B",
+              "text_ru": "Портфель B"
+            },
+            {
+              "letter": "C",
+              "text_en": "The manager is indifferent to the two portfolios",
+              "text_ru": "Управляющий безразличен к двум портфелям"
+            }
+          ],
+          "correct_answer": "A",
+          "solution_en": "First, calculate the threshold return: $10,000/$100,000 = 10% or 0.1. Then calculate safety-first ratios: SFRatioA = (14-10)/17 = 0.24, SFRatioB = (13-10)/20 = 0.15. Portfolio A has the highest safety-first ratio, making it the most desirable. Additionally, P(RP < RL) for A is approximately 40% (N(-0.24) = 1 - 0.5948 = 0.4052), while for B it is 44% (N(-0.15) = 1 - 0.5596 = 0.4404). We choose the option with the lowest probability of not exceeding the benchmark – portfolio A.",
+          "solution_ru": "Сначала рассчитайте пороговую доходность: $10,000/$100,000 = 10% или 0,1. Затем рассчитайте коэффициенты безопасности: SFRatioA = (14-10)/17 = 0,24, SFRatioB = (13-10)/20 = 0,15. Портфель A имеет наивысший коэффициент безопасности, что делает его наиболее желательным. Кроме того, P(RP < RL) для A составляет приблизительно 40% (N(-0,24) = 1 - 0,5948 = 0,4052), в то время как для B это 44% (N(-0,15) = 1 - 0,5596 = 0,4404). Мы выбираем вариант с наименьшей вероятностью недостижения целевого показателя – портфель A."
+        }
+      ]
+    }
+  ]
+}
