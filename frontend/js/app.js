@@ -1192,8 +1192,25 @@ let calculatorTemplates = {};
 
 async function loadGlossary(moduleId = 1) {
     try {
+        // Map bookId to folder name
+        const bookFolders = {
+            1: 'book1_quants',
+            2: 'book2_economics',
+            3: 'book3_fsa',
+            4: 'book4_corporate',
+            5: 'book5_equity',
+            6: 'book6_fixed_income',
+            7: 'book7_derivatives',
+            8: 'book8_alternatives',
+            9: 'book9_portfolio',
+            10: 'book10_ethics'
+        };
+
+        const bookId = state.currentBook?.id || 1;
+        const bookFolder = bookFolders[bookId];
+
         // Загружаем глоссарий для выбранного модуля
-        const response = await fetch(`data/v2/books/book1_quants/module${moduleId}/glossary_module_${moduleId}.json`);
+        const response = await fetch(`data/v2/books/${bookFolder}/module${moduleId}/glossary_module_${moduleId}.json`);
         const data = await response.json();
         glossaryData = data;
 
@@ -1594,12 +1611,25 @@ function onBookFilterChange() {
     const bookId = document.getElementById('glossary-book-filter').value;
     const moduleSelect = document.getElementById('glossary-module-filter');
 
-    // Update module dropdown based on selected book
-    const modules = getModulesForBook(bookId);
-    moduleSelect.innerHTML = '<option value="">Все модули</option>' +
-        modules.map(m => `<option value="${m.id}">Module ${m.id}: ${m.name}</option>`).join('');
+    // Update state.currentBook based on selected book
+    if (bookId) {
+        const selectedBook = BOOKS.find(b => b.id === parseInt(bookId));
+        if (selectedBook) {
+            state.currentBook = selectedBook;
 
-    filterGlossary();
+            // Update module dropdown based on selected book
+            const modules = getModulesForBook(bookId);
+            moduleSelect.innerHTML = '<option value="">Все модули</option>' +
+                modules.map(m => `<option value="${m.id}">Module ${m.id}: ${m.name}</option>`).join('');
+
+            // Load glossary for first module of selected book
+            loadGlossary(1);
+        }
+    } else {
+        // If "Все книги" selected, clear the view
+        moduleSelect.innerHTML = '<option value="">Все модули</option>';
+        document.getElementById('glossary-list').innerHTML = '<p class="text-center text-muted">Выберите книгу и модуль</p>';
+    }
 }
 
 function onModuleFilterChange() {
