@@ -7,7 +7,7 @@
     "module_id": 8,
     "module_name": "Parametric and Non-Parametric Tests",
     "module_name_ru": "Параметрические и непараметрические тесты",
-    "total_questions": 30,
+    "total_questions": 40,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -1539,6 +1539,516 @@
       "topic_tags": [
         "test_statistic",
         "z_test",
+        "hypothesis_testing"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q031",
+      "original_question_number": 234,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which statistic should you use to most appropriately compare two population variances with a sample size smaller than 30?",
+      "question_text_ru": "Какую статистику следует использовать для наиболее корректного сравнения дисперсий двух популяций с размером выборки менее 30?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "z-test",
+          "text_ru": "z-тест"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "t-test",
+          "text_ru": "t-тест"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "F-test",
+          "text_ru": "F-тест"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "An F-test is used to compare two populations' variances. The samples can be of any size. The test statistic used to obtain the ratio of 2 population variances is: S₁²/S₂² ~ F(n₁-1)(n₂-2). The F-test is appropriate regardless of sample size, as long as both populations are normally distributed.",
+      "explanation_ru": "F-тест используется для сравнения дисперсий двух популяций. Выборки могут быть любого размера. Тестовая статистика для получения отношения 2 дисперсий популяции: S₁²/S₂² ~ F(n₁-1)(n₂-2). F-тест применим независимо от размера выборки, если обе популяции нормально распределены.",
+      "explanation_formula": "$\\frac{S_1^2}{S_2^2} \\sim F_{(n_1-1)(n_2-2)}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The z test is used when the underlying variable follows a normal distribution or when the sample size is large (n>30). It is not appropriate for comparing variances.",
+          "text_ru": "z-тест используется, когда базовая переменная следует нормальному распределению или когда размер выборки велик (n>30). Он не подходит для сравнения дисперсий."
+        },
+        "opt_b": {
+          "text_en": "A t-test is appropriate when testing for the means, not for comparing variances.",
+          "text_ru": "t-тест подходит для проверки средних значений, но не для сравнения дисперсий."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "f_test",
+        "variance_comparison",
+        "hypothesis_testing"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q032",
+      "original_question_number": 235,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following statements is least accurate?",
+      "question_text_ru": "Какое из следующих утверждений наименее точно?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "A 1% significance level is the same as a 99% confidence",
+          "text_ru": "Уровень значимости 1% эквивалентен 99% доверительному уровню"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The alternative hypothesis (Hₐ) always includes an equal sign",
+          "text_ru": "Альтернативная гипотеза (Hₐ) всегда включает знак равенства"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The alternative hypothesis (Hₐ) is usually the hypothesis which we are trying to assess",
+          "text_ru": "Альтернативная гипотеза (Hₐ) обычно является гипотезой, которую мы пытаемся оценить"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The NULL hypothesis (H₀) always includes an equal sign. The null hypothesis represents the current known state of the population parameter being tested. On the other hand, the alternative hypothesis is concluded if there is sufficient evidence to reject the null hypothesis. For a two-tailed test, the alternative hypothesis will contain a 'not equal to' sign (≠). For a one-tailed test, the alternative hypothesis will either have a '>' or a '<' sign, but never an equal sign.",
+      "explanation_ru": "НУЛЕВАЯ гипотеза (H₀) всегда включает знак равенства. Нулевая гипотеза представляет текущее известное состояние тестируемого параметра популяции. С другой стороны, альтернативная гипотеза принимается, если есть достаточные доказательства для отклонения нулевой гипотезы. Для двустороннего теста альтернативная гипотеза будет содержать знак '≠'. Для одностороннего теста альтернативная гипотеза будет иметь знак '>' или '<', но никогда знак равенства.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "This is a true statement. To get the significance level (alpha), we subtract the given confidence percentage from 100. 100%-99%=1% (significance level).",
+          "text_ru": "Это верное утверждение. Чтобы получить уровень значимости (альфа), мы вычитаем заданный процент доверия из 100. 100%-99%=1% (уровень значимости)."
+        },
+        "opt_c": {
+          "text_en": "This is a true statement. The alternative hypothesis is chosen if there is sufficient evidence to reject the null hypothesis.",
+          "text_ru": "Это верное утверждение. Альтернативная гипотеза выбирается, если есть достаточные доказательства для отклонения нулевой гипотезы."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "hypothesis_formulation",
+        "significance_level",
+        "confidence_level"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q033",
+      "original_question_number": 236,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following statements is most accurate?",
+      "question_text_ru": "Какое из следующих утверждений наиболее точно?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The null hypothesis is the hypothesis that the researcher wants to reject",
+          "text_ru": "Нулевая гипотеза - это гипотеза, которую исследователь хочет отклонить"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The null hypothesis is the hypothesis that the researcher wants to accept",
+          "text_ru": "Нулевая гипотеза - это гипотеза, которую исследователь хочет принять"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The alternative hypothesis is the hypothesis that the researcher wants to reject",
+          "text_ru": "Альтернативная гипотеза - это гипотеза, которую исследователь хочет отклонить"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The null hypothesis, designated by H₀, is the hypothesis that the researcher wants to reject. It represents the current known state about the parameter to be tested. In the presence of sufficient evidence, the null hypothesis is meant to be rejected. Researchers want to accept the alternative hypothesis by rejecting the null hypothesis.",
+      "explanation_ru": "Нулевая гипотеза, обозначаемая H₀, является гипотезой, которую исследователь хочет отклонить. Она представляет текущее известное состояние тестируемого параметра. При наличии достаточных доказательств нулевая гипотеза должна быть отклонена. Исследователи хотят принять альтернативную гипотезу, отклонив нулевую гипотезу.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Researchers want to accept the alternative hypothesis by rejecting the null hypothesis. It is statistically incorrect to say 'accept the null hypothesis' because you cannot prove a negative. Statisticians use the term 'fail to reject' rather than 'accept' because insufficient evidence only means that you have failed to prove that something exists, not that it is non-existent.",
+          "text_ru": "Исследователи хотят принять альтернативную гипотезу, отклонив нулевую гипотезу. Статистически неправильно говорить 'принять нулевую гипотезу', потому что нельзя доказать отрицание. Статистики используют термин 'не отклонить', а не 'принять', потому что недостаточное количество доказательств означает только то, что вы не смогли доказать существование чего-либо, но не то, что это не существует."
+        },
+        "opt_c": {
+          "text_en": "Researchers want to accept the alternative hypothesis by rejecting the null hypothesis, not reject it.",
+          "text_ru": "Исследователи хотят принять альтернативную гипотезу, отклонив нулевую гипотезу, а не отклонить её."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "null_hypothesis",
+        "alternative_hypothesis",
+        "hypothesis_testing"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q034",
+      "original_question_number": 237,
+      "los_id": "LOS_8c",
+      "question_text_en": "Which of the following assumptions is least likely required for the difference in means test based on two samples?",
+      "question_text_ru": "Какое из следующих предположений наименее вероятно требуется для теста разницы средних на основе двух выборок?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The two samples are independent",
+          "text_ru": "Две выборки независимы"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The two populations have equal variances",
+          "text_ru": "Две популяции имеют равные дисперсии"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The two populations are normally distributed",
+          "text_ru": "Две популяции нормально распределены"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "We can still calculate the difference in means even when the populations' variances are not equal. When variances are assumed to be unequal, we use both sample variances to calculate the t-statistic with adjusted degrees of freedom (Welch's t-test). For difference in means test based on two samples, the samples must be independent and normally distributed, but equal variances is not a strict requirement.",
+      "explanation_ru": "Мы все еще можем рассчитать разницу в средних, даже когда дисперсии популяций не равны. Когда предполагается, что дисперсии неравны, мы используем обе выборочные дисперсии для вычисления t-статистики с скорректированными степенями свободы (t-тест Уэлча). Для теста разницы средних на основе двух выборок выборки должны быть независимыми и нормально распределенными, но равенство дисперсий не является строгим требованием.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The samples must be independent for the difference in means test. This is a required assumption.",
+          "text_ru": "Выборки должны быть независимыми для теста разницы средних. Это обязательное предположение."
+        },
+        "opt_c": {
+          "text_en": "The two populations must be normally distributed. This is a required assumption for the test to be valid.",
+          "text_ru": "Две популяции должны быть нормально распределены. Это обязательное предположение для того, чтобы тест был валидным."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "difference_in_means",
+        "test_assumptions",
+        "parametric_tests"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q035",
+      "original_question_number": 238,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following statements is most accurate?",
+      "question_text_ru": "Какое из следующих утверждений наиболее точно?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The alternative hypothesis is what is accepted if there is sufficient evidence to reject the null hypothesis",
+          "text_ru": "Альтернативная гипотеза - это то, что принимается, если есть достаточные доказательства для отклонения нулевой гипотезы"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The alternative hypothesis is what is accepted if there is sufficient evidence to accept the null hypothesis",
+          "text_ru": "Альтернативная гипотеза - это то, что принимается, если есть достаточные доказательства для принятия нулевой гипотезы"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The null hypothesis is what is accepted if there is sufficient evidence to reject the alternative hypothesis",
+          "text_ru": "Нулевая гипотеза - это то, что принимается, если есть достаточные доказательства для отклонения альтернативной гипотезы"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The alternative hypothesis, designated by Hₐ, is what is accepted if there is sufficient evidence to reject the null hypothesis. Statistical tests try to find evidence to reject or to fail to reject the null hypothesis. If the null hypothesis has been rejected, then we accept the alternative hypothesis. If we fail to reject the null hypothesis, then we reject the alternative hypothesis.",
+      "explanation_ru": "Альтернативная гипотеза, обозначаемая Hₐ, - это то, что принимается, если есть достаточные доказательства для отклонения нулевой гипотезы. Статистические тесты пытаются найти доказательства для отклонения или неотклонения нулевой гипотезы. Если нулевая гипотеза была отклонена, то мы принимаем альтернативную гипотезу. Если мы не отклоняем нулевую гипотезу, то мы отклоняем альтернативную гипотезу.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Statistical tests try to find evidence to reject or to fail to reject the null hypothesis, not to accept it. If the null hypothesis is not rejected, we simply fail to reject it, rather than accepting it.",
+          "text_ru": "Статистические тесты пытаются найти доказательства для отклонения или неотклонения нулевой гипотезы, а не для её принятия. Если нулевая гипотеза не отклонена, мы просто не отклоняем её, а не принимаем."
+        },
+        "opt_c": {
+          "text_en": "The alternative hypothesis is what is accepted if there is sufficient evidence to reject the null hypothesis, not the other way around.",
+          "text_ru": "Альтернативная гипотеза - это то, что принимается, если есть достаточные доказательства для отклонения нулевой гипотезы, а не наоборот."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "alternative_hypothesis",
+        "null_hypothesis",
+        "hypothesis_testing"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q036",
+      "original_question_number": 239,
+      "los_id": "LOS_8b",
+      "question_text_en": "When hypothesis testing, the choice between using a critical value based on the z-distribution or the t-distribution most likely depends on:",
+      "question_text_ru": "При проверке гипотез выбор между использованием критического значения на основе z-распределения или t-распределения наиболее вероятно зависит от:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The sample size",
+          "text_ru": "Размера выборки"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The distribution of the population",
+          "text_ru": "Распределения популяции"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The sample size and the distribution of the population",
+          "text_ru": "Размера выборки и распределения популяции"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "When hypothesis testing, the choice between using a critical value based on the z-distribution or the t-distribution depends on sample size, the distribution of the population, and whether or not the variance of the population is known. Typically, a z-distribution is used when the sample size is large (n > 30) and the population variance is known, while a t-distribution is used for smaller samples (n ≤ 30) where the population variance is unknown. The assumption of normality of the population distribution is also crucial, especially for smaller sample sizes.",
+      "explanation_ru": "При проверке гипотез выбор между использованием критического значения на основе z-распределения или t-распределения зависит от размера выборки, распределения популяции и того, известна ли дисперсия популяции. Обычно z-распределение используется, когда размер выборки велик (n > 30) и дисперсия популяции известна, в то время как t-распределение используется для меньших выборок (n ≤ 30), где дисперсия популяции неизвестна. Предположение о нормальности распределения популяции также имеет решающее значение, особенно для меньших размеров выборки.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "While sample size is important, it is not the only factor. The distribution of the population and whether the variance is known also matter.",
+          "text_ru": "Хотя размер выборки важен, это не единственный фактор. Распределение популяции и то, известна ли дисперсия, также имеют значение."
+        },
+        "opt_b": {
+          "text_en": "While the population distribution is important, sample size also plays a significant role in determining which distribution to use.",
+          "text_ru": "Хотя распределение популяции важно, размер выборки также играет значительную роль в определении того, какое распределение использовать."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "z_distribution",
+        "t_distribution",
+        "test_selection"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q037",
+      "original_question_number": 240,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following statements is most accurate?",
+      "question_text_ru": "Какое из следующих утверждений наиболее точно?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The p-value is the probability of obtaining a test statistic that would lead to a rejection of the null hypothesis, assuming the null hypothesis is not true",
+          "text_ru": "P-значение - это вероятность получения тестовой статистики, которая приведет к отклонению нулевой гипотезы, при условии, что нулевая гипотеза неверна"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The p-value is the probability of obtaining a test statistic that would lead to a rejection of the null hypothesis, assuming the null hypothesis is true",
+          "text_ru": "P-значение - это вероятность получения тестовой статистики, которая приведет к отклонению нулевой гипотезы, при условии, что нулевая гипотеза верна"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Neither A) nor B)",
+          "text_ru": "Ни A), ни B)"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The p-value is the probability of obtaining a test statistic that would lead to a rejection of the null hypothesis, assuming the null hypothesis is true. It is the smallest level of significance at which the null hypothesis can be rejected. The p-value approach provides more information than just rejecting or failing to reject at a predetermined significance level, as it gives the exact probability of observing the test statistic under the null hypothesis.",
+      "explanation_ru": "P-значение - это вероятность получения тестовой статистики, которая приведет к отклонению нулевой гипотезы, при условии, что нулевая гипотеза верна. Это наименьший уровень значимости, при котором нулевая гипотеза может быть отклонена. Подход p-значения предоставляет больше информации, чем просто отклонение или неотклонение на заранее определенном уровне значимости, поскольку он дает точную вероятность наблюдения тестовой статистики при нулевой гипотезе.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The p-value is calculated assuming the null hypothesis IS true, not that it is not true.",
+          "text_ru": "P-значение вычисляется при условии, что нулевая гипотеза ВЕРНА, а не что она неверна."
+        },
+        "opt_c": {
+          "text_en": "Option B is correct, so this option is incorrect.",
+          "text_ru": "Вариант B правильный, поэтому этот вариант неверен."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "p_value",
+        "hypothesis_testing",
+        "significance_level"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q038",
+      "original_question_number": 241,
+      "los_id": "LOS_8b",
+      "question_text_en": "The most appropriate test statistic for a test of the equality of variances for two normally distributed random variables, based on two independent random samples, is the:",
+      "question_text_ru": "Наиболее подходящая тестовая статистика для проверки равенства дисперсий двух нормально распределенных случайных величин на основе двух независимых случайных выборок - это:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "t-test",
+          "text_ru": "t-тест"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "F-test",
+          "text_ru": "F-тест"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Chi-squared test",
+          "text_ru": "Хи-квадрат тест"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The F-test is the appropriate test for testing the equality of variances for two normally distributed random variables, based on two independent random samples. The F-test statistic is calculated as the ratio of the two sample variances: F = s₁²/s₂², where s₁² and s₂² are the sample variances. The F-statistic follows an F-distribution with (n₁-1, n₂-1) degrees of freedom.",
+      "explanation_ru": "F-тест является подходящим тестом для проверки равенства дисперсий двух нормально распределенных случайных величин на основе двух независимых случайных выборок. F-статистика вычисляется как отношение двух выборочных дисперсий: F = s₁²/s₂², где s₁² и s₂² - выборочные дисперсии. F-статистика следует F-распределению со степенями свободы (n₁-1, n₂-1).",
+      "explanation_formula": "$F = \\frac{s_1^2}{s_2^2}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The t-test is appropriate for testing population means, not variances.",
+          "text_ru": "t-тест подходит для проверки средних значений популяции, а не дисперсий."
+        },
+        "opt_c": {
+          "text_en": "The chi-squared test is appropriate for testing a single population variance against a hypothesized value, not for comparing two population variances.",
+          "text_ru": "Хи-квадрат тест подходит для проверки одной дисперсии популяции против гипотетического значения, но не для сравнения двух дисперсий популяций."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "f_test",
+        "variance_equality",
+        "hypothesis_testing"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q039",
+      "original_question_number": 242,
+      "los_id": "LOS_8c",
+      "question_text_en": "Which of the following statements about the F-distribution and the chi-square distribution is least accurate?",
+      "question_text_ru": "Какое из следующих утверждений об F-распределении и хи-квадрат распределении наименее точно?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Both distributions are asymmetrical",
+          "text_ru": "Оба распределения асимметричны"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Both distributions are bounded by zero on the left",
+          "text_ru": "Оба распределения ограничены нулем слева"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Both distributions have means that are less than their standard deviations",
+          "text_ru": "Оба распределения имеют средние значения, которые меньше их стандартных отклонений"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "There is no consistent relationship between the mean and the standard deviation of the chi-square distribution or the F-distribution. Both distributions are skewed to the right (asymmetrical) and are bounded by zero on the left, as they deal with squared values and ratios of squared values, which cannot be negative. However, the relationship between their means and standard deviations depends on their degrees of freedom and varies across different cases.",
+      "explanation_ru": "Нет последовательной связи между средним и стандартным отклонением хи-квадрат распределения или F-распределения. Оба распределения смещены вправо (асимметричны) и ограничены нулем слева, поскольку они имеют дело с квадратами значений и отношениями квадратов значений, которые не могут быть отрицательными. Однако связь между их средними и стандартными отклонениями зависит от их степеней свободы и варьируется в разных случаях.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "This is a true statement. Both distributions are skewed to the right, making them asymmetrical.",
+          "text_ru": "Это верное утверждение. Оба распределения смещены вправо, что делает их асимметричными."
+        },
+        "opt_b": {
+          "text_en": "This is a true statement. Both distributions are positively skewed and bounded by zero on the left, as they cannot take negative values.",
+          "text_ru": "Это верное утверждение. Оба распределения положительно смещены и ограничены нулем слева, поскольку они не могут принимать отрицательные значения."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "f_distribution",
+        "chi_square_distribution",
+        "distribution_properties"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q040",
+      "original_question_number": 243,
+      "los_id": "LOS_8b",
+      "question_text_en": "The most appropriate test statistic to test the hypothesis that the variance of a normally distributed population is equal to 13 is the:",
+      "question_text_ru": "Наиболее подходящая тестовая статистика для проверки гипотезы о том, что дисперсия нормально распределенной популяции равна 13, - это:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "t-test",
+          "text_ru": "t-тест"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "F-test",
+          "text_ru": "F-тест"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Chi-squared test",
+          "text_ru": "Хи-квадрат тест"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "The chi-squared test is used to test whether a hypothesized value of variance is equal to, less than, or greater than the true value of the population variance. The test statistic is: χ² = (n-1)s²/σ₀², where n is the sample size, s² is the sample variance, and σ₀² is the hypothesized population variance. The chi-squared test is appropriate for testing a single population variance against a specified value.",
+      "explanation_ru": "Хи-квадрат тест используется для проверки того, равно ли гипотетическое значение дисперсии, меньше или больше истинного значения дисперсии популяции. Тестовая статистика: χ² = (n-1)s²/σ₀², где n - размер выборки, s² - выборочная дисперсия, а σ₀² - гипотетическая дисперсия популяции. Хи-квадрат тест подходит для проверки одной дисперсии популяции против указанного значения.",
+      "explanation_formula": "$\\chi^2 = \\frac{(n-1)s^2}{\\sigma_0^2}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The t-test is appropriate for testing population means when the population variance is unknown, not for testing variance.",
+          "text_ru": "t-тест подходит для проверки средних значений популяции, когда дисперсия популяции неизвестна, но не для проверки дисперсии."
+        },
+        "opt_b": {
+          "text_en": "The F-test is appropriate for comparing the variances of two populations, not for testing a single population variance against a specific value.",
+          "text_ru": "F-тест подходит для сравнения дисперсий двух популяций, но не для проверки одной дисперсии популяции против конкретного значения."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "chi_square_test",
+        "variance_testing",
         "hypothesis_testing"
       ]
     }
