@@ -1,0 +1,553 @@
+{
+  "metadata": {
+    "book_id": 1,
+    "book_code": "QM",
+    "book_name": "Quantitative Methods",
+    "book_name_ru": "Количественные методы",
+    "module_id": 6,
+    "module_name": "Sampling and Estimation",
+    "module_name_ru": "Выборка и оценка",
+    "total_questions": 10,
+    "version": "2.0",
+    "source": "AnalystPrep QBank"
+  },
+  "questions": [
+    {
+      "question_id": "QM-6-Q001",
+      "original_question_number": 3512,
+      "los_id": "LOS_6a",
+      "question_text_en": "Which of the following statements is most accurate? Lognormal Distributions are:",
+      "question_text_ru": "Какое из следующих утверждений наиболее точное? Логнормальные распределения:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "skewed to the right.",
+          "text_ru": "имеют правостороннюю асимметрию."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "skewed to the left and often used to model asset prices.",
+          "text_ru": "имеют левостороннюю асимметрию и часто используются для моделирования цен активов."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "skewed to the left and rarely used to model asset prices.",
+          "text_ru": "имеют левостороннюю асимметрию и редко используются для моделирования цен активов."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Lognormal distributions are skewed to the right. They are often used to model stock prices since the distribution is bounded by zero.",
+      "explanation_ru": "Логнормальные распределения имеют правостороннюю асимметрию. Они часто используются для моделирования цен акций, поскольку распределение ограничено нулем.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Lognormal distributions are skewed to the right (positively skewed).",
+          "text_ru": "Неверно. Логнормальные распределения имеют правостороннюю асимметрию (положительную асимметрию)."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Lognormal distributions are bound by zero. This implies that they are skewed to the right (positively skewed). For the same reason, lognormal distributions are the preferred distribution when modeling asset prices because asset prices cannot be negative.",
+          "text_ru": "Неверно. Логнормальные распределения ограничены нулем. Это означает, что они имеют правостороннюю асимметрию (положительную асимметрию). По этой же причине логнормальные распределения являются предпочтительными при моделировании цен активов, поскольку цены активов не могут быть отрицательными."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "lognormal_distribution",
+        "asset_pricing"
+      ]
+    },
+    {
+      "question_id": "QM-6-Q002",
+      "original_question_number": 4023,
+      "los_id": "LOS_6a",
+      "question_text_en": "Which of the following is least likely a parameter of lognormal distribution;",
+      "question_text_ru": "Какой из следующих параметров наименее вероятно является параметром логнормального распределения;",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Mean.",
+          "text_ru": "Среднее значение."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Median.",
+          "text_ru": "Медиана."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Standard deviation.",
+          "text_ru": "Стандартное отклонение."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "While the median is a measure of central tendency, it is not typically considered a parameter of the distribution. Parameters usually refer to the characteristics that define the shape and scale of the distribution, such as the mean and standard deviation of the logarithmic values in the case of a lognormal distribution.",
+      "explanation_ru": "Хотя медиана является мерой центральной тенденции, она обычно не считается параметром распределения. Параметры обычно относятся к характеристикам, которые определяют форму и масштаб распределения, таким как среднее значение и стандартное отклонение логарифмических значений в случае логнормального распределения.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The mean is a parameter of a lognormal distribution.",
+          "text_ru": "Неверно. Среднее значение является параметром логнормального распределения."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The standard deviation is a parameter of a lognormal distribution.",
+          "text_ru": "Неверно. Стандартное отклонение является параметром логнормального распределения."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "lognormal_distribution",
+        "distribution_parameters"
+      ]
+    },
+    {
+      "question_id": "QM-6-Q003",
+      "original_question_number": 4592,
+      "los_id": "LOS_6a",
+      "question_text_en": "The monthly closing prices of ApexTech Corporation shares are as follows:",
+      "question_text_ru": "Ежемесячные цены закрытия акций ApexTech Corporation следующие:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Date",
+          "Closing Price (USD)"
+        ],
+        "headers_ru": [
+          "Дата",
+          "Цена закрытия (USD)"
+        ],
+        "rows": [
+          [
+            "30 June",
+            "105"
+          ],
+          [
+            "31 July",
+            "120"
+          ],
+          [
+            "31 August",
+            "130"
+          ]
+        ]
+      },
+      "question_continuation_en": "The continuous compounded return of ApexTech Corporation shares for the period from June 30 to August 31 is closest to:",
+      "question_continuation_ru": "Непрерывно начисляемая доходность акций ApexTech Corporation за период с 30 июня по 31 августа ближе всего к:",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "10.58 percent.",
+          "text_ru": "10.58 процентов."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "10.68 percent.",
+          "text_ru": "10.68 процентов."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "21.36 percent.",
+          "text_ru": "21.36 процентов."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "The continuously compounded return (CCR) can be calculated using the formula: CCR = ln(Ending Price / Beginning Price). Therefore; CCR = ln(130/105) = ln(1.2381) ≈ 0.2136 or 21.36%",
+      "explanation_ru": "Непрерывно начисляемая доходность (CCR) может быть рассчитана по формуле: CCR = ln(Конечная цена / Начальная цена). Следовательно; CCR = ln(130/105) = ln(1.2381) ≈ 0.2136 или 21.36%",
+      "explanation_formula": "$CCR = \\ln\\left(\\frac{\\text{Ending Price}}{\\text{Beginning Price}}\\right)$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This is not the correct continuously compounded return.",
+          "text_ru": "Неверно. Это не правильная непрерывно начисляемая доходность."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. This is not the correct continuously compounded return.",
+          "text_ru": "Неверно. Это не правильная непрерывно начисляемая доходность."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Scientific Calculator",
+        "steps_en": [
+          "130 ÷ 105 = 1.2381",
+          "ln(1.2381) = 0.2136",
+          "0.2136 × 100 = 21.36%"
+        ],
+        "steps_ru": [
+          "130 ÷ 105 = 1.2381",
+          "ln(1.2381) = 0.2136",
+          "0.2136 × 100 = 21.36%"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": [
+        "continuous_compounding",
+        "returns"
+      ]
+    },
+    {
+      "question_id": "QM-6-Q004",
+      "original_question_number": 4593,
+      "los_id": "LOS_6a",
+      "question_text_en": "In financial modeling, the lognormal distribution is often preferred over the normal distribution for representing asset prices primarily because asset prices are:",
+      "question_text_ru": "В финансовом моделировании логнормальное распределение часто предпочтительнее нормального распределения для представления цен активов в первую очередь потому, что цены активов:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Non-decreasing.",
+          "text_ru": "Не убывающие."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Without upper limits.",
+          "text_ru": "Без верхних пределов."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Positively constrained.",
+          "text_ru": "Положительно ограничены."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "The lognormal distribution is used to model asset prices because it ensures that prices cannot be negative, which is a fundamental characteristic of asset prices in the real world.",
+      "explanation_ru": "Логнормальное распределение используется для моделирования цен активов, потому что оно гарантирует, что цены не могут быть отрицательными, что является фундаментальной характеристикой цен активов в реальном мире.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Asset prices can decrease. They are not guaranteed to be non-decreasing.",
+          "text_ru": "Неверно. Цены активов могут снижаться. Они не гарантированно не убывающие."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. While it's true that asset prices are unbounded on the upper side, this is not the primary reason for choosing the lognormal distribution over the normal distribution. The key reason is the non-negativity constraint.",
+          "text_ru": "Неверно. Хотя верно, что цены активов не ограничены сверху, это не главная причина выбора логнормального распределения вместо нормального. Ключевая причина - ограничение неотрицательности."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "lognormal_distribution",
+        "asset_pricing"
+      ]
+    },
+    {
+      "question_id": "QM-6-Q005",
+      "original_question_number": 4594,
+      "los_id": "LOS_6a",
+      "question_text_en": "Consider a random variable Y that is distributed according to a lognormal distribution. Which of the following statements is most accurate regarding the relationship between Y and its natural logarithm, ln(Y)?",
+      "question_text_ru": "Рассмотрим случайную величину Y, которая распределена по логнормальному распределению. Какое из следующих утверждений наиболее точно описывает взаимосвязь между Y и ее натуральным логарифмом ln(Y)?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "If Y is lognormally distributed, then ln(Y) follows a uniform distribution.",
+          "text_ru": "Если Y имеет логнормальное распределение, то ln(Y) следует равномерному распределению."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "If ln(Y) is normally distributed, then Y cannot be lognormally distributed.",
+          "text_ru": "Если ln(Y) имеет нормальное распределение, то Y не может иметь логнормальное распределение."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "If ln(Y) is normally distributed, then Y is lognormally distributed.",
+          "text_ru": "Если ln(Y) имеет нормальное распределение, то Y имеет логнормальное распределение."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "The definition of a lognormal distribution is that a variable Y is lognormally distributed if its natural logarithm, ln(Y), is normally distributed. Therefore, if ln(Y) is normally distributed, it follows that Y must be lognormally distributed.",
+      "explanation_ru": "Определение логнормального распределения заключается в том, что переменная Y имеет логнормальное распределение, если ее натуральный логарифм ln(Y) имеет нормальное распределение. Следовательно, если ln(Y) имеет нормальное распределение, то Y должна иметь логнормальное распределение.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The natural logarithm of a lognormally distributed variable follows a normal distribution, not a uniform distribution.",
+          "text_ru": "Неверно. Натуральный логарифм логнормально распределенной переменной следует нормальному распределению, а не равномерному распределению."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. It contradicts the definition of a lognormal distribution.",
+          "text_ru": "Неверно. Это противоречит определению логнормального распределения."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "lognormal_distribution",
+        "normal_distribution"
+      ]
+    },
+    {
+      "question_id": "QM-6-Q006",
+      "original_question_number": 4596,
+      "los_id": "LOS_6a",
+      "question_text_en": "Which of the following statements best explains why the lognormal distribution is commonly used to model asset prices in financial markets?",
+      "question_text_ru": "Какое из следующих утверждений лучше всего объясняет, почему логнормальное распределение обычно используется для моделирования цен активов на финансовых рынках?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The lognormal distribution is symmetric and can model asset prices that can take on negative values.",
+          "text_ru": "Логнормальное распределение симметрично и может моделировать цены активов, которые могут принимать отрицательные значения."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The lognormal distribution has a lower bound at zero, making it suitable for modeling asset prices that cannot be negative.",
+          "text_ru": "Логнормальное распределение имеет нижнюю границу в нуле, что делает его подходящим для моделирования цен активов, которые не могут быть отрицательными."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "When the continuously compounded returns on a stock are normally distributed, the stock prices are also normally distributed.",
+          "text_ru": "Когда непрерывно начисляемые доходности акции имеют нормальное распределение, цены акций также имеют нормальное распределение."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The lognormal distribution is appropriate for modeling asset prices because it has a lower bound at zero, ensuring that asset prices cannot be negative. This characteristic aligns with the real-world behavior of asset prices. Additionally, when continuously compounded returns are normally distributed, the stock prices follow a lognormal distribution, further supporting the use of the lognormal distribution for modeling asset prices.",
+      "explanation_ru": "Логнормальное распределение подходит для моделирования цен активов, потому что оно имеет нижнюю границу в нуле, гарантируя, что цены активов не могут быть отрицательными. Эта характеристика соответствует реальному поведению цен активов. Кроме того, когда непрерывно начисляемые доходности имеют нормальное распределение, цены акций следуют логнормальному распределению, что дополнительно поддерживает использование логнормального распределения для моделирования цен активов.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Lognormal distribution is not symmetric and it is specifically used because it cannot take on negative values.",
+          "text_ru": "Неверно. Логнормальное распределение не симметрично, и оно специально используется, потому что не может принимать отрицательные значения."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It contradicts the relationship between returns and prices. If continuously compounded returns are normally distributed, the stock prices follow a lognormal distribution, not a normal distribution.",
+          "text_ru": "Неверно. Это противоречит взаимосвязи между доходностью и ценами. Если непрерывно начисляемые доходности имеют нормальное распределение, цены акций следуют логнормальному распределению, а не нормальному."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "lognormal_distribution",
+        "asset_pricing",
+        "continuously_compounded_returns"
+      ]
+    },
+    {
+      "question_id": "QM-6-Q007",
+      "original_question_number": 4597,
+      "los_id": "LOS_6b",
+      "question_text_en": "Which of the following is an appropriate application of Monte Carlo simulation in financial modeling?",
+      "question_text_ru": "Какое из следующих является подходящим применением симуляции Монте-Карло в финансовом моделировании?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Providing exact valuations for call options without any further analysis.",
+          "text_ru": "Предоставление точных оценок для колл-опционов без дополнительного анализа."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Evaluating the impact of varying assumptions on a model, such as the distribution of critical variables.",
+          "text_ru": "Оценка влияния изменяющихся предположений на модель, таких как распределение критических переменных."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Generating a series of returns based on historical data patterns.",
+          "text_ru": "Генерация серии доходностей на основе исторических паттернов данных."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "By generating a large number of random samples from specified probability distributions, Monte Carlo simulation can be used to investigate the sensitivity of a model's output to changes in assumptions. This is particularly useful for understanding how different scenarios or changes in the distribution of key variables can impact the results of the model.",
+      "explanation_ru": "Генерируя большое количество случайных выборок из заданных распределений вероятностей, симуляция Монте-Карло может использоваться для исследования чувствительности выходных данных модели к изменениям предположений. Это особенно полезно для понимания того, как различные сценарии или изменения в распределении ключевых переменных могут повлиять на результаты модели.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. While Monte Carlo simulation is used for valuing call options, it does not provide \"exact\" valuations. Instead, it provides estimates based on simulating numerous scenarios. The accuracy of these valuations depends on the assumptions and parameters used in the simulation.",
+          "text_ru": "Неверно. Хотя симуляция Монте-Карло используется для оценки колл-опционов, она не предоставляет \"точных\" оценок. Вместо этого она предоставляет оценки, основанные на моделировании множества сценариев. Точность этих оценок зависит от предположений и параметров, используемых в симуляции."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Although Monte Carlo simulation can be used to simulate future asset price paths; this option does not capture the essence of what makes Monte Carlo simulation a valuable tool in financial modeling. The focus on \"historical data patterns\" is too narrow, as Monte Carlo simulation often involves simulating returns based on various stochastic models and assumptions, not just historical patterns.",
+          "text_ru": "Неверно. Хотя симуляция Монте-Карло может использоваться для моделирования будущих траекторий цен активов; этот вариант не отражает суть того, что делает симуляцию Монте-Карло ценным инструментом в финансовом моделировании. Фокус на \"исторических паттернах данных\" слишком узок, поскольку симуляция Монте-Карло часто включает моделирование доходностей на основе различных стохастических моделей и предположений, а не только исторических паттернов."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "monte_carlo_simulation",
+        "sensitivity_analysis"
+      ]
+    },
+    {
+      "question_id": "QM-6-Q008",
+      "original_question_number": 4598,
+      "los_id": "LOS_6b",
+      "question_text_en": "XYZ Corporation is evaluating a new investment project using Monte Carlo simulation. The finance team has constructed a model to simulate the project's potential returns under various scenarios. However, they are concerned about the limitations of this approach. Which of the following is most likely a limitation of the Monte Carlo simulation used by XYZ Corporation?",
+      "question_text_ru": "Корпорация XYZ оценивает новый инвестиционный проект с использованием симуляции Монте-Карло. Финансовая команда построила модель для моделирования потенциальной доходности проекта при различных сценариях. Однако они обеспокоены ограничениями этого подхода. Какое из следующих наиболее вероятно является ограничением симуляции Монте-Карло, используемой корпорацией XYZ?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Only provides statistical estimates of results, not exact figures.",
+          "text_ru": "Предоставляет только статистические оценки результатов, а не точные цифры."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Inability to conduct scenario analysis.",
+          "text_ru": "Неспособность проводить сценарный анализ."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Dependence on historical return data.",
+          "text_ru": "Зависимость от исторических данных о доходности."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "One limitation of Monte Carlo simulation is that it provides estimates based on a range of possible outcomes rather than exact figures. This is due to the inherent nature of the simulation, which relies on random sampling and probabilistic models.",
+      "explanation_ru": "Одним из ограничений симуляции Монте-Карло является то, что она предоставляет оценки, основанные на диапазоне возможных результатов, а не точные цифры. Это связано с присущей природой симуляции, которая опирается на случайную выборку и вероятностные модели.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Monte Carlo simulation is actually well-suited for \"what if\" or scenario analysis. It allows users to change assumptions and observe the outcomes under different scenarios, making it a valuable tool for exploring a range of possibilities.",
+          "text_ru": "Неверно. Симуляция Монте-Карло на самом деле хорошо подходит для анализа \"что если\" или сценарного анализа. Она позволяет пользователям изменять предположения и наблюдать результаты при различных сценариях, что делает ее ценным инструментом для исследования диапазона возможностей."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. While historical data can be used in Monte Carlo simulation, it is not a requirement. Simulations can be based on a variety of assumptions and probability distributions, not just historical records.",
+          "text_ru": "Неверно. Хотя исторические данные могут использоваться в симуляции Монте-Карло, это не является обязательным требованием. Симуляции могут основываться на различных предположениях и распределениях вероятностей, а не только на исторических записях."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "monte_carlo_simulation",
+        "limitations"
+      ]
+    },
+    {
+      "question_id": "QM-6-Q009",
+      "original_question_number": 4599,
+      "los_id": "LOS_6b",
+      "question_text_en": "Consider the following statements made by Tom, Anna, and Fiona regarding the concept of Monte Carlo simulation as used in financial modeling. Tom: A probabilistic approach that employs random sampling to generate a range of possible outcomes and assesses their likelihood in uncertain environments. Anna: A deterministic method that relies on fixed inputs to forecast future financial outcomes with certainty. Fiona: A statistical technique that uses random sampling and historical data to predict the behavior of financial markets. Based on the statements provided, who best describes the concept of Monte Carlo simulation as used in financial modeling?",
+      "question_text_ru": "Рассмотрим следующие утверждения, сделанные Томом, Анной и Фионой относительно концепции симуляции Монте-Карло, используемой в финансовом моделировании. Том: Вероятностный подход, который использует случайную выборку для генерации диапазона возможных результатов и оценивает их вероятность в неопределенных условиях. Анна: Детерминированный метод, который полагается на фиксированные входные данные для прогнозирования будущих финансовых результатов с определенностью. Фиона: Статистическая техника, которая использует случайную выборку и исторические данные для прогнозирования поведения финансовых рынков. На основе представленных утверждений, кто лучше всего описывает концепцию симуляции Монте-Карло, используемой в финансовом моделировании?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Tom",
+          "text_ru": "Том"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Anna",
+          "text_ru": "Анна"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Fiona",
+          "text_ru": "Фиона"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Tom accurately describes Monte Carlo simulation. He highlights the probabilistic nature of the technique, its use of random sampling to create multiple scenarios, and its application in assessing risks and uncertainties in financial models.",
+      "explanation_ru": "Том точно описывает симуляцию Монте-Карло. Он подчеркивает вероятностную природу техники, ее использование случайной выборки для создания множества сценариев и ее применение в оценке рисков и неопределенностей в финансовых моделях.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Anna inaccurately describes Monte Carlo simulation is not a deterministic method. However, it is a probabilistic approach that accounts for uncertainty by generating multiple scenarios.",
+          "text_ru": "Неверно. Анна неточно описывает симуляцию Монте-Карло, она не является детерминированным методом. Это вероятностный подход, который учитывает неопределенность путем генерации множества сценариев."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Fiona inaccurately describes Monte Carlo simulation. While Monte Carlo simulation is a statistical technique that involves random sampling, it does not exclusively rely on historical data nor is it limited to predicting market behavior. It can be used in various financial modeling contexts.",
+          "text_ru": "Неверно. Фиона неточно описывает симуляцию Монте-Карло. Хотя симуляция Монте-Карло является статистической техникой, которая включает случайную выборку, она не полагается исключительно на исторические данные и не ограничивается прогнозированием поведения рынка. Она может использоваться в различных контекстах финансового моделирования."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "monte_carlo_simulation",
+        "definition"
+      ]
+    },
+    {
+      "question_id": "QM-6-Q010",
+      "original_question_number": 4600,
+      "los_id": "LOS_6b",
+      "question_text_en": "Which of the following is least likely a use of Monte Carlo simulation in valuing a lookback contingent claim?",
+      "question_text_ru": "Какое из следующих наименее вероятно является использованием симуляции Монте-Карло при оценке обратного условного требования (lookback option)?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Generating a large number of possible paths for the underlying asset price over the life of the option.",
+          "text_ru": "Генерация большого количества возможных траекторий цены базового актива в течение срока действия опциона."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Calculating the average of all the discounted payoffs from the simulated paths to estimate the fair value of the claim.",
+          "text_ru": "Расчет среднего значения всех дисконтированных выплат из смоделированных траекторий для оценки справедливой стоимости требования."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Using historical asset price data to determine the exact payoff of the lookback option at expiration.",
+          "text_ru": "Использование исторических данных о ценах активов для определения точной выплаты опциона lookback при истечении срока."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "This is NOT a use of Monte Carlo simulation in valuing a lookback contingent claim. Monte Carlo simulation involves simulating future asset price paths and does not rely on historical data to determine the exact payoff at expiration. The payoff is determined based on the simulated maximum or minimum asset prices, not historical data.",
+      "explanation_ru": "Это НЕ является использованием симуляции Монте-Карло при оценке обратного условного требования. Симуляция Монте-Карло включает моделирование будущих траекторий цен активов и не полагается на исторические данные для определения точной выплаты при истечении срока. Выплата определяется на основе смоделированных максимальных или минимальных цен активов, а не исторических данных.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This is a correct use of Monte Carlo simulation in valuing a lookback contingent claim. It allows for the simulation of various scenarios that the asset price might follow over the option's life.",
+          "text_ru": "Неверно. Это правильное использование симуляции Монте-Карло при оценке обратного условного требования. Это позволяет моделировать различные сценарии, которым может следовать цена актива в течение срока действия опциона."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. This is a correct use of Monte Carlo simulation. The average of the discounted payoffs from the simulated paths provides an estimate of the fair value of the lookback option.",
+          "text_ru": "Неверно. Это правильное использование симуляции Монте-Карло. Среднее значение дисконтированных выплат из смоделированных траекторий предоставляет оценку справедливой стоимости опциона lookback."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "monte_carlo_simulation",
+        "options_valuation",
+        "lookback_options"
+      ]
+    }
+  ]
+}
