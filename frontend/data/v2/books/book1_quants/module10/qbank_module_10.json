@@ -7,7 +7,7 @@
     "module_id": 10,
     "module_name": "Multiple Regression",
     "module_name_ru": "Множественная регрессия",
-    "total_questions": 8,
+    "total_questions": 23,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -466,6 +466,745 @@
         "sample_size",
         "standard_error",
         "reliability"
+      ]
+    },
+    {
+      "question_id": "QM-10-Q009",
+      "original_question_number": 3917,
+      "los_id": "LOS_10d",
+      "question_text_en": "Which of the following statements is most likely correct?",
+      "question_text_ru": "Какое из следующих утверждений наиболее вероятно верно?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The standard error of estimate is the standard deviation of the actual values of the independent variable.",
+          "text_ru": "Стандартная ошибка оценки - это стандартное отклонение фактических значений независимой переменной."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The standard error of estimate measures the standard deviation of the residual term; its numerator is calculated as the difference between the actual and predicted value of the dependent variable.",
+          "text_ru": "Стандартная ошибка оценки измеряет стандартное отклонение остаточного члена; её числитель рассчитывается как разница между фактическим и прогнозным значением зависимой переменной."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The standard error of estimate measures the standard deviation of the residual term; its numerator is calculated as the difference between the actual and predicted value of the independent variable.",
+          "text_ru": "Стандартная ошибка оценки измеряет стандартное отклонение остаточного члена; её числитель рассчитывается как разница между фактическим и прогнозным значением независимой переменной."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The standard error of estimate is the standard deviation of the residual term in the regression. Its numerator is calculated as the difference between the actual and predicted values of the dependent variable.",
+      "explanation_ru": "Стандартная ошибка оценки - это стандартное отклонение остаточного члена в регрессии. Её числитель рассчитывается как разница между фактическими и прогнозными значениями зависимой переменной.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The standard error of estimate is concerned with the residuals of the model, which are derived from the dependent variable's actual and predicted values.",
+          "text_ru": "Неверно. Стандартная ошибка оценки связана с остатками модели, которые получены из фактических и прогнозных значений зависимой переменной."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This option misstates the calculation of the standard error by focusing on the independent variable rather than the dependent variable.",
+          "text_ru": "Неверно. Этот вариант неверно описывает расчёт стандартной ошибки, фокусируясь на независимой переменной вместо зависимой."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "standard_error",
+        "residuals",
+        "regression_analysis"
+      ]
+    },
+    {
+      "question_id": "QM-10-Q010",
+      "original_question_number": 3918,
+      "los_id": "LOS_10c",
+      "question_text_en": "Question 3918",
+      "question_text_ru": "Вопрос 3918",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Option A",
+          "text_ru": "Вариант A"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Option B",
+          "text_ru": "Вариант B"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Option C",
+          "text_ru": "Вариант C"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Explanation",
+      "explanation_ru": "Объяснение",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        },
+        "opt_c": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "regression"
+      ]
+    },
+    {
+      "question_id": "QM-10-Q011",
+      "original_question_number": 3920,
+      "los_id": "LOS_10c",
+      "question_text_en": "Question 3920",
+      "question_text_ru": "Вопрос 3920",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Option A",
+          "text_ru": "Вариант A"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Option B",
+          "text_ru": "Вариант B"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Option C",
+          "text_ru": "Вариант C"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Explanation",
+      "explanation_ru": "Объяснение",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        },
+        "opt_c": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "regression"
+      ]
+    },
+    {
+      "question_id": "QM-10-Q012",
+      "original_question_number": 3921,
+      "los_id": "LOS_10c",
+      "question_text_en": "Question 3921",
+      "question_text_ru": "Вопрос 3921",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Option A",
+          "text_ru": "Вариант A"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Option B",
+          "text_ru": "Вариант B"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Option C",
+          "text_ru": "Вариант C"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Explanation",
+      "explanation_ru": "Объяснение",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        },
+        "opt_c": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "regression"
+      ]
+    },
+    {
+      "question_id": "QM-10-Q013",
+      "original_question_number": 3922,
+      "los_id": "LOS_10c",
+      "question_text_en": "Question 3922",
+      "question_text_ru": "Вопрос 3922",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Option A",
+          "text_ru": "Вариант A"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Option B",
+          "text_ru": "Вариант B"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Option C",
+          "text_ru": "Вариант C"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Explanation",
+      "explanation_ru": "Объяснение",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        },
+        "opt_c": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "regression"
+      ]
+    },
+    {
+      "question_id": "QM-10-Q014",
+      "original_question_number": 3923,
+      "los_id": "LOS_10c",
+      "question_text_en": "Question 3923",
+      "question_text_ru": "Вопрос 3923",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Option A",
+          "text_ru": "Вариант A"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Option B",
+          "text_ru": "Вариант B"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Option C",
+          "text_ru": "Вариант C"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Explanation",
+      "explanation_ru": "Объяснение",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        },
+        "opt_c": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "regression"
+      ]
+    },
+    {
+      "question_id": "QM-10-Q015",
+      "original_question_number": 3924,
+      "los_id": "LOS_10c",
+      "question_text_en": "Question 3924",
+      "question_text_ru": "Вопрос 3924",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Option A",
+          "text_ru": "Вариант A"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Option B",
+          "text_ru": "Вариант B"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Option C",
+          "text_ru": "Вариант C"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Explanation",
+      "explanation_ru": "Объяснение",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        },
+        "opt_c": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "regression"
+      ]
+    },
+    {
+      "question_id": "QM-10-Q016",
+      "original_question_number": 3925,
+      "los_id": "LOS_10c",
+      "question_text_en": "Question 3925",
+      "question_text_ru": "Вопрос 3925",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Option A",
+          "text_ru": "Вариант A"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Option B",
+          "text_ru": "Вариант B"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Option C",
+          "text_ru": "Вариант C"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Explanation",
+      "explanation_ru": "Объяснение",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        },
+        "opt_c": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "regression"
+      ]
+    },
+    {
+      "question_id": "QM-10-Q017",
+      "original_question_number": 3926,
+      "los_id": "LOS_10c",
+      "question_text_en": "Question 3926",
+      "question_text_ru": "Вопрос 3926",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Option A",
+          "text_ru": "Вариант A"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Option B",
+          "text_ru": "Вариант B"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Option C",
+          "text_ru": "Вариант C"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Explanation",
+      "explanation_ru": "Объяснение",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        },
+        "opt_c": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "regression"
+      ]
+    },
+    {
+      "question_id": "QM-10-Q018",
+      "original_question_number": 3927,
+      "los_id": "LOS_10c",
+      "question_text_en": "Question 3927",
+      "question_text_ru": "Вопрос 3927",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Option A",
+          "text_ru": "Вариант A"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Option B",
+          "text_ru": "Вариант B"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Option C",
+          "text_ru": "Вариант C"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Explanation",
+      "explanation_ru": "Объяснение",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        },
+        "opt_c": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "regression"
+      ]
+    },
+    {
+      "question_id": "QM-10-Q019",
+      "original_question_number": 3928,
+      "los_id": "LOS_10c",
+      "question_text_en": "Question 3928",
+      "question_text_ru": "Вопрос 3928",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Option A",
+          "text_ru": "Вариант A"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Option B",
+          "text_ru": "Вариант B"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Option C",
+          "text_ru": "Вариант C"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Explanation",
+      "explanation_ru": "Объяснение",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        },
+        "opt_c": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "regression"
+      ]
+    },
+    {
+      "question_id": "QM-10-Q020",
+      "original_question_number": 3929,
+      "los_id": "LOS_10c",
+      "question_text_en": "Question 3929",
+      "question_text_ru": "Вопрос 3929",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Option A",
+          "text_ru": "Вариант A"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Option B",
+          "text_ru": "Вариант B"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Option C",
+          "text_ru": "Вариант C"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Explanation",
+      "explanation_ru": "Объяснение",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        },
+        "opt_c": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "regression"
+      ]
+    },
+    {
+      "question_id": "QM-10-Q021",
+      "original_question_number": 3931,
+      "los_id": "LOS_10c",
+      "question_text_en": "Question 3931",
+      "question_text_ru": "Вопрос 3931",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Option A",
+          "text_ru": "Вариант A"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Option B",
+          "text_ru": "Вариант B"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Option C",
+          "text_ru": "Вариант C"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Explanation",
+      "explanation_ru": "Объяснение",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        },
+        "opt_c": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "regression"
+      ]
+    },
+    {
+      "question_id": "QM-10-Q022",
+      "original_question_number": 3932,
+      "los_id": "LOS_10c",
+      "question_text_en": "Question 3932",
+      "question_text_ru": "Вопрос 3932",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Option A",
+          "text_ru": "Вариант A"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Option B",
+          "text_ru": "Вариант B"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Option C",
+          "text_ru": "Вариант C"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Explanation",
+      "explanation_ru": "Объяснение",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        },
+        "opt_c": {
+          "text_en": "Incorrect.",
+          "text_ru": "Неверно."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "regression"
+      ]
+    },
+    {
+      "question_id": "QM-10-Q022_2",
+      "original_question_number": 3933,
+      "los_id": "LOS_10c",
+      "question_text_en": "An analyst is comparing two regression models to analyze the relationship between auto sales and bank financing rates. The model which would better represent the relationship would least likely have:",
+      "question_text_ru": "Аналитик сравнивает две регрессионные модели для анализа взаимосвязи между продажами автомобилей и ставками банковского финансирования. Модель, которая лучше представляет взаимосвязь, наименее вероятно будет иметь:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "higher F-statistic.",
+          "text_ru": "более высокую F-статистику."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "lower coefficient of determination (R²).",
+          "text_ru": "более низкий коэффициент детерминации (R²)."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "lower standard error of estimate (Se).",
+          "text_ru": "более низкую стандартную ошибку оценки (Se)."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "A model with a high R², high F-statistic, and low SEE is better. A lower R² would be worse.",
+      "explanation_ru": "Модель с высоким R², высокой F-статистикой и низкой SEE лучше. Более низкий R² был бы хуже.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. A higher F-statistic indicates better model.",
+          "text_ru": "Неверно. Более высокая F-статистика указывает на лучшую модель."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Lower SEE indicates better fit.",
+          "text_ru": "Неверно. Более низкая SEE указывает на лучшее соответствие."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "model_comparison",
+        "r_squared",
+        "f_statistic"
       ]
     }
   ]
