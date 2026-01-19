@@ -1,3 +1,963 @@
 {
-  "terms": []
+  "metadata": {
+    "book_id": 1,
+    "book_code": "QM",
+    "book_name": "Quantitative Methods",
+    "book_name_ru": "Количественные методы",
+    "module_id": 10,
+    "module_name": "Simple Linear Regression",
+    "module_name_ru": "Простая линейная регрессия",
+    "page_range": "230-280",
+    "total_terms": 39,
+    "total_exercises": 3,
+    "version": "2.0",
+    "last_updated": "2026-01-19"
+  },
+  "los": [
+    {
+      "los_id": "LOS_10a",
+      "los_code": "10a",
+      "los_description_en": "Describe a simple linear regression model, how the least squares criterion is used to estimate regression coefficients, and the interpretation of these coefficients",
+      "los_description_ru": "Описать модель простой линейной регрессии, как критерий наименьших квадратов используется для оценки коэффициентов регрессии, и интерпретацию этих коэффициентов",
+      "terms": [
+        {
+          "term_id": "QM-10-001",
+          "term_en": "Linear Regression",
+          "term_ru": "Линейная регрессия",
+          "definition_en": "A mathematical method used for analyzing how the variation in one variable can explain the variation in another variable.",
+          "definition_ru": "Математический метод, используемый для анализа того, как вариация одной переменной может объяснить вариацию другой переменной.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-10-002",
+          "term_en": "Dependent Variable",
+          "term_ru": "Зависимая переменная",
+          "definition_en": "The variable we want to explain, often denoted as Y. Also referred to as the predicted variable, explained variable, or endogenous variable.",
+          "definition_ru": "Переменная, которую мы хотим объяснить, часто обозначается как Y. Также называется прогнозируемой переменной, объясняемой переменной или эндогенной переменной.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-10-003",
+          "term_en": "Independent Variable",
+          "term_ru": "Независимая переменная",
+          "definition_en": "The variable used to explain variations in the dependent variable, typically denoted as X. Also called the explanatory variable, exogenous variable, or predicting variable.",
+          "definition_ru": "Переменная, используемая для объяснения вариаций зависимой переменной, обычно обозначается как X. Также называется объясняющей переменной, экзогенной переменной или предсказывающей переменной.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-10-004",
+          "term_en": "Scatter Plot (Scattergram)",
+          "term_ru": "Диаграмма рассеяния",
+          "definition_en": "A type of plot used to visualize the relationship between variables X and Y, where the dependent variable (Y) is plotted on the vertical axis and the independent variable (X) on the horizontal axis.",
+          "definition_ru": "Тип графика, используемый для визуализации взаимосвязи между переменными X и Y, где зависимая переменная (Y) откладывается по вертикальной оси, а независимая переменная (X) - по горизонтальной оси.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-10-005",
+          "term_en": "Sum of Squares Total (SST)",
+          "term_ru": "Общая сумма квадратов отклонений",
+          "definition_en": "A measure of the total variation of the dependent variable, calculated as the sum of squared differences between actual y-values and the mean of y-observations.",
+          "definition_ru": "Мера общей вариации зависимой переменной, рассчитываемая как сумма квадратов разностей между фактическими значениями y и средним значением наблюдений y.",
+          "type": "formula",
+          "formula": "$SST = \\sum_{i=1}^{n}(Y_i - \\bar{Y})^2$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "Y_i",
+              "name_en": "Observed value of dependent variable",
+              "name_ru": "Наблюдаемое значение зависимой переменной"
+            },
+            {
+              "symbol": "\\bar{Y}",
+              "name_en": "Mean of dependent variable",
+              "name_ru": "Среднее значение зависимой переменной"
+            },
+            {
+              "symbol": "n",
+              "name_en": "Sample size",
+              "name_ru": "Размер выборки"
+            }
+          ],
+          "calculator": null
+        },
+        {
+          "term_id": "QM-10-006",
+          "term_en": "Least Squares Criterion",
+          "term_ru": "Критерий наименьших квадратов",
+          "definition_en": "A method used in simple linear regression to fit a line to observations by minimizing the sum of squared vertical distances between observations and the regression line.",
+          "definition_ru": "Метод, используемый в простой линейной регрессии для подгонки линии к наблюдениям путем минимизации суммы квадратов вертикальных расстояний между наблюдениями и линией регрессии.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-10-007",
+          "term_en": "Simple Linear Regression Equation",
+          "term_ru": "Уравнение простой линейной регрессии",
+          "definition_en": "An equation representing a linear relationship between dependent and independent variables, where Y equals the intercept plus the product of the slope coefficient and X plus the error term.",
+          "definition_ru": "Уравнение, представляющее линейную зависимость между зависимой и независимой переменными, где Y равен точке пересечения плюс произведение коэффициента наклона и X плюс член ошибки.",
+          "type": "formula",
+          "formula": "$Y = b_0 + b_1X_i + \\varepsilon_i, i = 1, 2, ..., n$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "Y",
+              "name_en": "Dependent variable",
+              "name_ru": "Зависимая переменная"
+            },
+            {
+              "symbol": "b_0",
+              "name_en": "Intercept",
+              "name_ru": "Точка пересечения"
+            },
+            {
+              "symbol": "b_1",
+              "name_en": "Slope coefficient",
+              "name_ru": "Коэффициент наклона"
+            },
+            {
+              "symbol": "X",
+              "name_en": "Independent variable",
+              "name_ru": "Независимая переменная"
+            },
+            {
+              "symbol": "\\varepsilon",
+              "name_en": "Error term (noise)",
+              "name_ru": "Член ошибки (шум)"
+            }
+          ],
+          "calculator": null
+        },
+        {
+          "term_id": "QM-10-008",
+          "term_en": "Regression Coefficients",
+          "term_ru": "Коэффициенты регрессии",
+          "definition_en": "The estimated parameters b₀ (intercept) and b₁ (slope) that define the regression line in a simple linear regression model.",
+          "definition_ru": "Оцененные параметры b₀ (точка пересечения) и b₁ (наклон), которые определяют линию регрессии в модели простой линейной регрессии.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-10-009",
+          "term_en": "Slope Coefficient",
+          "term_ru": "Коэффициент наклона",
+          "definition_en": "The regression coefficient that represents the change in the dependent variable caused by a one-unit change in the independent variable. Calculated as the ratio of covariance to variance.",
+          "definition_ru": "Коэффициент регрессии, представляющий изменение зависимой переменной, вызванное изменением независимой переменной на одну единицу. Рассчитывается как отношение ковариации к дисперсии.",
+          "type": "formula",
+          "formula": "$\\hat{b}_1 = \\frac{Cov(X, Y)}{Var(X)} = \\frac{\\sum_{i=1}^{n}(Y_i - \\bar{Y})(X_i - \\bar{X})}{\\sum_{i=1}^{n}(X_i - \\bar{X})^2}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "Cov(X, Y)",
+              "name_en": "Covariance between X and Y",
+              "name_ru": "Ковариация между X и Y"
+            },
+            {
+              "symbol": "Var(X)",
+              "name_en": "Variance of X",
+              "name_ru": "Дисперсия X"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: STAT Worksheet",
+            "steps_ru": [
+              "1. [2nd] [DATA] - войти в режим данных",
+              "2. Ввести пары значений X и Y",
+              "3. [2nd] [STAT] - открыть меню статистики",
+              "4. Прокрутить до LIN (линейная регрессия)",
+              "5. Найти значение b (slope coefficient)"
+            ],
+            "example": {
+              "given": "X = {3.9, 4.0, 4.2, 5.0, 6.1}, Y = {3.6, 4.7, 3.3, 1.8, 1.7}",
+              "result": "b₁ ≈ -0.902"
+            }
+          }
+        },
+        {
+          "term_id": "QM-10-010",
+          "term_en": "Intercept",
+          "term_ru": "Точка пересечения",
+          "definition_en": "The estimated value of the dependent variable when the independent variable is zero. Calculated using the means of X and Y variables.",
+          "definition_ru": "Оцененное значение зависимой переменной, когда независимая переменная равна нулю. Рассчитывается с использованием средних значений переменных X и Y.",
+          "type": "formula",
+          "formula": "$\\hat{b}_0 = \\bar{Y} - \\hat{b}_1\\bar{X}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "\\bar{Y}",
+              "name_en": "Mean of Y",
+              "name_ru": "Среднее значение Y"
+            },
+            {
+              "symbol": "\\bar{X}",
+              "name_en": "Mean of X",
+              "name_ru": "Среднее значение X"
+            },
+            {
+              "symbol": "\\hat{b}_1",
+              "name_en": "Estimated slope coefficient",
+              "name_ru": "Оцененный коэффициент наклона"
+            }
+          ],
+          "calculator": null
+        },
+        {
+          "term_id": "QM-10-011",
+          "term_en": "Error Term",
+          "term_ru": "Член ошибки",
+          "definition_en": "The difference between the observed value of Y and the value expected from the underlying population relation between X and Y, representing unexplained variation.",
+          "definition_ru": "Разница между наблюдаемым значением Y и значением, ожидаемым из базовой популяционной зависимости между X и Y, представляющая необъясненную вариацию.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-10-012",
+          "term_en": "Residual",
+          "term_ru": "Остаток",
+          "definition_en": "The difference between the observed value Yi and the predicted value Ŷi from regression analysis on a sample, calculated as ei = Yi - Ŷi.",
+          "definition_ru": "Разница между наблюдаемым значением Yi и предсказанным значением Ŷi из регрессионного анализа на выборке, рассчитывается как ei = Yi - Ŷi.",
+          "type": "formula",
+          "formula": "$e_i = Y_i - \\hat{Y}_i$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "e_i",
+              "name_en": "Residual for observation i",
+              "name_ru": "Остаток для наблюдения i"
+            },
+            {
+              "symbol": "Y_i",
+              "name_en": "Observed value",
+              "name_ru": "Наблюдаемое значение"
+            },
+            {
+              "symbol": "\\hat{Y}_i",
+              "name_en": "Predicted value",
+              "name_ru": "Предсказанное значение"
+            }
+          ],
+          "calculator": null
+        },
+        {
+          "term_id": "QM-10-013",
+          "term_en": "Sum of Squared Errors (SSE)",
+          "term_ru": "Сумма квадратов ошибок",
+          "definition_en": "The variation of the dependent variable unexplained by the independent variable, calculated as the sum of squared differences between actual and predicted y-values. Also called residual sum of squares.",
+          "definition_ru": "Вариация зависимой переменной, не объясненная независимой переменной, рассчитываемая как сумма квадратов разностей между фактическими и предсказанными значениями y. Также называется остаточной суммой квадратов.",
+          "type": "formula",
+          "formula": "$SSE = \\sum_{i=1}^{n}(Y_i - \\hat{Y}_i)^2 = \\sum_{i=1}^{n}e_i^2$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "Y_i",
+              "name_en": "Actual value",
+              "name_ru": "Фактическое значение"
+            },
+            {
+              "symbol": "\\hat{Y}_i",
+              "name_en": "Predicted value",
+              "name_ru": "Предсказанное значение"
+            },
+            {
+              "symbol": "e_i",
+              "name_en": "Residual",
+              "name_ru": "Остаток"
+            }
+          ],
+          "calculator": null
+        },
+        {
+          "term_id": "QM-10-014",
+          "term_en": "Cross-sectional Regression",
+          "term_ru": "Поперечная регрессия",
+          "definition_en": "Regression analysis using observations from different entities (like various companies) in the same time period to compare X and Y values.",
+          "definition_ru": "Регрессионный анализ с использованием наблюдений от различных субъектов (например, разных компаний) в один и тот же период времени для сравнения значений X и Y.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-10-015",
+          "term_en": "Time-series Regression",
+          "term_ru": "Временная регрессия",
+          "definition_en": "Regression analysis using data from various time periods for the same entity, like a company or asset class, to analyze relationships over time.",
+          "definition_ru": "Регрессионный анализ с использованием данных из различных временных периодов для одного и того же субъекта, например, компании или класса активов, для анализа зависимостей во времени.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "QM-10-EX-001",
+          "question_en": "The independent variable in a regression model is most likely the:",
+          "question_ru": "Независимая переменная в модели регрессии наиболее вероятно является:",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Predicted variable",
+              "text_ru": "Прогнозируемой переменной"
+            },
+            {
+              "letter": "B",
+              "text_en": "Predicting variable",
+              "text_ru": "Предсказывающей переменной"
+            },
+            {
+              "letter": "C",
+              "text_en": "Endogenous variable",
+              "text_ru": "Эндогенной переменной"
+            }
+          ],
+          "correct_answer": "B",
+          "solution_en": "An independent variable explains the variation of the dependent variable. It is also called the explanatory variable, exogenous variable, or the predicting variable. A dependent variable is predicted by the independent variable and is also known as the predicted variable, explained variable, or endogenous variable.",
+          "solution_ru": "Независимая переменная объясняет вариацию зависимой переменной. Она также называется объясняющей переменной, экзогенной переменной или предсказывающей переменной. Зависимая переменная прогнозируется независимой переменной и также известна как прогнозируемая переменная, объясняемая переменная или эндогенная переменная."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_10b",
+      "los_code": "10b",
+      "los_description_en": "Explain the assumptions underlying the simple linear regression model, and describe how residuals and residual plots indicate if these assumptions may have been violated",
+      "los_description_ru": "Объяснить предположения, лежащие в основе модели простой линейной регрессии, и описать, как остатки и графики остатков указывают на возможное нарушение этих предположений",
+      "terms": [
+        {
+          "term_id": "QM-10-016",
+          "term_en": "Linearity Assumption",
+          "term_ru": "Предположение о линейности",
+          "definition_en": "The assumption that the change in Y due to a one-unit change in X is constant, regardless of X's value. The residuals should not exhibit an observable pattern when plotted against the independent variable.",
+          "definition_ru": "Предположение, что изменение Y в результате изменения X на одну единицу является постоянным, независимо от значения X. Остатки не должны демонстрировать наблюдаемый паттерн при построении графика относительно независимой переменной.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-10-017",
+          "term_en": "Normality Assumption",
+          "term_ru": "Предположение о нормальности",
+          "definition_en": "The assumption that the error terms (residuals) must follow a normal distribution. A symmetric bell-shaped histogram of residuals indicates normality is likely true.",
+          "definition_ru": "Предположение, что члены ошибок (остатки) должны следовать нормальному распределению. Симметричная колоколообразная гистограмма остатков указывает на вероятность нормальности.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-10-018",
+          "term_en": "Homoskedasticity",
+          "term_ru": "Гомоскедастичность",
+          "definition_en": "The assumption that the variance of the error terms is constant across all observations. Mathematically expressed as E(ε²ᵢ) = σ²ε for all observations.",
+          "definition_ru": "Предположение, что дисперсия членов ошибок постоянна для всех наблюдений. Математически выражается как E(ε²ᵢ) = σ²ε для всех наблюдений.",
+          "type": "formula",
+          "formula": "$E(\\varepsilon_i^2) = \\sigma_\\varepsilon^2, i = 1, 2, ..., n$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "\\varepsilon_i",
+              "name_en": "Error term for observation i",
+              "name_ru": "Член ошибки для наблюдения i"
+            },
+            {
+              "symbol": "\\sigma_\\varepsilon^2",
+              "name_en": "Constant variance",
+              "name_ru": "Постоянная дисперсия"
+            }
+          ],
+          "calculator": null
+        },
+        {
+          "term_id": "QM-10-019",
+          "term_en": "Heteroskedasticity",
+          "term_ru": "Гетероскедастичность",
+          "definition_en": "A violation of homoskedasticity where the variance of residuals varies across observations. Indicated by an evident pattern in plots of residuals against the independent variable.",
+          "definition_ru": "Нарушение гомоскедастичности, при котором дисперсия остатков варьируется в зависимости от наблюдений. Обозначается явным паттерном на графиках остатков относительно независимой переменной.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-10-020",
+          "term_en": "Independence Assumption",
+          "term_ru": "Предположение о независимости",
+          "definition_en": "The assumption that observations Xi and Yi are independent of each other. Failure means variables are not independent and residuals will be correlated.",
+          "definition_ru": "Предположение, что наблюдения Xi и Yi независимы друг от друга. Невыполнение означает, что переменные не являются независимыми, и остатки будут коррелированы.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-10-021",
+          "term_en": "Residual Plot",
+          "term_ru": "График остатков",
+          "definition_en": "A graphical tool used to detect violations of regression assumptions by plotting residuals against the independent variable or predicted values. Random patterns indicate assumptions are met.",
+          "definition_ru": "Графический инструмент, используемый для обнаружения нарушений предположений регрессии путем построения графика остатков относительно независимой переменной или предсказанных значений. Случайные паттерны указывают на выполнение предположений.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "QM-10-EX-002",
+          "question_en": "A regression model with one independent variable requires several assumptions for valid conclusions. Which of the following statements most likely violates those assumptions?",
+          "question_ru": "Регрессионная модель с одной независимой переменной требует нескольких предположений для обоснованных выводов. Какое из следующих утверждений наиболее вероятно нарушает эти предположения?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "The independent variable is random",
+              "text_ru": "Независимая переменная является случайной"
+            },
+            {
+              "letter": "B",
+              "text_en": "The error term is distributed normally",
+              "text_ru": "Член ошибки распределен нормально"
+            },
+            {
+              "letter": "C",
+              "text_en": "There exists a linear relationship between the dependent and independent variable",
+              "text_ru": "Существует линейная зависимость между зависимой и независимой переменной"
+            }
+          ],
+          "correct_answer": "A",
+          "solution_en": "Linear regression assumes that the independent variable X is NOT random. This ensures that the model produces correct estimates of regression coefficients. The normal distribution of error terms and linear relationship are valid assumptions.",
+          "solution_ru": "Линейная регрессия предполагает, что независимая переменная X НЕ является случайной. Это гарантирует, что модель производит правильные оценки коэффициентов регрессии. Нормальное распределение членов ошибок и линейная зависимость являются корректными предположениями."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_10c",
+      "los_code": "10c",
+      "los_description_en": "Calculate and interpret measures of fit and formulate and evaluate tests of fit and of regression coefficients in a simple linear regression",
+      "los_description_ru": "Рассчитать и интерпретировать меры соответствия и формулировать и оценивать тесты соответствия и коэффициентов регрессии в простой линейной регрессии",
+      "terms": [
+        {
+          "term_id": "QM-10-022",
+          "term_en": "Sum of Squares Regression (SSR)",
+          "term_ru": "Сумма квадратов регрессии",
+          "definition_en": "The explained variation in the dependent variable, calculated as the sum of squared differences between predicted y-values and the mean of y-observations.",
+          "definition_ru": "Объясненная вариация зависимой переменной, рассчитываемая как сумма квадратов разностей между предсказанными значениями y и средним значением наблюдений y.",
+          "type": "formula",
+          "formula": "$SSR = \\sum_{i=1}^{n}(\\hat{Y}_i - \\bar{Y})^2$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "\\hat{Y}_i",
+              "name_en": "Predicted value",
+              "name_ru": "Предсказанное значение"
+            },
+            {
+              "symbol": "\\bar{Y}",
+              "name_en": "Mean of observations",
+              "name_ru": "Среднее значение наблюдений"
+            }
+          ],
+          "calculator": null
+        },
+        {
+          "term_id": "QM-10-023",
+          "term_en": "Coefficient of Determination (R²)",
+          "term_ru": "Коэффициент детерминации (R²)",
+          "definition_en": "A measure of the proportion of total variability of the dependent variable explained by the independent variable. Ranges from 0% to 100%, with higher values indicating better model fit.",
+          "definition_ru": "Мера доли общей изменчивости зависимой переменной, объясняемой независимой переменной. Варьируется от 0% до 100%, при этом более высокие значения указывают на лучшее соответствие модели.",
+          "type": "formula",
+          "formula": "$R^2 = \\frac{SSR}{SST} = \\frac{\\sum_{i=1}^{n}(\\hat{Y}_i - \\bar{Y})^2}{\\sum_{i=1}^{n}(Y_i - \\bar{Y})^2}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "SSR",
+              "name_en": "Sum of Squares Regression",
+              "name_ru": "Сумма квадратов регрессии"
+            },
+            {
+              "symbol": "SST",
+              "name_en": "Sum of Squares Total",
+              "name_ru": "Общая сумма квадратов"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Рассчитать SSR и SST",
+              "2. Разделить SSR на SST",
+              "3. Результат - коэффициент детерминации"
+            ],
+            "example": {
+              "given": "SSR = 10.568, SST = 13.704",
+              "input": "10.568 ÷ 13.704 =",
+              "result": "R² = 0.7711 или 77.11%"
+            }
+          }
+        },
+        {
+          "term_id": "QM-10-024",
+          "term_en": "F-statistic",
+          "term_ru": "F-статистика",
+          "definition_en": "A test statistic used to check the statistical significance of a regression model by testing whether the slope coefficient equals zero. Calculated as the ratio of Mean Square Regression to Mean Square Error.",
+          "definition_ru": "Тестовая статистика, используемая для проверки статистической значимости регрессионной модели путем тестирования, равен ли коэффициент наклона нулю. Рассчитывается как отношение среднего квадрата регрессии к среднему квадрату ошибки.",
+          "type": "formula",
+          "formula": "$F = \\frac{MSR}{MSE} = \\frac{\\frac{SSR}{k}}{\\frac{SSE}{n-k-1}}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "MSR",
+              "name_en": "Mean Square Regression",
+              "name_ru": "Средний квадрат регрессии"
+            },
+            {
+              "symbol": "MSE",
+              "name_en": "Mean Square Error",
+              "name_ru": "Средний квадрат ошибки"
+            },
+            {
+              "symbol": "k",
+              "name_en": "Number of independent variables",
+              "name_ru": "Количество независимых переменных"
+            },
+            {
+              "symbol": "n",
+              "name_en": "Sample size",
+              "name_ru": "Размер выборки"
+            }
+          ],
+          "calculator": null
+        },
+        {
+          "term_id": "QM-10-025",
+          "term_en": "Standard Error of Estimate (SEE)",
+          "term_ru": "Стандартная ошибка оценки",
+          "definition_en": "A measure of the distance between observed dependent variables and those predicted by the regression model. Also called standard error of regression or root mean square error. Lower values indicate better fit.",
+          "definition_ru": "Мера расстояния между наблюдаемыми зависимыми переменными и предсказанными регрессионной моделью. Также называется стандартной ошибкой регрессии или среднеквадратичной ошибкой. Меньшие значения указывают на лучшее соответствие.",
+          "type": "formula",
+          "formula": "$S_e = \\sqrt{MSE} = \\sqrt{\\frac{\\sum_{i=1}^{n}(Y_i - \\hat{Y}_i)^2}{n-2}}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "MSE",
+              "name_en": "Mean Square Error",
+              "name_ru": "Средний квадрат ошибки"
+            },
+            {
+              "symbol": "Y_i",
+              "name_en": "Observed value",
+              "name_ru": "Наблюдаемое значение"
+            },
+            {
+              "symbol": "\\hat{Y}_i",
+              "name_en": "Predicted value",
+              "name_ru": "Предсказанное значение"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Рассчитать SSE (сумму квадратов ошибок)",
+              "2. Разделить на (n-2) для получения MSE",
+              "3. Извлечь квадратный корень: [2nd] [√]",
+              "4. Результат - стандартная ошибка оценки"
+            ],
+            "example": {
+              "given": "SSE = 3.136, n = 10",
+              "input": "3.136 ÷ 8 = 0.392, затем √0.392",
+              "result": "Se = 0.626"
+            }
+          }
+        },
+        {
+          "term_id": "QM-10-026",
+          "term_en": "t-statistic for Slope Coefficient",
+          "term_ru": "t-статистика для коэффициента наклона",
+          "definition_en": "A test statistic used to determine whether the slope coefficient is significantly different from a hypothesized value (usually zero). Calculated as the difference between estimated and hypothesized slope divided by standard error.",
+          "definition_ru": "Тестовая статистика, используемая для определения, значительно ли коэффициент наклона отличается от гипотетического значения (обычно нуля). Рассчитывается как разница между оцененным и гипотетическим наклоном, деленная на стандартную ошибку.",
+          "type": "formula",
+          "formula": "$t = \\frac{\\hat{b}_1 - B_1}{s_{\\hat{b}_1}}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "\\hat{b}_1",
+              "name_en": "Estimated slope coefficient",
+              "name_ru": "Оцененный коэффициент наклона"
+            },
+            {
+              "symbol": "B_1",
+              "name_en": "Hypothesized slope coefficient",
+              "name_ru": "Гипотетический коэффициент наклона"
+            },
+            {
+              "symbol": "s_{\\hat{b}_1}",
+              "name_en": "Standard error of slope coefficient",
+              "name_ru": "Стандартная ошибка коэффициента наклона"
+            }
+          ],
+          "calculator": null
+        },
+        {
+          "term_id": "QM-10-027",
+          "term_en": "Standard Error of Slope Coefficient",
+          "term_ru": "Стандартная ошибка коэффициента наклона",
+          "definition_en": "The standard deviation of the sampling distribution of the slope coefficient, calculated as the ratio of standard error of estimate to the square root of variation in X.",
+          "definition_ru": "Стандартное отклонение выборочного распределения коэффициента наклона, рассчитываемое как отношение стандартной ошибки оценки к квадратному корню из вариации X.",
+          "type": "formula",
+          "formula": "$s_{\\hat{b}_1} = \\frac{s_e}{\\sqrt{\\sum_{i=1}^{n}(X_i - \\bar{X})^2}}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "s_e",
+              "name_en": "Standard error of estimate",
+              "name_ru": "Стандартная ошибка оценки"
+            },
+            {
+              "symbol": "X_i",
+              "name_en": "Observed X value",
+              "name_ru": "Наблюдаемое значение X"
+            },
+            {
+              "symbol": "\\bar{X}",
+              "name_en": "Mean of X",
+              "name_ru": "Среднее значение X"
+            }
+          ],
+          "calculator": null
+        },
+        {
+          "term_id": "QM-10-028",
+          "term_en": "p-value",
+          "term_ru": "p-значение",
+          "definition_en": "The smallest level of significance at which the null hypothesis is rejected. A smaller p-value indicates greater validity of the regression model and lower probability of Type I error.",
+          "definition_ru": "Наименьший уровень значимости, при котором отвергается нулевая гипотеза. Меньшее p-значение указывает на большую обоснованность регрессионной модели и меньшую вероятность ошибки первого рода.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-10-029",
+          "term_en": "Confidence Interval for Slope",
+          "term_ru": "Доверительный интервал для наклона",
+          "definition_en": "A range of values within which the true slope coefficient is expected to lie with a specified level of confidence, calculated using the estimated slope and its standard error.",
+          "definition_ru": "Диапазон значений, в котором ожидается истинный коэффициент наклона с заданным уровнем доверия, рассчитываемый с использованием оцененного наклона и его стандартной ошибки.",
+          "type": "formula",
+          "formula": "$CI = \\hat{b}_1 \\pm t_c \\times s_{\\hat{b}_1}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "\\hat{b}_1",
+              "name_en": "Estimated slope",
+              "name_ru": "Оцененный наклон"
+            },
+            {
+              "symbol": "t_c",
+              "name_en": "Critical t-value",
+              "name_ru": "Критическое t-значение"
+            },
+            {
+              "symbol": "s_{\\hat{b}_1}",
+              "name_en": "Standard error of slope",
+              "name_ru": "Стандартная ошибка наклона"
+            }
+          ],
+          "calculator": null
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "los_id": "LOS_10d",
+      "los_code": "10d",
+      "los_description_en": "Describe the use of analysis of variance (ANOVA) in regression analysis, interpret ANOVA results, and calculate and interpret the standard error of estimate in a simple linear regression",
+      "los_description_ru": "Описать использование дисперсионного анализа (ANOVA) в регрессионном анализе, интерпретировать результаты ANOVA и рассчитать и интерпретировать стандартную ошибку оценки в простой линейной регрессии",
+      "terms": [
+        {
+          "term_id": "QM-10-030",
+          "term_en": "Analysis of Variance (ANOVA)",
+          "term_ru": "Дисперсионный анализ (ANOVA)",
+          "definition_en": "A statistical method that partitions total variation into explained and unexplained components, presenting sum of squares, degrees of freedom, mean squares, and F-statistics in a table format.",
+          "definition_ru": "Статистический метод, который разделяет общую вариацию на объясненные и необъясненные компоненты, представляя суммы квадратов, степени свободы, средние квадраты и F-статистику в табличном формате.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-10-031",
+          "term_en": "Mean Square Regression (MSR)",
+          "term_ru": "Средний квадрат регрессии",
+          "definition_en": "The explained variation adjusted for degrees of freedom, calculated by dividing Sum of Squares Regression by the number of independent variables k. For simple regression, MSR equals SSR.",
+          "definition_ru": "Объясненная вариация, скорректированная на степени свободы, рассчитываемая путем деления суммы квадратов регрессии на количество независимых переменных k. Для простой регрессии MSR равен SSR.",
+          "type": "formula",
+          "formula": "$MSR = \\frac{SSR}{k}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "SSR",
+              "name_en": "Sum of Squares Regression",
+              "name_ru": "Сумма квадратов регрессии"
+            },
+            {
+              "symbol": "k",
+              "name_en": "Number of independent variables",
+              "name_ru": "Количество независимых переменных"
+            }
+          ],
+          "calculator": null
+        },
+        {
+          "term_id": "QM-10-032",
+          "term_en": "Mean Square Error (MSE)",
+          "term_ru": "Средний квадрат ошибки",
+          "definition_en": "The unexplained variation adjusted for degrees of freedom, calculated by dividing Sum of Squared Errors by (n-k-1). For simple regression with k=1, this becomes SSE/(n-2).",
+          "definition_ru": "Необъясненная вариация, скорректированная на степени свободы, рассчитываемая путем деления суммы квадратов ошибок на (n-k-1). Для простой регрессии с k=1 это становится SSE/(n-2).",
+          "type": "formula",
+          "formula": "$MSE = \\frac{SSE}{n-k-1} = \\frac{\\sum_{i=1}^{n}(Y_i - \\hat{Y}_i)^2}{n-2}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "SSE",
+              "name_en": "Sum of Squared Errors",
+              "name_ru": "Сумма квадратов ошибок"
+            },
+            {
+              "symbol": "n",
+              "name_en": "Sample size",
+              "name_ru": "Размер выборки"
+            },
+            {
+              "symbol": "k",
+              "name_en": "Number of independent variables",
+              "name_ru": "Количество независимых переменных"
+            }
+          ],
+          "calculator": null
+        },
+        {
+          "term_id": "QM-10-033",
+          "term_en": "Degrees of Freedom",
+          "term_ru": "Степени свободы",
+          "definition_en": "The number of independent pieces of information available for estimation. For regression: 1 for SSR, (n-2) for SSE, and (n-1) for SST in simple linear regression.",
+          "definition_ru": "Количество независимых частей информации, доступных для оценки. Для регрессии: 1 для SSR, (n-2) для SSE и (n-1) для SST в простой линейной регрессии.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "los_id": "LOS_10e",
+      "los_code": "10e",
+      "los_description_en": "Calculate and interpret the predicted value for the dependent variable, and a prediction interval for it, given an estimated linear regression model and a value for the independent variable",
+      "los_description_ru": "Рассчитать и интерпретировать предсказанное значение для зависимой переменной и интервал прогноза для него, учитывая оцененную модель линейной регрессии и значение независимой переменной",
+      "terms": [
+        {
+          "term_id": "QM-10-034",
+          "term_en": "Predicted Value",
+          "term_ru": "Предсказанное значение",
+          "definition_en": "The estimated value of the dependent variable calculated by inserting a specific value of the independent variable into the regression equation.",
+          "definition_ru": "Оцененное значение зависимой переменной, рассчитанное путем подстановки конкретного значения независимой переменной в уравнение регрессии.",
+          "type": "formula",
+          "formula": "$\\hat{Y} = \\hat{b}_0 + \\hat{b}_1X$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "\\hat{Y}",
+              "name_en": "Predicted dependent variable",
+              "name_ru": "Предсказанная зависимая переменная"
+            },
+            {
+              "symbol": "\\hat{b}_0",
+              "name_en": "Estimated intercept",
+              "name_ru": "Оцененная точка пересечения"
+            },
+            {
+              "symbol": "\\hat{b}_1",
+              "name_en": "Estimated slope",
+              "name_ru": "Оцененный наклон"
+            },
+            {
+              "symbol": "X",
+              "name_en": "Value of independent variable",
+              "name_ru": "Значение независимой переменной"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Ввести значение X",
+              "2. Умножить на оцененный наклон b₁",
+              "3. Добавить оцененную точку пересечения b₀",
+              "4. Результат - предсказанное значение Ŷ"
+            ],
+            "example": {
+              "given": "Уравнение: Ŷ = 7.112 - 0.902X, X = 4.5",
+              "input": "4.5 × 0.902 = 4.059, 7.112 - 4.059 =",
+              "result": "Ŷ = 3.053"
+            }
+          }
+        },
+        {
+          "term_id": "QM-10-035",
+          "term_en": "Prediction Interval",
+          "term_ru": "Интервал прогноза",
+          "definition_en": "A range within which the actual value of the dependent variable is expected to fall for a given value of the independent variable, with a specified confidence level.",
+          "definition_ru": "Диапазон, в котором ожидается фактическое значение зависимой переменной для заданного значения независимой переменной, с указанным уровнем доверия.",
+          "type": "formula",
+          "formula": "$PI = \\hat{Y} \\pm t_c s_f$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "\\hat{Y}",
+              "name_en": "Predicted value",
+              "name_ru": "Предсказанное значение"
+            },
+            {
+              "symbol": "t_c",
+              "name_en": "Critical t-value",
+              "name_ru": "Критическое t-значение"
+            },
+            {
+              "symbol": "s_f",
+              "name_en": "Standard error of forecast",
+              "name_ru": "Стандартная ошибка прогноза"
+            }
+          ],
+          "calculator": null
+        },
+        {
+          "term_id": "QM-10-036",
+          "term_en": "Standard Error of Forecast",
+          "term_ru": "Стандартная ошибка прогноза",
+          "definition_en": "A measure of uncertainty in predictions, incorporating the standard error of estimate and the distance of the forecast value from the mean of independent variable observations.",
+          "definition_ru": "Мера неопределенности в прогнозах, включающая стандартную ошибку оценки и расстояние прогнозного значения от среднего значения наблюдений независимой переменной.",
+          "type": "formula",
+          "formula": "$s_f = s_e\\sqrt{1 + \\frac{1}{n} + \\frac{(X_f - \\bar{X})^2}{\\sum_{i=1}^{n}(X_i - \\bar{X})^2}}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "s_e",
+              "name_en": "Standard error of estimate",
+              "name_ru": "Стандартная ошибка оценки"
+            },
+            {
+              "symbol": "n",
+              "name_en": "Sample size",
+              "name_ru": "Размер выборки"
+            },
+            {
+              "symbol": "X_f",
+              "name_en": "Forecast value of X",
+              "name_ru": "Прогнозное значение X"
+            },
+            {
+              "symbol": "\\bar{X}",
+              "name_en": "Mean of X",
+              "name_ru": "Среднее значение X"
+            }
+          ],
+          "calculator": null
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "los_id": "LOS_10f",
+      "los_code": "10f",
+      "los_description_en": "Describe different functional forms of simple linear regressions",
+      "los_description_ru": "Описать различные функциональные формы простых линейных регрессий",
+      "terms": [
+        {
+          "term_id": "QM-10-037",
+          "term_en": "Log-Lin Model",
+          "term_ru": "Лог-линейная модель",
+          "definition_en": "A regression model where the dependent variable is logarithmic while the independent variable is linear. The slope represents the relative change in Y for an absolute change in X.",
+          "definition_ru": "Регрессионная модель, где зависимая переменная является логарифмической, а независимая переменная линейной. Наклон представляет относительное изменение Y для абсолютного изменения X.",
+          "type": "formula",
+          "formula": "$\\ln(Y) = b_0 + b_1X_i$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "\\ln(Y)",
+              "name_en": "Natural logarithm of dependent variable",
+              "name_ru": "Натуральный логарифм зависимой переменной"
+            },
+            {
+              "symbol": "X_i",
+              "name_en": "Linear independent variable",
+              "name_ru": "Линейная независимая переменная"
+            }
+          ],
+          "calculator": null
+        },
+        {
+          "term_id": "QM-10-038",
+          "term_en": "Lin-Log Model",
+          "term_ru": "Линейно-логарифмическая модель",
+          "definition_en": "A regression model where the dependent variable is linear while the independent variable is logarithmic. The slope represents the absolute change in Y for a relative change in X.",
+          "definition_ru": "Регрессионная модель, где зависимая переменная является линейной, а независимая переменная логарифмической. Наклон представляет абсолютное изменение Y для относительного изменения X.",
+          "type": "formula",
+          "formula": "$Y_i = b_0 + b_1\\ln(X_i)$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "Y_i",
+              "name_en": "Linear dependent variable",
+              "name_ru": "Линейная зависимая переменная"
+            },
+            {
+              "symbol": "\\ln(X_i)",
+              "name_en": "Natural logarithm of independent variable",
+              "name_ru": "Натуральный логарифм независимой переменной"
+            }
+          ],
+          "calculator": null
+        },
+        {
+          "term_id": "QM-10-039",
+          "term_en": "Log-Log Model",
+          "term_ru": "Лог-лог модель",
+          "definition_en": "A regression model where both dependent and independent variables are logarithmic. The slope represents the relative change in Y for a relative change in X, measuring elasticity.",
+          "definition_ru": "Регрессионная модель, где и зависимая, и независимая переменные являются логарифмическими. Наклон представляет относительное изменение Y для относительного изменения X, измеряя эластичность.",
+          "type": "formula",
+          "formula": "$\\ln(Y_i) = b_0 + b_1\\ln(X_i)$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "\\ln(Y_i)",
+              "name_en": "Natural logarithm of dependent variable",
+              "name_ru": "Натуральный логарифм зависимой переменной"
+            },
+            {
+              "symbol": "\\ln(X_i)",
+              "name_en": "Natural logarithm of independent variable",
+              "name_ru": "Натуральный логарифм независимой переменной"
+            }
+          ],
+          "calculator": null
+        }
+      ],
+      "exercises": []
+    }
+  ]
 }
