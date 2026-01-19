@@ -1,0 +1,554 @@
+{
+  "metadata": {
+    "book_id": 2,
+    "book_code": "ECON",
+    "book_name": "Economics",
+    "book_name_ru": "Экономика",
+    "module_id": 1,
+    "module_name": "Firm and Market Structures",
+    "module_name_ru": "Фирма и рыночные структуры",
+    "total_questions": 10,
+    "version": "2.0",
+    "source": "AnalystPrep QBank"
+  },
+  "questions": [
+    {
+      "question_id": "ECON-1-Q001",
+      "original_question_number": 1420,
+      "los_id": "LOS_1a",
+      "question_text_en": "Which of the following return measures considers the implicit cost or opportunity cost of resources supplied to the firm by the owners?",
+      "question_text_ru": "Какой из следующих показателей доходности учитывает неявные издержки или альтернативную стоимость ресурсов, предоставленных фирме владельцами?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Total revenue.",
+          "text_ru": "Общая выручка."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Economic profit.",
+          "text_ru": "Экономическая прибыль."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Accounting profit.",
+          "text_ru": "Бухгалтерская прибыль."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Economic profit is calculated by subtracting both explicit and implicit costs from total revenue. Explicit costs are direct, out-of-pocket payments for resources like labor and materials, while implicit costs represent the opportunity costs of using resources that could have been employed elsewhere. This measure provides a more comprehensive view of a firm's profitability by accounting for the cost of all resources used in production, including those provided by the owners without a direct monetary payment.",
+      "explanation_ru": "Экономическая прибыль рассчитывается путем вычитания как явных, так и неявных издержек из общей выручки. Явные издержки — это прямые денежные платежи за ресурсы, такие как труд и материалы, в то время как неявные издержки представляют альтернативные издержки использования ресурсов, которые могли быть использованы в других целях.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Total revenue refers to the total amount of money a firm receives from its business activities, such as sales of goods or services, before any costs or expenses are deducted. It does not account for any costs, let alone the implicit or opportunity costs of resources supplied by the owners.",
+          "text_ru": "Общая выручка относится к общей сумме денег, которую фирма получает от своей деятельности, например, от продажи товаров или услуг, до вычета каких-либо затрат или расходов. Она не учитывает никакие издержки, не говоря уже о неявных или альтернативных издержках."
+        },
+        "opt_c": {
+          "text_en": "Accounting profit is the difference between total revenue and explicit costs only. Accounting profit does not consider implicit costs, which are the opportunity costs of using resources in a particular way rather than in their next best alternative use.",
+          "text_ru": "Бухгалтерская прибыль — это разница между общей выручкой и только явными издержками. Бухгалтерская прибыль не учитывает неявные издержки, которые являются альтернативными издержками использования ресурсов определенным образом."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "economic_profit",
+        "opportunity_cost",
+        "implicit_costs"
+      ]
+    },
+    {
+      "question_id": "ECON-1-Q002",
+      "original_question_number": 1440,
+      "los_id": "LOS_1b",
+      "question_text_en": "In which of the following forms of market structures is it most important for a firm to consider price moves and other firms' strategies?",
+      "question_text_ru": "В какой из следующих форм рыночных структур для фирмы наиболее важно учитывать изменения цен и стратегии других фирм?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Oligopoly.",
+          "text_ru": "Олигополия."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Monopoly.",
+          "text_ru": "Монополия."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Monopolistic competition.",
+          "text_ru": "Монополистическая конкуренция."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "In an oligopoly market structure, firms are highly interdependent, making it crucial for each firm to consider the pricing moves and strategies of other firms within the market. An oligopoly is characterized by a small number of firms that dominate the market, which means that any action taken by one firm can have a significant impact on the market share and profitability of the other firms.",
+      "explanation_ru": "В олигополистической рыночной структуре фирмы сильно взаимозависимы, что делает крайне важным для каждой фирмы учитывать ценовые ходы и стратегии других фирм на рынке. Олигополия характеризуется небольшим числом фирм, которые доминируют на рынке.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "In a monopoly, a single firm dominates the market with no close substitutes for its product or service. The firm's focus in a monopoly is more on demand and regulatory constraints rather than on competitors' strategies.",
+          "text_ru": "В монополии одна фирма доминирует на рынке без близких заменителей своего продукта или услуги. Фокус фирмы в монополии больше на спросе и регуляторных ограничениях, а не на стратегиях конкурентов."
+        },
+        "opt_c": {
+          "text_en": "In monopolistic competition, firms focus on differentiating their products. The decisions of one firm in a monopolistically competitive market have a less direct impact on the strategies of other firms compared to an oligopoly.",
+          "text_ru": "В монополистической конкуренции фирмы сосредоточены на дифференциации своих продуктов. Решения одной фирмы на монополистически конкурентном рынке имеют менее прямое влияние на стратегии других фирм по сравнению с олигополией."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "oligopoly",
+        "market_structures",
+        "strategic_interdependence"
+      ]
+    },
+    {
+      "question_id": "ECON-1-Q003",
+      "original_question_number": 1441,
+      "los_id": "LOS_1b",
+      "question_text_en": "The main differentiating characteristic between perfect competition and monopolistic competition is the:",
+      "question_text_ru": "Основной отличительной характеристикой между совершенной конкуренцией и монополистической конкуренцией является:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "taxation.",
+          "text_ru": "налогообложение."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "pricing power.",
+          "text_ru": "ценообразующая способность."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "number of firms.",
+          "text_ru": "количество фирм."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The main differentiating characteristic between perfect competition and monopolistic competition is the degree of pricing power that firms possess. In a perfectly competitive market, firms are price takers with no control over price. In monopolistic competition, firms have some degree of pricing power due to product differentiation through branding, quality, features, or marketing strategies.",
+      "explanation_ru": "Основной отличительной характеристикой между совершенной конкуренцией и монополистической конкуренцией является степень ценообразующей способности, которой обладают фирмы. В условиях совершенной конкуренции фирмы являются ценополучателями, не имеющими контроля над ценой. В монополистической конкуренции фирмы имеют некоторую степень ценообразующей способности благодаря дифференциации продукта.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Taxation is not a primary differentiating factor between perfect competition and monopolistic competition. Both market structures can be subject to various forms of taxation.",
+          "text_ru": "Налогообложение не является основным отличительным фактором между совершенной конкуренцией и монополистической конкуренцией."
+        },
+        "opt_c": {
+          "text_en": "While the number of firms is a relevant characteristic, it is not the main differentiating factor. Both market structures are characterized by a relatively large number of firms. The key distinction lies in the ability of firms to set prices through product differentiation.",
+          "text_ru": "Хотя количество фирм является релевантной характеристикой, это не основной отличительный фактор. Обе рыночные структуры характеризуются относительно большим количеством фирм."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "perfect_competition",
+        "monopolistic_competition",
+        "pricing_power"
+      ]
+    },
+    {
+      "question_id": "ECON-1-Q004",
+      "original_question_number": 1444,
+      "los_id": "LOS_1a",
+      "question_text_en": "In which of the following conditions can a firm in a perfectly competitive market maximize its profit?",
+      "question_text_ru": "При каком из следующих условий фирма на совершенно конкурентном рынке может максимизировать свою прибыль?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Demand = Price = Marginal cost.",
+          "text_ru": "Спрос = Цена = Предельные издержки."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Demand = Price > Marginal revenue.",
+          "text_ru": "Спрос = Цена > Предельный доход."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Demand = Price = Marginal revenue < Marginal cost.",
+          "text_ru": "Спрос = Цена = Предельный доход < Предельные издержки."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "In a perfectly competitive market, a firm can maximize its profit when the condition of Demand = Price = Marginal Cost is met. This scenario represents the equilibrium point where the firm's marginal cost of producing an additional unit equals the market price. At this point, the firm is producing at an efficient scale, where the cost of producing one more unit is exactly equal to the revenue gained from selling that unit.",
+      "explanation_ru": "На совершенно конкурентном рынке фирма может максимизировать прибыль, когда выполняется условие Спрос = Цена = Предельные издержки. Этот сценарий представляет точку равновесия, где предельные издержки фирмы на производство дополнительной единицы равны рыночной цене.",
+      "explanation_formula": "$P = MC$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "This option incorrectly suggests that price is greater than marginal revenue. In a perfectly competitive market, price is equal to marginal revenue, as the price at which a firm can sell its product is determined by the market and is the same for every unit sold.",
+          "text_ru": "Этот вариант неверно предполагает, что цена больше предельного дохода. На совершенно конкурентном рынке цена равна предельному доходу."
+        },
+        "opt_c": {
+          "text_en": "This describes a situation where the cost of producing an additional unit is higher than the revenue that unit would bring in, leading to losses on each additional unit produced.",
+          "text_ru": "Это описывает ситуацию, когда стоимость производства дополнительной единицы выше, чем доход, который эта единица принесет, что приводит к убыткам."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "perfect_competition",
+        "profit_maximization",
+        "marginal_cost"
+      ]
+    },
+    {
+      "question_id": "ECON-1-Q005",
+      "original_question_number": 1445,
+      "los_id": "LOS_1a",
+      "question_text_en": "Soybeans Corp. operates in a perfectly competitive market. What is the most likely impact on the equilibrium price and quantity if the market demand decreases?",
+      "question_text_ru": "Soybeans Corp. работает на совершенно конкурентном рынке. Каково наиболее вероятное влияние на равновесную цену и количество, если рыночный спрос уменьшится?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The equilibrium price and quantity will decrease.",
+          "text_ru": "Равновесная цена и количество уменьшатся."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The equilibrium price and quantity will increase.",
+          "text_ru": "Равновесная цена и количество увеличатся."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The equilibrium price will decrease while the equilibrium quantity will increase.",
+          "text_ru": "Равновесная цена уменьшится, а равновесное количество увеличится."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "When there is a decrease in market demand, it leads to a shift in the demand curve to the left. This shift results in a new equilibrium point where the equilibrium price and the equilibrium quantity are both lower than before. The decrease in demand means that consumers are willing to buy less of the product at any given price, leading to a surplus at the original equilibrium price. To eliminate this surplus, the price must fall.",
+      "explanation_ru": "Когда происходит снижение рыночного спроса, это приводит к сдвигу кривой спроса влево. Этот сдвиг приводит к новой точке равновесия, где равновесная цена и равновесное количество ниже, чем раньше. Снижение спроса означает, что потребители готовы покупать меньше продукта по любой данной цене.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "A decrease in demand, without a change in supply, leads to a surplus of goods at the original price. To clear this surplus, the price must decrease, which also results in a decrease in the quantity supplied.",
+          "text_ru": "Снижение спроса без изменения предложения приводит к избытку товаров по первоначальной цене. Для устранения этого избытка цена должна снизиться."
+        },
+        "opt_c": {
+          "text_en": "In the context of a decrease in market demand, both the equilibrium price and quantity decrease. A decrease in demand leads to a surplus at the original price, necessitating a price reduction. This price reduction, in turn, leads to a decrease in the quantity supplied.",
+          "text_ru": "В контексте снижения рыночного спроса и равновесная цена, и количество снижаются."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "supply_and_demand",
+        "equilibrium",
+        "market_shifts"
+      ]
+    },
+    {
+      "question_id": "ECON-1-Q006",
+      "original_question_number": 1451,
+      "los_id": "LOS_1c",
+      "question_text_en": "Which of the following is least likely to be used as a pricing strategy in a monopoly?",
+      "question_text_ru": "Какая из следующих стратегий ценообразования наименее вероятно будет использоваться в монополии?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Single price strategy.",
+          "text_ru": "Стратегия единой цены."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Interdependent pricing.",
+          "text_ru": "Взаимозависимое ценообразование."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Discriminating pricing strategy.",
+          "text_ru": "Дискриминационная стратегия ценообразования."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Interdependent pricing is least likely to be used as a pricing strategy in a monopoly. In a monopoly market structure, a single firm dominates the market without any close substitutes. The concept of interdependent pricing primarily applies to oligopolistic markets, where a few firms dominate, and each firm's pricing strategy is heavily influenced by the pricing decisions of its competitors.",
+      "explanation_ru": "Взаимозависимое ценообразование наименее вероятно будет использоваться в качестве стратегии ценообразования в монополии. В монополистической рыночной структуре одна фирма доминирует на рынке без каких-либо близких заменителей. Концепция взаимозависимого ценообразования в первую очередь применяется к олигополистическим рынкам.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "A single-price strategy is indeed a common approach in a monopoly. This strategy involves setting one price for all consumers of the product or service. Since the monopolist is the sole provider, it can set the price without concern for competition.",
+          "text_ru": "Стратегия единой цены действительно является распространенным подходом в монополии. Эта стратегия включает установление одной цены для всех потребителей."
+        },
+        "opt_c": {
+          "text_en": "Discriminating pricing strategy, also known as price discrimination, can be effectively employed by monopolies. This strategy involves charging different prices to different groups of consumers based on their willingness to pay.",
+          "text_ru": "Дискриминационная стратегия ценообразования, также известная как ценовая дискриминация, может эффективно использоваться монополиями."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "monopoly",
+        "pricing_strategies",
+        "price_discrimination"
+      ]
+    },
+    {
+      "question_id": "ECON-1-Q007",
+      "original_question_number": 1455,
+      "los_id": "LOS_1e",
+      "question_text_en": "Earth, Sun, Moon, and Star firms have market shares of 28%, 22%, 15%, and 10% respectively. The 4-firm Herfindahl-Hirschman Index is closest to:",
+      "question_text_ru": "Фирмы Earth, Sun, Moon и Star имеют доли рынка 28%, 22%, 15% и 10% соответственно. Индекс Херфиндаля-Хиршмана для 4 фирм ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "1609.",
+          "text_ru": "1609."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "1593.",
+          "text_ru": "1593."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "1871.",
+          "text_ru": "1871."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The HHI Index was developed by two economists (OC Herfindahl and A.O. Hirschman). It first squares the market shares of the top N companies then sums them up. 4-firm HHI = 28² + 22² + 15² + 10² = 784 + 484 + 225 + 100 = 1593.",
+      "explanation_ru": "Индекс HHI был разработан двумя экономистами (OC Herfindahl и A.O. Hirschman). Он сначала возводит в квадрат доли рынка топ-N компаний, а затем суммирует их. 4-фирменный HHI = 28² + 22² + 15² + 10² = 784 + 484 + 225 + 100 = 1593.",
+      "explanation_formula": "$HHI = \\sum_{i=1}^{n} s_i^2$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect calculation.",
+          "text_ru": "Неверный расчет."
+        },
+        "opt_c": {
+          "text_en": "Incorrect calculation.",
+          "text_ru": "Неверный расчет."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Direct calculation",
+        "steps_en": [
+          "28² = 784",
+          "22² = 484",
+          "15² = 225",
+          "10² = 100",
+          "Sum = 1593"
+        ],
+        "steps_ru": [
+          "28² = 784",
+          "22² = 484",
+          "15² = 225",
+          "10² = 100",
+          "Сумма = 1593"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": [
+        "herfindahl_hirschman_index",
+        "market_concentration"
+      ]
+    },
+    {
+      "question_id": "ECON-1-Q008",
+      "original_question_number": 1457,
+      "los_id": "LOS_1b",
+      "question_text_en": "In which of the following forms of market structures does a firm make output and pricing decisions based on the anticipated actions of its competitors?",
+      "question_text_ru": "В какой из следующих форм рыночных структур фирма принимает решения о производстве и ценообразовании на основе ожидаемых действий своих конкурентов?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Oligopoly.",
+          "text_ru": "Олигополия."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Monopoly.",
+          "text_ru": "Монополия."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Perfect competition.",
+          "text_ru": "Совершенная конкуренция."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "In an oligopoly, firms make output and pricing decisions with a keen awareness of their competitors' potential actions. This market structure is characterized by a small number of firms that dominate the market, leading to a high degree of interdependence among them. Each firm understands that its decisions regarding prices and output levels can significantly influence the market environment, prompting reactions from competitors.",
+      "explanation_ru": "В олигополии фирмы принимают решения о производстве и ценообразовании с острым пониманием потенциальных действий своих конкурентов. Эта рыночная структура характеризуется небольшим числом фирм, которые доминируют на рынке, что приводит к высокой степени взаимозависимости между ними.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "In a monopoly, a single firm dominates the market with no direct competitors. The firm does not have to anticipate competitors' responses when setting prices or output levels.",
+          "text_ru": "В монополии одна фирма доминирует на рынке без прямых конкурентов. Фирме не нужно предвидеть ответы конкурентов при установлении цен или уровней производства."
+        },
+        "opt_c": {
+          "text_en": "Perfect competition is characterized by a large number of small firms with no control over market price. There is no room for strategic interaction among firms regarding pricing or output decisions.",
+          "text_ru": "Совершенная конкуренция характеризуется большим количеством мелких фирм без контроля над рыночной ценой. Нет места для стратегического взаимодействия между фирмами относительно решений о ценообразовании или производстве."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "oligopoly",
+        "strategic_behavior",
+        "interdependence"
+      ]
+    },
+    {
+      "question_id": "ECON-1-Q009",
+      "original_question_number": 2466,
+      "los_id": "LOS_1a",
+      "question_text_en": "For a firm operating in a perfectly competitive market, the optimal output quantity will be selected such that:",
+      "question_text_ru": "Для фирмы, работающей на совершенно конкурентном рынке, оптимальное количество выпуска будет выбрано таким образом, чтобы:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "marginal cost is less than market price.",
+          "text_ru": "предельные издержки меньше рыночной цены."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "marginal cost is less than marginal revenue.",
+          "text_ru": "предельные издержки меньше предельного дохода."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "marginal cost is equal to marginal revenue.",
+          "text_ru": "предельные издержки равны предельному доходу."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "In a perfectly competitive market, the optimal output quantity for a firm is determined at the point where marginal cost (MC) is equal to marginal revenue (MR). This principle is central to the theory of firm behavior, reflecting the condition for profit maximization. In such markets, firms are price takers and can sell as much as they want at the prevailing market price. To maximize profits, a firm will increase its output until the cost of producing an additional unit equals the revenue gained from selling that unit.",
+      "explanation_ru": "На совершенно конкурентном рынке оптимальное количество выпуска для фирмы определяется в точке, где предельные издержки (MC) равны предельному доходу (MR). Этот принцип является центральным для теории поведения фирмы, отражая условие максимизации прибыли.",
+      "explanation_formula": "$MC = MR$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "While producing up to the point where MC is just below the market price might still be profitable, it is not the optimal output level. The firm can increase its profit by expanding output until MC equals MR.",
+          "text_ru": "Хотя производство до точки, где MC чуть ниже рыночной цены, может быть прибыльным, это не оптимальный уровень производства."
+        },
+        "opt_b": {
+          "text_en": "While it is true that firms should produce as long as MR exceeds MC to increase profit, the optimal point of production is when the two are equal. The condition MC < MR is a signal for the firm to increase production, not to stop.",
+          "text_ru": "Хотя верно, что фирмы должны производить до тех пор, пока MR превышает MC для увеличения прибыли, оптимальная точка производства — когда они равны."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "perfect_competition",
+        "profit_maximization",
+        "marginal_analysis"
+      ]
+    },
+    {
+      "question_id": "ECON-1-Q010",
+      "original_question_number": 2469,
+      "los_id": "LOS_1e",
+      "question_text_en": "In a segment of the software market, the three top firms have 40 percent, 15 percent and 10 percent of the market. The Herfindahl-Hirschmann index for the top three firms is closest to:",
+      "question_text_ru": "В сегменте рынка программного обеспечения три ведущие фирмы имеют 40 процентов, 15 процентов и 10 процентов рынка. Индекс Херфиндаля-Хиршмана для трех ведущих фирм ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "0.19.",
+          "text_ru": "0.19."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "0.63.",
+          "text_ru": "0.63."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "0.75.",
+          "text_ru": "0.75."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The HHI is equal to 0.40² + 0.15² + 0.10² = 0.16 + 0.0225 + 0.01 = 0.1925, which is closest to 0.19.",
+      "explanation_ru": "HHI равен 0.40² + 0.15² + 0.10² = 0.16 + 0.0225 + 0.01 = 0.1925, что ближе всего к 0.19.",
+      "explanation_formula": "$HHI = \\sum_{i=1}^{n} (\\frac{s_i}{100})^2$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect calculation.",
+          "text_ru": "Неверный расчет."
+        },
+        "opt_c": {
+          "text_en": "Incorrect calculation.",
+          "text_ru": "Неверный расчет."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Direct calculation",
+        "steps_en": [
+          "0.40² = 0.16",
+          "0.15² = 0.0225",
+          "0.10² = 0.01",
+          "Sum = 0.1925 ≈ 0.19"
+        ],
+        "steps_ru": [
+          "0.40² = 0.16",
+          "0.15² = 0.0225",
+          "0.10² = 0.01",
+          "Сумма = 0.1925 ≈ 0.19"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": [
+        "herfindahl_hirschman_index",
+        "market_concentration"
+      ]
+    }
+  ]
+}
