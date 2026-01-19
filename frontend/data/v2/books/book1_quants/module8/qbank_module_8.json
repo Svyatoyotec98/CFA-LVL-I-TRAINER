@@ -7,7 +7,7 @@
     "module_id": 8,
     "module_name": "Parametric and Non-Parametric Tests",
     "module_name_ru": "Параметрические и непараметрические тесты",
-    "total_questions": 20,
+    "total_questions": 30,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -1029,6 +1029,517 @@
         "confidence_intervals",
         "t_distribution",
         "unknown_variance"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q021",
+      "original_question_number": 224,
+      "los_id": "LOS_8b",
+      "question_text_en": "If a researcher wants to test that the mean return of 50 small-cap stocks from the Singapore Exchange is greater than 14%, the alternative hypothesis for the test is most likely:",
+      "question_text_ru": "Если исследователь хочет проверить, что средняя доходность 50 акций малой капитализации с Сингапурской биржи превышает 14%, альтернативная гипотеза для теста наиболее вероятно:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Ha: μ ≠ 14%",
+          "text_ru": "Ha: μ ≠ 14%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Ha: μ > 14%",
+          "text_ru": "Ha: μ > 14%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Ha: μ < 14%",
+          "text_ru": "Ha: μ < 14%"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Since the researcher wants to test that if the mean of 50 small-cap stocks is greater than 14%, the null hypothesis is H0: μ ≤ 14% and the alternative hypothesis is Ha: μ > 14%. We always want to reject the null hypothesis and accept the alternative. Since the researcher wants to prove that the mean returns are greater than 14%, Ha: μ > 14%; H0: μ ≤ 14%.",
+      "explanation_ru": "Поскольку исследователь хочет проверить, превышает ли средняя доходность 50 акций малой капитализации 14%, нулевая гипотеза H0: μ ≤ 14%, а альтернативная гипотеза Ha: μ > 14%. Мы всегда хотим отклонить нулевую гипотезу и принять альтернативную. Поскольку исследователь хочет доказать, что средняя доходность превышает 14%, Ha: μ > 14%; H0: μ ≤ 14%.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "This denotes that the alternative hypothesis is not equal to 14%, which represents a two-tailed test, not appropriate when testing for values greater than a specific threshold.",
+          "text_ru": "Это означает, что альтернативная гипотеза не равна 14%, что представляет двусторонний тест, не подходящий при проверке значений, превышающих определенный порог."
+        },
+        "opt_c": {
+          "text_en": "This indicates that the alternative hypothesis for the mean return is less than 14%, which contradicts the researcher's objective to test if returns are greater than 14%.",
+          "text_ru": "Это указывает, что альтернативная гипотеза для средней доходности меньше 14%, что противоречит цели исследователя проверить, превышает ли доходность 14%."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "hypothesis_formulation",
+        "one_tailed_test",
+        "alternative_hypothesis"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q022",
+      "original_question_number": 225,
+      "los_id": "LOS_8b",
+      "question_text_en": "The most appropriate hypothesis test concerning the variance of a normally distributed population is referred to as the:",
+      "question_text_ru": "Наиболее подходящий тест гипотез относительно дисперсии нормально распределенной популяции называется:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Z-test",
+          "text_ru": "Z-тест"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "F-test",
+          "text_ru": "F-тест"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Chi-squared test",
+          "text_ru": "Хи-квадрат тест"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "A chi-squared (χ²) statistic is used to investigate whether distributions of categorical variables differ from one another. More specifically, it is used to test hypotheses concerning the variance of a normally distributed population.",
+      "explanation_ru": "Статистика хи-квадрат (χ²) используется для исследования того, отличаются ли распределения категориальных переменных друг от друга. Более конкретно, она используется для проверки гипотез относительно дисперсии нормально распределенной популяции.",
+      "explanation_formula": "$\\chi^2 = \\frac{(n-1)s^2}{\\sigma^2}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The Z test is used when comparing the means of two distributions with known variances, not for testing variance of a single population.",
+          "text_ru": "Z-тест используется при сравнении средних двух распределений с известными дисперсиями, а не для проверки дисперсии одной популяции."
+        },
+        "opt_b": {
+          "text_en": "The F test is used when checking for the equality of two population variances, not a single population variance.",
+          "text_ru": "F-тест используется при проверке равенства двух дисперсий популяции, а не одной дисперсии популяции."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "chi_squared_test",
+        "variance_testing",
+        "hypothesis_testing"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q023",
+      "original_question_number": 226,
+      "los_id": "LOS_8c",
+      "question_text_en": "Which of the following statement(s) is/are most accurate?\nI. Nonparametric tests have more assumptions than parametric tests.\nII. When data is based on ordinal measurements, we use nonparametric tests.",
+      "question_text_ru": "Какое из следующих утверждений наиболее точно?\nI. Непараметрические тесты имеют больше предположений, чем параметрические тесты.\nII. Когда данные основаны на порядковых измерениях, мы используем непараметрические тесты.",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Both statements are correct",
+          "text_ru": "Оба утверждения верны"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Both statements are incorrect",
+          "text_ru": "Оба утверждения неверны"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Only one statement is correct",
+          "text_ru": "Только одно утверждение верно"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Statement I is incorrect. Nonparametric tests have fewer assumptions than parametric tests. Statement II is correct. When data is based on ordinal measurements, we use nonparametric tests. Non-parametric tests are also used when: the median is more desirable than the mean and when the sample size is extremely small.",
+      "explanation_ru": "Утверждение I неверно. Непараметрические тесты имеют меньше предположений, чем параметрические тесты. Утверждение II верно. Когда данные основаны на порядковых измерениях, мы используем непараметрические тесты. Непараметрические тесты также используются, когда: медиана более предпочтительна, чем среднее, и когда размер выборки чрезвычайно мал.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Statement I is incorrect because nonparametric tests have fewer, not more, assumptions than parametric tests.",
+          "text_ru": "Утверждение I неверно, потому что непараметрические тесты имеют меньше, а не больше предположений, чем параметрические тесты."
+        },
+        "opt_b": {
+          "text_en": "Statement II is correct, so both statements cannot be incorrect.",
+          "text_ru": "Утверждение II верно, поэтому оба утверждения не могут быть неверными."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "nonparametric_tests",
+        "parametric_tests",
+        "ordinal_data"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q024",
+      "original_question_number": 227,
+      "los_id": "LOS_8b",
+      "question_text_en": "A large positive value of the Spearman rank correlation such as 0.90 would most likely indicate that:",
+      "question_text_ru": "Большое положительное значение корреляции Спирмена, такое как 0,90, наиболее вероятно указывает на то, что:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "A high rank in one year is associated with a low rank in the second year",
+          "text_ru": "Высокий ранг в один год связан с низким рангом во второй год"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "A high rank in one year is associated with a high rank in the second year",
+          "text_ru": "Высокий ранг в один год связан с высоким рангом во второй год"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "A high rank in one year will not have any impact on the rank in the second year",
+          "text_ru": "Высокий ранг в один год не окажет никакого влияния на ранг во второй год"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "A large positive value of the Spearman rank correlation such as 0.90 indicates a strong positive association between ranks. The Spearman's rank correlation coefficient takes values from -1 to 1. The closer to 1 or to -1, the stronger the relationship. 1 indicates a perfect positive association, whereas -1 indicates a perfect negative association between variables. A value of 0.90 demonstrates a strong, direct relationship between the ranks in two different years, where a high rank in one year is likely to be associated with a high rank in the next year.",
+      "explanation_ru": "Большое положительное значение корреляции Спирмена, такое как 0,90, указывает на сильную положительную связь между рангами. Коэффициент корреляции Спирмена принимает значения от -1 до 1. Чем ближе к 1 или к -1, тем сильнее связь. 1 указывает на идеальную положительную связь, тогда как -1 указывает на идеальную отрицательную связь между переменными. Значение 0,90 демонстрирует сильную прямую связь между рангами в двух разных годах, где высокий ранг в один год, вероятно, будет связан с высоким рангом в следующий год.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "This would be indicative of a negative Spearman rank correlation (closer to -1), not a positive one like 0.90.",
+          "text_ru": "Это было бы показателем отрицательной корреляции Спирмена (ближе к -1), а не положительной, как 0,90."
+        },
+        "opt_c": {
+          "text_en": "A coefficient near 0 would suggest no correlation, but a value of 0.90 demonstrates a strong positive correlation.",
+          "text_ru": "Коэффициент, близкий к 0, предполагал бы отсутствие корреляции, но значение 0,90 демонстрирует сильную положительную корреляцию."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "spearman_correlation",
+        "rank_correlation",
+        "nonparametric_tests"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q025",
+      "original_question_number": 228,
+      "los_id": "LOS_8b",
+      "question_text_en": "A sample of 100 students is currently renting rooms at a mean distance of 18 miles from a small U.S. College. Assuming that the population is normally distributed and the standard deviation of the sample is 14 miles, the 99% confidence interval for the population mean is closest to:",
+      "question_text_ru": "Выборка из 100 студентов в настоящее время арендует комнаты на среднем расстоянии 18 миль от небольшого колледжа в США. Предполагая, что популяция нормально распределена, а стандартное отклонение выборки составляет 14 миль, 99% доверительный интервал для среднего популяции ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "[15.26 miles; 20.74 miles]",
+          "text_ru": "[15,26 миль; 20,74 миль]"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "[16.6 miles; 19.4 miles]",
+          "text_ru": "[16,6 миль; 19,4 миль]"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "[14.4 miles; 21.6 miles]",
+          "text_ru": "[14,4 миль; 21,6 миль]"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Standard error of the sample = Standard deviation/√Sample size = 14/√100 = 1.4. Z-statistic (Reliability factor) at 99% confidence interval = 2.58. Confidence interval = Point estimate ± Reliability factor × Standard error. Lower limit = 18 - (2.58 × 1.4) = 14.39 miles. Upper limit = 18 + (2.58 × 1.4) = 21.6 miles. The 99% confidence interval is [14.4; 21.6]. This means that 99% of the students rent rooms within a distance of 14.4 to 21.6 miles.",
+      "explanation_ru": "Стандартная ошибка выборки = Стандартное отклонение/√Размер выборки = 14/√100 = 1,4. Z-статистика (фактор надежности) для 99% доверительного интервала = 2,58. Доверительный интервал = Точечная оценка ± Фактор надежности × Стандартная ошибка. Нижний предел = 18 - (2,58 × 1,4) = 14,39 миль. Верхний предел = 18 + (2,58 × 1,4) = 21,6 миль. 99% доверительный интервал составляет [14,4; 21,6]. Это означает, что 99% студентов арендуют комнаты на расстоянии от 14,4 до 21,6 миль.",
+      "explanation_formula": "$\\text{CI} = \\bar{X} \\pm Z_{\\alpha/2} \\times \\frac{\\sigma}{\\sqrt{n}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "This option uses an incorrect z-statistic, possibly for a 95% confidence level instead of 99%.",
+          "text_ru": "Этот вариант использует неправильную z-статистику, возможно, для 95% уровня доверия вместо 99%."
+        },
+        "opt_b": {
+          "text_en": "This option uses an incorrect calculation method or wrong reliability factor.",
+          "text_ru": "Этот вариант использует неправильный метод расчета или неверный фактор надежности."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": "Use z-table or [2nd] [VARS] for invNorm(0.005) to get 2.58",
+      "difficulty": "medium",
+      "topic_tags": [
+        "confidence_intervals",
+        "z_distribution",
+        "known_variance"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q026",
+      "original_question_number": 229,
+      "los_id": "LOS_8b",
+      "question_text_en": "The mean return of a sample of 36 BB+ corporate bonds is 7.5%, and the sample's standard deviation is 14%. Assuming that the population is normally distributed and the population variance is unknown, based on t-distribution, the 95% confidence interval for the population mean is closest to:",
+      "question_text_ru": "Средний доход выборки из 36 корпоративных облигаций BB+ составляет 7,5%, а стандартное отклонение выборки - 14%. Предполагая, что популяция нормально распределена, а дисперсия популяции неизвестна, на основе t-распределения 95% доверительный интервал для среднего популяции ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "[2.77%; 12.23%]",
+          "text_ru": "[2,77%; 12,23%]"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "[2.93%; 12.06%]",
+          "text_ru": "[2,93%; 12,06%]"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "[3.56%; 11.43%]",
+          "text_ru": "[3,56%; 11,43%]"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Since the population variance is unknown and the population is normally distributed, we use a t-statistic. The t-statistic for a 95% confidence interval and 35 degrees of freedom (df=n-1=35) is 2.030. The standard error = 14/√36 = 2.33. The confidence interval is 7.5 - (2.03 * 2.33) = 2.77 and 7.5 + (2.03 * 2.33) = 12.23. Approximately 95% of the mean returns of BB+ corporate bonds fall within the interval (2.77%;12.23%). Using a reliability factor based on the t-distribution is essential when the population variance is unknown.",
+      "explanation_ru": "Поскольку дисперсия популяции неизвестна, а популяция нормально распределена, мы используем t-статистику. t-статистика для 95% доверительного интервала и 35 степеней свободы (df=n-1=35) составляет 2,030. Стандартная ошибка = 14/√36 = 2,33. Доверительный интервал составляет 7,5 - (2,03 * 2,33) = 2,77 и 7,5 + (2,03 * 2,33) = 12,23. Приблизительно 95% средних доходов корпоративных облигаций BB+ попадают в интервал (2,77%;12,23%). Использование фактора надежности на основе t-распределения важно, когда дисперсия популяции неизвестна.",
+      "explanation_formula": "$\\text{CI} = \\bar{X} \\pm t_{\\alpha/2,df} \\times \\frac{s}{\\sqrt{n}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "This option uses an incorrect t-statistic value.",
+          "text_ru": "Этот вариант использует неправильное значение t-статистики."
+        },
+        "opt_c": {
+          "text_en": "This option uses an incorrect calculation method, likely with wrong degrees of freedom.",
+          "text_ru": "Этот вариант использует неправильный метод расчета, вероятно, с неверными степенями свободы."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": "[2nd] [VARS] for DISTR menu, select invT(0.025, 35) for t-value",
+      "difficulty": "medium",
+      "topic_tags": [
+        "confidence_intervals",
+        "t_distribution",
+        "unknown_variance"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q027",
+      "original_question_number": 230,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following is the most appropriate test statistic for calculating confidence intervals for a normally distributed population mean whose variance is unknown and the sample size is less than 30?",
+      "question_text_ru": "Какая из следующих тестовых статистик наиболее подходит для расчета доверительных интервалов для среднего нормально распределенной популяции, дисперсия которой неизвестна, а размер выборки меньше 30?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "z-statistic",
+          "text_ru": "z-статистика"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "t-statistic",
+          "text_ru": "t-статистика"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "F-statistic",
+          "text_ru": "F-статистика"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The t-statistic is most appropriate for constructing confidence intervals for normally distributed population means whose variance is unknown and the sample size is less than 30. The t-distribution accounts for the additional uncertainty introduced by estimating the population variance from the sample. The z-statistic is appropriate when the population variance is known (regardless of the sample size).",
+      "explanation_ru": "t-статистика наиболее подходит для построения доверительных интервалов для средних нормально распределенных популяций, дисперсия которых неизвестна, а размер выборки меньше 30. t-распределение учитывает дополнительную неопределенность, вносимую оценкой дисперсии популяции по выборке. z-статистика подходит, когда дисперсия популяции известна (независимо от размера выборки).",
+      "explanation_formula": "$t = \\frac{\\bar{X} - \\mu}{s/\\sqrt{n}}$ with $df = n-1$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The z-statistic is appropriate when the population variance is known, not unknown.",
+          "text_ru": "z-статистика подходит, когда дисперсия популяции известна, а не неизвестна."
+        },
+        "opt_c": {
+          "text_en": "The F statistic is most appropriate when testing for the differences in population variances, not for confidence intervals of means.",
+          "text_ru": "F-статистика наиболее подходит при проверке различий в дисперсиях популяции, а не для доверительных интервалов средних."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "t_distribution",
+        "confidence_intervals",
+        "unknown_variance",
+        "small_sample"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q028",
+      "original_question_number": 231,
+      "los_id": "LOS_8b",
+      "question_text_en": "If a researcher wants to test that the mean return of 50 small-cap stocks from the Singapore Exchange is greater than 14%, the null hypothesis and alternative hypothesis for the test are most likely:",
+      "question_text_ru": "Если исследователь хочет проверить, что средняя доходность 50 акций малой капитализации с Сингапурской биржи превышает 14%, нулевая гипотеза и альтернативная гипотеза для теста наиболее вероятно:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "H0: μ = 14% and Ha: μ ≠ 14%",
+          "text_ru": "H0: μ = 14% и Ha: μ ≠ 14%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "H0: μ ≤ 14% and Ha: μ > 14%",
+          "text_ru": "H0: μ ≤ 14% и Ha: μ > 14%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "H0: μ ≥ 14% and Ha: μ < 14%",
+          "text_ru": "H0: μ ≥ 14% и Ha: μ < 14%"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Since the researcher wants to test that if the mean of 50 small-cap stocks is greater than 14%, the null hypothesis is H0: μ ≤ 14% and the alternative hypothesis is Ha: μ > 14%. We always want to reject the null hypothesis and accept the alternative. Since the researcher wants to prove that the mean returns are greater than 14%, the appropriate hypotheses are H0: μ ≤ 14% and Ha: μ > 14%. This is a one-tailed test.",
+      "explanation_ru": "Поскольку исследователь хочет проверить, превышает ли средняя доходность 50 акций малой капитализации 14%, нулевая гипотеза H0: μ ≤ 14%, а альтернативная гипотеза Ha: μ > 14%. Мы всегда хотим отклонить нулевую гипотезу и принять альтернативную. Поскольку исследователь хочет доказать, что средняя доходность превышает 14%, соответствующие гипотезы: H0: μ ≤ 14% и Ha: μ > 14%. Это односторонний тест.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "This represents a two-tailed test, which is not appropriate when testing if returns are specifically greater than 14%.",
+          "text_ru": "Это представляет двусторонний тест, который не подходит при проверке, превышает ли конкретно доходность 14%."
+        },
+        "opt_c": {
+          "text_en": "This tests whether returns are less than 14%, which is the opposite of what the researcher wants to prove.",
+          "text_ru": "Это проверяет, меньше ли доходность 14%, что противоположно тому, что исследователь хочет доказать."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "hypothesis_formulation",
+        "one_tailed_test",
+        "null_hypothesis"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q029",
+      "original_question_number": 232,
+      "los_id": "LOS_8b",
+      "question_text_en": "An analyst believes that the mean return over 24 months on Geko Corp. shares is different from 0%. Determine which of the following is the most likely decision rule?",
+      "question_text_ru": "Аналитик считает, что средняя доходность за 24 месяца по акциям Geko Corp. отличается от 0%. Определите, какое из следующих правил решения наиболее вероятно?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Reject H0 if the test statistic > the upper critical value",
+          "text_ru": "Отклонить H0, если тестовая статистика > верхнего критического значения"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Reject H0 if the test statistic < the lower critical value",
+          "text_ru": "Отклонить H0, если тестовая статистика < нижнего критического значения"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Reject H0 if the test statistic > the upper critical value OR if the test statistic < the lower critical value",
+          "text_ru": "Отклонить H0, если тестовая статистика > верхнего критического значения ИЛИ если тестовая статистика < нижнего критического значения"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Since the analyst wants to test if the mean is different from zero, it is a two-tailed test and the appropriate hypotheses are H0: μ = 0% and Ha: μ ≠ 0%. The appropriate decision rule is to reject H0 if the test statistic > the upper critical value OR if the test statistic < the lower critical value. For two-tailed tests, the decision rule should consider both cases (when the test statistic is greater than the upper critical value and when it is less than the lower critical value).",
+      "explanation_ru": "Поскольку аналитик хочет проверить, отличается ли среднее от нуля, это двусторонний тест, и соответствующие гипотезы: H0: μ = 0% и Ha: μ ≠ 0%. Соответствующее правило решения - отклонить H0, если тестовая статистика > верхнего критического значения ИЛИ если тестовая статистика < нижнего критического значения. Для двусторонних тестов правило решения должно учитывать оба случая (когда тестовая статистика больше верхнего критического значения и когда она меньше нижнего критического значения).",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "This is incomplete for a two-tailed test. It only considers one tail of the distribution.",
+          "text_ru": "Это неполно для двустороннего теста. Это учитывает только один хвост распределения."
+        },
+        "opt_b": {
+          "text_en": "This is incomplete for a two-tailed test. It only considers one tail of the distribution.",
+          "text_ru": "Это неполно для двустороннего теста. Это учитывает только один хвост распределения."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "two_tailed_test",
+        "decision_rule",
+        "critical_values"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q030",
+      "original_question_number": 233,
+      "los_id": "LOS_8b",
+      "question_text_en": "A quantitative analyst has calculated the mean holding period return (HPR) of 1% for 110 European corporate bonds with a standard deviation of 2%. If the analyst wants to test at a 5% level of significance that the mean HPR on European corporate bonds is different from zero, then the test statistic is closest to:",
+      "question_text_ru": "Количественный аналитик рассчитал средний доход за период владения (HPR) в 1% для 110 европейских корпоративных облигаций со стандартным отклонением 2%. Если аналитик хочет проверить на уровне значимости 5%, что средний HPR по европейским корпоративным облигациям отличается от нуля, то тестовая статистика ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "0.19",
+          "text_ru": "0,19"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "1.96",
+          "text_ru": "1,96"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "5.24",
+          "text_ru": "5,24"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Test statistic = (Sample mean - Hypothesized value) / Standard Error. Standard Error = Standard deviation/√Sample Size = 2%/√110. Test Statistic = (1% - 0) / (2%/√110) = 5.24. This indicates strong evidence against the null hypothesis.",
+      "explanation_ru": "Тестовая статистика = (Выборочное среднее - Гипотетическое значение) / Стандартная ошибка. Стандартная ошибка = Стандартное отклонение/√Размер выборки = 2%/√110. Тестовая статистика = (1% - 0) / (2%/√110) = 5,24. Это указывает на сильные доказательства против нулевой гипотезы.",
+      "explanation_formula": "$z = \\frac{\\bar{X} - \\mu_0}{\\sigma/\\sqrt{n}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "This value would suggest a very small difference between the sample mean and the hypothesized value, which is not supported by the calculation.",
+          "text_ru": "Это значение предполагало бы очень небольшую разницу между выборочным средним и гипотетическим значением, что не подтверждается расчетом."
+        },
+        "opt_b": {
+          "text_en": "This is the critical value at a 5% level of significance for a two-tailed test, not the calculated test statistic.",
+          "text_ru": "Это критическое значение на уровне значимости 5% для двустороннего теста, а не рассчитанная тестовая статистика."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": "Calculate: 1 / (2 / √110) = 5.24",
+      "difficulty": "medium",
+      "topic_tags": [
+        "test_statistic",
+        "z_test",
+        "hypothesis_testing"
       ]
     }
   ]
