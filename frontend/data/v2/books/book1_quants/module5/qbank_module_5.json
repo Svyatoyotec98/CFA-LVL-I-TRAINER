@@ -1,0 +1,1045 @@
+{
+  "metadata": {
+    "book_id": 1,
+    "book_code": "QM",
+    "book_name": "Quantitative Methods",
+    "book_name_ru": "Количественные методы",
+    "module_id": 5,
+    "module_name": "Common Probability Distributions",
+    "module_name_ru": "Общие распределения вероятностей",
+    "total_questions": 15,
+    "version": "2.0",
+    "source": "AnalystPrep QBank"
+  },
+  "questions": [
+    {
+      "question_id": "QM-5-Q001",
+      "original_question_number": 301,
+      "los_id": "LOS_5a",
+      "question_text_en": "Which of the following statements is most accurate?",
+      "question_text_ru": "Какое из следующих утверждений наиболее точное?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Correlation cannot be zero.",
+          "text_ru": "Корреляция не может быть нулевой."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Covariance is always positive.",
+          "text_ru": "Ковариация всегда положительная."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Correlation cannot be greater than 1.",
+          "text_ru": "Корреляция не может быть больше 1."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Correlation must be between -1 and +1.",
+      "explanation_ru": "Корреляция должна быть между -1 и +1.",
+      "explanation_formula": "$-1 \\leq \\rho \\leq +1$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Correlation can be zero. Zero correlation occurs when two items are not correlated.",
+          "text_ru": "Неверно. Корреляция может быть нулевой. Нулевая корреляция возникает, когда две переменные не коррелируют."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Covariance is not always positive. A positive covariance implies that asset returns move in the same direction, whereas a negative covariance implies that asset returns move in opposite directions.",
+          "text_ru": "Неверно. Ковариация не всегда положительна. Положительная ковариация означает, что доходности активов движутся в одном направлении, а отрицательная ковариация означает, что доходности активов движутся в противоположных направлениях."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "correlation",
+        "covariance"
+      ]
+    },
+    {
+      "question_id": "QM-5-Q002",
+      "original_question_number": 308,
+      "los_id": "LOS_5a",
+      "question_text_en": "Thirty percent of the stocks in your portfolio have a P/E ratio greater than 15, out of which 25% are in the technology industry. The probability that a randomly selected stock from the portfolio will have a P/E greater than 15 and be in the technology industry is closest to:",
+      "question_text_ru": "Тридцать процентов акций в вашем портфеле имеют коэффициент P/E больше 15, из которых 25% относятся к технологической отрасли. Вероятность того, что случайно выбранная акция из портфеля будет иметь P/E больше 15 и относиться к технологической отрасли, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "0.075",
+          "text_ru": "0.075"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "0.30",
+          "text_ru": "0.30"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "0.475",
+          "text_ru": "0.475"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The joint probability formula is: P(A and B) = P(A) × P(B | A). Where A is the event that a stock has a P/E ratio greater than 15, and B is the event that a stock is in the technology industry, given it has a P/E ratio greater than 15. Therefore: P(P/E > 15 and tech stock) = P(P/E > 15) × P(tech stock | P/E > 15) = 0.3 × 0.25 = 0.075",
+      "explanation_ru": "Формула совместной вероятности: P(A и B) = P(A) × P(B | A). Где A — событие, что акция имеет коэффициент P/E больше 15, а B — событие, что акция относится к технологической отрасли при условии P/E > 15. Следовательно: P(P/E > 15 и tech акция) = P(P/E > 15) × P(tech акция | P/E > 15) = 0.3 × 0.25 = 0.075",
+      "explanation_formula": "$P(A \\cap B) = P(A) \\times P(B|A) = 0.3 \\times 0.25 = 0.075$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This is simply P(P/E > 15), not the joint probability.",
+          "text_ru": "Неверно. Это просто P(P/E > 15), а не совместная вероятность."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This incorrectly adds the probabilities instead of multiplying.",
+          "text_ru": "Неверно. Здесь неправильно складываются вероятности вместо умножения."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "joint_probability",
+        "conditional_probability"
+      ]
+    },
+    {
+      "question_id": "QM-5-Q003",
+      "original_question_number": 2719,
+      "los_id": "LOS_5b",
+      "question_text_en": "If the probability that Donald Trump will lose the Presidential elections is 52% and the probability that the USD will devalue given that Trump wins the election is 91%, then the joint probability of Trump winning the Presidential elections and the devaluation of the USD is closest to:",
+      "question_text_ru": "Если вероятность того, что Дональд Трамп проиграет президентские выборы, составляет 52%, а вероятность того, что доллар США обесценится при условии, что Трамп выиграет выборы, составляет 91%, то совместная вероятность победы Трампа на президентских выборах и обесценивания доллара США ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "0.4368",
+          "text_ru": "0.4368"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "0.4730",
+          "text_ru": "0.4730"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "0.9530",
+          "text_ru": "0.9530"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "p(T) = 0.48 (the probability that Trump will win the election = 1 - 0.52). p(D|T) = 0.91 (the probability that USD will devalue given that Trump wins the election). The joint probability: p(DT) = p(D|T) × p(T) = 0.91 × 0.48 = 0.4368",
+      "explanation_ru": "p(T) = 0.48 (вероятность победы Трампа = 1 - 0.52). p(D|T) = 0.91 (вероятность обесценивания USD при условии победы Трампа). Совместная вероятность: p(DT) = p(D|T) × p(T) = 0.91 × 0.48 = 0.4368",
+      "explanation_formula": "$P(D \\cap T) = P(D|T) \\times P(T) = 0.91 \\times 0.48 = 0.4368$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. It considers the probability of Trump losing the election and that the USD will devalue: P(LT) = 0.52 × 0.91 = 0.4730",
+          "text_ru": "Неверно. Это вероятность проигрыша Трампа и обесценивания USD: P(LT) = 0.52 × 0.91 = 0.4730"
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It assumes the probability of winning or the USD being devalued: P(D or T) = (0.48 + 0.91) - (0.48 × 0.91) = 0.9530",
+          "text_ru": "Неверно. Предполагает вероятность победы или обесценивания USD: P(D или T) = (0.48 + 0.91) - (0.48 × 0.91) = 0.9530"
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "joint_probability",
+        "conditional_probability"
+      ]
+    },
+    {
+      "question_id": "QM-5-Q004",
+      "original_question_number": 2728,
+      "los_id": "LOS_5b",
+      "question_text_en": "Which of the following properties of covariance is least likely appropriate?",
+      "question_text_ru": "Какое из следующих свойств ковариации наименее вероятно является правильным?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Covariance ranges from -1 to +1.",
+          "text_ru": "Ковариация находится в диапазоне от -1 до +1."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Covariance of (R,R) = Variance of R",
+          "text_ru": "Ковариация (R,R) = Дисперсия R"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Covariance measures how one random variable moves with another random variable.",
+          "text_ru": "Ковариация измеряет, как одна случайная переменная движется с другой случайной переменной."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Covariance may range from negative infinity to positive infinity, whereas correlation ranges from -1 to +1. Options B and C are appropriate properties of covariance.",
+      "explanation_ru": "Ковариация может варьироваться от минус бесконечности до плюс бесконечности, тогда как корреляция находится в диапазоне от -1 до +1. Варианты B и C являются правильными свойствами ковариации.",
+      "explanation_formula": "$-\\infty < \\text{Cov}(X,Y) < +\\infty$, но $-1 \\leq \\rho(X,Y) \\leq +1$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. It is true that for a random variable R, covariance of (R, R) = Variance of R.",
+          "text_ru": "Неверно. Это верное утверждение: для случайной переменной R ковариация (R, R) = Дисперсия R."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The covariance measures how one random variable moves with another random variable.",
+          "text_ru": "Неверно. Ковариация действительно измеряет, как одна случайная переменная движется с другой."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "covariance",
+        "properties"
+      ]
+    },
+    {
+      "question_id": "QM-5-Q005",
+      "original_question_number": 2730,
+      "los_id": "LOS_5b",
+      "question_text_en": "Assuming that the covariance of returns of Stock X and Stock Y is Cov(RX, RY) = 0.093, the variance of RX = 0.69, and the variance of RY = 0.36, the correlation of returns of Stock X and Stock Y is closest to:",
+      "question_text_ru": "Предположим, что ковариация доходностей акций X и Y составляет Cov(RX, RY) = 0.093, дисперсия RX = 0.69, а дисперсия RY = 0.36. Корреляция доходностей акций X и Y ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "0.112",
+          "text_ru": "0.112"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "0.155",
+          "text_ru": "0.155"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "0.187",
+          "text_ru": "0.187"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Recall that for random variables X and Y: Corr(RX, RY) = Cov(RX, RY) / (σX × σY) = 0.093 / (√0.69 × √0.36) = 0.093 / (0.8307 × 0.6) = 0.093 / 0.4984 = 0.1865 ≈ 0.187",
+      "explanation_ru": "Напомним, что для случайных величин X и Y: Corr(RX, RY) = Cov(RX, RY) / (σX × σY) = 0.093 / (√0.69 × √0.36) = 0.093 / (0.8307 × 0.6) = 0.093 / 0.4984 = 0.1865 ≈ 0.187",
+      "explanation_formula": "$\\rho(X,Y) = \\frac{\\text{Cov}(X,Y)}{\\sigma_X \\times \\sigma_Y} = \\frac{0.093}{\\sqrt{0.69} \\times \\sqrt{0.36}} = 0.1865$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This is the outcome of dividing the Cov(RX, RY) by the resulting σX.",
+          "text_ru": "Неверно. Это результат деления Cov(RX, RY) на σX."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. This is the outcome of dividing the Cov(RX, RY) by the resulting σY.",
+          "text_ru": "Неверно. Это результат деления Cov(RX, RY) на σY."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic Calculations",
+        "steps_en": [
+          "Calculate σX: √0.69 = 0.8307",
+          "Calculate σY: √0.36 = 0.6",
+          "Calculate product: 0.8307 × 0.6 = 0.4984",
+          "Divide: 0.093 / 0.4984 = 0.1865"
+        ],
+        "steps_ru": [
+          "Вычислить σX: √0.69 = 0.8307",
+          "Вычислить σY: √0.36 = 0.6",
+          "Вычислить произведение: 0.8307 × 0.6 = 0.4984",
+          "Разделить: 0.093 / 0.4984 = 0.1865"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": [
+        "correlation",
+        "covariance"
+      ]
+    },
+    {
+      "question_id": "QM-5-Q006",
+      "original_question_number": 2743,
+      "los_id": "LOS_5c",
+      "question_text_en": "A young investor consults an investment manager to advise him regarding a certain type of the portfolios which give him at least 7% of return on his investment (threshold return). The investment manager presents three portfolios exhibited in the following table.",
+      "question_text_ru": "Молодой инвестор консультируется с инвестиционным менеджером относительно определённого типа портфелей, которые дадут ему как минимум 7% доходности на его инвестиции (пороговая доходность). Инвестиционный менеджер представляет три портфеля, показанные в следующей таблице.",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "",
+          "Portfolio A",
+          "Portfolio B",
+          "Portfolio C"
+        ],
+        "headers_ru": [
+          "",
+          "Портфель A",
+          "Портфель B",
+          "Портфель C"
+        ],
+        "rows": [
+          [
+            "Expected Return",
+            "19%",
+            "23%",
+            "36%"
+          ],
+          [
+            "Standard Deviation",
+            "14%",
+            "26%",
+            "39%"
+          ]
+        ]
+      },
+      "question_continuation_en": "Assuming that the investor invests in portfolio B, then the probability of the portfolio return falling below the threshold return of 7% according to the Safety-First ratio is closest to: (See Z-table)",
+      "question_continuation_ru": "Предполагая, что инвестор инвестирует в портфель B, вероятность того, что доходность портфеля упадёт ниже пороговой доходности 7% согласно коэффициенту Safety-First, ближе всего к: (См. Z-таблицу)",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "27%",
+          "text_ru": "27%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "61.5%",
+          "text_ru": "61.5%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "73%",
+          "text_ru": "73%"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The Safety-First Ratio = (Expected Return - Threshold return) / Standard Deviation of returns = (0.23 - 0.07) / 0.26 = 0.6153. Since the question asks for the probability of Portfolio B's return falling below 7%: p(RB < 7%) = N(-0.6153) = 1 - N(0.6153) = 1 - 0.73 = 0.27. Note: The value of N is estimated using the cumulative probabilities from the normal distribution table.",
+      "explanation_ru": "Коэффициент Safety-First = (Ожидаемая доходность - Пороговая доходность) / Стандартное отклонение доходности = (0.23 - 0.07) / 0.26 = 0.6153. Поскольку вопрос спрашивает о вероятности падения доходности портфеля B ниже 7%: p(RB < 7%) = N(-0.6153) = 1 - N(0.6153) = 1 - 0.73 = 0.27. Примечание: значение N оценивается с использованием кумулятивных вероятностей из таблицы нормального распределения.",
+      "explanation_formula": "$\\text{SF Ratio} = \\frac{E(R_p) - R_L}{\\sigma_p} = \\frac{0.23 - 0.07}{0.26} = 0.6153$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. It indicates the Safety-First Ratio, not the probability.",
+          "text_ru": "Неверно. Это коэффициент Safety-First, а не вероятность."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It's the resulting figure from N(0.6153) from the normal distribution tables.",
+          "text_ru": "Неверно. Это результат N(0.6153) из таблиц нормального распределения."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic Calculations",
+        "steps_en": [
+          "Calculate SF Ratio: (0.23 - 0.07) / 0.26 = 0.6153",
+          "Look up N(0.6153) in Z-table ≈ 0.73",
+          "Calculate probability: 1 - 0.73 = 0.27"
+        ],
+        "steps_ru": [
+          "Вычислить SF Ratio: (0.23 - 0.07) / 0.26 = 0.6153",
+          "Найти N(0.6153) в Z-таблице ≈ 0.73",
+          "Вычислить вероятность: 1 - 0.73 = 0.27"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": [
+        "safety_first_ratio",
+        "shortfall_risk"
+      ]
+    },
+    {
+      "question_id": "QM-5-Q007",
+      "original_question_number": 2744,
+      "los_id": "LOS_5c",
+      "question_text_en": "An investor consults an investment manager to advise him regarding a certain type of the portfolios which would give him at least a 7% return on his investment (threshold return). The investment manager presents three portfolios exhibited in the following table:",
+      "question_text_ru": "Инвестор консультируется с инвестиционным менеджером относительно определённого типа портфелей, которые дадут ему как минимум 7% доходности на его инвестиции (пороговая доходность). Инвестиционный менеджер представляет три портфеля, показанные в следующей таблице:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "",
+          "Portfolio A",
+          "Portfolio B",
+          "Portfolio C"
+        ],
+        "headers_ru": [
+          "",
+          "Портфель A",
+          "Портфель B",
+          "Портфель C"
+        ],
+        "rows": [
+          [
+            "Expected Return",
+            "19%",
+            "23%",
+            "36%"
+          ],
+          [
+            "Standard Deviation",
+            "14%",
+            "26%",
+            "39%"
+          ]
+        ]
+      },
+      "question_continuation_en": "Using the Safety-First ratio assumption, the portfolio that is the most appropriate for the investor is: (See Z-table)",
+      "question_continuation_ru": "Используя предположение коэффициента Safety-First, наиболее подходящим портфелем для инвестора является: (См. Z-таблицу)",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Portfolio A.",
+          "text_ru": "Портфель A."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Portfolio B.",
+          "text_ru": "Портфель B."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Portfolio C.",
+          "text_ru": "Портфель C."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "As provided in the following table, the Safety-First ratio of Portfolio A is the highest so it has the lowest probability of the portfolio returns falling below the investor's threshold level of 7%. Portfolio A: (0.19-0.07)/0.14 = 0.8571. Portfolio B: (0.23-0.07)/0.26 = 0.6153. Portfolio C: (0.36-0.07)/0.39 = 0.7435. The probability of N(-0.8571) is calculated using the cumulative probabilities table.",
+      "explanation_ru": "Как показано в следующей таблице, коэффициент Safety-First портфеля A является самым высоким, поэтому он имеет самую низкую вероятность падения доходности портфеля ниже порогового уровня инвестора 7%. Портфель A: (0.19-0.07)/0.14 = 0.8571. Портфель B: (0.23-0.07)/0.26 = 0.6153. Портфель C: (0.36-0.07)/0.39 = 0.7435. Вероятность N(-0.8571) рассчитывается с использованием таблицы кумулятивных вероятностей.",
+      "explanation_formula": null,
+      "explanation_table": {
+        "headers": [
+          "",
+          "Portfolio A",
+          "Portfolio B",
+          "Portfolio C"
+        ],
+        "headers_ru": [
+          "",
+          "Портфель A",
+          "Портфель B",
+          "Портфель C"
+        ],
+        "rows": [
+          [
+            "Expected Return",
+            "19%",
+            "23%",
+            "36%"
+          ],
+          [
+            "Standard Deviation",
+            "14%",
+            "26%",
+            "39%"
+          ],
+          [
+            "Safety First Ratio",
+            "0.8571",
+            "0.6153",
+            "0.7435"
+          ]
+        ]
+      },
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Portfolio B has the lowest Safety-First Ratio.",
+          "text_ru": "Неверно. Портфель B имеет самый низкий коэффициент Safety-First."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Portfolio C has an average Safety-First Ratio compared to Portfolios A and B.",
+          "text_ru": "Неверно. Портфель C имеет средний коэффициент Safety-First по сравнению с портфелями A и B."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic Calculations",
+        "steps_en": [
+          "Portfolio A: (0.19 - 0.07) / 0.14 = 0.8571",
+          "Portfolio B: (0.23 - 0.07) / 0.26 = 0.6153",
+          "Portfolio C: (0.36 - 0.07) / 0.39 = 0.7435",
+          "Choose highest ratio: Portfolio A"
+        ],
+        "steps_ru": [
+          "Портфель A: (0.19 - 0.07) / 0.14 = 0.8571",
+          "Портфель B: (0.23 - 0.07) / 0.26 = 0.6153",
+          "Портфель C: (0.36 - 0.07) / 0.39 = 0.7435",
+          "Выбрать наибольший коэффициент: Портфель A"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": [
+        "safety_first_ratio",
+        "roy_criterion"
+      ]
+    },
+    {
+      "question_id": "QM-5-Q008",
+      "original_question_number": 3307,
+      "los_id": "LOS_5c",
+      "question_text_en": "The exhibit below summarizes risk, return, and fee data for three market-neutral hedge funds:",
+      "question_text_ru": "Таблица ниже обобщает данные о риске, доходности и комиссиях для трёх рыночно-нейтральных хедж-фондов:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "",
+          "Fund A",
+          "Fund B",
+          "Fund C"
+        ],
+        "headers_ru": [
+          "",
+          "Фонд A",
+          "Фонд B",
+          "Фонд C"
+        ],
+        "rows": [
+          [
+            "Risk-free rate",
+            "2%",
+            "2%",
+            "2%"
+          ],
+          [
+            "Annualized return",
+            "15%",
+            "22%",
+            "9%"
+          ],
+          [
+            "Annualized standard deviation",
+            "20%",
+            "26%",
+            "15%"
+          ],
+          [
+            "Fees",
+            "1.0 and 10",
+            "1.5 and 15",
+            "2.0 and 20"
+          ]
+        ]
+      },
+      "question_continuation_en": "Which of the following funds is most suitable for investments?",
+      "question_continuation_ru": "Какой из следующих фондов наиболее подходит для инвестиций?",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Fund A",
+          "text_ru": "Фонд A"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Fund B",
+          "text_ru": "Фонд B"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Fund C",
+          "text_ru": "Фонд C"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "To determine which fund is most appropriate for investment, the Sharpe ratio of the three funds is calculated as follows: Sharpe ratio = (Rp - Rf) / σp. Fund A = (15% - 2%) / 20% = 0.65. Fund B = (22% - 2%) / 26% = 0.77. Fund C = (9% - 2%) / 15% = 0.47. Fund B has the highest Sharpe ratio which means that it will enhance risk-adjusted performance. This fund is the most suitable from an investment perspective.",
+      "explanation_ru": "Чтобы определить, какой фонд наиболее подходит для инвестиций, рассчитывается коэффициент Шарпа для трёх фондов: Коэффициент Шарпа = (Rp - Rf) / σp. Фонд A = (15% - 2%) / 20% = 0.65. Фонд B = (22% - 2%) / 26% = 0.77. Фонд C = (9% - 2%) / 15% = 0.47. Фонд B имеет наивысший коэффициент Шарпа, что означает, что он улучшит скорректированную по риску эффективность. Этот фонд является наиболее подходящим с инвестиционной точки зрения.",
+      "explanation_formula": "$\\text{Sharpe Ratio} = \\frac{R_p - R_f}{\\sigma_p}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Fund A has a Sharpe ratio of 0.65, which is lower than Fund B.",
+          "text_ru": "Неверно. Фонд A имеет коэффициент Шарпа 0.65, что ниже, чем у фонда B."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Fund C has the lowest Sharpe ratio of 0.47.",
+          "text_ru": "Неверно. Фонд C имеет самый низкий коэффициент Шарпа 0.47."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic Calculations",
+        "steps_en": [
+          "Fund A: (15% - 2%) / 20% = 0.65",
+          "Fund B: (22% - 2%) / 26% = 0.77",
+          "Fund C: (9% - 2%) / 15% = 0.47",
+          "Choose highest: Fund B"
+        ],
+        "steps_ru": [
+          "Фонд A: (15% - 2%) / 20% = 0.65",
+          "Фонд B: (22% - 2%) / 26% = 0.77",
+          "Фонд C: (9% - 2%) / 15% = 0.47",
+          "Выбрать наивысший: Фонд B"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": [
+        "sharpe_ratio",
+        "risk_adjusted_performance"
+      ]
+    },
+    {
+      "question_id": "QM-5-Q009",
+      "original_question_number": 3455,
+      "los_id": "LOS_5c",
+      "question_text_en": "Rohan Chatterjee is planning to invest in mutual funds. His sole instruction to his portfolio manager is to generate a minimum return of 5%. The mutual funds in which the portfolio manager can invest are given in the following exhibit.",
+      "question_text_ru": "Рохан Чаттерджи планирует инвестировать в взаимные фонды. Его единственное указание менеджеру портфеля — обеспечить минимальную доходность 5%. Взаимные фонды, в которые может инвестировать менеджер портфеля, приведены в следующей таблице.",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Mutual Fund",
+          "Mean Return",
+          "Std. Dev. of Return"
+        ],
+        "headers_ru": [
+          "Взаимный фонд",
+          "Средняя доходность",
+          "Ст. откл. доходности"
+        ],
+        "rows": [
+          [
+            "X",
+            "10%",
+            "3%"
+          ],
+          [
+            "Y",
+            "12%",
+            "4%"
+          ],
+          [
+            "Z",
+            "9%",
+            "2%"
+          ]
+        ]
+      },
+      "question_continuation_en": "The portfolio manager will most likely invest in:",
+      "question_continuation_ru": "Менеджер портфеля, скорее всего, инвестирует в:",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "X",
+          "text_ru": "X"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Y",
+          "text_ru": "Y"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Z",
+          "text_ru": "Z"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "The threshold level of return = 5%. We must find the Safety-First ratio: Fund X: (10% - 5%)/3% = 1.67. Fund Y: (12% - 5%)/4% = 1.75. Fund Z: (9% - 5%)/2% = 2. Fund Z has the highest Safety-First Ratio. Therefore, the portfolio manager must invest in Mutual Fund Z. Roy's Safety First Ratio represents the excess return earned over and above the threshold return per unit of risk. The manager should go for the portfolio with the highest SF ratio. A higher ratio implies more excess return (earnings) per unit of risk.",
+      "explanation_ru": "Пороговый уровень доходности = 5%. Нужно найти коэффициент Safety-First: Фонд X: (10% - 5%)/3% = 1.67. Фонд Y: (12% - 5%)/4% = 1.75. Фонд Z: (9% - 5%)/2% = 2. Фонд Z имеет наивысший коэффициент Safety-First. Следовательно, менеджер портфеля должен инвестировать во взаимный фонд Z. Коэффициент Roy's Safety First представляет собой избыточную доходность, полученную сверх пороговой доходности на единицу риска. Менеджер должен выбрать портфель с наивысшим коэффициентом SF. Более высокий коэффициент означает большую избыточную доходность на единицу риска.",
+      "explanation_formula": null,
+      "explanation_table": {
+        "headers": [
+          "Mutual Fund",
+          "Mean Return",
+          "Std. Dev. of Return",
+          "SF Ratio"
+        ],
+        "headers_ru": [
+          "Взаимный фонд",
+          "Средняя доходность",
+          "Ст. откл. доходности",
+          "SF коэффициент"
+        ],
+        "rows": [
+          [
+            "X",
+            "10%",
+            "3%",
+            "1.67"
+          ],
+          [
+            "Y",
+            "12%",
+            "4%",
+            "1.75"
+          ],
+          [
+            "Z",
+            "9%",
+            "2%",
+            "2.00"
+          ]
+        ]
+      },
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Fund X has the medium average Safety-First Ratio.",
+          "text_ru": "Неверно. Фонд X имеет средний коэффициент Safety-First."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Fund Y has the lowest Safety-First Ratio.",
+          "text_ru": "Неверно. Фонд Y имеет самый низкий коэффициент Safety-First."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic Calculations",
+        "steps_en": [
+          "Fund X: (10% - 5%) / 3% = 1.67",
+          "Fund Y: (12% - 5%) / 4% = 1.75",
+          "Fund Z: (9% - 5%) / 2% = 2.00",
+          "Choose highest: Fund Z"
+        ],
+        "steps_ru": [
+          "Фонд X: (10% - 5%) / 3% = 1.67",
+          "Фонд Y: (12% - 5%) / 4% = 1.75",
+          "Фонд Z: (9% - 5%) / 2% = 2.00",
+          "Выбрать наивысший: Фонд Z"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": [
+        "safety_first_ratio",
+        "roy_criterion"
+      ]
+    },
+    {
+      "question_id": "QM-5-Q010",
+      "original_question_number": 3457,
+      "los_id": "LOS_5b",
+      "question_text_en": "The covariance matrix of two stocks is given in the following exhibit.",
+      "question_text_ru": "Ковариационная матрица двух акций приведена в следующей таблице.",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Stock",
+          "X",
+          "Y"
+        ],
+        "headers_ru": [
+          "Акция",
+          "X",
+          "Y"
+        ],
+        "rows": [
+          [
+            "X",
+            "650",
+            "120"
+          ],
+          [
+            "Y",
+            "120",
+            "450"
+          ]
+        ]
+      },
+      "question_continuation_en": "The correlation of returns for stocks X and Y is closest to:",
+      "question_continuation_ru": "Корреляция доходностей акций X и Y ближе всего к:",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "0.22",
+          "text_ru": "0.22"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "0.45",
+          "text_ru": "0.45"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "0.83",
+          "text_ru": "0.83"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "σ(X) = √650 = 25.50. σ(Y) = √450 = 21.21. Covariance(X,Y) = 120. Correlation(X, Y) = 120 / (25.50 × 21.21) = 120 / 540.86 = 0.22",
+      "explanation_ru": "σ(X) = √650 = 25.50. σ(Y) = √450 = 21.21. Ковариация(X,Y) = 120. Корреляция(X, Y) = 120 / (25.50 × 21.21) = 120 / 540.86 = 0.22",
+      "explanation_formula": "$\\rho(X,Y) = \\frac{\\text{Cov}(X,Y)}{\\sigma_X \\times \\sigma_Y} = \\frac{120}{25.50 \\times 21.21} = 0.22$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. It assumes that 450 is the covariance between X and Y.",
+          "text_ru": "Неверно. Предполагает, что 450 — это ковариация между X и Y."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It assumes that 650 is the covariance between X and Y.",
+          "text_ru": "Неверно. Предполагает, что 650 — это ковариация между X и Y."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic Calculations",
+        "steps_en": [
+          "Calculate σ(X): √650 = 25.50",
+          "Calculate σ(Y): √450 = 21.21",
+          "Multiply: 25.50 × 21.21 = 540.86",
+          "Divide: 120 / 540.86 = 0.22"
+        ],
+        "steps_ru": [
+          "Вычислить σ(X): √650 = 25.50",
+          "Вычислить σ(Y): √450 = 21.21",
+          "Умножить: 25.50 × 21.21 = 540.86",
+          "Разделить: 120 / 540.86 = 0.22"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": [
+        "correlation",
+        "covariance_matrix"
+      ]
+    },
+    {
+      "question_id": "QM-5-Q011",
+      "original_question_number": 3458,
+      "los_id": "LOS_5b",
+      "question_text_en": "A portfolio consists of two funds A and B. The weights of the two funds in the portfolio and the covariance matrix of the two funds are given in the following two exhibits.",
+      "question_text_ru": "Портфель состоит из двух фондов A и B. Веса двух фондов в портфеле и ковариационная матрица двух фондов приведены в следующих двух таблицах.",
+      "has_table": true,
+      "table_data": {
+        "headers": ["Fund", "A", "B"],
+        "headers_ru": ["Фонд", "A", "B"],
+        "rows": [
+          ["Weights", "60%", "40%"],
+          ["", "", ""],
+          ["Covariance Matrix", "", ""],
+          ["A", "700", "200"],
+          ["B", "200", "500"]
+        ]
+      },
+      "question_continuation_en": "The portfolio variance is closest to:",
+      "question_continuation_ru": "Дисперсия портфеля ближе всего к:",
+      "options": [
+        {"id": "opt_a", "text_en": "200.00", "text_ru": "200.00"},
+        {"id": "opt_b", "text_en": "428.04", "text_ru": "428.04"},
+        {"id": "opt_c", "text_en": "500.00", "text_ru": "500.00"}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Based on the covariance matrix: Covariance(A,B) = 200. Portfolio variance formula: σ²p = w²A × σ²A + w²B × σ²B + 2wAwBCov(A,B) = 0.60² × 700 + 0.40² × 500 + 2 × 0.60 × 0.40 × 200 = 252 + 80 + 96 = 428.04",
+      "explanation_ru": "На основе ковариационной матрицы: Ковариация(A,B) = 200. Формула дисперсии портфеля: σ²p = w²A × σ²A + w²B × σ²B + 2wAwBCov(A,B) = 0.60² × 700 + 0.40² × 500 + 2 × 0.60 × 0.40 × 200 = 252 + 80 + 96 = 428.04",
+      "explanation_formula": "$\\sigma^2_p = w^2_A \\sigma^2_A + w^2_B \\sigma^2_B + 2w_Aw_B\\text{Cov}(A,B)$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This indicates the Covariance(A,B).",
+          "text_ru": "Неверно. Это значение ковариации(A,B)."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This indicates the variance of Fund B.",
+          "text_ru": "Неверно. Это дисперсия фонда B."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic Calculations",
+        "steps_en": [
+          "Calculate 0.60² × 700 = 0.36 × 700 = 252",
+          "Calculate 0.40² × 500 = 0.16 × 500 = 80",
+          "Calculate 2 × 0.60 × 0.40 × 200 = 96",
+          "Sum: 252 + 80 + 96 = 428.04"
+        ],
+        "steps_ru": [
+          "Вычислить 0.60² × 700 = 0.36 × 700 = 252",
+          "Вычислить 0.40² × 500 = 0.16 × 500 = 80",
+          "Вычислить 2 × 0.60 × 0.40 × 200 = 96",
+          "Сумма: 252 + 80 + 96 = 428.04"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["portfolio_variance", "covariance"]
+    },
+    {
+      "question_id": "QM-5-Q012",
+      "original_question_number": 3714,
+      "los_id": "LOS_5c",
+      "question_text_en": "The probability of an increase in the annual dividend paid out to shareholders of ABC Limited is 0.4. The probability of an increase in share price given an increase in dividends is 0.7. The joint probability of an increase in dividends and an increase in share price is closest to:",
+      "question_text_ru": "Вероятность увеличения годового дивиденда, выплачиваемого акционерам ABC Limited, составляет 0.4. Вероятность увеличения цены акций при условии увеличения дивидендов составляет 0.7. Совместная вероятность увеличения дивидендов и увеличения цены акций ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "0.28", "text_ru": "0.28"},
+        {"id": "opt_b", "text_en": "0.70", "text_ru": "0.70"},
+        {"id": "opt_c", "text_en": "0.82", "text_ru": "0.82"}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Let A be the event that the dividend is increased and B be the event that the share price increases. Therefore, P(A) = 0.4 and P(B|A) = 0.7. The joint probability P(B ∩ A) is calculated using the multiplication rule: P(B|A) = P(B ∩ A)/P(A), hence P(B ∩ A) = P(B|A) × P(A) = 0.7 × 0.4 = 0.28 or 28%. Note that P(A ∩ B) = P(B ∩ A).",
+      "explanation_ru": "Пусть A — событие увеличения дивиденда, а B — событие увеличения цены акций. Следовательно, P(A) = 0.4 и P(B|A) = 0.7. Совместная вероятность P(B ∩ A) рассчитывается по правилу умножения: P(B|A) = P(B ∩ A)/P(A), следовательно P(B ∩ A) = P(B|A) × P(A) = 0.7 × 0.4 = 0.28 или 28%. Обратите внимание, что P(A ∩ B) = P(B ∩ A).",
+      "explanation_formula": "$P(A \\cap B) = P(B|A) \\times P(A) = 0.7 \\times 0.4 = 0.28$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This represents probability of an increase in share price given an increase in dividends.",
+          "text_ru": "Неверно. Это вероятность увеличения цены акций при условии увеличения дивидендов."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This assumes the addition rule of probability is used: P(A or B) = (0.4 + 0.7) - (0.4 × 0.7) = 0.82",
+          "text_ru": "Неверно. Предполагается использование правила сложения вероятностей: P(A или B) = (0.4 + 0.7) - (0.4 × 0.7) = 0.82"
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["joint_probability", "multiplication_rule"]
+    },
+    {
+      "question_id": "QM-5-Q013",
+      "original_question_number": 3718,
+      "los_id": "LOS_5b",
+      "question_text_en": "A renowned economist has calculated that the Canadian economy will be in one of 3 possible states in the coming year: Boom, Normal, or Slow. The following table gives the returns of stocks A and B under each economic state.",
+      "question_text_ru": "Известный экономист рассчитал, что экономика Канады будет находиться в одном из 3 возможных состояний в следующем году: Бум, Нормальное или Медленное. В следующей таблице приведены доходности акций A и B при каждом экономическом состоянии.",
+      "has_table": true,
+      "table_data": {
+        "headers": ["State", "Probability (state)", "Return for stock A", "Return for stock B"],
+        "headers_ru": ["Состояние", "Вероятность (состояния)", "Доходность акции A", "Доходность акции B"],
+        "rows": [
+          ["Boom", "40%", "12%", "18%"],
+          ["Normal", "35%", "10%", "15%"],
+          ["Slow", "25%", "8%", "12%"]
+        ]
+      },
+      "question_continuation_en": "The covariance of the returns for stocks A and B is closest to:",
+      "question_continuation_ru": "Ковариация доходностей акций A и B ближе всего к:",
+      "options": [
+        {"id": "opt_a", "text_en": "0.0003765", "text_ru": "0.0003765"},
+        {"id": "opt_b", "text_en": "0.103", "text_ru": "0.103"},
+        {"id": "opt_c", "text_en": "0.1545", "text_ru": "0.1545"}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Cov(A,B) = ΣP(s) × [RA - E(RA)] × [RB - E(RB)]. First, determine expected returns: E(RA) = 0.4×0.12 + 0.35×0.1 + 0.25×0.08 = 0.103. E(RB) = 0.4×0.18 + 0.35×0.15 + 0.25×0.12 = 0.1545. Then calculate: Boom: 0.4×[0.12-0.103]×[0.18-0.1545] = 0.0001734. Normal: 0.35×[0.1-0.103]×[0.15-0.1545] = 0.000004725. Slow: 0.25×[0.08-0.103]×[0.12-0.1545] = 0.0001984. Cov(A,B) = 0.0001734 + 0.000004725 + 0.0001984 = 0.0003765",
+      "explanation_ru": "Cov(A,B) = ΣP(s) × [RA - E(RA)] × [RB - E(RB)]. Сначала определим ожидаемую доходность: E(RA) = 0.4×0.12 + 0.35×0.1 + 0.25×0.08 = 0.103. E(RB) = 0.4×0.18 + 0.35×0.15 + 0.25×0.12 = 0.1545. Затем вычисляем: Бум: 0.4×[0.12-0.103]×[0.18-0.1545] = 0.0001734. Нормальное: 0.35×[0.1-0.103]×[0.15-0.1545] = 0.000004725. Медленное: 0.25×[0.08-0.103]×[0.12-0.1545] = 0.0001984. Cov(A,B) = 0.0001734 + 0.000004725 + 0.0001984 = 0.0003765",
+      "explanation_formula": "$\\text{Cov}(A,B) = \\sum P(s) \\times [R_A - E(R_A)] \\times [R_B - E(R_B)]$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This indicates the expected return of stock A = E(RA).",
+          "text_ru": "Неверно. Это ожидаемая доходность акции A = E(RA)."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This indicates the expected return of stock B = E(RB).",
+          "text_ru": "Неверно. Это ожидаемая доходность акции B = E(RB)."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic Calculations",
+        "steps_en": [
+          "E(RA) = 0.4×0.12 + 0.35×0.1 + 0.25×0.08 = 0.103",
+          "E(RB) = 0.4×0.18 + 0.35×0.15 + 0.25×0.12 = 0.1545",
+          "Boom: 0.4×(0.12-0.103)×(0.18-0.1545) = 0.0001734",
+          "Normal: 0.35×(0.1-0.103)×(0.15-0.1545) = 0.000004725",
+          "Slow: 0.25×(0.08-0.103)×(0.12-0.1545) = 0.0001984",
+          "Sum = 0.0003765"
+        ],
+        "steps_ru": [
+          "E(RA) = 0.4×0.12 + 0.35×0.1 + 0.25×0.08 = 0.103",
+          "E(RB) = 0.4×0.18 + 0.35×0.15 + 0.25×0.12 = 0.1545",
+          "Бум: 0.4×(0.12-0.103)×(0.18-0.1545) = 0.0001734",
+          "Нормальное: 0.35×(0.1-0.103)×(0.15-0.1545) = 0.000004725",
+          "Медленное: 0.25×(0.08-0.103)×(0.12-0.1545) = 0.0001984",
+          "Сумма = 0.0003765"
+        ]
+      },
+      "difficulty": "hard",
+      "topic_tags": ["covariance", "expected_return", "joint_probability"]
+    },
+    {
+      "question_id": "QM-5-Q014",
+      "original_question_number": 3719,
+      "los_id": "LOS_5b",
+      "question_text_en": "Which of the following statements is least likely true regarding the correlation coefficient?",
+      "question_text_ru": "Какое из следующих утверждений наименее вероятно является верным относительно коэффициента корреляции?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "The correlation coefficient has no units.", "text_ru": "Коэффициент корреляции не имеет единиц измерения."},
+        {"id": "opt_b", "text_en": "The correlation coefficient ranges from 0 to +1.", "text_ru": "Коэффициент корреляции находится в диапазоне от 0 до +1."},
+        {"id": "opt_c", "text_en": "The correlation coefficient measures the strength of the linear relationship between two random variables.", "text_ru": "Коэффициент корреляции измеряет силу линейной зависимости между двумя случайными переменными."}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "In finance, the correlation coefficient attempts to measure the degree to which two random variables, say, returns for different stocks, move in relation to each other. The correlation coefficient always lies between -1 and +1. A positive value indicates that the random variables move in the same direction, while a negative value indicates that the random variables move in opposite directions. Option B is false because correlation can range from -1 to +1, not just 0 to +1.",
+      "explanation_ru": "В финансах коэффициент корреляции пытается измерить степень, в которой две случайные переменные, например, доходности разных акций, движутся относительно друг друга. Коэффициент корреляции всегда находится между -1 и +1. Положительное значение указывает на то, что случайные переменные движутся в одном направлении, в то время как отрицательное значение указывает на то, что случайные переменные движутся в противоположных направлениях. Вариант B неверен, потому что корреляция может варьироваться от -1 до +1, а не только от 0 до +1.",
+      "explanation_formula": "$-1 \\leq \\rho \\leq +1$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This is a true statement. The correlation coefficient has no units. It is simply a number between -1.0 and 1.0.",
+          "text_ru": "Неверно. Это верное утверждение. Коэффициент корреляции не имеет единиц измерения. Это просто число между -1.0 и 1.0."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This is a true statement. The correlation coefficient is used to measure the strength of the relationship between two random variables. The closer to 1 (for positive correlation) and to -1 (for negative correlation), the stronger the relationship.",
+          "text_ru": "Неверно. Это верное утверждение. Коэффициент корреляции используется для измерения силы связи между двумя случайными переменными. Чем ближе к 1 (для положительной корреляции) и к -1 (для отрицательной корреляции), тем сильнее связь."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["correlation", "properties"]
+    },
+    {
+      "question_id": "QM-5-Q015",
+      "original_question_number": 3724,
+      "los_id": "LOS_5b",
+      "question_text_en": "Two stocks, X and Y, have a correlation of 0.50. Stock Y's return has a standard deviation of 0.26. Given that the covariance between X and Y is 0.005, the variance of returns for stock X is closest to:",
+      "question_text_ru": "Две акции X и Y имеют корреляцию 0.50. Доходность акции Y имеет стандартное отклонение 0.26. Учитывая, что ковариация между X и Y составляет 0.005, дисперсия доходностей акции X ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "0.00148", "text_ru": "0.00148"},
+        {"id": "opt_b", "text_en": "0.0385", "text_ru": "0.0385"},
+        {"id": "opt_c", "text_en": "0.26", "text_ru": "0.26"}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Correlation between X and Y: Corr(X,Y) = Cov(X,Y)/(σX × σY). Therefore: 0.50 = 0.005/(σX × 0.26). Solving for σX: σX = 0.005/(0.50 × 0.26) = 0.005/0.13 = 0.0385. Therefore, Variance(X) = σ²X = 0.0385² = 0.00148",
+      "explanation_ru": "Корреляция между X и Y: Corr(X,Y) = Cov(X,Y)/(σX × σY). Следовательно: 0.50 = 0.005/(σX × 0.26). Решая для σX: σX = 0.005/(0.50 × 0.26) = 0.005/0.13 = 0.0385. Следовательно, Дисперсия(X) = σ²X = 0.0385² = 0.00148",
+      "explanation_formula": "$\\text{Var}(X) = \\sigma^2_X = \\left(\\frac{\\text{Cov}(X,Y)}{\\rho \\times \\sigma_Y}\\right)^2 = \\left(\\frac{0.005}{0.50 \\times 0.26}\\right)^2 = 0.00148$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This is the result of σX = 0.0385, which is the standard deviation, not variance.",
+          "text_ru": "Неверно. Это результат σX = 0.0385, что является стандартным отклонением, а не дисперсией."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This indicates the standard deviation of stock Y's return.",
+          "text_ru": "Неверно. Это стандартное отклонение доходности акции Y."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic Calculations",
+        "steps_en": [
+          "Rearrange: σX = Cov(X,Y)/(Corr(X,Y) × σY)",
+          "Calculate: σX = 0.005/(0.50 × 0.26) = 0.0385",
+          "Square: Variance(X) = 0.0385² = 0.00148"
+        ],
+        "steps_ru": [
+          "Преобразовать: σX = Cov(X,Y)/(Corr(X,Y) × σY)",
+          "Вычислить: σX = 0.005/(0.50 × 0.26) = 0.0385",
+          "Возвести в квадрат: Дисперсия(X) = 0.0385² = 0.00148"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["variance", "correlation", "covariance"]
+    }
+  ]
+}
