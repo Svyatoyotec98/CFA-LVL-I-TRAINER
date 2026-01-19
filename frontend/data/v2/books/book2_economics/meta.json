@@ -7,16 +7,20 @@
   "modules": [
     {
       "module_id": 1,
-      "module_name": "Topics in Demand and Supply Analysis",
+      "module_name": "Firm and Market Structures",
       "page_range": "3-43",
-      "question_range": "3-30",
+      "question_range": "1420-4060",
       "los_codes": [
         "LOS_1a",
-        "LOS_1b"
+        "LOS_1b",
+        "LOS_1c",
+        "LOS_1d",
+        "LOS_1e"
       ],
-      "module_name_ru": "Темы анализа спроса и предложения",
+      "module_name_ru": "Фирма и рыночные структуры",
       "glossary_file": "glossary_module_1.json",
-      "status": "pending"
+      "qbank_file": "qbank_module_1.json",
+      "status": "in_progress"
     },
     {
       "module_id": 2,
