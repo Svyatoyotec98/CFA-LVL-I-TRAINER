@@ -1,0 +1,626 @@
+{
+  "metadata": {
+    "book_id": 1,
+    "book_code": "QM",
+    "book_name": "Quantitative Methods",
+    "book_name_ru": "Количественные методы",
+    "module_id": 8,
+    "module_name": "Parametric and Non-Parametric Tests",
+    "module_name_ru": "Параметрические и непараметрические тесты",
+    "page_range": "178-216",
+    "total_terms": 30,
+    "total_exercises": 1,
+    "version": "2.0",
+    "last_updated": "2026-01-19"
+  },
+  "los": [
+    {
+      "los_id": "LOS_8a",
+      "los_code": "8a",
+      "los_description_en": "Explain hypothesis testing and its components, including statistical significance, Type I and Type II errors, and the power of a test",
+      "los_description_ru": "Объяснять проверку гипотез и её компоненты, включая статистическую значимость, ошибки I и II рода и мощность теста",
+      "terms": [
+        {
+          "term_id": "QM-8-001",
+          "term_en": "Hypothesis",
+          "term_ru": "Гипотеза",
+          "definition_en": "An assumed statement about a population's characteristics, often considered an opinion or claim about an issue. To determine if a hypothesis is accurate, statistical tests are used.",
+          "definition_ru": "Предполагаемое утверждение о характеристиках популяции, часто рассматриваемое как мнение или утверждение о проблеме. Для определения точности гипотезы используются статистические тесты.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-8-002",
+          "term_en": "Hypothesis Testing",
+          "term_ru": "Проверка гипотез",
+          "definition_en": "A statistical procedure that uses sample data to evaluate if a sample statistic reflects a population with the hypothesized value of the population parameter. It involves collecting and examining a representative sample to verify the accuracy of a hypothesis.",
+          "definition_ru": "Статистическая процедура, которая использует выборочные данные для оценки того, отражает ли выборочная статистика популяцию с гипотетическим значением параметра популяции. Она включает сбор и анализ репрезентативной выборки для проверки точности гипотезы.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-8-003",
+          "term_en": "Null Hypothesis (H₀)",
+          "term_ru": "Нулевая гипотеза (H₀)",
+          "definition_en": "The hypothesis that signifies the existing knowledge regarding the population parameter under examination, essentially representing the 'status quo.' The null hypothesis is what we test to confirm or reject. Typical statements include: H₀: μ = μ₀, H₀: μ ≤ μ₀, or H₀: μ ≥ μ₀.",
+          "definition_ru": "Гипотеза, которая представляет существующие знания относительно исследуемого параметра популяции, по сути представляющая 'статус-кво.' Нулевая гипотеза - это то, что мы тестируем, чтобы подтвердить или отвергнуть. Типичные утверждения включают: H₀: μ = μ₀, H₀: μ ≤ μ₀, или H₀: μ ≥ μ₀.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-8-004",
+          "term_en": "Alternative Hypothesis (Hₐ)",
+          "term_ru": "Альтернативная гипотеза (Hₐ)",
+          "definition_en": "A contradiction of the null hypothesis. Rejecting the null hypothesis makes the alternative hypothesis valid. We accept the alternative hypothesis when the 'status quo' is discredited and found to be false.",
+          "definition_ru": "Противоречие нулевой гипотезе. Отклонение нулевой гипотезы делает альтернативную гипотезу верной. Мы принимаем альтернативную гипотезу, когда 'статус-кво' дискредитирован и признан ложным.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-8-005",
+          "term_en": "One-tailed Test",
+          "term_ru": "Односторонний тест",
+          "definition_en": "A statistical test that considers a change in only one direction. The alternative hypothesis either has a < (less than) or > (greater than) sign, i.e., we consider either an increase or reduction, but not both. A one-tailed test directs all the significance level to test statistical significance in one direction.",
+          "definition_ru": "Статистический тест, который рассматривает изменение только в одном направлении. Альтернативная гипотеза имеет либо знак < (меньше), либо > (больше), т.е. мы рассматриваем либо увеличение, либо уменьшение, но не оба. Односторонний тест направляет весь уровень значимости на проверку статистической значимости в одном направлении.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-8-006",
+          "term_en": "Two-tailed Test",
+          "term_ru": "Двусторонний тест",
+          "definition_en": "A statistical test that considers the possibility of a change in either direction. It looks for a statistical relationship in both a distribution's positive and negative directions. It allows half the value of α to test statistical significance in one direction and the other half to test in the opposite direction. The alternative hypothesis uses ≠ (not equal to).",
+          "definition_ru": "Статистический тест, который рассматривает возможность изменения в любом направлении. Он ищет статистическую взаимосвязь как в положительном, так и в отрицательном направлениях распределения. Он позволяет использовать половину значения α для проверки статистической значимости в одном направлении и другую половину для проверки в противоположном направлении. Альтернативная гипотеза использует ≠ (не равно).",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-8-007",
+          "term_en": "Test Statistic",
+          "term_ru": "Тестовая статистика",
+          "definition_en": "A standardized value computed from sample information when testing hypotheses. It compares the given data with what an analyst would expect under a null hypothesis. The general formula is: Test statistic = (Sample statistic - Hypothesized value) / Standard error.",
+          "definition_ru": "Стандартизированное значение, вычисленное из выборочной информации при проверке гипотез. Оно сравнивает данные с тем, что аналитик ожидал бы при нулевой гипотезе. Общая формула: Тестовая статистика = (Выборочная статистика - Гипотетическое значение) / Стандартная ошибка.",
+          "type": "formula",
+          "formula": "$\\text{Test statistic} = \\frac{\\text{Sample statistic} - \\text{Hypothesized value}}{\\text{Standard error}}$",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-8-008",
+          "term_en": "Significance Level (α)",
+          "term_ru": "Уровень значимости (α)",
+          "definition_en": "The probability of making a Type I error, i.e., rejecting the null hypothesis when it is true. Common significance levels are 1%, 5%, and 10%. The significance level is used to determine critical values that subdivide a distribution into rejection and non-rejection regions.",
+          "definition_ru": "Вероятность совершения ошибки I рода, т.е. отклонения нулевой гипотезы, когда она истинна. Обычные уровни значимости составляют 1%, 5% и 10%. Уровень значимости используется для определения критических значений, которые разделяют распределение на области отклонения и неотклонения.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-8-009",
+          "term_en": "Confidence Level",
+          "term_ru": "Уровень доверия",
+          "definition_en": "The complement of the significance level, calculated as (1 - α). For example, a 5% significance level corresponds to a 95% confidence level. It represents the probability of not making a Type I error.",
+          "definition_ru": "Дополнение к уровню значимости, рассчитываемое как (1 - α). Например, уровень значимости 5% соответствует 95% уровню доверия. Он представляет вероятность того, что не будет совершена ошибка I рода.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-8-010",
+          "term_en": "Type I Error",
+          "term_ru": "Ошибка I рода",
+          "definition_en": "An error that occurs when we reject a true null hypothesis. The probability of making a Type I error is equal to the significance level α. For example, rejecting H₀: μ = 0 when it is actually zero.",
+          "definition_ru": "Ошибка, которая возникает, когда мы отклоняем истинную нулевую гипотезу. Вероятность совершения ошибки I рода равна уровню значимости α. Например, отклонение H₀: μ = 0, когда оно на самом деле равно нулю.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-8-011",
+          "term_en": "Type II Error",
+          "term_ru": "Ошибка II рода",
+          "definition_en": "An error that occurs when we fail to reject a false null hypothesis. The probability of making a Type II error is denoted by β. In such a scenario, the evidence the test provides is insufficient to justify the rejection of the null hypothesis when it is false.",
+          "definition_ru": "Ошибка, которая возникает, когда мы не можем отклонить ложную нулевую гипотезу. Вероятность совершения ошибки II рода обозначается как β. В такой ситуации доказательства, предоставленные тестом, недостаточны для обоснования отклонения нулевой гипотезы, когда она ложна.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-8-012",
+          "term_en": "Power of a Test",
+          "term_ru": "Мощность теста",
+          "definition_en": "The probability of correctly rejecting the null hypothesis when it is false. Mathematically, Power = 1 - β = 1 - P(Type II error). The test with the highest power is considered the best when multiple test results are available for the same purpose.",
+          "definition_ru": "Вероятность правильного отклонения нулевой гипотезы, когда она ложна. Математически, Мощность = 1 - β = 1 - P(Ошибка II рода). Тест с наибольшей мощностью считается лучшим, когда доступны результаты нескольких тестов для одной и той же цели.",
+          "type": "formula",
+          "formula": "$\\text{Power of a test} = 1 - \\beta = 1 - P(\\text{Type II error})$",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-8-013",
+          "term_en": "Decision Rule",
+          "term_ru": "Правило принятия решения",
+          "definition_en": "The procedure that analysts and researchers follow when deciding whether to reject or not reject a null hypothesis. The decision rule compares the calculated test statistic to the critical value. We use the phrase 'not reject' because it's statistically incorrect to 'accept' a null hypothesis.",
+          "definition_ru": "Процедура, которой следуют аналитики и исследователи при принятии решения о том, отклонять или не отклонять нулевую гипотезу. Правило принятия решения сравнивает вычисленную тестовую статистику с критическим значением. Мы используем фразу 'не отклонять', потому что статистически некорректно 'принимать' нулевую гипотезу.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-8-014",
+          "term_en": "Critical Region (Rejection Region)",
+          "term_ru": "Критическая область (Область отклонения)",
+          "definition_en": "The set of values that the test statistic can take that is inconsistent with the null hypothesis. If the test statistic has a value found within the critical region, we reject the null hypothesis. The critical region is determined by the significance level and whether the test is one-tailed or two-tailed.",
+          "definition_ru": "Набор значений, которые может принимать тестовая статистика, несовместимый с нулевой гипотезой. Если тестовая статистика имеет значение, попадающее в критическую область, мы отклоняем нулевую гипотезу. Критическая область определяется уровнем значимости и тем, является ли тест односторонним или двусторонним.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-8-015",
+          "term_en": "p-value",
+          "term_ru": "p-значение",
+          "definition_en": "The lowest level of significance at which we can reject a null hypothesis. It is the probability of obtaining a test statistic that would justify our rejection of a null hypothesis, assuming that the null hypothesis is indeed true. The strength of evidence against H₀ increases as the p-value becomes smaller. For one-tailed tests, the p-value is the probability below or above the calculated test statistic. For two-tailed tests, we combine both tails.",
+          "definition_ru": "Самый низкий уровень значимости, при котором мы можем отклонить нулевую гипотезу. Это вероятность получения тестовой статистики, которая оправдала бы наше отклонение нулевой гипотезы, при условии, что нулевая гипотеза действительно верна. Сила доказательств против H₀ увеличивается по мере уменьшения p-значения. Для односторонних тестов p-значение - это вероятность ниже или выше вычисленной тестовой статистики. Для двусторонних тестов мы объединяем обе стороны.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "QM-8-EX-001",
+          "question_en": "A CFA candidate conducts a statistical test about the mean value of a random variable X. H₀: μ = μ₀ vs H₁: μ ≠ μ₀. She obtains a test statistic of 2.2. Given a 5% significance level, determine the p-value.",
+          "question_ru": "Кандидат CFA проводит статистический тест среднего значения случайной величины X. H₀: μ = μ₀ против H₁: μ ≠ μ₀. Она получает тестовую статистику 2.2. При уровне значимости 5% определите p-значение.",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "1.39%",
+              "text_ru": "1.39%"
+            },
+            {
+              "letter": "B",
+              "text_en": "2.78",
+              "text_ru": "2.78"
+            },
+            {
+              "letter": "C",
+              "text_en": "2.78%",
+              "text_ru": "2.78%"
+            }
+          ],
+          "correct_answer": "C",
+          "solution_en": "P-value = P(Z > 2.2) = 1 - P(Z < 2.2) = 1.39% × 2 = 2.78%. We multiply by two since this is a two-tailed test. The p-value (2.78%) is less than the significance level (5%). Therefore, we have sufficient evidence to reject H₀.",
+          "solution_ru": "P-значение = P(Z > 2.2) = 1 - P(Z < 2.2) = 1.39% × 2 = 2.78%. Мы умножаем на два, так как это двусторонний тест. P-значение (2.78%) меньше уровня значимости (5%). Следовательно, у нас есть достаточно доказательств для отклонения H₀."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_8b",
+      "los_code": "8b",
+      "los_description_en": "Construct hypothesis tests and determine their statistical significance, the associated Type I and Type II errors, and the power of the test given a significance level",
+      "los_description_ru": "Конструировать тесты гипотез и определять их статистическую значимость, связанные ошибки I и II рода и мощность теста при заданном уровне значимости",
+      "terms": [
+        {
+          "term_id": "QM-8-016",
+          "term_en": "z-test",
+          "term_ru": "z-тест",
+          "definition_en": "A hypothesis test used when the sampling distribution of the sample is normally distributed or when the population standard deviation is known. The z-test uses the standard normal distribution and is appropriate when the population variance σ² is known or the sample size is large (n ≥ 30).",
+          "definition_ru": "Тест гипотез, используемый, когда распределение выборки нормально распределено или когда известно стандартное отклонение популяции. z-тест использует стандартное нормальное распределение и подходит, когда дисперсия популяции σ² известна или размер выборки велик (n ≥ 30).",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-8-017",
+          "term_en": "z-statistic",
+          "term_ru": "z-статистика",
+          "definition_en": "The test statistic used in z-tests for hypothesis testing when the population standard deviation is known.",
+          "definition_ru": "Тестовая статистика, используемая в z-тестах для проверки гипотез, когда стандартное отклонение популяции известно.",
+          "type": "formula",
+          "formula": "$z = \\frac{\\bar{X} - \\mu_0}{\\frac{\\sigma}{\\sqrt{n}}}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "\\bar{X}",
+              "name_en": "Sample mean",
+              "name_ru": "Выборочное среднее"
+            },
+            {
+              "symbol": "\\mu_0",
+              "name_en": "Hypothesized population mean",
+              "name_ru": "Гипотетическое среднее популяции"
+            },
+            {
+              "symbol": "\\sigma",
+              "name_en": "Population standard deviation (known)",
+              "name_ru": "Стандартное отклонение популяции (известное)"
+            },
+            {
+              "symbol": "n",
+              "name_en": "Sample size",
+              "name_ru": "Размер выборки"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Вычислите разницу: (X̄ - μ₀)",
+              "2. Вычислите стандартную ошибку: σ/√n",
+              "3. Разделите разницу на стандартную ошибку",
+              "4. Результат: z-статистика"
+            ],
+            "example": {
+              "given": "X̄ = 135, μ₀ = 130, σ = 25, n = 50",
+              "input": "(135 - 130) / (25/√50)",
+              "result": "z = 1.414"
+            }
+          }
+        },
+        {
+          "term_id": "QM-8-018",
+          "term_en": "t-test",
+          "term_ru": "t-тест",
+          "definition_en": "A hypothesis test based on the t-distribution, appropriate for testing the value of a population mean when: (1) σ is unknown, and (2) the sample size is large (n ≥ 30), or if n < 30, the distribution must be normal or approximately normal.",
+          "definition_ru": "Тест гипотез, основанный на t-распределении, подходящий для проверки значения среднего популяции, когда: (1) σ неизвестно, и (2) размер выборки велик (n ≥ 30), или если n < 30, распределение должно быть нормальным или приблизительно нормальным.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-8-019",
+          "term_en": "t-statistic (Single Mean)",
+          "term_ru": "t-статистика (Одно среднее)",
+          "definition_en": "The test statistic for a t-test concerning a single population mean, with (n-1) degrees of freedom.",
+          "definition_ru": "Тестовая статистика для t-теста, касающегося одного среднего популяции, с (n-1) степенями свободы.",
+          "type": "formula",
+          "formula": "$t_{n-1} = \\frac{\\bar{X} - \\mu_0}{\\frac{s}{\\sqrt{n}}}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "\\bar{X}",
+              "name_en": "Sample mean",
+              "name_ru": "Выборочное среднее"
+            },
+            {
+              "symbol": "\\mu_0",
+              "name_en": "Hypothesized population mean",
+              "name_ru": "Гипотетическое среднее популяции"
+            },
+            {
+              "symbol": "s",
+              "name_en": "Sample standard deviation",
+              "name_ru": "Выборочное стандартное отклонение"
+            },
+            {
+              "symbol": "n",
+              "name_en": "Sample size",
+              "name_ru": "Размер выборки"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Вычислите разницу: (X̄ - μ₀)",
+              "2. Вычислите стандартную ошибку: s/√n",
+              "3. Разделите разницу на стандартную ошибку",
+              "4. Сравните с критическим значением t из таблицы",
+              "5. Результат: t-статистика"
+            ],
+            "example": {
+              "given": "X̄ = 26.6, μ₀ = 23, s = 1.43, n = 10",
+              "input": "(26.6 - 23) / (1.43/√10)",
+              "result": "t = 7.96"
+            }
+          }
+        },
+        {
+          "term_id": "QM-8-020",
+          "term_en": "t-statistic (Difference in Means)",
+          "term_ru": "t-статистика (Разница средних)",
+          "definition_en": "The test statistic for comparing the means of two independent populations with equal but unknown variances, using pooled variance.",
+          "definition_ru": "Тестовая статистика для сравнения средних двух независимых популяций с равными, но неизвестными дисперсиями, используя объединенную дисперсию.",
+          "type": "formula",
+          "formula": "$t = \\frac{(\\bar{X}_1 - \\bar{X}_2) - (\\mu_1 - \\mu_2)}{s_p\\sqrt{\\frac{1}{n_1} + \\frac{1}{n_2}}}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "\\bar{X}_1, \\bar{X}_2",
+              "name_en": "Sample means",
+              "name_ru": "Выборочные средние"
+            },
+            {
+              "symbol": "\\mu_1, \\mu_2",
+              "name_en": "Hypothesized population means",
+              "name_ru": "Гипотетические средние популяций"
+            },
+            {
+              "symbol": "s_p",
+              "name_en": "Pooled standard deviation",
+              "name_ru": "Объединенное стандартное отклонение"
+            },
+            {
+              "symbol": "n_1, n_2",
+              "name_en": "Sample sizes",
+              "name_ru": "Размеры выборок"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Multi-step Calculation",
+            "steps_ru": [
+              "1. Вычислите объединенную дисперсию s²ₚ",
+              "2. Вычислите разницу средних: (X̄₁ - X̄₂)",
+              "3. Вычислите стандартную ошибку: sₚ√(1/n₁ + 1/n₂)",
+              "4. Разделите разницу на стандартную ошибку",
+              "5. Результат: t-статистика с (n₁ + n₂ - 2) степенями свободы"
+            ],
+            "example": {
+              "given": "Two independent samples",
+              "result": "Calculate pooled variance first, then t-statistic"
+            }
+          }
+        },
+        {
+          "term_id": "QM-8-021",
+          "term_en": "Pooled Variance",
+          "term_ru": "Объединенная дисперсия",
+          "definition_en": "The weighted average of two sample variances, used when testing the difference between two population means with the assumption of equal population variances.",
+          "definition_ru": "Взвешенное среднее двух выборочных дисперсий, используемое при проверке разницы между двумя средними популяций с предположением о равенстве дисперсий популяций.",
+          "type": "formula",
+          "formula": "$s_p^2 = \\frac{(n_1 - 1)s_1^2 + (n_2 - 1)s_2^2}{n_1 + n_2 - 2}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "s_p^2",
+              "name_en": "Pooled variance",
+              "name_ru": "Объединенная дисперсия"
+            },
+            {
+              "symbol": "s_1^2, s_2^2",
+              "name_en": "Sample variances",
+              "name_ru": "Выборочные дисперсии"
+            },
+            {
+              "symbol": "n_1, n_2",
+              "name_en": "Sample sizes",
+              "name_ru": "Размеры выборок"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Вычислите (n₁ - 1) × s₁²",
+              "2. Вычислите (n₂ - 1) × s₂²",
+              "3. Сложите результаты",
+              "4. Разделите на (n₁ + n₂ - 2)",
+              "5. Результат: объединенная дисперсия"
+            ],
+            "example": {
+              "given": "n₁=10, s₁²=363.33, n₂=10, s₂²=510",
+              "input": "(9×363.33 + 9×510) / 18",
+              "result": "s²ₚ = 436.665"
+            }
+          }
+        },
+        {
+          "term_id": "QM-8-022",
+          "term_en": "Paired Comparison Test (Paired t-test)",
+          "term_ru": "Парный сравнительный тест (Парный t-тест)",
+          "definition_en": "A test used when samples are dependent (paired observations). We organize observations in pairs and test the mean of the differences. The test statistic has (n-1) degrees of freedom where n is the number of paired observations.",
+          "definition_ru": "Тест, используемый когда выборки зависимы (парные наблюдения). Мы организуем наблюдения в пары и тестируем среднее различий. Тестовая статистика имеет (n-1) степеней свободы, где n - количество парных наблюдений.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-8-023",
+          "term_en": "t-statistic (Paired Differences)",
+          "term_ru": "t-статистика (Парные различия)",
+          "definition_en": "The test statistic for paired comparison tests, calculated using the mean and standard deviation of the differences.",
+          "definition_ru": "Тестовая статистика для парных сравнительных тестов, рассчитанная с использованием среднего и стандартного отклонения различий.",
+          "type": "formula",
+          "formula": "$t = \\frac{\\bar{d} - \\mu_{d0}}{s_{\\bar{d}}}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "\\bar{d}",
+              "name_en": "Mean of differences",
+              "name_ru": "Среднее различий"
+            },
+            {
+              "symbol": "\\mu_{d0}",
+              "name_en": "Hypothesized mean difference (usually 0)",
+              "name_ru": "Гипотетическое среднее различие (обычно 0)"
+            },
+            {
+              "symbol": "s_{\\bar{d}}",
+              "name_en": "Standard error of mean differences = s_d/√n",
+              "name_ru": "Стандартная ошибка средних различий = s_d/√n"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Вычислите различия для каждой пары: d_i = x_Ai - x_Bi",
+              "2. Вычислите среднее различий: d̄",
+              "3. Вычислите стандартное отклонение различий: s_d",
+              "4. Вычислите стандартную ошибку: s_d/√n",
+              "5. Вычислите t = (d̄ - μ_d0) / s_d̄",
+              "6. Результат: t-статистика с (n-1) степенями свободы"
+            ],
+            "example": {
+              "given": "n=2050, d̄=-0.0022, s_d=0.3321",
+              "input": "(-0.0022 - 0) / (0.3321/√2050)",
+              "result": "t = -0.30"
+            }
+          }
+        },
+        {
+          "term_id": "QM-8-024",
+          "term_en": "Chi-square Test (Single Variance)",
+          "term_ru": "Хи-квадрат тест (Одна дисперсия)",
+          "definition_en": "A test used to determine if a hypothesized variance value matches the true population variance. The chi-square distribution is asymmetrical and bounded by zero, with no negative values. As degrees of freedom increase, it approaches a more normal distribution.",
+          "definition_ru": "Тест, используемый для определения того, соответствует ли гипотетическое значение дисперсии истинной дисперсии популяции. Распределение хи-квадрат асимметрично и ограничено нулем, без отрицательных значений. С увеличением степеней свободы оно приближается к более нормальному распределению.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-8-025",
+          "term_en": "Chi-square Statistic",
+          "term_ru": "Хи-квадрат статистика",
+          "definition_en": "The test statistic for testing a single population variance, with (n-1) degrees of freedom.",
+          "definition_ru": "Тестовая статистика для проверки одной дисперсии популяции, с (n-1) степенями свободы.",
+          "type": "formula",
+          "formula": "$\\chi^2_{n-1} = \\frac{(n-1)s^2}{\\sigma_0^2}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "n",
+              "name_en": "Sample size",
+              "name_ru": "Размер выборки"
+            },
+            {
+              "symbol": "s^2",
+              "name_en": "Sample variance",
+              "name_ru": "Выборочная дисперсия"
+            },
+            {
+              "symbol": "\\sigma_0^2",
+              "name_en": "Hypothesized population variance",
+              "name_ru": "Гипотетическая дисперсия популяции"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Вычислите (n - 1) × s²",
+              "2. Разделите на σ₀²",
+              "3. Сравните с критическими значениями из таблицы χ²",
+              "4. Результат: χ²-статистика"
+            ],
+            "example": {
+              "given": "n=24, s²=0.0016, σ₀²=0.0025",
+              "input": "(24-1) × 0.0016 / 0.0025",
+              "result": "χ² = 14.72"
+            }
+          }
+        },
+        {
+          "term_id": "QM-8-026",
+          "term_en": "F-test",
+          "term_ru": "F-тест",
+          "definition_en": "A test used to compare the equality of two population variances. The test statistic follows an F-distribution with degrees of freedom (n₁-1, n₂-1).",
+          "definition_ru": "Тест, используемый для сравнения равенства двух дисперсий популяций. Тестовая статистика следует F-распределению со степенями свободы (n₁-1, n₂-1).",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-8-027",
+          "term_en": "F-statistic",
+          "term_ru": "F-статистика",
+          "definition_en": "The test statistic for comparing two population variances, calculated as the ratio of the two sample variances.",
+          "definition_ru": "Тестовая статистика для сравнения двух дисперсий популяций, рассчитанная как отношение двух выборочных дисперсий.",
+          "type": "formula",
+          "formula": "$F = \\frac{s_1^2}{s_2^2}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "s_1^2",
+              "name_en": "Variance of sample 1",
+              "name_ru": "Дисперсия выборки 1"
+            },
+            {
+              "symbol": "s_2^2",
+              "name_en": "Variance of sample 2",
+              "name_ru": "Дисперсия выборки 2"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Вычислите дисперсию первой выборки: s₁²",
+              "2. Вычислите дисперсию второй выборки: s₂²",
+              "3. Разделите: F = s₁² / s₂²",
+              "4. Сравните с критическими значениями F-распределения",
+              "5. Результат: F-статистика с (n₁-1, n₂-1) степенями свободы"
+            ],
+            "example": {
+              "given": "s₁²=3.520, s₂²=2.967",
+              "input": "3.520 / 2.967",
+              "result": "F = 1.1864"
+            }
+          }
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "los_id": "LOS_8c",
+      "los_code": "8c",
+      "los_description_en": "Compare and contrast parametric and nonparametric tests, and describe situations where each is the more appropriate type of test",
+      "los_description_ru": "Сравнивать и противопоставлять параметрические и непараметрические тесты и описывать ситуации, когда каждый из них является более подходящим типом теста",
+      "terms": [
+        {
+          "term_id": "QM-8-028",
+          "term_en": "Parametric Tests",
+          "term_ru": "Параметрические тесты",
+          "definition_en": "Statistical tests in which we make assumptions regarding population distribution and involve the estimation of key parameters of a distribution (e.g., mean, variance). Examples include z-test, t-test, chi-square test, and F-test. Parametric tests are generally considered to have more statistical power than nonparametric tests.",
+          "definition_ru": "Статистические тесты, в которых мы делаем предположения относительно распределения популяции и включаем оценку ключевых параметров распределения (например, среднее, дисперсия). Примеры включают z-тест, t-тест, хи-квадрат тест и F-тест. Параметрические тесты обычно считаются более мощными, чем непараметрические тесты.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-8-029",
+          "term_en": "Nonparametric Tests",
+          "term_ru": "Непараметрические тесты",
+          "definition_en": "Distribution-free tests that don't assume anything about the parameter's distribution being studied. Researchers turn to nonparametric testing when they have concerns about factors other than the parameter's distribution. Examples include: Wilcoxon signed-rank test, Mann-Whitney U test (Wilcoxon rank sum test), and Sign test. Although easier to conduct, they generally have less statistical power than parametric tests.",
+          "definition_ru": "Свободные от распределения тесты, которые не делают никаких предположений о распределении изучаемого параметра. Исследователи обращаются к непараметрическому тестированию, когда у них есть опасения относительно факторов, отличных от распределения параметра. Примеры включают: тест знаковых рангов Уилкоксона, тест Манна-Уитни U (тест суммы рангов Уилкоксона) и знаковый тест. Хотя их легче проводить, они обычно имеют меньшую статистическую мощность, чем параметрические тесты.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-8-030",
+          "term_en": "When to Use Nonparametric Tests",
+          "term_ru": "Когда использовать непараметрические тесты",
+          "definition_en": "Nonparametric tests are appropriate when: (1) The data do not meet distributional assumptions (e.g., small sample size from non-normal distribution), (2) There are outliers that can affect parametric statistics, (3) Data is given in the form of ranks or uses an ordinal scale, (4) The hypotheses do not concern a parameter (e.g., testing for randomness). Despite being easier to conduct, nonparametric tests provide efficient tools for analyzing ordinal, ranked, or very skewed data.",
+          "definition_ru": "Непараметрические тесты подходят, когда: (1) Данные не соответствуют предположениям о распределении (например, малый размер выборки из ненормального распределения), (2) Есть выбросы, которые могут повлиять на параметрическую статистику, (3) Данные представлены в форме рангов или используют порядковую шкалу, (4) Гипотезы не касаются параметра (например, тестирование на случайность). Несмотря на то, что их легче проводить, непараметрические тесты предоставляют эффективные инструменты для анализа порядковых, ранжированных или сильно скошенных данных.",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": []
+    }
+  ]
+}
