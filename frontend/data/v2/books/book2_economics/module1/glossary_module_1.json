@@ -1,0 +1,626 @@
+{
+  "metadata": {
+    "book_id": 2,
+    "book_code": "ECON",
+    "book_name": "Economics",
+    "book_name_ru": "Экономика",
+    "module_id": 1,
+    "module_name": "Topics in Demand and Supply Analysis",
+    "module_name_ru": "Темы анализа спроса и предложения",
+    "page_range": "3-43",
+    "total_terms": 44,
+    "total_exercises": 8,
+    "version": "2.0",
+    "last_updated": "2026-01-19"
+  },
+  "los": [
+    {
+      "los_id": "LOS_1a",
+      "los_code": "1a",
+      "los_description_en": "determine and interpret breakeven and shutdown points of production, as well as how economies and diseconomies of scale affect costs under perfect and imperfect competition",
+      "los_description_ru": "определять и интерпретировать точки безубыточности и прекращения производства, а также то, как эффект масштаба и неэкономия масштаба влияют на издержки при совершенной и несовершенной конкуренции",
+      "terms": [
+        {
+          "term_id": "ECON-1-001",
+          "term_en": "Perfect Competition",
+          "term_ru": "Совершенная конкуренция",
+          "definition_en": "A market structure characterized by many buyers and sellers, homogeneous products, where no single seller is large enough to influence the market price. Firms are price takers with perfectly elastic horizontal demand curves.",
+          "definition_ru": "Структура рынка, характеризующаяся множеством покупателей и продавцов, однородными продуктами, где ни один продавец не является достаточно крупным, чтобы влиять на рыночную цену. Фирмы являются ценополучателями с совершенно эластичными горизонтальными кривыми спроса.",
+          "type": "concept",
+          "formula": "$P = MR = AR$",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-002",
+          "term_en": "Imperfect Competition",
+          "term_ru": "Несовершенная конкуренция",
+          "definition_en": "Market structures where the demand curve has a negative slope and firms have some control over price. Includes monopolistic competition, oligopoly, and monopoly. Price is a function of quantity.",
+          "definition_ru": "Структуры рынка, где кривая спроса имеет отрицательный наклон, и фирмы обладают некоторым контролем над ценой. Включает монополистическую конкуренцию, олигополию и монополию. Цена является функцией количества.",
+          "type": "concept",
+          "formula": "$P = f(Q)$",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-003",
+          "term_en": "Price Taker",
+          "term_ru": "Ценополучатель",
+          "definition_en": "A firm in perfect competition that must accept the market price for its output and cannot influence it. The firm faces a perfectly elastic demand curve at the market price.",
+          "definition_ru": "Фирма в условиях совершенной конкуренции, которая должна принимать рыночную цену за свою продукцию и не может влиять на неё. Фирма сталкивается с совершенно эластичной кривой спроса по рыночной цене.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-004",
+          "term_en": "Marginal Revenue (MR)",
+          "term_ru": "Предельный доход",
+          "definition_en": "The additional revenue generated from selling one more unit of output. In perfect competition, MR equals price (P). In imperfect competition, MR is less than price and declines as quantity increases.",
+          "definition_ru": "Дополнительный доход, получаемый от продажи ещё одной единицы продукции. При совершенной конкуренции MR равен цене (P). При несовершенной конкуренции MR меньше цены и снижается по мере увеличения количества.",
+          "type": "formula",
+          "formula": "$MR = \\frac{\\Delta TR}{\\Delta Q}$",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-005",
+          "term_en": "Average Revenue (AR)",
+          "term_ru": "Средний доход",
+          "definition_en": "Total revenue divided by quantity sold. Equals the price per unit. In perfect competition, AR = MR = P. Represents the demand curve facing the firm.",
+          "definition_ru": "Общий доход, делённый на проданное количество. Равен цене за единицу. При совершенной конкуренции AR = MR = P. Представляет кривую спроса, с которой сталкивается фирма.",
+          "type": "formula",
+          "formula": "$AR = \\frac{TR}{Q} = P$",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-006",
+          "term_en": "Total Revenue (TR)",
+          "term_ru": "Общий доход",
+          "definition_en": "The total amount of money received by a firm from selling its output. Calculated as price times quantity. In perfect competition, TR = P × Q. In imperfect competition, TR = f(Q) × Q.",
+          "definition_ru": "Общая сумма денег, получаемая фирмой от продажи своей продукции. Рассчитывается как цена, умноженная на количество. При совершенной конкуренции TR = P × Q. При несовершенной конкуренции TR = f(Q) × Q.",
+          "type": "formula",
+          "formula": "$TR = P \\times Q$",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-007",
+          "term_en": "Short Run",
+          "term_ru": "Короткий период",
+          "definition_en": "The time period during which at least one factor of production (such as technology, physical capital, or plant size) is fixed. Firms can only adjust variable inputs like labor.",
+          "definition_ru": "Период времени, в течение которого по крайней мере один фактор производства (например, технология, физический капитал или размер завода) является фиксированным. Фирмы могут регулировать только переменные факторы, такие как труд.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-008",
+          "term_en": "Long Run",
+          "term_ru": "Длительный период",
+          "definition_en": "The time period during which all factors of production are variable. Firms can adjust all inputs, enter or exit the market. Also termed the planning horizon.",
+          "definition_ru": "Период времени, в течение которого все факторы производства являются переменными. Фирмы могут регулировать все факторы, входить на рынок или выходить с него. Также называется горизонтом планирования.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-009",
+          "term_en": "Profit Maximization Point",
+          "term_ru": "Точка максимизации прибыли",
+          "definition_en": "The output level where a firm maximizes its profit, occurring where marginal revenue equals marginal cost (MR = MC) and the marginal cost is increasing. At this point, the firm cannot increase profit by producing more or less.",
+          "definition_ru": "Уровень выпуска, при котором фирма максимизирует свою прибыль, возникающий там, где предельный доход равен предельным издержкам (MR = MC), и предельные издержки возрастают. В этой точке фирма не может увеличить прибыль, производя больше или меньше.",
+          "type": "concept",
+          "formula": "$MR = MC$ (and MC is increasing)",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-010",
+          "term_en": "Breakeven Point",
+          "term_ru": "Точка безубыточности",
+          "definition_en": "The output level where total revenue equals total cost (TR = TC), or equivalently where average revenue equals average total cost (AR = ATC). At this point, economic profit is zero and the firm earns only normal profit.",
+          "definition_ru": "Уровень выпуска, при котором общий доход равен общим издержкам (TR = TC), или эквивалентно, где средний доход равен средним общим издержкам (AR = ATC). В этой точке экономическая прибыль равна нулю, и фирма получает только нормальную прибыль.",
+          "type": "concept",
+          "formula": "$TR = TC$ or $AR = ATC$ or $P = ATC$",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-011",
+          "term_en": "Shutdown Point",
+          "term_ru": "Точка закрытия",
+          "definition_en": "The output level at which a firm's revenue is just sufficient to cover its variable costs. This occurs at the minimum point of the average variable cost (AVC) curve. Below this point, the firm should cease production in the short run because it cannot cover its variable expenses.",
+          "definition_ru": "Уровень выпуска, при котором доход фирмы только покрывает переменные издержки. Это происходит в минимальной точке кривой средних переменных издержек (AVC). Ниже этой точки фирма должна прекратить производство в краткосрочном периоде, так как не может покрыть свои переменные расходы.",
+          "type": "concept",
+          "formula": "$P = \\min(AVC)$",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-012",
+          "term_en": "Fixed Costs (FC)",
+          "term_ru": "Постоянные издержки",
+          "definition_en": "Costs that remain constant regardless of a company's production level. These include expenses such as rent, fixed interest charges, and other costs that do not vary with the volume of output. Fixed costs must be paid even if production is zero.",
+          "definition_ru": "Издержки, которые остаются постоянными независимо от уровня производства компании. К ним относятся такие расходы, как арендная плата, фиксированные процентные платежи и другие затраты, которые не меняются в зависимости от объема выпуска. Постоянные издержки должны быть оплачены даже при нулевом производстве.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-013",
+          "term_en": "Variable Costs (VC)",
+          "term_ru": "Переменные издержки",
+          "definition_en": "Costs that are directly tied to the volume of production and include items like raw materials, wages, and other expenses that vary based on production levels. Variable costs change proportionally with the quantity of output produced.",
+          "definition_ru": "Издержки, которые напрямую связаны с объемом производства и включают такие статьи, как сырье, заработная плата и другие расходы, которые меняются в зависимости от уровня производства. Переменные издержки изменяются пропорционально количеству произведенной продукции.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-014",
+          "term_en": "Total Cost (TC)",
+          "term_ru": "Общие издержки",
+          "definition_en": "The sum of all costs incurred by a firm in producing a given level of output. Total cost equals the sum of total fixed costs and total variable costs. TC represents all economic costs, including both explicit and implicit costs.",
+          "definition_ru": "Сумма всех издержек, понесенных фирмой при производстве данного уровня выпуска. Общие издержки равны сумме общих постоянных издержек и общих переменных издержек. TC представляет все экономические издержки, включая как явные, так и неявные затраты.",
+          "type": "formula",
+          "formula": "$TC = TFC + TVC$",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-015",
+          "term_en": "Average Total Cost (ATC)",
+          "term_ru": "Средние общие издержки",
+          "definition_en": "Total cost divided by the quantity of output produced. ATC represents the per-unit cost of production and is the sum of average fixed cost and average variable cost. The minimum point of the ATC curve represents the most efficient scale of production.",
+          "definition_ru": "Общие издержки, делённые на количество произведенной продукции. ATC представляет издержки производства на единицу продукции и является суммой средних постоянных издержек и средних переменных издержек. Минимальная точка кривой ATC представляет наиболее эффективный масштаб производства.",
+          "type": "formula",
+          "formula": "$ATC = \\frac{TC}{Q} = AFC + AVC$",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-016",
+          "term_en": "Average Variable Cost (AVC)",
+          "term_ru": "Средние переменные издержки",
+          "definition_en": "Total variable costs divided by the quantity of output produced. AVC represents the per-unit variable cost of production. The minimum point of the AVC curve is the shutdown point for a firm in the short run.",
+          "definition_ru": "Общие переменные издержки, делённые на количество произведенной продукции. AVC представляет переменные издержки на единицу продукции. Минимальная точка кривой AVC является точкой закрытия фирмы в краткосрочном периоде.",
+          "type": "formula",
+          "formula": "$AVC = \\frac{TVC}{Q}$",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-017",
+          "term_en": "Average Fixed Cost (AFC)",
+          "term_ru": "Средние постоянные издержки",
+          "definition_en": "Total fixed costs divided by the quantity of output produced. AFC declines continuously as output increases because the fixed costs are spread over more units of output. This is also known as 'spreading the overhead'.",
+          "definition_ru": "Общие постоянные издержки, делённые на количество произведенной продукции. AFC непрерывно снижаются по мере увеличения выпуска, потому что постоянные издержки распределяются на большее количество единиц продукции. Это также известно как 'распределение накладных расходов'.",
+          "type": "formula",
+          "formula": "$AFC = \\frac{TFC}{Q}$",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-018",
+          "term_en": "Marginal Cost (MC) / Short-Run Marginal Cost (SMC)",
+          "term_ru": "Предельные издержки / Краткосрочные предельные издержки",
+          "definition_en": "The additional cost incurred from producing one more unit of output. MC is calculated as the change in total cost divided by the change in quantity. Profit maximization occurs where marginal revenue equals marginal cost (MR = MC).",
+          "definition_ru": "Дополнительные издержки, понесенные при производстве ещё одной единицы продукции. MC рассчитывается как изменение общих издержек, делённое на изменение количества. Максимизация прибыли происходит там, где предельный доход равен предельным издержкам (MR = MC).",
+          "type": "formula",
+          "formula": "$MC = \\frac{\\Delta TC}{\\Delta Q}$",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-019",
+          "term_en": "Economic Profit",
+          "term_ru": "Экономическая прибыль",
+          "definition_en": "The difference between total revenue and total economic costs (including both explicit and implicit costs). Economic profit accounts for opportunity costs and represents profit above normal profit. A firm earns positive economic profit when TR > TC.",
+          "definition_ru": "Разница между общим доходом и общими экономическими издержками (включая как явные, так и неявные издержки). Экономическая прибыль учитывает альтернативные издержки и представляет прибыль сверх нормальной прибыли. Фирма получает положительную экономическую прибыль, когда TR > TC.",
+          "type": "formula",
+          "formula": "$\\pi = TR - TC$",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-020",
+          "term_en": "Normal Profit",
+          "term_ru": "Нормальная прибыль",
+          "definition_en": "The minimum level of profit necessary to keep a firm in operation in the long run. Normal profit occurs when total revenue equals total economic cost (TR = TC), meaning economic profit is zero. It represents the opportunity cost of the resources used in production.",
+          "definition_ru": "Минимальный уровень прибыли, необходимый для поддержания работы фирмы в долгосрочном периоде. Нормальная прибыль возникает, когда общий доход равен общим экономическим издержкам (TR = TC), что означает нулевую экономическую прибыль. Она представляет альтернативные издержки ресурсов, используемых в производстве.",
+          "type": "concept",
+          "formula": "$TR = TC$ (economic profit = 0)",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-021",
+          "term_en": "Sunk Costs",
+          "term_ru": "Невозвратные издержки",
+          "definition_en": "Costs that have already been incurred and cannot be recovered, regardless of the firm's future decisions. Sunk costs should be disregarded when making production decisions because they cannot be changed. Examples include past research and development expenditures or specialized equipment with no resale value.",
+          "definition_ru": "Издержки, которые уже понесены и не могут быть возмещены независимо от будущих решений фирмы. Невозвратные издержки должны игнорироваться при принятии производственных решений, потому что их нельзя изменить. Примеры включают прошлые расходы на исследования и разработки или специализированное оборудование без остаточной стоимости.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-022",
+          "term_en": "Economies of Scale",
+          "term_ru": "Эффект масштаба / Экономия от масштаба",
+          "definition_en": "A situation where the cost per unit of production decreases as the firm expands its output by increasing all inputs. This occurs when the long-run average cost (LRAC) has a negative slope. Economies of scale result from factors such as specialization, efficient equipment, and bulk purchasing discounts.",
+          "definition_ru": "Ситуация, когда издержки на единицу продукции снижаются по мере того, как фирма увеличивает свой выпуск путем увеличения всех факторов производства. Это происходит, когда долгосрочные средние издержки (LRAC) имеют отрицательный наклон. Эффект масштаба возникает из-за таких факторов, как специализация, эффективное оборудование и скидки при оптовых закупках.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-023",
+          "term_en": "Diseconomies of Scale",
+          "term_ru": "Отрицательный эффект масштаба / Неэкономия от масштаба",
+          "definition_en": "A situation where the cost per unit of production increases as the firm further expands its output. This occurs when the long-run average cost (LRAC) has a positive slope. Diseconomies of scale result from factors such as management difficulties, coordination problems, and resource constraints.",
+          "definition_ru": "Ситуация, когда издержки на единицу продукции увеличиваются по мере дальнейшего расширения выпуска фирмы. Это происходит, когда долгосрочные средние издержки (LRAC) имеют положительный наклон. Отрицательный эффект масштаба возникает из-за таких факторов, как трудности управления, проблемы координации и ограничения ресурсов.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-024",
+          "term_en": "Constant Returns to Scale",
+          "term_ru": "Постоянная отдача от масштаба",
+          "definition_en": "A situation where an increase in output is proportional to the increase in all inputs, resulting in no change in per-unit cost. The long-run average cost (LRAC) remains flat. This represents neither economies nor diseconomies of scale.",
+          "definition_ru": "Ситуация, когда увеличение выпуска пропорционально увеличению всех факторов производства, что приводит к отсутствию изменений в издержках на единицу продукции. Долгосрочные средние издержки (LRAC) остаются неизменными. Это не представляет ни эффекта масштаба, ни отрицательного эффекта масштаба.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-025",
+          "term_en": "Short-Run Total Cost (STC)",
+          "term_ru": "Краткосрочные общие издержки",
+          "definition_en": "The total cost incurred by a firm in the short run, when at least one factor of production is fixed. STC increases with output, initially at a diminishing rate due to economies of specialization, then at an accelerating rate due to diminishing marginal returns to variable inputs.",
+          "definition_ru": "Общие издержки, понесенные фирмой в краткосрочном периоде, когда по крайней мере один фактор производства является фиксированным. STC увеличивается с ростом выпуска, сначала с убывающей скоростью из-за экономии от специализации, затем с возрастающей скоростью из-за убывающей предельной отдачи от переменных факторов.",
+          "type": "concept",
+          "formula": "$STC = TFC + TVC$",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-026",
+          "term_en": "Short-Run Average Total Cost (SATC)",
+          "term_ru": "Краткосрочные средние общие издержки",
+          "definition_en": "The average total cost in the short run, calculated as short-run total cost divided by quantity. Each level of fixed capital input has its own SATC curve. The SATC curve is U-shaped due to the presence of both fixed and variable costs.",
+          "definition_ru": "Средние общие издержки в краткосрочном периоде, рассчитанные как краткосрочные общие издержки, делённые на количество. Каждый уровень фиксированного капитала имеет свою собственную кривую SATC. Кривая SATC имеет U-образную форму из-за наличия как постоянных, так и переменных издержек.",
+          "type": "formula",
+          "formula": "$SATC = \\frac{STC}{Q}$",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-027",
+          "term_en": "Long-Run Average Total Cost (LRAC)",
+          "term_ru": "Долгосрочные средние общие издержки",
+          "definition_en": "The average cost per unit when all factors of production are variable and can be adjusted. The LRAC curve is the envelope curve that encompasses all possible short-run average total cost curves, showing the lowest possible cost for each level of output when the firm can adjust all inputs.",
+          "definition_ru": "Средние издержки на единицу продукции, когда все факторы производства являются переменными и могут быть скорректированы. Кривая LRAC является огибающей кривой, которая охватывает все возможные краткосрочные кривые средних общих издержек, показывая наименьшие возможные издержки для каждого уровня выпуска, когда фирма может регулировать все факторы.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-028",
+          "term_en": "Increasing Returns to Scale",
+          "term_ru": "Возрастающая отдача от масштаба",
+          "definition_en": "A production situation where output increases proportionately more than the increase in all inputs. This leads to economies of scale, as the average cost per unit decreases. Firms benefit from greater specialization, more efficient equipment, and better utilization of resources.",
+          "definition_ru": "Производственная ситуация, когда выпуск увеличивается пропорционально больше, чем увеличение всех факторов производства. Это приводит к эффекту масштаба, так как средние издержки на единицу продукции снижаются. Фирмы выигрывают от большей специализации, более эффективного оборудования и лучшего использования ресурсов.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-029",
+          "term_en": "Decreasing Returns to Scale",
+          "term_ru": "Убывающая отдача от масштаба",
+          "definition_en": "A production situation where output increases proportionately less than the increase in all inputs. This results in diseconomies of scale, as the average cost per unit increases. Common causes include management inefficiencies, coordination difficulties, and resource constraints.",
+          "definition_ru": "Производственная ситуация, когда выпуск увеличивается пропорционально меньше, чем увеличение всех факторов производства. Это приводит к отрицательному эффекту масштаба, так как средние издержки на единицу продукции увеличиваются. Распространенные причины включают неэффективность управления, трудности координации и ограничения ресурсов.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "ECON-1-EX-001",
+          "question_en": "A firm that increases the quantity it produces without any change in per-unit cost is experiencing:",
+          "question_ru": "Фирма, которая увеличивает количество производимой продукции без каких-либо изменений в издержках на единицу продукции, испытывает:",
+          "options": [
+            {"letter": "A", "text_en": "Economies of scale", "text_ru": "Эффект масштаба"},
+            {"letter": "B", "text_en": "Diseconomies of scale", "text_ru": "Отрицательный эффект масштаба"},
+            {"letter": "C", "text_en": "Constant returns to scale", "text_ru": "Постоянную отдачу от масштаба"}
+          ],
+          "correct_answer": "C",
+          "solution_en": "An increase in output proportional to an increase in input would be considered a constant return to scale. This is neither economies nor diseconomies of scale. When there are constant returns to scale, the per-unit cost remains unchanged as output increases.",
+          "solution_ru": "Увеличение выпуска, пропорциональное увеличению факторов производства, считается постоянной отдачей от масштаба. Это не является ни эффектом масштаба, ни отрицательным эффектом масштаба. При постоянной отдаче от масштаба издержки на единицу продукции остаются неизменными при увеличении выпуска."
+        },
+        {
+          "exercise_id": "ECON-1-EX-002",
+          "question_en": "The short-term shutdown point of production for a firm operating under perfect competition will most likely occur when the price per unit is equal to:",
+          "question_ru": "Краткосрочная точка закрытия производства для фирмы, работающей в условиях совершенной конкуренции, скорее всего, наступит, когда цена за единицу продукции равна:",
+          "options": [
+            {"letter": "A", "text_en": "Marginal cost per unit", "text_ru": "Предельным издержкам на единицу"},
+            {"letter": "B", "text_en": "Average total cost per unit", "text_ru": "Средним общим издержкам на единицу"},
+            {"letter": "C", "text_en": "Average variable cost per unit", "text_ru": "Средним переменным издержкам на единицу"}
+          ],
+          "correct_answer": "C",
+          "solution_en": "Any firm will shut down its production when the price falls below the minimum average variable cost. At this point, the firm cannot cover its variable expenses and should cease operations in the short run. The shutdown point occurs at the minimum of the AVC curve.",
+          "solution_ru": "Любая фирма прекратит производство, когда цена упадет ниже минимальных средних переменных издержек. В этот момент фирма не может покрыть свои переменные расходы и должна прекратить деятельность в краткосрочном периоде. Точка закрытия возникает в минимуме кривой AVC."
+        },
+        {
+          "exercise_id": "ECON-1-EX-003",
+          "question_en": "A manufacturing company produces 1,000 units at $5 each (TR = $5,000). Its average total cost is $7, fixed cost is $4,000, and variable cost is $3,000. In the short run, the company should most likely:",
+          "question_ru": "Производственная компания производит 1000 единиц по $5 каждая (TR = $5,000). Её средние общие издержки составляют $7, постоянные издержки $4,000, а переменные издержки $3,000. В краткосрочном периоде компания должна скорее всего:",
+          "options": [
+            {"letter": "A", "text_en": "Shut down immediately", "text_ru": "Немедленно прекратить деятельность"},
+            {"letter": "B", "text_en": "Continue operating", "text_ru": "Продолжить деятельность"},
+            {"letter": "C", "text_en": "Increase production", "text_ru": "Увеличить производство"}
+          ],
+          "correct_answer": "B",
+          "solution_en": "The company is operating at a loss of $2,000 (TR $5,000 - TC $7,000). However, if it continues operations, it earns revenue of $5,000, pays variable costs of $3,000, and uses $2,000 to partially cover fixed costs. This is better than shutting down and losing the entire $4,000 in fixed costs. Since price ($5) exceeds average variable cost ($3), the firm should continue operating in the short run.",
+          "solution_ru": "Компания работает с убытком в $2,000 (TR $5,000 - TC $7,000). Однако, если она продолжит деятельность, она получит доход $5,000, заплатит переменные издержки $3,000 и использует $2,000 для частичного покрытия постоянных издержек. Это лучше, чем закрыться и потерять все $4,000 постоянных издержек. Поскольку цена ($5) превышает средние переменные издержки ($3), фирма должна продолжить деятельность в краткосрочном периоде."
+        },
+        {
+          "exercise_id": "ECON-1-EX-004",
+          "question_en": "Which of the following best describes the relationship between short-run and long-run cost curves?",
+          "question_ru": "Какое из следующих утверждений наилучшим образом описывает взаимосвязь между краткосрочными и долгосрочными кривыми издержек?",
+          "options": [
+            {"letter": "A", "text_en": "The LRAC curve is always above all SATC curves", "text_ru": "Кривая LRAC всегда находится выше всех кривых SATC"},
+            {"letter": "B", "text_en": "The LRAC curve is the envelope of all SATC curves", "text_ru": "Кривая LRAC является огибающей всех кривых SATC"},
+            {"letter": "C", "text_en": "The LRAC curve intersects each SATC curve at its minimum point", "text_ru": "Кривая LRAC пересекает каждую кривую SATC в её минимальной точке"}
+          ],
+          "correct_answer": "B",
+          "solution_en": "The long-run average total cost (LRAC) curve serves as the envelope curve that encompasses all possible short-run average total cost (SATC) curves. The LRAC shows the lowest possible cost for each level of output when the firm can adjust all inputs. Each point on the LRAC corresponds to the minimum cost achievable for that output level across all possible plant sizes.",
+          "solution_ru": "Кривая долгосрочных средних общих издержек (LRAC) служит огибающей кривой, которая охватывает все возможные кривые краткосрочных средних общих издержек (SATC). LRAC показывает наименьшие возможные издержки для каждого уровня выпуска, когда фирма может регулировать все факторы производства. Каждая точка на LRAC соответствует минимальным издержкам, достижимым для этого уровня выпуска при всех возможных размерах производственных мощностей."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_1b",
+      "los_code": "1b",
+      "los_description_en": "describe characteristics of perfect competition, monopolistic competition, oligopoly, and pure monopoly",
+      "los_description_ru": "описывать характеристики совершенной конкуренции, монополистической конкуренции, олигополии и чистой монополии",
+      "terms": [
+        {
+          "term_id": "ECON-1-030",
+          "term_en": "Monopolistic Competition",
+          "term_ru": "Монополистическая конкуренция",
+          "definition_en": "An imperfect market structure with many producers selling differentiated products that are close but not perfect substitutes. Firms have some control over prices due to product differentiation through branding or quality. There are few barriers to entry and exit, and firms engage in non-price competition through advertising.",
+          "definition_ru": "Несовершенная рыночная структура с множеством производителей, продающих дифференцированные продукты, которые являются близкими, но не идеальными заместителями. Фирмы обладают некоторым контролем над ценами благодаря дифференциации продукции через брендинг или качество. Существуют незначительные барьеры для входа и выхода, и фирмы участвуют в неценовой конкуренции через рекламу.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-031",
+          "term_en": "Oligopoly",
+          "term_ru": "Олигополия",
+          "definition_en": "A market structure consisting of a small number of relatively large firms that produce similar but slightly different products. High barriers to entry exist, and firms have considerable pricing power. Firms are interdependent and must consider competitors' reactions when making pricing decisions. Examples include oil & gas, airlines, and automakers.",
+          "definition_ru": "Рыночная структура, состоящая из небольшого числа относительно крупных фирм, которые производят похожие, но слегка различающиеся продукты. Существуют высокие барьеры для входа, и фирмы обладают значительной властью над ценообразованием. Фирмы взаимозависимы и должны учитывать реакции конкурентов при принятии ценовых решений. Примеры включают нефть и газ, авиакомпании и автопроизводителей.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-032",
+          "term_en": "Monopoly",
+          "term_ru": "Монополия",
+          "definition_en": "A market structure consisting of a single firm that produces goods with no close substitutes. The monopolist is a price maker with considerable pricing power and can change both price and quality of products. Very high barriers to entry prevent competition. Examples include utilities like water, natural gas, and electricity providers that are granted exclusive rights.",
+          "definition_ru": "Рыночная структура, состоящая из одной фирмы, которая производит товары без близких заменителей. Монополист является ценообразователем со значительной властью над ценами и может изменять как цену, так и качество продукции. Очень высокие барьеры для входа предотвращают конкуренцию. Примеры включают коммунальные услуги, такие как поставщики воды, природного газа и электроэнергии, которым предоставлены исключительные права.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-033",
+          "term_en": "Price Maker",
+          "term_ru": "Ценообразователь",
+          "definition_en": "A firm that has the power to influence the market price of its output. Unlike price takers in perfect competition, price makers face downward-sloping demand curves and can set prices above marginal cost. Monopolies, oligopolies, and firms in monopolistic competition are price makers to varying degrees.",
+          "definition_ru": "Фирма, которая обладает властью влиять на рыночную цену своей продукции. В отличие от ценополучателей при совершенной конкуренции, ценообразователи сталкиваются с нисходящими кривыми спроса и могут устанавливать цены выше предельных издержек. Монополии, олигополии и фирмы в монополистической конкуренции являются ценообразователями в различной степени.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-034",
+          "term_en": "Product Differentiation",
+          "term_ru": "Дифференциация продукции",
+          "definition_en": "The process by which firms distinguish their products from competitors' products through branding, quality differences, features, or other characteristics. Product differentiation allows firms to gain some pricing power and reduces the substitutability between products. It is a key characteristic of monopolistic competition and some oligopolies.",
+          "definition_ru": "Процесс, посредством которого фирмы отличают свою продукцию от продукции конкурентов через брендинг, различия в качестве, характеристики или другие особенности. Дифференциация продукции позволяет фирмам получить некоторую власть над ценообразованием и снижает взаимозаменяемость между продуктами. Это ключевая характеристика монополистической конкуренции и некоторых олигополий.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-035",
+          "term_en": "Barriers to Entry",
+          "term_ru": "Барьеры для входа",
+          "definition_en": "Obstacles that make it difficult or impossible for new firms to enter a market and compete with existing firms. Barriers can include high capital requirements, patents, economies of scale, government regulations, control of essential resources, or network effects. High barriers to entry are characteristic of monopolies and oligopolies.",
+          "definition_ru": "Препятствия, которые затрудняют или делают невозможным для новых фирм выход на рынок и конкуренцию с существующими фирмами. Барьеры могут включать высокие требования к капиталу, патенты, эффект масштаба, государственное регулирование, контроль над важнейшими ресурсами или сетевые эффекты. Высокие барьеры для входа характерны для монополий и олигополий.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-036",
+          "term_en": "Collusion",
+          "term_ru": "Сговор",
+          "definition_en": "An agreement among firms in an oligopoly to coordinate their pricing and output decisions to maximize joint profits. Collusion reduces competition and can lead to higher prices and lower output than would occur under competitive conditions. It is motivated by potential for increased profits, reduced uncertainty, and creation of barriers to entry.",
+          "definition_ru": "Соглашение между фирмами в олигополии о координации их решений по ценообразованию и выпуску для максимизации совместной прибыли. Сговор снижает конкуренцию и может привести к более высоким ценам и меньшему выпуску, чем при конкурентных условиях. Он мотивирован потенциалом для увеличения прибыли, снижения неопределенности и создания барьеров для входа.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-037",
+          "term_en": "Cartel",
+          "term_ru": "Картель",
+          "definition_en": "A formal organization of firms in an oligopoly that openly and explicitly establishes collusive agreements to coordinate pricing and production decisions. Cartels divide the market among members and act like a monopoly to maximize collective profits. The most famous example is OPEC (Organization of Petroleum Exporting Countries).",
+          "definition_ru": "Формальная организация фирм в олигополии, которая открыто и явно устанавливает соглашения о сговоре для координации решений по ценообразованию и производству. Картели делят рынок между участниками и действуют как монополия для максимизации коллективной прибыли. Самый известный пример — ОПЕК (Организация стран-экспортеров нефти).",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-038",
+          "term_en": "Concentration Ratio",
+          "term_ru": "Коэффициент концентрации",
+          "definition_en": "A measure of market concentration calculated as the sum of market shares of the largest N firms in a market. It is determined by dividing the sales value of the largest firms by total market sales. The ratio ranges from 0 (perfect competition) to 100 (monopoly). Higher values indicate greater market concentration and potential market power.",
+          "definition_ru": "Мера рыночной концентрации, рассчитываемая как сумма рыночных долей крупнейших N фирм на рынке. Она определяется делением объема продаж крупнейших фирм на общий объем продаж на рынке. Коэффициент варьируется от 0 (совершенная конкуренция) до 100 (монополия). Более высокие значения указывают на большую рыночную концентрацию и потенциальную рыночную власть.",
+          "type": "formula",
+          "formula": "$CR_n = \\sum_{i=1}^{n} MS_i$ where $MS_i$ is market share of firm i",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-039",
+          "term_en": "Herfindahl-Hirschman Index (HHI)",
+          "term_ru": "Индекс Херфиндаля-Хиршмана",
+          "definition_en": "A measure of market concentration calculated by summing the squares of the market shares of all firms in the market. HHI ranges from near 0 (perfect competition) to 10,000 (monopoly with 100% market share). Values above 2,500 indicate high concentration. HHI gives more weight to larger firms and is sensitive to mergers among top firms.",
+          "definition_ru": "Мера рыночной концентрации, рассчитываемая путем суммирования квадратов рыночных долей всех фирм на рынке. HHI варьируется от почти 0 (совершенная конкуренция) до 10,000 (монополия со 100% долей рынка). Значения выше 2,500 указывают на высокую концентрацию. HHI придает больший вес крупным фирмам и чувствителен к слияниям среди ведущих фирм.",
+          "type": "formula",
+          "formula": "$HHI = \\sum_{i=1}^{n} (MS_i)^2$ where $MS_i$ is market share percentage",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-040",
+          "term_en": "Nash Equilibrium",
+          "term_ru": "Равновесие Нэша",
+          "definition_en": "A situation in a non-cooperative game where each participant chooses their optimal strategy given the strategies chosen by other participants, and no player can improve their outcome by unilaterally changing their strategy. In oligopoly markets, Nash equilibrium occurs when no firm can increase profits by altering its pricing strategy while competitors maintain their strategies.",
+          "definition_ru": "Ситуация в некооперативной игре, когда каждый участник выбирает свою оптимальную стратегию с учетом стратегий, выбранных другими участниками, и ни один игрок не может улучшить свой результат, односторонне изменив свою стратегию. На рынках олигополии равновесие Нэша возникает, когда ни одна фирма не может увеличить прибыль, изменив свою ценовую стратегию, пока конкуренты сохраняют свои стратегии.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-041",
+          "term_en": "Cournot Assumption",
+          "term_ru": "Предположение Курно",
+          "definition_en": "An assumption in oligopoly theory where each firm determines its optimal production level assuming that the output of other firms will remain constant. Firms aim to maximize profits expecting competitors to maintain current production levels. This approach simplifies pricing strategy analysis and continues until firms reach long-run equilibrium with stable output and prices.",
+          "definition_ru": "Предположение в теории олигополии, когда каждая фирма определяет свой оптимальный уровень производства, предполагая, что выпуск других фирм останется неизменным. Фирмы стремятся максимизировать прибыль, ожидая, что конкуренты сохранят текущие уровни производства. Этот подход упрощает анализ ценовой стратегии и продолжается до тех пор, пока фирмы не достигнут долгосрочного равновесия со стабильным выпуском и ценами.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-042",
+          "term_en": "Kinked Demand Curve",
+          "term_ru": "Ломаная кривая спроса",
+          "definition_en": "A demand curve model in oligopoly markets characterized by a kink at the prevailing price, reflecting different competitor responses to price changes. If a firm raises prices, competitors don't follow (elastic demand above the kink). If a firm lowers prices, competitors match the reduction (inelastic demand below the kink). This creates price rigidity and explains why prices tend to be stable in oligopolies.",
+          "definition_ru": "Модель кривой спроса на рынках олигополии, характеризующаяся изломом в преобладающей цене, отражающая различные реакции конкурентов на изменения цен. Если фирма повышает цены, конкуренты не следуют за ней (эластичный спрос выше излома). Если фирма снижает цены, конкуренты копируют снижение (неэластичный спрос ниже излома). Это создает жесткость цен и объясняет, почему цены, как правило, стабильны в олигополиях.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-043",
+          "term_en": "Price Interdependence",
+          "term_ru": "Ценовая взаимозависимость",
+          "definition_en": "A characteristic of oligopoly markets where firms' pricing decisions are linked and affect each other. Firms must consider how competitors will react to their price changes. It is assumed that competitors will match price decreases to retain customers but will not match price increases, allowing the firm to gain market share. This interdependence leads to strategic pricing behavior.",
+          "definition_ru": "Характеристика рынков олигополии, где ценовые решения фирм связаны и влияют друг на друга. Фирмы должны учитывать, как конкуренты отреагируют на их изменения цен. Предполагается, что конкуренты будут копировать снижение цен для удержания клиентов, но не будут копировать повышение цен, позволяя фирме получить долю рынка. Эта взаимозависимость приводит к стратегическому ценовому поведению.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-1-044",
+          "term_en": "First-Mover Advantage",
+          "term_ru": "Преимущество первого хода",
+          "definition_en": "A competitive advantage gained by a firm that makes the first strategic move in a market, particularly in the Stackelberg model of oligopoly. The leader firm selects its output first, and follower firms choose their output after observing the leader's decision. This sequential decision-making allows the first mover to gain strategic benefits and potentially higher profits than followers.",
+          "definition_ru": "Конкурентное преимущество, получаемое фирмой, которая делает первый стратегический ход на рынке, особенно в модели олигополии Штакельберга. Фирма-лидер выбирает свой выпуск первой, а фирмы-последователи выбирают свой выпуск после наблюдения за решением лидера. Это последовательное принятие решений позволяет первопроходцу получить стратегические преимущества и потенциально более высокую прибыль, чем последователям.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "ECON-1-EX-005",
+          "question_en": "An industry is made up of twenty firms. These firms produce products that easily complement one another, and there are no barriers to entry. This industry can be best characterized as:",
+          "question_ru": "Отрасль состоит из двадцати фирм. Эти фирмы производят продукты, которые легко дополняют друг друга, и нет барьеров для входа. Эту отрасль лучше всего охарактеризовать как:",
+          "options": [
+            {"letter": "A", "text_en": "An oligopoly", "text_ru": "Олигополию"},
+            {"letter": "B", "text_en": "A monopolistic competition", "text_ru": "Монополистическую конкуренцию"},
+            {"letter": "C", "text_en": "Perfect competition", "text_ru": "Совершенную конкуренцию"}
+          ],
+          "correct_answer": "C",
+          "solution_en": "Even though there are only twenty firms in the industry, there are no barriers to entry, and the products can easily complement one another (no branding or quality constraints). Firms voluntarily choose not to enter the market. In an oligopoly, barriers to entry are high. In monopolistic competition, some barriers to entry and exit exist.",
+          "solution_ru": "Несмотря на то, что в отрасли всего двадцать фирм, нет барьеров для входа, и продукты могут легко дополнять друг друга (нет ограничений по брендингу или качеству). Фирмы добровольно решают не выходить на рынок. В олигополии барьеры для входа высоки. В монополистической конкуренции существуют некоторые барьеры для входа и выхода."
+        },
+        {
+          "exercise_id": "ECON-1-EX-006",
+          "question_en": "Which of the following is a factor that influences the chances of successful collusion in an oligopoly?",
+          "question_ru": "Какой из следующих факторов влияет на шансы успешного сговора в олигополии?",
+          "options": [
+            {"letter": "A", "text_en": "Similarity in cost structures", "text_ru": "Сходство в структуре издержек"},
+            {"letter": "B", "text_en": "Presence of many small firms", "text_ru": "Наличие множества мелких фирм"},
+            {"letter": "C", "text_en": "Infrequent, large order sizes", "text_ru": "Редкие крупные заказы"}
+          ],
+          "correct_answer": "A",
+          "solution_en": "Successful collusion is more probable when the participating firms have similar cost structures. Collusion is more likely to succeed in markets with a small number of firms or when one firm dominates the market (not many small firms). Collusion is more likely to be successful when orders are frequent, regular, and of relatively small sizes (not infrequent large orders).",
+          "solution_ru": "Успешный сговор более вероятен, когда участвующие фирмы имеют схожую структуру издержек. Сговор с большей вероятностью будет успешным на рынках с небольшим количеством фирм или когда одна фирма доминирует на рынке (а не множество мелких фирм). Сговор с большей вероятностью будет успешным, когда заказы частые, регулярные и относительно небольшие по размеру (а не редкие крупные заказы)."
+        },
+        {
+          "exercise_id": "ECON-1-EX-007",
+          "question_en": "A firm operating under monopolistic competition maximizes its profits when:",
+          "question_ru": "Фирма, работающая в условиях монополистической конкуренции, максимизирует свою прибыль, когда:",
+          "options": [
+            {"letter": "A", "text_en": "The average cost is minimized", "text_ru": "Средние издержки минимизированы"},
+            {"letter": "B", "text_en": "Marginal revenue equals average cost", "text_ru": "Предельный доход равен средним издержкам"},
+            {"letter": "C", "text_en": "Marginal revenue equals marginal cost", "text_ru": "Предельный доход равен предельным издержкам"}
+          ],
+          "correct_answer": "C",
+          "solution_en": "The firm will maximize its profit when the level of output is such that marginal revenue equals marginal cost (MR = MC). This is the profit maximization rule that applies to all market structures. It is not the point where average cost is minimized, nor where marginal revenue equals average cost.",
+          "solution_ru": "Фирма максимизирует свою прибыль, когда уровень выпуска таков, что предельный доход равен предельным издержкам (MR = MC). Это правило максимизации прибыли, которое применяется ко всем рыночным структурам. Это не точка, где средние издержки минимизированы, и не точка, где предельный доход равен средним издержкам."
+        },
+        {
+          "exercise_id": "ECON-1-EX-008",
+          "question_en": "If a market has 5 suppliers and each of the top two suppliers holds 20 percent of the market share, the concentration ratio for the top 2 suppliers and their respective HHI is closest to:",
+          "question_ru": "Если на рынке 5 поставщиков, и каждый из двух ведущих поставщиков владеет 20 процентами доли рынка, коэффициент концентрации для двух ведущих поставщиков и их соответствующий HHI наиболее близки к:",
+          "options": [
+            {"letter": "A", "text_en": "Concentration ratio = 4%; HHI = 40", "text_ru": "Коэффициент концентрации = 4%; HHI = 40"},
+            {"letter": "B", "text_en": "Concentration ratio = 40%; HHI = 0.08", "text_ru": "Коэффициент концентрации = 40%; HHI = 0.08"},
+            {"letter": "C", "text_en": "Concentration ratio = 40%; HHI = 800", "text_ru": "Коэффициент концентрации = 40%; HHI = 800"}
+          ],
+          "correct_answer": "C",
+          "solution_en": "The concentration ratio is the sum of the two suppliers' market share: 20% + 20% = 40%. For the HHI, we square each market share and sum: (20)² + (20)² = 400 + 400 = 800. Note that HHI is typically expressed as a number from 0 to 10,000 when using percentages.",
+          "solution_ru": "Коэффициент концентрации — это сумма рыночных долей двух поставщиков: 20% + 20% = 40%. Для HHI мы возводим в квадрат каждую рыночную долю и суммируем: (20)² + (20)² = 400 + 400 = 800. Обратите внимание, что HHI обычно выражается как число от 0 до 10,000 при использовании процентов."
+        }
+      ]
+    }
+  ]
+}
