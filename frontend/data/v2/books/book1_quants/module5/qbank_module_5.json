@@ -7,7 +7,7 @@
     "module_id": 5,
     "module_name": "Common Probability Distributions",
     "module_name_ru": "Общие распределения вероятностей",
-    "total_questions": 15,
+    "total_questions": 16,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -1040,6 +1040,49 @@
       },
       "difficulty": "medium",
       "topic_tags": ["variance", "correlation", "covariance"]
+    },
+    {
+      "question_id": "QM-5-Q016",
+      "original_question_number": 4022,
+      "los_id": "LOS_5b",
+      "question_text_en": "Consider the following two stocks from different portfolios:",
+      "question_text_ru": "Рассмотрим следующие две акции из разных портфелей:",
+      "has_table": true,
+      "table_data": {
+        "headers": ["", "Stock A", "Stock B"],
+        "headers_ru": ["", "Акция A", "Акция B"],
+        "rows": [
+          ["Expected Return", "6%", "10%"],
+          ["Standard Deviation", "7%", "14%"],
+          ["Current Portfolio weights", "0.3", "0.7"]
+        ]
+      },
+      "question_continuation_en": "Given the correlation between the two stocks returns is 0.40, the covariance between the returns of Stock A and B is closest to:",
+      "question_continuation_ru": "Учитывая, что корреляция между доходностями двух акций составляет 0.40, ковариация между доходностями акций A и B ближе всего к:",
+      "options": [
+        {"id": "opt_a", "text_en": "0.0024", "text_ru": "0.0024"},
+        {"id": "opt_b", "text_en": "0.0039", "text_ru": "0.0039"},
+        {"id": "opt_c", "text_en": "0.0088", "text_ru": "0.0088"}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Correlation between two stocks is determined as follows: ρ(RA,RB) = Cov(RA,RB) / (σRA × σRB). Hence, to calculate the covariance, the calculation becomes: Cov(RA,RB) = ρ(RA,RB) × σRA × σRB = 0.07 × 0.14 × 0.4 = 0.0039",
+      "explanation_ru": "Корреляция между двумя акциями определяется следующим образом: ρ(RA,RB) = Cov(RA,RB) / (σRA × σRB). Следовательно, для вычисления ковариации расчёт выглядит так: Cov(RA,RB) = ρ(RA,RB) × σRA × σRB = 0.07 × 0.14 × 0.4 = 0.0039",
+      "explanation_formula": "$\\text{Cov}(R_A,R_B) = \\rho(R_A,R_B) \\times \\sigma_{R_A} \\times \\sigma_{R_B} = 0.07 \\times 0.14 \\times 0.4 = 0.0039$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This might result from incorrectly using only two of the three values in the calculation.",
+          "text_ru": "Неверно. Это может быть результатом неправильного использования только двух из трёх значений в расчёте."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This might result from using incorrect values or miscalculating the product.",
+          "text_ru": "Неверно. Это может быть результатом использования неправильных значений или ошибки в вычислении произведения."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["covariance", "correlation"]
     }
   ]
 }
