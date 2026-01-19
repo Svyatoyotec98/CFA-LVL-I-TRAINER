@@ -1,0 +1,541 @@
+{
+  "metadata": {
+    "book_id": 1,
+    "book_code": "QM",
+    "book_name": "Quantitative Methods",
+    "book_name_ru": "Количественные методы",
+    "module_id": 9,
+    "module_name": "Parametric and Non Parametric Tests of Independence",
+    "module_name_ru": "Параметрические и непараметрические тесты независимости",
+    "page_range": "217-229",
+    "total_terms": 18,
+    "total_exercises": 2,
+    "version": "2.0",
+    "last_updated": "2026-01-19"
+  },
+  "los": [
+    {
+      "los_id": "LOS_9a",
+      "los_code": "9a",
+      "los_description_en": "explain parametric and non-parametric tests of the hypothesis that the population correlation coefficient equals zero and determine whether the hypothesis is rejected at a given level of significance",
+      "los_description_ru": "объяснить параметрические и непараметрические тесты гипотезы о том, что коэффициент корреляции генеральной совокупности равен нулю, и определить, отклоняется ли гипотеза на заданном уровне значимости",
+      "terms": [
+        {
+          "term_id": "QM-9-001",
+          "term_en": "Parametric Test",
+          "term_ru": "Параметрический тест",
+          "definition_en": "A hypothesis test concerning a population parameter used when the data has specific distribution assumptions, typically requiring normal distribution of the underlying data.",
+          "definition_ru": "Тест гипотезы, касающийся параметра генеральной совокупности, используемый когда данные имеют специфические предположения о распределении, обычно требующий нормального распределения данных.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-9-002",
+          "term_en": "Non-parametric Test",
+          "term_ru": "Непараметрический тест",
+          "definition_en": "A hypothesis test used when distributional assumptions are not met, when there are outliers, when data is given in the form of ranks, or when the test objective does not concern a parameter.",
+          "definition_ru": "Тест гипотезы, используемый когда предположения о распределении не выполняются, есть выбросы, данные представлены в виде рангов, или цель теста не касается параметра.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-9-003",
+          "term_en": "Population Correlation Coefficient (ρ)",
+          "term_ru": "Коэффициент корреляции генеральной совокупности (ρ)",
+          "definition_en": "A parameter that measures the linear relationship between two variables in the entire population, with values ranging from -1 (perfect negative correlation) to +1 (perfect positive correlation), with 0 indicating no linear relationship.",
+          "definition_ru": "Параметр, измеряющий линейную связь между двумя переменными во всей генеральной совокупности, со значениями от -1 (совершенная отрицательная корреляция) до +1 (совершенная положительная корреляция), где 0 означает отсутствие линейной связи.",
+          "type": "concept",
+          "formula": "$\\rho(X,Y) = \\frac{Cov(X,Y)}{\\sigma(X)\\sigma(Y)}$",
+          "formula_ref": "QM-PROB-009",
+          "variables": [
+            {
+              "symbol": "\\rho(X,Y)",
+              "name_en": "rho of X,Y",
+              "name_ru": "ро для X и Y"
+            },
+            {
+              "symbol": "Cov(X,Y)",
+              "name_en": "Covariance of X and Y",
+              "name_ru": "Ковариация X и Y"
+            },
+            {
+              "symbol": "\\sigma(X)",
+              "name_en": "Standard deviation of X",
+              "name_ru": "Стандартное отклонение X"
+            },
+            {
+              "symbol": "\\sigma(Y)",
+              "name_en": "Standard deviation of Y",
+              "name_ru": "Стандартное отклонение Y"
+            }
+          ],
+          "calculator": null
+        },
+        {
+          "term_id": "QM-9-004",
+          "term_en": "Sample Correlation Coefficient (r)",
+          "term_ru": "Выборочный коэффициент корреляции (r)",
+          "definition_en": "A sample statistic that estimates the population correlation coefficient, calculated from the sample covariance and standard deviations.",
+          "definition_ru": "Выборочная статистика, оценивающая коэффициент корреляции генеральной совокупности, рассчитываемая на основе выборочной ковариации и стандартных отклонений.",
+          "type": "formula",
+          "formula": "$r_{XY} = \\frac{s_{XY}}{s_X s_Y}$",
+          "formula_ref": "QM-STAT-014",
+          "variables": [
+            {
+              "symbol": "r_{XY}",
+              "name_en": "r sub XY",
+              "name_ru": "r для XY"
+            },
+            {
+              "symbol": "s_{XY}",
+              "name_en": "Sample covariance",
+              "name_ru": "Выборочная ковариация"
+            },
+            {
+              "symbol": "s_X",
+              "name_en": "Sample standard deviation of X",
+              "name_ru": "Выборочное стандартное отклонение X"
+            },
+            {
+              "symbol": "s_Y",
+              "name_en": "Sample standard deviation of Y",
+              "name_ru": "Выборочное стандартное отклонение Y"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: STAT Worksheet",
+            "steps_ru": [
+              "1. [2nd] [DATA] — войти в режим ввода данных",
+              "2. Ввести пары данных X и Y",
+              "3. [2nd] [STAT] — открыть меню статистики",
+              "4. Прокрутить до r (коэффициент корреляции)",
+              "5. Результат: коэффициент корреляции"
+            ],
+            "example": {
+              "given": "Two data sets X and Y with n pairs",
+              "result": "r = correlation coefficient (-1 to +1)"
+            }
+          }
+        },
+        {
+          "term_id": "QM-9-005",
+          "term_en": "Pearson Correlation Coefficient",
+          "term_ru": "Коэффициент корреляции Пирсона",
+          "definition_en": "The parametric pairwise correlation coefficient used to test the correlation between two normally distributed variables, measuring the strength and direction of a linear relationship.",
+          "definition_ru": "Параметрический парный коэффициент корреляции, используемый для проверки корреляции между двумя нормально распределенными переменными, измеряющий силу и направление линейной связи.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": "QM-STAT-014",
+          "calculator": null
+        },
+        {
+          "term_id": "QM-9-006",
+          "term_en": "t-Test for Correlation",
+          "term_ru": "t-тест для корреляции",
+          "definition_en": "A statistical test used to determine if the sample correlation is significantly different from zero, applicable when two variables are normally distributed. The test statistic follows a t-distribution with n-2 degrees of freedom.",
+          "definition_ru": "Статистический тест для определения, значимо ли выборочная корреляция отличается от нуля, применимый когда две переменные нормально распределены. Тестовая статистика следует t-распределению с n-2 степенями свободы.",
+          "type": "formula",
+          "formula": "$t = \\frac{r\\sqrt{n-2}}{\\sqrt{1-r^2}}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "t",
+              "name_en": "t-statistic",
+              "name_ru": "t-статистика"
+            },
+            {
+              "symbol": "r",
+              "name_en": "Sample correlation coefficient",
+              "name_ru": "Выборочный коэффициент корреляции"
+            },
+            {
+              "symbol": "n",
+              "name_en": "Sample size",
+              "name_ru": "Размер выборки"
+            },
+            {
+              "symbol": "n-2",
+              "name_en": "Degrees of freedom",
+              "name_ru": "Степени свободы"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Вычислить числитель: {r} × √({n}-2) [=] [STO] [1]",
+              "2. Вычислить знаменатель: {r} [x²] [=] [+/-] [+] [1] [=] [√] [STO] [2]",
+              "3. Разделить: [RCL] [1] [÷] [RCL] [2] [=]",
+              "4. Результат: t-статистика"
+            ],
+            "example": {
+              "given": "r=0.5789, n=48",
+              "input": "0.5789×√46=STO1, √(1-0.5789²)=STO2, RCL1÷RCL2=",
+              "result": "t = 4.815"
+            }
+          }
+        },
+        {
+          "term_id": "QM-9-007",
+          "term_en": "Spearman Rank Correlation Coefficient (rs)",
+          "term_ru": "Коэффициент ранговой корреляции Спирмена (rs)",
+          "definition_en": "A non-parametric measure of rank correlation that assesses how well the relationship between two variables can be described using a monotonic function. It is calculated based on the ranks of variables in the samples rather than their actual values.",
+          "definition_ru": "Непараметрическая мера ранговой корреляции, оценивающая, насколько хорошо связь между двумя переменными может быть описана монотонной функцией. Рассчитывается на основе рангов переменных в выборках, а не их фактических значений.",
+          "type": "formula",
+          "formula": "$r_s = 1 - \\frac{6\\sum_{i=1}^{n} d_i^2}{n(n^2-1)}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "r_s",
+              "name_en": "Spearman rank correlation",
+              "name_ru": "Ранговая корреляция Спирмена"
+            },
+            {
+              "symbol": "d_i",
+              "name_en": "Difference between ranks",
+              "name_ru": "Разность между рангами"
+            },
+            {
+              "symbol": "n",
+              "name_en": "Sample size",
+              "name_ru": "Размер выборки"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Multi-step Calculation",
+            "steps_ru": [
+              "1. Присвоить ранги наблюдениям каждой переменной (от наибольшего к наименьшему)",
+              "2. Для связанных значений: взять среднее рангов",
+              "3. Найти разность рангов для каждой пары (d_i)",
+              "4. Возвести в квадрат каждую разность (d_i²)",
+              "5. Суммировать все квадраты разностей (Σd_i²)",
+              "6. Вычислить: 6 × Σd_i² [=] [STO] [1]",
+              "7. Вычислить: {n} × ({n}² - 1) [=] [STO] [2]",
+              "8. Вычислить: [RCL] [1] [÷] [RCL] [2] [=] [+/-] [+] [1] [=]",
+              "9. Результат: r_s"
+            ],
+            "example": {
+              "given": "n=5, Σd²=26",
+              "input": "6×26=156, 5×24=120, 156÷120=1.3, 1-1.3=-0.3",
+              "result": "rs = -0.3"
+            }
+          }
+        },
+        {
+          "term_id": "QM-9-008",
+          "term_en": "Rank",
+          "term_ru": "Ранг",
+          "definition_en": "The position of a data value when observations are ordered, typically from highest to lowest or vice versa. When values are tied, their ranks are calculated by taking the average of the ranks they would have occupied.",
+          "definition_ru": "Позиция значения данных при упорядочении наблюдений, обычно от наибольшего к наименьшему или наоборот. Когда значения связаны, их ранги рассчитываются путем взятия среднего рангов, которые они бы занимали.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-9-009",
+          "term_en": "Hypothesis Test for Spearman Rank Correlation",
+          "term_ru": "Тест гипотезы для ранговой корреляции Спирмена",
+          "definition_en": "For large samples (n>30), a t-test can be performed on the Spearman rank correlation using the same test statistic as for Pearson correlation. For small samples (n≤30), a specialized table of critical values is required.",
+          "definition_ru": "Для больших выборок (n>30) можно провести t-тест ранговой корреляции Спирмена, используя ту же тестовую статистику, что и для корреляции Пирсона. Для малых выборок (n≤30) требуется специализированная таблица критических значений.",
+          "type": "method",
+          "formula": "$t = \\frac{r_s\\sqrt{n-2}}{\\sqrt{1-r_s^2}}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "t",
+              "name_en": "t-statistic",
+              "name_ru": "t-статистика"
+            },
+            {
+              "symbol": "r_s",
+              "name_en": "Spearman rank correlation",
+              "name_ru": "Ранговая корреляция Спирмена"
+            },
+            {
+              "symbol": "n",
+              "name_en": "Sample size",
+              "name_ru": "Размер выборки"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Проверить размер выборки: если n>30, можно использовать t-тест",
+              "2. Вычислить числитель: {rs} × √({n}-2) [=] [STO] [1]",
+              "3. Вычислить знаменатель: √(1 - {rs}²) [=] [STO] [2]",
+              "4. Разделить: [RCL] [1] [÷] [RCL] [2] [=]",
+              "5. Сравнить с критическим значением при уровне значимости α"
+            ],
+            "example": {
+              "given": "rs=-0.3, n=5 (small sample)",
+              "result": "Use specialized critical value table for n≤30"
+            }
+          }
+        },
+        {
+          "term_id": "QM-9-010",
+          "term_en": "Degrees of Freedom (df) for Correlation Test",
+          "term_ru": "Степени свободы (df) для теста корреляции",
+          "definition_en": "The number of independent observations available for estimating parameters in the correlation test, calculated as n-2 where n is the sample size. As sample size increases, degrees of freedom increase, which increases the power of the test.",
+          "definition_ru": "Количество независимых наблюдений, доступных для оценки параметров в тесте корреляции, рассчитываемое как n-2, где n - размер выборки. С увеличением размера выборки степени свободы увеличиваются, что повышает мощность теста.",
+          "type": "concept",
+          "formula": "$df = n - 2$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "df",
+              "name_en": "Degrees of freedom",
+              "name_ru": "Степени свободы"
+            },
+            {
+              "symbol": "n",
+              "name_en": "Sample size",
+              "name_ru": "Размер выборки"
+            }
+          ],
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "QM-9-EX-001",
+          "question_en": "Assume an investment analyst, John Smith, is studying the relationship between two stocks, X and Y. Based on 100 observations, he has found that SXY = 10, SX = 2, and SY = 8. Smith needs to find the sample correlation and use it to perform a t-test to determine if there is a significant correlation between the returns of stocks X and Y. The critical value for the test statistic at the 0.05 level of significance is approximately 1.96. He should conclude that the statistical relationship between X and Y is:",
+          "question_ru": "Предположим, инвестиционный аналитик Джон Смит изучает взаимосвязь между двумя акциями X и Y. На основе 100 наблюдений он обнаружил, что SXY = 10, SX = 2 и SY = 8. Смиту необходимо найти выборочную корреляцию и использовать её для проведения t-теста, чтобы определить, существует ли значимая корреляция между доходностью акций X и Y. Критическое значение тестовой статистики при уровне значимости 0.05 составляет примерно 1.96. Он должен сделать вывод, что статистическая связь между X и Y:",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Significant because the test statistic falls outside the range of the critical values",
+              "text_ru": "Значима, потому что тестовая статистика выходит за пределы диапазона критических значений"
+            },
+            {
+              "letter": "B",
+              "text_en": "Significant, because the absolute value of the test statistic is less than the critical value",
+              "text_ru": "Значима, потому что абсолютное значение тестовой статистики меньше критического значения"
+            },
+            {
+              "letter": "C",
+              "text_en": "Insignificant because the test statistic falls outside the range of the critical values",
+              "text_ru": "Незначима, потому что тестовая статистика выходит за пределы диапазона критических значений"
+            }
+          ],
+          "correct_answer": "A",
+          "solution_en": "First, calculate the sample correlation: rXY = SXY/(SX × SY) = 10/(2 × 8) = 0.625. Then calculate the t-statistic: t = r√(n-2)/√(1-r²) = 0.625√98/√(1-0.625²) = 6.1872/0.7806 ≈ 7.9262. Since the calculated test statistic (7.9262) is greater than the upper bound of the critical values (1.96), we reject the null hypothesis. This indicates sufficient evidence to suggest that the correlation between X and Y is significantly different from zero.",
+          "solution_ru": "Сначала вычислим выборочную корреляцию: rXY = SXY/(SX × SY) = 10/(2 × 8) = 0.625. Затем рассчитаем t-статистику: t = r√(n-2)/√(1-r²) = 0.625√98/√(1-0.625²) = 6.1872/0.7806 ≈ 7.9262. Поскольку рассчитанная тестовая статистика (7.9262) больше верхней границы критических значений (1.96), мы отклоняем нулевую гипотезу. Это указывает на достаточные доказательства того, что корреляция между X и Y значимо отличается от нуля."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_9b",
+      "los_code": "9b",
+      "los_description_en": "Explain tests of independence based on contingency table data",
+      "los_description_ru": "Объяснить тесты независимости на основе данных таблицы сопряженности",
+      "terms": [
+        {
+          "term_id": "QM-9-011",
+          "term_en": "Categorical Variable",
+          "term_ru": "Категориальная переменная",
+          "definition_en": "A variable that can take on one of a limited number of categories or groups, where correlation is not suitable for assessing relationships. Examples include employment status, investment objectives, or gender.",
+          "definition_ru": "Переменная, которая может принимать одну из ограниченного числа категорий или групп, где корреляция не подходит для оценки взаимосвязей. Примеры включают статус занятости, инвестиционные цели или пол.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-9-012",
+          "term_en": "Contingency Table",
+          "term_ru": "Таблица сопряженности",
+          "definition_en": "A table used to structure data when examining the connection between two categorical variables, showing the frequency distribution of variables in rows and columns. Used as the basis for chi-square tests of independence.",
+          "definition_ru": "Таблица, используемая для структурирования данных при изучении связи между двумя категориальными переменными, показывающая частотное распределение переменных в строках и столбцах. Используется как основа для хи-квадрат тестов независимости.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-9-013",
+          "term_en": "Chi-Square Test of Independence",
+          "term_ru": "Хи-квадрат тест независимости",
+          "definition_en": "A non-parametric hypothesis test that employs a chi-square distributed test statistic to assess whether a noteworthy relationship exists between two categorical variables. Tests the null hypothesis that the variables are independent.",
+          "definition_ru": "Непараметрический тест гипотезы, использующий хи-квадрат распределенную тестовую статистику для оценки наличия значимой связи между двумя категориальными переменными. Проверяет нулевую гипотезу о независимости переменных.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-9-014",
+          "term_en": "Chi-Square Test Statistic",
+          "term_ru": "Статистика хи-квадрат теста",
+          "definition_en": "The test statistic for the chi-square test of independence, calculated by summing the squared differences between observed and expected frequencies, divided by expected frequencies across all cells of the contingency table.",
+          "definition_ru": "Тестовая статистика для хи-квадрат теста независимости, рассчитываемая путем суммирования квадратов разностей между наблюдаемыми и ожидаемыми частотами, деленных на ожидаемые частоты по всем ячейкам таблицы сопряженности.",
+          "type": "formula",
+          "formula": "$\\chi^2 = \\sum_{i=1}^{m} \\frac{(O_{ij} - E_{ij})^2}{E_{ij}}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "\\chi^2",
+              "name_en": "Chi-square statistic",
+              "name_ru": "Хи-квадрат статистика"
+            },
+            {
+              "symbol": "m",
+              "name_en": "Number of cells",
+              "name_ru": "Количество ячеек"
+            },
+            {
+              "symbol": "O_{ij}",
+              "name_en": "Observed frequency",
+              "name_ru": "Наблюдаемая частота"
+            },
+            {
+              "symbol": "E_{ij}",
+              "name_en": "Expected frequency",
+              "name_ru": "Ожидаемая частота"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Multi-step Calculation",
+            "steps_ru": [
+              "1. Вычислить ожидаемую частоту для каждой ячейки",
+              "2. Для каждой ячейки: (O - E) [=] [x²] [÷] {E} [=] [STO+] [1]",
+              "3. Повторить для всех ячеек, суммируя в памяти [1]",
+              "4. [RCL] [1] — получить χ²",
+              "5. Сравнить с критическим значением из таблицы χ²"
+            ],
+            "example": {
+              "given": "2×3 table with observed frequencies",
+              "result": "χ² = sum of all (O-E)²/E calculations"
+            }
+          }
+        },
+        {
+          "term_id": "QM-9-015",
+          "term_en": "Observed Frequency (Oij)",
+          "term_ru": "Наблюдаемая частота (Oij)",
+          "definition_en": "The actual number of observations that fall into each cell of the contingency table at the intersection of row i and column j, based on the collected data.",
+          "definition_ru": "Фактическое количество наблюдений, попадающих в каждую ячейку таблицы сопряженности на пересечении строки i и столбца j, на основе собранных данных.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-9-016",
+          "term_en": "Expected Frequency (Eij)",
+          "term_ru": "Ожидаемая частота (Eij)",
+          "definition_en": "The number of observations expected in each cell of the contingency table assuming the null hypothesis of independence is true, calculated as the product of row and column totals divided by the overall total.",
+          "definition_ru": "Количество наблюдений, ожидаемое в каждой ячейке таблицы сопряженности при условии истинности нулевой гипотезы о независимости, рассчитываемое как произведение итогов строки и столбца, деленное на общий итог.",
+          "type": "formula",
+          "formula": "$E_{ij} = \\frac{(\\text{Total row i}) \\times (\\text{Total column j})}{\\text{Overall Total}}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "E_{ij}",
+              "name_en": "Expected frequency for cell (i,j)",
+              "name_ru": "Ожидаемая частота для ячейки (i,j)"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Найти итог строки i",
+              "2. Найти итог столбца j",
+              "3. Вычислить: (Итог строки i) × (Итог столбца j) [=]",
+              "4. Разделить на общий итог: [÷] {Общий итог} [=]",
+              "5. Результат: E_ij"
+            ],
+            "example": {
+              "given": "Row total=87, Column total=84, Overall=173",
+              "input": "87×84÷173=",
+              "result": "E_ij = 42.24"
+            }
+          }
+        },
+        {
+          "term_id": "QM-9-017",
+          "term_en": "Degrees of Freedom for Contingency Table",
+          "term_ru": "Степени свободы для таблицы сопряженности",
+          "definition_en": "The number of values that are free to vary when computing the chi-square statistic, calculated as (r-1)(c-1) where r is the number of rows and c is the number of columns in the contingency table.",
+          "definition_ru": "Количество значений, которые могут изменяться свободно при вычислении хи-квадрат статистики, рассчитываемое как (r-1)(c-1), где r - количество строк, а c - количество столбцов в таблице сопряженности.",
+          "type": "formula",
+          "formula": "$df = (r - 1)(c - 1)$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "df",
+              "name_en": "Degrees of freedom",
+              "name_ru": "Степени свободы"
+            },
+            {
+              "symbol": "r",
+              "name_en": "Number of rows",
+              "name_ru": "Количество строк"
+            },
+            {
+              "symbol": "c",
+              "name_en": "Number of columns",
+              "name_ru": "Количество столбцов"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Подсчитать количество строк (r)",
+              "2. Подсчитать количество столбцов (c)",
+              "3. Вычислить: ({r} - 1) × ({c} - 1) [=]",
+              "4. Результат: степени свободы"
+            ],
+            "example": {
+              "given": "2 rows × 3 columns",
+              "input": "(2-1)×(3-1)=",
+              "result": "df = 2"
+            }
+          }
+        },
+        {
+          "term_id": "QM-9-018",
+          "term_en": "Test of Independence",
+          "term_ru": "Тест независимости",
+          "definition_en": "A statistical procedure to determine whether there is a significant relationship between two categorical variables. If the calculated chi-square statistic exceeds the critical value, we reject the null hypothesis of independence.",
+          "definition_ru": "Статистическая процедура для определения наличия значимой связи между двумя категориальными переменными. Если рассчитанная хи-квадрат статистика превышает критическое значение, мы отклоняем нулевую гипотезу о независимости.",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "QM-9-EX-002",
+          "question_en": "Regarding the chi-square test of independence, which statement is accurate? The chi-square test of independence is:",
+          "question_ru": "Относительно хи-квадрат теста независимости, какое утверждение является точным? Хи-квадрат тест независимости:",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "A parametric hypothesis test",
+              "text_ru": "Параметрический тест гипотезы"
+            },
+            {
+              "letter": "B",
+              "text_en": "Used to test whether two categorical variables are related to each other",
+              "text_ru": "Используется для проверки связи двух категориальных переменных между собой"
+            },
+            {
+              "letter": "C",
+              "text_en": "Used to test whether two continuous variables are related to each other",
+              "text_ru": "Используется для проверки связи двух непрерывных переменных между собой"
+            }
+          ],
+          "correct_answer": "B",
+          "solution_en": "The chi-square test of independence is a non-parametric hypothesis test that can be used to test whether two categorical variables are related. Option A is incorrect because the chi-square test of independence is non-parametric, not parametric. Option C is incorrect because the chi-square test of independence is used for categorical variables, not continuous variables.",
+          "solution_ru": "Хи-квадрат тест независимости - это непараметрический тест гипотезы, который может быть использован для проверки связи двух категориальных переменных. Вариант A неверен, потому что хи-квадрат тест независимости является непараметрическим, а не параметрическим. Вариант C неверен, потому что хи-квадрат тест независимости используется для категориальных переменных, а не для непрерывных."
+        }
+      ]
+    }
+  ]
+}
