@@ -1,0 +1,627 @@
+{
+  "metadata": {
+    "book_id": 1,
+    "book_code": "QM",
+    "book_name": "Quantitative Methods",
+    "book_name_ru": "Количественные методы",
+    "module_id": 7,
+    "module_name": "Hypothesis Testing",
+    "module_name_ru": "Проверка гипотез",
+    "page_range": "162-177",
+    "total_terms": 23,
+    "total_exercises": 5,
+    "version": "2.0",
+    "last_updated": "2026-01-19"
+  },
+  "los": [
+    {
+      "los_id": "LOS_7a",
+      "los_code": "7a",
+      "los_description_en": "compare and contrast simple random, stratified random, cluster, convenience, and judgmental sampling and their implications for sampling error in an investment problem",
+      "los_description_ru": "сравнивать и противопоставлять простую случайную, стратифицированную случайную, кластерную, удобную и экспертную выборки и их влияние на ошибку выборки в инвестиционной задаче",
+      "terms": [
+        {
+          "term_id": "QM-7-001",
+          "term_en": "Sampling",
+          "term_ru": "Выборка",
+          "definition_en": "The systematic process of selecting a subset or sample from a larger population. Sampling is essential because it is costly and time-consuming to analyze the whole population. It allows researchers to make inferences about population parameters based on sample statistics.",
+          "definition_ru": "Систематический процесс выбора подмножества или выборки из более крупной популяции. Выборка необходима, потому что анализ всей популяции затратен и занимает много времени. Она позволяет исследователям делать выводы о параметрах популяции на основе выборочных статистик.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-7-002",
+          "term_en": "Probability Sampling",
+          "term_ru": "Вероятностная выборка",
+          "definition_en": "A sampling method where every population member has an equal chance of being chosen for the sample, ensuring a representative sample. This approach minimizes selection bias and allows for statistical inference about the population.",
+          "definition_ru": "Метод выборки, при котором каждый член популяции имеет равный шанс быть выбранным в выборку, обеспечивая репрезентативную выборку. Этот подход минимизирует смещение выбора и позволяет делать статистические выводы о популяции.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-7-003",
+          "term_en": "Non-Probability Sampling",
+          "term_ru": "Невероятностная выборка",
+          "definition_en": "A sampling method that depends on factors such as the sampler's judgment or data accessibility, increasing the risk of an unrepresentative sample. This approach may introduce bias and limit the ability to generalize findings to the entire population.",
+          "definition_ru": "Метод выборки, который зависит от таких факторов, как суждение исследователя или доступность данных, увеличивая риск нерепрезентативной выборки. Этот подход может вносить смещение и ограничивать возможность обобщения результатов на всю популяцию.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-7-004",
+          "term_en": "Simple Random Sampling",
+          "term_ru": "Простая случайная выборка",
+          "definition_en": "A sampling method where each element of the population has an equal chance of being chosen. This method aims to create an unbiased sample that accurately represents the population. It is most appropriate when applied to a homogeneous population.",
+          "definition_ru": "Метод выборки, при котором каждый элемент популяции имеет равный шанс быть выбранным. Этот метод направлен на создание несмещенной выборки, которая точно представляет популяцию. Он наиболее подходит для однородной популяции.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-7-005",
+          "term_en": "Stratified Random Sampling",
+          "term_ru": "Стратифицированная случайная выборка",
+          "definition_en": "A sampling method where analysts subdivide the population into separate groups known as strata. Each stratum comprises elements with a common characteristic that distinguishes them from all others. A simple random sample is then drawn from within each stratum and combined to form the final sample. The number of members chosen from any stratum depends on its size relative to the population as a whole. Most appropriate for large heterogeneous populations.",
+          "definition_ru": "Метод выборки, при котором аналитики подразделяют популяцию на отдельные группы, известные как страты. Каждая страта включает элементы с общей характеристикой, которая отличает их от всех остальных. Затем из каждой страты извлекается простая случайная выборка и объединяется для формирования окончательной выборки. Количество членов, выбранных из любой страты, зависит от ее размера относительно популяции в целом. Наиболее подходит для больших гетерогенных популяций.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-7-006",
+          "term_en": "Stratum (Strata)",
+          "term_ru": "Страта (Страты)",
+          "definition_en": "A subgroup within a population that shares a common characteristic or attribute. In stratified sampling, the population is divided into mutually exclusive strata, and samples are drawn from each stratum. The singular form is stratum, and the plural is strata.",
+          "definition_ru": "Подгруппа внутри популяции, которая имеет общую характеристику или атрибут. При стратифицированной выборке популяция делится на взаимоисключающие страты, и из каждой страты извлекаются выборки. Единственное число - страта, множественное - страты.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-7-007",
+          "term_en": "Stratified Sample Size Formula",
+          "term_ru": "Формула размера стратифицированной выборки",
+          "definition_en": "The formula used to determine the number of elements to be sampled from each stratum in stratified random sampling, proportional to the stratum's size relative to the total population.",
+          "definition_ru": "Формула, используемая для определения количества элементов, которые должны быть отобраны из каждой страты при стратифицированной случайной выборке, пропорционально размеру страты относительно общей популяции.",
+          "type": "formula",
+          "formula": "$n_{stratum} = \\frac{N_{stratum}}{N_{total}} \\times n_{sample}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "n_{stratum}",
+              "name_en": "Number of elements to sample from the stratum",
+              "name_ru": "Количество элементов для выборки из страты"
+            },
+            {
+              "symbol": "N_{stratum}",
+              "name_en": "Total number of elements in the stratum",
+              "name_ru": "Общее количество элементов в страте"
+            },
+            {
+              "symbol": "N_{total}",
+              "name_en": "Total population size",
+              "name_ru": "Общий размер популяции"
+            },
+            {
+              "symbol": "n_{sample}",
+              "name_en": "Required sample size",
+              "name_ru": "Требуемый размер выборки"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Введите количество элементов в страте: N_stratum",
+              "2. Разделите на общее количество: [÷] N_total [=]",
+              "3. Умножьте на требуемый размер выборки: [×] n_sample [=]",
+              "4. Результат: количество элементов из данной страты"
+            ],
+            "example": {
+              "given": "Stratum A: 160 households, Total: 300, Sample: 50",
+              "input": "160 ÷ 300 × 50 =",
+              "result": "n = 27 households from stratum A"
+            }
+          }
+        },
+        {
+          "term_id": "QM-7-008",
+          "term_en": "Cluster Sampling",
+          "term_ru": "Кластерная выборка",
+          "definition_en": "A sampling method involving categorizing all population elements into distinct and all-encompassing groups called clusters. Then, either a random sample of entire clusters is chosen, or a random subset from each cluster is selected. A cluster serves as a single sampling unit.",
+          "definition_ru": "Метод выборки, включающий категоризацию всех элементов популяции в отдельные и всеобъемлющие группы, называемые кластерами. Затем либо выбирается случайная выборка целых кластеров, либо выбирается случайное подмножество из каждого кластера. Кластер служит единой единицей выборки.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-7-009",
+          "term_en": "One-Stage Cluster Sampling",
+          "term_ru": "Одноэтапная кластерная выборка",
+          "definition_en": "A cluster sampling approach where all members in each sampled cluster are included in the sample. After selecting clusters randomly, every element within the chosen clusters is sampled.",
+          "definition_ru": "Подход кластерной выборки, при котором все члены каждого отобранного кластера включаются в выборку. После случайного выбора кластеров каждый элемент внутри выбранных кластеров включается в выборку.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-7-010",
+          "term_en": "Two-Stage Cluster Sampling",
+          "term_ru": "Двухэтапная кластерная выборка",
+          "definition_en": "A cluster sampling approach where a simple random sub-sample of members is selected from each cluster. First, clusters are randomly selected, then a random sample of elements is drawn from within each selected cluster.",
+          "definition_ru": "Подход кластерной выборки, при котором из каждого кластера выбирается простая случайная подвыборка членов. Сначала случайным образом выбираются кластеры, затем из каждого выбранного кластера извлекается случайная выборка элементов.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-7-011",
+          "term_en": "Convenience Sampling",
+          "term_ru": "Удобная выборка",
+          "definition_en": "A non-probability sampling method where researchers choose population elements based on ease of access. This method may not provide a fully representative sample, limiting sampling accuracy and potentially introducing bias.",
+          "definition_ru": "Метод невероятностной выборки, при котором исследователи выбирают элементы популяции на основе легкости доступа. Этот метод может не обеспечить полностью репрезентативную выборку, ограничивая точность выборки и потенциально вводя смещение.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-7-012",
+          "term_en": "Judgmental Sampling",
+          "term_ru": "Экспертная выборка",
+          "definition_en": "A non-probability sampling method where researchers select elements subjectively, often based on their own knowledge and expertise. This approach can introduce bias and result in a non-representative sample. It is preferred when a restricted number of people in a population possess qualities that the researcher expects.",
+          "definition_ru": "Метод невероятностной выборки, при котором исследователи выбирают элементы субъективно, часто на основе собственных знаний и опыта. Этот подход может вносить смещение и приводить к нерепрезентативной выборке. Предпочтителен, когда ограниченное количество людей в популяции обладает качествами, которые ожидает исследователь.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-7-013",
+          "term_en": "Sampling Error",
+          "term_ru": "Ошибка выборки",
+          "definition_en": "The difference between the observed value (results obtained from analyzing a sample of investment data) and the true values that would have been obtained from analyzing the entire population. Sampling error emerges due to natural variation in sampling and because we work with data from only a part of the full population. Any conclusions or predictions drawn based on sample data may deviate from the actual performance or characteristics of the entire population.",
+          "definition_ru": "Разница между наблюдаемым значением (результаты, полученные при анализе выборки инвестиционных данных) и истинными значениями, которые были бы получены при анализе всей популяции. Ошибка выборки возникает из-за естественной вариации в выборке и потому что мы работаем с данными только из части полной популяции. Любые выводы или прогнозы, сделанные на основе выборочных данных, могут отклоняться от фактических характеристик или поведения всей популяции.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "QM-7-EX-001",
+          "question_en": "An analyst is analyzing the spending habits of people belonging to different annual income categories. In his analysis, he creates the following different groups according to the annual family income: Less than $30,000, $31,000 – $40,000, $41,000 to $50,000, and $51,000 to $60,000. He then selects a sample from each distinct group to form a whole sample. The sampling method used by the analyst is most likely:",
+          "question_ru": "Аналитик анализирует привычки расходов людей, принадлежащих к различным категориям годового дохода. В своем анализе он создает следующие группы согласно годовому семейному доходу: Менее $30,000, $31,000 – $40,000, $41,000 до $50,000, и $51,000 до $60,000. Затем он выбирает выборку из каждой отдельной группы для формирования целой выборки. Метод выборки, используемый аналитиком, скорее всего:",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Cluster sampling.",
+              "text_ru": "Кластерная выборка."
+            },
+            {
+              "letter": "B",
+              "text_en": "Stratified sampling.",
+              "text_ru": "Стратифицированная выборка."
+            },
+            {
+              "letter": "C",
+              "text_en": "Simple random sampling.",
+              "text_ru": "Простая случайная выборка."
+            }
+          ],
+          "correct_answer": "B",
+          "solution_en": "Dividing the population into different strata/groups and selecting a sample from each group is called the stratified sampling technique. A is incorrect because in cluster sampling, each cluster is considered a sampling unit, and only selected clusters are sampled. C is incorrect because simple random sampling involves the selection of a sample from an entire population such that each member or element of the population has an equal probability of being picked.",
+          "solution_ru": "Разделение популяции на различные страты/группы и выбор выборки из каждой группы называется техникой стратифицированной выборки. A неверно, потому что при кластерной выборке каждый кластер рассматривается как единица выборки, и только выбранные кластеры включаются в выборку. C неверно, потому что простая случайная выборка включает выбор выборки из всей популяции таким образом, что каждый член или элемент популяции имеет равную вероятность быть выбранным."
+        },
+        {
+          "exercise_id": "QM-7-EX-002",
+          "question_en": "A Ph.D. student is conducting research related to her thesis, and for this purpose, she uses some students from her university to constitute a sample. The sampling method used by the analyst is most likely:",
+          "question_ru": "Аспирант проводит исследование, связанное с ее диссертацией, и для этой цели она использует некоторых студентов из своего университета для составления выборки. Метод выборки, используемый аналитиком, скорее всего:",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Simple random sampling.",
+              "text_ru": "Простая случайная выборка."
+            },
+            {
+              "letter": "B",
+              "text_en": "Convenience sampling.",
+              "text_ru": "Удобная выборка."
+            },
+            {
+              "letter": "C",
+              "text_en": "Judgmental sampling.",
+              "text_ru": "Экспертная выборка."
+            }
+          ],
+          "correct_answer": "B",
+          "solution_en": "The researcher has selected the students from her university because she can conveniently access them. A is incorrect because simple random sampling involves the selection of a sample from an entire population such that each member or element of the population has an equal probability of being picked. C is incorrect because judgmental sampling involves handpicking elements from a sample based on the researcher's knowledge and expertise.",
+          "solution_ru": "Исследователь выбрала студентов из своего университета, потому что она может удобно получить к ним доступ. A неверно, потому что простая случайная выборка включает выбор выборки из всей популяции таким образом, что каждый член или элемент популяции имеет равную вероятность быть выбранным. C неверно, потому что экспертная выборка включает ручной выбор элементов из выборки на основе знаний и опыта исследователя."
+        },
+        {
+          "exercise_id": "QM-7-EX-003",
+          "question_en": "An analyst wants to estimate the downtime of ABC Bank's ATMs in a city for the last six months. For this purpose, he selects 20 locations or areas within the city and then selects 50% of the ATMs in each area. The sampling method used by the analyst is most likely:",
+          "question_ru": "Аналитик хочет оценить время простоя банкоматов ABC Bank в городе за последние шесть месяцев. Для этой цели он выбирает 20 местоположений или районов в городе, а затем выбирает 50% банкоматов в каждом районе. Метод выборки, используемый аналитиком, скорее всего:",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Cluster sampling.",
+              "text_ru": "Кластерная выборка."
+            },
+            {
+              "letter": "B",
+              "text_en": "Stratified random sampling.",
+              "text_ru": "Стратифицированная случайная выборка."
+            },
+            {
+              "letter": "C",
+              "text_en": "Simple random sampling.",
+              "text_ru": "Простая случайная выборка."
+            }
+          ],
+          "correct_answer": "A",
+          "solution_en": "In cluster sampling, all population elements are categorized into mutually exclusive and exhaustive groups called clusters. A simple random sample of the cluster is selected, and then the elements in each of these clusters are sampled. B is incorrect because in stratified random sampling, analysts subdivide the population into separate groups known as strata, and each stratum is composed of elements that have a common characteristic that distinguishes them from all the others. C is incorrect because simple random sampling involves the selection of a sample from an entire population such that each member or element of the population has an equal probability of being picked.",
+          "solution_ru": "При кластерной выборке все элементы популяции категоризируются во взаимоисключающие и исчерпывающие группы, называемые кластерами. Выбирается простая случайная выборка кластера, а затем элементы в каждом из этих кластеров включаются в выборку. B неверно, потому что при стратифицированной случайной выборке аналитики подразделяют популяцию на отдельные группы, известные как страты, и каждая страта состоит из элементов, имеющих общую характеристику, которая отличает их от всех остальных. C неверно, потому что простая случайная выборка включает выбор выборки из всей популяции таким образом, что каждый член или элемент популяции имеет равную вероятность быть выбранным."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_7b",
+      "los_code": "7b",
+      "los_description_en": "explain the central limit theorem and its importance for the distribution and standard error of the sample mean",
+      "los_description_ru": "объяснять центральную предельную теорему и ее важность для распределения и стандартной ошибки выборочного среднего",
+      "terms": [
+        {
+          "term_id": "QM-7-014",
+          "term_en": "Central Limit Theorem",
+          "term_ru": "Центральная предельная теорема",
+          "definition_en": "A fundamental theorem stating that given a population described by any probability distribution having mean μ and finite variance σ², the sampling distribution of the sample mean computed from random samples of size n from this population will be approximately normal with mean μ and variance σ²/n when the sample size is large (typically n ≥ 30).",
+          "definition_ru": "Фундаментальная теорема, утверждающая, что для популяции, описываемой любым вероятностным распределением со средним μ и конечной дисперсией σ², распределение выборки выборочного среднего, вычисленного из случайных выборок размера n из этой популяции, будет приблизительно нормальным со средним μ и дисперсией σ²/n, когда размер выборки велик (обычно n ≥ 30).",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-7-015",
+          "term_en": "Sample Mean",
+          "term_ru": "Выборочное среднее",
+          "definition_en": "The arithmetic average of observations in a sample, denoted as X̄. It is calculated by summing all values in the sample and dividing by the sample size. The sample mean serves as an estimator of the population mean.",
+          "definition_ru": "Арифметическое среднее наблюдений в выборке, обозначаемое как X̄. Оно рассчитывается путем суммирования всех значений в выборке и деления на размер выборки. Выборочное среднее служит оценкой среднего значения популяции.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-7-016",
+          "term_en": "Standard Error of the Sample Mean (Known σ)",
+          "term_ru": "Стандартная ошибка выборочного среднего (известная σ)",
+          "definition_en": "The standard deviation of the sampling distribution of the sample mean when the population standard deviation σ is known. It measures how precisely the sample mean estimates the population mean. A lower standard error indicates more precise estimation.",
+          "definition_ru": "Стандартное отклонение распределения выборки выборочного среднего, когда стандартное отклонение популяции σ известно. Она измеряет, насколько точно выборочное среднее оценивает среднее популяции. Меньшая стандартная ошибка указывает на более точную оценку.",
+          "type": "formula",
+          "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "\\sigma_{\\bar{X}}",
+              "name_en": "Standard error of the sample mean",
+              "name_ru": "Стандартная ошибка выборочного среднего"
+            },
+            {
+              "symbol": "\\sigma",
+              "name_en": "Population standard deviation (known)",
+              "name_ru": "Стандартное отклонение популяции (известное)"
+            },
+            {
+              "symbol": "n",
+              "name_en": "Sample size",
+              "name_ru": "Размер выборки"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Введите стандартное отклонение популяции: σ",
+              "2. Разделите на квадратный корень из размера выборки: [÷] [√] n [=]",
+              "3. Результат: стандартная ошибка выборочного среднего"
+            ],
+            "example": {
+              "given": "σ = 3, n = 30",
+              "input": "3 ÷ √30 =",
+              "result": "σx̄ = 0.55"
+            }
+          }
+        },
+        {
+          "term_id": "QM-7-017",
+          "term_en": "Standard Error of the Sample Mean (Unknown σ)",
+          "term_ru": "Стандартная ошибка выборочного среднего (неизвестная σ)",
+          "definition_en": "An estimate of the standard deviation of the sampling distribution when the population standard deviation σ is unknown. It uses the sample standard deviation s as an estimate. This is the most common case in practice.",
+          "definition_ru": "Оценка стандартного отклонения распределения выборки, когда стандартное отклонение популяции σ неизвестно. Она использует выборочное стандартное отклонение s в качестве оценки. Это наиболее распространенный случай на практике.",
+          "type": "formula",
+          "formula": "$s_{\\bar{X}} = \\frac{s}{\\sqrt{n}}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "s_{\\bar{X}}",
+              "name_en": "Estimated standard error of the sample mean",
+              "name_ru": "Оценочная стандартная ошибка выборочного среднего"
+            },
+            {
+              "symbol": "s",
+              "name_en": "Sample standard deviation",
+              "name_ru": "Выборочное стандартное отклонение"
+            },
+            {
+              "symbol": "n",
+              "name_en": "Sample size",
+              "name_ru": "Размер выборки"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Введите выборочное стандартное отклонение: s",
+              "2. Разделите на квадратный корень из размера выборки: [÷] [√] n [=]",
+              "3. Результат: оценочная стандартная ошибка"
+            ],
+            "example": {
+              "given": "s = 0.13, n = 30",
+              "input": "0.13 ÷ √30 =",
+              "result": "sx̄ = 0.02"
+            }
+          }
+        },
+        {
+          "term_id": "QM-7-018",
+          "term_en": "Sample Standard Deviation",
+          "term_ru": "Выборочное стандартное отклонение",
+          "definition_en": "A measure of the spread or dispersion of data within a sample, calculated as the square root of the sample variance. It is denoted by s and provides an estimate of the population standard deviation σ.",
+          "definition_ru": "Мера разброса или дисперсии данных в выборке, рассчитываемая как квадратный корень из выборочной дисперсии. Обозначается как s и предоставляет оценку стандартного отклонения популяции σ.",
+          "type": "formula",
+          "formula": "$s = \\sqrt{\\frac{\\sum_{i=1}^{n}(X_i - \\bar{X})^2}{n-1}}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "s",
+              "name_en": "Sample standard deviation",
+              "name_ru": "Выборочное стандартное отклонение"
+            },
+            {
+              "symbol": "X_i",
+              "name_en": "Individual observation in the sample",
+              "name_ru": "Отдельное наблюдение в выборке"
+            },
+            {
+              "symbol": "\\bar{X}",
+              "name_en": "Sample mean",
+              "name_ru": "Выборочное среднее"
+            },
+            {
+              "symbol": "n",
+              "name_en": "Sample size",
+              "name_ru": "Размер выборки"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: STAT Worksheet",
+            "steps_ru": [
+              "1. [2nd] [DATA] для входа в режим данных",
+              "2. Введите данные: X01 = [значение] [ENTER] [↓] [↓]",
+              "3. Повторите для всех наблюдений",
+              "4. [2nd] [STAT] для статистики",
+              "5. Прокрутите до Sx (выборочное стандартное отклонение)",
+              "6. Результат: выборочное стандартное отклонение"
+            ],
+            "example": {
+              "given": "Data: 10, 12, 15, 18, 20",
+              "result": "Use STAT mode to calculate s"
+            }
+          }
+        },
+        {
+          "term_id": "QM-7-019",
+          "term_en": "Sample Variance",
+          "term_ru": "Выборочная дисперсия",
+          "definition_en": "A measure of variability in a sample, calculated as the average of the squared deviations from the sample mean, divided by (n-1). The use of (n-1) instead of n provides an unbiased estimate of the population variance.",
+          "definition_ru": "Мера изменчивости в выборке, рассчитываемая как среднее квадратов отклонений от выборочного среднего, деленное на (n-1). Использование (n-1) вместо n обеспечивает несмещенную оценку дисперсии популяции.",
+          "type": "formula",
+          "formula": "$s^2 = \\frac{\\sum_{i=1}^{n}(X_i - \\bar{X})^2}{n-1}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "s^2",
+              "name_en": "Sample variance",
+              "name_ru": "Выборочная дисперсия"
+            },
+            {
+              "symbol": "X_i",
+              "name_en": "Individual observation",
+              "name_ru": "Отдельное наблюдение"
+            },
+            {
+              "symbol": "\\bar{X}",
+              "name_en": "Sample mean",
+              "name_ru": "Выборочное среднее"
+            },
+            {
+              "symbol": "n",
+              "name_en": "Sample size",
+              "name_ru": "Размер выборки"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Multi-step Calculation",
+            "steps_ru": [
+              "1. Рассчитайте выборочное среднее",
+              "2. Для каждого наблюдения вычислите (Xi - X̄)²",
+              "3. Суммируйте все квадраты отклонений",
+              "4. Разделите на (n - 1)",
+              "5. Результат: выборочная дисперсия"
+            ],
+            "example": {
+              "given": "Calculate manually or use STAT mode",
+              "result": "s² = variance"
+            }
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "QM-7-EX-004",
+          "question_en": "Emma Johnson wants to know how finance analysts performed last year. Johnson assumes that the population cross-sectional standard deviation of finance analyst returns is 8 percent and that the returns are independent across analysts. The random sample size that Johnson needs if she wants the standard deviation of the sample means to be 2% is closest to:",
+          "question_ru": "Эмма Джонсон хочет знать, как финансовые аналитики показали себя в прошлом году. Джонсон предполагает, что перекрестное стандартное отклонение популяции доходности финансовых аналитиков составляет 8 процентов, и что доходности независимы между аналитиками. Размер случайной выборки, который нужен Джонсон, если она хочет, чтобы стандартное отклонение выборочных средних было 2%, ближе всего к:",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "4.",
+              "text_ru": "4."
+            },
+            {
+              "letter": "B",
+              "text_en": "16.",
+              "text_ru": "16."
+            },
+            {
+              "letter": "C",
+              "text_en": "72.",
+              "text_ru": "72."
+            }
+          ],
+          "correct_answer": "B",
+          "solution_en": "Using the formula σx̄ = σ/√n, we have: 0.02 = 0.08/√n. Solving for n: √n = 0.08/0.02 = 4, therefore n = 16.",
+          "solution_ru": "Используя формулу σx̄ = σ/√n, получаем: 0.02 = 0.08/√n. Решая для n: √n = 0.08/0.02 = 4, следовательно n = 16."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_7c",
+      "los_code": "7c",
+      "los_description_en": "describe the use of resampling (bootstrap, jackknife) to estimate the sampling distribution of a statistic",
+      "los_description_ru": "описывать использование ресэмплинга (бутстрап, джекнайф) для оценки распределения выборки статистики",
+      "terms": [
+        {
+          "term_id": "QM-7-020",
+          "term_en": "Resampling",
+          "term_ru": "Ресэмплинг (Повторная выборка)",
+          "definition_en": "The act of repeatedly drawing samples from the original observed data sample for the statistical inference of population parameters. The two commonly used methods of resampling are bootstrap and jackknife. This technique allows estimation of sampling distributions without relying on analytical formulas.",
+          "definition_ru": "Акт повторного извлечения выборок из исходной наблюдаемой выборки данных для статистического вывода о параметрах популяции. Два часто используемых метода ресэмплинга - это бутстрап и джекнайф. Эта техника позволяет оценить распределения выборки без опоры на аналитические формулы.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-7-021",
+          "term_en": "Bootstrap Resampling",
+          "term_ru": "Бутстрап-ресэмплинг",
+          "definition_en": "A resampling method that uses computer simulations to draw multiple random samples from the original sample with replacement. Each resample is the same size as the original sample. The number of resamples (B) is at the researcher's discretion. This method does not rely on analytical formulas and is useful for complex estimators.",
+          "definition_ru": "Метод ресэмплинга, который использует компьютерные симуляции для извлечения множественных случайных выборок из исходной выборки с возвращением. Каждая повторная выборка имеет тот же размер, что и исходная выборка. Количество повторных выборок (B) определяется исследователем. Этот метод не зависит от аналитических формул и полезен для сложных оценок.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-7-022",
+          "term_en": "Bootstrap Standard Error",
+          "term_ru": "Стандартная ошибка бутстрапа",
+          "definition_en": "An estimate of the standard error calculated from bootstrap resamples. It is computed by taking the standard deviation of the statistic (e.g., mean) across all bootstrap samples.",
+          "definition_ru": "Оценка стандартной ошибки, рассчитанная из бутстрап повторных выборок. Она вычисляется путем взятия стандартного отклонения статистики (например, среднего) по всем бутстрап выборкам.",
+          "type": "formula",
+          "formula": "$s_{\\bar{X}} = \\sqrt{\\frac{1}{B-1}\\sum_{b=1}^{B}(\\hat{\\theta}_b - \\bar{\\theta})^2}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "s_{\\bar{X}}",
+              "name_en": "Estimate of the standard error of the sample mean",
+              "name_ru": "Оценка стандартной ошибки выборочного среднего"
+            },
+            {
+              "symbol": "B",
+              "name_en": "Number of bootstrap resamples",
+              "name_ru": "Количество бутстрап повторных выборок"
+            },
+            {
+              "symbol": "\\hat{\\theta}_b",
+              "name_en": "Statistic from resample b",
+              "name_ru": "Статистика из повторной выборки b"
+            },
+            {
+              "symbol": "\\bar{\\theta}",
+              "name_en": "Mean across all resample statistics",
+              "name_ru": "Среднее по всем статистикам повторных выборок"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Multi-step Calculation",
+            "steps_ru": [
+              "1. Рассчитайте среднее всех статистик повторных выборок: θ̄",
+              "2. Для каждой выборки вычислите (θ̂_b - θ̄)²",
+              "3. Суммируйте все квадраты отклонений",
+              "4. Разделите на (B - 1)",
+              "5. Извлеките квадратный корень",
+              "6. Результат: стандартная ошибка бутстрапа"
+            ],
+            "example": {
+              "given": "B = 1000 resamples, sum of squared deviations = 2.3",
+              "input": "√(2.3/(1000-1)) =",
+              "result": "s = 0.048"
+            }
+          }
+        },
+        {
+          "term_id": "QM-7-023",
+          "term_en": "Jackknife Resampling",
+          "term_ru": "Джекнайф-ресэмплинг",
+          "definition_en": "A resampling method in which samples are drawn by omitting one observation at a time from the original data sample without replacement. For a sample size of n, n repeated samples are needed. This method can be used to reduce the bias of an estimator or to estimate the standard error and confidence interval of an estimator.",
+          "definition_ru": "Метод ресэмплинга, при котором выборки извлекаются путем пропуска одного наблюдения за раз из исходной выборки данных без возвращения. Для размера выборки n требуется n повторных выборок. Этот метод может использоваться для уменьшения смещения оценки или для оценки стандартной ошибки и доверительного интервала оценки.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "QM-7-EX-005",
+          "question_en": "Assume that you are studying the median height of 100 students in a university. You draw a sample of 1000 students and obtain 1000 median heights. The mean across all resample means is 5.8. The sum of squares of the differences between each sample mean, and the mean across all resample means is 2.3. The estimate of the standard error of the sample mean is closest to:",
+          "question_ru": "Предположим, вы изучаете медианную высоту 100 студентов в университете. Вы берете выборку из 1000 студентов и получаете 1000 медианных высот. Среднее по всем средним повторных выборок составляет 5.8. Сумма квадратов разностей между каждым выборочным средним и средним по всем средним повторных выборок составляет 2.3. Оценка стандартной ошибки выборочного среднего ближе всего к:",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "0.05.",
+              "text_ru": "0.05."
+            },
+            {
+              "letter": "B",
+              "text_en": "0.08.",
+              "text_ru": "0.08."
+            },
+            {
+              "letter": "C",
+              "text_en": "0.10.",
+              "text_ru": "0.10."
+            }
+          ],
+          "correct_answer": "A",
+          "solution_en": "Using the bootstrap standard error formula: sx̄ = √[(1/(B-1)) × Σ(θ̂b - θ̄)²] = √[(1/(1000-1)) × 2.3] = √(2.3/999) = 0.04798 ≈ 0.05.",
+          "solution_ru": "Используя формулу стандартной ошибки бутстрапа: sx̄ = √[(1/(B-1)) × Σ(θ̂b - θ̄)²] = √[(1/(1000-1)) × 2.3] = √(2.3/999) = 0.04798 ≈ 0.05."
+        }
+      ]
+    }
+  ]
+}
