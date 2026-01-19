@@ -1611,12 +1611,25 @@ function onBookFilterChange() {
     const bookId = document.getElementById('glossary-book-filter').value;
     const moduleSelect = document.getElementById('glossary-module-filter');
 
-    // Update module dropdown based on selected book
-    const modules = getModulesForBook(bookId);
-    moduleSelect.innerHTML = '<option value="">Все модули</option>' +
-        modules.map(m => `<option value="${m.id}">Module ${m.id}: ${m.name}</option>`).join('');
+    // Update state.currentBook based on selected book
+    if (bookId) {
+        const selectedBook = BOOKS.find(b => b.id === parseInt(bookId));
+        if (selectedBook) {
+            state.currentBook = selectedBook;
 
-    filterGlossary();
+            // Update module dropdown based on selected book
+            const modules = getModulesForBook(bookId);
+            moduleSelect.innerHTML = '<option value="">Все модули</option>' +
+                modules.map(m => `<option value="${m.id}">Module ${m.id}: ${m.name}</option>`).join('');
+
+            // Load glossary for first module of selected book
+            loadGlossary(1);
+        }
+    } else {
+        // If "Все книги" selected, clear the view
+        moduleSelect.innerHTML = '<option value="">Все модули</option>';
+        document.getElementById('glossary-list').innerHTML = '<p class="text-center text-muted">Выберите книгу и модуль</p>';
+    }
 }
 
 function onModuleFilterChange() {
