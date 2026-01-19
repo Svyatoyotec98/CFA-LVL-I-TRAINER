@@ -1,0 +1,498 @@
+{
+  "metadata": {
+    "book_id": 1,
+    "book_code": "QM",
+    "book_name": "Quantitative Methods",
+    "book_name_ru": "Количественные методы",
+    "module_id": 7,
+    "module_name": "Hypothesis Testing",
+    "module_name_ru": "Проверка гипотез",
+    "total_questions": 10,
+    "version": "2.0",
+    "source": "AnalystPrep QBank"
+  },
+  "questions": [
+    {
+      "question_id": "QM-7-Q001",
+      "original_question_number": 422,
+      "los_id": "LOS_7b",
+      "question_text_en": "Which statistic is most likely to be used for a limited normal sample size (less than 30) with an unknown variance?",
+      "question_text_ru": "Какая статистика наиболее вероятно будет использована для ограниченного нормального размера выборки (менее 30) с неизвестной дисперсией?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "t-test.",
+          "text_ru": "t-тест."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "z-test.",
+          "text_ru": "z-тест."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The sample size is too small to make any kind of judgment.",
+          "text_ru": "Размер выборки слишком мал, чтобы делать какие-либо выводы."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "A t-test is used if you do not know the population's standard deviation and have a limited sample (less than 30). For a sample size larger than 30, you can use the z-test.",
+      "explanation_ru": "T-тест используется, если вы не знаете стандартное отклонение популяции и имеете ограниченную выборку (менее 30). Для размера выборки больше 30 можно использовать z-тест.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. The z-test is used when the population is normally distributed. The z test can also test when the population is substantial, thanks to the central limit theorem.",
+          "text_ru": "Неверно. Z-тест используется, когда популяция имеет нормальное распределение. Z-тест также может использоваться, когда популяция достаточно велика, благодаря центральной предельной теореме."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. For a sample less than 30 with unknown variance, a t-test is appropriate.",
+          "text_ru": "Неверно. Для выборки менее 30 с неизвестной дисперсией подходит t-тест."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["t_test", "z_test", "sample_size"]
+    },
+    {
+      "question_id": "QM-7-Q002",
+      "original_question_number": 424,
+      "los_id": "LOS_7b",
+      "question_text_en": "A distribution has a mean of 11% and a standard deviation of 20%. The interval of this distribution using a 95% confidence interval is closest to;",
+      "question_text_ru": "Распределение имеет среднее значение 11% и стандартное отклонение 20%. Интервал этого распределения с использованием 95% доверительного интервала ближе всего к;",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "-9% to 31%.",
+          "text_ru": "-9% до 31%."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "-28.2% to 50.2%.",
+          "text_ru": "-28.2% до 50.2%."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "-21.9% to 43.9%.",
+          "text_ru": "-21.9% до 43.9%."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Based on the information given in the question the confidence interval is given by: 11% ± 20(1.96) = 11% ± 39.20 = -28.2% to 50.2%. The value of 1.96 is based on the fact that 95% of the area of a normal distribution is within 1.96 standard deviations of the mean. Interpretation of the result: 95% of all observations lie between -28.2% and 50.2%.",
+      "explanation_ru": "На основе информации, приведенной в вопросе, доверительный интервал определяется как: 11% ± 20(1.96) = 11% ± 39.20 = -28.2% до 50.2%. Значение 1.96 основано на том факте, что 95% площади нормального распределения находится в пределах 1.96 стандартных отклонений от среднего. Интерпретация результата: 95% всех наблюдений находятся между -28.2% и 50.2%.",
+      "explanation_formula": "$CI = \\mu \\pm z \\cdot \\sigma = 11\\% \\pm 1.96 \\cdot 20\\% = 11\\% \\pm 39.2\\%$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This uses an incorrect multiplier.",
+          "text_ru": "Неверно. Здесь используется неправильный множитель."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This uses an incorrect multiplier.",
+          "text_ru": "Неверно. Здесь используется неправильный множитель."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Scientific Calculator",
+        "steps_en": ["20 × 1.96 = 39.2", "11 + 39.2 = 50.2", "11 - 39.2 = -28.2"],
+        "steps_ru": ["20 × 1.96 = 39.2", "11 + 39.2 = 50.2", "11 - 39.2 = -28.2"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["confidence_interval", "normal_distribution"]
+    },
+    {
+      "question_id": "QM-7-Q003",
+      "original_question_number": 993,
+      "los_id": "LOS_7b",
+      "question_text_en": "The most likely outcome of an increase in sample size is:",
+      "question_text_ru": "Наиболее вероятный результат увеличения размера выборки:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "the sample standard deviation increases.",
+          "text_ru": "стандартное отклонение выборки увеличивается."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "the sample mean gets closer to the population mean.",
+          "text_ru": "среднее выборки приближается к среднему популяции."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "the sample mean varies from the population mean to a large extent.",
+          "text_ru": "среднее выборки значительно отклоняется от среднего популяции."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The standard error of the sample mean is used by analysts to estimate the precision of the sample mean to the population mean. A lower value of the standard error indicates a more precise estimate. Using σ = 3 and varying n (10 for smaller sample and 30 for larger sample): σx = 3/√10 = 0.948 and σx = 3/√30 = 0.548. A larger n (30) gives a lower SE (0.548). A smaller n (10) gives a higher SE (0.948). The larger the sample, the more accurate the sample mean, as we consider a larger number of outcomes.",
+      "explanation_ru": "Стандартная ошибка среднего выборки используется аналитиками для оценки точности среднего выборки относительно среднего популяции. Меньшее значение стандартной ошибки указывает на более точную оценку. Используя σ = 3 и изменяя n (10 для меньшей выборки и 30 для большей выборки): σx = 3/√10 = 0.948 и σx = 3/√30 = 0.548. Больший n (30) дает меньшую SE (0.548). Меньший n (10) дает большую SE (0.948). Чем больше выборка, тем точнее среднее выборки, так как мы рассматриваем большее количество результатов.",
+      "explanation_formula": "$\\sigma_x = \\frac{\\sigma}{\\sqrt{n}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The sample standard deviation does not necessarily increase with sample size.",
+          "text_ru": "Неверно. Стандартное отклонение выборки не обязательно увеличивается с размером выборки."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. As sample size increases, the sample mean becomes more precise and closer to the population mean.",
+          "text_ru": "Неверно. По мере увеличения размера выборки среднее выборки становится более точным и ближе к среднему популяции."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Scientific Calculator",
+        "steps_en": ["3 ÷ √10 = 0.948", "3 ÷ √30 = 0.548"],
+        "steps_ru": ["3 ÷ √10 = 0.948", "3 ÷ √30 = 0.548"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["sample_size", "standard_error", "central_limit_theorem"]
+    },
+    {
+      "question_id": "QM-7-Q004",
+      "original_question_number": 996,
+      "los_id": "LOS_7b",
+      "question_text_en": "As the degrees of freedom increases and the t-statistic approaches towards the z-statistic, the tails of the distribution most likely become:",
+      "question_text_ru": "Когда степени свободы увеличиваются и t-статистика приближается к z-статистике, хвосты распределения наиболее вероятно становятся:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "thicker.",
+          "text_ru": "толще."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "thinner.",
+          "text_ru": "тоньше."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "unchanged.",
+          "text_ru": "неизменными."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The degrees of freedom (number of observations-1) of a t distribution determine its peakedness. The tails of the t-distribution are usually thicker than the normal distribution, so when the number of observations increases and the degrees of freedom increase, the t-distribution becomes more spiked/peaked with thinner tails.",
+      "explanation_ru": "Степени свободы (количество наблюдений-1) t-распределения определяют его заостренность. Хвосты t-распределения обычно толще, чем у нормального распределения, поэтому когда количество наблюдений увеличивается и степени свободы увеличиваются, t-распределение становится более заостренным с более тонкими хвостами.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The tails of the t-distribution is usually thicker than the normal distribution.",
+          "text_ru": "Неверно. Хвосты t-распределения обычно толще, чем у нормального распределения."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. There is an expected change on the tails of the t-distribution with an increase in the degrees of freedom.",
+          "text_ru": "Неверно. Ожидается изменение хвостов t-распределения с увеличением степеней свободы."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["t_distribution", "degrees_of_freedom"]
+    },
+    {
+      "question_id": "QM-7-Q005",
+      "original_question_number": 1877,
+      "los_id": "LOS_7a",
+      "question_text_en": "The most accurate definition of a sample error is the:",
+      "question_text_ru": "Наиболее точное определение ошибки выборки - это:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "estimation error created by using a non-random sample.",
+          "text_ru": "ошибка оценки, созданная использованием неслучайной выборки."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "difference between a sample statistic and its corresponding population parameter.",
+          "text_ru": "разница между статистикой выборки и соответствующим параметром популяции."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "difference between the point estimate of the mean and the mean of the sampling distribution.",
+          "text_ru": "разница между точечной оценкой среднего и средним распределения выборки."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Sampling error is the difference between any sample statistic and its corresponding population parameter. An example of sampling error would be the difference between the sample mean X̄ and the population mean, μ.",
+      "explanation_ru": "Ошибка выборки - это разница между любой статистикой выборки и соответствующим параметром популяции. Примером ошибки выборки может быть разница между средним выборки X̄ и средним популяции μ.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. It is the definition of random sampling and not a sampling error.",
+          "text_ru": "Неверно. Это определение случайной выборки, а не ошибки выборки."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It is the definition of standard error, and not a sampling error.",
+          "text_ru": "Неверно. Это определение стандартной ошибки, а не ошибки выборки."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["sampling_error", "sampling_methods"]
+    },
+    {
+      "question_id": "QM-7-Q006",
+      "original_question_number": 1879,
+      "los_id": "LOS_7b",
+      "question_text_en": "The Central Limit Theorem is most appropriately concerned with the sampling distribution of the:",
+      "question_text_ru": "Центральная предельная теорема наиболее точно связана с распределением выборки:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "sample mean.",
+          "text_ru": "среднего выборки."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "population mean.",
+          "text_ru": "среднего популяции."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "sample standard deviation.",
+          "text_ru": "стандартного отклонения выборки."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The central limit theorem states that the sample mean X of random samples of sizes n drawn from a population with mean μ and variance σ² will have an approximately normal distribution with mean μ and variance σ²/n as the sample size n becomes large.",
+      "explanation_ru": "Центральная предельная теорема утверждает, что среднее выборки X случайных выборок размера n, взятых из популяции со средним μ и дисперсией σ², будет иметь приблизительно нормальное распределение со средним μ и дисперсией σ²/n, когда размер выборки n становится большим.",
+      "explanation_formula": "$\\bar{X} \\sim N\\left(\\mu, \\frac{\\sigma^2}{n}\\right)$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The sampling distribution is majorly concerned with the sample mean and not the Central Limit Theorem.",
+          "text_ru": "Неверно. Распределение выборки в основном связано со средним выборки, а не с центральной предельной теоремой."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The sample standard deviation is concerned with the value of the sample variance.",
+          "text_ru": "Неверно. Стандартное отклонение выборки связано со значением дисперсии выборки."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["central_limit_theorem", "sampling_distribution"]
+    },
+    {
+      "question_id": "QM-7-Q007",
+      "original_question_number": 1884,
+      "los_id": "LOS_7b",
+      "question_text_en": "The following information is available on a sample of advertising budgets taken from 81 U.S companies: The mean advertising budget is 10 million. The sample variance is 36 million. The standard error of the sample mean is closest to:",
+      "question_text_ru": "Доступна следующая информация о выборке рекламных бюджетов 81 американской компании: Средний рекламный бюджет составляет 10 миллионов. Дисперсия выборки составляет 36 миллионов. Стандартная ошибка среднего выборки ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$0.667",
+          "text_ru": "$0.667"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$1,667",
+          "text_ru": "$1,667"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$11,384",
+          "text_ru": "$11,384"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The standard error of the sample mean (SX̄) can be calculated using the formula: SX̄ = s/√n. Where s is the sample standard deviation and n is the sample size. The sample standard deviation is the square root of the variance = √36 million = 6 million. The standard error of the sample mean is estimated by dividing the standard deviation of the sample by the square root of the sample size = 6/√81 = 3.1/6 = $0.5166667 ≈ $0.52",
+      "explanation_ru": "Стандартная ошибка среднего выборки (SX̄) может быть рассчитана по формуле: SX̄ = s/√n. Где s - стандартное отклонение выборки, а n - размер выборки. Стандартное отклонение выборки - это квадратный корень из дисперсии = √36 миллионов = 6 миллионов. Стандартная ошибка среднего выборки оценивается путем деления стандартного отклонения выборки на квадратный корень из размера выборки = 6/√81 = 6/9 = $0.667",
+      "explanation_formula": "$S_{\\bar{X}} = \\frac{s}{\\sqrt{n}} = \\frac{6}{\\sqrt{81}} = \\frac{6}{9} = 0.667$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Results from the mean advertising budget divided by the sample standard deviation of the mean square root.",
+          "text_ru": "Неверно. Результат деления среднего рекламного бюджета на стандартное отклонение выборки квадратного корня."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The result of dividing the sample variance by the sample standard deviation is the square root of the variance.",
+          "text_ru": "Неверно. Результат деления дисперсии выборки на стандартное отклонение выборки - это квадратный корень из дисперсии."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Scientific Calculator",
+        "steps_en": ["√36 = 6", "√81 = 9", "6 ÷ 9 = 0.667"],
+        "steps_ru": ["√36 = 6", "√81 = 9", "6 ÷ 9 = 0.667"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["standard_error", "sample_mean"]
+    },
+    {
+      "question_id": "QM-7-Q008",
+      "original_question_number": 2752,
+      "los_id": "LOS_7a",
+      "question_text_en": "Which of the following is the most appropriate example of a simple random sample?",
+      "question_text_ru": "Какой из следующих примеров является наиболее подходящим примером простой случайной выборки?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "An analyst randomly selects AAA-rated corporate bonds as a sample to estimate the default risk of the U.S. Bond market.",
+          "text_ru": "Аналитик случайным образом выбирает корпоративные облигации с рейтингом AAA в качестве выборки для оценки риска дефолта на рынке облигаций США."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "An analyst randomly selects large-cap index stocks from the Mumbai Stock Exchange to measure the holding period return of Indian stocks.",
+          "text_ru": "Аналитик случайным образом выбирает акции крупных компаний из индекса Бомбейской фондовой биржи для измерения доходности за период владения индийскими акциями."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "An analyst randomly selects the GDP growth rate of five random countries from the European Union to measure the GDP growth of European Union countries.",
+          "text_ru": "Аналитик случайным образом выбирает темпы роста ВВП пяти случайных стран из Европейского Союза для измерения роста ВВП стран Европейского Союза."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "The five European countries are selected randomly (without any specific criteria) to measure the GDP growth rate of European Union countries.",
+      "explanation_ru": "Пять европейских стран выбираются случайным образом (без каких-либо конкретных критериев) для измерения темпов роста ВВП стран Европейского Союза.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. It is also an example of stratified random sampling. It applies the criteria of selecting only AAA-rated corporate bonds.",
+          "text_ru": "Неверно. Это также пример стратифицированной случайной выборки. Применяется критерий выбора только корпоративных облигаций с рейтингом AAA."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. It is an example of stratified random sampling. This is because the analyst only takes Large-cap index stock (Criteria or Strata is applied).",
+          "text_ru": "Неверно. Это пример стратифицированной случайной выборки. Это потому, что аналитик берет только акции крупных компаний (применяется критерий или страта)."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["simple_random_sampling", "sampling_methods"]
+    },
+    {
+      "question_id": "QM-7-Q009",
+      "original_question_number": 2753,
+      "los_id": "LOS_7a",
+      "question_text_en": "A survey team in Srilanka conducted a health survey in a village by dividing the village population into three different age ranges. The first range consisted of the population aged between 0 to 20 years, the second range was of the population above 20 years and below 45 years, and the last range was comprised of all the villagers above 45 years of age. A sample was drawn from each range according to the proportion of that range. The results showed that the healthiest people were between the ages of 0 and 20 years. The most likely type of sampling technique used by the survey team is;",
+      "question_text_ru": "Группа обследования на Шри-Ланке провела медицинское обследование в деревне, разделив население деревни на три различных возрастных диапазона. Первый диапазон состоял из населения в возрасте от 0 до 20 лет, второй диапазон - из населения старше 20 лет и моложе 45 лет, а последний диапазон включал всех жителей деревни старше 45 лет. Выборка была взята из каждого диапазона в соответствии с пропорцией этого диапазона. Результаты показали, что самые здоровые люди были в возрасте от 0 до 20 лет. Наиболее вероятный тип метода выборки, использованного группой обследования:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "simple random sampling.",
+          "text_ru": "простая случайная выборка."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "stratified random sampling.",
+          "text_ru": "стратифицированная случайная выборка."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "systematic random sampling.",
+          "text_ru": "систематическая случайная выборка."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "In Stratified Random Sampling, the population is divided into subpopulations based on some criteria or strata (in our example, the criteria were different age ranges). The simple random sample is then drawn from the subpopulation or stratum as per the proportion of that stratum in the total population.",
+      "explanation_ru": "В стратифицированной случайной выборке популяция делится на подпопуляции на основе некоторых критериев или страт (в нашем примере критериями были различные возрастные диапазоны). Затем простая случайная выборка берется из подпопуляции или страты в соответствии с пропорцией этой страты в общей популяции.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Simple random sampling does not involve the division of a population into strata. In simple random sampling, all the population elements have an equal chance of being randomly selected.",
+          "text_ru": "Неверно. Простая случайная выборка не включает разделение популяции на страты. В простой случайной выборке все элементы популяции имеют равный шанс быть случайно выбранными."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. In systematic random sampling, the sample is collected by using a pre-determined regular interval, obtained by dividing the population size, N, by the sample size, n.",
+          "text_ru": "Неверно. В систематической случайной выборке выборка собирается с использованием предопределенного регулярного интервала, полученного путем деления размера популяции N на размер выборки n."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["stratified_random_sampling", "sampling_methods"]
+    },
+    {
+      "question_id": "QM-7-Q010",
+      "original_question_number": 2754,
+      "los_id": "LOS_7a",
+      "question_text_en": "Bogotara is a hypothetical country whose bond market is composed of 2,000 corporate and government bonds. An analyst interested in investing in Bagotara's bond market calculated the mean return of 11.09% based on the sample of 200 bonds, while the population mean return of Bagotara's bond market is only 9.89%. Which of the following errors is most likely related to the analyst's estimation?",
+      "question_text_ru": "Боготара - это гипотетическая страна, рынок облигаций которой состоит из 2000 корпоративных и государственных облигаций. Аналитик, заинтересованный в инвестировании на рынок облигаций Боготары, рассчитал среднюю доходность 11.09% на основе выборки из 200 облигаций, в то время как средняя доходность популяции рынка облигаций Боготары составляет всего 9.89%. Какая из следующих ошибок наиболее вероятно связана с оценкой аналитика?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Mean error.",
+          "text_ru": "Средняя ошибка."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Sampling error.",
+          "text_ru": "Ошибка выборки."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Standard deviation.",
+          "text_ru": "Стандартное отклонение."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "In statistics, sampling error is incurred when the statistical characteristics of a population are estimated from a subset, or sample, of that population. Since the sample does not include all members of the population, statistics on the sample, such as means and quantiles, generally differ from the characteristics of the entire population, which are known as parameters.",
+      "explanation_ru": "В статистике ошибка выборки возникает, когда статистические характеристики популяции оцениваются по подмножеству или выборке этой популяции. Поскольку выборка не включает всех членов популяции, статистика по выборке, такая как средние значения и квантили, обычно отличается от характеристик всей популяции, которые известны как параметры.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The mean error refers to uncertainty in measurement or the difference between the measured and true/correct values.",
+          "text_ru": "Неверно. Средняя ошибка относится к неопределенности в измерении или разнице между измеренными и истинными/правильными значениями."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Standard deviation is a measure of variability, not an error type.",
+          "text_ru": "Неверно. Стандартное отклонение - это мера изменчивости, а не тип ошибки."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["sampling_error", "estimation"]
+    }
+  ]
+}
