@@ -1,0 +1,577 @@
+{
+  "metadata": {
+    "book_id": 1,
+    "book_code": "QM",
+    "book_name": "Quantitative Methods",
+    "book_name_ru": "Количественные методы",
+    "module_id": 6,
+    "module_name": "Sampling and Estimation",
+    "module_name_ru": "Выборка и оценка",
+    "page_range": "145-161",
+    "total_terms": 20,
+    "total_exercises": 3,
+    "version": "2.0",
+    "last_updated": "2026-01-19"
+  },
+  "los": [
+    {
+      "los_id": "LOS_6a",
+      "los_code": "6a",
+      "los_description_en": "explain the relationship between normal and lognormal distributions and why the lognormal distribution is used to model asset prices when using continuously compounded asset returns",
+      "los_description_ru": "объяснять взаимосвязь между нормальным и логнормальным распределениями и почему логнормальное распределение используется для моделирования цен активов при использовании непрерывно начисляемых доходностей активов",
+      "terms": [
+        {
+          "term_id": "QM-6-001",
+          "term_en": "Lognormal Distribution",
+          "term_ru": "Логнормальное распределение",
+          "definition_en": "A continuous probability distribution of a random variable whose natural logarithm is normally distributed. The lognormal distribution is positively skewed (skewed to the right) with values bounded by zero, making it suitable for modeling asset prices that cannot be negative.",
+          "definition_ru": "Непрерывное вероятностное распределение случайной величины, натуральный логарифм которой имеет нормальное распределение. Логнормальное распределение имеет положительную асимметрию (смещено вправо) со значениями, ограниченными нулем, что делает его подходящим для моделирования цен активов, которые не могут быть отрицательными.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-6-002",
+          "term_en": "Relationship between Normal and Lognormal",
+          "term_ru": "Связь между нормальным и логнормальным распределением",
+          "definition_en": "A random variable Y is lognormally distributed if its natural logarithm ln(Y) is normally distributed. Conversely, if ln(Y) is normally distributed, then Y is lognormally distributed.",
+          "definition_ru": "Случайная величина Y имеет логнормальное распределение, если её натуральный логарифм ln(Y) имеет нормальное распределение. И наоборот, если ln(Y) имеет нормальное распределение, то Y имеет логнормальное распределение.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-6-003",
+          "term_en": "Mean of Lognormal Distribution",
+          "term_ru": "Среднее логнормального распределения",
+          "definition_en": "The expected value of a lognormally distributed variable, calculated based on the mean and variance of the associated normal distribution.",
+          "definition_ru": "Ожидаемое значение логнормально распределенной переменной, рассчитанное на основе среднего и дисперсии связанного нормального распределения.",
+          "type": "formula",
+          "formula": "$\\mu_L = e^{(\\mu + \\frac{1}{2}\\sigma^2)}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "\\mu_L",
+              "name_en": "Mean of lognormal distribution",
+              "name_ru": "Среднее логнормального распределения"
+            },
+            {
+              "symbol": "\\mu",
+              "name_en": "Mean of associated normal distribution",
+              "name_ru": "Среднее связанного нормального распределения"
+            },
+            {
+              "symbol": "\\sigma^2",
+              "name_en": "Variance of associated normal distribution",
+              "name_ru": "Дисперсия связанного нормального распределения"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Рассчитайте показатель степени: μ + (σ²/2)",
+              "2. Введите результат: [значение]",
+              "3. Нажмите [2nd] [LN] для e^x",
+              "4. Результат: среднее логнормального распределения"
+            ],
+            "example": {
+              "given": "μ = 0.05, σ² = 0.04",
+              "input": "0.05 + 0.04/2 = 0.07, 2nd LN",
+              "result": "μL = 1.0725"
+            }
+          }
+        },
+        {
+          "term_id": "QM-6-004",
+          "term_en": "Variance of Lognormal Distribution",
+          "term_ru": "Дисперсия логнормального распределения",
+          "definition_en": "A measure of the spread of a lognormally distributed variable, calculated based on the mean and variance of the associated normal distribution.",
+          "definition_ru": "Мера разброса логнормально распределенной переменной, рассчитанная на основе среднего и дисперсии связанного нормального распределения.",
+          "type": "formula",
+          "formula": "$\\sigma^2_L = e^{2\\mu+\\sigma^2}(e^{\\sigma^2} - 1)$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "\\sigma^2_L",
+              "name_en": "Variance of lognormal distribution",
+              "name_ru": "Дисперсия логнормального распределения"
+            },
+            {
+              "symbol": "\\mu",
+              "name_en": "Mean of associated normal distribution",
+              "name_ru": "Среднее связанного нормального распределения"
+            },
+            {
+              "symbol": "\\sigma^2",
+              "name_en": "Variance of associated normal distribution",
+              "name_ru": "Дисперсия связанного нормального распределения"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Multi-step Calculation",
+            "steps_ru": [
+              "1. Рассчитайте первую часть: e^(2μ + σ²)",
+              "2. Рассчитайте вторую часть: (e^σ² - 1)",
+              "3. Перемножьте результаты двух частей",
+              "4. Результат: дисперсия логнормального распределения"
+            ],
+            "example": {
+              "given": "μ = 0.05, σ² = 0.04",
+              "result": "Calculate step by step using exponential functions"
+            }
+          }
+        },
+        {
+          "term_id": "QM-6-005",
+          "term_en": "Continuously Compounded Return",
+          "term_ru": "Непрерывно начисляемая доходность",
+          "definition_en": "The return on an investment calculated using natural logarithms, representing instantaneous compounding. It is the natural logarithm of the ratio of ending price to beginning price over the investment horizon.",
+          "definition_ru": "Доходность инвестиции, рассчитанная с использованием натуральных логарифмов, представляющая мгновенное начисление сложных процентов. Это натуральный логарифм отношения конечной цены к начальной цене за инвестиционный горизонт.",
+          "type": "formula",
+          "formula": "$r_{0,T} = \\ln(\\frac{P_T}{P_0})$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "r_{0,T}",
+              "name_en": "Continuously compounded return from time 0 to T",
+              "name_ru": "Непрерывно начисляемая доходность с момента времени 0 до T"
+            },
+            {
+              "symbol": "P_T",
+              "name_en": "Price at time T",
+              "name_ru": "Цена в момент времени T"
+            },
+            {
+              "symbol": "P_0",
+              "name_en": "Price at time 0",
+              "name_ru": "Цена в момент времени 0"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Введите конечную цену: P_T [÷]",
+              "2. Введите начальную цену: P_0 [=]",
+              "3. Нажмите [LN] для натурального логарифма",
+              "4. Результат: непрерывно начисляемая доходность"
+            ],
+            "example": {
+              "given": "P_0 = 100, P_T = 110",
+              "input": "110 ÷ 100 = 1.1, LN",
+              "result": "r = 0.0953 or 9.53%"
+            }
+          }
+        },
+        {
+          "term_id": "QM-6-006",
+          "term_en": "Price from Continuously Compounded Return",
+          "term_ru": "Цена на основе непрерывно начисляемой доходности",
+          "definition_en": "The formula for calculating the future price of an asset based on its current price and continuously compounded return.",
+          "definition_ru": "Формула для расчета будущей цены актива на основе текущей цены и непрерывно начисляемой доходности.",
+          "type": "formula",
+          "formula": "$P_T = P_0e^{r_{0,T}}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "P_T",
+              "name_en": "Price at time T",
+              "name_ru": "Цена в момент времени T"
+            },
+            {
+              "symbol": "P_0",
+              "name_en": "Price at time 0",
+              "name_ru": "Цена в момент времени 0"
+            },
+            {
+              "symbol": "r_{0,T}",
+              "name_en": "Continuously compounded return",
+              "name_ru": "Непрерывно начисляемая доходность"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Введите доходность r [2nd] [LN] для e^r",
+              "2. Умножьте на начальную цену: [×] P_0 [=]",
+              "3. Результат: будущая цена актива"
+            ],
+            "example": {
+              "given": "P_0 = 100, r = 0.0953",
+              "input": "0.0953, 2nd LN, × 100 =",
+              "result": "P_T = 110"
+            }
+          }
+        },
+        {
+          "term_id": "QM-6-007",
+          "term_en": "Expected Return over Multiple Periods",
+          "term_ru": "Ожидаемая доходность за несколько периодов",
+          "definition_en": "The expected continuously compounded return over T periods, assuming one-period returns are independently and identically distributed with mean μ. It equals μ multiplied by the number of periods T.",
+          "definition_ru": "Ожидаемая непрерывно начисляемая доходность за T периодов, предполагая, что однопериодные доходности независимы и одинаково распределены со средним μ. Она равна μ, умноженному на количество периодов T.",
+          "type": "formula",
+          "formula": "$E(r_{0,T}) = \\mu T$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "E(r_{0,T})",
+              "name_en": "Expected return over T periods",
+              "name_ru": "Ожидаемая доходность за T периодов"
+            },
+            {
+              "symbol": "\\mu",
+              "name_en": "Mean one-period return",
+              "name_ru": "Среднее значение однопериодной доходности"
+            },
+            {
+              "symbol": "T",
+              "name_en": "Number of periods",
+              "name_ru": "Количество периодов"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Введите среднюю доходность: μ",
+              "2. Умножьте на количество периодов: [×] T [=]",
+              "3. Результат: ожидаемая доходность за T периодов"
+            ],
+            "example": {
+              "given": "μ = 0.01 per day, T = 250 days",
+              "input": "0.01 × 250 =",
+              "result": "E(r) = 2.5 or 250%"
+            }
+          }
+        },
+        {
+          "term_id": "QM-6-008",
+          "term_en": "Variance over Multiple Periods",
+          "term_ru": "Дисперсия за несколько периодов",
+          "definition_en": "The variance of continuously compounded returns over T periods, assuming one-period returns are independently and identically distributed with variance σ². It equals σ² multiplied by the number of periods T.",
+          "definition_ru": "Дисперсия непрерывно начисляемых доходностей за T периодов, предполагая, что однопериодные доходности независимы и одинаково распределены с дисперсией σ². Она равна σ², умноженной на количество периодов T.",
+          "type": "formula",
+          "formula": "$\\sigma^2(r_{0,T}) = \\sigma^2 T$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "\\sigma^2(r_{0,T})",
+              "name_en": "Variance of returns over T periods",
+              "name_ru": "Дисперсия доходности за T периодов"
+            },
+            {
+              "symbol": "\\sigma^2",
+              "name_en": "Variance of one-period return",
+              "name_ru": "Дисперсия однопериодной доходности"
+            },
+            {
+              "symbol": "T",
+              "name_en": "Number of periods",
+              "name_ru": "Количество периодов"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Введите дисперсию одного периода: σ²",
+              "2. Умножьте на количество периодов: [×] T [=]",
+              "3. Результат: дисперсия за T периодов"
+            ],
+            "example": {
+              "given": "σ² = 0.0004 per day, T = 250 days",
+              "input": "0.0004 × 250 =",
+              "result": "σ²(r) = 0.1"
+            }
+          }
+        },
+        {
+          "term_id": "QM-6-009",
+          "term_en": "Volatility",
+          "term_ru": "Волатильность",
+          "definition_en": "The standard deviation of continuously compounded returns on an underlying asset. It measures the degree of variation in asset returns over time. Conventionally, volatility is annualized based on 250 trading days per year.",
+          "definition_ru": "Стандартное отклонение непрерывно начисляемых доходностей базового актива. Она измеряет степень вариации доходности актива во времени. Обычно волатильность аннуализируется на основе 250 торговых дней в году.",
+          "type": "formula",
+          "formula": "$\\sigma(r_{0,T}) = \\sigma\\sqrt{T}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "\\sigma(r_{0,T})",
+              "name_en": "Standard deviation (volatility) over T periods",
+              "name_ru": "Стандартное отклонение (волатильность) за T периодов"
+            },
+            {
+              "symbol": "\\sigma",
+              "name_en": "Standard deviation of one-period return",
+              "name_ru": "Стандартное отклонение однопериодной доходности"
+            },
+            {
+              "symbol": "T",
+              "name_en": "Number of periods",
+              "name_ru": "Количество периодов"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Введите стандартное отклонение одного периода: σ",
+              "2. Умножьте на квадратный корень из T: [×] [√] T [=]",
+              "3. Результат: волатильность за T периодов"
+            ],
+            "example": {
+              "given": "σ = 0.02 per day, T = 250 days",
+              "input": "0.02 × √250 =",
+              "result": "σ(r) = 0.316 or 31.6%"
+            }
+          }
+        },
+        {
+          "term_id": "QM-6-010",
+          "term_en": "Annualized Volatility",
+          "term_ru": "Аннуализированная волатильность",
+          "definition_en": "The process of converting a shorter-period volatility (such as daily) to an annual measure by multiplying by the square root of the number of periods in a year. Based on 250 trading days per year.",
+          "definition_ru": "Процесс преобразования волатильности более короткого периода (например, дневной) в годовую меру путем умножения на квадратный корень из количества периодов в году. Основывается на 250 торговых днях в году.",
+          "type": "formula",
+          "formula": "$\\sigma_{annualized} = \\sigma_{daily} \\times \\sqrt{250}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "\\sigma_{annualized}",
+              "name_en": "Annualized volatility",
+              "name_ru": "Аннуализированная волатильность"
+            },
+            {
+              "symbol": "\\sigma_{daily}",
+              "name_en": "Daily volatility (standard deviation)",
+              "name_ru": "Дневная волатильность (стандартное отклонение)"
+            },
+            {
+              "symbol": "250",
+              "name_en": "Number of trading days in a year",
+              "name_ru": "Количество торговых дней в году"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Введите дневную волатильность: σ_daily",
+              "2. Умножьте на √250: [×] 15.8114 [=]",
+              "3. Результат: аннуализированная волатильность"
+            ],
+            "example": {
+              "given": "Daily volatility = 0.05",
+              "input": "0.05 × √250 = 0.05 × 15.8114",
+              "result": "σ_annual = 0.79 or 79%"
+            }
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "QM-6-EX-001",
+          "question_en": "Which of the following is true about lognormal distributions compared to normal distributions?",
+          "question_ru": "Что из следующего верно о логнормальных распределениях по сравнению с нормальными распределениями?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "They are skewed to the right.",
+              "text_ru": "Они смещены вправо."
+            },
+            {
+              "letter": "B",
+              "text_en": "They can take on negative values.",
+              "text_ru": "Они могут принимать отрицательные значения."
+            },
+            {
+              "letter": "C",
+              "text_en": "They are less suitable for describing asset prices than asset returns.",
+              "text_ru": "Они менее подходят для описания цен активов, чем доходность активов."
+            }
+          ],
+          "correct_answer": "A",
+          "solution_en": "Lognormal distributions are continuous probability distributions that only take positive values and are often skewed to the right. B is incorrect because lognormal distributions only take on positive values. C is incorrect because there is no evidence to suggest that lognormal distributions are less suitable for describing asset prices than asset returns.",
+          "solution_ru": "Логнормальные распределения - это непрерывные вероятностные распределения, которые принимают только положительные значения и часто смещены вправо. B неверно, потому что логнормальные распределения принимают только положительные значения. C неверно, потому что нет доказательств того, что логнормальные распределения менее подходят для описания цен активов, чем доходности активов."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_6b",
+      "los_code": "6b",
+      "los_description_en": "describe Monte Carlo simulation and explain how it can be used in investment applications",
+      "los_description_ru": "описывать симуляцию Монте-Карло и объяснять, как она может использоваться в инвестиционных приложениях",
+      "terms": [
+        {
+          "term_id": "QM-6-011",
+          "term_en": "Monte Carlo Simulation",
+          "term_ru": "Симуляция Монте-Карло",
+          "definition_en": "A computational technique that uses random sampling to model the probability of different outcomes in a process that cannot easily be predicted due to the intervention of random variables. It produces many random variables based on specific probability distributions to estimate the probability of various results.",
+          "definition_ru": "Вычислительная техника, которая использует случайную выборку для моделирования вероятности различных исходов в процессе, который нелегко предсказать из-за вмешательства случайных переменных. Она производит множество случайных переменных на основе определенных вероятностных распределений для оценки вероятности различных результатов.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-6-012",
+          "term_en": "Simulation Trial",
+          "term_ru": "Пробный расчет симуляции",
+          "definition_en": "A single complete run through all steps of a Monte Carlo simulation, producing one possible outcome. Multiple trials are typically run (e.g., 1,000 or 10,000) to generate a distribution of possible outcomes.",
+          "definition_ru": "Один полный прогон через все шаги симуляции Монте-Карло, производящий один возможный результат. Обычно выполняются множественные пробные расчеты (например, 1000 или 10000) для генерации распределения возможных результатов.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-6-013",
+          "term_en": "Steps in Monte Carlo Simulation",
+          "term_ru": "Шаги симуляции Монте-Карло",
+          "definition_en": "The systematic process of conducting a Monte Carlo simulation: (1) Specify the quantity of interest in terms of underlying variables, (2) Specify a time horizon and divide into sub-periods, (3) Specify probability distributions for generating data, (4) Use simulated values to produce outcomes, (5) Calculate final results, (6) Repeat over required number of trials.",
+          "definition_ru": "Систематический процесс проведения симуляции Монте-Карло: (1) Определить интересующую величину в терминах базовых переменных, (2) Определить временной горизонт и разделить на подпериоды, (3) Определить вероятностные распределения для генерации данных, (4) Использовать смоделированные значения для получения результатов, (5) Рассчитать конечные результаты, (6) Повторить требуемое количество раз.",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-6-014",
+          "term_en": "Standard Normal Random Variable",
+          "term_ru": "Стандартная нормальная случайная величина",
+          "definition_en": "A random variable that follows a normal distribution with mean 0 and standard deviation 1. In Monte Carlo simulation, it represents the uncertainty in portfolio returns (risk factor) and is used to generate random outcomes.",
+          "definition_ru": "Случайная величина, которая следует нормальному распределению со средним 0 и стандартным отклонением 1. В симуляции Монте-Карло она представляет неопределенность в доходности портфеля (фактор риска) и используется для генерации случайных результатов.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-6-015",
+          "term_en": "Applications of Monte Carlo Simulation",
+          "term_ru": "Применение симуляции Монте-Карло",
+          "definition_en": "Monte Carlo simulations are used in finance for: valuing complex securities (American/European options), estimating portfolio returns over time horizons, assessing sensitivity to assumptions (interest rates, volatility), risk management, and scenario analysis.",
+          "definition_ru": "Симуляции Монте-Карло используются в финансах для: оценки сложных ценных бумаг (американских/европейских опционов), оценки доходности портфеля на временных горизонтах, оценки чувствительности к предположениям (процентные ставки, волатильность), управления рисками и сценарного анализа.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-6-016",
+          "term_en": "Limitations of Monte Carlo Simulation",
+          "term_ru": "Ограничения симуляции Монте-Карло",
+          "definition_en": "Monte Carlo simulations have several limitations: (1) They provide only statistical estimates, not exact figures, (2) They are complex and require specialized software that may be expensive, (3) The complexity may cause errors leading to wrong and potentially misleading results.",
+          "definition_ru": "Симуляции Монте-Карло имеют несколько ограничений: (1) Они предоставляют только статистические оценки, а не точные цифры, (2) Они сложны и требуют специализированного программного обеспечения, которое может быть дорогостоящим, (3) Сложность может привести к ошибкам, ведущим к неправильным и потенциально вводящим в заблуждение результатам.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "QM-6-EX-002",
+          "question_en": "Which of the following is a correct statement about the use of Monte Carlo simulations in finance and investment?",
+          "question_ru": "Какое из следующих утверждений о использовании симуляций Монте-Карло в финансах и инвестициях является правильным?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "They provide exact valuations of call options.",
+              "text_ru": "Они предоставляют точные оценки колл-опционов."
+            },
+            {
+              "letter": "B",
+              "text_en": "They estimate a portfolio's potential returns by simulating its performance.",
+              "text_ru": "Они оценивают потенциальную доходность портфеля путем симуляции его производительности."
+            },
+            {
+              "letter": "C",
+              "text_en": "They assess how changes in assumptions, such as interest rates or market volatility, affect a financial model.",
+              "text_ru": "Они оценивают, как изменения предположений, таких как процентные ставки или рыночная волатильность, влияют на финансовую модель."
+            }
+          ],
+          "correct_answer": "C",
+          "solution_en": "Monte Carlo simulations can assess how changes in assumptions, such as interest rates or market volatility, affect a financial model. This allows analysts to understand the impact of these changes on the model's results. A is incorrect because Monte Carlo simulations do not provide exact valuations of call options. Instead, they can estimate the value of these options by simulating their potential outcomes. B is incorrect because while Monte Carlo simulations can estimate a portfolio's potential returns, they do not simply simulate its performance. Instead, they use probability distributions to model the uncertainty in the portfolio's returns.",
+          "solution_ru": "Симуляции Монте-Карло могут оценить, как изменения предположений, таких как процентные ставки или рыночная волатильность, влияют на финансовую модель. Это позволяет аналитикам понять влияние этих изменений на результаты модели. A неверно, потому что симуляции Монте-Карло не предоставляют точные оценки колл-опционов. Вместо этого они могут оценить стоимость этих опционов путем симуляции их потенциальных результатов. B неверно, потому что хотя симуляции Монте-Карло могут оценить потенциальную доходность портфеля, они не просто симулируют его производительность. Вместо этого они используют вероятностные распределения для моделирования неопределенности в доходности портфеля."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_6c",
+      "los_code": "6c",
+      "los_description_en": "describe the use of bootstrap resampling in conducting a simulation based on observed data in investment applications",
+      "los_description_ru": "описывать использование бутстрап-ресэмплинга при проведении симуляции на основе наблюдаемых данных в инвестиционных приложениях",
+      "terms": [
+        {
+          "term_id": "QM-6-017",
+          "term_en": "Resampling",
+          "term_ru": "Повторная выборка (Ресэмплинг)",
+          "definition_en": "A statistical method that involves repeatedly drawing samples from the original observed sample to make statistical inferences about population parameters. Two common resampling methods are Bootstrap and Jackknife.",
+          "definition_ru": "Статистический метод, который включает повторное извлечение выборок из исходной наблюдаемой выборки для получения статистических выводов о параметрах популяции. Два распространенных метода повторной выборки - это Бутстрап и Джекнайф.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-6-018",
+          "term_en": "Bootstrap Resampling",
+          "term_ru": "Бутстрап-ресэмплинг",
+          "definition_en": "A statistical technique that relies on computer simulations for statistical inferences, bypassing the need for conventional analytical formulas. The bootstrap method treats the initially obtained sample as a stand-in for the entire population and repeatedly resamples from it with replacement.",
+          "definition_ru": "Статистический метод, который полагается на компьютерные симуляции для статистических выводов, обходя необходимость в обычных аналитических формулах. Метод бутстрапа рассматривает первоначально полученную выборку как заменитель всей популяции и многократно извлекает из нее выборки с возвращением.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-6-019",
+          "term_en": "Empirical Distribution",
+          "term_ru": "Эмпирическое распределение",
+          "definition_en": "The probability distribution derived directly from observed data rather than from theoretical assumptions. In bootstrap resampling, the empirical distribution of the sample serves as a proxy for the true population distribution.",
+          "definition_ru": "Вероятностное распределение, полученное непосредственно из наблюдаемых данных, а не из теоретических предположений. В бутстрап-ресэмплинге эмпирическое распределение выборки служит заменой для истинного распределения популяции.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "QM-6-020",
+          "term_en": "Bootstrap vs Monte Carlo Simulation",
+          "term_ru": "Бутстрап против симуляции Монте-Карло",
+          "definition_en": "Both techniques use repetitive sampling. The key difference is: Bootstrap draws random variables from a bootstrap sample (empirical distribution of observed data), while Monte Carlo generates random data from predetermined probability distributions (e.g., normal distribution with specified parameters).",
+          "definition_ru": "Обе техники используют повторную выборку. Ключевое отличие: Бутстрап извлекает случайные величины из бутстрап-выборки (эмпирическое распределение наблюдаемых данных), в то время как Монте-Карло генерирует случайные данные из заранее определенных вероятностных распределений (например, нормальное распределение с указанными параметрами).",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "QM-6-EX-003",
+          "question_en": "Which of the following statements is most likely accurate in relation to bootstrap analysis?",
+          "question_ru": "Какое из следующих утверждений наиболее точно в отношении бутстрап-анализа?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Bootstrap analysis aims to deduce statistics about population parameters from a singular sample.",
+              "text_ru": "Бутстрап-анализ нацелен на вывод статистики о параметрах популяции из единичной выборки."
+            },
+            {
+              "letter": "B",
+              "text_en": "Bootstrap analysis involves the repeated extraction of samples of equal size, with replacement, from the initial population.",
+              "text_ru": "Бутстрап-анализ включает повторное извлечение выборок равного размера с возвращением из исходной популяции."
+            },
+            {
+              "letter": "C",
+              "text_en": "During bootstrap analysis, it is necessary for analysts to determine probability distributions for primary risk factors that govern the underlying random variables.",
+              "text_ru": "Во время бутстрап-анализа аналитики должны определить вероятностные распределения для основных факторов риска, которые управляют базовыми случайными переменными."
+            }
+          ],
+          "correct_answer": "A",
+          "solution_en": "The bootstrap analysis employs random sampling to generate an observed variable from a set of unknown population parameters. Although the actual distribution of the population is unknown to the analyst, the parameters of the population can be inferred through the sample produced via random sampling. B is incorrect because in bootstrap analysis, the analyst repeatedly samples from the initial sample, not the entire population. Each resample has the same size as the original sample, and for each new draw, selected items go back into the sample. C is incorrect because during bootstrap analysis, analysts simply utilize the empirical distribution of the observed underlying variables. In contrast, analysts must establish probability distributions for the key risk factors in a Monte Carlo simulation.",
+          "solution_ru": "Бутстрап-анализ использует случайную выборку для генерации наблюдаемой переменной из набора неизвестных параметров популяции. Хотя фактическое распределение популяции неизвестно аналитику, параметры популяции могут быть выведены через выборку, полученную посредством случайной выборки. B неверно, потому что в бутстрап-анализе аналитик многократно извлекает выборки из исходной выборки, а не из всей популяции. Каждая повторная выборка имеет тот же размер, что и исходная выборка, и для каждого нового извлечения выбранные элементы возвращаются в выборку. C неверно, потому что во время бутстрап-анализа аналитики просто используют эмпирическое распределение наблюдаемых базовых переменных. В отличие от этого, аналитики должны установить вероятностные распределения для ключевых факторов риска в симуляции Монте-Карло."
+        }
+      ]
+    }
+  ]
+}
