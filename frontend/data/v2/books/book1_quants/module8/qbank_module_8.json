@@ -7,7 +7,7 @@
     "module_id": 8,
     "module_name": "Parametric and Non-Parametric Tests",
     "module_name_ru": "Параметрические и непараметрические тесты",
-    "total_questions": 40,
+    "total_questions": 50,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -2050,6 +2050,516 @@
         "chi_square_test",
         "variance_testing",
         "hypothesis_testing"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q041",
+      "original_question_number": 244,
+      "los_id": "LOS_8b",
+      "question_text_en": "For two independent samples from two normally distributed populations, the difference in means can most likely be tested using the:",
+      "question_text_ru": "Для двух независимых выборок из двух нормально распределенных популяций разницу в средних наиболее вероятно можно проверить с помощью:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "F-test",
+          "text_ru": "F-теста"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "t-statistic",
+          "text_ru": "t-статистики"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Chi-squared test",
+          "text_ru": "Хи-квадрат теста"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "For two independent samples from two normally distributed populations, the difference in means can be tested using the t-statistic. The t-test is specifically designed for comparing means when population variances are unknown and sample sizes are typically small to moderate.",
+      "explanation_ru": "Для двух независимых выборок из двух нормально распределенных популяций разницу в средних можно проверить с помощью t-статистики. t-тест специально разработан для сравнения средних, когда дисперсии популяции неизвестны, а размеры выборок обычно малые или средние.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The F-test is used to test for the equality in population variance, not mean differences.",
+          "text_ru": "F-тест используется для проверки равенства дисперсий популяции, а не разницы средних."
+        },
+        "opt_c": {
+          "text_en": "The chi-square test is used to test for dependence/independence between categorical variables.",
+          "text_ru": "Хи-квадрат тест используется для проверки зависимости/независимости между категориальными переменными."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "t_test",
+        "difference_in_means",
+        "hypothesis_testing"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q042",
+      "original_question_number": 245,
+      "los_id": "LOS_8c",
+      "question_text_en": "Which of the following statements is most likely correct? Parametric tests are statistical tests in which we make assumptions regarding the distribution of a population. They rely on assumptions regarding the distribution of the population and are specific to population parameters.",
+      "question_text_ru": "Какое из следующих утверждений наиболее вероятно верно? Параметрические тесты - это статистические тесты, в которых мы делаем предположения относительно распределения популяции. Они полагаются на предположения относительно распределения популяции и являются специфичными для параметров популяции.",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Parametric tests do not rely on assumptions regarding the distribution of the population but are specific to population parameters",
+          "text_ru": "Параметрические тесты не полагаются на предположения относительно распределения популяции, но являются специфичными для параметров популяции"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Parametric tests rely on assumptions regarding the distribution of the population but are not specific to population parameters",
+          "text_ru": "Параметрические тесты полагаются на предположения относительно распределения популяции, но не являются специфичными для параметров популяции"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Neither A) nor B)",
+          "text_ru": "Ни A), ни B)"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Parametric tests are statistical tests in which we make assumptions regarding the distribution of a population. They rely on assumptions regarding the distribution of the population and are specific to population parameters. Assuming that a variable follows a normal distribution is an example of a parametric test. Non-parametric tests, on the other hand, do not make any assumptions regarding the distribution of the parameter under study.",
+      "explanation_ru": "Параметрические тесты - это статистические тесты, в которых мы делаем предположения относительно распределения популяции. Они полагаются на предположения относительно распределения популяции и являются специфичными для параметров популяции. Предположение о том, что переменная следует нормальному распределению, является примером параметрического теста. Непараметрические тесты, с другой стороны, не делают никаких предположений относительно распределения изучаемого параметра.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "This option inaccurately states that parametric tests do not rely on assumptions regarding the distribution of the population. In reality, the defining characteristic of parametric tests is their reliance on such assumptions.",
+          "text_ru": "Этот вариант неточно утверждает, что параметрические тесты не полагаются на предположения относительно распределения популяции. На самом деле определяющей характеристикой параметрических тестов является их зависимость от таких предположений."
+        },
+        "opt_b": {
+          "text_en": "It inaccurately claims that these tests are not specific to population parameters. On the contrary, parametric tests are specifically designed to make inferences about population parameters.",
+          "text_ru": "Неточно утверждает, что эти тесты не являются специфичными для параметров популяции. Напротив, параметрические тесты специально разработаны для вывода о параметрах популяции."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "parametric_tests",
+        "nonparametric_tests",
+        "test_selection"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q043",
+      "original_question_number": 246,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following is the most accurate sequence of steps in hypothesis testing?",
+      "question_text_ru": "Какая из следующих последовательностей шагов в проверке гипотез наиболее точна?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "State the hypothesis, select the level of significance, compute the test statistic, formulate the decision rule, and make a decision",
+          "text_ru": "Сформулировать гипотезу, выбрать уровень значимости, вычислить тестовую статистику, сформулировать правило принятия решения и принять решение"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "State the hypothesis, select the significance level, formulate the decision rule, compute the test statistic, and make a decision",
+          "text_ru": "Сформулировать гипотезу, выбрать уровень значимости, сформулировать правило принятия решения, вычислить тестовую статистику и принять решение"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "State the hypothesis, formulate the decision rule, select the significance level, compute the test statistic, and make a decision",
+          "text_ru": "Сформулировать гипотезу, сформулировать правило принятия решения, выбрать уровень значимости, вычислить тестовую статистику и принять решение"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The correct sequence is: 1) State the hypothesis, 2) Select the level of significance, 3) Formulate the decision rule, 4) Compute the test statistic, 5) Make a decision. The decision rule, which is based on the significance level and the distribution of the test statistic under the null hypothesis, should be established before computing the test statistic.",
+      "explanation_ru": "Правильная последовательность: 1) Сформулировать гипотезу, 2) Выбрать уровень значимости, 3) Сформулировать правило принятия решения, 4) Вычислить тестовую статистику, 5) Принять решение. Правило принятия решения, которое основано на уровне значимости и распределении тестовой статистики при нулевой гипотезе, должно быть установлено до вычисления тестовой статистики.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "It suggests computing the test statistic before formulating the decision rule. This sequence is not optimal as the decision rule should be established before computing the test statistic.",
+          "text_ru": "Предлагает вычислить тестовую статистику перед формулированием правила принятия решения. Эта последовательность не оптимальна, так как правило принятия решения должно быть установлено до вычисления тестовой статистики."
+        },
+        "opt_c": {
+          "text_en": "The significance level is a critical component in formulating the decision rule. Without selecting the significance level first, it would not be possible to formulate an appropriate decision rule.",
+          "text_ru": "Уровень значимости является критическим компонентом при формулировании правила принятия решения. Без предварительного выбора уровня значимости невозможно сформулировать соответствующее правило принятия решения."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "hypothesis_testing",
+        "test_procedure",
+        "decision_rule"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q044",
+      "original_question_number": 247,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following statements about hypothesis testing is the least accurate? If the alternative hypothesis is Hₐ: M > M₀, a two-tailed test is appropriate.",
+      "question_text_ru": "Какое из следующих утверждений о проверке гипотез наименее точно? Если альтернативная гипотеза Hₐ: M > M₀, подходит двусторонний тест.",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "A Type II error is failing to reject a false null hypothesis",
+          "text_ru": "Ошибка типа II - это неспособность отклонить ложную нулевую гипотезу"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The null hypothesis is a statement about the value of a population parameter",
+          "text_ru": "Нулевая гипотеза - это утверждение о значении параметра популяции"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "If the alternative hypothesis is Hₐ: M > M₀, a two-tailed test is appropriate",
+          "text_ru": "Если альтернативная гипотеза Hₐ: M > M₀, подходит двусторонний тест"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "The alternative is a one-sided test if the '>' or '<' sign is used and two-sided when the '≠' sign is used. When the alternative hypothesis is Hₐ: M > M₀, this indicates a one-tailed test, not a two-tailed test. A two-tailed test would have an alternative hypothesis of the form Hₐ: M ≠ M₀.",
+      "explanation_ru": "Альтернатива является односторонним тестом, если используется знак '>' или '<', и двусторонним, когда используется знак '≠'. Когда альтернативная гипотеза Hₐ: M > M₀, это указывает на односторонний тест, а не двусторонний. Двусторонний тест имел бы альтернативную гипотезу вида Hₐ: M ≠ M₀.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Type II error is failing to reject a false null hypothesis. This is a correct statement.",
+          "text_ru": "Ошибка типа II - это неспособность отклонить ложную нулевую гипотезу. Это правильное утверждение."
+        },
+        "opt_b": {
+          "text_en": "The hypotheses are always stated in terms of a population parameter. This is a correct statement.",
+          "text_ru": "Гипотезы всегда формулируются в терминах параметра популяции. Это правильное утверждение."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "one_tailed_test",
+        "two_tailed_test",
+        "hypothesis_formulation"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q045",
+      "original_question_number": 248,
+      "los_id": "LOS_8b",
+      "question_text_en": "For the calculation of the test statistic, the most appropriate formula is:",
+      "question_text_ru": "Для расчета тестовой статистики наиболее подходящая формула:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "(Sample Mean - Hypothesized mean) / (Standard error of sample mean)",
+          "text_ru": "(Среднее выборки - Гипотетическое среднее) / (Стандартная ошибка среднего выборки)"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "(Population Mean - Sample Mean) / (Standard error of sample mean)",
+          "text_ru": "(Среднее популяции - Среднее выборки) / (Стандартная ошибка среднего выборки)"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "(Population Mean - Sample Mean) / (Standard Deviation)",
+          "text_ru": "(Среднее популяции - Среднее выборки) / (Стандартное отклонение)"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The test statistic is a quantity that is calculated based on a sample. The value of a test statistic is used to determine whether or not to reject the null hypothesis. The appropriate formula for the calculation of the test statistic is: Test statistic = (Sample Mean - Hypothesized mean) / (Standard error of the sample mean).",
+      "explanation_ru": "Тестовая статистика - это величина, которая вычисляется на основе выборки. Значение тестовой статистики используется для определения того, отклонять или нет нулевую гипотезу. Подходящая формула для расчета тестовой статистики: Тестовая статистика = (Среднее выборки - Гипотетическое среднее) / (Стандартная ошибка среднего выборки).",
+      "explanation_formula": "$\\text{Test statistic} = \\frac{\\bar{X} - \\mu_0}{\\frac{s}{\\sqrt{n}}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "In hypothesis testing, the focus is on how the sample mean compares to a hypothesized population mean, not the other way around. The standard error of the sample mean is the appropriate denominator.",
+          "text_ru": "При проверке гипотез основное внимание уделяется тому, как среднее выборки сравнивается с гипотетическим средним популяции, а не наоборот. Стандартная ошибка среднего выборки является подходящим знаменателем."
+        },
+        "opt_c": {
+          "text_en": "The use of the standard deviation instead of the standard error of the sample mean does not account for the size of the sample, which is crucial in determining the variability of the sample mean.",
+          "text_ru": "Использование стандартного отклонения вместо стандартной ошибки среднего выборки не учитывает размер выборки, что имеет решающее значение для определения вариабельности среднего выборки."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "test_statistic",
+        "hypothesis_testing",
+        "formula"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q046",
+      "original_question_number": 249,
+      "los_id": "LOS_8b",
+      "question_text_en": "While performing a hypothesis test, Albert Khan is told that his analysis suffers from a Type I error. It therefore most likely indicates that:",
+      "question_text_ru": "При выполнении проверки гипотезы Альберту Хану сказали, что его анализ содержит ошибку типа I. Поэтому это наиболее вероятно указывает на то, что:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Khan rejected the null hypothesis when it was actually false",
+          "text_ru": "Хан отклонил нулевую гипотезу, когда она на самом деле была ложной"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Khan rejected the null hypothesis when it was actually true",
+          "text_ru": "Хан отклонил нулевую гипотезу, когда она на самом деле была верной"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Khan failed to reject the null hypothesis when it was actually false",
+          "text_ru": "Хан не смог отклонить нулевую гипотезу, когда она на самом деле была ложной"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "A Type I error means that Khan rejected the null hypothesis when it was actually true. A Type I error occurs when we reject a true null hypothesis. The probability of making a Type I error is denoted by α (alpha), which is also known as the significance level of the test.",
+      "explanation_ru": "Ошибка типа I означает, что Хан отклонил нулевую гипотезу, когда она на самом деле была верной. Ошибка типа I происходит, когда мы отклоняем верную нулевую гипотезу. Вероятность совершения ошибки типа I обозначается α (альфа), которая также известна как уровень значимости теста.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "It does not represent any error. We reject the null hypothesis when it is false. This is the correct decision.",
+          "text_ru": "Это не представляет никакой ошибки. Мы отклоняем нулевую гипотезу, когда она ложна. Это правильное решение."
+        },
+        "opt_c": {
+          "text_en": "It represents Type II error. Type II error occurs when analysts fail to reject a false null hypothesis.",
+          "text_ru": "Это представляет ошибку типа II. Ошибка типа II происходит, когда аналитики не отклоняют ложную нулевую гипотезу."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "type_I_error",
+        "type_II_error",
+        "hypothesis_testing"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q047",
+      "original_question_number": 250,
+      "los_id": "LOS_8b",
+      "question_text_en": "Is the following statement most likely correct? 'The decision rule for rejecting or failing to reject the null hypothesis is based on the distribution of the test statistic. If the test statistic follows a normal distribution, the decision rule is based on critical values determined from the z-distribution.'",
+      "question_text_ru": "Является ли следующее утверждение наиболее вероятно правильным? 'Правило принятия решения об отклонении или неотклонении нулевой гипотезы основано на распределении тестовой статистики. Если тестовая статистика следует нормальному распределению, правило принятия решения основано на критических значениях, определенных из z-распределения.'",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Yes",
+          "text_ru": "Да"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "No, because if the test statistic follows a normal distribution, the decision rule is based on critical values determined from the t-distribution",
+          "text_ru": "Нет, потому что если тестовая статистика следует нормальному распределению, правило принятия решения основано на критических значениях, определенных из t-распределения"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "No, because the decision rule for rejecting or failing to reject the null hypothesis is based on the value of the test statistic and the critical value",
+          "text_ru": "Нет, потому что правило принятия решения об отклонении или неотклонении нулевой гипотезы основано на значении тестовой статистики и критическом значении"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The statement is correct. The decision rule for rejecting or failing to reject the null hypothesis is based on the distribution of the test statistic. If the test statistic follows a normal distribution, the decision rule is based on critical values determined from the z-distribution. The z-distribution is specifically used for test statistics that follow a normal distribution, especially in cases where the population variance is known, or the sample size is sufficiently large for the Central Limit Theorem to apply.",
+      "explanation_ru": "Утверждение верно. Правило принятия решения об отклонении или неотклонении нулевой гипотезы основано на распределении тестовой статистики. Если тестовая статистика следует нормальному распределению, правило принятия решения основано на критических значениях, определенных из z-распределения. z-распределение специально используется для тестовых статистик, которые следуют нормальному распределению, особенно в случаях, когда дисперсия популяции известна, или размер выборки достаточно велик для применения центральной предельной теоремы.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "This option incorrectly suggests that the decision rule does not rely on the distribution of the test statistic and the critical values from the z-distribution when the test statistic follows a normal distribution.",
+          "text_ru": "Этот вариант неправильно предполагает, что правило принятия решения не зависит от распределения тестовой статистики и критических значений из z-распределения, когда тестовая статистика следует нормальному распределению."
+        },
+        "opt_c": {
+          "text_en": "This option misstates the conditions. While it is true that the decision rule involves comparing the test statistic to critical values, the choice of distribution depends on the known or unknown status of the population variance and the sample size.",
+          "text_ru": "Этот вариант неправильно формулирует условия. Хотя верно, что правило принятия решения включает сравнение тестовой статистики с критическими значениями, выбор распределения зависит от известного или неизвестного статуса дисперсии популяции и размера выборки."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "decision_rule",
+        "z_distribution",
+        "critical_values"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q048",
+      "original_question_number": 251,
+      "los_id": "LOS_8b",
+      "question_text_en": "A two-tailed hypothesis test at the 95% significance level with a p-value of 2.14% most likely indicates that:",
+      "question_text_ru": "Двусторонний тест гипотезы на уровне значимости 95% с p-значением 2,14% наиболее вероятно указывает на то, что:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "at a 2% significance level, we can reject the null hypothesis",
+          "text_ru": "на уровне значимости 2% мы можем отклонить нулевую гипотезу"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "at a 3% significance level, we can reject the null hypothesis",
+          "text_ru": "на уровне значимости 3% мы можем отклонить нулевую гипотезу"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "at a 3% significance level, we cannot reject the null hypothesis",
+          "text_ru": "на уровне значимости 3% мы не можем отклонить нулевую гипотезу"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The p-value is the smallest level of significance for which the null hypothesis can be rejected. At 2.14% and any level above 2.14%, the null hypothesis can be rejected. Since the p-value of 2.14% is less than 3%, we can reject the null hypothesis at a 3% significance level. However, since 2.14% is greater than 2%, we cannot reject at a 2% significance level.",
+      "explanation_ru": "P-значение - это наименьший уровень значимости, при котором нулевая гипотеза может быть отклонена. При 2,14% и любом уровне выше 2,14% нулевая гипотеза может быть отклонена. Поскольку p-значение 2,14% меньше 3%, мы можем отклонить нулевую гипотезу на уровне значимости 3%. Однако, поскольку 2,14% больше 2%, мы не можем отклонить на уровне значимости 2%.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Since the p-value of 2.14% is greater than 2%, it does not meet the criteria for rejection at this stricter significance level. The p-value must be less than or equal to the significance level to justify rejecting the null hypothesis.",
+          "text_ru": "Поскольку p-значение 2,14% больше 2%, оно не соответствует критериям отклонения на этом более строгом уровне значимости. P-значение должно быть меньше или равно уровню значимости, чтобы обосновать отклонение нулевой гипотезы."
+        },
+        "opt_c": {
+          "text_en": "The p-value indicates the probability of obtaining a result at least as extreme as the one observed, assuming the null hypothesis is true. A p-value lower than the significance level suggests that such extreme results are unlikely under the null hypothesis, leading to its rejection.",
+          "text_ru": "P-значение указывает на вероятность получения результата, по крайней мере, такого же экстремального, как наблюдаемый, при условии, что нулевая гипотеза верна. P-значение ниже уровня значимости предполагает, что такие экстремальные результаты маловероятны при нулевой гипотезе, что приводит к ее отклонению."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "p_value",
+        "significance_level",
+        "hypothesis_testing"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q049",
+      "original_question_number": 252,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following statement(s) is/are most accurate? I. Decreasing the significance level will decrease the probability of failing to reject a false null. II. Decreasing the significance level will increase the power of the test.",
+      "question_text_ru": "Какое из следующих утверждений наиболее точно? I. Уменьшение уровня значимости уменьшит вероятность неотклонения ложной нулевой гипотезы. II. Уменьшение уровня значимости увеличит мощность теста.",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Only II is correct",
+          "text_ru": "Только II правильно"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "I and II are correct",
+          "text_ru": "I и II правильны"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "I and II are incorrect",
+          "text_ru": "I и II неправильны"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Decreasing the significance level will INCREASE the probability of failing to reject a false null (Type II error) and DECREASE the power of the test. The power of a test is defined as 1 - β, where β is the probability of a Type II error. As α (significance level) decreases, the criteria for rejecting the null hypothesis become more stringent, making it more difficult to detect a true effect, thus increasing β and decreasing power.",
+      "explanation_ru": "Уменьшение уровня значимости УВЕЛИЧИТ вероятность неотклонения ложной нулевой гипотезы (ошибка типа II) и УМЕНЬШИТ мощность теста. Мощность теста определяется как 1 - β, где β - вероятность ошибки типа II. По мере уменьшения α (уровня значимости) критерии отклонения нулевой гипотезы становятся более строгими, что затрудняет обнаружение истинного эффекта, таким образом увеличивая β и уменьшая мощность.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "As α decreases, the likelihood of rejecting the null hypothesis when it is false (i.e., detecting a true effect) decreases, thus reducing the power of the test.",
+          "text_ru": "По мере уменьшения α вероятность отклонения нулевой гипотезы, когда она ложна (т.е. обнаружение истинного эффекта), уменьшается, таким образом снижая мощность теста."
+        },
+        "opt_b": {
+          "text_en": "Statement I posits that decreasing the significance level will decrease the probability of failing to reject a false null hypothesis. In reality, decreasing the significance level increases the probability of failing to reject a false null hypothesis (β), which is the definition of a Type II error.",
+          "text_ru": "Утверждение I предполагает, что уменьшение уровня значимости уменьшит вероятность неотклонения ложной нулевой гипотезы. На самом деле уменьшение уровня значимости увеличивает вероятность неотклонения ложной нулевой гипотезы (β), что является определением ошибки типа II."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": [
+        "significance_level",
+        "power_of_test",
+        "type_II_error"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q050",
+      "original_question_number": 253,
+      "los_id": "LOS_8b",
+      "question_text_en": "A survey is conducted to determine if the average starting salary of investment bankers is equal to or greater than $57,000 per year. Given a sample of 115 newly employed investment bankers with a mean starting salary of $65,000 and a standard deviation of $4,500, and assuming a normal distribution, the test statistic is closest to:",
+      "question_text_ru": "Проводится опрос, чтобы определить, равна ли средняя начальная зарплата инвестиционных банкиров $57,000 в год или больше. Дана выборка из 115 недавно нанятых инвестиционных банкиров со средней начальной зарплатой $65,000 и стандартным отклонением $4,500, и при условии нормального распределения, тестовая статистика наиболее близка к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "19.06",
+          "text_ru": "19,06"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "204.40",
+          "text_ru": "204,40"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "419.62",
+          "text_ru": "419,62"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Standard error of the sample mean = Standard deviation / √Sample size = $4,500 / √115 = 419.6272. Test statistic = (Sample mean - Hypothesized value) / (Standard error of the sample mean) = (65,000 - 57,000) / 419.6272 = 19.06",
+      "explanation_ru": "Стандартная ошибка среднего выборки = Стандартное отклонение / √Размер выборки = $4,500 / √115 = 419,6272. Тестовая статистика = (Среднее выборки - Гипотетическое значение) / (Стандартная ошибка среднего выборки) = (65,000 - 57,000) / 419,6272 = 19,06",
+      "explanation_formula": "$\\text{SE} = \\frac{s}{\\sqrt{n}} = \\frac{4500}{\\sqrt{115}} = 419.63$ \n\n$\\text{Test statistic} = \\frac{\\bar{x} - \\mu_0}{SE} = \\frac{65000 - 57000}{419.63} = 19.06$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "It indicates the test statistic without finding the square root of the sample size.",
+          "text_ru": "Указывает тестовую статистику без извлечения квадратного корня из размера выборки."
+        },
+        "opt_c": {
+          "text_en": "It is the standard error of the mean, not the test statistic.",
+          "text_ru": "Это стандартная ошибка среднего, а не тестовая статистика."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "test_statistic",
+        "hypothesis_testing",
+        "calculation"
       ]
     }
   ]
