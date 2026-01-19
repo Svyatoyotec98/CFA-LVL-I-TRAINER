@@ -1192,8 +1192,25 @@ let calculatorTemplates = {};
 
 async function loadGlossary(moduleId = 1) {
     try {
+        // Map bookId to folder name
+        const bookFolders = {
+            1: 'book1_quants',
+            2: 'book2_economics',
+            3: 'book3_fsa',
+            4: 'book4_corporate',
+            5: 'book5_equity',
+            6: 'book6_fixed_income',
+            7: 'book7_derivatives',
+            8: 'book8_alternatives',
+            9: 'book9_portfolio',
+            10: 'book10_ethics'
+        };
+
+        const bookId = state.currentBook?.id || 1;
+        const bookFolder = bookFolders[bookId];
+
         // Загружаем глоссарий для выбранного модуля
-        const response = await fetch(`data/v2/books/book1_quants/module${moduleId}/glossary_module_${moduleId}.json`);
+        const response = await fetch(`data/v2/books/${bookFolder}/module${moduleId}/glossary_module_${moduleId}.json`);
         const data = await response.json();
         glossaryData = data;
 
