@@ -7,7 +7,7 @@
     "module_id": 8,
     "module_name": "Parametric and Non-Parametric Tests",
     "module_name_ru": "Параметрические и непараметрические тесты",
-    "total_questions": 10,
+    "total_questions": 20,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -519,6 +519,516 @@
         "chi_square_test",
         "variance_testing",
         "hypothesis_testing"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q011",
+      "original_question_number": 214,
+      "los_id": "LOS_8b",
+      "question_text_en": "For two independent samples from two normally distributed populations, the difference in means can most likely be tested using the:",
+      "question_text_ru": "Для двух независимых выборок из двух нормально распределенных популяций разность средних наиболее вероятно может быть проверена с использованием:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "F-test.",
+          "text_ru": "F-теста."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "t-statistic.",
+          "text_ru": "t-статистики."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Chi-squared test.",
+          "text_ru": "Хи-квадрат теста."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "For two independent samples from two normally distributed populations, the difference in means can be tested using the t-statistic.",
+      "explanation_ru": "Для двух независимых выборок из двух нормально распределенных популяций разность средних может быть проверена с использованием t-статистики.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The F-test is used to test for the equality in population variance, not mean differences.",
+          "text_ru": "F-тест используется для проверки равенства дисперсий популяции, а не разности средних."
+        },
+        "opt_c": {
+          "text_en": "The chi-square test is used to test for dependence/independence between categorical variables.",
+          "text_ru": "Хи-квадрат тест используется для проверки зависимости/независимости между категориальными переменными."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "t_test",
+        "difference_in_means",
+        "independent_samples"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q012",
+      "original_question_number": 215,
+      "los_id": "LOS_8c",
+      "question_text_en": "Which of the following statements is most likely correct?",
+      "question_text_ru": "Какое из следующих утверждений наиболее вероятно верно?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Parametric tests do not rely on assumptions regarding the distribution of the population but are specific to population parameters.",
+          "text_ru": "Параметрические тесты не опираются на предположения относительно распределения популяции, но специфичны для параметров популяции."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Parametric tests rely on assumptions regarding the distribution of the population but are not specific to population parameters.",
+          "text_ru": "Параметрические тесты опираются на предположения относительно распределения популяции, но не специфичны для параметров популяции."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Neither A) nor B)",
+          "text_ru": "Ни A), ни B)"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Parametric tests are statistical tests in which we make assumptions regarding the distribution of a population. They rely on assumptions regarding the distribution of the population and are specific to population parameters. Assuming that a variable follows a normal distribution is an example of a parametric test. Non-parametric tests, on the other hand, do not make any assumptions regarding the distribution of the parameter under study.",
+      "explanation_ru": "Параметрические тесты - это статистические тесты, в которых мы делаем предположения относительно распределения популяции. Они опираются на предположения относительно распределения популяции и специфичны для параметров популяции. Предположение о том, что переменная следует нормальному распределению, является примером параметрического теста. Непараметрические тесты, с другой стороны, не делают никаких предположений относительно распределения изучаемого параметра.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "This option inaccurately states that parametric tests do not rely on assumptions regarding the distribution of the population. In reality, the defining characteristic of parametric tests is their reliance on such assumptions.",
+          "text_ru": "Этот вариант неточно утверждает, что параметрические тесты не опираются на предположения относительно распределения популяции. В действительности, определяющей характеристикой параметрических тестов является их зависимость от таких предположений."
+        },
+        "opt_b": {
+          "text_en": "It inaccurately claims that these tests are not specific to population parameters. On the contrary, parametric tests are specifically designed to make inferences about population parameters, such as means, variances, and proportions.",
+          "text_ru": "Он неточно утверждает, что эти тесты не специфичны для параметров популяции. Напротив, параметрические тесты специально разработаны для того, чтобы делать выводы о параметрах популяции, таких как средние значения, дисперсии и пропорции."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "parametric_tests",
+        "nonparametric_tests",
+        "test_assumptions"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q013",
+      "original_question_number": 216,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following is the most accurate sequence of steps in hypothesis testing?",
+      "question_text_ru": "Какая из следующих последовательностей шагов в тестировании гипотез наиболее точна?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "State the hypothesis, select the level of significance, compute the test statistic, formulate the decision rule, and make a decision.",
+          "text_ru": "Сформулировать гипотезу, выбрать уровень значимости, вычислить тестовую статистику, сформулировать правило принятия решения и принять решение."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "State the hypothesis, select the significance level, formulate the decision rule, compute the test statistic, and make a decision.",
+          "text_ru": "Сформулировать гипотезу, выбрать уровень значимости, сформулировать правило принятия решения, вычислить тестовую статистику и принять решение."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "State the hypothesis, formulate the decision rule, select the significance level, compute the test statistic, and make a decision.",
+          "text_ru": "Сформулировать гипотезу, сформулировать правило принятия решения, выбрать уровень значимости, вычислить тестовую статистику и принять решение."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The correct sequence is: 1. State the hypothesis 2. Select the level of significance 3. Formulate the decision rule 4. Compute the test statistic 5. Make a decision",
+      "explanation_ru": "Правильная последовательность: 1. Сформулировать гипотезу 2. Выбрать уровень значимости 3. Сформулировать правило принятия решения 4. Вычислить тестовую статистику 5. Принять решение",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "It suggests computing the test statistic before formulating the decision rule. This sequence is not optimal as the decision rule, which is based on the significance level and the distribution of the test statistic under the null hypothesis, should be established before computing the test statistic.",
+          "text_ru": "Он предполагает вычисление тестовой статистики перед формулированием правила принятия решения. Эта последовательность не оптимальна, так как правило принятия решения, которое основано на уровне значимости и распределении тестовой статистики при нулевой гипотезе, должно быть установлено до вычисления тестовой статистики."
+        },
+        "opt_c": {
+          "text_en": "The significance level is a critical component in formulating the decision rule. The significance level, often denoted as α, determines the threshold for rejecting the null hypothesis. Without selecting the significance level first, it would not be possible to formulate an appropriate decision rule.",
+          "text_ru": "Уровень значимости является критическим компонентом в формулировании правила принятия решения. Уровень значимости, часто обозначаемый как α, определяет порог для отклонения нулевой гипотезы. Без предварительного выбора уровня значимости невозможно сформулировать соответствующее правило принятия решения."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "hypothesis_testing",
+        "testing_procedure",
+        "decision_rule"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q014",
+      "original_question_number": 217,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following statements about hypothesis testing is the least accurate?",
+      "question_text_ru": "Какое из следующих утверждений о тестировании гипотез наименее точно?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "A Type II error is failing to reject a false null hypothesis.",
+          "text_ru": "Ошибка второго рода - это неспособность отклонить ложную нулевую гипотезу."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The null hypothesis is a statement about the value of a population parameter.",
+          "text_ru": "Нулевая гипотеза - это утверждение о значении параметра популяции."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "If the alternative hypothesis is Hₐ: M > M₀, a two-tailed test is appropriate.",
+          "text_ru": "Если альтернативная гипотеза Hₐ: M > M₀, уместен двусторонний тест."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "The alternative is a one-sided test if the '>' or '<' sign is used and two-sided when the '=' sign is used.",
+      "explanation_ru": "Альтернатива является односторонним тестом, если используется знак '>' или '<', и двусторонним, когда используется знак '='.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Type II error is failing to reject a false null hypothesis.",
+          "text_ru": "Ошибка второго рода - это неспособность отклонить ложную нулевую гипотезу."
+        },
+        "opt_b": {
+          "text_en": "The hypotheses are always stated in terms of a population parameter.",
+          "text_ru": "Гипотезы всегда формулируются в терминах параметра популяции."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "hypothesis_testing",
+        "one_tailed_test",
+        "two_tailed_test"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q015",
+      "original_question_number": 218,
+      "los_id": "LOS_8b",
+      "question_text_en": "For the calculation of the test statistic, the most appropriate formula is:",
+      "question_text_ru": "Для расчета тестовой статистики наиболее подходящей формулой является:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "(Sample Mean - Hypothesized mean) / (Standard error of sample mean)",
+          "text_ru": "(Выборочное среднее - Гипотетическое среднее) / (Стандартная ошибка выборочного среднего)"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "(Population Mean - Sample Mean) / (Standard error of sample mean)",
+          "text_ru": "(Среднее популяции - Выборочное среднее) / (Стандартная ошибка выборочного среднего)"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "(Population Mean - Sample Mean) / (Standard Deviation)",
+          "text_ru": "(Среднее популяции - Выборочное среднее) / (Стандартное отклонение)"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The test statistic is a quantity that is calculated based on a sample. The value of a test statistic is used to determine whether or not to reject the null hypothesis. The appropriate formula for the calculation of the test statistic is: Test statistic = (Sample Mean - Hypothesized mean) / (Standard error of the sample mean).",
+      "explanation_ru": "Тестовая статистика - это величина, которая рассчитывается на основе выборки. Значение тестовой статистики используется для определения, отклонять ли нулевую гипотезу. Подходящая формула для расчета тестовой статистики: Тестовая статистика = (Выборочное среднее - Гипотетическое среднее) / (Стандартная ошибка выборочного среднего).",
+      "explanation_formula": "$\\text{Test statistic} = \\frac{\\bar{X} - \\mu_0}{\\frac{s}{\\sqrt{n}}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "In hypothesis testing, the focus is on how the sample mean compares to a hypothesized population mean, not the other way around. Additionally, the denominator should be the standard error of the sample mean, not the standard deviation of the sample.",
+          "text_ru": "В тестировании гипотез фокус находится на том, как выборочное среднее сравнивается с гипотетическим средним популяции, а не наоборот. Кроме того, знаменатель должен быть стандартной ошибкой выборочного среднего, а не стандартным отклонением выборки."
+        },
+        "opt_c": {
+          "text_en": "The use of the standard deviation instead of the standard error of the sample mean does not account for the size of the sample, which is crucial in determining the variability of the sample mean.",
+          "text_ru": "Использование стандартного отклонения вместо стандартной ошибки выборочного среднего не учитывает размер выборки, который имеет решающее значение для определения изменчивости выборочного среднего."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "test_statistic",
+        "hypothesis_testing",
+        "formulas"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q016",
+      "original_question_number": 219,
+      "los_id": "LOS_8b",
+      "question_text_en": "The most appropriate hypothesis test concerning the variance of a normally distributed population is referred to as the:",
+      "question_text_ru": "Наиболее подходящий тест гипотез относительно дисперсии нормально распределенной популяции называется:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Z-test.",
+          "text_ru": "Z-тест."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "F-test.",
+          "text_ru": "F-тест."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Chi-squared test.",
+          "text_ru": "Хи-квадрат тест."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "A chi-squared (χ²) statistic is used to investigate whether distributions of categorical variables differ from one another.",
+      "explanation_ru": "Статистика хи-квадрат (χ²) используется для исследования того, отличаются ли распределения категориальных переменных друг от друга.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The Z test is used when comparing the means of two distributions with known variances.",
+          "text_ru": "Z-тест используется при сравнении средних двух распределений с известными дисперсиями."
+        },
+        "opt_b": {
+          "text_en": "The F test is used when checking for the equality of two population variances.",
+          "text_ru": "F-тест используется при проверке равенства двух дисперсий популяции."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "chi_square_test",
+        "variance_testing",
+        "hypothesis_testing"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q017",
+      "original_question_number": 220,
+      "los_id": "LOS_8c",
+      "question_text_en": "Which of the following statement(s) is/are most accurate? I. Nonparametric tests have more assumptions than parametric tests. II. When data is based on ordinal measurements, we use nonparametric tests.",
+      "question_text_ru": "Какое из следующих утверждений наиболее точно? I. Непараметрические тесты имеют больше предположений, чем параметрические тесты. II. Когда данные основаны на порядковых измерениях, мы используем непараметрические тесты.",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Both statements are correct.",
+          "text_ru": "Оба утверждения верны."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Both statements are incorrect.",
+          "text_ru": "Оба утверждения неверны."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Only one statement is correct.",
+          "text_ru": "Только одно утверждение верно."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Statement I is incorrect. Nonparametric tests have fewer assumptions than parametric tests. Statement II is correct. When data is based on ordinal measurements, we use nonparametric tests. Non-parametric tests are also used when: the median is more desirable than the mean and when the sample size is extremely small.",
+      "explanation_ru": "Утверждение I неверно. Непараметрические тесты имеют меньше предположений, чем параметрические тесты. Утверждение II верно. Когда данные основаны на порядковых измерениях, мы используем непараметрические тесты. Непараметрические тесты также используются, когда: медиана более желательна, чем среднее значение, и когда размер выборки чрезвычайно мал.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Statement I is incorrect because nonparametric tests have fewer assumptions than parametric tests.",
+          "text_ru": "Утверждение I неверно, потому что непараметрические тесты имеют меньше предположений, чем параметрические тесты."
+        },
+        "opt_b": {
+          "text_en": "Statement II is correct. When data is based on ordinal measurements, we use nonparametric tests.",
+          "text_ru": "Утверждение II верно. Когда данные основаны на порядковых измерениях, мы используем непараметрические тесты."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "nonparametric_tests",
+        "parametric_tests",
+        "ordinal_data"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q018",
+      "original_question_number": 221,
+      "los_id": "LOS_8b",
+      "question_text_en": "A large positive value of the Spearman rank correlation such as 0.90 would most likely indicate that:",
+      "question_text_ru": "Большое положительное значение корреляции рангов Спирмена, такое как 0,90, наиболее вероятно указывает на то, что:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "a high rank in one year is associated with a low rank in the second year.",
+          "text_ru": "высокий ранг в один год связан с низким рангом во второй год."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "a high rank in one year is associated with a high rank in the second year.",
+          "text_ru": "высокий ранг в один год связан с высоким рангом во второй год."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "a high rank in one year will not have any impact on the rank in the second year.",
+          "text_ru": "высокий ранг в один год не будет иметь никакого влияния на ранг во второй год."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "A large positive value of the Spearman rank correlation such as 0.90 would most likely indicate that a high rank in one year is associated with a high rank in the second year. In statistics, Spearman's rank correlation coefficient or Spearman's rho is a non-parametric measure of statistical dependence between two variables. It takes values from -1 to 1. The closer to 1 or to -1, the stronger the relationship. 1 indicates a perfect positive association/relationship, whereas -1 indicates a perfect negative association between variables.",
+      "explanation_ru": "Большое положительное значение корреляции рангов Спирмена, такое как 0,90, наиболее вероятно указывает на то, что высокий ранг в один год связан с высоким рангом во второй год. В статистике коэффициент корреляции рангов Спирмена или ро Спирмена является непараметрической мерой статистической зависимости между двумя переменными. Он принимает значения от -1 до 1. Чем ближе к 1 или к -1, тем сильнее связь. 1 указывает на идеальную положительную связь/отношение, тогда как -1 указывает на идеальную отрицательную связь между переменными.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "This option suggests that a high rank in one year is associated with a low rank in the second year, which would be indicative of a negative Spearman rank correlation. A negative correlation would have a coefficient closer to -1, not 0.90.",
+          "text_ru": "Этот вариант предполагает, что высокий ранг в один год связан с низким рангом во второй год, что указывало бы на отрицательную корреляцию рангов Спирмена. Отрицательная корреляция имела бы коэффициент ближе к -1, а не к 0,90."
+        },
+        "opt_c": {
+          "text_en": "This option suggests that the rank in one year does not impact the rank in the second year, implying no correlation between the ranks across years. However, a Spearman rank correlation of 0.90 significantly contradicts this notion, as it indicates a strong positive correlation.",
+          "text_ru": "Этот вариант предполагает, что ранг в один год не влияет на ранг во второй год, подразумевая отсутствие корреляции между рангами по годам. Однако корреляция рангов Спирмена 0,90 значительно противоречит этому представлению, так как она указывает на сильную положительную корреляцию."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "spearman_correlation",
+        "rank_correlation",
+        "nonparametric_tests"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q019",
+      "original_question_number": 222,
+      "los_id": "LOS_8b",
+      "question_text_en": "A sample of 100 students is currently renting rooms in the mean distance of 18 miles from a small U.S. College. Assuming that the population is normally distributed and the standard deviation of the sample is 14 miles, the 99% confidence interval for the population mean is closest to:",
+      "question_text_ru": "Выборка из 100 студентов в настоящее время арендует комнаты на среднем расстоянии 18 миль от небольшого колледжа США. Предполагая, что популяция нормально распределена, а стандартное отклонение выборки составляет 14 миль, 99% доверительный интервал для среднего популяции ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "[15.26 miles; 20.74 miles]",
+          "text_ru": "[15,26 миль; 20,74 миль]"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "[16.6 miles; 19.4 miles]",
+          "text_ru": "[16,6 миль; 19,4 миль]"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "[14.4 miles; 21.6 miles]",
+          "text_ru": "[14,4 миль; 21,6 миль]"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Standard error of the sample = Standard deviation of sample mean / √Sample size = 14 / √100 = 1.4. Z-static (Reliability factor) at 99% confidence interval = 2.58. Confidence interval = Point estimate ± Reliability factor × Standard error. Lower limit = 18 - (2.58 × 1.4) = 14.39 miles. Upper limit = 18 + (2.58 × 1.4) = 21.6 miles. The 99% confidence interval of the population lies within the range (14.39; 21.6). This means that 99% of the students rent rooms within a distance of (14.39; 21.6) miles.",
+      "explanation_ru": "Стандартная ошибка выборки = Стандартное отклонение выборочного среднего / √Размер выборки = 14 / √100 = 1,4. Z-статистика (Фактор надежности) при 99% доверительном интервале = 2,58. Доверительный интервал = Точечная оценка ± Фактор надежности × Стандартная ошибка. Нижний предел = 18 - (2,58 × 1,4) = 14,39 миль. Верхний предел = 18 + (2,58 × 1,4) = 21,6 миль. 99% доверительный интервал популяции находится в диапазоне (14,39; 21,6). Это означает, что 99% студентов арендуют комнаты в пределах расстояния (14,39; 21,6) миль.",
+      "explanation_formula": "$\\text{CI} = \\bar{X} \\pm Z_{\\alpha/2} \\times \\frac{s}{\\sqrt{n}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "This option uses an incorrect reliability factor, likely using the 95% confidence level (1.96) instead of the 99% confidence level (2.58).",
+          "text_ru": "Этот вариант использует неправильный фактор надежности, вероятно, используя 95% уровень доверия (1,96) вместо 99% уровня доверия (2,58)."
+        },
+        "opt_b": {
+          "text_en": "This option uses an incorrect reliability factor and/or calculation method.",
+          "text_ru": "Этот вариант использует неправильный фактор надежности и/или метод расчета."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": "[2nd] [VARS] for DISTR menu, select invNorm(0.005) for z-value",
+      "difficulty": "medium",
+      "topic_tags": [
+        "confidence_intervals",
+        "z_distribution",
+        "hypothesis_testing"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q020",
+      "original_question_number": 223,
+      "los_id": "LOS_8b",
+      "question_text_en": "The mean return of a sample of 36 BB+ corporate bonds is 7.5%, and the sample's standard deviation is 14%. Assuming that the population is normally distributed and the population variance is unknown, based on t-distribution, the 95% confidence interval for the population mean is closest to:",
+      "question_text_ru": "Средний доход выборки из 36 корпоративных облигаций BB+ составляет 7,5%, а стандартное отклонение выборки - 14%. Предполагая, что популяция нормально распределена, а дисперсия популяции неизвестна, на основе t-распределения 95% доверительный интервал для среднего популяции ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "[2.77%; 12.23%]",
+          "text_ru": "[2,77%; 12,23%]"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "[2.93%; 12.06%]",
+          "text_ru": "[2,93%; 12,06%]"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "[3.56%; 11.43%]",
+          "text_ru": "[3,56%; 11,43%]"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Since the population variance is unknown and the population is normally distributed, we will use a t-statistic. The t-statistic for a 95% confidence interval and 35 degrees of freedom (df=n-1=36-1=35) is 2.030. The standard error of the sample = Standard Deviation of sample mean/√Sample size = 14/√36 = 2.33. The confidence interval is 7.5 - (2.03 * 2.33) = 2.77 and 7.5 + (2.03 * 2.33) = 12.23. Approximately 95% of the mean returns of BB+ corporate bonds fall within the interval (2.77;12.23). Using a reliability factor based on the t-distribution is essential for a small sample size.",
+      "explanation_ru": "Поскольку дисперсия популяции неизвестна, а популяция нормально распределена, мы будем использовать t-статистику. t-статистика для 95% доверительного интервала и 35 степеней свободы (df=n-1=36-1=35) составляет 2,030. Стандартная ошибка выборки = Стандартное отклонение выборочного среднего/√Размер выборки = 14/√36 = 2,33. Доверительный интервал составляет 7,5 - (2,03 * 2,33) = 2,77 и 7,5 + (2,03 * 2,33) = 12,23. Приблизительно 95% средних доходов корпоративных облигаций BB+ попадают в интервал (2,77;12,23). Использование фактора надежности на основе t-распределения важно для малого размера выборки.",
+      "explanation_formula": "$\\text{CI} = \\bar{X} \\pm t_{\\alpha/2,df} \\times \\frac{s}{\\sqrt{n}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "This option uses an incorrect t-statistic or calculation method.",
+          "text_ru": "Этот вариант использует неправильную t-статистику или метод расчета."
+        },
+        "opt_c": {
+          "text_en": "This option uses an incorrect t-statistic, likely using a different confidence level or degrees of freedom.",
+          "text_ru": "Этот вариант использует неправильную t-статистику, вероятно, используя другой уровень доверия или степени свободы."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": "[2nd] [VARS] for DISTR menu, select invT(0.025, 35) for t-value",
+      "difficulty": "medium",
+      "topic_tags": [
+        "confidence_intervals",
+        "t_distribution",
+        "unknown_variance"
       ]
     }
   ]
