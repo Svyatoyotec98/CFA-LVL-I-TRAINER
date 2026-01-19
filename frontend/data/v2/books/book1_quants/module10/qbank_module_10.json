@@ -1,0 +1,472 @@
+{
+  "metadata": {
+    "book_id": 1,
+    "book_code": "QM",
+    "book_name": "Quantitative Methods",
+    "book_name_ru": "Количественные методы",
+    "module_id": 10,
+    "module_name": "Multiple Regression",
+    "module_name_ru": "Множественная регрессия",
+    "total_questions": 8,
+    "version": "2.0",
+    "source": "AnalystPrep QBank"
+  },
+  "questions": [
+    {
+      "question_id": "QM-10-Q001",
+      "original_question_number": 225,
+      "los_id": "LOS_10c",
+      "question_text_en": "A stock's returns for the past four years are as follows: 12%, 9.5%, 8%, 14.7%. The geometric mean return is closest to:",
+      "question_text_ru": "Доходность акций за последние четыре года следующая: 12%, 9.5%, 8%, 14.7%. Геометрическая средняя доходность ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "11.02%",
+          "text_ru": "11.02%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "11.05%",
+          "text_ru": "11.05%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "51.90%",
+          "text_ru": "51.90%"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Geometric return = (1.12 × 1.095 × 1.08 × 1.147)^(1/4) - 1 = 0.11 or 11%",
+      "explanation_ru": "Геометрическая доходность = (1.12 × 1.095 × 1.08 × 1.147)^(1/4) - 1 = 0.11 или 11%",
+      "explanation_formula": "$\\text{Geometric mean} = \\sqrt[n]{\\prod_{i=1}^{n}(1 + R_i)} - 1$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. It denotes the arithmetic mean and not the geometric mean: Arithmetic mean = [(0.12 + 0.095 + 0.08 + 0.147)/4] = 0.1105 = 11.05%",
+          "text_ru": "Неверно. Это арифметическое среднее, а не геометрическое: Арифметическое среднее = [(0.12 + 0.095 + 0.08 + 0.147)/4] = 0.1105 = 11.05%"
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It denotes the geometric mean calculation but without the root sign calculation: Geometric mean = (1.12 × 1.095 × 1.08 × 1.147) - 1 = 0.519 = 51.90%",
+          "text_ru": "Неверно. Это расчёт геометрического среднего без извлечения корня: Геометрическое среднее = (1.12 × 1.095 × 1.08 × 1.147) - 1 = 0.519 = 51.90%"
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Standard Calculator",
+        "steps_en": [
+          "Calculate: 1.12 × 1.095 × 1.08 × 1.147 = 1.5190",
+          "Take 4th root: 1.5190^(1/4) = 1.1102",
+          "Subtract 1: 1.1102 - 1 = 0.1102 or 11.02%"
+        ],
+        "steps_ru": [
+          "Вычислить: 1.12 × 1.095 × 1.08 × 1.147 = 1.5190",
+          "Извлечь корень 4-й степени: 1.5190^(1/4) = 1.1102",
+          "Вычесть 1: 1.1102 - 1 = 0.1102 или 11.02%"
+        ]
+      },
+      "difficulty": "easy",
+      "topic_tags": [
+        "geometric_mean",
+        "returns"
+      ]
+    },
+    {
+      "question_id": "QM-10-Q002",
+      "original_question_number": 407,
+      "los_id": "LOS_10c",
+      "question_text_en": "Consider the following distribution, 3.5%; 3.8%; 5.9%; 9.6%; 12.4%; 2.3%. The second quintile is closest to:",
+      "question_text_ru": "Рассмотрим следующее распределение: 3.5%; 3.8%; 5.9%; 9.6%; 12.4%; 2.3%. Второй квинтиль ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "3.64%",
+          "text_ru": "3.64%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "3.74%",
+          "text_ru": "3.74%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "3.80%",
+          "text_ru": "3.80%"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "We are looking for the second quintile = 40%. We have n=6 observations. Using the formula: Ly = (n + 1) × y/100 = (7) × (40/100) = 2.8. Arranging the distribution in ascending order: 2.3%, 3.5%, 3.8%, 5.9%, 9.6%, 12.4%. The second quintile is between the 2nd number 3.5% and 3rd number 3.8%. To find the 2.8th number, interpolate: 0.035 + (2.8 - 2)(0.038 - 0.035) = 0.0374 = 3.74%",
+      "explanation_ru": "Ищем второй квинтиль = 40%. У нас n=6 наблюдений. Используем формулу: Ly = (n + 1) × y/100 = (7) × (40/100) = 2.8. Упорядочиваем: 2.3%, 3.5%, 3.8%, 5.9%, 9.6%, 12.4%. Второй квинтиль между 2-м числом 3.5% и 3-м числом 3.8%. Интерполяция: 0.035 + (2.8 - 2)(0.038 - 0.035) = 0.0374 = 3.74%",
+      "explanation_formula": "$L_y = (n + 1) \\times \\frac{y}{100}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. It is below the 2nd quintile.",
+          "text_ru": "Неверно. Это ниже 2-го квинтиля."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It is above the 2nd quintile.",
+          "text_ru": "Неверно. Это выше 2-го квинтиля."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Linear Interpolation",
+        "steps_en": [
+          "Sort data: 2.3%, 3.5%, 3.8%, 5.9%, 9.6%, 12.4%",
+          "Calculate position: (6+1) × 0.40 = 2.8",
+          "Interpolate: 3.5% + 0.8 × (3.8% - 3.5%) = 3.74%"
+        ],
+        "steps_ru": [
+          "Сортировать данные: 2.3%, 3.5%, 3.8%, 5.9%, 9.6%, 12.4%",
+          "Вычислить позицию: (6+1) × 0.40 = 2.8",
+          "Интерполировать: 3.5% + 0.8 × (3.8% - 3.5%) = 3.74%"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": [
+        "quintiles",
+        "percentiles",
+        "interpolation"
+      ]
+    },
+    {
+      "question_id": "QM-10-Q003",
+      "original_question_number": 3426,
+      "los_id": "LOS_10c",
+      "question_text_en": "Which of the following is the most appropriate description of a parameter?",
+      "question_text_ru": "Какое из следующих определений наиболее точно описывает параметр?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "A numerical measure that describes a characteristic of a sample.",
+          "text_ru": "Числовая мера, описывающая характеристику выборки."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "A numerical measure that describes a characteristic of a population.",
+          "text_ru": "Числовая мера, описывающая характеристику генеральной совокупности."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "A statistical inference that describes a characteristic of a population.",
+          "text_ru": "Статистический вывод, описывающий характеристику генеральной совокупности."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "A parameter is a numerical measure that describes a characteristic of a population, whereas a statistic is a numerical measure that describes a characteristic of a population sample.",
+      "explanation_ru": "Параметр — это числовая мера, описывающая характеристику генеральной совокупности, тогда как статистика — это числовая мера, описывающая характеристику выборки из генеральной совокупности.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. A numerical measure that describes a characteristic of a sample is called a statistic.",
+          "text_ru": "Неверно. Числовая мера, описывающая характеристику выборки, называется статистикой."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Statistical inference is the process of using a sample to conclude a population from which the sample has been drawn.",
+          "text_ru": "Неверно. Статистический вывод — это процесс использования выборки для заключения о генеральной совокупности, из которой взята выборка."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "parameter",
+        "population",
+        "statistics_concepts"
+      ]
+    },
+    {
+      "question_id": "QM-10-Q004",
+      "original_question_number": 3910,
+      "los_id": "LOS_10d",
+      "question_text_en": "Tracy, senior analyst at CMSSP Capital reviewed Cronin (his junior's) regression analysis. He asked Cronin how the key inputs to the regression could affect the ultimate results. Cronin explained the effects of some of these inputs and assumptions. Cronin made the following comments: Comment 1: \"The standard error of estimate is an important input for a hypothesis test. Small standard errors result in both tighter confidence intervals and tighter prediction intervals.\" Comment 2: \"The estimated value for the variance of the independent variable can also affect hypothesis testing. The higher the assumed variance, the tighter the prediction intervals. However, changes in the assumed variance will have no effect on the confidence interval.\" Cronin is most accurate with respect to:",
+      "question_text_ru": "Трейси, старший аналитик CMSSP Capital, проверил регрессионный анализ Кронина (своего младшего коллеги). Он спросил Кронина, как ключевые входные данные регрессии могут повлиять на конечные результаты. Кронин объяснил эффекты некоторых входных данных и предположений. Кронин сделал следующие комментарии: Комментарий 1: \"Стандартная ошибка оценки — важный входной параметр для проверки гипотез. Малые стандартные ошибки приводят к более узким доверительным интервалам и более узким интервалам прогноза.\" Комментарий 2: \"Оценочное значение дисперсии независимой переменной также может влиять на проверку гипотез. Чем выше предполагаемая дисперсия, тем уже интервалы прогноза. Однако изменения предполагаемой дисперсии не окажут влияния на доверительный интервал.\" Кронин наиболее точен в отношении:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Comment 1 only.",
+          "text_ru": "Только комментарий 1."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Comment 2 only.",
+          "text_ru": "Только комментарий 2."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Both comments 1 and 2.",
+          "text_ru": "Оба комментария 1 и 2."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Comment 1 is correct. Smaller standard errors would result in tighter confidence intervals and prediction intervals. Comment 2 is correct. The higher the variance of the independent variable, the lower the variance of the forecast error, and the tighter the prediction interval. Confidence intervals do not depend on this input.",
+      "explanation_ru": "Комментарий 1 верен. Меньшие стандартные ошибки приведут к более узким доверительным интервалам и интервалам прогноза. Комментарий 2 верен. Чем выше дисперсия независимой переменной, тем ниже дисперсия ошибки прогноза и тем уже интервал прогноза. Доверительные интервалы не зависят от этого входного параметра.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Both comments are correct, not just Comment 1.",
+          "text_ru": "Неверно. Оба комментария верны, а не только комментарий 1."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Both comments are correct, not just Comment 2.",
+          "text_ru": "Неверно. Оба комментария верны, а не только комментарий 2."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "standard_error",
+        "confidence_intervals",
+        "prediction_intervals",
+        "variance"
+      ]
+    },
+    {
+      "question_id": "QM-10-Q005",
+      "original_question_number": 3911,
+      "los_id": "LOS_10c",
+      "question_text_en": "\"For our regression model to be valid, a linear relationship must exist between EPS growth and changes in return spread.\" This statement implies that:",
+      "question_text_ru": "\"Для того чтобы наша регрессионная модель была корректной, должна существовать линейная зависимость между ростом EPS и изменениями в спреде доходности.\" Это утверждение означает, что:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "EPS growth and changes in return spread must be discrete random variables.",
+          "text_ru": "Рост EPS и изменения в спреде доходности должны быть дискретными случайными величинами."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The correlation coefficient between EPS growth and Changes in return spread must be greater than zero but less than one.",
+          "text_ru": "Коэффициент корреляции между ростом EPS и изменениями в спреде доходности должен быть больше нуля, но меньше единицы."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The slope coefficient and the intercept are raised to the first power only, and neither of them is divided or multiplied by another regression parameter.",
+          "text_ru": "Коэффициент наклона и свободный член возводятся только в первую степень, и ни один из них не делится и не умножается на другой параметр регрессии."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "For any linear regression model to be valid and reliable, we must assume that there's a linear relationship between the dependent variable and the independent variable. This, in effect, means that the intercept and the slope coefficient can only be raised to the first power. In addition, none of the two should be multiplied or divided by another regression parameter.",
+      "explanation_ru": "Для того чтобы любая модель линейной регрессии была корректной и надёжной, мы должны предполагать наличие линейной зависимости между зависимой и независимой переменными. Это фактически означает, что свободный член и коэффициент наклона могут быть возведены только в первую степень. Кроме того, ни один из них не должен умножаться или делиться на другой параметр регрессии.",
+      "explanation_formula": "$Y = b_0 + b_1 X$ (линейная форма)",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Linear regression assumes that the independent variable is not random because if the independent variable is random, the relation between the dependent and independent variables will not be random.",
+          "text_ru": "Неверно. Линейная регрессия предполагает, что независимая переменная не является случайной, потому что если независимая переменная случайна, то связь между зависимой и независимой переменными не будет случайной."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Linear relationship can exist as long as the correlation coefficient lies between -1 and +1.",
+          "text_ru": "Неверно. Линейная зависимость может существовать, пока коэффициент корреляции находится между -1 и +1."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "linear_regression",
+        "regression_assumptions",
+        "linearity"
+      ]
+    },
+    {
+      "question_id": "QM-10-Q006",
+      "original_question_number": 3912,
+      "los_id": "LOS_10d",
+      "question_text_en": "Kim Richard has been looking at ways to increase efficiency in the construction process especially with regard to fuel consumption. She ran a regression explaining the variation in fuel consumption as a function of distance. The total variation of the dependent variable was 160.85, the explained variation was 80.15, and the unexplained variation was 100.70. She had 60 monthly observations. The standard error of the estimate in the regression is closest to:",
+      "question_text_ru": "Ким Ричард искала способы повышения эффективности строительного процесса, особенно в отношении расхода топлива. Она провела регрессию, объясняющую изменение расхода топлива как функцию расстояния. Общая вариация зависимой переменной составила 160.85, объяснённая вариация — 80.15, а необъяснённая вариация — 100.70. У неё было 60 месячных наблюдений. Стандартная ошибка оценки в регрессии ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "1.32.",
+          "text_ru": "1.32."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "1.52.",
+          "text_ru": "1.52."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "1.74.",
+          "text_ru": "1.74."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Standard error of the estimate = √(Unexplained variation / (n - 2)) = √(100.7 / (60 - 2)) = √(100.7 / 58) = √1.7362 = 1.3177",
+      "explanation_ru": "Стандартная ошибка оценки = √(Необъяснённая вариация / (n - 2)) = √(100.7 / (60 - 2)) = √(100.7 / 58) = √1.7362 = 1.3177",
+      "explanation_formula": "$SEE = \\sqrt{\\frac{\\sum(Y_i - \\hat{Y}_i)^2}{n-2}} = \\sqrt{\\frac{\\text{Unexplained variation}}{n-2}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. It suggests a standard error of 1.52, which does not align with the calculation based on the provided data.",
+          "text_ru": "Неверно. Предполагается стандартная ошибка 1.52, что не соответствует расчёту на основе предоставленных данных."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It proposes a standard error of 1.74, which is also not supported by the calculation using the given data.",
+          "text_ru": "Неверно. Предлагается стандартная ошибка 1.74, что также не подтверждается расчётом с использованием данных."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Standard Calculator",
+        "steps_en": [
+          "Divide: 100.7 / 58 = 1.7362",
+          "Take square root: √1.7362 = 1.3177",
+          "Round to: 1.32"
+        ],
+        "steps_ru": [
+          "Разделить: 100.7 / 58 = 1.7362",
+          "Извлечь квадратный корень: √1.7362 = 1.3177",
+          "Округлить до: 1.32"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": [
+        "standard_error",
+        "unexplained_variation",
+        "regression_analysis"
+      ]
+    },
+    {
+      "question_id": "QM-10-Q007",
+      "original_question_number": 3915,
+      "los_id": "LOS_10d",
+      "question_text_en": "An analyst is developing a regression model to forecast project cost based on the construction costs. He has gathered the following information: Multiple R: 0.8821, R-squared: 0.7651, Standard Error of Estimate: 0.6346, Observations: 62, Variance of mean construction costs = 27.9, Variance of mean forecasted project price = 18.35, Mean construction costs = 98.54, Correlation between mean construction costs and mean forecasted price = 0.75. The standard deviation of the prediction error given independent variable equals 425 is closest to:",
+      "question_text_ru": "Аналитик разрабатывает регрессионную модель для прогнозирования стоимости проекта на основе строительных затрат. Он собрал следующую информацию: Multiple R: 0.8821, R-квадрат: 0.7651, Стандартная ошибка оценки: 0.6346, Наблюдения: 62, Дисперсия средних строительных затрат = 27.9, Дисперсия средней прогнозируемой цены проекта = 18.35, Средние строительные затраты = 98.54, Корреляция между средними строительными затратами и средней прогнозируемой ценой = 0.75. Стандартное отклонение ошибки прогноза при независимой переменной равной 425 ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "5.06.",
+          "text_ru": "5.06."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "25.64.",
+          "text_ru": "25.64."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "41.09.",
+          "text_ru": "41.09."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Standard deviation of the prediction error: Variance = s²[1 + 1/n + (X - X̄)² / ((n - 1)s²ₓ)] = 0.6346²[1 + 1/62 + (425 - 98.54)² / ((62 - 1)×27.9)] = 0.40272(1 + 0.016129 + 62.62185) = 25.63. Standard deviation = √25.63 = 5.06",
+      "explanation_ru": "Стандартное отклонение ошибки прогноза: Дисперсия = s²[1 + 1/n + (X - X̄)² / ((n - 1)s²ₓ)] = 0.6346²[1 + 1/62 + (425 - 98.54)² / ((62 - 1)×27.9)] = 0.40272(1 + 0.016129 + 62.62185) = 25.63. Стандартное отклонение = √25.63 = 5.06",
+      "explanation_formula": "$S_f^2 = s^2[1 + \\frac{1}{n} + \\frac{(X - \\bar{X})^2}{(n-1)s_x^2}]$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. 25.64 represents a misunderstanding of the question. It seems to be a misinterpretation of the variance of the prediction error, not the standard deviation.",
+          "text_ru": "Неверно. 25.64 представляет непонимание вопроса. Похоже на неправильную интерпретацию дисперсии ошибки прогноза, а не стандартного отклонения."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. 41.09 does not correspond to any calculation related to the standard deviation of the prediction error based on the given data and formula.",
+          "text_ru": "Неверно. 41.09 не соответствует никакому расчёту, связанному со стандартным отклонением ошибки прогноза на основе данных и формулы."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Statistical Calculator",
+        "steps_en": [
+          "Calculate variance: 0.6346² × [1 + 1/62 + (425-98.54)²/((62-1)×27.9)]",
+          "Result: 25.63",
+          "Take square root: √25.63 = 5.06"
+        ],
+        "steps_ru": [
+          "Вычислить дисперсию: 0.6346² × [1 + 1/62 + (425-98.54)²/((62-1)×27.9)]",
+          "Результат: 25.63",
+          "Извлечь квадратный корень: √25.63 = 5.06"
+        ]
+      },
+      "difficulty": "hard",
+      "topic_tags": [
+        "prediction_interval",
+        "standard_error",
+        "forecast_error"
+      ]
+    },
+    {
+      "question_id": "QM-10-Q008",
+      "original_question_number": 3916,
+      "los_id": "LOS_10d",
+      "question_text_en": "Which of the following statement is most likely correct?",
+      "question_text_ru": "Какое из следующих утверждений наиболее вероятно верно?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "If the sample size is increased, the standard error of the estimated measure will increase. This will reduce the reliability of regression results.",
+          "text_ru": "Если размер выборки увеличивается, стандартная ошибка оцениваемой меры увеличится. Это снизит надёжность результатов регрессии."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "If the sample size is increased, the standard error of the estimated measure will decrease. This will increase the reliability of regression results.",
+          "text_ru": "Если размер выборки увеличивается, стандартная ошибка оцениваемой меры уменьшится. Это повысит надёжность результатов регрессии."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "If the sample size is increased, the standard error of the estimated measure will remain constant. This will not affect the reliability of regression results.",
+          "text_ru": "Если размер выборки увеличивается, стандартная ошибка оцениваемой меры останется постоянной. Это не повлияет на надёжность результатов регрессии."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "An increase in the size of the sample will decrease the sum of squared errors (SSE) and simultaneously increase the denominator of the formula. Mean square error (MSE) is the sum of squares error divided by the degrees of freedom, which are n - k - 1. The standard error of an estimate is inversely related to the square root of the sample size (n): Standard Error = σ/√n. As n increases, the denominator becomes larger, resulting in a smaller standard error.",
+      "explanation_ru": "Увеличение размера выборки уменьшит сумму квадратов ошибок (SSE) и одновременно увеличит знаменатель формулы. Среднеквадратичная ошибка (MSE) — это сумма квадратов ошибок, делённая на степени свободы, которые равны n - k - 1. Стандартная ошибка оценки обратно пропорциональна квадратному корню из размера выборки (n): Стандартная ошибка = σ/√n. Когда n увеличивается, знаменатель становится больше, что приводит к меньшей стандартной ошибке.",
+      "explanation_formula": "$MSE = \\sqrt{\\frac{SSE}{n-k-1}}$, $SE = \\frac{\\sigma}{\\sqrt{n}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This option suggests that increasing the sample size would increase the standard error, which is not accurate. The standard error is inversely related to the sample size.",
+          "text_ru": "Неверно. Этот вариант предполагает, что увеличение размера выборки увеличит стандартную ошибку, что неточно. Стандартная ошибка обратно пропорциональна размеру выборки."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The standard error does not remain constant when sample size changes. It decreases as sample size increases.",
+          "text_ru": "Неверно. Стандартная ошибка не остаётся постоянной при изменении размера выборки. Она уменьшается с увеличением размера выборки."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "sample_size",
+        "standard_error",
+        "reliability"
+      ]
+    }
+  ]
+}
