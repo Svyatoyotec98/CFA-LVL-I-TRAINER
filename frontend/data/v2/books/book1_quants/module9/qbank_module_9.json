@@ -7,7 +7,7 @@
     "module_id": 9,
     "module_name": "Parametric and Non Parametric Tests of Independence",
     "module_name_ru": "Параметрические и непараметрические тесты независимости",
-    "total_questions": 7,
+    "total_questions": 17,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -20,17 +20,87 @@
       "question_text_ru": "Предположим, финансовый аналитик Алекс Перес изучает значимость корреляции между месячными доходностями ETF 2 и общим рыночным индексом на основе таблицы с 48 месячными наблюдениями. Выборочная корреляция r_ETF2,Market составляет 0.9096. Перес хочет использовать t-тест для проверки значимости корреляции на уровне значимости 0.01. Таблица t-значений представлена ниже:",
       "has_table": true,
       "table_data": {
-        "headers": ["df", "p = 0.10", "p = 0.05", "p = 0.025", "p = 0.01", "p = 0.005"],
-        "headers_ru": ["df", "p = 0.10", "p = 0.05", "p = 0.025", "p = 0.01", "p = 0.005"],
+        "headers": [
+          "df",
+          "p = 0.10",
+          "p = 0.05",
+          "p = 0.025",
+          "p = 0.01",
+          "p = 0.005"
+        ],
+        "headers_ru": [
+          "df",
+          "p = 0.10",
+          "p = 0.05",
+          "p = 0.025",
+          "p = 0.01",
+          "p = 0.005"
+        ],
         "rows": [
-          ["31", "1.309", "1.696", "2.040", "2.453", "2.744"],
-          ["42", "1.302", "1.682", "2.018", "2.418", "2.698"],
-          ["43", "1.302", "1.681", "2.017", "2.416", "2.695"],
-          ["44", "1.301", "1.680", "2.015", "2.414", "2.692"],
-          ["45", "1.301", "1.679", "2.014", "2.412", "2.690"],
-          ["46", "1.300", "1.679", "2.013", "2.410", "2.687"],
-          ["47", "1.300", "1.678", "2.012", "2.408", "2.685"],
-          ["48", "1.299", "1.677", "2.011", "2.407", "2.682"]
+          [
+            "31",
+            "1.309",
+            "1.696",
+            "2.040",
+            "2.453",
+            "2.744"
+          ],
+          [
+            "42",
+            "1.302",
+            "1.682",
+            "2.018",
+            "2.418",
+            "2.698"
+          ],
+          [
+            "43",
+            "1.302",
+            "1.681",
+            "2.017",
+            "2.416",
+            "2.695"
+          ],
+          [
+            "44",
+            "1.301",
+            "1.680",
+            "2.015",
+            "2.414",
+            "2.692"
+          ],
+          [
+            "45",
+            "1.301",
+            "1.679",
+            "2.014",
+            "2.412",
+            "2.690"
+          ],
+          [
+            "46",
+            "1.300",
+            "1.679",
+            "2.013",
+            "2.410",
+            "2.687"
+          ],
+          [
+            "47",
+            "1.300",
+            "1.678",
+            "2.012",
+            "2.408",
+            "2.685"
+          ],
+          [
+            "48",
+            "1.299",
+            "1.677",
+            "2.011",
+            "2.407",
+            "2.682"
+          ]
         ]
       },
       "question_continuation_en": "The conclusion about the significance of the correlation between ETF 2 and the market index is:",
@@ -84,7 +154,11 @@
         ]
       },
       "difficulty": "medium",
-      "topic_tags": ["t_test", "correlation", "parametric_test"]
+      "topic_tags": [
+        "t_test",
+        "correlation",
+        "parametric_test"
+      ]
     },
     {
       "question_id": "QM-9-Q002",
@@ -94,12 +168,42 @@
       "question_text_ru": "Следующая таблица сопряженности показывает ответы двух категорий инвесторов (работающие по найму и самозанятые) относительно их уровней толерантности к риску (низкий, средний или высокий). Общий размер выборки составляет 200 инвесторов.",
       "has_table": true,
       "table_data": {
-        "headers": ["", "Low", "Medium", "High", "Total"],
-        "headers_ru": ["", "Низкий", "Средний", "Высокий", "Итого"],
+        "headers": [
+          "",
+          "Low",
+          "Medium",
+          "High",
+          "Total"
+        ],
+        "headers_ru": [
+          "",
+          "Низкий",
+          "Средний",
+          "Высокий",
+          "Итого"
+        ],
         "rows": [
-          ["Employed / Работающие", "45", "55", "20", "120"],
-          ["Self-Employed / Самозанятые", "30", "40", "10", "80"],
-          ["Total / Итого", "75", "95", "30", "200"]
+          [
+            "Employed / Работающие",
+            "45",
+            "55",
+            "20",
+            "120"
+          ],
+          [
+            "Self-Employed / Самозанятые",
+            "30",
+            "40",
+            "10",
+            "80"
+          ],
+          [
+            "Total / Итого",
+            "75",
+            "95",
+            "30",
+            "200"
+          ]
         ]
       },
       "question_continuation_en": "If we wish to test whether there is any significant difference between employed and self-employed investors concerning risk tolerance levels, the test statistic is closest to:",
@@ -126,13 +230,43 @@
       "explanation_ru": "H0: нет значимой разницы между работающими по найму и самозанятыми. Ha: есть значимая разница. Шаг 1: Вычислить ожидаемые частоты: E(Работающие,Низкий)=(120×75)/200=45, E(Работающие,Средний)=(120×95)/200=57, E(Работающие,Высокий)=(120×30)/200=18, E(Самозанятые,Низкий)=(80×75)/200=30, E(Самозанятые,Средний)=(80×95)/200=38, E(Самозанятые,Высокий)=(80×30)/200=12. Шаг 2: Вычислить вклады в хи-квадрат: (45-45)²/45=0, (55-57)²/57≈0.070, (20-18)²/18≈0.222, (30-30)²/30=0, (40-38)²/38≈0.105, (10-12)²/12≈0.333. Шаг 3: χ² = 0 + 0.070 + 0.222 + 0 + 0.105 + 0.333 = 0.730",
       "explanation_formula": "$\\chi^2 = \\sum \\frac{(O_{ij} - E_{ij})^2}{E_{ij}}$",
       "explanation_table": {
-        "headers": ["Category", "Low", "Medium", "High"],
-        "headers_ru": ["Категория", "Низкий", "Средний", "Высокий"],
+        "headers": [
+          "Category",
+          "Low",
+          "Medium",
+          "High"
+        ],
+        "headers_ru": [
+          "Категория",
+          "Низкий",
+          "Средний",
+          "Высокий"
+        ],
         "rows": [
-          ["Employed Expected / Ожидаемые работающие", "45", "57", "18"],
-          ["Self-Employed Expected / Ожидаемые самозанятые", "30", "38", "12"],
-          ["Chi-square contribution Employed / Вклад работающие", "0", "0.070", "0.222"],
-          ["Chi-square contribution Self-Employed / Вклад самозанятые", "0", "0.105", "0.333"]
+          [
+            "Employed Expected / Ожидаемые работающие",
+            "45",
+            "57",
+            "18"
+          ],
+          [
+            "Self-Employed Expected / Ожидаемые самозанятые",
+            "30",
+            "38",
+            "12"
+          ],
+          [
+            "Chi-square contribution Employed / Вклад работающие",
+            "0",
+            "0.070",
+            "0.222"
+          ],
+          [
+            "Chi-square contribution Self-Employed / Вклад самозанятые",
+            "0",
+            "0.105",
+            "0.333"
+          ]
         ]
       },
       "explanation_wrong": {
@@ -172,7 +306,11 @@
         ]
       },
       "difficulty": "medium",
-      "topic_tags": ["chi_square", "contingency_table", "independence_test"]
+      "topic_tags": [
+        "chi_square",
+        "contingency_table",
+        "independence_test"
+      ]
     },
     {
       "question_id": "QM-9-Q003",
@@ -219,7 +357,11 @@
       "requires_calculator": false,
       "calculator_keystrokes": null,
       "difficulty": "easy",
-      "topic_tags": ["nonparametric_test", "test_selection", "spearman_correlation"]
+      "topic_tags": [
+        "nonparametric_test",
+        "test_selection",
+        "spearman_correlation"
+      ]
     },
     {
       "question_id": "QM-9-Q004",
@@ -266,7 +408,11 @@
       "requires_calculator": false,
       "calculator_keystrokes": null,
       "difficulty": "easy",
-      "topic_tags": ["hypothesis_testing", "correlation", "null_hypothesis"]
+      "topic_tags": [
+        "hypothesis_testing",
+        "correlation",
+        "null_hypothesis"
+      ]
     },
     {
       "question_id": "QM-9-Q005",
@@ -313,7 +459,11 @@
       "requires_calculator": false,
       "calculator_keystrokes": null,
       "difficulty": "easy",
-      "topic_tags": ["spearman_correlation", "nonparametric_test", "test_statistic"]
+      "topic_tags": [
+        "spearman_correlation",
+        "nonparametric_test",
+        "test_statistic"
+      ]
     },
     {
       "question_id": "QM-9-Q006",
@@ -360,7 +510,11 @@
       "requires_calculator": false,
       "calculator_keystrokes": null,
       "difficulty": "medium",
-      "topic_tags": ["hypothesis_testing", "critical_value", "decision_rule"]
+      "topic_tags": [
+        "hypothesis_testing",
+        "critical_value",
+        "decision_rule"
+      ]
     },
     {
       "question_id": "QM-9-Q007",
@@ -407,7 +561,521 @@
       "requires_calculator": false,
       "calculator_keystrokes": null,
       "difficulty": "easy",
-      "topic_tags": ["significance_level", "hypothesis_testing", "alpha"]
+      "topic_tags": [
+        "significance_level",
+        "hypothesis_testing",
+        "alpha"
+      ]
+    },
+    {
+      "question_id": "QM-9-Q008",
+      "original_question_number": 271,
+      "los_id": "LOS_9a",
+      "question_text_en": "What type of correlation coefficient is used when the assumptions for the parametric Pearson correlation is least likely to be met, such as when dealing with non-normally distributed variables?",
+      "question_text_ru": "Какой тип коэффициента корреляции используется, когда предположения для параметрической корреляции Пирсона наименее вероятно выполняются, например, при работе с ненормально распределенными переменными?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Pearson correlation coefficient",
+          "text_ru": "Коэффициент корреляции Пирсона"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Kendall's tau",
+          "text_ru": "Тау Кендалла"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Spearman rank correlation coefficient",
+          "text_ru": "Коэффициент ранговой корреляции Спирмена"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "This coefficient is used in situations where the data may not meet the assumptions of the Pearson correlation coefficient, such as non-normally distributed variables or when dealing with ordinal data.",
+      "explanation_ru": "Этот коэффициент используется в ситуациях, когда данные могут не соответствовать предположениям коэффициента корреляции Пирсона, таким как ненормально распределенные переменные или при работе с порядковыми данными.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This coefficient assumes normality and linearity in the data, which may not hold true in scenarios where non-normally distributed variables are involved.",
+          "text_ru": "Неверно. Этот коэффициент предполагает нормальность и линейность в данных, что может не выполняться в сценариях с ненормально распределенными переменными."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. While Kendall's tau is another nonparametric measure of association, it is not mentioned in the context of the scenario provided.",
+          "text_ru": "Неверно. Хотя тау Кендалла - другая непараметрическая мера ассоциации, она не упоминается в контексте предоставленного сценария."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "spearman_correlation",
+        "nonparametric_test",
+        "pearson_correlation"
+      ]
+    },
+    {
+      "question_id": "QM-9-Q009",
+      "original_question_number": 272,
+      "los_id": "LOS_9b",
+      "question_text_en": "What are the null and alternative hypotheses to test whether the dividend and financial leverage groups are independent of one another?",
+      "question_text_ru": "Каковы нулевая и альтернативная гипотезы для проверки независимости групп дивидендов и финансового левериджа друг от друга?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "H0: Dividend and financial leverage ratings are not related, Ha: Dividend and financial leverage ratings are related.",
+          "text_ru": "H0: Рейтинги дивидендов и финансового левериджа не связаны, Ha: Рейтинги дивидендов и финансового левериджа связаны."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "H0: Dividend and financial leverage ratings are related, Ha: Dividend and financial leverage ratings are not related.",
+          "text_ru": "H0: Рейтинги дивидендов и финансового левериджа связаны, Ha: Рейтинги дивидендов и финансового левериджа не связаны."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "H0: Dividend and financial leverage ratings are independent, Ha: Dividend and financial leverage ratings are dependent.",
+          "text_ru": "H0: Рейтинги дивидендов и финансового левериджа независимы, Ha: Рейтинги дивидендов и финансового левериджа зависимы."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "This formulation of hypotheses correctly represents the null hypothesis that the two classifications are independent and the alternative hypothesis that they are related.",
+      "explanation_ru": "Эта формулировка гипотез правильно представляет нулевую гипотезу о том, что две классификации независимы, и альтернативную гипотезу о том, что они связаны.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This choice incorrectly states the null hypothesis as suggesting a relationship between dividend and financial leverage ratings, which is not the case.",
+          "text_ru": "Неверно. Этот вариант неправильно формулирует нулевую гипотезу, предполагая связь между рейтингами дивидендов и финансового левериджа, что не так."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. While this choice includes the concept of independence, it incorrectly formulates the alternative hypothesis as suggesting dependence rather than the two ratings being related.",
+          "text_ru": "Неверно. Хотя этот вариант включает понятие независимости, он неправильно формулирует альтернативную гипотезу, предполагая зависимость, а не связь двух рейтингов."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "independence_test",
+        "hypothesis_testing",
+        "contingency_table"
+      ]
+    },
+    {
+      "question_id": "QM-9-Q010",
+      "original_question_number": 273,
+      "los_id": "LOS_9b",
+      "question_text_en": "What conclusion can be drawn if the p-value associated with the chi-square test statistic is 0.03 at a 5% level of significance?",
+      "question_text_ru": "Какой вывод можно сделать, если p-значение, связанное с хи-квадрат тестовой статистикой, составляет 0.03 при уровне значимости 5%?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Reject the null hypothesis.",
+          "text_ru": "Отклонить нулевую гипотезу."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Fail to reject the null hypothesis.",
+          "text_ru": "Не отклонить нулевую гипотезу."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Accept the null hypothesis.",
+          "text_ru": "Принять нулевую гипотезу."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "When the p-value (0.03) is less than the chosen significance level (0.05), we reject the null hypothesis and conclude that there is a significant relationship between the variables.",
+      "explanation_ru": "Когда p-значение (0.03) меньше выбранного уровня значимости (0.05), мы отклоняем нулевую гипотезу и делаем вывод о наличии значимой связи между переменными.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This choice would be incorrect when the p-value is less than the significance level, indicating sufficient evidence to reject the null hypothesis.",
+          "text_ru": "Неверно. Этот вариант был бы неверным, когда p-значение меньше уровня значимости, указывая на достаточные доказательства для отклонения нулевой гипотезы."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. While technically correct in terms of statistical terminology, accepting the null hypothesis is not typically stated in practice; we simply fail to reject it when there is insufficient evidence.",
+          "text_ru": "Неверно. Хотя технически правильно с точки зрения статистической терминологии, принятие нулевой гипотезы обычно не формулируется на практике; мы просто не отклоняем её при недостаточных доказательствах."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "p_value",
+        "hypothesis_testing",
+        "chi_square"
+      ]
+    },
+    {
+      "question_id": "QM-9-Q011",
+      "original_question_number": 274,
+      "los_id": "LOS_9b",
+      "question_text_en": "What are the null and alternative hypotheses to test whether the dividend and financial leverage groups are independent of one another?",
+      "question_text_ru": "Каковы нулевая и альтернативная гипотезы для проверки независимости групп дивидендов и финансового левериджа друг от друга?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Null hypothesis: Dividend and financial leverage ratings are related; Alternative hypothesis: Dividend and financial leverage ratings are not related",
+          "text_ru": "Нулевая гипотеза: Рейтинги дивидендов и финансового левериджа связаны; Альтернативная гипотеза: Рейтинги дивидендов и финансового левериджа не связаны"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Null hypothesis: Dividend and financial leverage ratings are not related; Alternative hypothesis: Dividend and financial leverage ratings are related",
+          "text_ru": "Нулевая гипотеза: Рейтинги дивидендов и финансового левериджа не связаны; Альтернативная гипотеза: Рейтинги дивидендов и финансового левериджа связаны"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Null hypothesis: Dividend and financial leverage ratings are independent; Alternative hypothesis: Dividend and financial leverage ratings are dependent",
+          "text_ru": "Нулевая гипотеза: Рейтинги дивидендов и финансового левериджа независимы; Альтернативная гипотеза: Рейтинги дивидендов и финансового левериджа зависимы"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The null hypothesis assumes independence, while the alternative hypothesis suggests a relationship between dividend and financial leverage ratings.",
+      "explanation_ru": "Нулевая гипотеза предполагает независимость, в то время как альтернативная гипотеза предполагает связь между рейтингами дивидендов и финансового левериджа.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This answer suggests that the null hypothesis assumes a relationship, which is incorrect. The null hypothesis assumes independence, not a relationship.",
+          "text_ru": "Неверно. Этот ответ предполагает, что нулевая гипотеза предполагает связь, что неверно. Нулевая гипотеза предполагает независимость, а не связь."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This answer incorrectly states that the null hypothesis assumes independence between the two classifications. However, the null hypothesis does not make an assumption; it is a statement that is either rejected or failed to be rejected based on evidence.",
+          "text_ru": "Неверно. Этот ответ неправильно утверждает, что нулевая гипотеза предполагает независимость между двумя классификациями. Однако нулевая гипотеза не делает предположений; это утверждение, которое либо отклоняется, либо не отклоняется на основе доказательств."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "independence_test",
+        "hypothesis_testing",
+        "null_hypothesis"
+      ]
+    },
+    {
+      "question_id": "QM-9-Q012",
+      "original_question_number": 275,
+      "los_id": "LOS_9b",
+      "question_text_en": "What is the significance of the critical value in the chi-square test of independence at a 5% level of significance?",
+      "question_text_ru": "Каково значение критического значения в хи-квадрат тесте независимости на уровне значимости 5%?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The critical value indicates the probability of committing a Type I error.",
+          "text_ru": "Критическое значение указывает на вероятность совершения ошибки первого рода."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The critical value signifies the threshold beyond which we reject the null hypothesis.",
+          "text_ru": "Критическое значение обозначает порог, за которым мы отклоняем нулевую гипотезу."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The critical value determines the strength of the relationship between the variables.",
+          "text_ru": "Критическое значение определяет силу связи между переменными."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "In the chi-square test of independence, if the calculated chi-square value exceeds the critical value, we reject the null hypothesis, indicating a significant relationship between the variables.",
+      "explanation_ru": "В хи-квадрат тесте независимости, если рассчитанное хи-квадрат значение превышает критическое значение, мы отклоняем нулевую гипотезу, указывая на значимую связь между переменными.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The critical value does not directly indicate the probability of committing a Type I error; it serves as a threshold for determining the significance level.",
+          "text_ru": "Неверно. Критическое значение не указывает напрямую на вероятность совершения ошибки первого рода; оно служит порогом для определения уровня значимости."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The critical value does not determine the strength of the relationship between variables; it is a statistical parameter used for hypothesis testing.",
+          "text_ru": "Неверно. Критическое значение не определяет силу связи между переменными; это статистический параметр, используемый для проверки гипотез."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "critical_value",
+        "chi_square",
+        "hypothesis_testing"
+      ]
+    },
+    {
+      "question_id": "QM-9-Q013",
+      "original_question_number": 276,
+      "los_id": "LOS_9b",
+      "question_text_en": "Which statement accurately describes the degrees of freedom in a chi-square test of independence? The degrees of freedom is:",
+      "question_text_ru": "Какое утверждение точно описывает степени свободы в хи-квадрат тесте независимости? Степени свободы:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "determined by the number of observations in the contingency table.",
+          "text_ru": "определяются количеством наблюдений в таблице сопряженности."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "calculated as the difference between the total number of observations and the number of cells in the table.",
+          "text_ru": "рассчитываются как разница между общим количеством наблюдений и количеством ячеек в таблице."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "equal to the product of one less than the number of rows and one less than the number of columns in the contingency table.",
+          "text_ru": "равны произведению числа строк минус один и числа столбцов минус один в таблице сопряженности."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "This formula for degrees of freedom in a chi-square test of independence accounts for the constraints imposed by the row and column totals in the contingency table. The expression (r-1)(c-1) represents the degrees of freedom for a contingency table with r rows and c columns.",
+      "explanation_ru": "Эта формула степеней свободы в хи-квадрат тесте независимости учитывает ограничения, наложенные итогами строк и столбцов в таблице сопряженности. Выражение (r-1)(c-1) представляет степени свободы для таблицы сопряженности с r строками и c столбцами.",
+      "explanation_formula": "$df = (r - 1)(c - 1)$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The degrees of freedom are not determined by the number of observations; they are calculated based on the structure of the contingency table.",
+          "text_ru": "Неверно. Степени свободы не определяются количеством наблюдений; они рассчитываются на основе структуры таблицы сопряженности."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. The degrees of freedom are not simply the difference between the total number of observations and the number of cells; they are determined by the number of rows and columns in the contingency table.",
+          "text_ru": "Неверно. Степени свободы не просто разница между общим количеством наблюдений и количеством ячеек; они определяются количеством строк и столбцов в таблице сопряженности."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "degrees_of_freedom",
+        "chi_square",
+        "contingency_table"
+      ]
+    },
+    {
+      "question_id": "QM-9-Q014",
+      "original_question_number": 277,
+      "los_id": "LOS_9a",
+      "question_text_en": "Which statement is most likely true regarding the significance level in testing the correlation coefficient between two variables' returns?",
+      "question_text_ru": "Какое утверждение наиболее вероятно верно относительно уровня значимости при проверке коэффициента корреляции между доходностями двух переменных?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "A lower significance level increases the likelihood of rejecting the null hypothesis.",
+          "text_ru": "Более низкий уровень значимости увеличивает вероятность отклонения нулевой гипотезы."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "A higher significance level increases the likelihood of Type I error.",
+          "text_ru": "Более высокий уровень значимости увеличивает вероятность ошибки первого рода."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The choice of significance level does not affect the rejection of the null hypothesis.",
+          "text_ru": "Выбор уровня значимости не влияет на отклонение нулевой гипотезы."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "A higher significance level (e.g., 10% instead of 5%) increases the likelihood of Type I error, which occurs when the null hypothesis is incorrectly rejected.",
+      "explanation_ru": "Более высокий уровень значимости (например, 10% вместо 5%) увеличивает вероятность ошибки первого рода, которая возникает, когда нулевая гипотеза неверно отклоняется.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. A lower significance level (e.g., 1% instead of 5%) decreases the likelihood of rejecting the null hypothesis, which may result in a Type II error.",
+          "text_ru": "Неверно. Более низкий уровень значимости (например, 1% вместо 5%) уменьшает вероятность отклонения нулевой гипотезы, что может привести к ошибке второго рода."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The choice of significance level directly influences the probability of Type I error and affects the rejection of the null hypothesis.",
+          "text_ru": "Неверно. Выбор уровня значимости напрямую влияет на вероятность ошибки первого рода и влияет на отклонение нулевой гипотезы."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "significance_level",
+        "type_i_error",
+        "hypothesis_testing"
+      ]
+    },
+    {
+      "question_id": "QM-9-Q015",
+      "original_question_number": 278,
+      "los_id": "LOS_9a",
+      "question_text_en": "In testing the correlation coefficient between two variables' returns, what factor most likely determines the critical t-value used for hypothesis testing?",
+      "question_text_ru": "При проверке коэффициента корреляции между доходностями двух переменных, какой фактор наиболее вероятно определяет критическое t-значение, используемое для проверки гипотез?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The level of significance chosen by the analyst.",
+          "text_ru": "Уровень значимости, выбранный аналитиком."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The magnitude of the sample correlation coefficient.",
+          "text_ru": "Величина выборочного коэффициента корреляции."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The degree of freedom associated with the sample size.",
+          "text_ru": "Степень свободы, связанная с размером выборки."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "The critical t-value used for hypothesis testing is primarily determined by the degree of freedom associated with the sample size, which affects the shape of the t-distribution.",
+      "explanation_ru": "Критическое t-значение, используемое для проверки гипотез, в первую очередь определяется степенью свободы, связанной с размером выборки, что влияет на форму t-распределения.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. While the level of significance influences the decision rule, it does not directly determine the critical t-value.",
+          "text_ru": "Неверно. Хотя уровень значимости влияет на правило принятия решений, он не определяет напрямую критическое t-значение."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. The magnitude of the sample correlation coefficient may influence the calculated test statistic but not the critical t-value used for hypothesis testing.",
+          "text_ru": "Неверно. Величина выборочного коэффициента корреляции может влиять на рассчитанную тестовую статистику, но не на критическое t-значение, используемое для проверки гипотез."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "critical_value",
+        "degrees_of_freedom",
+        "t_test"
+      ]
+    },
+    {
+      "question_id": "QM-9-Q016",
+      "original_question_number": 279,
+      "los_id": "LOS_9a",
+      "question_text_en": "Which statement is most likely true regarding the t-test statistic used in testing the correlation coefficient between two variables' returns?",
+      "question_text_ru": "Какое утверждение наиболее вероятно верно относительно t-тест статистики, используемой при проверке коэффициента корреляции между доходностями двух переменных?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "A higher t-test statistic indicates stronger evidence against the null hypothesis.",
+          "text_ru": "Более высокая t-тест статистика указывает на более сильные доказательства против нулевой гипотезы."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "A lower t-test statistic suggests a higher probability of Type II error.",
+          "text_ru": "Более низкая t-тест статистика предполагает более высокую вероятность ошибки второго рода."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The t-test statistic is independent of the sample size.",
+          "text_ru": "T-тест статистика не зависит от размера выборки."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "A higher t-test statistic indicates stronger evidence against the null hypothesis, suggesting that the sample correlation coefficient is significantly different from zero.",
+      "explanation_ru": "Более высокая t-тест статистика указывает на более сильные доказательства против нулевой гипотезы, предполагая, что выборочный коэффициент корреляции значимо отличается от нуля.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. A lower t-test statistic does not directly suggest a higher probability of Type II error; Type II error depends on factors such as the level of significance and the effect size.",
+          "text_ru": "Неверно. Более низкая t-тест статистика не предполагает напрямую более высокую вероятность ошибки второго рода; ошибка второго рода зависит от факторов, таких как уровень значимости и размер эффекта."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The t-test statistic depends on the sample size, with larger sample sizes typically resulting in larger t-values for the same correlation coefficient.",
+          "text_ru": "Неверно. T-тест статистика зависит от размера выборки, при этом большие размеры выборки обычно приводят к большим t-значениям для того же коэффициента корреляции."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "t_test",
+        "test_statistic",
+        "hypothesis_testing"
+      ]
+    },
+    {
+      "question_id": "QM-9-Q017",
+      "original_question_number": 280,
+      "los_id": "LOS_9a",
+      "question_text_en": "In testing the correlation coefficient, if the p-value is 0.03 and the significance level is 0.05, what is the most appropriate conclusion?",
+      "question_text_ru": "При проверке коэффициента корреляции, если p-значение составляет 0.03, а уровень значимости 0.05, какой наиболее подходящий вывод?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Reject the null hypothesis because the p-value is less than the significance level.",
+          "text_ru": "Отклонить нулевую гипотезу, потому что p-значение меньше уровня значимости."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Fail to reject the null hypothesis because the p-value is greater than zero.",
+          "text_ru": "Не отклонить нулевую гипотезу, потому что p-значение больше нуля."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Accept the null hypothesis because the p-value is close to the significance level.",
+          "text_ru": "Принять нулевую гипотезу, потому что p-значение близко к уровню значимости."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "When the p-value (0.03) is less than the significance level (0.05), we reject the null hypothesis and conclude that there is a statistically significant correlation between the variables.",
+      "explanation_ru": "Когда p-значение (0.03) меньше уровня значимости (0.05), мы отклоняем нулевую гипотезу и делаем вывод о наличии статистически значимой корреляции между переменными.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. The decision to reject or fail to reject the null hypothesis is based on comparing the p-value to the significance level, not on whether the p-value is greater than zero.",
+          "text_ru": "Неверно. Решение об отклонении или неотклонении нулевой гипотезы основано на сравнении p-значения с уровнем значимости, а не на том, больше ли p-значение нуля."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. We do not accept the null hypothesis in statistical testing. We either reject it when there is sufficient evidence or fail to reject it when there is insufficient evidence.",
+          "text_ru": "Неверно. Мы не принимаем нулевую гипотезу в статистическом тестировании. Мы либо отклоняем её при наличии достаточных доказательств, либо не отклоняем при недостаточных доказательствах."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "p_value",
+        "significance_level",
+        "hypothesis_testing"
+      ]
     }
   ]
 }
