@@ -1,0 +1,413 @@
+{
+  "metadata": {
+    "book_id": 1,
+    "book_code": "QM",
+    "book_name": "Quantitative Methods",
+    "book_name_ru": "Количественные методы",
+    "module_id": 9,
+    "module_name": "Parametric and Non Parametric Tests of Independence",
+    "module_name_ru": "Параметрические и непараметрические тесты независимости",
+    "total_questions": 7,
+    "version": "2.0",
+    "source": "AnalystPrep QBank"
+  },
+  "questions": [
+    {
+      "question_id": "QM-9-Q001",
+      "original_question_number": 264,
+      "los_id": "LOS_9a",
+      "question_text_en": "Assume a financial analyst, Alex Perez, is examining the significance of the correlation between the monthly returns of ETF 2 and the overall market index based on the table provided with 48 monthly observations. The sample correlation, r_ETF2,Market, is 0.9096. Perez wishes to use a t-test to check if the correlation is significant at a 0.01 level of significance. The sample t-table is given below:",
+      "question_text_ru": "Предположим, финансовый аналитик Алекс Перес изучает значимость корреляции между месячными доходностями ETF 2 и общим рыночным индексом на основе таблицы с 48 месячными наблюдениями. Выборочная корреляция r_ETF2,Market составляет 0.9096. Перес хочет использовать t-тест для проверки значимости корреляции на уровне значимости 0.01. Таблица t-значений представлена ниже:",
+      "has_table": true,
+      "table_data": {
+        "headers": ["df", "p = 0.10", "p = 0.05", "p = 0.025", "p = 0.01", "p = 0.005"],
+        "headers_ru": ["df", "p = 0.10", "p = 0.05", "p = 0.025", "p = 0.01", "p = 0.005"],
+        "rows": [
+          ["31", "1.309", "1.696", "2.040", "2.453", "2.744"],
+          ["42", "1.302", "1.682", "2.018", "2.418", "2.698"],
+          ["43", "1.302", "1.681", "2.017", "2.416", "2.695"],
+          ["44", "1.301", "1.680", "2.015", "2.414", "2.692"],
+          ["45", "1.301", "1.679", "2.014", "2.412", "2.690"],
+          ["46", "1.300", "1.679", "2.013", "2.410", "2.687"],
+          ["47", "1.300", "1.678", "2.012", "2.408", "2.685"],
+          ["48", "1.299", "1.677", "2.011", "2.407", "2.682"]
+        ]
+      },
+      "question_continuation_en": "The conclusion about the significance of the correlation between ETF 2 and the market index is:",
+      "question_continuation_ru": "Вывод о значимости корреляции между ETF 2 и рыночным индексом:",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Significant because the calculated t-statistic is greater than the critical value.",
+          "text_ru": "Значима, потому что рассчитанная t-статистика больше критического значения."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Not significant because the calculated t-statistic is less than the critical value.",
+          "text_ru": "Незначима, потому что рассчитанная t-статистика меньше критического значения."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Not significant because the calculated t-statistic is greater than the critical value.",
+          "text_ru": "Незначима, потому что рассчитанная t-статистика больше критического значения."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Hypothesis test: Two-sided; H0: ρ = 0 versus Ha: ρ ≠ 0. To test the significance of the correlation between ETF 2 and the market index, Alex Perez calculates the t-statistic using the formula: t = r√(n-2)/√(1-r²). Where: r = Sample correlation coefficient = 0.9096, n = Number of observations = 48. Substituting: t = 0.9096√46/√(1-0.9096²) = (0.9096 × 6.7823)/0.41549 ≈ 14.848. Since the critical t-value at the 0.01 level of significance is ±2.687, and the calculated t-statistic (14.848) is greater than the critical value, Perez should conclude that the correlation between ETF 2 and the market index is significant.",
+      "explanation_ru": "Проверка гипотезы: двусторонняя; H0: ρ = 0 против Ha: ρ ≠ 0. Для проверки значимости корреляции между ETF 2 и рыночным индексом Алекс Перес вычисляет t-статистику по формуле: t = r√(n-2)/√(1-r²). Где: r = выборочный коэффициент корреляции = 0.9096, n = количество наблюдений = 48. Подставляя: t = 0.9096√46/√(1-0.9096²) = (0.9096 × 6.7823)/0.41549 ≈ 14.848. Поскольку критическое t-значение на уровне значимости 0.01 составляет ±2.687, а рассчитанная t-статистика (14.848) больше критического значения, Перес должен сделать вывод, что корреляция между ETF 2 и рыночным индексом значима.",
+      "explanation_formula": "$t = \\frac{r\\sqrt{n-2}}{\\sqrt{1-r^2}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. It suggests that the correlation is not significant due to the calculated t-statistic being less than the critical value. This is not the case here, as the calculated t-statistic (14.848) is indeed greater than the critical value at the 0.01 level of significance, indicating a significant correlation.",
+          "text_ru": "Неверно. Предполагается, что корреляция незначима из-за того, что рассчитанная t-статистика меньше критического значения. Это не так, поскольку рассчитанная t-статистика (14.848) действительно больше критического значения на уровне значимости 0.01, что указывает на значимую корреляцию."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The calculated t-statistic is greater than the critical value. In statistical hypothesis testing, a calculated t-statistic greater than the critical value at a given level of significance indicates that the correlation is significant, contrary to what option C suggests.",
+          "text_ru": "Неверно. Рассчитанная t-статистика больше критического значения. В статистической проверке гипотез рассчитанная t-статистика, большая критического значения на заданном уровне значимости, указывает на то, что корреляция значима, в отличие от того, что предполагает вариант C."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "BA II Plus: Direct Calculation",
+        "steps_en": [
+          "Calculate numerator: 0.9096 × √(48-2) = 0.9096 × √46 = 0.9096 × 6.7823 = 6.1694",
+          "Calculate denominator: √(1 - 0.9096²) = √(1 - 0.8273) = √0.1727 = 0.4156",
+          "Divide: 6.1694 ÷ 0.4156 = 14.848",
+          "Compare with critical value ±2.687"
+        ],
+        "steps_ru": [
+          "Вычислить числитель: 0.9096 × √(48-2) = 0.9096 × √46 = 0.9096 × 6.7823 = 6.1694",
+          "Вычислить знаменатель: √(1 - 0.9096²) = √(1 - 0.8273) = √0.1727 = 0.4156",
+          "Разделить: 6.1694 ÷ 0.4156 = 14.848",
+          "Сравнить с критическим значением ±2.687"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["t_test", "correlation", "parametric_test"]
+    },
+    {
+      "question_id": "QM-9-Q002",
+      "original_question_number": 265,
+      "los_id": "LOS_9b",
+      "question_text_en": "The following contingency table shows the responses of two categories of investors (employed vs. self-employed) with regard to their risk tolerance levels (low, medium, or high). The total sample size is 200 investors.",
+      "question_text_ru": "Следующая таблица сопряженности показывает ответы двух категорий инвесторов (работающие по найму и самозанятые) относительно их уровней толерантности к риску (низкий, средний или высокий). Общий размер выборки составляет 200 инвесторов.",
+      "has_table": true,
+      "table_data": {
+        "headers": ["", "Low", "Medium", "High", "Total"],
+        "headers_ru": ["", "Низкий", "Средний", "Высокий", "Итого"],
+        "rows": [
+          ["Employed / Работающие", "45", "55", "20", "120"],
+          ["Self-Employed / Самозанятые", "30", "40", "10", "80"],
+          ["Total / Итого", "75", "95", "30", "200"]
+        ]
+      },
+      "question_continuation_en": "If we wish to test whether there is any significant difference between employed and self-employed investors concerning risk tolerance levels, the test statistic is closest to:",
+      "question_continuation_ru": "Если мы хотим проверить, есть ли значимая разница между работающими по найму и самозанятыми инвесторами в отношении уровней толерантности к риску, тестовая статистика ближе всего к:",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "0.222",
+          "text_ru": "0.222"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "0.333",
+          "text_ru": "0.333"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "0.730",
+          "text_ru": "0.730"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "H0: there is no significant difference between employed and self-employed investors. Ha: there is a significant difference. Step 1: Calculate expected frequencies: E(Employed,Low)=(120×75)/200=45, E(Employed,Medium)=(120×95)/200=57, E(Employed,High)=(120×30)/200=18, E(Self-Employed,Low)=(80×75)/200=30, E(Self-Employed,Medium)=(80×95)/200=38, E(Self-Employed,High)=(80×30)/200=12. Step 2: Calculate chi-square contributions: (45-45)²/45=0, (55-57)²/57≈0.070, (20-18)²/18≈0.222, (30-30)²/30=0, (40-38)²/38≈0.105, (10-12)²/12≈0.333. Step 3: χ² = 0 + 0.070 + 0.222 + 0 + 0.105 + 0.333 = 0.730",
+      "explanation_ru": "H0: нет значимой разницы между работающими по найму и самозанятыми. Ha: есть значимая разница. Шаг 1: Вычислить ожидаемые частоты: E(Работающие,Низкий)=(120×75)/200=45, E(Работающие,Средний)=(120×95)/200=57, E(Работающие,Высокий)=(120×30)/200=18, E(Самозанятые,Низкий)=(80×75)/200=30, E(Самозанятые,Средний)=(80×95)/200=38, E(Самозанятые,Высокий)=(80×30)/200=12. Шаг 2: Вычислить вклады в хи-квадрат: (45-45)²/45=0, (55-57)²/57≈0.070, (20-18)²/18≈0.222, (30-30)²/30=0, (40-38)²/38≈0.105, (10-12)²/12≈0.333. Шаг 3: χ² = 0 + 0.070 + 0.222 + 0 + 0.105 + 0.333 = 0.730",
+      "explanation_formula": "$\\chi^2 = \\sum \\frac{(O_{ij} - E_{ij})^2}{E_{ij}}$",
+      "explanation_table": {
+        "headers": ["Category", "Low", "Medium", "High"],
+        "headers_ru": ["Категория", "Низкий", "Средний", "Высокий"],
+        "rows": [
+          ["Employed Expected / Ожидаемые работающие", "45", "57", "18"],
+          ["Self-Employed Expected / Ожидаемые самозанятые", "30", "38", "12"],
+          ["Chi-square contribution Employed / Вклад работающие", "0", "0.070", "0.222"],
+          ["Chi-square contribution Self-Employed / Вклад самозанятые", "0", "0.105", "0.333"]
+        ]
+      },
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The option suggesting a test statistic of 0.222 does not accurately reflect the chi-square statistic calculated from the observed and expected frequencies. This value might represent a partial calculation for one of the categories but does not encompass the total variance observed across all categories and risk tolerance levels.",
+          "text_ru": "Неверно. Вариант с тестовой статистикой 0.222 не точно отражает хи-квадрат статистику, рассчитанную из наблюдаемых и ожидаемых частот. Это значение может представлять частичный расчет для одной из категорий, но не охватывает общую дисперсию по всем категориям и уровням толерантности к риску."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. The option indicating a test statistic of 0.333 similarly fails to capture the aggregate discrepancy between the observed and expected frequencies across all categories. While it might represent a calculation for a specific part of the table, it does not account for the total chi-square statistic which measures the overall difference.",
+          "text_ru": "Неверно. Вариант с тестовой статистикой 0.333 аналогично не отражает совокупное расхождение между наблюдаемыми и ожидаемыми частотами по всем категориям. Хотя это может представлять расчет для определенной части таблицы, он не учитывает общую хи-квадрат статистику, которая измеряет общую разницу."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "BA II Plus: Multi-step Calculation",
+        "steps_en": [
+          "Calculate expected frequencies for each cell",
+          "For each cell: (Observed - Expected)² ÷ Expected, store sum",
+          "Employed Low: (45-45)²÷45 = 0",
+          "Employed Med: (55-57)²÷57 = 0.070",
+          "Employed High: (20-18)²÷18 = 0.222",
+          "Self-Employed Low: (30-30)²÷30 = 0",
+          "Self-Employed Med: (40-38)²÷38 = 0.105",
+          "Self-Employed High: (10-12)²÷12 = 0.333",
+          "Sum all: 0.730"
+        ],
+        "steps_ru": [
+          "Вычислить ожидаемые частоты для каждой ячейки",
+          "Для каждой ячейки: (Наблюдаемое - Ожидаемое)² ÷ Ожидаемое, сохранить сумму",
+          "Работающие Низкий: (45-45)²÷45 = 0",
+          "Работающие Средний: (55-57)²÷57 = 0.070",
+          "Работающие Высокий: (20-18)²÷18 = 0.222",
+          "Самозанятые Низкий: (30-30)²÷30 = 0",
+          "Самозанятые Средний: (40-38)²÷38 = 0.105",
+          "Самозанятые Высокий: (10-12)²÷12 = 0.333",
+          "Сумма всех: 0.730"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["chi_square", "contingency_table", "independence_test"]
+    },
+    {
+      "question_id": "QM-9-Q003",
+      "original_question_number": 266,
+      "los_id": "LOS_9a",
+      "question_text_en": "What type of test would you use to assess the correlation between excess risk-adjusted return (alpha) and mutual fund expense ratios for US large-cap growth funds?",
+      "question_text_ru": "Какой тип теста вы бы использовали для оценки корреляции между избыточной скорректированной на риск доходностью (альфа) и коэффициентами расходов взаимных фондов для крупнокапитализированных фондов роста США?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Parametric test",
+          "text_ru": "Параметрический тест"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Nonparametric test",
+          "text_ru": "Непараметрический тест"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Chi-square test",
+          "text_ru": "Хи-квадрат тест"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Given that mutual fund expense ratios and excess risk-adjusted returns may not be normally distributed and may not meet the assumptions of a parametric test, a nonparametric test, such as the Spearman rank correlation coefficient, would be appropriate to assess the correlation between these variables.",
+      "explanation_ru": "Учитывая, что коэффициенты расходов взаимных фондов и избыточная скорректированная на риск доходность могут не быть нормально распределены и могут не соответствовать предположениям параметрического теста, непараметрический тест, такой как коэффициент ранговой корреляции Спирмена, был бы подходящим для оценки корреляции между этими переменными.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Parametric tests are based on specific distributional assumptions, which may not be met by the data in this scenario.",
+          "text_ru": "Неверно. Параметрические тесты основаны на специфических предположениях о распределении, которые могут не выполняться для данных в этом сценарии."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The chi-square test is used to test for independence of categorical variables, not for assessing the correlation between continuous variables like excess risk-adjusted return and mutual fund expense ratios.",
+          "text_ru": "Неверно. Хи-квадрат тест используется для проверки независимости категориальных переменных, а не для оценки корреляции между непрерывными переменными, такими как избыточная скорректированная на риск доходность и коэффициенты расходов взаимных фондов."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["nonparametric_test", "test_selection", "spearman_correlation"]
+    },
+    {
+      "question_id": "QM-9-Q004",
+      "original_question_number": 267,
+      "los_id": "LOS_9a",
+      "question_text_en": "What are the null and alternative hypotheses for assessing the correlation between excess risk-adjusted return (alpha) and mutual fund expense ratios for US large-cap growth funds?",
+      "question_text_ru": "Каковы нулевая и альтернативная гипотезы для оценки корреляции между избыточной скорректированной на риск доходностью (альфа) и коэффициентами расходов взаимных фондов для крупнокапитализированных фондов роста США?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "H0: ρ = 0 versus Ha: ρ ≠ 0",
+          "text_ru": "H0: ρ = 0 против Ha: ρ ≠ 0"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "H0: ρ ≤ 0 versus Ha: ρ > 0",
+          "text_ru": "H0: ρ ≤ 0 против Ha: ρ > 0"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "H0: ρ ≥ 0 versus Ha: ρ < 0",
+          "text_ru": "H0: ρ ≥ 0 против Ha: ρ < 0"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "This formulation of hypotheses tests whether there is no correlation (null hypothesis) versus the alternative hypothesis that there is a correlation between excess risk-adjusted return and mutual fund expense ratios.",
+      "explanation_ru": "Эта формулировка гипотез проверяет отсутствие корреляции (нулевая гипотеза) против альтернативной гипотезы о наличии корреляции между избыточной скорректированной на риск доходностью и коэффициентами расходов взаимных фондов.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. These formulations of hypotheses are for one-sided tests, which do not align with the scenario described where we are interested in determining whether there is any correlation between the variables, regardless of direction.",
+          "text_ru": "Неверно. Эти формулировки гипотез предназначены для односторонних тестов, которые не соответствуют описанному сценарию, где нас интересует определение наличия корреляции между переменными, независимо от направления."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. These formulations of hypotheses are for one-sided tests, which do not align with the scenario described where we are interested in determining whether there is any correlation between the variables, regardless of direction.",
+          "text_ru": "Неверно. Эти формулировки гипотез предназначены для односторонних тестов, которые не соответствуют описанному сценарию, где нас интересует определение наличия корреляции между переменными, независимо от направления."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["hypothesis_testing", "correlation", "null_hypothesis"]
+    },
+    {
+      "question_id": "QM-9-Q005",
+      "original_question_number": 268,
+      "los_id": "LOS_9a",
+      "question_text_en": "What is the most appropriate test statistic for conducting a test of correlation between excess risk-adjusted return (alpha) and mutual fund expense ratios for US large-cap growth funds using a nonparametric approach?",
+      "question_text_ru": "Какая тестовая статистика наиболее подходит для проведения теста корреляции между избыточной скорректированной на риск доходностью (альфа) и коэффициентами расходов взаимных фондов для крупнокапитализированных фондов роста США с использованием непараметрического подхода?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Spearman rank correlation coefficient",
+          "text_ru": "Коэффициент ранговой корреляции Спирмена"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Pearson correlation coefficient",
+          "text_ru": "Коэффициент корреляции Пирсона"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Chi-square test statistic",
+          "text_ru": "Хи-квадрат тестовая статистика"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "When dealing with variables that may not meet distributional assumptions, such as mutual fund expense ratios and excess risk-adjusted returns, a nonparametric approach like the Spearman rank correlation coefficient is suitable for assessing correlation.",
+      "explanation_ru": "При работе с переменными, которые могут не соответствовать предположениям о распределении, такими как коэффициенты расходов взаимных фондов и избыточная скорректированная на риск доходность, непараметрический подход, такой как коэффициент ранговой корреляции Спирмена, подходит для оценки корреляции.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. The Pearson correlation coefficient assumes normality and linearity, which may not hold true for the variables in this scenario.",
+          "text_ru": "Неверно. Коэффициент корреляции Пирсона предполагает нормальность и линейность, что может не выполняться для переменных в этом сценарии."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The chi-square test statistic is used for testing independence between categorical variables, not for assessing correlation between continuous variables like excess risk-adjusted return and mutual fund expense ratios.",
+          "text_ru": "Неверно. Хи-квадрат тестовая статистика используется для проверки независимости между категориальными переменными, а не для оценки корреляции между непрерывными переменными, такими как избыточная скорректированная на риск доходность и коэффициенты расходов взаимных фондов."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["spearman_correlation", "nonparametric_test", "test_statistic"]
+    },
+    {
+      "question_id": "QM-9-Q006",
+      "original_question_number": 269,
+      "los_id": "LOS_9a",
+      "question_text_en": "If the calculated test statistic for assessing the correlation between excess risk-adjusted return (alpha) and mutual fund expense ratios is -0.55177, and the critical values at a 0.05 level of significance are ±2.306, what decision is most likely to be made?",
+      "question_text_ru": "Если рассчитанная тестовая статистика для оценки корреляции между избыточной скорректированной на риск доходностью (альфа) и коэффициентами расходов взаимных фондов составляет -0.55177, а критические значения на уровне значимости 0.05 составляют ±2.306, какое решение наиболее вероятно будет принято?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Reject the null hypothesis",
+          "text_ru": "Отклонить нулевую гипотезу"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Fail to reject the null hypothesis",
+          "text_ru": "Не отклонить нулевую гипотезу"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Cannot be determined from the information given",
+          "text_ru": "Невозможно определить по предоставленной информации"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Since the calculated test statistic (-0.55177) falls within the range of the critical values (±2.306), it does not provide sufficient evidence to reject the null hypothesis that the Spearman rank correlation coefficient is zero.",
+      "explanation_ru": "Поскольку рассчитанная тестовая статистика (-0.55177) попадает в диапазон критических значений (±2.306), она не предоставляет достаточных доказательств для отклонения нулевой гипотезы о том, что коэффициент ранговой корреляции Спирмена равен нулю.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This decision would be made if the calculated test statistic falls outside the range of the critical values, indicating sufficient evidence to reject the null hypothesis.",
+          "text_ru": "Неверно. Это решение было бы принято, если бы рассчитанная тестовая статистика выходила за пределы диапазона критических значений, указывая на достаточные доказательства для отклонения нулевой гипотезы."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The decision can be determined based on whether the calculated test statistic falls within or outside the range of the critical values, so it can be determined from the information provided.",
+          "text_ru": "Неверно. Решение может быть определено на основе того, попадает ли рассчитанная тестовая статистика в диапазон или выходит за пределы диапазона критических значений, поэтому это можно определить по предоставленной информации."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["hypothesis_testing", "critical_value", "decision_rule"]
+    },
+    {
+      "question_id": "QM-9-Q007",
+      "original_question_number": 270,
+      "los_id": "LOS_9a",
+      "question_text_en": "What is the significance level used in the test of correlation between excess risk-adjusted return (alpha) and mutual fund expense ratios for US large-cap growth funds?",
+      "question_text_ru": "Каков уровень значимости, используемый в тесте корреляции между избыточной скорректированной на риск доходностью (альфа) и коэффициентами расходов взаимных фондов для крупнокапитализированных фондов роста США?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "0.05",
+          "text_ru": "0.05"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "0.01",
+          "text_ru": "0.01"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "0.10",
+          "text_ru": "0.10"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The significance level, often denoted by α, is typically set at 0.05 in hypothesis testing unless otherwise specified.",
+      "explanation_ru": "Уровень значимости, часто обозначаемый как α, обычно устанавливается на уровне 0.05 при проверке гипотез, если не указано иное.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. While 0.01 is a common significance level, the test of correlation between excess risk-adjusted return and mutual fund expense ratios in this scenario specifically mentions a 0.05 level of significance.",
+          "text_ru": "Неверно. Хотя 0.01 является распространенным уровнем значимости, тест корреляции между избыточной скорректированной на риск доходностью и коэффициентами расходов взаимных фондов в этом сценарии конкретно упоминает уровень значимости 0.05."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. While 0.10 is a common significance level, the test of correlation between excess risk-adjusted return and mutual fund expense ratios in this scenario specifically mentions a 0.05 level of significance.",
+          "text_ru": "Неверно. Хотя 0.10 является распространенным уровнем значимости, тест корреляции между избыточной скорректированной на риск доходностью и коэффициентами расходов взаимных фондов в этом сценарии конкретно упоминает уровень значимости 0.05."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["significance_level", "hypothesis_testing", "alpha"]
+    }
+  ]
+}
