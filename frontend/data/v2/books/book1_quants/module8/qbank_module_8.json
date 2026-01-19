@@ -1,0 +1,3077 @@
+{
+  "metadata": {
+    "book_id": 1,
+    "book_code": "QM",
+    "book_name": "Quantitative Methods",
+    "book_name_ru": "Количественные методы",
+    "module_id": 8,
+    "module_name": "Parametric and Non-Parametric Tests",
+    "module_name_ru": "Параметрические и непараметрические тесты",
+    "total_questions": 60,
+    "version": "2.0",
+    "source": "AnalystPrep QBank"
+  },
+  "questions": [
+    {
+      "question_id": "QM-8-Q001",
+      "original_question_number": 204,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which statistic should you use to most appropriately compare two population variances with a sample size smaller than 30?",
+      "question_text_ru": "Какую статистику следует использовать для наиболее корректного сравнения дисперсий двух популяций с размером выборки менее 30?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "z-test",
+          "text_ru": "z-тест"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "t-test",
+          "text_ru": "t-тест"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "F-test",
+          "text_ru": "F-тест"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "An F-test is used to compare two populations' variances. The samples can be of any size. The test statistic used to obtain the ratio of 2 population variances is: S₁²/S₂² ~ F(n₁-1)(n₂-2)",
+      "explanation_ru": "F-тест используется для сравнения дисперсий двух популяций. Выборки могут быть любого размера. Тестовая статистика для получения отношения 2 дисперсий популяции: S₁²/S₂² ~ F(n₁-1)(n₂-2)",
+      "explanation_formula": "$\\frac{S_1^2}{S_2^2} \\sim F_{(n_1-1)(n_2-2)}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The z test is used when the underlying variable follows a normal distribution or when the sample size is large (n>30). When the sample size is large, the distribution is assumed to be approximately normal according to the central limit theorem.",
+          "text_ru": "z-тест используется, когда базовая переменная следует нормальному распределению или когда размер выборки велик (n>30). Когда размер выборки велик, распределение считается приблизительно нормальным согласно центральной предельной теореме."
+        },
+        "opt_b": {
+          "text_en": "A t-test is appropriate when testing for the means.",
+          "text_ru": "t-тест подходит при тестировании средних значений."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "f_test",
+        "variance_comparison",
+        "hypothesis_testing"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q002",
+      "original_question_number": 205,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following statements is least accurate?",
+      "question_text_ru": "Какое из следующих утверждений наименее точно?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "A 1% significance level is the same as a 99% confidence.",
+          "text_ru": "1% уровень значимости эквивалентен 99% уровню доверия."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The alternative hypothesis (Hₐ) always includes an equal sign.",
+          "text_ru": "Альтернативная гипотеза (Hₐ) всегда включает знак равенства."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The alternative hypothesis (Hₐ) is usually the hypothesis which we are trying to assess.",
+          "text_ru": "Альтернативная гипотеза (Hₐ) обычно является гипотезой, которую мы пытаемся оценить."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The NULL hypothesis (H₀) always includes an equal sign. The null hypothesis represents the current known state of the population parameter being tested. On the other hand, the alternative hypothesis is concluded if there is sufficient evidence to reject the null hypothesis. For a two-tailed test, the alternative hypothesis will contain an equal sign. For a one-tailed test, the alternative hypothesis will either have a '>' or a '<' sign.",
+      "explanation_ru": "Нулевая гипотеза (H₀) всегда включает знак равенства. Нулевая гипотеза представляет текущее известное состояние тестируемого параметра популяции. Альтернативная гипотеза принимается, если есть достаточно доказательств для отклонения нулевой гипотезы. Для двустороннего теста альтернативная гипотеза будет содержать знак равенства. Для одностороннего теста альтернативная гипотеза будет иметь знак '>' или '<'.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "It is a true statement. To get the significance level or the alpha, we subtract the given confidence percentage from 100. 100%-99%(given percentage alpha)=1% (significance level).",
+          "text_ru": "Это верное утверждение. Для получения уровня значимости или альфа, мы вычитаем данный процент доверия из 100. 100%-99%(данный процент альфа)=1% (уровень значимости)."
+        },
+        "opt_c": {
+          "text_en": "The alternative hypothesis is chosen if there is sufficient evidence to reject the null hypothesis.",
+          "text_ru": "Альтернативная гипотеза выбирается, если есть достаточно доказательств для отклонения нулевой гипотезы."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "hypothesis_testing",
+        "alternative_hypothesis",
+        "null_hypothesis"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q003",
+      "original_question_number": 206,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following statements is most accurate?",
+      "question_text_ru": "Какое из следующих утверждений наиболее точно?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The null hypothesis is the hypothesis that the researcher wants to reject.",
+          "text_ru": "Нулевая гипотеза - это гипотеза, которую исследователь хочет отклонить."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The null hypothesis is the hypothesis that the researcher wants to accept.",
+          "text_ru": "Нулевая гипотеза - это гипотеза, которую исследователь хочет принять."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The alternative hypothesis is the hypothesis that the researcher wants to reject.",
+          "text_ru": "Альтернативная гипотеза - это гипотеза, которую исследователь хочет отклонить."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The null hypothesis, designated by H₀, is the hypothesis that the researcher wants to reject. It represents the current known state about the parameter to be tested. In the presence of sufficient evidence, the null hypothesis is meant to be rejected.",
+      "explanation_ru": "Нулевая гипотеза, обозначаемая H₀, - это гипотеза, которую исследователь хочет отклонить. Она представляет текущее известное состояние тестируемого параметра. При наличии достаточных доказательств нулевая гипотеза должна быть отклонена.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Researchers want to accept the alternative hypothesis by rejecting the null hypothesis. Besides, it is statistically incorrect to say 'accept the null hypothesis' because of the fact that you cannot prove a negative. Statisticians use the term 'fail to reject' and not 'accept' because insufficient evidence only means that you have failed to prove that something exists. It does not necessarily mean that something is non-existent.",
+          "text_ru": "Исследователи хотят принять альтернативную гипотезу, отклонив нулевую гипотезу. Кроме того, статистически неверно говорить 'принять нулевую гипотезу', потому что вы не можете доказать отрицательное. Статистики используют термин 'не отклонить', а не 'принять', потому что недостаточность доказательств означает лишь то, что вы не смогли доказать существование чего-либо."
+        },
+        "opt_c": {
+          "text_en": "Researchers want to accept the alternative hypothesis by rejecting the null hypothesis.",
+          "text_ru": "Исследователи хотят принять альтернативную гипотезу, отклонив нулевую гипотезу."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "hypothesis_testing",
+        "null_hypothesis",
+        "research_methodology"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q004",
+      "original_question_number": 207,
+      "los_id": "LOS_8c",
+      "question_text_en": "Which of the following assumptions is least likely required for the difference in means test based on two samples?",
+      "question_text_ru": "Какое из следующих предположений наименее вероятно требуется для теста разности средних на основе двух выборок?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The two samples are independent.",
+          "text_ru": "Две выборки независимы."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The two populations have equal variances.",
+          "text_ru": "Две популяции имеют равные дисперсии."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The two populations are normally distributed.",
+          "text_ru": "Две популяции нормально распределены."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "We can still calculate the difference in means even when the populations' variances are not equal. When variances are assumed to be unequal, we use both sample variations to calculate the t-statistic.",
+      "explanation_ru": "Мы все еще можем рассчитать разность средних, даже когда дисперсии популяций не равны. Когда предполагается, что дисперсии неравны, мы используем обе выборочные вариации для расчета t-статистики.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "For difference in means test based on two samples, the samples must be independent!",
+          "text_ru": "Для теста разности средних на основе двух выборок выборки должны быть независимыми!"
+        },
+        "opt_c": {
+          "text_en": "For difference in means test based on two samples, the two populations must be normally distributed!",
+          "text_ru": "Для теста разности средних на основе двух выборок две популяции должны быть нормально распределены!"
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "t_test",
+        "difference_in_means",
+        "assumptions"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q005",
+      "original_question_number": 208,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following statements is most accurate?",
+      "question_text_ru": "Какое из следующих утверждений наиболее точно?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The alternative hypothesis is what is accepted if there is sufficient evidence to reject the null hypothesis.",
+          "text_ru": "Альтернативная гипотеза - это то, что принимается, если есть достаточно доказательств для отклонения нулевой гипотезы."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The alternative hypothesis is what is accepted if there is sufficient evidence to accept the null hypothesis.",
+          "text_ru": "Альтернативная гипотеза - это то, что принимается, если есть достаточно доказательств для принятия нулевой гипотезы."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The null hypothesis is what is accepted if there is sufficient evidence to reject the alternative hypothesis.",
+          "text_ru": "Нулевая гипотеза - это то, что принимается, если есть достаточно доказательств для отклонения альтернативной гипотезы."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The alternative hypothesis, designated by Hₐ, is what is accepted if there is sufficient evidence to reject the null hypothesis.",
+      "explanation_ru": "Альтернативная гипотеза, обозначаемая Hₐ, - это то, что принимается, если есть достаточно доказательств для отклонения нулевой гипотезы.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Statistical tests try to find evidence to reject or to fail to reject the null hypothesis. If the null hypothesis has been rejected, then we accept the alternative hypothesis. If we fail to reject the null hypothesis, then we reject the alternative hypothesis.",
+          "text_ru": "Статистические тесты пытаются найти доказательства для отклонения или неотклонения нулевой гипотезы. Если нулевая гипотеза отклонена, мы принимаем альтернативную гипотезу. Если мы не отклоняем нулевую гипотезу, мы отклоняем альтернативную гипотезу."
+        },
+        "opt_c": {
+          "text_en": "The alternative hypothesis, designated by Hₐ, is what is accepted if there is sufficient evidence to reject the null hypothesis.",
+          "text_ru": "Альтернативная гипотеза, обозначаемая Hₐ, - это то, что принимается, если есть достаточно доказательств для отклонения нулевой гипотезы."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "hypothesis_testing",
+        "alternative_hypothesis"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q006",
+      "original_question_number": 209,
+      "los_id": "LOS_8b",
+      "question_text_en": "When hypothesis testing, the choice between using a critical value based on the z-distribution or the t-distribution most likely depends on:",
+      "question_text_ru": "При тестировании гипотез выбор между использованием критического значения на основе z-распределения или t-распределения наиболее вероятно зависит от:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The sample size.",
+          "text_ru": "Размера выборки."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The distribution of the population.",
+          "text_ru": "Распределения популяции."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The sample size and the distribution of the population.",
+          "text_ru": "Размера выборки и распределения популяции."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "When hypothesis testing, the choice between using a critical value based on the z-distribution or the t-distribution depends on sample size, the distribution of the population, and whether or not the variance of the population is known.",
+      "explanation_ru": "При тестировании гипотез выбор между использованием критического значения на основе z-распределения или t-распределения зависит от размера выборки, распределения популяции и того, известна ли дисперсия популяции.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "While the sample size is indeed a critical factor—typically, a z-distribution is used when the sample size is large (n > 30) and the population variance is known, and a t-distribution is used for smaller samples (n ≤ 30) where the population variance is unknown—it does not account for the importance of the population distribution. The assumption of normality or near-normality of the population distribution is crucial when deciding between the z and t distributions, especially for smaller sample sizes.",
+          "text_ru": "Хотя размер выборки действительно является критическим фактором—обычно z-распределение используется, когда размер выборки велик (n > 30) и дисперсия популяции известна, а t-распределение используется для меньших выборок (n ≤ 30), где дисперсия популяции неизвестна—это не учитывает важность распределения популяции. Предположение о нормальности или близкой к нормальности популяции имеет решающее значение при выборе между z и t распределениями."
+        },
+        "opt_b": {
+          "text_en": "While the population distribution is an important consideration, especially in cases where the sample size is small and the central limit theorem cannot be applied to assume a normal distribution of sample means, it is not the only factor. The sample size plays a significant role in determining whether the distribution of the sample means can be approximated to a normal distribution (using the z-distribution) or if a t-distribution should be used due to the increased uncertainty associated with smaller samples and unknown population variance.",
+          "text_ru": "Хотя распределение популяции является важным соображением, особенно в случаях, когда размер выборки мал и центральная предельная теорема не может быть применена для предположения о нормальном распределении выборочных средних, это не единственный фактор. Размер выборки играет значительную роль в определении того, может ли распределение выборочных средних быть аппроксимировано к нормальному распределению."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "z_test",
+        "t_test",
+        "distribution_selection"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q007",
+      "original_question_number": 210,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following statements is most accurate?",
+      "question_text_ru": "Какое из следующих утверждений наиболее точно?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The p-value is the probability of obtaining a test statistic that would lead to a rejection of the null hypothesis, assuming the null hypothesis is not true.",
+          "text_ru": "p-значение - это вероятность получения тестовой статистики, которая привела бы к отклонению нулевой гипотезы, предполагая, что нулевая гипотеза неверна."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The p-value is the probability of obtaining a test statistic that would lead to a rejection of the null hypothesis, assuming the null hypothesis is true.",
+          "text_ru": "p-значение - это вероятность получения тестовой статистики, которая привела бы к отклонению нулевой гипотезы, предполагая, что нулевая гипотеза верна."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Neither A) nor B)",
+          "text_ru": "Ни A), ни B)"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The p-value is the probability of obtaining a test statistic that would lead to a rejection of the null hypothesis, assuming the null hypothesis is true. It is the smallest level of significance at which the null hypothesis can be rejected.",
+      "explanation_ru": "p-значение - это вероятность получения тестовой статистики, которая привела бы к отклонению нулевой гипотезы, предполагая, что нулевая гипотеза верна. Это наименьший уровень значимости, при котором можно отклонить нулевую гипотезу.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "This option suggests that researchers aim to accept the null hypothesis, which misrepresents the goal of hypothesis testing. The primary aim is not to accept the null hypothesis but to test it against the alternative hypothesis.",
+          "text_ru": "Этот вариант предполагает, что исследователи стремятся принять нулевую гипотезу, что неверно представляет цель тестирования гипотез. Основная цель - не принять нулевую гипотезу, а проверить ее против альтернативной гипотезы."
+        },
+        "opt_c": {
+          "text_en": "In fact, the alternative hypothesis (H₁ or Hₐ) represents the outcome that researchers are typically interested in demonstrating to be plausible. The alternative hypothesis posits the existence of an effect, difference, or relationship that the research aims to support by rejecting the null hypothesis.",
+          "text_ru": "На самом деле альтернативная гипотеза (H₁ или Hₐ) представляет результат, который исследователи обычно заинтересованы в демонстрации как правдоподобного. Альтернативная гипотеза постулирует существование эффекта, разницы или отношения, которое исследование стремится поддержать, отклоняя нулевую гипотезу."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "p_value",
+        "hypothesis_testing",
+        "significance_level"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q008",
+      "original_question_number": 211,
+      "los_id": "LOS_8b",
+      "question_text_en": "The most appropriate test statistic for a test of the equality of variances for two normally distributed random variables, based on two independent random samples, is the:",
+      "question_text_ru": "Наиболее подходящая тестовая статистика для теста равенства дисперсий двух нормально распределенных случайных величин на основе двух независимых случайных выборок:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "t-test.",
+          "text_ru": "t-тест."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "F-test.",
+          "text_ru": "F-тест."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Chi-squared test.",
+          "text_ru": "Хи-квадрат тест."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The F-test is the appropriate test for a test of the equality of variances for two normally distributed random variables, based on two independent random samples.",
+      "explanation_ru": "F-тест является подходящим тестом для проверки равенства дисперсий двух нормально распределенных случайных величин на основе двух независимых случайных выборок.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The t-test is the appropriate test for a population whose mean and standard deviation are not given.",
+          "text_ru": "t-тест является подходящим тестом для популяции, среднее значение и стандартное отклонение которой не даны."
+        },
+        "opt_c": {
+          "text_en": "The chi-squared test is the appropriate test for testing whether a hypothesized value of variance is equal to, less than, or greater than the true population variance.",
+          "text_ru": "Хи-квадрат тест является подходящим тестом для проверки того, равно ли гипотетическое значение дисперсии, меньше или больше истинной дисперсии популяции."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "f_test",
+        "variance_equality",
+        "hypothesis_testing"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q009",
+      "original_question_number": 212,
+      "los_id": "LOS_8c",
+      "question_text_en": "Which of the following statements about the F-distribution and the chi-square distribution is least accurate?",
+      "question_text_ru": "Какое из следующих утверждений о F-распределении и распределении хи-квадрат наименее точно?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Both distributions are asymmetrical.",
+          "text_ru": "Оба распределения асимметричны."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Both distributions are bound by zero on the left.",
+          "text_ru": "Оба распределения ограничены нулем слева."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Both distributions have means that are less than their standard deviations.",
+          "text_ru": "Оба распределения имеют средние значения, которые меньше их стандартных отклонений."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "To answer this question, we will review the properties of each of the two distributions: Chi-Square Distribution: 1. Chi-square distribution is a ratio of two non-negative values. As a result, it is a non-negative distribution. This implies that it has a positive skew (skewed to the right). 2. Chi-square distribution is a non-symmetric distribution. 3. Each degree of freedom has its chi-square distribution. F Distribution: 1. The F distribution is positively skewed (skewed to the right). 2. Values of the F distribution are either zero or positive. 3. The shape of the F-distribution depends on its (a) parameters and (b) degrees of freedom. There is no consistent relationship between the mean and the standard deviation of the chi-square distribution or the F-distribution.",
+      "explanation_ru": "Чтобы ответить на этот вопрос, рассмотрим свойства каждого из двух распределений: Распределение хи-квадрат: 1. Распределение хи-квадрат - это отношение двух неотрицательных значений. Следовательно, это неотрицательное распределение. Это означает, что оно имеет положительную асимметрию (смещено вправо). 2. Распределение хи-квадрат - несимметричное распределение. 3. Каждая степень свободы имеет свое распределение хи-квадрат. F-распределение: 1. F-распределение положительно асимметрично (смещено вправо). 2. Значения F-распределения либо нулевые, либо положительные. 3. Форма F-распределения зависит от его (a) параметров и (b) степеней свободы. Нет последовательной связи между средним значением и стандартным отклонением распределения хи-квадрат или F-распределения.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "It represents a true statement. Both distributions are skewed to the right. Any distribution that is skewed is asymmetrical.",
+          "text_ru": "Это верное утверждение. Оба распределения смещены вправо. Любое асимметричное распределение является несимметричным."
+        },
+        "opt_b": {
+          "text_en": "It represents a true statement. Both distributions are positively skewed. This implies that they are both bound by zero on the left.",
+          "text_ru": "Это верное утверждение. Оба распределения положительно асимметричны. Это означает, что оба они ограничены нулем слева."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": [
+        "f_distribution",
+        "chi_square_distribution",
+        "distribution_properties"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q010",
+      "original_question_number": 213,
+      "los_id": "LOS_8b",
+      "question_text_en": "The most appropriate test statistic to test the hypothesis that the variance of a normally distributed population is equal to 13 is the:",
+      "question_text_ru": "Наиболее подходящая тестовая статистика для проверки гипотезы о том, что дисперсия нормально распределенной популяции равна 13:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "t-test.",
+          "text_ru": "t-тест."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "F-test.",
+          "text_ru": "F-тест."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Chi-squared test.",
+          "text_ru": "Хи-квадрат тест."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "The chi-squared test is used to test whether a hypothesized value of variance is equal to, less than, or greater than the true value of the population variance.",
+      "explanation_ru": "Хи-квадрат тест используется для проверки того, равно ли гипотетическое значение дисперсии, меньше или больше истинного значения дисперсии популяции.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The t-test is an appropriate test for a population whose mean and standard deviation is not given.",
+          "text_ru": "t-тест является подходящим тестом для популяции, среднее значение и стандартное отклонение которой не даны."
+        },
+        "opt_b": {
+          "text_en": "The F-test is an appropriate test statistic for testing the equality of variances for two normally distributed random variables based on two independent random samples.",
+          "text_ru": "F-тест является подходящей тестовой статистикой для проверки равенства дисперсий двух нормально распределенных случайных величин на основе двух независимых случайных выборок."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "chi_square_test",
+        "variance_testing",
+        "hypothesis_testing"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q011",
+      "original_question_number": 214,
+      "los_id": "LOS_8b",
+      "question_text_en": "For two independent samples from two normally distributed populations, the difference in means can most likely be tested using the:",
+      "question_text_ru": "Для двух независимых выборок из двух нормально распределенных популяций разность средних наиболее вероятно может быть проверена с использованием:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "F-test.",
+          "text_ru": "F-теста."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "t-statistic.",
+          "text_ru": "t-статистики."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Chi-squared test.",
+          "text_ru": "Хи-квадрат теста."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "For two independent samples from two normally distributed populations, the difference in means can be tested using the t-statistic.",
+      "explanation_ru": "Для двух независимых выборок из двух нормально распределенных популяций разность средних может быть проверена с использованием t-статистики.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The F-test is used to test for the equality in population variance, not mean differences.",
+          "text_ru": "F-тест используется для проверки равенства дисперсий популяции, а не разности средних."
+        },
+        "opt_c": {
+          "text_en": "The chi-square test is used to test for dependence/independence between categorical variables.",
+          "text_ru": "Хи-квадрат тест используется для проверки зависимости/независимости между категориальными переменными."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "t_test",
+        "difference_in_means",
+        "independent_samples"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q012",
+      "original_question_number": 215,
+      "los_id": "LOS_8c",
+      "question_text_en": "Which of the following statements is most likely correct?",
+      "question_text_ru": "Какое из следующих утверждений наиболее вероятно верно?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Parametric tests do not rely on assumptions regarding the distribution of the population but are specific to population parameters.",
+          "text_ru": "Параметрические тесты не опираются на предположения относительно распределения популяции, но специфичны для параметров популяции."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Parametric tests rely on assumptions regarding the distribution of the population but are not specific to population parameters.",
+          "text_ru": "Параметрические тесты опираются на предположения относительно распределения популяции, но не специфичны для параметров популяции."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Neither A) nor B)",
+          "text_ru": "Ни A), ни B)"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Parametric tests are statistical tests in which we make assumptions regarding the distribution of a population. They rely on assumptions regarding the distribution of the population and are specific to population parameters. Assuming that a variable follows a normal distribution is an example of a parametric test. Non-parametric tests, on the other hand, do not make any assumptions regarding the distribution of the parameter under study.",
+      "explanation_ru": "Параметрические тесты - это статистические тесты, в которых мы делаем предположения относительно распределения популяции. Они опираются на предположения относительно распределения популяции и специфичны для параметров популяции. Предположение о том, что переменная следует нормальному распределению, является примером параметрического теста. Непараметрические тесты, с другой стороны, не делают никаких предположений относительно распределения изучаемого параметра.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "This option inaccurately states that parametric tests do not rely on assumptions regarding the distribution of the population. In reality, the defining characteristic of parametric tests is their reliance on such assumptions.",
+          "text_ru": "Этот вариант неточно утверждает, что параметрические тесты не опираются на предположения относительно распределения популяции. В действительности, определяющей характеристикой параметрических тестов является их зависимость от таких предположений."
+        },
+        "opt_b": {
+          "text_en": "It inaccurately claims that these tests are not specific to population parameters. On the contrary, parametric tests are specifically designed to make inferences about population parameters, such as means, variances, and proportions.",
+          "text_ru": "Он неточно утверждает, что эти тесты не специфичны для параметров популяции. Напротив, параметрические тесты специально разработаны для того, чтобы делать выводы о параметрах популяции, таких как средние значения, дисперсии и пропорции."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "parametric_tests",
+        "nonparametric_tests",
+        "test_assumptions"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q013",
+      "original_question_number": 216,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following is the most accurate sequence of steps in hypothesis testing?",
+      "question_text_ru": "Какая из следующих последовательностей шагов в тестировании гипотез наиболее точна?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "State the hypothesis, select the level of significance, compute the test statistic, formulate the decision rule, and make a decision.",
+          "text_ru": "Сформулировать гипотезу, выбрать уровень значимости, вычислить тестовую статистику, сформулировать правило принятия решения и принять решение."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "State the hypothesis, select the significance level, formulate the decision rule, compute the test statistic, and make a decision.",
+          "text_ru": "Сформулировать гипотезу, выбрать уровень значимости, сформулировать правило принятия решения, вычислить тестовую статистику и принять решение."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "State the hypothesis, formulate the decision rule, select the significance level, compute the test statistic, and make a decision.",
+          "text_ru": "Сформулировать гипотезу, сформулировать правило принятия решения, выбрать уровень значимости, вычислить тестовую статистику и принять решение."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The correct sequence is: 1. State the hypothesis 2. Select the level of significance 3. Formulate the decision rule 4. Compute the test statistic 5. Make a decision",
+      "explanation_ru": "Правильная последовательность: 1. Сформулировать гипотезу 2. Выбрать уровень значимости 3. Сформулировать правило принятия решения 4. Вычислить тестовую статистику 5. Принять решение",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "It suggests computing the test statistic before formulating the decision rule. This sequence is not optimal as the decision rule, which is based on the significance level and the distribution of the test statistic under the null hypothesis, should be established before computing the test statistic.",
+          "text_ru": "Он предполагает вычисление тестовой статистики перед формулированием правила принятия решения. Эта последовательность не оптимальна, так как правило принятия решения, которое основано на уровне значимости и распределении тестовой статистики при нулевой гипотезе, должно быть установлено до вычисления тестовой статистики."
+        },
+        "opt_c": {
+          "text_en": "The significance level is a critical component in formulating the decision rule. The significance level, often denoted as α, determines the threshold for rejecting the null hypothesis. Without selecting the significance level first, it would not be possible to formulate an appropriate decision rule.",
+          "text_ru": "Уровень значимости является критическим компонентом в формулировании правила принятия решения. Уровень значимости, часто обозначаемый как α, определяет порог для отклонения нулевой гипотезы. Без предварительного выбора уровня значимости невозможно сформулировать соответствующее правило принятия решения."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "hypothesis_testing",
+        "testing_procedure",
+        "decision_rule"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q014",
+      "original_question_number": 217,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following statements about hypothesis testing is the least accurate?",
+      "question_text_ru": "Какое из следующих утверждений о тестировании гипотез наименее точно?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "A Type II error is failing to reject a false null hypothesis.",
+          "text_ru": "Ошибка второго рода - это неспособность отклонить ложную нулевую гипотезу."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The null hypothesis is a statement about the value of a population parameter.",
+          "text_ru": "Нулевая гипотеза - это утверждение о значении параметра популяции."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "If the alternative hypothesis is Hₐ: M > M₀, a two-tailed test is appropriate.",
+          "text_ru": "Если альтернативная гипотеза Hₐ: M > M₀, уместен двусторонний тест."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "The alternative is a one-sided test if the '>' or '<' sign is used and two-sided when the '=' sign is used.",
+      "explanation_ru": "Альтернатива является односторонним тестом, если используется знак '>' или '<', и двусторонним, когда используется знак '='.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Type II error is failing to reject a false null hypothesis.",
+          "text_ru": "Ошибка второго рода - это неспособность отклонить ложную нулевую гипотезу."
+        },
+        "opt_b": {
+          "text_en": "The hypotheses are always stated in terms of a population parameter.",
+          "text_ru": "Гипотезы всегда формулируются в терминах параметра популяции."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "hypothesis_testing",
+        "one_tailed_test",
+        "two_tailed_test"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q015",
+      "original_question_number": 218,
+      "los_id": "LOS_8b",
+      "question_text_en": "For the calculation of the test statistic, the most appropriate formula is:",
+      "question_text_ru": "Для расчета тестовой статистики наиболее подходящей формулой является:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "(Sample Mean - Hypothesized mean) / (Standard error of sample mean)",
+          "text_ru": "(Выборочное среднее - Гипотетическое среднее) / (Стандартная ошибка выборочного среднего)"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "(Population Mean - Sample Mean) / (Standard error of sample mean)",
+          "text_ru": "(Среднее популяции - Выборочное среднее) / (Стандартная ошибка выборочного среднего)"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "(Population Mean - Sample Mean) / (Standard Deviation)",
+          "text_ru": "(Среднее популяции - Выборочное среднее) / (Стандартное отклонение)"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The test statistic is a quantity that is calculated based on a sample. The value of a test statistic is used to determine whether or not to reject the null hypothesis. The appropriate formula for the calculation of the test statistic is: Test statistic = (Sample Mean - Hypothesized mean) / (Standard error of the sample mean).",
+      "explanation_ru": "Тестовая статистика - это величина, которая рассчитывается на основе выборки. Значение тестовой статистики используется для определения, отклонять ли нулевую гипотезу. Подходящая формула для расчета тестовой статистики: Тестовая статистика = (Выборочное среднее - Гипотетическое среднее) / (Стандартная ошибка выборочного среднего).",
+      "explanation_formula": "$\\text{Test statistic} = \\frac{\\bar{X} - \\mu_0}{\\frac{s}{\\sqrt{n}}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "In hypothesis testing, the focus is on how the sample mean compares to a hypothesized population mean, not the other way around. Additionally, the denominator should be the standard error of the sample mean, not the standard deviation of the sample.",
+          "text_ru": "В тестировании гипотез фокус находится на том, как выборочное среднее сравнивается с гипотетическим средним популяции, а не наоборот. Кроме того, знаменатель должен быть стандартной ошибкой выборочного среднего, а не стандартным отклонением выборки."
+        },
+        "opt_c": {
+          "text_en": "The use of the standard deviation instead of the standard error of the sample mean does not account for the size of the sample, which is crucial in determining the variability of the sample mean.",
+          "text_ru": "Использование стандартного отклонения вместо стандартной ошибки выборочного среднего не учитывает размер выборки, который имеет решающее значение для определения изменчивости выборочного среднего."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "test_statistic",
+        "hypothesis_testing",
+        "formulas"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q016",
+      "original_question_number": 219,
+      "los_id": "LOS_8b",
+      "question_text_en": "The most appropriate hypothesis test concerning the variance of a normally distributed population is referred to as the:",
+      "question_text_ru": "Наиболее подходящий тест гипотез относительно дисперсии нормально распределенной популяции называется:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Z-test.",
+          "text_ru": "Z-тест."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "F-test.",
+          "text_ru": "F-тест."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Chi-squared test.",
+          "text_ru": "Хи-квадрат тест."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "A chi-squared (χ²) statistic is used to investigate whether distributions of categorical variables differ from one another.",
+      "explanation_ru": "Статистика хи-квадрат (χ²) используется для исследования того, отличаются ли распределения категориальных переменных друг от друга.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The Z test is used when comparing the means of two distributions with known variances.",
+          "text_ru": "Z-тест используется при сравнении средних двух распределений с известными дисперсиями."
+        },
+        "opt_b": {
+          "text_en": "The F test is used when checking for the equality of two population variances.",
+          "text_ru": "F-тест используется при проверке равенства двух дисперсий популяции."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "chi_square_test",
+        "variance_testing",
+        "hypothesis_testing"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q017",
+      "original_question_number": 220,
+      "los_id": "LOS_8c",
+      "question_text_en": "Which of the following statement(s) is/are most accurate? I. Nonparametric tests have more assumptions than parametric tests. II. When data is based on ordinal measurements, we use nonparametric tests.",
+      "question_text_ru": "Какое из следующих утверждений наиболее точно? I. Непараметрические тесты имеют больше предположений, чем параметрические тесты. II. Когда данные основаны на порядковых измерениях, мы используем непараметрические тесты.",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Both statements are correct.",
+          "text_ru": "Оба утверждения верны."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Both statements are incorrect.",
+          "text_ru": "Оба утверждения неверны."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Only one statement is correct.",
+          "text_ru": "Только одно утверждение верно."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Statement I is incorrect. Nonparametric tests have fewer assumptions than parametric tests. Statement II is correct. When data is based on ordinal measurements, we use nonparametric tests. Non-parametric tests are also used when: the median is more desirable than the mean and when the sample size is extremely small.",
+      "explanation_ru": "Утверждение I неверно. Непараметрические тесты имеют меньше предположений, чем параметрические тесты. Утверждение II верно. Когда данные основаны на порядковых измерениях, мы используем непараметрические тесты. Непараметрические тесты также используются, когда: медиана более желательна, чем среднее значение, и когда размер выборки чрезвычайно мал.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Statement I is incorrect because nonparametric tests have fewer assumptions than parametric tests.",
+          "text_ru": "Утверждение I неверно, потому что непараметрические тесты имеют меньше предположений, чем параметрические тесты."
+        },
+        "opt_b": {
+          "text_en": "Statement II is correct. When data is based on ordinal measurements, we use nonparametric tests.",
+          "text_ru": "Утверждение II верно. Когда данные основаны на порядковых измерениях, мы используем непараметрические тесты."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "nonparametric_tests",
+        "parametric_tests",
+        "ordinal_data"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q018",
+      "original_question_number": 221,
+      "los_id": "LOS_8b",
+      "question_text_en": "A large positive value of the Spearman rank correlation such as 0.90 would most likely indicate that:",
+      "question_text_ru": "Большое положительное значение корреляции рангов Спирмена, такое как 0,90, наиболее вероятно указывает на то, что:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "a high rank in one year is associated with a low rank in the second year.",
+          "text_ru": "высокий ранг в один год связан с низким рангом во второй год."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "a high rank in one year is associated with a high rank in the second year.",
+          "text_ru": "высокий ранг в один год связан с высоким рангом во второй год."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "a high rank in one year will not have any impact on the rank in the second year.",
+          "text_ru": "высокий ранг в один год не будет иметь никакого влияния на ранг во второй год."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "A large positive value of the Spearman rank correlation such as 0.90 would most likely indicate that a high rank in one year is associated with a high rank in the second year. In statistics, Spearman's rank correlation coefficient or Spearman's rho is a non-parametric measure of statistical dependence between two variables. It takes values from -1 to 1. The closer to 1 or to -1, the stronger the relationship. 1 indicates a perfect positive association/relationship, whereas -1 indicates a perfect negative association between variables.",
+      "explanation_ru": "Большое положительное значение корреляции рангов Спирмена, такое как 0,90, наиболее вероятно указывает на то, что высокий ранг в один год связан с высоким рангом во второй год. В статистике коэффициент корреляции рангов Спирмена или ро Спирмена является непараметрической мерой статистической зависимости между двумя переменными. Он принимает значения от -1 до 1. Чем ближе к 1 или к -1, тем сильнее связь. 1 указывает на идеальную положительную связь/отношение, тогда как -1 указывает на идеальную отрицательную связь между переменными.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "This option suggests that a high rank in one year is associated with a low rank in the second year, which would be indicative of a negative Spearman rank correlation. A negative correlation would have a coefficient closer to -1, not 0.90.",
+          "text_ru": "Этот вариант предполагает, что высокий ранг в один год связан с низким рангом во второй год, что указывало бы на отрицательную корреляцию рангов Спирмена. Отрицательная корреляция имела бы коэффициент ближе к -1, а не к 0,90."
+        },
+        "opt_c": {
+          "text_en": "This option suggests that the rank in one year does not impact the rank in the second year, implying no correlation between the ranks across years. However, a Spearman rank correlation of 0.90 significantly contradicts this notion, as it indicates a strong positive correlation.",
+          "text_ru": "Этот вариант предполагает, что ранг в один год не влияет на ранг во второй год, подразумевая отсутствие корреляции между рангами по годам. Однако корреляция рангов Спирмена 0,90 значительно противоречит этому представлению, так как она указывает на сильную положительную корреляцию."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "spearman_correlation",
+        "rank_correlation",
+        "nonparametric_tests"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q019",
+      "original_question_number": 222,
+      "los_id": "LOS_8b",
+      "question_text_en": "A sample of 100 students is currently renting rooms in the mean distance of 18 miles from a small U.S. College. Assuming that the population is normally distributed and the standard deviation of the sample is 14 miles, the 99% confidence interval for the population mean is closest to:",
+      "question_text_ru": "Выборка из 100 студентов в настоящее время арендует комнаты на среднем расстоянии 18 миль от небольшого колледжа США. Предполагая, что популяция нормально распределена, а стандартное отклонение выборки составляет 14 миль, 99% доверительный интервал для среднего популяции ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "[15.26 miles; 20.74 miles]",
+          "text_ru": "[15,26 миль; 20,74 миль]"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "[16.6 miles; 19.4 miles]",
+          "text_ru": "[16,6 миль; 19,4 миль]"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "[14.4 miles; 21.6 miles]",
+          "text_ru": "[14,4 миль; 21,6 миль]"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Standard error of the sample = Standard deviation of sample mean / √Sample size = 14 / √100 = 1.4. Z-static (Reliability factor) at 99% confidence interval = 2.58. Confidence interval = Point estimate ± Reliability factor × Standard error. Lower limit = 18 - (2.58 × 1.4) = 14.39 miles. Upper limit = 18 + (2.58 × 1.4) = 21.6 miles. The 99% confidence interval of the population lies within the range (14.39; 21.6). This means that 99% of the students rent rooms within a distance of (14.39; 21.6) miles.",
+      "explanation_ru": "Стандартная ошибка выборки = Стандартное отклонение выборочного среднего / √Размер выборки = 14 / √100 = 1,4. Z-статистика (Фактор надежности) при 99% доверительном интервале = 2,58. Доверительный интервал = Точечная оценка ± Фактор надежности × Стандартная ошибка. Нижний предел = 18 - (2,58 × 1,4) = 14,39 миль. Верхний предел = 18 + (2,58 × 1,4) = 21,6 миль. 99% доверительный интервал популяции находится в диапазоне (14,39; 21,6). Это означает, что 99% студентов арендуют комнаты в пределах расстояния (14,39; 21,6) миль.",
+      "explanation_formula": "$\\text{CI} = \\bar{X} \\pm Z_{\\alpha/2} \\times \\frac{s}{\\sqrt{n}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "This option uses an incorrect reliability factor, likely using the 95% confidence level (1.96) instead of the 99% confidence level (2.58).",
+          "text_ru": "Этот вариант использует неправильный фактор надежности, вероятно, используя 95% уровень доверия (1,96) вместо 99% уровня доверия (2,58)."
+        },
+        "opt_b": {
+          "text_en": "This option uses an incorrect reliability factor and/or calculation method.",
+          "text_ru": "Этот вариант использует неправильный фактор надежности и/или метод расчета."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": "[2nd] [VARS] for DISTR menu, select invNorm(0.005) for z-value",
+      "difficulty": "medium",
+      "topic_tags": [
+        "confidence_intervals",
+        "z_distribution",
+        "hypothesis_testing"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q020",
+      "original_question_number": 223,
+      "los_id": "LOS_8b",
+      "question_text_en": "The mean return of a sample of 36 BB+ corporate bonds is 7.5%, and the sample's standard deviation is 14%. Assuming that the population is normally distributed and the population variance is unknown, based on t-distribution, the 95% confidence interval for the population mean is closest to:",
+      "question_text_ru": "Средний доход выборки из 36 корпоративных облигаций BB+ составляет 7,5%, а стандартное отклонение выборки - 14%. Предполагая, что популяция нормально распределена, а дисперсия популяции неизвестна, на основе t-распределения 95% доверительный интервал для среднего популяции ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "[2.77%; 12.23%]",
+          "text_ru": "[2,77%; 12,23%]"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "[2.93%; 12.06%]",
+          "text_ru": "[2,93%; 12,06%]"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "[3.56%; 11.43%]",
+          "text_ru": "[3,56%; 11,43%]"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Since the population variance is unknown and the population is normally distributed, we will use a t-statistic. The t-statistic for a 95% confidence interval and 35 degrees of freedom (df=n-1=36-1=35) is 2.030. The standard error of the sample = Standard Deviation of sample mean/√Sample size = 14/√36 = 2.33. The confidence interval is 7.5 - (2.03 * 2.33) = 2.77 and 7.5 + (2.03 * 2.33) = 12.23. Approximately 95% of the mean returns of BB+ corporate bonds fall within the interval (2.77;12.23). Using a reliability factor based on the t-distribution is essential for a small sample size.",
+      "explanation_ru": "Поскольку дисперсия популяции неизвестна, а популяция нормально распределена, мы будем использовать t-статистику. t-статистика для 95% доверительного интервала и 35 степеней свободы (df=n-1=36-1=35) составляет 2,030. Стандартная ошибка выборки = Стандартное отклонение выборочного среднего/√Размер выборки = 14/√36 = 2,33. Доверительный интервал составляет 7,5 - (2,03 * 2,33) = 2,77 и 7,5 + (2,03 * 2,33) = 12,23. Приблизительно 95% средних доходов корпоративных облигаций BB+ попадают в интервал (2,77;12,23). Использование фактора надежности на основе t-распределения важно для малого размера выборки.",
+      "explanation_formula": "$\\text{CI} = \\bar{X} \\pm t_{\\alpha/2,df} \\times \\frac{s}{\\sqrt{n}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "This option uses an incorrect t-statistic or calculation method.",
+          "text_ru": "Этот вариант использует неправильную t-статистику или метод расчета."
+        },
+        "opt_c": {
+          "text_en": "This option uses an incorrect t-statistic, likely using a different confidence level or degrees of freedom.",
+          "text_ru": "Этот вариант использует неправильную t-статистику, вероятно, используя другой уровень доверия или степени свободы."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": "[2nd] [VARS] for DISTR menu, select invT(0.025, 35) for t-value",
+      "difficulty": "medium",
+      "topic_tags": [
+        "confidence_intervals",
+        "t_distribution",
+        "unknown_variance"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q021",
+      "original_question_number": 224,
+      "los_id": "LOS_8b",
+      "question_text_en": "If a researcher wants to test that the mean return of 50 small-cap stocks from the Singapore Exchange is greater than 14%, the alternative hypothesis for the test is most likely:",
+      "question_text_ru": "Если исследователь хочет проверить, что средняя доходность 50 акций малой капитализации с Сингапурской биржи превышает 14%, альтернативная гипотеза для теста наиболее вероятно:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Ha: μ ≠ 14%",
+          "text_ru": "Ha: μ ≠ 14%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Ha: μ > 14%",
+          "text_ru": "Ha: μ > 14%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Ha: μ < 14%",
+          "text_ru": "Ha: μ < 14%"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Since the researcher wants to test that if the mean of 50 small-cap stocks is greater than 14%, the null hypothesis is H0: μ ≤ 14% and the alternative hypothesis is Ha: μ > 14%. We always want to reject the null hypothesis and accept the alternative. Since the researcher wants to prove that the mean returns are greater than 14%, Ha: μ > 14%; H0: μ ≤ 14%.",
+      "explanation_ru": "Поскольку исследователь хочет проверить, превышает ли средняя доходность 50 акций малой капитализации 14%, нулевая гипотеза H0: μ ≤ 14%, а альтернативная гипотеза Ha: μ > 14%. Мы всегда хотим отклонить нулевую гипотезу и принять альтернативную. Поскольку исследователь хочет доказать, что средняя доходность превышает 14%, Ha: μ > 14%; H0: μ ≤ 14%.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "This denotes that the alternative hypothesis is not equal to 14%, which represents a two-tailed test, not appropriate when testing for values greater than a specific threshold.",
+          "text_ru": "Это означает, что альтернативная гипотеза не равна 14%, что представляет двусторонний тест, не подходящий при проверке значений, превышающих определенный порог."
+        },
+        "opt_c": {
+          "text_en": "This indicates that the alternative hypothesis for the mean return is less than 14%, which contradicts the researcher's objective to test if returns are greater than 14%.",
+          "text_ru": "Это указывает, что альтернативная гипотеза для средней доходности меньше 14%, что противоречит цели исследователя проверить, превышает ли доходность 14%."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "hypothesis_formulation",
+        "one_tailed_test",
+        "alternative_hypothesis"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q022",
+      "original_question_number": 225,
+      "los_id": "LOS_8b",
+      "question_text_en": "The most appropriate hypothesis test concerning the variance of a normally distributed population is referred to as the:",
+      "question_text_ru": "Наиболее подходящий тест гипотез относительно дисперсии нормально распределенной популяции называется:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Z-test",
+          "text_ru": "Z-тест"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "F-test",
+          "text_ru": "F-тест"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Chi-squared test",
+          "text_ru": "Хи-квадрат тест"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "A chi-squared (χ²) statistic is used to investigate whether distributions of categorical variables differ from one another. More specifically, it is used to test hypotheses concerning the variance of a normally distributed population.",
+      "explanation_ru": "Статистика хи-квадрат (χ²) используется для исследования того, отличаются ли распределения категориальных переменных друг от друга. Более конкретно, она используется для проверки гипотез относительно дисперсии нормально распределенной популяции.",
+      "explanation_formula": "$\\chi^2 = \\frac{(n-1)s^2}{\\sigma^2}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The Z test is used when comparing the means of two distributions with known variances, not for testing variance of a single population.",
+          "text_ru": "Z-тест используется при сравнении средних двух распределений с известными дисперсиями, а не для проверки дисперсии одной популяции."
+        },
+        "opt_b": {
+          "text_en": "The F test is used when checking for the equality of two population variances, not a single population variance.",
+          "text_ru": "F-тест используется при проверке равенства двух дисперсий популяции, а не одной дисперсии популяции."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "chi_squared_test",
+        "variance_testing",
+        "hypothesis_testing"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q023",
+      "original_question_number": 226,
+      "los_id": "LOS_8c",
+      "question_text_en": "Which of the following statement(s) is/are most accurate?\nI. Nonparametric tests have more assumptions than parametric tests.\nII. When data is based on ordinal measurements, we use nonparametric tests.",
+      "question_text_ru": "Какое из следующих утверждений наиболее точно?\nI. Непараметрические тесты имеют больше предположений, чем параметрические тесты.\nII. Когда данные основаны на порядковых измерениях, мы используем непараметрические тесты.",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Both statements are correct",
+          "text_ru": "Оба утверждения верны"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Both statements are incorrect",
+          "text_ru": "Оба утверждения неверны"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Only one statement is correct",
+          "text_ru": "Только одно утверждение верно"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Statement I is incorrect. Nonparametric tests have fewer assumptions than parametric tests. Statement II is correct. When data is based on ordinal measurements, we use nonparametric tests. Non-parametric tests are also used when: the median is more desirable than the mean and when the sample size is extremely small.",
+      "explanation_ru": "Утверждение I неверно. Непараметрические тесты имеют меньше предположений, чем параметрические тесты. Утверждение II верно. Когда данные основаны на порядковых измерениях, мы используем непараметрические тесты. Непараметрические тесты также используются, когда: медиана более предпочтительна, чем среднее, и когда размер выборки чрезвычайно мал.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Statement I is incorrect because nonparametric tests have fewer, not more, assumptions than parametric tests.",
+          "text_ru": "Утверждение I неверно, потому что непараметрические тесты имеют меньше, а не больше предположений, чем параметрические тесты."
+        },
+        "opt_b": {
+          "text_en": "Statement II is correct, so both statements cannot be incorrect.",
+          "text_ru": "Утверждение II верно, поэтому оба утверждения не могут быть неверными."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "nonparametric_tests",
+        "parametric_tests",
+        "ordinal_data"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q024",
+      "original_question_number": 227,
+      "los_id": "LOS_8b",
+      "question_text_en": "A large positive value of the Spearman rank correlation such as 0.90 would most likely indicate that:",
+      "question_text_ru": "Большое положительное значение корреляции Спирмена, такое как 0,90, наиболее вероятно указывает на то, что:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "A high rank in one year is associated with a low rank in the second year",
+          "text_ru": "Высокий ранг в один год связан с низким рангом во второй год"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "A high rank in one year is associated with a high rank in the second year",
+          "text_ru": "Высокий ранг в один год связан с высоким рангом во второй год"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "A high rank in one year will not have any impact on the rank in the second year",
+          "text_ru": "Высокий ранг в один год не окажет никакого влияния на ранг во второй год"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "A large positive value of the Spearman rank correlation such as 0.90 indicates a strong positive association between ranks. The Spearman's rank correlation coefficient takes values from -1 to 1. The closer to 1 or to -1, the stronger the relationship. 1 indicates a perfect positive association, whereas -1 indicates a perfect negative association between variables. A value of 0.90 demonstrates a strong, direct relationship between the ranks in two different years, where a high rank in one year is likely to be associated with a high rank in the next year.",
+      "explanation_ru": "Большое положительное значение корреляции Спирмена, такое как 0,90, указывает на сильную положительную связь между рангами. Коэффициент корреляции Спирмена принимает значения от -1 до 1. Чем ближе к 1 или к -1, тем сильнее связь. 1 указывает на идеальную положительную связь, тогда как -1 указывает на идеальную отрицательную связь между переменными. Значение 0,90 демонстрирует сильную прямую связь между рангами в двух разных годах, где высокий ранг в один год, вероятно, будет связан с высоким рангом в следующий год.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "This would be indicative of a negative Spearman rank correlation (closer to -1), not a positive one like 0.90.",
+          "text_ru": "Это было бы показателем отрицательной корреляции Спирмена (ближе к -1), а не положительной, как 0,90."
+        },
+        "opt_c": {
+          "text_en": "A coefficient near 0 would suggest no correlation, but a value of 0.90 demonstrates a strong positive correlation.",
+          "text_ru": "Коэффициент, близкий к 0, предполагал бы отсутствие корреляции, но значение 0,90 демонстрирует сильную положительную корреляцию."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "spearman_correlation",
+        "rank_correlation",
+        "nonparametric_tests"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q025",
+      "original_question_number": 228,
+      "los_id": "LOS_8b",
+      "question_text_en": "A sample of 100 students is currently renting rooms at a mean distance of 18 miles from a small U.S. College. Assuming that the population is normally distributed and the standard deviation of the sample is 14 miles, the 99% confidence interval for the population mean is closest to:",
+      "question_text_ru": "Выборка из 100 студентов в настоящее время арендует комнаты на среднем расстоянии 18 миль от небольшого колледжа в США. Предполагая, что популяция нормально распределена, а стандартное отклонение выборки составляет 14 миль, 99% доверительный интервал для среднего популяции ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "[15.26 miles; 20.74 miles]",
+          "text_ru": "[15,26 миль; 20,74 миль]"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "[16.6 miles; 19.4 miles]",
+          "text_ru": "[16,6 миль; 19,4 миль]"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "[14.4 miles; 21.6 miles]",
+          "text_ru": "[14,4 миль; 21,6 миль]"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Standard error of the sample = Standard deviation/√Sample size = 14/√100 = 1.4. Z-statistic (Reliability factor) at 99% confidence interval = 2.58. Confidence interval = Point estimate ± Reliability factor × Standard error. Lower limit = 18 - (2.58 × 1.4) = 14.39 miles. Upper limit = 18 + (2.58 × 1.4) = 21.6 miles. The 99% confidence interval is [14.4; 21.6]. This means that 99% of the students rent rooms within a distance of 14.4 to 21.6 miles.",
+      "explanation_ru": "Стандартная ошибка выборки = Стандартное отклонение/√Размер выборки = 14/√100 = 1,4. Z-статистика (фактор надежности) для 99% доверительного интервала = 2,58. Доверительный интервал = Точечная оценка ± Фактор надежности × Стандартная ошибка. Нижний предел = 18 - (2,58 × 1,4) = 14,39 миль. Верхний предел = 18 + (2,58 × 1,4) = 21,6 миль. 99% доверительный интервал составляет [14,4; 21,6]. Это означает, что 99% студентов арендуют комнаты на расстоянии от 14,4 до 21,6 миль.",
+      "explanation_formula": "$\\text{CI} = \\bar{X} \\pm Z_{\\alpha/2} \\times \\frac{\\sigma}{\\sqrt{n}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "This option uses an incorrect z-statistic, possibly for a 95% confidence level instead of 99%.",
+          "text_ru": "Этот вариант использует неправильную z-статистику, возможно, для 95% уровня доверия вместо 99%."
+        },
+        "opt_b": {
+          "text_en": "This option uses an incorrect calculation method or wrong reliability factor.",
+          "text_ru": "Этот вариант использует неправильный метод расчета или неверный фактор надежности."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": "Use z-table or [2nd] [VARS] for invNorm(0.005) to get 2.58",
+      "difficulty": "medium",
+      "topic_tags": [
+        "confidence_intervals",
+        "z_distribution",
+        "known_variance"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q026",
+      "original_question_number": 229,
+      "los_id": "LOS_8b",
+      "question_text_en": "The mean return of a sample of 36 BB+ corporate bonds is 7.5%, and the sample's standard deviation is 14%. Assuming that the population is normally distributed and the population variance is unknown, based on t-distribution, the 95% confidence interval for the population mean is closest to:",
+      "question_text_ru": "Средний доход выборки из 36 корпоративных облигаций BB+ составляет 7,5%, а стандартное отклонение выборки - 14%. Предполагая, что популяция нормально распределена, а дисперсия популяции неизвестна, на основе t-распределения 95% доверительный интервал для среднего популяции ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "[2.77%; 12.23%]",
+          "text_ru": "[2,77%; 12,23%]"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "[2.93%; 12.06%]",
+          "text_ru": "[2,93%; 12,06%]"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "[3.56%; 11.43%]",
+          "text_ru": "[3,56%; 11,43%]"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Since the population variance is unknown and the population is normally distributed, we use a t-statistic. The t-statistic for a 95% confidence interval and 35 degrees of freedom (df=n-1=35) is 2.030. The standard error = 14/√36 = 2.33. The confidence interval is 7.5 - (2.03 * 2.33) = 2.77 and 7.5 + (2.03 * 2.33) = 12.23. Approximately 95% of the mean returns of BB+ corporate bonds fall within the interval (2.77%;12.23%). Using a reliability factor based on the t-distribution is essential when the population variance is unknown.",
+      "explanation_ru": "Поскольку дисперсия популяции неизвестна, а популяция нормально распределена, мы используем t-статистику. t-статистика для 95% доверительного интервала и 35 степеней свободы (df=n-1=35) составляет 2,030. Стандартная ошибка = 14/√36 = 2,33. Доверительный интервал составляет 7,5 - (2,03 * 2,33) = 2,77 и 7,5 + (2,03 * 2,33) = 12,23. Приблизительно 95% средних доходов корпоративных облигаций BB+ попадают в интервал (2,77%;12,23%). Использование фактора надежности на основе t-распределения важно, когда дисперсия популяции неизвестна.",
+      "explanation_formula": "$\\text{CI} = \\bar{X} \\pm t_{\\alpha/2,df} \\times \\frac{s}{\\sqrt{n}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "This option uses an incorrect t-statistic value.",
+          "text_ru": "Этот вариант использует неправильное значение t-статистики."
+        },
+        "opt_c": {
+          "text_en": "This option uses an incorrect calculation method, likely with wrong degrees of freedom.",
+          "text_ru": "Этот вариант использует неправильный метод расчета, вероятно, с неверными степенями свободы."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": "[2nd] [VARS] for DISTR menu, select invT(0.025, 35) for t-value",
+      "difficulty": "medium",
+      "topic_tags": [
+        "confidence_intervals",
+        "t_distribution",
+        "unknown_variance"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q027",
+      "original_question_number": 230,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following is the most appropriate test statistic for calculating confidence intervals for a normally distributed population mean whose variance is unknown and the sample size is less than 30?",
+      "question_text_ru": "Какая из следующих тестовых статистик наиболее подходит для расчета доверительных интервалов для среднего нормально распределенной популяции, дисперсия которой неизвестна, а размер выборки меньше 30?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "z-statistic",
+          "text_ru": "z-статистика"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "t-statistic",
+          "text_ru": "t-статистика"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "F-statistic",
+          "text_ru": "F-статистика"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The t-statistic is most appropriate for constructing confidence intervals for normally distributed population means whose variance is unknown and the sample size is less than 30. The t-distribution accounts for the additional uncertainty introduced by estimating the population variance from the sample. The z-statistic is appropriate when the population variance is known (regardless of the sample size).",
+      "explanation_ru": "t-статистика наиболее подходит для построения доверительных интервалов для средних нормально распределенных популяций, дисперсия которых неизвестна, а размер выборки меньше 30. t-распределение учитывает дополнительную неопределенность, вносимую оценкой дисперсии популяции по выборке. z-статистика подходит, когда дисперсия популяции известна (независимо от размера выборки).",
+      "explanation_formula": "$t = \\frac{\\bar{X} - \\mu}{s/\\sqrt{n}}$ with $df = n-1$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The z-statistic is appropriate when the population variance is known, not unknown.",
+          "text_ru": "z-статистика подходит, когда дисперсия популяции известна, а не неизвестна."
+        },
+        "opt_c": {
+          "text_en": "The F statistic is most appropriate when testing for the differences in population variances, not for confidence intervals of means.",
+          "text_ru": "F-статистика наиболее подходит при проверке различий в дисперсиях популяции, а не для доверительных интервалов средних."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "t_distribution",
+        "confidence_intervals",
+        "unknown_variance",
+        "small_sample"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q028",
+      "original_question_number": 231,
+      "los_id": "LOS_8b",
+      "question_text_en": "If a researcher wants to test that the mean return of 50 small-cap stocks from the Singapore Exchange is greater than 14%, the null hypothesis and alternative hypothesis for the test are most likely:",
+      "question_text_ru": "Если исследователь хочет проверить, что средняя доходность 50 акций малой капитализации с Сингапурской биржи превышает 14%, нулевая гипотеза и альтернативная гипотеза для теста наиболее вероятно:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "H0: μ = 14% and Ha: μ ≠ 14%",
+          "text_ru": "H0: μ = 14% и Ha: μ ≠ 14%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "H0: μ ≤ 14% and Ha: μ > 14%",
+          "text_ru": "H0: μ ≤ 14% и Ha: μ > 14%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "H0: μ ≥ 14% and Ha: μ < 14%",
+          "text_ru": "H0: μ ≥ 14% и Ha: μ < 14%"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Since the researcher wants to test that if the mean of 50 small-cap stocks is greater than 14%, the null hypothesis is H0: μ ≤ 14% and the alternative hypothesis is Ha: μ > 14%. We always want to reject the null hypothesis and accept the alternative. Since the researcher wants to prove that the mean returns are greater than 14%, the appropriate hypotheses are H0: μ ≤ 14% and Ha: μ > 14%. This is a one-tailed test.",
+      "explanation_ru": "Поскольку исследователь хочет проверить, превышает ли средняя доходность 50 акций малой капитализации 14%, нулевая гипотеза H0: μ ≤ 14%, а альтернативная гипотеза Ha: μ > 14%. Мы всегда хотим отклонить нулевую гипотезу и принять альтернативную. Поскольку исследователь хочет доказать, что средняя доходность превышает 14%, соответствующие гипотезы: H0: μ ≤ 14% и Ha: μ > 14%. Это односторонний тест.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "This represents a two-tailed test, which is not appropriate when testing if returns are specifically greater than 14%.",
+          "text_ru": "Это представляет двусторонний тест, который не подходит при проверке, превышает ли конкретно доходность 14%."
+        },
+        "opt_c": {
+          "text_en": "This tests whether returns are less than 14%, which is the opposite of what the researcher wants to prove.",
+          "text_ru": "Это проверяет, меньше ли доходность 14%, что противоположно тому, что исследователь хочет доказать."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "hypothesis_formulation",
+        "one_tailed_test",
+        "null_hypothesis"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q029",
+      "original_question_number": 232,
+      "los_id": "LOS_8b",
+      "question_text_en": "An analyst believes that the mean return over 24 months on Geko Corp. shares is different from 0%. Determine which of the following is the most likely decision rule?",
+      "question_text_ru": "Аналитик считает, что средняя доходность за 24 месяца по акциям Geko Corp. отличается от 0%. Определите, какое из следующих правил решения наиболее вероятно?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Reject H0 if the test statistic > the upper critical value",
+          "text_ru": "Отклонить H0, если тестовая статистика > верхнего критического значения"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Reject H0 if the test statistic < the lower critical value",
+          "text_ru": "Отклонить H0, если тестовая статистика < нижнего критического значения"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Reject H0 if the test statistic > the upper critical value OR if the test statistic < the lower critical value",
+          "text_ru": "Отклонить H0, если тестовая статистика > верхнего критического значения ИЛИ если тестовая статистика < нижнего критического значения"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Since the analyst wants to test if the mean is different from zero, it is a two-tailed test and the appropriate hypotheses are H0: μ = 0% and Ha: μ ≠ 0%. The appropriate decision rule is to reject H0 if the test statistic > the upper critical value OR if the test statistic < the lower critical value. For two-tailed tests, the decision rule should consider both cases (when the test statistic is greater than the upper critical value and when it is less than the lower critical value).",
+      "explanation_ru": "Поскольку аналитик хочет проверить, отличается ли среднее от нуля, это двусторонний тест, и соответствующие гипотезы: H0: μ = 0% и Ha: μ ≠ 0%. Соответствующее правило решения - отклонить H0, если тестовая статистика > верхнего критического значения ИЛИ если тестовая статистика < нижнего критического значения. Для двусторонних тестов правило решения должно учитывать оба случая (когда тестовая статистика больше верхнего критического значения и когда она меньше нижнего критического значения).",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "This is incomplete for a two-tailed test. It only considers one tail of the distribution.",
+          "text_ru": "Это неполно для двустороннего теста. Это учитывает только один хвост распределения."
+        },
+        "opt_b": {
+          "text_en": "This is incomplete for a two-tailed test. It only considers one tail of the distribution.",
+          "text_ru": "Это неполно для двустороннего теста. Это учитывает только один хвост распределения."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "two_tailed_test",
+        "decision_rule",
+        "critical_values"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q030",
+      "original_question_number": 233,
+      "los_id": "LOS_8b",
+      "question_text_en": "A quantitative analyst has calculated the mean holding period return (HPR) of 1% for 110 European corporate bonds with a standard deviation of 2%. If the analyst wants to test at a 5% level of significance that the mean HPR on European corporate bonds is different from zero, then the test statistic is closest to:",
+      "question_text_ru": "Количественный аналитик рассчитал средний доход за период владения (HPR) в 1% для 110 европейских корпоративных облигаций со стандартным отклонением 2%. Если аналитик хочет проверить на уровне значимости 5%, что средний HPR по европейским корпоративным облигациям отличается от нуля, то тестовая статистика ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "0.19",
+          "text_ru": "0,19"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "1.96",
+          "text_ru": "1,96"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "5.24",
+          "text_ru": "5,24"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Test statistic = (Sample mean - Hypothesized value) / Standard Error. Standard Error = Standard deviation/√Sample Size = 2%/√110. Test Statistic = (1% - 0) / (2%/√110) = 5.24. This indicates strong evidence against the null hypothesis.",
+      "explanation_ru": "Тестовая статистика = (Выборочное среднее - Гипотетическое значение) / Стандартная ошибка. Стандартная ошибка = Стандартное отклонение/√Размер выборки = 2%/√110. Тестовая статистика = (1% - 0) / (2%/√110) = 5,24. Это указывает на сильные доказательства против нулевой гипотезы.",
+      "explanation_formula": "$z = \\frac{\\bar{X} - \\mu_0}{\\sigma/\\sqrt{n}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "This value would suggest a very small difference between the sample mean and the hypothesized value, which is not supported by the calculation.",
+          "text_ru": "Это значение предполагало бы очень небольшую разницу между выборочным средним и гипотетическим значением, что не подтверждается расчетом."
+        },
+        "opt_b": {
+          "text_en": "This is the critical value at a 5% level of significance for a two-tailed test, not the calculated test statistic.",
+          "text_ru": "Это критическое значение на уровне значимости 5% для двустороннего теста, а не рассчитанная тестовая статистика."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": "Calculate: 1 / (2 / √110) = 5.24",
+      "difficulty": "medium",
+      "topic_tags": [
+        "test_statistic",
+        "z_test",
+        "hypothesis_testing"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q031",
+      "original_question_number": 234,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which statistic should you use to most appropriately compare two population variances with a sample size smaller than 30?",
+      "question_text_ru": "Какую статистику следует использовать для наиболее корректного сравнения дисперсий двух популяций с размером выборки менее 30?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "z-test",
+          "text_ru": "z-тест"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "t-test",
+          "text_ru": "t-тест"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "F-test",
+          "text_ru": "F-тест"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "An F-test is used to compare two populations' variances. The samples can be of any size. The test statistic used to obtain the ratio of 2 population variances is: S₁²/S₂² ~ F(n₁-1)(n₂-2). The F-test is appropriate regardless of sample size, as long as both populations are normally distributed.",
+      "explanation_ru": "F-тест используется для сравнения дисперсий двух популяций. Выборки могут быть любого размера. Тестовая статистика для получения отношения 2 дисперсий популяции: S₁²/S₂² ~ F(n₁-1)(n₂-2). F-тест применим независимо от размера выборки, если обе популяции нормально распределены.",
+      "explanation_formula": "$\\frac{S_1^2}{S_2^2} \\sim F_{(n_1-1)(n_2-2)}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The z test is used when the underlying variable follows a normal distribution or when the sample size is large (n>30). It is not appropriate for comparing variances.",
+          "text_ru": "z-тест используется, когда базовая переменная следует нормальному распределению или когда размер выборки велик (n>30). Он не подходит для сравнения дисперсий."
+        },
+        "opt_b": {
+          "text_en": "A t-test is appropriate when testing for the means, not for comparing variances.",
+          "text_ru": "t-тест подходит для проверки средних значений, но не для сравнения дисперсий."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "f_test",
+        "variance_comparison",
+        "hypothesis_testing"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q032",
+      "original_question_number": 235,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following statements is least accurate?",
+      "question_text_ru": "Какое из следующих утверждений наименее точно?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "A 1% significance level is the same as a 99% confidence",
+          "text_ru": "Уровень значимости 1% эквивалентен 99% доверительному уровню"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The alternative hypothesis (Hₐ) always includes an equal sign",
+          "text_ru": "Альтернативная гипотеза (Hₐ) всегда включает знак равенства"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The alternative hypothesis (Hₐ) is usually the hypothesis which we are trying to assess",
+          "text_ru": "Альтернативная гипотеза (Hₐ) обычно является гипотезой, которую мы пытаемся оценить"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The NULL hypothesis (H₀) always includes an equal sign. The null hypothesis represents the current known state of the population parameter being tested. On the other hand, the alternative hypothesis is concluded if there is sufficient evidence to reject the null hypothesis. For a two-tailed test, the alternative hypothesis will contain a 'not equal to' sign (≠). For a one-tailed test, the alternative hypothesis will either have a '>' or a '<' sign, but never an equal sign.",
+      "explanation_ru": "НУЛЕВАЯ гипотеза (H₀) всегда включает знак равенства. Нулевая гипотеза представляет текущее известное состояние тестируемого параметра популяции. С другой стороны, альтернативная гипотеза принимается, если есть достаточные доказательства для отклонения нулевой гипотезы. Для двустороннего теста альтернативная гипотеза будет содержать знак '≠'. Для одностороннего теста альтернативная гипотеза будет иметь знак '>' или '<', но никогда знак равенства.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "This is a true statement. To get the significance level (alpha), we subtract the given confidence percentage from 100. 100%-99%=1% (significance level).",
+          "text_ru": "Это верное утверждение. Чтобы получить уровень значимости (альфа), мы вычитаем заданный процент доверия из 100. 100%-99%=1% (уровень значимости)."
+        },
+        "opt_c": {
+          "text_en": "This is a true statement. The alternative hypothesis is chosen if there is sufficient evidence to reject the null hypothesis.",
+          "text_ru": "Это верное утверждение. Альтернативная гипотеза выбирается, если есть достаточные доказательства для отклонения нулевой гипотезы."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "hypothesis_formulation",
+        "significance_level",
+        "confidence_level"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q033",
+      "original_question_number": 236,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following statements is most accurate?",
+      "question_text_ru": "Какое из следующих утверждений наиболее точно?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The null hypothesis is the hypothesis that the researcher wants to reject",
+          "text_ru": "Нулевая гипотеза - это гипотеза, которую исследователь хочет отклонить"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The null hypothesis is the hypothesis that the researcher wants to accept",
+          "text_ru": "Нулевая гипотеза - это гипотеза, которую исследователь хочет принять"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The alternative hypothesis is the hypothesis that the researcher wants to reject",
+          "text_ru": "Альтернативная гипотеза - это гипотеза, которую исследователь хочет отклонить"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The null hypothesis, designated by H₀, is the hypothesis that the researcher wants to reject. It represents the current known state about the parameter to be tested. In the presence of sufficient evidence, the null hypothesis is meant to be rejected. Researchers want to accept the alternative hypothesis by rejecting the null hypothesis.",
+      "explanation_ru": "Нулевая гипотеза, обозначаемая H₀, является гипотезой, которую исследователь хочет отклонить. Она представляет текущее известное состояние тестируемого параметра. При наличии достаточных доказательств нулевая гипотеза должна быть отклонена. Исследователи хотят принять альтернативную гипотезу, отклонив нулевую гипотезу.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Researchers want to accept the alternative hypothesis by rejecting the null hypothesis. It is statistically incorrect to say 'accept the null hypothesis' because you cannot prove a negative. Statisticians use the term 'fail to reject' rather than 'accept' because insufficient evidence only means that you have failed to prove that something exists, not that it is non-existent.",
+          "text_ru": "Исследователи хотят принять альтернативную гипотезу, отклонив нулевую гипотезу. Статистически неправильно говорить 'принять нулевую гипотезу', потому что нельзя доказать отрицание. Статистики используют термин 'не отклонить', а не 'принять', потому что недостаточное количество доказательств означает только то, что вы не смогли доказать существование чего-либо, но не то, что это не существует."
+        },
+        "opt_c": {
+          "text_en": "Researchers want to accept the alternative hypothesis by rejecting the null hypothesis, not reject it.",
+          "text_ru": "Исследователи хотят принять альтернативную гипотезу, отклонив нулевую гипотезу, а не отклонить её."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "null_hypothesis",
+        "alternative_hypothesis",
+        "hypothesis_testing"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q034",
+      "original_question_number": 237,
+      "los_id": "LOS_8c",
+      "question_text_en": "Which of the following assumptions is least likely required for the difference in means test based on two samples?",
+      "question_text_ru": "Какое из следующих предположений наименее вероятно требуется для теста разницы средних на основе двух выборок?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The two samples are independent",
+          "text_ru": "Две выборки независимы"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The two populations have equal variances",
+          "text_ru": "Две популяции имеют равные дисперсии"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The two populations are normally distributed",
+          "text_ru": "Две популяции нормально распределены"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "We can still calculate the difference in means even when the populations' variances are not equal. When variances are assumed to be unequal, we use both sample variances to calculate the t-statistic with adjusted degrees of freedom (Welch's t-test). For difference in means test based on two samples, the samples must be independent and normally distributed, but equal variances is not a strict requirement.",
+      "explanation_ru": "Мы все еще можем рассчитать разницу в средних, даже когда дисперсии популяций не равны. Когда предполагается, что дисперсии неравны, мы используем обе выборочные дисперсии для вычисления t-статистики с скорректированными степенями свободы (t-тест Уэлча). Для теста разницы средних на основе двух выборок выборки должны быть независимыми и нормально распределенными, но равенство дисперсий не является строгим требованием.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The samples must be independent for the difference in means test. This is a required assumption.",
+          "text_ru": "Выборки должны быть независимыми для теста разницы средних. Это обязательное предположение."
+        },
+        "opt_c": {
+          "text_en": "The two populations must be normally distributed. This is a required assumption for the test to be valid.",
+          "text_ru": "Две популяции должны быть нормально распределены. Это обязательное предположение для того, чтобы тест был валидным."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "difference_in_means",
+        "test_assumptions",
+        "parametric_tests"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q035",
+      "original_question_number": 238,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following statements is most accurate?",
+      "question_text_ru": "Какое из следующих утверждений наиболее точно?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The alternative hypothesis is what is accepted if there is sufficient evidence to reject the null hypothesis",
+          "text_ru": "Альтернативная гипотеза - это то, что принимается, если есть достаточные доказательства для отклонения нулевой гипотезы"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The alternative hypothesis is what is accepted if there is sufficient evidence to accept the null hypothesis",
+          "text_ru": "Альтернативная гипотеза - это то, что принимается, если есть достаточные доказательства для принятия нулевой гипотезы"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The null hypothesis is what is accepted if there is sufficient evidence to reject the alternative hypothesis",
+          "text_ru": "Нулевая гипотеза - это то, что принимается, если есть достаточные доказательства для отклонения альтернативной гипотезы"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The alternative hypothesis, designated by Hₐ, is what is accepted if there is sufficient evidence to reject the null hypothesis. Statistical tests try to find evidence to reject or to fail to reject the null hypothesis. If the null hypothesis has been rejected, then we accept the alternative hypothesis. If we fail to reject the null hypothesis, then we reject the alternative hypothesis.",
+      "explanation_ru": "Альтернативная гипотеза, обозначаемая Hₐ, - это то, что принимается, если есть достаточные доказательства для отклонения нулевой гипотезы. Статистические тесты пытаются найти доказательства для отклонения или неотклонения нулевой гипотезы. Если нулевая гипотеза была отклонена, то мы принимаем альтернативную гипотезу. Если мы не отклоняем нулевую гипотезу, то мы отклоняем альтернативную гипотезу.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Statistical tests try to find evidence to reject or to fail to reject the null hypothesis, not to accept it. If the null hypothesis is not rejected, we simply fail to reject it, rather than accepting it.",
+          "text_ru": "Статистические тесты пытаются найти доказательства для отклонения или неотклонения нулевой гипотезы, а не для её принятия. Если нулевая гипотеза не отклонена, мы просто не отклоняем её, а не принимаем."
+        },
+        "opt_c": {
+          "text_en": "The alternative hypothesis is what is accepted if there is sufficient evidence to reject the null hypothesis, not the other way around.",
+          "text_ru": "Альтернативная гипотеза - это то, что принимается, если есть достаточные доказательства для отклонения нулевой гипотезы, а не наоборот."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "alternative_hypothesis",
+        "null_hypothesis",
+        "hypothesis_testing"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q036",
+      "original_question_number": 239,
+      "los_id": "LOS_8b",
+      "question_text_en": "When hypothesis testing, the choice between using a critical value based on the z-distribution or the t-distribution most likely depends on:",
+      "question_text_ru": "При проверке гипотез выбор между использованием критического значения на основе z-распределения или t-распределения наиболее вероятно зависит от:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The sample size",
+          "text_ru": "Размера выборки"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The distribution of the population",
+          "text_ru": "Распределения популяции"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The sample size and the distribution of the population",
+          "text_ru": "Размера выборки и распределения популяции"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "When hypothesis testing, the choice between using a critical value based on the z-distribution or the t-distribution depends on sample size, the distribution of the population, and whether or not the variance of the population is known. Typically, a z-distribution is used when the sample size is large (n > 30) and the population variance is known, while a t-distribution is used for smaller samples (n ≤ 30) where the population variance is unknown. The assumption of normality of the population distribution is also crucial, especially for smaller sample sizes.",
+      "explanation_ru": "При проверке гипотез выбор между использованием критического значения на основе z-распределения или t-распределения зависит от размера выборки, распределения популяции и того, известна ли дисперсия популяции. Обычно z-распределение используется, когда размер выборки велик (n > 30) и дисперсия популяции известна, в то время как t-распределение используется для меньших выборок (n ≤ 30), где дисперсия популяции неизвестна. Предположение о нормальности распределения популяции также имеет решающее значение, особенно для меньших размеров выборки.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "While sample size is important, it is not the only factor. The distribution of the population and whether the variance is known also matter.",
+          "text_ru": "Хотя размер выборки важен, это не единственный фактор. Распределение популяции и то, известна ли дисперсия, также имеют значение."
+        },
+        "opt_b": {
+          "text_en": "While the population distribution is important, sample size also plays a significant role in determining which distribution to use.",
+          "text_ru": "Хотя распределение популяции важно, размер выборки также играет значительную роль в определении того, какое распределение использовать."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "z_distribution",
+        "t_distribution",
+        "test_selection"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q037",
+      "original_question_number": 240,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following statements is most accurate?",
+      "question_text_ru": "Какое из следующих утверждений наиболее точно?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The p-value is the probability of obtaining a test statistic that would lead to a rejection of the null hypothesis, assuming the null hypothesis is not true",
+          "text_ru": "P-значение - это вероятность получения тестовой статистики, которая приведет к отклонению нулевой гипотезы, при условии, что нулевая гипотеза неверна"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The p-value is the probability of obtaining a test statistic that would lead to a rejection of the null hypothesis, assuming the null hypothesis is true",
+          "text_ru": "P-значение - это вероятность получения тестовой статистики, которая приведет к отклонению нулевой гипотезы, при условии, что нулевая гипотеза верна"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Neither A) nor B)",
+          "text_ru": "Ни A), ни B)"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The p-value is the probability of obtaining a test statistic that would lead to a rejection of the null hypothesis, assuming the null hypothesis is true. It is the smallest level of significance at which the null hypothesis can be rejected. The p-value approach provides more information than just rejecting or failing to reject at a predetermined significance level, as it gives the exact probability of observing the test statistic under the null hypothesis.",
+      "explanation_ru": "P-значение - это вероятность получения тестовой статистики, которая приведет к отклонению нулевой гипотезы, при условии, что нулевая гипотеза верна. Это наименьший уровень значимости, при котором нулевая гипотеза может быть отклонена. Подход p-значения предоставляет больше информации, чем просто отклонение или неотклонение на заранее определенном уровне значимости, поскольку он дает точную вероятность наблюдения тестовой статистики при нулевой гипотезе.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The p-value is calculated assuming the null hypothesis IS true, not that it is not true.",
+          "text_ru": "P-значение вычисляется при условии, что нулевая гипотеза ВЕРНА, а не что она неверна."
+        },
+        "opt_c": {
+          "text_en": "Option B is correct, so this option is incorrect.",
+          "text_ru": "Вариант B правильный, поэтому этот вариант неверен."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "p_value",
+        "hypothesis_testing",
+        "significance_level"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q038",
+      "original_question_number": 241,
+      "los_id": "LOS_8b",
+      "question_text_en": "The most appropriate test statistic for a test of the equality of variances for two normally distributed random variables, based on two independent random samples, is the:",
+      "question_text_ru": "Наиболее подходящая тестовая статистика для проверки равенства дисперсий двух нормально распределенных случайных величин на основе двух независимых случайных выборок - это:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "t-test",
+          "text_ru": "t-тест"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "F-test",
+          "text_ru": "F-тест"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Chi-squared test",
+          "text_ru": "Хи-квадрат тест"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The F-test is the appropriate test for testing the equality of variances for two normally distributed random variables, based on two independent random samples. The F-test statistic is calculated as the ratio of the two sample variances: F = s₁²/s₂², where s₁² and s₂² are the sample variances. The F-statistic follows an F-distribution with (n₁-1, n₂-1) degrees of freedom.",
+      "explanation_ru": "F-тест является подходящим тестом для проверки равенства дисперсий двух нормально распределенных случайных величин на основе двух независимых случайных выборок. F-статистика вычисляется как отношение двух выборочных дисперсий: F = s₁²/s₂², где s₁² и s₂² - выборочные дисперсии. F-статистика следует F-распределению со степенями свободы (n₁-1, n₂-1).",
+      "explanation_formula": "$F = \\frac{s_1^2}{s_2^2}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The t-test is appropriate for testing population means, not variances.",
+          "text_ru": "t-тест подходит для проверки средних значений популяции, а не дисперсий."
+        },
+        "opt_c": {
+          "text_en": "The chi-squared test is appropriate for testing a single population variance against a hypothesized value, not for comparing two population variances.",
+          "text_ru": "Хи-квадрат тест подходит для проверки одной дисперсии популяции против гипотетического значения, но не для сравнения двух дисперсий популяций."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "f_test",
+        "variance_equality",
+        "hypothesis_testing"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q039",
+      "original_question_number": 242,
+      "los_id": "LOS_8c",
+      "question_text_en": "Which of the following statements about the F-distribution and the chi-square distribution is least accurate?",
+      "question_text_ru": "Какое из следующих утверждений об F-распределении и хи-квадрат распределении наименее точно?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Both distributions are asymmetrical",
+          "text_ru": "Оба распределения асимметричны"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Both distributions are bounded by zero on the left",
+          "text_ru": "Оба распределения ограничены нулем слева"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Both distributions have means that are less than their standard deviations",
+          "text_ru": "Оба распределения имеют средние значения, которые меньше их стандартных отклонений"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "There is no consistent relationship between the mean and the standard deviation of the chi-square distribution or the F-distribution. Both distributions are skewed to the right (asymmetrical) and are bounded by zero on the left, as they deal with squared values and ratios of squared values, which cannot be negative. However, the relationship between their means and standard deviations depends on their degrees of freedom and varies across different cases.",
+      "explanation_ru": "Нет последовательной связи между средним и стандартным отклонением хи-квадрат распределения или F-распределения. Оба распределения смещены вправо (асимметричны) и ограничены нулем слева, поскольку они имеют дело с квадратами значений и отношениями квадратов значений, которые не могут быть отрицательными. Однако связь между их средними и стандартными отклонениями зависит от их степеней свободы и варьируется в разных случаях.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "This is a true statement. Both distributions are skewed to the right, making them asymmetrical.",
+          "text_ru": "Это верное утверждение. Оба распределения смещены вправо, что делает их асимметричными."
+        },
+        "opt_b": {
+          "text_en": "This is a true statement. Both distributions are positively skewed and bounded by zero on the left, as they cannot take negative values.",
+          "text_ru": "Это верное утверждение. Оба распределения положительно смещены и ограничены нулем слева, поскольку они не могут принимать отрицательные значения."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "f_distribution",
+        "chi_square_distribution",
+        "distribution_properties"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q040",
+      "original_question_number": 243,
+      "los_id": "LOS_8b",
+      "question_text_en": "The most appropriate test statistic to test the hypothesis that the variance of a normally distributed population is equal to 13 is the:",
+      "question_text_ru": "Наиболее подходящая тестовая статистика для проверки гипотезы о том, что дисперсия нормально распределенной популяции равна 13, - это:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "t-test",
+          "text_ru": "t-тест"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "F-test",
+          "text_ru": "F-тест"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Chi-squared test",
+          "text_ru": "Хи-квадрат тест"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "The chi-squared test is used to test whether a hypothesized value of variance is equal to, less than, or greater than the true value of the population variance. The test statistic is: χ² = (n-1)s²/σ₀², where n is the sample size, s² is the sample variance, and σ₀² is the hypothesized population variance. The chi-squared test is appropriate for testing a single population variance against a specified value.",
+      "explanation_ru": "Хи-квадрат тест используется для проверки того, равно ли гипотетическое значение дисперсии, меньше или больше истинного значения дисперсии популяции. Тестовая статистика: χ² = (n-1)s²/σ₀², где n - размер выборки, s² - выборочная дисперсия, а σ₀² - гипотетическая дисперсия популяции. Хи-квадрат тест подходит для проверки одной дисперсии популяции против указанного значения.",
+      "explanation_formula": "$\\chi^2 = \\frac{(n-1)s^2}{\\sigma_0^2}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The t-test is appropriate for testing population means when the population variance is unknown, not for testing variance.",
+          "text_ru": "t-тест подходит для проверки средних значений популяции, когда дисперсия популяции неизвестна, но не для проверки дисперсии."
+        },
+        "opt_b": {
+          "text_en": "The F-test is appropriate for comparing the variances of two populations, not for testing a single population variance against a specific value.",
+          "text_ru": "F-тест подходит для сравнения дисперсий двух популяций, но не для проверки одной дисперсии популяции против конкретного значения."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "chi_square_test",
+        "variance_testing",
+        "hypothesis_testing"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q041",
+      "original_question_number": 244,
+      "los_id": "LOS_8b",
+      "question_text_en": "For two independent samples from two normally distributed populations, the difference in means can most likely be tested using the:",
+      "question_text_ru": "Для двух независимых выборок из двух нормально распределенных популяций разницу в средних наиболее вероятно можно проверить с помощью:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "F-test",
+          "text_ru": "F-теста"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "t-statistic",
+          "text_ru": "t-статистики"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Chi-squared test",
+          "text_ru": "Хи-квадрат теста"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "For two independent samples from two normally distributed populations, the difference in means can be tested using the t-statistic. The t-test is specifically designed for comparing means when population variances are unknown and sample sizes are typically small to moderate.",
+      "explanation_ru": "Для двух независимых выборок из двух нормально распределенных популяций разницу в средних можно проверить с помощью t-статистики. t-тест специально разработан для сравнения средних, когда дисперсии популяции неизвестны, а размеры выборок обычно малые или средние.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The F-test is used to test for the equality in population variance, not mean differences.",
+          "text_ru": "F-тест используется для проверки равенства дисперсий популяции, а не разницы средних."
+        },
+        "opt_c": {
+          "text_en": "The chi-square test is used to test for dependence/independence between categorical variables.",
+          "text_ru": "Хи-квадрат тест используется для проверки зависимости/независимости между категориальными переменными."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "t_test",
+        "difference_in_means",
+        "hypothesis_testing"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q042",
+      "original_question_number": 245,
+      "los_id": "LOS_8c",
+      "question_text_en": "Which of the following statements is most likely correct? Parametric tests are statistical tests in which we make assumptions regarding the distribution of a population. They rely on assumptions regarding the distribution of the population and are specific to population parameters.",
+      "question_text_ru": "Какое из следующих утверждений наиболее вероятно верно? Параметрические тесты - это статистические тесты, в которых мы делаем предположения относительно распределения популяции. Они полагаются на предположения относительно распределения популяции и являются специфичными для параметров популяции.",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Parametric tests do not rely on assumptions regarding the distribution of the population but are specific to population parameters",
+          "text_ru": "Параметрические тесты не полагаются на предположения относительно распределения популяции, но являются специфичными для параметров популяции"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Parametric tests rely on assumptions regarding the distribution of the population but are not specific to population parameters",
+          "text_ru": "Параметрические тесты полагаются на предположения относительно распределения популяции, но не являются специфичными для параметров популяции"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Neither A) nor B)",
+          "text_ru": "Ни A), ни B)"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Parametric tests are statistical tests in which we make assumptions regarding the distribution of a population. They rely on assumptions regarding the distribution of the population and are specific to population parameters. Assuming that a variable follows a normal distribution is an example of a parametric test. Non-parametric tests, on the other hand, do not make any assumptions regarding the distribution of the parameter under study.",
+      "explanation_ru": "Параметрические тесты - это статистические тесты, в которых мы делаем предположения относительно распределения популяции. Они полагаются на предположения относительно распределения популяции и являются специфичными для параметров популяции. Предположение о том, что переменная следует нормальному распределению, является примером параметрического теста. Непараметрические тесты, с другой стороны, не делают никаких предположений относительно распределения изучаемого параметра.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "This option inaccurately states that parametric tests do not rely on assumptions regarding the distribution of the population. In reality, the defining characteristic of parametric tests is their reliance on such assumptions.",
+          "text_ru": "Этот вариант неточно утверждает, что параметрические тесты не полагаются на предположения относительно распределения популяции. На самом деле определяющей характеристикой параметрических тестов является их зависимость от таких предположений."
+        },
+        "opt_b": {
+          "text_en": "It inaccurately claims that these tests are not specific to population parameters. On the contrary, parametric tests are specifically designed to make inferences about population parameters.",
+          "text_ru": "Неточно утверждает, что эти тесты не являются специфичными для параметров популяции. Напротив, параметрические тесты специально разработаны для вывода о параметрах популяции."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "parametric_tests",
+        "nonparametric_tests",
+        "test_selection"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q043",
+      "original_question_number": 246,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following is the most accurate sequence of steps in hypothesis testing?",
+      "question_text_ru": "Какая из следующих последовательностей шагов в проверке гипотез наиболее точна?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "State the hypothesis, select the level of significance, compute the test statistic, formulate the decision rule, and make a decision",
+          "text_ru": "Сформулировать гипотезу, выбрать уровень значимости, вычислить тестовую статистику, сформулировать правило принятия решения и принять решение"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "State the hypothesis, select the significance level, formulate the decision rule, compute the test statistic, and make a decision",
+          "text_ru": "Сформулировать гипотезу, выбрать уровень значимости, сформулировать правило принятия решения, вычислить тестовую статистику и принять решение"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "State the hypothesis, formulate the decision rule, select the significance level, compute the test statistic, and make a decision",
+          "text_ru": "Сформулировать гипотезу, сформулировать правило принятия решения, выбрать уровень значимости, вычислить тестовую статистику и принять решение"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The correct sequence is: 1) State the hypothesis, 2) Select the level of significance, 3) Formulate the decision rule, 4) Compute the test statistic, 5) Make a decision. The decision rule, which is based on the significance level and the distribution of the test statistic under the null hypothesis, should be established before computing the test statistic.",
+      "explanation_ru": "Правильная последовательность: 1) Сформулировать гипотезу, 2) Выбрать уровень значимости, 3) Сформулировать правило принятия решения, 4) Вычислить тестовую статистику, 5) Принять решение. Правило принятия решения, которое основано на уровне значимости и распределении тестовой статистики при нулевой гипотезе, должно быть установлено до вычисления тестовой статистики.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "It suggests computing the test statistic before formulating the decision rule. This sequence is not optimal as the decision rule should be established before computing the test statistic.",
+          "text_ru": "Предлагает вычислить тестовую статистику перед формулированием правила принятия решения. Эта последовательность не оптимальна, так как правило принятия решения должно быть установлено до вычисления тестовой статистики."
+        },
+        "opt_c": {
+          "text_en": "The significance level is a critical component in formulating the decision rule. Without selecting the significance level first, it would not be possible to formulate an appropriate decision rule.",
+          "text_ru": "Уровень значимости является критическим компонентом при формулировании правила принятия решения. Без предварительного выбора уровня значимости невозможно сформулировать соответствующее правило принятия решения."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "hypothesis_testing",
+        "test_procedure",
+        "decision_rule"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q044",
+      "original_question_number": 247,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following statements about hypothesis testing is the least accurate? If the alternative hypothesis is Hₐ: M > M₀, a two-tailed test is appropriate.",
+      "question_text_ru": "Какое из следующих утверждений о проверке гипотез наименее точно? Если альтернативная гипотеза Hₐ: M > M₀, подходит двусторонний тест.",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "A Type II error is failing to reject a false null hypothesis",
+          "text_ru": "Ошибка типа II - это неспособность отклонить ложную нулевую гипотезу"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The null hypothesis is a statement about the value of a population parameter",
+          "text_ru": "Нулевая гипотеза - это утверждение о значении параметра популяции"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "If the alternative hypothesis is Hₐ: M > M₀, a two-tailed test is appropriate",
+          "text_ru": "Если альтернативная гипотеза Hₐ: M > M₀, подходит двусторонний тест"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "The alternative is a one-sided test if the '>' or '<' sign is used and two-sided when the '≠' sign is used. When the alternative hypothesis is Hₐ: M > M₀, this indicates a one-tailed test, not a two-tailed test. A two-tailed test would have an alternative hypothesis of the form Hₐ: M ≠ M₀.",
+      "explanation_ru": "Альтернатива является односторонним тестом, если используется знак '>' или '<', и двусторонним, когда используется знак '≠'. Когда альтернативная гипотеза Hₐ: M > M₀, это указывает на односторонний тест, а не двусторонний. Двусторонний тест имел бы альтернативную гипотезу вида Hₐ: M ≠ M₀.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Type II error is failing to reject a false null hypothesis. This is a correct statement.",
+          "text_ru": "Ошибка типа II - это неспособность отклонить ложную нулевую гипотезу. Это правильное утверждение."
+        },
+        "opt_b": {
+          "text_en": "The hypotheses are always stated in terms of a population parameter. This is a correct statement.",
+          "text_ru": "Гипотезы всегда формулируются в терминах параметра популяции. Это правильное утверждение."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "one_tailed_test",
+        "two_tailed_test",
+        "hypothesis_formulation"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q045",
+      "original_question_number": 248,
+      "los_id": "LOS_8b",
+      "question_text_en": "For the calculation of the test statistic, the most appropriate formula is:",
+      "question_text_ru": "Для расчета тестовой статистики наиболее подходящая формула:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "(Sample Mean - Hypothesized mean) / (Standard error of sample mean)",
+          "text_ru": "(Среднее выборки - Гипотетическое среднее) / (Стандартная ошибка среднего выборки)"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "(Population Mean - Sample Mean) / (Standard error of sample mean)",
+          "text_ru": "(Среднее популяции - Среднее выборки) / (Стандартная ошибка среднего выборки)"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "(Population Mean - Sample Mean) / (Standard Deviation)",
+          "text_ru": "(Среднее популяции - Среднее выборки) / (Стандартное отклонение)"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The test statistic is a quantity that is calculated based on a sample. The value of a test statistic is used to determine whether or not to reject the null hypothesis. The appropriate formula for the calculation of the test statistic is: Test statistic = (Sample Mean - Hypothesized mean) / (Standard error of the sample mean).",
+      "explanation_ru": "Тестовая статистика - это величина, которая вычисляется на основе выборки. Значение тестовой статистики используется для определения того, отклонять или нет нулевую гипотезу. Подходящая формула для расчета тестовой статистики: Тестовая статистика = (Среднее выборки - Гипотетическое среднее) / (Стандартная ошибка среднего выборки).",
+      "explanation_formula": "$\\text{Test statistic} = \\frac{\\bar{X} - \\mu_0}{\\frac{s}{\\sqrt{n}}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "In hypothesis testing, the focus is on how the sample mean compares to a hypothesized population mean, not the other way around. The standard error of the sample mean is the appropriate denominator.",
+          "text_ru": "При проверке гипотез основное внимание уделяется тому, как среднее выборки сравнивается с гипотетическим средним популяции, а не наоборот. Стандартная ошибка среднего выборки является подходящим знаменателем."
+        },
+        "opt_c": {
+          "text_en": "The use of the standard deviation instead of the standard error of the sample mean does not account for the size of the sample, which is crucial in determining the variability of the sample mean.",
+          "text_ru": "Использование стандартного отклонения вместо стандартной ошибки среднего выборки не учитывает размер выборки, что имеет решающее значение для определения вариабельности среднего выборки."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "test_statistic",
+        "hypothesis_testing",
+        "formula"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q046",
+      "original_question_number": 249,
+      "los_id": "LOS_8b",
+      "question_text_en": "While performing a hypothesis test, Albert Khan is told that his analysis suffers from a Type I error. It therefore most likely indicates that:",
+      "question_text_ru": "При выполнении проверки гипотезы Альберту Хану сказали, что его анализ содержит ошибку типа I. Поэтому это наиболее вероятно указывает на то, что:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Khan rejected the null hypothesis when it was actually false",
+          "text_ru": "Хан отклонил нулевую гипотезу, когда она на самом деле была ложной"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Khan rejected the null hypothesis when it was actually true",
+          "text_ru": "Хан отклонил нулевую гипотезу, когда она на самом деле была верной"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Khan failed to reject the null hypothesis when it was actually false",
+          "text_ru": "Хан не смог отклонить нулевую гипотезу, когда она на самом деле была ложной"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "A Type I error means that Khan rejected the null hypothesis when it was actually true. A Type I error occurs when we reject a true null hypothesis. The probability of making a Type I error is denoted by α (alpha), which is also known as the significance level of the test.",
+      "explanation_ru": "Ошибка типа I означает, что Хан отклонил нулевую гипотезу, когда она на самом деле была верной. Ошибка типа I происходит, когда мы отклоняем верную нулевую гипотезу. Вероятность совершения ошибки типа I обозначается α (альфа), которая также известна как уровень значимости теста.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "It does not represent any error. We reject the null hypothesis when it is false. This is the correct decision.",
+          "text_ru": "Это не представляет никакой ошибки. Мы отклоняем нулевую гипотезу, когда она ложна. Это правильное решение."
+        },
+        "opt_c": {
+          "text_en": "It represents Type II error. Type II error occurs when analysts fail to reject a false null hypothesis.",
+          "text_ru": "Это представляет ошибку типа II. Ошибка типа II происходит, когда аналитики не отклоняют ложную нулевую гипотезу."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "type_I_error",
+        "type_II_error",
+        "hypothesis_testing"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q047",
+      "original_question_number": 250,
+      "los_id": "LOS_8b",
+      "question_text_en": "Is the following statement most likely correct? 'The decision rule for rejecting or failing to reject the null hypothesis is based on the distribution of the test statistic. If the test statistic follows a normal distribution, the decision rule is based on critical values determined from the z-distribution.'",
+      "question_text_ru": "Является ли следующее утверждение наиболее вероятно правильным? 'Правило принятия решения об отклонении или неотклонении нулевой гипотезы основано на распределении тестовой статистики. Если тестовая статистика следует нормальному распределению, правило принятия решения основано на критических значениях, определенных из z-распределения.'",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Yes",
+          "text_ru": "Да"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "No, because if the test statistic follows a normal distribution, the decision rule is based on critical values determined from the t-distribution",
+          "text_ru": "Нет, потому что если тестовая статистика следует нормальному распределению, правило принятия решения основано на критических значениях, определенных из t-распределения"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "No, because the decision rule for rejecting or failing to reject the null hypothesis is based on the value of the test statistic and the critical value",
+          "text_ru": "Нет, потому что правило принятия решения об отклонении или неотклонении нулевой гипотезы основано на значении тестовой статистики и критическом значении"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The statement is correct. The decision rule for rejecting or failing to reject the null hypothesis is based on the distribution of the test statistic. If the test statistic follows a normal distribution, the decision rule is based on critical values determined from the z-distribution. The z-distribution is specifically used for test statistics that follow a normal distribution, especially in cases where the population variance is known, or the sample size is sufficiently large for the Central Limit Theorem to apply.",
+      "explanation_ru": "Утверждение верно. Правило принятия решения об отклонении или неотклонении нулевой гипотезы основано на распределении тестовой статистики. Если тестовая статистика следует нормальному распределению, правило принятия решения основано на критических значениях, определенных из z-распределения. z-распределение специально используется для тестовых статистик, которые следуют нормальному распределению, особенно в случаях, когда дисперсия популяции известна, или размер выборки достаточно велик для применения центральной предельной теоремы.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "This option incorrectly suggests that the decision rule does not rely on the distribution of the test statistic and the critical values from the z-distribution when the test statistic follows a normal distribution.",
+          "text_ru": "Этот вариант неправильно предполагает, что правило принятия решения не зависит от распределения тестовой статистики и критических значений из z-распределения, когда тестовая статистика следует нормальному распределению."
+        },
+        "opt_c": {
+          "text_en": "This option misstates the conditions. While it is true that the decision rule involves comparing the test statistic to critical values, the choice of distribution depends on the known or unknown status of the population variance and the sample size.",
+          "text_ru": "Этот вариант неправильно формулирует условия. Хотя верно, что правило принятия решения включает сравнение тестовой статистики с критическими значениями, выбор распределения зависит от известного или неизвестного статуса дисперсии популяции и размера выборки."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "decision_rule",
+        "z_distribution",
+        "critical_values"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q048",
+      "original_question_number": 251,
+      "los_id": "LOS_8b",
+      "question_text_en": "A two-tailed hypothesis test at the 95% significance level with a p-value of 2.14% most likely indicates that:",
+      "question_text_ru": "Двусторонний тест гипотезы на уровне значимости 95% с p-значением 2,14% наиболее вероятно указывает на то, что:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "at a 2% significance level, we can reject the null hypothesis",
+          "text_ru": "на уровне значимости 2% мы можем отклонить нулевую гипотезу"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "at a 3% significance level, we can reject the null hypothesis",
+          "text_ru": "на уровне значимости 3% мы можем отклонить нулевую гипотезу"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "at a 3% significance level, we cannot reject the null hypothesis",
+          "text_ru": "на уровне значимости 3% мы не можем отклонить нулевую гипотезу"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The p-value is the smallest level of significance for which the null hypothesis can be rejected. At 2.14% and any level above 2.14%, the null hypothesis can be rejected. Since the p-value of 2.14% is less than 3%, we can reject the null hypothesis at a 3% significance level. However, since 2.14% is greater than 2%, we cannot reject at a 2% significance level.",
+      "explanation_ru": "P-значение - это наименьший уровень значимости, при котором нулевая гипотеза может быть отклонена. При 2,14% и любом уровне выше 2,14% нулевая гипотеза может быть отклонена. Поскольку p-значение 2,14% меньше 3%, мы можем отклонить нулевую гипотезу на уровне значимости 3%. Однако, поскольку 2,14% больше 2%, мы не можем отклонить на уровне значимости 2%.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Since the p-value of 2.14% is greater than 2%, it does not meet the criteria for rejection at this stricter significance level. The p-value must be less than or equal to the significance level to justify rejecting the null hypothesis.",
+          "text_ru": "Поскольку p-значение 2,14% больше 2%, оно не соответствует критериям отклонения на этом более строгом уровне значимости. P-значение должно быть меньше или равно уровню значимости, чтобы обосновать отклонение нулевой гипотезы."
+        },
+        "opt_c": {
+          "text_en": "The p-value indicates the probability of obtaining a result at least as extreme as the one observed, assuming the null hypothesis is true. A p-value lower than the significance level suggests that such extreme results are unlikely under the null hypothesis, leading to its rejection.",
+          "text_ru": "P-значение указывает на вероятность получения результата, по крайней мере, такого же экстремального, как наблюдаемый, при условии, что нулевая гипотеза верна. P-значение ниже уровня значимости предполагает, что такие экстремальные результаты маловероятны при нулевой гипотезе, что приводит к ее отклонению."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "p_value",
+        "significance_level",
+        "hypothesis_testing"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q049",
+      "original_question_number": 252,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following statement(s) is/are most accurate? I. Decreasing the significance level will decrease the probability of failing to reject a false null. II. Decreasing the significance level will increase the power of the test.",
+      "question_text_ru": "Какое из следующих утверждений наиболее точно? I. Уменьшение уровня значимости уменьшит вероятность неотклонения ложной нулевой гипотезы. II. Уменьшение уровня значимости увеличит мощность теста.",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Only II is correct",
+          "text_ru": "Только II правильно"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "I and II are correct",
+          "text_ru": "I и II правильны"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "I and II are incorrect",
+          "text_ru": "I и II неправильны"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Decreasing the significance level will INCREASE the probability of failing to reject a false null (Type II error) and DECREASE the power of the test. The power of a test is defined as 1 - β, where β is the probability of a Type II error. As α (significance level) decreases, the criteria for rejecting the null hypothesis become more stringent, making it more difficult to detect a true effect, thus increasing β and decreasing power.",
+      "explanation_ru": "Уменьшение уровня значимости УВЕЛИЧИТ вероятность неотклонения ложной нулевой гипотезы (ошибка типа II) и УМЕНЬШИТ мощность теста. Мощность теста определяется как 1 - β, где β - вероятность ошибки типа II. По мере уменьшения α (уровня значимости) критерии отклонения нулевой гипотезы становятся более строгими, что затрудняет обнаружение истинного эффекта, таким образом увеличивая β и уменьшая мощность.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "As α decreases, the likelihood of rejecting the null hypothesis when it is false (i.e., detecting a true effect) decreases, thus reducing the power of the test.",
+          "text_ru": "По мере уменьшения α вероятность отклонения нулевой гипотезы, когда она ложна (т.е. обнаружение истинного эффекта), уменьшается, таким образом снижая мощность теста."
+        },
+        "opt_b": {
+          "text_en": "Statement I posits that decreasing the significance level will decrease the probability of failing to reject a false null hypothesis. In reality, decreasing the significance level increases the probability of failing to reject a false null hypothesis (β), which is the definition of a Type II error.",
+          "text_ru": "Утверждение I предполагает, что уменьшение уровня значимости уменьшит вероятность неотклонения ложной нулевой гипотезы. На самом деле уменьшение уровня значимости увеличивает вероятность неотклонения ложной нулевой гипотезы (β), что является определением ошибки типа II."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": [
+        "significance_level",
+        "power_of_test",
+        "type_II_error"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q050",
+      "original_question_number": 253,
+      "los_id": "LOS_8b",
+      "question_text_en": "A survey is conducted to determine if the average starting salary of investment bankers is equal to or greater than $57,000 per year. Given a sample of 115 newly employed investment bankers with a mean starting salary of $65,000 and a standard deviation of $4,500, and assuming a normal distribution, the test statistic is closest to:",
+      "question_text_ru": "Проводится опрос, чтобы определить, равна ли средняя начальная зарплата инвестиционных банкиров $57,000 в год или больше. Дана выборка из 115 недавно нанятых инвестиционных банкиров со средней начальной зарплатой $65,000 и стандартным отклонением $4,500, и при условии нормального распределения, тестовая статистика наиболее близка к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "19.06",
+          "text_ru": "19,06"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "204.40",
+          "text_ru": "204,40"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "419.62",
+          "text_ru": "419,62"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Standard error of the sample mean = Standard deviation / √Sample size = $4,500 / √115 = 419.6272. Test statistic = (Sample mean - Hypothesized value) / (Standard error of the sample mean) = (65,000 - 57,000) / 419.6272 = 19.06",
+      "explanation_ru": "Стандартная ошибка среднего выборки = Стандартное отклонение / √Размер выборки = $4,500 / √115 = 419,6272. Тестовая статистика = (Среднее выборки - Гипотетическое значение) / (Стандартная ошибка среднего выборки) = (65,000 - 57,000) / 419,6272 = 19,06",
+      "explanation_formula": "$\\text{SE} = \\frac{s}{\\sqrt{n}} = \\frac{4500}{\\sqrt{115}} = 419.63$ \n\n$\\text{Test statistic} = \\frac{\\bar{x} - \\mu_0}{SE} = \\frac{65000 - 57000}{419.63} = 19.06$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "It indicates the test statistic without finding the square root of the sample size.",
+          "text_ru": "Указывает тестовую статистику без извлечения квадратного корня из размера выборки."
+        },
+        "opt_c": {
+          "text_en": "It is the standard error of the mean, not the test statistic.",
+          "text_ru": "Это стандартная ошибка среднего, а не тестовая статистика."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "test_statistic",
+        "hypothesis_testing",
+        "calculation"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q051",
+      "original_question_number": 254,
+      "los_id": "LOS_8b",
+      "question_text_en": "Hilda believes that the average return on equity in the consumer durables industry is greater than 8%. The null (H₀) and the alternative (Hₐ) hypotheses for this study are most likely:",
+      "question_text_ru": "Хильда считает, что средняя рентабельность собственного капитала в отрасли товаров длительного пользования превышает 8%. Нулевая (H₀) и альтернативная (Hₐ) гипотезы для этого исследования скорее всего:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "H₀: M = 0.08 versus Hₐ: M ≠ 0.08",
+          "text_ru": "H₀: M = 0,08 против Hₐ: M ≠ 0,08"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "H₀: M ≥ 0.08 versus Hₐ: M < 0.08",
+          "text_ru": "H₀: M ≥ 0,08 против Hₐ: M < 0,08"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "H₀: M ≤ 0.08 versus Hₐ: M > 0.08",
+          "text_ru": "H₀: M ≤ 0,08 против Hₐ: M > 0,08"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "This is a one-sided alternative (so we cannot use =) because of the \"greater than\" belief. The null hypothesis is formulated as follows: H₀: M ≤ 0.08 versus Hₐ: M > 0.08. It tests whether there is evidence that the actual parameter (Average return) is significantly greater than the hypothesized value (8%). If there is enough evidence, we reject the null hypothesis. If there is not, we accept the null hypothesis.",
+      "explanation_ru": "Это односторонняя альтернатива (поэтому мы не можем использовать =) из-за убеждения \"больше чем\". Нулевая гипотеза формулируется следующим образом: H₀: M ≤ 0,08 против Hₐ: M > 0,08. Она проверяет, есть ли доказательства того, что фактический параметр (средняя доходность) значительно больше гипотетического значения (8%). Если есть достаточно доказательств, мы отвергаем нулевую гипотезу. Если нет, мы принимаем нулевую гипотезу.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "It is a one-sided alternative (so we cannot use =) because of the \"greater than\" belief.",
+          "text_ru": "Это односторонняя альтернатива (поэтому мы не можем использовать =) из-за убеждения \"больше чем\"."
+        },
+        "opt_b": {
+          "text_en": "The choice indicates that Hₐ M< 0.08, which negates the statement.",
+          "text_ru": "Выбор указывает, что Hₐ M< 0,08, что противоречит утверждению."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "hypothesis_testing",
+        "one_tailed_test",
+        "null_hypothesis",
+        "alternative_hypothesis"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q052",
+      "original_question_number": 255,
+      "los_id": "LOS_8b",
+      "question_text_en": "The most appropriate hypothesis test concerning the variance of a normally distributed population is referred to as the:",
+      "question_text_ru": "Наиболее подходящий тест гипотез относительно дисперсии нормально распределенной популяции называется:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Z-test.",
+          "text_ru": "Z-тест."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "F-test.",
+          "text_ru": "F-тест."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Chi-squared test.",
+          "text_ru": "Хи-квадрат тест."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "A chi-squared (χ²) statistic is used to investigate whether distributions of categorical variables differ from one another. The chi-squared test is used to test whether a hypothesized value of variance is equal to, less than, or greater than the true value of the population variance.",
+      "explanation_ru": "Статистика хи-квадрат (χ²) используется для исследования того, отличаются ли распределения категориальных переменных друг от друга. Тест хи-квадрат используется для проверки того, равно ли гипотетическое значение дисперсии, меньше или больше истинного значения дисперсии популяции.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The Z test is used when comparing the means of two distributions with known variances.",
+          "text_ru": "Z-тест используется при сравнении средних двух распределений с известными дисперсиями."
+        },
+        "opt_b": {
+          "text_en": "The F test is used when checking for the equality of two population variances.",
+          "text_ru": "F-тест используется при проверке равенства двух дисперсий популяции."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "hypothesis_testing",
+        "chi_square_test",
+        "variance_testing"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q053",
+      "original_question_number": 256,
+      "los_id": "LOS_8c",
+      "question_text_en": "Which of the following statement(s) is/are most accurate? I. Nonparametric tests have more assumptions than parametric tests. II. When data is based on ordinal measurements, we use nonparametric tests.",
+      "question_text_ru": "Какое из следующих утверждений наиболее точно? I. Непараметрические тесты имеют больше предположений, чем параметрические тесты. II. Когда данные основаны на порядковых измерениях, мы используем непараметрические тесты.",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Both statements are correct.",
+          "text_ru": "Оба утверждения верны."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Both statements are incorrect.",
+          "text_ru": "Оба утверждения неверны."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Only one statement is correct.",
+          "text_ru": "Только одно утверждение верно."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Statement I is incorrect. Nonparametric tests have fewer assumptions than parametric tests. Statement II is correct. When data is based on ordinal measurements, we use nonparametric tests. Non-parametric tests are also used when: the median is more desirable than the mean and when the sample size is extremely small.",
+      "explanation_ru": "Утверждение I неверно. Непараметрические тесты имеют меньше предположений, чем параметрические тесты. Утверждение II верно. Когда данные основаны на порядковых измерениях, мы используем непараметрические тесты. Непараметрические тесты также используются когда: медиана более желательна, чем среднее, и когда размер выборки очень мал.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Statement I is incorrect as nonparametric tests have fewer assumptions than parametric tests.",
+          "text_ru": "Утверждение I неверно, так как непараметрические тесты имеют меньше предположений, чем параметрические тесты."
+        },
+        "opt_b": {
+          "text_en": "Statement II is correct. When data is based on ordinal measurements, we use nonparametric tests.",
+          "text_ru": "Утверждение II верно. Когда данные основаны на порядковых измерениях, мы используем непараметрические тесты."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "nonparametric_tests",
+        "parametric_tests",
+        "ordinal_data"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q054",
+      "original_question_number": 257,
+      "los_id": "LOS_8b",
+      "question_text_en": "A sample of 100 students is currently renting rooms in the mean distance of 18 miles from a small U.S. College. Assuming that the population is normally distributed and the standard deviation of the sample is 14 miles, the 99% confidence interval for the population mean is closest to:",
+      "question_text_ru": "Выборка из 100 студентов в настоящее время арендует комнаты на среднем расстоянии 18 миль от небольшого колледжа США. Предполагая, что популяция распределена нормально, а стандартное отклонение выборки составляет 14 миль, 99% доверительный интервал для среднего популяции наиболее близок к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "[15.26 miles; 20.74 miles]",
+          "text_ru": "[15,26 миль; 20,74 миль]"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "[16.6 miles; 19.4 miles]",
+          "text_ru": "[16,6 миль; 19,4 миль]"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "[14.4 miles; 21.6 miles]",
+          "text_ru": "[14,4 миль; 21,6 миль]"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Standard error of the sample = Standard deviation of sample mean/√Sample size = 14/√100 = 1.4. Z-statistic (Reliability factor) at 99% confidence interval = 2.58. Confidence interval = Point estimate ± Reliability factor × Standard error. Lower limit of the confidence interval = 18 - (2.58 × 1.4) = 14.39 miles. Upper limit of the confidence interval = 18 + (2.58 × 1.4) = 21.6 miles. The 99% confidence interval of the population lies within the range (14.39; 21.6). This means that 99% of the students rent rooms within a distance of (14.39; 21.6) miles.",
+      "explanation_ru": "Стандартная ошибка выборки = Стандартное отклонение среднего выборки/√Размер выборки = 14/√100 = 1,4. Z-статистика (фактор надежности) при 99% доверительном интервале = 2,58. Доверительный интервал = Точечная оценка ± Фактор надежности × Стандартная ошибка. Нижний предел доверительного интервала = 18 - (2,58 × 1,4) = 14,39 миль. Верхний предел доверительного интервала = 18 + (2,58 × 1,4) = 21,6 миль. 99% доверительный интервал популяции находится в диапазоне (14,39; 21,6). Это означает, что 99% студентов арендуют комнаты на расстоянии (14,39; 21,6) миль.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "This uses incorrect calculations for the confidence interval.",
+          "text_ru": "Это использует неправильные расчеты для доверительного интервала."
+        },
+        "opt_b": {
+          "text_en": "This uses incorrect calculations for the confidence interval.",
+          "text_ru": "Это использует неправильные расчеты для доверительного интервала."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": "18 - 2.58 * 14 / √100 = 14.388; 18 + 2.58 * 14 / √100 = 21.612",
+      "difficulty": "medium",
+      "topic_tags": [
+        "confidence_interval",
+        "z_distribution",
+        "normal_distribution"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q055",
+      "original_question_number": 258,
+      "los_id": "LOS_8b",
+      "question_text_en": "The mean return of a sample of 36 BB+ corporate bonds is 7.5%, and the sample's standard deviation is 14%. Assuming that the population is normally distributed and the population variance is unknown, based on t-distribution, the 95% confidence interval for the population mean is closest to:",
+      "question_text_ru": "Средняя доходность выборки из 36 корпоративных облигаций BB+ составляет 7,5%, а стандартное отклонение выборки составляет 14%. Предполагая, что популяция распределена нормально, а дисперсия популяции неизвестна, на основе t-распределения 95% доверительный интервал для среднего популяции наиболее близок к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "[2.77%; 12.23%]",
+          "text_ru": "[2,77%; 12,23%]"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "[2.93%; 12.06%]",
+          "text_ru": "[2,93%; 12,06%]"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "[3.56%; 11.43%]",
+          "text_ru": "[3,56%; 11,43%]"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Since the population variance is unknown and the population is normally distributed, we will use a t-statistic. The t-statistic for a 95% confidence interval and 35 degrees of freedom (df=n-1) is 2.030. The standard error of the sample = Standard Deviation of sample mean/√Sample size = 14/√36 = 2.33. The confidence interval is 7.5 - (2.03 * 2.33) = 2.77 and 7.5 + (2.03 * 2.33) = 12.23. Approximately 95% of the mean returns of BB+ corporate bonds fall within the interval (2.77;12.23).",
+      "explanation_ru": "Поскольку дисперсия популяции неизвестна, а популяция распределена нормально, мы будем использовать t-статистику. t-статистика для 95% доверительного интервала и 35 степеней свободы (df=n-1) составляет 2,030. Стандартная ошибка выборки = Стандартное отклонение среднего выборки/√Размер выборки = 14/√36 = 2,33. Доверительный интервал составляет 7,5 - (2,03 * 2,33) = 2,77 и 7,5 + (2,03 * 2,33) = 12,23. Приблизительно 95% средних доходностей корпоративных облигаций BB+ попадают в интервал (2,77; 12,23).",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "This uses incorrect t-statistic or calculations.",
+          "text_ru": "Это использует неправильную t-статистику или расчеты."
+        },
+        "opt_c": {
+          "text_en": "This uses incorrect t-statistic or calculations.",
+          "text_ru": "Это использует неправильную t-статистику или расчеты."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": "7.5 - 2.03 * 14 / √36 = 2.77; 7.5 + 2.03 * 14 / √36 = 12.23",
+      "difficulty": "medium",
+      "topic_tags": [
+        "confidence_interval",
+        "t_distribution",
+        "unknown_variance"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q056",
+      "original_question_number": 259,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following is the most appropriate test statistic for calculating confidence intervals for a normally distributed population mean whose variance is unknown and the sample size is less than 30?",
+      "question_text_ru": "Какая из следующих тестовых статистик наиболее подходит для расчета доверительных интервалов для нормально распределенного среднего популяции, дисперсия которого неизвестна, а размер выборки меньше 30?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "z-statistic.",
+          "text_ru": "z-статистика."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "t-statistic.",
+          "text_ru": "t-статистика."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "F-statistic.",
+          "text_ru": "F-статистика."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The t-statistic is most appropriate for constructing confidence intervals for normally distributed population means whose variance is unknown and the sample size is less than 30. At the same time, the z-statistic is appropriate for constructing confidence intervals for normally distributed population means whose variance is known (regardless of the sample size).",
+      "explanation_ru": "t-статистика наиболее подходит для построения доверительных интервалов для нормально распределенных средних популяции, дисперсия которых неизвестна, а размер выборки меньше 30. В то же время z-статистика подходит для построения доверительных интервалов для нормально распределенных средних популяции, дисперсия которых известна (независимо от размера выборки).",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The z-statistic is appropriate for constructing confidence intervals for normally distributed population means whose variance is known (regardless of the sample size).",
+          "text_ru": "z-статистика подходит для построения доверительных интервалов для нормально распределенных средних популяции, дисперсия которых известна (независимо от размера выборки)."
+        },
+        "opt_c": {
+          "text_en": "The F statistic is most appropriate when testing for the differences in population variances.",
+          "text_ru": "F-статистика наиболее подходит при тестировании различий в дисперсиях популяции."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "t_statistic",
+        "confidence_interval",
+        "small_sample"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q057",
+      "original_question_number": 260,
+      "los_id": "LOS_8b",
+      "question_text_en": "If a researcher wants to test that the mean return of 50 small-cap stocks from the Singapore Exchange is greater than 14%, the alternative hypothesis for the test is most likely:",
+      "question_text_ru": "Если исследователь хочет проверить, что средняя доходность 50 акций малой капитализации с Сингапурской биржи больше 14%, альтернативная гипотеза для теста скорее всего:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Hₐ: μ ≠ 14%.",
+          "text_ru": "Hₐ: μ ≠ 14%."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Hₐ: μ > 14%.",
+          "text_ru": "Hₐ: μ > 14%."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Hₐ: μ < 14%.",
+          "text_ru": "Hₐ: μ < 14%."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Since the researcher wants to test that if the mean of 50 small-cap stocks is greater than 14%, the null hypothesis is H₀: μ ≤ 14% and the alternative hypothesis is Hₐ: μ > 14%. We always want to reject the null hypothesis and accept the alternative. Since the researcher wants to prove that the mean returns are greater than 14%, Hₐ: μ > 14%; H₀: μ < 14%.",
+      "explanation_ru": "Поскольку исследователь хочет проверить, больше ли среднее значение 50 акций малой капитализации 14%, нулевая гипотеза H₀: μ ≤ 14%, а альтернативная гипотеза Hₐ: μ > 14%. Мы всегда хотим отвергнуть нулевую гипотезу и принять альтернативную. Поскольку исследователь хочет доказать, что средняя доходность больше 14%, Hₐ: μ > 14%; H₀: μ < 14%.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "It denotes that the alternative hypothesis is not equal to 14%, which is not the case.",
+          "text_ru": "Это обозначает, что альтернативная гипотеза не равна 14%, что не соответствует действительности."
+        },
+        "opt_c": {
+          "text_en": "It indicates that the alternative hypothesis for the mean return of 50 small-cap stocks from the Singapore Exchange is less than 14%.",
+          "text_ru": "Это указывает, что альтернативная гипотеза для средней доходности 50 акций малой капитализации с Сингапурской биржи меньше 14%."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "hypothesis_testing",
+        "alternative_hypothesis",
+        "one_tailed_test"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q058",
+      "original_question_number": 261,
+      "los_id": "LOS_8b",
+      "question_text_en": "An analyst believes that the mean return over 24 months on Geko Corp. shares is different from 0%. Determine which of the following is the most likely decision rule?",
+      "question_text_ru": "Аналитик считает, что средняя доходность акций Geko Corp. за 24 месяца отличается от 0%. Определите, какое из следующих правил принятия решения наиболее вероятно?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Reject H₀ if the test statistic > the upper critical value.",
+          "text_ru": "Отвергнуть H₀, если тестовая статистика > верхнего критического значения."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Reject H₀ if the test statistic < the lower critical value.",
+          "text_ru": "Отвергнуть H₀, если тестовая статистика < нижнего критического значения."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Reject H₀ if the test statistic > the upper critical value OR if the test statistic < the lower critical value.",
+          "text_ru": "Отвергнуть H₀, если тестовая статистика > верхнего критического значения ИЛИ если тестовая статистика < нижнего критического значения."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Since the analyst wants to test if the mean is different from zero, it is a two-tail test and the appropriate hypotheses are H₀: μ = 0% and Hₐ: μ ≠ 0%. The appropriate decision rule is to reject H₀ if the test statistic > the upper critical value OR if the test statistic < the lower critical value.",
+      "explanation_ru": "Поскольку аналитик хочет проверить, отличается ли среднее от нуля, это двусторонний тест, и соответствующие гипотезы: H₀: μ = 0% и Hₐ: μ ≠ 0%. Соответствующее правило принятия решения - отвергнуть H₀, если тестовая статистика > верхнего критического значения ИЛИ если тестовая статистика < нижнего критического значения.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "They both are incomplete. For two-tailed tests, the decision rule should consider both cases (when the Test Statistic is greater than the upper critical value and when it is less than the lower critical value).",
+          "text_ru": "Оба являются неполными. Для двусторонних тестов правило принятия решения должно учитывать оба случая (когда тестовая статистика больше верхнего критического значения и когда она меньше нижнего критического значения)."
+        },
+        "opt_b": {
+          "text_en": "They both are incomplete. For two-tailed tests, the decision rule should consider both cases (when the Test Statistic is greater than the upper critical value and when it is less than the lower critical value).",
+          "text_ru": "Оба являются неполными. Для двусторонних тестов правило принятия решения должно учитывать оба случая (когда тестовая статистика больше верхнего критического значения и когда она меньше нижнего критического значения)."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "hypothesis_testing",
+        "two_tailed_test",
+        "decision_rule"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q059",
+      "original_question_number": 262,
+      "los_id": "LOS_8b",
+      "question_text_en": "A quantitative analyst has calculated the mean holding period return (HPR) of 1% for 110 European corporate bonds with a standard deviation of 2%. If the analyst wants to test at a 5% level of significance that the mean HPR on European corporate bonds is different from zero, then the test statistic is closest to:",
+      "question_text_ru": "Количественный аналитик рассчитал среднюю доходность периода владения (HPR) в размере 1% для 110 европейских корпоративных облигаций со стандартным отклонением 2%. Если аналитик хочет проверить на уровне значимости 5%, что средняя HPR по европейским корпоративным облигациям отличается от нуля, то тестовая статистика ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "0.19",
+          "text_ru": "0,19"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "1.96",
+          "text_ru": "1,96"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "5.24",
+          "text_ru": "5,24"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Test statistic = (Sample mean - Hypothesized value) / Standard Error. Where Standard Error = Standard deviation/√Sample Size = 2%/√110. Therefore Test Statistic = (1% - 0) / (2%/√110) = 5.24",
+      "explanation_ru": "Тестовая статистика = (Среднее выборки - Гипотетическое значение) / Стандартная ошибка. Где Стандартная ошибка = Стандартное отклонение/√Размер выборки = 2%/√110. Следовательно, Тестовая статистика = (1% - 0) / (2%/√110) = 5,24",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "A test statistic of 0.19 would suggest a very small difference between the sample mean and the hypothesized value, which is not consistent with the calculated test statistic of 5.24.",
+          "text_ru": "Тестовая статистика 0,19 предполагала бы очень небольшую разницу между средним выборки и гипотетическим значением, что не соответствует рассчитанной тестовой статистике 5,24."
+        },
+        "opt_b": {
+          "text_en": "A test statistic of 1.96 is the critical value at a 5% level of significance for a two-tailed test under the assumption of a normal distribution. However, the calculated test statistic of 5.24 far exceeds this critical value.",
+          "text_ru": "Тестовая статистика 1,96 является критическим значением на уровне значимости 5% для двустороннего теста при предположении нормального распределения. Однако рассчитанная тестовая статистика 5,24 значительно превышает это критическое значение."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": "(1 - 0) / (2 / √110) = 5.24",
+      "difficulty": "medium",
+      "topic_tags": [
+        "hypothesis_testing",
+        "test_statistic",
+        "standard_error"
+      ]
+    },
+    {
+      "question_id": "QM-8-Q060",
+      "original_question_number": 263,
+      "los_id": "LOS_8b",
+      "question_text_en": "A quantitative analyst has calculated a mean HPR of 1% and a standard deviation of 2% for 110 European corporate bonds. If the analyst wants to test at a 5% level of significance that the mean HPR on European corporate bonds is different from zero, then which of the following is the most accurate result of the test?",
+      "question_text_ru": "Количественный аналитик рассчитал среднюю HPR 1% и стандартное отклонение 2% для 110 европейских корпоративных облигаций. Если аналитик хочет проверить на уровне значимости 5%, что средняя HPR по европейским корпоративным облигациям отличается от нуля, то какой из следующих результатов теста наиболее точен?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Reject H₀: μ = 0%",
+          "text_ru": "Отвергнуть H₀: μ = 0%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Reject Hₐ: μ ≠ 0%",
+          "text_ru": "Отвергнуть Hₐ: μ ≠ 0%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Accept H₀: μ = 0%",
+          "text_ru": "Принять H₀: μ = 0%"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Since the quantitative analyst wants to test if the returns are different from zero, the appropriate hypotheses are H₀: μ = 0% and Hₐ: μ ≠ 0%. The decision rule is to reject H₀ if the test statistic > the upper critical value OR if the test statistic < the lower critical value. At a 5% level of significance, the z-critical value is +/- 1.96. Test statistic = (Sample mean - Hypothesized value) / Standard Error. Where Standard Error = Standard deviation/√Sample Size = 2%/√110. Therefore Test Statistic = (1% - 0) / (2%/√110) = 5.24. Since the test statistic > the upper critical value (or 5.24 > 1.96), the null hypothesis is rejected and the alternative hypothesis is accepted.",
+      "explanation_ru": "Поскольку количественный аналитик хочет проверить, отличается ли доходность от нуля, соответствующие гипотезы: H₀: μ = 0% и Hₐ: μ ≠ 0%. Правило принятия решения - отвергнуть H₀, если тестовая статистика > верхнего критического значения ИЛИ если тестовая статистика < нижнего критического значения. На уровне значимости 5% z-критическое значение составляет +/- 1,96. Тестовая статистика = (Среднее выборки - Гипотетическое значение) / Стандартная ошибка. Где Стандартная ошибка = Стандартное отклонение/√Размер выборки = 2%/√110. Следовательно, Тестовая статистика = (1% - 0) / (2%/√110) = 5,24. Поскольку тестовая статистика > верхнего критического значения (или 5,24 > 1,96), нулевая гипотеза отвергается, а альтернативная гипотеза принимается.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Since the test statistic > the upper critical value (or 5.24 > 1.96), the null hypothesis is rejected, and the alternative hypothesis is concluded.",
+          "text_ru": "Поскольку тестовая статистика > верхнего критического значения (или 5,24 > 1,96), нулевая гипотеза отвергается, а альтернативная гипотеза принимается."
+        },
+        "opt_c": {
+          "text_en": "The evidence suggests the rejection of the null hypothesis.",
+          "text_ru": "Доказательства предполагают отклонение нулевой гипотезы."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": "(1 - 0) / (2 / √110) = 5.24; Compare with 1.96",
+      "difficulty": "medium",
+      "topic_tags": [
+        "hypothesis_testing",
+        "test_statistic",
+        "decision_making"
+      ]
+    }
+  ]
+}
