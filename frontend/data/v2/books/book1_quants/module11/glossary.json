@@ -1,3 +1,421 @@
 {
-  "terms": []
+  "metadata": {
+    "book_id": 1,
+    "book_code": "QM",
+    "module_id": 11,
+    "module_name": "Introduction to Big Data Techniques",
+    "module_name_ru": "Введение в технологии больших данных",
+    "total_terms": 37,
+    "total_exercises": 3,
+    "version": "2.0",
+    "last_updated": "2026-01-19"
+  },
+  "los": [
+    {
+      "los_id": "LOS_11a",
+      "los_code": "11a",
+      "los_description_en": "Describe aspects of 'fintech' that are directly relevant for the gathering and analyzing of financial data",
+      "los_description_ru": "Описать аспекты 'финтеха', которые непосредственно связаны со сбором и анализом финансовых данных",
+      "terms": [
+        {
+          "term_id": "QM-11-001",
+          "term_en": "Fintech",
+          "term_ru": "Финтех",
+          "definition_en": "Technological innovation in designing and delivering financial services and products. It refers to both companies that develop new technologies and their applications, and the business sector that encompasses such companies.",
+          "definition_ru": "Технологические инновации в проектировании и предоставлении финансовых услуг и продуктов. Термин относится как к компаниям, разрабатывающим новые технологии и их приложения, так и к бизнес-сектору, охватывающему такие компании.",
+          "type": "concept"
+        },
+        {
+          "term_id": "QM-11-002",
+          "term_en": "Analysis of Large Datasets",
+          "term_ru": "Анализ больших наборов данных",
+          "definition_en": "Application of fintech that helps integrate alternative data (such as social media) into investment decision-making, beyond traditional data like corporate financial statements and economic indicators.",
+          "definition_ru": "Применение финтеха, помогающее интегрировать альтернативные данные (такие как социальные медиа) в процесс принятия инвестиционных решений, помимо традиционных данных, таких как финансовая отчетность компаний и экономические показатели.",
+          "type": "concept"
+        },
+        {
+          "term_id": "QM-11-003",
+          "term_en": "AI Analytical Tools",
+          "term_ru": "Аналитические инструменты ИИ",
+          "definition_en": "Artificial Intelligence tools that can identify complex, non-linear relationships compared to traditional quantitative methods, enabling diverse approaches to data analysis through AI-based methodologies.",
+          "definition_ru": "Инструменты искусственного интеллекта, способные выявлять сложные нелинейные взаимосвязи по сравнению с традиционными количественными методами, обеспечивая различные подходы к анализу данных через методологии на основе ИИ.",
+          "type": "concept"
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "los_id": "LOS_11b",
+      "los_code": "11b",
+      "los_description_en": "Describe Big Data, artificial intelligence, and machine learning",
+      "los_description_ru": "Описать большие данные, искусственный интеллект и машинное обучение",
+      "terms": [
+        {
+          "term_id": "QM-11-004",
+          "term_en": "Big Data",
+          "term_ru": "Большие данные",
+          "definition_en": "A term that describes large, complex datasets analyzed with computers to uncover patterns and trends, particularly those related to human behavior. Includes traditional sources (company reports, government data) and non-traditional sources (social media, sensors, electronic devices).",
+          "definition_ru": "Термин, описывающий большие сложные наборы данных, анализируемые компьютерами для выявления закономерностей и трендов, особенно связанных с поведением людей. Включает традиционные источники (отчеты компаний, правительственные данные) и нетрадиционные источники (социальные медиа, датчики, электронные устройства).",
+          "type": "concept"
+        },
+        {
+          "term_id": "QM-11-005",
+          "term_en": "Volume (Big Data)",
+          "term_ru": "Объем (Большие данные)",
+          "definition_en": "The amount of data collected in various forms, including files, records, tables, etc. Quantities of data reach almost incomprehensible proportions.",
+          "definition_ru": "Количество данных, собранных в различных формах, включая файлы, записи, таблицы и т.д. Объемы данных достигают почти невообразимых масштабов.",
+          "type": "concept"
+        },
+        {
+          "term_id": "QM-11-006",
+          "term_en": "Velocity (Big Data)",
+          "term_ru": "Скорость (Большие данные)",
+          "definition_en": "The speed of data processing, which can be extremely high. In most cases, we deal with real-time data.",
+          "definition_ru": "Скорость обработки данных, которая может быть чрезвычайно высокой. В большинстве случаев мы имеем дело с данными в реальном времени.",
+          "type": "concept"
+        },
+        {
+          "term_id": "QM-11-007",
+          "term_en": "Variety (Big Data)",
+          "term_ru": "Разнообразие (Большие данные)",
+          "definition_en": "The number of types/formats of data. The data could be structured (e.g., SQL tables or CSV files), semi-structured (e.g., HTML code), or unstructured (e.g., video messages).",
+          "definition_ru": "Количество типов/форматов данных. Данные могут быть структурированными (например, таблицы SQL или CSV-файлы), полуструктурированными (например, HTML-код) или неструктурированными (например, видеосообщения).",
+          "type": "concept"
+        },
+        {
+          "term_id": "QM-11-008",
+          "term_en": "Veracity (Big Data)",
+          "term_ru": "Достоверность (Большие данные)",
+          "definition_en": "The trustworthiness and reliability of data sources. Veracity is crucial when using big data for making predictions or drawing conclusions, as big data makes it challenging to distinguish between data quality and quantity.",
+          "definition_ru": "Надежность и достоверность источников данных. Достоверность критична при использовании больших данных для прогнозирования или выводов, поскольку большие данные затрудняют различение качества и количества данных.",
+          "type": "concept"
+        },
+        {
+          "term_id": "QM-11-009",
+          "term_en": "Structured Data",
+          "term_ru": "Структурированные данные",
+          "definition_en": "Information with a high degree of organization. Items can be organized in tables and stored in a database where each field represents the same type of information.",
+          "definition_ru": "Информация с высокой степенью организации. Элементы можно организовать в таблицы и хранить в базе данных, где каждое поле представляет один и тот же тип информации.",
+          "type": "concept"
+        },
+        {
+          "term_id": "QM-11-010",
+          "term_en": "Unstructured Data",
+          "term_ru": "Неструктурированные данные",
+          "definition_en": "Information with a low degree of organization. Items are unorganized and cannot be presented in tabular form, such as text messages, tweets, emails, voice recordings, pictures, blogs, scanners, and sensors.",
+          "definition_ru": "Информация с низкой степенью организации. Элементы неорганизованны и не могут быть представлены в табличной форме, такие как текстовые сообщения, твиты, электронные письма, голосовые записи, изображения, блоги, данные со сканеров и датчиков.",
+          "type": "concept"
+        },
+        {
+          "term_id": "QM-11-011",
+          "term_en": "Semi-structured Data",
+          "term_ru": "Полуструктурированные данные",
+          "definition_en": "Data that may have the qualities of both structured and unstructured data.",
+          "definition_ru": "Данные, которые могут иметь качества как структурированных, так и неструктурированных данных.",
+          "type": "concept"
+        },
+        {
+          "term_id": "QM-11-012",
+          "term_en": "Alternative Data Sources",
+          "term_ru": "Альтернативные источники данных",
+          "definition_en": "Data sources used by professional investors (particularly quantitative ones) in their financial analysis and decision-making, including: financial markets, businesses, governments, individuals, sensors, and Internet of Things.",
+          "definition_ru": "Источники данных, используемые профессиональными инвесторами (особенно количественными) в их финансовом анализе и принятии решений, включая: финансовые рынки, бизнес, правительства, частных лиц, датчики и Интернет вещей.",
+          "type": "concept"
+        },
+        {
+          "term_id": "QM-11-013",
+          "term_en": "People-generated Data",
+          "term_ru": "Данные, генерируемые людьми",
+          "definition_en": "Unstructured data primarily accessed through website clicks and page visits.",
+          "definition_ru": "Неструктурированные данные, в основном получаемые через клики на веб-сайтах и посещения страниц.",
+          "type": "concept"
+        },
+        {
+          "term_id": "QM-11-014",
+          "term_en": "Commercial Operations Data",
+          "term_ru": "Данные коммерческих операций",
+          "definition_en": "Data on credit cards and corporate exhaust, including information from business transactions like point-of-sale records and banking activities. This data is typically structured.",
+          "definition_ru": "Данные о кредитных картах и корпоративной деятельности, включая информацию из бизнес-транзакций, таких как записи точек продаж и банковская деятельность. Эти данные обычно структурированы.",
+          "type": "concept"
+        },
+        {
+          "term_id": "QM-11-015",
+          "term_en": "Data Produced by Sensors",
+          "term_ru": "Данные, производимые датчиками",
+          "definition_en": "Typically unstructured data gathered through satellites, smartphones, cameras, RFID chips, and webcams.",
+          "definition_ru": "Обычно неструктурированные данные, собираемые через спутники, смартфоны, камеры, RFID-чипы и веб-камеры.",
+          "type": "concept"
+        },
+        {
+          "term_id": "QM-11-016",
+          "term_en": "Artificial Intelligence (AI)",
+          "term_ru": "Искусственный интеллект (ИИ)",
+          "definition_en": "The broader concept of machines being able to carry out tasks in a way that we would consider 'smart'. It involves developing computer systems that exhibit cognitive and decision-making abilities comparable to or superior to humans.",
+          "definition_ru": "Более широкая концепция способности машин выполнять задачи способом, который мы бы считали 'умным'. Включает разработку компьютерных систем, демонстрирующих когнитивные способности и способности принятия решений, сопоставимые или превосходящие человеческие.",
+          "type": "concept"
+        },
+        {
+          "term_id": "QM-11-017",
+          "term_en": "Expert Systems",
+          "term_ru": "Экспертные системы",
+          "definition_en": "Early AI systems using 'if-then' computer programming to mimic human knowledge and analysis.",
+          "definition_ru": "Ранние системы ИИ, использующие компьютерное программирование по принципу 'если-то' для имитации человеческих знаний и анализа.",
+          "type": "concept"
+        },
+        {
+          "term_id": "QM-11-018",
+          "term_en": "Neural Networks",
+          "term_ru": "Нейронные сети",
+          "definition_en": "Another early form of AI that mimicked human brain functions in learning and processing information.",
+          "definition_ru": "Другая ранняя форма ИИ, имитирующая функции человеческого мозга в обучении и обработке информации.",
+          "type": "concept"
+        },
+        {
+          "term_id": "QM-11-019",
+          "term_en": "Machine Learning (ML)",
+          "term_ru": "Машинное обучение (МО)",
+          "definition_en": "A current application of AI where machines are given access to data and learn by themselves without making any assumptions about the underlying probability distribution. When exposed to more data, machines can make changes on their own and come up with solutions to problems without reliance on human expertise.",
+          "definition_ru": "Текущее приложение ИИ, где машины получают доступ к данным и учатся самостоятельно, не делая предположений о базовом распределении вероятностей. При воздействии большего количества данных машины могут самостоятельно вносить изменения и находить решения проблем без зависимости от человеческой экспертизы.",
+          "type": "concept"
+        },
+        {
+          "term_id": "QM-11-020",
+          "term_en": "Training Dataset",
+          "term_ru": "Обучающий набор данных",
+          "definition_en": "A dataset that allows the algorithm to identify the link between inputs and outputs based on the historical pattern in the data.",
+          "definition_ru": "Набор данных, который позволяет алгоритму определить связь между входными и выходными данными на основе исторического паттерна в данных.",
+          "type": "concept"
+        },
+        {
+          "term_id": "QM-11-021",
+          "term_en": "Validation Dataset",
+          "term_ru": "Валидационный набор данных",
+          "definition_en": "A dataset used to validate the relationships identified by the training dataset and adjust the model accordingly.",
+          "definition_ru": "Набор данных, используемый для валидации взаимосвязей, выявленных обучающим набором данных, и соответствующей настройки модели.",
+          "type": "concept"
+        },
+        {
+          "term_id": "QM-11-022",
+          "term_en": "Test Dataset",
+          "term_ru": "Тестовый набор данных",
+          "definition_en": "A dataset used to test the model's strength in predicting well on new data.",
+          "definition_ru": "Набор данных, используемый для тестирования способности модели хорошо предсказывать результаты на новых данных.",
+          "type": "concept"
+        },
+        {
+          "term_id": "QM-11-023",
+          "term_en": "Overfitting",
+          "term_ru": "Переобучение",
+          "definition_en": "When the ML model discovers 'false' associations or 'unsubstantiated' patterns that cause prediction errors and wrong forecasts. It happens when the ML model is overtrained on the data and considers the noise in the data as true parameters.",
+          "definition_ru": "Когда модель МО обнаруживает 'ложные' ассоциации или 'необоснованные' паттерны, вызывающие ошибки прогнозирования и неверные прогнозы. Происходит, когда модель МО переобучена на данных и считает шум в данных истинными параметрами.",
+          "type": "concept"
+        },
+        {
+          "term_id": "QM-11-024",
+          "term_en": "Underfitting",
+          "term_ru": "Недообучение",
+          "definition_en": "When the model considers the true parameters as noise and is unable to identify the relationship within the training data. In other words, the model is too simple to recognize patterns in the data.",
+          "definition_ru": "Когда модель считает истинные параметры шумом и не может определить взаимосвязи в обучающих данных. Другими словами, модель слишком проста, чтобы распознать паттерны в данных.",
+          "type": "concept"
+        },
+        {
+          "term_id": "QM-11-025",
+          "term_en": "Black Box Problem",
+          "term_ru": "Проблема черного ящика",
+          "definition_en": "Machine learning models don't use explicit rules like traditional software. They learn from lots of data during training, making ML models sometimes give results that are hard to understand or describe.",
+          "definition_ru": "Модели машинного обучения не используют явные правила, как традиционное программное обеспечение. Они учатся на большом количестве данных во время обучения, из-за чего модели МО иногда дают результаты, которые трудно понять или описать.",
+          "type": "concept"
+        },
+        {
+          "term_id": "QM-11-026",
+          "term_en": "Supervised Learning",
+          "term_ru": "Обучение с учителем",
+          "definition_en": "A type of machine learning where computers learn to model data based on labeled training data containing inputs and the desired outputs. After learning how to model the relationships for labeled data, the algorithms are employed to predict results for new datasets.",
+          "definition_ru": "Тип машинного обучения, при котором компьютеры учатся моделировать данные на основе размеченных обучающих данных, содержащих входные данные и желаемые выходные данные. После изучения моделирования взаимосвязей для размеченных данных алгоритмы используются для прогнозирования результатов для новых наборов данных.",
+          "type": "concept"
+        },
+        {
+          "term_id": "QM-11-027",
+          "term_en": "Unsupervised Learning",
+          "term_ru": "Обучение без учителя",
+          "definition_en": "A type of machine learning where computers get input data without labels and have to describe it, often by grouping data points. They learn from unlabeled data and react based on commonalities.",
+          "definition_ru": "Тип машинного обучения, при котором компьютеры получают входные данные без меток и должны их описать, часто группируя точки данных. Они учатся на неразмеченных данных и реагируют на основе общих черт.",
+          "type": "concept"
+        },
+        {
+          "term_id": "QM-11-028",
+          "term_en": "Deep Learning",
+          "term_ru": "Глубокое обучение",
+          "definition_en": "A type of machine learning involving computers using neural networks to process data in multiple stages, identifying complex patterns. It employs both supervised and unsupervised machine learning methods.",
+          "definition_ru": "Тип машинного обучения, включающий использование компьютерами нейронных сетей для обработки данных в несколько этапов, выявляя сложные паттерны. Использует как методы обучения с учителем, так и без учителя.",
+          "type": "concept"
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "QM-11-EX-001",
+          "question_en": "Machine learning refers to one of the following:",
+          "question_ru": "Машинное обучение относится к одному из следующего:",
+          "options": [
+            {
+              "label": "A",
+              "text_en": "Autonomous acquisition of knowledge through the use of computer programs",
+              "text_ru": "Автономное приобретение знаний через использование компьютерных программ"
+            },
+            {
+              "label": "B",
+              "text_en": "Ability of machines to execute coded instructions",
+              "text_ru": "Способность машин выполнять закодированные инструкции"
+            },
+            {
+              "label": "C",
+              "text_en": "Selective acquisition of knowledge through the use of computer programs",
+              "text_ru": "Выборочное приобретение знаний через использование компьютерных программ"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation_en": "Machine learning means computers independently acquire knowledge through programs, enabling them to solve problems without human input. It's about computers learning and making decisions on their own.",
+          "explanation_ru": "Машинное обучение означает, что компьютеры самостоятельно приобретают знания через программы, позволяя им решать проблемы без участия человека. Это о том, как компьютеры учатся и принимают решения самостоятельно.",
+          "difficulty": "medium",
+          "related_terms": ["QM-11-019"]
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_11c",
+      "los_code": "11c",
+      "los_description_en": "Describe applications of Big Data and Data Science to investment management",
+      "los_description_ru": "Описать применения больших данных и науки о данных в управлении инвестициями",
+      "terms": [
+        {
+          "term_id": "QM-11-029",
+          "term_en": "Data Science",
+          "term_ru": "Наука о данных",
+          "definition_en": "An interdisciplinary field that uses developments in computer science, statistics, and other fields to extract information from Big Data or data in general.",
+          "definition_ru": "Междисциплинарная область, использующая достижения в компьютерных науках, статистике и других областях для извлечения информации из больших данных или данных в целом.",
+          "type": "concept"
+        },
+        {
+          "term_id": "QM-11-030",
+          "term_en": "Data Capture",
+          "term_ru": "Сбор данных",
+          "definition_en": "The method by which data is gathered and put into a form that may be used by the analytical process.",
+          "definition_ru": "Метод, с помощью которого данные собираются и приводятся в форму, которая может быть использована аналитическим процессом.",
+          "type": "concept"
+        },
+        {
+          "term_id": "QM-11-031",
+          "term_en": "Data Curation",
+          "term_ru": "Курирование данных",
+          "definition_en": "By undertaking a data cleaning activity, data curation ensures the quality and accuracy of the data. Data inaccuracies are found in this procedure, and any missing data is made up for.",
+          "definition_ru": "Путем выполнения деятельности по очистке данных курирование данных обеспечивает качество и точность данных. В этой процедуре обнаруживаются неточности данных, и восполняются любые отсутствующие данные.",
+          "type": "concept"
+        },
+        {
+          "term_id": "QM-11-032",
+          "term_en": "Data Storage",
+          "term_ru": "Хранение данных",
+          "definition_en": "Process of recording, archiving, and accessing data, as well as the fundamental structure of the underlying database.",
+          "definition_ru": "Процесс записи, архивирования и доступа к данным, а также фундаментальная структура базовой базы данных.",
+          "type": "concept"
+        },
+        {
+          "term_id": "QM-11-033",
+          "term_en": "Data Search",
+          "term_ru": "Поиск данных",
+          "definition_en": "Involves querying data to locate specific information. With big data, sophisticated techniques are necessary to efficiently retrieve the requested data content.",
+          "definition_ru": "Включает запросы к данным для поиска конкретной информации. С большими данными необходимы сложные техники для эффективного извлечения запрашиваемого содержимого данных.",
+          "type": "concept"
+        },
+        {
+          "term_id": "QM-11-034",
+          "term_en": "Data Transfer",
+          "term_ru": "Передача данных",
+          "definition_en": "Describes the process of transferring data from the underlying data source or storage place to the underlying analytical instrument.",
+          "definition_ru": "Описывает процесс передачи данных из базового источника данных или места хранения в базовый аналитический инструмент.",
+          "type": "concept"
+        },
+        {
+          "term_id": "QM-11-035",
+          "term_en": "Data Visualization",
+          "term_ru": "Визуализация данных",
+          "definition_en": "Encompasses data formatting, display, and summarization through graphical representations. For traditional structured data, tables, charts, and trends are used, while non-traditional unstructured data demand innovative techniques like interactive 3D graphics, tag clouds, and mind maps.",
+          "definition_ru": "Охватывает форматирование данных, отображение и обобщение через графические представления. Для традиционных структурированных данных используются таблицы, графики и тренды, в то время как нетрадиционные неструктурированные данные требуют инновационных техник, таких как интерактивная 3D-графика, облака тегов и интеллект-карты.",
+          "type": "concept"
+        },
+        {
+          "term_id": "QM-11-036",
+          "term_en": "Text Analytics",
+          "term_ru": "Текстовая аналитика",
+          "definition_en": "Employs computer programs to analyze and extract insights, primarily from unstructured text- or voice-based datasets like company filings, written reports, quarterly earnings calls, and social media content. Can be utilized in predictive analysis to identify potential indicators of future performance.",
+          "definition_ru": "Использует компьютерные программы для анализа и извлечения инсайтов, в основном из неструктурированных текстовых или голосовых наборов данных, таких как корпоративные отчеты, письменные отчеты, квартальные отчеты о прибылях и контент социальных медиа. Может использоваться в прогнозном анализе для выявления потенциальных индикаторов будущей производительности.",
+          "type": "concept"
+        },
+        {
+          "term_id": "QM-11-037",
+          "term_en": "Natural Language Processing (NLP)",
+          "term_ru": "Обработка естественного языка (ОЕЯ)",
+          "definition_en": "An area of study that involves creating computer programs to decipher and analyze human language. NLP combines computer science, AI, and linguistics. Used for translation, speech recognition, text mining, sentiment analysis, and topic analysis.",
+          "definition_ru": "Область изучения, включающая создание компьютерных программ для расшифровки и анализа человеческого языка. ОЕЯ сочетает компьютерные науки, ИИ и лингвистику. Используется для перевода, распознавания речи, майнинга текста, анализа настроений и анализа тем.",
+          "type": "concept"
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "QM-11-EX-002",
+          "question_en": "Which of the five data processing methods refers to the process of ensuring data quality and accuracy through a data cleaning exercise?",
+          "question_ru": "Какой из пяти методов обработки данных относится к процессу обеспечения качества и точности данных через упражнение по очистке данных?",
+          "options": [
+            {
+              "label": "A",
+              "text_en": "Data search",
+              "text_ru": "Поиск данных"
+            },
+            {
+              "label": "B",
+              "text_en": "Data storage",
+              "text_ru": "Хранение данных"
+            },
+            {
+              "label": "C",
+              "text_en": "Data curation",
+              "text_ru": "Курирование данных"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation_en": "Data curation refers to the process of ensuring data quality and accuracy through a data cleaning exercise. It involves uncovering data errors and adjusting for missing data.",
+          "explanation_ru": "Курирование данных относится к процессу обеспечения качества и точности данных через упражнение по очистке данных. Оно включает обнаружение ошибок в данных и корректировку отсутствующих данных.",
+          "difficulty": "easy",
+          "related_terms": ["QM-11-031"]
+        },
+        {
+          "exercise_id": "QM-11-EX-003",
+          "question_en": "A characteristic of fintech is that it is:",
+          "question_ru": "Характеристика финтеха состоит в том, что он:",
+          "options": [
+            {
+              "label": "A",
+              "text_en": "at its most advanced state, using systems that follow specified rules and instructions",
+              "text_ru": "в своем наиболее продвинутом состоянии, использует системы, следующие определенным правилам и инструкциям"
+            },
+            {
+              "label": "B",
+              "text_en": "limited to simple tasks such as automating routine processes and data processing",
+              "text_ru": "ограничен простыми задачами, такими как автоматизация рутинных процессов и обработка данных"
+            },
+            {
+              "label": "C",
+              "text_en": "primarily driven by the increased availability of data and technological advancement",
+              "text_ru": "в основном обусловлен увеличенной доступностью данных и технологическим прогрессом"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation_en": "The availability of vast amounts of data and technological advancements have been the primary drivers of fintech's expansion. The rapid growth in data, including diverse types, large quantities, and improved quality, has provided valuable insights for financial institutions to develop data-driven solutions.",
+          "explanation_ru": "Доступность огромных объемов данных и технологические достижения были основными движущими силами расширения финтеха. Быстрый рост данных, включая различные типы, большие количества и улучшенное качество, предоставил ценные инсайты для финансовых учреждений для разработки решений на основе данных.",
+          "difficulty": "medium",
+          "related_terms": ["QM-11-001"]
+        }
+      ]
+    }
+  ]
 }
