@@ -7,7 +7,7 @@
     "module_id": 6,
     "module_name": "Sampling and Estimation",
     "module_name_ru": "Выборка и оценка",
-    "total_questions": 10,
+    "total_questions": 15,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -548,6 +548,241 @@
         "options_valuation",
         "lookback_options"
       ]
+    },
+    {
+      "question_id": "QM-6-Q011",
+      "original_question_number": 4602,
+      "los_id": "LOS_6b",
+      "question_text_en": "Which of the following statements best describes the purpose of resampling in statistical analysis?",
+      "question_text_ru": "Какое из следующих утверждений лучше всего описывает цель ресемплинга в статистическом анализе?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Resampling involves repeatedly using the same sample to test different hypotheses without making any statistical inferences about the population.",
+          "text_ru": "Ресемплинг включает многократное использование одной и той же выборки для проверки различных гипотез без каких-либо статистических выводов о популяции."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Resampling is a method used exclusively for estimating the mean of a population by drawing multiple samples from the observed data.",
+          "text_ru": "Ресемплинг - это метод, используемый исключительно для оценки среднего значения популяции путем извлечения множественных выборок из наблюдаемых данных."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Resampling entails repeatedly drawing samples from the original observed sample to make statistical inferences about population parameters.",
+          "text_ru": "Ресемплинг включает многократное извлечение выборок из исходной наблюдаемой выборки для создания статистических выводов о параметрах популяции."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Resampling methods, like Bootstrap, involve drawing multiple samples from the original observed sample to estimate population parameters and assess the variability of these estimates.",
+      "explanation_ru": "Методы ресемплинга, такие как Bootstrap, включают извлечение множественных выборок из исходной наблюдаемой выборки для оценки параметров популяции и оценки изменчивости этих оценок.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Resampling is specifically used to make statistical inferences about population parameters, not just to test different hypotheses without making inferences.",
+          "text_ru": "Неверно. Ресемплинг специально используется для создания статистических выводов о параметрах популяции, а не только для проверки различных гипотез без создания выводов."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. While resampling can be used to estimate the mean of a population, it is not exclusively used for this purpose. Resampling methods, such as Bootstrap and jackknife, can be used to make inferences about various population parameters, not just the mean.",
+          "text_ru": "Неверно. Хотя ресемплинг может использоваться для оценки среднего значения популяции, он не используется исключительно для этой цели. Методы ресемплинга, такие как Bootstrap и jackknife, могут использоваться для создания выводов о различных параметрах популяции, а не только о среднем."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["bootstrap_resampling", "statistical_inference"]
+    },
+    {
+      "question_id": "QM-6-Q012",
+      "original_question_number": 4603,
+      "los_id": "LOS_6b",
+      "question_text_en": "Which of the following statements is most accurate? Bootstrap resampling technique:",
+      "question_text_ru": "Какое из следующих утверждений наиболее точное? Техника ресемплинга Bootstrap:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "treats the initial sample as a stand-in for the entire population, allowing for the creation of a sampling distribution through repeated resampling.",
+          "text_ru": "рассматривает исходную выборку как заменитель всей популяции, позволяя создавать распределение выборки путем многократного ресемплинга."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "requires conventional analytical formulas like z-statistics to create a sampling distribution for statistical inferences.",
+          "text_ru": "требует традиционных аналитических формул, таких как z-статистики, для создания распределения выборки для статистических выводов."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "information about the population is essential to mimic the process of drawing samples from the population.",
+          "text_ru": "информация о популяции необходима для имитации процесса извлечения выборок из популяции."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "This statement accurately describes the Bootstrap resampling technique. The method treats the initially obtained sample as a stand-in for the entire population and creates a sampling distribution by repeatedly resampling from the initial sample.",
+      "explanation_ru": "Это утверждение точно описывает технику ресемплинга Bootstrap. Метод рассматривает исходную полученную выборку как заменитель всей популяции и создает распределение выборки путем многократного ресемплинга из исходной выборки.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Bootstrap resampling bypasses the need for conventional analytical formulas like z-statistics. It relies on computer simulations to create a sampling distribution for statistical inferences.",
+          "text_ru": "Неверно. Ресемплинг Bootstrap обходит необходимость в традиционных аналитических формулах, таких как z-статистики. Он полагается на компьютерные симуляции для создания распределения выборки для статистических выводов."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. In Bootstrap resampling, we do not have information about the population. Our only insight comes from a sample drawn from the \"unknown population.\" The technique relies on the sample to mimic the process of drawing samples from the population.",
+          "text_ru": "Неверно. В ресемплинге Bootstrap у нас нет информации о популяции. Наше единственное представление исходит из выборки, извлеченной из \"неизвестной популяции\". Техника полагается на выборку для имитации процесса извлечения выборок из популяции."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["bootstrap_resampling", "sampling_distribution"]
+    },
+    {
+      "question_id": "QM-6-Q013",
+      "original_question_number": 4604,
+      "los_id": "LOS_6b",
+      "question_text_en": "Which of the following statements best distinguishes between the Bootstrap and Monte Carlo simulation techniques?",
+      "question_text_ru": "Какое из следующих утверждений лучше всего различает техники Bootstrap и симуляции Монте-Карло?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Both techniques use repetitive sampling for statistical inferences but differ in their data generation and usage approaches.",
+          "text_ru": "Обе техники используют повторяющуюся выборку для статистических выводов, но различаются в подходах к генерации и использованию данных."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Monte Carlo uses the dataset as a proxy for the population, whereas Bootstrap resampling requires pre-determined parameter distributions.",
+          "text_ru": "Монте-Карло использует набор данных в качестве прокси для популяции, тогда как ресемплинг Bootstrap требует предопределенных распределений параметров."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Monte Carlo simulation needs many observations for accurate population simulation, whereas Bootstrap can effectively handle smaller datasets.",
+          "text_ru": "Симуляция Монте-Карло нуждается в большом количестве наблюдений для точного моделирования популяции, тогда как Bootstrap может эффективно работать с меньшими наборами данных."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "This statement accurately distinguishes between the two techniques. Bootstrap focuses on inferring population parameters from resampled datasets, while Monte Carlo simulation centers on generating random data with specified statistical distributions.",
+      "explanation_ru": "Это утверждение точно различает две техники. Bootstrap фокусируется на выводе параметров популяции из выборок с повторением, в то время как симуляция Монте-Карло сосредоточена на генерации случайных данных с заданными статистическими распределениями.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. It incorrectly reverses the characteristics of the two techniques. Bootstrap uses the resampled dataset as a proxy for the true population, while Monte Carlo simulation generates random data with pre-determined statistical distributions.",
+          "text_ru": "Неверно. Это неправильно меняет характеристики двух техник. Bootstrap использует выборку с повторением в качестве прокси для истинной популяции, в то время как симуляция Монте-Карло генерирует случайные данные с предопределенными статистическими распределениями."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This statement incorrectly attributes the characteristics of Bootstrap to Monte Carlo simulation and vice versa. Bootstrap infers population parameters from resampled datasets, while Monte Carlo simulation involves generating random data with pre-determined statistical distributions.",
+          "text_ru": "Неверно. Это утверждение неправильно приписывает характеристики Bootstrap симуляции Монте-Карло и наоборот. Bootstrap выводит параметры популяции из выборок с повторением, в то время как симуляция Монте-Карло включает генерацию случайных данных с предопределенными статистическими распределениями."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["bootstrap_resampling", "monte_carlo_simulation", "comparison"]
+    },
+    {
+      "question_id": "QM-6-Q014",
+      "original_question_number": 4605,
+      "los_id": "LOS_6b",
+      "question_text_en": "In the process of bootstrapping, analysts:",
+      "question_text_ru": "В процессе бутстрэппинга аналитики:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "are required to define probability distributions for crucial risk factors influencing the underlying random variables.",
+          "text_ru": "обязаны определить распределения вероятностей для критических факторов риска, влияющих на базовые случайные переменные."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "continuously draw samples of identical size, with replacement, from the initial population.",
+          "text_ru": "непрерывно извлекают выборки идентичного размера с заменой из исходной популяции."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "aim to derive statistical estimates of population parameters using a singular sample.",
+          "text_ru": "стремятся получить статистические оценки параметров популяции, используя одну выборку."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Analysts use a single sample to generate multiple resampled datasets, from which they infer the statistical properties of the population.",
+      "explanation_ru": "Аналитики используют одну выборку для генерации множественных наборов данных с повторением, из которых они выводят статистические свойства популяции.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. One of the advantages of bootstrapping is that it does not require the specification of probability distributions for the underlying random variables or risk factors. Instead, it relies on the empirical distribution of the sample data.",
+          "text_ru": "Неверно. Одним из преимуществ бутстрэппинга является то, что он не требует спецификации распределений вероятностей для базовых случайных переменных или факторов риска. Вместо этого он опирается на эмпирическое распределение данных выборки."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Analysts draw samples of the same size, with replacement, not from the original population but from the original sample. This is a key aspect of bootstrapping, as it uses the sample as a proxy for the population.",
+          "text_ru": "Неверно. Аналитики извлекают выборки того же размера с заменой не из исходной популяции, а из исходной выборки. Это ключевой аспект бутстрэппинга, поскольку он использует выборку в качестве прокси для популяции."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["bootstrap_resampling", "statistical_estimation"]
+    },
+    {
+      "question_id": "QM-6-Q015",
+      "original_question_number": 4606,
+      "los_id": "LOS_6b",
+      "question_text_en": "Which of the following accurately describes an advantage of the bootstrapping method? Bootstrapping:",
+      "question_text_ru": "Какое из следующих точно описывает преимущество метода бутстрэппинга? Бутстрэппинг:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "yields precise outcomes for population parameters.",
+          "text_ru": "дает точные результаты для параметров популяции."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "is intricate and demands comprehensive statistical expertise.",
+          "text_ru": "является сложным и требует всестороннего статистического опыта."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "can emulate sampling from the population by utilizing the observed.",
+          "text_ru": "может эмулировать выборку из популяции, используя наблюдаемые данные."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Bootstrapping allows for the emulation of population sampling through the observed sample, effectively representing the statistical characteristics of the population.",
+      "explanation_ru": "Бутстрэппинг позволяет эмулировать выборку из популяции через наблюдаемую выборку, эффективно представляя статистические характеристики популяции.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Bootstrapping generates statistical approximations, not precise outcomes. It's a resampling technique used to estimate population parameters.",
+          "text_ru": "Неверно. Бутстрэппинг генерирует статистические приближения, а не точные результаты. Это техника повторной выборки, используемая для оценки параметров популяции."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. A notable advantage of bootstrapping is its simplicity. It's relatively easy to implement compared to other statistical methods.",
+          "text_ru": "Неверно. Заметным преимуществом бутстрэппинга является его простота. Его относительно легко реализовать по сравнению с другими статистическими методами."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["bootstrap_resampling", "advantages"]
     }
   ]
 }
