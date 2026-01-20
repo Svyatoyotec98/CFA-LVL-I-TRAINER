@@ -1,0 +1,284 @@
+{
+  "metadata": {
+    "book_id": 2,
+    "book_code": "ECO",
+    "book_name": "Economics",
+    "book_name_ru": "Экономика",
+    "module_id": 3,
+    "module_name": "Aggregate Output, Prices and Economic Growth",
+    "module_name_ru": "Совокупный выпуск, цены и экономический рост",
+    "total_questions": 5,
+    "version": "2.0",
+    "source": "AnalystPrep QBank"
+  },
+  "questions": [
+    {
+      "question_id": "ECO-3-Q001",
+      "original_question_number": 1517,
+      "los_id": "LOS_3b",
+      "question_text_en": "Which of the following is least likely an objective of fiscal policy?",
+      "question_text_ru": "Что из следующего наименее вероятно является целью фискальной политики?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Liquidity trap.",
+          "text_ru": "Ловушка ликвидности."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Controlling inflation.",
+          "text_ru": "Контроль инфляции."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Increasing industrial or agricultural output.",
+          "text_ru": "Увеличение промышленного или сельскохозяйственного производства."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "A liquidity trap is not an objective of fiscal policy. It is a situation that limits the effectiveness of monetary policy. In a liquidity trap, interest rates are near zero and savings rates are high, making monetary policy ineffective. Consumers choose to hold onto their savings rather than invest in Treasury securities due to the expectation that interest rates will soon rise, which would decrease bond prices. Fiscal policy, which involves government spending and taxation, does not directly aim to address or create a liquidity trap.",
+      "explanation_ru": "Ловушка ликвидности не является целью фискальной политики. Это ситуация, которая ограничивает эффективность монетарной политики. В ловушке ликвидности процентные ставки близки к нулю, а уровень сбережений высок, что делает монетарную политику неэффективной. Потребители предпочитают держать свои сбережения, а не инвестировать в казначейские ценные бумаги из-за ожидания скорого роста процентных ставок, что снизит цены облигаций. Фискальная политика, которая включает государственные расходы и налогообложение, не направлена напрямую на решение или создание ловушки ликвидности.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Controlling inflation is indeed an objective of fiscal policy. Fiscal policy can be used to manage inflation levels in an economy. When inflation is high, the government can increase taxes or reduce spending to decrease the demand for goods and services, which can help to control inflation.",
+          "text_ru": "Неверно. Контроль инфляции действительно является целью фискальной политики. Фискальная политика может использоваться для управления уровнем инфляции в экономике. Когда инфляция высока, правительство может увеличить налоги или сократить расходы, чтобы снизить спрос на товары и услуги, что поможет контролировать инфляцию."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Increasing industrial or agricultural output is also an objective of fiscal policy. Fiscal policy can directly or indirectly influence specific sectors of the economy. For instance, certain policies can directly impact the value of land in the agricultural sector. Additionally, fiscal policy can affect the relative demand and competitiveness of exports for agricultural products.",
+          "text_ru": "Неверно. Увеличение промышленного или сельскохозяйственного производства также является целью фискальной политики. Фискальная политика может прямо или косвенно влиять на конкретные секторы экономики. Например, определенные меры могут напрямую влиять на стоимость земли в сельскохозяйственном секторе. Кроме того, фискальная политика может влиять на относительный спрос и конкурентоспособность экспорта сельскохозяйственной продукции."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "fiscal_policy",
+        "objectives"
+      ]
+    },
+    {
+      "question_id": "ECO-3-Q002",
+      "original_question_number": 1518,
+      "los_id": "LOS_3c",
+      "question_text_en": "Bob Jarislowsky bought wine for his birthday party at a price of $200 + $20 VAT. VAT is an example of which of the following fiscal policy tool?",
+      "question_text_ru": "Боб Ярислоуски купил вино для своего дня рождения по цене $200 + $20 НДС. НДС является примером какого из следующих инструментов фискальной политики?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Direct taxation: Spending tool",
+          "text_ru": "Прямое налогообложение: Инструмент расходов"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Direct taxation: Revenue tool",
+          "text_ru": "Прямое налогообложение: Инструмент доходов"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Indirect taxation: Revenue tool",
+          "text_ru": "Косвенное налогообложение: Инструмент доходов"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "VAT (Value Added Tax) is a prime example of an indirect taxation mechanism used as a revenue tool by governments. It is levied on the value added to goods and services at each stage of production or distribution. The essence of VAT is that it is charged on the consumer but collected at every stage of the supply chain, making it an efficient revenue tool for governments. This indirect tax is different from direct taxes, which are levied directly on the income or wealth of individuals or organizations.",
+      "explanation_ru": "НДС (налог на добавленную стоимость) является ярким примером механизма косвенного налогообложения, используемого правительствами в качестве инструмента доходов. Он взимается со стоимости, добавленной к товарам и услугам на каждом этапе производства или распределения. Суть НДС в том, что он взимается с потребителя, но собирается на каждом этапе цепочки поставок, что делает его эффективным инструментом доходов для правительств. Этот косвенный налог отличается от прямых налогов, которые взимаются непосредственно с дохода или богатства физических лиц или организаций.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Direct taxation as a spending tool is a misinterpretation of fiscal policy tools. Direct taxes, such as income taxes and corporate taxes, are indeed used as revenue tools, not spending tools. These taxes are levied directly on the income or wealth of individuals and corporations, and the revenue generated is used by governments to fund public services and infrastructure, not as a mechanism for government spending.",
+          "text_ru": "Неверно. Прямое налогообложение как инструмент расходов - это неправильное толкование инструментов фискальной политики. Прямые налоги, такие как подоходный налог и корпоративные налоги, действительно используются как инструменты доходов, а не расходов. Эти налоги взимаются непосредственно с дохода или богатства физических лиц и корпораций, а полученные доходы используются правительствами для финансирования общественных услуг и инфраструктуры, а не как механизм государственных расходов."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. VAT is not a form of direct taxation; rather, it is an indirect tax. Direct taxes are levied on the income or wealth of individuals or entities, such as income tax or property tax. VAT, on the other hand, is levied on the sale of goods and services and is paid by the end consumer, making it an indirect form of taxation.",
+          "text_ru": "Неверно. НДС не является формой прямого налогообложения; это косвенный налог. Прямые налоги взимаются с дохода или богатства физических лиц или организаций, таких как подоходный налог или налог на имущество. НДС, с другой стороны, взимается с продажи товаров и услуг и уплачивается конечным потребителем, что делает его косвенной формой налогообложения."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "fiscal_policy",
+        "taxation",
+        "vat"
+      ]
+    },
+    {
+      "question_id": "ECO-3-Q003",
+      "original_question_number": 1520,
+      "los_id": "LOS_3c",
+      "question_text_en": "If the marginal propensity to consume is 60% and tax rate is 30%, the fiscal multiplier is most likely:",
+      "question_text_ru": "Если предельная склонность к потреблению составляет 60%, а ставка налога 30%, фискальный мультипликатор, скорее всего:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "1.72",
+          "text_ru": "1.72"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "1.90",
+          "text_ru": "1.90"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "3.33",
+          "text_ru": "3.33"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The fiscal multiplier is calculated as: Fiscal multiplier = 1 / (1 - MPC(1 - Tax)). With an MPC of 60% (or 0.6) and a tax rate of 30% (or 0.3), the fiscal multiplier would be: 1 / (1 - 0.6(0.7)) = 1 / (1 - 0.42) = 1 / 0.58 = 1.72. This calculation shows that for every dollar of government spending, the national income increases by $1.72, assuming the given MPC and tax rate.",
+      "explanation_ru": "Фискальный мультипликатор рассчитывается как: Фискальный мультипликатор = 1 / (1 - MPC(1 - Налог)). При MPC 60% (или 0.6) и ставке налога 30% (или 0.3), фискальный мультипликатор будет: 1 / (1 - 0.6(0.7)) = 1 / (1 - 0.42) = 1 / 0.58 = 1.72. Этот расчет показывает, что на каждый доллар государственных расходов национальный доход увеличивается на $1.72, при условии данных MPC и налоговой ставки.",
+      "explanation_formula": "$\\text{Fiscal multiplier} = \\frac{1}{1 - \\text{MPC}(1 - \\text{Tax})} = \\frac{1}{1 - 0.6(0.7)} = 1.72$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. It suggests a fiscal multiplier of 1.9, which does not align with the given MPC and tax rate. The calculation of 1.9 likely results from a different set of assumptions or errors in the calculation process.",
+          "text_ru": "Неверно. Это предполагает фискальный мультипликатор 1.9, что не соответствует данным MPC и налоговой ставке. Расчет 1.9 вероятно является результатом другого набора предположений или ошибок в процессе расчета."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It proposes a fiscal multiplier of 3.33, which significantly overestimates the impact of government spending on national income given the specified MPC and tax rate. A multiplier of 3.33 would imply an extremely high sensitivity of national income to government spending, which is not supported by the given parameters.",
+          "text_ru": "Неверно. Это предполагает фискальный мультипликатор 3.33, что значительно завышает влияние государственных расходов на национальный доход при заданных MPC и налоговой ставке. Мультипликатор 3.33 подразумевал бы чрезвычайно высокую чувствительность национального дохода к государственным расходам, что не подтверждается данными параметрами."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic Calculator",
+        "steps_en": [
+          "Calculate: 1 - 0.3 = 0.7",
+          "Calculate: 0.6 × 0.7 = 0.42",
+          "Calculate: 1 - 0.42 = 0.58",
+          "Calculate: 1 ÷ 0.58 = 1.72"
+        ],
+        "steps_ru": [
+          "Вычислить: 1 - 0.3 = 0.7",
+          "Вычислить: 0.6 × 0.7 = 0.42",
+          "Вычислить: 1 - 0.42 = 0.58",
+          "Вычислить: 1 ÷ 0.58 = 1.72"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": [
+        "fiscal_multiplier",
+        "mpc",
+        "taxation"
+      ]
+    },
+    {
+      "question_id": "ECO-3-Q004",
+      "original_question_number": 1521,
+      "los_id": "LOS_3d",
+      "question_text_en": "The time governments take to discuss, vote and enact fiscal policies is most likely called:",
+      "question_text_ru": "Время, которое правительства тратят на обсуждение, голосование и принятие фискальной политики, скорее всего, называется:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Action lag.",
+          "text_ru": "Лаг действия."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Impact lag.",
+          "text_ru": "Лаг воздействия."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Recognition lag.",
+          "text_ru": "Лаг признания."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The time governments take to discuss, vote, and enact fiscal policies is referred to as the action lag. This term describes the period between the identification of an economic issue and the implementation of policies to address it. It reflects the time-consuming nature of the legislative process, which includes debating, voting, and enacting fiscal policies.",
+      "explanation_ru": "Время, которое правительства тратят на обсуждение, голосование и принятие фискальной политики, называется лагом действия. Этот термин описывает период между выявлением экономической проблемы и внедрением политики для ее решения. Он отражает трудоемкий характер законодательного процесса, который включает дебаты, голосование и принятие фискальной политики.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. The impact lag refers to the time it takes for corrective monetary and fiscal policies, designed to smooth out the economic cycle or respond to an adverse economic event, to affect the economy once they have been implemented. This lag occurs after the action lag and reflects the time needed for the implemented policies to produce their intended effects on the economy.",
+          "text_ru": "Неверно. Лаг воздействия относится ко времени, необходимому для того, чтобы корректирующие монетарные и фискальные меры, направленные на сглаживание экономического цикла или реагирование на неблагоприятное экономическое событие, повлияли на экономику после их внедрения. Этот лаг возникает после лага действия и отражает время, необходимое для того, чтобы реализованные меры произвели предполагаемые эффекты на экономику."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The recognition lag is the delay between when an economic shock occurs and when it is recognized by economists, central bankers, and the government. This lag occurs before the action lag and reflects the time needed to identify and acknowledge an economic issue before any corrective actions can be taken.",
+          "text_ru": "Неверно. Лаг признания - это задержка между моментом возникновения экономического шока и моментом, когда он признается экономистами, центральными банкирами и правительством. Этот лаг возникает до лага действия и отражает время, необходимое для выявления и признания экономической проблемы, прежде чем могут быть предприняты какие-либо корректирующие действия."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "fiscal_policy",
+        "implementation",
+        "lags"
+      ]
+    },
+    {
+      "question_id": "ECO-3-Q005",
+      "original_question_number": 1522,
+      "los_id": "LOS_3c",
+      "question_text_en": "A country in which the government is enacting an expansionary fiscal policy which will reduce private investments and the aggregate demand simultaneously may result in:",
+      "question_text_ru": "Страна, в которой правительство проводит экспансионистскую фискальную политику, которая одновременно сократит частные инвестиции и совокупный спрос, может привести к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Crowding out.",
+          "text_ru": "Эффекту вытеснения."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "A liquidity trap.",
+          "text_ru": "Ловушке ликвидности."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "A supply shortage.",
+          "text_ru": "Дефициту предложения."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "When the government enacts expansionary fiscal policies, it may crowd out private investments and reduce the aggregate demand. Crowding out occurs when government borrowing diverts private-sector investment from happening, leading to higher interest rates and lower private-sector investing.",
+      "explanation_ru": "Когда правительство проводит экспансионистскую фискальную политику, оно может вытеснить частные инвестиции и сократить совокупный спрос. Эффект вытеснения возникает, когда государственные заимствования отвлекают частные инвестиции, что приводит к повышению процентных ставок и снижению частных инвестиций.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. A liquidity trap is when interest rates are close to zero and savings rates are high, rendering monetary policy ineffective.",
+          "text_ru": "Неверно. Ловушка ликвидности - это когда процентные ставки близки к нулю, а уровень сбережений высок, что делает монетарную политику неэффективной."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. In economic terms, a shortage is a condition where the quantity demanded is greater than the quantity supplied at the market price.",
+          "text_ru": "Неверно. В экономических терминах дефицит - это ситуация, когда величина спроса больше величины предложения по рыночной цене."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "fiscal_policy",
+        "crowding_out",
+        "expansionary_policy"
+      ]
+    }
+  ]
+}
