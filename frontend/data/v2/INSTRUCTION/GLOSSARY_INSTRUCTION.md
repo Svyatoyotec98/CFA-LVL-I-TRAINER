@@ -1,9 +1,32 @@
 # GLOSSARY INSTRUCTION v2.0
 ## Инструкция по созданию глоссариев для CFA Level 1 Trainer
 
-**Версия:** 2.0  
-**Дата:** 2026-01-17  
+**Версия:** 2.0
+**Дата:** 2026-01-17
 **Статус:** Production
+
+---
+
+# ⚠️ КРИТИЧЕСКИ ВАЖНО — ПРОЧИТАЙ ПЕРВЫМ
+
+## Формат названия ветки
+
+ПЕРЕД началом работы создай ветку в СТРОГО ОБЯЗАТЕЛЬНОМ формате:
+```
+claude/add-{book}-module-{N}-glossary-{random}
+```
+
+Где:
+- `{book}` — название книги МАЛЕНЬКИМИ буквами (economics, quants, fsa, cf, equity, fi, derivatives, alt, pm, ethics)
+- `{N}` — номер модуля (1, 2, 3...)
+- `{random}` — любой короткий случайный суффикс
+
+**Примеры правильных названий:**
+- `claude/add-economics-module-4-glossary-abc123`
+- `claude/add-quants-module-9-glossary-xyz789`
+- `claude/add-fsa-module-2-glossary-qwe456`
+
+**БЕЗ номера модуля ветка НЕ БУДЕТ РАСПОЗНАНА системой мониторинга!**
 
 ---
 
@@ -61,24 +84,43 @@ python frontend/data/v2/scripts/validate_glossary.py glossary_module_X.json --fi
 
 ---
 
-# ============================================
-# ОБНОВИТЬ СЕКЦИЮ ЧЕКПОИНТОВ (если есть):
-# ============================================
+## 🔄 Git — Checkpoints (ОБЯЗАТЕЛЬНО)
 
-## Чекпоинт N:
+Глоссарий нужно коммитить поэтапно каждые 25% работы:
 
-1. Добавь термины для LOS_Xa - LOS_Xb
-2. **ВАЛИДАЦИЯ:** `python scripts/validate_glossary.py glossary_module_X.json --fix`
-3. Убедись что 100% ✓
-4. **GIT COMMIT:** `git add . && git commit -m "Glossary Module X: checkpoint N"`
+### Checkpoint 1 (25% готово)
+После создания структуры и первых LOS:
+```bash
+git add .
+git commit -m "Glossary {Book} Module {N}: checkpoint 1 - structure and first LOS"
+git push origin {branch-name}
+```
 
-## Финальный чекпоинт:
+### Checkpoint 2 (50% готово)
+После половины терминов:
+```bash
+git add .
+git commit -m "Glossary {Book} Module {N}: checkpoint 2 - 50% terms"
+git push origin {branch-name}
+```
 
-1. Добавь оставшиеся термины + exercises
-2. **ФИНАЛЬНАЯ ВАЛИДАЦИЯ:** `python scripts/validate_glossary.py glossary_module_X.json --fix`
-3. Убедись что 100% ✓
-4. **GIT COMMIT:** `git add . && git commit -m "Glossary Module X: complete - N terms"`
-5. **GIT PUSH:** `git push`
+### Checkpoint 3 (75% готово)
+После большинства терминов:
+```bash
+git add .
+git commit -m "Glossary {Book} Module {N}: checkpoint 3 - 75% terms"
+git push origin {branch-name}
+```
+
+### Checkpoint 4 (100% — финал)
+После завершения и обновления meta.json:
+```bash
+git add .
+git commit -m "Glossary {Book} Module {N}: complete - {X} terms"
+git push origin {branch-name}
+```
+
+**ВАЖНО:** Коммить после КАЖДОГО checkpoint! Это позволяет отслеживать прогресс.
 
 ---
 
