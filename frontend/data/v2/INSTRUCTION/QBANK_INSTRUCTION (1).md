@@ -1,5 +1,28 @@
 # QBANK Creation Instruction v2.0
 
+# ⚠️ КРИТИЧЕСКИ ВАЖНО — ПРОЧИТАЙ ПЕРВЫМ
+
+## Формат названия ветки
+
+ПЕРЕД началом работы создай ветку в СТРОГО ОБЯЗАТЕЛЬНОМ формате:
+```
+claude/add-{book}-module-{N}-tests-{random}
+```
+
+Где:
+- `{book}` — название книги МАЛЕНЬКИМИ буквами (economics, quants, fsa, cf, equity, fi, derivatives, alt, pm, ethics)
+- `{N}` — номер модуля (1, 2, 3...)
+- `{random}` — любой короткий случайный суффикс
+
+**Примеры правильных названий:**
+- `claude/add-economics-module-4-tests-abc123`
+- `claude/add-quants-module-9-tests-xyz789`
+- `claude/add-fsa-module-2-tests-qwe456`
+
+**БЕЗ номера модуля ветка НЕ БУДЕТ РАСПОЗНАНА системой мониторинга!**
+
+---
+
 ## Обзор задачи
 
 Создание JSON файла с вопросами для CFA Level 1 тренажёра на основе PDF из AnalystPrep QBank.
