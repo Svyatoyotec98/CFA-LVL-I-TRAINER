@@ -7,7 +7,7 @@
     "module_id": 3,
     "module_name": "Aggregate Output, Prices and Economic Growth",
     "module_name_ru": "Совокупный выпуск, цены и экономический рост",
-    "total_questions": 9,
+    "total_questions": 13,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -476,6 +476,210 @@
       "requires_calculator": false,
       "calculator_keystrokes": null,
       "difficulty": "medium",
+      "topic_tags": [
+        "fiscal_policy",
+        "expansionary_policy",
+        "government_spending"
+      ]
+    },
+    {
+      "question_id": "ECO-3-Q010",
+      "original_question_number": 3238,
+      "los_id": "LOS_3b",
+      "question_text_en": "Which of the following is most likely a reasonable argument to support using a fiscal deficit as a tool to stimulate an expansion?",
+      "question_text_ru": "Что из следующего наиболее вероятно является разумным аргументом в поддержку использования фискального дефицита как инструмента для стимулирования экспансии?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "If unemployment is high, then the crowding out effect is of less concern.",
+          "text_ru": "Если безработица высока, то эффект вытеснения вызывает меньшую озабоченность."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Additional taxes to offset the deficit at future points could be distortionary.",
+          "text_ru": "Дополнительные налоги для компенсации дефицита в будущем могут быть искажающими."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Fiscal policy is set by the government and may be manipulated solely for political gain.",
+          "text_ru": "Фискальная политика устанавливается правительством и может использоваться исключительно для политической выгоды."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Using a fiscal deficit as a tool to stimulate an expansion can be justified, especially when unemployment is high. In such scenarios, the concern about the crowding out effect, which refers to the situation where increased government spending leads to a reduction in private sector investment due to rising interest rates, is significantly lessened. This is because, with high levels of unemployment, there is underutilized capacity in the economy. Government spending can help absorb this excess capacity, leading to an increase in economic activity without necessarily causing a significant increase in interest rates. Moreover, by stimulating demand through fiscal spending, the government can help reduce unemployment, which is a critical goal during economic downturns.",
+      "explanation_ru": "Использование фискального дефицита как инструмента для стимулирования экспансии может быть оправдано, особенно когда безработица высока. В таких сценариях озабоченность эффектом вытеснения, который относится к ситуации, когда увеличение государственных расходов приводит к сокращению частных инвестиций из-за роста процентных ставок, значительно уменьшается. Это потому что при высоком уровне безработицы в экономике имеется недоиспользованная мощность. Государственные расходы могут помочь поглотить эту избыточную мощность, что приведет к увеличению экономической активности без обязательного значительного повышения процентных ставок. Более того, стимулируя спрос через фискальные расходы, правительство может помочь снизить безработицу, что является критической целью во время экономических спадов.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This option incorrectly suggests that additional taxes to offset the deficit in the future could be distortionary. While it is true that taxes can have distortionary effects, this statement does not directly support the use of a fiscal deficit as a tool for economic expansion. The primary concern with using fiscal deficits for economic stimulus is not the distortionary effects of future taxes but rather the immediate impact on economic activity and employment. The argument against using fiscal deficits often revolves around concerns of long-term debt sustainability and potential inflationary pressures, not necessarily the distortionary effects of taxes.",
+          "text_ru": "Неверно. Этот вариант неправильно предполагает, что дополнительные налоги для компенсации дефицита в будущем могут быть искажающими. Хотя верно, что налоги могут иметь искажающие эффекты, это утверждение не поддерживает напрямую использование фискального дефицита как инструмента для экономической экспансии. Основная озабоченность при использовании фискальных дефицитов для экономического стимулирования заключается не в искажающих эффектах будущих налогов, а скорее в немедленном воздействии на экономическую активность и занятость. Аргумент против использования фискальных дефицитов часто вращается вокруг озабоченности долгосрочной устойчивостью долга и потенциальным инфляционным давлением, а не обязательно искажающими эффектами налогов."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The concern that fiscal policy may be manipulated for political gain does not provide a reasonable argument in support of using a fiscal deficit to stimulate an expansion. While it is a valid concern that fiscal policy can be subject to political influences, this point does not address the economic rationale behind using fiscal deficits as a tool for economic stimulus. The effectiveness of fiscal policy in stimulating economic expansion is based on its ability to increase aggregate demand, reduce unemployment, and utilize idle capacity in the economy, rather than on the motivations behind its implementation.",
+          "text_ru": "Неверно. Озабоченность тем, что фискальная политика может использоваться для политической выгоды, не предоставляет разумного аргумента в поддержку использования фискального дефицита для стимулирования экспансии. Хотя это обоснованная озабоченность, что фискальная политика может подвергаться политическому влиянию, этот момент не касается экономического обоснования использования фискальных дефицитов как инструмента для экономического стимулирования. Эффективность фискальной политики в стимулировании экономической экспансии основана на ее способности увеличивать совокупный спрос, сокращать безработицу и использовать простаивающие мощности в экономике, а не на мотивациях ее реализации."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "fiscal_policy",
+        "fiscal_deficit",
+        "crowding_out"
+      ]
+    },
+    {
+      "question_id": "ECO-3-Q011",
+      "original_question_number": 3239,
+      "los_id": "LOS_3b",
+      "question_text_en": "Which of the following statements about the size of the national debt relative to GDP is most likely a reasonable and truthful statement?",
+      "question_text_ru": "Какое из следующих утверждений о размере национального долга относительно ВВП наиболее вероятно является разумным и правдивым?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "In the end, the central bank can print more money to pay the debt.",
+          "text_ru": "В конечном итоге центральный банк может напечатать больше денег для погашения долга."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Over the long run, the crowding-out effect may have a significant negative effect on capital accumulation.",
+          "text_ru": "В долгосрочной перспективе эффект вытеснения может иметь значительное негативное влияние на накопление капитала."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "For countries such as Canada and South Korea, most of the debt is held by foreigners, so the burden of the debt carrying costs is more severe than for countries such as the USA.",
+          "text_ru": "Для таких стран, как Канада и Южная Корея, большая часть долга принадлежит иностранцам, поэтому бремя затрат на обслуживание долга более серьезное, чем для таких стран, как США."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The crowding-out effect occurs when increased government borrowing leads to higher interest rates, which in turn discourages private investment. Over time, this can lead to a decrease in capital accumulation, as private sector investment is a critical driver of economic growth and innovation. When the government borrows heavily, it competes with the private sector for available funds in the financial markets, potentially raising the cost of borrowing for everyone. This can result in less investment in productive assets like factories, technology, and infrastructure, which are essential for long-term economic growth and development.",
+      "explanation_ru": "Эффект вытеснения возникает, когда увеличение государственных заимствований приводит к повышению процентных ставок, что, в свою очередь, сдерживает частные инвестиции. Со временем это может привести к снижению накопления капитала, поскольку инвестиции частного сектора являются критическим драйвером экономического роста и инноваций. Когда правительство активно занимает, оно конкурирует с частным сектором за доступные средства на финансовых рынках, потенциально повышая стоимость заимствования для всех. Это может привести к меньшим инвестициям в производственные активы, такие как заводы, технологии и инфраструктура, которые необходимы для долгосрочного экономического роста и развития.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. It oversimplifies the complex issue of managing national debt. While it is technically true that a central bank can print more money to pay off the government's debt, doing so can lead to inflation or hyperinflation, severely damaging the economy. The example of Zimbabwe, where excessive money printing led to hyperinflation, illustrates the potential consequences of relying on this approach to debt management. Printing money to pay off debt undermines the value of the currency, erodes purchasing power, and can lead to a loss of confidence in the financial system. It is not a sustainable or responsible method for managing national debt.",
+          "text_ru": "Неверно. Это упрощает сложную проблему управления национальным долгом. Хотя технически верно, что центральный банк может напечатать больше денег для погашения государственного долга, это может привести к инфляции или гиперинфляции, серьезно повредив экономику. Пример Зимбабве, где чрезмерная печать денег привела к гиперинфляции, иллюстрирует потенциальные последствия опоры на этот подход к управлению долгом. Печать денег для погашения долга подрывает стоимость валюты, размывает покупательную способность и может привести к потере доверия к финансовой системе. Это не устойчивый или ответственный метод управления национальным долгом."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It misrepresents the ownership structure of national debt in countries like Canada and South Korea. In reality, a significant portion of the national debt in these countries is held domestically, not by foreigners. While foreign ownership of national debt can pose certain risks, such as currency risk and sudden capital outflows, the statement inaccurately characterizes the situation in Canada and South Korea. Moreover, the United States also has a substantial portion of its debt held by foreign entities, yet it manages its debt-carrying costs without severe consequences, partly due to the dollar's status as a global reserve currency.",
+          "text_ru": "Неверно. Это неправильно представляет структуру собственности национального долга в таких странах, как Канада и Южная Корея. В реальности значительная часть национального долга в этих странах принадлежит внутренним кредиторам, а не иностранцам. Хотя иностранная собственность на национальный долг может создавать определенные риски, такие как валютный риск и внезапные оттоки капитала, это утверждение неточно характеризует ситуацию в Канаде и Южной Корее. Более того, Соединенные Штаты также имеют значительную часть своего долга в руках иностранных субъектов, но управляют затратами на обслуживание долга без серьезных последствий, отчасти благодаря статусу доллара как мировой резервной валюты."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "fiscal_policy",
+        "national_debt",
+        "crowding_out"
+      ]
+    },
+    {
+      "question_id": "ECO-3-Q012",
+      "original_question_number": 3241,
+      "los_id": "LOS_3c",
+      "question_text_en": "Which of the following is least likely a true statement about using fiscal policy tools to regulate the business cycle?",
+      "question_text_ru": "Что из следующего наименее вероятно является правдивым утверждением об использовании инструментов фискальной политики для регулирования экономического цикла?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "It may take considerable time to recognize that the economy is slowing. Consequently, any fiscal policy actions may be too late.",
+          "text_ru": "Может потребоваться значительное время для признания того, что экономика замедляется. Следовательно, любые действия фискальной политики могут быть слишком поздними."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Once a need for an expansionary action is recognized, it may take considerable time to put a plan, such as a capital expenditure program, into action.",
+          "text_ru": "После признания необходимости в экспансионистских действиях может потребоваться значительное время для реализации плана, такого как программа капитальных расходов."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Increases in government spending will move the economy smoothly to the full employment level without the inflationary risks presented by monetary adjustments.",
+          "text_ru": "Увеличение государственных расходов плавно переместит экономику к уровню полной занятости без инфляционных рисков, представляемых монетарными корректировками."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Option C is the least likely true statement about using fiscal policy tools to regulate the business cycle because it oversimplifies the impact of increases in government spending. Fiscal policy, which involves government spending and taxation, is a powerful tool for managing the economy. However, the assertion that increases in government spending will move the economy smoothly to the full employment level without the inflationary risks presented by monetary adjustments is overly optimistic and neglects several complexities. Firstly, fiscal policy, particularly government spending, can indeed stimulate economic activity by increasing demand. However, if the economy is close to or at full capacity, such increases in demand can lead to inflationary pressures rather than smooth adjustment to full employment. This is because, in a near-full employment scenario, additional demand can push wages and prices up, leading to inflation rather than increased output.",
+      "explanation_ru": "Вариант C наименее вероятно является правдивым утверждением об использовании инструментов фискальной политики для регулирования экономического цикла, потому что он чрезмерно упрощает влияние увеличения государственных расходов. Фискальная политика, которая включает государственные расходы и налогообложение, является мощным инструментом для управления экономикой. Однако утверждение, что увеличение государственных расходов плавно переместит экономику к уровню полной занятости без инфляционных рисков, представляемых монетарными корректировками, чрезмерно оптимистично и игнорирует несколько сложностей. Во-первых, фискальная политика, особенно государственные расходы, действительно может стимулировать экономическую активность, увеличивая спрос. Однако, если экономика близка к полной мощности или находится на ней, такое увеличение спроса может привести к инфляционному давлению, а не к плавной корректировке к полной занятости. Это потому что в сценарии близком к полной занятости дополнительный спрос может подтолкнуть заработную плату и цены вверх, что приведет к инфляции, а не к увеличению производства.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. It accurately reflects one of the challenges of using fiscal policy to regulate the business cycle. Recognizing that the economy is slowing down and deciding on the appropriate fiscal response can indeed take considerable time. This delay, known as recognition lag, is a well-documented challenge in fiscal policy implementation. By the time a slowdown is recognized and fiscal measures are designed and implemented, the economy's situation may have changed, making the measures less effective or even counterproductive.",
+          "text_ru": "Неверно. Это точно отражает один из вызовов использования фискальной политики для регулирования экономического цикла. Признание того, что экономика замедляется, и принятие решения о соответствующих фискальных мерах действительно может занять значительное время. Эта задержка, известная как лаг признания, является хорошо задокументированным вызовом в реализации фискальной политики. К тому времени, когда замедление признается и фискальные меры разрабатываются и реализуются, ситуация в экономике может измениться, что сделает меры менее эффективными или даже контрпродуктивными."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. It also correctly identifies a significant challenge in the use of fiscal policy. Once the need for expansionary fiscal action is recognized, implementing such plans, especially those involving capital expenditure programs, can be time-consuming. This implementation lag can delay the intended stimulative effects of fiscal policy, reducing its effectiveness in counteracting economic slowdowns. The process of planning, approving, and executing government spending projects can extend over months or even years, meaning that the fiscal stimulus may arrive too late to counteract a downturn effectively.",
+          "text_ru": "Неверно. Это также правильно определяет значительный вызов в использовании фискальной политики. После признания необходимости в экспансионистских фискальных действиях реализация таких планов, особенно тех, которые включают программы капитальных расходов, может занять много времени. Этот лаг реализации может задержать предполагаемые стимулирующие эффекты фискальной политики, снижая ее эффективность в противодействии экономическим замедлениям. Процесс планирования, утверждения и выполнения проектов государственных расходов может растянуться на месяцы или даже годы, что означает, что фискальное стимулирование может прийти слишком поздно, чтобы эффективно противодействовать спаду."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "fiscal_policy",
+        "business_cycle",
+        "lags"
+      ]
+    },
+    {
+      "question_id": "ECO-3-Q013",
+      "original_question_number": 3242,
+      "los_id": "LOS_3d",
+      "question_text_en": "Which of the following is most likely an example of an expansionary fiscal policy action available to the government?",
+      "question_text_ru": "Что из следующего наиболее вероятно является примером экспансионистского фискального действия, доступного правительству?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The introduction of higher taxes on alcohol and tobacco.",
+          "text_ru": "Введение более высоких налогов на алкоголь и табак."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Lowering the official interest rate through the repurchase agreements market.",
+          "text_ru": "Снижение официальной процентной ставки через рынок соглашений РЕПО."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Making available federal money for \"shovel ready\" capital improvement projects.",
+          "text_ru": "Предоставление федеральных денег для проектов по улучшению капитала, готовых к реализации."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Option C, making available federal money for \"shovel ready\" capital improvement projects, is an example of an expansionary fiscal policy action. Expansionary fiscal policy involves government actions aimed at stimulating economic activity, primarily through increased government spending and/or reductions in taxes. By funding capital improvement projects that are \"shovel ready,\" the government injects money directly into the economy, creating jobs, and stimulating demand for materials and services related to construction. This increase in government spending contributes to economic growth by boosting aggregate demand, which is the total demand for goods and services within an economy. The term \"shovel ready\" indicates that these projects are ready to begin immediately, ensuring that the impact on the economy is timely and effective in stimulating economic activity during periods of slow growth or recession.",
+      "explanation_ru": "Вариант C, предоставление федеральных денег для проектов по улучшению капитала, готовых к реализации, является примером экспансионистского фискального действия. Экспансионистская фискальная политика включает действия правительства, направленные на стимулирование экономической активности, в первую очередь через увеличение государственных расходов и/или снижение налогов. Финансируя проекты по улучшению капитала, которые готовы к реализации, правительство вливает деньги непосредственно в экономику, создавая рабочие места и стимулируя спрос на материалы и услуги, связанные со строительством. Это увеличение государственных расходов способствует экономическому росту, стимулируя совокупный спрос, который представляет собой общий спрос на товары и услуги в экономике. Термин \"готовые к реализации\" указывает, что эти проекты готовы начаться немедленно, обеспечивая своевременное и эффективное воздействие на экономику в стимулировании экономической активности в периоды медленного роста или рецессии.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Introducing higher taxes on alcohol and tobacco represents a contractionary fiscal policy action, not an expansionary one. Contractionary fiscal policy aims to reduce inflation and cool down an overheating economy by decreasing government spending or increasing taxes. Higher taxes on alcohol and tobacco would likely reduce consumption of these goods, leading to a decrease in aggregate demand.",
+          "text_ru": "Неверно. Введение более высоких налогов на алкоголь и табак представляет собой сдерживающее фискальное действие, а не экспансионистское. Сдерживающая фискальная политика направлена на снижение инфляции и охлаждение перегретой экономики путем сокращения государственных расходов или увеличения налогов. Более высокие налоги на алкоголь и табак, вероятно, приведут к снижению потребления этих товаров, что приведет к снижению совокупного спроса."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Lowering the official interest rate through the repurchase agreements market is an example of monetary policy, not fiscal policy. Monetary policy involves the management of the money supply and interest rates by central banks to influence economic activity. Lowering interest rates can stimulate economic growth by making borrowing cheaper, encouraging businesses to invest and consumers to spend. However, this action is undertaken by central banks, such as the Federal Reserve in the United States, rather than by the government through fiscal measures. Fiscal policy, on the other hand, involves government spending and taxation decisions. Therefore, adjusting interest rates is not a fiscal policy action.",
+          "text_ru": "Неверно. Снижение официальной процентной ставки через рынок соглашений РЕПО является примером монетарной политики, а не фискальной. Монетарная политика включает управление денежной массой и процентными ставками центральными банками для влияния на экономическую активность. Снижение процентных ставок может стимулировать экономический рост, делая заимствования дешевле, поощряя бизнес инвестировать, а потребителей тратить. Однако это действие осуществляется центральными банками, такими как Федеральная резервная система в США, а не правительством через фискальные меры. Фискальная политика, с другой стороны, включает решения правительства по расходам и налогообложению. Поэтому корректировка процентных ставок не является фискальным действием."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
       "topic_tags": [
         "fiscal_policy",
         "expansionary_policy",
