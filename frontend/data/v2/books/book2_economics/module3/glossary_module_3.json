@@ -1,0 +1,678 @@
+{
+  "metadata": {
+    "book_id": 2,
+    "book_code": "ECON",
+    "book_name": "Economics",
+    "book_name_ru": "Экономика",
+    "module_id": 3,
+    "module_name": "Fiscal Policy",
+    "module_name_ru": "Фискальная политика",
+    "page_range": "67-88",
+    "total_terms": 43,
+    "total_exercises": 4,
+    "version": "2.0",
+    "last_updated": "2026-01-20"
+  },
+  "los": [
+    {
+      "los_id": "LOS_3a",
+      "los_code": "3a",
+      "los_description_en": "Compare monetary and fiscal policy",
+      "los_description_ru": "Сравнить монетарную и фискальную политику",
+      "terms": [
+        {
+          "term_id": "ECON-3-001",
+          "term_en": "Fiscal Policy",
+          "term_ru": "Фискальная политика",
+          "definition_en": "Government decisions on taxation and spending that affect the distribution of wealth and income, allocation of resources, and aggregate demand for goods and services.",
+          "definition_ru": "Государственные решения по налогообложению и расходам, которые влияют на распределение богатства и дохода, распределение ресурсов и совокупный спрос на товары и услуги.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-002",
+          "term_en": "Monetary Policy",
+          "term_ru": "Монетарная политика",
+          "definition_en": "Actions of a central bank aimed at determining or influencing the money supply and credit within the economy, with a major objective of ensuring financial and price stability.",
+          "definition_ru": "Действия центрального банка, направленные на определение или влияние на денежную массу и кредит в экономике, с основной целью обеспечения финансовой и ценовой стабильности.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-003",
+          "term_en": "Instruments of Monetary Policy",
+          "term_ru": "Инструменты монетарной политики",
+          "definition_en": "Tools used by central banks to accomplish monetary policy objectives, including interest rates, open market operations, bank reserve requirements, and selective credit controls.",
+          "definition_ru": "Инструменты, используемые центральными банками для достижения целей монетарной политики, включая процентные ставки, операции на открытом рынке, требования к банковским резервам и выборочный кредитный контроль.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-004",
+          "term_en": "Interest Rates",
+          "term_ru": "Процентные ставки",
+          "definition_en": "A monetary policy instrument where central banks adjust the cost of borrowing to influence economic activity, inflation, and money supply.",
+          "definition_ru": "Инструмент монетарной политики, где центральные банки корректируют стоимость заимствований для влияния на экономическую активность, инфляцию и денежную массу.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-005",
+          "term_en": "Open Market Operations",
+          "term_ru": "Операции на открытом рынке",
+          "definition_en": "The buying and selling of government securities by central banks to control the money supply and influence interest rates.",
+          "definition_ru": "Покупка и продажа государственных ценных бумаг центральными банками для контроля денежной массы и влияния на процентные ставки.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-006",
+          "term_en": "Bank Reserve Requirements",
+          "term_ru": "Требования к банковским резервам",
+          "definition_en": "Regulations that set the minimum amount of reserves that banks must hold against deposits, used as a monetary policy tool to control credit expansion.",
+          "definition_ru": "Правила, устанавливающие минимальный объем резервов, которые банки должны держать против депозитов, используемые как инструмент монетарной политики для контроля кредитной экспансии.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-007",
+          "term_en": "Selective Credit Controls",
+          "term_ru": "Выборочный кредитный контроль",
+          "definition_en": "Monetary policy measures that target specific sectors or types of credit to influence lending patterns and economic activity in particular areas.",
+          "definition_ru": "Меры монетарной политики, направленные на конкретные секторы или типы кредита для влияния на модели кредитования и экономическую активность в определенных областях.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "ECON-3-EX-001",
+          "question_en": "Which of the following is least likely an instrument of monetary policy?",
+          "question_ru": "Что из следующего наименее вероятно является инструментом монетарной политики?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Open market operations",
+              "text_ru": "Операции на открытом рынке"
+            },
+            {
+              "letter": "B",
+              "text_en": "Change in reserve requirements",
+              "text_ru": "Изменение требований к резервам"
+            },
+            {
+              "letter": "C",
+              "text_en": "Decisions about taxation and spending",
+              "text_ru": "Решения о налогообложении и расходах"
+            }
+          ],
+          "correct_answer": "C",
+          "solution_en": "Decisions about taxation and spending are tools used in fiscal policy through government policies. Changes in reserve requirements, open market operations, selective credit controls, and bank rate variation policies are all monetary policies.",
+          "solution_ru": "Решения о налогообложении и расходах являются инструментами фискальной политики через государственные меры. Изменения в требованиях к резервам, операции на открытом рынке, выборочный кредитный контроль и политика изменения банковской ставки - все это инструменты монетарной политики."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_3b",
+      "los_code": "3b",
+      "los_description_en": "Describe roles and objectives of fiscal policy as well as arguments as to whether the size of a national debt relative to GDP matters",
+      "los_description_ru": "Описать роли и цели фискальной политики, а также аргументы относительно того, имеет ли значение размер государственного долга относительно ВВП",
+      "terms": [
+        {
+          "term_id": "ECON-3-008",
+          "term_en": "Aggregate Demand",
+          "term_ru": "Совокупный спрос",
+          "definition_en": "The total amount that households and businesses intend to spend on goods and services in an economy.",
+          "definition_ru": "Общая сумма, которую домохозяйства и предприятия намерены потратить на товары и услуги в экономике.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-009",
+          "term_en": "Keynesians",
+          "term_ru": "Кейнсианцы",
+          "definition_en": "Economists who believe fiscal policy can substantially affect aggregate demand, economic output, and employment, especially when an economy has unused capacity.",
+          "definition_ru": "Экономисты, которые считают, что фискальная политика может существенно повлиять на совокупный спрос, экономический выпуск и занятость, особенно когда в экономике есть неиспользуемые мощности.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-010",
+          "term_en": "Monetarists",
+          "term_ru": "Монетаристы",
+          "definition_en": "Economists who argue that fiscal changes provide only a temporary impact on aggregate demand, and stress that monetary policy is a more effective tool for managing inflationary pressures.",
+          "definition_ru": "Экономисты, которые утверждают, что фискальные изменения оказывают лишь временное влияние на совокупный спрос, и подчеркивают, что монетарная политика является более эффективным инструментом для управления инфляционным давлением.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-011",
+          "term_en": "Expansionary Fiscal Policy",
+          "term_ru": "Экспансионистская фискальная политика",
+          "definition_en": "Government policy involving increased expenditures or reduced taxes to elevate employment and production during economic downturns.",
+          "definition_ru": "Государственная политика, включающая увеличение расходов или снижение налогов для повышения занятости и производства во время экономических спадов.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-012",
+          "term_en": "Contractionary Fiscal Policy",
+          "term_ru": "Сдерживающая фискальная политика",
+          "definition_en": "Government policy involving reduced spending or increased taxes during periods of economic prosperity to curtail rapid wage and price growth.",
+          "definition_ru": "Государственная политика, включающая сокращение расходов или увеличение налогов в периоды экономического процветания для сдерживания быстрого роста заработной платы и цен.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-013",
+          "term_en": "Budget Surplus",
+          "term_ru": "Профицит бюджета",
+          "definition_en": "The positive difference between government revenue and expenditure for a fixed period of time, such as a fiscal or calendar year.",
+          "definition_ru": "Положительная разница между государственными доходами и расходами за фиксированный период времени, такой как финансовый или календарный год.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-014",
+          "term_en": "Budget Deficit",
+          "term_ru": "Дефицит бюджета",
+          "definition_en": "The negative difference between government revenue and expenditure, indicating that spending exceeds income.",
+          "definition_ru": "Отрицательная разница между государственными доходами и расходами, указывающая на то, что расходы превышают доходы.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-015",
+          "term_en": "Automatic Stabilizers",
+          "term_ru": "Автоматические стабилизаторы",
+          "definition_en": "Fiscal policies that automatically adjust tax rates and transfer payments to stabilize incomes, consumption, and business spending over the business cycle without the need for policymakers to identify shocks.",
+          "definition_ru": "Фискальные меры, которые автоматически корректируют налоговые ставки и трансферные платежи для стабилизации доходов, потребления и деловых расходов в течение экономического цикла без необходимости выявления шоков политиками.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-016",
+          "term_en": "Progressive Taxes",
+          "term_ru": "Прогрессивные налоги",
+          "definition_en": "Taxes that take a larger percentage of income from high-income earners than low-income earners, automatically increasing tax revenues as incomes rise.",
+          "definition_ru": "Налоги, которые берут большую долю дохода от лиц с высокими доходами, чем от лиц с низкими доходами, автоматически увеличивая налоговые поступления по мере роста доходов.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-017",
+          "term_en": "Discretionary Fiscal Policies",
+          "term_ru": "Дискреционные фискальные меры",
+          "definition_en": "Fiscal policies implemented by the government in response to a specific economic event or shock, involving intentional changes in taxes and/or spending.",
+          "definition_ru": "Фискальные меры, реализуемые правительством в ответ на конкретное экономическое событие или шок, включающие намеренные изменения в налогах и/или расходах.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-018",
+          "term_en": "Government Deficit",
+          "term_ru": "Государственный дефицит",
+          "definition_en": "A situation that occurs when government spending exceeds what it collects in taxes and other revenue.",
+          "definition_ru": "Ситуация, которая возникает, когда государственные расходы превышают сумму, собранную в виде налогов и других доходов.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-019",
+          "term_en": "National Debt",
+          "term_ru": "Государственный долг",
+          "definition_en": "The accumulation of government deficits over time.",
+          "definition_ru": "Накопление государственных дефицитов с течением времени.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-020",
+          "term_en": "Debt-to-GDP Ratio",
+          "term_ru": "Отношение долга к ВВП",
+          "definition_en": "A ratio used to assess a country's solvency by comparing its total debt to its gross domestic product. A country's solvency is considered in jeopardy when this ratio reaches an unsustainable level.",
+          "definition_ru": "Коэффициент, используемый для оценки платежеспособности страны путем сравнения ее общего долга с валовым внутренним продуктом. Платежеспособность страны считается под угрозой, когда этот коэффициент достигает неустойчивого уровня.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-021",
+          "term_en": "Interest Payments to GDP Ratio",
+          "term_ru": "Отношение процентных платежей к ВВП",
+          "definition_en": "A measure of government payments to service the debt as a percentage of national output, used to assess debt sustainability.",
+          "definition_ru": "Показатель государственных платежей по обслуживанию долга в процентах от национального производства, используемый для оценки устойчивости долга.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-022",
+          "term_en": "Ricardian Equivalence",
+          "term_ru": "Рикардианская эквивалентность",
+          "definition_en": "The theory that fiscal deficits might not have a net effect as the private sector could counterbalance them by boosting savings, expecting taxes to rise in the future.",
+          "definition_ru": "Теория о том, что фискальные дефициты могут не иметь чистого эффекта, поскольку частный сектор может их компенсировать, увеличивая сбережения в ожидании роста налогов в будущем.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-023",
+          "term_en": "Crowding Out",
+          "term_ru": "Вытеснение",
+          "definition_en": "A phenomenon where government borrowing leads to increased interest rates, which in turn reduces private sector investment. If there is a limited pool of savings, increased government demand results in higher interest rates and decreased private investment.",
+          "definition_ru": "Явление, при котором государственные заимствования приводят к росту процентных ставок, что в свою очередь снижает инвестиции частного сектора. Если существует ограниченный пул сбережений, увеличение спроса со стороны государства приводит к повышению процентных ставок и снижению частных инвестиций.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "ECON-3-EX-002",
+          "question_en": "Which one of the following is most likely a disadvantage of national debt?",
+          "question_ru": "Что из следующего наиболее вероятно является недостатком государственного долга?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "The national debt can cause inflation",
+              "text_ru": "Государственный долг может вызвать инфляцию"
+            },
+            {
+              "letter": "B",
+              "text_en": "A country acquires additional funds for growth",
+              "text_ru": "Страна получает дополнительные средства для роста"
+            },
+            {
+              "letter": "C",
+              "text_en": "The national debt can stimulate economic growth in the short term",
+              "text_ru": "Государственный долг может стимулировать экономический рост в краткосрочной перспективе"
+            }
+          ],
+          "correct_answer": "A",
+          "solution_en": "Excessive national debt can lead to inflation, especially if the government resorts to printing money to service its debt. This is considered a disadvantage as inflation erodes the purchasing power of a currency and can lead to other economic problems. Option B is incorrect because acquiring additional funds is an advantage. Option C is incorrect because stimulating growth is an advantage, though debt must be managed carefully to ensure long-term sustainability.",
+          "solution_ru": "Чрезмерный государственный долг может привести к инфляции, особенно если правительство прибегает к печатанию денег для обслуживания своего долга. Это считается недостатком, поскольку инфляция снижает покупательную способность валюты и может привести к другим экономическим проблемам. Вариант B неверен, потому что получение дополнительных средств является преимуществом. Вариант C неверен, потому что стимулирование роста является преимуществом, хотя долг должен тщательно управляться для обеспечения долгосрочной устойчивости."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_3c",
+      "los_code": "3c",
+      "los_description_en": "Describe tools of fiscal policy, including their advantages and disadvantages",
+      "los_description_ru": "Описать инструменты фискальной политики, включая их преимущества и недостатки",
+      "terms": [
+        {
+          "term_id": "ECON-3-024",
+          "term_en": "Government Spending Tools",
+          "term_ru": "Инструменты государственных расходов",
+          "definition_en": "Fiscal tools that refer to the overall government spending, divided into capital expenditure, current government spending, and transfer payments.",
+          "definition_ru": "Фискальные инструменты, относящиеся к общим государственным расходам, разделенным на капитальные расходы, текущие государственные расходы и трансферные платежи.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-025",
+          "term_en": "Capital Expenditure",
+          "term_ru": "Капитальные расходы",
+          "definition_en": "Government spending on amenities such as schools, roads, and hospitals that adds to a country's capital stock and affects productivity. This spending encourages investment and increases total productivity.",
+          "definition_ru": "Государственные расходы на объекты, такие как школы, дороги и больницы, которые добавляются к капитальному запасу страны и влияют на производительность. Эти расходы поощряют инвестиции и увеличивают общую производительность.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-026",
+          "term_en": "Current Government Spending",
+          "term_ru": "Текущие государственные расходы",
+          "definition_en": "Government spending on goods and services regularly provided, such as defense, health, and education, aimed at improving a country's labor productivity.",
+          "definition_ru": "Государственные расходы на товары и услуги, регулярно предоставляемые, такие как оборона, здравоохранение и образование, направленные на улучшение производительности труда страны.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-027",
+          "term_en": "Transfer Payments",
+          "term_ru": "Трансферные платежи",
+          "definition_en": "Payments made by the government through social security systems to ensure a minimum level of income for low-income individuals and change income distribution. These include state pensions, housing benefits, and tax credits, and are not included in GDP calculations.",
+          "definition_ru": "Платежи, осуществляемые правительством через системы социального обеспечения для обеспечения минимального уровня дохода для лиц с низкими доходами и изменения распределения доходов. Они включают государственные пенсии, жилищные пособия и налоговые кредиты и не включаются в расчеты ВВП.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-028",
+          "term_en": "Government Revenue Tools",
+          "term_ru": "Инструменты государственных доходов",
+          "definition_en": "Fiscal tools that refer to taxes collected by the government, divided into indirect taxes and direct taxes.",
+          "definition_ru": "Фискальные инструменты, относящиеся к налогам, собираемым правительством, разделенным на косвенные налоги и прямые налоги.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-029",
+          "term_en": "Indirect Taxes",
+          "term_ru": "Косвенные налоги",
+          "definition_en": "Taxes imposed on specific goods and services such as cigarettes, alcohol, fuel, and VAT. These can be quickly adjusted to influence spending and implement social policies.",
+          "definition_ru": "Налоги, взимаемые с конкретных товаров и услуг, таких как сигареты, алкоголь, топливо и НДС. Они могут быть быстро скорректированы для влияния на расходы и реализации социальных мер.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-030",
+          "term_en": "Direct Taxes",
+          "term_ru": "Прямые налоги",
+          "definition_en": "Levies on profit, income, and wealth, including capital gains tax, national insurance tax, and corporate taxes. These can both raise revenue and distribute wealth but are challenging to alter without significant notice.",
+          "definition_ru": "Сборы на прибыль, доход и богатство, включая налог на прирост капитала, налог на государственное страхование и корпоративные налоги. Они могут как увеличивать доходы, так и распределять богатство, но их сложно изменить без существенного уведомления.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-031",
+          "term_en": "VAT (Value Added Tax)",
+          "term_ru": "НДС (Налог на добавленную стоимость)",
+          "definition_en": "An example of an indirect tax imposed on goods and services, with some items like health and education often excluded.",
+          "definition_ru": "Пример косвенного налога, взимаемого с товаров и услуг, при этом некоторые товары, такие как здравоохранение и образование, часто исключаются.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-032",
+          "term_en": "Fiscal Multiplier",
+          "term_ru": "Фискальный мультипликатор",
+          "definition_en": "A measure that helps model the effect of taxes and government spending on aggregate demand. It shows the magnitude of change in output resulting from changes in government spending or taxation.",
+          "definition_ru": "Показатель, который помогает моделировать влияние налогов и государственных расходов на совокупный спрос. Он показывает величину изменения выпуска в результате изменений в государственных расходах или налогообложении.",
+          "type": "formula",
+          "formula": "$\\text{Fiscal Multiplier} = \\frac{1}{1 - c(1-t)}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "c",
+              "name_en": "Marginal Propensity to Consume (MPC)",
+              "name_ru": "Предельная склонность к потреблению"
+            },
+            {
+              "symbol": "t",
+              "name_en": "Net tax rate",
+              "name_ru": "Чистая налоговая ставка"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Определите предельную склонность к потреблению (c) и налоговую ставку (t)",
+              "2. Вычислите: 1 - c(1-t)",
+              "3. Введите: 1 [÷] результат шага 2 [=]",
+              "4. Результат: Фискальный мультипликатор"
+            ],
+            "example": {
+              "given": "c=0.8, t=0.25",
+              "input": "1-0.8(1-0.25)=0.4, 1÷0.4=",
+              "result": "Multiplier = 2.5"
+            }
+          }
+        },
+        {
+          "term_id": "ECON-3-033",
+          "term_en": "Marginal Propensity to Consume (MPC)",
+          "term_ru": "Предельная склонность к потреблению",
+          "definition_en": "The proportion of additional disposable income that households spend on consumption, denoted by 'c'. Recipients spend a proportion c of each extra dollar of disposable income.",
+          "definition_ru": "Доля дополнительного располагаемого дохода, которую домохозяйства тратят на потребление, обозначаемая как 'c'. Получатели тратят долю c от каждого дополнительного доллара располагаемого дохода.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-034",
+          "term_en": "Marginal Propensity to Save (MPS)",
+          "term_ru": "Предельная склонность к сбережению",
+          "definition_en": "The amount saved out of an additional dollar of disposable income, denoted by 's', where s = 1 - c.",
+          "definition_ru": "Сумма, сберегаемая из дополнительного доллара располагаемого дохода, обозначаемая как 's', где s = 1 - c.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-035",
+          "term_en": "Net Taxes (NT)",
+          "term_ru": "Чистые налоги",
+          "definition_en": "Taxes minus transfers, calculated as a proportion of national output Y, so that net revenue is tY.",
+          "definition_ru": "Налоги минус трансферы, рассчитываемые как доля национального выпуска Y, так что чистый доход составляет tY.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-036",
+          "term_en": "Disposable Income (YD)",
+          "term_ru": "Располагаемый доход",
+          "definition_en": "National income or output minus net taxes, expressed as YD = Y - NT = (1-t)Y, representing the income available for consumption and saving.",
+          "definition_ru": "Национальный доход или выпуск минус чистые налоги, выражается как YD = Y - NT = (1-t)Y, представляет собой доход, доступный для потребления и сбережений.",
+          "type": "formula",
+          "formula": "$Y_D = Y - NT = (1-t)Y$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "Y_D",
+              "name_en": "Disposable Income",
+              "name_ru": "Располагаемый доход"
+            },
+            {
+              "symbol": "Y",
+              "name_en": "National income or output",
+              "name_ru": "Национальный доход или выпуск"
+            },
+            {
+              "symbol": "NT",
+              "name_en": "Net taxes",
+              "name_ru": "Чистые налоги"
+            },
+            {
+              "symbol": "t",
+              "name_en": "Net tax rate",
+              "name_ru": "Чистая налоговая ставка"
+            }
+          ],
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-037",
+          "term_en": "Balanced Budget Multiplier",
+          "term_ru": "Мультипликатор сбалансированного бюджета",
+          "definition_en": "When government increases spending (G) by the same magnitude as it raises taxes, the aggregate output will still increase due to the multiplier effect. The balanced budget multiplier equals 1.",
+          "definition_ru": "Когда правительство увеличивает расходы (G) на ту же величину, что и налоги, совокупный выпуск все равно увеличится из-за эффекта мультипликатора. Мультипликатор сбалансированного бюджета равен 1.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "ECON-3-EX-003",
+          "question_en": "Which of the following statements is the most accurate regarding fiscal tools?",
+          "question_ru": "Какое из следующих утверждений наиболее точно в отношении фискальных инструментов?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Direct taxes are useful for discouraging alcoholism",
+              "text_ru": "Прямые налоги полезны для борьбы с алкоголизмом"
+            },
+            {
+              "letter": "B",
+              "text_en": "Indirect taxes cannot be modified quickly; therefore, they are irrelevant fiscal policy tools",
+              "text_ru": "Косвенные налоги не могут быть быстро изменены; следовательно, они являются нерелевантными инструментами фискальной политики"
+            },
+            {
+              "letter": "C",
+              "text_en": "Government capital spending decisions are slow to plan, implement, and execute; thus, they are of little use for the short-term stabilization of the economy",
+              "text_ru": "Решения о государственных капитальных расходах медленно планируются, внедряются и выполняются; таким образом, они малополезны для краткосрочной стабилизации экономики"
+            }
+          ],
+          "correct_answer": "C",
+          "solution_en": "The implementation of capital spending is slower compared to the implementation of changes in indirect taxes. Infrastructure projects like roads or hospitals require detailed planning, legal authorizations, and execution, each taking considerable time. Option A is incorrect because indirect taxes (not direct taxes) have a greater effect on alcohol consumption. Option B is incorrect because indirect taxes can be modified quickly and are among the easiest and fastest fiscal tools to implement.",
+          "solution_ru": "Реализация капитальных расходов происходит медленнее по сравнению с внедрением изменений в косвенных налогах. Инфраструктурные проекты, такие как дороги или больницы, требуют детального планирования, юридических разрешений и выполнения, каждое из которых занимает значительное время. Вариант A неверен, потому что косвенные налоги (а не прямые) оказывают большее влияние на потребление алкоголя. Вариант B неверен, потому что косвенные налоги могут быть быстро изменены и являются одними из самых простых и быстрых фискальных инструментов для внедрения."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_3d",
+      "los_code": "3d",
+      "los_description_en": "Explain the implementation of fiscal policy and the difficulties of implementation as well as whether a fiscal policy is expansionary or contractionary",
+      "los_description_ru": "Объяснить реализацию фискальной политики и трудности реализации, а также определить, является ли фискальная политика экспансионистской или сдерживающей",
+      "terms": [
+        {
+          "term_id": "ECON-3-038",
+          "term_en": "Fiscal Stance",
+          "term_ru": "Фискальная позиция",
+          "definition_en": "An indicator of whether fiscal policy stimulates or reduces economic growth, which can be complex to measure due to factors like automatic stabilizers and the distinction between real and nominal interest rates.",
+          "definition_ru": "Индикатор того, стимулирует ли фискальная политика или снижает экономический рост, который может быть сложно измерить из-за факторов, таких как автоматические стабилизаторы и различие между реальными и номинальными процентными ставками.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-039",
+          "term_en": "Structural Budget Deficit",
+          "term_ru": "Структурный бюджетный дефицит",
+          "definition_en": "The deficit that would exist if the economy operated at full employment or full potential output, used as a fiscal stance indicator.",
+          "definition_ru": "Дефицит, который существовал бы, если бы экономика работала при полной занятости или полном потенциальном выпуске, используемый как индикатор фискальной позиции.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-040",
+          "term_en": "Recognition Lag",
+          "term_ru": "Лаг распознавания",
+          "definition_en": "The time delay before policymakers recognize an economic problem, which may occur when it is already too late.",
+          "definition_ru": "Задержка времени до того, как политики распознают экономическую проблему, которая может возникнуть, когда уже слишком поздно.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-041",
+          "term_en": "Action Lag",
+          "term_ru": "Лаг действия",
+          "definition_en": "The time delay between recognizing an economic problem and taking action against it, which may come when it is too late to be effective.",
+          "definition_ru": "Задержка времени между распознаванием экономической проблемы и принятием мер против нее, которая может прийти, когда уже слишком поздно для эффективности.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-042",
+          "term_en": "Impact Lag",
+          "term_ru": "Лаг воздействия",
+          "definition_en": "The time lag between the implementation of a policy and when the impact of the policy manifests in the economy.",
+          "definition_ru": "Задержка времени между реализацией политики и моментом, когда влияние политики проявляется в экономике.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-3-043",
+          "term_en": "Full Employment",
+          "term_ru": "Полная занятость",
+          "definition_en": "A level of employment where all available labor resources are being used efficiently, though accurately measuring this level is challenging and it changes with shifts in productive capacity and workers' willingness to work at different wage levels.",
+          "definition_ru": "Уровень занятости, при котором все доступные трудовые ресурсы используются эффективно, хотя точное измерение этого уровня является сложной задачей, и он меняется с изменениями производственных мощностей и готовности работников работать при разных уровнях заработной платы.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "ECON-3-EX-004",
+          "question_en": "Which of the following most accurately explains the term impact lag of a fiscal policy?",
+          "question_ru": "Что из следующего наиболее точно объясняет термин лаг воздействия фискальной политики?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Policymakers may recognize a problem in the economy when it is already too late",
+              "text_ru": "Политики могут распознать проблему в экономике, когда уже слишком поздно"
+            },
+            {
+              "letter": "B",
+              "text_en": "Policymakers may take action against an economic problem when it is already too late",
+              "text_ru": "Политики могут принять меры против экономической проблемы, когда уже слишком поздно"
+            },
+            {
+              "letter": "C",
+              "text_en": "Once the government has implemented a policy, it may take time before the impact of the policy manifests in the economy",
+              "text_ru": "После того как правительство реализовало политику, может потребоваться время, прежде чем влияние политики проявится в экономике"
+            }
+          ],
+          "correct_answer": "C",
+          "solution_en": "Impact lag refers to the time it takes for an implemented policy to manifest its effects in the economy. Option A is incorrect because this describes recognition lag - when policymakers recognize a problem too late. Option B is incorrect because this describes action lag - when action is taken too late to be effective.",
+          "solution_ru": "Лаг воздействия относится к времени, необходимому для того, чтобы реализованная политика проявила свои эффекты в экономике. Вариант A неверен, потому что это описывает лаг распознавания - когда политики распознают проблему слишком поздно. Вариант B неверен, потому что это описывает лаг действия - когда действие предпринимается слишком поздно, чтобы быть эффективным."
+        }
+      ]
+    }
+  ]
+}
