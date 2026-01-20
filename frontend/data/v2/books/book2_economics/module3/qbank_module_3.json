@@ -7,7 +7,7 @@
     "module_id": 3,
     "module_name": "Aggregate Output, Prices and Economic Growth",
     "module_name_ru": "Совокупный выпуск, цены и экономический рост",
-    "total_questions": 5,
+    "total_questions": 9,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -278,6 +278,208 @@
         "fiscal_policy",
         "crowding_out",
         "expansionary_policy"
+      ]
+    },
+    {
+      "question_id": "ECO-3-Q006",
+      "original_question_number": 2475,
+      "los_id": "LOS_3d",
+      "question_text_en": "An expansionary fiscal policy may most likely include:",
+      "question_text_ru": "Экспансионистская фискальная политика, скорее всего, может включать:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Reductions in government expenditures and reductions in taxes.",
+          "text_ru": "Сокращение государственных расходов и сокращение налогов."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Increases in government expenditures and increases in tax credits.",
+          "text_ru": "Увеличение государственных расходов и увеличение налоговых кредитов."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Reductions in interest rates and Increases in government expenditures.",
+          "text_ru": "Снижение процентных ставок и увеличение государственных расходов."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "An expansionary fiscal policy is typically characterized by measures that increase aggregate demand in the economy. This can be achieved through increases in government expenditures and tax credits. Higher government expenditures directly boost aggregate demand by increasing the total spending in the economy. Tax credits, on the other hand, increase the disposable income of households, encouraging consumer spending and indirectly increasing aggregate demand.",
+      "explanation_ru": "Экспансионистская фискальная политика обычно характеризуется мерами, которые увеличивают совокупный спрос в экономике. Это может быть достигнуто за счет увеличения государственных расходов и налоговых кредитов. Более высокие государственные расходы напрямую стимулируют совокупный спрос, увеличивая общие расходы в экономике. Налоговые кредиты, с другой стороны, увеличивают располагаемый доход домохозяйств, поощряя потребительские расходы и косвенно увеличивая совокупный спрос.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Reductions in government expenditures and taxes is a contractionary fiscal policy, not an expansionary one. A contractionary fiscal policy is used to slow down economic growth, usually in an attempt to combat inflation. It involves reducing government spending and/or increasing taxes, which decreases aggregate demand in the economy. This is the opposite of what an expansionary fiscal policy aims to achieve.",
+          "text_ru": "Неверно. Сокращение государственных расходов и налогов - это сдерживающая фискальная политика, а не экспансионистская. Сдерживающая фискальная политика используется для замедления экономического роста, обычно в попытке бороться с инфляцией. Она включает сокращение государственных расходов и/или увеличение налогов, что снижает совокупный спрос в экономике. Это противоположно тому, чего стремится достичь экспансионистская фискальная политика."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. While reductions in interest rates can stimulate economic activity by making borrowing cheaper and encouraging investment, this is a tool of monetary policy, not fiscal policy. Fiscal policy involves the use of government spending and taxation to influence the economy. Therefore, while reductions in interest rates and increases in government expenditures could both stimulate economic activity, they do not both represent measures of fiscal policy.",
+          "text_ru": "Неверно. Хотя снижение процентных ставок может стимулировать экономическую активность, делая заимствования дешевле и поощряя инвестиции, это инструмент монетарной политики, а не фискальной. Фискальная политика включает использование государственных расходов и налогообложения для влияния на экономику. Поэтому, хотя снижение процентных ставок и увеличение государственных расходов могут стимулировать экономическую активность, они не оба представляют меры фискальной политики."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "fiscal_policy",
+        "expansionary_policy"
+      ]
+    },
+    {
+      "question_id": "ECO-3-Q007",
+      "original_question_number": 2477,
+      "los_id": "LOS_3b",
+      "question_text_en": "Primary objectives of fiscal policy are most likely to:",
+      "question_text_ru": "Основные цели фискальной политики, скорее всего:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Control inflation and unemployment.",
+          "text_ru": "Контролировать инфляцию и безработицу."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Ensure stable prices and low-interest rates.",
+          "text_ru": "Обеспечивать стабильные цены и низкие процентные ставки."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Manage the economy through the government's ability to influence GDP.",
+          "text_ru": "Управлять экономикой через способность правительства влиять на ВВП."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "The primary objectives of fiscal policy involve managing the economy through the government's ability to influence Gross Domestic Product (GDP). Fiscal policy, which includes government spending and taxation, directly impacts aggregate demand and, consequently, the overall economic activity. By adjusting its spending and tax policies, the government can stimulate economic growth during a downturn or cool down an overheated economy. This ability to influence GDP makes fiscal policy a crucial tool for managing economic cycles and ensuring long-term economic stability.",
+      "explanation_ru": "Основные цели фискальной политики включают управление экономикой через способность правительства влиять на валовой внутренний продукт (ВВП). Фискальная политика, которая включает государственные расходы и налогообложение, напрямую влияет на совокупный спрос и, следовательно, на общую экономическую активность. Корректируя свои расходы и налоговую политику, правительство может стимулировать экономический рост во время спада или охладить перегретую экономику. Эта способность влиять на ВВП делает фискальную политику важнейшим инструментом для управления экономическими циклами и обеспечения долгосрочной экономической стабильности.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. While controlling inflation and unemployment are critical objectives for any economy, they are traditionally seen as the primary goals of monetary policy, which is conducted by central banks through mechanisms such as interest rates adjustments and open market operations. Fiscal policy can indirectly influence inflation and unemployment by affecting economic growth and demand, but these are not its direct primary objectives. The direct manipulation of inflation and unemployment rates is more closely associated with the actions of central banks rather than fiscal policy measures.",
+          "text_ru": "Неверно. Хотя контроль инфляции и безработицы являются критическими целями для любой экономики, они традиционно рассматриваются как основные цели монетарной политики, которая проводится центральными банками через механизмы, такие как корректировка процентных ставок и операции на открытом рынке. Фискальная политика может косвенно влиять на инфляцию и безработицу, воздействуя на экономический рост и спрос, но это не ее прямые основные цели. Прямое манипулирование уровнями инфляции и безработицы больше связано с действиями центральных банков, чем с мерами фискальной политики."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Ensuring stable prices and low-interest rates are typically the goals of monetary policy rather than fiscal policy. Monetary authorities, such as central banks, use various tools, including setting the benchmark interest rates and controlling the money supply, to maintain price stability and influence interest rates. While fiscal policy can have an impact on these areas through its effects on the economy, its primary focus is on influencing GDP through government spending and taxation. The direct management of price levels and interest rates falls under the purview of monetary policy, which aims to achieve these goals through different mechanisms than those used in fiscal policy.",
+          "text_ru": "Неверно. Обеспечение стабильных цен и низких процентных ставок обычно являются целями монетарной политики, а не фискальной. Монетарные органы, такие как центральные банки, используют различные инструменты, включая установление базовых процентных ставок и контроль денежной массы, для поддержания стабильности цен и влияния на процентные ставки. Хотя фискальная политика может влиять на эти области через свое воздействие на экономику, ее основное внимание сосредоточено на влиянии на ВВП через государственные расходы и налогообложение. Прямое управление уровнями цен и процентными ставками находится в компетенции монетарной политики, которая стремится достичь этих целей через другие механизмы, чем те, которые используются в фискальной политике."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "fiscal_policy",
+        "objectives",
+        "gdp"
+      ]
+    },
+    {
+      "question_id": "ECO-3-Q008",
+      "original_question_number": 3212,
+      "los_id": "LOS_3a",
+      "question_text_en": "Fiscal policy is best described as:",
+      "question_text_ru": "Фискальную политику лучше всего описать как:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Government activities centered on alleviating the unequal distribution of wealth.",
+          "text_ru": "Деятельность правительства, направленная на смягчение неравного распределения богатства."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Government targeting interest rates and extensions of credit to affect the economy.",
+          "text_ru": "Правительственное таргетирование процентных ставок и расширение кредита для воздействия на экономику."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Government actions through the adjustment of expenditures and taxes to influence the economy.",
+          "text_ru": "Действия правительства через корректировку расходов и налогов для влияния на экономику."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Fiscal policy is best described as the government's use of its budgetary tools, specifically through adjustments in government spending and taxation, to influence economic conditions. This approach allows the government to target various economic issues, such as controlling inflation, stimulating economic growth, and reducing unemployment. By increasing or decreasing government expenditures, or by adjusting tax rates, the government can directly impact the level of aggregate demand in the economy, which in turn influences overall economic activity.",
+      "explanation_ru": "Фискальную политику лучше всего описать как использование правительством своих бюджетных инструментов, в частности, через корректировку государственных расходов и налогообложения, для влияния на экономические условия. Этот подход позволяет правительству нацеливаться на различные экономические проблемы, такие как контроль инфляции, стимулирование экономического роста и сокращение безработицы. Увеличивая или уменьшая государственные расходы, или корректируя налоговые ставки, правительство может напрямую влиять на уровень совокупного спроса в экономике, что, в свою очередь, влияет на общую экономическую активность.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. While alleviating the unequal distribution of wealth may be a goal of some fiscal policies, it is not the primary or sole purpose of fiscal policy. Fiscal policy is a broader tool used by governments to manage the economy's overall health, including influencing the level of economic activity, managing inflation, and influencing employment levels. Redistribution of wealth can be an outcome or objective within the broader scope of fiscal policy, especially through progressive taxation and targeted spending, but it does not encompass the full range of fiscal policy actions.",
+          "text_ru": "Неверно. Хотя смягчение неравного распределения богатства может быть целью некоторых фискальных мер, это не первичная или единственная цель фискальной политики. Фискальная политика - это более широкий инструмент, используемый правительствами для управления общим здоровьем экономики, включая влияние на уровень экономической активности, управление инфляцией и влияние на уровни занятости. Перераспределение богатства может быть результатом или целью в более широком контексте фискальной политики, особенно через прогрессивное налогообложение и целевые расходы, но оно не охватывает весь спектр действий фискальной политики."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Targeting interest rates and managing the extension of credit are primarily functions of monetary policy, not fiscal policy. Monetary policy is conducted by a country's central bank (such as the Federal Reserve in the United States) and involves managing the money supply and influencing interest rates to achieve economic objectives. While both fiscal and monetary policies aim to influence the economy, they do so through different mechanisms. Fiscal policy focuses on government spending and taxation, whereas monetary policy focuses on controlling the money supply and interest rates to influence the level of economic activity.",
+          "text_ru": "Неверно. Таргетирование процентных ставок и управление расширением кредита - это в первую очередь функции монетарной политики, а не фискальной. Монетарная политика проводится центральным банком страны (таким как Федеральная резервная система в США) и включает управление денежной массой и влияние на процентные ставки для достижения экономических целей. Хотя и фискальная, и монетарная политика стремятся влиять на экономику, они делают это через разные механизмы. Фискальная политика фокусируется на государственных расходах и налогообложении, в то время как монетарная политика фокусируется на контроле денежной массы и процентных ставок для влияния на уровень экономической активности."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "fiscal_policy",
+        "definition"
+      ]
+    },
+    {
+      "question_id": "ECO-3-Q009",
+      "original_question_number": 3237,
+      "los_id": "LOS_3d",
+      "question_text_en": "Expansionary fiscal policy measures may include:",
+      "question_text_ru": "Меры экспансионистской фискальной политики могут включать:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Reducing personal income taxes and buying new aircraft for the military.",
+          "text_ru": "Снижение подоходного налога и покупка новых самолетов для армии."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Easing interest rates and buying treasury bonds to encourage economic activity.",
+          "text_ru": "Смягчение процентных ставок и покупка казначейских облигаций для поощрения экономической активности."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Reducing the regulatory burden by reducing or eliminating environmental regulations.",
+          "text_ru": "Снижение регуляторного бремени путем сокращения или устранения экологических норм."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Fiscal policy involves government spending and taxation decisions made to influence economic conditions, particularly aggregate demand, employment, and inflation. When the government reduces personal income taxes, it leaves households with more disposable income. This increase in disposable income boosts consumer spending, which directly increases aggregate demand. Higher aggregate demand can lead to higher production, employment, and potentially economic growth. Government spending, whether on goods and services or capital expenditure, directly increases aggregate demand. Military spending is a part of government purchases, one of the components of GDP. By purchasing new aircraft for the military, the government is directly injecting money into the economy, which can stimulate production, increase employment in relevant sectors, and promote overall economic growth.",
+      "explanation_ru": "Фискальная политика включает решения правительства по расходам и налогообложению, принимаемые для влияния на экономические условия, особенно на совокупный спрос, занятость и инфляцию. Когда правительство снижает подоходный налог, это оставляет домохозяйствам больше располагаемого дохода. Это увеличение располагаемого дохода стимулирует потребительские расходы, что напрямую увеличивает совокупный спрос. Более высокий совокупный спрос может привести к более высокому производству, занятости и потенциально экономическому росту. Государственные расходы, будь то на товары и услуги или на капитальные расходы, напрямую увеличивают совокупный спрос. Военные расходы - это часть государственных закупок, один из компонентов ВВП. Покупая новые самолеты для армии, правительство напрямую вкладывает деньги в экономику, что может стимулировать производство, увеличить занятость в соответствующих секторах и способствовать общему экономическому росту.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Easing interest rates and buying treasury bonds are tools used to implement monetary policy. Monetary policy involves managing the money supply and interest rates and is typically executed by a country's central bank. Lowering interest rates is a monetary policy tool used by central banks to stimulate economic activity. Lower interest rates reduce the cost of borrowing, encouraging businesses and consumers to take out loans for investment and consumption, thereby increasing aggregate demand. However, this is not a fiscal policy measure. When a central bank buys treasury bonds, it is conducting open market operations, a key monetary policy tool. This action increases the money supply by injecting liquidity into the banking system, encouraging lending and lowering interest rates.",
+          "text_ru": "Неверно. Смягчение процентных ставок и покупка казначейских облигаций - это инструменты, используемые для реализации монетарной политики. Монетарная политика включает управление денежной массой и процентными ставками и обычно осуществляется центральным банком страны. Снижение процентных ставок - это инструмент монетарной политики, используемый центральными банками для стимулирования экономической активности. Более низкие процентные ставки снижают стоимость заимствований, поощряя бизнес и потребителей брать кредиты для инвестиций и потребления, тем самым увеличивая совокупный спрос. Однако это не является мерой фискальной политики. Когда центральный банк покупает казначейские облигации, он проводит операции на открытом рынке, ключевой инструмент монетарной политики. Это действие увеличивает денежную массу, вливая ликвидность в банковскую систему, поощряя кредитование и снижая процентные ставки."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Reducing the regulatory burden is not a fiscal policy measure. Regulatory measures involve changing the rules by which the economy operates, including labor laws, environmental regulations, and financial oversight. While reducing or eliminating environmental regulations can influence economic activity by potentially lowering the cost of production and encouraging investment, this is not typically classified under fiscal policy. Regulatory changes are part of regulatory policy, affecting the economy through different mechanisms than fiscal spending or taxation adjustments.",
+          "text_ru": "Неверно. Снижение регуляторного бремени не является мерой фискальной политики. Регуляторные меры включают изменение правил, по которым работает экономика, включая трудовое законодательство, экологические нормы и финансовый надзор. Хотя сокращение или устранение экологических норм может влиять на экономическую активность, потенциально снижая затраты на производство и поощряя инвестиции, это обычно не классифицируется как фискальная политика. Регуляторные изменения являются частью регуляторной политики, влияя на экономику через другие механизмы, чем фискальные расходы или налоговые корректировки."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "fiscal_policy",
+        "expansionary_policy",
+        "government_spending"
       ]
     }
   ]
