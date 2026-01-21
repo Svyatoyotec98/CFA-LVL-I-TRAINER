@@ -7,7 +7,7 @@
     "module_id": 2,
     "module_name": "Understanding Business Cycles",
     "module_name_ru": "Понимание бизнес-циклов",
-    "total_questions": 10,
+    "total_questions": 19,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -530,6 +530,472 @@
         "lending_standards",
         "interest_rates",
         "risk"
+      ]
+    },
+    {
+      "question_id": "ECON-2-Q011",
+      "original_question_number": 4752,
+      "los_id": "LOS_2b",
+      "question_text_en": "Why do credit cycles most often last longer than business cycles?",
+      "question_text_ru": "Почему кредитные циклы чаще всего длятся дольше, чем бизнес-циклы?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Credit cycles are solely dependent on interest rate decisions by central banks.",
+          "text_ru": "Кредитные циклы исключительно зависят от решений центральных банков по процентным ставкам."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Credit cycles are more influenced by global economic conditions than local events.",
+          "text_ru": "Кредитные циклы больше зависят от глобальных экономических условий, чем от локальных событий."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Credit cycles involve longer periods of expansion and contraction, influenced by extended credit conditions.",
+          "text_ru": "Кредитные циклы включают более длительные периоды расширения и сжатия, зависящие от расширенных кредитных условий."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Credit cycles generally outlast business cycles because they involve prolonged periods of credit expansion and contraction, which are influenced by the broader, more persistent conditions of credit availability and economic confidence.",
+      "explanation_ru": "Кредитные циклы обычно переживают бизнес-циклы, потому что они включают продолжительные периоды кредитного расширения и сжатия, на которые влияют более широкие, более устойчивые условия доступности кредита и экономической уверенности.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "While central banks' interest rate decisions affect credit cycles, they are not the sole factor extending the duration of credit cycles.",
+          "text_ru": "Хотя решения центральных банков по процентным ставкам влияют на кредитные циклы, они не являются единственным фактором, продлевающим продолжительность кредитных циклов."
+        },
+        "opt_b": {
+          "text_en": "Although global conditions can influence credit cycles, the length comparison to business cycles is more about the nature of credit dynamics than the scale of impact.",
+          "text_ru": "Хотя глобальные условия могут влиять на кредитные циклы, сравнение длительности с бизнес-циклами больше связано с природой кредитной динамики, чем с масштабом влияния."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "credit_cycle",
+        "business_cycle",
+        "credit_expansion",
+        "duration"
+      ]
+    },
+    {
+      "question_id": "ECON-2-Q012",
+      "original_question_number": 4753,
+      "los_id": "LOS_2b",
+      "question_text_en": "Which of the following is most likely a reason why investors monitor the stage of the credit cycle?",
+      "question_text_ru": "Что из следующего является наиболее вероятной причиной, по которой инвесторы отслеживают стадию кредитного цикла?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "To predict short-term fluctuations in commodity prices.",
+          "text_ru": "Чтобы предсказать краткосрочные колебания цен на сырьевые товары."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "To assess the immediate solvency of financial institutions.",
+          "text_ru": "Чтобы оценить немедленную платежеспособность финансовых институтов."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "To understand developments in the housing and construction markets.",
+          "text_ru": "Чтобы понять развитие на рынках жилья и строительства."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Investors monitor the credit cycle stages to gauge developments in sectors like housing and construction, which are significantly affected by credit availability.",
+      "explanation_ru": "Инвесторы отслеживают стадии кредитного цикла, чтобы оценить развитие в таких секторах, как жилье и строительство, которые значительно зависят от доступности кредита.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "While commodity prices can be influenced by economic conditions, they are not directly tied to the stages of the credit cycle.",
+          "text_ru": "Хотя цены на сырьевые товары могут зависеть от экономических условий, они не напрямую связаны со стадиями кредитного цикла."
+        },
+        "opt_b": {
+          "text_en": "Assessing the immediate solvency of financial institutions involves more specific financial metrics and regulatory assessments rather than the broader stages of the credit cycle.",
+          "text_ru": "Оценка немедленной платежеспособности финансовых институтов включает более конкретные финансовые показатели и регуляторные оценки, а не более широкие стадии кредитного цикла."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "credit_cycle",
+        "housing",
+        "construction",
+        "investors"
+      ]
+    },
+    {
+      "question_id": "ECON-2-Q013",
+      "original_question_number": 4770,
+      "los_id": "LOS_2c",
+      "question_text_en": "What most likely occurs to inventory levels as an economic expansion reaches its peak?",
+      "question_text_ru": "Что наиболее вероятно происходит с уровнями запасов, когда экономическое расширение достигает своего пика?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Inventory levels decrease to well below normal levels.",
+          "text_ru": "Уровни запасов снижаются значительно ниже нормальных уровней."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Inventory levels stabilize at a normal inventory-sales ratio.",
+          "text_ru": "Уровни запасов стабилизируются на нормальном соотношении запасов к продажам."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Inventory levels increase, leading to a higher inventory-sales ratio.",
+          "text_ru": "Уровни запасов увеличиваются, что приводит к более высокому соотношению запасов к продажам."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "As an expansion reaches its peak, sales growth slows down, leading to unsold inventories accumulating and thus an increase in the inventory-sales ratio above normal levels. This can be a precursor to a subsequent economic recession as firms reduce production in response to unplanned inventory increases.",
+      "explanation_ru": "Когда расширение достигает своего пика, рост продаж замедляется, что приводит к накоплению непроданных запасов и, следовательно, к увеличению соотношения запасов к продажам выше нормальных уровней. Это может быть предвестником последующей экономической рецессии, так как фирмы сокращают производство в ответ на незапланированное увеличение запасов.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Inventory levels typically increase as expansion peaks, not decrease.",
+          "text_ru": "Уровни запасов обычно увеличиваются, когда расширение достигает пика, а не уменьшаются."
+        },
+        "opt_b": {
+          "text_en": "Inventory levels do not stabilize; they increase above normal levels as sales slow down, leading to inventory accumulation.",
+          "text_ru": "Уровни запасов не стабилизируются; они увеличиваются выше нормальных уровней, так как продажи замедляются, что приводит к накоплению запасов."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "inventory_levels",
+        "business_cycle",
+        "peak",
+        "sales"
+      ]
+    },
+    {
+      "question_id": "ECON-2-Q014",
+      "original_question_number": 4771,
+      "los_id": "LOS_2c",
+      "question_text_en": "During a recession and trough phase, how do low prices most likely influence consumer behavior and the business cycle?",
+      "question_text_ru": "Во время рецессии и фазы дна, как низкие цены наиболее вероятно влияют на поведение потребителей и бизнес-цикл?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Low prices discourage consumer spending, prolonging the recession.",
+          "text_ru": "Низкие цены обескураживают потребительские расходы, продлевая рецессию."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Low prices lead to increased consumer purchases, boosting aggregate demand.",
+          "text_ru": "Низкие цены приводят к увеличению потребительских покупок, повышая совокупный спрос."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Low prices result in lower aggregate demand as consumers expect further price drops.",
+          "text_ru": "Низкие цены приводят к снижению совокупного спроса, так как потребители ожидают дальнейшего снижения цен."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Low prices characteristic of the recession and trough phases prompt consumers to buy more goods and services, leading to an increase in aggregate demand. This helps move the business cycle into the expansion stage as demand begins to exceed supply.",
+      "explanation_ru": "Низкие цены, характерные для фаз рецессии и дна, побуждают потребителей покупать больше товаров и услуг, что приводит к увеличению совокупного спроса. Это помогает перевести бизнес-цикл в фазу расширения, так как спрос начинает превышать предложение.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Low prices during these phases actually encourage spending, not discourage it.",
+          "text_ru": "Низкие цены во время этих фаз на самом деле стимулируют расходы, а не обескураживают их."
+        },
+        "opt_c": {
+          "text_en": "While consumers might expect further price drops, the general trend is that lower prices boost purchasing behavior, increasing aggregate demand.",
+          "text_ru": "Хотя потребители могут ожидать дальнейшего снижения цен, общая тенденция заключается в том, что более низкие цены стимулируют покупательское поведение, увеличивая совокупный спрос."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "recession",
+        "trough",
+        "prices",
+        "consumer_behavior",
+        "aggregate_demand"
+      ]
+    },
+    {
+      "question_id": "ECON-2-Q015",
+      "original_question_number": 4772,
+      "los_id": "LOS_2c",
+      "question_text_en": "How does the housing sector most likely respond to changes in interest rates?",
+      "question_text_ru": "Как жилищный сектор наиболее вероятно реагирует на изменения процентных ставок?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Higher interest rates encourage more real estate purchases.",
+          "text_ru": "Более высокие процентные ставки стимулируют больше покупок недвижимости."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Lower interest rates generally stimulate more real estate purchases.",
+          "text_ru": "Более низкие процентные ставки обычно стимулируют больше покупок недвижимости."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Lower interest rates discourage homebuying due to expected inflation.",
+          "text_ru": "Более низкие процентные ставки обескураживают покупку жилья из-за ожидаемой инфляции."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The housing sector is strongly correlated with interest rates; lower mortgage rates encourage consumers to purchase more real estate, as it becomes financially more accessible.",
+      "explanation_ru": "Жилищный сектор сильно коррелирует с процентными ставками; более низкие ипотечные ставки побуждают потребителей покупать больше недвижимости, так как это становится финансово более доступным.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Higher interest rates generally make borrowing more expensive, which can discourage purchasing real estate.",
+          "text_ru": "Более высокие процентные ставки обычно делают заимствование более дорогим, что может обескураживать покупку недвижимости."
+        },
+        "opt_c": {
+          "text_en": "Lower interest rates usually encourage homebuying, not discourage it.",
+          "text_ru": "Более низкие процентные ставки обычно стимулируют покупку жилья, а не обескураживают ее."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "housing_sector",
+        "interest_rates",
+        "real_estate",
+        "mortgage"
+      ]
+    },
+    {
+      "question_id": "ECON-2-Q016",
+      "original_question_number": 4773,
+      "los_id": "LOS_2c",
+      "question_text_en": "Which type of economic indicator is most likely used to predict future movements of the economy?",
+      "question_text_ru": "Какой тип экономического индикатора наиболее вероятно используется для прогнозирования будущих движений экономики?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Leading indicators.",
+          "text_ru": "Опережающие индикаторы."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Lagging indicators.",
+          "text_ru": "Запаздывающие индикаторы."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Coincident indicators.",
+          "text_ru": "Совпадающие индикаторы."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Leading indicators, such as share prices and average weekly hours worked in the manufacturing sector, are designed to predict the future movements of the economy by providing early signals of economic cycles.",
+      "explanation_ru": "Опережающие индикаторы, такие как цены акций и средние недельные часы работы в производственном секторе, предназначены для прогнозирования будущих движений экономики, предоставляя ранние сигналы экономических циклов.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Lagging indicators change after the economy has already begun to follow a particular trend and are thus used to confirm patterns rather than predict them.",
+          "text_ru": "Запаздывающие индикаторы изменяются после того, как экономика уже начала следовать определенной тенденции, и поэтому используются для подтверждения моделей, а не для их прогнозирования."
+        },
+        "opt_c": {
+          "text_en": "Coincident indicators occur simultaneously with economic activities and are used to assess the current state of the economy, not to predict future movements.",
+          "text_ru": "Совпадающие индикаторы возникают одновременно с экономической активностью и используются для оценки текущего состояния экономики, а не для прогнозирования будущих движений."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "leading_indicators",
+        "economic_forecasting",
+        "economic_cycles"
+      ]
+    },
+    {
+      "question_id": "ECON-2-Q017",
+      "original_question_number": 4774,
+      "los_id": "LOS_2c",
+      "question_text_en": "Which economic indicator would an analyst most likely use to assess the current size of the economy?",
+      "question_text_ru": "Какой экономический индикатор аналитик наиболее вероятно использовал бы для оценки текущего размера экономики?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Retail sales.",
+          "text_ru": "Розничные продажи."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "New orders for capital goods.",
+          "text_ru": "Новые заказы на капитальные товары."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Gross national product (GNP).",
+          "text_ru": "Валовой национальный продукт (ВНП)."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Retail sales are a type of coincident indicator, which means they change simultaneously with the economy's expansions or contractions and can thus be used to assess the current size of the economy.",
+      "explanation_ru": "Розничные продажи являются типом совпадающего индикатора, что означает, что они изменяются одновременно с расширениями или сжатиями экономики и поэтому могут использоваться для оценки текущего размера экономики.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "New orders for capital goods are a leading indicator, used primarily to forecast future economic activity.",
+          "text_ru": "Новые заказы на капитальные товары являются опережающим индикатором, используемым в основном для прогнозирования будущей экономической активности."
+        },
+        "opt_c": {
+          "text_en": "Gross national product (GNP) is a lagging indicator, which makes it more suitable for confirming past economic patterns rather than assessing the current size of the economy.",
+          "text_ru": "Валовой национальный продукт (ВНП) является запаздывающим индикатором, что делает его более подходящим для подтверждения прошлых экономических моделей, а не для оценки текущего размера экономики."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "coincident_indicators",
+        "retail_sales",
+        "economic_size"
+      ]
+    },
+    {
+      "question_id": "ECON-2-Q018",
+      "original_question_number": 4775,
+      "los_id": "LOS_2c",
+      "question_text_en": "What is a major limitation of using economic indicators for predicting economic trends? They:",
+      "question_text_ru": "Каково основное ограничение использования экономических индикаторов для прогнозирования экономических тенденций? Они:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "are released too frequently to be useful.",
+          "text_ru": "публикуются слишком часто, чтобы быть полезными."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "provide exact data without need for interpretation.",
+          "text_ru": "предоставляют точные данные без необходимости интерпретации."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "often require correct interpretation and may contain inaccuracies.",
+          "text_ru": "часто требуют правильной интерпретации и могут содержать неточности."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "A major limitation of economic indicators is that they require careful interpretation and can often contain inaccuracies, making it challenging to derive precise forecasts from them.",
+      "explanation_ru": "Основное ограничение экономических индикаторов заключается в том, что они требуют тщательной интерпретации и часто могут содержать неточности, что затрудняет получение точных прогнозов на их основе.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The release schedule of economic indicators is typically structured to provide timely information; it is not usually considered too frequent to be useful.",
+          "text_ru": "График публикации экономических индикаторов обычно структурирован для предоставления своевременной информации; обычно он не считается слишком частым, чтобы быть полезным."
+        },
+        "opt_b": {
+          "text_en": "Economic data often require interpretation and are not inherently exact; misinterpretation can lead to incorrect conclusions about the economy's direction.",
+          "text_ru": "Экономические данные часто требуют интерпретации и не являются по своей сути точными; неправильная интерпретация может привести к неверным выводам о направлении экономики."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "economic_indicators",
+        "limitations",
+        "interpretation",
+        "accuracy"
+      ]
+    },
+    {
+      "question_id": "ECON-2-Q019",
+      "original_question_number": 4776,
+      "los_id": "LOS_2c",
+      "question_text_en": "Which indicator would an analyst most likely look at to confirm a pattern in the economy that has already occurred?",
+      "question_text_ru": "На какой индикатор аналитик скорее всего посмотрел бы, чтобы подтвердить модель в экономике, которая уже произошла?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Interest rates.",
+          "text_ru": "Процентные ставки."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Employment levels.",
+          "text_ru": "Уровни занятости."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Average weekly hours worked in the manufacturing sector.",
+          "text_ru": "Средние недельные часы работы в производственном секторе."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Interest rates are a type of lagging indicator. They change after the economy has already followed a certain pattern, making them useful for confirming economic trends that have already occurred.",
+      "explanation_ru": "Процентные ставки являются типом запаздывающего индикатора. Они изменяются после того, как экономика уже следовала определенной модели, что делает их полезными для подтверждения экономических тенденций, которые уже произошли.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Employment levels are a coincident indicator, which means they occur simultaneously with economic activities and are used to assess the current state of the economy.",
+          "text_ru": "Уровни занятости являются совпадающим индикатором, что означает, что они происходят одновременно с экономической активностью и используются для оценки текущего состояния экономики."
+        },
+        "opt_c": {
+          "text_en": "Average weekly hours worked in the manufacturing sector is a leading indicator, used to predict future economic movements rather than confirm past patterns.",
+          "text_ru": "Средние недельные часы работы в производственном секторе являются опережающим индикатором, используемым для прогнозирования будущих экономических движений, а не для подтверждения прошлых моделей."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "lagging_indicators",
+        "interest_rates",
+        "economic_confirmation"
       ]
     }
   ]
