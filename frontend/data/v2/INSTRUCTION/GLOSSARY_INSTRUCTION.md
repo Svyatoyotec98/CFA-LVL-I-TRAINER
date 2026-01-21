@@ -7,26 +7,52 @@
 
 ---
 
-# ⚠️ КРИТИЧЕСКИ ВАЖНО — ПРОЧИТАЙ ПЕРВЫМ
+# 🛑 СТОП! ПРОЧИТАЙ ПЕРЕД НАЧАЛОМ РАБОТЫ!
 
-## Формат названия ветки
+## ШАГ 0: Создание ветки (ОБЯЗАТЕЛЬНО ПЕРВЫМ!)
 
-ПЕРЕД началом работы создай ветку в СТРОГО ОБЯЗАТЕЛЬНОМ формате:
+**НЕ НАЧИНАЙ РАБОТУ пока не создашь ветку правильно!**
+
+### Формат названия ветки:
 ```
 claude/add-{book}-module-{N}-glossary-{random}
 ```
 
-Где:
+### Пример для Economics Module 5:
+```bash
+git checkout -b claude/add-economics-module-5-glossary-xK9mP
+git push -u origin claude/add-economics-module-5-glossary-xK9mP
+```
+
+### ⛔ ПРОВЕРЬ СЕБЯ:
+1. Ветка начинается с `claude/add-` ? ✓
+2. Название книги МАЛЕНЬКИМИ буквами (economics, НЕ Economics)? ✓
+3. Есть `module-5` (или другой номер)? ✓
+4. Есть `-glossary-` ? ✓
+5. Заканчивается случайными символами? ✓
+
+### ❌ НЕПРАВИЛЬНО:
+- `claude/create-economics-glossary-xxx` — нет `module-N`!
+- `claude/add-Economics-module-5-glossary-xxx` — заглавная буква!
+- `claude/add-economics-glossary-xxx` — нет `module-N`!
+
+### ✅ ПРАВИЛЬНО:
+- `claude/add-economics-module-5-glossary-xK9mP`
+- `claude/add-quants-module-3-glossary-aB3nQ`
+
+**⛔ ЕСЛИ ВЕТКА СОЗДАНА НЕПРАВИЛЬНО — УДАЛИ И СОЗДАЙ ЗАНОВО:**
+```bash
+git checkout main
+git branch -D claude/неправильное-имя
+git checkout -b claude/add-{book}-module-{N}-glossary-{random}
+```
+
+**📌 Где взять значения:**
 - `{book}` — название книги МАЛЕНЬКИМИ буквами (economics, quants, fsa, cf, equity, fi, derivatives, alt, pm, ethics)
-- `{N}` — номер модуля (1, 2, 3...)
-- `{random}` — любой короткий случайный суффикс
+- `{N}` — номер модуля из задания (1, 2, 3...)
+- `{random}` — любой короткий случайный суффикс (5 символов)
 
-**Примеры правильных названий:**
-- `claude/add-economics-module-4-glossary-abc123`
-- `claude/add-quants-module-9-glossary-xyz789`
-- `claude/add-fsa-module-2-glossary-qwe456`
-
-**БЕЗ номера модуля ветка НЕ БУДЕТ РАСПОЗНАНА системой мониторинга!**
+**⚠️ БЕЗ номера модуля ветка НЕ БУДЕТ РАСПОЗНАНА системой мониторинга!**
 
 ---
 
