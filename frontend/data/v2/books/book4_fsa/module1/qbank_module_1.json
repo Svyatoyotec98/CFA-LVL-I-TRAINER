@@ -7,7 +7,7 @@
     "module_id": 1,
     "module_name": "Introduction to Financial Statement Analysis",
     "module_name_ru": "Введение в анализ финансовой отчетности",
-    "total_questions": 10,
+    "total_questions": 20,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -510,6 +510,506 @@
       "topic_tags": [
         "interim_reports",
         "unaudited_reports"
+      ]
+    },
+    {
+      "question_id": "FSA-1-Q011",
+      "original_question_number": 1803,
+      "los_id": "LOS_1c",
+      "question_text_en": "Which of the following is least likely to be reviewed by independent outside auditors?",
+      "question_text_ru": "Что из следующего наименее вероятно будет проверено независимыми внешними аудиторами?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Corporate press releases.",
+          "text_ru": "Корпоративные пресс-релизы."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Internal controls of a company.",
+          "text_ru": "Внутренний контроль компании."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Management Discussion and Analysis (MD&A).",
+          "text_ru": "Обсуждение и анализ менеджмента (MD&A)."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Corporate press releases are the least likely to be reviewed by independent outside auditors. Press releases are primarily intended for marketing or informational purposes and are not considered formal financial documents. The primary role of independent auditors is to examine the financial records and internal controls to ensure the accuracy and reliability of financial statements.",
+      "explanation_ru": "Корпоративные пресс-релизы наименее вероятно будут проверены независимыми внешними аудиторами. Пресс-релизы в первую очередь предназначены для маркетинговых или информационных целей и не считаются официальными финансовыми документами. Основная роль независимых аудиторов заключается в проверке финансовых записей и внутреннего контроля для обеспечения точности и надежности финансовой отчетности.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Independent outside auditors do review the internal controls of a company as part of the audit process.",
+          "text_ru": "Неверно. Независимые внешние аудиторы проверяют внутренний контроль компании как часть процесса аудита."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. MD&A helps investors understand the context of the financial statements and provides additional insights into the company's performance and strategic direction.",
+          "text_ru": "Неверно. MD&A помогает инвесторам понять контекст финансовой отчетности и предоставляет дополнительное понимание деятельности компании и стратегического направления."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "audit_scope",
+        "press_releases"
+      ]
+    },
+    {
+      "question_id": "FSA-1-Q012",
+      "original_question_number": 1811,
+      "los_id": "LOS_1c",
+      "question_text_en": "Which of the following statements is most likely accurate?",
+      "question_text_ru": "Какое из следующих утверждений наиболее вероятно точное?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The Management Discussion and Analysis (MD&A) is provided as a separate supplement.",
+          "text_ru": "Обсуждение и анализ менеджмента (MD&A) предоставляется как отдельное приложение."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The Management Discussion and Analysis (MD&A) provides detailed numerical information regarding cash inflows and outflows of the firm.",
+          "text_ru": "Обсуждение и анализ менеджмента (MD&A) предоставляет подробную числовую информацию о притоках и оттоках денежных средств фирмы."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "In the U.S., the Securities and Exchange Commission (SEC) requires the Management Discussion and Analysis (MD&A) to discuss trends and uncertainties.",
+          "text_ru": "В США Комиссия по ценным бумагам и биржам (SEC) требует, чтобы в MD&A обсуждались тренды и неопределенности."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "This requirement is part of the SEC's efforts to ensure that investors have access to comprehensive information that could affect a company's financial condition or results of operations. The MD&A section discusses the company's liquidity, capital resources, results of operations, and trends, uncertainties, and significant events.",
+      "explanation_ru": "Это требование является частью усилий SEC по обеспечению того, чтобы инвесторы имели доступ к всесторонней информации, которая может повлиять на финансовое состояние или результаты операций компании. Раздел MD&A обсуждает ликвидность компании, капитальные ресурсы, результаты операций, а также тренды, неопределенности и значимые события.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The MD&A is not provided as a separate supplement; it is an integral part of a company's annual and quarterly reports filed with the SEC.",
+          "text_ru": "Неверно. MD&A не предоставляется как отдельное приложение; это неотъемлемая часть годовых и квартальных отчетов компании, подаваемых в SEC."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. While the MD&A does discuss financial performance and may touch on cash flows, detailed numerical information regarding cash inflows and outflows is found in the statement of cash flows.",
+          "text_ru": "Неверно. Хотя MD&A обсуждает финансовую деятельность и может затрагивать денежные потоки, подробная числовая информация о притоках и оттоках денежных средств находится в отчете о движении денежных средств."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "MD&A",
+        "SEC_requirements"
+      ]
+    },
+    {
+      "question_id": "FSA-1-Q013",
+      "original_question_number": 1814,
+      "los_id": "LOS_1c",
+      "question_text_en": "Andrew Anderson is an auditor for SRS Corp. While reviewing all of the income statements, he found some instances of accounts materially nonconforming to accounting standards. Which of the following is most likely the suitable opinion that Andrew should give regarding the SRS income statement?",
+      "question_text_ru": "Эндрю Андерсон является аудитором SRS Corp. При проверке всех отчетов о прибылях и убытках он обнаружил несколько случаев существенного несоответствия счетов стандартам учета. Какое из следующих заключений наиболее вероятно подходит для Эндрю относительно отчета о прибылях и убытках SRS?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "A qualified opinion.",
+          "text_ru": "Условно-положительное заключение."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "An adverse opinion.",
+          "text_ru": "Отрицательное заключение."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "An unqualified opinion.",
+          "text_ru": "Безусловно-положительное заключение."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "An adverse opinion is the most suitable audit opinion when the auditor concludes that the financial statements are materially misstated and do not accurately reflect the company's financial position, results of operations, or cash flows in accordance with GAAP. The issuance of an adverse opinion warns users that the financial statements cannot be relied upon to make informed decisions.",
+      "explanation_ru": "Отрицательное заключение является наиболее подходящим аудиторским заключением, когда аудитор приходит к выводу, что финансовая отчетность существенно искажена и не точно отражает финансовое положение компании, результаты операций или денежные потоки в соответствии с GAAP. Выдача отрицательного заключения предупреждает пользователей, что на финансовую отчетность нельзя полагаться при принятии обоснованных решений.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. A qualified opinion indicates that the issues identified are limited and do not affect the financial statements as a whole. Since Andrew found material non-conformities, a qualified opinion would not fully capture the extent of the discrepancies.",
+          "text_ru": "Неверно. Условно-положительное заключение указывает на то, что выявленные проблемы ограничены и не влияют на финансовую отчетность в целом. Поскольку Эндрю обнаружил существенные несоответствия, условно-положительное заключение не полностью отразит масштаб расхождений."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. An unqualified opinion is issued when the auditor concludes that the financial statements are presented fairly in all material respects. Given that Andrew discovered material non-conformities, issuing an unqualified opinion would be inappropriate and misleading.",
+          "text_ru": "Неверно. Безусловно-положительное заключение выдается, когда аудитор приходит к выводу, что финансовая отчетность представлена справедливо во всех существенных аспектах. Учитывая, что Эндрю обнаружил существенные несоответствия, выдача безусловно-положительного заключения была бы неуместной и вводящей в заблуждение."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "audit_opinion",
+        "adverse_opinion"
+      ]
+    },
+    {
+      "question_id": "FSA-1-Q014",
+      "original_question_number": 4568,
+      "los_id": "LOS_1a",
+      "question_text_en": "In the context of the financial statement analysis framework, which step is primarily concerned with establishing the scope and objectives of the analysis?",
+      "question_text_ru": "В контексте структуры анализа финансовой отчетности, какой шаг в первую очередь связан с установлением масштаба и целей анализа?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Collect Data",
+          "text_ru": "Сбор данных"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Analyze and Interpret the Data",
+          "text_ru": "Анализ и интерпретация данных"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Articulate the Purpose and Context of the Analysis",
+          "text_ru": "Формулировка цели и контекста анализа"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "In the 'Articulate the Purpose and Context of the Analysis' step, the analyst defines the target audience, end product, timeframe, and specific questions to be answered by the analysis. It sets the foundation for the entire analysis process by clarifying the purpose and context, guiding further decisions about the approach, tools, data sources, and final report format.",
+      "explanation_ru": "На этапе 'Формулировка цели и контекста анализа' аналитик определяет целевую аудиторию, конечный продукт, временные рамки и конкретные вопросы, на которые должен ответить анализ. Это закладывает основу для всего процесса анализа, уточняя цель и контекст, направляя дальнейшие решения о подходе, инструментах, источниках данных и формате итогового отчета.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The 'Collect Data' step focuses on gathering the necessary data but does not deal with defining the scope and objectives of the analysis.",
+          "text_ru": "Неверно. Этап 'Сбор данных' фокусируется на сборе необходимых данных, но не занимается определением масштаба и целей анализа."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. The 'Analyze and Interpret the Data' step is about interpreting the results of the analysis rather than setting its scope and objectives.",
+          "text_ru": "Неверно. Этап 'Анализ и интерпретация данных' касается интерпретации результатов анализа, а не установления его масштаба и целей."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "analysis_framework",
+        "scope_objectives"
+      ]
+    },
+    {
+      "question_id": "FSA-1-Q015",
+      "original_question_number": 4570,
+      "los_id": "LOS_1a",
+      "question_text_en": "Which step of the financial statement analysis framework most likely involves assessing the impact of resource constraints on the analysis?",
+      "question_text_ru": "Какой этап структуры анализа финансовой отчетности наиболее вероятно включает оценку влияния ресурсных ограничений на анализ?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Follow-up",
+          "text_ru": "Последующий контроль"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Collect Data",
+          "text_ru": "Сбор данных"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Articulate the Purpose and Context of the Analysis",
+          "text_ru": "Формулировка цели и контекста анализа"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "In the 'Articulate the Purpose and Context of the Analysis' step, the analyst considers various factors that will shape the analysis, including resource constraints. This involves identifying the resources available for the analysis and any limitations that might impact the approach, such as time or budget constraints. By assessing these constraints early on, the analyst can plan the analysis more effectively and set realistic expectations.",
+      "explanation_ru": "На этапе 'Формулировка цели и контекста анализа' аналитик рассматривает различные факторы, которые будут формировать анализ, включая ресурсные ограничения. Это включает определение ресурсов, доступных для анализа, и любых ограничений, которые могут повлиять на подход, таких как временные или бюджетные ограничения. Оценивая эти ограничения на ранней стадии, аналитик может более эффективно планировать анализ и устанавливать реалистичные ожидания.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The 'Follow-up' step is concerned with periodically reviewing the conclusions and recommendations to ensure their continued validity. It does not involve assessing resource constraints.",
+          "text_ru": "Неверно. Этап 'Последующий контроль' связан с периодическим пересмотром выводов и рекомендаций для обеспечения их актуальности. Он не включает оценку ресурсных ограничений."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. The 'Collect Data' step is focused on gathering the necessary information for the analysis. While resource constraints may indirectly affect data collection, this step does not specifically involve assessing the impact of those constraints.",
+          "text_ru": "Неверно. Этап 'Сбор данных' фокусируется на сборе необходимой информации для анализа. Хотя ресурсные ограничения могут косвенно влиять на сбор данных, этот этап не включает конкретную оценку влияния этих ограничений."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "analysis_framework",
+        "resource_constraints"
+      ]
+    },
+    {
+      "question_id": "FSA-1-Q016",
+      "original_question_number": 4572,
+      "los_id": "LOS_1a",
+      "question_text_en": "During which step of the financial statement analysis framework would an analyst most likely prepare forecasts and valuations based on the analyzed data?",
+      "question_text_ru": "На каком этапе структуры анализа финансовой отчетности аналитик наиболее вероятно подготовит прогнозы и оценки на основе проанализированных данных?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Process Data",
+          "text_ru": "Обработка данных"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Analyze and Interpret the Data",
+          "text_ru": "Анализ и интерпретация данных"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Develop and Communicate Conclusions and Recommendations",
+          "text_ru": "Разработка и передача выводов и рекомендаций"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "'Analyze and Interpret the Data' is the stage where the analyst assesses the processed data to draw conclusions and make informed decisions. This step involves deeper analysis where the analyst uses the processed data to prepare forecasts and valuations. Forecasts involve predicting future financial performance based on historical data, while valuations determine the value of a company or its assets.",
+      "explanation_ru": "'Анализ и интерпретация данных' - это этап, на котором аналитик оценивает обработанные данные для формулирования выводов и принятия обоснованных решений. Этот этап включает более глубокий анализ, где аналитик использует обработанные данные для подготовки прогнозов и оценок. Прогнозы включают прогнозирование будущих финансовых показателей на основе исторических данных, в то время как оценки определяют стоимость компании или ее активов.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The 'Process Data' step focuses on organizing and structuring the data collected. While essential for preparing the data for analysis, it does not involve the actual preparation of forecasts or valuations.",
+          "text_ru": "Неверно. Этап 'Обработка данных' фокусируется на организации и структурировании собранных данных. Хотя он важен для подготовки данных к анализу, он не включает фактическую подготовку прогнозов или оценок."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. 'Develop and Communicate Conclusions and Recommendations' comes after the analysis and interpretation of the data. It involves summarizing findings, formulating conclusions, and making recommendations, not preparing forecasts and valuations.",
+          "text_ru": "Неверно. 'Разработка и передача выводов и рекомендаций' следует после анализа и интерпретации данных. Это включает обобщение результатов, формулирование выводов и рекомендаций, а не подготовку прогнозов и оценок."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "analysis_framework",
+        "forecasts_valuations"
+      ]
+    },
+    {
+      "question_id": "FSA-1-Q017",
+      "original_question_number": 4574,
+      "los_id": "LOS_1b",
+      "question_text_en": "Which of the following is most likely a primary objective of financial statement analysis?",
+      "question_text_ru": "Что из следующего наиболее вероятно является основной целью анализа финансовой отчетности?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "To predict the exact future stock price of a company.",
+          "text_ru": "Предсказать точную будущую цену акций компании."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "To determine the precise date of a company's bankruptcy.",
+          "text_ru": "Определить точную дату банкротства компании."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "To assess a company's ability to generate positive cash flows continuously.",
+          "text_ru": "Оценить способность компании непрерывно генерировать положительные денежные потоки."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "One of the primary objectives of financial statement analysis is to evaluate a company's financial health and operational efficiency. Assessing a company's ability to generate positive cash flows continuously is crucial in determining its financial stability, liquidity, and long-term viability. Positive cash flows indicate that a company can meet its financial obligations, invest in growth opportunities, and provide returns to shareholders.",
+      "explanation_ru": "Одной из основных целей анализа финансовой отчетности является оценка финансового здоровья и операционной эффективности компании. Оценка способности компании непрерывно генерировать положительные денежные потоки имеет решающее значение для определения ее финансовой стабильности, ликвидности и долгосрочной жизнеспособности. Положительные денежные потоки указывают на то, что компания может выполнять свои финансовые обязательства, инвестировать в возможности роста и обеспечивать доходность акционерам.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Financial statement analysis does not aim to predict the exact future stock price of a company. Stock prices are influenced by various factors including market conditions and investor sentiment.",
+          "text_ru": "Неверно. Анализ финансовой отчетности не направлен на предсказание точной будущей цены акций компании. Цены на акции зависят от различных факторов, включая рыночные условия и настроения инвесторов."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Financial statement analysis is not used to determine the precise date of a company's bankruptcy. While analysis can help identify financial distress and potential risks, it does not provide a specific date for such an event.",
+          "text_ru": "Неверно. Анализ финансовой отчетности не используется для определения точной даты банкротства компании. Хотя анализ может помочь выявить финансовые проблемы и потенциальные риски, он не предоставляет конкретную дату такого события."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "analysis_objectives",
+        "cash_flows"
+      ]
+    },
+    {
+      "question_id": "FSA-1-Q018",
+      "original_question_number": 4575,
+      "los_id": "LOS_1c",
+      "question_text_en": "Which of the following statements best describes the role of the International Organization of Securities Commissions (IOSCO)?",
+      "question_text_ru": "Какое из следующих утверждений лучше всего описывает роль Международной организации комиссий по ценным бумагам (IOSCO)?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "IOSCO is a regulatory authority that directly oversees all global financial markets.",
+          "text_ru": "IOSCO - это регулирующий орган, который непосредственно контролирует все глобальные финансовые рынки."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "IOSCO is responsible for enforcing securities laws and regulations in each of its member countries.",
+          "text_ru": "IOSCO отвечает за исполнение законов и правил о ценных бумагах в каждой из стран-членов."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "IOSCO provides a platform for its members to develop and promote adherence to internationally recognized standards for securities regulation.",
+          "text_ru": "IOSCO предоставляет платформу для своих членов для разработки и продвижения соблюдения международно признанных стандартов регулирования ценных бумаг."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "IOSCO's primary role is to provide a platform for its members, which include securities regulators from various countries, to develop, promote, and adhere to internationally recognized standards for securities regulation. This helps ensure a consistent approach to securities regulation across different jurisdictions.",
+      "explanation_ru": "Основная роль IOSCO заключается в предоставлении платформы для своих членов, которые включают регуляторов ценных бумаг из различных стран, для разработки, продвижения и соблюдения международно признанных стандартов регулирования ценных бумаг. Это помогает обеспечить последовательный подход к регулированию ценных бумаг в разных юрисдикциях.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. IOSCO is not a regulatory authority with direct oversight over global financial markets. It is an international body that brings together securities regulators to collaborate and develop global standards.",
+          "text_ru": "Неверно. IOSCO не является регулирующим органом с прямым надзором над глобальными финансовыми рынками. Это международная организация, которая объединяет регуляторов ценных бумаг для сотрудничества и разработки глобальных стандартов."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. IOSCO itself does not enforce securities laws and regulations in member countries. Enforcement is the responsibility of individual member regulators within their respective jurisdictions.",
+          "text_ru": "Неверно. IOSCO сама по себе не обеспечивает исполнение законов и правил о ценных бумагах в странах-членах. Исполнение является обязанностью отдельных регуляторов-членов в рамках их юрисдикций."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "IOSCO",
+        "securities_regulation"
+      ]
+    },
+    {
+      "question_id": "FSA-1-Q019",
+      "original_question_number": 4576,
+      "los_id": "LOS_1c",
+      "question_text_en": "Which of the following is least likely a core objective of securities regulation as defined by IOSCO's principles?",
+      "question_text_ru": "Что из следующего наименее вероятно является основной целью регулирования ценных бумаг в соответствии с принципами IOSCO?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Systemic risk reduction.",
+          "text_ru": "Снижение системного риска."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Maximization of shareholder profits.",
+          "text_ru": "Максимизация прибыли акционеров."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Ensuring a fair, efficient, and transparent market.",
+          "text_ru": "Обеспечение справедливого, эффективного и прозрачного рынка."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Maximization of shareholder profits is not listed as a core objective of securities regulation by IOSCO. While securities regulation aims to create an environment where investors can make informed decisions and potentially earn profits, the primary focus is on market integrity, investor protection, and risk reduction, rather than directly maximizing profits.",
+      "explanation_ru": "Максимизация прибыли акционеров не указана как основная цель регулирования ценных бумаг IOSCO. Хотя регулирование ценных бумаг направлено на создание среды, в которой инвесторы могут принимать обоснованные решения и потенциально получать прибыль, основное внимание уделяется целостности рынка, защите инвесторов и снижению рисков, а не прямой максимизации прибыли.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Systemic risk reduction is indeed one of the core objectives of securities regulation according to IOSCO. This objective aims to minimize the risk of a breakdown in the financial system that could have widespread implications.",
+          "text_ru": "Неверно. Снижение системного риска действительно является одной из основных целей регулирования ценных бумаг согласно IOSCO. Эта цель направлена на минимизацию риска сбоя в финансовой системе, который может иметь широкие последствия."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Ensuring a fair, efficient, and transparent market is a core objective of securities regulation as defined by IOSCO. This objective aims to promote investor confidence and market integrity.",
+          "text_ru": "Неверно. Обеспечение справедливого, эффективного и прозрачного рынка является основной целью регулирования ценных бумаг в соответствии с определением IOSCO. Эта цель направлена на повышение доверия инвесторов и целостности рынка."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "IOSCO",
+        "securities_regulation_objectives"
+      ]
+    },
+    {
+      "question_id": "FSA-1-Q020",
+      "original_question_number": 4577,
+      "los_id": "LOS_1c",
+      "question_text_en": "In the context of the US Securities and Exchange Commission (SEC), which of the following acts most likely established the Public Company Accounting Oversight Board (PCAOB) to oversee auditors?",
+      "question_text_ru": "В контексте Комиссии по ценным бумагам и биржам США (SEC), какой из следующих актов наиболее вероятно учредил Совет по надзору за бухгалтерским учетом публичных компаний (PCAOB) для надзора за аудиторами?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Securities Act of 1933.",
+          "text_ru": "Закон о ценных бумагах 1933 года."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Sarbanes-Oxley Act of 2002.",
+          "text_ru": "Закон Сарбейнса-Оксли 2002 года."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Securities Exchange Act of 1934.",
+          "text_ru": "Закон о биржах ценных бумаг 1934 года."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The Sarbanes-Oxley Act of 2002 was enacted in response to financial scandals and aimed to enhance corporate governance and financial reporting. One of the key provisions of the act was the establishment of the PCAOB to oversee the audits of public companies, ensuring the integrity and quality of financial reporting.",
+      "explanation_ru": "Закон Сарбейнса-Оксли 2002 года был принят в ответ на финансовые скандалы и направлен на улучшение корпоративного управления и финансовой отчетности. Одним из ключевых положений закона было создание PCAOB для надзора за аудитом публичных компаний, обеспечивая целостность и качество финансовой отчетности.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The Securities Act of 1933 primarily focused on regulating the initial offering and sale of securities to the public, requiring disclosure of financial information but not establishing the PCAOB.",
+          "text_ru": "Неверно. Закон о ценных бумагах 1933 года в основном фокусировался на регулировании первоначального предложения и продажи ценных бумаг населению, требуя раскрытия финансовой информации, но не учреждал PCAOB."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The Securities Exchange Act of 1934 established the SEC and granted it regulatory authority over the securities industry, but it did not create the PCAOB.",
+          "text_ru": "Неверно. Закон о биржах ценных бумаг 1934 года учредил SEC и предоставил ей регулирующие полномочия над индустрией ценных бумаг, но не создал PCAOB."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "Sarbanes_Oxley",
+        "PCAOB"
       ]
     }
   ]
