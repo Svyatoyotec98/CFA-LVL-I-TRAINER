@@ -9,7 +9,7 @@
     "module_name_ru": "Валютные курсы",
     "page_range": "155-182",
     "total_terms": 40,
-    "total_exercises": 0,
+    "total_exercises": 3,
     "version": "2.0",
     "last_updated": "2026-01-21"
   },
@@ -319,7 +319,58 @@
           "calculator": null
         }
       ],
-      "exercises": []
+      "exercises": [
+        {
+          "exercise_id": "ECON-7-EX-001",
+          "question_en": "Which of the following best describes a 4% appreciation in the ZAR/CNY exchange rate?",
+          "question_ru": "Что из следующего лучше всего описывает 4% удорожание обменного курса ZAR/CNY?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "This represents a 4 percent appreciation in the South African Rand (ZAR) compared to the Chinese Yuan.",
+              "text_ru": "Это представляет 4-процентное удорожание южноафриканского рэнда (ZAR) по сравнению с китайским юанем."
+            },
+            {
+              "letter": "B",
+              "text_en": "This represents a 4 percent appreciation in the Chinese Yuan (CNY) compared to the South African Rand.",
+              "text_ru": "Это представляет 4-процентное удорожание китайского юаня (CNY) по сравнению с южноафриканским рэндом."
+            },
+            {
+              "letter": "C",
+              "text_en": "This represents a 4 percent depreciation in the Chinese Yuan (CNY) compared to the South African Rand.",
+              "text_ru": "Это представляет 4-процентное обесценивание китайского юаня (CNY) по сравнению с южноафриканским рэндом."
+            }
+          ],
+          "correct_answer": "B",
+          "solution_en": "A 4% appreciation in the ZAR/CNY exchange rate represents an appreciation of the base currency against the price currency. In this case, the Chinese Yuan (CNY) is the base currency and it appreciates against the South African Rand (ZAR), which is the price currency. Therefore, the appreciation represents a 4 percent increase in the Chinese Yuan relative to the South African Rand.",
+          "solution_ru": "4% удорожание обменного курса ZAR/CNY представляет удорожание базовой валюты по отношению к валюте котировки. В этом случае китайский юань (CNY) является базовой валютой и дорожает по отношению к южноафриканскому рэнду (ZAR), который является валютой котировки. Следовательно, удорожание представляет собой 4-процентное увеличение китайского юаня относительно южноафриканского рэнда."
+        },
+        {
+          "exercise_id": "ECON-7-EX-002",
+          "question_en": "If the bid/offer quote from the trader were 25.6250–25.6300 INR/USD, then the bid/offer quote in USD/INR terms would be closest to:",
+          "question_ru": "Если котировка бид/оффер от трейдера составляет 25.6250–25.6300 INR/USD, то котировка бид/оффер в терминах USD/INR будет ближе всего к:",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "0.03901–0.03902",
+              "text_ru": "0.03901–0.03902"
+            },
+            {
+              "letter": "B",
+              "text_en": "0.03902–0.03901",
+              "text_ru": "0.03902–0.03901"
+            },
+            {
+              "letter": "C",
+              "text_en": "0.039015–0.039015",
+              "text_ru": "0.039015–0.039015"
+            }
+          ],
+          "correct_answer": "A",
+          "solution_en": "An INR/USD quote represents the amount of Indian rupees the trader is bidding (offering) to purchase (sell) USD1. The trader's bid to buy USD1 at INR25.6250 is similar to the trader handing over INR25.6250 to buy USD1. When you divide both terms by 25.6250, it means the trader is handing over (i.e., selling) INR1 to buy USD0.03902. This becomes the offer in USD/INR terms. In USD/INR terms, the trader's bid for INR1 is 0.03901, determined by inverting the offer of 25.6300 in INR/USD terms (1/25.6300 = 0.03901). It's crucial to remember that in any bid/offer quote, irrespective of the base or price currencies chosen, the bid is always lesser than the offer.",
+          "solution_ru": "Котировка INR/USD представляет количество индийских рупий, которые трейдер предлагает (предлагает) для покупки (продажи) USD1. Бид трейдера на покупку USD1 по INR25.6250 аналогичен тому, что трейдер отдает INR25.6250 для покупки USD1. Когда вы делите оба значения на 25.6250, это означает, что трейдер отдает (то есть продает) INR1 для покупки USD0.03902. Это становится оффером в терминах USD/INR. В терминах USD/INR бид трейдера на INR1 составляет 0.03901, определяемый инвертированием оффера 25.6300 в терминах INR/USD (1/25.6300 = 0.03901). Важно помнить, что в любой котировке бид/оффер, независимо от выбранных базовой или валюты котировки, бид всегда меньше оффера."
+        }
+      ]
     },
     {
       "los_id": "LOS_7b",
@@ -558,7 +609,33 @@
           "calculator": null
         }
       ],
-      "exercises": []
+      "exercises": [
+        {
+          "exercise_id": "ECON-7-EX-003",
+          "question_en": "In which of the following currency arrangements does a nation adopt another nation's currency as its medium of exchange?",
+          "question_ru": "В каком из следующих валютных соглашений страна принимает валюту другой страны в качестве средства обмена?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Fixed Parity",
+              "text_ru": "Фиксированный паритет"
+            },
+            {
+              "letter": "B",
+              "text_en": "Dollarization",
+              "text_ru": "Долларизация"
+            },
+            {
+              "letter": "C",
+              "text_en": "Fixed Parity with Crawling Bands",
+              "text_ru": "Фиксированный паритет с ползущими полосами"
+            }
+          ],
+          "correct_answer": "B",
+          "solution_en": "Dollarization is a currency arrangement in which a nation adopts another nation's currency as its medium of exchange, abandoning its own domestic currency. Examples include Ecuador, El Salvador, Panama, and East Timor, which use the US dollar. A is incorrect because a fixed parity system involves pegging the exchange rate to a single currency or a basket of currencies but without any legislative commitment to maintain it, allowing a country to adjust or abandon the parity if necessary. C is incorrect because a fixed parity with crawling bands is when a country that had initially pegged its currency to a foreign currency to stabilize inflation gradually widens a pre-defined range around the fixed rate to introduce more flexibility.",
+          "solution_ru": "Долларизация - это валютное соглашение, при котором страна принимает валюту другой страны в качестве средства обмена, отказываясь от собственной отечественной валюты. Примеры включают Эквадор, Сальвадор, Панаму и Восточный Тимор, которые используют доллар США. A неверно, поскольку система фиксированного паритета предполагает привязку обменного курса к одной валюте или корзине валют, но без какого-либо законодательного обязательства поддерживать его, позволяя стране корректировать или отказываться от паритета при необходимости. C неверно, поскольку фиксированный паритет с ползущими полосами - это когда страна, которая изначально привязала свою валюту к иностранной валюте для стабилизации инфляции, постепенно расширяет заранее определенный диапазон вокруг фиксированного курса для введения большей гибкости."
+        }
+      ]
     }
   ]
 }
