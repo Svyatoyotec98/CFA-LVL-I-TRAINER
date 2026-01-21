@@ -1,0 +1,582 @@
+{
+  "metadata": {
+    "book_id": 3,
+    "book_code": "FSA",
+    "book_name": "Financial Statement Analysis",
+    "book_name_ru": "Анализ финансовой отчетности",
+    "module_id": 2,
+    "module_name": "Analyzing Income Statements",
+    "module_name_ru": "Анализ отчетов о прибылях и убытках",
+    "total_questions": 10,
+    "version": "2.0",
+    "source": "AnalystPrep QBank"
+  },
+  "questions": [
+    {
+      "question_id": "FSA-2-Q001",
+      "original_question_number": 448,
+      "los_id": "LOS_2d",
+      "question_text_en": "For its fiscal year-end, Brighter World Limited, a manufacturer of personal computers, reported a net income of $800 million and a weighted average of 80,000,000 common shares outstanding. At the moment, there is a total of 4,000,000 convertible preferred shares outstanding that paid an annual dividend of $8. Given that each preferred share is convertible into two shares of the common stock, the diluted EPS is closest to:",
+      "question_text_ru": "На конец финансового года Brighter World Limited, производитель персональных компьютеров, отчиталась о чистой прибыли в $800 млн и средневзвешенном количестве 80,000,000 обыкновенных акций в обращении. В настоящее время в обращении находится 4,000,000 конвертируемых привилегированных акций, которые выплатили годовой дивиденд в размере $8. Учитывая, что каждая привилегированная акция конвертируется в две обыкновенные акции, размытая прибыль на акцию ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$8.72",
+          "text_ru": "$8.72"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$9.09",
+          "text_ru": "$9.09"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$11.11",
+          "text_ru": "$11.11"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "When it comes to calculating diluted earnings per share (EPS) for a company that has outstanding stock options, warrants, or their equivalent, the Treasury Stock method under US GAAP is used. In this case, we ought to assume that the 4,000,000 convertible preferred shares have been converted into ordinary shares, implying that no preferred dividends are paid. As such, we do not subtract preferred dividends from Net Income in the numerator. Diluted EPS = $800,000,000 / [80,000,000 + (4,000,000 × 2)] = $9.09",
+      "explanation_ru": "При расчете размытой прибыли на акцию (EPS) для компании, имеющей непогашенные опционы на акции, варранты или их эквиваленты, используется метод Treasury Stock по US GAAP. В этом случае мы должны предположить, что 4,000,000 конвертируемых привилегированных акций были конвертированы в обыкновенные акции, что означает, что привилегированные дивиденды не выплачиваются. Таким образом, мы не вычитаем привилегированные дивиденды из чистой прибыли в числителе. Размытая EPS = $800,000,000 / [80,000,000 + (4,000,000 × 2)] = $9.09",
+      "explanation_formula": "$\\text{Diluted EPS} = \\frac{\\text{Net income}}{\\text{Weighted average shares} + \\text{New common shares}} = \\frac{\\$800,000,000}{80,000,000 + 8,000,000} = \\$9.09$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This subtracts the preferred dividends in the numerator: [$800,000,000 - (4,000,000 × $8)] / [80,000,000 + (4,000,000 × 2)] = $8.72",
+          "text_ru": "Неверно. Это вычитает привилегированные дивиденды в числителе: [$800,000,000 - (4,000,000 × $8)] / [80,000,000 + (4,000,000 × 2)] = $8.72"
+        },
+        "opt_c": {
+          "text_en": "Incorrect. New common shares are subtracted in the denominator: $800,000,000 / [80,000,000 - (4,000,000 × 2)] = $11.11",
+          "text_ru": "Неверно. Новые обыкновенные акции вычитаются в знаменателе: $800,000,000 / [80,000,000 - (4,000,000 × 2)] = $11.11"
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "diluted_eps",
+        "convertible_preferred_shares"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q002",
+      "original_question_number": 457,
+      "los_id": "LOS_2c",
+      "question_text_en": "Which of the following approach is most likely to be adopted during the analysis if the warranty expense in relation to sales of two identical companies is substantially different?",
+      "question_text_ru": "Какой из следующих подходов наиболее вероятно будет принят во время анализа, если расходы на гарантийное обслуживание по отношению к продажам двух идентичных компаний существенно различаются?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Adjust the financials to increase the warranty expense to a higher level.",
+          "text_ru": "Скорректировать финансовые отчеты, чтобы увеличить расходы на гарантийное обслуживание до более высокого уровня."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Adjust the financials to decrease the warranty expense to a lower level.",
+          "text_ru": "Скорректировать финансовые отчеты, чтобы уменьшить расходы на гарантийное обслуживание до более низкого уровня."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Review the trend of warranty claims received by the two companies and assess the need for adjustments.",
+          "text_ru": "Проанализировать тенденцию гарантийных претензий, полученных двумя компаниями, и оценить необходимость корректировок."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "When analyzing the financials of two identical companies with substantially different warranty expenses in relation to sales, the most appropriate approach is to review the trend of warranty claims received by the two companies and assess the need for adjustments. This method allows analysts to understand the underlying reasons for the discrepancy in warranty expenses, which could be due to differences in product quality, customer usage patterns, or the efficiency of the warranty service process.",
+      "explanation_ru": "При анализе финансовых отчетов двух идентичных компаний с существенно различающимися расходами на гарантийное обслуживание по отношению к продажам, наиболее подходящий подход - это проанализировать тенденцию гарантийных претензий, полученных двумя компаниями, и оценить необходимость корректировок. Этот метод позволяет аналитикам понять основные причины расхождения в расходах на гарантийное обслуживание.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Simply adjusting the financials to increase the warranty expense to a higher level without a thorough analysis of the warranty claims and underlying reasons for the discrepancy may lead to misleading financial information.",
+          "text_ru": "Неверно. Простая корректировка финансовых отчетов для увеличения расходов на гарантийное обслуживание без тщательного анализа гарантийных претензий может привести к введению в заблуждение."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Adjusting the financials to decrease the warranty expense to a lower level without a comprehensive review of the warranty claims could result in inaccurate financial reporting.",
+          "text_ru": "Неверно. Корректировка финансовых отчетов для уменьшения расходов на гарантийное обслуживание без всестороннего обзора гарантийных претензий может привести к неточной финансовой отчетности."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "warranty_expense",
+        "financial_analysis"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q003",
+      "original_question_number": 1786,
+      "los_id": "LOS_2a",
+      "question_text_en": "Which of the following accounts is most likely to be reported in the statement of comprehensive income?",
+      "question_text_ru": "Какая из следующих статей с наибольшей вероятностью будет отражена в отчете о совокупном доходе?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Dividends paid.",
+          "text_ru": "Выплаченные дивиденды."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Secondary issuance.",
+          "text_ru": "Вторичная эмиссия."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Gains on available-for-sales securities.",
+          "text_ru": "Прибыль по ценным бумагам, имеющимся в наличии для продажи."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Gains on available-for-sales securities are an item that impacts the owners' equity but not the result of shareholder transactions. The statement of comprehensive income reports all items that affect the owner's equity except the result of shareholder transactions (e.g., issuance, share repurchase, and paying dividends).",
+      "explanation_ru": "Прибыль по ценным бумагам, имеющимся в наличии для продажи, - это статья, которая влияет на собственный капитал, но не является результатом операций с акционерами. Отчет о совокупном доходе отражает все статьи, которые влияют на собственный капитал, за исключением результатов операций с акционерами (например, эмиссия, выкуп акций и выплата дивидендов).",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Dividends paid are shareholder transactions and are not reported in the statement of comprehensive income.",
+          "text_ru": "Неверно. Выплаченные дивиденды являются операциями с акционерами и не отражаются в отчете о совокупном доходе."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Secondary issuance is a shareholder transaction and is not reported in the statement of comprehensive income.",
+          "text_ru": "Неверно. Вторичная эмиссия является операцией с акционерами и не отражается в отчете о совокупном доходе."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "comprehensive_income",
+        "available_for_sale_securities"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q004",
+      "original_question_number": 1923,
+      "los_id": "LOS_2a",
+      "question_text_en": "Which of the following statements is most likely accurate?",
+      "question_text_ru": "Какое из следующих утверждений наиболее вероятно является правильным?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Under the accrual method of accounting, revenues are recognized when earned, and expenses are recognized when paid.",
+          "text_ru": "При методе начисления доходы признаются, когда они заработаны, а расходы признаются, когда они оплачены."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Under the accrual method of accounting, revenues are recognized when received, and expenses are recognized when paid.",
+          "text_ru": "При методе начисления доходы признаются, когда они получены, а расходы признаются, когда они оплачены."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Under the accrual method of accounting, revenues are recognized when earned, and expenses are recognized when incurred.",
+          "text_ru": "При методе начисления доходы признаются, когда они заработаны, а расходы признаются, когда они понесены."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Under the accrual method of accounting, revenues are recognized when they are earned, and expenses are recognized when they are incurred, regardless of when the cash transactions occur. This approach provides a more accurate picture of a company's financial position and performance by matching revenues to the periods in which they are earned and matching expenses to the periods in which they are incurred.",
+      "explanation_ru": "При методе начисления доходы признаются, когда они заработаны, а расходы признаются, когда они понесены, независимо от того, когда происходят денежные операции. Этот подход обеспечивает более точную картину финансового положения и результатов деятельности компании путем сопоставления доходов с периодами, в которых они заработаны, и расходов с периодами, в которых они понесены.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Under the accrual method, expenses are recognized when incurred, not when paid.",
+          "text_ru": "Неверно. При методе начисления расходы признаются, когда они понесены, а не когда они оплачены."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. This describes the cash basis of accounting, not the accrual method.",
+          "text_ru": "Неверно. Это описывает кассовый метод учета, а не метод начисления."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "accrual_accounting",
+        "matching_principle"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q005",
+      "original_question_number": 1930,
+      "los_id": "LOS_2b",
+      "question_text_en": "DADA Engineering is a construction firm based in India that has undertaken a long-term contract to build a conveyer belt for a client in 4 years for $10 million. The total cost of the project is $6 million, as given in the following table: Year 1: $2,000,000; Year 2: $1,500,000; Year 3: $500,000; Year 4: $2,000,000. The net income for the 1st year of the project is closest to:",
+      "question_text_ru": "DADA Engineering - строительная фирма из Индии, которая взялась за долгосрочный контракт на строительство конвейерной ленты для клиента в течение 4 лет за $10 млн. Общая стоимость проекта составляет $6 млн, как указано в таблице: Год 1: $2,000,000; Год 2: $1,500,000; Год 3: $500,000; Год 4: $2,000,000. Чистая прибыль за 1-й год проекта ближе всего к:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Year",
+          "Cost"
+        ],
+        "headers_ru": [
+          "Год",
+          "Затраты"
+        ],
+        "rows": [
+          [
+            "Year 1",
+            "$2,000,000"
+          ],
+          [
+            "Year 2",
+            "$1,500,000"
+          ],
+          [
+            "Year 3",
+            "$500,000"
+          ],
+          [
+            "Year 4",
+            "$2,000,000"
+          ]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$1.33 million",
+          "text_ru": "$1.33 млн"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$3.33 million",
+          "text_ru": "$3.33 млн"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$4 million",
+          "text_ru": "$4 млн"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "To calculate the net income for the first year using the percentage-of-completion method: Percentage of Completion = Costs Incurred in Year 1 / Total Project Costs = $2,000,000 / $6,000,000 = 1/3. Revenue for Year 1 = Total Project Revenue × Percentage of Completion = $10,000,000 × 1/3 = $3.33 million. Net Income for Year 1 = Revenue for Year 1 - Costs Incurred in Year 1 = $3.33 million - $2 million = $1.33 million.",
+      "explanation_ru": "Для расчета чистой прибыли за первый год методом процента выполнения: Процент выполнения = Понесенные затраты в году 1 / Общие затраты проекта = $2,000,000 / $6,000,000 = 1/3. Выручка за год 1 = Общая выручка по проекту × Процент выполнения = $10,000,000 × 1/3 = $3.33 млн. Чистая прибыль за год 1 = Выручка за год 1 - Понесенные затраты в году 1 = $3.33 млн - $2 млн = $1.33 млн.",
+      "explanation_formula": "$\\text{Net Income}_1 = (\\text{Revenue} \\times \\frac{\\text{Costs}_1}{\\text{Total Costs}}) - \\text{Costs}_1 = (\\$10M \\times \\frac{1}{3}) - \\$2M = \\$1.33M$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This represents the revenue recognized in the first year, not the net income.",
+          "text_ru": "Неверно. Это представляет собой выручку, признанную в первом году, а не чистую прибыль."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This does not accurately reflect the net income for any specific year of the project.",
+          "text_ru": "Неверно. Это не точно отражает чистую прибыль за какой-либо конкретный год проекта."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "percentage_of_completion",
+        "long_term_contracts"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q006",
+      "original_question_number": 1957,
+      "los_id": "LOS_2d",
+      "question_text_en": "Baku Mart, a chain of hypermarkets, reported a net income of $400,000 and paid cash dividends of $260,000 to preferred stockholders for the year 2016. At the beginning of 2016, Baku had 8,000 shares of common stock outstanding, but the firm issued 3,000 new shares on November 1st, 2016. Given this information, the basic EPS of Baku Mart is closest to:",
+      "question_text_ru": "Baku Mart, сеть гипермаркетов, отчиталась о чистой прибыли в размере $400,000 и выплатила денежные дивиденды в размере $260,000 держателям привилегированных акций за 2016 год. На начало 2016 года у Baku было 8,000 обыкновенных акций в обращении, но фирма выпустила 3,000 новых акций 1 ноября 2016 года. Учитывая эту информацию, базовая прибыль на акцию Baku Mart ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$12.73",
+          "text_ru": "$12.73"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$16.47",
+          "text_ru": "$16.47"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$48.06",
+          "text_ru": "$48.06"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Basic EPS = (Net Income - Preferred Dividends) / Weighted Average Shares. Weighted average shares = [(8,000 × 12) + (3,000 × 2)] / 12 = 8,500. Basic EPS = ($400,000 - $260,000) / 8,500 = $16.47",
+      "explanation_ru": "Базовая EPS = (Чистая прибыль - Привилегированные дивиденды) / Средневзвешенное количество акций. Средневзвешенное количество акций = [(8,000 × 12) + (3,000 × 2)] / 12 = 8,500. Базовая EPS = ($400,000 - $260,000) / 8,500 = $16.47",
+      "explanation_formula": "$\\text{Basic EPS} = \\frac{\\$400,000 - \\$260,000}{8,500} = \\$16.47$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This does not correctly calculate the weighted average shares of common stock.",
+          "text_ru": "Неверно. Это не правильно рассчитывает средневзвешенное количество обыкновенных акций."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This overlooks the subtraction of preferred dividends from the net income.",
+          "text_ru": "Неверно. Это упускает вычитание привилегированных дивидендов из чистой прибыли."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "basic_eps",
+        "weighted_average_shares"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q007",
+      "original_question_number": 1959,
+      "los_id": "LOS_2d",
+      "question_text_en": "AHZ Corp. has had a net income of $150,000 for the year 2016. The company had an average of 100,000 common shares and 1,500 preferred shares outstanding for the entire year. Assuming that each share of preferred stock is convertible into 20 shares of common stock, the diluted EPS is closest to:",
+      "question_text_ru": "AHZ Corp. имела чистую прибыль в размере $150,000 за 2016 год. Компания имела в среднем 100,000 обыкновенных акций и 1,500 привилегированных акций в обращении в течение всего года. Предполагая, что каждая привилегированная акция конвертируется в 20 обыкновенных акций, размытая прибыль на акцию ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$1.15",
+          "text_ru": "$1.15"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$1.50",
+          "text_ru": "$1.50"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$2.14",
+          "text_ru": "$2.14"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Diluted EPS = Net Income / (Weighted Average Shares + New Common Shares from Conversion). New shares from conversion = 1,500 × 20 = 30,000. Total shares = 100,000 + 30,000 = 130,000. Diluted EPS = $150,000 / 130,000 = $1.15",
+      "explanation_ru": "Размытая EPS = Чистая прибыль / (Средневзвешенное количество акций + Новые обыкновенные акции от конвертации). Новые акции от конвертации = 1,500 × 20 = 30,000. Всего акций = 100,000 + 30,000 = 130,000. Размытая EPS = $150,000 / 130,000 = $1.15",
+      "explanation_formula": "$\\text{Diluted EPS} = \\frac{\\$150,000}{130,000} = \\$1.15$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This only considers the net income divided by the original number of common shares without accounting for the dilutive effect.",
+          "text_ru": "Неверно. Это учитывает только чистую прибыль, деленную на первоначальное количество обыкновенных акций, без учета размывающего эффекта."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This suggests an incorrect method of calculating diluted EPS.",
+          "text_ru": "Неверно. Это предлагает неправильный метод расчета размытой EPS."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "diluted_eps",
+        "convertible_securities"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q008",
+      "original_question_number": 1960,
+      "los_id": "LOS_2d",
+      "question_text_en": "AHZ Corp. has a net income of $150,000 and paid preferred dividends of $30,000. The firm had 100,000 common shares and 1,500 preferred shares outstanding for the entire year. Assuming that each share of preferred stock is converted into 20 shares of common stock, which of the following statements is most accurate regarding the earnings per share of AHZ Corp.?",
+      "question_text_ru": "AHZ Corp. имеет чистую прибыль в размере $150,000 и выплатила привилегированные дивиденды в размере $30,000. Фирма имела 100,000 обыкновенных акций и 1,500 привилегированных акций в обращении в течение всего года. Предполагая, что каждая привилегированная акция конвертируется в 20 обыкновенных акций, какое из следующих утверждений наиболее точно в отношении прибыли на акцию AHZ Corp.?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The EPS is dilutive because the EPS after the conversion is less than the basic EPS.",
+          "text_ru": "EPS размывающая, потому что EPS после конвертации меньше, чем базовая EPS."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The EPS is dilutive because the EPS after the conversion is greater than the basic EPS.",
+          "text_ru": "EPS размывающая, потому что EPS после конвертации больше, чем базовая EPS."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The EPS is anti-dilutive because the EPS after the conversion is greater than the basic EPS.",
+          "text_ru": "EPS антиразмывающая, потому что EPS после конвертации больше, чем базовая EPS."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Basic EPS = ($150,000 - $30,000) / 100,000 = $1.20/share. Diluted EPS = $150,000 / (100,000 + 30,000) = $1.15/share. Since the diluted EPS of $1.15 is less than the basic EPS of $1.20, the conversion is dilutive.",
+      "explanation_ru": "Базовая EPS = ($150,000 - $30,000) / 100,000 = $1.20/акция. Размытая EPS = $150,000 / (100,000 + 30,000) = $1.15/акция. Поскольку размытая EPS $1.15 меньше базовой EPS $1.20, конвертация является размывающей.",
+      "explanation_formula": "$\\text{Basic EPS} = \\frac{\\$120,000}{100,000} = \\$1.20; \\quad \\text{Diluted EPS} = \\frac{\\$150,000}{130,000} = \\$1.15$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. The EPS after conversion is less than the basic EPS, not greater.",
+          "text_ru": "Неверно. EPS после конвертации меньше базовой EPS, а не больше."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Anti-dilutive securities would result in an increase in EPS upon conversion, which is not the case here.",
+          "text_ru": "Неверно. Антиразмывающие ценные бумаги привели бы к увеличению EPS при конвертации, чего здесь нет."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": [
+        "dilutive_eps",
+        "anti_dilutive_securities"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q009",
+      "original_question_number": 3754,
+      "los_id": "LOS_2d",
+      "question_text_en": "At the beginning of 2019, ABC Company issued 120,000 common shares. If it issued an additional 30,000 shares on March 1st and did a 2 for 1 stock split on August 1st, the weighted average number of shares outstanding is closest to:",
+      "question_text_ru": "В начале 2019 года ABC Company выпустила 120,000 обыкновенных акций. Если она выпустила дополнительные 30,000 акций 1 марта и провела дробление акций 2 к 1 1 августа, средневзвешенное количество акций в обращении ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "145,000",
+          "text_ru": "145,000"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "207,500",
+          "text_ru": "207,500"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "290,000",
+          "text_ru": "290,000"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Weighted average before stock split = (120,000 × 2/12) + (150,000 × 10/12) = 145,000. Since the stock split is treated retrospectively for the entire year, the final weighted average = 145,000 × 2 = 290,000 shares.",
+      "explanation_ru": "Средневзвешенное до дробления акций = (120,000 × 2/12) + (150,000 × 10/12) = 145,000. Поскольку дробление акций рассматривается ретроспективно для всего года, конечное средневзвешенное = 145,000 × 2 = 290,000 акций.",
+      "explanation_formula": "$\\text{Weighted Avg} = [(120,000 \\times \\frac{2}{12}) + (150,000 \\times \\frac{10}{12})] \\times 2 = 290,000$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This represents the weighted average before considering the stock split but does not account for the doubling effect.",
+          "text_ru": "Неверно. Это представляет средневзвешенное до учета дробления акций, но не учитывает эффект удвоения."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. This seems to misinterpret the calculation or the effect of the stock split.",
+          "text_ru": "Неверно. Это, похоже, неправильно интерпретирует расчет или эффект дробления акций."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": [
+        "weighted_average_shares",
+        "stock_split"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q010",
+      "original_question_number": 3756,
+      "los_id": "LOS_2e",
+      "question_text_en": "Two companies, A and B, recorded the following information: Company A - Sales: $10.1 million, Cost of goods sold: $4.6 million, Administration costs: $0.8 million, Rent expense: $0.1 million, Research expense: $0.4 million; Company B - Sales: $13.4 million, Cost of goods sold: $6.6 million, Administration costs: $0.6 million, Rent expense: $0.2 million, Research expense: $0.3 million. The information above suggests that:",
+      "question_text_ru": "Две компании, A и B, зафиксировали следующую информацию: Компания A - Продажи: $10.1 млн, Себестоимость проданных товаров: $4.6 млн, Административные расходы: $0.8 млн, Арендные расходы: $0.1 млн, Исследовательские расходы: $0.4 млн; Компания B - Продажи: $13.4 млн, Себестоимость проданных товаров: $6.6 млн, Административные расходы: $0.6 млн, Арендные расходы: $0.2 млн, Исследовательские расходы: $0.3 млн. Приведенная выше информация предполагает, что:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Item",
+          "Company A",
+          "Company B"
+        ],
+        "headers_ru": [
+          "Статья",
+          "Компания A",
+          "Компания B"
+        ],
+        "rows": [
+          [
+            "Sales",
+            "$10.1 million",
+            "$13.4 million"
+          ],
+          [
+            "Cost of goods sold",
+            "$4.6 million",
+            "$6.6 million"
+          ],
+          [
+            "Administration costs",
+            "$0.8 million",
+            "$0.6 million"
+          ],
+          [
+            "Rent expense",
+            "$0.1 million",
+            "$0.2 million"
+          ],
+          [
+            "Research expense",
+            "$0.4 million",
+            "$0.3 million"
+          ]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Company B has a higher gross margin as compared to company A.",
+          "text_ru": "Компания B имеет более высокую валовую маржу по сравнению с компанией A."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Company B has a gross margin of 51%, while company A has an operating margin of 42%.",
+          "text_ru": "Компания B имеет валовую маржу 51%, в то время как компания A имеет операционную маржу 42%."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Company A has an operating margin of 43%, while Company B has an operating margin of 41%.",
+          "text_ru": "Компания A имеет операционную маржу 43%, в то время как компания B имеет операционную маржу 41%."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Company A: Gross margin = ($10.1 - $4.6) / $10.1 = 54%, Operating margin = ($10.1 - $4.6 - $0.8 - $0.1 - $0.4) / $10.1 = 42%. Company B: Gross margin = ($13.4 - $6.6) / $13.4 = 51%, Operating margin = ($13.4 - $6.6 - $0.6 - $0.2 - $0.3) / $13.4 = 43%. Therefore, B has a higher gross margin, and A has a higher operating margin.",
+      "explanation_ru": "Компания A: Валовая маржа = ($10.1 - $4.6) / $10.1 = 54%, Операционная маржа = ($10.1 - $4.6 - $0.8 - $0.1 - $0.4) / $10.1 = 42%. Компания B: Валовая маржа = ($13.4 - $6.6) / $13.4 = 51%, Операционная маржа = ($13.4 - $6.6 - $0.6 - $0.2 - $0.3) / $13.4 = 43%. Следовательно, B имеет более высокую валовую маржу, а A имеет более высокую операционную маржу.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Company A has the higher gross margin (54% vs 51%).",
+          "text_ru": "Неверно. Компания A имеет более высокую валовую маржу (54% против 51%)."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Company A's operating margin is 42%, while company B's operating margin is 43%.",
+          "text_ru": "Неверно. Операционная маржа компании A составляет 42%, в то время как операционная маржа компании B составляет 43%."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "gross_margin",
+        "operating_margin",
+        "common_size_analysis"
+      ]
+    }
+  ]
+}
