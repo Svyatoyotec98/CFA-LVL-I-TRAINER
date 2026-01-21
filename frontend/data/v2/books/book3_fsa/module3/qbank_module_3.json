@@ -1,0 +1,629 @@
+{
+  "metadata": {
+    "book_id": 3,
+    "book_code": "FSA",
+    "book_name": "Financial Statement Analysis",
+    "book_name_ru": "Анализ финансовой отчетности",
+    "module_id": 3,
+    "module_name": "Analyzing Balance Sheets",
+    "module_name_ru": "Анализ балансовых отчетов",
+    "total_questions": 10,
+    "version": "2.0",
+    "source": "AnalystPrep QBank"
+  },
+  "questions": [
+    {
+      "question_id": "FSA-3-Q001",
+      "original_question_number": 348,
+      "los_id": "LOS_3e",
+      "question_text_en": "A company's ability to meet short-term obligations is most likely termed as",
+      "question_text_ru": "Способность компании выполнять краткосрочные обязательства наиболее точно называется",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "solvency.",
+          "text_ru": "платежеспособность."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "liquidity.",
+          "text_ru": "ликвидность."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "profitability.",
+          "text_ru": "рентабельность."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "A company's ability to meet short-term obligations is most accurately described by its liquidity. Liquidity refers to the ease with which a company can convert its assets into cash to pay off its short-term liabilities without significant loss in value. This is a critical measure of financial health, as it indicates a company's capability to handle its immediate financial responsibilities, such as paying suppliers, employees, and other operational expenses. High liquidity levels suggest that a company can easily meet its short-term obligations, thereby reducing the risk of financial distress. Liquidity is often assessed using ratios such as the current ratio and the quick ratio, which compare a company's current assets to its current liabilities.",
+      "explanation_ru": "Способность компании выполнять краткосрочные обязательства наиболее точно описывается ее ликвидностью. Ликвидность относится к легкости, с которой компания может конвертировать свои активы в денежные средства для погашения своих краткосрочных обязательств без значительной потери стоимости. Это критическая мера финансового здоровья, поскольку указывает на способность компании справляться с ее непосредственными финансовыми обязанностями, такими как оплата поставщикам, сотрудникам и другие операционные расходы. Высокие уровни ликвидности предполагают, что компания может легко выполнять свои краткосрочные обязательства, тем самым снижая риск финансовых затруднений.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Solvency refers to a company's ability to meet its long-term financial commitments and obligations. It is a measure of financial stability and endurance, indicating whether a company can sustain its operations and growth over the long term. Solvency is assessed through ratios such as the debt-to-equity ratio and the interest coverage ratio.",
+          "text_ru": "Платежеспособность относится к способности компании выполнять свои долгосрочные финансовые обязательства. Это мера финансовой стабильности и устойчивости, указывающая, может ли компания поддерживать свои операции и рост в долгосрочной перспективе."
+        },
+        "opt_c": {
+          "text_en": "Profitability refers to a company's ability to generate earnings relative to its revenue, assets, or equity over time. Common measures include net profit margin, return on assets (ROA), and return on equity (ROE). While profitability is essential for assessing financial performance, it does not directly measure the capacity to meet short-term obligations.",
+          "text_ru": "Рентабельность относится к способности компании генерировать прибыль относительно своих доходов, активов или капитала. Хотя рентабельность важна для оценки финансовой результативности, она не измеряет напрямую способность выполнять краткосрочные обязательства."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["liquidity", "short_term_obligations"]
+    },
+    {
+      "question_id": "FSA-3-Q002",
+      "original_question_number": 1974,
+      "los_id": "LOS_3d",
+      "question_text_en": "Which of the following is the most appropriate statement regarding deferred tax assets?",
+      "question_text_ru": "Какое из следующих утверждений наиболее точно описывает отложенные налоговые активы?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Deferred tax assets are created when the amount of tax expense exceeds the amount of taxes payable.",
+          "text_ru": "Отложенные налоговые активы создаются, когда сумма налоговых расходов превышает сумму подлежащих уплате налогов."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Deferred tax assets are created when the amount of taxes payable exceeds the amount of tax expense in the income statement.",
+          "text_ru": "Отложенные налоговые активы создаются, когда сумма подлежащих уплате налогов превышает сумму налоговых расходов в отчете о прибылях и убытках."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Deferred tax assets are created when the amount of taxes payable is equal to the amount of taxes expense in the income statement.",
+          "text_ru": "Отложенные налоговые активы создаются, когда сумма подлежащих уплате налогов равна сумме налоговых расходов в отчете о прибылях и убытках."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Deferred tax assets are recognized in situations where the amount of taxes payable exceeds the tax expense reported in the income statement. This discrepancy usually arises due to differences in accounting methods used for financial reporting purposes and those used for tax calculations (known as temporary differences). Deferred tax assets indicate that a company has either prepaid taxes or has certain tax carryforwards, which can be used to offset future tax liabilities. Essentially, it represents an amount that the company is expected to recover in future periods through lower tax payments.",
+      "explanation_ru": "Отложенные налоговые активы признаются в ситуациях, когда сумма подлежащих уплате налогов превышает налоговые расходы, отраженные в отчете о прибылях и убытках. Это расхождение обычно возникает из-за различий в методах учета, используемых для целей финансовой отчетности и для налоговых расчетов (известных как временные разницы). Отложенные налоговые активы указывают, что компания либо предварительно уплатила налоги, либо имеет определенные налоговые переносы, которые могут быть использованы для зачета будущих налоговых обязательств.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "This inaccurately describes the creation of deferred tax assets. Deferred tax assets are not generated when tax expense on the income statement exceeds taxes payable. Instead, this scenario typically leads to the recognition of a deferred tax liability.",
+          "text_ru": "Это неточно описывает создание отложенных налоговых активов. Отложенные налоговые активы не генерируются, когда налоговые расходы в отчете превышают подлежащие уплате налоги. Вместо этого такой сценарий обычно приводит к признанию отложенного налогового обязательства."
+        },
+        "opt_c": {
+          "text_en": "This statement is fundamentally flawed as deferred tax assets (or liabilities) arise due to differences between the tax base of assets or liabilities and their carrying amount in the financial statements. When the taxes payable are equal to the tax expense, no deferred tax assets or liabilities would typically be recognized.",
+          "text_ru": "Это утверждение принципиально ошибочно, поскольку отложенные налоговые активы (или обязательства) возникают из-за различий между налоговой базой активов или обязательств и их балансовой стоимостью. Когда подлежащие уплате налоги равны налоговым расходам, обычно не признаются отложенные налоговые активы или обязательства."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["deferred_tax_assets", "temporary_differences"]
+    },
+    {
+      "question_id": "FSA-3-Q003",
+      "original_question_number": 1978,
+      "los_id": "LOS_3e",
+      "question_text_en": "Everest Bank is analysing D-Corp to measure its ability to pay off a long-term debt that D-Corp has recently applied for. Which of the following analyses will serve this purpose?",
+      "question_text_ru": "Банк Эверест анализирует D-Corp для оценки ее способности погасить долгосрочный долг, на который D-Corp недавно подала заявку. Какой из следующих анализов будет служить этой цели?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Solvency analysis.",
+          "text_ru": "Анализ платежеспособности."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Liquidity analysis.",
+          "text_ru": "Анализ ликвидности."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Profitability analysis.",
+          "text_ru": "Анализ рентабельности."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The solvency analysis is used to measure the ability of a company to meet its long-term obligations.",
+      "explanation_ru": "Анализ платежеспособности используется для оценки способности компании выполнять свои долгосрочные обязательства.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Liquidity analysis is used to measure the ability of a company to meet short-term obligations.",
+          "text_ru": "Анализ ликвидности используется для оценки способности компании выполнять краткосрочные обязательства."
+        },
+        "opt_c": {
+          "text_en": "Profitability analysis is used to measure the ability of a company to generate profit on capital invested.",
+          "text_ru": "Анализ рентабельности используется для оценки способности компании генерировать прибыль на вложенный капитал."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["solvency", "long_term_debt"]
+    },
+    {
+      "question_id": "FSA-3-Q004",
+      "original_question_number": 1981,
+      "los_id": "LOS_3a",
+      "question_text_en": "Trance Inc. purchased outstanding stocks of Deep House Corp for $450 million. The following table is an excerpt of Deep House's balance sheet. Calculate the amount of goodwill or the amount of gain on the purchase of Deep House's stocks if the fair value of the assets of Deep House is equal to its book value.",
+      "question_text_ru": "Trance Inc. приобрела выпущенные акции Deep House Corp за $450 миллионов. Следующая таблица является выдержкой из балансового отчета Deep House. Рассчитайте сумму гудвилла или сумму прибыли от покупки акций Deep House, если справедливая стоимость активов Deep House равна ее балансовой стоимости.",
+      "has_table": true,
+      "table_data": {
+        "headers": ["Account", "Amount (in million $)"],
+        "headers_ru": ["Счет", "Сумма (в млн $)"],
+        "rows": [
+          ["Cash", "200"],
+          ["Inventory", "50"],
+          ["Property, Plant and Equipment", "480"],
+          ["Short-term Liabilities", "80"],
+          ["Long-term Liabilities", "150"],
+          ["Common Equity", "500"]
+        ]
+      },
+      "question_continuation_en": "If Deep House's fair value is equal to its book value, the amount of goodwill or the amount of gain on the purchase of Deep House's stocks is closest to:",
+      "question_continuation_ru": "Если справедливая стоимость Deep House равна ее балансовой стоимости, сумма гудвилла или сумма прибыли от покупки акций Deep House ближе всего к:",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Goodwill of $50 million is recognized on the balance sheet.",
+          "text_ru": "Гудвилл в размере $50 миллионов признается в балансе."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "A loss of $50 million is recognized in the income statement.",
+          "text_ru": "Убыток в размере $50 миллионов признается в отчете о прибылях и убытках."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "A gain of $50 million is recognized in the income statement.",
+          "text_ru": "Прибыль в размере $50 миллионов признается в отчете о прибылях и убытках."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Net Assets Value = $200 million (Cash) + $50 million (Inventory) + $480 million (Plant) − $80 million (Short-term liabilities) − $150 million (Long-term liabilities) = $500 million. The price paid for the purchase of Deep House stocks is $450 million, which is less than the fair value of the net assets of $500 million. Therefore, a $50 million gain on the purchase of the assets is to be recognized.",
+      "explanation_ru": "Чистая стоимость активов = $200 млн (Денежные средства) + $50 млн (Запасы) + $480 млн (Основные средства) − $80 млн (Краткосрочные обязательства) − $150 млн (Долгосрочные обязательства) = $500 млн. Уплаченная цена за покупку акций Deep House составляет $450 млн, что меньше справедливой стоимости чистых активов в размере $500 млн. Следовательно, должна быть признана прибыль в размере $50 млн от покупки активов.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Goodwill is the excess of the purchase price of an acquired company over the fair value of the identifiable net assets acquired. If the purchase price is less than the fair value of net assets, then a gain is recognized in the acquirer's income statement.",
+          "text_ru": "Гудвилл - это превышение цены покупки приобретенной компании над справедливой стоимостью идентифицируемых чистых активов. Если цена покупки меньше справедливой стоимости чистых активов, то прибыль признается в отчете о прибылях и убытках покупателя."
+        },
+        "opt_b": {
+          "text_en": "Contradicts option C.",
+          "text_ru": "Противоречит варианту C."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["goodwill", "business_combination", "bargain_purchase"]
+    },
+    {
+      "question_id": "FSA-3-Q005",
+      "original_question_number": 1992,
+      "los_id": "LOS_3e",
+      "question_text_en": "Simon Belfast, an equity analyst, analyzes two market leaders (Sun Corp. & Moon Inc.) in the automotive industry. As such, he collected the following data.",
+      "question_text_ru": "Саймон Белфаст, аналитик по акциям, анализирует двух лидеров рынка (Sun Corp. и Moon Inc.) в автомобильной промышленности. Он собрал следующие данные.",
+      "has_table": true,
+      "table_data": {
+        "headers": ["", "Sun Corp.", "Moon Inc."],
+        "headers_ru": ["", "Sun Corp.", "Moon Inc."],
+        "rows": [
+          ["Cash", "250,000", "410,000"],
+          ["Marketable securities", "380,000", "240,000"],
+          ["Inventory", "220,000", "550,000"],
+          ["PP&E", "650,000", "1,300,000"],
+          ["Short-term liabilities", "300,000", "300,000"],
+          ["Long-term liabilities", "700,000", "400,000"],
+          ["Common equity", "500,000", "1,800,000"]
+        ]
+      },
+      "question_continuation_en": "The Sun Corp's cash ratio is closest to:",
+      "question_continuation_ru": "Коэффициент денежной ликвидности Sun Corp ближе всего к:",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "0.63",
+          "text_ru": "0.63"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "2.10",
+          "text_ru": "2.10"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "2.83",
+          "text_ru": "2.83"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Cash ratio = (Cash + Marketable securities) / Current liabilities = (250,000 + 380,000) / 300,000 = 2.1. The cash ratio looks at the company's most liquid short-term assets, which are those that can be used most easily to pay off current obligations.",
+      "explanation_ru": "Коэффициент денежной ликвидности = (Денежные средства + Рыночные ценные бумаги) / Текущие обязательства = (250,000 + 380,000) / 300,000 = 2.1. Коэффициент денежной ликвидности рассматривает наиболее ликвидные краткосрочные активы компании, которые могут быть использованы наиболее легко для погашения текущих обязательств.",
+      "explanation_formula": "$\\text{Cash ratio} = \\frac{\\text{Cash + Marketable securities}}{\\text{Current liabilities}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Uses long-term liabilities to calculate cash ratio: Cash ratio = (250,000 + 380,000) / (300,000 + 700,000) = 0.63",
+          "text_ru": "Использует долгосрочные обязательства для расчета коэффициента денежной ликвидности: (250,000 + 380,000) / (300,000 + 700,000) = 0.63"
+        },
+        "opt_c": {
+          "text_en": "Included inventory in the numerator of the cash ratio: Cash ratio = (250,000 + 380,000 + 220,000) / 300,000 = 2.83",
+          "text_ru": "Включил запасы в числитель коэффициента денежной ликвидности: (250,000 + 380,000 + 220,000) / 300,000 = 2.83"
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic Calculator",
+        "steps_en": [
+          "250,000 + 380,000 = 630,000",
+          "630,000 ÷ 300,000 = 2.1"
+        ],
+        "steps_ru": [
+          "250,000 + 380,000 = 630,000",
+          "630,000 ÷ 300,000 = 2.1"
+        ]
+      },
+      "difficulty": "easy",
+      "topic_tags": ["cash_ratio", "liquidity_ratios"]
+    },
+    {
+      "question_id": "FSA-3-Q006",
+      "original_question_number": 1993,
+      "los_id": "LOS_3e",
+      "question_text_en": "Simon Belfast, an equity analyst, is analyzing two market leaders (Sun Corp. & Moon Inc.) in the automotive industry. Using the data given in the following table, Moon Inc's debt-to-asset ratio is closest to:",
+      "question_text_ru": "Саймон Белфаст, аналитик по акциям, анализирует двух лидеров рынка (Sun Corp. и Moon Inc.) в автомобильной промышленности. Используя данные из следующей таблицы, коэффициент отношения долга к активам Moon Inc ближе всего к:",
+      "has_table": true,
+      "table_data": {
+        "headers": ["", "Sun Corp.", "Moon Inc."],
+        "headers_ru": ["", "Sun Corp.", "Moon Inc."],
+        "rows": [
+          ["Cash", "250,000", "410,000"],
+          ["Marketable securities", "380,000", "240,000"],
+          ["Inventory", "220,000", "550,000"],
+          ["PP&E", "650,000", "1,300,000"],
+          ["Short-term liabilities", "300,000", "300,000"],
+          ["Long-term liabilities", "700,000", "400,000"],
+          ["Common equity", "500,000", "1,800,000"]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "0.16",
+          "text_ru": "0.16"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "0.28",
+          "text_ru": "0.28"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "0.48",
+          "text_ru": "0.48"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Debt-to-asset ratio = Total debt / Total assets. Total debt = short-term liabilities + long-term liabilities = 400,000 + 300,000 = 700,000. Total Assets = Cash + Marketable securities + Inventory + PPE = 410,000 + 240,000 + 550,000 + 1,300,000 = 2,500,000. Debt ratio = 700,000 / 2,500,000 = 0.28. The debt-to-asset ratio is a financial ratio that indicates the percentage of a company's assets that are provided through debt.",
+      "explanation_ru": "Коэффициент отношения долга к активам = Общий долг / Общие активы. Общий долг = краткосрочные обязательства + долгосрочные обязательства = 400,000 + 300,000 = 700,000. Общие активы = Денежные средства + Рыночные ценные бумаги + Запасы + Основные средства = 410,000 + 240,000 + 550,000 + 1,300,000 = 2,500,000. Коэффициент долга = 700,000 / 2,500,000 = 0.28. Коэффициент отношения долга к активам - это финансовый коэффициент, который показывает процент активов компании, финансируемых за счет долга.",
+      "explanation_formula": "$\\text{Debt-to-asset ratio} = \\frac{\\text{Total debt}}{\\text{Total assets}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Includes common equity as debt.",
+          "text_ru": "Включает обыкновенный капитал в состав долга."
+        },
+        "opt_c": {
+          "text_en": "Includes common equity as an asset.",
+          "text_ru": "Включает обыкновенный капитал в состав активов."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic Calculator",
+        "steps_en": [
+          "400,000 + 300,000 = 700,000 (Total debt)",
+          "410,000 + 240,000 + 550,000 + 1,300,000 = 2,500,000 (Total assets)",
+          "700,000 ÷ 2,500,000 = 0.28"
+        ],
+        "steps_ru": [
+          "400,000 + 300,000 = 700,000 (Общий долг)",
+          "410,000 + 240,000 + 550,000 + 1,300,000 = 2,500,000 (Общие активы)",
+          "700,000 ÷ 2,500,000 = 0.28"
+        ]
+      },
+      "difficulty": "easy",
+      "topic_tags": ["debt_to_asset_ratio", "solvency_ratios"]
+    },
+    {
+      "question_id": "FSA-3-Q007",
+      "original_question_number": 1994,
+      "los_id": "LOS_3e",
+      "question_text_en": "Simon Belfast, an equity analyst, is analyzing two market leaders (Sun Corp. & Moon Inc.) in the automotive industry. Using the data given in the following table, determine which firm is more liquid based on current ratios.",
+      "question_text_ru": "Саймон Белфаст, аналитик по акциям, анализирует двух лидеров рынка (Sun Corp. и Moon Inc.) в автомобильной промышленности. Используя данные из следующей таблицы, определите, какая фирма более ликвидна на основе коэффициентов текущей ликвидности.",
+      "has_table": true,
+      "table_data": {
+        "headers": ["", "Sun Corp.", "Moon Inc."],
+        "headers_ru": ["", "Sun Corp.", "Moon Inc."],
+        "rows": [
+          ["Cash", "250,000", "410,000"],
+          ["Marketable securities", "380,000", "240,000"],
+          ["Inventory", "220,000", "550,000"],
+          ["PP&E", "650,000", "1,300,000"],
+          ["Short-term liabilities", "300,000", "300,000"],
+          ["Long-term liabilities", "700,000", "400,000"],
+          ["Common equity", "500,000", "1,800,000"]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Sun Corp is more liquid because its current ratio is 2.83.",
+          "text_ru": "Sun Corp более ликвидна, потому что ее коэффициент текущей ликвидности составляет 2.83."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Moon Inc. is more liquid because its current Ratio is 4.",
+          "text_ru": "Moon Inc. более ликвидна, потому что ее коэффициент текущей ликвидности составляет 4."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Moon Inc. is more liquid because its current ratio is 2.83.",
+          "text_ru": "Moon Inc. более ликвидна, потому что ее коэффициент текущей ликвидности составляет 2.83."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Current ratio = Current assets / Current liabilities. Sun Corp's current ratio = (250,000 + 380,000 + 220,000) / 300,000 = 2.83. Moon Inc's current ratio = (410,000 + 240,000 + 550,000) / 300,000 = 4. Therefore, Moon Inc. is more liquid than Sun Corp.",
+      "explanation_ru": "Коэффициент текущей ликвидности = Текущие активы / Текущие обязательства. Коэффициент текущей ликвидности Sun Corp = (250,000 + 380,000 + 220,000) / 300,000 = 2.83. Коэффициент текущей ликвидности Moon Inc = (410,000 + 240,000 + 550,000) / 300,000 = 4. Следовательно, Moon Inc. более ликвидна, чем Sun Corp.",
+      "explanation_formula": "$\\text{Current ratio} = \\frac{\\text{Current assets}}{\\text{Current liabilities}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Sun Corp cannot be more liquid than Moon Inc. since it has a lower current ratio.",
+          "text_ru": "Sun Corp не может быть более ликвидной, чем Moon Inc., поскольку у нее более низкий коэффициент текущей ликвидности."
+        },
+        "opt_c": {
+          "text_en": "The current ratio of Moon Inc. is 4.",
+          "text_ru": "Коэффициент текущей ликвидности Moon Inc составляет 4."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic Calculator",
+        "steps_en": [
+          "Sun Corp: 250,000 + 380,000 + 220,000 = 850,000",
+          "850,000 ÷ 300,000 = 2.83",
+          "Moon Inc: 410,000 + 240,000 + 550,000 = 1,200,000",
+          "1,200,000 ÷ 300,000 = 4"
+        ],
+        "steps_ru": [
+          "Sun Corp: 250,000 + 380,000 + 220,000 = 850,000",
+          "850,000 ÷ 300,000 = 2.83",
+          "Moon Inc: 410,000 + 240,000 + 550,000 = 1,200,000",
+          "1,200,000 ÷ 300,000 = 4"
+        ]
+      },
+      "difficulty": "easy",
+      "topic_tags": ["current_ratio", "liquidity_ratios"]
+    },
+    {
+      "question_id": "FSA-3-Q008",
+      "original_question_number": 1995,
+      "los_id": "LOS_3e",
+      "question_text_en": "Which of the following is most likely a conservative liquidity ratio?",
+      "question_text_ru": "Какой из следующих коэффициентов наиболее вероятно является консервативным коэффициентом ликвидности?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Cash Ratio.",
+          "text_ru": "Коэффициент денежной ликвидности."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Quick Ratio.",
+          "text_ru": "Коэффициент быстрой ликвидности."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Current Ratio.",
+          "text_ru": "Коэффициент текущей ликвидности."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The cash ratio is the most stringent and conservative of the three short-term liquidity ratios (current, quick, and cash). It only looks at the most liquid short-term assets of the company, which are those that can be used most easily to pay off current obligations. Cash ratio = (Cash + Marketable securities) / Current liabilities. The cash ratio is a liquidity ratio that measures a company's ability to pay its short-term obligations with its most liquid assets, which are cash and cash equivalents. This ratio is considered to be the most stringent and conservative measure of a company's liquidity because it only takes into account the most liquid assets, which are easily convertible into cash.",
+      "explanation_ru": "Коэффициент денежной ликвидности является наиболее строгим и консервативным из трех коэффициентов краткосрочной ликвидности (текущий, быстрый и денежный). Он рассматривает только наиболее ликвидные краткосрочные активы компании, которые могут быть использованы наиболее легко для погашения текущих обязательств. Коэффициент денежной ликвидности = (Денежные средства + Рыночные ценные бумаги) / Текущие обязательства. Этот коэффициент считается наиболее строгой и консервативной мерой ликвидности компании, поскольку он учитывает только наиболее ликвидные активы.",
+      "explanation_formula": "$\\text{Cash ratio} = \\frac{\\text{Cash + Marketable securities}}{\\text{Current liabilities}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "The quick ratio is more conservative than the current ratio because it includes only the more liquid current assets in relation to current liabilities. Quick ratio = (Cash + Short term marketable investments + Receivables) / Current liabilities.",
+          "text_ru": "Коэффициент быстрой ликвидности более консервативен, чем коэффициент текущей ликвидности, поскольку он включает только более ликвидные текущие активы по отношению к текущим обязательствам."
+        },
+        "opt_c": {
+          "text_en": "Current ratio = Current assets / Current liabilities. Intuitively, the current ratio is less conservative compared with the cash ratio.",
+          "text_ru": "Коэффициент текущей ликвидности = Текущие активы / Текущие обязательства. Интуитивно коэффициент текущей ликвидности менее консервативен по сравнению с коэффициентом денежной ликвидности."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["cash_ratio", "liquidity_ratios", "conservative_measures"]
+    },
+    {
+      "question_id": "FSA-3-Q009",
+      "original_question_number": 3811,
+      "los_id": "LOS_3e",
+      "question_text_en": "In 2018, the cash, quick and current ratios of a company were 2.09, 3.10, and 2.29 respectively. Below is select information from the balance sheet of the Company in 2019. Determine the ratio that most likely decreased.",
+      "question_text_ru": "В 2018 году коэффициенты денежной, быстрой и текущей ликвидности компании составляли 2.09, 3.10 и 2.29 соответственно. Ниже приведена выборочная информация из балансового отчета компании за 2019 год. Определите коэффициент, который, скорее всего, уменьшился.",
+      "has_table": true,
+      "table_data": {
+        "headers": ["", "Amount in Millions"],
+        "headers_ru": ["", "Сумма в миллионах"],
+        "rows": [
+          ["Cash and Cash Equivalents", "102.0"],
+          ["Marketable Securities", "369.5"],
+          ["Accounts Receivables", "13.5"],
+          ["Other Current Assets", "123"],
+          ["Total Current Assets", "608"],
+          ["Accrued Interests and Expenses", "92.0"],
+          ["Other Current Liabilities", "103.0"],
+          ["Total Current Liabilities", "195.0"]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Cash Ratio.",
+          "text_ru": "Коэффициент денежной ликвидности."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Quick Ratio.",
+          "text_ru": "Коэффициент быстрой ликвидности."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Current Ratio.",
+          "text_ru": "Коэффициент текущей ликвидности."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Cash Ratio = (Cash + Marketable Securities) / Current Liabilities = (102.0 + 369.5) / 195.0 = 2.42. Quick Ratio = (Cash + Marketable Securities + Accounts Receivables) / Current Liabilities = (102.0 + 369.5 + 13.5) / 195.0 = 2.49. Current Ratio = Current Assets / Current Liabilities = 608 / 195.0 = 3.12. Comparing to previous year: Cash Ratio changed from 2.09 to 2.42 (+0.33), Quick Ratio changed from 3.10 to 2.49 (−0.61), Current Ratio changed from 2.29 to 3.12 (+0.83).",
+      "explanation_ru": "Коэффициент денежной ликвидности = (Денежные средства + Рыночные ценные бумаги) / Текущие обязательства = (102.0 + 369.5) / 195.0 = 2.42. Коэффициент быстрой ликвидности = (Денежные средства + Рыночные ценные бумаги + Дебиторская задолженность) / Текущие обязательства = (102.0 + 369.5 + 13.5) / 195.0 = 2.49. Коэффициент текущей ликвидности = Текущие активы / Текущие обязательства = 608 / 195.0 = 3.12. По сравнению с предыдущим годом: коэффициент денежной ликвидности изменился с 2.09 до 2.42 (+0.33), коэффициент быстрой ликвидности изменился с 3.10 до 2.49 (−0.61), коэффициент текущей ликвидности изменился с 2.29 до 3.12 (+0.83).",
+      "explanation_formula": null,
+      "explanation_table": {
+        "headers": ["", "Current Year", "Previous Year", "Change"],
+        "headers_ru": ["", "Текущий год", "Предыдущий год", "Изменение"],
+        "rows": [
+          ["Cash Ratio", "2.42", "2.09", "+0.33"],
+          ["Quick Ratio", "2.49", "3.10", "−0.61"],
+          ["Current Ratio", "3.12", "2.29", "+0.83"]
+        ]
+      },
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The current ratio has increased by 0.83.",
+          "text_ru": "Коэффициент текущей ликвидности увеличился на 0.83."
+        },
+        "opt_c": {
+          "text_en": "The cash ratio has increased by 0.33.",
+          "text_ru": "Коэффициент денежной ликвидности увеличился на 0.33."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic Calculator",
+        "steps_en": [
+          "Cash Ratio: (102 + 369.5) ÷ 195 = 2.42",
+          "Quick Ratio: (102 + 369.5 + 13.5) ÷ 195 = 2.49",
+          "Current Ratio: 608 ÷ 195 = 3.12"
+        ],
+        "steps_ru": [
+          "Денежная ликвидность: (102 + 369.5) ÷ 195 = 2.42",
+          "Быстрая ликвидность: (102 + 369.5 + 13.5) ÷ 195 = 2.49",
+          "Текущая ликвидность: 608 ÷ 195 = 3.12"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["liquidity_ratios", "ratio_analysis", "trend_analysis"]
+    },
+    {
+      "question_id": "FSA-3-Q010",
+      "original_question_number": 3812,
+      "los_id": "LOS_3e",
+      "question_text_en": "Calculate the financial leverage of a company based on the data below.",
+      "question_text_ru": "Рассчитайте финансовый рычаг компании на основе данных ниже.",
+      "has_table": true,
+      "table_data": {
+        "headers": ["", ""],
+        "headers_ru": ["", ""],
+        "rows": [
+          ["Working Capital", "$70 Million"],
+          ["Non-Current Assets", "$245 Million"],
+          ["Equity", "$180 Million"],
+          ["Current Ratio", "2.0"]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "0.78",
+          "text_ru": "0.78"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "1.36",
+          "text_ru": "1.36"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "2.14",
+          "text_ru": "2.14"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Current Ratio = Current Assets / Current Liabilities. Working Capital = Current Assets − Current Liabilities. Current Ratio = Current Assets / Current Liabilities = 2.00. Current Liabilities = Current Assets / 2.00. Working Capital = Current Assets − Current Liabilities. 70 = Current Assets − (Current Assets / 2). Current Assets = 140. Current Liabilities = 140 − 70 = 70, or Current Liabilities = 140 / 2.00 = 70. Financial Leverage = Total Assets / Total Equity = (140 + 245) / 180 = 385 / 180 = 2.14.",
+      "explanation_ru": "Коэффициент текущей ликвидности = Текущие активы / Текущие обязательства. Рабочий капитал = Текущие активы − Текущие обязательства. Коэффициент текущей ликвидности = Текущие активы / Текущие обязательства = 2.00. Текущие обязательства = Текущие активы / 2.00. Рабочий капитал = Текущие активы − Текущие обязательства. 70 = Текущие активы − (Текущие активы / 2). Текущие активы = 140. Текущие обязательства = 140 − 70 = 70, или Текущие обязательства = 140 / 2.00 = 70. Финансовый рычаг = Общие активы / Общий капитал = (140 + 245) / 180 = 385 / 180 = 2.14.",
+      "explanation_formula": "$\\text{Financial Leverage} = \\frac{\\text{Total Assets}}{\\text{Total Equity}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Current assets have been used in place of total assets to calculate the financial leverage of the Company.",
+          "text_ru": "Текущие активы были использованы вместо общих активов для расчета финансового рычага компании."
+        },
+        "opt_b": {
+          "text_en": "It has used non-current assets instead of total assets to calculate financial leverage.",
+          "text_ru": "Были использованы внеоборотные активы вместо общих активов для расчета финансового рычага."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic Calculator",
+        "steps_en": [
+          "Working Capital = CA − CL, so 70 = CA − CL",
+          "Current Ratio = CA / CL = 2, so CA = 2 × CL",
+          "Substitute: 70 = 2×CL − CL = CL, so CL = 70",
+          "CA = 2 × 70 = 140",
+          "Total Assets = 140 + 245 = 385",
+          "Financial Leverage = 385 ÷ 180 = 2.14"
+        ],
+        "steps_ru": [
+          "Рабочий капитал = ТА − ТО, поэтому 70 = ТА − ТО",
+          "Коэффициент текущей ликвидности = ТА / ТО = 2, поэтому ТА = 2 × ТО",
+          "Подставим: 70 = 2×ТО − ТО = ТО, поэтому ТО = 70",
+          "ТА = 2 × 70 = 140",
+          "Общие активы = 140 + 245 = 385",
+          "Финансовый рычаг = 385 ÷ 180 = 2.14"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["financial_leverage", "solvency_ratios", "working_capital"]
+    }
+  ]
+}
