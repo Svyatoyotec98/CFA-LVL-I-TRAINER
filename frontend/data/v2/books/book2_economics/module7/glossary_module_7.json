@@ -1,0 +1,333 @@
+{
+  "metadata": {
+    "book_id": 2,
+    "book_code": "ECON",
+    "book_name": "Economics",
+    "book_name_ru": "Экономика",
+    "module_id": 7,
+    "module_name": "Currency Exchange Rates",
+    "module_name_ru": "Валютные курсы",
+    "page_range": "155-182",
+    "total_terms": 22,
+    "total_exercises": 0,
+    "version": "2.0",
+    "last_updated": "2026-01-21"
+  },
+  "los": [
+    {
+      "los_id": "LOS_7a",
+      "los_code": "7a",
+      "los_description_en": "Describe the foreign exchange market, including its functions and participants, distinguish between nominal and real exchange rates, and calculate and interpret the percentage change in a currency relative to another currency",
+      "los_description_ru": "Описать валютный рынок, включая его функции и участников, различать номинальные и реальные обменные курсы, а также рассчитывать и интерпретировать процентное изменение валюты относительно другой валюты",
+      "terms": [
+        {
+          "term_id": "ECON-7-001",
+          "term_en": "Foreign Exchange (FX) Market",
+          "term_ru": "Валютный (FX) рынок",
+          "definition_en": "The world's largest financial market with a daily turnover of approximately USD 6.6 trillion (as of 2019), operating 24 hours daily to facilitate international trade and cross-border capital flows. The market enables the exchange of currencies for various purposes including trade, investment, and speculation.",
+          "definition_ru": "Крупнейший финансовый рынок в мире с ежедневным оборотом около 6,6 триллиона долларов США (по состоянию на 2019 год), работающий 24 часа в сутки для облегчения международной торговли и трансграничных потоков капитала. Рынок позволяет обменивать валюты для различных целей, включая торговлю, инвестиции и спекуляции.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-002",
+          "term_en": "Spot Transaction",
+          "term_ru": "Спотовая сделка",
+          "definition_en": "A foreign exchange transaction that involves the immediate exchange of currencies at the prevailing exchange rate. Spot transactions are one of the key components of the FX market, providing liquidity for immediate currency conversion needs.",
+          "definition_ru": "Валютная сделка, которая предполагает немедленный обмен валют по преобладающему обменному курсу. Спотовые сделки являются одним из ключевых компонентов валютного рынка, обеспечивая ликвидность для немедленных потребностей в обмене валют.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-003",
+          "term_en": "Forward Transaction",
+          "term_ru": "Форвардная сделка",
+          "definition_en": "A foreign exchange transaction that entails the exchange of currencies at a specified future date and a pre-agreed exchange rate. Forward transactions allow market participants to hedge against exchange rate risk by locking in future exchange rates.",
+          "definition_ru": "Валютная сделка, которая предполагает обмен валют на определенную будущую дату по заранее согласованному обменному курсу. Форвардные сделки позволяют участникам рынка хеджировать валютный риск, фиксируя будущие обменные курсы.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-004",
+          "term_en": "FX Swap",
+          "term_ru": "Валютный своп",
+          "definition_en": "A combination of spot and forward transactions utilized for hedging purposes and securing foreign currency at more advantageous rates. FX swaps represent a significant portion of FX market activity and are used by institutions to manage currency exposure.",
+          "definition_ru": "Комбинация спотовых и форвардных сделок, используемая для целей хеджирования и обеспечения иностранной валюты по более выгодным курсам. Валютные свопы представляют значительную часть активности на валютном рынке и используются учреждениями для управления валютным риском.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-005",
+          "term_en": "Base Currency",
+          "term_ru": "Базовая валюта",
+          "definition_en": "In an exchange rate quotation (A/B format), the base currency is currency B - the currency being priced. It represents one unit of currency for which the price is being quoted in terms of the price currency. For example, in EUR/USD, EUR is the base currency.",
+          "definition_ru": "В котировке обменного курса (формат A/B) базовая валюта - это валюта B - валюта, которая оценивается. Она представляет одну единицу валюты, для которой указывается цена в единицах валюты котировки. Например, в EUR/USD, EUR является базовой валютой.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-006",
+          "term_en": "Price Currency",
+          "term_ru": "Валюта котировки",
+          "definition_en": "In an exchange rate quotation (A/B format), the price currency is currency A - the currency in which the price is expressed. It represents the number of units of currency A that one unit of the base currency (B) will buy. For example, in EUR/USD = 1.1650, USD is the price currency, meaning 1 EUR buys 1.1650 USD.",
+          "definition_ru": "В котировке обменного курса (формат A/B) валюта котировки - это валюта A - валюта, в которой выражена цена. Она представляет количество единиц валюты A, которое можно купить за одну единицу базовой валюты (B). Например, в EUR/USD = 1,1650, USD является валютой котировки, что означает, что 1 EUR покупает 1,1650 USD.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-007",
+          "term_en": "Nominal Exchange Rate",
+          "term_ru": "Номинальный обменный курс",
+          "definition_en": "The actual exchange rate in the market, expressed as the price of one currency in terms of another, following the convention of 'A/B' which refers to the number of units of currency A that one unit of currency B will buy. Nominal exchange rates often deviate from purchasing power parity due to factors such as trade barriers, transaction costs, and differences in goods and services.",
+          "definition_ru": "Фактический обменный курс на рынке, выраженный как цена одной валюты в единицах другой, следующий конвенции 'A/B', которая относится к количеству единиц валюты A, которое можно купить за одну единицу валюты B. Номинальные обменные курсы часто отклоняются от паритета покупательной способности из-за таких факторов, как торговые барьеры, транзакционные издержки и различия в товарах и услугах.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-008",
+          "term_en": "Real Exchange Rate",
+          "term_ru": "Реальный обменный курс",
+          "definition_en": "An index constructed by economists and market analysts to assess changes in the relative purchasing power of one currency compared with another. Real exchange rates adjust nominal rates using price levels in each country to compare relative purchasing power. The higher the real exchange rate, the less foreign goods an individual can buy in real terms, and the lower their relative purchasing power compared with the foreign country.",
+          "definition_ru": "Индекс, разработанный экономистами и рыночными аналитиками для оценки изменений относительной покупательной способности одной валюты по сравнению с другой. Реальные обменные курсы корректируют номинальные курсы с использованием уровней цен в каждой стране для сравнения относительной покупательной способности. Чем выше реальный обменный курс, тем меньше иностранных товаров человек может купить в реальном выражении и тем ниже его относительная покупательная способность по сравнению с иностранной страной.",
+          "type": "formula",
+          "formula": "$\\text{Real exchange rate (d/f)} = S_{d/f} \\times \\frac{P_f}{P_d}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "S_{d/f}",
+              "name_en": "Spot exchange rate (domestic/foreign)",
+              "name_ru": "Спотовый обменный курс (отечественная/иностранная валюта)"
+            },
+            {
+              "symbol": "P_f",
+              "name_en": "Foreign price level in foreign currency",
+              "name_ru": "Иностранный уровень цен в иностранной валюте"
+            },
+            {
+              "symbol": "P_d",
+              "name_en": "Domestic price level in domestic currency",
+              "name_ru": "Отечественный уровень цен в отечественной валюте"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Определите номинальный обменный курс S_{d/f}",
+              "2. Определите индекс цен в иностранной стране P_f",
+              "3. Определите индекс цен в отечественной стране P_d",
+              "4. Рассчитайте отношение P_f / P_d",
+              "5. Умножьте S_{d/f} на результат шага 4"
+            ],
+            "example": {
+              "given": "S(USD/EUR)=1.15, CPI_EUR=110, CPI_USD=100",
+              "input": "1.15 × (110 ÷ 100)",
+              "result": "Real exchange rate = 1.2650"
+            }
+          }
+        },
+        {
+          "term_id": "ECON-7-009",
+          "term_en": "Direct Quote",
+          "term_ru": "Прямая котировка",
+          "definition_en": "A currency exchange rate quotation where the domestic currency is the price currency and the foreign currency is the base currency. For instance, a French investor will view EUR/USD as the direct euro-US dollar exchange rate quoted in terms of the number of euros per dollar (if EUR/USD = 1.2310, it means 1 USD costs 1.2310 EUR).",
+          "definition_ru": "Котировка обменного курса валюты, где отечественная валюта является валютой котировки, а иностранная валюта - базовой валютой. Например, французский инвестор будет рассматривать EUR/USD как прямую котировку евро к доллару США в единицах количества евро за доллар (если EUR/USD = 1,2310, это означает, что 1 USD стоит 1,2310 EUR).",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-010",
+          "term_en": "Indirect Quote",
+          "term_ru": "Косвенная котировка",
+          "definition_en": "A currency exchange rate quotation where the domestic currency is the base currency and the foreign currency is the price currency. It is the inverse of the direct quote. For instance, if the direct quote EUR/USD = 1.2310, the corresponding indirect quote is USD/EUR = 0.8123, meaning 1 EUR costs 0.8123 dollars.",
+          "definition_ru": "Котировка обменного курса валюты, где отечественная валюта является базовой валютой, а иностранная валюта - валютой котировки. Это обратная величина прямой котировки. Например, если прямая котировка EUR/USD = 1,2310, то соответствующая косвенная котировка - USD/EUR = 0,8123, что означает, что 1 EUR стоит 0,8123 доллара.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-011",
+          "term_en": "Bid Price",
+          "term_ru": "Цена покупки (бид)",
+          "definition_en": "In a two-sided price quotation, the bid is the buying price - the amount of price currency the dealer will pay to buy one unit of the base currency from the client. In the professional FX market, banks profit by buying currencies at the bid (lower price) and selling at the offer (higher price).",
+          "definition_ru": "В двусторонней ценовой котировке бид - это цена покупки - сумма валюты котировки, которую дилер заплатит за покупку одной единицы базовой валюты у клиента. На профессиональном валютном рынке банки получают прибыль, покупая валюты по биду (более низкая цена) и продавая по офферу (более высокая цена).",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-012",
+          "term_en": "Offer Price (Ask Price)",
+          "term_ru": "Цена продажи (оффер, аск)",
+          "definition_en": "In a two-sided price quotation, the offer (also called ask) is the selling price - the amount of price currency the client must pay to buy one unit of the base currency from the dealer. The offer is always higher than the bid, and the difference between them is the bid-offer spread, which represents the dealer's profit margin.",
+          "definition_ru": "В двусторонней ценовой котировке оффер (также называемый аск) - это цена продажи - сумма валюты котировки, которую клиент должен заплатить, чтобы купить одну единицу базовой валюты у дилера. Оффер всегда выше бида, и разница между ними - это спред бид-оффер, который представляет маржу прибыли дилера.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-013",
+          "term_en": "Buy-Side Participants",
+          "term_ru": "Участники на стороне покупателя",
+          "definition_en": "Market participants who are the end users of FX services, including corporate accounts, real money accounts, leveraged accounts, retail accounts, governments, central banks, and sovereign wealth funds. These participants use the FX market for various purposes including international trade, investment, hedging, and policy objectives.",
+          "definition_ru": "Участники рынка, которые являются конечными пользователями валютных услуг, включая корпоративные счета, счета реальных денег, счета с кредитным плечом, розничные счета, правительства, центральные банки и суверенные фонды благосостояния. Эти участники используют валютный рынок для различных целей, включая международную торговлю, инвестиции, хеджирование и достижение политических целей.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-014",
+          "term_en": "Sell-Side Participants",
+          "term_ru": "Участники на стороне продавца",
+          "definition_en": "Market participants who provide FX services and liquidity, primarily consisting of large money center dealing banks (such as Deutsche Bank, Citigroup, UBS, and HSBC) and second/third-tier banks. These institutions provide competitive price quotes across FX products and facilitate transactions for buy-side participants.",
+          "definition_ru": "Участники рынка, которые предоставляют валютные услуги и ликвидность, в первую очередь состоящие из крупных денежных центров дилинговых банков (таких как Deutsche Bank, Citigroup, UBS и HSBC) и банков второго/третьего уровня. Эти учреждения предоставляют конкурентные ценовые котировки по валютным продуктам и облегчают сделки для участников на стороне покупателя.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-015",
+          "term_en": "Corporate Accounts",
+          "term_ru": "Корпоративные счета",
+          "definition_en": "Businesses of all sizes that participate in FX transactions when they buy and sell goods and services across borders, engage in international mergers and acquisitions (M&A), invest in foreign assets, and borrow in foreign currencies. These participants use FX markets primarily for commercial purposes related to their business operations.",
+          "definition_ru": "Предприятия всех размеров, которые участвуют в валютных сделках, когда они покупают и продают товары и услуги через границы, участвуют в международных слияниях и поглощениях (M&A), инвестируют в иностранные активы и занимают в иностранных валютах. Эти участники используют валютные рынки в первую очередь для коммерческих целей, связанных с их бизнес-операциями.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-016",
+          "term_en": "Real Money Accounts",
+          "term_ru": "Счета реальных денег",
+          "definition_en": "Investment funds managed by insurance firms, mutual funds, pension funds, endowments, ETFs, and other institutions. These accounts typically have limitations on using leverage or financial derivatives and represent conservative, long-term investment strategies focused on capital preservation and steady returns.",
+          "definition_ru": "Инвестиционные фонды, управляемые страховыми компаниями, взаимными фондами, пенсионными фондами, эндаументами, ETF и другими учреждениями. Эти счета обычно имеют ограничения на использование кредитного плеча или финансовых деривативов и представляют консервативные долгосрочные инвестиционные стратегии, направленные на сохранение капитала и стабильную доходность.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-017",
+          "term_en": "Leveraged Accounts",
+          "term_ru": "Счета с кредитным плечом",
+          "definition_en": "Market participants including hedge funds, proprietary trading firms, CTAs (Commodity Trading Advisors), high-frequency algorithmic traders, and bank trading desks that actively manage FX risks to generate profits. These accounts use leverage and sophisticated strategies to amplify returns and engage in both hedging and speculative activities.",
+          "definition_ru": "Участники рынка, включая хедж-фонды, проприетарные торговые фирмы, CTA (советников по торговле товарами), высокочастотных алгоритмических трейдеров и банковские торговые отделы, которые активно управляют валютными рисками для получения прибыли. Эти счета используют кредитное плечо и сложные стратегии для увеличения доходности и участвуют как в хеджировании, так и в спекулятивной деятельности.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-018",
+          "term_en": "Retail Accounts",
+          "term_ru": "Розничные счета",
+          "definition_en": "Private individuals, smaller hedge funds, active traders, and households utilizing electronic trading platforms for currency conversion or speculative activities. These participants represent the smallest segment of the FX market but have grown significantly with the advent of online trading platforms.",
+          "definition_ru": "Частные лица, небольшие хедж-фонды, активные трейдеры и домохозяйства, использующие электронные торговые платформы для обмена валют или спекулятивной деятельности. Эти участники представляют самый маленький сегмент валютного рынка, но значительно выросли с появлением онлайн-торговых платформ.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-019",
+          "term_en": "Central Banks",
+          "term_ru": "Центральные банки",
+          "definition_en": "Government monetary authorities that intervene in FX markets to impact domestic currency values, manage foreign reserves, or address unstable and dysfunctional market situations. Central banks play a crucial role in implementing monetary policy and maintaining exchange rate stability, particularly in countries with fixed or managed exchange rate regimes.",
+          "definition_ru": "Государственные денежные органы, которые вмешиваются в валютные рынки, чтобы влиять на стоимость отечественной валюты, управлять иностранными резервами или решать проблемы нестабильных и неэффективных рыночных ситуаций. Центральные банки играют решающую роль в реализации денежно-кредитной политики и поддержании стабильности обменного курса, особенно в странах с фиксированным или управляемым режимом обменного курса.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-020",
+          "term_en": "Sovereign Wealth Funds (SWFs)",
+          "term_ru": "Суверенные фонды благосостояния (SWF)",
+          "definition_en": "Government-owned entities that primarily focus on investment activities rather than public policy objectives, managing international capital inflows resulting from current account surpluses. SWFs invest surplus reserves from commodities exports, trade surpluses, or other sources to generate long-term returns for future generations.",
+          "definition_ru": "Государственные организации, которые в первую очередь сосредоточены на инвестиционной деятельности, а не на целях государственной политики, управляя международными притоками капитала, возникающими в результате профицита текущего счета. SWF инвестируют избыточные резервы от экспорта сырьевых товаров, торгового профицита или других источников для получения долгосрочной доходности для будущих поколений.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-021",
+          "term_en": "Currency Appreciation",
+          "term_ru": "Удорожание валюты (апрецияция)",
+          "definition_en": "An increase in the value of a currency relative to another currency. When a currency appreciates, fewer units of it are needed to purchase one unit of another currency. For example, if ZAR/CNY increases from 1.6459 to 1.8356, the Chinese Yuan has appreciated by 11.5% against the South African Rand.",
+          "definition_ru": "Увеличение стоимости валюты относительно другой валюты. Когда валюта дорожает, для покупки одной единицы другой валюты требуется меньше ее единиц. Например, если ZAR/CNY увеличивается с 1,6459 до 1,8356, китайский юань подорожал на 11,5% по отношению к южноафриканскому рэнду.",
+          "type": "formula",
+          "formula": "$\\text{Appreciation \\%} = \\frac{S_{new} - S_{old}}{S_{old}} \\times 100\\%$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "S_{new}",
+              "name_en": "New exchange rate",
+              "name_ru": "Новый обменный курс"
+            },
+            {
+              "symbol": "S_{old}",
+              "name_en": "Old exchange rate",
+              "name_ru": "Старый обменный курс"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Введите новый курс: {S_new}",
+              "2. Вычтите старый курс: [-] {S_old} [=]",
+              "3. Разделите на старый курс: [÷] {S_old} [=]",
+              "4. Умножьте на 100 для получения процента: [×] 100 [=]"
+            ],
+            "example": {
+              "given": "ZAR/CNY: 1.6459 → 1.8356",
+              "input": "(1.8356 - 1.6459) ÷ 1.6459 × 100",
+              "result": "11.5256% appreciation of CNY"
+            }
+          }
+        },
+        {
+          "term_id": "ECON-7-022",
+          "term_en": "Currency Depreciation",
+          "term_ru": "Обесценивание валюты (депрециация)",
+          "definition_en": "A decrease in the value of a currency relative to another currency. When a currency depreciates, more units of it are needed to purchase one unit of another currency. For example, if KSH/USD decreases, fewer KSH are needed to buy USD, meaning USD is depreciating against KSH (or KSH is appreciating against USD).",
+          "definition_ru": "Снижение стоимости валюты относительно другой валюты. Когда валюта обесценивается, для покупки одной единицы другой валюты требуется больше ее единиц. Например, если KSH/USD уменьшается, для покупки USD требуется меньше KSH, что означает, что USD обесценивается по отношению к KSH (или KSH дорожает по отношению к USD).",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "los_id": "LOS_7b",
+      "los_code": "7b",
+      "los_description_en": "Describe exchange rate regimes and explain the effects of exchange rates on countries' international trade and capital flows",
+      "los_description_ru": "Описать режимы обменных курсов и объяснить влияние обменных курсов на международную торговлю и потоки капитала стран",
+      "terms": [],
+      "exercises": []
+    }
+  ]
+}
