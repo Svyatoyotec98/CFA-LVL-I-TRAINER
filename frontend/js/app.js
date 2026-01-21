@@ -1349,7 +1349,7 @@ function displayGlossaryByLos(data) {
 
     // Рендер по LOS группам
     container.innerHTML = losToDisplay.map(los => `
-        <div class="los-section" data-los-id="${los.los_id}">
+        <div class="los-section collapsed" data-los-id="${los.los_id}">
             <div class="los-header" onclick="toggleLosSection(this)">
                 <div class="los-title">
                     <span class="los-code">${los.los_code}</span>
@@ -1667,14 +1667,6 @@ function getModulesForBook(bookId) {
             {id: 8, name: 'Exchange Rate Calculations'}
         ],
         '3': [
-            {id: 1, name: 'Corporate Governance'},
-            {id: 2, name: 'Capital Budgeting'},
-            {id: 3, name: 'Cost of Capital'},
-            {id: 4, name: 'Measures of Leverage'},
-            {id: 5, name: 'Dividends and Share Repurchases'},
-            {id: 6, name: 'Working Capital Management'}
-        ],
-        '4': [
             {id: 1, name: 'Introduction to FSA'},
             {id: 2, name: 'Income Statements'},
             {id: 3, name: 'Balance Sheets'},
@@ -1684,7 +1676,18 @@ function getModulesForBook(bookId) {
             {id: 7, name: 'Long-Lived Assets'},
             {id: 8, name: 'Income Taxes'},
             {id: 9, name: 'Non-Current Liabilities'},
-            {id: 10, name: 'Financial Reporting Quality'}
+            {id: 10, name: 'Financial Reporting Quality'},
+            {id: 11, name: 'Employee Compensation'},
+            {id: 12, name: 'Financial Reporting Quality'}
+        ],
+        '4': [
+            {id: 1, name: 'Corporate Governance'},
+            {id: 2, name: 'Capital Budgeting'},
+            {id: 3, name: 'Cost of Capital'},
+            {id: 4, name: 'Measures of Leverage'},
+            {id: 5, name: 'Dividends and Share Repurchases'},
+            {id: 6, name: 'Working Capital Management'},
+            {id: 7, name: 'Corporate Restructuring'}
         ],
         '5': [
             {id: 1, name: 'Market Organization'},
