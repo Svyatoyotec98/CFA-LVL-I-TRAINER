@@ -29,11 +29,15 @@
       "question_range": "32-73",
       "los_codes": [
         "LOS_2a",
-        "LOS_2b"
+        "LOS_2b",
+        "LOS_2c",
+        "LOS_2d",
+        "LOS_2e"
       ],
       "module_name_ru": "Анализ отчетов о прибылях и убытках",
       "glossary_file": "glossary_module_2.json",
-      "status": "in_progress"
+      "qbank_file": "qbank_module_2.json",
+      "status": "complete"
     },
     {
       "module_id": 3,

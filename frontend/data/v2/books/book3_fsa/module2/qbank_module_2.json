@@ -577,6 +577,1663 @@
         "operating_margin",
         "common_size_analysis"
       ]
+    },
+    {
+      "question_id": "FSA-2-Q011",
+      "original_question_number": 3760,
+      "los_id": "LOS_2d",
+      "question_text_en": "During 2018, ABC Company had 1,000,000 average outstanding common shares and 150,000 outstanding options. The options had a strike price of $10 each. The average stock price of ABC Company during the year was $20. The number of shares used in the denominator for the calculation of ABC's diluted EPS is closest to:",
+      "question_text_ru": "В 2018 году ABC Company имела 1,000,000 обыкновенных акций в обращении в среднем и 150,000 непогашенных опционов. Опционы имели цену исполнения $10 за акцию. Средняя цена акций ABC Company в течение года составляла $20. Количество акций, используемых в знаменателе для расчета размытой EPS ABC, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "1,000,000",
+          "text_ru": "1,000,000"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "1,075,000",
+          "text_ru": "1,075,000"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "1,150,000",
+          "text_ru": "1,150,000"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "To calculate the diluted earnings per share (EPS), it is essential to consider all potential sources of dilution, including options. The options are exercisable at $10 each, which means the total proceeds from exercising all 150,000 options would be 150,000 × $10 = $1,500,000. With an average stock price of $20, these proceeds could repurchase 1,500,000/20 = 75,000 shares from the market. Therefore, instead of adding the full 150,000 shares from the options to the outstanding shares, only the net increase in shares (150,000 options - 75,000 repurchased shares = 75,000 additional shares) should be considered. This results in a new total of 1,000,000 + 75,000 = 1,075,000 shares for the purpose of calculating diluted EPS.",
+      "explanation_ru": "Для расчета размытой прибыли на акцию (EPS) необходимо учитывать все потенциальные источники размывания, включая опционы. Опционы исполняются по $10 каждый, что означает, что общая выручка от исполнения всех 150,000 опционов составит 150,000 × $10 = $1,500,000. При средней цене акций $20 эта выручка может выкупить 1,500,000/20 = 75,000 акций с рынка. Следовательно, вместо добавления полных 150,000 акций от опционов к акциям в обращении, следует учитывать только чистый прирост акций (150,000 опционов - 75,000 выкупленных акций = 75,000 дополнительных акций). Это приводит к новому итогу 1,000,000 + 75,000 = 1,075,000 акций для расчета размытой EPS.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This option does not account for the dilutive effect of the options.",
+          "text_ru": "Неверно. Этот вариант не учитывает размывающий эффект опционов."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It overestimates the dilutive effect by not accounting for the reduction in shares that occurs when the company uses the option proceeds to buy back shares from the market.",
+          "text_ru": "Неверно. Переоценивает размывающий эффект, не учитывая сокращение акций, которое происходит, когда компания использует выручку от опционов для выкупа акций с рынка."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "diluted_eps",
+        "treasury_stock_method"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q012",
+      "original_question_number": 3762,
+      "los_id": "LOS_2d",
+      "question_text_en": "In 2019, MMU Actuaries reported a net income of $35 million, a weighted average of 2,000,000 common shares outstanding, and 200,000 options outstanding with an average exercise price of $10. The company paid $5 million in preferred dividends. The company's average share price over the year was $25. The company's diluted EPS (using the treasury stock method) is closest to:",
+      "question_text_ru": "В 2019 году MMU Actuaries отчиталась о чистой прибыли в размере $35 млн, средневзвешенном количестве 2,000,000 обыкновенных акций в обращении и 200,000 непогашенных опционов со средней ценой исполнения $10. Компания выплатила $5 млн привилегированных дивидендов. Средняя цена акций компании в течение года составляла $25. Размытая EPS компании (используя метод казначейских акций) ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "14.15",
+          "text_ru": "14.15"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "15.00",
+          "text_ru": "15.00"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "16.51",
+          "text_ru": "16.51"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Numerator = $35,000,000 - $5,000,000 = $30,000,000. Options are exercised at $10 per option = 200,000 × 10 = $2,000,000. The 2,000,000 proceeds from the option exercise are used to repurchase outstanding shares at the current market price: 2,000,000/25 = 80,000. New number of outstanding shares = (2,000,000 + 120,000) = 2,120,000. Diluted EPS = 30,000,000 / 2,120,000 = 14.15",
+      "explanation_ru": "Числитель = $35,000,000 - $5,000,000 = $30,000,000. Опционы исполняются по $10 за опцион = 200,000 × 10 = $2,000,000. Выручка в размере 2,000,000 от исполнения опционов используется для выкупа акций в обращении по текущей рыночной цене: 2,000,000/25 = 80,000. Новое количество акций в обращении = (2,000,000 + 120,000) = 2,120,000. Размытая EPS = 30,000,000 / 2,120,000 = 14.15",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. It represents Basic EPS.",
+          "text_ru": "Неверно. Это представляет базовую EPS."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The preference dividends were not subtracted from the net income.",
+          "text_ru": "Неверно. Привилегированные дивиденды не были вычтены из чистой прибыли."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": [
+        "diluted_eps",
+        "treasury_stock_method",
+        "preferred_dividends"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q013",
+      "original_question_number": 3763,
+      "los_id": "LOS_2e",
+      "question_text_en": "ABC Company's gross, operating, and net profit margin for 2015 was 61.5%, 25%, and 16.51%. For the year 2016, use the financial data below to determine the profitability ratio that had the largest absolute increase. Revenue: 100%, Cost of goods sold: 37.2%, Interest expense: 4.4%, Research expense: 5.3%, Selling and general expenses: 31.7%, Income tax rate: 22%",
+      "question_text_ru": "Валовая, операционная и чистая прибыльность ABC Company за 2015 год составили 61.5%, 25% и 16.51%. За 2016 год используйте финансовые данные ниже, чтобы определить коэффициент прибыльности, который имел наибольшее абсолютное увеличение. Выручка: 100%, Себестоимость проданных товаров: 37.2%, Процентные расходы: 4.4%, Исследовательские расходы: 5.3%, Коммерческие и общие расходы: 31.7%, Ставка налога на прибыль: 22%",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Metric",
+          "Current year (%)"
+        ],
+        "headers_ru": [
+          "Показатель",
+          "Текущий год (%)"
+        ],
+        "rows": [
+          [
+            "Revenue",
+            "100"
+          ],
+          [
+            "Cost of goods sold",
+            "37.2"
+          ],
+          [
+            "Interest expense",
+            "4.4"
+          ],
+          [
+            "Research expense",
+            "5.3"
+          ],
+          [
+            "Selling and general expenses",
+            "31.7"
+          ],
+          [
+            "Income tax rate",
+            "22"
+          ]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Net profit margin.",
+          "text_ru": "Чистая прибыльность."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Gross profit margin.",
+          "text_ru": "Валовая прибыльность."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Operating profit margin.",
+          "text_ru": "Операционная прибыльность."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Gross profit margin = 100% - 37.2% = 62.8% (increase of 1.3% from 61.5%). Operating profit margin = 62.8% - 5.3% - 31.7% = 25.8% (increase of 0.8% from 25%). Net profit margin: EBT = 25.8% - 4.4% = 21.4%, Net profit = 21.4% × (1 - 0.22) = 16.69% (increase of 0.18% from 16.51%). The operating and net profit margin increased by 0.80 and 0.18, respectively. Both these values are lower as compared to the increase seen with the gross profit value (1.30).",
+      "explanation_ru": "Валовая прибыльность = 100% - 37.2% = 62.8% (увеличение на 1.3% с 61.5%). Операционная прибыльность = 62.8% - 5.3% - 31.7% = 25.8% (увеличение на 0.8% с 25%). Чистая прибыльность: EBT = 25.8% - 4.4% = 21.4%, Чистая прибыль = 21.4% × (1 - 0.22) = 16.69% (увеличение на 0.18% с 16.51%). Операционная и чистая прибыльность увеличились на 0.80 и 0.18 соответственно. Оба эти значения ниже по сравнению с увеличением валовой прибыли (1.30).",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The operating and net profit margin increased by 0.80 and 0.18, respectively.",
+          "text_ru": "Неверно. Операционная и чистая прибыльность увеличились на 0.80 и 0.18 соответственно."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The operating profit margin increased by 0.80, which is lower than the gross profit increase.",
+          "text_ru": "Неверно. Операционная прибыльность увеличилась на 0.80, что ниже увеличения валовой прибыли."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "profit_margins",
+        "common_size_analysis"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q014",
+      "original_question_number": 3764,
+      "los_id": "LOS_2a",
+      "question_text_en": "A sales agent receives a commission of 30% for any items sold. If he sold items worth $3,000,000 in 2019, how much revenue should he report on his income Statement?",
+      "question_text_ru": "Торговый агент получает комиссию 30% за любые проданные товары. Если он продал товаров на сумму $3,000,000 в 2019 году, какую выручку он должен отразить в своем отчете о прибылях и убытках?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$900,000",
+          "text_ru": "$900,000"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$2,100,000",
+          "text_ru": "$2,100,000"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$3,000,000",
+          "text_ru": "$3,000,000"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "This is calculated based on the commission rate of 30% applied to the total sales amount of $3,000,000. The calculation is: Commission = Total Sales × Commission Rate = $3,000,000 × 0.30 = $900,000. This represents the revenue the sales agent earns from the sales transaction, which is the portion of the total sales attributed to his efforts and is rightfully reported as his income.",
+      "explanation_ru": "Это рассчитывается на основе ставки комиссии 30%, применяемой к общей сумме продаж $3,000,000. Расчет: Комиссия = Общие продажи × Ставка комиссии = $3,000,000 × 0.30 = $900,000. Это представляет собой выручку, которую торговый агент получает от сделки продажи, которая является частью общих продаж, относящихся к его усилиям, и по праву отражается как его доход.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This figure represents the remaining amount after the sales agent's commission has been deducted.",
+          "text_ru": "Неверно. Эта цифра представляет собой оставшуюся сумму после вычета комиссии торгового агента."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The total sales amount represents the gross sales value, not the income earned by the sales agent.",
+          "text_ru": "Неверно. Общая сумма продаж представляет собой валовую стоимость продаж, а не доход, полученный торговым агентом."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "revenue_recognition",
+        "agent_transactions"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q015",
+      "original_question_number": 3768,
+      "los_id": "LOS_2d",
+      "question_text_en": "A company reported Net Income of $2,000,000, 200,000 average common shares outstanding, 4,000 convertible preferred shares outstanding with dividend of $20/share, and $100,000 in convertible bonds with $100 face value per bond. The bond coupon and the corporate tax rate are 8% and 40%, respectively. Each preferred share is converted into 50 common shares and each bond into 30 common shares. The company's diluted EPS is closest to:",
+      "question_text_ru": "Компания отчиталась о чистой прибыли $2,000,000, 200,000 обыкновенных акций в обращении в среднем, 4,000 конвертируемых привилегированных акций в обращении с дивидендом $20/акция, и $100,000 в конвертируемых облигациях с номинальной стоимостью $100 за облигацию. Купон облигаций и ставка корпоративного налога составляют 8% и 40% соответственно. Каждая привилегированная акция конвертируется в 50 обыкновенных акций, а каждая облигация в 30 обыкновенных акций. Размытая EPS компании ближе всего к:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Item",
+          "Value"
+        ],
+        "headers_ru": [
+          "Показатель",
+          "Значение"
+        ],
+        "rows": [
+          [
+            "Net Income",
+            "$2,000,000"
+          ],
+          [
+            "Average common shares outstanding",
+            "200,000"
+          ],
+          [
+            "Convertible preferred shares outstanding",
+            "4,000"
+          ],
+          [
+            "Dividend/Share",
+            "$20"
+          ],
+          [
+            "Convertible bonds, $100 face value per bond",
+            "$100,000"
+          ]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "4.66",
+          "text_ru": "4.66"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "5.00",
+          "text_ru": "5.00"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "8.37",
+          "text_ru": "8.37"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The diluted EPS will be the lowest possible value because of converting both the preference shares and the bonds to common shares. Numerator (both converted): $2,000,000 + $4,800 (after-tax interest) = $2,004,800. Denominator (both converted): 200,000 + 200,000 (preferred) + 30,000 (bonds) = 430,000. Diluted EPS = 2,004,800 / 430,000 = 4.66",
+      "explanation_ru": "Размытая EPS будет минимально возможным значением из-за конвертации как привилегированных акций, так и облигаций в обыкновенные акции. Числитель (оба конвертированы): $2,000,000 + $4,800 (проценты после налога) = $2,004,800. Знаменатель (оба конвертированы): 200,000 + 200,000 (привилегированные) + 30,000 (облигации) = 430,000. Размытая EPS = 2,004,800 / 430,000 = 4.66",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. It represents the diluted EPS when preferred shares are converted to common shares.",
+          "text_ru": "Неверно. Представляет размытую EPS при конвертации привилегированных акций в обыкновенные."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It represents the diluted EPS when bonds are converted.",
+          "text_ru": "Неверно. Представляет размытую EPS при конвертации облигаций."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": [
+        "diluted_eps",
+        "convertible_securities",
+        "complex_capital_structure"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q016",
+      "original_question_number": 3769,
+      "los_id": "LOS_2d",
+      "question_text_en": "In 2018, XYZ Corporation recorded a net income of $30 million. It paid its preference shareholders a dividend of $15 million. The Corporation had 300,000 outstanding common shares and 100,000 outstanding preference shares at the end of the year. Assume that each preferred share is convertible to 4 common shares. The diluted EPS of XYZ Corporation is closest to:",
+      "question_text_ru": "В 2018 году XYZ Corporation зафиксировала чистую прибыль в размере $30 млн. Она выплатила держателям привилегированных акций дивиденды в размере $15 млн. Корпорация имела 300,000 обыкновенных акций в обращении и 100,000 привилегированных акций в обращении на конец года. Предположим, что каждая привилегированная акция конвертируется в 4 обыкновенные акции. Размытая EPS XYZ Corporation ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "21.43",
+          "text_ru": "21.43"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "42.85",
+          "text_ru": "42.85"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "50",
+          "text_ru": "50"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Diluted EPS = Net Income / (Weighted Average Number of Shares Outstanding + New Common Shares that would have been issued at conversion) = $30,000,000 / (300,000 + 400,000) = $30,000,000 / 700,000 = 42.85/share",
+      "explanation_ru": "Размытая EPS = Чистая прибыль / (Средневзвешенное количество акций в обращении + Новые обыкновенные акции, которые были бы выпущены при конвертации) = $30,000,000 / (300,000 + 400,000) = $30,000,000 / 700,000 = 42.85/акция",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The numerator has been incorrectly calculated by subtracting preferred dividends.",
+          "text_ru": "Неверно. Числитель был неправильно рассчитан путем вычитания привилегированных дивидендов."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It represents the basic EPS and not the diluted earnings per share.",
+          "text_ru": "Неверно. Представляет базовую EPS, а не размытую прибыль на акцию."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "diluted_eps",
+        "convertible_preferred_shares"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q017",
+      "original_question_number": 3838,
+      "los_id": "LOS_2c",
+      "question_text_en": "Which of the following financial assets is least likely measured at cost or amortized cost?",
+      "question_text_ru": "Какой из следующих финансовых активов с наименьшей вероятностью измеряется по себестоимости или амортизированной стоимости?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Unquoted equity instruments.",
+          "text_ru": "Некотируемые долевые инструменты."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Held-to-maturity instruments.",
+          "text_ru": "Инструменты, удерживаемые до погашения."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Derivatives, whether stand-alone or embedded in non-derivative instruments.",
+          "text_ru": "Производные финансовые инструменты, независимо от того, являются ли они автономными или встроенными в непроизводные инструменты."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Unquoted equity instruments, held-to-maturity instruments, and loans and receivables from another company are measured at cost or amortized cost. Financial assets held for trading, available-for-sale financial assets, derivatives whether stand-alone or embedded in non-derivative instruments and non-derivative instruments are measured at fair value.",
+      "explanation_ru": "Некотируемые долевые инструменты, инструменты, удерживаемые до погашения, а также займы и дебиторская задолженность другой компании измеряются по себестоимости или амортизированной стоимости. Финансовые активы, удерживаемые для торговли, финансовые активы, имеющиеся в наличии для продажи, производные финансовые инструменты, независимо от того, являются ли они автономными или встроенными в непроизводные инструменты, и непроизводные инструменты измеряются по справедливой стоимости.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Unquoted equity instruments are measured at cost or amortized cost.",
+          "text_ru": "Неверно. Некотируемые долевые инструменты измеряются по себестоимости или амортизированной стоимости."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Held-to-maturity instruments are measured at amortized cost.",
+          "text_ru": "Неверно. Инструменты, удерживаемые до погашения, измеряются по амортизированной стоимости."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "financial_instruments",
+        "measurement_bases"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q018",
+      "original_question_number": 3841,
+      "los_id": "LOS_2d",
+      "question_text_en": "Charlie's Company had 5,000,000 outstanding shares on January 1st, 2015, 150,000 stock options outstanding with exercise price of $10.00, issued 450,000 shares on March 1st, 2015, and repurchased 120,000 shares on July 1st, 2015. The average market price of common shares was $42/share and net income was $5,500,000. Charlie's diluted EPS is closest to:",
+      "question_text_ru": "Компания Charlie имела 5,000,000 акций в обращении на 1 января 2015 года, 150,000 непогашенных опционов на акции с ценой исполнения $10.00, выпустила 450,000 акций 1 марта 2015 года и выкупила 120,000 акций 1 июля 2015 года. Средняя рыночная цена обыкновенных акций составляла $42/акция, а чистая прибыль составляла $5,500,000. Размытая EPS Charlie ближе всего к:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Item",
+          "Value"
+        ],
+        "headers_ru": [
+          "Показатель",
+          "Значение"
+        ],
+        "rows": [
+          [
+            "Outstanding shares January 1st, 2015",
+            "5,000,000"
+          ],
+          [
+            "Stock options outstanding January 1st, 2015",
+            "150,000"
+          ],
+          [
+            "Shares issued March 1st, 2015",
+            "450,000"
+          ],
+          [
+            "Shares repurchased July 1st, 2015",
+            "120,000"
+          ],
+          [
+            "Average market price of common shares",
+            "$42/shares"
+          ],
+          [
+            "Net income (2015)",
+            "$5,500,000"
+          ]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "0.99",
+          "text_ru": "0.99"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "1.00",
+          "text_ru": "1.00"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "1.01",
+          "text_ru": "1.01"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Incremental shares issued stock option exercise = 150,000 - (150,000 × 10/42) = 114,286. Weighted average shares = 5,000,000 + 114,286 + (450,000 × 10/12) - (120,000 × 6/12) = 5,429,286. Diluted EPS = $5,500,000 / 5,429,286 = 1.01$/share",
+      "explanation_ru": "Дополнительные акции, выпущенные при исполнении опциона = 150,000 - (150,000 × 10/42) = 114,286. Средневзвешенные акции = 5,000,000 + 114,286 + (450,000 × 10/12) - (120,000 × 6/12) = 5,429,286. Размытая EPS = $5,500,000 / 5,429,286 = 1.01$/акция",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The shares repurchased July 1st, 2015, is added while calculating the weighted average shares instead of deducting them.",
+          "text_ru": "Неверно. Выкупленные акции 1 июля 2015 года добавляются при расчете средневзвешенных акций вместо вычитания."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Stock options are not considered in calculating the weighted average shares.",
+          "text_ru": "Неверно. Опционы на акции не учитываются при расчете средневзвешенных акций."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": [
+        "diluted_eps",
+        "weighted_average_shares",
+        "treasury_stock_method"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q019",
+      "original_question_number": 4613,
+      "los_id": "LOS_2a",
+      "question_text_en": "A company enters into a contract to sell a software license to a customer. The contract stipulates that the company will provide ongoing updates and support for the software. According to IFRS 15, the company should recognize revenue from the software license:",
+      "question_text_ru": "Компания заключает контракт на продажу лицензии на программное обеспечение клиенту. Контракт предусматривает, что компания будет предоставлять постоянные обновления и поддержку программного обеспечения. Согласно IFRS 15, компания должна признавать выручку от лицензии на программное обеспечение:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "at the point in time when the license is transferred to the customer.",
+          "text_ru": "в момент времени, когда лицензия передается клиенту."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "over the term of the license as the updates and support are provided.",
+          "text_ru": "в течение срока действия лицензии по мере предоставления обновлений и поддержки."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "in full when the contract is signed, regardless of future updates and support.",
+          "text_ru": "полностью при подписании контракта, независимо от будущих обновлений и поддержки."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "According to IFRS 15, revenue should be recognized over time for licenses that are coupled with ongoing obligations, such as updates and support, which are essential to the functionality of the software. This approach ensures that revenue is recognized as the company fulfills its performance obligations under the contract, providing a more accurate reflection of the company's earnings.",
+      "explanation_ru": "Согласно IFRS 15, выручка должна признаваться в течение времени для лицензий, которые связаны с постоянными обязательствами, такими как обновления и поддержка, которые необходимы для функциональности программного обеспечения. Этот подход обеспечивает признание выручки по мере выполнения компанией своих обязательств по контракту, обеспечивая более точное отражение доходов компании.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Immediate recognition of revenue is not appropriate when the company has ongoing performance obligations.",
+          "text_ru": "Неверно. Немедленное признание выручки не является уместным, когда у компании есть постоянные обязательства по исполнению."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It disregards the company's performance obligations related to updates and support.",
+          "text_ru": "Неверно. Игнорирует обязательства компании по предоставлению обновлений и поддержки."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "revenue_recognition",
+        "IFRS_15",
+        "software_licensing"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q020",
+      "original_question_number": 4619,
+      "los_id": "LOS_2a",
+      "question_text_en": "A manufacturing company enters into a long-term contract to build a specialized asset for a customer. The asset cannot be repurposed for use by another customer. Under IFRS 15, the company should recognize revenue:",
+      "question_text_ru": "Производственная компания заключает долгосрочный контракт на строительство специализированного актива для клиента. Актив не может быть перепрофилирован для использования другим клиентом. Согласно IFRS 15, компания должна признавать выручку:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "over time as the asset is constructed.",
+          "text_ru": "в течение времени по мере строительства актива."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "in full at the commencement of the contract.",
+          "text_ru": "полностью в начале контракта."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "only upon completion and delivery of the asset.",
+          "text_ru": "только после завершения и передачи актива."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Under IFRS 15, revenue is recognized over time for contracts where the customer receives and consumes the benefits of the company's performance as the asset is constructed, particularly when the asset is specialized and cannot be repurposed. This method aligns revenue recognition with the transfer of control and the ongoing performance of the company.",
+      "explanation_ru": "Согласно IFRS 15, выручка признается в течение времени для контрактов, где клиент получает и потребляет выгоды от исполнения компании по мере строительства актива, особенно когда актив является специализированным и не может быть перепрофилирован. Этот метод согласует признание выручки с передачей контроля и текущим исполнением компании.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Recognizing revenue at the commencement of the contract does not reflect the ongoing nature of the company's performance obligations.",
+          "text_ru": "Неверно. Признание выручки в начале контракта не отражает текущий характер обязательств компании по исполнению."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Waiting until completion and delivery to recognize revenue would not accurately reflect the continuous transfer of control.",
+          "text_ru": "Неверно. Ожидание до завершения и передачи для признания выручки не будет точно отражать непрерывную передачу контроля."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "revenue_recognition",
+        "IFRS_15",
+        "long_term_contracts"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q021",
+      "original_question_number": 4621,
+      "los_id": "LOS_2a",
+      "question_text_en": "In a \"bill and hold\" arrangement, a company can recognize revenue before the customer takes physical possession of the goods. Under IFRS 15, which of the following conditions is least likely required for revenue recognition in a \"bill and hold\" arrangement?",
+      "question_text_ru": "В схеме \"выставление счета и удержание\" компания может признать выручку до того, как клиент получит физическое владение товарами. Согласно IFRS 15, какое из следующих условий с наименьшей вероятностью требуется для признания выручки в схеме \"выставление счета и удержание\"?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The goods are ready for immediate delivery.",
+          "text_ru": "Товары готовы к немедленной доставке."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The customer has requested the arrangement.",
+          "text_ru": "Клиент запросил такую схему."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The company has received full payment for the goods.",
+          "text_ru": "Компания получила полную оплату за товары."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Full payment is not a prerequisite for revenue recognition in a \"bill and hold\" arrangement under IFRS 15. The key criteria for recognizing revenue in such arrangements include the customer's request for the arrangement, the identification of the goods as belonging to the customer, and the readiness of the goods for delivery.",
+      "explanation_ru": "Полная оплата не является обязательным условием для признания выручки в схеме \"выставление счета и удержание\" согласно IFRS 15. Ключевые критерии для признания выручки в таких схемах включают запрос клиента на такую схему, идентификацию товаров как принадлежащих клиенту и готовность товаров к доставке.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The goods must be ready for delivery, even if physical delivery is deferred.",
+          "text_ru": "Неверно. Товары должны быть готовы к доставке, даже если физическая доставка откладывается."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Bill and hold arrangement must indeed be initiated by the customer.",
+          "text_ru": "Неверно. Схема выставления счета и удержания действительно должна быть инициирована клиентом."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "revenue_recognition",
+        "IFRS_15",
+        "bill_and_hold"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q022",
+      "original_question_number": 4622,
+      "los_id": "LOS_2a",
+      "question_text_en": "A company operates as both a principal and an agent in different transactions. When assessing the company's revenue for analytical purposes, an analyst should:",
+      "question_text_ru": "Компания работает как принципал и как агент в различных транзакциях. При оценке выручки компании для аналитических целей, аналитик должен:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "combine the revenue from principal and agent transactions to evaluate overall margins.",
+          "text_ru": "объединить выручку от транзакций принципала и агента для оценки общей маржи."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "assess the relative proportion of principal versus agent sales to evaluate and forecast overall margins.",
+          "text_ru": "оценить относительную долю продаж принципала по сравнению с продажами агента для оценки и прогнозирования общей маржи."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "ignore the revenue from agent transactions as it does not contribute to the company's gross margin.",
+          "text_ru": "игнорировать выручку от транзакций агента, поскольку она не вносит вклад в валовую маржу компании."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Evaluating the relative proportion of principal versus agent sales is crucial for understanding the company's revenue composition and forecasting its margins. Principal transactions are recorded on a gross basis, reflecting the total transaction value, while agent transactions are recorded on a net basis, reflecting only the commission or fee earned. This distinction affects the company's gross margin and overall financial performance.",
+      "explanation_ru": "Оценка относительной доли продаж принципала по сравнению с продажами агента имеет решающее значение для понимания состава выручки компании и прогнозирования ее маржи. Транзакции принципала записываются на валовой основе, отражая общую стоимость транзакции, в то время как транзакции агента записываются на чистой основе, отражая только полученную комиссию или вознаграждение. Это различие влияет на валовую маржу компании и общие финансовые показатели.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Merely combining the revenue from principal and agent transactions without considering their different nature can lead to a misleading assessment.",
+          "text_ru": "Неверно. Простое объединение выручки от транзакций принципала и агента без учета их различной природы может привести к вводящей в заблуждение оценке."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Even though agent transactions are recorded on a net basis, they still contribute to the company's revenue.",
+          "text_ru": "Неверно. Несмотря на то, что транзакции агента записываются на чистой основе, они все равно вносят вклад в выручку компании."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "revenue_recognition",
+        "principal_agent",
+        "margin_analysis"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q023",
+      "original_question_number": 4623,
+      "los_id": "LOS_2a",
+      "question_text_en": "A construction company enters into a 3-year contract to build a bridge for USD 150 million. The estimated total cost to complete the project is USD 90 million. In the first year, the company incurs costs of USD 30 million. Using the percentage-of-completion method, how much revenue and profit should the company recognize in the first year?",
+      "question_text_ru": "Строительная компания заключает 3-летний контракт на строительство моста за USD 150 млн. Оценочная общая стоимость завершения проекта составляет USD 90 млн. В первый год компания несет затраты в размере USD 30 млн. Используя метод процента завершения, какую выручку и прибыль компания должна признать в первом году?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Revenue: USD 50 million; Profit: USD 20 million",
+          "text_ru": "Выручка: USD 50 млн; Прибыль: USD 20 млн"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Revenue: USD 45 million; Profit: USD 15 million",
+          "text_ru": "Выручка: USD 45 млн; Прибыль: USD 15 млн"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Revenue: USD 30 million; Profit: USD 0 million",
+          "text_ru": "Выручка: USD 30 млн; Прибыль: USD 0 млн"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The percentage of completion is calculated as the costs incurred in the first year divided by the estimated total costs, which is USD 30 million / USD 90 million = 1/3 or 33.33%. The revenue recognized in the first year is then 33.33% of the total contract value, which is 33.33% × USD 150 million = USD 50 million. The profit recognized is the revenue recognized minus the costs incurred in the first year, which is USD 50 million - USD 30 million = USD 20 million.",
+      "explanation_ru": "Процент завершения рассчитывается как затраты, понесенные в первом году, деленные на оценочные общие затраты, что составляет USD 30 млн / USD 90 млн = 1/3 или 33.33%. Выручка, признанная в первом году, составляет 33.33% от общей стоимости контракта, что составляет 33.33% × USD 150 млн = USD 50 млн. Признанная прибыль - это признанная выручка минус затраты, понесенные в первом году, что составляет USD 50 млн - USD 30 млн = USD 20 млн.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This does not accurately calculate the percentage of completion.",
+          "text_ru": "Неверно. Это не точно рассчитывает процент завершения."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This would be the completed contract method, not percentage-of-completion.",
+          "text_ru": "Неверно. Это был бы метод завершенного контракта, а не метод процента завершения."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "revenue_recognition",
+        "percentage_of_completion",
+        "long_term_contracts"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q024",
+      "original_question_number": 4624,
+      "los_id": "LOS_2b",
+      "question_text_en": "Company X purchases a piece of machinery for EUR 500,000, which has a useful life of five years and a salvage value of EUR 0. If Company X chooses to capitalize the machinery and depreciate it using the straight-line method, what will be the most likely impact on its return on equity (ROE) compared to expensing the machinery immediately?",
+      "question_text_ru": "Компания X покупает оборудование за EUR 500,000, которое имеет срок полезного использования пять лет и ликвидационную стоимость EUR 0. Если компания X решит капитализировать оборудование и амортизировать его с использованием прямолинейного метода, каково будет наиболее вероятное влияние на ее рентабельность собственного капитала (ROE) по сравнению с немедленным списанием на расходы оборудования?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "ROE will be higher in the first year if the machinery is capitalized.",
+          "text_ru": "ROE будет выше в первый год, если оборудование капитализировано."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "ROE will be higher in the first year if the machinery is expensed immediately.",
+          "text_ru": "ROE будет выше в первый год, если оборудование сразу списано на расходы."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "ROE will be unaffected by the choice between capitalizing and expensing the machinery.",
+          "text_ru": "ROE не будет затронута выбором между капитализацией и списанием на расходы оборудования."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Capitalizing the machinery and depreciating it using the straight-line method will result in a higher net income in the first year compared to expensing the machinery immediately. This is because the depreciation expense will be lower than the full cost of the machinery. A higher net income, in turn, will lead to a higher return on equity (ROE) in the first year.",
+      "explanation_ru": "Капитализация оборудования и его амортизация с использованием прямолинейного метода приведет к более высокой чистой прибыли в первый год по сравнению с немедленным списанием на расходы оборудования. Это связано с тем, что расходы на амортизацию будут ниже полной стоимости оборудования. Более высокая чистая прибыль, в свою очередь, приведет к более высокой рентабельности собственного капитала (ROE) в первый год.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Expensing the machinery immediately will result in a lower net income in the first year.",
+          "text_ru": "Неверно. Немедленное списание на расходы оборудования приведет к более низкой чистой прибыли в первый год."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The choice between capitalizing and expensing the machinery will have an impact on net income and ROE.",
+          "text_ru": "Неверно. Выбор между капитализацией и списанием на расходы оборудования окажет влияние на чистую прибыль и ROE."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "capitalization",
+        "depreciation",
+        "ROE"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q025",
+      "original_question_number": 4625,
+      "los_id": "LOS_2b",
+      "question_text_en": "A company adopts a new accounting policy that results in the capitalization of certain costs that were previously expensed. What is the most likely impact of this change on the company's financial statements in the first year of adoption?",
+      "question_text_ru": "Компания принимает новую учетную политику, которая приводит к капитализации определенных затрат, которые ранее списывались на расходы. Каково наиболее вероятное влияние этого изменения на финансовые отчеты компании в первый год принятия?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Increase in net income and decrease in total assets.",
+          "text_ru": "Увеличение чистой прибыли и уменьшение общих активов."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Increase in net income and increase in total assets.",
+          "text_ru": "Увеличение чистой прибыли и увеличение общих активов."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Decrease in net income and decrease in total assets.",
+          "text_ru": "Уменьшение чистой прибыли и уменьшение общих активов."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "When a company shifts from expensing costs to capitalizing them, the costs are recorded as assets on the balance sheet, leading to an increase in total assets. In the income statement, the expense is spread out over the useful life of the asset as depreciation or amortization, resulting in a lower expense in the first year compared to immediate expensing. This leads to an increase in net income for that year.",
+      "explanation_ru": "Когда компания переходит от списания затрат на расходы к их капитализации, затраты записываются как активы в балансе, что приводит к увеличению общих активов. В отчете о прибылях и убытках расходы распределяются на срок полезного использования актива в виде амортизации, что приводит к более низким расходам в первый год по сравнению с немедленным списанием. Это приводит к увеличению чистой прибыли за этот год.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Capitalizing costs leads to an increase, not a decrease, in total assets.",
+          "text_ru": "Неверно. Капитализация затрат приводит к увеличению, а не уменьшению общих активов."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The change from expensing to capitalizing costs results in an increase in net income.",
+          "text_ru": "Неверно. Изменение от списания на расходы к капитализации затрат приводит к увеличению чистой прибыли."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "capitalization",
+        "accounting_policy_change"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q026",
+      "original_question_number": 4626,
+      "los_id": "LOS_2b",
+      "question_text_en": "A company capitalizes interest costs associated with the construction of a building. How does this treatment affect the company's cash flow from operations (CFO) in the year the interest is capitalized?",
+      "question_text_ru": "Компания капитализирует процентные затраты, связанные со строительством здания. Как эта обработка влияет на денежный поток от операционной деятельности (CFO) компании в год капитализации процентов?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "CFO is unaffected because interest costs are included in investing cash flows.",
+          "text_ru": "CFO не затрагивается, потому что процентные затраты включены в инвестиционные денежные потоки."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "CFO decreases because capitalized interest is treated as an operating expense.",
+          "text_ru": "CFO уменьшается, потому что капитализированные проценты рассматриваются как операционные расходы."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "CFO increases because interest costs are not expensed in the income statement.",
+          "text_ru": "CFO увеличивается, потому что процентные затраты не списываются на расходы в отчете о прибылях и убытках."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "When interest costs are capitalized, they are not expensed in the income statement, which leads to a higher net income for the year. Since cash flow from operations (CFO) is typically calculated starting with net income, a higher net income results in a higher CFO. The capitalized interest is reflected in the cash flow from investing activities, but it increases the CFO by not reducing net income.",
+      "explanation_ru": "Когда процентные затраты капитализируются, они не списываются на расходы в отчете о прибылях и убытках, что приводит к более высокой чистой прибыли за год. Поскольку денежный поток от операционной деятельности (CFO) обычно рассчитывается, начиная с чистой прибыли, более высокая чистая прибыль приводит к более высокому CFO. Капитализированные проценты отражаются в денежном потоке от инвестиционной деятельности, но они увеличивают CFO, не уменьшая чистую прибыль.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. While the capitalized interest does affect investing cash flows, it also impacts the CFO.",
+          "text_ru": "Неверно. Хотя капитализированные проценты влияют на инвестиционные денежные потоки, они также влияют на CFO."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Capitalized interest is not treated as an operating expense in the year it is capitalized.",
+          "text_ru": "Неверно. Капитализированные проценты не рассматриваются как операционные расходы в год капитализации."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "capitalized_interest",
+        "cash_flow_statement"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q027",
+      "original_question_number": 4627,
+      "los_id": "LOS_2b",
+      "question_text_en": "In a period of rising inventory costs, how would this most likely affect the company's gross margin compared to immediate expensing of inventory costs?",
+      "question_text_ru": "В период роста затрат на запасы, как это наиболее вероятно повлияет на валовую маржу компании по сравнению с немедленным списанием на расходы затрат на запасы?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Gross margin would be lower under the matching principle.",
+          "text_ru": "Валовая маржа была бы ниже при принципе соответствия."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Gross margin would be higher under the matching principle.",
+          "text_ru": "Валовая маржа была бы выше при принципе соответствия."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Gross margin would be unaffected by the choice of expense recognition method.",
+          "text_ru": "Валовая маржа не была бы затронута выбором метода признания расходов."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The matching principle requires that the cost of goods sold (COGS) be matched with the revenue generated from the sale of those goods. In a period of rising inventory costs, the COGS would include the higher costs of more recent inventory purchases, resulting in a higher COGS and, consequently, a lower gross margin compared to immediate expensing, where older, lower-cost inventory might be expensed first.",
+      "explanation_ru": "Принцип соответствия требует, чтобы себестоимость проданных товаров (COGS) соответствовала выручке, полученной от продажи этих товаров. В период роста затрат на запасы COGS будет включать более высокие затраты на более поздние закупки запасов, что приведет к более высокой COGS и, следовательно, к более низкой валовой марже по сравнению с немедленным списанием на расходы, где более старые запасы с более низкой стоимостью могут быть списаны первыми.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. The matching principle would result in a higher COGS and lower gross margin in a period of rising inventory costs.",
+          "text_ru": "Неверно. Принцип соответствия приведет к более высокой COGS и более низкой валовой марже в период роста затрат на запасы."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The choice of expense recognition method does affect the gross margin.",
+          "text_ru": "Неверно. Выбор метода признания расходов действительно влияет на валовую маржу."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "inventory_costing",
+        "matching_principle",
+        "gross_margin"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q028",
+      "original_question_number": 4628,
+      "los_id": "LOS_2b",
+      "question_text_en": "BrightStar Corporation (BSC), a retail company, had no inventory at the beginning of 20X3. During 20X3, BSC made inventory purchases: Q1: 3,000 units at USD 25, Q2: 2,500 units at USD 28, Q3: 3,500 units at USD 30, Q4: 4,000 units at USD 32. BSC sold 10,000 units at USD 40 each. BSC determined that 3,000 units of inventory were left over, with 2,000 units from Q4 and 1,000 units from Q3. The gross profit for BSC in 20X3, assuming no product returns is closest to:",
+      "question_text_ru": "BrightStar Corporation (BSC), розничная компания, не имела запасов на начало 20X3. В течение 20X3 BSC сделала закупки запасов: Q1: 3,000 единиц по USD 25, Q2: 2,500 единиц по USD 28, Q3: 3,500 единиц по USD 30, Q4: 4,000 единиц по USD 32. BSC продала 10,000 единиц по USD 40 каждая. BSC определила, что осталось 3,000 единиц запасов, из них 2,000 единиц из Q4 и 1,000 единиц из Q3. Валовая прибыль BSC в 20X3, при условии отсутствия возвратов продукции, ближе всего к:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Quarter",
+          "Units",
+          "Cost per Unit"
+        ],
+        "headers_ru": [
+          "Квартал",
+          "Единицы",
+          "Стоимость за единицу"
+        ],
+        "rows": [
+          [
+            "First quarter",
+            "3,000",
+            "USD 25"
+          ],
+          [
+            "Second quarter",
+            "2,500",
+            "USD 28"
+          ],
+          [
+            "Third quarter",
+            "3,500",
+            "USD 30"
+          ],
+          [
+            "Fourth quarter",
+            "4,000",
+            "USD 32"
+          ]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "116,000",
+          "text_ru": "116,000"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "284,000",
+          "text_ru": "284,000"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "516,000",
+          "text_ru": "516,000"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Revenue = 10,000 units × USD 40 = USD 400,000. COGS: Q1: 3,000 × $25 = $75,000; Q2: 2,500 × $28 = $70,000; Q3: 2,500 × $30 = $75,000 (only 2,500 sold, 1,000 remaining); Q4: 2,000 × $32 = $64,000 (only 2,000 sold, 2,000 remaining). Total COGS = $284,000. Gross Profit = $400,000 - $284,000 = $116,000",
+      "explanation_ru": "Выручка = 10,000 единиц × USD 40 = USD 400,000. COGS: Q1: 3,000 × $25 = $75,000; Q2: 2,500 × $28 = $70,000; Q3: 2,500 × $30 = $75,000 (только 2,500 продано, 1,000 осталось); Q4: 2,000 × $32 = $64,000 (только 2,000 продано, 2,000 осталось). Общая COGS = $284,000. Валовая прибыль = $400,000 - $284,000 = $116,000",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This represents the COGS, not the gross profit.",
+          "text_ru": "Неверно. Это представляет собой COGS, а не валовую прибыль."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This calculation error does not match the correct methodology.",
+          "text_ru": "Неверно. Эта ошибка расчета не соответствует правильной методологии."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": [
+        "gross_profit",
+        "inventory_costing",
+        "specific_identification"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q029",
+      "original_question_number": 4630,
+      "los_id": "LOS_2c",
+      "question_text_en": "A company decides to discontinue a segment of its business. In its income statement, the results of this discontinued operation should be:",
+      "question_text_ru": "Компания решает прекратить сегмент своего бизнеса. В отчете о прибылях и убытках результаты этой прекращенной деятельности должны быть:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "included in the revenue from continuing operations.",
+          "text_ru": "включены в выручку от продолжающейся деятельности."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "reported separately at the bottom of the income statement.",
+          "text_ru": "отражены отдельно внизу отчета о прибылях и убытках."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "combined with unusual or infrequent items within continuing operations.",
+          "text_ru": "объединены с необычными или редкими статьями в рамках продолжающейся деятельности."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Discontinued operations are reported separately at the bottom of the income statement to provide a clear distinction between the financial performance of ongoing operations and the results of the segment that is being discontinued. This separate reporting allows investors and analysts to assess the company's continuing operations without the noise of the discontinued segment's performance, providing a more accurate view of the company's future earnings potential.",
+      "explanation_ru": "Прекращенная деятельность отражается отдельно внизу отчета о прибылях и убытках, чтобы обеспечить четкое различие между финансовыми показателями продолжающейся деятельности и результатами сегмента, который прекращается. Это отдельное представление позволяет инвесторам и аналитикам оценить продолжающуюся деятельность компании без шума от показателей прекращенного сегмента, обеспечивая более точное представление о будущем потенциале прибыли компании.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Including the results of the discontinued operation in the revenue from continuing operations would mislead users.",
+          "text_ru": "Неверно. Включение результатов прекращенной деятельности в выручку от продолжающейся деятельности вводило бы пользователей в заблуждение."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Discontinued operations are not the same as unusual or infrequent items.",
+          "text_ru": "Неверно. Прекращенная деятельность - это не то же самое, что необычные или редкие статьи."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "discontinued_operations",
+        "income_statement_presentation"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q030",
+      "original_question_number": 4631,
+      "los_id": "LOS_2c",
+      "question_text_en": "When a company acquires a significant business segment during the fiscal year, the financial statements should:",
+      "question_text_ru": "Когда компания приобретает значительный бизнес-сегмент в течение финансового года, финансовые отчеты должны:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Exclude the results of the acquired segment until the next fiscal year.",
+          "text_ru": "Исключать результаты приобретенного сегмента до следующего финансового года."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Consolidate the results of the acquired segment from the acquisition's closing date.",
+          "text_ru": "Консолидировать результаты приобретенного сегмента с даты закрытия сделки."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Consolidate the results of the acquired segment from the beginning of the fiscal year.",
+          "text_ru": "Консолидировать результаты приобретенного сегмента с начала финансового года."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The financial statements should consolidate the results of the acquired segment from the acquisition's closing date because this is the point in time when the acquirer gains control over the acquired entity. Consolidating from the closing date ensures that the financial statements accurately reflect the period during which the acquirer has had control and the financial impact of the acquired segment on the acquirer's operations.",
+      "explanation_ru": "Финансовые отчеты должны консолидировать результаты приобретенного сегмента с даты закрытия сделки, потому что это момент времени, когда приобретатель получает контроль над приобретенным предприятием. Консолидация с даты закрытия обеспечивает, что финансовые отчеты точно отражают период, в течение которого приобретатель имел контроль, и финансовое влияние приобретенного сегмента на операции приобретателя.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Excluding the results until the next fiscal year would fail to reflect the impact of the acquisition.",
+          "text_ru": "Неверно. Исключение результатов до следующего финансового года не отразит влияние приобретения."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Consolidating from the beginning of the fiscal year would include results for a period when the acquirer did not have control.",
+          "text_ru": "Неверно. Консолидация с начала финансового года включила бы результаты за период, когда приобретатель не имел контроля."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "business_combinations",
+        "consolidation"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q031",
+      "original_question_number": 4632,
+      "los_id": "LOS_2c",
+      "question_text_en": "If a company needs to change an accounting policy due to a new standard, the change should be applied:",
+      "question_text_ru": "Если компании необходимо изменить учетную политику из-за нового стандарта, изменение должно применяться:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Prospectively, affecting only future periods.",
+          "text_ru": "Перспективно, затрагивая только будущие периоды."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Only to the current period, without restating prior periods.",
+          "text_ru": "Только к текущему периоду, без пересчета предыдущих периодов."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Retrospectively, restating prior periods as if the new policy had always been in place.",
+          "text_ru": "Ретроспективно, пересчитывая предыдущие периоды так, как если бы новая политика всегда была на месте."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Retrospective application of a change in accounting policy due to a new standard is generally preferred unless it is impractical to do so. This approach involves restating prior periods as if the new policy had always been in place, which provides consistency and comparability across financial periods. It ensures that users of the financial statements can make meaningful comparisons between periods and assess trends accurately.",
+      "explanation_ru": "Ретроспективное применение изменения учетной политики из-за нового стандарта, как правило, предпочтительно, если это не практично. Этот подход включает пересчет предыдущих периодов так, как если бы новая политика всегда была на месте, что обеспечивает согласованность и сопоставимость между финансовыми периодами. Это обеспечивает, что пользователи финансовых отчетов могут делать значимые сравнения между периодами и точно оценивать тенденции.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Prospective application does not provide the same level of comparability and consistency as retrospective application.",
+          "text_ru": "Неверно. Перспективное применение не обеспечивает того же уровня сопоставимости и согласованности, что и ретроспективное применение."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Applying the change only to the current period would result in a lack of comparability.",
+          "text_ru": "Неверно. Применение изменения только к текущему периоду приведет к отсутствию сопоставимости."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "accounting_policy_change",
+        "retrospective_application"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q032",
+      "original_question_number": 4633,
+      "los_id": "LOS_2c",
+      "question_text_en": "When a company corrects an error from a previous period, the correction should be:",
+      "question_text_ru": "Когда компания исправляет ошибку предыдущего периода, исправление должно быть:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "reflected in the income statement of the current period.",
+          "text_ru": "отражено в отчете о прибылях и убытках текущего периода."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "treated as a change in accounting estimate and applied prospectively.",
+          "text_ru": "рассматриваться как изменение оценочного значения и применяться перспективно."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "applied retrospectively by restating the financial statements of the prior periods presented.",
+          "text_ru": "применяться ретроспективно путем пересчета финансовых отчетов предыдущих периодов."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Errors from previous periods should be corrected by restating the financial statements of the prior periods presented. This approach ensures that the financial statements provide a true and fair view of the company's financial position and performance as if the error had never occurred. It allows users of the financial statements to make accurate comparisons between periods and to rely on the financial information presented.",
+      "explanation_ru": "Ошибки предыдущих периодов должны быть исправлены путем пересчета финансовых отчетов предыдущих периодов. Этот подход обеспечивает, что финансовые отчеты дают истинное и справедливое представление о финансовом положении и результатах деятельности компании, как если бы ошибки никогда не было. Это позволяет пользователям финансовых отчетов делать точные сравнения между периодами и полагаться на представленную финансовую информацию.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Reflecting the correction in the current period's income statement would not address the error in the period in which it occurred.",
+          "text_ru": "Неверно. Отражение исправления в отчете о прибылях и убытках текущего периода не устранит ошибку в периоде, в котором она произошла."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Errors are not the same as changes in accounting estimates.",
+          "text_ru": "Неверно. Ошибки - это не то же самое, что изменения в оценочных значениях."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "error_correction",
+        "prior_period_adjustments"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q033",
+      "original_question_number": 4634,
+      "los_id": "LOS_2c",
+      "question_text_en": "In assessing a company's future financial performance, an analyst should:",
+      "question_text_ru": "При оценке будущих финансовых показателей компании, аналитик должен:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "include the results of discontinued operations in their projections",
+          "text_ru": "включать результаты прекращенной деятельности в свои прогнозы"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "exclude the results of discontinued operations from their projections.",
+          "text_ru": "исключать результаты прекращенной деятельности из своих прогнозов."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "include only the unusual items from discontinued operations in their projections.",
+          "text_ru": "включать только необычные статьи из прекращенной деятельности в свои прогнозы."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Analysts should exclude the results of discontinued operations from their projections of a company's future financial performance. Discontinued operations represent parts of the business that the company has ceased or plans to cease, and they will not contribute to the company's earnings or cash flow in the future. Excluding these results provides a clearer view of the ongoing operations and the company's future earnings potential.",
+      "explanation_ru": "Аналитики должны исключать результаты прекращенной деятельности из своих прогнозов будущих финансовых показателей компании. Прекращенная деятельность представляет части бизнеса, которые компания прекратила или планирует прекратить, и они не будут вносить вклад в прибыль или денежный поток компании в будущем. Исключение этих результатов обеспечивает более четкое представление о текущей деятельности и будущем потенциале прибыли компании.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Including the results of discontinued operations would not provide an accurate reflection of the company's ongoing business performance.",
+          "text_ru": "Неверно. Включение результатов прекращенной деятельности не даст точного отражения текущих бизнес-показателей компании."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Even the unusual items from discontinued operations should be excluded from future projections.",
+          "text_ru": "Неверно. Даже необычные статьи из прекращенной деятельности должны быть исключены из будущих прогнозов."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "discontinued_operations",
+        "financial_analysis"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q034",
+      "original_question_number": 4635,
+      "los_id": "LOS_2d",
+      "question_text_en": "For the fiscal year ending December 31, 2023, a company reported a net income of USD 4,800,000. The company declared and paid USD 400,000 in dividends on preferred stock. Shares outstanding on January 1, 2023: 1,600,000. Shares issued on April 1, 2023: 400,000. Shares repurchased on October 1, 2023: (200,000). Shares outstanding on December 31, 2023: 1,800,000. The company's basic earnings per share (EPS) for the year is closest to:",
+      "question_text_ru": "За финансовый год, заканчивающийся 31 декабря 2023 года, компания отчиталась о чистой прибыли в размере USD 4,800,000. Компания объявила и выплатила USD 400,000 дивидендов по привилегированным акциям. Акции в обращении на 1 января 2023 года: 1,600,000. Акции выпущены 1 апреля 2023 года: 400,000. Акции выкуплены 1 октября 2023 года: (200,000). Акции в обращении на 31 декабря 2023 года: 1,800,000. Базовая прибыль на акцию (EPS) компании за год ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "2.38",
+          "text_ru": "2.38"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "2.89",
+          "text_ru": "2.89"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "3.00",
+          "text_ru": "3.00"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Weighted average shares = [(1,600,000 × 12) + (400,000 × 9) - (200,000 × 3)] / 12 = 1,850,000. Basic EPS = (Net income - Preferred dividends) / Weighted average shares = ($4,800,000 - $400,000) / 1,850,000 = $2.38",
+      "explanation_ru": "Средневзвешенные акции = [(1,600,000 × 12) + (400,000 × 9) - (200,000 × 3)] / 12 = 1,850,000. Базовая EPS = (Чистая прибыль - Привилегированные дивиденды) / Средневзвешенные акции = ($4,800,000 - $400,000) / 1,850,000 = $2.38",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This does not correctly calculate the weighted average shares.",
+          "text_ru": "Неверно. Это не правильно рассчитывает средневзвешенные акции."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This uses ending shares instead of weighted average shares.",
+          "text_ru": "Неверно. Это использует конечные акции вместо средневзвешенных акций."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "basic_eps",
+        "weighted_average_shares"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q035",
+      "original_question_number": 4637,
+      "los_id": "LOS_2d",
+      "question_text_en": "On December 31, 2023, a company reported a net income of USD 1,200,000. It had an average of 500,000 shares of common stock outstanding and 10,000 shares of convertible preferred stock. Each share of preferred stock pays an annual dividend of USD 10 and is convertible into 4 shares of the company's common stock. The company's diluted earnings per share (EPS) using the if-converted method is closest to:",
+      "question_text_ru": "31 декабря 2023 года компания отчиталась о чистой прибыли в размере USD 1,200,000. У нее было в среднем 500,000 обыкновенных акций в обращении и 10,000 конвертируемых привилегированных акций. Каждая привилегированная акция выплачивает годовой дивиденд в размере USD 10 и конвертируется в 4 обыкновенные акции компании. Размытая прибыль на акцию (EPS) компании с использованием метода \"как если бы конвертировано\" ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "2.22",
+          "text_ru": "2.22"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "2.40",
+          "text_ru": "2.40"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "2.50",
+          "text_ru": "2.50"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Diluted EPS = Net Income / (Weighted average number of outstanding shares + New common shares that would have been issued at conversion) = USD 1,200,000 / (500,000 + 40,000) = USD 1,200,000 / 540,000 = USD 2.22",
+      "explanation_ru": "Размытая EPS = Чистая прибыль / (Средневзвешенное количество акций в обращении + Новые обыкновенные акции, которые были бы выпущены при конвертации) = USD 1,200,000 / (500,000 + 40,000) = USD 1,200,000 / 540,000 = USD 2.22",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This represents Basic EPS: ($1,200,000 - $100,000) / 500,000 = $2.40",
+          "text_ru": "Неверно. Это представляет базовую EPS: ($1,200,000 - $100,000) / 500,000 = $2.40"
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This calculation does not properly account for the conversion.",
+          "text_ru": "Неверно. Этот расчет не правильно учитывает конвертацию."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "diluted_eps",
+        "if_converted_method"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q036",
+      "original_question_number": 4640,
+      "los_id": "LOS_2d",
+      "question_text_en": "XYZ Corporation reported a net income of USD 2,000,000 for the fiscal year ending December 31, 2023. The company had an average of 800,000 shares of common stock outstanding during the year. Additionally, XYZ Corporation had 50,000 stock options outstanding with an exercise price of USD 25 per option. The average market price of the company's stock during the year was USD 40 per share. There are no preferred dividends. The company's diluted earnings per share (EPS) using the treasury stock method is closest to:",
+      "question_text_ru": "XYZ Corporation отчиталась о чистой прибыли в размере USD 2,000,000 за финансовый год, заканчивающийся 31 декабря 2023 года. Компания имела в среднем 800,000 обыкновенных акций в обращении в течение года. Кроме того, XYZ Corporation имела 50,000 непогашенных опционов на акции с ценой исполнения USD 25 за опцион. Средняя рыночная цена акций компании в течение года составляла USD 40 за акцию. Привилегированных дивидендов нет. Размытая прибыль на акцию (EPS) компании с использованием метода казначейских акций ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "2.38",
+          "text_ru": "2.38"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "2.44",
+          "text_ru": "2.44"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "2.62",
+          "text_ru": "2.62"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Cash received from exercise = 50,000 × USD 25 = USD 1,250,000. Shares that could be repurchased = USD 1,250,000 / USD 40 = 31,250 shares. Net increase in shares = 50,000 - 31,250 = 18,750 shares. Diluted EPS = USD 2,000,000 / (800,000 + 18,750) = USD 2,000,000 / 818,750 = USD 2.44",
+      "explanation_ru": "Денежные средства, полученные от исполнения = 50,000 × USD 25 = USD 1,250,000. Акции, которые могут быть выкуплены = USD 1,250,000 / USD 40 = 31,250 акций. Чистое увеличение акций = 50,000 - 31,250 = 18,750 акций. Размытая EPS = USD 2,000,000 / (800,000 + 18,750) = USD 2,000,000 / 818,750 = USD 2.44",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This does not properly calculate the treasury stock method.",
+          "text_ru": "Неверно. Это не правильно рассчитывает метод казначейских акций."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This calculation error does not match the correct methodology.",
+          "text_ru": "Неверно. Эта ошибка расчета не соответствует правильной методологии."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": [
+        "diluted_eps",
+        "treasury_stock_method"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q037",
+      "original_question_number": 4641,
+      "los_id": "LOS_2e",
+      "question_text_en": "A company's income statement for the year ended December 31, 2023, shows: Revenue $4,000,000, Cost of Goods Sold $2,400,000, Net Income $800,000. The company's gross profit margin for the year 2023 is closest to:",
+      "question_text_ru": "Отчет о прибылях и убытках компании за год, заканчивающийся 31 декабря 2023 года, показывает: Выручка $4,000,000, Себестоимость проданных товаров $2,400,000, Чистая прибыль $800,000. Валовая прибыльность компании за 2023 год ближе всего к:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Item",
+          "Amount"
+        ],
+        "headers_ru": [
+          "Показатель",
+          "Сумма"
+        ],
+        "rows": [
+          [
+            "Revenue",
+            "$4,000,000"
+          ],
+          [
+            "Cost of Goods Sold",
+            "$2,400,000"
+          ],
+          [
+            "Net Income",
+            "$800,000"
+          ]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "40%",
+          "text_ru": "40%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "50%",
+          "text_ru": "50%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "60%",
+          "text_ru": "60%"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Gross Profit Margin = (Revenue - Cost of Goods Sold) / Revenue = ($4,000,000 - $2,400,000) / $4,000,000 = $1,600,000 / $4,000,000 = 40%",
+      "explanation_ru": "Валовая прибыльность = (Выручка - Себестоимость проданных товаров) / Выручка = ($4,000,000 - $2,400,000) / $4,000,000 = $1,600,000 / $4,000,000 = 40%",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This would be the result of an incorrect calculation.",
+          "text_ru": "Неверно. Это был бы результат неправильного расчета."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This miscalculates the gross profit margin.",
+          "text_ru": "Неверно. Это неправильно рассчитывает валовую прибыльность."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "gross_profit_margin",
+        "profitability_ratios"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q038",
+      "original_question_number": 4642,
+      "los_id": "LOS_2e",
+      "question_text_en": "Which statement best describes the significance of analyzing both net profit margin and gross profit margin in assessing a company's profitability?",
+      "question_text_ru": "Какое утверждение лучше всего описывает значимость анализа как чистой, так и валовой прибыльности при оценке рентабельности компании?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Net profit margin is the only relevant measure of profitability, making gross profit margin analysis unnecessary.",
+          "text_ru": "Чистая прибыльность - единственный релевантный показатель рентабельности, что делает анализ валовой прибыльности ненужным."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Analyzing both margins is redundant since they essentially provide the same information about a company's profitability.",
+          "text_ru": "Анализ обоих показателей избыточен, поскольку они по существу предоставляют одну и ту же информацию о рентабельности компании."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Gross profit margin and net profit margin provide insights into different aspects of a company's operational efficiency and overall profitability.",
+          "text_ru": "Валовая прибыльность и чистая прибыльность дают представление о различных аспектах операционной эффективности и общей рентабельности компании."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Gross profit margin and net profit margin provide insights into different aspects of a company's operational efficiency and overall profitability. Gross profit margin focuses on the cost of goods sold and the direct profitability of the company's core business activities, indicating how efficiently a company uses its resources in producing its goods or services. Net profit margin, on the other hand, takes into account all operating expenses, interest, taxes, and other non-operating items, providing a comprehensive view of the company's overall profitability after all expenses have been deducted. Together, these margins offer a nuanced understanding of where efficiencies or inefficiencies lie within the company's operations and financial management.",
+      "explanation_ru": "Валовая прибыльность и чистая прибыльность дают представление о различных аспектах операционной эффективности и общей рентабельности компании. Валовая прибыльность фокусируется на себестоимости проданных товаров и прямой прибыльности основной деятельности компании, указывая, насколько эффективно компания использует свои ресурсы при производстве своих товаров или услуг. Чистая прибыльность, с другой стороны, учитывает все операционные расходы, проценты, налоги и другие внеоперационные статьи, обеспечивая всестороннее представление об общей рентабельности компании после вычета всех расходов. Вместе эти показатели предлагают детальное понимание того, где находятся эффективности или неэффективности в операциях и финансовом управлении компании.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Both net profit margin and gross profit margin are important for a comprehensive analysis.",
+          "text_ru": "Неверно. Как чистая прибыльность, так и валовая прибыльность важны для всестороннего анализа."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Analyzing both margins is not redundant; each margin provides unique insights.",
+          "text_ru": "Неверно. Анализ обоих показателей не избыточен; каждый показатель предоставляет уникальную информацию."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "profit_margins",
+        "financial_analysis"
+      ]
+    },
+    {
+      "question_id": "FSA-2-Q039",
+      "original_question_number": 3756,
+      "los_id": "LOS_2e",
+      "question_text_en": "Two companies, A and B, recorded the following information: Company A - Sales: $10.1 million, Cost of goods sold: $4.6 million, Administration costs: $0.8 million, Rent expense: $0.1 million, Research expense: $0.4 million; Company B - Sales: $13.4 million, Cost of goods sold: $6.6 million, Administration costs: $0.6 million, Rent expense: $0.2 million, Research expense: $0.3 million. The information above suggests that:",
+      "question_text_ru": "Две компании, A и B, зафиксировали следующую информацию: Компания A - Продажи: $10.1 млн, Себестоимость проданных товаров: $4.6 млн, Административные расходы: $0.8 млн, Арендные расходы: $0.1 млн, Исследовательские расходы: $0.4 млн; Компания B - Продажи: $13.4 млн, Себестоимость проданных товаров: $6.6 млн, Административные расходы: $0.6 млн, Арендные расходы: $0.2 млн, Исследовательские расходы: $0.3 млн. Приведенная выше информация предполагает, что:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Item",
+          "Company A",
+          "Company B"
+        ],
+        "headers_ru": [
+          "Показатель",
+          "Компания A",
+          "Компания B"
+        ],
+        "rows": [
+          [
+            "Sales",
+            "$10.1 million",
+            "$13.4 million"
+          ],
+          [
+            "Cost of goods sold",
+            "$4.6 million",
+            "$6.6 million"
+          ],
+          [
+            "Administration costs",
+            "$0.8 million",
+            "$0.6 million"
+          ],
+          [
+            "Rent expense",
+            "$0.1 million",
+            "$0.2 million"
+          ],
+          [
+            "Research expense",
+            "$0.4 million",
+            "$0.3 million"
+          ]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Company B has a higher gross margin as compared to company A.",
+          "text_ru": "Компания B имеет более высокую валовую маржу по сравнению с компанией A."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Company B has a gross margin of 51%, while company A has an operating margin of 42%.",
+          "text_ru": "Компания B имеет валовую маржу 51%, в то время как компания A имеет операционную маржу 42%."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Company A has an operating margin of 43%, while Company B has an operating margin of 41%.",
+          "text_ru": "Компания A имеет операционную маржу 43%, в то время как компания B имеет операционную маржу 41%."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Company A: Gross margin = ($10.1 - $4.6) / $10.1 = 54%, Operating margin = ($10.1 - $4.6 - $0.8 - $0.1 - $0.4) / $10.1 = 42%. Company B: Gross margin = ($13.4 - $6.6) / $13.4 = 51%, Operating margin = ($13.4 - $6.6 - $0.6 - $0.2 - $0.3) / $13.4 = 43%. Therefore, Company A has a higher gross margin (54% vs 51%), while Company B has a higher operating margin (43% vs 42%).",
+      "explanation_ru": "Компания A: Валовая маржа = ($10.1 - $4.6) / $10.1 = 54%, Операционная маржа = ($10.1 - $4.6 - $0.8 - $0.1 - $0.4) / $10.1 = 42%. Компания B: Валовая маржа = ($13.4 - $6.6) / $13.4 = 51%, Операционная маржа = ($13.4 - $6.6 - $0.6 - $0.2 - $0.3) / $13.4 = 43%. Следовательно, компания A имеет более высокую валовую маржу (54% против 51%), в то время как компания B имеет более высокую операционную маржу (43% против 42%).",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Company A has the higher gross margin (54% vs 51%).",
+          "text_ru": "Неверно. Компания A имеет более высокую валовую маржу (54% против 51%)."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Company A's operating margin is 42%, while company B's operating margin is 43%.",
+          "text_ru": "Неверно. Операционная маржа компании A составляет 42%, в то время как операционная маржа компании B составляет 43%."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "gross_margin",
+        "operating_margin",
+        "common_size_analysis"
+      ]
     }
   ]
 }
