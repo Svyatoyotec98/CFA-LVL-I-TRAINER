@@ -70,16 +70,20 @@
     },
     {
       "module_id": 5,
-      "module_name": "Monetary and Fiscal Policy",
+      "module_name": "Introduction to Geopolitics",
       "page_range": "113-139",
       "question_range": "86-97",
       "los_codes": [
         "LOS_5a",
-        "LOS_5b"
+        "LOS_5b",
+        "LOS_5c",
+        "LOS_5d",
+        "LOS_5e",
+        "LOS_5f"
       ],
-      "module_name_ru": "Монетарная и фискальная политика",
+      "module_name_ru": "Введение в геополитику",
       "glossary_file": "glossary_module_5.json",
-      "status": "pending"
+      "status": "complete"
     },
     {
       "module_id": 6,

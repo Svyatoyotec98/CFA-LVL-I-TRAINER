@@ -1,0 +1,615 @@
+{
+  "metadata": {
+    "book_id": 2,
+    "book_code": "ECON",
+    "book_name": "Economics",
+    "book_name_ru": "Экономика",
+    "module_id": 5,
+    "module_name": "Introduction to Geopolitics",
+    "module_name_ru": "Введение в геополитику",
+    "page_range": "113-139",
+    "total_terms": 43,
+    "total_exercises": 5,
+    "version": "2.0",
+    "last_updated": "2026-01-21"
+  },
+  "los": [
+    {
+      "los_id": "LOS_5a",
+      "los_code": "5a",
+      "los_description_en": "describe geopolitics from a cooperation versus competition perspective",
+      "los_description_ru": "описать геополитику с точки зрения перспективы сотрудничества против конкуренции",
+      "terms": [
+        {
+          "term_id": "ECON-5-001",
+          "term_en": "Geopolitics",
+          "term_ru": "Геополитика",
+          "definition_en": "The study of how geography influences national and international relations. Examines actors (individuals, organizations, companies, national governments) that engage in political, economic, and financial activities and their interactions. Analyzed from cooperation versus competition perspective.",
+          "definition_ru": "Изучение того, как география влияет на национальные и международные отношения. Исследует акторов (индивидуумов, организации, компании, национальные правительства), которые участвуют в политических, экономических и финансовых действиях и их взаимодействиях. Анализируется с точки зрения сотрудничества против конкуренции.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-002",
+          "term_en": "State Actors",
+          "term_ru": "Государственные акторы",
+          "definition_en": "Actors that exercise authority over a nation's national security and resources through national governments, political groups, or country leaders. Include presidents, heads of government, and political parties. Operate at national or state level.",
+          "definition_ru": "Акторы, которые осуществляют власть над национальной безопасностью и ресурсами страны через национальные правительства, политические группы или лидеров стран. Включают президентов, глав правительств и политические партии. Действуют на национальном или государственном уровне.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-003",
+          "term_en": "Non-State Actors",
+          "term_ru": "Негосударственные акторы",
+          "definition_en": "Actors that engage in international political, economic, or financial activities without direct access to nation's resources or security. Examples include NGOs, multinational corporations, charitable groups, and influential individuals like corporate executives or cultural celebrities. Drive globalization.",
+          "definition_ru": "Акторы, которые участвуют в международных политических, экономических или финансовых действиях без прямого доступа к ресурсам или безопасности страны. Примеры включают НПО, многонациональные корпорации, благотворительные группы и влиятельных индивидуумов, таких как руководители корпораций или культурные знаменитости. Движут глобализацией.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-004",
+          "term_en": "Political Cooperation",
+          "term_ru": "Политическое сотрудничество",
+          "definition_en": "The degree to which countries work toward agreements on rules and standardization for activities and interactions. Cooperative nations participate in international accords, embrace law standardization, tariff harmonization, and free information flow including technology transfer.",
+          "definition_ru": "Степень, в которой страны работают в направлении соглашений по правилам и стандартизации для действий и взаимодействий. Сотрудничающие страны участвуют в международных соглашениях, принимают стандартизацию законов, гармонизацию тарифов и свободный поток информации, включая передачу технологий.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-005",
+          "term_en": "Non-Cooperative Nation",
+          "term_ru": "Несотрудничающая страна",
+          "definition_en": "A nation with erratic, often arbitrary policies that limits cross-border trade in capital, goods, and people. Engages in retaliation and contributes little to technological exchange. Characterized by competitive stance rather than cooperation.",
+          "definition_ru": "Страна с непоследовательной, часто произвольной политикой, которая ограничивает трансграничную торговлю капиталом, товарами и людьми. Занимается ответными мерами и мало вносит вклад в технологический обмен. Характеризуется конкурентной позицией, а не сотрудничеством.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-006",
+          "term_en": "National Security",
+          "term_ru": "Национальная безопасность",
+          "definition_en": "Safeguarding a country and its people, economy, and institutions from external threats like terrorism and natural disasters. Geographical factors play significant role in nation's approach to national security and level of cooperation. Key motivation for international cooperation.",
+          "definition_ru": "Защита страны и её людей, экономики и институтов от внешних угроз, таких как терроризм и стихийные бедствия. Географические факторы играют значительную роль в подходе страны к национальной безопасности и уровне сотрудничества. Ключевая мотивация для международного сотрудничества.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-007",
+          "term_en": "Economic Interest",
+          "term_ru": "Экономический интерес",
+          "definition_en": "Motivation for cooperation where countries aim to increase national wealth and reduce income disparity. Countries collaborate for economic gains with two main goals: creating fair opportunities for businesses worldwide or securing essential resources through trade.",
+          "definition_ru": "Мотивация для сотрудничества, при которой страны стремятся увеличить национальное богатство и сократить неравенство доходов. Страны сотрудничают для экономической выгоды с двумя основными целями: создание справедливых возможностей для бизнеса по всему миру или обеспечение необходимых ресурсов через торговлю.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-008",
+          "term_en": "Geophysical Resource Endowment",
+          "term_ru": "Геофизическая ресурсная обеспеченность",
+          "definition_en": "Favorable geography and climate, along with access to food and water, crucial for sustainable growth. Different countries have varying levels of these resources. Disparities can create power imbalances where resource-rich nations gain political influence over those in need.",
+          "definition_ru": "Благоприятная география и климат, наряду с доступом к продовольствию и воде, имеющие решающее значение для устойчивого роста. Разные страны имеют различные уровни этих ресурсов. Диспропорции могут создавать дисбаланс сил, когда богатые ресурсами страны получают политическое влияние над нуждающимися.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-009",
+          "term_en": "Standardization",
+          "term_ru": "Стандартизация",
+          "definition_en": "Process of defining protocols for manufacture, marketing, delivery, or usage of goods or services. Agreement of all concerned parties to abide by these protocols. Can take forms of operational synchronization, process standardization, and regulatory collaboration. Key motivation for cooperation.",
+          "definition_ru": "Процесс определения протоколов для производства, маркетинга, доставки или использования товаров или услуг. Согласие всех заинтересованных сторон следовать этим протоколам. Может принимать формы операционной синхронизации, стандартизации процессов и регуляторного сотрудничества. Ключевая мотивация для сотрудничества.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-010",
+          "term_en": "Soft Power",
+          "term_ru": "Мягкая сила",
+          "definition_en": "Nonviolent method of influencing another nation's actions. Developed gradually through initiatives such as cultural programs, advertising, travel scholarships, and university exchanges. Cultural factors like enduring political relationships and migration trends can bind countries together.",
+          "definition_ru": "Ненасильственный метод влияния на действия другой страны. Развивается постепенно через инициативы, такие как культурные программы, реклама, стипендии для поездок и университетские обмены. Культурные факторы, такие как устойчивые политические отношения и миграционные тенденции, могут связывать страны вместе.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-011",
+          "term_en": "National Interest Hierarchy",
+          "term_ru": "Иерархия национальных интересов",
+          "definition_en": "Framework where country's national interests are ranked with survival as top priority and less crucial factors below. Governments use this hierarchy to guide decisions, choosing cooperation when it benefits nation. When conflicting interests arise, higher-ranked interest takes priority.",
+          "definition_ru": "Структура, в которой национальные интересы страны ранжированы с выживанием как главным приоритетом и менее важными факторами ниже. Правительства используют эту иерархию для руководства решениями, выбирая сотрудничество, когда оно приносит пользу стране. Когда возникают конфликтующие интересы, приоритет имеет более высоко ранжированный интерес.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-012",
+          "term_en": "Institutions",
+          "term_ru": "Институты",
+          "definition_en": "Established organizations in society. Can manifest as formal entities (universities, legal organizations) or informal (customs, behavioral patterns). Strong institutions lead to more predictable political climate and foster conducive environment for collaborative alliances. Can emerge from government, NGOs, or cultural sources.",
+          "definition_ru": "Устоявшиеся организации в обществе. Могут проявляться как формальные структуры (университеты, юридические организации) или неформальные (обычаи, поведенческие модели). Сильные институты ведут к более предсказуемому политическому климату и способствуют благоприятной среде для сотруднических альянсов. Могут возникать из правительства, НПО или культурных источников.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "ECON-5-EX-001",
+          "question_en": "Which of the following is least likely a reason why a country may want to cooperate with others?",
+          "question_ru": "Что из следующего наименее вероятно является причиной, по которой страна может захотеть сотрудничать с другими?",
+          "options": [
+            {"letter": "A", "text_en": "National security", "text_ru": "Национальная безопасность"},
+            {"letter": "B", "text_en": "Economic interest", "text_ru": "Экономический интерес"},
+            {"letter": "C", "text_en": "Political self-determination", "text_ru": "Политическое самоопределение"}
+          ],
+          "correct_answer": "C",
+          "solution_en": "Political self-determination is a reason why a country may be non-cooperative. Countries where political self-determination is more important than the benefits of any cooperation take a non-cooperative stance. A is incorrect: National security is a motivation for cooperation involving protecting the country from external threats. B is incorrect: Economic interest is another motivation for cooperation where countries secure essential resources through trade or level the playing field for their companies.",
+          "solution_ru": "Политическое самоопределение является причиной, по которой страна может не сотрудничать. Страны, где политическое самоопределение важнее, чем преимущества любого сотрудничества, занимают несотрудническую позицию. A неверно: Национальная безопасность - это мотивация для сотрудничества, включающая защиту страны от внешних угроз. B неверно: Экономический интерес - еще одна мотивация для сотрудничества, когда страны обеспечивают необходимые ресурсы через торговлю или создают равные условия для своих компаний."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_5b",
+      "los_code": "5b",
+      "los_description_en": "describe geopolitics and its relationship with globalization",
+      "los_description_ru": "описать геополитику и её отношение к глобализации",
+      "terms": [
+        {
+          "term_id": "ECON-5-013",
+          "term_en": "Globalization",
+          "term_ru": "Глобализация",
+          "definition_en": "The interaction and integration of individuals, organizations, and governments on a global scale. Characterized by cross-border movement of goods, information, employment, and culture. Allows businesses to find optimal inputs and enables global investors to engage in engineering, production, supply chain management, and logistics.",
+          "definition_ru": "Взаимодействие и интеграция индивидуумов, организаций и правительств в глобальном масштабе. Характеризуется трансграничным движением товаров, информации, занятости и культуры. Позволяет бизнесу находить оптимальные ресурсы и дает возможность глобальным инвесторам участвовать в инженерии, производстве, управлении цепочками поставок и логистике.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-014",
+          "term_en": "Nationalism (Anti-globalization)",
+          "term_ru": "Национализм (Антиглобализация)",
+          "definition_en": "Promotion of country's economic interests at expense of or in opposition to those of other nations. Characterized by limited economic and financial collaboration. Actors prioritize domestic production and sales, minimize cross-border investments and capital movements, and limit foreign currency transactions.",
+          "definition_ru": "Продвижение экономических интересов страны за счёт или в противовес интересам других стран. Характеризуется ограниченным экономическим и финансовым сотрудничеством. Акторы отдают приоритет внутреннему производству и продажам, минимизируют трансграничные инвестиции и движение капитала и ограничивают операции с иностранной валютой.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-015",
+          "term_en": "Intrinsic Gain",
+          "term_ru": "Внутренняя выгода",
+          "definition_en": "A byproduct or consequence of activity that results in benefit overlapping profit. Example: accelerated productivity from learning new techniques. One of three potential gains from participating in globalization, alongside increasing profits and access to resources/markets.",
+          "definition_ru": "Побочный продукт или следствие деятельности, которое приводит к выгоде, пересекающейся с прибылью. Пример: ускоренная производительность от изучения новых техник. Одна из трёх потенциальных выгод от участия в глобализации наряду с увеличением прибыли и доступом к ресурсам/рынкам.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-016",
+          "term_en": "Unequal Accrual of Economic and Financial Gains",
+          "term_ru": "Неравномерное накопление экономических и финансовых выгод",
+          "definition_en": "Cost of globalization where jobs created in foreign country may occasion job losses in home country. Foreign country's businesses may compete with corporation for workers and resources. Creates income and wealth inequality as some countries gain jobs while others lose them.",
+          "definition_ru": "Издержка глобализации, при которой рабочие места, создаваемые в иностранной стране, могут привести к потере рабочих мест в своей стране. Бизнес иностранной страны может конкурировать с корпорацией за работников и ресурсы. Создаёт неравенство доходов и богатства, так как одни страны приобретают рабочие места, в то время как другие их теряют.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-017",
+          "term_en": "Interdependence",
+          "term_ru": "Взаимозависимость",
+          "definition_en": "Cost of globalization where increased economic and financial cooperation makes businesses more reliant on foreign resources for supply chains. In turn makes countries more reliant on foreign countries for certain resources. Creates vulnerabilities in global system.",
+          "definition_ru": "Издержка глобализации, при которой усиленное экономическое и финансовое сотрудничество делает бизнес более зависимым от иностранных ресурсов для цепочек поставок. В свою очередь делает страны более зависимыми от иностранных стран в отношении определённых ресурсов. Создаёт уязвимости в глобальной системе.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-018",
+          "term_en": "Deglobalization",
+          "term_ru": "Деглобализация",
+          "definition_en": "Threat of rollback of globalization. Example: America First initiatives since 2008 rooted in nationalism, isolationism, and concerns for country security and economy. Though threatened, complete reversal seems implausible. Companies use techniques like reshoring, reglobalizing production, and doubling down on key markets to strengthen supply chains.",
+          "definition_ru": "Угроза отката глобализации. Пример: инициативы Америка прежде всего с 2008 года, основанные на национализме, изоляционизме и заботе о безопасности и экономике страны. Хотя угроза существует, полный разворот представляется маловероятным. Компании используют техники, такие как решоринг, реглобализация производства и удвоение усилий на ключевых рынках для укрепления цепочек поставок.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-019",
+          "term_en": "Reshoring Essentials",
+          "term_ru": "Решоринг основ",
+          "definition_en": "Technique to strengthen supply chains involving creation of local supply chains for vital goods to address emergencies effectively. Response to deglobalization threats while maintaining some globalization benefits.",
+          "definition_ru": "Техника укрепления цепочек поставок, включающая создание местных цепочек поставок для жизненно важных товаров для эффективного реагирования на чрезвычайные ситуации. Ответ на угрозы деглобализации при сохранении некоторых преимуществ глобализации.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-020",
+          "term_en": "Reglobalizing Production",
+          "term_ru": "Реглобализация производства",
+          "definition_en": "Technique involving replicating and bolstering supply chains to ensure greater robustness in production networks. Strategy to maintain globalization benefits while addressing vulnerabilities exposed by deglobalization concerns.",
+          "definition_ru": "Техника, включающая дублирование и укрепление цепочек поставок для обеспечения большей устойчивости производственных сетей. Стратегия поддержания преимуществ глобализации при устранении уязвимостей, выявленных озабоченностями по поводу деглобализации.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "ECON-5-EX-002",
+          "question_en": "Which of the following is least likely a motivation for globalization by non-state actors?",
+          "question_ru": "Что из следующего наименее вероятно является мотивацией для глобализации негосударственных акторов?",
+          "options": [
+            {"letter": "A", "text_en": "Intrinsic gain", "text_ru": "Внутренняя выгода"},
+            {"letter": "B", "text_en": "Currency exchange", "text_ru": "Валютный обмен"},
+            {"letter": "C", "text_en": "Access to resources and markets", "text_ru": "Доступ к ресурсам и рынкам"}
+          ],
+          "correct_answer": "B",
+          "solution_en": "Currency exchange is a characteristic of globalization but not necessarily a motivation for globalization by non-state actors. A is incorrect: Intrinsic gain is a motivation for globalization - a side effect generating benefit beyond profit itself, like accelerated productivity from learning new methods. C is incorrect: Access to resources and markets such as talent and raw materials is a motivation for globalization by non-actors who may also globalize to access market and investment opportunities.",
+          "solution_ru": "Валютный обмен является характеристикой глобализации, но не обязательно мотивацией для глобализации негосударственных акторов. A неверно: Внутренняя выгода является мотивацией для глобализации - побочный эффект, генерирующий выгоду за пределами самой прибыли, как ускоренная производительность от изучения новых методов. C неверно: Доступ к ресурсам и рынкам, таким как талант и сырье, является мотивацией для глобализации неакторов, которые также могут глобализироваться для доступа к рынкам и инвестиционным возможностям."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_5c",
+      "los_code": "5c",
+      "los_description_en": "describe functions and objectives of the international organizations that facilitate trade, including the World Bank, the International Monetary Fund, and the World Trade Organization",
+      "los_description_ru": "описать функции и цели международных организаций, которые способствуют торговле, включая Всемирный банк, Международный валютный фонд и Всемирную торговую организацию",
+      "terms": [
+        {
+          "term_id": "ECON-5-021",
+          "term_en": "International Monetary Fund (IMF)",
+          "term_ru": "Международный валютный фонд (МВФ)",
+          "definition_en": "Organization that lends foreign currencies to members during crisis or external deficits. Main job: maintain stability of international monetary system managing exchange rates and international payments. Emerged from July 1944 conference. Acts as platform for discussing monetary issues, encourages global trade expansion and poverty reduction.",
+          "definition_ru": "Организация, которая кредитует иностранные валюты членам во время кризиса или внешних дефицитов. Основная задача: поддержание стабильности международной валютной системы, управление обменными курсами и международными платежами. Возникла из конференции июля 1944 года. Действует как платформа для обсуждения валютных вопросов, поощряет расширение глобальной торговли и сокращение бедности.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-022",
+          "term_en": "World Trade Organization (WTO)",
+          "term_ru": "Всемирная торговая организация (ВТО)",
+          "definition_en": "Only organization regulating cross-border trade relationships globally. Replaced General Agreement on Tariffs and Trade (GATT) in January 1995. Functions: administer agreements, solve disputes, ensure trade policy transparency, provide training to developing countries, act as source of economic analysis.",
+          "definition_ru": "Единственная организация, регулирующая трансграничные торговые отношения глобально. Заменила Генеральное соглашение по тарифам и торговле (ГАТТ) в январе 1995 года. Функции: администрирование соглашений, решение споров, обеспечение прозрачности торговой политики, предоставление обучения развивающимся странам, действие как источник экономического анализа.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-023",
+          "term_en": "World Bank Group",
+          "term_ru": "Группа Всемирного банка",
+          "definition_en": "Organization with main objective to enhance environment for economic growth and help developing countries curb poverty. Emerged from 1944 conference. Objectives: provide funds and expertise for projects, ensure capabilities of partners, provision of analysis/advice, help create economic infrastructures and domestic financial markets in developing countries.",
+          "definition_ru": "Организация с основной целью улучшить среду для экономического роста и помочь развивающимся странам обуздать бедность. Возникла из конференции 1944 года. Цели: предоставление средств и экспертизы для проектов, обеспечение возможностей партнеров, предоставление анализа/советов, помощь в создании экономических инфраструктур и внутренних финансовых рынков в развивающихся странах.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-024",
+          "term_en": "General Agreement on Tariffs and Trade (GATT)",
+          "term_ru": "Генеральное соглашение по тарифам и торговле (ГАТТ)",
+          "definition_en": "Historical trade agreement replaced by WTO in January 1995. Still exists in form of its 1994 version. Was established to handle trade side of international economic organization after 1940s global trade decline and its negative impacts on living standards and unemployment.",
+          "definition_ru": "Историческое торговое соглашение, замененное ВТО в январе 1995 года. Все еще существует в форме версии 1994 года. Было создано для обработки торговой стороны международной экономической организации после спада глобальной торговли 1940-х годов и его негативных воздействий на уровень жизни и безработицу.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "ECON-5-EX-003",
+          "question_en": "Among these trade organizations, which one regulates cross-border trade relationship across the globe?",
+          "question_ru": "Среди этих торговых организаций, какая регулирует трансграничные торговые отношения по всему миру?",
+          "options": [
+            {"letter": "A", "text_en": "World Bank Group", "text_ru": "Группа Всемирного банка"},
+            {"letter": "B", "text_en": "World Trade Organization", "text_ru": "Всемирная торговая организация"},
+            {"letter": "C", "text_en": "International Monetary Fund", "text_ru": "Международный валютный фонд"}
+          ],
+          "correct_answer": "B",
+          "solution_en": "The World Trade Organization is the only organization that is in charge of cross-border trade globally. It replaced GATT in January 1995 and administers trade agreements, solves disputes, and ensures transparency of trade policies.",
+          "solution_ru": "Всемирная торговая организация - единственная организация, которая отвечает за трансграничную торговлю глобально. Она заменила ГАТТ в январе 1995 года и администрирует торговые соглашения, решает споры и обеспечивает прозрачность торговой политики."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_5d",
+      "los_code": "5d",
+      "los_description_en": "describe geopolitical risk",
+      "los_description_ru": "описать геополитический риск",
+      "terms": [
+        {
+          "term_id": "ECON-5-025",
+          "term_en": "Geopolitical Risk",
+          "term_ru": "Геополитический риск",
+          "definition_en": "Risk posed by tensions or acts between parties impacting regular and peaceful development of international relations. Increases when geographic and political elements influencing country relations change. Can result from legislation change, natural disaster, terrorist attack, heist, or conflict.",
+          "definition_ru": "Риск, создаваемый напряженностью или действиями между сторонами, влияющими на регулярное и мирное развитие международных отношений. Увеличивается, когда меняются географические и политические элементы, влияющие на отношения стран. Может возникнуть из-за изменения законодательства, стихийного бедствия, террористической атаки, грабежа или конфликта.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-026",
+          "term_en": "Autarky",
+          "term_ru": "Автаркия",
+          "definition_en": "Nations with little foreign trade or financing seeking political independence. Self-sufficient, can exert complete control over flow of products, services, and technology. Makes them politically stronger. Can advance growth quickly (example: China 20th century) or result in gradual loss of development (example: North Korea).",
+          "definition_ru": "Страны с малой внешней торговлей или финансированием, стремящиеся к политической независимости. Самодостаточные, могут полностью контролировать поток продуктов, услуг и технологий. Делает их политически сильнее. Может ускорить рост (пример: Китай 20-й век) или привести к постепенной потере развития (пример: Северная Корея).",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-027",
+          "term_en": "Hegemony",
+          "term_ru": "Гегемония",
+          "definition_en": "Nations that lead regions or world, exerting political and economic control to secure resources. Countries aligning with hegemon gain access to benefits. Can influence global affairs, but as influence dwindles may become more competitive and increase geopolitical risk. Example: Russia's natural gas supply influence.",
+          "definition_ru": "Страны, которые лидируют в регионах или мире, оказывая политический и экономический контроль для обеспечения ресурсов. Страны, выравнивающиеся с гегемоном, получают доступ к преимуществам. Могут влиять на глобальные дела, но по мере уменьшения влияния могут стать более конкурентными и увеличить геополитический риск. Пример: влияние поставок природного газа России.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-028",
+          "term_en": "Multilateralism",
+          "term_ru": "Многосторонность",
+          "definition_en": "Nations engaging in rule harmonization and mutually beneficial trade agreements. Businesses have several trading partners and are totally linked to global supply chains. Allows access to resources and markets globally. Example: Singapore. May become highly dependent on international cooperation making them vulnerable to geopolitical risk.",
+          "definition_ru": "Страны, занимающиеся гармонизацией правил и взаимовыгодными торговыми соглашениями. Бизнесы имеют несколько торговых партнеров и полностью связаны с глобальными цепочками поставок. Позволяет доступ к ресурсам и рынкам глобально. Пример: Сингапур. Могут стать очень зависимыми от международного сотрудничества, делая их уязвимыми для геополитического риска.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-029",
+          "term_en": "Bilateralism",
+          "term_ru": "Двусторонность",
+          "definition_en": "Practice of two nations cooperating in political, economic, financial, or cultural spheres. Governments engaging in bilateralism may have relationships with several distinct nations. Example: Japan's strong export market. Bilateral agreements not enough to deal with global issues like tax avoidance.",
+          "definition_ru": "Практика сотрудничества двух стран в политических, экономических, финансовых или культурных сферах. Правительства, занимающиеся двусторонностью, могут иметь отношения с несколькими различными странами. Пример: сильный экспортный рынок Японии. Двусторонние соглашения недостаточны для решения глобальных проблем, таких как уклонение от уплаты налогов.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "los_id": "LOS_5e",
+      "los_code": "5e",
+      "los_description_en": "describe tools of geopolitics and their impact on regions and economies",
+      "los_description_ru": "описать инструменты геополитики и их влияние на регионы и экономики",
+      "terms": [
+        {
+          "term_id": "ECON-5-030",
+          "term_en": "Geopolitical Tools",
+          "term_ru": "Геополитические инструменты",
+          "definition_en": "Methods used by geopolitical actors to pitch their interests before others. The tools an actor chooses are ultimately sources of geopolitical risk. Separated into: national security tools, economic tools, and financial tools. Many actors more likely to use cooperative tools than non-cooperative tools.",
+          "definition_ru": "Методы, используемые геополитическими акторами для продвижения своих интересов перед другими. Инструменты, которые актор выбирает, в конечном итоге являются источниками геополитического риска. Разделяются на: инструменты национальной безопасности, экономические инструменты и финансовые инструменты. Многие акторы более склонны использовать сотруднические инструменты, чем несотруднические.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-031",
+          "term_en": "National Security Tools",
+          "term_ru": "Инструменты национальной безопасности",
+          "definition_en": "Tools used to exercise direct or indirect control over state actor's access to resources, citizens, or borders. Can be active (used currently) or threatened (not used but likely enough to cause concern). Example: armed combat. Effects: destruction of physical infrastructure and migration from conflict areas.",
+          "definition_ru": "Инструменты, используемые для прямого или косвенного контроля над доступом государственного актора к ресурсам, гражданам или границам. Могут быть активными (используются в настоящее время) или угрожающими (не используются, но достаточно вероятны, чтобы вызвать беспокойство). Пример: вооруженный конфликт. Эффекты: разрушение физической инфраструктуры и миграция из зон конфликта.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-032",
+          "term_en": "Economic Tools",
+          "term_ru": "Экономические инструменты",
+          "definition_en": "Steps used to support cooperative or non-cooperative positions through economic means. Examples: common markets, global tariff rule harmonization, multilateral trade agreements. May also be non-cooperative: nationalization is non-cooperative strategy for establishing economic power.",
+          "definition_ru": "Шаги, используемые для поддержки сотруднических или несотруднических позиций через экономические средства. Примеры: общие рынки, глобальная гармонизация тарифных правил, многосторонние торговые соглашения. Могут также быть несотрудническими: национализация является несотруднической стратегией для установления экономической власти.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-033",
+          "term_en": "Financial Tools",
+          "term_ru": "Финансовые инструменты",
+          "definition_en": "Measures to support cooperative or non-cooperative positions using financial mechanisms. Include enabling international investment and free currency exchange across borders, or restraining foreign investment and limiting access to local currency markets. May lower geopolitical risk if promoting collaboration, but can create vulnerabilities.",
+          "definition_ru": "Меры для поддержки сотруднических или несотруднических позиций через финансовые механизмы. Включают обеспечение международных инвестиций и свободного валютного обмена через границы, или ограничение иностранных инвестиций и ограничение доступа к местным валютным рынкам. Могут снизить геополитический риск, если способствуют сотрудничеству, но могут создавать уязвимости.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-034",
+          "term_en": "Cabotage",
+          "term_ru": "Каботаж",
+          "definition_en": "Allowing foreign firm to transport goods and passengers within a country. Example of multi-faceted approach combining cooperative political, economic, and financial systems. Many nations place limitations on cabotage even with multilateral trade agreements since it requires coordination in economic and physical security areas.",
+          "definition_ru": "Разрешение иностранной фирме перевозить товары и пассажиров внутри страны. Пример многогранного подхода, комбинирующего сотруднические политические, экономические и финансовые системы. Многие страны устанавливают ограничения на каботаж даже с многосторонними торговыми соглашениями, так как это требует координации в областях экономической и физической безопасности.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "ECON-5-EX-004",
+          "question_en": "Which of the following would least likely be classified as a geopolitical tool?",
+          "question_ru": "Что из следующего наименее вероятно будет классифицировано как геополитический инструмент?",
+          "options": [
+            {"letter": "A", "text_en": "Natural tools", "text_ru": "Природные инструменты"},
+            {"letter": "B", "text_en": "Financial tools", "text_ru": "Финансовые инструменты"},
+            {"letter": "C", "text_en": "Economic tools", "text_ru": "Экономические инструменты"}
+          ],
+          "correct_answer": "A",
+          "solution_en": "Natural tools are not geopolitical tools. Geopolitical tools are devices used by geopolitical actors to reinforce their interest with respect to others. There are three types: national security, economic, and financial. B is incorrect: Financial tools are geopolitical tools used via financial mechanisms. C is incorrect: Economic tools include multilateral trade agreements or common markets.",
+          "solution_ru": "Природные инструменты не являются геополитическими инструментами. Геополитические инструменты - это устройства, используемые геополитическими акторами для укрепления их интересов по отношению к другим. Существует три типа: национальная безопасность, экономические и финансовые. B неверно: Финансовые инструменты - это геополитические инструменты, используемые через финансовые механизмы. C неверно: Экономические инструменты включают многосторонние торговые соглашения или общие рынки."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_5f",
+      "los_code": "5f",
+      "los_description_en": "describe the impact of geopolitical risk on investments",
+      "los_description_ru": "описать влияние геополитического риска на инвестиции",
+      "terms": [
+        {
+          "term_id": "ECON-5-035",
+          "term_en": "Event Risk",
+          "term_ru": "Событийный риск",
+          "definition_en": "Geopolitical risk based on predetermined dates such as elections, enactment of new laws, or date-based events like festivals or political anniversaries. Investor expectations frequently shift as result. Political timelines are common starting point for risk analysts when evaluating this risk.",
+          "definition_ru": "Геополитический риск, основанный на заранее определенных датах, таких как выборы, принятие новых законов или основанные на дате события, такие как фестивали или политические юбилеи. Ожидания инвесторов часто меняются в результате. Политические сроки являются общей отправной точкой для аналитиков рисков при оценке этого риска.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-036",
+          "term_en": "Exogenous Risk",
+          "term_ru": "Экзогенный риск",
+          "definition_en": "Abrupt or unplanned geopolitical risk affecting nation's willingness to cooperate and non-state actors' capacity to globalize. Examples: unexpected revolutions, invasions, aftermath of natural calamities. Also called 'black swan' events - unusual, unpredictable incidents with significant impact.",
+          "definition_ru": "Внезапный или незапланированный геополитический риск, влияющий на готовность страны к сотрудничеству и способность негосударственных акторов глобализироваться. Примеры: неожиданные революции, вторжения, последствия стихийных бедствий. Также называется событиями 'черного лебедя' - необычные, непредсказуемые инциденты с значительным влиянием.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-037",
+          "term_en": "Thematic Risks",
+          "term_ru": "Тематические риски",
+          "definition_en": "Known geopolitical risks that grow and evolve with time. Examples: persistent danger of terrorism, climate change, migratory patterns, emergence of populist movements, and cyber threats. Can be monitored and tracked over time.",
+          "definition_ru": "Известные геополитические риски, которые растут и эволюционируют со временем. Примеры: постоянная опасность терроризма, изменение климата, миграционные модели, возникновение популистских движений и киберугрозы. Могут отслеживаться и контролироваться со временем.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-038",
+          "term_en": "Velocity of Impact",
+          "term_ru": "Скорость воздействия",
+          "definition_en": "Rate at which geopolitical risk affects investor's portfolio. Short-term/high velocity impacts entire market (exogenous events). Medium-term affects business operations, expenses, and investment prospects. Long-term significantly affects environment, society, government but with less immediate portfolio effect. Some risks have multiple velocities.",
+          "definition_ru": "Скорость, с которой геополитический риск влияет на портфель инвестора. Краткосрочная/высокая скорость влияет на весь рынок (экзогенные события). Среднесрочная влияет на бизнес-операции, расходы и инвестиционные перспективы. Долгосрочная значительно влияет на окружающую среду, общество, правительство, но с меньшим немедленным эффектом для портфеля. Некоторые риски имеют несколько скоростей.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-039",
+          "term_en": "Impact Nature: Discrete vs Broad",
+          "term_ru": "Природа воздействия: дискретное против широкого",
+          "definition_en": "Classification of impact scope. Discrete impact affects one business or industry at a time. Broad impact affects entire industry, nation, or whole global economy. High-impact risks warrant extensive study; low-impact risks do not. External factors may increase impact size.",
+          "definition_ru": "Классификация масштаба воздействия. Дискретное воздействие влияет на один бизнес или отрасль за раз. Широкое воздействие влияет на всю отрасль, страну или всю глобальную экономику. Риски с высоким воздействием требуют обширного изучения; риски с низким воздействием - нет. Внешние факторы могут увеличить размер воздействия.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-040",
+          "term_en": "Scenario Analysis",
+          "term_ru": "Сценарный анализ",
+          "definition_en": "Analysis of portfolio outcomes across various situations or states to help teams understand position with respect to risk. Can be qualitative, quantitative, or combination. First step: create base case, then develop best and worst-case scenarios. Requires consistent time and effort commitment.",
+          "definition_ru": "Анализ результатов портфеля в различных ситуациях или состояниях для помощи командам понять позицию в отношении риска. Может быть качественным, количественным или комбинацией. Первый шаг: создать базовый случай, затем разработать лучший и худший сценарии. Требует последовательных затрат времени и усилий.",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-041",
+          "term_en": "Signpost",
+          "term_ru": "Сигнал",
+          "definition_en": "Indicator, data piece, or event suggesting risk is becoming more or less likely. Analogous to traffic light: green (minimal risk), amber (moderate risk - increased caution), red (high risk - formulate response strategy). Helps distinguish between signal and noise. Important to differentiate between policy and politics.",
+          "definition_ru": "Индикатор, часть данных или событие, предполагающее, что риск становится более или менее вероятным. Аналогичен светофору: зеленый (минимальный риск), желтый (умеренный риск - повышенная осторожность), красный (высокий риск - сформулировать стратегию реагирования). Помогает различать сигнал и шум. Важно различать политику и политику.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-042",
+          "term_en": "High-Velocity Risk Manifestation",
+          "term_ru": "Проявление высокоскоростного риска",
+          "definition_en": "Geopolitical risk manifesting in market volatility through prompt changes in asset prices such as commodities, foreign exchange, stocks, and bond prices. Immediate impact on portfolios requiring quick response.",
+          "definition_ru": "Геополитический риск, проявляющийся в волатильности рынка через быстрые изменения цен активов, таких как товары, иностранная валюта, акции и цены облигаций. Немедленное влияние на портфели, требующее быстрого реагирования.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-5-043",
+          "term_en": "Low-Velocity Risk Manifestation",
+          "term_ru": "Проявление низкоскоростного риска",
+          "definition_en": "Geopolitical risk leading to extended effects on investor inputs. Persistent disturbances cause reduced revenue, increased expenses, or combination of both, potentially diminishing company's valuation. Requires longer-term monitoring and response.",
+          "definition_ru": "Геополитический риск, приводящий к продолжительным эффектам на входные данные инвестора. Постоянные нарушения вызывают снижение доходов, увеличение расходов или их комбинацию, потенциально уменьшая оценку компании. Требует долгосрочного мониторинга и реагирования.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "ECON-5-EX-005",
+          "question_en": "Which of the following geopolitical risks is most likely a known risk that evolves and expands over a period of time?",
+          "question_ru": "Какой из следующих геополитических рисков наиболее вероятно является известным риском, который эволюционирует и расширяется в течение периода времени?",
+          "options": [
+            {"letter": "A", "text_en": "Event risk", "text_ru": "Событийный риск"},
+            {"letter": "B", "text_en": "Thematic risk", "text_ru": "Тематический риск"},
+            {"letter": "C", "text_en": "Exogenous risk", "text_ru": "Экзогенный риск"}
+          ],
+          "correct_answer": "B",
+          "solution_en": "Thematic risk is a type of geopolitical risk that is known, evolves, and expands over a period of time. Examples include climate change and ongoing threats of terrorism. A is incorrect: Event risk revolves around set dates or date-driven milestones. C is incorrect: Exogenous risk is sudden or unanticipated, impacting country's cooperative stance.",
+          "solution_ru": "Тематический риск - это тип геополитического риска, который известен, эволюционирует и расширяется в течение периода времени. Примеры включают изменение климата и постоянные угрозы терроризма. A неверно: Событийный риск вращается вокруг установленных дат или вех, связанных с датами. C неверно: Экзогенный риск является внезапным или непредвиденным, влияя на сотрудническую позицию страны."
+        }
+      ]
+    }
+  ]
+}
