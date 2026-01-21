@@ -1,0 +1,856 @@
+{
+  "metadata": {
+    "book_id": 3,
+    "book_code": "FSA",
+    "book_name": "Financial Statement Analysis",
+    "book_name_ru": "Анализ финансовой отчетности",
+    "module_id": 3,
+    "module_name": "Analyzing Balance Sheets",
+    "module_name_ru": "Анализ балансовых отчетов",
+    "page_range": "61-86",
+    "total_terms": 48,
+    "total_exercises": 6,
+    "version": "2.0",
+    "last_updated": "2026-01-21"
+  },
+  "los": [
+    {
+      "los_id": "LOS_3a",
+      "los_code": "3a",
+      "los_description_en": "Explain the financial reporting and disclosures related to intangible assets",
+      "los_description_ru": "Объяснить финансовую отчетность и раскрытие информации, связанной с нематериальными активами",
+      "terms": [
+        {
+          "term_id": "FSA-3-001",
+          "term_en": "Intangible Assets",
+          "term_ru": "Нематериальные активы",
+          "definition_en": "Non-monetary assets without physical substance that are identifiable, meaning they are either separable (capable of being separated and sold, transferred, licensed, rented, or exchanged) or arise from contractual or other legal rights.",
+          "definition_ru": "Немонетарные активы без физической субстанции, которые являются идентифицируемыми, что означает, что они либо отделимы (способны быть отделены и проданы, переданы, лицензированы, арендованы или обменены), либо возникают из договорных или других юридических прав.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-3-002",
+          "term_en": "Cost Model (Intangibles)",
+          "term_ru": "Модель учета по себестоимости (нематериальные активы)",
+          "definition_en": "An asset is carried at its cost less any accumulated amortization and any accumulated impairment losses.",
+          "definition_ru": "Актив учитывается по его себестоимости за вычетом накопленной амортизации и накопленных убытков от обесценения.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-3-003",
+          "term_en": "Revaluation Model (Intangibles)",
+          "term_ru": "Модель переоценки (нематериальные активы)",
+          "definition_en": "An asset is carried at a revalued amount, being its fair value at the date of revaluation less any subsequent accumulated amortization and any subsequent accumulated impairment losses. The revaluation model is chosen if there exists an active market for an intangible asset.",
+          "definition_ru": "Актив учитывается по переоцененной сумме, представляющей собой его справедливую стоимость на дату переоценки за вычетом последующей накопленной амортизации и последующих накопленных убытков от обесценения. Модель переоценки выбирается, если существует активный рынок для нематериального актива.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-3-004",
+          "term_en": "Finite Useful Life (Intangibles)",
+          "term_ru": "Ограниченный срок полезного использования (нематериальные активы)",
+          "definition_en": "An intangible asset has a limited period of benefit to the entity. Finite useful life intangible assets are amortized on a systematic basis over the best estimate of their useful life.",
+          "definition_ru": "Нематериальный актив имеет ограниченный период приносящей пользы предприятию. Нематериальные активы с ограниченным сроком полезного использования амортизируются систематически в течение наилучшей оценки их срока полезного использования.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-3-005",
+          "term_en": "Indefinite Useful Life (Intangibles)",
+          "term_ru": "Неопределенный срок полезного использования (нематериальные активы)",
+          "definition_en": "The asset has no foreseeable limit to the period over which the asset is expected to generate net cash inflows for the entity. Indefinite useful life intangible assets are not amortized but are tested for impairment at least annually.",
+          "definition_ru": "Актив не имеет предвидимого ограничения периода, в течение которого ожидается, что актив будет генерировать чистые денежные притоки для предприятия. Нематериальные активы с неопределенным сроком полезного использования не амортизируются, но тестируются на обесценение как минимум ежегодно.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-3-006",
+          "term_en": "Tangible Book Value",
+          "term_ru": "Балансовая стоимость материальных активов",
+          "definition_en": "Net equity adjusted by lowering the book value of intangibles by a corresponding amount. Some analysts disregard the book value of intangibles when evaluating financial statements.",
+          "definition_ru": "Чистый капитал, скорректированный путем снижения балансовой стоимости нематериальных активов на соответствующую сумму. Некоторые аналитики не учитывают балансовую стоимость нематериальных активов при оценке финансовой отчетности.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-3-007",
+          "term_en": "Identifiable Intangible Assets",
+          "term_ru": "Идентифицируемые нематериальные активы",
+          "definition_en": "Intangible assets such as patents, trademarks, copyrights, franchises, licenses, and other rights that can be either internally developed or purchased, and are recorded on the balance sheet when there is a likelihood of future economic benefits and reliable cost measurement.",
+          "definition_ru": "Нематериальные активы, такие как патенты, торговые марки, авторские права, франшизы, лицензии и другие права, которые могут быть либо разработаны внутри компании, либо приобретены, и учитываются в балансе, когда существует вероятность будущих экономических выгод и надежного измерения стоимости.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-3-008",
+          "term_en": "Research Phase",
+          "term_ru": "Фаза исследований",
+          "definition_en": "Endeavors to acquire new knowledge or develop new products. Under both IFRS and US GAAP, all costs incurred in the research phase must be expensed as incurred.",
+          "definition_ru": "Усилия по приобретению новых знаний или разработке новых продуктов. Согласно МСФО и US GAAP, все затраты, понесенные на этапе исследований, должны быть отнесены на расходы по мере их возникновения.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-3-009",
+          "term_en": "Development Phase",
+          "term_ru": "Фаза разработки",
+          "definition_en": "Focused on the design and testing of prototypes and models. Under IFRS, development costs may be capitalized if certain criteria are met. Under US GAAP, development costs are typically expensed as incurred.",
+          "definition_ru": "Сосредоточена на проектировании и тестировании прототипов и моделей. Согласно МСФО, затраты на разработку могут быть капитализированы при соблюдении определенных критериев. Согласно US GAAP, затраты на разработку обычно относятся на расходы по мере возникновения.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-3-010",
+          "term_en": "Acquired Intangibles",
+          "term_ru": "Приобретенные нематериальные активы",
+          "definition_en": "Purchased intangible assets that are capitalized and recorded as distinct identifiable intangibles, provided they originate from contractual rights, other legal rights, or can be separated and sold.",
+          "definition_ru": "Приобретенные нематериальные активы, которые капитализируются и учитываются как отдельные идентифицируемые нематериальные активы при условии, что они происходят из договорных прав, других юридических прав или могут быть отделены и проданы.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "FSA-3-EX-001",
+          "question_en": "McGill Corp. has been developing a product for the past five years, but they lack the funds to finish the product and start its sale. Which of the following would be the most appropriate action to take under IFRS?",
+          "question_ru": "McGill Corp. разрабатывает продукт в течение последних пяти лет, но у компании не хватает средств для завершения продукта и начала его продажи. Какое из следующих действий будет наиболее подходящим согласно МСФО?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Capitalize all costs related to the development of the product",
+              "text_ru": "Капитализировать все затраты, связанные с разработкой продукта"
+            },
+            {
+              "letter": "B",
+              "text_en": "Expense the costs related to the development of the product",
+              "text_ru": "Отнести затраты, связанные с разработкой продукта, на расходы"
+            },
+            {
+              "letter": "C",
+              "text_en": "Do nothing",
+              "text_ru": "Ничего не делать"
+            }
+          ],
+          "correct_answer": "B",
+          "solution_en": "Since the company lacks the ability to complete the product, they have failed to meet the criteria necessary to capitalize the product as an intangible asset; thus, the cost will be expensed to the income statement.",
+          "solution_ru": "Поскольку компания не имеет возможности завершить продукт, она не выполнила критерии, необходимые для капитализации продукта в качестве нематериального актива; таким образом, затраты будут отнесены на расходы в отчете о прибылях и убытках."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_3b",
+      "los_code": "3b",
+      "los_description_en": "Explain the financial reporting and disclosures related to goodwill",
+      "los_description_ru": "Объяснить финансовую отчетность и раскрытие информации, связанной с гудвилом",
+      "terms": [
+        {
+          "term_id": "FSA-3-011",
+          "term_en": "Goodwill",
+          "term_ru": "Гудвил (деловая репутация)",
+          "definition_en": "The surplus recognized on the balance sheet when the acquisition price of a company exceeds the fair value of its identifiable assets and liabilities. It represents factors not reflected in financial statements such as reputation, distribution systems, and trained employees.",
+          "definition_ru": "Превышение, признанное в балансе, когда цена приобретения компании превышает справедливую стоимость ее идентифицируемых активов и обязательств. Представляет факторы, не отраженные в финансовой отчетности, такие как репутация, системы распределения и обученные сотрудники.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-3-012",
+          "term_en": "Economic Goodwill",
+          "term_ru": "Экономический гудвил",
+          "definition_en": "Intangible aspects that enhance a business's value beyond the total of its tangible assets and liabilities, including brand recognition, customer loyalty, employee morale, and management expertise. It reflects a business's capacity to generate profits beyond expected returns on tangible and intangible assets and does not appear on the balance sheet.",
+          "definition_ru": "Нематериальные аспекты, которые повышают стоимость бизнеса сверх суммы его материальных активов и обязательств, включая узнаваемость бренда, лояльность клиентов, моральный дух сотрудников и управленческую экспертизу. Отражает способность бизнеса генерировать прибыль сверх ожидаемой доходности материальных и нематериальных активов и не появляется в балансе.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-3-013",
+          "term_en": "Accounting Goodwill",
+          "term_ru": "Бухгалтерский гудвил",
+          "definition_en": "Related to accounting standards and reported only when an acquisition is involved. Both IFRS and US GAAP require capitalizing accounting goodwill from acquisitions. It is not amortized but tested for impairment annually.",
+          "definition_ru": "Связан с бухгалтерскими стандартами и отражается только при наличии приобретения. МСФО и US GAAP требуют капитализации бухгалтерского гудвила от приобретений. Не амортизируется, но ежегодно тестируется на обесценение.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-3-014",
+          "term_en": "Goodwill Calculation",
+          "term_ru": "Расчет гудвила",
+          "definition_en": "Goodwill is calculated as the excess of the cost to purchase the target company over the net identifiable assets acquired (fair value of identifiable assets minus fair value of liabilities and contingent liabilities).",
+          "definition_ru": "Гудвил рассчитывается как превышение стоимости приобретения целевой компании над чистыми идентифицируемыми активами, приобретенными (справедливая стоимость идентифицируемых активов минус справедливая стоимость обязательств и условных обязательств).",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": {
+            "method": "BA II Plus: Multi-step Calculation",
+            "steps_ru": [
+              "Шаг 1: Определить общую стоимость покупки целевой компании",
+              "Шаг 2: Оценить идентифицируемые чистые активы по справедливой стоимости",
+              "Шаг 3: Вычислить разницу: Гудвил = Стоимость покупки - Чистые идентифицируемые активы",
+              "Если результат отрицательный, это выгодная покупка (bargain purchase)"
+            ],
+            "example": {
+              "given": "Purchase price = $1,000,000, Net identifiable assets = $800,000",
+              "result": "Goodwill = $1,000,000 - $800,000 = $200,000"
+            }
+          }
+        },
+        {
+          "term_id": "FSA-3-015",
+          "term_en": "Bargain Purchase",
+          "term_ru": "Выгодная покупка",
+          "definition_en": "A transaction where the value of net identifiable assets acquired exceeds the purchase cost. The gain from a bargain purchase is recorded in the profit and loss statement in the period it occurs.",
+          "definition_ru": "Сделка, при которой стоимость приобретенных чистых идентифицируемых активов превышает стоимость покупки. Прибыль от выгодной покупки отражается в отчете о прибылях и убытках в периоде ее возникновения.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-3-016",
+          "term_en": "Goodwill Impairment",
+          "term_ru": "Обесценение гудвила",
+          "definition_en": "Goodwill is tested for impairment on an annual basis under both IFRS and US GAAP. Impairment losses are charged against income in the current reporting period and result in the reduction of current earnings and total assets.",
+          "definition_ru": "Гудвил тестируется на обесценение на ежегодной основе согласно МСФО и US GAAP. Убытки от обесценения относятся на расходы в текущем отчетном периоде и приводят к снижению текущей прибыли и совокупных активов.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-3-017",
+          "term_en": "Goodwill Adjustments by Analysts",
+          "term_ru": "Корректировки гудвила аналитиками",
+          "definition_en": "Analysts frequently modify companies' financial statements by: (1) excluding goodwill from balance sheet data before calculating financial ratios, and (2) excluding goodwill impairment losses from income data by adding them back to net income.",
+          "definition_ru": "Аналитики часто модифицируют финансовую отчетность компаний путем: (1) исключения гудвила из данных баланса перед расчетом финансовых коэффициентов, и (2) исключения убытков от обесценения гудвила из данных о доходах путем их добавления обратно к чистой прибыли.",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "FSA-3-EX-002",
+          "question_en": "Which of the following is least likely correct regarding accounting goodwill?",
+          "question_ru": "Что из следующего наименее вероятно является правильным относительно бухгалтерского гудвила?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Amortized",
+              "text_ru": "Амортизируется"
+            },
+            {
+              "letter": "B",
+              "text_en": "Capitalized",
+              "text_ru": "Капитализируется"
+            },
+            {
+              "letter": "C",
+              "text_en": "Tested annually for impairment",
+              "text_ru": "Ежегодно тестируется на обесценение"
+            }
+          ],
+          "correct_answer": "A",
+          "solution_en": "Accounting goodwill is not amortized. Instead, it is tested at least annually for impairment under both GAAP and IFRS. This means that the carrying value of goodwill is compared to its recoverable amount, and an impairment loss is recognized if the carrying amount exceeds the recoverable amount.",
+          "solution_ru": "Бухгалтерский гудвил не амортизируется. Вместо этого он тестируется как минимум ежегодно на обесценение согласно GAAP и МСФО. Это означает, что балансовая стоимость гудвила сравнивается с его возмещаемой стоимостью, и убыток от обесценения признается, если балансовая стоимость превышает возмещаемую стоимость."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_3c",
+      "los_code": "3c",
+      "los_description_en": "Explain the financial reporting and disclosures related to financial instruments",
+      "los_description_ru": "Объяснить финансовую отчетность и раскрытие информации, связанной с финансовыми инструментами",
+      "terms": [
+        {
+          "term_id": "FSA-3-018",
+          "term_en": "Financial Instrument",
+          "term_ru": "Финансовый инструмент",
+          "definition_en": "According to IFRS, a contract that gives rise to a financial asset of one entity and a financial liability or equity instrument of another.",
+          "definition_ru": "Согласно МСФО, договор, который приводит к возникновению финансового актива у одной организации и финансового обязательства или долевого инструмента у другой.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-3-019",
+          "term_en": "Financial Assets",
+          "term_ru": "Финансовые активы",
+          "definition_en": "Include investments in stocks of other companies or in notes, bonds, or other fixed-income securities issued by other companies or government entities.",
+          "definition_ru": "Включают инвестиции в акции других компаний или в векселя, облигации или другие ценные бумаги с фиксированным доходом, выпущенные другими компаниями или государственными организациями.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-3-020",
+          "term_en": "Derivatives",
+          "term_ru": "Производные инструменты",
+          "definition_en": "Financial instruments whose value is determined by an underlying factor such as an interest rate, exchange rate, commodity price, security price, or credit rating, and typically require minimal or no initial investment.",
+          "definition_ru": "Финансовые инструменты, стоимость которых определяется базовым фактором, таким как процентная ставка, обменный курс, цена товара, цена ценной бумаги или кредитный рейтинг, и обычно требуют минимальных начальных инвестиций или не требуют их вовсе.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-3-021",
+          "term_en": "Fair Value",
+          "term_ru": "Справедливая стоимость",
+          "definition_en": "The price that would be received to sell an asset or paid to transfer a liability in an orderly market transaction.",
+          "definition_ru": "Цена, которая была бы получена при продаже актива или уплачена при передаче обязательства в упорядоченной рыночной сделке.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-3-022",
+          "term_en": "Amortized Cost",
+          "term_ru": "Амортизированная стоимость",
+          "definition_en": "The amount at which a financial asset or liability was initially recognized, minus any principal repayments, plus or minus any amortization of discount or premium, and minus any reduction for impairment.",
+          "definition_ru": "Сумма, по которой финансовый актив или обязательство были первоначально признаны, за вычетом любых выплат основной суммы, плюс или минус любая амортизация дисконта или премии, и за вычетом любого снижения стоимости из-за обесценения.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-3-023",
+          "term_en": "Held-to-Maturity Assets",
+          "term_ru": "Активы, удерживаемые до погашения",
+          "definition_en": "Financial assets measured at amortized cost under US GAAP. An example is a long-term bond investment where the business model is to hold the asset until maturity.",
+          "definition_ru": "Финансовые активы, оцениваемые по амортизированной стоимости согласно US GAAP. Примером является долгосрочная инвестиция в облигации, где бизнес-модель заключается в удержании актива до погашения.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-3-024",
+          "term_en": "Unrealized Gains/Losses",
+          "term_ru": "Нереализованные прибыли/убытки",
+          "definition_en": "Changes in the fair value of a financial asset that has not been sold and is still held at the end of the period. Also known as holding period gains and losses.",
+          "definition_ru": "Изменения справедливой стоимости финансового актива, который не был продан и все еще удерживается на конец периода. Также известны как прибыли и убытки периода владения.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-3-025",
+          "term_en": "Fair Value Through Other Comprehensive Income (FVOCI)",
+          "term_ru": "Справедливая стоимость через прочий совокупный доход",
+          "definition_en": "Under IFRS, financial assets are measured at fair value with unrealized gains or losses recorded in other comprehensive income if the business model aims to both collect contractual cash flows and sell the financial assets.",
+          "definition_ru": "Согласно МСФО, финансовые активы оцениваются по справедливой стоимости с нереализованными прибылями или убытками, учитываемыми в прочем совокупном доходе, если бизнес-модель направлена на получение договорных денежных потоков и продажу финансовых активов.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-3-026",
+          "term_en": "Available-for-Sale Securities",
+          "term_ru": "Ценные бумаги, имеющиеся в наличии для продажи",
+          "definition_en": "Under US GAAP, financial assets measured at fair value where unrealized gains or losses are recognized in other comprehensive income. Limited to debt instruments under US GAAP.",
+          "definition_ru": "Согласно US GAAP, финансовые активы, оцениваемые по справедливой стоимости, где нереализованные прибыли или убытки признаются в прочем совокупном доходе. Ограничены долговыми инструментами согласно US GAAP.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-3-027",
+          "term_en": "Fair Value Through Profit or Loss (FVPL)",
+          "term_ru": "Справедливая стоимость через прибыль или убыток",
+          "definition_en": "Under IFRS, financial assets that do not fall into other measurement categories are measured at fair value with unrealized gains or losses recognized in the income statement.",
+          "definition_ru": "Согласно МСФО, финансовые активы, которые не попадают в другие категории оценки, оцениваются по справедливой стоимости с нереализованными прибылями или убытками, признаваемыми в отчете о прибылях и убытках.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-3-028",
+          "term_en": "Trading Securities",
+          "term_ru": "Торговые ценные бумаги",
+          "definition_en": "Under US GAAP, debt securities acquired with the intention to sell rather than hold for collecting interest and principal payments. Measured at fair value with unrealized gains or losses recognized in the income statement.",
+          "definition_ru": "Согласно US GAAP, долговые ценные бумаги, приобретенные с намерением продать, а не удерживать для получения процентов и выплат основной суммы. Оцениваются по справедливой стоимости с нереализованными прибылями или убытками, признаваемыми в отчете о прибылях и убытках.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "FSA-3-EX-003",
+          "question_en": "A financial asset is classified as 'available for sale,' and it has unrealized gains. How are these unrealized gains most likely reflected in shareholders' equity?",
+          "question_ru": "Финансовый актив классифицируется как 'имеющийся в наличии для продажи', и у него есть нереализованные прибыли. Как эти нереализованные прибыли наиболее вероятно отражаются в акционерном капитале?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "There is no recognition",
+              "text_ru": "Не признаются"
+            },
+            {
+              "letter": "B",
+              "text_en": "They are recognized in the income statement",
+              "text_ru": "Они признаются в отчете о прибылях и убытках"
+            },
+            {
+              "letter": "C",
+              "text_en": "They are recognized in other comprehensive income",
+              "text_ru": "Они признаются в прочем совокупном доходе"
+            }
+          ],
+          "correct_answer": "C",
+          "solution_en": "Gains for financial assets classified as available for sale are recognized in the other comprehensive income. Under both IFRS and US GAAP, unrealized gains on financial assets classified as 'available for sale' are recognized in other comprehensive income, which is a separate component of shareholders' equity, until they are realized (e.g., when the asset is sold).",
+          "solution_ru": "Прибыли для финансовых активов, классифицированных как имеющиеся в наличии для продажи, признаются в прочем совокупном доходе. Согласно МСФО и US GAAP, нереализованные прибыли по финансовым активам, классифицированным как 'имеющиеся в наличии для продажи', признаются в прочем совокупном доходе, который является отдельным компонентом акционерного капитала, до тех пор, пока они не будут реализованы (например, когда актив продан)."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_3d",
+      "los_code": "3d",
+      "los_description_en": "Explain the financial reporting and disclosures related to non-current liabilities",
+      "los_description_ru": "Объяснить финансовую отчетность и раскрытие информации, связанной с долгосрочными обязательствами",
+      "terms": [
+        {
+          "term_id": "FSA-3-029",
+          "term_en": "Non-Current Liabilities",
+          "term_ru": "Долгосрочные обязательства",
+          "definition_en": "All liabilities that are not classified as current. Common types include long-term financial liabilities and deferred tax liabilities.",
+          "definition_ru": "Все обязательства, которые не классифицируются как текущие. Общие типы включают долгосрочные финансовые обязательства и отложенные налоговые обязательства.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-3-030",
+          "term_en": "Long-Term Financial Liabilities",
+          "term_ru": "Долгосрочные финансовые обязательства",
+          "definition_en": "Bank loans and fixed-income securities issued to investors, such as notes or bonds payable, typically reported at amortized cost on the balance sheet.",
+          "definition_ru": "Банковские кредиты и ценные бумаги с фиксированным доходом, выпущенные для инвесторов, такие как векселя к оплате или облигации к оплате, обычно отражаемые по амортизированной стоимости в балансе.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-3-031",
+          "term_en": "Bonds Issued at Par",
+          "term_ru": "Облигации, выпущенные по номиналу",
+          "definition_en": "Bonds issued at face value are recorded as a long-term liability at that amount. The carrying amount remains constant from issuance to maturity.",
+          "definition_ru": "Облигации, выпущенные по номинальной стоимости, учитываются как долгосрочное обязательство на эту сумму. Балансовая стоимость остается постоянной от выпуска до погашения.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-3-032",
+          "term_en": "Bonds Issued at Discount",
+          "term_ru": "Облигации, выпущенные с дисконтом",
+          "definition_en": "Bonds issued below face value are recorded as a liability at the discounted amount at issuance. The discount is amortized over the bond's life so the bond is reported at face value at maturity.",
+          "definition_ru": "Облигации, выпущенные ниже номинальной стоимости, учитываются как обязательство по дисконтированной сумме при выпуске. Дисконт амортизируется в течение срока действия облигации, так что облигация отражается по номинальной стоимости при погашении.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-3-033",
+          "term_en": "Bonds Issued at Premium",
+          "term_ru": "Облигации, выпущенные с премией",
+          "definition_en": "Bonds issued above face value. The premium is amortized over the bond's life similar to discount amortization.",
+          "definition_ru": "Облигации, выпущенные выше номинальной стоимости. Премия амортизируется в течение срока действия облигации аналогично амортизации дисконта.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-3-034",
+          "term_en": "Deferred Tax Liabilities",
+          "term_ru": "Отложенные налоговые обязательства",
+          "definition_en": "Arise from temporary differences in timing between taxable income and reported income. Represent amounts of income taxes that will be payable in future periods due to taxable temporary differences.",
+          "definition_ru": "Возникают из временных разниц во времени между налогооблагаемым доходом и отчетным доходом. Представляют суммы налогов на прибыль, которые будут подлежать уплате в будущих периодах из-за налогооблагаемых временных разниц.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-3-035",
+          "term_en": "Taxable Income",
+          "term_ru": "Налогооблагаемый доход",
+          "definition_en": "A company's reported income for tax purposes.",
+          "definition_ru": "Отчетный доход компании для налоговых целей.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-3-036",
+          "term_en": "Taxable Temporary Differences",
+          "term_ru": "Налогооблагаемые временные разницы",
+          "definition_en": "Occur when certain expenses are recognized in taxable income earlier than in financial statement net income, leading to taxable income less than income before taxes in earlier periods, creating a deferred tax liability.",
+          "definition_ru": "Возникают, когда определенные расходы признаются в налогооблагаемом доходе раньше, чем в чистой прибыли финансовой отчетности, что приводит к тому, что налогооблагаемый доход меньше дохода до налогообложения в более ранних периодах, создавая отложенное налоговое обязательство.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "FSA-3-EX-004",
+          "question_en": "Which of the following is least likely a way through which deferred tax liabilities may arise?",
+          "question_ru": "Что из следующего наименее вероятно является способом возникновения отложенных налоговых обязательств?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "A company has prepaid its taxes",
+              "text_ru": "Компания предоплатила свои налоги"
+            },
+            {
+              "letter": "B",
+              "text_en": "Including profits from subsidiaries that have not yet been distributed and not taxed yet at later periods",
+              "text_ru": "Включение прибыли от дочерних компаний, которая еще не была распределена и не облагалась налогом в более поздние периоды"
+            },
+            {
+              "letter": "C",
+              "text_en": "Some expenses are included in taxable income in earlier periods than for financial statement net income",
+              "text_ru": "Некоторые расходы включаются в налогооблагаемый доход в более ранние периоды, чем в чистую прибыль финансовой отчетности"
+            }
+          ],
+          "correct_answer": "A",
+          "solution_en": "If a company has prepaid its taxes, this will result in a deferred tax asset, not a liability. Both scenarios B and C will result in a deferred tax liability.",
+          "solution_ru": "Если компания предоплатила свои налоги, это приведет к возникновению отложенного налогового актива, а не обязательства. Оба сценария B и C приведут к возникновению отложенного налогового обязательства."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_3e",
+      "los_code": "3e",
+      "los_description_en": "Calculate and interpret common-size balance sheets and related financial ratios",
+      "los_description_ru": "Рассчитывать и интерпретировать сравнительные балансы и связанные финансовые коэффициенты",
+      "terms": [
+        {
+          "term_id": "FSA-3-037",
+          "term_en": "Liquidity",
+          "term_ru": "Ликвидность",
+          "definition_en": "A company's ability to meet its short-term financial commitments. Analysis of liquidity concentrates on the company's ability to liquidate assets into cash to cover operating expenses.",
+          "definition_ru": "Способность компании выполнять свои краткосрочные финансовые обязательства. Анализ ликвидности сосредоточен на способности компании конвертировать активы в денежные средства для покрытия операционных расходов.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-3-038",
+          "term_en": "Solvency",
+          "term_ru": "Платежеспособность",
+          "definition_en": "A company's ability to meet its financial obligations over the longer term. Emphasizes the company's financial framework and its capacity to service long-term debts.",
+          "definition_ru": "Способность компании выполнять свои финансовые обязательства в долгосрочной перспективе. Подчеркивает финансовую структуру компании и ее способность обслуживать долгосрочные долги.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-3-039",
+          "term_en": "Common-Size Balance Sheet",
+          "term_ru": "Сравнительный баланс",
+          "definition_en": "A balance sheet where each line item is stated as a percentage of total assets, valuable for analyzing composition over time (time-series analysis) and in comparison with other companies (cross-sectional analysis).",
+          "definition_ru": "Баланс, в котором каждая статья выражена в процентах от общих активов, полезен для анализа состава во времени (анализ временных рядов) и по сравнению с другими компаниями (перекрестный анализ).",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-3-040",
+          "term_en": "Vertical Common-Size Analysis",
+          "term_ru": "Вертикальный сравнительный анализ",
+          "definition_en": "States each balance sheet item as a percentage of total assets. The more popular method of common-sizing balance sheets.",
+          "definition_ru": "Выражает каждую статью баланса в процентах от общих активов. Более популярный метод создания сравнительных балансов.",
+          "type": "method",
+          "formula": "$\\text{Percentage} = \\frac{\\text{Line Item}}{\\text{Total Assets}} \\times 100\\%$",
+          "formula_ref": null,
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Введите значение статьи баланса",
+              "2. Нажмите [÷]",
+              "3. Введите общую сумму активов",
+              "4. Нажмите [=]",
+              "5. Нажмите [×] 100 [=] для получения процента"
+            ],
+            "example": {
+              "given": "Cash = $100,000, Total Assets = $500,000",
+              "input": "100000 ÷ 500000 = 0.2 × 100 =",
+              "result": "20%"
+            }
+          }
+        },
+        {
+          "term_id": "FSA-3-041",
+          "term_en": "Horizontal Common-Size Analysis",
+          "term_ru": "Горизонтальный сравнительный анализ",
+          "definition_en": "Reflects quantities on the balance sheet regarding a base-year value of choice.",
+          "definition_ru": "Отражает величины в балансе относительно выбранного значения базового года.",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-3-042",
+          "term_en": "Current Ratio",
+          "term_ru": "Коэффициент текущей ликвидности",
+          "definition_en": "A liquidity ratio measuring a company's ability to meet its short-term obligations.",
+          "definition_ru": "Коэффициент ликвидности, измеряющий способность компании выполнять свои краткосрочные обязательства.",
+          "type": "formula",
+          "formula": "$\\text{Current Ratio} = \\frac{\\text{Current Assets}}{\\text{Current Liabilities}}$",
+          "formula_ref": null,
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Введите текущие активы",
+              "2. Нажмите [÷]",
+              "3. Введите текущие обязательства",
+              "4. Нажмите [=]",
+              "5. Результат: коэффициент текущей ликвидности"
+            ],
+            "example": {
+              "given": "Current Assets = $2,557,034, Current Liabilities = $3,825,396",
+              "input": "2557034 ÷ 3825396 =",
+              "result": "Current Ratio = 0.67"
+            }
+          }
+        },
+        {
+          "term_id": "FSA-3-043",
+          "term_en": "Quick Ratio (Acid Test)",
+          "term_ru": "Коэффициент быстрой ликвидности",
+          "definition_en": "A stricter measure of liquidity that excludes inventory from current assets.",
+          "definition_ru": "Более строгая мера ликвидности, которая исключает запасы из текущих активов.",
+          "type": "formula",
+          "formula": "$\\text{Quick Ratio} = \\frac{\\text{Cash} + \\text{Marketable Securities} + \\text{Receivables}}{\\text{Current Liabilities}}$",
+          "formula_ref": null,
+          "calculator": {
+            "method": "BA II Plus: Multi-step Calculation",
+            "steps_ru": [
+              "1. Сложите денежные средства, рыночные ценные бумаги и дебиторскую задолженность",
+              "2. Разделите сумму на текущие обязательства",
+              "3. Результат: коэффициент быстрой ликвидности"
+            ],
+            "example": {
+              "given": "Cash=$100k, Securities=$1,234k, Receivables=$52k, Current Liab=$3,825k",
+              "result": "Quick Ratio = (100+1234+52)/3825 = 0.36"
+            }
+          }
+        },
+        {
+          "term_id": "FSA-3-044",
+          "term_en": "Cash Ratio",
+          "term_ru": "Коэффициент абсолютной ликвидности",
+          "definition_en": "Tests a company's ability to meet its short-term obligations using highly liquid assets only.",
+          "definition_ru": "Тестирует способность компании выполнять свои краткосрочные обязательства, используя только высоколиквидные активы.",
+          "type": "formula",
+          "formula": "$\\text{Cash Ratio} = \\frac{\\text{Cash} + \\text{Marketable Securities}}{\\text{Current Liabilities}}$",
+          "formula_ref": null,
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Сложите денежные средства и рыночные ценные бумаги",
+              "2. Разделите на текущие обязательства",
+              "3. Результат: коэффициент абсолютной ликвидности"
+            ],
+            "example": {
+              "given": "Cash=$100k, Securities=$1,234k, Current Liab=$3,825k",
+              "result": "Cash Ratio = (100+1234)/3825 = 0.35"
+            }
+          }
+        },
+        {
+          "term_id": "FSA-3-045",
+          "term_en": "Long-Term Debt-to-Equity",
+          "term_ru": "Коэффициент долгосрочного долга к собственному капиталу",
+          "definition_en": "A solvency ratio indicating financial leverage and financial risk.",
+          "definition_ru": "Коэффициент платежеспособности, указывающий на финансовый рычаг и финансовый риск.",
+          "type": "formula",
+          "formula": "$\\text{LT Debt-to-Equity} = \\frac{\\text{Total Long-Term Debt}}{\\text{Total Equity}}$",
+          "formula_ref": null,
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Введите общую сумму долгосрочного долга",
+              "2. Нажмите [÷]",
+              "3. Введите общий собственный капитал",
+              "4. Нажмите [=]"
+            ],
+            "example": {
+              "given": "Long-term Debt = $3,771,894, Equity = $5,163,975",
+              "result": "LT Debt-to-Equity = 0.73"
+            }
+          }
+        },
+        {
+          "term_id": "FSA-3-046",
+          "term_en": "Debt-to-Equity Ratio",
+          "term_ru": "Коэффициент долга к собственному капиталу",
+          "definition_en": "A solvency ratio measuring financial leverage and financial risk using total debt.",
+          "definition_ru": "Коэффициент платежеспособности, измеряющий финансовый рычаг и финансовый риск с использованием общего долга.",
+          "type": "formula",
+          "formula": "$\\text{Debt-to-Equity} = \\frac{\\text{Total Debt}}{\\text{Total Equity}}$",
+          "formula_ref": null,
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Введите общую сумму долга",
+              "2. Нажмите [÷]",
+              "3. Введите общий собственный капитал",
+              "4. Нажмите [=]"
+            ],
+            "example": {
+              "given": "Total Debt = $7,597,290, Total Equity = $5,163,975",
+              "result": "Debt-to-Equity = 1.47"
+            }
+          }
+        },
+        {
+          "term_id": "FSA-3-047",
+          "term_en": "Total Debt Ratio",
+          "term_ru": "Коэффициент общего долга",
+          "definition_en": "A solvency ratio indicating financial leverage and financial risk relative to total assets.",
+          "definition_ru": "Коэффициент платежеспособности, указывающий на финансовый рычаг и финансовый риск относительно общих активов.",
+          "type": "formula",
+          "formula": "$\\text{Total Debt Ratio} = \\frac{\\text{Total Debt}}{\\text{Total Assets}}$",
+          "formula_ref": null,
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Введите общую сумму долга",
+              "2. Нажмите [÷]",
+              "3. Введите общую сумму активов",
+              "4. Нажмите [=]"
+            ],
+            "example": {
+              "given": "Total Debt = $7,597,290, Total Assets = $12,761,265",
+              "result": "Total Debt Ratio = 0.60 or 60%"
+            }
+          }
+        },
+        {
+          "term_id": "FSA-3-048",
+          "term_en": "Financial Leverage Ratio",
+          "term_ru": "Коэффициент финансового рычага",
+          "definition_en": "A solvency ratio measuring financial leverage and financial risk by comparing total assets to total equity.",
+          "definition_ru": "Коэффициент платежеспособности, измеряющий финансовый рычаг и финансовый риск путем сравнения общих активов с общим собственным капиталом.",
+          "type": "formula",
+          "formula": "$\\text{Financial Leverage} = \\frac{\\text{Total Assets}}{\\text{Total Equity}}$",
+          "formula_ref": null,
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Введите общую сумму активов",
+              "2. Нажмите [÷]",
+              "3. Введите общий собственный капитал",
+              "4. Нажмите [=]"
+            ],
+            "example": {
+              "given": "Total Assets = $12,761,265, Total Equity = $5,163,975",
+              "result": "Financial Leverage = 2.47"
+            }
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "FSA-3-EX-005",
+          "question_en": "The following balance sheet information is given for company XYZ with current assets of $2,557,034 and current liabilities of $3,825,396. The current ratio for company XYZ is closest to:",
+          "question_ru": "Следующая информация баланса предоставлена для компании XYZ с текущими активами $2,557,034 и текущими обязательствами $3,825,396. Коэффициент текущей ликвидности компании XYZ наиболее близок к:",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "0.34",
+              "text_ru": "0.34"
+            },
+            {
+              "letter": "B",
+              "text_en": "0.67",
+              "text_ru": "0.67"
+            },
+            {
+              "letter": "C",
+              "text_en": "1.20",
+              "text_ru": "1.20"
+            }
+          ],
+          "correct_answer": "B",
+          "solution_en": "Current ratio = Current assets / Current liabilities = 2,557,034 / 3,825,396 = 0.67",
+          "solution_ru": "Коэффициент текущей ликвидности = Текущие активы / Текущие обязательства = 2,557,034 / 3,825,396 = 0.67"
+        },
+        {
+          "exercise_id": "FSA-3-EX-006",
+          "question_en": "To convert a regular balance sheet into a common-size balance sheet, each line item is stated as a percentage of:",
+          "question_ru": "Чтобы преобразовать обычный баланс в сравнительный баланс, каждая статья выражается в процентах от:",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Total assets",
+              "text_ru": "Общих активов"
+            },
+            {
+              "letter": "B",
+              "text_en": "Total equity",
+              "text_ru": "Общего собственного капитала"
+            },
+            {
+              "letter": "C",
+              "text_en": "Total liabilities",
+              "text_ru": "Общих обязательств"
+            }
+          ],
+          "correct_answer": "A",
+          "solution_en": "Making a common-size balance sheet requires stating each line item as a percentage of total assets.",
+          "solution_ru": "Создание сравнительного баланса требует выражения каждой статьи в процентах от общих активов."
+        }
+      ]
+    }
+  ]
+}
