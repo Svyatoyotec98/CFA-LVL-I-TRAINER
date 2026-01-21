@@ -1,0 +1,1121 @@
+{
+  "metadata": {
+    "book_id": 3,
+    "book_code": "FSA",
+    "book_name": "Financial Statement Analysis",
+    "book_name_ru": "Анализ финансовой отчетности",
+    "module_id": 2,
+    "module_name": "Analyzing Income Statements",
+    "module_name_ru": "Анализ отчетов о прибылях и убытках",
+    "page_range": "28-60",
+    "total_terms": 64,
+    "total_exercises": 5,
+    "version": "2.0",
+    "last_updated": "2026-01-21"
+  },
+  "los": [
+    {
+      "los_id": "LOS_2a",
+      "los_code": "2a",
+      "los_description_en": "Describe general principles of revenue recognition, specific revenue recognition applications, and implications of revenue recognition choices for financial analysis",
+      "los_description_ru": "Описать общие принципы признания выручки, конкретные применения признания выручки и последствия выбора методов признания выручки для финансового анализа",
+      "terms": [
+        {
+          "term_id": "FSA-2-001",
+          "term_en": "Revenue",
+          "term_ru": "Выручка",
+          "definition_en": "The amount reported on the top line of the income statement, representing income earned from business activities.",
+          "definition_ru": "Сумма, отражаемая в верхней строке отчета о прибылях и убытках, представляющая доход, полученный от бизнес-деятельности.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-002",
+          "term_en": "Accrual Accounting",
+          "term_ru": "Метод начисления",
+          "definition_en": "Accounting method that allows revenue to be recognized when it is earned, not necessarily when cash is received.",
+          "definition_ru": "Метод учета, который позволяет признавать выручку в момент её заработка, а не обязательно в момент получения денежных средств.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-003",
+          "term_en": "Contract",
+          "term_ru": "Договор",
+          "definition_en": "A commitment and agreement with commercial substance between parties with established rights, responsibilities, obligations, and payment terms. A contract exists only if collectability is probable.",
+          "definition_ru": "Обязательство и соглашение с коммерческой сущностью между сторонами с установленными правами, обязанностями и условиями оплаты. Договор существует только если вероятность получения оплаты высока.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-004",
+          "term_en": "Performance Obligation",
+          "term_ru": "Обязательство по исполнению",
+          "definition_en": "Obligations linked to the provision of distinct goods or services. A good or service is distinct if the customer can benefit from it independently or with easily accessible resources.",
+          "definition_ru": "Обязательства, связанные с предоставлением отдельных товаров или услуг. Товар или услуга являются отдельными, если клиент может получить выгоду от них независимо или с легко доступными ресурсами.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-005",
+          "term_en": "Transaction Price",
+          "term_ru": "Цена сделки",
+          "definition_en": "The amount the seller expects to receive in exchange for transferring the goods or services specified in the contract.",
+          "definition_ru": "Сумма, которую продавец ожидает получить в обмен на передачу товаров или услуг, указанных в договоре.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-006",
+          "term_en": "Five-Step Revenue Recognition Model",
+          "term_ru": "Пятиэтапная модель признания выручки",
+          "definition_en": "Process for recognizing revenue under IFRS 15 and ASC 606: (1) Identify the contract with the customer, (2) Identify the performance obligations in the contract, (3) Determine the transaction price, (4) Allocate the transaction price to the performance obligations, (5) Recognize revenue when (or as) the entity satisfies a performance obligation.",
+          "definition_ru": "Процесс признания выручки согласно IFRS 15 и ASC 606: (1) Идентифицировать договор с клиентом, (2) Идентифицировать обязательства по исполнению в договоре, (3) Определить цену сделки, (4) Распределить цену сделки по обязательствам, (5) Признать выручку когда компания выполняет обязательство по исполнению.",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-007",
+          "term_en": "Principal",
+          "term_ru": "Принципал",
+          "definition_en": "A company that controls the product before it is delivered to the customer and records revenue as the total amount received for the product transfer.",
+          "definition_ru": "Компания, которая контролирует продукт до его доставки клиенту и признает выручку как общую сумму, полученную за передачу продукта.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-008",
+          "term_en": "Agent",
+          "term_ru": "Агент",
+          "definition_en": "A company that facilitates the transfer of a product controlled by a third-party seller and records revenue only for the portion corresponding to its fee or commission.",
+          "definition_ru": "Компания, которая облегчает передачу продукта, контролируемого сторонним продавцом, и признает выручку только в части, соответствующей её вознаграждению или комиссии.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-009",
+          "term_en": "Contract Asset",
+          "term_ru": "Контрактный актив",
+          "definition_en": "An asset recorded on the balance sheet when payment depends on an additional condition or obligation beyond performance completion.",
+          "definition_ru": "Актив, отражаемый в балансе, когда платеж зависит от дополнительного условия или обязательства помимо завершения исполнения.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-010",
+          "term_en": "Contract Liability",
+          "term_ru": "Контрактное обязательство",
+          "definition_en": "A liability recorded when payment is made before the performance obligation is met. Also known as unearned revenue or deferred revenue.",
+          "definition_ru": "Обязательство, отражаемое когда платеж получен до выполнения обязательства по исполнению. Также известно как незаработанная выручка или отложенная выручка.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-011",
+          "term_en": "Refund Liability",
+          "term_ru": "Обязательство по возврату",
+          "definition_en": "A liability recognized when there is a likelihood of revenue reversal due to potential product returns.",
+          "definition_ru": "Обязательство, признаваемое когда существует вероятность отмены выручки из-за потенциальных возвратов продукции.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-012",
+          "term_en": "Right to Return Goods Asset",
+          "term_ru": "Актив права на возврат товаров",
+          "definition_en": "An asset recognized when returns are likely, calculated as the carrying amount of inventory expected to be returned minus any recovery costs.",
+          "definition_ru": "Актив, признаваемый когда возвраты вероятны, рассчитанный как балансовая стоимость запасов, ожидаемых к возврату, за вычетом любых затрат на восстановление.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-013",
+          "term_en": "IFRS 15",
+          "term_ru": "МСФО 15",
+          "definition_en": "International revenue recognition standard 'Revenue from Contracts with Customers' requiring disaggregation of revenue and disclosure of contract-related balances.",
+          "definition_ru": "Международный стандарт признания выручки 'Выручка по договорам с покупателями', требующий дезагрегации выручки и раскрытия балансов, связанных с договорами.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-014",
+          "term_en": "Franchising Revenue",
+          "term_ru": "Выручка от франчайзинга",
+          "definition_en": "Revenue for franchising companies disaggregated into categories: owned stores/restaurants, franchise royalties, franchise fees, and supply chain revenues.",
+          "definition_ru": "Выручка франчайзинговых компаний, дезагрегированная по категориям: собственные магазины/рестораны, роялти по франшизе, франчайзинговые сборы и выручка от цепи поставок.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-015",
+          "term_en": "Software License Revenue Recognition",
+          "term_ru": "Признание выручки от лицензий на программное обеспечение",
+          "definition_en": "Revenue recognized either over the term of the license or at the point of transfer, depending on whether the provider continues significant activities affecting the software's functionality.",
+          "definition_ru": "Выручка, признаваемая либо в течение срока действия лицензии, либо в момент передачи, в зависимости от того, продолжает ли поставщик значительную деятельность, влияющую на функциональность программного обеспечения.",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-016",
+          "term_en": "Long-Term Contracts",
+          "term_ru": "Долгосрочные договоры",
+          "definition_en": "Contracts spanning several years with performance obligations fulfilled over time rather than at a single point in time.",
+          "definition_ru": "Договоры, охватывающие несколько лет, с обязательствами по исполнению, выполняемыми в течение времени, а не в одной временной точке.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-017",
+          "term_en": "Output Methods",
+          "term_ru": "Методы выпуска",
+          "definition_en": "Methods to assess progress toward completion of long-term contracts using surveys, appraisals, or units produced/delivered.",
+          "definition_ru": "Методы оценки прогресса выполнения долгосрочных договоров с использованием обследований, оценок или произведенных/доставленных единиц.",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-018",
+          "term_en": "Input Methods",
+          "term_ru": "Методы затрат",
+          "definition_en": "Methods to assess progress toward completion of long-term contracts using costs incurred relative to total estimated costs (cost-to-cost method).",
+          "definition_ru": "Методы оценки прогресса выполнения долгосрочных договоров с использованием понесенных затрат относительно общих оценочных затрат (метод 'затраты к затратам').",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-019",
+          "term_en": "Percentage of Completion Method",
+          "term_ru": "Метод процента выполнения",
+          "definition_en": "Revenue recognition method for long-term contracts where revenue is recognized proportionally as work progresses based on the ratio of costs incurred to total estimated costs.",
+          "definition_ru": "Метод признания выручки для долгосрочных договоров, при котором выручка признается пропорционально по мере выполнения работ на основе соотношения понесенных затрат к общим оценочным затратам.",
+          "type": "formula",
+          "formula": "$\\text{Revenue} = \\frac{\\text{Costs Incurred}}{\\text{Total Estimated Costs}} \\times \\text{Total Contract Price}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "Revenue",
+              "name_en": "Revenue Recognized",
+              "name_ru": "Признанная выручка"
+            },
+            {
+              "symbol": "Costs Incurred",
+              "name_en": "Costs incurred to date",
+              "name_ru": "Затраты, понесенные на дату"
+            },
+            {
+              "symbol": "Total Estimated Costs",
+              "name_en": "Total estimated costs to complete",
+              "name_ru": "Общие оценочные затраты до завершения"
+            },
+            {
+              "symbol": "Total Contract Price",
+              "name_en": "Total contract price",
+              "name_ru": "Общая цена договора"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Введите понесенные затраты [ENTER]",
+              "2. Разделите на общие оценочные затраты [÷] {Total Estimated Costs} [=]",
+              "3. Умножьте на цену договора [×] {Total Contract Price} [=]",
+              "4. Результат: признанная выручка"
+            ],
+            "example": {
+              "given": "Costs Incurred=$400,000, Total Est. Costs=$1,000,000, Contract Price=$1,500,000",
+              "input": "400000 ÷ 1000000 = 0.4, × 1500000 =",
+              "result": "Revenue = $600,000"
+            }
+          }
+        },
+        {
+          "term_id": "FSA-2-020",
+          "term_en": "Bill and Hold Arrangement",
+          "term_ru": "Договор выставления счетов без поставки",
+          "definition_en": "An arrangement where a customer purchases goods but cannot take immediate possession. Revenue is recognized when the customer gains control, which requires: substantive reason for arrangement, product identified separately, product ready for transfer, and seller cannot use or direct product to another customer.",
+          "definition_ru": "Договоренность, при которой клиент покупает товары, но не может немедленно вступить во владение. Выручка признается когда клиент получает контроль, что требует: существенной причины для договоренности, отдельной идентификации продукта, готовности продукта к передаче, и продавец не может использовать или направить продукт другому клиенту.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "FSA-2-EX-001",
+          "question_en": "Which of the following statements is most likely accurate?",
+          "question_ru": "Какое из следующих утверждений наиболее вероятно является точным?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Under the accrual method of accounting, revenues are recognized when earned, and expenses are recognized when paid.",
+              "text_ru": "При методе начисления выручка признается при заработке, а расходы признаются при оплате."
+            },
+            {
+              "letter": "B",
+              "text_en": "Under the accrual method of accounting, revenues are recognized when received, and expenses are recognized when paid.",
+              "text_ru": "При методе начисления выручка признается при получении, а расходы признаются при оплате."
+            },
+            {
+              "letter": "C",
+              "text_en": "Under the accrual method of accounting, revenues are recognized when earned, and expenses are recognized when incurred.",
+              "text_ru": "При методе начисления выручка признается при заработке, а расходы признаются при возникновении."
+            }
+          ],
+          "correct_answer": "C",
+          "solution_en": "Under the accrual method of accounting, revenues are recognized when they are earned, and expenses are recognized when they are incurred, regardless of when the cash transactions occur. This approach provides a more accurate picture of a company's financial position and performance by matching revenues to the periods in which they are earned and matching expenses to the periods in which they are incurred. This method adheres to the matching principle, a fundamental concept in accounting that aims to match revenues with the related expenses in the period in which the revenue was earned.",
+          "solution_ru": "При методе начисления выручка признается, когда она заработана, а расходы признаются, когда они возникают, независимо от того, когда происходят денежные транзакции. Этот подход обеспечивает более точную картину финансового положения и результатов деятельности компании, сопоставляя выручку с периодами, в которых она заработана, и сопоставляя расходы с периодами, в которых они возникают. Этот метод соответствует принципу соответствия, фундаментальной концепции бухгалтерского учета, направленной на сопоставление выручки со связанными расходами в периоде, в котором выручка была заработана."
+        },
+        {
+          "exercise_id": "FSA-2-EX-002",
+          "question_en": "DADA Engineering is a construction firm based in India that has undertaken a long-term contract to build a conveyer belt for a client in 4 years for $10 million. The total cost of the project is $6 million. In the first year, the costs incurred are $2 million. The net income for the 1st year of the project is closest to:",
+          "question_ru": "DADA Engineering - строительная фирма, расположенная в Индии, которая приняла долгосрочный контракт на строительство конвейерной ленты для клиента за 4 года за $10 млн. Общая стоимость проекта составляет $6 млн. В первый год понесенные затраты составляют $2 млн. Чистая прибыль за 1-й год проекта наиболее близка к:",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "$1.33 million",
+              "text_ru": "$1.33 млн"
+            },
+            {
+              "letter": "B",
+              "text_en": "$3.33 million",
+              "text_ru": "$3.33 млн"
+            },
+            {
+              "letter": "C",
+              "text_en": "$4 million",
+              "text_ru": "$4 млн"
+            }
+          ],
+          "correct_answer": "A",
+          "solution_en": "Using the percentage-of-completion method: Percentage of completion = Costs incurred / Total costs = $2 million / $6 million = 33.33%. Revenue recognized in Year 1 = Total revenue × Percentage of completion = $10 million × 33.33% = $3.33 million. Net income for Year 1 = Revenue recognized - Costs incurred = $3.33 million - $2 million = $1.33 million.",
+          "solution_ru": "Используя метод процента выполнения: Процент завершения = Понесенные затраты / Общие затраты = $2 млн / $6 млн = 33.33%. Выручка, признанная в году 1 = Общая выручка × Процент завершения = $10 млн × 33.33% = $3.33 млн. Чистая прибыль за год 1 = Признанная выручка - Понесенные затраты = $3.33 млн - $2 млн = $1.33 млн."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_2b",
+      "los_code": "2b",
+      "los_description_en": "Describe general principles of expense recognition, specific expense recognition applications, implications of expense recognition choices for financial analysis and contrast costs that are capitalized versus those that are expensed in the period in which they are incurred",
+      "los_description_ru": "Описать общие принципы признания расходов, конкретные применения признания расходов, последствия выбора методов признания расходов для финансового анализа и сравнить капитализируемые затраты с теми, которые относятся на расходы в периоде их возникновения",
+      "terms": [
+        {
+          "term_id": "FSA-2-021",
+          "term_en": "Expenses",
+          "term_ru": "Расходы",
+          "definition_en": "Reductions in economic benefits during an accounting period manifesting as outflows or depletions of assets or incurrence of liabilities, leading to decreased equity (excluding distributions to equity participants).",
+          "definition_ru": "Уменьшение экономических выгод в течение отчетного периода, проявляющееся как отток или истощение активов или возникновение обязательств, приводящее к уменьшению капитала (за исключением распределений участникам капитала).",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-022",
+          "term_en": "Matching Principle",
+          "term_ru": "Принцип соответствия",
+          "definition_en": "Expense recognition approach where expenses (like cost of goods sold) are recorded in the same period as the related revenues are recognized, aligning expenses and revenues from the same transactions.",
+          "definition_ru": "Подход к признанию расходов, при котором расходы (например, себестоимость проданных товаров) отражаются в том же периоде, что и связанные с ними доходы, согласовывая расходы и доходы от одних и тех же транзакций.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-023",
+          "term_en": "Cost of Goods Sold (COGS)",
+          "term_ru": "Себестоимость проданных товаров",
+          "definition_en": "The cost of inventory sold during a period, recognized as an expense in the same period as the revenue from those sales under the matching principle.",
+          "definition_ru": "Стоимость запасов, проданных в течение периода, признаваемая как расход в том же периоде, что и выручка от этих продаж согласно принципу соответствия.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-024",
+          "term_en": "Period Costs",
+          "term_ru": "Периодические затраты",
+          "definition_en": "Expenses less directly linked to revenue generation, typically expensed as incurred. Examples include administrative expenses, IT costs, R&D expenses, and asset maintenance and repair costs.",
+          "definition_ru": "Расходы, менее напрямую связанные с генерацией дохода, обычно относимые на расходы по мере возникновения. Примеры включают административные расходы, ИТ-затраты, расходы на НИОКР, и затраты на обслуживание и ремонт активов.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-025",
+          "term_en": "Immediate Expensing",
+          "term_ru": "Немедленное отнесение на расходы",
+          "definition_en": "Expense recognition model where costs are expensed when the company pays cash or incurs a liability, regardless of when the related benefit is realized.",
+          "definition_ru": "Модель признания расходов, при которой затраты относятся на расходы, когда компания платит денежные средства или принимает обязательство, независимо от того, когда реализуется связанная выгода.",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-026",
+          "term_en": "Capitalization",
+          "term_ru": "Капитализация",
+          "definition_en": "Process of initially recognizing expenditures as assets on the balance sheet rather than as expenses on the income statement. The capitalized costs are subsequently expensed through depreciation or amortization.",
+          "definition_ru": "Процесс первоначального признания расходов как активов в балансе, а не как расходов в отчете о прибылях и убытках. Капитализированные затраты впоследствии относятся на расходы через амортизацию или списание.",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-027",
+          "term_en": "Depreciation",
+          "term_ru": "Амортизация (износ)",
+          "definition_en": "Systematic expensing of capitalized tangible assets (such as property, plant, and equipment) over their useful life, reducing both net income and the asset's carrying value on the balance sheet.",
+          "definition_ru": "Систематическое отнесение на расходы капитализированных материальных активов (таких как основные средства) в течение их полезного срока службы, уменьшающее как чистую прибыль, так и балансовую стоимость актива.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-028",
+          "term_en": "Amortization",
+          "term_ru": "Амортизация (нематериальных активов)",
+          "definition_en": "Systematic expensing of capitalized intangible assets (such as patents, trademarks, or software) over their useful life.",
+          "definition_ru": "Систематическое отнесение на расходы капитализированных нематериальных активов (таких как патенты, товарные знаки или программное обеспечение) в течение их полезного срока службы.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-029",
+          "term_en": "Capitalized Interest",
+          "term_ru": "Капитализированные проценты",
+          "definition_en": "Interest costs for assets requiring extended periods to prepare for their intended use (such as construction projects). These costs are included in the asset's cost and subsequently expensed through depreciation or cost of goods sold rather than being immediately expensed as interest expense.",
+          "definition_ru": "Процентные затраты для активов, требующих длительных периодов подготовки к использованию по назначению (например, строительные проекты). Эти затраты включаются в стоимость актива и впоследствии относятся на расходы через амортизацию или себестоимость, а не немедленно как процентные расходы.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-030",
+          "term_en": "Software Development Costs",
+          "term_ru": "Затраты на разработку программного обеспечения",
+          "definition_en": "Costs related to developing software that must be capitalized once technological feasibility is established. When expensed instead of capitalized, these costs reduce current-period net income but increase future profitability.",
+          "definition_ru": "Затраты, связанные с разработкой программного обеспечения, которые должны быть капитализированы после установления технологической осуществимости. Когда относятся на расходы вместо капитализации, эти затраты уменьшают чистую прибыль текущего периода, но увеличивают будущую прибыльность.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-031",
+          "term_en": "Capitalization vs. Expensing Impact",
+          "term_ru": "Влияние капитализации против отнесения на расходы",
+          "definition_en": "Capitalizing expenditures boosts current profitability and operating cash flow (as long as capital expenditures exceed depreciation), showing higher assets and equity. Expensing lowers immediate profits but enhances future profitability, showing lower assets but higher operating cash flow in later periods.",
+          "definition_ru": "Капитализация расходов повышает текущую прибыльность и операционный денежный поток (пока капитальные расходы превышают амортизацию), показывая более высокие активы и капитал. Отнесение на расходы снижает немедленную прибыль, но повышает будущую прибыльность, показывая более низкие активы, но более высокий операционный денежный поток в будущих периодах.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-032",
+          "term_en": "Recurring Items",
+          "term_ru": "Повторяющиеся статьи",
+          "definition_en": "Items of income and expense that are likely to continue in the future periods, representing the company's normal ongoing operations.",
+          "definition_ru": "Статьи доходов и расходов, которые вероятно будут продолжаться в будущих периодах, представляющие нормальные текущие операции компании.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-033",
+          "term_en": "Non-recurring Items",
+          "term_ru": "Неповторяющиеся статьи",
+          "definition_en": "Items less likely to continue in the future, including discontinued operations and unusual or infrequent items. These should be analyzed separately from recurring items for forecasting purposes.",
+          "definition_ru": "Статьи, которые вряд ли будут продолжаться в будущем, включая прекращенную деятельность и необычные или нечастые статьи. Их следует анализировать отдельно от повторяющихся статей для целей прогнозирования.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-034",
+          "term_en": "Discontinued Operations",
+          "term_ru": "Прекращенная деятельность",
+          "definition_en": "Parts of the business that the company has disposed of or plans to dispose of, with no continuing involvement. These are reported separately at the bottom of the income statement on a net-of-tax basis.",
+          "definition_ru": "Части бизнеса, которые компания продала или планирует продать, без дальнейшего участия. Они отражаются отдельно в нижней части отчета о прибылях и убытках на посленалоговой основе.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-035",
+          "term_en": "Assets Held for Sale",
+          "term_ru": "Активы, предназначенные для продажи",
+          "definition_en": "Assets and liabilities associated with discontinued operations that are grouped together and listed separately on the balance sheet.",
+          "definition_ru": "Активы и обязательства, связанные с прекращенной деятельностью, которые группируются вместе и отражаются отдельно в балансе.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-036",
+          "term_en": "Unusual or Infrequent Items",
+          "term_ru": "Необычные или нечастые статьи",
+          "definition_en": "Material items that are either unusual in nature or infrequent in occurrence (or both). Under IFRS and US GAAP, these are presented separately within continuing operations, not as extraordinary items.",
+          "definition_ru": "Существенные статьи, которые являются либо необычными по своей природе, либо нечастыми по возникновению (или и то, и другое). Согласно МСФО и US GAAP, они представляются отдельно в рамках продолжающейся деятельности, а не как чрезвычайные статьи.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-037",
+          "term_en": "Restructuring Expenses",
+          "term_ru": "Расходы на реструктуризацию",
+          "definition_en": "Expenses arising from company restructuring activities, such as plant closure costs and employee severance payments. These are typically one-time charges.",
+          "definition_ru": "Расходы, возникающие от деятельности по реструктуризации компании, такие как затраты на закрытие предприятий и выходные пособия сотрудникам. Обычно это разовые начисления.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-038",
+          "term_en": "Changes in Accounting Policies",
+          "term_ru": "Изменения в учетной политике",
+          "definition_en": "Changes made either due to new accounting standards or by switching between acceptable methods. These changes can be applied prospectively or retrospectively, depending on the nature of the change.",
+          "definition_ru": "Изменения, сделанные либо из-за новых стандартов учета, либо путем переключения между допустимыми методами. Эти изменения могут применяться перспективно или ретроспективно, в зависимости от характера изменения.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-039",
+          "term_en": "Prospective Application",
+          "term_ru": "Перспективное применение",
+          "definition_en": "Accounting change method applied for future periods only, without adjusting prior period financial statements. Used for changes in accounting estimates.",
+          "definition_ru": "Метод учетных изменений, применяемый только для будущих периодов, без корректировки финансовой отчетности предыдущих периодов. Используется для изменений в бухгалтерских оценках.",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-040",
+          "term_en": "Retrospective Application",
+          "term_ru": "Ретроспективное применение",
+          "definition_en": "Accounting change method where financial statements are restated as though the new policy had always been in place. Required for most voluntary changes in accounting policies.",
+          "definition_ru": "Метод учетных изменений, при котором финансовая отчетность пересматривается так, как если бы новая политика всегда была на месте. Требуется для большинства добровольных изменений в учетной политике.",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-041",
+          "term_en": "Modified Retrospective Approach",
+          "term_ru": "Модифицированный ретроспективный подход",
+          "definition_en": "Accounting change method where prior period statements are not revised, but opening balances of retained earnings and other affected accounts are adjusted for the cumulative impact of the change.",
+          "definition_ru": "Метод учетных изменений, при котором финансовая отчетность предыдущих периодов не пересматривается, но начальные балансы нераспределенной прибыли и других затронутых счетов корректируются на совокупное влияние изменения.",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-042",
+          "term_en": "Changes in Accounting Estimates",
+          "term_ru": "Изменения в бухгалтерских оценках",
+          "definition_en": "Changes in estimates such as the useful life of a depreciable asset or bad debt percentage. These are handled prospectively, affecting only current and future periods, not prior periods.",
+          "definition_ru": "Изменения в оценках, таких как полезный срок службы амортизируемого актива или процент безнадежных долгов. Они обрабатываются перспективно, влияя только на текущий и будущие периоды, а не на предыдущие.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-043",
+          "term_en": "Prior Period Error Corrections",
+          "term_ru": "Исправления ошибок предыдущих периодов",
+          "definition_en": "Corrections to errors discovered in financial statements from previous periods. These are corrected by restating the financial statements for all prior periods presented.",
+          "definition_ru": "Исправления ошибок, обнаруженных в финансовой отчетности предыдущих периодов. Они исправляются путем пересмотра финансовой отчетности для всех представленных предыдущих периодов.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-044",
+          "term_en": "Earnings Per Share (EPS)",
+          "term_ru": "Прибыль на акцию",
+          "definition_en": "A measure of the amount of income allocated to each outstanding share of common stock. It is one of the most widely used financial metrics for evaluating company performance.",
+          "definition_ru": "Показатель суммы дохода, распределенного на каждую выпущенную акцию обыкновенных акций. Это один из наиболее широко используемых финансовых показателей для оценки результатов деятельности компании.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-045",
+          "term_en": "Basic EPS",
+          "term_ru": "Базовая прибыль на акцию",
+          "definition_en": "Earnings per share calculated without considering the conversion of any dilutive financial instruments. It represents the amount of net income available to common shareholders divided by the weighted average number of common shares outstanding.",
+          "definition_ru": "Прибыль на акцию, рассчитанная без учета конверсии каких-либо разводняющих финансовых инструментов. Представляет сумму чистой прибыли, доступной обычным акционерам, деленную на средневзвешенное количество выпущенных обыкновенных акций.",
+          "type": "formula",
+          "formula": "$\\text{Basic EPS} = \\frac{\\text{Net Income} - \\text{Preferred Dividends}}{\\text{Weighted Average Shares Outstanding}}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "Net Income",
+              "name_en": "Net Income",
+              "name_ru": "Чистая прибыль"
+            },
+            {
+              "symbol": "Preferred Dividends",
+              "name_en": "Preferred Dividends",
+              "name_ru": "Дивиденды по привилегированным акциям"
+            },
+            {
+              "symbol": "Weighted Average Shares Outstanding",
+              "name_en": "Weighted average number of common shares outstanding",
+              "name_ru": "Средневзвешенное количество выпущенных обыкновенных акций"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Вычислите числитель: Net Income - Preferred Dividends",
+              "2. Введите результат [ENTER]",
+              "3. Разделите на средневзвешенное количество акций [÷] {Weighted Avg Shares} [=]",
+              "4. Результат: Basic EPS"
+            ],
+            "example": {
+              "given": "Net Income=$1,000,000, Preferred Dividends=$50,000, Weighted Avg Shares=500,000",
+              "input": "(1000000 - 50000) ÷ 500000 =",
+              "result": "Basic EPS = $1.90"
+            }
+          }
+        },
+        {
+          "term_id": "FSA-2-046",
+          "term_en": "Diluted EPS",
+          "term_ru": "Разводненная прибыль на акцию",
+          "definition_en": "Earnings per share resulting from the assumed conversion of all dilutive financial instruments (convertible bonds, preferred stock, stock options, warrants). It represents the maximum potential dilution.",
+          "definition_ru": "Прибыль на акцию, полученная в результате предполагаемой конверсии всех разводняющих финансовых инструментов (конвертируемые облигации, привилегированные акции, опционы на акции, варранты). Представляет максимальное потенциальное разводнение.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-047",
+          "term_en": "Simple Capital Structure",
+          "term_ru": "Простая структура капитала",
+          "definition_en": "A capital structure that does not include any potentially convertible financial instruments. Companies with simple capital structures only report basic EPS.",
+          "definition_ru": "Структура капитала, которая не включает никаких потенциально конвертируемых финансовых инструментов. Компании с простой структурой капитала отражают только базовую прибыль на акцию.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-048",
+          "term_en": "Complex Capital Structure",
+          "term_ru": "Сложная структура капитала",
+          "definition_en": "A capital structure that includes potentially convertible financial instruments such as convertible bonds, convertible preferred stock, stock options, or warrants. Companies with complex capital structures must report both basic and diluted EPS.",
+          "definition_ru": "Структура капитала, которая включает потенциально конвертируемые финансовые инструменты, такие как конвертируемые облигации, конвертируемые привилегированные акции, опционы на акции или варранты. Компании со сложной структурой капитала должны отражать как базовую, так и разводненную прибыль на акцию.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-049",
+          "term_en": "Weighted Average Shares Outstanding",
+          "term_ru": "Средневзвешенное количество выпущенных акций",
+          "definition_en": "The time-weighted number of common shares outstanding during a period, calculated by weighting the number of shares by the fraction of the period they were outstanding.",
+          "definition_ru": "Взвешенное по времени количество обыкновенных акций в обращении в течение периода, рассчитанное путем взвешивания количества акций на долю периода, в течение которого они были в обращении.",
+          "type": "formula",
+          "formula": "$\\text{Weighted Avg Shares} = \\sum (\\text{Shares} \\times \\frac{\\text{Months Outstanding}}{12})$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "Shares",
+              "name_en": "Number of shares in each period",
+              "name_ru": "Количество акций в каждом периоде"
+            },
+            {
+              "symbol": "Months Outstanding",
+              "name_en": "Number of months shares were outstanding",
+              "name_ru": "Количество месяцев нахождения акций в обращении"
+            }
+          ],
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-050",
+          "term_en": "Convertible Preferred Stock",
+          "term_ru": "Конвертируемые привилегированные акции",
+          "definition_en": "Preferred stock that can be converted into common stock at a specified conversion ratio. When converted, preferred dividends are eliminated and new common shares are added.",
+          "definition_ru": "Привилегированные акции, которые могут быть конвертированы в обыкновенные акции по установленному коэффициенту конверсии. При конверсии дивиденды по привилегированным акциям устраняются, и добавляются новые обыкновенные акции.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-051",
+          "term_en": "Convertible Bonds",
+          "term_ru": "Конвертируемые облигации",
+          "definition_en": "Debt securities that can be converted into equity at specified terms. When converted for EPS calculation, after-tax interest is added back to net income and new common shares from conversion are added to the denominator.",
+          "definition_ru": "Долговые ценные бумаги, которые могут быть конвертированы в капитал на установленных условиях. При конверсии для расчета прибыли на акцию посленалоговые проценты добавляются обратно к чистой прибыли, и новые обыкновенные акции от конверсии добавляются к знаменателю.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-052",
+          "term_en": "Stock Options",
+          "term_ru": "Опционы на акции",
+          "definition_en": "Financial instruments giving the holder the right to purchase shares at a specified exercise price. For diluted EPS, the treasury stock method is used to calculate their dilutive effect.",
+          "definition_ru": "Финансовые инструменты, дающие держателю право приобрести акции по установленной цене исполнения. Для разводненной прибыли на акцию используется метод казначейских акций для расчета их разводняющего эффекта.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-053",
+          "term_en": "Warrants",
+          "term_ru": "Варранты",
+          "definition_en": "Financial instruments giving the holder the right to purchase shares at a specified strike price. Similar to stock options but typically issued by the company directly. The treasury stock method is used for diluted EPS calculation.",
+          "definition_ru": "Финансовые инструменты, дающие держателю право приобрести акции по установленной цене исполнения. Похожи на опционы на акции, но обычно выпускаются компанией напрямую. Метод казначейских акций используется для расчета разводненной прибыли на акцию.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-054",
+          "term_en": "If-Converted Method (Preferred Stock)",
+          "term_ru": "Метод 'как если бы конвертировано' (привилегированные акции)",
+          "definition_en": "Method for calculating diluted EPS that assumes convertible preferred shares were converted at the beginning of the period. This eliminates preferred dividends from the numerator and adds new common shares to the denominator.",
+          "definition_ru": "Метод расчета разводненной прибыли на акцию, который предполагает, что конвертируемые привилегированные акции были конвертированы в начале периода. Это устраняет дивиденды по привилегированным акциям из числителя и добавляет новые обыкновенные акции к знаменателю.",
+          "type": "formula",
+          "formula": "$\\text{Diluted EPS} = \\frac{\\text{Net Income}}{\\text{Weighted Average Shares} + \\text{New Shares from Conversion}}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "Net Income",
+              "name_en": "Net Income (no preferred dividend deduction)",
+              "name_ru": "Чистая прибыль (без вычета дивидендов по привилегированным акциям)"
+            },
+            {
+              "symbol": "Weighted Average Shares",
+              "name_en": "Weighted average common shares outstanding",
+              "name_ru": "Средневзвешенное количество обыкновенных акций в обращении"
+            },
+            {
+              "symbol": "New Shares from Conversion",
+              "name_en": "Shares from converting preferred stock",
+              "name_ru": "Акции от конверсии привилегированных акций"
+            }
+          ],
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-055",
+          "term_en": "If-Converted Method (Convertible Debt)",
+          "term_ru": "Метод 'как если бы конвертировано' (конвертируемый долг)",
+          "definition_en": "Method for calculating diluted EPS that assumes convertible debt was converted at the beginning of the period. After-tax interest saved is added back to net income, and new common shares from conversion are added to the denominator.",
+          "definition_ru": "Метод расчета разводненной прибыли на акцию, который предполагает, что конвертируемый долг был конвертирован в начале периода. Сэкономленные посленалоговые проценты добавляются обратно к чистой прибыли, и новые обыкновенные акции от конверсии добавляются к знаменателю.",
+          "type": "formula",
+          "formula": "$\\text{Diluted EPS} = \\frac{\\text{Net Income} + \\text{After-tax Interest} - \\text{Preferred Dividends}}{\\text{Weighted Avg Shares} + \\text{Shares from Conversion}}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "Net Income",
+              "name_en": "Net Income",
+              "name_ru": "Чистая прибыль"
+            },
+            {
+              "symbol": "After-tax Interest",
+              "name_en": "After-tax interest saved from conversion",
+              "name_ru": "Посленалоговые проценты, сэкономленные от конверсии"
+            },
+            {
+              "symbol": "Preferred Dividends",
+              "name_en": "Preferred dividends",
+              "name_ru": "Дивиденды по привилегированным акциям"
+            },
+            {
+              "symbol": "Weighted Avg Shares",
+              "name_en": "Weighted average common shares",
+              "name_ru": "Средневзвешенное количество обыкновенных акций"
+            },
+            {
+              "symbol": "Shares from Conversion",
+              "name_en": "New shares from debt conversion",
+              "name_ru": "Новые акции от конверсии долга"
+            }
+          ],
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-056",
+          "term_en": "After-tax Interest on Convertible Debt",
+          "term_ru": "Посленалоговые проценты по конвертируемому долгу",
+          "definition_en": "Interest expense that would be saved if convertible debt were converted to equity, adjusted for the tax effect. Calculated as interest expense times (1 minus the tax rate).",
+          "definition_ru": "Процентные расходы, которые были бы сэкономлены, если бы конвертируемый долг был конвертирован в капитал, с учетом налогового эффекта. Рассчитывается как процентные расходы умноженные на (1 минус налоговая ставка).",
+          "type": "formula",
+          "formula": "$\\text{After-tax Interest} = \\text{Interest Expense} \\times (1 - \\text{Tax Rate})$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "Interest Expense",
+              "name_en": "Interest expense on convertible debt",
+              "name_ru": "Процентные расходы по конвертируемому долгу"
+            },
+            {
+              "symbol": "Tax Rate",
+              "name_en": "Effective tax rate",
+              "name_ru": "Эффективная налоговая ставка"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Введите процентные расходы [ENTER]",
+              "2. Введите (1 - Tax Rate): [×] ( 1 [-] {Tax Rate} ) [=]",
+              "3. Результат: After-tax interest"
+            ],
+            "example": {
+              "given": "Interest Expense=$100,000, Tax Rate=30%",
+              "input": "100000 × (1 - 0.30) =",
+              "result": "After-tax Interest = $70,000"
+            }
+          }
+        },
+        {
+          "term_id": "FSA-2-057",
+          "term_en": "Treasury Stock Method",
+          "term_ru": "Метод казначейских акций",
+          "definition_en": "Method for calculating diluted EPS for stock options and warrants. Assumes options/warrants are exercised at the beginning of the period and the proceeds are used to repurchase shares at the average market price. Only the incremental shares (net increase) are added to the denominator.",
+          "definition_ru": "Метод расчета разводненной прибыли на акцию для опционов на акции и варрантов. Предполагает, что опционы/варранты исполняются в начале периода, а выручка используется для выкупа акций по средней рыночной цене. Только инкрементные акции (чистое увеличение) добавляются к знаменателю.",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-058",
+          "term_en": "Incremental Shares",
+          "term_ru": "Инкрементные акции",
+          "definition_en": "The net increase in shares outstanding from the exercise of options or warrants under the treasury stock method. Calculated as shares issued minus shares that could be repurchased with the exercise proceeds.",
+          "definition_ru": "Чистое увеличение количества акций в обращении от исполнения опционов или варрантов по методу казначейских акций. Рассчитывается как выпущенные акции минус акции, которые могли бы быть выкуплены за счет выручки от исполнения.",
+          "type": "formula",
+          "formula": "$\\text{Incremental Shares} = \\text{Shares Issued} - \\frac{\\text{Exercise Proceeds}}{\\text{Average Market Price}}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "Shares Issued",
+              "name_en": "Shares issued from option exercise",
+              "name_ru": "Акции, выпущенные при исполнении опциона"
+            },
+            {
+              "symbol": "Exercise Proceeds",
+              "name_en": "Cash received from option exercise",
+              "name_ru": "Денежные средства, полученные от исполнения опциона"
+            },
+            {
+              "symbol": "Average Market Price",
+              "name_en": "Average market price of stock during period",
+              "name_ru": "Средняя рыночная цена акций в течение периода"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Рассчитайте выручку: Shares × Exercise Price",
+              "2. Разделите на среднюю рыночную цену: [÷] {Avg Market Price} [=]",
+              "3. Вычтите из выпущенных акций: {Shares Issued} [-] результат [=]",
+              "4. Результат: инкрементные акции"
+            ],
+            "example": {
+              "given": "Options for 10,000 shares, Exercise Price=$20, Avg Market Price=$25",
+              "input": "(10000 × 20) ÷ 25 = 8,000, then 10000 - 8000 =",
+              "result": "Incremental Shares = 2,000"
+            }
+          }
+        },
+        {
+          "term_id": "FSA-2-059",
+          "term_en": "Dilutive Securities",
+          "term_ru": "Разводняющие ценные бумаги",
+          "definition_en": "Financial instruments that would decrease EPS if converted or exercised. Only dilutive securities are included in the diluted EPS calculation.",
+          "definition_ru": "Финансовые инструменты, которые уменьшили бы прибыль на акцию при конверсии или исполнении. Только разводняющие ценные бумаги включаются в расчет разводненной прибыли на акцию.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-060",
+          "term_en": "Anti-dilutive Securities",
+          "term_ru": "Антиразводняющие ценные бумаги",
+          "definition_en": "Financial instruments whose conversion or exercise would increase EPS. Anti-dilutive securities are excluded from diluted EPS calculation to avoid overstating dilution.",
+          "definition_ru": "Финансовые инструменты, конверсия или исполнение которых увеличило бы прибыль на акцию. Антиразводняющие ценные бумаги исключаются из расчета разводненной прибыли на акцию, чтобы избежать завышения разводнения.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-061",
+          "term_en": "Common-Size Income Statement",
+          "term_ru": "Отчет о прибылях и убытках общего размера",
+          "definition_en": "An income statement with each line item expressed as a percentage of revenue. This facilitates time-series and cross-sectional analysis by standardizing for company size.",
+          "definition_ru": "Отчет о прибылях и убытках, в котором каждая статья выражена в процентах от выручки. Это облегчает анализ временных рядов и кросс-секционный анализ, стандартизируя по размеру компании.",
+          "type": "method",
+          "formula": "$\\text{Each Item \\%} = \\frac{\\text{Line Item}}{\\text{Revenue}} \\times 100\\%$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "Line Item",
+              "name_en": "Any income statement line item",
+              "name_ru": "Любая статья отчета о прибылях и убытках"
+            },
+            {
+              "symbol": "Revenue",
+              "name_en": "Total revenue",
+              "name_ru": "Общая выручка"
+            }
+          ],
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-062",
+          "term_en": "Net Profit Margin",
+          "term_ru": "Маржа чистой прибыли",
+          "definition_en": "Profitability ratio measuring the amount of net income generated per dollar of revenue. Higher net profit margin indicates better profitability. Also called return on sales.",
+          "definition_ru": "Показатель рентабельности, измеряющий сумму чистой прибыли, генерируемой на доллар выручки. Более высокая маржа чистой прибыли указывает на лучшую рентабельность. Также называется доходность от продаж.",
+          "type": "formula",
+          "formula": "$\\text{Net Profit Margin} = \\frac{\\text{Net Income}}{\\text{Revenue}}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "Net Income",
+              "name_en": "Net income",
+              "name_ru": "Чистая прибыль"
+            },
+            {
+              "symbol": "Revenue",
+              "name_en": "Total revenue",
+              "name_ru": "Общая выручка"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Введите чистую прибыль [ENTER]",
+              "2. Разделите на выручку [÷] {Revenue} [=]",
+              "3. Умножьте на 100 для процента [×] 100 [=]",
+              "4. Результат: Net Profit Margin %"
+            ],
+            "example": {
+              "given": "Net Income=$500,000, Revenue=$5,000,000",
+              "input": "500000 ÷ 5000000 = 0.10, × 100 =",
+              "result": "Net Profit Margin = 10%"
+            }
+          }
+        },
+        {
+          "term_id": "FSA-2-063",
+          "term_en": "Gross Profit",
+          "term_ru": "Валовая прибыль",
+          "definition_en": "Revenue minus cost of goods sold. Represents the profit before deducting operating expenses.",
+          "definition_ru": "Выручка минус себестоимость проданных товаров. Представляет прибыль до вычета операционных расходов.",
+          "type": "formula",
+          "formula": "$\\text{Gross Profit} = \\text{Revenue} - \\text{Cost of Goods Sold}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "Revenue",
+              "name_en": "Total revenue",
+              "name_ru": "Общая выручка"
+            },
+            {
+              "symbol": "Cost of Goods Sold",
+              "name_en": "Cost of goods sold",
+              "name_ru": "Себестоимость проданных товаров"
+            }
+          ],
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-2-064",
+          "term_en": "Gross Profit Margin",
+          "term_ru": "Маржа валовой прибыли",
+          "definition_en": "Profitability ratio measuring the amount of gross profit generated per dollar of revenue. Higher gross profit margin indicates better efficiency in production and pricing.",
+          "definition_ru": "Показатель рентабельности, измеряющий сумму валовой прибыли, генерируемой на доллар выручки. Более высокая маржа валовой прибыли указывает на лучшую эффективность в производстве и ценообразовании.",
+          "type": "formula",
+          "formula": "$\\text{Gross Profit Margin} = \\frac{\\text{Revenue} - \\text{COGS}}{\\text{Revenue}} = \\frac{\\text{Gross Profit}}{\\text{Revenue}}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "Revenue",
+              "name_en": "Total revenue",
+              "name_ru": "Общая выручка"
+            },
+            {
+              "symbol": "COGS",
+              "name_en": "Cost of goods sold",
+              "name_ru": "Себестоимость проданных товаров"
+            },
+            {
+              "symbol": "Gross Profit",
+              "name_en": "Gross profit",
+              "name_ru": "Валовая прибыль"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Рассчитайте валовую прибыль: Revenue - COGS [=]",
+              "2. Разделите на выручку [÷] {Revenue} [=]",
+              "3. Умножьте на 100 для процента [×] 100 [=]",
+              "4. Результат: Gross Profit Margin %"
+            ],
+            "example": {
+              "given": "Revenue=$5,000,000, COGS=$3,000,000",
+              "input": "(5000000 - 3000000) ÷ 5000000 = 0.40, × 100 =",
+              "result": "Gross Profit Margin = 40%"
+            }
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "FSA-2-EX-003",
+          "question_en": "Which of the following approach is most likely to be adopted during the analysis if the warranty expense in relation to sales of two identical companies is substantially different?",
+          "question_ru": "Какой из следующих подходов наиболее вероятно будет принят во время анализа, если расходы на гарантийное обслуживание относительно продаж двух идентичных компаний существенно различаются?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Adjust the financials to increase the warranty expense to a higher level.",
+              "text_ru": "Скорректировать финансовые показатели, увеличив расходы на гарантийное обслуживание до более высокого уровня."
+            },
+            {
+              "letter": "B",
+              "text_en": "Adjust the financials to decrease the warranty expense to a lower level.",
+              "text_ru": "Скорректировать финансовые показатели, снизив расходы на гарантийное обслуживание до более низкого уровня."
+            },
+            {
+              "letter": "C",
+              "text_en": "Review the trend of warranty claims received by the two companies and assess the need for adjustments.",
+              "text_ru": "Проанализировать тенденцию гарантийных претензий, полученных двумя компаниями, и оценить необходимость корректировок."
+            }
+          ],
+          "correct_answer": "C",
+          "solution_en": "When analyzing the financials of two identical companies with substantially different warranty expenses in relation to sales, the most appropriate approach is to review the trend of warranty claims received by the two companies and assess the need for adjustments. This method allows analysts to understand the underlying reasons for the discrepancy in warranty expenses, which could be due to differences in product quality, customer usage patterns, or the efficiency of the warranty service process.",
+          "solution_ru": "При анализе финансовых показателей двух идентичных компаний с существенно различающимися расходами на гарантийное обслуживание относительно продаж, наиболее подходящим подходом является анализ тенденции гарантийных претензий, полученных двумя компаниями, и оценка необходимости корректировок. Этот метод позволяет аналитикам понять основные причины расхождения в расходах на гарантийное обслуживание, которые могут быть связаны с различиями в качестве продукции, моделями использования клиентами или эффективностью процесса гарантийного обслуживания."
+        },
+        {
+          "exercise_id": "FSA-2-EX-004",
+          "question_en": "Baku Mart, a chain of hypermarkets, reported a net income of $400,000 and paid cash dividends of $260,000 to preferred stockholders for the year 2016. At the beginning of 2016, Baku had 8,000 shares of common stock outstanding, but the firm issued 3,000 new shares on November 1st, 2016. Given this information, the basic EPS of Baku Mart is closest to:",
+          "question_ru": "Baku Mart, сеть гипермаркетов, отчиталась о чистой прибыли в размере $400,000 и выплатила денежные дивиденды в размере $260,000 привилегированным акционерам за 2016 год. В начале 2016 года у Baku было 8,000 обыкновенных акций в обращении, но фирма выпустила 3,000 новых акций 1 ноября 2016 года. Учитывая эту информацию, базовая прибыль на акцию Baku Mart наиболее близка к:",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "$12.73",
+              "text_ru": "$12.73"
+            },
+            {
+              "letter": "B",
+              "text_en": "$16.47",
+              "text_ru": "$16.47"
+            },
+            {
+              "letter": "C",
+              "text_en": "$48.06",
+              "text_ru": "$48.06"
+            }
+          ],
+          "correct_answer": "B",
+          "solution_en": "Basic EPS = (Net Income - Preferred Dividends) / Weighted Average Shares. Weighted average shares = [(8,000 × 12) + (3,000 × 2)] / 12 = 8,500 shares (the 3,000 new shares were outstanding for 2 months: November-December). Basic EPS = ($400,000 - $260,000) / 8,500 = $140,000 / 8,500 = $16.47.",
+          "solution_ru": "Базовая прибыль на акцию = (Чистая прибыль - Дивиденды по привилегированным акциям) / Средневзвешенное количество акций. Средневзвешенное количество акций = [(8,000 × 12) + (3,000 × 2)] / 12 = 8,500 акций (3,000 новых акций были в обращении 2 месяца: ноябрь-декабрь). Базовая прибыль на акцию = ($400,000 - $260,000) / 8,500 = $140,000 / 8,500 = $16.47."
+        },
+        {
+          "exercise_id": "FSA-2-EX-005",
+          "question_en": "For its fiscal year-end, Brighter World Limited, a manufacturer of personal computers, reported a net income of $800 million and a weighted average of 80,000,000 common shares outstanding. At the moment, there is a total of 4,000,000 convertible preferred shares outstanding that paid an annual dividend of $8. Given that each preferred share is convertible into two shares of the common stock, the diluted EPS is closest to:",
+          "question_ru": "На конец финансового года Brighter World Limited, производитель персональных компьютеров, отчитался о чистой прибыли в размере $800 млн и средневзвешенном количестве 80,000,000 обыкновенных акций в обращении. В настоящее время в обращении находится 4,000,000 конвертируемых привилегированных акций, по которым выплачивается годовой дивиденд в размере $8. Учитывая, что каждая привилегированная акция конвертируется в две обыкновенные акции, разводненная прибыль на акцию наиболее близка к:",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "$8.72",
+              "text_ru": "$8.72"
+            },
+            {
+              "letter": "B",
+              "text_en": "$9.09",
+              "text_ru": "$9.09"
+            },
+            {
+              "letter": "C",
+              "text_en": "$11.11",
+              "text_ru": "$11.11"
+            }
+          ],
+          "correct_answer": "B",
+          "solution_en": "When calculating diluted EPS with convertible preferred shares, we assume the preferred shares have been converted into ordinary shares, implying that no preferred dividends are paid. Therefore, we do not subtract preferred dividends from Net Income in the numerator. Diluted EPS = Net income / [Weighted average shares + New common shares from conversion] = $800,000,000 / [80,000,000 + (4,000,000 × 2)] = $800,000,000 / 88,000,000 = $9.09.",
+          "solution_ru": "При расчете разводненной прибыли на акцию с конвертируемыми привилегированными акциями мы предполагаем, что привилегированные акции были конвертированы в обыкновенные акции, что означает, что дивиденды по привилегированным акциям не выплачиваются. Поэтому мы не вычитаем дивиденды по привилегированным акциям из чистой прибыли в числителе. Разводненная прибыль на акцию = Чистая прибыль / [Средневзвешенное количество акций + Новые обыкновенные акции от конверсии] = $800,000,000 / [80,000,000 + (4,000,000 × 2)] = $800,000,000 / 88,000,000 = $9.09."
+        }
+      ]
+    }
+  ]
+}
