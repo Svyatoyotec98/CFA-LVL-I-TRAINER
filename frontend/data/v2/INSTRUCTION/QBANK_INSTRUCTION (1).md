@@ -1,25 +1,44 @@
 # QBANK Creation Instruction v2.0
 
-# ⚠️ КРИТИЧЕСКИ ВАЖНО — ПРОЧИТАЙ ПЕРВЫМ
+# 🛑 СТОП! ПРОЧИТАЙ ПЕРЕД НАЧАЛОМ РАБОТЫ!
 
-## Формат названия ветки
+## ШАГ 0: Создание ветки (ОБЯЗАТЕЛЬНО ПЕРВЫМ!)
 
-ПЕРЕД началом работы создай ветку в СТРОГО ОБЯЗАТЕЛЬНОМ формате:
+**НЕ НАЧИНАЙ РАБОТУ пока не создашь ветку правильно!**
+
+### Формат названия ветки:
 ```
 claude/add-{book}-module-{N}-tests-{random}
 ```
 
-Где:
-- `{book}` — название книги МАЛЕНЬКИМИ буквами (economics, quants, fsa, cf, equity, fi, derivatives, alt, pm, ethics)
-- `{N}` — номер модуля (1, 2, 3...)
-- `{random}` — любой короткий случайный суффикс
+### Пример для Economics Module 5:
+```bash
+git checkout -b claude/add-economics-module-5-tests-xK9mP
+git push -u origin claude/add-economics-module-5-tests-xK9mP
+```
 
-**Примеры правильных названий:**
-- `claude/add-economics-module-4-tests-abc123`
-- `claude/add-quants-module-9-tests-xyz789`
-- `claude/add-fsa-module-2-tests-qwe456`
+### ⛔ ПРОВЕРЬ СЕБЯ:
+1. Ветка начинается с `claude/add-` ? ✓
+2. Название книги МАЛЕНЬКИМИ буквами (economics, НЕ Economics)? ✓
+3. Есть `module-5` (или другой номер)? ✓
+4. Есть `-tests-` ? ✓
+5. Заканчивается случайными символами? ✓
 
-**БЕЗ номера модуля ветка НЕ БУДЕТ РАСПОЗНАНА системой мониторинга!**
+### ❌ НЕПРАВИЛЬНО:
+- `claude/add-economics-chapter-tests-xxx` — нет `module-N`!
+- `claude/add-Economics-module-5-tests-xxx` — заглавная буква!
+- `claude/create-economics-tests-xxx` — нет `module-N`!
+
+### ✅ ПРАВИЛЬНО:
+- `claude/add-economics-module-5-tests-xK9mP`
+- `claude/add-quants-module-3-tests-aB3nQ`
+
+**⛔ ЕСЛИ ВЕТКА СОЗДАНА НЕПРАВИЛЬНО — УДАЛИ И СОЗДАЙ ЗАНОВО:**
+```bash
+git checkout main
+git branch -D claude/неправильное-имя
+git checkout -b claude/add-{book}-module-{N}-tests-{random}
+```
 
 ---
 
