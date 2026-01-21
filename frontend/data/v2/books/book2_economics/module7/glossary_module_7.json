@@ -8,7 +8,7 @@
     "module_name": "Currency Exchange Rates",
     "module_name_ru": "Валютные курсы",
     "page_range": "155-182",
-    "total_terms": 22,
+    "total_terms": 40,
     "total_exercises": 0,
     "version": "2.0",
     "last_updated": "2026-01-21"
@@ -326,7 +326,238 @@
       "los_code": "7b",
       "los_description_en": "Describe exchange rate regimes and explain the effects of exchange rates on countries' international trade and capital flows",
       "los_description_ru": "Описать режимы обменных курсов и объяснить влияние обменных курсов на международную торговлю и потоки капитала стран",
-      "terms": [],
+      "terms": [
+        {
+          "term_id": "ECON-7-023",
+          "term_en": "Exchange Rate Regime",
+          "term_ru": "Режим обменного курса",
+          "definition_en": "The framework a country's central bank or government employs to determine its currency's relative value in the international market. The chosen regime is based on factors such as the country's relative economic stability, efficiency, and trading volatility, and can significantly impact real economic activity, investment decisions, and the risk profile of foreign assets.",
+          "definition_ru": "Структура, которую центральный банк или правительство страны использует для определения относительной стоимости своей валюты на международном рынке. Выбранный режим основывается на таких факторах, как относительная экономическая стабильность страны, эффективность и торговая волатильность, и может значительно влиять на реальную экономическую деятельность, инвестиционные решения и профиль риска иностранных активов.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-024",
+          "term_en": "Dollarization",
+          "term_ru": "Долларизация",
+          "definition_en": "A currency arrangement where a country adopts another nation's currency (typically the US dollar) as its medium of exchange, abandoning its own domestic currency. Dollarization grants currency credibility but not creditworthiness, and countries cannot perform independent monetary policy. Examples include Ecuador, El Salvador, Panama, and East Timor.",
+          "definition_ru": "Валютное соглашение, при котором страна принимает валюту другой страны (обычно доллар США) в качестве средства обмена, отказываясь от собственной отечественной валюты. Долларизация предоставляет валютную надежность, но не кредитоспособность, и страны не могут проводить независимую денежно-кредитную политику. Примеры включают Эквадор, Сальвадор, Панаму и Восточный Тимор.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-025",
+          "term_en": "Monetary Union",
+          "term_ru": "Валютный союз",
+          "definition_en": "A currency arrangement where member countries share a common currency, such as the euro in the European Economic and Monetary Union (EMU). Member countries cannot perform independent monetary policy as the monetary union determines policy through their representatives in the central bank. The monetary union alone does not guarantee creditworthiness, as seen in the 2010 EMU sovereign debt crisis.",
+          "definition_ru": "Валютное соглашение, при котором страны-члены разделяют общую валюту, такую как евро в Европейском экономическом и валютном союзе (EMU). Страны-члены не могут проводить независимую денежно-кредитную политику, поскольку валютный союз определяет политику через своих представителей в центральном банке. Валютный союз сам по себе не гарантирует кредитоспособность, как видно из кризиса суверенного долга EMU 2010 года.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-026",
+          "term_en": "Currency Board System (CBS)",
+          "term_ru": "Система валютного совета (CBS)",
+          "definition_en": "A monetary arrangement where the government commits to exchanging its domestic currency for a specified foreign currency at a fixed rate, with restrictions to ensure this commitment. The local currency is only issued when there's an equivalent amount of foreign currency held in reserves, making it fully backed by foreign assets. Similar to the gold standard, CBS links monetary base expansion/contraction to trade and capital flows. Hong Kong uses this system, backing its entire monetary base with US dollar reserves.",
+          "definition_ru": "Денежное соглашение, при котором правительство обязуется обменивать свою отечественную валюту на определенную иностранную валюту по фиксированному курсу, с ограничениями для обеспечения этого обязательства. Местная валюта выпускается только при наличии эквивалентного количества иностранной валюты в резервах, что делает ее полностью обеспеченной иностранными активами. Подобно золотому стандарту, CBS связывает расширение/сокращение денежной базы с торговлей и потоками капитала. Гонконг использует эту систему, обеспечивая всю свою денежную базу резервами в долларах США.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-027",
+          "term_en": "Fixed Parity",
+          "term_ru": "Фиксированный паритет",
+          "definition_en": "A system that involves pegging the exchange rate to a single currency or a basket of currencies, but without any legislative commitment to maintain it, allowing a country to adjust or abandon the parity if necessary. The central bank can perform traditional functions while maintaining discretionary FX reserves. A speculative attack can occur if market participants believe FX reserves are insufficient, potentially forcing an immediate devaluation.",
+          "definition_ru": "Система, которая предполагает привязку обменного курса к одной валюте или корзине валют, но без какого-либо законодательного обязательства поддерживать его, позволяя стране корректировать или отказываться от паритета при необходимости. Центральный банк может выполнять традиционные функции, сохраняя дискреционные валютные резервы. Спекулятивная атака может произойти, если участники рынка считают, что валютные резервы недостаточны, что потенциально вынуждает немедленную девальвацию.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-028",
+          "term_en": "Active Crawling Peg",
+          "term_ru": "Активный ползущий паритет",
+          "definition_en": "An exchange rate regime where exchange rates are pre-announced for the coming weeks, with changes taking place in small steps designed to manipulate inflation expectations. This approach provides transparency and allows market participants to adjust their expectations gradually.",
+          "definition_ru": "Режим обменного курса, при котором обменные курсы объявляются заранее на ближайшие недели, с изменениями, происходящими небольшими шагами, предназначенными для манипулирования инфляционными ожиданиями. Этот подход обеспечивает прозрачность и позволяет участникам рынка постепенно корректировать свои ожидания.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-029",
+          "term_en": "Passive Crawling Peg",
+          "term_ru": "Пассивный ползущий паритет",
+          "definition_en": "An exchange rate regime where exchange rates are frequently adjusted (on a daily or weekly basis), usually against a single currency such as the US Dollar, to keep pace with the inflation rate. This approach helps maintain competitiveness by offsetting inflation differentials between countries.",
+          "definition_ru": "Режим обменного курса, при котором обменные курсы часто корректируются (ежедневно или еженедельно), обычно по отношению к одной валюте, такой как доллар США, чтобы не отставать от уровня инфляции. Этот подход помогает поддерживать конкурентоспособность, компенсируя разницу в инфляции между странами.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-030",
+          "term_en": "Fixed Parity with Crawling Bands",
+          "term_ru": "Фиксированный паритет с ползущими полосами",
+          "definition_en": "An exchange rate system where a country initially pegs its currency to a foreign currency to stabilize inflation expectations, then gradually widens a pre-defined range around this fixed rate to introduce more flexibility. This provides an incremental way to transition away from a fixed currency rate, especially if the country lacks credibility or financial infrastructure for full monetary flexibility.",
+          "definition_ru": "Система обменного курса, при которой страна изначально привязывает свою валюту к иностранной валюте для стабилизации инфляционных ожиданий, затем постепенно расширяет заранее определенный диапазон вокруг этого фиксированного курса для введения большей гибкости. Это обеспечивает постепенный способ отхода от фиксированного валютного курса, особенно если стране не хватает доверия или финансовой инфраструктуры для полной денежной гибкости.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-031",
+          "term_en": "Target Zone Regime",
+          "term_ru": "Режим целевой зоны",
+          "definition_en": "An exchange rate system that maintains a set parity with broader intervention bands, potentially extending up to ±2 percent around the established parity, compared to a basic fixed parity model. This expanded bandwidth allows the monetary authority increased flexibility for discretionary actions while still maintaining overall exchange rate stability.",
+          "definition_ru": "Система обменного курса, которая поддерживает установленный паритет с более широкими интервенционными полосами, потенциально расширяющимися до ±2 процентов вокруг установленного паритета, по сравнению с базовой моделью фиксированного паритета. Эта расширенная полоса пропускания позволяет денежному органу увеличить гибкость для дискреционных действий, сохраняя при этом общую стабильность обменного курса.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-032",
+          "term_en": "Managed Float",
+          "term_ru": "Управляемое плавание",
+          "definition_en": "An exchange rate regime involving policy interventions to achieve internal or external targets, potentially creating instability in FX markets. Exchange rate targets may not be explicitly defined, and authorities intervene as they deem necessary to influence the currency value, balancing between market determination and policy objectives.",
+          "definition_ru": "Режим обменного курса, включающий политические интервенции для достижения внутренних или внешних целей, потенциально создающий нестабильность на валютных рынках. Целевые показатели обменного курса могут быть явно не определены, и органы власти вмешиваются по мере необходимости для влияния на стоимость валюты, балансируя между рыночным определением и политическими целями.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-033",
+          "term_en": "Independently Floating Rates",
+          "term_ru": "Независимо плавающие курсы",
+          "definition_en": "An exchange rate regime that leaves exchange rates to market determination, allowing the central bank to pursue autonomous monetary policy goals while also acting as a lender of last resort. This provides maximum flexibility for monetary policy but exposes the economy to exchange rate volatility and requires well-developed financial markets.",
+          "definition_ru": "Режим обменного курса, который оставляет обменные курсы на рыночное определение, позволяя центральному банку преследовать автономные цели денежно-кредитной политики, а также выступать в качестве кредитора последней инстанции. Это обеспечивает максимальную гибкость для денежно-кредитной политики, но подвергает экономику волатильности обменного курса и требует хорошо развитых финансовых рынков.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-034",
+          "term_en": "Classical Gold Standard",
+          "term_ru": "Классический золотой стандарт",
+          "definition_en": "A monetary system that prevailed during the 19th and early 20th centuries until World War I, where major currencies like the US dollar and British pound were tied to fixed gold quantities. Gold acted as the standard unit for pricing goods and assets through the price-specie-flow mechanism, where trade surpluses led to increased gold reserves, expanding money supply and prices, while deficits caused gold outflows, decreasing prices and boosting exports.",
+          "definition_ru": "Денежная система, которая преобладала в 19-м и начале 20-го века до Первой мировой войны, где основные валюты, такие как доллар США и британский фунт, были привязаны к фиксированным количествам золота. Золото действовало как стандартная единица для оценки товаров и активов через механизм потока видов-цен, где торговые профициты приводили к увеличению золотых резервов, расширяя денежную массу и цены, в то время как дефициты вызывали отток золота, снижая цены и стимулируя экспорт.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-035",
+          "term_en": "Bretton Woods System",
+          "term_ru": "Бреттон-Вудская система",
+          "definition_en": "A monetary system introduced in 1944 after World War II, featuring fixed exchange rates with occasional realignments. The United States, Japan, and many European industrial countries adhered to this framework. When exchange rate parities deviated significantly from supply-demand equilibrium, periodic realignments were executed. The system collapsed in 1973 due to chronic inflation, transitioning to flexible exchange rates.",
+          "definition_ru": "Денежная система, введенная в 1944 году после Второй мировой войны, характеризующаяся фиксированными обменными курсами с периодическими перестройками. Соединенные Штаты, Япония и многие европейские промышленные страны придерживались этой структуры. Когда паритеты обменных курсов значительно отклонялись от равновесия спроса и предложения, проводились периодические перестройки. Система рухнула в 1973 году из-за хронической инфляции, перейдя к гибким обменным курсам.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-036",
+          "term_en": "European Exchange Rate Mechanism (ERM)",
+          "term_ru": "Европейский механизм обменных курсов (ERM)",
+          "definition_en": "A system introduced by the European Economic Community to instill stability in exchange rates, where currency values were expected to fluctuate within a narrow range known as 'the snake'. The ERM's vulnerability became apparent in the early 1990s when speculative attacks and macroeconomic disparities led to deviations, culminating in the UK's forced exit from the system. Despite challenges, the euro emerged in the late 20th century for Western European countries.",
+          "definition_ru": "Система, введенная Европейским экономическим сообществом для обеспечения стабильности обменных курсов, где ожидалось, что стоимость валют будет колебаться в узком диапазоне, известном как 'змея'. Уязвимость ERM стала очевидной в начале 1990-х годов, когда спекулятивные атаки и макроэкономические различия привели к отклонениям, кульминацией которых стал вынужденный выход Великобритании из системы. Несмотря на проблемы, евро появилось в конце 20-го века для западноевропейских стран.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-037",
+          "term_en": "Trade Balance",
+          "term_ru": "Торговый баланс",
+          "definition_en": "The difference between a country's exports (X) and imports (M), which must correspond to the sum of private savings surplus over investment (S-I) and fiscal surplus (T-G), as expressed in the equation: X - M = (S - I) + (T - G). A trade surplus indicates a nation's savings surpass what's needed for infrastructure investments, while a trade deficit signifies savings fall short of investment requirements.",
+          "definition_ru": "Разница между экспортом страны (X) и импортом (M), которая должна соответствовать сумме превышения частных сбережений над инвестициями (S-I) и фискального профицита (T-G), как выражено в уравнении: X - M = (S - I) + (T - G). Торговый профицит указывает на то, что сбережения страны превышают необходимые для инфраструктурных инвестиций, в то время как торговый дефицит означает, что сбережения не хватает для инвестиционных требований.",
+          "type": "formula",
+          "formula": "$X - M = (S - I) + (T - G)$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "X",
+              "name_en": "Exports",
+              "name_ru": "Экспорт"
+            },
+            {
+              "symbol": "M",
+              "name_en": "Imports",
+              "name_ru": "Импорт"
+            },
+            {
+              "symbol": "S",
+              "name_en": "Private savings",
+              "name_ru": "Частные сбережения"
+            },
+            {
+              "symbol": "I",
+              "name_en": "Investment",
+              "name_ru": "Инвестиции"
+            },
+            {
+              "symbol": "T",
+              "name_en": "Taxes net of transfers",
+              "name_ru": "Налоги за вычетом трансфертов"
+            },
+            {
+              "symbol": "G",
+              "name_en": "Government expenditure",
+              "name_ru": "Государственные расходы"
+            }
+          ],
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-038",
+          "term_en": "Capital Account",
+          "term_ru": "Счет движения капитала",
+          "definition_en": "A component of a country's balance of payments that records financial asset flows between countries. A nation's trade balance and capital account are interrelated; a trade deficit/surplus must correspond to a capital account surplus/deficit. Anticipated exchange rate changes drive capital flows, but adjustments primarily occur in financial markets due to their faster pace compared to goods prices.",
+          "definition_ru": "Компонент платежного баланса страны, который регистрирует потоки финансовых активов между странами. Торговый баланс страны и счет движения капитала взаимосвязаны; торговый дефицит/профицит должен соответствовать профициту/дефициту счета движения капитала. Ожидаемые изменения обменного курса стимулируют потоки капитала, но корректировки в основном происходят на финансовых рынках из-за их более быстрого темпа по сравнению с ценами на товары.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-039",
+          "term_en": "Capital Flight",
+          "term_ru": "Бегство капитала",
+          "definition_en": "A massive and sudden outflow of capital from a country, typically occurring during economic downturns or political instability. Capital flight can exacerbate economic problems, causing currency devaluations and draining national reserves. Governments may impose capital restrictions to manage and mitigate the risks associated with these sudden, large-scale outflows.",
+          "definition_ru": "Массовый и внезапный отток капитала из страны, обычно происходящий во время экономических спадов или политической нестабильности. Бегство капитала может усугубить экономические проблемы, вызывая девальвацию валюты и истощение национальных резервов. Правительства могут вводить ограничения на движение капитала для управления и смягчения рисков, связанных с этими внезапными крупномасштабными оттоками.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-7-040",
+          "term_en": "Speculative Attack",
+          "term_ru": "Спекулятивная атака",
+          "definition_en": "A situation in a fixed exchange rate regime where market participants believe that foreign exchange reserves are insufficient to sustain the parity, leading them to sell the domestic currency en masse. This drains reserves rapidly and can force an immediate devaluation. Maintaining adequate reserves is crucial for the credibility of a fixed exchange rate regime to prevent such attacks.",
+          "definition_ru": "Ситуация в режиме фиксированного обменного курса, когда участники рынка считают, что валютные резервы недостаточны для поддержания паритета, что заставляет их массово продавать отечественную валюту. Это быстро истощает резервы и может привести к немедленной девальвации. Поддержание достаточных резервов имеет решающее значение для доверия к режиму фиксированного обменного курса, чтобы предотвратить такие атаки.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
       "exercises": []
     }
   ]
