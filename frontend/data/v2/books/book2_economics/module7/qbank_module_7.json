@@ -1,0 +1,809 @@
+{
+  "metadata": {
+    "book_id": 2,
+    "book_code": "ECON",
+    "book_name": "Economics",
+    "book_name_ru": "Экономика",
+    "module_id": 7,
+    "module_name": "Currency Exchange Rates",
+    "module_name_ru": "Валютные курсы",
+    "total_questions": 15,
+    "version": "2.0",
+    "source": "AnalystPrep QBank"
+  },
+  "questions": [
+    {
+      "question_id": "ECON-7-Q001",
+      "original_question_number": 942,
+      "los_id": "LOS_7b",
+      "question_text_en": "Currency depreciation will most likely have a large effect on a country's trade balance if:",
+      "question_text_ru": "Обесценение валюты, скорее всего, окажет большое влияние на торговый баланс страны, если:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "goods exported and imported have close substitutes.",
+          "text_ru": "экспортируемые и импортируемые товары имеют близкие заменители."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "goods exported and imported have less elastic demand.",
+          "text_ru": "экспортируемые и импортируемые товары имеют менее эластичный спрос."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "goods imported represent a larger proportion of overall government expenditure.",
+          "text_ru": "импортируемые товары составляют большую долю общих государственных расходов."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "When a country's currency depreciates, it means that the value of the currency has decreased relative to other currencies. This depreciation can have a significant impact on a country's trade balance, especially when the goods exported and imported have close substitutes. In such cases, the depreciation makes foreign goods more expensive for local consumers, as they now need to spend more of their own currency to purchase the same amount of imported goods. As a result, consumers are likely to shift their preferences towards domestically produced goods that serve as substitutes for the now more expensive imported goods. This shift can lead to an increase in domestic consumption of locally produced goods and a decrease in the consumption of imported goods, potentially improving the country's trade balance by reducing imports and increasing exports if the domestic goods are also exported.",
+      "explanation_ru": "Когда валюта страны обесценивается, это означает, что стоимость валюты снизилась относительно других валют. Это обесценение может оказать значительное влияние на торговый баланс страны, особенно когда экспортируемые и импортируемые товары имеют близкие заменители. В таких случаях обесценение делает иностранные товары более дорогими для местных потребителей, поскольку им теперь нужно потратить больше своей валюты для покупки того же количества импортных товаров. В результате потребители, вероятно, переключат свои предпочтения на отечественные товары, которые служат заменителями ставших более дорогими импортных товаров. Это может привести к улучшению торгового баланса страны за счет сокращения импорта и увеличения экспорта.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Consumers and businesses will continue to purchase these goods despite price increases for imports or decreases for exports. However, this option overlooks the fact that even with inelastic demand, there can still be some impact on the trade balance, albeit less pronounced than in cases where goods have more elastic demand and close substitutes.",
+          "text_ru": "Потребители и предприятия продолжат покупать эти товары, несмотря на повышение цен на импорт или снижение цен на экспорт. Однако этот вариант упускает из виду тот факт, что даже при неэластичном спросе все равно может быть некоторое влияние на торговый баланс, хотя и менее выраженное, чем в случаях с более эластичным спросом и близкими заменителями."
+        },
+        "opt_c": {
+          "text_en": "While government expenditure on imported goods can influence a country's trade balance, the effect of currency depreciation on the trade balance is more directly related to the behavior of private consumers and businesses in response to changes in relative prices of imported and domestic goods. Government spending decisions are often determined by budgetary considerations and policy objectives rather than short-term changes in exchange rates.",
+          "text_ru": "Хотя государственные расходы на импортные товары могут влиять на торговый баланс страны, влияние обесценения валюты на торговый баланс более непосредственно связано с поведением частных потребителей и предприятий в ответ на изменения относительных цен импортных и отечественных товаров. Решения о государственных расходах часто определяются бюджетными соображениями и политическими целями, а не краткосрочными изменениями обменных курсов."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "currency_depreciation",
+        "trade_balance",
+        "elasticity"
+      ]
+    },
+    {
+      "question_id": "ECON-7-Q002",
+      "original_question_number": 947,
+      "los_id": "LOS_7a",
+      "question_text_en": "All things being equal, inflation in a country would most likely lead to:",
+      "question_text_ru": "При прочих равных условиях инфляция в стране, скорее всего, приведет к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Depreciation in its currency.",
+          "text_ru": "Обесценению ее валюты."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Appreciation in its currency.",
+          "text_ru": "Укреплению ее валюты."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "No effect on real exchange rates.",
+          "text_ru": "Отсутствию влияния на реальные обменные курсы."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Inflation within a country typically results in the depreciation of its currency. This phenomenon can be explained through the lens of purchasing power parity (PPP) and the basic principles of supply and demand in the foreign exchange market. When a country experiences inflation, the general level of prices for goods and services rises. This increase in prices reduces the purchasing power of the country's currency, both domestically and internationally. As domestic goods become more expensive relative to foreign goods, consumers and businesses are likely to increase their demand for cheaper foreign products. This shift in consumption patterns leads to an increase in the demand for foreign currencies to pay for these imports and a corresponding increase in the supply of the domestic currency in the foreign exchange markets. The increased supply of the domestic currency, coupled with decreased demand, leads to its depreciation.",
+      "explanation_ru": "Инфляция в стране обычно приводит к обесценению ее валюты. Это явление можно объяснить через призму паритета покупательной способности (ППС) и основных принципов спроса и предложения на валютном рынке. Когда страна испытывает инфляцию, общий уровень цен на товары и услуги растет. Этот рост цен снижает покупательную способность валюты страны как внутри страны, так и на международном уровне. Поскольку отечественные товары становятся более дорогими по сравнению с иностранными товарами, потребители и предприятия, вероятно, увеличат свой спрос на более дешевые иностранные продукты. Это изменение в структуре потребления приводит к увеличению спроса на иностранные валюты для оплаты этого импорта и соответствующему увеличению предложения внутренней валюты на валютных рынках. Увеличение предложения внутренней валюты в сочетании со снижением спроса приводит к ее обесценению.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "In reality, inflation erodes the purchasing power of a currency, making domestic goods and services more expensive relative to those in countries with lower inflation rates. This discrepancy can lead to a decrease in demand for the domestic currency as both domestic and foreign consumers and investors seek more stable or valuable currencies, ultimately leading to depreciation, not appreciation, of the currency.",
+          "text_ru": "В действительности инфляция подрывает покупательную способность валюты, делая отечественные товары и услуги более дорогими по сравнению с товарами в странах с более низкими темпами инфляции. Это расхождение может привести к снижению спроса на внутреннюю валюту, поскольку как отечественные, так и иностранные потребители и инвесторы ищут более стабильные или ценные валюты, что в конечном итоге приводит к обесценению, а не укреплению валюты."
+        },
+        "opt_c": {
+          "text_en": "Suggesting that inflation has no effect on real exchange rates overlooks the fundamental economic principles that govern currency value and exchange rates. Inflation affects the purchasing power of a currency, which in turn influences the real exchange rate through changes in relative prices between countries.",
+          "text_ru": "Предположение о том, что инфляция не влияет на реальные обменные курсы, упускает из виду фундаментальные экономические принципы, которые управляют стоимостью валюты и обменными курсами. Инфляция влияет на покупательную способность валюты, что, в свою очередь, влияет на реальный обменный курс через изменения относительных цен между странами."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "inflation",
+        "currency_depreciation",
+        "purchasing_power_parity"
+      ]
+    },
+    {
+      "question_id": "ECON-7-Q003",
+      "original_question_number": 1015,
+      "los_id": "LOS_7b",
+      "question_text_en": "If a country's domestic currency appreciates relative to foreign currencies, exports will most likely:",
+      "question_text_ru": "Если национальная валюта страны укрепляется по отношению к иностранным валютам, экспорт, скорее всего:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Increase.",
+          "text_ru": "Увеличится."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Decrease.",
+          "text_ru": "Уменьшится."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Remain unchanged.",
+          "text_ru": "Останется неизменным."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "When a country's domestic currency appreciates relative to foreign currencies, the price of its goods and services increases for foreign buyers. This is because the stronger domestic currency means that foreign buyers need to spend more of their own currency to purchase the same amount of goods or services. As a result, the country's exports become less competitive in the global market, leading to a decrease in demand from international buyers. Consequently, the volume of exports is likely to decrease as foreign customers look for more cost-effective alternatives.",
+      "explanation_ru": "Когда национальная валюта страны укрепляется по отношению к иностранным валютам, цена ее товаров и услуг увеличивается для иностранных покупателей. Это происходит потому, что более сильная национальная валюта означает, что иностранным покупателям нужно потратить больше своей собственной валюты для покупки того же количества товаров или услуг. В результате экспорт страны становится менее конкурентоспособным на мировом рынке, что приводит к снижению спроса со стороны международных покупателей. Следовательно, объем экспорта, вероятно, уменьшится, поскольку иностранные клиенты ищут более экономически эффективные альтернативы.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "An appreciation of the domestic currency makes exports more expensive for foreign buyers, not less. This would likely lead to a decrease, rather than an increase, in exports. The reasoning that exports would increase under these conditions misunderstands the relationship between currency value and international trade competitiveness.",
+          "text_ru": "Укрепление национальной валюты делает экспорт более дорогим для иностранных покупателей, а не менее дорогим. Это, вероятно, приведет к уменьшению, а не к увеличению экспорта. Рассуждение о том, что экспорт увеличится в этих условиях, неправильно понимает взаимосвязь между стоимостью валюты и конкурентоспособностью международной торговли."
+        },
+        "opt_c": {
+          "text_en": "While it might seem intuitive to some that exports could remain unchanged despite fluctuations in currency value, this overlooks the sensitivity of international trade to price changes. Currency values directly impact the cost of goods and services abroad. An appreciation of the domestic currency makes exports more expensive on the global market, which can lead to a decrease in demand.",
+          "text_ru": "Хотя некоторым может показаться интуитивным, что экспорт может остаться неизменным, несмотря на колебания стоимости валюты, это упускает из виду чувствительность международной торговли к изменениям цен. Стоимость валюты напрямую влияет на стоимость товаров и услуг за рубежом. Укрепление национальной валюты делает экспорт более дорогим на мировом рынке, что может привести к снижению спроса."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "currency_appreciation",
+        "exports",
+        "trade_competitiveness"
+      ]
+    },
+    {
+      "question_id": "ECON-7-Q004",
+      "original_question_number": 1564,
+      "los_id": "LOS_7a",
+      "question_text_en": "The CPIs of India and Pakistan are 132 and 121, respectively. If the nominal exchange rate is 1.32 PKR/INR, then the real exchange rate for India is closest to:",
+      "question_text_ru": "ИПЦ Индии и Пакистана составляют 132 и 121 соответственно. Если номинальный обменный курс составляет 1,32 PKR/INR, то реальный обменный курс для Индии ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "0.69.",
+          "text_ru": "0,69."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "0.83.",
+          "text_ru": "0,83."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "1.44.",
+          "text_ru": "1,44."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Note: The CPI is used as a proxy for the price level in each country. RER = Nominal exchange rate × (Price level of domestic country / Price level of foreign country) = 1.32 × (132/121) = 1.44. This calculation shows that, after adjusting for price levels in both countries, 1 Indian Rupee (INR) is equivalent to 1.44 Pakistani Rupees (PKR) in terms of purchasing power.",
+      "explanation_ru": "Примечание: ИПЦ используется в качестве показателя уровня цен в каждой стране. RER = Номинальный обменный курс × (Уровень цен внутренней страны / Уровень цен иностранной страны) = 1,32 × (132/121) = 1,44. Этот расчет показывает, что после корректировки на уровни цен в обеих странах 1 индийская рупия (INR) эквивалентна 1,44 пакистанским рупиям (PKR) с точки зрения покупательной способности.",
+      "explanation_formula": "$RER = \\text{Nominal exchange rate} \\times \\frac{\\text{Price level domestic}}{\\text{Price level foreign}} = 1.32 \\times \\frac{132}{121} = 1.44$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "It represents the inverse of the real exchange rate calculation, which would be more relevant if we were calculating the real exchange rate from the perspective of Pakistan.",
+          "text_ru": "Это представляет собой обратную величину расчета реального обменного курса, что было бы более актуально, если бы мы рассчитывали реальный обменный курс с точки зрения Пакистана."
+        },
+        "opt_b": {
+          "text_en": "It does not accurately reflect the real exchange rate calculation between India and Pakistan based on the given CPIs and nominal exchange rate. The value of 0.83 does not result from any standard method of calculating real exchange rates with the given data.",
+          "text_ru": "Это не точно отражает расчет реального обменного курса между Индией и Пакистаном на основе данных ИПЦ и номинального обменного курса. Значение 0,83 не является результатом какого-либо стандартного метода расчета реальных обменных курсов с данными данными."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic calculation",
+        "steps_en": [
+          "1.32 × (132 ÷ 121)",
+          "= 1.32 × 1.0909",
+          "= 1.44"
+        ],
+        "steps_ru": [
+          "1,32 × (132 ÷ 121)",
+          "= 1,32 × 1,0909",
+          "= 1,44"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": [
+        "real_exchange_rate",
+        "nominal_exchange_rate",
+        "purchasing_power_parity"
+      ]
+    },
+    {
+      "question_id": "ECON-7-Q005",
+      "original_question_number": 1570,
+      "los_id": "LOS_7a",
+      "question_text_en": "The exchange rates AUD/NZD has fallen from 1.01 to 0.90 in 1 year. The percentage change in the value of the AUD in terms of NZD is closest to:",
+      "question_text_ru": "Обменный курс AUD/NZD упал с 1,01 до 0,90 за 1 год. Процентное изменение стоимости AUD в пересчете на NZD ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "-12.12%",
+          "text_ru": "-12,12%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "-10.89%",
+          "text_ru": "-10,89%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "12.12%",
+          "text_ru": "12,12%"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "To calculate the percentage change in the AUD value in terms of NZD, we need to invert AUD/NZD. NZD/AUD = 1/1.01 = 0.99 and NZD/AUD = 1/0.90 = 1.11. Now, we can simply calculate the change: (1.11/0.99) - 1 = 0.1212. This shows that the AUD has appreciated 12.12% against the NZD.",
+      "explanation_ru": "Чтобы рассчитать процентное изменение стоимости AUD в пересчете на NZD, нам нужно инвертировать AUD/NZD. NZD/AUD = 1/1,01 = 0,99 и NZD/AUD = 1/0,90 = 1,11. Теперь мы можем просто рассчитать изменение: (1,11/0,99) - 1 = 0,1212. Это показывает, что AUD укрепился на 12,12% по отношению к NZD.",
+      "explanation_formula": "$\\text{Percentage change} = \\frac{\\frac{1}{0.90}}{\\frac{1}{1.01}} - 1 = \\frac{1.11}{0.99} - 1 = 0.1212 = 12.12\\%$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "We cannot say that the NZD has depreciated -12.12% against the AUD.",
+          "text_ru": "Мы не можем сказать, что NZD обесценился на -12,12% по отношению к AUD."
+        },
+        "opt_b": {
+          "text_en": "It represents the depreciation rate of NZD against AUD.",
+          "text_ru": "Это представляет собой темп обесценения NZD по отношению к AUD."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic calculation",
+        "steps_en": [
+          "NZD/AUD initial = 1 ÷ 1.01 = 0.99",
+          "NZD/AUD final = 1 ÷ 0.90 = 1.11",
+          "(1.11 ÷ 0.99) - 1 = 0.1212 or 12.12%"
+        ],
+        "steps_ru": [
+          "NZD/AUD начальный = 1 ÷ 1,01 = 0,99",
+          "NZD/AUD конечный = 1 ÷ 0,90 = 1,11",
+          "(1,11 ÷ 0,99) - 1 = 0,1212 или 12,12%"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": [
+        "currency_appreciation",
+        "percentage_change",
+        "exchange_rates"
+      ]
+    },
+    {
+      "question_id": "ECON-7-Q006",
+      "original_question_number": 1571,
+      "los_id": "LOS_7a",
+      "question_text_en": "Turkey and Russia are two countries with a high level of bilateral trade relationships. Due to recent economic crises in Russia, the exchange rate has gone from 19.10 RUB/TRY to 23.15 RUB/TRY. Which of the following is most accurate regarding this change in exchange rates?",
+      "question_text_ru": "Турция и Россия — две страны с высоким уровнем двусторонних торговых отношений. Из-за недавних экономических кризисов в России обменный курс изменился с 19,10 RUB/TRY до 23,15 RUB/TRY. Что из следующего наиболее точно описывает это изменение обменных курсов?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The Turkish Lira has depreciated.",
+          "text_ru": "Турецкая лира обесценилась."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The Turkish Lira has appreciated.",
+          "text_ru": "Турецкая лира укрепилась."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The Russian Ruble has appreciated.",
+          "text_ru": "Российский рубль укрепился."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "When analyzing the change in exchange rates from 19.10 RUB/TRY to 23.15 RUB/TRY, it is evident that the value of the Turkish Lira (TRY) in terms of the Russian Ruble (RUB) has increased. This means that it now takes more RUB to purchase a single unit of TRY than it did before. This scenario is a clear indication of the Turkish Lira appreciating against the Russian Ruble. The appreciation of a currency is a reflection of its increased value in comparison to another currency.",
+      "explanation_ru": "При анализе изменения обменных курсов с 19,10 RUB/TRY до 23,15 RUB/TRY очевидно, что стоимость турецкой лиры (TRY) в пересчете на российский рубль (RUB) увеличилась. Это означает, что теперь требуется больше RUB для покупки одной единицы TRY, чем раньше. Этот сценарий является четким указанием на укрепление турецкой лиры по отношению к российскому рублю. Укрепление валюты является отражением ее увеличенной стоимости по сравнению с другой валютой.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "This option suggests that the Turkish Lira has depreciated, which would mean that it would take fewer RUB to buy 1 TRY, indicating a decrease in the value of TRY relative to RUB. However, the increase from 19.10 RUB/TRY to 23.15 RUB/TRY indicates the opposite, showing that the TRY has actually become more valuable, not less.",
+          "text_ru": "Этот вариант предполагает, что турецкая лира обесценилась, что означало бы, что для покупки 1 TRY требуется меньше RUB, что указывает на снижение стоимости TRY по отношению к RUB. Однако увеличение с 19,10 RUB/TRY до 23,15 RUB/TRY указывает на обратное, показывая, что TRY на самом деле стала более ценной."
+        },
+        "opt_c": {
+          "text_en": "This option indicates that the Russian Ruble has appreciated, which would imply that the RUB has increased in value relative to the TRY, making it stronger and able to buy more TRY with the same amount of RUB. However, the change in exchange rates from 19.10 RUB/TRY to 23.15 RUB/TRY demonstrates a depreciation of the RUB relative to the TRY, as it now takes more RUB to buy 1 TRY.",
+          "text_ru": "Этот вариант указывает на то, что российский рубль укрепился, что подразумевало бы, что RUB увеличился в стоимости по отношению к TRY, став сильнее и способным купить больше TRY за то же количество RUB. Однако изменение обменных курсов с 19,10 RUB/TRY до 23,15 RUB/TRY демонстрирует обесценение RUB по отношению к TRY, поскольку теперь требуется больше RUB для покупки 1 TRY."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "currency_appreciation",
+        "currency_depreciation",
+        "exchange_rates"
+      ]
+    },
+    {
+      "question_id": "ECON-7-Q007",
+      "original_question_number": 1578,
+      "los_id": "LOS_7b",
+      "question_text_en": "LeGrandia is a newly formed country that does not have its currency. Which of the following is least likely option available for LeGrandia?",
+      "question_text_ru": "ЛеГрандия — это вновь образованная страна, у которой нет своей валюты. Что из следующего является наименее вероятным вариантом для ЛеГрандии?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Crawling peg.",
+          "text_ru": "Ползущая привязка."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Monetary union.",
+          "text_ru": "Валютный союз."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Formal dollarization.",
+          "text_ru": "Формальная долларизация."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "A crawling peg is an exchange rate regime that presupposes the existence of a national currency that can be adjusted in a controlled manner against a major currency or a basket of currencies. The primary purpose of a crawling peg system is to stabilize the national currency by making minor, gradual adjustments to its value in response to specific economic indicators or market conditions. However, for a country like LeGrandia, which does not have its own currency, implementing a crawling peg system is not feasible. The absence of a national currency means there is no baseline value to adjust, making the concept of a crawling peg irrelevant and inapplicable to LeGrandia's situation.",
+      "explanation_ru": "Ползущая привязка — это режим обменного курса, который предполагает наличие национальной валюты, которая может быть скорректирована контролируемым образом по отношению к основной валюте или корзине валют. Основная цель системы ползущей привязки — стабилизировать национальную валюту путем внесения незначительных постепенных корректировок ее стоимости в ответ на конкретные экономические показатели или рыночные условия. Однако для такой страны, как ЛеГрандия, у которой нет собственной валюты, внедрение системы ползущей привязки невозможно. Отсутствие национальной валюты означает, что нет базовой стоимости для корректировки, что делает концепцию ползущей привязки неактуальной и неприменимой к ситуации ЛеГрандии.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Entering a monetary union is a viable option for a country without its own currency. By joining a monetary union, LeGrandia would adopt the common currency used within the union, thereby gaining a stable and internationally recognized medium of exchange.",
+          "text_ru": "Вступление в валютный союз является жизнеспособным вариантом для страны без собственной валюты. Присоединившись к валютному союзу, ЛеГрандия приняла бы общую валюту, используемую в союзе, тем самым получив стабильное и международно признанное средство обмена."
+        },
+        "opt_c": {
+          "text_en": "Formal dollarization is another feasible option for LeGrandia. This process involves adopting the currency of another country, typically a major and stable currency like the US dollar, as the official legal tender.",
+          "text_ru": "Формальная долларизация — еще один осуществимый вариант для ЛеГрандии. Этот процесс включает принятие валюты другой страны, обычно основной и стабильной валюты, такой как доллар США, в качестве официального законного платежного средства."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "exchange_rate_regimes",
+        "crawling_peg",
+        "dollarization",
+        "monetary_union"
+      ]
+    },
+    {
+      "question_id": "ECON-7-Q008",
+      "original_question_number": 1580,
+      "los_id": "LOS_7b",
+      "question_text_en": "The exchange rate regime in which the domestic currency is permitted to fluctuate between the horizontal bands +1% and -1% against a single or a basket of foreign currencies is most likely called a:",
+      "question_text_ru": "Режим обменного курса, при котором национальная валюта может колебаться в горизонтальных диапазонах от +1% до -1% по отношению к одной или корзине иностранных валют, скорее всего, называется:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "fixed parity.",
+          "text_ru": "фиксированным паритетом."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "target zone.",
+          "text_ru": "целевой зоной."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "crawling peg.",
+          "text_ru": "ползущей привязкой."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "In conventional fixed parity, the domestic currency is permitted to fluctuate between the horizontal bands +1% and -1% against a single or a basket of foreign currencies.",
+      "explanation_ru": "При традиционном фиксированном паритете национальная валюта может колебаться в горизонтальных диапазонах от +1% до -1% по отношению к одной или корзине иностранных валют.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "A target zone is where countries maintain their currencies within a specific set margin.",
+          "text_ru": "Целевая зона — это когда страны поддерживают свои валюты в пределах определенной установленной маржи."
+        },
+        "opt_c": {
+          "text_en": "Crawling peg is an exchange rate regime used by countries that already have their currency. A crawling peg is used to control currency moves, especially during threats of devaluation. It involves buying and selling the currency in a coordinated manner to keep the currency within a range (band of rates).",
+          "text_ru": "Ползущая привязка — это режим обменного курса, используемый странами, у которых уже есть своя валюта. Ползущая привязка используется для контроля движения валюты, особенно во время угроз девальвации. Она включает покупку и продажу валюты координированным образом, чтобы удерживать валюту в пределах диапазона (диапазона ставок)."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "exchange_rate_regimes",
+        "fixed_parity",
+        "target_zone",
+        "crawling_peg"
+      ]
+    },
+    {
+      "question_id": "ECON-7-Q009",
+      "original_question_number": 3253,
+      "los_id": "LOS_7c",
+      "question_text_en": "The reasons for countries imposing capital restrictions are most likely to include which of the following?",
+      "question_text_ru": "Причины, по которым страны вводят ограничения на движение капитала, скорее всего, включают что из следующего?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "To protect strategic or military interests.",
+          "text_ru": "Для защиты стратегических или военных интересов."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "To prevent domestic investors from gaining higher rates of return abroad.",
+          "text_ru": "Для предотвращения получения внутренними инвесторами более высоких доходов за рубежом."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "To ensure foreigners cannot unduly influence the election of government officials.",
+          "text_ru": "Для обеспечения того, чтобы иностранцы не могли чрезмерно влиять на выборы государственных должностных лиц."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Capital restrictions are crucial for safeguarding national security and ensuring that sensitive industries, such as telecommunications, defense, and energy, remain under the control or significant influence of domestic entities or the government. By limiting foreign investment in these sectors, countries can prevent potential espionage, sabotage, or other security threats that could arise if foreign entities gain control over critical infrastructure. This approach allows governments to maintain sovereignty over their strategic assets and ensures that national interests are prioritized over global economic integration in areas deemed vital for national security.",
+      "explanation_ru": "Ограничения на движение капитала имеют решающее значение для защиты национальной безопасности и обеспечения того, чтобы чувствительные отрасли, такие как телекоммуникации, оборона и энергетика, оставались под контролем или значительным влиянием отечественных субъектов или правительства. Ограничивая иностранные инвестиции в эти секторы, страны могут предотвратить потенциальный шпионаж, саботаж или другие угрозы безопасности, которые могут возникнуть, если иностранные субъекты получат контроль над критически важной инфраструктурой. Этот подход позволяет правительствам поддерживать суверенитет над своими стратегическими активами и гарантирует, что национальные интересы имеют приоритет над глобальной экономической интеграцией в областях, считающихся жизненно важными для национальной безопасности.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "While it might seem intuitive that countries would want to prevent domestic investors from seeking higher returns abroad to keep capital within the country, this is not a primary reason for imposing capital restrictions. The main purpose of capital controls is to manage the flow of foreign investment and protect the economy from volatile capital movements that can lead to financial instability.",
+          "text_ru": "Хотя может показаться интуитивным, что страны хотели бы помешать отечественным инвесторам искать более высокие доходы за рубежом, чтобы сохранить капитал внутри страны, это не является основной причиной введения ограничений на движение капитала. Основная цель контроля за капиталом — управлять потоком иностранных инвестиций и защищать экономику от нестабильного движения капитала, которое может привести к финансовой нестабильности."
+        },
+        "opt_c": {
+          "text_en": "The assertion that capital restrictions are imposed to ensure foreigners cannot unduly influence the election of government officials is misleading. While it is true that countries are concerned about foreign influence in their domestic affairs, capital controls are primarily economic tools aimed at managing financial stability and protecting strategic sectors.",
+          "text_ru": "Утверждение о том, что ограничения на движение капитала вводятся для того, чтобы иностранцы не могли чрезмерно влиять на выборы государственных должностных лиц, вводит в заблуждение. Хотя верно, что страны обеспокоены иностранным влиянием на свои внутренние дела, контроль за капиталом в первую очередь является экономическим инструментом, направленным на управление финансовой стабильностью и защиту стратегических секторов."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "capital_restrictions",
+        "national_security",
+        "capital_controls"
+      ]
+    },
+    {
+      "question_id": "ECON-7-Q010",
+      "original_question_number": 3254,
+      "los_id": "LOS_7a",
+      "question_text_en": "If the exchange rate quote for the euro (USD/EUR) changes from 1.3500 to 1.2600, then in approximate terms:",
+      "question_text_ru": "Если котировка обменного курса евро (USD/EUR) изменяется с 1,3500 до 1,2600, то приблизительно:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "the euro depreciated by 6.7%, and the dollar appreciated by 7.1%.",
+          "text_ru": "евро обесценился на 6,7%, а доллар укрепился на 7,1%."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "the dollar depreciated by 6.7%, and the euro appreciated by 7.1%.",
+          "text_ru": "доллар обесценился на 6,7%, а евро укрепился на 7,1%."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "the euro appreciated by 6.7%, and the dollar depreciated by 7.1%.",
+          "text_ru": "евро укрепился на 6,7%, а доллар обесценился на 7,1%."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "When analyzing the impact of exchange rate changes on currency value, it's essential to understand how these changes reflect the appreciation or depreciation of currencies. The percentage change in the euro's value is: (1.2600 - 1.3500) / 1.3500 × 100% = -6.67%. This indicates that the euro has depreciated by approximately 6.7%. Conversely, the percentage change in the indirect quote is: (1/1.2600) / (1/1.3500) - 1 = 1.3500/1.2600 - 1 = 0.0714 or 7.1%. This analysis demonstrates the inverse relationship between the two currencies in an exchange rate quote and how a decrease in the USD/EUR rate signifies the euro's depreciation and the dollar's appreciation.",
+      "explanation_ru": "При анализе влияния изменений обменного курса на стоимость валюты важно понимать, как эти изменения отражают укрепление или обесценение валют. Процентное изменение стоимости евро составляет: (1,2600 - 1,3500) / 1,3500 × 100% = -6,67%. Это указывает на то, что евро обесценился примерно на 6,7%. И наоборот, процентное изменение косвенной котировки составляет: (1/1,2600) / (1/1,3500) - 1 = 1,3500/1,2600 - 1 = 0,0714 или 7,1%. Этот анализ демонстрирует обратную зависимость между двумя валютами в котировке обменного курса и то, как снижение курса USD/EUR означает обесценение евро и укрепление доллара.",
+      "explanation_formula": "$\\text{EUR change} = \\frac{1.2600 - 1.3500}{1.3500} \\times 100\\% = -6.67\\%$ ; $\\text{USD change} = \\frac{\\frac{1}{1.2600}}{\\frac{1}{1.3500}} - 1 = 0.0714 = 7.1\\%$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "This option incorrectly interprets the exchange rate movement, suggesting that the dollar depreciated and the euro appreciated, which is the opposite of what actually occurred.",
+          "text_ru": "Этот вариант неправильно интерпретирует движение обменного курса, предполагая, что доллар обесценился, а евро укрепился, что противоположно тому, что произошло на самом деле."
+        },
+        "opt_c": {
+          "text_en": "This option mistakenly claims that the euro appreciated and the dollar depreciated, which contradicts the actual movement of the exchange rates. The decrease in the USD/EUR rate from 1.3500 to 1.2600 clearly shows the euro's depreciation against the dollar, not its appreciation.",
+          "text_ru": "Этот вариант ошибочно утверждает, что евро укрепился, а доллар обесценился, что противоречит фактическому движению обменных курсов. Снижение курса USD/EUR с 1,3500 до 1,2600 явно показывает обесценение евро по отношению к доллару, а не его укрепление."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic calculation",
+        "steps_en": [
+          "EUR: (1.2600 - 1.3500) ÷ 1.3500 × 100% = -6.67%",
+          "USD: (1÷1.2600) ÷ (1÷1.3500) - 1 = 7.1%"
+        ],
+        "steps_ru": [
+          "EUR: (1,2600 - 1,3500) ÷ 1,3500 × 100% = -6,67%",
+          "USD: (1÷1,2600) ÷ (1÷1,3500) - 1 = 7,1%"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": [
+        "currency_depreciation",
+        "currency_appreciation",
+        "percentage_change"
+      ]
+    },
+    {
+      "question_id": "ECON-7-Q011",
+      "original_question_number": 3259,
+      "los_id": "LOS_7b",
+      "question_text_en": "Some countries such as Ecuador and Panama have adopted the currency of another country. Such a regime would be best described as:",
+      "question_text_ru": "Некоторые страны, такие как Эквадор и Панама, приняли валюту другой страны. Такой режим лучше всего можно описать как:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "dollarized.",
+          "text_ru": "долларизованный."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "a crawling peg.",
+          "text_ru": "ползущая привязка."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "an independent float.",
+          "text_ru": "независимое плавание."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Dollarization refers to the practice of a country adopting the currency of another country for use as its own. This can occur in full, where a foreign currency is used exclusively, or in a limited form, where the foreign currency is used alongside the domestic currency. The primary reason for dollarization is to achieve greater economic stability, particularly in countries that have experienced high inflation rates with their own currency. By adopting a more stable, widely accepted currency such as the U.S. dollar, these countries aim to benefit from the economic stability and credibility of the currency's country of origin. Countries like Ecuador and Panama have adopted the U.S. dollar as their official currency, making transactions within these countries directly in dollars without the need for currency conversion.",
+      "explanation_ru": "Долларизация относится к практике, когда страна принимает валюту другой страны для использования в качестве своей собственной. Это может происходить полностью, когда иностранная валюта используется исключительно, или в ограниченной форме, когда иностранная валюта используется наряду с национальной валютой. Основная причина долларизации — достижение большей экономической стабильности, особенно в странах, которые испытывали высокие темпы инфляции со своей собственной валютой. Принимая более стабильную, широко признанную валюту, такую как доллар США, эти страны стремятся извлечь выгоду из экономической стабильности и авторитета страны происхождения валюты. Такие страны, как Эквадор и Панама, приняли доллар США в качестве своей официальной валюты, что позволяет проводить транзакции в этих странах напрямую в долларах без необходимости конвертации валюты.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "A crawling peg is an exchange rate regime where a country fixes its currency's value to another currency or a basket of currencies but allows this fixed rate to adjust periodically. This system is fundamentally different from dollarization, where a country adopts another currency entirely, foregoing its own.",
+          "text_ru": "Ползущая привязка — это режим обменного курса, при котором страна фиксирует стоимость своей валюты к другой валюте или корзине валют, но позволяет этому фиксированному курсу периодически корректироваться. Эта система принципиально отличается от долларизации, когда страна полностью принимает другую валюту, отказываясь от своей собственной."
+        },
+        "opt_c": {
+          "text_en": "An independent float, also known as a free-floating exchange rate system, is where a country's currency value is determined by the foreign exchange market through supply and demand relative to other currencies. Countries with independent floating currencies retain control over their monetary policies. This contrasts with dollarization, where countries use a foreign currency and thus depend on the monetary policy of the currency's country of origin.",
+          "text_ru": "Независимое плавание, также известное как система свободно плавающего обменного курса, — это когда стоимость валюты страны определяется валютным рынком через спрос и предложение относительно других валют. Страны с независимо плавающими валютами сохраняют контроль над своей денежно-кредитной политикой. Это контрастирует с долларизацией, когда страны используют иностранную валюту и, следовательно, зависят от денежно-кредитной политики страны происхождения валюты."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["dollarization", "exchange_rate_regimes", "monetary_policy"]
+    },
+    {
+      "question_id": "ECON-7-Q012",
+      "original_question_number": 3260,
+      "los_id": "LOS_7a",
+      "question_text_en": "Categories of participants on the buy side of foreign exchange markets would least likely include:",
+      "question_text_ru": "Категории участников на стороне покупателей валютных рынков, скорее всего, не включают:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Leveraged accounts and retail accounts.",
+          "text_ru": "Счета с кредитным плечом и розничные счета."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Corporate accounts and real money accounts.",
+          "text_ru": "Корпоративные счета и счета реальных денег."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Large banks such as Citigroup and Deutsche Bank.",
+          "text_ru": "Крупные банки, такие как Citigroup и Deutsche Bank."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "The foreign exchange market is typically divided into two main groups: the buy side and the sell side. The buy side includes entities that are seeking to purchase foreign currencies, which can encompass a wide range of participants such as institutional investors, hedge funds, governments, and multinational corporations. On the other hand, the sell side consists of the large banks and financial institutions that provide foreign exchange services, including market making, trading, and brokerage services. Large banks like Citigroup and Deutsche Bank fall into this category as they are the ones who facilitate the currency transactions for the buy-side participants, rather than being the end consumers of these transactions themselves.",
+      "explanation_ru": "Валютный рынок обычно делится на две основные группы: сторону покупателей и сторону продавцов. Сторона покупателей включает субъектов, которые стремятся приобрести иностранные валюты, что может охватывать широкий спектр участников, таких как институциональные инвесторы, хедж-фонды, правительства и многонациональные корпорации. С другой стороны, сторона продавцов состоит из крупных банков и финансовых учреждений, которые предоставляют услуги обмена иностранной валюты, включая маркет-мейкинг, торговлю и брокерские услуги. Крупные банки, такие как Citigroup и Deutsche Bank, относятся к этой категории, поскольку они являются теми, кто облегчает валютные транзакции для участников со стороны покупателей, а не являются конечными потребителями этих транзакций.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Leveraged accounts and retail accounts are part of the buy side in foreign exchange markets. Leveraged accounts refer to investors who use borrowed funds to amplify their trading positions. Retail accounts refer to individual investors who participate in the forex market. Both types of accounts are seeking to purchase foreign currencies for various purposes, making them part of the buy side.",
+          "text_ru": "Счета с кредитным плечом и розничные счета являются частью стороны покупателей на валютных рынках. Счета с кредитным плечом относятся к инвесторам, которые используют заемные средства для увеличения своих торговых позиций. Розничные счета относятся к индивидуальным инвесторам, которые участвуют на валютном рынке. Оба типа счетов стремятся приобрести иностранные валюты для различных целей, что делает их частью стороны покупателей."
+        },
+        "opt_b": {
+          "text_en": "Corporate accounts and real money accounts are also participants on the buy side of foreign exchange markets. Corporate accounts refer to businesses that need to exchange currencies for international trade or to hedge against currency risk. Real money accounts refer to institutional investors such as pension funds and insurance companies that invest in foreign currencies as part of their asset allocation strategies.",
+          "text_ru": "Корпоративные счета и счета реальных денег также являются участниками на стороне покупателей валютных рынков. Корпоративные счета относятся к предприятиям, которым необходимо обменивать валюты для международной торговли или для хеджирования валютного риска. Счета реальных денег относятся к институциональным инвесторам, таким как пенсионные фонды и страховые компании, которые инвестируют в иностранные валюты как часть своих стратегий распределения активов."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["foreign_exchange_market", "buy_side", "sell_side"]
+    },
+    {
+      "question_id": "ECON-7-Q013",
+      "original_question_number": 3265,
+      "los_id": "LOS_7a",
+      "question_text_en": "If the exchange rate quote for the Brazilian real (BRL/USD) changes from 3.1625 to 3.5000, then in approximate terms:",
+      "question_text_ru": "Если котировка обменного курса бразильского реала (BRL/USD) изменяется с 3,1625 до 3,5000, то приблизительно:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "the real depreciated by 9.6%, and the dollar appreciated by 10.7%.",
+          "text_ru": "реал обесценился на 9,6%, а доллар укрепился на 10,7%."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "the dollar depreciated by 9.6%, and the real appreciated by 10.7%.",
+          "text_ru": "доллар обесценился на 9,6%, а реал укрепился на 10,7%."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "the dollar appreciated by 9.6%, and the real depreciated by 10.7%.",
+          "text_ru": "доллар укрепился на 9,6%, а реал обесценился на 10,7%."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "To understand the impact of exchange rate changes on currency value, it's essential to calculate the percentage change in the exchange rate for both currencies involved. The percentage change in the value of the real relative to the dollar can be calculated as: (3.5000 - 3.1625) / 3.1625 × 100% = 10.7%. This increase indicates that it now takes more reals to purchase one dollar, signifying that the dollar has appreciated in value. Conversely, to find the change in the real's value, we need to invert the exchange rates to get USD/BRL and then calculate the percentage change: (1/3.5000) / (1/3.1625) - 1 = -0.0964 ≈ 9.6%. This negative percentage indicates a depreciation in the real's value, meaning the real has lost value relative to the dollar.",
+      "explanation_ru": "Чтобы понять влияние изменений обменного курса на стоимость валюты, важно рассчитать процентное изменение обменного курса для обеих задействованных валют. Процентное изменение стоимости реала относительно доллара можно рассчитать как: (3,5000 - 3,1625) / 3,1625 × 100% = 10,7%. Это увеличение указывает на то, что теперь требуется больше реалов для покупки одного доллара, что означает, что доллар укрепился в стоимости. И наоборот, чтобы найти изменение стоимости реала, нам нужно инвертировать обменные курсы, чтобы получить USD/BRL, а затем рассчитать процентное изменение: (1/3,5000) / (1/3,1625) - 1 = -0,0964 ≈ 9,6%. Этот отрицательный процент указывает на обесценение стоимости реала, что означает, что реал потерял стоимость относительно доллара.",
+      "explanation_formula": "$\\text{USD change} = \\frac{3.5000 - 3.1625}{3.1625} \\times 100\\% = 10.7\\%$ ; $\\text{BRL change} = \\frac{\\frac{1}{3.5000}}{\\frac{1}{3.1625}} - 1 = -0.0964 = -9.6\\%$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "It incorrectly states the direction of the currency value changes. It suggests that the dollar depreciated and the real appreciated, which is the opposite of what actually occurred. The increase in the BRL/USD rate indicates that more reals are needed to buy a dollar, meaning the real has depreciated, and the dollar has appreciated.",
+          "text_ru": "Это неправильно указывает направление изменений стоимости валюты. Это предполагает, что доллар обесценился, а реал укрепился, что противоположно тому, что произошло на самом деле. Увеличение курса BRL/USD указывает на то, что требуется больше реалов для покупки доллара, что означает, что реал обесценился, а доллар укрепился."
+        },
+        "opt_c": {
+          "text_en": "It reverses the actual changes in currency values.",
+          "text_ru": "Это меняет местами фактические изменения стоимости валют."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic calculation",
+        "steps_en": ["USD: (3.5000 - 3.1625) ÷ 3.1625 × 100% = 10.7%", "BRL: (1÷3.5000) ÷ (1÷3.1625) - 1 = -9.6%"],
+        "steps_ru": ["USD: (3,5000 - 3,1625) ÷ 3,1625 × 100% = 10,7%", "BRL: (1÷3,5000) ÷ (1÷3,1625) - 1 = -9,6%"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["currency_depreciation", "currency_appreciation", "percentage_change"]
+    },
+    {
+      "question_id": "ECON-7-Q014",
+      "original_question_number": 3266,
+      "los_id": "LOS_7a",
+      "question_text_en": "If the exchange rate quote for the Mexican peso (MXN/USD) changes from 11.9500 to 12.4000, then in approximate terms:",
+      "question_text_ru": "Если котировка обменного курса мексиканского песо (MXN/USD) изменяется с 11,9500 до 12,4000, то приблизительно:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "the peso depreciated by 3.63%, and the dollar appreciated by 3.77%.",
+          "text_ru": "песо обесценился на 3,63%, а доллар укрепился на 3,77%."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "the dollar depreciated by 3.63%, and the peso appreciated by 3.66%.",
+          "text_ru": "доллар обесценился на 3,63%, а песо укрепился на 3,66%."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "the dollar appreciated by 3.86%, and the peso depreciated by 3.66%.",
+          "text_ru": "доллар укрепился на 3,86%, а песо обесценился на 3,66%."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "When the exchange rate quote for the Mexican peso (MXN/USD) changes from 11.9500 to 12.4000, it indicates a shift in the value of the peso relative to the dollar. The percentage change in the exchange rate is: (12.4000 - 11.9500) / 11.9500 × 100% = 3.77%. This calculation shows that the exchange rate has increased by approximately 3.8%, meaning it now takes more pesos to buy one dollar. This increase in the exchange rate signifies that the peso has depreciated by approximately 3.8% relative to the dollar. Conversely, from the perspective of the dollar, this change represents an appreciation. The peso has depreciated by approximately 3.63% (calculated as (1/12.4 - 1/11.95) / (1/11.95) × 100%), and the dollar has appreciated by 3.77%.",
+      "explanation_ru": "Когда котировка обменного курса мексиканского песо (MXN/USD) изменяется с 11,9500 до 12,4000, это указывает на изменение стоимости песо относительно доллара. Процентное изменение обменного курса составляет: (12,4000 - 11,9500) / 11,9500 × 100% = 3,77%. Этот расчет показывает, что обменный курс увеличился примерно на 3,8%, что означает, что теперь требуется больше песо для покупки одного доллара. Это увеличение обменного курса означает, что песо обесценился примерно на 3,8% относительно доллара. И наоборот, с точки зрения доллара, это изменение представляет собой укрепление. Песо обесценился примерно на 3,63% (рассчитано как (1/12,4 - 1/11,95) / (1/11,95) × 100%), а доллар укрепился на 3,77%.",
+      "explanation_formula": "$\\text{USD change} = \\frac{12.4000 - 11.9500}{11.9500} \\times 100\\% = 3.77\\%$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "It incorrectly states the direction of the currency value changes. The given exchange rate movement indicates that the peso has depreciated, not appreciated, and the dollar has appreciated, not depreciated.",
+          "text_ru": "Это неправильно указывает направление изменений стоимости валюты. Данное движение обменного курса указывает на то, что песо обесценился, а не укрепился, а доллар укрепился, а не обесценился."
+        },
+        "opt_c": {
+          "text_en": "While it correctly identifies the direction of the peso's depreciation, it inaccurately quantifies the percentage change for both currencies.",
+          "text_ru": "Хотя он правильно определяет направление обесценения песо, он неточно количественно определяет процентное изменение для обеих валют."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic calculation",
+        "steps_en": ["USD: (12.4000 - 11.9500) ÷ 11.9500 × 100% = 3.77%", "MXN: (1÷12.4 - 1÷11.95) ÷ (1÷11.95) × 100% = -3.63%"],
+        "steps_ru": ["USD: (12,4000 - 11,9500) ÷ 11,9500 × 100% = 3,77%", "MXN: (1÷12,4 - 1÷11,95) ÷ (1÷11,95) × 100% = -3,63%"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["currency_depreciation", "currency_appreciation", "percentage_change"]
+    },
+    {
+      "question_id": "ECON-7-Q015",
+      "original_question_number": 3834,
+      "los_id": "LOS_7a",
+      "question_text_en": "The CPIs of India and Pakistan are 132 and 121, respectively. If the nominal exchange rate is 1.32 PKR/INR, then the real exchange rate for India is closest to:",
+      "question_text_ru": "ИПЦ Индии и Пакистана составляют 132 и 121 соответственно. Если номинальный обменный курс составляет 1,32 PKR/INR, то реальный обменный курс для Индии ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "1.78",
+          "text_ru": "1,78"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "1.44",
+          "text_ru": "1,44"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "1.12",
+          "text_ru": "1,12"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The real exchange rate between two countries is a measure that adjusts the nominal exchange rate between their currencies by the relative prices of a basket of goods in those countries, typically represented by their Consumer Price Index (CPI). The formula to calculate the real exchange rate is: Real exchange rate = Nominal exchange rate × (Domestic inflation / Foreign inflation) = 1.32 × (132/121) = 1.44.",
+      "explanation_ru": "Реальный обменный курс между двумя странами — это мера, которая корректирует номинальный обменный курс между их валютами с учетом относительных цен корзины товаров в этих странах, обычно представленных их индексом потребительских цен (ИПЦ). Формула для расчета реального обменного курса: Реальный обменный курс = Номинальный обменный курс × (Внутренняя инфляция / Иностранная инфляция) = 1,32 × (132/121) = 1,44.",
+      "explanation_formula": "$\\text{Real exchange rate} = \\text{Nominal exchange rate} \\times \\frac{\\text{Domestic inflation}}{\\text{Foreign inflation}} = 1.32 \\times \\frac{132}{121} = 1.44$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "It suggests a real exchange rate of 1.78, which does not align with the calculation based on the given CPIs and nominal exchange rate.",
+          "text_ru": "Это предполагает реальный обменный курс 1,78, что не соответствует расчету на основе данных ИПЦ и номинального обменного курса."
+        },
+        "opt_c": {
+          "text_en": "It indicates a real exchange rate of 1.12, which is lower than the calculated value. A real exchange rate of 1.12 would imply a different set of economic conditions or CPI values than those provided.",
+          "text_ru": "Это указывает на реальный обменный курс 1,12, который ниже рассчитанного значения. Реальный обменный курс 1,12 подразумевал бы другой набор экономических условий или значений ИПЦ, чем те, которые предоставлены."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic calculation",
+        "steps_en": ["1.32 × (132 ÷ 121)", "= 1.32 × 1.0909", "= 1.44"],
+        "steps_ru": ["1,32 × (132 ÷ 121)", "= 1,32 × 1,0909", "= 1,44"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["real_exchange_rate", "nominal_exchange_rate", "purchasing_power_parity"]
+    }
+  ]
+}
