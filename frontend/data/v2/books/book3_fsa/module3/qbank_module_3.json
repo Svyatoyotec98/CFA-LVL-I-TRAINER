@@ -7,7 +7,7 @@
     "module_id": 3,
     "module_name": "Analyzing Balance Sheets",
     "module_name_ru": "Анализ балансовых отчетов",
-    "total_questions": 20,
+    "total_questions": 26,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -1126,6 +1126,288 @@
       "calculator_keystrokes": null,
       "difficulty": "medium",
       "topic_tags": ["goodwill", "financial_statement_analysis", "adjustments"]
+    },
+    {
+      "question_id": "FSA-3-Q021",
+      "original_question_number": 4662,
+      "los_id": "LOS_3c",
+      "question_text_en": "In the context of IFRS, which of the following best describes the measurement basis for a derivative instrument?",
+      "question_text_ru": "В контексте МСФО, что из следующего лучше всего описывает базу оценки производного инструмента?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Fair value, with changes recognized in profit or loss.",
+          "text_ru": "Справедливая стоимость с признанием изменений в составе прибыли или убытка."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Amortized cost, adjusted for changes in the entity's credit risk.",
+          "text_ru": "Амортизированная стоимость с корректировкой на изменения кредитного риска организации."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Fair value, with changes recognized in other comprehensive income.",
+          "text_ru": "Справедливая стоимость с признанием изменений в составе прочего совокупного дохода."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Derivative financial instruments are typically measured at fair value, with changes in fair value recognized in the income statement. This treatment reflects the volatile nature of derivatives and their potential impact on the entity's financial position and performance.",
+      "explanation_ru": "Производные финансовые инструменты обычно оцениваются по справедливой стоимости с признанием изменений справедливой стоимости в отчете о прибылях и убытках. Такой подход отражает волатильную природу производных инструментов и их потенциальное влияние на финансовое положение и результативность организации.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Amortized cost is not a suitable measurement basis for derivatives, as it does not capture changes in their fair value. Additionally, adjustments for changes in the entity's credit risk are more relevant to the fair value measurement of non-derivative financial liabilities.",
+          "text_ru": "Амортизированная стоимость не является подходящей базой оценки для производных инструментов, поскольку она не отражает изменения их справедливой стоимости. Кроме того, корректировки на изменения кредитного риска организации более релевантны для оценки непроизводных финансовых обязательств по справедливой стоимости."
+        },
+        "opt_c": {
+          "text_en": "While some financial instruments can be measured at fair value through other comprehensive income, derivative financial instruments are generally not eligible for this treatment under IFRS due to their speculative nature and the need for timely recognition of fair value changes.",
+          "text_ru": "Хотя некоторые финансовые инструменты могут оцениваться по справедливой стоимости через прочий совокупный доход, производные финансовые инструменты, как правило, не подходят для такой обработки согласно МСФО из-за их спекулятивного характера и необходимости своевременного признания изменений справедливой стоимости."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["derivatives", "fair_value", "IFRS", "financial_instruments"]
+    },
+    {
+      "question_id": "FSA-3-Q022",
+      "original_question_number": 4663,
+      "los_id": "LOS_3c",
+      "question_text_en": "Which of the following scenarios would most likely result in a financial asset being reclassified from measured at fair value through profit or loss to measured at amortized cost under IFRS?",
+      "question_text_ru": "Какой из следующих сценариев, скорее всего, приведет к переклассификации финансового актива из оцениваемого по справедливой стоимости через прибыль или убыток в оцениваемый по амортизированной стоимости согласно МСФО?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The financial asset is a derivative instrument used for hedging purposes.",
+          "text_ru": "Финансовый актив является производным инструментом, используемым для целей хеджирования."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The financial asset is an equity instrument, and the entity decides to hold it for long-term strategic purposes.",
+          "text_ru": "Финансовый актив является долевым инструментом, и организация решает удерживать его для долгосрочных стратегических целей."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The financial asset is a debt instrument, and the business model changes to holding the asset to collect contractual cash flows until maturity.",
+          "text_ru": "Финансовый актив является долговым инструментом, и бизнес-модель меняется на удержание актива для получения договорных денежных потоков до погашения."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Under IFRS, a debt instrument can be reclassified from fair value through profit or loss to amortized cost if there is a change in the business model for managing the financial asset. This reclassification reflects the entity's revised intention and strategy for the asset.",
+      "explanation_ru": "Согласно МСФО, долговой инструмент может быть переклассифицирован из оцениваемого по справедливой стоимости через прибыль или убыток в оцениваемый по амортизированной стоимости, если произошло изменение бизнес-модели управления финансовым активом. Такая переклассификация отражает пересмотренное намерение и стратегию организации в отношении актива.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Derivative instruments used for hedging purposes are subject to specific hedge accounting rules under IFRS, which differ from the measurement categories of fair value through profit or loss and amortized cost.",
+          "text_ru": "Производные инструменты, используемые для целей хеджирования, подчиняются специфическим правилам учета хеджирования согласно МСФО, которые отличаются от категорий оценки по справедливой стоимости через прибыль или убыток и по амортизированной стоимости."
+        },
+        "opt_b": {
+          "text_en": "Equity instruments are generally not reclassified from fair value through profit or loss to amortized cost under IFRS, as the fair value measurement provides more relevant information for equity investments that are subject to market price fluctuations.",
+          "text_ru": "Долевые инструменты обычно не переклассифицируются из оцениваемых по справедливой стоимости через прибыль или убыток в оцениваемые по амортизированной стоимости согласно МСФО, поскольку оценка по справедливой стоимости обеспечивает более релевантную информацию для долевых инвестиций, подверженных колебаниям рыночных цен."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": ["reclassification", "business_model", "IFRS", "financial_instruments"]
+    },
+    {
+      "question_id": "FSA-3-Q023",
+      "original_question_number": 4665,
+      "los_id": "LOS_3c",
+      "question_text_en": "Under US GAAP, which of the following statements about the classification of financial assets is most accurate?",
+      "question_text_ru": "Согласно US GAAP, какое из следующих утверждений о классификации финансовых активов наиболее точно?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Debt securities intended to be held to maturity are classified as trading securities.",
+          "text_ru": "Долговые ценные бумаги, предназначенные для удержания до погашения, классифицируются как торговые ценные бумаги."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Equity investments that provide significant influence are measured at fair value through profit or loss.",
+          "text_ru": "Долевые инвестиции, обеспечивающие значительное влияние, оцениваются по справедливой стоимости через прибыль или убыток."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Trading securities are acquired with the intention of selling them in the near term and are measured at fair value through profit or loss.",
+          "text_ru": "Торговые ценные бумаги приобретаются с намерением продать их в ближайшее время и оцениваются по справедливой стоимости через прибыль или убыток."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Trading securities are acquired with the intention of selling them in the near term and are measured at fair value through profit or loss. This classification is for both debt and equity securities that are bought and held primarily for sale in the short term. Unrealized gains or losses on trading securities are recognized in the income statement.",
+      "explanation_ru": "Торговые ценные бумаги приобретаются с намерением продать их в ближайшее время и оцениваются по справедливой стоимости через прибыль или убыток. Эта классификация применяется как к долговым, так и к долевым ценным бумагам, которые приобретаются и удерживаются в основном для продажи в краткосрочной перспективе. Нереализованные прибыли или убытки по торговым ценным бумагам признаются в отчете о прибылях и убытках.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Debt securities intended to be held to maturity are classified as 'held-to-maturity' securities under US GAAP, not as trading securities. They are measured at amortized cost.",
+          "text_ru": "Долговые ценные бумаги, предназначенные для удержания до погашения, классифицируются как ценные бумаги, удерживаемые до погашения, согласно US GAAP, а не как торговые ценные бумаги. Они оцениваются по амортизированной стоимости."
+        },
+        "opt_b": {
+          "text_en": "Equity investments that provide significant influence over the investee are generally not measured at fair value through profit or loss.",
+          "text_ru": "Долевые инвестиции, обеспечивающие значительное влияние на объект инвестиций, обычно не оцениваются по справедливой стоимости через прибыль или убыток."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["trading_securities", "US_GAAP", "financial_assets"]
+    },
+    {
+      "question_id": "FSA-3-Q024",
+      "original_question_number": 4666,
+      "los_id": "LOS_3d",
+      "question_text_en": "How does the issuance of a bond at par value affect the company's financial statements over the life of the bond?",
+      "question_text_ru": "Как выпуск облигации по номинальной стоимости влияет на финансовую отчетность компании в течение срока действия облигации?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The carrying amount of the bond liability remains constant throughout its life.",
+          "text_ru": "Балансовая стоимость обязательства по облигации остается постоянной в течение всего срока действия."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The interest expense decreases over time due to the amortization of the discount.",
+          "text_ru": "Процентные расходы уменьшаются со временем из-за амортизации дисконта."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The carrying amount of the bond liability fluctuates based on changes in market interest rates.",
+          "text_ru": "Балансовая стоимость обязательства по облигации колеблется в зависимости от изменений рыночных процентных ставок."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The carrying amount of the bond liability remains constant throughout its life. When a bond is issued at par value, there is no discount or premium to amortize, so the carrying amount (amortized cost) of the bond remains equal to its face value from issuance to maturity.",
+      "explanation_ru": "Балансовая стоимость обязательства по облигации остается постоянной в течение всего срока действия. Когда облигация выпускается по номинальной стоимости, нет дисконта или премии для амортизации, поэтому балансовая стоимость (амортизированная стоимость) облигации остается равной ее номинальной стоимости с момента выпуска до погашения.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Since the bond is issued at par value, there is no discount to amortize, and the interest expense remains constant over the life of the bond, based on the stated interest rate and the face value.",
+          "text_ru": "Поскольку облигация выпущена по номинальной стоимости, нет дисконта для амортизации, и процентные расходы остаются постоянными в течение срока действия облигации на основе установленной процентной ставки и номинальной стоимости."
+        },
+        "opt_c": {
+          "text_en": "For bonds reported at amortized cost, the carrying amount does not fluctuate based on changes in market interest rates. This characteristic is more applicable to bonds reported at fair value.",
+          "text_ru": "Для облигаций, учитываемых по амортизированной стоимости, балансовая стоимость не колеблется в зависимости от изменений рыночных процентных ставок. Эта характеристика более применима к облигациям, учитываемым по справедливой стоимости."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["bonds", "par_value", "non_current_liabilities"]
+    },
+    {
+      "question_id": "FSA-3-Q025",
+      "original_question_number": 4667,
+      "los_id": "LOS_3d",
+      "question_text_en": "In the context of deferred tax liabilities, which of the following situations is most likely to result in a larger deferred tax liability over time?",
+      "question_text_ru": "В контексте отложенных налоговых обязательств, какая из следующих ситуаций, скорее всего, приведет к увеличению отложенного налогового обязательства со временем?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "A company consistently reports higher taxable income than accounting income.",
+          "text_ru": "Компания постоянно отчитывается о более высоком налогооблагаемом доходе, чем бухгалтерском доходе."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "A company recognizes revenue in the same period for both tax and financial reporting purposes.",
+          "text_ru": "Компания признает выручку в одном и том же периоде для целей налогообложения и финансовой отчетности."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "A company applies straight-line depreciation for tax purposes and accelerated depreciation for financial reporting purposes.",
+          "text_ru": "Компания применяет прямолинейную амортизацию для налоговых целей и ускоренную амортизацию для целей финансовой отчетности."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "A company applies straight-line depreciation for tax purposes and accelerated depreciation for financial reporting purposes. This situation leads to lower taxable income compared to accounting income in the early years, resulting in deferred tax liabilities that grow over time until the depreciation methods converge.",
+      "explanation_ru": "Компания применяет прямолинейную амортизацию для налоговых целей и ускоренную амортизацию для целей финансовой отчетности. Эта ситуация приводит к более низкому налогооблагаемому доходу по сравнению с бухгалтерским доходом в ранние годы, что приводит к росту отложенных налоговых обязательств со временем до тех пор, пока методы амортизации не сойдутся.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Consistently reporting higher taxable income than accounting income would generally lead to deferred tax assets, not liabilities.",
+          "text_ru": "Постоянное представление более высокого налогооблагаемого дохода, чем бухгалтерского дохода, обычно приводит к отложенным налоговым активам, а не обязательствам."
+        },
+        "opt_b": {
+          "text_en": "Recognizing revenue in the same period for both tax and financial reporting purposes would not create significant temporary differences and, thus, would not likely result in a large, deferred tax liability.",
+          "text_ru": "Признание выручки в одном и том же периоде для целей налогообложения и финансовой отчетности не создаст значительных временных разниц и, следовательно, вряд ли приведет к большому отложенному налоговому обязательству."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["deferred_tax_liabilities", "depreciation", "temporary_differences"]
+    },
+    {
+      "question_id": "FSA-3-Q026",
+      "original_question_number": 4668,
+      "los_id": "LOS_3d",
+      "question_text_en": "Which of the following scenarios would least likely result in the creation of a deferred tax liability?",
+      "question_text_ru": "Какой из следующих сценариев наименее вероятно приведет к созданию отложенного налогового обязательства?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "A company uses different methods for inventory valuation for tax and financial reporting purposes.",
+          "text_ru": "Компания использует разные методы оценки запасов для налоговых целей и целей финансовой отчетности."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "A company recognizes dividends from a subsidiary in its financial statements only when they are received.",
+          "text_ru": "Компания признает дивиденды от дочерней компании в своей финансовой отчетности только при их получении."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "A company incurs expenses that are deductible for tax purposes in a different period than they are recognized for financial reporting purposes.",
+          "text_ru": "Компания несет расходы, которые вычитаются для налоговых целей в другом периоде, чем они признаются для целей финансовой отчетности."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "When a company recognizes dividends from a subsidiary in its financial statements only when they are received, it may result in a deferred tax asset if the dividends are taxable before they are recognized in the financial statements.",
+      "explanation_ru": "Когда компания признает дивиденды от дочерней компании в своей финансовой отчетности только при их получении, это может привести к отложенному налоговому активу, если дивиденды облагаются налогом до их признания в финансовой отчетности.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Using different methods for inventory valuation for tax and financial reporting purposes can create temporary differences that lead to deferred tax liabilities.",
+          "text_ru": "Использование разных методов оценки запасов для налоговых целей и целей финансовой отчетности может создать временные разницы, которые приводят к отложенным налоговым обязательствам."
+        },
+        "opt_c": {
+          "text_en": "Incurring expenses that are deductible for tax purposes in a different period than they are recognized for financial reporting purposes can also create temporary differences that result in deferred tax liabilities.",
+          "text_ru": "Несение расходов, которые вычитаются для налоговых целей в другом периоде, чем они признаются для целей финансовой отчетности, также может создать временные разницы, которые приводят к отложенным налоговым обязательствам."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": ["deferred_tax_liability", "temporary_differences", "dividends"]
     }
   ]
 }
