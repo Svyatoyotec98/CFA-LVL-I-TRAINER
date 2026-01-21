@@ -7,7 +7,7 @@
     "module_id": 7,
     "module_name": "Currency Exchange Rates",
     "module_name_ru": "Валютные курсы",
-    "total_questions": 10,
+    "total_questions": 15,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -557,6 +557,253 @@
         "currency_appreciation",
         "percentage_change"
       ]
+    },
+    {
+      "question_id": "ECON-7-Q011",
+      "original_question_number": 3259,
+      "los_id": "LOS_7b",
+      "question_text_en": "Some countries such as Ecuador and Panama have adopted the currency of another country. Such a regime would be best described as:",
+      "question_text_ru": "Некоторые страны, такие как Эквадор и Панама, приняли валюту другой страны. Такой режим лучше всего можно описать как:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "dollarized.",
+          "text_ru": "долларизованный."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "a crawling peg.",
+          "text_ru": "ползущая привязка."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "an independent float.",
+          "text_ru": "независимое плавание."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Dollarization refers to the practice of a country adopting the currency of another country for use as its own. This can occur in full, where a foreign currency is used exclusively, or in a limited form, where the foreign currency is used alongside the domestic currency. The primary reason for dollarization is to achieve greater economic stability, particularly in countries that have experienced high inflation rates with their own currency. By adopting a more stable, widely accepted currency such as the U.S. dollar, these countries aim to benefit from the economic stability and credibility of the currency's country of origin. Countries like Ecuador and Panama have adopted the U.S. dollar as their official currency, making transactions within these countries directly in dollars without the need for currency conversion.",
+      "explanation_ru": "Долларизация относится к практике, когда страна принимает валюту другой страны для использования в качестве своей собственной. Это может происходить полностью, когда иностранная валюта используется исключительно, или в ограниченной форме, когда иностранная валюта используется наряду с национальной валютой. Основная причина долларизации — достижение большей экономической стабильности, особенно в странах, которые испытывали высокие темпы инфляции со своей собственной валютой. Принимая более стабильную, широко признанную валюту, такую как доллар США, эти страны стремятся извлечь выгоду из экономической стабильности и авторитета страны происхождения валюты. Такие страны, как Эквадор и Панама, приняли доллар США в качестве своей официальной валюты, что позволяет проводить транзакции в этих странах напрямую в долларах без необходимости конвертации валюты.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "A crawling peg is an exchange rate regime where a country fixes its currency's value to another currency or a basket of currencies but allows this fixed rate to adjust periodically. This system is fundamentally different from dollarization, where a country adopts another currency entirely, foregoing its own.",
+          "text_ru": "Ползущая привязка — это режим обменного курса, при котором страна фиксирует стоимость своей валюты к другой валюте или корзине валют, но позволяет этому фиксированному курсу периодически корректироваться. Эта система принципиально отличается от долларизации, когда страна полностью принимает другую валюту, отказываясь от своей собственной."
+        },
+        "opt_c": {
+          "text_en": "An independent float, also known as a free-floating exchange rate system, is where a country's currency value is determined by the foreign exchange market through supply and demand relative to other currencies. Countries with independent floating currencies retain control over their monetary policies. This contrasts with dollarization, where countries use a foreign currency and thus depend on the monetary policy of the currency's country of origin.",
+          "text_ru": "Независимое плавание, также известное как система свободно плавающего обменного курса, — это когда стоимость валюты страны определяется валютным рынком через спрос и предложение относительно других валют. Страны с независимо плавающими валютами сохраняют контроль над своей денежно-кредитной политикой. Это контрастирует с долларизацией, когда страны используют иностранную валюту и, следовательно, зависят от денежно-кредитной политики страны происхождения валюты."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["dollarization", "exchange_rate_regimes", "monetary_policy"]
+    },
+    {
+      "question_id": "ECON-7-Q012",
+      "original_question_number": 3260,
+      "los_id": "LOS_7a",
+      "question_text_en": "Categories of participants on the buy side of foreign exchange markets would least likely include:",
+      "question_text_ru": "Категории участников на стороне покупателей валютных рынков, скорее всего, не включают:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Leveraged accounts and retail accounts.",
+          "text_ru": "Счета с кредитным плечом и розничные счета."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Corporate accounts and real money accounts.",
+          "text_ru": "Корпоративные счета и счета реальных денег."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Large banks such as Citigroup and Deutsche Bank.",
+          "text_ru": "Крупные банки, такие как Citigroup и Deutsche Bank."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "The foreign exchange market is typically divided into two main groups: the buy side and the sell side. The buy side includes entities that are seeking to purchase foreign currencies, which can encompass a wide range of participants such as institutional investors, hedge funds, governments, and multinational corporations. On the other hand, the sell side consists of the large banks and financial institutions that provide foreign exchange services, including market making, trading, and brokerage services. Large banks like Citigroup and Deutsche Bank fall into this category as they are the ones who facilitate the currency transactions for the buy-side participants, rather than being the end consumers of these transactions themselves.",
+      "explanation_ru": "Валютный рынок обычно делится на две основные группы: сторону покупателей и сторону продавцов. Сторона покупателей включает субъектов, которые стремятся приобрести иностранные валюты, что может охватывать широкий спектр участников, таких как институциональные инвесторы, хедж-фонды, правительства и многонациональные корпорации. С другой стороны, сторона продавцов состоит из крупных банков и финансовых учреждений, которые предоставляют услуги обмена иностранной валюты, включая маркет-мейкинг, торговлю и брокерские услуги. Крупные банки, такие как Citigroup и Deutsche Bank, относятся к этой категории, поскольку они являются теми, кто облегчает валютные транзакции для участников со стороны покупателей, а не являются конечными потребителями этих транзакций.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Leveraged accounts and retail accounts are part of the buy side in foreign exchange markets. Leveraged accounts refer to investors who use borrowed funds to amplify their trading positions. Retail accounts refer to individual investors who participate in the forex market. Both types of accounts are seeking to purchase foreign currencies for various purposes, making them part of the buy side.",
+          "text_ru": "Счета с кредитным плечом и розничные счета являются частью стороны покупателей на валютных рынках. Счета с кредитным плечом относятся к инвесторам, которые используют заемные средства для увеличения своих торговых позиций. Розничные счета относятся к индивидуальным инвесторам, которые участвуют на валютном рынке. Оба типа счетов стремятся приобрести иностранные валюты для различных целей, что делает их частью стороны покупателей."
+        },
+        "opt_b": {
+          "text_en": "Corporate accounts and real money accounts are also participants on the buy side of foreign exchange markets. Corporate accounts refer to businesses that need to exchange currencies for international trade or to hedge against currency risk. Real money accounts refer to institutional investors such as pension funds and insurance companies that invest in foreign currencies as part of their asset allocation strategies.",
+          "text_ru": "Корпоративные счета и счета реальных денег также являются участниками на стороне покупателей валютных рынков. Корпоративные счета относятся к предприятиям, которым необходимо обменивать валюты для международной торговли или для хеджирования валютного риска. Счета реальных денег относятся к институциональным инвесторам, таким как пенсионные фонды и страховые компании, которые инвестируют в иностранные валюты как часть своих стратегий распределения активов."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["foreign_exchange_market", "buy_side", "sell_side"]
+    },
+    {
+      "question_id": "ECON-7-Q013",
+      "original_question_number": 3265,
+      "los_id": "LOS_7a",
+      "question_text_en": "If the exchange rate quote for the Brazilian real (BRL/USD) changes from 3.1625 to 3.5000, then in approximate terms:",
+      "question_text_ru": "Если котировка обменного курса бразильского реала (BRL/USD) изменяется с 3,1625 до 3,5000, то приблизительно:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "the real depreciated by 9.6%, and the dollar appreciated by 10.7%.",
+          "text_ru": "реал обесценился на 9,6%, а доллар укрепился на 10,7%."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "the dollar depreciated by 9.6%, and the real appreciated by 10.7%.",
+          "text_ru": "доллар обесценился на 9,6%, а реал укрепился на 10,7%."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "the dollar appreciated by 9.6%, and the real depreciated by 10.7%.",
+          "text_ru": "доллар укрепился на 9,6%, а реал обесценился на 10,7%."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "To understand the impact of exchange rate changes on currency value, it's essential to calculate the percentage change in the exchange rate for both currencies involved. The percentage change in the value of the real relative to the dollar can be calculated as: (3.5000 - 3.1625) / 3.1625 × 100% = 10.7%. This increase indicates that it now takes more reals to purchase one dollar, signifying that the dollar has appreciated in value. Conversely, to find the change in the real's value, we need to invert the exchange rates to get USD/BRL and then calculate the percentage change: (1/3.5000) / (1/3.1625) - 1 = -0.0964 ≈ 9.6%. This negative percentage indicates a depreciation in the real's value, meaning the real has lost value relative to the dollar.",
+      "explanation_ru": "Чтобы понять влияние изменений обменного курса на стоимость валюты, важно рассчитать процентное изменение обменного курса для обеих задействованных валют. Процентное изменение стоимости реала относительно доллара можно рассчитать как: (3,5000 - 3,1625) / 3,1625 × 100% = 10,7%. Это увеличение указывает на то, что теперь требуется больше реалов для покупки одного доллара, что означает, что доллар укрепился в стоимости. И наоборот, чтобы найти изменение стоимости реала, нам нужно инвертировать обменные курсы, чтобы получить USD/BRL, а затем рассчитать процентное изменение: (1/3,5000) / (1/3,1625) - 1 = -0,0964 ≈ 9,6%. Этот отрицательный процент указывает на обесценение стоимости реала, что означает, что реал потерял стоимость относительно доллара.",
+      "explanation_formula": "$\\text{USD change} = \\frac{3.5000 - 3.1625}{3.1625} \\times 100\\% = 10.7\\%$ ; $\\text{BRL change} = \\frac{\\frac{1}{3.5000}}{\\frac{1}{3.1625}} - 1 = -0.0964 = -9.6\\%$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "It incorrectly states the direction of the currency value changes. It suggests that the dollar depreciated and the real appreciated, which is the opposite of what actually occurred. The increase in the BRL/USD rate indicates that more reals are needed to buy a dollar, meaning the real has depreciated, and the dollar has appreciated.",
+          "text_ru": "Это неправильно указывает направление изменений стоимости валюты. Это предполагает, что доллар обесценился, а реал укрепился, что противоположно тому, что произошло на самом деле. Увеличение курса BRL/USD указывает на то, что требуется больше реалов для покупки доллара, что означает, что реал обесценился, а доллар укрепился."
+        },
+        "opt_c": {
+          "text_en": "It reverses the actual changes in currency values.",
+          "text_ru": "Это меняет местами фактические изменения стоимости валют."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic calculation",
+        "steps_en": ["USD: (3.5000 - 3.1625) ÷ 3.1625 × 100% = 10.7%", "BRL: (1÷3.5000) ÷ (1÷3.1625) - 1 = -9.6%"],
+        "steps_ru": ["USD: (3,5000 - 3,1625) ÷ 3,1625 × 100% = 10,7%", "BRL: (1÷3,5000) ÷ (1÷3,1625) - 1 = -9,6%"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["currency_depreciation", "currency_appreciation", "percentage_change"]
+    },
+    {
+      "question_id": "ECON-7-Q014",
+      "original_question_number": 3266,
+      "los_id": "LOS_7a",
+      "question_text_en": "If the exchange rate quote for the Mexican peso (MXN/USD) changes from 11.9500 to 12.4000, then in approximate terms:",
+      "question_text_ru": "Если котировка обменного курса мексиканского песо (MXN/USD) изменяется с 11,9500 до 12,4000, то приблизительно:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "the peso depreciated by 3.63%, and the dollar appreciated by 3.77%.",
+          "text_ru": "песо обесценился на 3,63%, а доллар укрепился на 3,77%."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "the dollar depreciated by 3.63%, and the peso appreciated by 3.66%.",
+          "text_ru": "доллар обесценился на 3,63%, а песо укрепился на 3,66%."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "the dollar appreciated by 3.86%, and the peso depreciated by 3.66%.",
+          "text_ru": "доллар укрепился на 3,86%, а песо обесценился на 3,66%."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "When the exchange rate quote for the Mexican peso (MXN/USD) changes from 11.9500 to 12.4000, it indicates a shift in the value of the peso relative to the dollar. The percentage change in the exchange rate is: (12.4000 - 11.9500) / 11.9500 × 100% = 3.77%. This calculation shows that the exchange rate has increased by approximately 3.8%, meaning it now takes more pesos to buy one dollar. This increase in the exchange rate signifies that the peso has depreciated by approximately 3.8% relative to the dollar. Conversely, from the perspective of the dollar, this change represents an appreciation. The peso has depreciated by approximately 3.63% (calculated as (1/12.4 - 1/11.95) / (1/11.95) × 100%), and the dollar has appreciated by 3.77%.",
+      "explanation_ru": "Когда котировка обменного курса мексиканского песо (MXN/USD) изменяется с 11,9500 до 12,4000, это указывает на изменение стоимости песо относительно доллара. Процентное изменение обменного курса составляет: (12,4000 - 11,9500) / 11,9500 × 100% = 3,77%. Этот расчет показывает, что обменный курс увеличился примерно на 3,8%, что означает, что теперь требуется больше песо для покупки одного доллара. Это увеличение обменного курса означает, что песо обесценился примерно на 3,8% относительно доллара. И наоборот, с точки зрения доллара, это изменение представляет собой укрепление. Песо обесценился примерно на 3,63% (рассчитано как (1/12,4 - 1/11,95) / (1/11,95) × 100%), а доллар укрепился на 3,77%.",
+      "explanation_formula": "$\\text{USD change} = \\frac{12.4000 - 11.9500}{11.9500} \\times 100\\% = 3.77\\%$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "It incorrectly states the direction of the currency value changes. The given exchange rate movement indicates that the peso has depreciated, not appreciated, and the dollar has appreciated, not depreciated.",
+          "text_ru": "Это неправильно указывает направление изменений стоимости валюты. Данное движение обменного курса указывает на то, что песо обесценился, а не укрепился, а доллар укрепился, а не обесценился."
+        },
+        "opt_c": {
+          "text_en": "While it correctly identifies the direction of the peso's depreciation, it inaccurately quantifies the percentage change for both currencies.",
+          "text_ru": "Хотя он правильно определяет направление обесценения песо, он неточно количественно определяет процентное изменение для обеих валют."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic calculation",
+        "steps_en": ["USD: (12.4000 - 11.9500) ÷ 11.9500 × 100% = 3.77%", "MXN: (1÷12.4 - 1÷11.95) ÷ (1÷11.95) × 100% = -3.63%"],
+        "steps_ru": ["USD: (12,4000 - 11,9500) ÷ 11,9500 × 100% = 3,77%", "MXN: (1÷12,4 - 1÷11,95) ÷ (1÷11,95) × 100% = -3,63%"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["currency_depreciation", "currency_appreciation", "percentage_change"]
+    },
+    {
+      "question_id": "ECON-7-Q015",
+      "original_question_number": 3834,
+      "los_id": "LOS_7a",
+      "question_text_en": "The CPIs of India and Pakistan are 132 and 121, respectively. If the nominal exchange rate is 1.32 PKR/INR, then the real exchange rate for India is closest to:",
+      "question_text_ru": "ИПЦ Индии и Пакистана составляют 132 и 121 соответственно. Если номинальный обменный курс составляет 1,32 PKR/INR, то реальный обменный курс для Индии ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "1.78",
+          "text_ru": "1,78"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "1.44",
+          "text_ru": "1,44"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "1.12",
+          "text_ru": "1,12"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The real exchange rate between two countries is a measure that adjusts the nominal exchange rate between their currencies by the relative prices of a basket of goods in those countries, typically represented by their Consumer Price Index (CPI). The formula to calculate the real exchange rate is: Real exchange rate = Nominal exchange rate × (Domestic inflation / Foreign inflation) = 1.32 × (132/121) = 1.44.",
+      "explanation_ru": "Реальный обменный курс между двумя странами — это мера, которая корректирует номинальный обменный курс между их валютами с учетом относительных цен корзины товаров в этих странах, обычно представленных их индексом потребительских цен (ИПЦ). Формула для расчета реального обменного курса: Реальный обменный курс = Номинальный обменный курс × (Внутренняя инфляция / Иностранная инфляция) = 1,32 × (132/121) = 1,44.",
+      "explanation_formula": "$\\text{Real exchange rate} = \\text{Nominal exchange rate} \\times \\frac{\\text{Domestic inflation}}{\\text{Foreign inflation}} = 1.32 \\times \\frac{132}{121} = 1.44$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "It suggests a real exchange rate of 1.78, which does not align with the calculation based on the given CPIs and nominal exchange rate.",
+          "text_ru": "Это предполагает реальный обменный курс 1,78, что не соответствует расчету на основе данных ИПЦ и номинального обменного курса."
+        },
+        "opt_c": {
+          "text_en": "It indicates a real exchange rate of 1.12, which is lower than the calculated value. A real exchange rate of 1.12 would imply a different set of economic conditions or CPI values than those provided.",
+          "text_ru": "Это указывает на реальный обменный курс 1,12, который ниже рассчитанного значения. Реальный обменный курс 1,12 подразумевал бы другой набор экономических условий или значений ИПЦ, чем те, которые предоставлены."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic calculation",
+        "steps_en": ["1.32 × (132 ÷ 121)", "= 1.32 × 1.0909", "= 1.44"],
+        "steps_ru": ["1,32 × (132 ÷ 121)", "= 1,32 × 1,0909", "= 1,44"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["real_exchange_rate", "nominal_exchange_rate", "purchasing_power_parity"]
     }
   ]
 }
