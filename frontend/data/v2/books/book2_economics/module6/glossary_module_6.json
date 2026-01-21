@@ -1,0 +1,541 @@
+{
+  "metadata": {
+    "book_id": 2,
+    "book_code": "ECON",
+    "book_name": "Economics",
+    "book_name_ru": "Экономика",
+    "module_id": 6,
+    "module_name": "International Trade and Capital Flows",
+    "module_name_ru": "Международная торговля и движение капитала",
+    "page_range": "140-154",
+    "total_terms": 38,
+    "total_exercises": 3,
+    "version": "2.0",
+    "last_updated": "2026-01-21"
+  },
+  "los": [
+    {
+      "los_id": "LOS_6a",
+      "los_code": "6a",
+      "los_description_en": "Describe the benefits and costs of international trade",
+      "los_description_ru": "Описать выгоды и затраты международной торговли",
+      "terms": [
+        {
+          "term_id": "ECON-6-001",
+          "term_en": "International Trade",
+          "term_ru": "Международная торговля",
+          "definition_en": "The exchange of goods and services between countries, enabling nations to receive higher prices for exports and pay lower prices for imports, leading to more efficient resource allocation.",
+          "definition_ru": "Обмен товарами и услугами между странами, позволяющий странам получать более высокие цены за экспорт и платить более низкие цены за импорт, что приводит к более эффективному распределению ресурсов.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-6-002",
+          "term_en": "Trade Liberalization",
+          "term_ru": "Либерализация торговли",
+          "definition_en": "The removal or reduction of restrictions or barriers on the free exchange of goods between nations. It increases real GDP through efficient resource allocation, learning by doing, higher productivity, knowledge spillovers, and trade-induced policy changes that affect incentives for innovation.",
+          "definition_ru": "Устранение или снижение ограничений или барьеров на свободный обмен товарами между странами. Она увеличивает реальный ВВП за счет эффективного распределения ресурсов, обучения на практике, повышения производительности, распространения знаний и изменений в политике, вызванных торговлей, которые влияют на стимулы к инновациям.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-6-003",
+          "term_en": "Comparative Advantage",
+          "term_ru": "Сравнительное преимущество",
+          "definition_en": "The ability of a country to produce a specific commodity at a lower opportunity cost than other countries. Countries that have a comparative advantage in the production of a specific commodity will specialize in its production, leading to greater efficiency.",
+          "definition_ru": "Способность страны производить определенный товар с меньшими альтернативными издержками, чем другие страны. Страны, имеющие сравнительное преимущество в производстве определенного товара, будут специализироваться на его производстве, что приведет к большей эффективности.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-6-004",
+          "term_en": "Economies of Scale",
+          "term_ru": "Эффект масштаба",
+          "definition_en": "The cost advantages that industries experience when production increases, leading to a decrease in average production costs per unit. As industries grow and have larger market sizes through international trade, their costs decrease.",
+          "definition_ru": "Преимущества в затратах, которые получают отрасли при увеличении производства, что приводит к снижению средних затрат на производство единицы продукции. Поскольку отрасли растут и имеют больший размер рынка благодаря международной торговле, их затраты снижаются.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-6-005",
+          "term_en": "Knowledge Spillovers",
+          "term_ru": "Распространение знаний",
+          "definition_en": "The transfer and dissemination of knowledge, ideas, and technical expertise across countries through international trade, promoting innovation and technological advancement.",
+          "definition_ru": "Передача и распространение знаний, идей и технического опыта между странами посредством международной торговли, способствующее инновациям и технологическому прогрессу.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-6-006",
+          "term_en": "Learning by Doing",
+          "term_ru": "Обучение на практике",
+          "definition_en": "The process by which countries gain experience and expertise as they engage in production and trade, resulting in improved production methods, higher efficiency, and productivity gains over time.",
+          "definition_ru": "Процесс, в ходе которого страны приобретают опыт и экспертизу, участвуя в производстве и торговле, что приводит к улучшению методов производства, повышению эффективности и росту производительности с течением времени.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-6-007",
+          "term_en": "Increased Competition",
+          "term_ru": "Усиление конкуренции",
+          "definition_en": "Foreign competition that can reduce the monopoly power of domestic firms, pushing them to become more efficient and offer better products at competitive prices.",
+          "definition_ru": "Иностранная конкуренция, которая может снизить монопольную власть отечественных фирм, заставляя их становиться более эффективными и предлагать лучшие продукты по конкурентным ценам.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-6-008",
+          "term_en": "Job Losses",
+          "term_ru": "Потеря рабочих мест",
+          "definition_en": "A cost of international trade where workers in developed countries lose employment due to competition from imports, particularly when less efficient firms exit the market as a result of resource reallocation.",
+          "definition_ru": "Издержки международной торговли, при которых работники в развитых странах теряют работу из-за конкуренции со стороны импорта, особенно когда менее эффективные фирмы покидают рынок в результате перераспределения ресурсов.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-6-009",
+          "term_en": "Income Inequality",
+          "term_ru": "Неравенство доходов",
+          "definition_en": "A cost of international trade in developed countries caused by competition from importing from other countries, where some workers benefit while others face wage reductions or unemployment.",
+          "definition_ru": "Издержки международной торговли в развитых странах, вызванные конкуренцией со стороны импорта из других стран, когда одни работники получают выгоду, а другие сталкиваются со снижением заработной платы или безработицей.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "ECON-6-EX-001",
+          "question_en": "Among the following, which one is least likely a cost of international trade?",
+          "question_ru": "Среди следующих вариантов, какой из них наименее вероятно является издержкой международной торговли?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Loss of jobs",
+              "text_ru": "Потеря рабочих мест"
+            },
+            {
+              "letter": "B",
+              "text_en": "Inequality in income",
+              "text_ru": "Неравенство доходов"
+            },
+            {
+              "letter": "C",
+              "text_en": "Availability of products",
+              "text_ru": "Доступность продуктов"
+            }
+          ],
+          "correct_answer": "C",
+          "solution_en": "Due to the removal of tariffs and restrictions, companies produce and ship various goods across the globe. The consumer can then choose among all of these products. A and B are incorrect because some costs, such as inequality in income and unemployment, can be incurred. This has been seen in the past few decades, where most manufacturers have moved from Western to Eastern countries. Westerners have been able to buy goods at cheaper prices, but many manufacturing firms have closed shop simultaneously, leaving workers unemployed.",
+          "solution_ru": "Благодаря отмене тарифов и ограничений компании производят и отправляют различные товары по всему миру. Потребитель может выбирать среди всех этих продуктов. A и B неверны, потому что могут возникнуть некоторые издержки, такие как неравенство доходов и безработица. Это наблюдалось в последние несколько десятилетий, когда большинство производителей переехали из западных стран в восточные. Жители Запада смогли покупать товары по более низким ценам, но многие производственные фирмы одновременно закрылись, оставив работников без работы."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_6b",
+      "los_code": "6b",
+      "los_description_en": "Compare types of trade restrictions, such as tariffs, quotas, and export subsidies, and their economic implications",
+      "los_description_ru": "Сравнить типы торговых ограничений, таких как тарифы, квоты и экспортные субсидии, и их экономические последствия",
+      "terms": [
+        {
+          "term_id": "ECON-6-010",
+          "term_en": "Trade Restrictions",
+          "term_ru": "Торговые ограничения",
+          "definition_en": "Policies enacted by governments that limit the free exchange of goods and services between countries. Also known as trade protections, they include tariffs, import quotas, voluntary export restraints, subsidies, embargoes, domestic content requirements, and capital restrictions.",
+          "definition_ru": "Политика, проводимая правительствами, которая ограничивает свободный обмен товарами и услугами между странами. Также известные как торговый протекционизм, они включают тарифы, импортные квоты, добровольные ограничения экспорта, субсидии, эмбарго, требования местного содержания и ограничения движения капитала.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-6-011",
+          "term_en": "Tariff",
+          "term_ru": "Тариф",
+          "definition_en": "A type of tax that imposes additional costs on imports. Tariffs primarily aim to protect domestic industries that produce similar goods and to reduce trade deficits. The economic impact is reduced demand for imported goods as they trade at a price above the free trade price.",
+          "definition_ru": "Вид налога, который налагает дополнительные издержки на импорт. Тарифы в первую очередь направлены на защиту отечественных отраслей, производящих аналогичные товары, и на сокращение торгового дефицита. Экономическое воздействие заключается в снижении спроса на импортные товары, так как они торгуются по цене выше, чем цена свободной торговли.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-6-012",
+          "term_en": "Small Country (Trade Context)",
+          "term_ru": "Малая страна (торговый контекст)",
+          "definition_en": "In the context of tariffs, a country that is a price taker and cannot influence world market prices. When a small country imposes tariffs, it experiences a deadweight loss to national welfare.",
+          "definition_ru": "В контексте тарифов страна, которая является ценополучателем и не может влиять на мировые рыночные цены. Когда малая страна вводит тарифы, она испытывает чистые потери благосостояния страны.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-6-013",
+          "term_en": "Large Country (Trade Context)",
+          "term_ru": "Большая страна (торговый контекст)",
+          "definition_en": "In the context of tariffs, a country that is a large importer of goods and can influence the world market price. Tariffs imposed by large countries force exporters to reduce prices to retain market share, altering terms of trade and redistributing income from exporting to importing country.",
+          "definition_ru": "В контексте тарифов страна, которая является крупным импортером товаров и может влиять на мировую рыночную цену. Тарифы, введенные большими странами, заставляют экспортеров снижать цены для сохранения доли рынка, изменяя условия торговли и перераспределяя доход от экспортирующей к импортирующей стране.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-6-014",
+          "term_en": "Consumer Surplus",
+          "term_ru": "Потребительский излишек",
+          "definition_en": "The difference between what consumers are willing to pay for a good and what they actually pay. Trade restrictions typically cause a loss of consumer surplus due to price increases.",
+          "definition_ru": "Разница между тем, сколько потребители готовы заплатить за товар, и тем, сколько они фактически платят. Торговые ограничения обычно вызывают потерю потребительского излишка из-за роста цен.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-6-015",
+          "term_en": "Producer Surplus",
+          "term_ru": "Излишек производителя",
+          "definition_en": "The difference between the price producers receive for a good and the minimum price they would accept. Trade restrictions typically result in a gain in producer surplus as local producers can sell their output at higher prices.",
+          "definition_ru": "Разница между ценой, которую производители получают за товар, и минимальной ценой, которую они готовы принять. Торговые ограничения обычно приводят к увеличению излишка производителя, поскольку местные производители могут продавать свою продукцию по более высоким ценам.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-6-016",
+          "term_en": "Deadweight Loss",
+          "term_ru": "Чистые потери",
+          "definition_en": "The loss in economic efficiency that occurs when the loss in consumer surplus is greater than the gain from producer surplus and increased government revenue. It represents the net welfare loss to a country from trade restrictions.",
+          "definition_ru": "Потеря экономической эффективности, которая возникает, когда потеря потребительского излишка больше, чем прирост излишка производителя и увеличение государственных доходов. Это представляет собой чистую потерю благосостояния страны от торговых ограничений.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-6-017",
+          "term_en": "Import Quota",
+          "term_ru": "Импортная квота",
+          "definition_en": "Regulations set by a country that restrict the amount of a specific good that can be imported into the country, usually for a specified period. The welfare loss to an importing country after imposing import quotas is greater than that under an equivalent tariff.",
+          "definition_ru": "Правила, установленные страной, которые ограничивают количество определенного товара, которое может быть импортировано в страну, обычно на определенный период. Потеря благосостояния импортирующей страны после введения импортных квот больше, чем при эквивалентном тарифе.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-6-018",
+          "term_en": "Import License",
+          "term_ru": "Импортная лицензия",
+          "definition_en": "A document that specifies the quantity of goods that can be imported into a country. Import licenses can be auctioned by the government to capture quota rents.",
+          "definition_ru": "Документ, который определяет количество товаров, которые могут быть импортированы в страну. Импортные лицензии могут быть проданы правительством с аукциона для захвата квотной ренты.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-6-019",
+          "term_en": "Quota Rents",
+          "term_ru": "Квотная рента",
+          "definition_en": "The profits gained by foreign producers when they raise their prices after a country imposes a quota. These profits are higher than they would be without the quota and represent additional revenue that could have been captured by the importing country's government.",
+          "definition_ru": "Прибыль, получаемая иностранными производителями, когда они повышают цены после того, как страна вводит квоту. Эта прибыль выше, чем была бы без квоты, и представляет собой дополнительный доход, который мог бы быть захвачен правительством импортирующей страны.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-6-020",
+          "term_en": "Voluntary Export Restraint (VER)",
+          "term_ru": "Добровольное ограничение экспорта",
+          "definition_en": "A trade restriction created by the government of the exporting country to limit the number of goods it can export to its trading partner. A VER allows the quota rent resulting from the decrease in trade to be captured by the exporting country, resulting in a welfare loss to the importing country.",
+          "definition_ru": "Торговое ограничение, созданное правительством экспортирующей страны для ограничения количества товаров, которые она может экспортировать своему торговому партнеру. ДОЭ позволяет квотную ренту, возникающую в результате сокращения торговли, захватить экспортирующей стране, что приводит к потере благосостояния импортирующей страны.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-6-021",
+          "term_en": "Export Subsidy",
+          "term_ru": "Экспортная субсидия",
+          "definition_en": "A payment by the government to a firm for each unit it exports in a bid to stimulate exports. Export subsidies disrupt the functioning of the free market and distort trade away from comparative advantage, thereby reducing welfare.",
+          "definition_ru": "Выплата правительством фирме за каждую экспортируемую единицу с целью стимулирования экспорта. Экспортные субсидии нарушают функционирование свободного рынка и искажают торговлю в сторону от сравнительного преимущества, тем самым снижая благосостояние.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-6-022",
+          "term_en": "Countervailing Duties",
+          "term_ru": "Компенсационные пошлины",
+          "definition_en": "Taxes levied by an importing country on subsidized goods entering the country. These duties are imposed to counteract the effect of export subsidies and protect domestic producers from unfair competition.",
+          "definition_ru": "Налоги, взимаемые импортирующей страной на субсидируемые товары, поступающие в страну. Эти пошлины вводятся для противодействия эффекту экспортных субсидий и защиты отечественных производителей от недобросовестной конкуренции.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-6-023",
+          "term_en": "Capital Restrictions",
+          "term_ru": "Ограничения движения капитала",
+          "definition_en": "Measures a government or central bank takes to control the flow of capital in and out of the economy. Controls include taxes, tariffs, volume restrictions, and regulations such as foreign exchange, tax regulation, credit regulation, and investment restrictions.",
+          "definition_ru": "Меры, которые правительство или центральный банк принимает для контроля потока капитала в экономику и из нее. Контроль включает налоги, тарифы, ограничения объема и регулирования, такие как валютное регулирование, налоговое регулирование, кредитное регулирование и инвестиционные ограничения.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-6-024",
+          "term_en": "Domestic Content Provisions",
+          "term_ru": "Требования местного содержания",
+          "definition_en": "Requirements that specify that some proportion of the value added or components used in production should be of domestic origin. These provisions aim to protect and support local industries.",
+          "definition_ru": "Требования, которые указывают, что некоторая доля добавленной стоимости или компонентов, используемых в производстве, должна быть отечественного происхождения. Эти положения направлены на защиту и поддержку местных отраслей.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-6-025",
+          "term_en": "Embargo",
+          "term_ru": "Эмбарго",
+          "definition_en": "A government order that restricts trade or commerce with a specified country or the exchange of specific goods. Embargoes are typically enacted due to unfavorable political or economic circumstances between nations.",
+          "definition_ru": "Правительственное распоряжение, которое ограничивает торговлю или коммерцию с определенной страной или обмен определенными товарами. Эмбарго обычно вводится из-за неблагоприятных политических или экономических обстоятельств между странами.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-6-026",
+          "term_en": "Terms of Trade",
+          "term_ru": "Условия торговли",
+          "definition_en": "The ratio of export prices to import prices. When a large country imposes tariffs, it can alter the terms of trade by forcing exporters to reduce prices, redistributing income from the exporting to the importing country.",
+          "definition_ru": "Соотношение экспортных цен к импортным ценам. Когда большая страна вводит тарифы, она может изменить условия торговли, заставляя экспортеров снижать цены, перераспределяя доход от экспортирующей к импортирующей стране.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "ECON-6-EX-002",
+          "question_en": "Which of the following trade restrictions will most likely increase the revenue of the country imposing the restriction?",
+          "question_ru": "Какое из следующих торговых ограничений наиболее вероятно увеличит доход страны, вводящей ограничение?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Tariffs",
+              "text_ru": "Тарифы"
+            },
+            {
+              "letter": "B",
+              "text_en": "Import Quotas",
+              "text_ru": "Импортные квоты"
+            },
+            {
+              "letter": "C",
+              "text_en": "Export subsidies",
+              "text_ru": "Экспортные субсидии"
+            }
+          ],
+          "correct_answer": "A",
+          "solution_en": "The government of the country imposing tariffs (taxes that impose additional revenue on imported goods) gains the tariff revenue. B is incorrect because import quotas will only benefit the government if it sells import licenses. Import quotas majorly benefit foreign producers as they sell their produce at a higher price to capture the quota rent. C is incorrect because export subsidies decrease revenue to the government as the government spends to pay firms for each unit they export.",
+          "solution_ru": "Правительство страны, вводящее тарифы (налоги, которые налагают дополнительный доход на импортные товары), получает тарифный доход. B неверно, потому что импортные квоты будут выгодны правительству только в том случае, если оно продает импортные лицензии. Импортные квоты в основном выгодны иностранным производителям, поскольку они продают свою продукцию по более высокой цене для захвата квотной ренты. C неверно, потому что экспортные субсидии снижают доход правительства, поскольку правительство тратит деньги на выплаты фирмам за каждую экспортируемую единицу."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_6c",
+      "los_code": "6c",
+      "los_description_en": "Explain the motivations for and advantages of trading blocs, common markets, and economic unions",
+      "los_description_ru": "Объяснить мотивацию и преимущества торговых блоков, общих рынков и экономических союзов",
+      "terms": [
+        {
+          "term_id": "ECON-6-027",
+          "term_en": "Trading Bloc",
+          "term_ru": "Торговый блок",
+          "definition_en": "A group of countries that have mutually agreed to reduce and progressively eliminate barriers to trade and the movement of factors of production among the members of the bloc. Regional barriers to trade, such as tariffs, within members are usually low or non-existent.",
+          "definition_ru": "Группа стран, которые взаимно договорились о снижении и постепенном устранении барьеров для торговли и движения факторов производства между членами блока. Региональные барьеры для торговли, такие как тарифы, между членами обычно низкие или отсутствуют.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-6-028",
+          "term_en": "Free Trade Area (FTA)",
+          "term_ru": "Зона свободной торговли",
+          "definition_en": "A type of trading bloc where all barriers to the flow of goods and services among members have been removed. Each member within the FTA retains its trade policies against non-members. Example: United States-Mexico-Canada Agreement (USMCA).",
+          "definition_ru": "Тип торгового блока, в котором все барьеры для движения товаров и услуг между членами были устранены. Каждый член ЗСТ сохраняет свою торговую политику в отношении не-членов. Пример: Соглашение США-Мексика-Канада (USMCA).",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-6-029",
+          "term_en": "Customs Union",
+          "term_ru": "Таможенный союз",
+          "definition_en": "An improvement of the FTA that allows the free flow of goods and services among members and has a common trade policy against non-members. Example: Benelux (Belgium, Netherlands, and Luxembourg) of 1947.",
+          "definition_ru": "Усовершенствование ЗСТ, которое позволяет свободное движение товаров и услуг между членами и имеет общую торговую политику в отношении не-членов. Пример: Бенилюкс (Бельгия, Нидерланды и Люксембург) 1947 года.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-6-030",
+          "term_en": "Common Market",
+          "term_ru": "Общий рынок",
+          "definition_en": "A trading bloc that incorporates all features of the customs union and also allows the free movement of factors of production (labor and capital) among its members. Examples: East African Common Market and MERCOSUR (Argentina, Brazil, Paraguay, Uruguay).",
+          "definition_ru": "Торговый блок, который включает все характеристики таможенного союза, а также позволяет свободное движение факторов производства (труда и капитала) между его членами. Примеры: Восточноафриканский общий рынок и МЕРКОСУР (Аргентина, Бразилия, Парагвай, Уругвай).",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-6-031",
+          "term_en": "Economic Union",
+          "term_ru": "Экономический союз",
+          "definition_en": "A trading bloc with a higher economic integration level than the common market. It includes all features of the common market and additionally incorporates common economic institutions and coordination of economic policies among members. Example: European Union (EU).",
+          "definition_ru": "Торговый блок с более высоким уровнем экономической интеграции, чем общий рынок. Он включает все характеристики общего рынка и дополнительно включает общие экономические институты и координацию экономической политики между членами. Пример: Европейский союз (ЕС).",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-6-032",
+          "term_en": "Monetary Union",
+          "term_ru": "Валютный союз",
+          "definition_en": "An economic union where members agree to have a common currency. It represents the highest level of economic integration. Example: The European Union with the euro as common currency.",
+          "definition_ru": "Экономический союз, в котором члены договорились иметь общую валюту. Он представляет собой высший уровень экономической интеграции. Пример: Европейский союз с евро в качестве общей валюты.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-6-033",
+          "term_en": "Regional Integration",
+          "term_ru": "Региональная интеграция",
+          "definition_en": "A move towards freer trade where member countries get preferential treatment compared to non-members. Members eliminate or reduce trade barriers against each other, resulting in more efficient resource allocation.",
+          "definition_ru": "Движение к более свободной торговле, при котором страны-члены получают преференциальный режим по сравнению с не-членами. Члены устраняют или сокращают торговые барьеры друг с другом, что приводит к более эффективному распределению ресурсов.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-6-034",
+          "term_en": "Trade Creation",
+          "term_ru": "Создание торговли",
+          "definition_en": "A static effect of regional integration where member countries replace higher-cost domestic production with lower-cost imports from other members. This leads to improved welfare for the country.",
+          "definition_ru": "Статический эффект региональной интеграции, при котором страны-члены заменяют более дорогостоящее внутреннее производство более дешевым импортом от других членов. Это приводит к повышению благосостояния страны.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-6-035",
+          "term_en": "Trade Diversion",
+          "term_ru": "Отклонение торговли",
+          "definition_en": "A static effect of regional integration where member countries replace lower-cost imports from non-member countries with higher-cost imports from member countries. The higher-cost imports from member countries are cheaper due to elimination of trade barriers between members.",
+          "definition_ru": "Статический эффект региональной интеграции, при котором страны-члены заменяют более дешевый импорт от стран, не являющихся членами, на более дорогой импорт от стран-членов. Более дорогой импорт от стран-членов оказывается дешевле из-за устранения торговых барьеров между членами.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-6-036",
+          "term_en": "Technology Transfer",
+          "term_ru": "Передача технологий",
+          "definition_en": "An advantage of trading blocs where technology is shared between member nations, leading to modernization and improved production capacities.",
+          "definition_ru": "Преимущество торговых блоков, при котором технология распространяется между странами-членами, что приводит к модернизации и улучшению производственных мощностей.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-6-037",
+          "term_en": "Adjustment Costs",
+          "term_ru": "Издержки адаптации",
+          "definition_en": "A disadvantage of trading blocs where import competition might cause inefficient firms to shut down, leading to workers becoming temporarily unemployed until they find new opportunities.",
+          "definition_ru": "Недостаток торговых блоков, при котором конкуренция импорта может привести к закрытию неэффективных фирм, что приводит к временной безработице работников до тех пор, пока они не найдут новые возможности.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "ECON-6-038",
+          "term_en": "National Sovereignty Concerns",
+          "term_ru": "Проблемы национального суверенитета",
+          "definition_en": "Apprehensions about national sovereignty in trading blocs, especially when countries of varying sizes and economic strengths are part of the same bloc, creating power imbalances and challenges in decision-making.",
+          "definition_ru": "Опасения относительно национального суверенитета в торговых блоках, особенно когда страны разного размера и экономической силы являются частью одного блока, создавая дисбаланс сил и проблемы в принятии решений.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "ECON-6-EX-003",
+          "question_en": "If Columbia and Ecuador have free trade between themselves and a common policy excluding non-members from this free trade, then they are a part of a:",
+          "question_ru": "Если Колумбия и Эквадор имеют свободную торговлю между собой и общую политику, исключающую не-членов из этой свободной торговли, то они являются частью:",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Customs union",
+              "text_ru": "Таможенного союза"
+            },
+            {
+              "letter": "B",
+              "text_en": "Free trade area",
+              "text_ru": "Зоны свободной торговли"
+            },
+            {
+              "letter": "C",
+              "text_en": "Common market",
+              "text_ru": "Общего рынка"
+            }
+          ],
+          "correct_answer": "A",
+          "solution_en": "Customs unions allow free movement of goods and services and also form a mutual policy against non-members. B is incorrect because a free trade area is a grouping of countries where trade barriers are abolished, but each member retains its own trade policies against non-members. C is incorrect because a common market is a free trade area with relatively free movement of capital and labor (factors of production).",
+          "solution_ru": "Таможенные союзы позволяют свободное движение товаров и услуг, а также формируют взаимную политику против не-членов. B неверно, потому что зона свободной торговли - это группировка стран, где торговые барьеры отменены, но каждый член сохраняет свою собственную торговую политику в отношении не-членов. C неверно, потому что общий рынок - это зона свободной торговли с относительно свободным движением капитала и труда (факторов производства)."
+        }
+      ]
+    }
+  ]
+}
