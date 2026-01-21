@@ -7,7 +7,7 @@
     "module_id": 3,
     "module_name": "Analyzing Balance Sheets",
     "module_name_ru": "Анализ балансовых отчетов",
-    "total_questions": 10,
+    "total_questions": 20,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -624,6 +624,508 @@
       },
       "difficulty": "medium",
       "topic_tags": ["financial_leverage", "solvency_ratios", "working_capital"]
+    },
+    {
+      "question_id": "FSA-3-Q011",
+      "original_question_number": 3814,
+      "los_id": "LOS_3e",
+      "question_text_en": "Select information from a company's 2018 balance sheet is as follows:",
+      "question_text_ru": "Выборочная информация из балансового отчета компании за 2018 год следующая:",
+      "has_table": true,
+      "table_data": {
+        "headers": ["", ""],
+        "headers_ru": ["", ""],
+        "rows": [
+          ["Cash and cash equivalents", "$500 Million"],
+          ["Marketable Securities", "$200 Million"],
+          ["Accounts Receivables", "$100 Million"],
+          ["Inventories", "$400 Million"],
+          ["Goodwill", "$800 Million"],
+          ["Long Term Debt", "$700 Million"],
+          ["Total Current Liabilities", "$900 Million"]
+        ]
+      },
+      "question_continuation_en": "If the current ratio of the company in 2017 was 1.50, its ability to meet its short-term obligations has most likely?",
+      "question_continuation_ru": "Если коэффициент текущей ликвидности компании в 2017 году составлял 1.50, ее способность выполнять свои краткосрочные обязательства, скорее всего?",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Increased.",
+          "text_ru": "Увеличилась."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Decreased.",
+          "text_ru": "Уменьшилась."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Remained the same.",
+          "text_ru": "Осталась прежней."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Current Ratio = Current Assets / Current Liabilities = 1200 / 900 = 1.33. The current ratio of the Company has dropped from 1.50 in 2017 to 1.33 in 2018. A decrease in the current ratio indicates a lower level of liquidity and, therefore, a reduced ability to meet short-term obligations.",
+      "explanation_ru": "Коэффициент текущей ликвидности = Текущие активы / Текущие обязательства = 1200 / 900 = 1.33. Коэффициент текущей ликвидности компании снизился с 1.50 в 2017 году до 1.33 в 2018 году. Снижение коэффициента текущей ликвидности указывает на более низкий уровень ликвидности и, следовательно, на снижение способности выполнять краткосрочные обязательства.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Contradicts option B.",
+          "text_ru": "Противоречит варианту B."
+        },
+        "opt_c": {
+          "text_en": "Contradicts option B.",
+          "text_ru": "Противоречит варианту B."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic Calculator",
+        "steps_en": [
+          "Current Assets = 500 + 200 + 100 + 400 = 1,200",
+          "Current Ratio = 1,200 ÷ 900 = 1.33"
+        ],
+        "steps_ru": [
+          "Текущие активы = 500 + 200 + 100 + 400 = 1,200",
+          "Коэффициент текущей ликвидности = 1,200 ÷ 900 = 1.33"
+        ]
+      },
+      "difficulty": "easy",
+      "topic_tags": ["current_ratio", "liquidity", "trend_analysis"]
+    },
+    {
+      "question_id": "FSA-3-Q012",
+      "original_question_number": 3817,
+      "los_id": "LOS_3e",
+      "question_text_en": "Consider the following information of a hypothetical company: Long-Term Debt – $30 Million, Current Liabilities - $20 Million, Total Equity – $50 Million, Current Assets –$35 Million, Non-Current Assets – $65 Million. The financial leverage is closest to:",
+      "question_text_ru": "Рассмотрите следующую информацию о гипотетической компании: Долгосрочный долг – $30 миллионов, Текущие обязательства - $20 миллионов, Общий капитал – $50 миллионов, Текущие активы –$35 миллионов, Внеоборотные активы – $65 миллионов. Финансовый рычаг ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "0.6",
+          "text_ru": "0.6"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "1.0",
+          "text_ru": "1.0"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "2.0",
+          "text_ru": "2.0"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Financial Leverage = Total Assets / Total Equity = 100 / 50 = 2.0",
+      "explanation_ru": "Финансовый рычаг = Общие активы / Общий капитал = 100 / 50 = 2.0",
+      "explanation_formula": "$\\text{Financial Leverage} = \\frac{\\text{Total Assets}}{\\text{Total Equity}} = \\frac{100}{50} = 2.0$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect calculation.",
+          "text_ru": "Неверный расчет."
+        },
+        "opt_b": {
+          "text_en": "Incorrect calculation.",
+          "text_ru": "Неверный расчет."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic Calculator",
+        "steps_en": [
+          "Total Assets = 35 + 65 = 100",
+          "Financial Leverage = 100 ÷ 50 = 2.0"
+        ],
+        "steps_ru": [
+          "Общие активы = 35 + 65 = 100",
+          "Финансовый рычаг = 100 ÷ 50 = 2.0"
+        ]
+      },
+      "difficulty": "easy",
+      "topic_tags": ["financial_leverage", "solvency_ratios"]
+    },
+    {
+      "question_id": "FSA-3-Q013",
+      "original_question_number": 4653,
+      "los_id": "LOS_3a",
+      "question_text_en": "Under IFRS, the revaluation model for intangible assets can be used if:",
+      "question_text_ru": "Согласно МСФО, модель переоценки нематериальных активов может быть использована, если:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "the asset is internally generated.",
+          "text_ru": "актив создан внутри компании."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "the asset has a finite useful life.",
+          "text_ru": "актив имеет конечный срок полезного использования."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "there is a readily determinable market value for the asset.",
+          "text_ru": "существует легко определяемая рыночная стоимость актива."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "The revaluation model allows an intangible asset to be carried at a revalued amount, which is its fair value at the date of revaluation, less any subsequent accumulated amortization and any subsequent accumulated impairment losses. This model can only be applied if there is an active market for the asset, providing a readily determinable market value.",
+      "explanation_ru": "Модель переоценки позволяет отражать нематериальный актив по переоцененной сумме, которая представляет собой его справедливую стоимость на дату переоценки, за вычетом любой последующей накопленной амортизации и любых последующих накопленных убытков от обесценения. Эта модель может применяться только при наличии активного рынка для актива, обеспечивающего легко определяемую рыночную стоимость.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The revaluation model is typically not applicable to internally generated intangible assets, as it is often challenging to determine a fair value for these assets due to the lack of an active market.",
+          "text_ru": "Модель переоценки обычно не применима к внутренне созданным нематериальным активам, поскольку часто сложно определить справедливую стоимость этих активов из-за отсутствия активного рынка."
+        },
+        "opt_b": {
+          "text_en": "The choice of the revaluation model is not dependent on whether the intangible asset has a finite or indefinite useful life. Both types of assets can be revalued if there is an active market.",
+          "text_ru": "Выбор модели переоценки не зависит от того, имеет ли нематериальный актив конечный или неопределенный срок полезного использования. Оба типа активов могут быть переоценены при наличии активного рынка."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["intangible_assets", "revaluation_model", "IFRS"]
+    },
+    {
+      "question_id": "FSA-3-Q014",
+      "original_question_number": 4654,
+      "los_id": "LOS_3a",
+      "question_text_en": "Under US GAAP, which of the following costs associated with internally generated intangible assets is capitalized?",
+      "question_text_ru": "Согласно US GAAP, какие из следующих затрат, связанных с внутренне созданными нематериальными активами, капитализируются?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Advertising expenses.",
+          "text_ru": "Расходы на рекламу."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Research phase expenses.",
+          "text_ru": "Расходы на фазу исследований."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Both research phases and advertising expenses are not capitalized.",
+          "text_ru": "Расходы на фазу исследований и расходы на рекламу не капитализируются."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Under US GAAP, costs incurred during the research phase and the development phase of an internally generated intangible asset are typically expensed as incurred. Capitalizing such costs is prohibited.",
+      "explanation_ru": "Согласно US GAAP, затраты, понесенные во время фазы исследований и фазы разработки внутренне созданного нематериального актива, обычно относятся на расходы по мере возникновения. Капитализация таких затрат запрещена.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Advertising expenses are also expensed under US GAAP and are not capitalized as part of internally generated intangible assets.",
+          "text_ru": "Расходы на рекламу также относятся на расходы согласно US GAAP и не капитализируются как часть внутренне созданных нематериальных активов."
+        },
+        "opt_b": {
+          "text_en": "Research phase expenses are expensed as incurred under US GAAP and are not capitalized.",
+          "text_ru": "Расходы на фазу исследований относятся на расходы по мере возникновения согласно US GAAP и не капитализируются."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["intangible_assets", "US_GAAP", "capitalization"]
+    },
+    {
+      "question_id": "FSA-3-Q015",
+      "original_question_number": 4655,
+      "los_id": "LOS_3a",
+      "question_text_en": "The impairment testing for intangible assets with an indefinite useful life is conducted:",
+      "question_text_ru": "Тестирование на обесценение нематериальных активов с неопределенным сроком полезного использования проводится:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "at least annually.",
+          "text_ru": "как минимум ежегодно."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "only at the time of acquisition.",
+          "text_ru": "только во время приобретения."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "on a systematic basis over the asset's useful life.",
+          "text_ru": "систематически в течение срока полезного использования актива."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "At least annually. Intangible assets with an indefinite useful life are not amortized but are required to be tested for impairment at least annually or more frequently if events or changes in circumstances indicate that the asset might be impaired.",
+      "explanation_ru": "Как минимум ежегодно. Нематериальные активы с неопределенным сроком полезного использования не амортизируются, но должны тестироваться на обесценение как минимум ежегодно или чаще, если события или изменения обстоятельств указывают на возможное обесценение актива.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "While an initial impairment test may be conducted at the time of acquisition, ongoing impairment testing for intangible assets with an indefinite useful life is required at least annually.",
+          "text_ru": "Хотя первоначальный тест на обесценение может быть проведен во время приобретения, текущее тестирование на обесценение нематериальных активов с неопределенным сроком полезного использования требуется как минимум ежегодно."
+        },
+        "opt_c": {
+          "text_en": "Systematic amortization is not applicable to intangible assets with an indefinite useful life; therefore, impairment testing is not conducted on a systematic basis over the asset's useful life.",
+          "text_ru": "Систематическая амортизация не применима к нематериальным активам с неопределенным сроком полезного использования; следовательно, тестирование на обесценение не проводится систематически в течение срока полезного использования актива."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["intangible_assets", "impairment_testing", "indefinite_life"]
+    },
+    {
+      "question_id": "FSA-3-Q016",
+      "original_question_number": 4656,
+      "los_id": "LOS_3a",
+      "question_text_en": "Under IFRS, the initial recognition of an internally generated intangible asset in the development phase requires all of the following except:",
+      "question_text_ru": "Согласно МСФО, первоначальное признание внутренне созданного нематериального актива на стадии разработки требует всего следующего, кроме:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "demonstration of the technical feasibility of completing the asset.",
+          "text_ru": "демонстрации технической осуществимости завершения актива."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "evidence of market research confirming the demand for the asset.",
+          "text_ru": "доказательства маркетингового исследования, подтверждающего спрос на актив."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "ability to measure reliably the expenditure attributable to the asset during its development.",
+          "text_ru": "способности надежно измерять расходы, относящиеся к активу во время его разработки."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "While market research may be important for business decision-making, it is not one of the criteria listed in IAS 38 for capitalizing costs incurred in the development phase of an internally generated intangible asset.",
+      "explanation_ru": "Хотя маркетинговое исследование может быть важным для принятия бизнес-решений, оно не является одним из критериев, перечисленных в МСФО 38, для капитализации затрат, понесенных на стадии разработки внутренне созданного нематериального актива.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Demonstrating the technical feasibility of completing the intangible asset is one of the criteria required for capitalizing development costs under IFRS.",
+          "text_ru": "Демонстрация технической осуществимости завершения нематериального актива является одним из критериев, необходимых для капитализации затрат на разработку согласно МСФО."
+        },
+        "opt_c": {
+          "text_en": "The ability to measure reliably the expenditure attributable to the intangible asset during its development is also a required criterion for capitalizing development costs under IFRS.",
+          "text_ru": "Способность надежно измерять расходы, относящиеся к нематериальному активу во время его разработки, также является необходимым критерием для капитализации затрат на разработку согласно МСФО."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["intangible_assets", "IFRS", "development_phase"]
+    },
+    {
+      "question_id": "FSA-3-Q017",
+      "original_question_number": 4657,
+      "los_id": "LOS_3b",
+      "question_text_en": "Which of the following factors is least likely to be considered in the valuation of economic goodwill?",
+      "question_text_ru": "Какой из следующих факторов наименее вероятно будет учтен при оценке экономического гудвилла?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Customer loyalty.",
+          "text_ru": "Лояльность клиентов."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Management expertise.",
+          "text_ru": "Опыт управления."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Book value of tangible assets.",
+          "text_ru": "Балансовая стоимость материальных активов."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Economic goodwill pertains to intangible aspects that enhance a business's value beyond its tangible assets and liabilities. While customer loyalty and management expertise are intangible factors contributing to economic goodwill, the book value of tangible assets is not directly related to the valuation of economic goodwill.",
+      "explanation_ru": "Экономический гудвилл относится к нематериальным аспектам, которые повышают стоимость бизнеса помимо его материальных активов и обязательств. Хотя лояльность клиентов и опыт управления являются нематериальными факторами, способствующими экономическому гудвиллу, балансовая стоимость материальных активов напрямую не связана с оценкой экономического гудвилла.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Customer loyalty is an intangible factor that contributes to a business's ability to generate future profits, making it a key component of economic goodwill.",
+          "text_ru": "Лояльность клиентов - это нематериальный фактор, который способствует способности бизнеса генерировать будущие прибыли, делая его ключевым компонентом экономического гудвилла."
+        },
+        "opt_b": {
+          "text_en": "Management expertise is another intangible factor that can enhance a business's value by improving operational efficiency and strategic decision-making, thus contributing to economic goodwill.",
+          "text_ru": "Опыт управления - это еще один нематериальный фактор, который может повысить стоимость бизнеса за счет улучшения операционной эффективности и стратегического принятия решений, тем самым способствуя экономическому гудвиллу."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["goodwill", "economic_goodwill", "intangible_factors"]
+    },
+    {
+      "question_id": "FSA-3-Q018",
+      "original_question_number": 4658,
+      "los_id": "LOS_3b",
+      "question_text_en": "In the context of goodwill impairment testing, which of the following statements is most accurate?",
+      "question_text_ru": "В контексте тестирования на обесценение гудвилла, какое из следующих утверждений наиболее точно?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Goodwill impairment losses are amortized over the remaining useful life of the asset.",
+          "text_ru": "Убытки от обесценения гудвилла амортизируются в течение оставшегося срока полезного использования актива."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Goodwill impairment is tested by comparing the carrying amount of the reporting unit to its recoverable amount.",
+          "text_ru": "Обесценение гудвилла тестируется путем сравнения балансовой стоимости отчетной единицы с ее возмещаемой суммой."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Goodwill impairment testing is performed only when there is a significant decline in the market value of the company.",
+          "text_ru": "Тестирование на обесценение гудвилла проводится только при значительном снижении рыночной стоимости компании."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Goodwill impairment is tested by comparing the carrying amount of the reporting unit to its recoverable amount. Under both IFRS and US GAAP, the impairment test involves comparing the carrying amount of the reporting unit, including goodwill, to its recoverable amount (the higher of its fair value, less costs to sell, and its value in use). If the carrying amount exceeds the recoverable amount, an impairment loss is recognized.",
+      "explanation_ru": "Обесценение гудвилла тестируется путем сравнения балансовой стоимости отчетной единицы с ее возмещаемой суммой. Согласно МСФО и US GAAP, тест на обесценение включает сравнение балансовой стоимости отчетной единицы, включая гудвилл, с ее возмещаемой суммой (большей из справедливой стоимости за вычетом затрат на продажу и ценности использования). Если балансовая стоимость превышает возмещаемую сумму, признается убыток от обесценения.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Goodwill impairment losses are not amortized. Once recognized, an impairment loss reduces the carrying amount of goodwill and is not subsequently reversed.",
+          "text_ru": "Убытки от обесценения гудвилла не амортизируются. После признания убыток от обесценения уменьшает балансовую стоимость гудвилла и не восстанавливается впоследствии."
+        },
+        "opt_c": {
+          "text_en": "While a decline in market value may trigger an impairment test, goodwill impairment testing is required annually, regardless of changes in market value. It may also be performed more frequently if there are indications of impairment.",
+          "text_ru": "Хотя снижение рыночной стоимости может инициировать тест на обесценение, тестирование на обесценение гудвилла требуется ежегодно, независимо от изменений рыночной стоимости. Оно также может проводиться чаще при наличии признаков обесценения."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["goodwill", "impairment_testing", "recoverable_amount"]
+    },
+    {
+      "question_id": "FSA-3-Q019",
+      "original_question_number": 4659,
+      "los_id": "LOS_3b",
+      "question_text_en": "When assessing the fair value of net identifiable assets in a business combination, which of the following is least likely to be included?",
+      "question_text_ru": "При оценке справедливой стоимости чистых идентифицируемых активов при объединении бизнесов, что из следующего наименее вероятно будет включено?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Contingent liabilities.",
+          "text_ru": "Условные обязательства."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Future revenue projections.",
+          "text_ru": "Прогнозы будущей выручки."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Recognized intangible assets.",
+          "text_ru": "Признанные нематериальные активы."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "In a business combination, the fair value of net identifiable assets includes recognized tangible and intangible assets and liabilities, including contingent liabilities. However, future revenue projections are not considered identifiable assets and are not included in the fair value assessment.",
+      "explanation_ru": "При объединении бизнесов справедливая стоимость чистых идентифицируемых активов включает признанные материальные и нематериальные активы и обязательства, включая условные обязательства. Однако прогнозы будущей выручки не считаются идентифицируемыми активами и не включаются в оценку справедливой стоимости.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Contingent liabilities, such as potential legal settlements, are assessed at their fair value and included in the measurement of net identifiable assets in a business combination.",
+          "text_ru": "Условные обязательства, такие как потенциальные судебные урегулирования, оцениваются по их справедливой стоимости и включаются в оценку чистых идентифицируемых активов при объединении бизнесов."
+        },
+        "opt_c": {
+          "text_en": "Recognized intangible assets, such as patents and trademarks, are included in the fair value measurement of net identifiable assets in a business combination.",
+          "text_ru": "Признанные нематериальные активы, такие как патенты и товарные знаки, включаются в оценку справедливой стоимости чистых идентифицируемых активов при объединении бизнесов."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["business_combination", "fair_value", "identifiable_assets"]
+    },
+    {
+      "question_id": "FSA-3-Q020",
+      "original_question_number": 4660,
+      "los_id": "LOS_3b",
+      "question_text_en": "Which of the following is least likely a reason for analysts to exclude goodwill from balance sheet data when adjusting financial statements?",
+      "question_text_ru": "Какая из следующих причин наименее вероятна для того, чтобы аналитики исключали гудвилл из данных балансового отчета при корректировке финансовой отчетности?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "To simplify the calculation of financial ratios.",
+          "text_ru": "Для упрощения расчета финансовых коэффициентов."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "To eliminate the effects of non-cash expenses related to goodwill impairment.",
+          "text_ru": "Для устранения эффектов неденежных расходов, связанных с обесценением гудвилла."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "To assess the company's financial position based on its tangible assets and equity.",
+          "text_ru": "Для оценки финансового положения компании на основе ее материальных активов и капитала."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "When analysts exclude goodwill from balance sheet data, it is typically to analyze the company's financial position and performance based on its tangible assets and equity, not to address non-cash expenses. Non-cash expenses related to goodwill impairment are more relevant to adjustments made to income data, not balance sheet data.",
+      "explanation_ru": "Когда аналитики исключают гудвилл из данных балансового отчета, это обычно делается для анализа финансового положения и результативности компании на основе ее материальных активов и капитала, а не для решения проблем с неденежными расходами. Неденежные расходы, связанные с обесценением гудвилла, более релевантны для корректировок данных о доходах, а не балансовых данных.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Simplifying the calculation of financial ratios is not the primary reason for excluding goodwill from balance sheet data. The main purpose is to gain insights into the company's financial position based on tangible assets.",
+          "text_ru": "Упрощение расчета финансовых коэффициентов не является основной причиной исключения гудвилла из данных балансового отчета. Основная цель - получить представление о финансовом положении компании на основе материальных активов."
+        },
+        "opt_c": {
+          "text_en": "Excluding goodwill from balance sheet data is often done to focus the analysis on the company's tangible assets and equity, providing a clearer picture of its financial position.",
+          "text_ru": "Исключение гудвилла из данных балансового отчета часто делается для сосредоточения анализа на материальных активах и капитале компании, обеспечивая более четкую картину ее финансового положения."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["goodwill", "financial_statement_analysis", "adjustments"]
     }
   ]
 }
