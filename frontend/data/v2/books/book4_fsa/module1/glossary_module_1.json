@@ -1,0 +1,643 @@
+{
+  "metadata": {
+    "book_id": 4,
+    "book_code": "FSA",
+    "book_name": "Financial Statement Analysis",
+    "book_name_ru": "Анализ финансовой отчетности",
+    "module_id": 1,
+    "module_name": "Introduction to Financial Statement Analysis",
+    "module_name_ru": "Введение в анализ финансовой отчетности",
+    "page_range": "3-27",
+    "total_terms": 41,
+    "total_exercises": 5,
+    "version": "2.0",
+    "last_updated": "2026-01-21"
+  },
+  "los": [
+    {
+      "los_id": "LOS_1a",
+      "los_code": "1a",
+      "los_description_en": "Describe the steps in the financial statement analysis framework",
+      "los_description_ru": "Описать шаги в структуре анализа финансовой отчетности",
+      "terms": [
+        {
+          "term_id": "FSA-1-001",
+          "term_en": "Financial Analysis",
+          "term_ru": "Финансовый анализ",
+          "definition_en": "The process of interpreting and evaluating a company's performance and position in the context of its economic environment. Analysts use financial analysis to make investment decisions and recommendations.",
+          "definition_ru": "Процесс интерпретации и оценки результатов деятельности и положения компании в контексте её экономической среды. Аналитики используют финансовый анализ для принятия инвестиционных решений и рекомендаций.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-002",
+          "term_en": "Financial Statement Analysis Framework",
+          "term_ru": "Структура анализа финансовой отчетности",
+          "definition_en": "A generic term describing the process of assessing financial statements, supplemental information, and other sources of information. The framework helps analysts draw conclusions and make informed recommendations, such as whether to invest in a company or extend a loan.",
+          "definition_ru": "Общий термин, описывающий процесс оценки финансовой отчетности, дополнительной информации и других источников данных. Структура помогает аналитикам делать выводы и формировать обоснованные рекомендации, например, инвестировать ли в компанию или предоставить кредит.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-003",
+          "term_en": "Step 1: Articulate the Purpose and Context of the Analysis",
+          "term_ru": "Шаг 1: Формулирование цели и контекста анализа",
+          "definition_en": "The first step in the financial statement analysis framework that guides further decisions about the approach, tools, data sources, and final report format. It defines the target audience, end product, timeframe, requisite resources, and resource constraints. The output includes stated objectives, timetable and budget, nature and content of the expected report, and a list of questions to be answered.",
+          "definition_ru": "Первый шаг в структуре анализа финансовой отчетности, который определяет дальнейшие решения о подходе, инструментах, источниках данных и формате итогового отчета. Определяет целевую аудиторию, конечный продукт, временные рамки, необходимые ресурсы и ограничения. Результат включает сформулированные цели, график и бюджет, характер и содержание ожидаемого отчета, и список вопросов для ответа.",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-004",
+          "term_en": "Step 2: Collect Data",
+          "term_ru": "Шаг 2: Сбор данных",
+          "definition_en": "The second step where the analyst gathers necessary data to answer specific questions compiled in Step 1. Sources include financial statements, other financial data, questionnaires, industry or economic data, company site visits, and discussions with management, suppliers, customers, competitors, and experts.",
+          "definition_ru": "Второй шаг, на котором аналитик собирает необходимые данные для ответа на конкретные вопросы, составленные на шаге 1. Источники включают финансовую отчетность, другие финансовые данные, анкеты, отраслевые или экономические данные, посещения объектов компании и обсуждения с руководством, поставщиками, клиентами, конкурентами и экспертами.",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-005",
+          "term_en": "Step 3: Process Data",
+          "term_ru": "Шаг 3: Обработка данных",
+          "definition_en": "The third step where the analyst processes the data collected in Step 2 using various analysis tools. This may involve computing financial ratios and growth rates, creating charts, preparing common-size financial statements, or performing statistical analyses such as regression analysis.",
+          "definition_ru": "Третий шаг, на котором аналитик обрабатывает данные, собранные на шаге 2, используя различные аналитические инструменты. Это может включать вычисление финансовых коэффициентов и темпов роста, создание диаграмм, подготовку финансовой отчетности общего размера или проведение статистического анализа, такого как регрессионный анализ.",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-006",
+          "term_en": "Step 4: Analyze and Interpret the Data",
+          "term_ru": "Шаг 4: Анализ и интерпретация данных",
+          "definition_en": "The fourth step where the analyst assesses the data processed in Step 3. The analyst interprets the output of the analysis and uses it to support a conclusion or recommendation. Results include analytical results, forecasts, and valuations.",
+          "definition_ru": "Четвертый шаг, на котором аналитик оценивает данные, обработанные на шаге 3. Аналитик интерпретирует результаты анализа и использует их для поддержки выводов или рекомендаций. Результаты включают аналитические результаты, прогнозы и оценки.",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-007",
+          "term_en": "Step 5: Develop and Communicate Conclusions and Recommendations",
+          "term_ru": "Шаг 5: Разработка и передача выводов и рекомендаций",
+          "definition_en": "The fifth step where the analyst communicates the conclusions and recommendations derived from the analysis in an appropriate format that answers the questions posed in Step 1. The format depends on analytical objectives, institution, audience, and requirements of regulatory agencies or professional standards.",
+          "definition_ru": "Пятый шаг, на котором аналитик передает выводы и рекомендации, полученные в результате анализа, в соответствующем формате, который отвечает на вопросы, поставленные на шаге 1. Формат зависит от аналитических целей, организации, аудитории и требований регулирующих органов или профессиональных стандартов.",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-008",
+          "term_en": "Step 6: Follow-up",
+          "term_ru": "Шаг 6: Мониторинг",
+          "definition_en": "The sixth step where the analyst performs periodic reviews to determine if the initial conclusions and recommendations still hold. This may require a periodic repeat of all the previous steps.",
+          "definition_ru": "Шестой шаг, на котором аналитик проводит периодические обзоры для определения, остаются ли первоначальные выводы и рекомендации актуальными. Это может потребовать периодического повторения всех предыдущих шагов.",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-009",
+          "term_en": "Sensitivity Analysis",
+          "term_ru": "Анализ чувствительности",
+          "definition_en": "A technique used to assess the impact of changes in input variables on the outcome of a financial model. It involves varying key assumptions or parameters within the model to evaluate how these changes affect the results. This is part of the data processing step (Step 3) as it involves manipulating and analyzing collected data.",
+          "definition_ru": "Техника, используемая для оценки влияния изменений входных переменных на результат финансовой модели. Включает варьирование ключевых допущений или параметров в модели для оценки того, как эти изменения влияют на результаты. Это часть этапа обработки данных (шаг 3), так как включает манипулирование и анализ собранных данных.",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "los_id": "LOS_1b",
+      "los_code": "1b",
+      "los_description_en": "Describe the roles of financial statement analysis",
+      "los_description_ru": "Описать роли анализа финансовой отчетности",
+      "terms": [
+        {
+          "term_id": "FSA-1-010",
+          "term_en": "Roles of Financial Statement Analysis",
+          "term_ru": "Роли анализа финансовой отчетности",
+          "definition_en": "Financial statement analysis is used to evaluate a company's past, current, and potential performance and financial position. Key roles include: valuating company securities, debt rating, analyzing potential merger or acquisition candidates, and evaluating the creditworthiness of a company.",
+          "definition_ru": "Анализ финансовой отчетности используется для оценки прошлых, текущих и потенциальных результатов деятельности и финансового положения компании. Основные роли включают: оценку ценных бумаг компании, рейтинг долга, анализ потенциальных кандидатов для слияния или поглощения, и оценку кредитоспособности компании.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-011",
+          "term_en": "Performance Analysis",
+          "term_ru": "Анализ результатов деятельности",
+          "definition_en": "Analysis used to determine if a company is profitable, adequately capitalized, able to meet its long and short-term obligations, and able to generate positive cash flows continuously. It helps shape future expectations regarding the company's financial position and performance, as well as factors impacting the risk profile.",
+          "definition_ru": "Анализ, используемый для определения, является ли компания прибыльной, адекватно капитализированной, способной выполнять свои долгосрочные и краткосрочные обязательства и генерировать положительные денежные потоки непрерывно. Помогает формировать будущие ожидания относительно финансового положения и результатов компании, а также факторов, влияющих на профиль риска.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "FSA-1-EX-001",
+          "question_en": "Which of the following best describes the role of financial statement analysis?",
+          "question_ru": "Что из следующего наилучшим образом описывает роль анализа финансовой отчетности?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "To determine whether a company should close its operations",
+              "text_ru": "Определить, должна ли компания закрыть свою деятельность"
+            },
+            {
+              "letter": "B",
+              "text_en": "To provide information on a company's financial performance and position",
+              "text_ru": "Предоставить информацию о финансовых результатах и положении компании"
+            },
+            {
+              "letter": "C",
+              "text_en": "To use a company's financial reports to evaluate its past, future, and potential performance",
+              "text_ru": "Использовать финансовые отчеты компании для оценки её прошлых, будущих и потенциальных результатов"
+            }
+          ],
+          "correct_answer": "C",
+          "solution_en": "In financial statement analysis, a company's financial reports are used to evaluate its past, future, and potential performance. Option A is incorrect because financial statement analysis does not only provide information on whether a business should close its operations, but also how profitable it is, its financial ratios, etc. Option B is incorrect because it describes the role of financial reporting and not financial statement analysis.",
+          "solution_ru": "При анализе финансовой отчетности финансовые отчеты компании используются для оценки её прошлых, будущих и потенциальных результатов. Вариант A неверен, потому что анализ финансовой отчетности не только предоставляет информацию о том, должна ли компания закрыть свою деятельность, но также о её прибыльности, финансовых коэффициентах и т.д. Вариант B неверен, потому что он описывает роль финансовой отчетности, а не анализа финансовой отчетности."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_1c",
+      "los_code": "1c",
+      "los_description_en": "Describe the importance of regulatory filings, financial statement notes and supplementary information, management's commentary, and audit reports",
+      "los_description_ru": "Описать важность регуляторных отчетов, примечаний к финансовой отчетности и дополнительной информации, комментариев руководства и аудиторских отчетов",
+      "terms": [
+        {
+          "term_id": "FSA-1-012",
+          "term_en": "International Organization of Securities Commissions (IOSCO)",
+          "term_ru": "Международная организация комиссий по ценным бумагам (IOSCO)",
+          "definition_en": "An international organization founded in 1983 whose member jurisdictions oversee more than 95 percent of the world's financial markets, enabling global uniformity and promoting financial markets. IOSCO consists of ordinary members (securities commissions), associate members, and affiliate members.",
+          "definition_ru": "Международная организация, основанная в 1983 году, членские юрисдикции которой контролируют более 95 процентов мировых финансовых рынков, обеспечивая глобальную единообразность и продвижение финансовых рынков. IOSCO состоит из обычных членов (комиссии по ценным бумагам), ассоциированных членов и аффилированных членов.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-013",
+          "term_en": "IOSCO Core Objectives",
+          "term_ru": "Основные цели IOSCO",
+          "definition_en": "The three core objectives of IOSCO's principles of securities regulation: (1) investor protection, (2) ensuring fair, efficient, and transparent markets, and (3) systemic risk reduction.",
+          "definition_ru": "Три основные цели принципов регулирования ценных бумаг IOSCO: (1) защита инвесторов, (2) обеспечение справедливых, эффективных и прозрачных рынков, и (3) снижение системного риска.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-014",
+          "term_en": "US Securities and Exchange Commission (SEC)",
+          "term_ru": "Комиссия по ценным бумагам и биржам США (SEC)",
+          "definition_en": "An ordinary member of IOSCO that oversees US securities markets and securities. The SEC was established in response to reforms after the 1929 stock market crash. It enforces key statutes including the Securities Acts of 1933 and 1934, and the 2002 Sarbanes-Oxley Act.",
+          "definition_ru": "Обычный член IOSCO, который контролирует рынки ценных бумаг и ценные бумаги США. SEC была создана в ответ на реформы после краха фондового рынка 1929 года. Она применяет ключевые законы, включая Законы о ценных бумагах 1933 и 1934 годов, и Закон Сарбейнса-Оксли 2002 года.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-015",
+          "term_en": "Securities Act of 1933",
+          "term_ru": "Закон о ценных бумагах 1933 года",
+          "definition_en": "A key US statute that mandates the disclosure of financial and other essential information to investors during the sale of securities, forbids false statements, and necessitates the initial registration of all public securities offerings.",
+          "definition_ru": "Ключевой закон США, который требует раскрытия финансовой и другой существенной информации инвесторам во время продажи ценных бумаг, запрещает ложные заявления и требует первоначальной регистрации всех публичных предложений ценных бумаг.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-016",
+          "term_en": "Securities Exchange Act of 1934",
+          "term_ru": "Закон о биржах ценных бумаг 1934 года",
+          "definition_en": "A key US statute that established the SEC, granted the SEC regulatory authority over the entire securities industry, and authorized the SEC to mandate regular reporting from companies with publicly traded securities.",
+          "definition_ru": "Ключевой закон США, который учредил SEC, предоставил SEC регуляторные полномочия над всей индустрией ценных бумаг, и уполномочил SEC требовать регулярную отчетность от компаний с публично торгуемыми ценными бумагами.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-017",
+          "term_en": "Sarbanes-Oxley Act of 2002",
+          "term_ru": "Закон Сарбейнса-Оксли 2002 года",
+          "definition_en": "A key US statute that established the Public Company Accounting Oversight Board (PCAOB) to supervise auditors, focuses on auditor independence, enhances corporate accountability for financial reporting, and mandates management to evaluate and report on the effectiveness of internal controls over financial reporting.",
+          "definition_ru": "Ключевой закон США, который учредил Совет по надзору за бухгалтерским учетом публичных компаний (PCAOB) для надзора за аудиторами, фокусируется на независимости аудиторов, усиливает корпоративную ответственность за финансовую отчетность и требует от руководства оценивать и отчитываться об эффективности внутреннего контроля над финансовой отчетностью.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-018",
+          "term_en": "Form 10-K",
+          "term_ru": "Форма 10-K",
+          "definition_en": "An annual SEC filing required from US registrants that must include information on the company's business, risks, financial disclosures, legal proceedings, and management.",
+          "definition_ru": "Ежегодный отчет SEC, требуемый от регистрантов США, который должен включать информацию о бизнесе компании, рисках, финансовых раскрытиях, судебных разбирательствах и руководстве.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-019",
+          "term_en": "Form 10-Q",
+          "term_ru": "Форма 10-Q",
+          "definition_en": "A quarterly SEC filing required from US companies that includes unaudited financial statements and MD&A for the interim period. It should also include certain non-recurring events, such as significant litigation or adoption of a new accounting policy.",
+          "definition_ru": "Квартальный отчет SEC, требуемый от компаний США, который включает неаудированную финансовую отчетность и MD&A за промежуточный период. Он также должен включать определенные неповторяющиеся события, такие как значительные судебные разбирательства или принятие новой учетной политики.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-020",
+          "term_en": "Form 8-K",
+          "term_ru": "Форма 8-K",
+          "definition_en": "An SEC filing (also called 'current report') used to announce material corporate events more frequently than annual and interim reports. SEC registrants must report material and corporate events on Form 8-K (6-K for non-US registrants).",
+          "definition_ru": "Отчет SEC (также называемый 'текущий отчет'), используемый для объявления существенных корпоративных событий чаще, чем годовые и промежуточные отчеты. Регистранты SEC должны сообщать о существенных и корпоративных событиях по форме 8-K (6-K для не-американских регистрантов).",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-021",
+          "term_en": "Financial Statement Notes (Footnotes)",
+          "term_ru": "Примечания к финансовой отчетности (сноски)",
+          "definition_en": "A crucial component of regulatory filings providing extensive disclosures essential for understanding the financial statements. Notes detail the basis of preparation, accounting policies, methods and estimates, segment reporting, business acquisitions and disposals, contractual obligations, financial instruments and risks, legal proceedings, related-party transactions, and subsequent events.",
+          "definition_ru": "Критически важный компонент регуляторных отчетов, предоставляющий обширные раскрытия, существенные для понимания финансовой отчетности. Примечания детализируют основу подготовки, учетную политику, методы и оценки, сегментную отчетность, приобретения и продажи бизнеса, договорные обязательства, финансовые инструменты и риски, судебные разбирательства, сделки со связанными сторонами и последующие события.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-022",
+          "term_en": "Operating Segment",
+          "term_ru": "Операционный сегмент",
+          "definition_en": "A component of a company that: (1) engages in activities that generate revenue and incur expenses, including start-up segments that have yet to earn revenues, (2) has its results regularly reviewed by the company's senior management, and (3) has available discrete financial information.",
+          "definition_ru": "Компонент компании, который: (1) занимается деятельностью, генерирующей доход и несущей расходы, включая стартап-сегменты, которые еще не получили доходы, (2) результаты которого регулярно рассматриваются высшим руководством компании, и (3) имеет доступную дискретную финансовую информацию.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-023",
+          "term_en": "Reportable Segment Criteria",
+          "term_ru": "Критерии отчетного сегмента",
+          "definition_en": "A company must disclose separate information for any operating segment that accounts for 10 percent or more of the combined operating segments' revenue, assets, or profit. If combined revenue from external customers for all reportable segments is less than 75 percent of total company revenue, additional segments must be identified until the 75 percent threshold is reached.",
+          "definition_ru": "Компания должна раскрывать отдельную информацию для любого операционного сегмента, который составляет 10 процентов или более от совокупного дохода, активов или прибыли операционных сегментов. Если совокупный доход от внешних клиентов для всех отчетных сегментов составляет менее 75 процентов от общего дохода компании, должны быть определены дополнительные сегменты, пока не будет достигнут порог в 75 процентов.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-024",
+          "term_en": "Management Discussion and Analysis (MD&A)",
+          "term_ru": "Обсуждение и анализ руководства (MD&A)",
+          "definition_en": "A critical section of a public company's annual report (usually unaudited) that provides a platform for management to discuss various aspects of the company, including business operations, risk management strategies, planned capital expenditures, and future outlook. It covers trends, events and uncertainties affecting liquidity, capital resources, and operational outcomes.",
+          "definition_ru": "Критически важный раздел годового отчета публичной компании (обычно неаудированный), который предоставляет платформу для обсуждения руководством различных аспектов компании, включая бизнес-операции, стратегии управления рисками, запланированные капитальные расходы и будущие перспективы. Охватывает тренды, события и неопределенности, влияющие на ликвидность, капитальные ресурсы и операционные результаты.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-025",
+          "term_en": "Audit Report",
+          "term_ru": "Аудиторский отчет",
+          "definition_en": "A written opinion provided by an independent accounting firm on a company's financial statements. The standard audit report typically has three paragraphs: (1) introductory - describes financial statements and responsibilities of management and auditor, (2) scope - describes audit process and basis for reasonable assurance, and (3) opinion - gives auditor's assessment of financial statements' fairness.",
+          "definition_ru": "Письменное заключение, предоставляемое независимой аудиторской фирмой о финансовой отчетности компании. Стандартный аудиторский отчет обычно имеет три параграфа: (1) вводный - описывает финансовую отчетность и обязанности руководства и аудитора, (2) область - описывает процесс аудита и основу для разумной уверенности, и (3) заключение - дает оценку аудитора справедливости финансовой отчетности.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-026",
+          "term_en": "Unqualified Audit Opinion",
+          "term_ru": "Безоговорочно положительное аудиторское заключение",
+          "definition_en": "An audit opinion indicating that the financial statements are fairly presented under accounting standards. This is the most favorable type of audit opinion.",
+          "definition_ru": "Аудиторское заключение, указывающее, что финансовая отчетность справедливо представлена в соответствии с бухгалтерскими стандартами. Это наиболее благоприятный тип аудиторского заключения.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-027",
+          "term_en": "Qualified Audit Opinion",
+          "term_ru": "Условно положительное аудиторское заключение",
+          "definition_en": "An audit opinion indicating some limitation to the audit's scope or an exception to the accounting standards.",
+          "definition_ru": "Аудиторское заключение, указывающее на некоторое ограничение области аудита или исключение из бухгалтерских стандартов.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-028",
+          "term_en": "Adverse Audit Opinion",
+          "term_ru": "Отрицательное аудиторское заключение",
+          "definition_en": "An audit opinion indicating that the independent auditor has determined that the financial statements are not fairly presented and materially depart from accounting standards.",
+          "definition_ru": "Аудиторское заключение, указывающее, что независимый аудитор определил, что финансовая отчетность не представлена справедливо и существенно отклоняется от бухгалтерских стандартов.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-029",
+          "term_en": "Disclaimer of Opinion",
+          "term_ru": "Отказ от выражения мнения",
+          "definition_en": "An audit opinion indicating that the auditor cannot issue an audit opinion for one reason or another, such as significant scope limitations.",
+          "definition_ru": "Аудиторское заключение, указывающее, что аудитор не может выразить аудиторское мнение по той или иной причине, например, из-за значительных ограничений области аудита.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-030",
+          "term_en": "Key Audit Matters (Critical Audit Matters)",
+          "term_ru": "Ключевые вопросы аудита (Критические вопросы аудита)",
+          "definition_en": "Issues that the auditor considers most important for listed companies, such as those with higher risk of misstatement, involving significant management judgment, or reporting effects of significant transactions. In the US, these are called Critical Audit Matters and refer to issues involving 'especially challenging, subjective, or complex auditor judgment.'",
+          "definition_ru": "Вопросы, которые аудитор считает наиболее важными для листинговых компаний, такие как вопросы с более высоким риском искажения, включающие значительное профессиональное суждение руководства, или отражающие эффекты значительных транзакций. В США они называются Критическими вопросами аудита и относятся к вопросам, включающим 'особенно сложное, субъективное или комплексное профессиональное суждение аудитора.'",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "FSA-1-EX-002",
+          "question_en": "Information on a company's results of operations, planned capital expenditure, and future outlook is usually found in which of the following?",
+          "question_ru": "Информация о результатах деятельности компании, запланированных капитальных расходах и будущих перспективах обычно находится в каком из следующих документов?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Auditor's report",
+              "text_ru": "Аудиторский отчет"
+            },
+            {
+              "letter": "B",
+              "text_en": "Management commentary",
+              "text_ru": "Комментарий руководства"
+            },
+            {
+              "letter": "C",
+              "text_en": "Notes to the financial statements",
+              "text_ru": "Примечания к финансовой отчетности"
+            }
+          ],
+          "correct_answer": "B",
+          "solution_en": "In a management commentary, a company's management discusses matters of concern to the company, such as the results of its operations, risk strategies employed, planned capital expenditure, and future outlook. Options A and C typically do not report this information.",
+          "solution_ru": "В комментарии руководства менеджмент компании обсуждает вопросы, касающиеся компании, такие как результаты её деятельности, применяемые стратегии управления рисками, запланированные капитальные расходы и будущие перспективы. Варианты A и C обычно не отражают эту информацию."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_1d",
+      "los_code": "1d",
+      "los_description_en": "Describe implications for financial analysis of alternative financial reporting systems and the importance of monitoring developments in financial reporting standards",
+      "los_description_ru": "Описать последствия для финансового анализа альтернативных систем финансовой отчетности и важность мониторинга развития стандартов финансовой отчетности",
+      "terms": [
+        {
+          "term_id": "FSA-1-031",
+          "term_en": "US GAAP vs IFRS - Basis",
+          "term_ru": "US GAAP против IFRS - Основа",
+          "definition_en": "US GAAP (developed by FASB) is rules-based, while IFRS (developed by IASB) is principles-based. This fundamental difference affects how companies report their financial statements.",
+          "definition_ru": "US GAAP (разработан FASB) основан на правилах, в то время как IFRS (разработан IASB) основан на принципах. Это фундаментальное различие влияет на то, как компании представляют свою финансовую отчетность.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-032",
+          "term_en": "US GAAP vs IFRS - Inventory",
+          "term_ru": "US GAAP против IFRS - Запасы",
+          "definition_en": "Key difference: US GAAP permits LIFO, FIFO, and Weighted Average Method for inventory valuation, and prohibits inventory write-down reversal. IFRS permits only Weighted Average Method and FIFO, and allows inventory write-down reversal if certain conditions are met.",
+          "definition_ru": "Ключевое различие: US GAAP разрешает LIFO, FIFO и метод средневзвешенной стоимости для оценки запасов, и запрещает восстановление уценки запасов. IFRS разрешает только метод средневзвешенной стоимости и FIFO, и разрешает восстановление уценки запасов, если выполняются определенные условия.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-033",
+          "term_en": "US GAAP vs IFRS - Development Costs",
+          "term_ru": "US GAAP против IFRS - Затраты на разработку",
+          "definition_en": "Under US GAAP, development costs are expensed. Under IFRS, development costs are capitalized if they meet the criteria for capitalization.",
+          "definition_ru": "Согласно US GAAP, затраты на разработку относятся на расходы. Согласно IFRS, затраты на разработку капитализируются, если они соответствуют критериям капитализации.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-034",
+          "term_en": "US GAAP vs IFRS - Interest Paid Classification",
+          "term_ru": "US GAAP против IFRS - Классификация выплаченных процентов",
+          "definition_en": "Under US GAAP, interest paid is classified as cash flows from operating activities. Under IFRS, interest paid can be classified as either cash flows from operating activities or cash flows from financing activities.",
+          "definition_ru": "Согласно US GAAP, выплаченные проценты классифицируются как денежные потоки от операционной деятельности. Согласно IFRS, выплаченные проценты могут быть классифицированы либо как денежные потоки от операционной деятельности, либо как денежные потоки от финансовой деятельности.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-035",
+          "term_en": "Global Convergence of Accounting Standards",
+          "term_ru": "Глобальная конвергенция стандартов бухгалтерского учета",
+          "definition_en": "The goal advanced by adoption of IFRS in many countries outside the US as the required financial reporting standard. However, differences still exist between US GAAP and IFRS that affect how companies report their financial statements. Analysts comparing companies using different standards must be aware of areas where standards have not converged.",
+          "definition_ru": "Цель, продвигаемая принятием IFRS во многих странах за пределами США в качестве требуемого стандарта финансовой отчетности. Однако различия все еще существуют между US GAAP и IFRS, которые влияют на то, как компании представляют свою финансовую отчетность. Аналитики, сравнивающие компании, использующие разные стандарты, должны знать об областях, где стандарты не конвергировали.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-036",
+          "term_en": "Monitoring Financial Reporting Standards",
+          "term_ru": "Мониторинг стандартов финансовой отчетности",
+          "definition_en": "Analysts should monitor developments in financial reporting standards from a user perspective (not preparer's perspective). They can stay informed by keeping tabs on actions of standard setters (FASB and IASB), new products and transactions, and company disclosures of critical estimates and accounting policies. Regulatory changes can impact companies' financial reports and valuations.",
+          "definition_ru": "Аналитики должны отслеживать развитие стандартов финансовой отчетности с позиции пользователя (а не составителя). Они могут оставаться информированными, следя за действиями разработчиков стандартов (FASB и IASB), новыми продуктами и транзакциями, и раскрытиями компаний о критических оценках и учетной политике. Регуляторные изменения могут влиять на финансовые отчеты и оценки компаний.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "FSA-1-EX-003",
+          "question_en": "Analysts are advised to monitor developments in financial reporting standards primarily from a:",
+          "question_ru": "Аналитикам рекомендуется отслеживать развитие стандартов финансовой отчетности прежде всего с позиции:",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Preparer's perspective to ensure accurate implementation",
+              "text_ru": "Составителя для обеспечения точной реализации"
+            },
+            {
+              "letter": "B",
+              "text_en": "Legal perspective to avoid regulatory discrepancies",
+              "text_ru": "Юридической для избежания регуляторных расхождений"
+            },
+            {
+              "letter": "C",
+              "text_en": "User perspective to understand their impact on financial reports",
+              "text_ru": "Пользователя для понимания их влияния на финансовые отчеты"
+            }
+          ],
+          "correct_answer": "C",
+          "solution_en": "Analysts monitor the development of financial reporting standards from a user perspective. Accountants monitor developments in financial reporting standards from a preparer's perspective.",
+          "solution_ru": "Аналитики отслеживают развитие стандартов финансовой отчетности с позиции пользователя. Бухгалтеры отслеживают развитие стандартов финансовой отчетности с позиции составителя."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_1e",
+      "los_code": "1e",
+      "los_description_en": "Describe information sources that analysts use in financial statement analysis besides annual and interim financial reports",
+      "los_description_ru": "Описать источники информации, которые аналитики используют при анализе финансовой отчетности помимо годовых и промежуточных финансовых отчетов",
+      "terms": [
+        {
+          "term_id": "FSA-1-037",
+          "term_en": "Issuer Sources of Information",
+          "term_ru": "Источники информации от эмитента",
+          "definition_en": "Information sources provided directly by the company, including: earnings calls (webcasts or teleconferences to discuss financial results), presentations and events, press releases, speaking with company personnel/investor relations/management, and company properties or websites that analysts can visit as investors or customers.",
+          "definition_ru": "Источники информации, предоставляемые непосредственно компанией, включая: звонки о прибыли (веб-трансляции или телеконференции для обсуждения финансовых результатов), презентации и события, пресс-релизы, общение с персоналом компании/инвесторскими отношениями/руководством, и объекты или веб-сайты компании, которые аналитики могут посетить как инвесторы или клиенты.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-038",
+          "term_en": "Public Third-party Sources",
+          "term_ru": "Публичные источники третьих лиц",
+          "definition_en": "Publicly available information from external sources, including: free analyst reports or industry whitepapers, industry or economic indicators from governments, general and industry-specific news outlets, and social media.",
+          "definition_ru": "Публично доступная информация из внешних источников, включая: бесплатные отчеты аналитиков или отраслевые white papers, отраслевые или экономические индикаторы от правительств, общие и отраслевые новостные источники, и социальные медиа.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-039",
+          "term_en": "Proprietary Third-party Sources",
+          "term_ru": "Проприетарные источники третьих лиц",
+          "definition_en": "Paid or subscription-based information from external providers, including: analyst communications and reports, data and reports from platforms such as FactSet, and data and reports from industry-specific consultancies.",
+          "definition_ru": "Платная или подписочная информация от внешних поставщиков, включая: коммуникации и отчеты аналитиков, данные и отчеты с платформ, таких как FactSet, и данные и отчеты от отраслевых консалтинговых компаний.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-040",
+          "term_en": "Proprietary Primary Research",
+          "term_ru": "Проприетарные первичные исследования",
+          "definition_en": "Original research conducted or commissioned by the analyst, including: product comparisons, surveys, and conversations conducted directly or commissioned by an analyst. This type of research helps analysts gain unique insights beyond publicly available information.",
+          "definition_ru": "Оригинальные исследования, проведенные или заказанные аналитиком, включая: сравнения продуктов, опросы и беседы, проведенные непосредственно или заказанные аналитиком. Этот тип исследований помогает аналитикам получить уникальные инсайты помимо публично доступной информации.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-1-041",
+          "term_en": "Earnings Calls",
+          "term_ru": "Звонки о прибыли",
+          "definition_en": "Webcasts or teleconferences hosted by issuers to discuss financial results. Media, analysts, and investors are the primary audience. Analysts ask probing questions to understand past actions and results and to sharpen their estimates for future performance.",
+          "definition_ru": "Веб-трансляции или телеконференции, проводимые эмитентами для обсуждения финансовых результатов. Медиа, аналитики и инвесторы являются основной аудиторией. Аналитики задают зондирующие вопросы, чтобы понять прошлые действия и результаты и уточнить свои оценки будущих результатов.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "FSA-1-EX-004",
+          "question_en": "Information sources for financial statement analysis can be categorized into different origins. Which of the following options represents an example of a 'proprietary third-party source'?",
+          "question_ru": "Источники информации для анализа финансовой отчетности могут быть категоризированы по разным происхождениям. Какой из следующих вариантов представляет пример 'проприетарного источника третьей стороны'?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Earning calls hosted by the company",
+              "text_ru": "Звонки о прибыли, проводимые компанией"
+            },
+            {
+              "letter": "B",
+              "text_en": "Data and reports from industry-specific consultancies",
+              "text_ru": "Данные и отчеты от отраслевых консалтинговых компаний"
+            },
+            {
+              "letter": "C",
+              "text_en": "Conducting surveys and conversations commissioned by an analyst",
+              "text_ru": "Проведение опросов и бесед, заказанных аналитиком"
+            }
+          ],
+          "correct_answer": "B",
+          "solution_en": "Data and reports from industry-specific consultancies is an example of proprietary third-party source. Option A is an issuer source of information. Option C is proprietary primary research.",
+          "solution_ru": "Данные и отчеты от отраслевых консалтинговых компаний являются примером проприетарного источника третьей стороны. Вариант A является источником информации от эмитента. Вариант C является проприетарным первичным исследованием."
+        },
+        {
+          "exercise_id": "FSA-1-EX-005",
+          "question_en": "In which step of the financial statement analysis framework would performing sensitivity analysis most likely be involved?",
+          "question_ru": "На каком этапе структуры анализа финансовой отчетности наиболее вероятно выполнение анализа чувствительности?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Follow-up",
+              "text_ru": "Мониторинг"
+            },
+            {
+              "letter": "B",
+              "text_en": "Processing data",
+              "text_ru": "Обработка данных"
+            },
+            {
+              "letter": "C",
+              "text_en": "Collecting input data",
+              "text_ru": "Сбор входных данных"
+            }
+          ],
+          "correct_answer": "B",
+          "solution_en": "In the financial statement analysis framework, performing sensitivity analysis is most appropriately categorized under the step of 'Processing Data.' Sensitivity analysis is a technique used to assess the impact of changes in input variables on the outcome of a financial model. It involves manipulating and analyzing the collected data to gain deeper insights. Option A (Follow-up) is concerned with reviewing conclusions over time. Option C (Collecting input data) precedes data processing and does not encompass analytical techniques.",
+          "solution_ru": "В структуре анализа финансовой отчетности выполнение анализа чувствительности наиболее правильно категоризируется на этапе 'Обработка данных.' Анализ чувствительности - это техника, используемая для оценки влияния изменений входных переменных на результат финансовой модели. Он включает манипулирование и анализ собранных данных для получения более глубоких инсайтов. Вариант A (Мониторинг) касается пересмотра выводов со временем. Вариант C (Сбор входных данных) предшествует обработке данных и не включает аналитические техники."
+        }
+      ]
+    }
+  ]
+}
