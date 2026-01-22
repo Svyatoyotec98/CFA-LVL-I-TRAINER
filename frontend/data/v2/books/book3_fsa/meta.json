@@ -90,11 +90,13 @@
       "question_range": "163-206",
       "los_codes": [
         "LOS_6a",
-        "LOS_6b"
+        "LOS_6b",
+        "LOS_6c"
       ],
       "module_name_ru": "Analysis of Long-Lived Assets",
       "glossary_file": "glossary_module_6.json",
-      "status": "pending"
+      "qbank_file": "qbank_module_6.json",
+      "status": "complete"
     },
     {
       "module_id": 7,
