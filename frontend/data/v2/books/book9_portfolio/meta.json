@@ -3,7 +3,7 @@
   "book_code": "PM",
   "book_name": "Portfolio Management",
   "book_name_ru": "Управление портфелем",
-  "total_modules": 5,
+  "total_modules": 6,
   "modules": [
     {
       "module_id": 1,
@@ -33,7 +33,7 @@
     },
     {
       "module_id": 3,
-      "module_name": "Basics of Portfolio Planning and Construction",
+      "module_name": "Portfolio Management Overview",
       "page_range": "63-104",
       "question_range": "94-113",
       "los_codes": [
@@ -46,7 +46,7 @@
     },
     {
       "module_id": 4,
-      "module_name": "Introduction to Risk Management",
+      "module_name": "Basics of Portfolio Planning and Construction",
       "page_range": "105-125",
       "question_range": "114-160",
       "los_codes": [
@@ -59,7 +59,7 @@
     },
     {
       "module_id": 5,
-      "module_name": "Fintech in Investment Management",
+      "module_name": "The Behavioral Biases of Individuals",
       "page_range": "126-152",
       "question_range": "161-181,182-216",
       "los_codes": [
@@ -68,6 +68,20 @@
       ],
       "module_name_ru": "Финтех в управлении инвестициями",
       "glossary_file": "glossary_module_5.json",
+      "status": "pending"
+    },
+    {
+      "module_id": 6,
+      "module_name": "Introduction to Risk Management",
+      "page_range": "126-152",
+      "question_range": "181-216",
+      "los_codes": [
+        "LOS_6a",
+        "LOS_6b"
+      ],
+      "module_name_ru": "Introduction to Risk Management",
+      "glossary_file": "glossary_module_6.json",
+      "qbank_file": "qbank_module_6.json",
       "status": "pending"
     }
   ]
