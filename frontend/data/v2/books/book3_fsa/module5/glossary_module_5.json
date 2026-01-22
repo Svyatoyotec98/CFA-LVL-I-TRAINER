@@ -1,0 +1,601 @@
+{
+  "metadata": {
+    "book_id": 3,
+    "book_code": "FSA",
+    "book_name": "Financial Statement Analysis",
+    "book_name_ru": "Анализ финансовой отчетности",
+    "module_id": 5,
+    "module_name": "Analysis of Inventories",
+    "module_name_ru": "Анализ запасов",
+    "page_range": "114-129",
+    "total_terms": 28,
+    "total_exercises": 3,
+    "version": "2.0",
+    "last_updated": "2026-01-22"
+  },
+  "los": [
+    {
+      "los_id": "LOS_5a",
+      "los_code": "5a",
+      "los_description_en": "Describe and compare inventory valuation methods (cost formulas)",
+      "los_description_ru": "Описывать и сравнивать методы оценки запасов (формулы стоимости)",
+      "terms": [
+        {
+          "term_id": "FSA-5-001",
+          "term_en": "Inventory",
+          "term_ru": "Запасы",
+          "definition_en": "Assets that are held for sale in the ordinary course of business, in the process of production for such sale, or to be consumed in the production of goods or services. Inventory is a current asset on the balance sheet.",
+          "definition_ru": "Активы, которые удерживаются для продажи в ходе обычной деятельности, находятся в процессе производства для такой продажи или должны быть потреблены в производстве товаров или услуг. Запасы являются оборотным активом в балансе.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-5-002",
+          "term_en": "Cost of Goods Sold (COGS)",
+          "term_ru": "Себестоимость проданных товаров",
+          "definition_en": "The direct costs attributable to the production of goods sold by a company. This includes the cost of materials and direct labor used in creating the good. COGS appears on the income statement and is deducted from revenue to calculate gross profit.",
+          "definition_ru": "Прямые затраты, относящиеся к производству товаров, проданных компанией. Включает стоимость материалов и прямого труда, используемых при создании товара. Себестоимость появляется в отчете о прибылях и убытках и вычитается из выручки для расчета валовой прибыли.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-5-003",
+          "term_en": "Inventory Cost Flow Assumptions",
+          "term_ru": "Допущения о потоке затрат в запасах",
+          "definition_en": "Assumptions about the flow of inventory costs that determine how COGS and ending inventory are calculated. The three main methods are FIFO (First-In, First-Out), LIFO (Last-In, First-Out), and Weighted Average Cost. The choice of method affects both the income statement and balance sheet.",
+          "definition_ru": "Допущения о потоке затрат на запасы, которые определяют, как рассчитываются себестоимость и конечные запасы. Три основных метода: FIFO (первым пришел - первым ушел), LIFO (последним пришел - первым ушел) и средневзвешенная стоимость. Выбор метода влияет как на отчет о прибылях и убытках, так и на баланс.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-5-004",
+          "term_en": "FIFO (First-In, First-Out)",
+          "term_ru": "FIFO (первым пришел - первым ушел)",
+          "definition_en": "An inventory valuation method that assumes the first goods purchased or produced are the first ones sold. Under FIFO, ending inventory consists of the most recently acquired goods, while COGS reflects the cost of the oldest inventory. During periods of rising prices, FIFO results in lower COGS, higher gross profit, higher net income, and higher ending inventory compared to LIFO.",
+          "definition_ru": "Метод оценки запасов, который предполагает, что первые приобретенные или произведенные товары продаются первыми. При FIFO конечные запасы состоят из самых недавно приобретенных товаров, в то время как себестоимость отражает стоимость самых старых запасов. В периоды роста цен FIFO приводит к более низкой себестоимости, более высокой валовой прибыли, более высокому чистому доходу и более высоким конечным запасам по сравнению с LIFO.",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-5-005",
+          "term_en": "LIFO (Last-In, First-Out)",
+          "term_ru": "LIFO (последним пришел - первым ушел)",
+          "definition_en": "An inventory valuation method that assumes the most recently purchased or produced goods are sold first. Under LIFO, COGS reflects the cost of the most recent inventory, while ending inventory consists of the oldest goods. During periods of rising prices, LIFO results in higher COGS, lower gross profit, lower net income, and lower ending inventory compared to FIFO. LIFO is permitted under US GAAP but prohibited under IFRS.",
+          "definition_ru": "Метод оценки запасов, который предполагает, что последние приобретенные или произведенные товары продаются первыми. При LIFO себестоимость отражает стоимость самых последних запасов, в то время как конечные запасы состоят из самых старых товаров. В периоды роста цен LIFO приводит к более высокой себестоимости, более низкой валовой прибыли, более низкому чистому доходу и более низким конечным запасам по сравнению с FIFO. LIFO разрешен по US GAAP, но запрещен по IFRS.",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-5-006",
+          "term_en": "Weighted Average Cost Method",
+          "term_ru": "Метод средневзвешенной стоимости",
+          "definition_en": "An inventory valuation method that calculates a weighted average cost per unit for all inventory available for sale during the period. This average cost is then used to determine both COGS and ending inventory. The weighted average method produces results between FIFO and LIFO during periods of changing prices. It is permitted under both US GAAP and IFRS.",
+          "definition_ru": "Метод оценки запасов, который рассчитывает средневзвешенную стоимость единицы для всех запасов, доступных для продажи в течение периода. Эта средняя стоимость затем используется для определения как себестоимости, так и конечных запасов. Метод средневзвешенной стоимости дает результаты между FIFO и LIFO в периоды изменения цен. Разрешен как по US GAAP, так и по IFRS.",
+          "type": "method",
+          "formula": "\\text{Weighted Average Cost} = \\frac{\\text{Cost of Goods Available for Sale}}{\\text{Units Available for Sale}}",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-5-007",
+          "term_en": "LIFO Reserve",
+          "term_ru": "Резерв LIFO",
+          "definition_en": "The difference between the inventory value under FIFO and under LIFO. Companies using LIFO must disclose the LIFO reserve in their financial statement footnotes. The LIFO reserve allows analysts to convert LIFO-based financial statements to a FIFO basis for comparison purposes. LIFO Reserve = FIFO Inventory − LIFO Inventory.",
+          "definition_ru": "Разница между стоимостью запасов по FIFO и по LIFO. Компании, использующие LIFO, должны раскрывать резерв LIFO в примечаниях к финансовой отчетности. Резерв LIFO позволяет аналитикам конвертировать финансовую отчетность на основе LIFO в основу FIFO для целей сравнения. Резерв LIFO = Запасы FIFO − Запасы LIFO.",
+          "type": "concept",
+          "formula": "\\text{LIFO Reserve} = \\text{FIFO Inventory} - \\text{LIFO Inventory}",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-5-008",
+          "term_en": "Converting LIFO to FIFO - Ending Inventory",
+          "term_ru": "Конвертация LIFO в FIFO - Конечные запасы",
+          "definition_en": "To convert ending inventory from LIFO to FIFO basis, add the LIFO reserve to the LIFO inventory value. This adjustment allows for better comparability between companies using different inventory methods.",
+          "definition_ru": "Для конвертации конечных запасов из LIFO в FIFO нужно добавить резерв LIFO к стоимости запасов по LIFO. Эта корректировка позволяет лучше сравнивать компании, использующие разные методы учета запасов.",
+          "type": "formula",
+          "formula": "\\text{Ending Inventory (FIFO)} = \\text{Ending Inventory (LIFO)} + \\text{LIFO Reserve}",
+          "formula_ref": null,
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Введите конечные запасы по LIFO [=]",
+              "2. Нажмите [+]",
+              "3. Введите значение LIFO Reserve [=]",
+              "4. Результат: Конечные запасы по FIFO"
+            ],
+            "example": {
+              "given": "LIFO Inventory = $50,000, LIFO Reserve = $8,000",
+              "input": "50000 + 8000 =",
+              "result": "FIFO Inventory = $58,000"
+            }
+          }
+        },
+        {
+          "term_id": "FSA-5-009",
+          "term_en": "Converting LIFO to FIFO - COGS",
+          "term_ru": "Конвертация LIFO в FIFO - Себестоимость",
+          "definition_en": "To convert COGS from LIFO to FIFO basis, subtract the change in LIFO reserve during the period from LIFO COGS. If LIFO reserve increased, FIFO COGS will be lower than LIFO COGS. Formula: COGS (FIFO) = COGS (LIFO) − ΔLIFO Reserve.",
+          "definition_ru": "Для конвертации себестоимости из LIFO в FIFO нужно вычесть изменение резерва LIFO за период из себестоимости по LIFO. Если резерв LIFO увеличился, себестоимость по FIFO будет ниже, чем по LIFO. Формула: Себестоимость (FIFO) = Себестоимость (LIFO) − Δ Резерв LIFO.",
+          "type": "formula",
+          "formula": "\\text{COGS (FIFO)} = \\text{COGS (LIFO)} - \\Delta\\text{LIFO Reserve}",
+          "formula_ref": null,
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Введите COGS по LIFO [=]",
+              "2. Нажмите [-]",
+              "3. Введите изменение LIFO Reserve за период [=]",
+              "4. Результат: COGS по FIFO"
+            ],
+            "example": {
+              "given": "COGS (LIFO) = $100,000, ΔLIFO Reserve = +$5,000",
+              "input": "100000 - 5000 =",
+              "result": "COGS (FIFO) = $95,000"
+            }
+          }
+        },
+        {
+          "term_id": "FSA-5-010",
+          "term_en": "Converting LIFO to FIFO - Net Income",
+          "term_ru": "Конвертация LIFO в FIFO - Чистый доход",
+          "definition_en": "To convert net income from LIFO to FIFO basis, add the change in LIFO reserve multiplied by (1 − tax rate) to LIFO net income. This adjustment reflects the after-tax impact of the COGS difference. Formula: NI (FIFO) = NI (LIFO) + ΔLIFO Reserve × (1 − t).",
+          "definition_ru": "Для конвертации чистого дохода из LIFO в FIFO нужно добавить изменение резерва LIFO, умноженное на (1 − ставка налога), к чистому доходу по LIFO. Эта корректировка отражает воздействие разницы в себестоимости после налогообложения. Формула: ЧД (FIFO) = ЧД (LIFO) + Δ Резерв LIFO × (1 − t).",
+          "type": "formula",
+          "formula": "\\text{Net Income (FIFO)} = \\text{Net Income (LIFO)} + \\Delta\\text{LIFO Reserve} \\times (1 - \\text{Tax Rate})",
+          "formula_ref": null,
+          "calculator": {
+            "method": "BA II Plus: Multi-step Calculation",
+            "steps_ru": [
+              "1. Рассчитайте налоговый множитель: 1 − ставка налога [=] [STO] [1]",
+              "2. Введите изменение LIFO Reserve [×] [RCL] [1] [=]",
+              "3. Добавьте NI по LIFO: [+] {NI_LIFO} [=]",
+              "4. Результат: NI по FIFO"
+            ],
+            "example": {
+              "given": "NI (LIFO) = $50,000, ΔLIFO Reserve = +$5,000, Tax Rate = 30%",
+              "input": "1 - 0.30 = 0.70 STO 1, 5000 × RCL 1 = 3500, + 50000 =",
+              "result": "NI (FIFO) = $53,500"
+            }
+          }
+        },
+        {
+          "term_id": "FSA-5-011",
+          "term_en": "Ending Inventory Formula",
+          "term_ru": "Формула конечных запасов",
+          "definition_en": "The basic inventory equation relates beginning inventory, purchases, cost of goods sold, and ending inventory. Ending Inventory = Beginning Inventory + Purchases − COGS. This formula is fundamental to understanding inventory movements and is used regardless of the cost flow assumption method.",
+          "definition_ru": "Основное уравнение запасов связывает начальные запасы, покупки, себестоимость проданных товаров и конечные запасы. Конечные Запасы = Начальные Запасы + Покупки − Себестоимость. Эта формула является основой для понимания движения запасов и используется независимо от метода допущений о потоке затрат.",
+          "type": "formula",
+          "formula": "\\text{Ending Inventory} = \\text{Beginning Inventory} + \\text{Purchases} - \\text{COGS}",
+          "formula_ref": null,
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Введите начальные запасы [=]",
+              "2. Нажмите [+] и введите покупки [=]",
+              "3. Нажмите [-] и введите COGS [=]",
+              "4. Результат: Конечные запасы"
+            ],
+            "example": {
+              "given": "Beginning Inventory = $20,000, Purchases = $100,000, COGS = $95,000",
+              "input": "20000 + 100000 - 95000 =",
+              "result": "Ending Inventory = $25,000"
+            }
+          }
+        },
+        {
+          "term_id": "FSA-5-012",
+          "term_en": "US GAAP vs IFRS - Inventory Methods",
+          "term_ru": "US GAAP против IFRS - Методы учета запасов",
+          "definition_en": "Under US GAAP, companies may use FIFO, LIFO, weighted average, or specific identification methods. Under IFRS, LIFO is NOT permitted; only FIFO, weighted average, and specific identification are allowed. This difference can make financial statement comparisons between US and international companies challenging.",
+          "definition_ru": "По US GAAP компании могут использовать методы FIFO, LIFO, средневзвешенной стоимости или специфической идентификации. По IFRS LIFO НЕ разрешен; разрешены только FIFO, средневзвешенная стоимость и специфическая идентификация. Эта разница может усложнить сравнение финансовой отчетности между американскими и международными компаниями.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-5-013",
+          "term_en": "Specific Identification Method",
+          "term_ru": "Метод специфической идентификации",
+          "definition_en": "An inventory valuation method where each inventory item is tracked individually from purchase to sale. This method is used for high-value, unique items such as automobiles, jewelry, or real estate. Each item's actual cost is matched with its revenue when sold. While providing the most accurate inventory valuation, it is impractical for companies with large quantities of similar items.",
+          "definition_ru": "Метод оценки запасов, при котором каждая единица запасов отслеживается индивидуально от покупки до продажи. Этот метод используется для уникальных товаров высокой стоимости, таких как автомобили, ювелирные изделия или недвижимость. Фактическая стоимость каждого товара сопоставляется с его выручкой при продаже. Хотя этот метод обеспечивает наиболее точную оценку запасов, он непрактичен для компаний с большим количеством однородных товаров.",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-5-014",
+          "term_en": "Lower of Cost or Net Realizable Value (LCNRV)",
+          "term_ru": "Наименьшая из себестоимости и чистой стоимости реализации",
+          "definition_en": "Under IFRS, inventory must be valued at the lower of cost or net realizable value (NRV). Net realizable value is the estimated selling price less costs to complete and sell. If NRV falls below cost due to damage, obsolescence, or declining prices, inventory must be written down. Unlike US GAAP's lower of cost or market rule, IFRS allows reversals of previous writedowns if NRV subsequently increases.",
+          "definition_ru": "По IFRS запасы должны оцениваться по наименьшей из себестоимости и чистой стоимости реализации (NRV). Чистая стоимость реализации - это предполагаемая продажная цена за вычетом затрат на завершение и продажу. Если NRV падает ниже себестоимости из-за повреждения, устаревания или снижения цен, запасы должны быть списаны. В отличие от правила US GAAP о наименьшей из себестоимости и рыночной стоимости, IFRS разрешает восстановление предыдущих списаний, если NRV впоследствии увеличивается.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "FSA-5-EX-001",
+          "question_en": "Which inventory valuation method is NOT permitted under IFRS?",
+          "question_ru": "Какой метод оценки запасов НЕ разрешен по IFRS?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "FIFO (First-In, First-Out)",
+              "text_ru": "FIFO (первым пришел - первым ушел)"
+            },
+            {
+              "letter": "B",
+              "text_en": "LIFO (Last-In, First-Out)",
+              "text_ru": "LIFO (последним пришел - первым ушел)"
+            },
+            {
+              "letter": "C",
+              "text_en": "Weighted Average Cost",
+              "text_ru": "Средневзвешенная стоимость"
+            }
+          ],
+          "correct_answer": "B",
+          "solution_en": "LIFO (Last-In, First-Out) is NOT permitted under IFRS. IFRS only allows FIFO, weighted average cost, and specific identification methods for inventory valuation. However, LIFO is permitted under US GAAP. This difference in accounting standards can make comparisons between US and international companies challenging.",
+          "solution_ru": "LIFO (последним пришел - первым ушел) НЕ разрешен по IFRS. IFRS разрешает только методы FIFO, средневзвешенной стоимости и специфической идентификации для оценки запасов. Однако LIFO разрешен по US GAAP. Эта разница в стандартах бухгалтерского учета может затруднить сравнение американских и международных компаний."
+        },
+        {
+          "exercise_id": "FSA-5-EX-002",
+          "question_en": "During a period of rising prices, which inventory method will result in the highest net income?",
+          "question_ru": "В период роста цен какой метод учета запасов приведет к наибольшему чистому доходу?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "FIFO",
+              "text_ru": "FIFO"
+            },
+            {
+              "letter": "B",
+              "text_en": "LIFO",
+              "text_ru": "LIFO"
+            },
+            {
+              "letter": "C",
+              "text_en": "Weighted Average",
+              "text_ru": "Средневзвешенный"
+            }
+          ],
+          "correct_answer": "A",
+          "solution_en": "During a period of rising prices (inflation), FIFO will result in the highest net income. Under FIFO, the oldest (and cheapest) inventory is expensed first, resulting in lower COGS, higher gross profit, and higher net income. LIFO would expense the newest (most expensive) inventory first, resulting in higher COGS and lower net income. Weighted average would produce results between FIFO and LIFO.",
+          "solution_ru": "В период роста цен (инфляции) FIFO приведет к наибольшему чистому доходу. При FIFO самые старые (и самые дешевые) запасы списываются первыми, что приводит к более низкой себестоимости, более высокой валовой прибыли и более высокому чистому доходу. LIFO списывает самые новые (самые дорогие) запасы первыми, что приводит к более высокой себестоимости и более низкому чистому доходу. Средневзвешенный метод дает результаты между FIFO и LIFO."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_5b",
+      "los_code": "5b",
+      "los_description_en": "Calculate and interpret activity, liquidity, and profitability ratios related to inventory",
+      "los_description_ru": "Рассчитывать и интерпретировать показатели активности, ликвидности и рентабельности, связанные с запасами",
+      "terms": [
+        {
+          "term_id": "FSA-5-015",
+          "term_en": "Inventory Turnover Ratio",
+          "term_ru": "Коэффициент оборачиваемости запасов",
+          "definition_en": "A ratio that measures how many times a company's inventory is sold and replaced during a period. Higher turnover indicates efficient inventory management and strong sales. Formula: Inventory Turnover = COGS / Average Inventory. Average inventory is calculated as (Beginning Inventory + Ending Inventory) / 2.",
+          "definition_ru": "Коэффициент, измеряющий, сколько раз запасы компании продаются и заменяются в течение периода. Более высокая оборачиваемость указывает на эффективное управление запасами и сильные продажи. Формула: Оборачиваемость запасов = Себестоимость / Средние запасы. Средние запасы рассчитываются как (Начальные запасы + Конечные запасы) / 2.",
+          "type": "formula",
+          "formula": "\\text{Inventory Turnover} = \\frac{\\text{COGS}}{\\text{Average Inventory}}",
+          "formula_ref": "FRA-RATIO-009",
+          "variables": [
+            {
+              "symbol": "\\text{COGS}",
+              "name_en": "Cost of Goods Sold",
+              "name_ru": "Себестоимость проданных товаров"
+            },
+            {
+              "symbol": "\\text{Average Inventory}",
+              "name_en": "Average Inventory",
+              "name_ru": "Средние запасы"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Рассчитайте средние запасы: (Начальные + Конечные) ÷ 2 [=] [STO] [1]",
+              "2. Введите COGS [÷] [RCL] [1] [=]",
+              "3. Результат: Коэффициент оборачиваемости запасов"
+            ],
+            "example": {
+              "given": "COGS = $600,000, Beginning Inventory = $80,000, Ending Inventory = $120,000",
+              "input": "(80000 + 120000) ÷ 2 = 100000 STO 1, 600000 ÷ RCL 1 =",
+              "result": "Inventory Turnover = 6.0 times"
+            }
+          }
+        },
+        {
+          "term_id": "FSA-5-016",
+          "term_en": "Days of Inventory on Hand (DOH)",
+          "term_ru": "Дни хранения запасов",
+          "definition_en": "A ratio that measures the average number of days that inventory is held before being sold. Lower DOH indicates faster inventory turnover. Formula: DOH = 365 / Inventory Turnover OR DOH = (Average Inventory / COGS) × 365. Also called Days Inventory Outstanding or Days Sales of Inventory.",
+          "definition_ru": "Коэффициент, измеряющий среднее количество дней, в течение которых запасы удерживаются до продажи. Более низкий DOH указывает на более быструю оборачиваемость запасов. Формула: DOH = 365 / Оборачиваемость запасов ИЛИ DOH = (Средние запасы / Себестоимость) × 365. Также называется Дни хранения запасов или Дни продаж запасов.",
+          "type": "formula",
+          "formula": "\\text{DOH} = \\frac{365}{\\text{Inventory Turnover}} = \\frac{\\text{Average Inventory} \\times 365}{\\text{COGS}}",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "\\text{DOH}",
+              "name_en": "Days of Inventory on Hand",
+              "name_ru": "Дни хранения запасов"
+            },
+            {
+              "symbol": "\\text{Average Inventory}",
+              "name_en": "Average Inventory",
+              "name_ru": "Средние запасы"
+            },
+            {
+              "symbol": "\\text{COGS}",
+              "name_en": "Cost of Goods Sold",
+              "name_ru": "Себестоимость"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Введите 365 [÷]",
+              "2. Введите коэффициент оборачиваемости запасов [=]",
+              "3. Результат: Дни хранения запасов",
+              "Альтернативно:",
+              "1. Средние запасы [÷] COGS [×] 365 [=]"
+            ],
+            "example": {
+              "given": "Inventory Turnover = 6.0 times",
+              "input": "365 ÷ 6 =",
+              "result": "DOH = 60.8 days"
+            }
+          }
+        },
+        {
+          "term_id": "FSA-5-017",
+          "term_en": "Cash Conversion Cycle (CCC)",
+          "term_ru": "Цикл конвертации денежных средств",
+          "definition_en": "A metric that measures the time (in days) between when a company pays for inventory and when it collects cash from sales. Formula: CCC = DOH + DSO − DPO, where DSO is Days Sales Outstanding and DPO is Days Payables Outstanding. A shorter cycle indicates better working capital management.",
+          "definition_ru": "Метрика, измеряющая время (в днях) между моментом, когда компания платит за запасы, и моментом, когда она получает денежные средства от продаж. Формула: CCC = DOH + DSO − DPO, где DSO - дни дебиторской задолженности, а DPO - дни кредиторской задолженности. Более короткий цикл указывает на лучшее управление оборотным капиталом.",
+          "type": "formula",
+          "formula": "\\text{CCC} = \\text{DOH} + \\text{DSO} - \\text{DPO}",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "\\text{DOH}",
+              "name_en": "Days of Inventory on Hand",
+              "name_ru": "Дни хранения запасов"
+            },
+            {
+              "symbol": "\\text{DSO}",
+              "name_en": "Days Sales Outstanding",
+              "name_ru": "Дни дебиторской задолженности"
+            },
+            {
+              "symbol": "\\text{DPO}",
+              "name_en": "Days Payables Outstanding",
+              "name_ru": "Дни кредиторской задолженности"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Введите DOH [+]",
+              "2. Введите DSO [=]",
+              "3. Нажмите [-] и введите DPO [=]",
+              "4. Результат: Цикл конвертации денежных средств"
+            ],
+            "example": {
+              "given": "DOH = 60 days, DSO = 45 days, DPO = 30 days",
+              "input": "60 + 45 - 30 =",
+              "result": "CCC = 75 days"
+            }
+          }
+        },
+        {
+          "term_id": "FSA-5-018",
+          "term_en": "Cash Paid to Suppliers",
+          "term_ru": "Денежные выплаты поставщикам",
+          "definition_en": "The actual cash payments made to suppliers during a period, calculated by adjusting COGS for changes in inventory and accounts payable. Formula: Cash to Suppliers = COGS + ΔInventory − ΔAccounts Payable. An increase in inventory or decrease in payables increases cash outflows to suppliers.",
+          "definition_ru": "Фактические денежные платежи поставщикам в течение периода, рассчитанные путем корректировки себестоимости на изменения в запасах и кредиторской задолженности. Формула: Денежные средства поставщикам = Себестоимость + Δ Запасы − Δ Кредиторская задолженность. Увеличение запасов или уменьшение кредиторской задолженности увеличивает денежные оттоки поставщикам.",
+          "type": "formula",
+          "formula": "\\text{Cash to Suppliers} = \\text{COGS} + \\Delta\\text{Inventory} - \\Delta\\text{Accounts Payable}",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "\\text{COGS}",
+              "name_en": "Cost of Goods Sold",
+              "name_ru": "Себестоимость"
+            },
+            {
+              "symbol": "\\Delta\\text{Inventory}",
+              "name_en": "Change in Inventory",
+              "name_ru": "Изменение запасов"
+            },
+            {
+              "symbol": "\\Delta\\text{AP}",
+              "name_en": "Change in Accounts Payable",
+              "name_ru": "Изменение кредиторской задолженности"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Введите COGS [=]",
+              "2. Нажмите [+] и введите изменение запасов [=]",
+              "3. Нажмите [-] и введите изменение кредиторской задолженности [=]",
+              "4. Результат: Денежные выплаты поставщикам"
+            ],
+            "example": {
+              "given": "COGS = $600,000, Inventory increased by $20,000, AP increased by $15,000",
+              "input": "600000 + 20000 - 15000 =",
+              "result": "Cash to Suppliers = $605,000"
+            }
+          }
+        },
+        {
+          "term_id": "FSA-5-019",
+          "term_en": "Gross Profit Margin",
+          "term_ru": "Маржа валовой прибыли",
+          "definition_en": "A profitability ratio that shows the percentage of revenue remaining after deducting cost of goods sold. Formula: Gross Profit Margin = Gross Profit / Revenue = (Revenue − COGS) / Revenue. Higher margins indicate better cost control and pricing power. Different inventory methods (FIFO vs LIFO) can significantly affect this ratio.",
+          "definition_ru": "Коэффициент рентабельности, показывающий процент выручки, остающийся после вычета себестоимости проданных товаров. Формула: Маржа валовой прибыли = Валовая прибыль / Выручка = (Выручка − Себестоимость) / Выручка. Более высокие маржи указывают на лучший контроль затрат и ценовую власть. Различные методы учета запасов (FIFO против LIFO) могут значительно повлиять на этот коэффициент.",
+          "type": "formula",
+          "formula": "\\text{Gross Profit Margin} = \\frac{\\text{Revenue} - \\text{COGS}}{\\text{Revenue}} = \\frac{\\text{Gross Profit}}{\\text{Revenue}}",
+          "formula_ref": null,
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Рассчитайте валовую прибыль: Выручка [-] COGS [=] [STO] [1]",
+              "2. Разделите на выручку: [RCL] [1] [÷] {Revenue} [=]",
+              "3. Умножьте на 100 для процента: [×] 100 [=]",
+              "4. Результат: Маржа валовой прибыли в %"
+            ],
+            "example": {
+              "given": "Revenue = $1,000,000, COGS = $600,000",
+              "input": "1000000 - 600000 = 400000 STO 1, RCL 1 ÷ 1000000 = 0.40 × 100 =",
+              "result": "Gross Profit Margin = 40%"
+            }
+          }
+        },
+        {
+          "term_id": "FSA-5-020",
+          "term_en": "Inventory Obsolescence",
+          "term_ru": "Устаревание запасов",
+          "definition_en": "The condition when inventory becomes outdated, spoiled, or unsellable due to changes in technology, consumer preferences, or deterioration. Obsolete inventory must be written down to net realizable value, reducing inventory value and net income. Companies should maintain adequate reserves for obsolete inventory based on historical experience and current market conditions.",
+          "definition_ru": "Состояние, когда запасы становятся устаревшими, испорченными или непродаваемыми из-за изменений в технологии, потребительских предпочтениях или порчи. Устаревшие запасы должны быть списаны до чистой стоимости реализации, уменьшая стоимость запасов и чистый доход. Компании должны поддерживать адекватные резервы на устаревшие запасы на основе исторического опыта и текущих рыночных условий.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-5-021",
+          "term_en": "Inventory Writedown",
+          "term_ru": "Списание запасов",
+          "definition_en": "A reduction in the recorded value of inventory when its net realizable value falls below cost. The writedown is recorded as an expense (typically in COGS) and reduces both inventory on the balance sheet and net income. Under IFRS, writedowns can be reversed if NRV subsequently increases; under US GAAP, reversals are prohibited.",
+          "definition_ru": "Уменьшение учетной стоимости запасов, когда их чистая стоимость реализации падает ниже себестоимости. Списание записывается как расход (обычно в себестоимости) и уменьшает как запасы в балансе, так и чистый доход. По IFRS списания могут быть восстановлены, если NRV впоследствии увеличивается; по US GAAP восстановления запрещены.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-5-022",
+          "term_en": "Impact of Inflation on Inventory Methods",
+          "term_ru": "Влияние инфляции на методы учета запасов",
+          "definition_en": "During periods of rising prices (inflation), FIFO results in lower COGS, higher gross profit, higher net income, higher taxes, and higher ending inventory compared to LIFO. LIFO results in higher COGS, lower gross profit, lower net income, lower taxes (tax advantage), and lower ending inventory. Weighted average produces results between FIFO and LIFO. In deflation, these effects reverse.",
+          "definition_ru": "В периоды роста цен (инфляции) FIFO приводит к более низкой себестоимости, более высокой валовой прибыли, более высокому чистому доходу, более высоким налогам и более высоким конечным запасам по сравнению с LIFO. LIFO приводит к более высокой себестоимости, более низкой валовой прибыли, более низкому чистому доходу, более низким налогам (налоговое преимущество) и более низким конечным запасам. Средневзвешенный метод дает результаты между FIFO и LIFO. При дефляции эти эффекты обращаются.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-5-023",
+          "term_en": "LIFO Liquidation",
+          "term_ru": "Ликвидация LIFO",
+          "definition_en": "A situation that occurs when a company using LIFO sells more inventory than it purchases during a period, resulting in old, low-cost inventory layers being matched against current revenues. This produces abnormally high gross profit and net income in that period. LIFO liquidation distorts profitability and can signal poor inventory management or declining business activity.",
+          "definition_ru": "Ситуация, возникающая когда компания, использующая LIFO, продает больше запасов, чем покупает в течение периода, в результате чего старые слои запасов с низкой стоимостью сопоставляются с текущими доходами. Это приводит к аномально высокой валовой прибыли и чистому доходу в этом периоде. Ликвидация LIFO искажает рентабельность и может сигнализировать о плохом управлении запасами или снижении деловой активности.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-5-024",
+          "term_en": "Current Ratio Impact of Inventory",
+          "term_ru": "Влияние запасов на коэффициент текущей ликвидности",
+          "definition_en": "Inventory is a significant component of current assets, so the inventory valuation method affects the current ratio (Current Assets / Current Liabilities). FIFO results in higher inventory value and higher current ratio compared to LIFO. However, inventory is less liquid than cash or receivables, so a high current ratio due to large inventory may not indicate good liquidity.",
+          "definition_ru": "Запасы являются значительным компонентом оборотных активов, поэтому метод оценки запасов влияет на коэффициент текущей ликвидности (Оборотные активы / Краткосрочные обязательства). FIFO приводит к более высокой стоимости запасов и более высокому коэффициенту текущей ликвидности по сравнению с LIFO. Однако запасы менее ликвидны, чем денежные средства или дебиторская задолженность, поэтому высокий коэффициент текущей ликвидности из-за больших запасов может не указывать на хорошую ликвидность.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-5-025",
+          "term_en": "Quick Ratio and Inventory",
+          "term_ru": "Коэффициент быстрой ликвидности и запасы",
+          "definition_en": "The quick ratio (also called acid-test ratio) excludes inventory from current assets because inventory is less liquid than cash and receivables. Formula: Quick Ratio = (Cash + Marketable Securities + Receivables) / Current Liabilities. This provides a more conservative measure of short-term liquidity than the current ratio.",
+          "definition_ru": "Коэффициент быстрой ликвидности (также называемый коэффициентом срочной ликвидности) исключает запасы из оборотных активов, потому что запасы менее ликвидны, чем денежные средства и дебиторская задолженность. Формула: Коэффициент быстрой ликвидности = (Денежные средства + Рыночные ценные бумаги + Дебиторская задолженность) / Краткосрочные обязательства. Это обеспечивает более консервативную меру краткосрочной ликвидности, чем коэффициент текущей ликвидности.",
+          "type": "concept",
+          "formula": "\\text{Quick Ratio} = \\frac{\\text{Cash} + \\text{Marketable Securities} + \\text{Receivables}}{\\text{Current Liabilities}}",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-5-026",
+          "term_en": "Financial Statement Disclosures for Inventory",
+          "term_ru": "Раскрытие информации о запасах в финансовой отчетности",
+          "definition_en": "Companies must disclose: (1) the inventory valuation method used (FIFO, LIFO, weighted average); (2) the carrying amount of inventory by classification (raw materials, work-in-process, finished goods); (3) LIFO reserve if LIFO is used; (4) any inventory writedowns recognized; (5) circumstances leading to writedown reversals under IFRS. These disclosures help analysts understand inventory accounting policies and make adjustments for comparability.",
+          "definition_ru": "Компании должны раскрывать: (1) используемый метод оценки запасов (FIFO, LIFO, средневзвешенный); (2) балансовую стоимость запасов по классификации (сырье, незавершенное производство, готовая продукция); (3) резерв LIFO, если используется LIFO; (4) любые признанные списания запасов; (5) обстоятельства, приводящие к восстановлению списаний по IFRS. Эти раскрытия помогают аналитикам понять политику учета запасов и сделать корректировки для сопоставимости.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-5-027",
+          "term_en": "Working Capital and Inventory Changes",
+          "term_ru": "Оборотный капитал и изменения в запасах",
+          "definition_en": "Changes in inventory directly affect working capital and operating cash flow. An increase in inventory uses cash (negative impact on CFO), while a decrease in inventory releases cash (positive impact on CFO). Formula: ΔWorking Capital includes ΔInventory. Companies must balance having enough inventory to meet demand while minimizing capital tied up in inventory.",
+          "definition_ru": "Изменения в запасах напрямую влияют на оборотный капитал и операционный денежный поток. Увеличение запасов использует денежные средства (отрицательное влияние на CFO), в то время как уменьшение запасов высвобождает денежные средства (положительное влияние на CFO). Формула: Δ Оборотный капитал включает Δ Запасы. Компании должны балансировать между наличием достаточных запасов для удовлетворения спроса и минимизацией капитала, связанного в запасах.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-5-028",
+          "term_en": "Inventory Analysis - Red Flags",
+          "term_ru": "Анализ запасов - тревожные сигналы",
+          "definition_en": "Analysts should watch for: (1) declining inventory turnover or increasing DOH, suggesting slow-moving or obsolete inventory; (2) inventory growing faster than sales, indicating potential demand problems; (3) frequent or large inventory writedowns; (4) LIFO liquidations creating unsustainable profit increases; (5) significant differences between LIFO and FIFO values (large LIFO reserve) making comparisons difficult. These red flags may indicate inventory management problems or earnings quality issues.",
+          "definition_ru": "Аналитики должны обращать внимание на: (1) снижение оборачиваемости запасов или увеличение DOH, предполагающее медленно движущиеся или устаревшие запасы; (2) рост запасов быстрее продаж, указывающий на потенциальные проблемы со спросом; (3) частые или крупные списания запасов; (4) ликвидации LIFO, создающие неустойчивый рост прибыли; (5) значительные различия между стоимостью LIFO и FIFO (большой резерв LIFO), затрудняющие сравнения. Эти тревожные сигналы могут указывать на проблемы с управлением запасами или качеством прибыли.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "FSA-5-EX-003",
+          "question_en": "A company has the following information: COGS = $500,000, Beginning Inventory = $80,000, Ending Inventory = $120,000. What is the company's inventory turnover ratio?",
+          "question_ru": "Компания имеет следующую информацию: Себестоимость = $500,000, Начальные запасы = $80,000, Конечные запасы = $120,000. Каков коэффициент оборачиваемости запасов компании?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "4.2 times",
+              "text_ru": "4,2 раза"
+            },
+            {
+              "letter": "B",
+              "text_en": "5.0 times",
+              "text_ru": "5,0 раз"
+            },
+            {
+              "letter": "C",
+              "text_en": "6.3 times",
+              "text_ru": "6,3 раза"
+            }
+          ],
+          "correct_answer": "B",
+          "solution_en": "Inventory Turnover = COGS / Average Inventory. First, calculate average inventory: (Beginning Inventory + Ending Inventory) / 2 = ($80,000 + $120,000) / 2 = $100,000. Then, Inventory Turnover = $500,000 / $100,000 = 5.0 times. This means the company sold and replaced its inventory 5 times during the period.",
+          "solution_ru": "Оборачиваемость запасов = Себестоимость / Средние запасы. Сначала рассчитайте средние запасы: (Начальные запасы + Конечные запасы) / 2 = ($80,000 + $120,000) / 2 = $100,000. Затем Оборачиваемость запасов = $500,000 / $100,000 = 5,0 раз. Это означает, что компания продала и заменила свои запасы 5 раз в течение периода."
+        }
+      ]
+    }
+  ]
+}
