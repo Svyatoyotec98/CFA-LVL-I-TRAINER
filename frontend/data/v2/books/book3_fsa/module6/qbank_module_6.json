@@ -7,7 +7,7 @@
     "module_id": 6,
     "module_name": "Analysis of Long-Lived Assets",
     "module_name_ru": "Анализ долгосрочных активов",
-    "total_questions": 40,
+    "total_questions": 44,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -551,13 +551,31 @@
       "question_text_ru": "Core Corp. имеет запасы с балансовой стоимостью $12,000 со следующими дополнительными данными: Цена продажи $8,000, Затраты на продажу $1,500, Нормальная прибыль $2,000, Стоимость замещения $5,500. Текущая стоимость запасов после корректировок, если Core отчитывается по IFRS, ближе всего к:",
       "has_table": true,
       "table_data": {
-        "headers": ["Item", "Amount"],
-        "headers_ru": ["Статья", "Сумма"],
+        "headers": [
+          "Item",
+          "Amount"
+        ],
+        "headers_ru": [
+          "Статья",
+          "Сумма"
+        ],
         "rows": [
-          ["Selling Price", "$8,000"],
-          ["Selling Cost", "$1,500"],
-          ["Normal Profit", "$2,000"],
-          ["Replacement Cost", "$5,500"]
+          [
+            "Selling Price",
+            "$8,000"
+          ],
+          [
+            "Selling Cost",
+            "$1,500"
+          ],
+          [
+            "Normal Profit",
+            "$2,000"
+          ],
+          [
+            "Replacement Cost",
+            "$5,500"
+          ]
         ]
       },
       "question_continuation_en": null,
@@ -607,7 +625,11 @@
         ]
       },
       "difficulty": "medium",
-      "topic_tags": ["inventory_valuation", "ifrs", "nrv"]
+      "topic_tags": [
+        "inventory_valuation",
+        "ifrs",
+        "nrv"
+      ]
     },
     {
       "question_id": "FSA-6-Q012",
@@ -664,7 +686,11 @@
         ]
       },
       "difficulty": "medium",
-      "topic_tags": ["inventory_valuation", "ifrs", "write_up"]
+      "topic_tags": [
+        "inventory_valuation",
+        "ifrs",
+        "write_up"
+      ]
     },
     {
       "question_id": "FSA-6-Q013",
@@ -711,7 +737,10 @@
       "requires_calculator": false,
       "calculator_keystrokes": null,
       "difficulty": "easy",
-      "topic_tags": ["inventory_methods", "fifo"]
+      "topic_tags": [
+        "inventory_methods",
+        "fifo"
+      ]
     },
     {
       "question_id": "FSA-6-Q014",
@@ -758,7 +787,11 @@
       "requires_calculator": false,
       "calculator_keystrokes": null,
       "difficulty": "medium",
-      "topic_tags": ["inventory_methods", "inflation", "taxation"]
+      "topic_tags": [
+        "inventory_methods",
+        "inflation",
+        "taxation"
+      ]
     },
     {
       "question_id": "FSA-6-Q015",
@@ -805,7 +838,11 @@
       "requires_calculator": false,
       "calculator_keystrokes": null,
       "difficulty": "medium",
-      "topic_tags": ["inventory_methods", "inflation", "financial_ratios"]
+      "topic_tags": [
+        "inventory_methods",
+        "inflation",
+        "financial_ratios"
+      ]
     },
     {
       "question_id": "FSA-6-Q016",
@@ -852,7 +889,11 @@
       "requires_calculator": false,
       "calculator_keystrokes": null,
       "difficulty": "medium",
-      "topic_tags": ["inventory_methods", "weighted_average", "inflation"]
+      "topic_tags": [
+        "inventory_methods",
+        "weighted_average",
+        "inflation"
+      ]
     },
     {
       "question_id": "FSA-6-Q017",
@@ -862,13 +903,37 @@
       "question_text_ru": "Торговая компания электронной техникой приобретает единицы LCD телевизоров на ежемесячной основе. Бухгалтер фирмы не уверен, использовать ли метод первым пришел - первым ушел (FIFO) или последним пришел - первым ушел (LIFO). Он предоставил вам следующую информацию: Дата: 1 октября - Купить LCD телевизоры @ $300, 600 единиц; 8 октября - Купить LCD телевизоры @ $370, 450 единиц; 22 октября - Купить LCD телевизоры @ $400, 300 единиц; 30 октября - Продано LCD телевизоров, 800 единиц. Используя данные из таблицы, разница между значениями конечных запасов FIFO и конечных запасов LIFO ближе всего к:",
       "has_table": true,
       "table_data": {
-        "headers": ["Date", "Transaction", "No. of Units"],
-        "headers_ru": ["Дата", "Транзакция", "Количество единиц"],
+        "headers": [
+          "Date",
+          "Transaction",
+          "No. of Units"
+        ],
+        "headers_ru": [
+          "Дата",
+          "Транзакция",
+          "Количество единиц"
+        ],
         "rows": [
-          ["1-Oct", "Buy LCD TVs @ $300", "600"],
-          ["8-Oct", "Buy LCD TVs @ $370", "450"],
-          ["22-Oct", "Buy LCD TVs @ $400", "300"],
-          ["30-Oct", "Sold LCD TVs", "800"]
+          [
+            "1-Oct",
+            "Buy LCD TVs @ $300",
+            "600"
+          ],
+          [
+            "8-Oct",
+            "Buy LCD TVs @ $370",
+            "450"
+          ],
+          [
+            "22-Oct",
+            "Buy LCD TVs @ $400",
+            "300"
+          ],
+          [
+            "30-Oct",
+            "Sold LCD TVs",
+            "800"
+          ]
         ]
       },
       "question_continuation_en": null,
@@ -895,12 +960,32 @@
       "explanation_ru": "Поскольку COGS 800 единиц при LIFO составляет $301,500, а при FIFO - $254,000, разница в COGS составляет $47,500. При FIFO: Продано 600 единиц @$300 = $180,000; Продано 200 единиц @$370 = $74,000; COGS = $254,000; Конечные запасы: 250 единиц @$370 = $92,500 и 300 единиц @$400 = $120,000; Всего = $212,500. При LIFO: Продано 300 единиц @$400 = $120,000; Продано 450 единиц @$370 = $166,500; Продано 50 единиц @$300 = $15,000; COGS = $301,500; Конечные запасы: 550 единиц @$300 = $165,000. Следовательно, $212,500 − $165,000 = $47,500.",
       "explanation_formula": null,
       "explanation_table": {
-        "headers": ["Method", "Calculation", "Value"],
-        "headers_ru": ["Метод", "Расчет", "Значение"],
+        "headers": [
+          "Method",
+          "Calculation",
+          "Value"
+        ],
+        "headers_ru": [
+          "Метод",
+          "Расчет",
+          "Значение"
+        ],
         "rows": [
-          ["FIFO Ending Inventory", "250×$370 + 300×$400", "$212,500"],
-          ["LIFO Ending Inventory", "550×$300", "$165,000"],
-          ["Difference", "$212,500 - $165,000", "$47,500"]
+          [
+            "FIFO Ending Inventory",
+            "250×$370 + 300×$400",
+            "$212,500"
+          ],
+          [
+            "LIFO Ending Inventory",
+            "550×$300",
+            "$165,000"
+          ],
+          [
+            "Difference",
+            "$212,500 - $165,000",
+            "$47,500"
+          ]
         ]
       },
       "explanation_wrong": {
@@ -928,7 +1013,11 @@
         ]
       },
       "difficulty": "hard",
-      "topic_tags": ["inventory_methods", "fifo", "lifo"]
+      "topic_tags": [
+        "inventory_methods",
+        "fifo",
+        "lifo"
+      ]
     },
     {
       "question_id": "FSA-6-Q018",
@@ -938,13 +1027,37 @@
       "question_text_ru": "Торговая компания электронной техникой приобретает единицы LCD телевизоров на ежемесячной основе. Используя данные из следующей таблицы, определите, какая система оценки обеспечит более высокие конечные запасы: Дата: 1 октября - Купить LCD телевизоры @ $300, 600 единиц; 8 октября - Купить LCD телевизоры @ $370, 450 единиц; 22 октября - Купить LCD телевизоры @ $400, 250 единиц; 30 октября - Продано LCD телевизоров, 800 единиц.",
       "has_table": true,
       "table_data": {
-        "headers": ["Date", "Transaction", "No. of Units"],
-        "headers_ru": ["Дата", "Транзакция", "Количество единиц"],
+        "headers": [
+          "Date",
+          "Transaction",
+          "No. of Units"
+        ],
+        "headers_ru": [
+          "Дата",
+          "Транзакция",
+          "Количество единиц"
+        ],
         "rows": [
-          ["1-Oct", "Buy LCD TVs @ $300", "600"],
-          ["8-Oct", "Buy LCD TVs @ $370", "450"],
-          ["22-Oct", "Buy LCD TVs @ $400", "250"],
-          ["30-Oct", "Sold LCD TVs", "800"]
+          [
+            "1-Oct",
+            "Buy LCD TVs @ $300",
+            "600"
+          ],
+          [
+            "8-Oct",
+            "Buy LCD TVs @ $370",
+            "450"
+          ],
+          [
+            "22-Oct",
+            "Buy LCD TVs @ $400",
+            "250"
+          ],
+          [
+            "30-Oct",
+            "Sold LCD TVs",
+            "800"
+          ]
         ]
       },
       "question_continuation_en": null,
@@ -971,11 +1084,27 @@
       "explanation_ru": "Описанная ситуация - это инфляционная среда. В период роста цен COGS по LIFO будет выше, чем COGS по FIFO, а конечные запасы LIFO будут ниже, чем конечные запасы FIFO. Следовательно, FIFO приведет к более высоким запасам $192,500, в то время как конечные запасы LIFO составят $150,000. При LIFO: Продано 250 @$400 = $100,000; Продано 450 @$370 = $166,500; Продано 100 @$300 = $30,000; COGS = $296,500; Конечные запасы: 500 @$300 = $150,000. При FIFO: Продано 600 @$300 = $180,000; Продано 200 @$370 = $74,000; COGS = $254,000; Конечные запасы: 250 @$370 = $92,500 и 250 @$400 = $100,000; Всего = $192,500.",
       "explanation_formula": null,
       "explanation_table": {
-        "headers": ["Method", "Ending Inventory", "Calculation"],
-        "headers_ru": ["Метод", "Конечные запасы", "Расчет"],
+        "headers": [
+          "Method",
+          "Ending Inventory",
+          "Calculation"
+        ],
+        "headers_ru": [
+          "Метод",
+          "Конечные запасы",
+          "Расчет"
+        ],
         "rows": [
-          ["FIFO", "$192,500", "250×$370 + 250×$400"],
-          ["LIFO", "$150,000", "500×$300"]
+          [
+            "FIFO",
+            "$192,500",
+            "250×$370 + 250×$400"
+          ],
+          [
+            "LIFO",
+            "$150,000",
+            "500×$300"
+          ]
         ]
       },
       "explanation_wrong": {
@@ -999,7 +1128,12 @@
         ]
       },
       "difficulty": "medium",
-      "topic_tags": ["inventory_methods", "fifo", "lifo", "inflation"]
+      "topic_tags": [
+        "inventory_methods",
+        "fifo",
+        "lifo",
+        "inflation"
+      ]
     },
     {
       "question_id": "FSA-6-Q019",
@@ -1058,7 +1192,11 @@
         ]
       },
       "difficulty": "medium",
-      "topic_tags": ["inventory_methods", "fifo", "gross_profit"]
+      "topic_tags": [
+        "inventory_methods",
+        "fifo",
+        "gross_profit"
+      ]
     },
     {
       "question_id": "FSA-6-Q020",
@@ -1105,7 +1243,12 @@
       "requires_calculator": false,
       "calculator_keystrokes": null,
       "difficulty": "medium",
-      "topic_tags": ["inventory_methods", "fifo", "working_capital", "inflation"]
+      "topic_tags": [
+        "inventory_methods",
+        "fifo",
+        "working_capital",
+        "inflation"
+      ]
     },
     {
       "question_id": "FSA-6-Q021",
@@ -1152,7 +1295,13 @@
       "requires_calculator": false,
       "calculator_keystrokes": null,
       "difficulty": "medium",
-      "topic_tags": ["inventory_methods", "fifo", "lifo", "cash_flow", "inflation"]
+      "topic_tags": [
+        "inventory_methods",
+        "fifo",
+        "lifo",
+        "cash_flow",
+        "inflation"
+      ]
     },
     {
       "question_id": "FSA-6-Q022",
@@ -1199,7 +1348,13 @@
       "requires_calculator": false,
       "calculator_keystrokes": null,
       "difficulty": "hard",
-      "topic_tags": ["inventory_methods", "lifo", "fifo", "deflation", "financial_ratios"]
+      "topic_tags": [
+        "inventory_methods",
+        "lifo",
+        "fifo",
+        "deflation",
+        "financial_ratios"
+      ]
     },
     {
       "question_id": "FSA-6-Q023",
@@ -1209,12 +1364,42 @@
       "question_text_ru": "Компания Avant-Gard базируется в США и отчитывается по US GAAP. Большая часть её операций переместилась на европейский рынок. Предполагая, что компания перешла с LIFO на FIFO, определите изменения в денежном балансе за финансовый год, закончившийся в 2016 году, учитывая следующие данные: Запасы LIFO 2017: $97,000, 2016: $89,000; Денежные средства 2017: $276,000, 2016: $225,000; Себестоимость 2017: $230,000, 2016: $215,000; Резервы LIFO 2017: $19,500, 2016: $13,000, 2015: $10,500.",
       "has_table": true,
       "table_data": {
-        "headers": ["Year", "LIFO Inventory", "Cash", "COGS", "LIFO Reserve"],
-        "headers_ru": ["Год", "Запасы LIFO", "Денежные средства", "Себестоимость", "Резерв LIFO"],
+        "headers": [
+          "Year",
+          "LIFO Inventory",
+          "Cash",
+          "COGS",
+          "LIFO Reserve"
+        ],
+        "headers_ru": [
+          "Год",
+          "Запасы LIFO",
+          "Денежные средства",
+          "Себестоимость",
+          "Резерв LIFO"
+        ],
         "rows": [
-          ["2017", "$97,000", "$276,000", "$230,000", "$19,500"],
-          ["2016", "$89,000", "$225,000", "$215,000", "$13,000"],
-          ["2015", "-", "-", "-", "$10,500"]
+          [
+            "2017",
+            "$97,000",
+            "$276,000",
+            "$230,000",
+            "$19,500"
+          ],
+          [
+            "2016",
+            "$89,000",
+            "$225,000",
+            "$215,000",
+            "$13,000"
+          ],
+          [
+            "2015",
+            "-",
+            "-",
+            "-",
+            "$10,500"
+          ]
         ]
       },
       "question_continuation_en": null,
@@ -1260,7 +1445,12 @@
         ]
       },
       "difficulty": "hard",
-      "topic_tags": ["inventory_methods", "lifo_to_fifo_conversion", "cash_flow", "taxes"]
+      "topic_tags": [
+        "inventory_methods",
+        "lifo_to_fifo_conversion",
+        "cash_flow",
+        "taxes"
+      ]
     },
     {
       "question_id": "FSA-6-Q024",
@@ -1315,7 +1505,12 @@
         ]
       },
       "difficulty": "hard",
-      "topic_tags": ["inventory_methods", "lifo_to_fifo_conversion", "current_ratio", "financial_ratios"]
+      "topic_tags": [
+        "inventory_methods",
+        "lifo_to_fifo_conversion",
+        "current_ratio",
+        "financial_ratios"
+      ]
     },
     {
       "question_id": "FSA-6-Q025",
@@ -1371,7 +1566,12 @@
         ]
       },
       "difficulty": "hard",
-      "topic_tags": ["inventory_methods", "lifo_to_fifo_conversion", "profit_margin", "financial_ratios"]
+      "topic_tags": [
+        "inventory_methods",
+        "lifo_to_fifo_conversion",
+        "profit_margin",
+        "financial_ratios"
+      ]
     },
     {
       "question_id": "FSA-6-Q026",
@@ -1418,7 +1618,12 @@
       "requires_calculator": false,
       "calculator_keystrokes": null,
       "difficulty": "medium",
-      "topic_tags": ["inventory_methods", "lifo_to_fifo_conversion", "inventory_turnover", "inflation"]
+      "topic_tags": [
+        "inventory_methods",
+        "lifo_to_fifo_conversion",
+        "inventory_turnover",
+        "inflation"
+      ]
     },
     {
       "question_id": "FSA-6-Q027",
@@ -1465,7 +1670,11 @@
       "requires_calculator": false,
       "calculator_keystrokes": null,
       "difficulty": "medium",
-      "topic_tags": ["inventory_methods", "fixed_asset_turnover", "financial_ratios"]
+      "topic_tags": [
+        "inventory_methods",
+        "fixed_asset_turnover",
+        "financial_ratios"
+      ]
     },
     {
       "question_id": "FSA-6-Q028",
@@ -1512,7 +1721,12 @@
       "requires_calculator": false,
       "calculator_keystrokes": null,
       "difficulty": "medium",
-      "topic_tags": ["inventory_methods", "lifo_to_fifo_conversion", "debt_to_equity", "inflation"]
+      "topic_tags": [
+        "inventory_methods",
+        "lifo_to_fifo_conversion",
+        "debt_to_equity",
+        "inflation"
+      ]
     },
     {
       "question_id": "FSA-6-Q029",
@@ -1565,7 +1779,12 @@
         ]
       },
       "difficulty": "medium",
-      "topic_tags": ["inventory_valuation", "write_downs", "ifrs", "reversals"]
+      "topic_tags": [
+        "inventory_valuation",
+        "write_downs",
+        "ifrs",
+        "reversals"
+      ]
     },
     {
       "question_id": "FSA-6-Q030",
@@ -1617,7 +1836,12 @@
         ]
       },
       "difficulty": "easy",
-      "topic_tags": ["inventory_methods", "lifo", "fifo", "lifo_reserve"]
+      "topic_tags": [
+        "inventory_methods",
+        "lifo",
+        "fifo",
+        "lifo_reserve"
+      ]
     },
     {
       "question_id": "FSA-6-Q031",
@@ -1627,13 +1851,43 @@
       "question_text_ru": "Рассмотрите покупки и продажи в течение квартала: 1 мая куплено 43,000 единиц по $15, 7 мая продано 30,000 единиц по $23, 15 июня куплено 47,000 единиц по $17, 3 июля продано 40,000 единиц по $25. На основе таблицы выше определите разницу между конечными запасами компании при FIFO и непрерывном LIFO.",
       "has_table": true,
       "table_data": {
-        "headers": ["Date", "Transaction", "Units", "Price per Unit"],
-        "headers_ru": ["Дата", "Транзакция", "Единицы", "Цена за единицу"],
+        "headers": [
+          "Date",
+          "Transaction",
+          "Units",
+          "Price per Unit"
+        ],
+        "headers_ru": [
+          "Дата",
+          "Транзакция",
+          "Единицы",
+          "Цена за единицу"
+        ],
         "rows": [
-          ["1 May", "Purchased", "43,000", "$15"],
-          ["7 May", "Sold", "30,000", "$23"],
-          ["15 June", "Purchased", "47,000", "$17"],
-          ["3 July", "Sold", "40,000", "$25"]
+          [
+            "1 May",
+            "Purchased",
+            "43,000",
+            "$15"
+          ],
+          [
+            "7 May",
+            "Sold",
+            "30,000",
+            "$23"
+          ],
+          [
+            "15 June",
+            "Purchased",
+            "47,000",
+            "$17"
+          ],
+          [
+            "3 July",
+            "Sold",
+            "40,000",
+            "$25"
+          ]
         ]
       },
       "question_continuation_en": null,
@@ -1682,7 +1936,12 @@
         ]
       },
       "difficulty": "medium",
-      "topic_tags": ["inventory_methods", "fifo", "lifo", "perpetual_inventory"]
+      "topic_tags": [
+        "inventory_methods",
+        "fifo",
+        "lifo",
+        "perpetual_inventory"
+      ]
     },
     {
       "question_id": "FSA-6-Q032",
@@ -1692,13 +1951,43 @@
       "question_text_ru": "Рассмотрите данные о покупках и продажах. Рассчитайте себестоимость продаж компании на 28 марта, если она использует метод непрерывного взвешенного среднего: 1 января куплено 4,000 единиц по $5, 2 марта продано 3,700 единиц по $10, 20 марта куплено 3,000 единиц по $10, 28 марта продано 2,700 единиц по $15.",
       "has_table": true,
       "table_data": {
-        "headers": ["Date", "Transaction", "Units", "Price per Unit"],
-        "headers_ru": ["Дата", "Транзакция", "Единицы", "Цена за единицу"],
+        "headers": [
+          "Date",
+          "Transaction",
+          "Units",
+          "Price per Unit"
+        ],
+        "headers_ru": [
+          "Дата",
+          "Транзакция",
+          "Единицы",
+          "Цена за единицу"
+        ],
         "rows": [
-          ["1st January", "Purchased", "4,000", "$5"],
-          ["2nd March", "Sold", "3,700", "$10"],
-          ["20th March", "Purchased", "3,000", "$10"],
-          ["28th March", "Sold", "2,700", "$15"]
+          [
+            "1st January",
+            "Purchased",
+            "4,000",
+            "$5"
+          ],
+          [
+            "2nd March",
+            "Sold",
+            "3,700",
+            "$10"
+          ],
+          [
+            "20th March",
+            "Purchased",
+            "3,000",
+            "$10"
+          ],
+          [
+            "28th March",
+            "Sold",
+            "2,700",
+            "$15"
+          ]
         ]
       },
       "question_continuation_en": null,
@@ -1746,7 +2035,12 @@
         ]
       },
       "difficulty": "hard",
-      "topic_tags": ["inventory_methods", "weighted_average", "perpetual_inventory", "cogs"]
+      "topic_tags": [
+        "inventory_methods",
+        "weighted_average",
+        "perpetual_inventory",
+        "cogs"
+      ]
     },
     {
       "question_id": "FSA-6-Q033",
@@ -1793,7 +2087,12 @@
       "requires_calculator": false,
       "calculator_keystrokes": null,
       "difficulty": "medium",
-      "topic_tags": ["inventory_valuation", "ifrs", "write_downs", "reversals"]
+      "topic_tags": [
+        "inventory_valuation",
+        "ifrs",
+        "write_downs",
+        "reversals"
+      ]
     },
     {
       "question_id": "FSA-6-Q034",
@@ -1840,7 +2139,11 @@
       "requires_calculator": false,
       "calculator_keystrokes": null,
       "difficulty": "medium",
-      "topic_tags": ["inventory_valuation", "us_gaap", "net_realizable_value"]
+      "topic_tags": [
+        "inventory_valuation",
+        "us_gaap",
+        "net_realizable_value"
+      ]
     },
     {
       "question_id": "FSA-6-Q035",
@@ -1887,7 +2190,13 @@
       "requires_calculator": false,
       "calculator_keystrokes": null,
       "difficulty": "medium",
-      "topic_tags": ["inventory_valuation", "ifrs", "write_downs", "reversals", "cogs"]
+      "topic_tags": [
+        "inventory_valuation",
+        "ifrs",
+        "write_downs",
+        "reversals",
+        "cogs"
+      ]
     },
     {
       "question_id": "FSA-6-Q036",
@@ -1934,7 +2243,13 @@
       "requires_calculator": false,
       "calculator_keystrokes": null,
       "difficulty": "medium",
-      "topic_tags": ["inventory_methods", "fifo", "lifo", "deflation", "net_income"]
+      "topic_tags": [
+        "inventory_methods",
+        "fifo",
+        "lifo",
+        "deflation",
+        "net_income"
+      ]
     },
     {
       "question_id": "FSA-6-Q037",
@@ -1981,7 +2296,14 @@
       "requires_calculator": false,
       "calculator_keystrokes": null,
       "difficulty": "medium",
-      "topic_tags": ["inventory_methods", "fifo", "lifo", "inflation", "net_income", "analyst_considerations"]
+      "topic_tags": [
+        "inventory_methods",
+        "fifo",
+        "lifo",
+        "inflation",
+        "net_income",
+        "analyst_considerations"
+      ]
     },
     {
       "question_id": "FSA-6-Q038",
@@ -2028,7 +2350,12 @@
       "requires_calculator": false,
       "calculator_keystrokes": null,
       "difficulty": "medium",
-      "topic_tags": ["inventory_disclosures", "ifrs", "obsolescence", "write_downs"]
+      "topic_tags": [
+        "inventory_disclosures",
+        "ifrs",
+        "obsolescence",
+        "write_downs"
+      ]
     },
     {
       "question_id": "FSA-6-Q039",
@@ -2075,7 +2402,12 @@
       "requires_calculator": false,
       "calculator_keystrokes": null,
       "difficulty": "medium",
-      "topic_tags": ["inventory_analysis", "wip", "production_efficiency", "manufacturing"]
+      "topic_tags": [
+        "inventory_analysis",
+        "wip",
+        "production_efficiency",
+        "manufacturing"
+      ]
     },
     {
       "question_id": "FSA-6-Q040",
@@ -2122,7 +2454,224 @@
       "requires_calculator": false,
       "calculator_keystrokes": null,
       "difficulty": "medium",
-      "topic_tags": ["inventory_disclosures", "ifrs", "write_downs", "reversals", "analyst_considerations"]
+      "topic_tags": [
+        "inventory_disclosures",
+        "ifrs",
+        "write_downs",
+        "reversals",
+        "analyst_considerations"
+      ]
+    },
+    {
+      "question_id": "FSA-6-Q041",
+      "original_question_number": 203,
+      "los_id": "LOS_6c",
+      "question_text_en": "When analyzing a company's inventory disclosures under IFRS, which aspect of the disclosures would provide the most direct insight into potential issues with inventory obsolescence?",
+      "question_text_ru": "При анализе раскрытия информации о запасах компании в соответствии с IFRS, какой аспект раскрытий обеспечит наиболее прямое понимание потенциальных проблем с устареванием запасов?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The total carrying amount of inventories.",
+          "text_ru": "Общая балансовая стоимость запасов."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The amount of any reversal of any write-down recognized in the period.",
+          "text_ru": "Сумма любого восстановления списания, признанного в периоде."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The carrying amount of inventories pledged as security for liabilities.",
+          "text_ru": "Балансовая стоимость запасов, заложенных в качестве обеспечения обязательств."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Reversals of write-downs provide detailed insights into how much inventory was previously considered obsolete but later regained value. This information is crucial for understanding how management views inventory valuation changes in response to market conditions, indicating possible improvements in market demand or corrections of overly conservative write-downs.",
+      "explanation_ru": "Восстановление списаний обеспечивает детальное понимание того, сколько запасов ранее считалось устаревшими, но позже вернуло стоимость. Эта информация имеет решающее значение для понимания того, как руководство рассматривает изменения оценки запасов в ответ на рыночные условия, указывая на возможные улучшения рыночного спроса или коррекцию чрезмерно консервативных списаний.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The total carrying amount gives an overall figure but does not detail specific issues like obsolescence. It shows the total value of inventories but lacks insight into their condition.",
+          "text_ru": "Общая балансовая стоимость дает общую цифру, но не детализирует конкретные вопросы, такие как устаревание. Она показывает общую стоимость запасов, но не дает понимания их состояния."
+        },
+        "opt_c": {
+          "text_en": "Pledged inventories provide collateral information but not on obsolescence. This disclosure helps assess financial flexibility but not inventory quality.",
+          "text_ru": "Заложенные запасы предоставляют информацию о залоге, но не об устаревании. Это раскрытие помогает оценить финансовую гибкость, но не качество запасов."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "inventory_disclosures",
+        "ifrs",
+        "obsolescence",
+        "write_downs",
+        "analyst_considerations"
+      ]
+    },
+    {
+      "question_id": "FSA-6-Q042",
+      "original_question_number": 204,
+      "los_id": "LOS_6c",
+      "question_text_en": "In a manufacturing company, a consistently large proportion of inventory classified as work in progress (WIP) could most likely signal which of the following potential issues?",
+      "question_text_ru": "В производственной компании постоянно большая доля запасов, классифицированных как незавершенное производство (WIP), скорее всего может сигнализировать о каких из следующих потенциальных проблем?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Strong demand for the company's products.",
+          "text_ru": "Сильный спрос на продукцию компании."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Bottlenecks or inefficiencies in the production process.",
+          "text_ru": "Узкие места или неэффективность в производственном процессе."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "High efficiency in converting raw materials to finished goods.",
+          "text_ru": "Высокая эффективность в преобразовании сырья в готовую продукцию."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "A large proportion of WIP indicates that items are getting stuck in the production process, pointing to bottlenecks, delays, or inefficiencies. This could be due to machinery breakdowns, labor shortages, or inefficient production planning, which analysts should investigate further.",
+      "explanation_ru": "Большая доля незавершенного производства указывает на то, что товары застревают в производственном процессе, указывая на узкие места, задержки или неэффективность. Это может быть связано с поломками оборудования, нехваткой рабочей силы или неэффективным планированием производства, что аналитики должны исследовать дополнительно.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Strong demand should reduce WIP as goods are produced and sold quickly. High WIP would suggest the opposite.",
+          "text_ru": "Сильный спрос должен сократить незавершенное производство, так как товары производятся и продаются быстро. Высокое незавершенное производство предполагает обратное."
+        },
+        "opt_c": {
+          "text_en": "High efficiency would typically result in lower WIP as items quickly move to finished goods. Large WIP implies slower conversion rates.",
+          "text_ru": "Высокая эффективность обычно приводит к более низкому незавершенному производству, так как товары быстро переходят в готовую продукцию. Большое незавершенное производство подразумевает более медленные темпы преобразования."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "inventory_analysis",
+        "wip",
+        "production_efficiency",
+        "manufacturing"
+      ]
+    },
+    {
+      "question_id": "FSA-6-Q043",
+      "original_question_number": 205,
+      "los_id": "LOS_6c",
+      "question_text_en": "Under IFRS, which of the following disclosures would most likely be crucial for understanding the reversibility of inventory write-downs, and why is this important for analysts?",
+      "question_text_ru": "В соответствии с IFRS, какое из следующих раскрытий информации, скорее всего, будет иметь решающее значение для понимания обратимости списаний запасов, и почему это важно для аналитиков?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The total carrying amount of inventories.",
+          "text_ru": "Общая балансовая стоимость запасов."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The carrying amount of inventories pledged as security for liabilities.",
+          "text_ru": "Балансовая стоимость запасов, заложенных в качестве обеспечения обязательств."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The circumstances that led to the reversal of any inventory write-downs.",
+          "text_ru": "Обстоятельства, которые привели к восстановлению любых списаний запасов."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Disclosing the circumstances of write-down reversals helps analysts understand the reasons behind inventory revaluation. This is important as it indicates improvements in market conditions, correction of previous valuation errors, or changes in the company's operational efficiency. Understanding these factors helps analysts evaluate the reliability of current inventory values and the potential for future adjustments.",
+      "explanation_ru": "Раскрытие обстоятельств восстановления списаний помогает аналитикам понять причины переоценки запасов. Это важно, так как указывает на улучшение рыночных условий, исправление предыдущих ошибок оценки или изменения в операционной эффективности компании. Понимание этих факторов помогает аналитикам оценить надежность текущих стоимостей запасов и потенциал для будущих корректировок.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "While important, it does not detail write-down reversals.",
+          "text_ru": "Хотя это важно, это не детализирует восстановления списаний."
+        },
+        "opt_b": {
+          "text_en": "This provides collateral information, not insights into write-down reversals.",
+          "text_ru": "Это предоставляет информацию о залоге, а не о восстановлении списаний."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "inventory_disclosures",
+        "ifrs",
+        "write_downs",
+        "reversals",
+        "analyst_considerations"
+      ]
+    },
+    {
+      "question_id": "FSA-6-Q044",
+      "original_question_number": 206,
+      "los_id": "LOS_6c",
+      "question_text_en": "Which of the following is a potential red flag for analysts if they observe a company with an exceptionally high inventory turnover ratio combined with a significant increase in inventory write-downs?",
+      "question_text_ru": "Что из следующего является потенциальным тревожным сигналом для аналитиков, если они наблюдают компанию с исключительно высоким коэффициентом оборачиваемости запасов в сочетании со значительным увеличением списаний запасов?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Efficient inventory management and strong sales.",
+          "text_ru": "Эффективное управление запасами и сильные продажи."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Reflects a strategy of maintaining low inventory levels to minimize storage costs.",
+          "text_ru": "Отражает стратегию поддержания низких уровней запасов для минимизации затрат на хранение."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Potential manipulation of inventory values and overstatement of financial performance.",
+          "text_ru": "Потенциальное манипулирование стоимостью запасов и завышение финансовых показателей."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "A high turnover ratio should ideally indicate efficient inventory management and strong sales. However, if this is accompanied by significant inventory write-downs, it could indicate that the company is selling off inventory at lower prices or possibly manipulating inventory values to inflate turnover ratios. This discrepancy is a red flag for analysts, suggesting a potential overstatement of financial performance and mismanagement of inventory.",
+      "explanation_ru": "Высокий коэффициент оборачиваемости в идеале должен указывать на эффективное управление запасами и сильные продажи. Однако, если это сопровождается значительными списаниями запасов, это может указывать на то, что компания распродает запасы по более низким ценам или, возможно, манипулирует стоимостью запасов для завышения коэффициентов оборачиваемости. Это расхождение является тревожным сигналом для аналитиков, предполагая потенциальное завышение финансовых показателей и неправильное управление запасами.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "High write-downs contradict the notion of efficient management.",
+          "text_ru": "Высокие списания противоречат представлению об эффективном управлении."
+        },
+        "opt_b": {
+          "text_en": "While low inventory levels are good, significant write-downs indicate deeper issues.",
+          "text_ru": "Хотя низкие уровни запасов хороши, значительные списания указывают на более глубокие проблемы."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": [
+        "inventory_turnover",
+        "inventory_analysis",
+        "write_downs",
+        "red_flags",
+        "financial_manipulation"
+      ]
     }
   ]
 }
