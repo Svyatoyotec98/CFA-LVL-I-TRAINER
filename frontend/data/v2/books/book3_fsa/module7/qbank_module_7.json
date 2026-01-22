@@ -7,7 +7,7 @@
     "module_id": 7,
     "module_name": "Analysis of Long-Term Assets",
     "module_name_ru": "Анализ долгосрочных активов",
-    "total_questions": 10,
+    "total_questions": 36,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -580,6 +580,1722 @@
         "amortization",
         "finite_life",
         "indefinite_life"
+      ]
+    },
+    {
+      "question_id": "FSA-7-Q011",
+      "original_question_number": 2279,
+      "los_id": "LOS_7b",
+      "question_text_en": "An accountant is analyzing the accounts of a Belgian chocolate firm. The information regarding the cost of its ice cream plant is given in the following table. Calculate the amount of impairment loss if the Belgian firm reports under IFRS.",
+      "question_text_ru": "Бухгалтер анализирует счета бельгийской шоколадной компании. Информация о стоимости ледяного завода приведена в таблице ниже. Рассчитайте сумму убытков от обесценения, если бельгийская компания отчитывается по IFRS.",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Item",
+          "Value"
+        ],
+        "headers_ru": [
+          "Статья",
+          "Стоимость"
+        ],
+        "rows": [
+          [
+            "Book Value of Plant",
+            "$400,000"
+          ],
+          [
+            "Accumulated Depreciation",
+            "$25,000"
+          ],
+          [
+            "Fair Value",
+            "$370,000"
+          ],
+          [
+            "Selling Cost",
+            "$15,000"
+          ],
+          [
+            "Value in Use",
+            "$360,000"
+          ],
+          [
+            "Expected Future Cash Flow",
+            "$350,000"
+          ]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$15,000",
+          "text_ru": "$15,000"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$25,000",
+          "text_ru": "$25,000"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$40,000",
+          "text_ru": "$40,000"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Carrying Amount = $400,000 - $25,000 = $375,000. Fair Value Less Costs to Sell = $370,000 - $15,000 = $355,000. Recoverable Amount = max($355,000, $360,000) = $360,000. Impairment Loss = $375,000 - $360,000 = $15,000.",
+      "explanation_ru": "Балансовая стоимость = $400,000 - $25,000 = $375,000. Справедливая стоимость за вычетом затрат на продажу = $370,000 - $15,000 = $355,000. Возмещаемая стоимость = max($355,000, $360,000) = $360,000. Убыток от обесценения = $375,000 - $360,000 = $15,000.",
+      "explanation_formula": "$Carrying\\;Amount = \\$400,000 - \\$25,000 = \\$375,000\n$Recoverable\\;Amount = \\text{max}(\\$355,000, \\$360,000) = \\$360,000\n$Impairment\\;Loss = \\$375,000 - \\$360,000 = \\$15,000$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This is the accumulated depreciation, not the impairment loss.",
+          "text_ru": "Неверно. Это накопленная амортизация, а не убыток от обесценения."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This overlooks the recoverable amount calculation.",
+          "text_ru": "Неверно. Это игнорирует расчет возмещаемой стоимости."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic Calculation",
+        "steps_en": [
+          "$400,000 - $25,000 = $375,000 (Carrying Amount)",
+          "max($355,000, $360,000) = $360,000 (Recoverable Amount)",
+          "$375,000 - $360,000 = $15,000 (Impairment Loss)"
+        ],
+        "steps_ru": [
+          "$400,000 - $25,000 = $375,000 (Балансовая стоимость)",
+          "max($355,000, $360,000) = $360,000 (Возмещаемая стоимость)",
+          "$375,000 - $360,000 = $15,000 (Убыток от обесценения)"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": [
+        "impairment",
+        "ifrs",
+        "recoverable_amount"
+      ]
+    },
+    {
+      "question_id": "FSA-7-Q012",
+      "original_question_number": 2280,
+      "los_id": "LOS_7b",
+      "question_text_en": "An accountant is analyzing the financial reports of an American chocolate firm. The information regarding the cost of its ice cream plant is given in the following table. If the American firm reports under US GAAP, the new balance sheet value of the asset is closest to:",
+      "question_text_ru": "Бухгалтер анализирует финансовые отчеты американской шоколадной компании. Информация о стоимости завода по производству мороженого приведена в таблице. Если американская компания отчитывается по US GAAP, новая балансовая стоимость актива ближе всего к:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Item",
+          "Value"
+        ],
+        "headers_ru": [
+          "Статья",
+          "Стоимость"
+        ],
+        "rows": [
+          [
+            "Book Value of Plant",
+            "$400,000"
+          ],
+          [
+            "Accumulated Depreciation",
+            "$25,000"
+          ],
+          [
+            "Fair Value",
+            "$370,000"
+          ],
+          [
+            "Selling Cost",
+            "$15,000"
+          ],
+          [
+            "Value in Use",
+            "$360,000"
+          ],
+          [
+            "Expected Future Cash Flow",
+            "$350,000"
+          ]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$350,000",
+          "text_ru": "$350,000"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$360,000",
+          "text_ru": "$360,000"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$370,000",
+          "text_ru": "$370,000"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Under US GAAP, impairment is recognized when carrying amount exceeds undiscounted future cash flows. Carrying Amount = $375,000 > $350,000 (undiscounted cash flows), so impairment exists. Impairment Loss = $375,000 - $370,000 = $5,000. New Balance Sheet Value = $370,000 (Fair Value).",
+      "explanation_ru": "По US GAAP убыток от обесценения признается, когда балансовая стоимость превышает недисконтированные будущие денежные потоки. Балансовая стоимость = $375,000 > $350,000, поэтому обесценение существует. Новая балансовая стоимость = $370,000.",
+      "explanation_formula": "$Carrying\\;Amount = \\$375,000\n$Undiscounted\\;Cash\\;Flows = \\$350,000\n$Impairment\\;Loss = \\$375,000 - \\$370,000 = \\$5,000\n$New\\;Value = \\$370,000$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. US GAAP uses fair value, not undiscounted cash flows, for the new value.",
+          "text_ru": "Неверно. US GAAP использует справедливую стоимость, а не недисконтированные денежные потоки."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. This is the value in use, not the fair value used under US GAAP.",
+          "text_ru": "Неверно. Это стоимость использования, а не справедливая стоимость по US GAAP."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic Calculation",
+        "steps_en": [
+          "$400,000 - $25,000 = $375,000 (Carrying Amount)",
+          "Carrying Amount > Undiscounted Cash Flows ($375,000 > $350,000)",
+          "Impairment Loss = $375,000 - $370,000 = $5,000",
+          "New Value = Fair Value = $370,000"
+        ],
+        "steps_ru": [
+          "$400,000 - $25,000 = $375,000",
+          "Обесценение существует",
+          "Новая стоимость = $370,000"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": [
+        "impairment",
+        "us_gaap",
+        "fair_value"
+      ]
+    },
+    {
+      "question_id": "FSA-7-Q013",
+      "original_question_number": 2281,
+      "los_id": "LOS_7b",
+      "question_text_en": "An accountant is analyzing the accounts of a Belgian chocolate firm. Assuming that the firm abandoned the plant, calculate the value of the loss recognized in the Income statement.",
+      "question_text_ru": "Бухгалтер анализирует счета бельгийской шоколадной компании. Предполагая, что компания бросила завод, рассчитайте убыток, признанный в отчете о доходах.",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Item",
+          "Value"
+        ],
+        "headers_ru": [
+          "Статья",
+          "Стоимость"
+        ],
+        "rows": [
+          [
+            "Book Value of Plant",
+            "$400,000"
+          ],
+          [
+            "Accumulated Depreciation",
+            "$25,000"
+          ],
+          [
+            "Fair Value",
+            "$370,000"
+          ],
+          [
+            "Selling Cost",
+            "$15,000"
+          ],
+          [
+            "Value in Use",
+            "$360,000"
+          ],
+          [
+            "Expected Future Cash Flow",
+            "$350,000"
+          ]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$370,000",
+          "text_ru": "$370,000"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$375,000",
+          "text_ru": "$375,000"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$400,000",
+          "text_ru": "$400,000"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "When a plant is abandoned, it will not be recovered. Loss = (Book Value - Accumulated Depreciation) - Recovered Value = ($400,000 - $25,000) - $0 = $375,000.",
+      "explanation_ru": "Когда завод брошен, он не будет возмещен. Убыток = (Балансовая стоимость - Накопленная амортизация) - Возмещаемая стоимость = ($400,000 - $25,000) - $0 = $375,000.",
+      "explanation_formula": "$Loss = (\\$400,000 - \\$25,000) - \\$0 = \\$375,000$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This is fair value, not the loss on abandonment.",
+          "text_ru": "Неверно. Это справедливая стоимость, а не убыток от прекращения."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This ignores accumulated depreciation.",
+          "text_ru": "Неверно. Это игнорирует накопленную амортизацию."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "derecognition",
+        "abandonment",
+        "loss"
+      ]
+    },
+    {
+      "question_id": "FSA-7-Q014",
+      "original_question_number": 2282,
+      "los_id": "LOS_7b",
+      "question_text_en": "Which of the following is most likely an impact of impairment? If an asset is impaired the:",
+      "question_text_ru": "Что из следующего является наиболее вероятным воздействием обесценения? Если актив обесценен, то:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "return on asset, return on equity, and profit margins decrease.",
+          "text_ru": "рентабельность активов, рентабельность акционерного капитала и норма прибыли снижаются."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "return on asset and return on equity increase, but the profit margins decrease.",
+          "text_ru": "рентабельность активов и рентабельность акционерного капитала увеличиваются, но норма прибыли снижается."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "return on asset ratio and profit margins decrease, but the return on equity increases.",
+          "text_ru": "рентабельность активов и норма прибыли снижаются, но рентабельность акционерного капитала увеличивается."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Impairment loss reduces net income, which decreases ROA, ROE, and profit margins. Impairment reduces asset values and decreases net income simultaneously.",
+      "explanation_ru": "Убыток от обесценения снижает чистую прибыль, что снижает ROA, ROE и норму прибыли. Обесценение одновременно снижает стоимость активов и чистую прибыль.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. ROA and ROE decrease because net income decreases.",
+          "text_ru": "Неверно. ROA и ROE снижаются, так как чистая прибыль снижается."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. ROE also decreases with impairment.",
+          "text_ru": "Неверно. ROE также снижается при обесценении."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "impairment",
+        "financial_ratios",
+        "net_income"
+      ]
+    },
+    {
+      "question_id": "FSA-7-Q015",
+      "original_question_number": 2283,
+      "los_id": "LOS_7b",
+      "question_text_en": "Which of the following is the most likely impact of an impairment loss on a firm's cash flow statement?",
+      "question_text_ru": "Какое из следующих утверждений наиболее вероятно описывает влияние убытка от обесценения на отчет о денежных потоках компании?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Total cash flow increases.",
+          "text_ru": "Общий денежный поток увеличивается."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Total cash flow decreases.",
+          "text_ru": "Общий денежный поток снижается."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Total cash flow remains unchanged.",
+          "text_ru": "Общий денежный поток остается без изменений."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Impairment loss is a non-cash charge. It reduces net income but is added back in operating activities on the cash flow statement. Therefore, total cash flow remains unchanged.",
+      "explanation_ru": "Убыток от обесценения - это неденежный убыток. Он снижает чистую прибыль, но добавляется обратно в операционную деятельность в отчете о денежных потоках. Следовательно, общий денежный поток остается неизменным.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Impairment is a non-cash charge that does not affect cash flow.",
+          "text_ru": "Неверно. Обесценение - это неденежный расход, который не влияет на денежный поток."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Non-cash impairment charges are added back in the cash flow statement.",
+          "text_ru": "Неверно. Неденежные убытки от обесценения добавляются обратно в отчет о денежных потоках."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "impairment",
+        "cash_flow",
+        "non_cash_charges"
+      ]
+    },
+    {
+      "question_id": "FSA-7-Q016",
+      "original_question_number": 2284,
+      "los_id": "LOS_7c",
+      "question_text_en": "An asset has a gross book value of $60 million and accumulated depreciation of $22 million. Calculate the approximate remaining life of the asset if the depreciation expense is $3.8 million.",
+      "question_text_ru": "Актив имеет валовую балансовую стоимость $60 миллионов и накопленную амортизацию $22 миллиона. Рассчитайте приблизительный оставшийся срок полезного использования актива, если расходы на амортизацию составляют $3.8 миллиона.",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "6 years",
+          "text_ru": "6 лет"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "10 years",
+          "text_ru": "10 лет"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "16 years",
+          "text_ru": "16 лет"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Remaining Life = (Gross Book Value - Accumulated Depreciation) / Depreciation Expense = ($60M - $22M) / $3.8M = $38M / $3.8M = 10 years.",
+      "explanation_ru": "Оставшийся срок = (Валовая балансовая стоимость - Накопленная амортизация) / Расход на амортизацию = ($60М - $22М) / $3.8М = $38М / $3.8М = 10 лет.",
+      "explanation_formula": "$Remaining\\;Life = \\frac{\\$60M - \\$22M}{\\$3.8M} = \\frac{\\$38M}{\\$3.8M} = 10\\;years$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Calculation error in the remaining life formula.",
+          "text_ru": "Неверно. Ошибка в расчете оставшегося срока."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This would be the total useful life divided differently.",
+          "text_ru": "Неверно. Это был бы другой расчет общего срока полезного использования."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic Calculation",
+        "steps_en": [
+          "$60M - $22M = $38M (Net Book Value)",
+          "$38M / $3.8M = 10 years"
+        ],
+        "steps_ru": [
+          "$60М - $22М = $38М",
+          "$38М / $3.8М = 10 лет"
+        ]
+      },
+      "difficulty": "easy",
+      "topic_tags": [
+        "useful_life",
+        "depreciation",
+        "asset_analysis"
+      ]
+    },
+    {
+      "question_id": "FSA-7-Q017",
+      "original_question_number": 3842,
+      "los_id": "LOS_7a",
+      "question_text_en": "A local investor has recently acquired a franchise of an online ticketing website, whose components and useful lives are given in the following table. Assuming that the salvage value of the patent is $3,000 and that the trademark can be renewed every 5th year for $1,500, the total amortization expense for the first year using the straight-line method is closest to:",
+      "question_text_ru": "Местный инвестор недавно приобрел франшизу сайта онлайн-продажи билетов, компоненты и сроки полезного использования которого приведены в таблице ниже. Предполагая, что ликвидационная стоимость патента составляет $3,000 и что товарный знак может быть возобновлен каждые 5 лет за $1,500, общие расходы на амортизацию за первый год с использованием линейного метода ближе всего к:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Assets",
+          "Value",
+          "Useful life"
+        ],
+        "headers_ru": [
+          "Активы",
+          "Стоимость",
+          "Срок полезного использования"
+        ],
+        "rows": [
+          [
+            "Patent",
+            "$25,000",
+            "20"
+          ],
+          [
+            "Copyrights",
+            "$12,000",
+            "12"
+          ],
+          [
+            "Trademark",
+            "$8,800",
+            "5"
+          ],
+          [
+            "Goodwill",
+            "$7,000",
+            "-"
+          ],
+          [
+            "Physical servers",
+            "$15,000",
+            "15"
+          ]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "2100",
+          "text_ru": "2100"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "3860",
+          "text_ru": "3860"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "4860",
+          "text_ru": "4860"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Amortization only applies to finite-life intangible assets. Patent: ($25,000 - $3,000) / 20 = $1,100. Copyrights: $12,000 / 12 = $1,000. Trademark is renewable indefinitely (every 5 years for $1,500 = low annual cost). Goodwill and Physical servers are not amortizable intangible assets. Total = $1,100 + $1,000 = $2,100.",
+      "explanation_ru": "Амортизация применяется только к нематериальным активам с конечным сроком полезного использования. Патент: ($25,000 - $3,000) / 20 = $1,100. Авторские права: $12,000 / 12 = $1,000. Товарный знак возобновляется бесплатно каждые 5 лет. Общее = $1,100 + $1,000 = $2,100.",
+      "explanation_formula": "$Patent = \\frac{\\$25,000 - \\$3,000}{20} = \\$1,100\n$Copyrights = \\frac{\\$12,000}{12} = \\$1,000\n$Total = \\$2,100$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This includes assets that should not be amortized.",
+          "text_ru": "Неверно. Это включает активы, которые не должны амортизироваться."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This includes physical servers and goodwill in amortization calculation.",
+          "text_ru": "Неверно. Это включает физические серверы и гудвилл в расчет амортизации."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic Calculation",
+        "steps_en": [
+          "($25,000 - $3,000) / 20 = $1,100 (Patent)",
+          "$12,000 / 12 = $1,000 (Copyrights)",
+          "$1,100 + $1,000 = $2,100"
+        ],
+        "steps_ru": [
+          "($25,000 - $3,000) / 20 = $1,100",
+          "$12,000 / 12 = $1,000",
+          "Всего = $2,100"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": [
+        "amortization",
+        "intangible_assets",
+        "finite_life"
+      ]
+    },
+    {
+      "question_id": "FSA-7-Q018",
+      "original_question_number": 3845,
+      "los_id": "LOS_7c",
+      "question_text_en": "A firm's financial statements show that the value of plant, property & equipment is $4.5 million, land is $2.5 million, and accumulated depreciation is $1.8 million. If the depreciation expense for the year is $0.15 million, then the average age of the firm's PPE is closest to:",
+      "question_text_ru": "В финансовой отчетности компании указано, что стоимость производственных зданий, сооружений и оборудования составляет $4.5 миллиона, земля - $2.5 миллиона, накопленная амортизация - $1.8 миллиона. Если расходы на амортизацию за год составляют $0.15 миллиона, то средний возраст основных средств компании ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "12 years",
+          "text_ru": "12 лет"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "18 years",
+          "text_ru": "18 лет"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "34.67 years",
+          "text_ru": "34.67 лет"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Land is not depreciable. Average Age = Accumulated Depreciation / Depreciation Expense = $1.8M / $0.15M = 12 years. Note: Land value is excluded from this calculation.",
+      "explanation_ru": "Земля не подлежит амортизации. Средний возраст = Накопленная амортизация / Расход на амортизацию = $1.8М / $0.15М = 12 лет.",
+      "explanation_formula": "$Average\\;Age = \\frac{\\$1.8M}{\\$0.15M} = 12\\;years$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Calculation error - using wrong denominator.",
+          "text_ru": "Неверно. Ошибка в расчете - использован неправильный делитель."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This includes non-depreciable land in the calculation.",
+          "text_ru": "Неверно. Это включает неамортизируемую землю в расчет."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic Calculation",
+        "steps_en": [
+          "$1.8M / $0.15M = 12 years"
+        ],
+        "steps_ru": [
+          "$1.8М / $0.15М = 12 лет"
+        ]
+      },
+      "difficulty": "easy",
+      "topic_tags": [
+        "asset_age",
+        "depreciation",
+        "ppe"
+      ]
+    },
+    {
+      "question_id": "FSA-7-Q019",
+      "original_question_number": 4815,
+      "los_id": "LOS_7a",
+      "question_text_en": "Which of the following is least likely a criterion for an identifiable intangible asset under IFRS? The asset must:",
+      "question_text_ru": "Что из следующего с наименьшей вероятностью является критерием идентифицируемого нематериального актива по IFRS? Актив должен:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "be separable from the company.",
+          "text_ru": "быть отделяемым от компании."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "arise from contractual or legal rights.",
+          "text_ru": "возникать из договорных или юридических прав."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "be developed through internal research and development.",
+          "text_ru": "быть разработанным через внутренние исследования и разработки."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Under IFRS, identifiable intangible assets must be separable or arise from contractual/legal rights. Development method (internal R&D vs. purchase) is not required for identifiability. An asset can be identifiable if purchased or developed.",
+      "explanation_ru": "По IFRS идентифицируемые нематериальные активы должны быть отделяемы или возникать из договорных/юридических прав. Метод разработки не требуется для идентифицируемости.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Separability is a fundamental criterion for identifiable intangible assets.",
+          "text_ru": "Неверно. Отделяемость - основной критерий идентифицируемых нематериальных активов."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Contractual/legal rights are a fundamental criterion for identifiable intangible assets.",
+          "text_ru": "Неверно. Договорные/юридические права - основной критерий идентифицируемых нематериальных активов."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "intangible_assets",
+        "identifiable",
+        "ifrs"
+      ]
+    },
+    {
+      "question_id": "FSA-7-Q020",
+      "original_question_number": 4816,
+      "los_id": "LOS_7a",
+      "question_text_en": "Which of the following is least likely a criterion for recognizing an internally developed intangible asset under IFRS?",
+      "question_text_ru": "Что из следующего с наименьшей вероятностью является критерием для признания внутренне разработанного нематериального актива по IFRS?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The asset must demonstrate technical feasibility.",
+          "text_ru": "Актив должен продемонстрировать техническую возможность осуществления."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The asset must have a cost that cannot be reliably measured.",
+          "text_ru": "Актив должен иметь стоимость, которая не может быть надежно измерена."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The asset must be expected to provide future economic benefits.",
+          "text_ru": "Актив должен ожидаться обеспечивать будущие экономические выгоды."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "For recognition under IFRS, an internally developed intangible asset must demonstrate technical feasibility and be expected to provide future economic benefits. Importantly, the COST MUST BE RELIABLY MEASURABLE. If cost cannot be reliably measured, it cannot be recognized.",
+      "explanation_ru": "Для признания по IFRS внутренне разработанный нематериальный актив должен продемонстрировать техническую возможность и ожидается обеспечивать будущие экономические выгоды. Стоимость ДОЛЖНА БЫТЬ надежно измерена.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Technical feasibility is a criterion for recognition under IFRS.",
+          "text_ru": "Неверно. Техническая возможность - критерий признания по IFRS."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Expected future economic benefits is a criterion for recognition under IFRS.",
+          "text_ru": "Неверно. Ожидаемые будущие экономические выгоды - критерий признания по IFRS."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "internally_developed",
+        "intangible_assets",
+        "ifrs"
+      ]
+    },
+    {
+      "question_id": "FSA-7-Q021",
+      "original_question_number": 4817,
+      "los_id": "LOS_7a",
+      "question_text_en": "Which of the following is least likely considered an identifiable intangible asset under IFRS?",
+      "question_text_ru": "Что из следующего с наименьшей вероятностью считается идентифицируемым нематериальным активом по IFRS?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "A trademark acquired from another company",
+          "text_ru": "Товарный знак, приобретенный у другой компании"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Goodwill arising from the acquisition of a company.",
+          "text_ru": "Гудвилл, возникший в результате приобретения компании."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "A patent developed internally and meeting capitalization criteria.",
+          "text_ru": "Патент, разработанный внутренне и отвечающий критериям капитализации."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Goodwill is an unidentifiable intangible asset because it cannot be separated from the business and does not arise from contractual or legal rights. It is recognized only in a business combination. Trademarks and patents are identifiable.",
+      "explanation_ru": "Гудвилл - это неидентифицируемый нематериальный актив, так как он не может быть отделен от бизнеса и не возникает из договорных или юридических прав. Товарные знаки и патенты - идентифицируемые активы.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. A trademark acquired from another company is an identifiable intangible asset.",
+          "text_ru": "Неверно. Приобретенный товарный знак - идентифицируемый нематериальный актив."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. A patent meeting capitalization criteria is an identifiable intangible asset.",
+          "text_ru": "Неверно. Патент, отвечающий критериям капитализации - идентифицируемый нематериальный актив."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "goodwill",
+        "intangible_assets",
+        "unidentifiable"
+      ]
+    },
+    {
+      "question_id": "FSA-7-Q022",
+      "original_question_number": 4818,
+      "los_id": "LOS_7a",
+      "question_text_en": "Which of the following statements is least likely true regarding the treatment of intangible assets under IFRS and US GAAP?",
+      "question_text_ru": "Какое из следующих утверждений с наименьшей вероятностью верно относительно учета нематериальных активов по IFRS и US GAAP?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Both IFRS and US GAAP expense research costs when incurred.",
+          "text_ru": "Как IFRS, так и US GAAP списывают затраты на исследования при их возникновении."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Under IFRS, development costs can be capitalized if certain criteria are met, whereas under US GAAP, all development costs are expensed.",
+          "text_ru": "По IFRS затраты на разработки могут быть капитализированы при выполнении определенных критериев, а по US GAAP все затраты на разработки списываются."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Under US GAAP, software development costs for internal use can be capitalized once feasibility is established, while under IFRS, they are expensed.",
+          "text_ru": "По US GAAP затраты на разработку программного обеспечения для внутреннего использования могут быть капитализированы после установления осуществимости, а по IFRS они списываются."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Under IFRS, development costs CAN be capitalized if certain criteria are met (technical feasibility, intention to complete, expected future benefits, reliable measurement). Under US GAAP, certain software development costs CAN ALSO be capitalized once technological feasibility is established. Statement B is incorrect because US GAAP allows capitalization under certain conditions.",
+      "explanation_ru": "По IFRS затраты на разработки МОГУТ быть капитализированы при выполнении определенных критериев. По US GAAP затраты на разработку программного обеспечения ТАКЖЕ МОГУТ быть капитализированы после установления технической осуществимости. Оба стандарта позволяют капитализацию при определенных условиях.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Both standards expense research costs when incurred.",
+          "text_ru": "Неверно. Оба стандарта списывают затраты на исследования."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Under US GAAP, software development costs can be capitalized, aligning with IFRS treatment.",
+          "text_ru": "Неверно. По US GAAP затраты на разработку программного обеспечения могут быть капитализированы."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": [
+        "ifrs",
+        "us_gaap",
+        "research_development",
+        "intangible_assets"
+      ]
+    },
+    {
+      "question_id": "FSA-7-Q023",
+      "original_question_number": 4819,
+      "los_id": "LOS_7a",
+      "question_text_en": "Which of the following is least likely a factor that impacts the financial statement presentation of intangible assets?",
+      "question_text_ru": "Что из следующего с наименьшей вероятностью является фактором, влияющим на представление нематериальных активов в финансовой отчетности?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The physical substance of the intangible asset.",
+          "text_ru": "Физическое наличие нематериального актива."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The expected useful life of the intangible asset.",
+          "text_ru": "Ожидаемый срок полезного использования нематериального актива."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The method of acquisition of the intangible asset.",
+          "text_ru": "Способ приобретения нематериального актива."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "By definition, intangible assets lack physical substance. This is what makes them 'intangible'. The expected useful life (determines amortization) and method of acquisition (determines recognition) DO impact presentation. Physical substance is irrelevant for intangible assets.",
+      "explanation_ru": "По определению нематериальные активы не имеют физического наличия. Ожидаемый срок полезного использования и способ приобретения ВЛИЯЮТ на представление. Физическое наличие не имеет значения для нематериальных активов.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Expected useful life impacts amortization and presentation.",
+          "text_ru": "Неверно. Ожидаемый срок полезного использования влияет на амортизацию и представление."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Method of acquisition (purchase vs. internal development) impacts recognition and presentation.",
+          "text_ru": "Неверно. Способ приобретения влияет на признание и представление."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "intangible_assets",
+        "presentation",
+        "useful_life"
+      ]
+    },
+    {
+      "question_id": "FSA-7-Q024",
+      "original_question_number": 4820,
+      "los_id": "LOS_7a",
+      "question_text_en": "Which of the following is least likely to be a correct statement about the accounting treatment for intangible assets acquired in a business combination under IFRS?",
+      "question_text_ru": "Какое из следующих утверждений с наименьшей вероятностью является правильным в отношении учета нематериальных активов, приобретенных при объединении бизнесов по IFRS?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Any excess amount over the identifiable net assets' value is recorded as goodwill.",
+          "text_ru": "Любая сумма, превышающая стоимость идентифицируемых чистых активов, отражается как гудвилл."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "All intangible assets acquired in a business combination are expensed immediately.",
+          "text_ru": "Все нематериальные активы, приобретенные при объединении бизнесов, немедленно списываются."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The acquiring company must allocate the purchase price to the acquired assets and assumed liabilities at their fair values.",
+          "text_ru": "Приобретающая компания должна распределить цену покупки между приобретенными активами и принятыми обязательствами по их справедливой стоимости."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Under IFRS, intangible assets acquired in a business combination are RECOGNIZED at fair value, not expensed immediately. They are capitalized and reported on the balance sheet. Any excess is recorded as goodwill. This is a fundamental principle of business combination accounting.",
+      "explanation_ru": "По IFRS нематериальные активы, приобретенные при объединении бизнесов, ПРИЗНАЮТСЯ по справедливой стоимости, а не списываются немедленно. Они капитализируются и отражаются в балансе. Избыток отражается как гудвилл.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This is the correct treatment of excess amounts in business combinations.",
+          "text_ru": "Неверно. Это правильный учет избыточных сумм при объединении бизнесов."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This is the correct treatment of purchase price allocation under IFRS.",
+          "text_ru": "Неверно. Это правильное распределение цены покупки по IFRS."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "business_combination",
+        "intangible_assets",
+        "ifrs"
+      ]
+    },
+    {
+      "question_id": "FSA-7-Q025",
+      "original_question_number": 4821,
+      "los_id": "LOS_7a",
+      "question_text_en": "Which of the following is most likely a criterion for recognizing internally developed software costs as intangible assets under US GAAP?",
+      "question_text_ru": "Какое из следующих утверждений наиболее вероятно является критерием для признания затрат на внутреннюю разработку программного обеспечения в качестве нематериальных активов по US GAAP?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The software must be intended for internal use.",
+          "text_ru": "Программное обеспечение должно быть предназначено для внутреннего использования."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The costs must be incurred during the research phase of the project.",
+          "text_ru": "Затраты должны быть понесены на этапе исследования проекта."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The costs must be incurred after the project reaches technological feasibility.",
+          "text_ru": "Затраты должны быть понесены после того, как проект достигнет технической осуществимости."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Under US GAAP, research phase costs are expensed when incurred. Costs incurred AFTER technological feasibility is established and intended for internal use CAN be capitalized. This is the key criterion that separates capitalizable from expensable costs.",
+      "explanation_ru": "По US GAAP затраты на исследовательскую фазу списываются при их возникновении. Затраты, понесенные ПОСЛЕ достижения технической осуществимости, МОГУТ быть капитализированы. Это ключевой критерий разделения капитализируемых и списываемых затрат.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Software can be for internal or external use; the key is when it reaches feasibility.",
+          "text_ru": "Неверно. Программное обеспечение может быть как внутреннего, так и внешнего использования; ключевой момент - достижение осуществимости."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Research phase costs are always expensed under US GAAP.",
+          "text_ru": "Неверно. Затраты на исследовательскую фазу всегда списываются по US GAAP."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "software_development",
+        "us_gaap",
+        "technological_feasibility"
+      ]
+    },
+    {
+      "question_id": "FSA-7-Q026",
+      "original_question_number": 4822,
+      "los_id": "LOS_7b",
+      "question_text_en": "Which of the following is least likely a criterion for recognizing an impairment loss under IFRS?",
+      "question_text_ru": "Какое из следующих утверждений с наименьшей вероятностью является критерием для признания убытка от обесценения по IFRS?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The carrying amount of the asset exceeds its recoverable amount.",
+          "text_ru": "Балансовая стоимость актива превышает его возмещаемую стоимость."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The asset must be classified as held for sale to recognize an impairment loss.",
+          "text_ru": "Актив должен быть классифицирован как предназначенный для продажи, чтобы признать убыток от обесценения."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The recoverable amount is the higher of fair value, less costs to sell, and value in use.",
+          "text_ru": "Возмещаемая стоимость - это наибольшее из справедливой стоимости за вычетом затрат на продажу и стоимости при использовании."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Under IFRS, impairment loss is recognized when carrying amount exceeds recoverable amount. The asset does NOT have to be classified as 'held for sale' to recognize impairment. Impairment can apply to any long-lived asset, regardless of its classification.",
+      "explanation_ru": "По IFRS убыток от обесценения признается, когда балансовая стоимость превышает возмещаемую стоимость. Актив НЕ ДОЛЖЕН быть классифицирован как 'предназначенный для продажи'. Обесценение может применяться к любому долгосрочному активу.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This is the fundamental criterion for impairment under IFRS.",
+          "text_ru": "Неверно. Это основной критерий обесценения по IFRS."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The recoverable amount definition is correct under IFRS.",
+          "text_ru": "Неверно. Определение возмещаемой стоимости верно по IFRS."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "impairment",
+        "ifrs",
+        "recoverable_amount"
+      ]
+    },
+    {
+      "question_id": "FSA-7-Q027",
+      "original_question_number": 4824,
+      "los_id": "LOS_7b",
+      "question_text_en": "Which of the following is least likely a reason for the derecognition of a long-lived asset? The asset is:",
+      "question_text_ru": "Какое из следующих утверждений с наименьшей вероятностью является причиной прекращения признания долгосрочного актива? Актив:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "sold.",
+          "text_ru": "продан."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "abandoned.",
+          "text_ru": "брошен."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "fully depreciated.",
+          "text_ru": "полностью амортизирован."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Derecognition occurs when an asset is sold, abandoned, exchanged, or otherwise disposed of. Being fully depreciated does NOT cause derecognition. An asset can be fully depreciated but still in use and on the balance sheet.",
+      "explanation_ru": "Прекращение признания происходит, когда актив продан, брошен, обменян или иным образом выбыл. Полная амортизация НЕ ВЫЗЫВАЕТ прекращение признания. Актив может быть полностью амортизирован, но продолжать находиться в использовании.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Selling an asset leads to its derecognition.",
+          "text_ru": "Неверно. Продажа актива приводит к его прекращению признания."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Abandoning an asset leads to its derecognition.",
+          "text_ru": "Неверно. Отказ от актива приводит к его прекращению признания."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "derecognition",
+        "long_lived_assets",
+        "depreciation"
+      ]
+    },
+    {
+      "question_id": "FSA-7-Q028",
+      "original_question_number": 4825,
+      "los_id": "LOS_7b",
+      "question_text_en": "Which of the following is least likely true about the treatment of intangible assets with finite lives? They are:",
+      "question_text_ru": "Какое из следующих утверждений с наименьшей вероятностью является верным в отношении учета нематериальных активов с конечным сроком полезного использования? Они:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "tested for impairment annually.",
+          "text_ru": "тестируются на обесценение ежегодно."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "amortized over their useful lives.",
+          "text_ru": "амортизируются в течение их сроков полезного использования."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "tested for impairment when significant events indicate potential impairment.",
+          "text_ru": "тестируются на обесценение при возникновении значительных событий, указывающих на потенциальное обесценение."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Intangible assets with finite lives are amortized and tested for impairment ONLY when there are indicators of impairment, not annually. Annual testing is required for indefinite-life intangible assets and goodwill, not finite-life intangibles.",
+      "explanation_ru": "Нематериальные активы с конечным сроком полезного использования амортизируются и тестируются на обесценение ТОЛЬКО при наличии признаков обесценения, а не ежегодно. Ежегодное тестирование требуется для нематериальных активов с неопределенным сроком и гудвилла.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Finite-life intangibles are amortized over their useful lives.",
+          "text_ru": "Неверно. Нематериальные активы с конечным сроком амортизируются в течение их сроков полезного использования."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Impairment testing occurs when significant events indicate potential impairment.",
+          "text_ru": "Неверно. Тестирование на обесценение происходит при наличии значительных событий."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "intangible_assets",
+        "finite_life",
+        "amortization",
+        "impairment"
+      ]
+    },
+    {
+      "question_id": "FSA-7-Q029",
+      "original_question_number": 4826,
+      "los_id": "LOS_7b",
+      "question_text_en": "Arbor Industries, a hypothetical company, is assessing the impairment of a finite-life intangible asset with the following details. The impairment loss under IFRS and US GAAP is closest to:",
+      "question_text_ru": "Arbor Industries, гипотетическая компания, оценивает обесценение нематериального актива с конечным сроком полезного использования со следующими характеристиками. Убыток от обесценения по IFRS и US GAAP ближе всего к:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Parameter",
+          "Value"
+        ],
+        "headers_ru": [
+          "Параметр",
+          "Стоимость"
+        ],
+        "rows": [
+          [
+            "Carrying Amount",
+            "USD 500,000"
+          ],
+          [
+            "Present Value of Expected Future Cash Flows",
+            "USD 400,000"
+          ],
+          [
+            "Fair Value if Sold",
+            "USD 450,000"
+          ],
+          [
+            "Undiscounted future cash flows",
+            "USD 440,000"
+          ],
+          [
+            "Costs to Sell",
+            "USD 50,000"
+          ]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "IFRS: USD 100,000 | US GAAP: USD 100,000",
+          "text_ru": "IFRS: USD 100,000 | US GAAP: USD 100,000"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "IFRS: USD 50,000 | US GAAP: USD 100,000",
+          "text_ru": "IFRS: USD 50,000 | US GAAP: USD 100,000"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "IFRS: USD 100,000 | US GAAP: USD 50,000",
+          "text_ru": "IFRS: USD 100,000 | US GAAP: USD 50,000"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "IFRS: Recoverable Amount = max(Fair Value - Costs, Value in Use) = max($400,000, $400,000) = $400,000. Impairment = $500,000 - $400,000 = $100,000. US GAAP: Recoverability test: $500,000 > $440,000 (undiscounted), so impaired. Impairment = $500,000 - Fair Value = $500,000 - $450,000 = $50,000.",
+      "explanation_ru": "IFRS: Возмещаемая стоимость = max($400,000, $400,000) = $400,000. Убыток = $100,000. US GAAP: $500,000 > $440,000, обесценение существует. Убыток = $500,000 - $450,000 = $50,000.",
+      "explanation_formula": "$IFRS:\\;Impairment = \\$500,000 - \\text{max}(\\$400,000, \\$400,000) = \\$100,000\n$US\\;GAAP:\\;Impairment = \\$500,000 - \\$450,000 = \\$50,000$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. US GAAP impairment should be $50,000, not $100,000.",
+          "text_ru": "Неверно. Убыток от обесценения по US GAAP должен быть $50,000, а не $100,000."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. IFRS impairment should be $100,000, not $50,000.",
+          "text_ru": "Неверно. Убыток от обесценения по IFRS должен быть $100,000, а не $50,000."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "IFRS vs US GAAP Comparison",
+        "steps_en": [
+          "IFRS: Fair Value - Costs = $450,000 - $50,000 = $400,000",
+          "IFRS: Recoverable Amount = max($400,000, $400,000) = $400,000",
+          "IFRS: Impairment = $500,000 - $400,000 = $100,000",
+          "US GAAP: $500,000 > $440,000 (undiscounted), asset is impaired",
+          "US GAAP: Impairment = $500,000 - $450,000 = $50,000"
+        ],
+        "steps_ru": [
+          "IFRS: $400,000 (Возмещаемая стоимость)",
+          "IFRS: Убыток = $100,000",
+          "US GAAP: Убыток = $50,000"
+        ]
+      },
+      "difficulty": "hard",
+      "topic_tags": [
+        "impairment",
+        "ifrs",
+        "us_gaap",
+        "recoverable_amount"
+      ]
+    },
+    {
+      "question_id": "FSA-7-Q030",
+      "original_question_number": 4827,
+      "los_id": "LOS_7c",
+      "question_text_en": "Which of the following is most likely a key disclosure requirement for intangible assets with indefinite useful lives under IFRS?",
+      "question_text_ru": "Какое из следующих утверждений наиболее вероятно является ключевым требованием раскрытия информации для нематериальных активов с неопределенным сроком полезного использования по IFRS?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The amortization expense for the period.",
+          "text_ru": "Расходы на амортизацию за период."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The residual value of the intangible asset.",
+          "text_ru": "Ликвидационная стоимость нематериального актива."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The rationale for classifying the useful life as indefinite.",
+          "text_ru": "Обоснование классификации срока полезного использования как неопределенного."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Under IFRS, indefinite-life intangible assets are NOT amortized, so there is no amortization expense to disclose. Instead, companies must disclose the RATIONALE for why they classified the asset as having an indefinite useful life, explaining why it will generate cash flows indefinitely.",
+      "explanation_ru": "По IFRS нематериальные активы с неопределенным сроком НЕ амортизируются. Вместо этого компании должны раскрыть ОБОСНОВАНИЕ классификации активов как имеющих неопределенный срок полезного использования.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Indefinite-life assets are not amortized, so there is no amortization expense.",
+          "text_ru": "Неверно. Активы с неопределенным сроком не амортизируются, поэтому нет расхода на амортизацию."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Residual value is not a required disclosure for indefinite-life intangible assets.",
+          "text_ru": "Неверно. Ликвидационная стоимость не требует раскрытия для активов с неопределенным сроком."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "intangible_assets",
+        "indefinite_life",
+        "disclosure",
+        "ifrs"
+      ]
+    },
+    {
+      "question_id": "FSA-7-Q031",
+      "original_question_number": 4828,
+      "los_id": "LOS_7c",
+      "question_text_en": "Assuming that the historical cost of PPE for companies ABC and XYZ are the same, and the companies use the same depreciation method, consider the following information on their PPE. Which of the following statements is the least accurate?",
+      "question_text_ru": "Предполагая, что историческая стоимость основных средств компаний ABC и XYZ одинакова, и компании используют один и тот же метод амортизации, рассмотрите следующую информацию об их основных средствах. Какое из следующих утверждений наиболее неточно?",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Estimates",
+          "Company ABC",
+          "Company XYZ"
+        ],
+        "headers_ru": [
+          "Оценки",
+          "Компания ABC",
+          "Компания XYZ"
+        ],
+        "rows": [
+          [
+            "Estimated total useful life (years)",
+            "10.4",
+            "21.3"
+          ],
+          [
+            "Estimated age (years)",
+            "5.7",
+            "11.0"
+          ],
+          [
+            "Estimated remaining life (years)",
+            "4.7",
+            "9.4"
+          ]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The estimates suggest over 50% of each company's useful life has passed.",
+          "text_ru": "Оценки показывают, что более 50% срока полезного использования каждой компании прошло."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The estimated age of the equipment suggests that company ABC has newer PPE than company XYZ.",
+          "text_ru": "Предполагаемый возраст оборудования предполагает, что компания ABC имеет более новые основные средства, чем компания XYZ."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The estimated total useful life suggests that company XYZ depreciates PPE over a much shorter period than company ABC.",
+          "text_ru": "Предполагаемый общий срок полезного использования предполагает, что компания XYZ амортизирует основные средства за значительно более короткий период, чем компания ABC."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Statement C is INCORRECT. ABC's total useful life is 10.4 years, while XYZ's is 21.3 years. This means ABC depreciates FASTER (shorter period), not XYZ. XYZ actually has a LONGER total useful life than ABC. The statement reverses the relationship.",
+      "explanation_ru": "Утверждение C НЕВЕРНО. Общий срок полезного использования ABC составляет 10.4 года, а XYZ - 21.3 года. Это означает, что ABC амортизирует БЫСТРЕЕ (более короткий период), а не XYZ. XYZ фактически имеет БОЛЕЕ ДОЛГИЙ срок полезного использования, чем ABC.",
+      "explanation_formula": "$ABC:\\;Total\\;Life = 10.4\\;years\n$XYZ:\\;Total\\;Life = 21.3\\;years\n$Therefore, XYZ\\;depreciates\\;over\\;LONGER\\;period$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This is accurate: ABC is 5.7/10.4 = 54.8% depreciated; XYZ is 11.0/21.3 = 51.6% depreciated.",
+          "text_ru": "Неверно. Это точно: ABC амортизирована на 54.8%; XYZ амортизирована на 51.6%."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. This is accurate: ABC is 5.7 years old vs. XYZ at 11.0 years old.",
+          "text_ru": "Неверно. Это точно: ABC возрастом 5.7 лет, XYZ возрастом 11.0 лет."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Useful Life Comparison",
+        "steps_en": [
+          "ABC total useful life: 10.4 years",
+          "XYZ total useful life: 21.3 years",
+          "XYZ's useful life (21.3) > ABC's useful life (10.4)",
+          "Therefore XYZ depreciates over LONGER period, not shorter"
+        ],
+        "steps_ru": [
+          "ABC: 10.4 лет",
+          "XYZ: 21.3 лет",
+          "XYZ имеет более длительный срок"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": [
+        "useful_life",
+        "depreciation",
+        "asset_analysis"
+      ]
+    },
+    {
+      "question_id": "FSA-7-Q032",
+      "original_question_number": 4829,
+      "los_id": "LOS_7c",
+      "question_text_en": "XYZ company follows a straight-line depreciation method and reports the information below for its production machines. The machines' estimated remaining useful life, and the time the company held them are closest to:",
+      "question_text_ru": "Компания XYZ использует линейный метод амортизации и предоставляет следующую информацию о своих производственных машинах. Предполагаемый оставшийся срок полезного использования и время владения машинами ближе всего к:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Parameter",
+          "Value"
+        ],
+        "headers_ru": [
+          "Параметр",
+          "Стоимость"
+        ],
+        "rows": [
+          [
+            "Annual depreciation expense",
+            "$50,000"
+          ],
+          [
+            "Accumulated depreciation expense",
+            "$200,000"
+          ],
+          [
+            "Carrying value",
+            "$650,000"
+          ]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Remaining life: 5 years | Holding period: 3 years",
+          "text_ru": "Оставшийся срок: 5 лет | Период владения: 3 года"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Remaining life: 8 years | Holding period: 4 years",
+          "text_ru": "Оставшийся срок: 8 лет | Период владения: 4 года"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Remaining life: 13 years | Holding period: 4 years",
+          "text_ru": "Оставшийся срок: 13 лет | Период владения: 4 года"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Remaining Useful Life = Carrying Value / Annual Depreciation = $650,000 / $50,000 = 13 years. Holding Period = Accumulated Depreciation / Annual Depreciation = $200,000 / $50,000 = 4 years.",
+      "explanation_ru": "Оставшийся срок = Балансовая стоимость / Годовая амортизация = $650,000 / $50,000 = 13 лет. Период владения = Накопленная амортизация / Годовая амортизация = $200,000 / $50,000 = 4 года.",
+      "explanation_formula": "$Remaining\\;Life = \\frac{\\$650,000}{\\$50,000} = 13\\;years\n$Holding\\;Period = \\frac{\\$200,000}{\\$50,000} = 4\\;years$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Remaining life should be 13 years, not 5 years.",
+          "text_ru": "Неверно. Оставшийся срок должен быть 13 лет, а не 5 лет."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Remaining life should be 13 years, not 8 years.",
+          "text_ru": "Неверно. Оставшийся срок должен быть 13 лет, а не 8 лет."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic Calculation",
+        "steps_en": [
+          "$650,000 / $50,000 = 13 years (Remaining Life)",
+          "$200,000 / $50,000 = 4 years (Holding Period)"
+        ],
+        "steps_ru": [
+          "$650,000 / $50,000 = 13 лет",
+          "$200,000 / $50,000 = 4 года"
+        ]
+      },
+      "difficulty": "easy",
+      "topic_tags": [
+        "useful_life",
+        "depreciation",
+        "straight_line"
+      ]
+    },
+    {
+      "question_id": "FSA-7-Q033",
+      "original_question_number": 4830,
+      "los_id": "LOS_7c",
+      "question_text_en": "Under IFRS, which of the following disclosures is least likely required for each class of property, plant, and equipment?",
+      "question_text_ru": "По IFRS, какое из следующих раскрытий информации с наименьшей вероятностью требуется для каждого класса недвижимого имущества, машин и оборудования?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The basis of measurement.",
+          "text_ru": "Основа измерения."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The expected residual value.",
+          "text_ru": "Ожидаемая ликвидационная стоимость."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The depreciation methods used.",
+          "text_ru": "Используемые методы амортизации."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "IFRS requires disclosure of: basis of measurement, depreciation methods, useful lives/rates, gross carrying amounts, and accumulated depreciation. The EXPECTED RESIDUAL VALUE is NOT a required disclosure under IFRS. Only actual/current residual values are considered in depreciation calculations, not expected future values.",
+      "explanation_ru": "IFRS требует раскрытия: основы измерения, методов амортизации, сроков полезного использования. Ожидаемая ликвидационная стоимость НЕ требует раскрытия по IFRS.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Basis of measurement is a required IFRS disclosure.",
+          "text_ru": "Неверно. Основа измерения - требуемое раскрытие по IFRS."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Depreciation methods are a required IFRS disclosure.",
+          "text_ru": "Неверно. Методы амортизации - требуемое раскрытие по IFRS."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "disclosure",
+        "ppe",
+        "ifrs"
+      ]
+    },
+    {
+      "question_id": "FSA-7-Q034",
+      "original_question_number": 4831,
+      "los_id": "LOS_7c",
+      "question_text_en": "Which of the following is least likely to be disclosed under US GAAP for intangible assets?",
+      "question_text_ru": "Какое из следующих сведений с наименьшей вероятностью требует раскрытия по US GAAP для нематериальных активов?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The fair value of intangible assets with indefinite lives.",
+          "text_ru": "Справедливая стоимость нематериальных активов с неопределенным сроком."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The expected amortization expense for the next five fiscal years.",
+          "text_ru": "Ожидаемые расходы на амортизацию в течение следующих пяти лет."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The gross carrying amounts and accumulated amortization by major class.",
+          "text_ru": "Валовые балансовые стоимости и накопленная амортизация по основным классам."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "US GAAP requires: gross carrying amounts and accumulated amortization by major class, and expected amortization expense for the next five fiscal years. The FAIR VALUE of indefinite-life intangible assets is NOT typically required to be disclosed under US GAAP. Fair value disclosure for indefinite assets is NOT a standard requirement.",
+      "explanation_ru": "US GAAP требует раскрытия валовых балансовых стоимостей, накопленной амортизации и ожидаемых расходов на амортизацию. Справедливая стоимость нематериальных активов с неопределенным сроком НЕ обязательно требует раскрытия по US GAAP.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Expected amortization expense for next five years is a required US GAAP disclosure.",
+          "text_ru": "Неверно. Ожидаемые расходы на амортизацию - требуемое раскрытие по US GAAP."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Gross carrying amounts and accumulated amortization are required US GAAP disclosures.",
+          "text_ru": "Неверно. Валовые балансовые стоимости и накопленная амортизация - требуемые раскрытия по US GAAP."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "disclosure",
+        "intangible_assets",
+        "us_gaap"
+      ]
+    },
+    {
+      "question_id": "FSA-7-Q035",
+      "original_question_number": 4832,
+      "los_id": "LOS_7c",
+      "question_text_en": "A company discloses the following information for its intangible assets. The average remaining useful life of the intangible assets is closest to:",
+      "question_text_ru": "Компания раскрывает следующую информацию о своих нематериальных активах. Средний оставшийся срок полезного использования нематериальных активов ближе всего к:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Parameter",
+          "Value"
+        ],
+        "headers_ru": [
+          "Параметр",
+          "Стоимость"
+        ],
+        "rows": [
+          [
+            "Gross carrying amount",
+            "$1,000,000"
+          ],
+          [
+            "Accumulated amortization",
+            "$400,000"
+          ],
+          [
+            "Annual amortization expense",
+            "$100,000"
+          ]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "3 years",
+          "text_ru": "3 года"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "6 years",
+          "text_ru": "6 лет"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "10 years",
+          "text_ru": "10 лет"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Net Carrying Amount = $1,000,000 - $400,000 = $600,000. Average Remaining Useful Life = $600,000 / $100,000 = 6 years.",
+      "explanation_ru": "Чистая балансовая стоимость = $1,000,000 - $400,000 = $600,000. Средний оставшийся срок = $600,000 / $100,000 = 6 лет.",
+      "explanation_formula": "$Net\\;Carrying\\;Amount = \\$1,000,000 - \\$400,000 = \\$600,000\n$Remaining\\;Life = \\frac{\\$600,000}{\\$100,000} = 6\\;years$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Calculation error - this is not the correct remaining life.",
+          "text_ru": "Неверно. Ошибка в расчетах - это не правильный оставшийся срок."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This would be the total useful life, not the remaining life.",
+          "text_ru": "Неверно. Это был бы общий срок полезного использования, а не оставшийся срок."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic Calculation",
+        "steps_en": [
+          "$1,000,000 - $400,000 = $600,000 (Net Carrying Amount)",
+          "$600,000 / $100,000 = 6 years"
+        ],
+        "steps_ru": [
+          "$1,000,000 - $400,000 = $600,000",
+          "$600,000 / $100,000 = 6 лет"
+        ]
+      },
+      "difficulty": "easy",
+      "topic_tags": [
+        "useful_life",
+        "amortization",
+        "intangible_assets"
+      ]
+    },
+    {
+      "question_id": "FSA-7-Q036",
+      "original_question_number": 4833,
+      "los_id": "LOS_7c",
+      "question_text_en": "A company follows a straight-line depreciation method and reports the following for its equipment. The total useful life, the age of the equipment, and the remaining useful life are closest to:",
+      "question_text_ru": "Компания использует линейный метод амортизации и предоставляет следующую информацию об оборудовании. Общий срок полезного использования, возраст оборудования и оставшийся срок полезного использования ближе всего к:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Parameter",
+          "Value"
+        ],
+        "headers_ru": [
+          "Параметр",
+          "Стоимость"
+        ],
+        "rows": [
+          [
+            "Historical cost",
+            "$500,000"
+          ],
+          [
+            "Annual depreciation expense",
+            "$50,000"
+          ],
+          [
+            "Accumulated depreciation",
+            "$200,000"
+          ]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Total: 10 years | Age: 4 years | Remaining: 6 years",
+          "text_ru": "Всего: 10 лет | Возраст: 4 года | Осталось: 6 лет"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Total: 10 years | Age: 5 years | Remaining: 5 years",
+          "text_ru": "Всего: 10 лет | Возраст: 5 лет | Осталось: 5 лет"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Total: 12 years | Age: 4 years | Remaining: 8 years",
+          "text_ru": "Всего: 12 лет | Возраст: 4 года | Осталось: 8 лет"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Total Useful Life = Historical Cost / Annual Depreciation = $500,000 / $50,000 = 10 years. Age = Accumulated Depreciation / Annual Depreciation = $200,000 / $50,000 = 4 years. Remaining Life = 10 - 4 = 6 years.",
+      "explanation_ru": "Общий срок = $500,000 / $50,000 = 10 лет. Возраст = $200,000 / $50,000 = 4 года. Оставшийся срок = 10 - 4 = 6 лет.",
+      "explanation_formula": "$Total\\;Life = \\frac{\\$500,000}{\\$50,000} = 10\\;years\n$Age = \\frac{\\$200,000}{\\$50,000} = 4\\;years\n$Remaining = 10 - 4 = 6\\;years$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Age should be 4 years, not 5 years based on the accumulated depreciation.",
+          "text_ru": "Неверно. Возраст должен быть 4 года, а не 5 лет."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Total useful life should be 10 years, not 12 years.",
+          "text_ru": "Неверно. Общий срок полезного использования должен быть 10 лет, а не 12 лет."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Equipment Life Analysis",
+        "steps_en": [
+          "$500,000 / $50,000 = 10 years (Total Life)",
+          "$200,000 / $50,000 = 4 years (Age)",
+          "10 - 4 = 6 years (Remaining)"
+        ],
+        "steps_ru": [
+          "Всего: 10 лет",
+          "Возраст: 4 года",
+          "Осталось: 6 лет"
+        ]
+      },
+      "difficulty": "easy",
+      "topic_tags": [
+        "useful_life",
+        "depreciation",
+        "asset_age",
+        "straight_line"
       ]
     }
   ]
