@@ -1,0 +1,586 @@
+{
+  "metadata": {
+    "book_id": 3,
+    "book_code": "FSA",
+    "book_name": "Financial Statement Analysis",
+    "book_name_ru": "Анализ финансовой отчетности",
+    "module_id": 7,
+    "module_name": "Analysis of Long-Term Assets",
+    "module_name_ru": "Анализ долгосрочных активов",
+    "total_questions": 10,
+    "version": "2.0",
+    "source": "AnalystPrep QBank"
+  },
+  "questions": [
+    {
+      "question_id": "FSA-7-Q001",
+      "original_question_number": 531,
+      "los_id": "LOS_7b",
+      "question_text_en": "Arithma Co. exchanged a spare forklift purchased one year ago in return for an ambulance to be used in its factory. The company reports under US GAAP and does not have any idea of the fair value of the ambulance. Arithma Co. should most likely record the value of the ambulance in its financial statements as:",
+      "question_text_ru": "Компания Arithma Co. обменяла запасной погрузчик, приобретенный год назад, на машину скорой помощи для использования на заводе. Компания отчитывается по US GAAP и не знает справедливой стоимости машины скорой помощи. Arithma Co. скорее всего должна отразить стоимость машины скорой помощи в финансовой отчетности как:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The fair value of the forklift.",
+          "text_ru": "Справедливая стоимость погрузчика."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The historical cost of the forklift.",
+          "text_ru": "Историческая стоимость погрузчика."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The carrying value of the forklift.",
+          "text_ru": "Балансовая стоимость погрузчика."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "When Arithma Co. exchanges an asset and the fair value of the acquired asset is not readily determinable, the asset received should be recorded at the fair value of the asset given up. This approach is based on the principle that in an exchange transaction where the fair value of the acquired asset is not readily determinable, the asset received should be recorded at the fair value of the asset given up. This method ensures that the transaction reflects the most accurate and current valuation of the exchanged assets in the financial statements, providing a clear and fair representation of the company's financial position.",
+      "explanation_ru": "Когда Arithma Co. обменивает актив и справедливая стоимость полученного актива не может быть легко определена, полученный актив должен быть отражен по справедливой стоимости переданного актива. Этот подход основан на принципе, что в операции обмена, когда справедливая стоимость полученного актива не может быть легко определена, полученный актив должен быть отражен по справедливой стоимости переданного актива.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Suggesting that the ambulance should be recorded at the historical cost of the forklift overlooks the fundamental accounting principle of fair value measurement in asset exchanges. The historical cost of the forklift may not represent its current market value, leading to a misrepresentation of the value of the ambulance in the financial statements.",
+          "text_ru": "Неверно. Предположение, что машина скорой помощи должна быть отражена по исторической стоимости погрузчика, игнорирует основной принцип бухгалтерского учета оценки по справедливой стоимости при обмене активами."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Recording the ambulance at the carrying value of the forklift also fails to adhere to the fair value measurement principle. The carrying value, or book value, of an asset is its historical cost adjusted for any accumulated depreciation or impairment losses. While closer to a current value than historical cost, the carrying value may still not accurately reflect the market value of the forklift at the time of the exchange.",
+          "text_ru": "Неверно. Отражение машины скорой помощи по балансовой стоимости погрузчика также не соответствует принципу оценки по справедливой стоимости."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "asset_exchange",
+        "fair_value",
+        "us_gaap"
+      ]
+    },
+    {
+      "question_id": "FSA-7-Q002",
+      "original_question_number": 2251,
+      "los_id": "LOS_7a",
+      "question_text_en": "The capitalization of interests accruing during the construction of an asset is allowed in which of the following?",
+      "question_text_ru": "Капитализация процентов, начисленных в течение строительства актива, разрешена в:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "IFRS.",
+          "text_ru": "IFRS."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "US GAAP.",
+          "text_ru": "US GAAP."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "IFRS & US GAAP.",
+          "text_ru": "IFRS & US GAAP."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "When a firm constructs an asset for personal use or a resale, the interest accruing from the construction cost during the construction period is capitalized under IFRS and US GAAP. The treatment of capitalized interests is the same under both IFRS and US GAAP.",
+      "explanation_ru": "Когда компания строит актив для собственного использования или перепродажи, проценты, начисленные на стоимость строительства в течение периода строительства, капитализируются по IFRS и US GAAP. Учет капитализированных процентов одинаков как по IFRS, так и по US GAAP.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. IFRS allows capitalization of interest accruing during the construction of an asset.",
+          "text_ru": "Неверно. IFRS разрешает капитализацию процентов, начисленных во время строительства актива."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. US GAAP allows the capitalization of interest accruing during the construction of an asset.",
+          "text_ru": "Неверно. US GAAP разрешает капитализацию процентов, начисленных во время строительства актива."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "interest_capitalization",
+        "construction",
+        "ifrs",
+        "us_gaap"
+      ]
+    },
+    {
+      "question_id": "FSA-7-Q003",
+      "original_question_number": 2253,
+      "los_id": "LOS_7a",
+      "question_text_en": "Which of the following is most likely an unidentifiable intangible asset?",
+      "question_text_ru": "Что из следующего скорее всего является неидентифицируемым нематериальным активом?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Patent.",
+          "text_ru": "Патент."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Goodwill.",
+          "text_ru": "Гудвилл."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Copyrights.",
+          "text_ru": "Авторские права."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Not all intangible assets are identifiable. Some intangible assets are unidentifiable because they can not be acquired separately. An example of an unidentifiable intangible asset is goodwill, which is the excess of the purchase price over the fair value of the identifiable assets (net of liabilities).",
+      "explanation_ru": "Не все нематериальные активы являются идентифицируемыми. Некоторые нематериальные активы являются неидентифицируемыми, потому что они не могут быть приобретены отдельно. Примером неидентифицируемого нематериального актива является гудвилл, который представляет собой превышение цены покупки над справедливой стоимостью идентифицируемых активов (за вычетом обязательств).",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Identifiable intangible assets are those that can be separated from other assets and can even be sold by the company, e.g., patents.",
+          "text_ru": "Неверно. Идентифицируемые нематериальные активы - это те, которые могут быть отделены от других активов и могут быть проданы компанией, например, патенты."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Identifiable intangible assets include intellectual property, copyrights, trademarks, and trade names.",
+          "text_ru": "Неверно. Идентифицируемые нематериальные активы включают интеллектуальную собственность, авторские права, товарные знаки и торговые наименования."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "intangible_assets",
+        "goodwill",
+        "identifiable_assets"
+      ]
+    },
+    {
+      "question_id": "FSA-7-Q004",
+      "original_question_number": 2254,
+      "los_id": "LOS_7a",
+      "question_text_en": "A German tech firm reporting under IFRS has incurred the following expenditures during the year 2016:",
+      "question_text_ru": "Немецкая технологическая компания, отчитывающаяся по IFRS, понесла следующие расходы в течение 2016 года:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Item",
+          "Amount"
+        ],
+        "headers_ru": [
+          "Статья",
+          "Сумма"
+        ],
+        "rows": [
+          [
+            "SG&A",
+            "$1,200"
+          ],
+          [
+            "Research Cost",
+            "$400"
+          ],
+          [
+            "Depreciation",
+            "$300"
+          ],
+          [
+            "Interest Expense",
+            "$600"
+          ],
+          [
+            "Development Cost",
+            "$800"
+          ]
+        ]
+      },
+      "question_continuation_en": "Given the information presented and all IFRS criteria are met, the total operating expenses of the firm is closest to:",
+      "question_continuation_ru": "При условии, что все критерии IFRS выполнены, общие операционные расходы компании ближе всего к:",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$1,900.",
+          "text_ru": "$1,900."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$2,700.",
+          "text_ru": "$2,700."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$3,300.",
+          "text_ru": "$3,300."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Under International Financial Reporting Standards (IFRS), the treatment of research and development costs is distinct. Research costs are expensed in the period they are incurred, reflecting the uncertainty of future economic benefits. Conversely, development costs can be capitalized if certain criteria are met, indicating that the expenditure will likely result in future economic benefits. Given the information for the German tech firm, the total operating expenses can be calculated by summing the Selling, General, and Administrative (SG&A) expenses, Research costs, and Depreciation expenses. The Interest Expense and Development Cost are not included in the operating expenses calculation under IFRS. Total Operating Expenses = SG&A + Research Cost + Depreciation = $1,200 + $400 + $300 = $1,900",
+      "explanation_ru": "Согласно Международным стандартам финансовой отчетности (IFRS), учет затрат на исследования и разработки различен. Затраты на исследования списываются в периоде их возникновения. Напротив, затраты на разработки могут быть капитализированы, если выполнены определенные критерии. Общие операционные расходы = SG&A + Затраты на исследования + Амортизация = $1,200 + $400 + $300 = $1,900",
+      "explanation_formula": "$Total\\;Operating\\;Expenses = SG\\&A + Research\\;Cost + Depreciation = \\$1,200 + \\$400 + \\$300 = \\$1,900$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Under IFRS, development costs are capitalized if they meet certain criteria, indicating that the expenditure is expected to generate future economic benefits and is not expensed in the period incurred.",
+          "text_ru": "Неверно. По IFRS затраты на разработки капитализируются, если они соответствуют определенным критериям."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Interest Expense is related to financing activities and should not be included in operating expenses. Including both the Development Cost and Interest Expense results in a significantly overstated total operating expenses figure.",
+          "text_ru": "Неверно. Процентные расходы относятся к финансовой деятельности и не должны включаться в операционные расходы."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "research_and_development",
+        "operating_expenses",
+        "ifrs",
+        "capitalization"
+      ]
+    },
+    {
+      "question_id": "FSA-7-Q005",
+      "original_question_number": 2255,
+      "los_id": "LOS_7a",
+      "question_text_en": "Smart-Sun Corp. purchased a solar panel plant from Solar World Inc. in a business transaction of $700 million. Assuming that the fair value of the identifiable assets related to the solar panel plant of Solar World is $1,500 million with liabilities of $830 million, the goodwill to be reported on Smart Sun's balance sheet is closest to:",
+      "question_text_ru": "Smart-Sun Corp. приобрела завод по производству солнечных панелей у Solar World Inc. за $700 миллионов. Предполагая, что справедливая стоимость идентифицируемых активов, связанных с заводом Solar World, составляет $1,500 миллионов с обязательствами $830 миллионов, гудвилл, который должен быть отражен в балансе Smart Sun, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$30 million.",
+          "text_ru": "$30 миллионов."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$130 million.",
+          "text_ru": "$130 миллионов."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$800 million.",
+          "text_ru": "$800 миллионов."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "First, we need to find the Net value of assets related to the solar panel plant. Net Value of Assets = Assets − Liabilities = $1,500 million − $830 million = $670 million. Goodwill is calculated as the excess of the purchase price over the fair value of the identifiable assets. Goodwill to be reported on Smart Sun's balance sheet = Purchase Price − Fair value of net assets = $700 million − $670 million = $30 million",
+      "explanation_ru": "Сначала нужно найти чистую стоимость активов завода. Чистая стоимость активов = Активы − Обязательства = $1,500 млн − $830 млн = $670 млн. Гудвилл рассчитывается как превышение цены покупки над справедливой стоимостью идентифицируемых активов. Гудвилл = Цена покупки − Справедливая стоимость чистых активов = $700 млн − $670 млн = $30 млн",
+      "explanation_formula": "$Net\\;Value = \\$1,500M - \\$830M = \\$670M$\n$Goodwill = \\$700M - \\$670M = \\$30M$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This would be the result if you subtracted liabilities from the purchase price instead of calculating net assets first.",
+          "text_ru": "Неверно. Это было бы результатом, если вы вычли обязательства из цены покупки вместо того, чтобы сначала рассчитать чистые активы."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This ignores the purchase price and just adds assets and liabilities.",
+          "text_ru": "Неверно. Это игнорирует цену покупки и просто складывает активы и обязательства."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic Calculation",
+        "steps_en": [
+          "$1,500M - $830M = $670M",
+          "$700M - $670M = $30M"
+        ],
+        "steps_ru": [
+          "$1,500М - $830М = $670М",
+          "$700М - $670М = $30М"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": [
+        "goodwill",
+        "business_combination",
+        "fair_value"
+      ]
+    },
+    {
+      "question_id": "FSA-7-Q006",
+      "original_question_number": 2256,
+      "los_id": "LOS_7a",
+      "question_text_en": "If a hypothetical firm capitalizes its expenditures rather than expensing them, then determine the most likely impact on its net income in subsequent years compared to a firm that expenses out its expenditures.",
+      "question_text_ru": "Если гипотетическая компания капитализирует свои расходы вместо того, чтобы списывать их, определите наиболее вероятное влияние на ее чистую прибыль в последующие годы по сравнению с компанией, которая списывает свои расходы.",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The capitalizing firm will have a lower net income in subsequent years.",
+          "text_ru": "Капитализирующая компания будет иметь более низкую чистую прибыль в последующие годы."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The capitalizing firm will have a higher net income in subsequent years.",
+          "text_ru": "Капитализирующая компания будет иметь более высокую чистую прибыль в последующие годы."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The capitalizing firm will have an equal net income as the expensing firm in subsequent years.",
+          "text_ru": "Капитализирующая компания будет иметь такую же чистую прибыль, как и списывающая компания, в последующие годы."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Compared to an expensing firm, a firm that capitalizes its expenditures will have a higher net income in the first years. The capitalizing firm will have a lower net income in the subsequent years since it will have higher depreciation expenses.",
+      "explanation_ru": "По сравнению со списывающей компанией, компания, которая капитализирует свои расходы, будет иметь более высокую чистую прибыль в первые годы. Капитализирующая компания будет иметь более низкую чистую прибыль в последующие годы, так как у нее будут более высокие расходы на амортизацию.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Capitalizing will affect net income after the first year once the firm begins recognizing depreciation expense.",
+          "text_ru": "Неверно. Капитализация повлияет на чистую прибыль после первого года, как только компания начнет признавать расходы на амортизацию."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Capitalizing and expensing will have different net incomes as expensing will reduce net income in the first year, and capitalizing will reduce net income in the subsequent years.",
+          "text_ru": "Неверно. Капитализация и списание будут иметь разную чистую прибыль, так как списание снизит чистую прибыль в первый год, а капитализация снизит чистую прибыль в последующие годы."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "capitalization",
+        "expensing",
+        "depreciation",
+        "net_income"
+      ]
+    },
+    {
+      "question_id": "FSA-7-Q007",
+      "original_question_number": 2263,
+      "los_id": "LOS_7a",
+      "question_text_en": "Identify the most likely effects on ratios of a firm that capitalizes the cost of assets.",
+      "question_text_ru": "Определите наиболее вероятное влияние на коэффициенты компании, которая капитализирует стоимость активов.",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Higher Interest coverage, higher Equity and lower Income variability",
+          "text_ru": "Более высокое покрытие процентов, более высокий капитал и более низкая волатильность дохода"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Lower Interest coverage, higher Equity and lower Income variability",
+          "text_ru": "Более низкое покрытие процентов, более высокий капитал и более низкая волатильность дохода"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Higher Interest coverage, lower Equity and lower Income variability",
+          "text_ru": "Более высокое покрытие процентов, более низкий капитал и более низкая волатильность дохода"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Since the net income is higher under capitalized costs, the interest coverage ratio and equity (retained earnings) are also higher. Also, when the costs are capitalized, they flow through the income statement over the asset's useful life as depreciation. Therefore, the Income variability is lower.",
+      "explanation_ru": "Поскольку чистая прибыль выше при капитализированных затратах, коэффициент покрытия процентов и собственный капитал (нераспределенная прибыль) также выше. Кроме того, когда затраты капитализируются, они проходят через отчет о прибылях и убытках в течение срока полезного использования актива в виде амортизации. Следовательно, волатильность дохода ниже.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Interest coverage ratio calculated as (EBIT/Interest expense) will be lower under expensing as EBIT will be lower because of the deduction of the asset's costs when computing EBIT.",
+          "text_ru": "Неверно. Коэффициент покрытия процентов, рассчитанный как (EBIT/Процентные расходы), будет ниже при списании, поскольку EBIT будет ниже из-за вычета стоимости активов при расчете EBIT."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Income variability will be higher under expensing as there will be a large expense deducted from gross income, while under capitalization will have a lower variability as the asset's cost (depreciation) will be spread over the asset's life.",
+          "text_ru": "Неверно. Волатильность дохода будет выше при списании, так как будет вычтен большой расход из валового дохода, в то время как при капитализации волатильность будет ниже, так как стоимость актива (амортизация) будет распределена на срок службы актива."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "capitalization",
+        "financial_ratios",
+        "interest_coverage",
+        "equity"
+      ]
+    },
+    {
+      "question_id": "FSA-7-Q008",
+      "original_question_number": 2264,
+      "los_id": "LOS_7a",
+      "question_text_en": "Which of the following is least likely a criterion of identifiable intangible assets under IFRS?",
+      "question_text_ru": "Что из следующего с наименьшей вероятностью является критерием идентифицируемых нематериальных активов по IFRS?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The assets should provide future economic benefits.",
+          "text_ru": "Активы должны приносить будущие экономические выгоды."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The firm should have control and legal rights over the asset.",
+          "text_ru": "Компания должна иметь контроль и юридические права на актив."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The assets should be capable of being inseparable from the firm.",
+          "text_ru": "Активы должны быть неотделимы от компании."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "For an intangible asset to be considered identifiable, it must be capable of being separated from the firm or arise from contractual or other legal rights, regardless of whether those rights are separable. This means that if an intangible asset can be sold, transferred, licensed, rented, or exchanged independently of the firm, it meets the separability criterion, making it an identifiable intangible asset. This criterion distinguishes identifiable intangible assets from goodwill, which is an unidentifiable intangible asset because it cannot be separated from the firm.",
+      "explanation_ru": "Чтобы нематериальный актив считался идентифицируемым, он должен быть способен быть отделенным от компании или возникать из договорных или других юридических прав, независимо от того, являются ли эти права отделяемыми. Это означает, что если нематериальный актив может быть продан, передан, лицензирован, сдан в аренду или обменен независимо от компании, он соответствует критерию отделяемости, что делает его идентифицируемым нематериальным активом.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The requirement that assets should provide future economic benefits is a fundamental criterion for the recognition of identifiable intangible assets under IFRS.",
+          "text_ru": "Неверно. Требование о том, что активы должны приносить будущие экономические выгоды, является основным критерием для признания идентифицируемых нематериальных активов по IFRS."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Having control and legal rights over an asset is crucial for its recognition as an identifiable intangible asset under IFRS.",
+          "text_ru": "Неверно. Наличие контроля и юридических прав на актив имеет решающее значение для его признания в качестве идентифицируемого нематериального актива по IFRS."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "intangible_assets",
+        "identifiable_assets",
+        "ifrs",
+        "separability"
+      ]
+    },
+    {
+      "question_id": "FSA-7-Q009",
+      "original_question_number": 2275,
+      "los_id": "LOS_7a",
+      "question_text_en": "York Corp. purchased a plant for $45 million with a useful life of 8 years and a salvage value of $5 million. At the beginning of the 4th year, York decided to decrease the salvage value to $3.2 million. The depreciation expense for the 4th year if York uses the Straight-line method of depreciation is closest to:",
+      "question_text_ru": "York Corp. приобрела завод за $45 миллионов со сроком полезного использования 8 лет и ликвидационной стоимостью $5 миллионов. В начале 4-го года York решила уменьшить ликвидационную стоимость до $3.2 миллионов. Расходы на амортизацию за 4-й год, если York использует линейный метод амортизации, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$4.36 million.",
+          "text_ru": "$4.36 миллиона."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$5.00 million.",
+          "text_ru": "$5.00 миллионов."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$5.36 million.",
+          "text_ru": "$5.36 миллионов."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "For the first three years, Depreciation expense = (Cost − Salvage value) / Useful Life = ($45 million − $5 million) / 8 years = $5 million. At the beginning of the 4th year, Depreciation expense = (Book value − Salvage cost) / Remaining useful life = (45 − (3 × 5) − 3.2) / (8 − 3) = $5.36 million",
+      "explanation_ru": "За первые три года расходы на амортизацию = (Стоимость − Ликвидационная стоимость) / Срок полезного использования = ($45 млн − $5 млн) / 8 лет = $5 млн. В начале 4-го года расходы на амортизацию = (Балансовая стоимость − Ликвидационная стоимость) / Оставшийся срок полезного использования = (45 − (3 × 5) − 3.2) / (8 − 3) = $5.36 млн",
+      "explanation_formula": "$Depreciation_{years\\;1-3} = \\frac{\\$45M - \\$5M}{8} = \\$5M$\n$Depreciation_{year\\;4} = \\frac{45 - (3 \\times 5) - 3.2}{8 - 3} = \\frac{26.8}{5} = \\$5.36M$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This calculation errors in the book value computation.",
+          "text_ru": "Неверно. Эта калькуляция содержит ошибку в расчете балансовой стоимости."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. This is the depreciation for years 1-3, not year 4 after the salvage value change.",
+          "text_ru": "Неверно. Это амортизация за 1-3 годы, а не за 4-й год после изменения ликвидационной стоимости."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic Calculation",
+        "steps_en": [
+          "First 3 years: ($45M - $5M) / 8 = $5M per year",
+          "Book value at start of year 4: $45M - (3 × $5M) = $30M",
+          "Year 4 depreciation: ($30M - $3.2M) / 5 = $5.36M"
+        ],
+        "steps_ru": [
+          "Первые 3 года: ($45М - $5М) / 8 = $5М в год",
+          "Балансовая стоимость на начало 4-го года: $45М - (3 × $5М) = $30М",
+          "Амортизация за 4-й год: ($30М - $3.2М) / 5 = $5.36М"
+        ]
+      },
+      "difficulty": "hard",
+      "topic_tags": [
+        "depreciation",
+        "straight_line",
+        "salvage_value",
+        "estimate_change"
+      ]
+    },
+    {
+      "question_id": "FSA-7-Q010",
+      "original_question_number": 2276,
+      "los_id": "LOS_7a",
+      "question_text_en": "Intangible assets with finite useful lives mostly differ from intangible assets with infinite useful lives with respect to the accounting treatment of:",
+      "question_text_ru": "Нематериальные активы с конечным сроком полезного использования в основном отличаются от нематериальных активов с бесконечным сроком полезного использования в отношении учета:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Costs.",
+          "text_ru": "Затрат."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Revaluation.",
+          "text_ru": "Переоценки."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Amortization.",
+          "text_ru": "Амортизации."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Whereas an intangible asset with a finite useful life is amortized, an intangible asset with an indefinite useful life is not.",
+      "explanation_ru": "В то время как нематериальный актив с конечным сроком полезного использования амортизируется, нематериальный актив с неопределенным сроком полезного использования не амортизируется.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Both types of assets are recorded at cost initially.",
+          "text_ru": "Неверно. Оба типа активов первоначально учитываются по себестоимости."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Revaluation treatment is similar for both finite and indefinite lived intangible assets under IFRS.",
+          "text_ru": "Неверно. Учет переоценки одинаков для нематериальных активов с конечным и неопределенным сроком службы по IFRS."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "intangible_assets",
+        "amortization",
+        "finite_life",
+        "indefinite_life"
+      ]
+    }
+  ]
+}
