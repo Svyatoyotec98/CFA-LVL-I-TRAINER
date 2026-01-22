@@ -1,0 +1,262 @@
+{
+  "metadata": {
+    "book_id": 3,
+    "book_code": "FSA",
+    "book_name": "Financial Statement Analysis",
+    "book_name_ru": "Анализ финансовой отчетности",
+    "module_id": 4,
+    "module_name": "Analyzing Statements of Cash Flows",
+    "module_name_ru": "Анализ отчетов о движении денежных средств",
+    "page_range": "87-113",
+    "total_terms": 0,
+    "total_exercises": 0,
+    "version": "2.0",
+    "last_updated": "2026-01-22"
+  },
+  "los": [
+    {
+      "los_id": "LOS_4a",
+      "los_code": "4a",
+      "los_description_en": "Describe how the cash flow statement is linked to the income statement and the balance sheet",
+      "los_description_ru": "Описать, как отчет о движении денежных средств связан с отчетом о прибылях и убытках и балансом",
+      "terms": [
+        {
+          "term_id": "FSA-4-001",
+          "term_en": "Balance Sheet",
+          "term_ru": "Баланс",
+          "definition_en": "A financial statement that captures the financial status of a company at a specific moment, detailing the company's assets and how these assets are funded through liabilities and shareholders' equity, representing permanent or stock accounts.",
+          "definition_ru": "Финансовый отчет, который отражает финансовое состояние компании в определенный момент времени, детализируя активы компании и способ их финансирования через обязательства и собственный капитал акционеров, представляя постоянные или запасовые счета.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-002",
+          "term_en": "Income Statement",
+          "term_ru": "Отчет о прибылях и убытках",
+          "definition_en": "A flow statement that shows the company's financial performance over a period, bridging two balance sheet dates. Comprising revenues, expenses, gains, and losses, it records transactions over time and utilizes accrual accounting under IFRS or US GAAP.",
+          "definition_ru": "Отчет о потоках, который показывает финансовые результаты компании за период, связывая две даты балансового отчета. Включает доходы, расходы, прибыли и убытки, записывает транзакции за период времени и использует учет по методу начисления согласно МСФО или US GAAP.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-003",
+          "term_en": "Statement of Cash Flows",
+          "term_ru": "Отчет о движении денежных средств",
+          "definition_en": "A flow statement that outlines the changes in cash and cash equivalents, including restricted cash, from one balance sheet date to the next. It organizes cash movements into operating, investing, and financing activities.",
+          "definition_ru": "Отчет о потоках, который описывает изменения в денежных средствах и их эквивалентах, включая ограниченные денежные средства, от одной даты баланса до следующей. Он организует движение денежных средств по операционной, инвестиционной и финансовой деятельности.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-004",
+          "term_en": "Statement of Shareholders' Equity",
+          "term_ru": "Отчет об изменениях в собственном капитале",
+          "definition_en": "A flow statement that details changes in the company's equity between balance sheet periods, listing key equity components such as common stock and retained earnings, alongside descriptions of transactions that affected these components.",
+          "definition_ru": "Отчет о потоках, который детализирует изменения в капитале компании между периодами баланса, перечисляя ключевые компоненты капитала, такие как обыкновенные акции и нераспределенная прибыль, наряду с описанием транзакций, которые повлияли на эти компоненты.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-005",
+          "term_en": "Flow Statement",
+          "term_ru": "Отчет о потоках",
+          "definition_en": "A financial statement that records transactions over a period of time, including the income statement, cash flow statement, and statement of shareholders' equity, as opposed to stock statements which capture a point in time.",
+          "definition_ru": "Финансовый отчет, который записывает транзакции за период времени, включая отчет о прибылях и убытках, отчет о движении денежных средств и отчет об изменениях в собственном капитале, в отличие от запасовых отчетов, которые фиксируют определенный момент времени.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-006",
+          "term_en": "Stock Statement",
+          "term_ru": "Запасовый отчет",
+          "definition_en": "A financial statement that represents accounts at a specific point in time, such as the balance sheet, capturing permanent accounts like assets, liabilities, and equity.",
+          "definition_ru": "Финансовый отчет, который представляет счета в определенный момент времени, такой как баланс, фиксируя постоянные счета, такие как активы, обязательства и капитал.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-007",
+          "term_en": "Accrual Accounting",
+          "term_ru": "Учет по методу начисления",
+          "definition_en": "An accounting method used in the income statement under IFRS or US GAAP where revenues and expenses are recognized when earned or incurred, not necessarily when cash is received or paid. This means reported figures may not directly correspond to cash transactions.",
+          "definition_ru": "Метод бухгалтерского учета, используемый в отчете о прибылях и убытках согласно МСФО или US GAAP, где доходы и расходы признаются при их возникновении, а не обязательно при получении или выплате денежных средств. Это означает, что отчетные показатели могут не соответствовать напрямую денежным операциям.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-008",
+          "term_en": "Cash and Cash Equivalents",
+          "term_ru": "Денежные средства и их эквиваленты",
+          "definition_en": "Liquid assets including cash, restricted cash, and short-term highly liquid investments that are readily convertible to known amounts of cash and subject to insignificant risk of changes in value.",
+          "definition_ru": "Ликвидные активы, включающие денежные средства, ограниченные денежные средства и краткосрочные высоколиквидные инвестиции, которые легко конвертируются в известные суммы денежных средств и подвержены незначительному риску изменения стоимости.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-009",
+          "term_en": "Restricted Cash",
+          "term_ru": "Ограниченные денежные средства",
+          "definition_en": "Cash that is set aside for specific purposes and is not readily available for general use, but is included in the cash and cash equivalents on the statement of cash flows.",
+          "definition_ru": "Денежные средства, которые зарезервированы для конкретных целей и не доступны для общего использования, но включаются в денежные средства и их эквиваленты в отчете о движении денежных средств.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-010",
+          "term_en": "Operating Activities",
+          "term_ru": "Операционная деятельность",
+          "definition_en": "Cash flows from the principal revenue-generating activities of an entity, including cash receipts from sales of goods and services, and cash payments to suppliers and employees.",
+          "definition_ru": "Денежные потоки от основной деятельности предприятия, приносящей доход, включая денежные поступления от продажи товаров и услуг, и денежные выплаты поставщикам и сотрудникам.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-011",
+          "term_en": "Investing Activities",
+          "term_ru": "Инвестиционная деятельность",
+          "definition_en": "Cash flows from the acquisition and disposal of long-term assets and other investments not included in cash equivalents, generally associated with changes in the long-term assets section of the balance sheet.",
+          "definition_ru": "Денежные потоки от приобретения и выбытия долгосрочных активов и других инвестиций, не включенных в эквиваленты денежных средств, обычно связанные с изменениями в разделе долгосрочных активов баланса.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-012",
+          "term_en": "Financing Activities",
+          "term_ru": "Финансовая деятельность",
+          "definition_en": "Cash flows that result in changes in the size and composition of the equity capital and borrowings of the entity, typically impacting the sections dealing with equity and long-term debt on the balance sheet.",
+          "definition_ru": "Денежные потоки, которые приводят к изменениям в размере и составе акционерного капитала и заимствований предприятия, обычно влияющие на разделы, касающиеся капитала и долгосрочной задолженности в балансе.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-013",
+          "term_en": "Cash Flow Linkage Equation",
+          "term_ru": "Уравнение связи денежных потоков",
+          "definition_en": "The fundamental equation linking cash balances: Beginning cash balance + Cash inflows from operating, investing, and financing activities - Cash outflows from operating, investing, and financing activities = Ending cash balance.",
+          "definition_ru": "Фундаментальное уравнение, связывающее остатки денежных средств: Начальный остаток денежных средств + Денежные притоки от операционной, инвестиционной и финансовой деятельности - Денежные оттоки от операционной, инвестиционной и финансовой деятельности = Конечный остаток денежных средств.",
+          "type": "formula",
+          "formula": "$\\text{Ending Cash} = \\text{Beginning Cash} + \\text{Cash Inflows} - \\text{Cash Outflows}$",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-014",
+          "term_en": "Retained Earnings Linkage",
+          "term_ru": "Связь нераспределенной прибыли",
+          "definition_en": "The relationship connecting balance sheet and income statement through retained earnings: Beginning Retained Earnings + Net Income - Dividends = Ending Retained Earnings.",
+          "definition_ru": "Взаимосвязь, соединяющая баланс и отчет о прибылях и убытках через нераспределенную прибыль: Начальная нераспределенная прибыль + Чистая прибыль - Дивиденды = Конечная нераспределенная прибыль.",
+          "type": "formula",
+          "formula": "$\\text{Ending RE} = \\text{Beginning RE} + \\text{Net Income} - \\text{Dividends}$",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-015",
+          "term_en": "Accounts Receivable",
+          "term_ru": "Дебиторская задолженность",
+          "definition_en": "Current assets representing amounts owed to a company by its customers for goods or services delivered. When revenues recognized on an accrual basis exceed actual cash receipts, accounts receivable will increase.",
+          "definition_ru": "Оборотные активы, представляющие суммы, причитающиеся компании от ее клиентов за поставленные товары или услуги. Когда доходы, признанные по методу начисления, превышают фактические денежные поступления, дебиторская задолженность увеличивается.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-016",
+          "term_en": "Accounts Receivable Linkage",
+          "term_ru": "Связь дебиторской задолженности",
+          "definition_en": "The relationship connecting revenue to cash collections: Beginning Accounts Receivable + Revenue - Cash collected from customers = Ending Accounts Receivable.",
+          "definition_ru": "Взаимосвязь, соединяющая выручку с денежными поступлениями: Начальная дебиторская задолженность + Выручка - Денежные средства, полученные от клиентов = Конечная дебиторская задолженность.",
+          "type": "formula",
+          "formula": "$\\text{Ending AR} = \\text{Beginning AR} + \\text{Revenue} - \\text{Cash Collected}$",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-017",
+          "term_en": "Deferred Revenue",
+          "term_ru": "Отложенная выручка",
+          "definition_en": "A liability that arises when a company receives payments in advance for services or products to be delivered in the future. The liability is removed from the books as revenue is recognized upon fulfilling the delivery obligations.",
+          "definition_ru": "Обязательство, которое возникает, когда компания получает платежи авансом за услуги или продукты, которые будут поставлены в будущем. Обязательство списывается с учета по мере признания выручки при выполнении обязательств по поставке.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-018",
+          "term_en": "Accounts Payable",
+          "term_ru": "Кредиторская задолженность",
+          "definition_en": "Current liabilities representing amounts a company owes to its suppliers for goods or services purchased on credit. If expenses recognized accrue faster than cash is disbursed, this may result in a reduction in accounts payable.",
+          "definition_ru": "Текущие обязательства, представляющие суммы, которые компания должна своим поставщикам за товары или услуги, приобретенные в кредит. Если признанные расходы начисляются быстрее, чем выплачиваются денежные средства, это может привести к уменьшению кредиторской задолженности.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-019",
+          "term_en": "Working Capital",
+          "term_ru": "Оборотный капитал",
+          "definition_en": "The difference between current assets and current liabilities, offering insights into a company's operational choices and activities. Discrepancies between accrual and cash accounting methods often lead to increases or decreases in these short-term assets or liabilities.",
+          "definition_ru": "Разница между оборотными активами и текущими обязательствами, дающая представление об операционном выборе и деятельности компании. Расхождения между методами учета по начислению и кассовым методом часто приводят к увеличению или уменьшению этих краткосрочных активов или обязательств.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "FSA-4-EX-001",
+          "question_en": "When computing the ending cash balance reported on the balance sheet, which of the following is most likely accurate?",
+          "question_ru": "При расчете конечного остатка денежных средств, отражаемого в балансе, какое из следующих утверждений наиболее точное?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Cash receipts are subtracted from the beginning cash balance",
+              "text_ru": "Денежные поступления вычитаются из начального остатка денежных средств"
+            },
+            {
+              "letter": "B",
+              "text_en": "Cash payments are subtracted from the beginning cash balance",
+              "text_ru": "Денежные выплаты вычитаются из начального остатка денежных средств"
+            },
+            {
+              "letter": "C",
+              "text_en": "Cash receipts and payments are added to the beginning cash balance",
+              "text_ru": "Денежные поступления и выплаты добавляются к начальному остатку денежных средств"
+            }
+          ],
+          "correct_answer": "B",
+          "solution_en": "Cash payments are subtracted from the beginning cash balance in deriving the ending cash balance. Cash receipts are added to, not subtracted from, the beginning cash balance. Cash payments are subtracted from, not added to, the beginning cash balance.",
+          "solution_ru": "Денежные выплаты вычитаются из начального остатка денежных средств при расчете конечного остатка денежных средств. Денежные поступления добавляются, а не вычитаются из начального остатка денежных средств. Денежные выплаты вычитаются, а не добавляются к начальному остатку денежных средств."
+        }
+      ]
+    }
+  ]
+}
