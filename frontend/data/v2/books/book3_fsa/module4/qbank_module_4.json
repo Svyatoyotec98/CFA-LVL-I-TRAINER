@@ -7,7 +7,7 @@
     "module_id": 4,
     "module_name": "Analyzing Statements of Cash Flows",
     "module_name_ru": "Анализ отчетов о движении денежных средств",
-    "total_questions": 30,
+    "total_questions": 44,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -1898,6 +1898,684 @@
         "cash_received",
         "accounts_receivable",
         "revenue"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q031",
+      "original_question_number": 4683,
+      "los_id": "LOS_4b",
+      "question_text_en": "Consider the following snippet of the income statement of a hypothetical company, Atlas Energy Group.\n\nAtlas Energy Group Income Statement Year Ended 31 December 2023 (in thousands)\nRevenue $75,000\nCost of Goods Sold $35,000\nResearch and Development $5,000\nSelling and Administrative Expenses $8,000\nDepreciation Expense $4,500\nInterest Expense $2,500\nIncome Tax Expense $6,000\nNet Income $14,000\n\nIf Atlas Energy Group had an increase in inventory of $3 million, a decrease in accounts receivable of $1.5 million, and depreciation is the only non-cash expense, what was the net cash from operating activities using the indirect method?",
+      "question_text_ru": "Рассмотрите следующий фрагмент отчета о прибылях и убытках гипотетической компании Atlas Energy Group.\n\nОтчет о прибылях и убытках Atlas Energy Group за год, закончившийся 31 декабря 2023 г. (в тысячах)\nВыручка $75,000\nСебестоимость проданных товаров $35,000\nИсследования и разработки $5,000\nКоммерческие и административные расходы $8,000\nАмортизационные расходы $4,500\nПроцентные расходы $2,500\nРасходы по налогу на прибыль $6,000\nЧистая прибыль $14,000\n\nЕсли у Atlas Energy Group было увеличение запасов на $3 миллиона, уменьшение дебиторской задолженности на $1.5 миллиона, и амортизация является единственным неденежным расходом, какой была чистая денежная сумма от операционной деятельности при использовании косвенного метода?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$15 million",
+          "text_ru": "$15 миллионов"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$17 million",
+          "text_ru": "$17 миллионов"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$18 million",
+          "text_ru": "$18 миллионов"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "To calculate the net cash from operating activities using the indirect method, we start with the net income and adjust for non-cash expenses and changes in working capital components. Net Cash from Operating Activities = Net Income + Depreciation Expense + Decrease in Accounts Receivable - Increase in Inventory = 14 + 4.5 + 1.5 - 3 = $17 million",
+      "explanation_ru": "Для расчета чистых денежных средств от операционной деятельности косвенным методом мы начинаем с чистой прибыли и корректируем на неденежные расходы и изменения в компонентах оборотного капитала. Чистые денежные средства от операционной деятельности = Чистая прибыль + Амортизационные расходы + Уменьшение дебиторской задолженности - Увеличение запасов = 14 + 4.5 + 1.5 - 3 = $17 миллионов",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": null,
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "indirect_method",
+        "operating_cash_flow",
+        "working_capital"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q032",
+      "original_question_number": 4684,
+      "los_id": "LOS_4b",
+      "question_text_en": "Consider the following snippet of the income statement of a hypothetical company, Nova Innovations'.\n\nNova Innovations Balance Sheet as of 31 December 2023 (in thousands)\nAssets                               2023      2022\nCash and Cash Equivalents           $15,000   $10,000\nAccounts Receivable, net            $18,000   $20,000\nInventory                           $12,000   $10,000\nPrepaid Expenses                    $2,000    $1,500\nProperty, Plant and Equipment, net  $45,000   $40,000\nIntangible Assets, net              $8,000    $8,500\nTotal Assets                        $100,000  $90,000\n\nLiabilities and Shareholders' Equity\nAccounts Payable                    $11,000   $9,000\nAccrued Liabilities                 $7,000    $8,000\nLong-term Debt                      $25,000   $30,000\nShareholders' Equity                $57,000   $43,000\nTotal Liabilities and Equity        $100,000  $90,000\n\nConsidering the changes in Nova Innovations' balance sheet from 2022 to 2023, if the only investments were capital expenditures of $10.5 million and there were no sales of assets, the total cash used in investing activities is closest to:",
+      "question_text_ru": "Рассмотрите следующий фрагмент отчета о прибылях и убытках гипотетической компании Nova Innovations.\n\nБаланс Nova Innovations по состоянию на 31 декабря 2023 г. (в тысячах)\nАктивы                                    2023      2022\nДенежные средства и их эквиваленты       $15,000   $10,000\nДебиторская задолженность, нетто         $18,000   $20,000\nЗапасы                                   $12,000   $10,000\nПредоплаченные расходы                   $2,000    $1,500\nОсновные средства, нетто                 $45,000   $40,000\nНематериальные активы, нетто             $8,000    $8,500\nВсего активов                            $100,000  $90,000\n\nОбязательства и собственный капитал\nКредиторская задолженность               $11,000   $9,000\nНачисленные обязательства                $7,000    $8,000\nДолгосрочная задолженность               $25,000   $30,000\nСобственный капитал акционеров           $57,000   $43,000\nВсего обязательств и капитала            $100,000  $90,000\n\nУчитывая изменения в балансе Nova Innovations с 2022 по 2023 год, если единственными инвестициями были капитальные затраты в размере $10.5 миллионов и не было продаж активов, общая сумма денежных средств, использованных в инвестиционной деятельности, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "5.5 million",
+          "text_ru": "5.5 миллионов"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "9.0 million",
+          "text_ru": "9.0 миллионов"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "10.5 million",
+          "text_ru": "10.5 миллионов"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The total cash used in investing activities can be calculated from the changes in property, plant, and equipment, as well as from capital expenditures and any sales of assets. Increase in Property, Plant, and Equipment, net = Ending PPE, net - Beginning PPE, net = 45 million - 40 million = $5 million. Therefore, Cash Used in Investing Activities = $10 million - $5 million = $5.5 million",
+      "explanation_ru": "Общую сумму денежных средств, использованных в инвестиционной деятельности, можно рассчитать на основе изменений в основных средствах, а также капитальных затрат и любых продаж активов. Увеличение основных средств, нетто = Конечные ОС, нетто - Начальные ОС, нетто = 45 миллионов - 40 миллионов = $5 миллионов. Следовательно, Денежные средства, использованные в инвестиционной деятельности = $10 миллионов - $5 миллионов = $5.5 миллионов",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": null,
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "investing_activities",
+        "capital_expenditures",
+        "ppe"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q033",
+      "original_question_number": 4685,
+      "los_id": "LOS_4b",
+      "question_text_en": "Which of the following most likely explains how depreciation expense is treated in the calculation of net cash flow from operating activities using the indirect method?",
+      "question_text_ru": "Что из следующего наиболее вероятно объясняет, как амортизационные расходы учитываются при расчете чистого денежного потока от операционной деятельности с использованием косвенного метода?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Added back to net income.",
+          "text_ru": "Добавляется обратно к чистой прибыли."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Subtracted from net income.",
+          "text_ru": "Вычитается из чистой прибыли."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Ignored because it does not affect cash flow.",
+          "text_ru": "Игнорируется, потому что это не влияет на денежный поток."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Depreciation expense is a non-cash charge against income, which means it reduces net income but does not affect cash flow. Therefore, in the indirect method of calculating cash flows from operating activities, depreciation expense must be added back to net income.",
+      "explanation_ru": "Амортизационные расходы - это неденежное списание против дохода, что означает, что они уменьшают чистую прибыль, но не влияют на денежный поток. Поэтому при косвенном методе расчета денежных потоков от операционной деятельности амортизационные расходы должны быть добавлены обратно к чистой прибыли.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Subtracting depreciation would doubly reduce the cash flow, which is not representative of actual cash outflows.",
+          "text_ru": "Неверно. Вычитание амортизации удвоило бы сокращение денежного потока, что не отражает фактический отток денежных средств."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Even though depreciation does not directly affect cash flow, it impacts the reported net income and thus must be adjusted for in the cash flow statement.",
+          "text_ru": "Неверно. Хотя амортизация напрямую не влияет на денежный поток, она влияет на отчетную чистую прибыль и поэтому должна быть скорректирована в отчете о движении денежных средств."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "depreciation",
+        "indirect_method",
+        "non_cash_expenses"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q034",
+      "original_question_number": 4686,
+      "los_id": "LOS_4b",
+      "question_text_en": "If a company reports an increase in inventory, which of the following is most likely the effect on the cash flow from operating activities using the indirect method? The cash flow from operating activities:",
+      "question_text_ru": "Если компания сообщает об увеличении запасов, что из следующего наиболее вероятно является эффектом на денежный поток от операционной деятельности при использовании косвенного метода? Денежный поток от операционной деятельности:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "increases",
+          "text_ru": "увеличивается"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "decreases",
+          "text_ru": "уменьшается"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "remains constant.",
+          "text_ru": "остается постоянным."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "An increase in inventory represents an investment in working capital, which is a use of cash. In the indirect method, an increase in inventory is subtracted from net income because it represents cash that has been tied up in inventory and not available for other uses.",
+      "explanation_ru": "Увеличение запасов представляет собой инвестицию в оборотный капитал, что является использованием денежных средств. При косвенном методе увеличение запасов вычитается из чистой прибыли, потому что оно представляет денежные средства, которые были связаны в запасах и недоступны для других целей.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. An increase in inventory reduces, not increases, the cash available from operating activities.",
+          "text_ru": "Неверно. Увеличение запасов сокращает, а не увеличивает денежные средства, доступные от операционной деятельности."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Changes in inventory levels directly affect cash flow from operations; it is a critical component of working capital changes that must be accounted for in the cash flow statement.",
+          "text_ru": "Неверно. Изменения в уровнях запасов напрямую влияют на денежный поток от операций; это критический компонент изменений оборотного капитала, который должен учитываться в отчете о движении денежных средств."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "inventory",
+        "working_capital",
+        "indirect_method"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q035",
+      "original_question_number": 4687,
+      "los_id": "LOS_4c",
+      "question_text_en": "Which of the following most likely explains why it is necessary to add back depreciation expense when calculating cash flow using the indirect method?",
+      "question_text_ru": "Что из следующего наиболее вероятно объясняет, почему необходимо добавить обратно амортизационные расходы при расчете денежного потока с использованием косвенного метода?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Depreciation represents an outflow of cash that must be replenished.",
+          "text_ru": "Амортизация представляет собой отток денежных средств, который должен быть восполнен."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Depreciation increases cash flow directly and must be accounted for.",
+          "text_ru": "Амортизация напрямую увеличивает денежный поток и должна учитываться."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Depreciation does not affect cash flow; thus, it is added to reconcile net income with actual cash flow.",
+          "text_ru": "Амортизация не влияет на денежный поток; таким образом, она добавляется для согласования чистой прибыли с фактическим денежным потоком."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Depreciation does not affect cash flow thus it is added to reconcile net income with actual cash flow. Depreciation is a non-cash accounting entry that reduces reported earnings but does not impact cash; therefore, it needs to be added back to net income in the cash flow statement.",
+      "explanation_ru": "Амортизация не влияет на денежный поток, поэтому она добавляется для согласования чистой прибыли с фактическим денежным потоком. Амортизация - это неденежная бухгалтерская запись, которая уменьшает отчетную прибыль, но не влияет на денежные средства; поэтому ее нужно добавить обратно к чистой прибыли в отчете о движении денежных средств.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Depreciation does not represent an actual cash outflow, so there is no cash that needs to be 'replenished'. It is an accounting mechanism for allocating the cost of a tangible asset over its expected life.",
+          "text_ru": "Неверно. Амортизация не представляет собой фактический отток денежных средств, поэтому нет денежных средств, которые необходимо 'восполнить'. Это бухгалтерский механизм для распределения стоимости материального актива на протяжении его ожидаемого срока службы."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Depreciation does not increase cash flow directly; it is purely an accounting entry meant to spread the cost of an asset over its useful life. It does not involve the movement of cash.",
+          "text_ru": "Неверно. Амортизация не увеличивает денежный поток напрямую; это чисто бухгалтерская запись, предназначенная для распределения стоимости актива на протяжении его полезного срока службы. Она не включает движение денежных средств."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "depreciation",
+        "indirect_method",
+        "non_cash_expenses"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q036",
+      "original_question_number": 4688,
+      "los_id": "LOS_4c",
+      "question_text_en": "In 2023, Apex Ventures reported a net income of USD 50 million. An excerpt of its balance sheet is given below.\n\nApex Ventures Balance Sheet Summary    31 Dec 2022      31 Dec 2023       Change\nCommon Stock                           USD 200 million  USD 210 million   USD 10 million\nAdditional Paid-in Capital             USD 150 million  USD 200 million   USD 50 million\nRetained Earnings                      USD 120 million  USD 150 million   USD 30 million\nTotal Stockholders' Equity             USD 470 million  USD 560 million   USD 90 million\n\nThe amount of common stock and dividends reported in the statement of cash flows for the year 2023 are closest to:",
+      "question_text_ru": "В 2023 году Apex Ventures сообщила о чистой прибыли в размере USD 50 миллионов. Ниже приведена выдержка из ее баланса.\n\nСводка баланса Apex Ventures          31 дек 2022      31 дек 2023       Изменение\nОбыкновенные акции                     USD 200 миллионов USD 210 миллионов USD 10 миллионов\nДополнительный оплаченный капитал      USD 150 миллионов USD 200 миллионов USD 50 миллионов\nНераспределенная прибыль               USD 120 миллионов USD 150 миллионов USD 30 миллионов\nВсего собственного капитала акционеров USD 470 миллионов USD 560 миллионов USD 90 миллионов\n\nСумма обыкновенных акций и дивидендов, отраженных в отчете о движении денежных средств за 2023 год, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Issuance of common stock totaling USD 60 million; dividends of USD 20 million.",
+          "text_ru": "Выпуск обыкновенных акций на общую сумму USD 60 миллионов; дивиденды USD 20 миллионов."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Issuance of common stock totaling USD 60 million; dividends of USD 10 million.",
+          "text_ru": "Выпуск обыкновенных акций на общую сумму USD 60 миллионов; дивиденды USD 10 миллионов."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Issuance of common stock totaling USD 60 million; dividends of USD 30 million.",
+          "text_ru": "Выпуск обыкновенных акций на общую сумму USD 60 миллионов; дивиденды USD 30 миллионов."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "To calculate the total issuance of common stock, we add an increase in common stock and additional paid-in capital, which signifies an equity issuance during the year: USD 10 million (Common Stock) + USD 50 million (Additional Paid-in Capital) = USD 60 million. To calculate dividends paid: Dividends Paid = Beginning Retained Earnings + Net Income - Ending Retained Earnings = USD 120 million + USD 50 million - USD 150 million = USD 20 million",
+      "explanation_ru": "Для расчета общей суммы выпуска обыкновенных акций мы добавляем увеличение обыкновенных акций и дополнительного оплаченного капитала, что означает выпуск акций в течение года: USD 10 миллионов (Обыкновенные акции) + USD 50 миллионов (Дополнительный оплаченный капитал) = USD 60 миллионов. Для расчета выплаченных дивидендов: Выплаченные дивиденды = Начальная нераспределенная прибыль + Чистая прибыль - Конечная нераспределенная прибыль = USD 120 миллионов + USD 50 миллионов - USD 150 миллионов = USD 20 миллионов",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": null,
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "common_stock",
+        "dividends",
+        "financing_activities"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q037",
+      "original_question_number": 4689,
+      "los_id": "LOS_4c",
+      "question_text_en": "In 2023, a technology company operating under US GAAP reported the following cash payments and other relevant financial data in (millions):\n\n                     2022    2023\nRevenue              $65     $60\nCost of goods sold   $25     $23\nInventory            $20     $25\nAccounts receivable  $15     $12\nAccounts payable     $10     $9\n\nOther cash payments for the year 2023 included: Salaries: USD 10 million; Interest expense: USD 4 million; Income taxes: USD 6 million. Based only on the information above, the company's operating cash flow for 2023 is closest to:",
+      "question_text_ru": "В 2023 году технологическая компания, работающая по US GAAP, сообщила о следующих денежных платежах и других соответствующих финансовых данных в (миллионах):\n\n                            2022    2023\nВыручка                     $65     $60\nСебестоимость проданных     $25     $23\nЗапасы                      $20     $25\nДебиторская задолженность   $15     $12\nКредиторская задолженность  $10     $9\n\nДругие денежные платежи за 2023 год включали: Зарплаты: USD 10 миллионов; Процентные расходы: USD 4 миллиона; Налоги на прибыль: USD 6 миллионов. Основываясь только на приведенной выше информации, операционный денежный поток компании за 2023 год ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "USD 14 million.",
+          "text_ru": "USD 14 миллионов."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "USD 17 million.",
+          "text_ru": "USD 17 миллионов."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "USD 26 million.",
+          "text_ru": "USD 26 миллионов."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Operating cash flows = Cash received from customers - (Cash paid to suppliers + Cash paid to employees + Cash paid for other operating expenses + Cash paid for interest + Cash paid for income taxes). Cash received from customers = Revenue + Decrease in accounts receivable = USD 60 + (USD 15 - USD 12) = USD 63 million. Cash paid to suppliers = Cost of goods sold + Increase in inventory - Increase in accounts payable = USD 23 + (USD 25 - USD 20) - (USD 10 - USD 9) = USD 29 million. Therefore, Operating cash flows = 63 - 29 - 10 - 4 - 6 = 14 million",
+      "explanation_ru": "Операционные денежные потоки = Денежные средства, полученные от клиентов - (Денежные средства, выплаченные поставщикам + Денежные средства, выплаченные сотрудникам + Денежные средства, выплаченные за другие операционные расходы + Денежные средства, выплаченные за проценты + Денежные средства, выплаченные за налоги на прибыль). Денежные средства, полученные от клиентов = Выручка + Уменьшение дебиторской задолженности = USD 60 + (USD 15 - USD 12) = USD 63 миллиона. Денежные средства, выплаченные поставщикам = Себестоимость проданных товаров + Увеличение запасов - Увеличение кредиторской задолженности = USD 23 + (USD 25 - USD 20) - (USD 10 - USD 9) = USD 29 миллионов. Следовательно, Операционные денежные потоки = 63 - 29 - 10 - 4 - 6 = 14 миллионов",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": null,
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": [
+        "direct_method",
+        "operating_cash_flow",
+        "cash_received"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q038",
+      "original_question_number": 4690,
+      "los_id": "LOS_4d",
+      "question_text_en": "Which classification option for interest received is available under IFRS but not under US GAAP?",
+      "question_text_ru": "Какой вариант классификации процентов полученных доступен в соответствии с МСФО, но не в соответствии с US GAAP?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Operating activity only.",
+          "text_ru": "Только операционная деятельность."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Operating or investing activity",
+          "text_ru": "Операционная или инвестиционная деятельность"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Financing activity.",
+          "text_ru": "Финансовая деятельность."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Under IFRS, interest received can be classified as either an operating or investing activity, offering flexibility based on the nature of the business. Under US GAAP, interest received must always be classified as an operating activity.",
+      "explanation_ru": "В соответствии с МСФО полученные проценты могут классифицироваться либо как операционная, либо как инвестиционная деятельность, предлагая гибкость в зависимости от характера бизнеса. В соответствии с US GAAP полученные проценты всегда должны классифицироваться как операционная деятельность.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Both IFRS and US GAAP allow the classification of interest received as an operating activity.",
+          "text_ru": "Неверно. И МСФО, и US GAAP допускают классификацию полученных процентов как операционной деятельности."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Neither IFRS nor US GAAP allows interest received to be classified as a financing activity.",
+          "text_ru": "Неверно. Ни МСФО, ни US GAAP не разрешают классифицировать полученные проценты как финансовую деятельность."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "ifrs",
+        "us_gaap",
+        "interest_received"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q039",
+      "original_question_number": 4691,
+      "los_id": "LOS_4d",
+      "question_text_en": "Under IFRS, dividends paid is most likely classified on the cash flow statement as:",
+      "question_text_ru": "В соответствии с МСФО выплаченные дивиденды наиболее вероятно классифицируются в отчете о движении денежных средств как:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "a financing activity.",
+          "text_ru": "финансовая деятельность."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "an operating or financing activity.",
+          "text_ru": "операционная или финансовая деятельность."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "an investing or financing activity.",
+          "text_ru": "инвестиционная или финансовая деятельность."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "IFRS provides flexibility in classifying dividends paid, allowing it to be considered either an operating or financing activity, depending on the company's policy and the nature of the dividends.",
+      "explanation_ru": "МСФО обеспечивают гибкость в классификации выплаченных дивидендов, позволяя рассматривать их либо как операционную, либо как финансовую деятельность, в зависимости от политики компании и характера дивидендов.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. It is too restrictive and does not reflect the flexibility IFRS offers.",
+          "text_ru": "Неверно. Это слишком ограничительно и не отражает гибкость, которую предлагают МСФО."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. There is no option under IFRS to classify dividends paid as an investing activity.",
+          "text_ru": "Неверно. В МСФО нет возможности классифицировать выплаченные дивиденды как инвестиционную деятельность."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "ifrs",
+        "dividends_paid",
+        "classification"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q040",
+      "original_question_number": 4692,
+      "los_id": "LOS_4d",
+      "question_text_en": "Which of the following is most likely a significant difference in how bank overdrafts are classified under IFRS and US GAAP?",
+      "question_text_ru": "Что из следующего наиболее вероятно является существенным различием в том, как банковские овердрафты классифицируются в соответствии с МСФО и US GAAP?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Both standards treat them as financing activities.",
+          "text_ru": "Оба стандарта рассматривают их как финансовую деятельность."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "IFRS includes them in cash and cash equivalents, while US GAAP treats them as financing activities.",
+          "text_ru": "МСФО включают их в денежные средства и их эквиваленты, в то время как US GAAP рассматривают их как финансовую деятельность."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "IFRS treats them as financing activities, while US GAAP treats them as part of cash and cash equivalents.",
+          "text_ru": "МСФО рассматривают их как финансовую деятельность, в то время как US GAAP рассматривают их как часть денежных средств и их эквивалентов."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Under IFRS, bank overdrafts can be considered part of cash and cash equivalents if they are an integral part of the company's cash management. Under US GAAP, bank overdrafts are not considered cash equivalents and are treated as financing activities.",
+      "explanation_ru": "В соответствии с МСФО банковские овердрафты могут рассматриваться как часть денежных средств и их эквивалентов, если они являются неотъемлемой частью управления денежными средствами компании. В соответствии с US GAAP банковские овердрафты не считаются эквивалентами денежных средств и рассматриваются как финансовая деятельность.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. It does not correctly reflect the treatment under IFRS.",
+          "text_ru": "Неверно. Это не отражает правильно трактовку в соответствии с МСФО."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It reverses the classifications.",
+          "text_ru": "Неверно. Это меняет местами классификации."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "ifrs",
+        "us_gaap",
+        "bank_overdrafts"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q041",
+      "original_question_number": 4693,
+      "los_id": "LOS_4d",
+      "question_text_en": "How does US GAAP require income tax expense to be classified on the cash flow statement?",
+      "question_text_ru": "Как US GAAP требует классифицировать расходы по налогу на прибыль в отчете о движении денежных средств?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Always as a financing activity.",
+          "text_ru": "Всегда как финансовую деятельность."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Always as an operating activity.",
+          "text_ru": "Всегда как операционную деятельность."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "As an operating, investing, or financing activity based on the tax's nature.",
+          "text_ru": "Как операционную, инвестиционную или финансовую деятельность в зависимости от характера налога."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Under US GAAP, income tax expense is consistently classified as an operating activity regardless of its connection to investing or financing activities.",
+      "explanation_ru": "В соответствии с US GAAP расходы по налогу на прибыль последовательно классифицируются как операционная деятельность, независимо от их связи с инвестиционной или финансовой деятельностью.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Income tax expense is not classified as a financing activity under US GAAP.",
+          "text_ru": "Неверно. Расходы по налогу на прибыль не классифицируются как финансовая деятельность в соответствии с US GAAP."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It describes the IFRS approach, not US GAAP.",
+          "text_ru": "Неверно. Это описывает подход МСФО, а не US GAAP."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "us_gaap",
+        "income_tax",
+        "classification"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q042",
+      "original_question_number": 4694,
+      "los_id": "LOS_4d",
+      "question_text_en": "Which of the following statements is most likely true regarding the direct method of reporting cash flow from operating activities in both IFRS and US GAAP? The direct method is:",
+      "question_text_ru": "Какое из следующих утверждений наиболее вероятно верно в отношении прямого метода отчетности о денежном потоке от операционной деятельности как в МСФО, так и в US GAAP? Прямой метод:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "required under both standards.",
+          "text_ru": "требуется в соответствии с обоими стандартами."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "discouraged under both standards.",
+          "text_ru": "не рекомендуется в соответствии с обоими стандартами."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "encouraged but not required under both standards.",
+          "text_ru": "рекомендуется, но не требуется в соответствии с обоими стандартами."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Both IFRS and US GAAP encourage the direct method for reporting cash flows from operating activities because it provides more useful information to users. However, neither standard mandates its use.",
+      "explanation_ru": "И МСФО, и US GAAP рекомендуют прямой метод для отчетности о денежных потоках от операционной деятельности, потому что он предоставляет более полезную информацию пользователям. Однако ни один из стандартов не требует его использования.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Neither standard requires the direct method.",
+          "text_ru": "Неверно. Ни один из стандартов не требует прямого метода."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Neither standard discourages its use; they both encourage it.",
+          "text_ru": "Неверно. Ни один из стандартов не отговаривает от его использования; оба рекомендуют его."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "direct_method",
+        "ifrs",
+        "us_gaap"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q043",
+      "original_question_number": 4673,
+      "los_id": "LOS_4a",
+      "question_text_en": "When considering the relationship between current assets and operating activities, how does an increase in prepaid expenses most likely affect the cash flow statement?",
+      "question_text_ru": "При рассмотрении взаимосвязи между текущими активами и операционной деятельностью, как увеличение предоплаченных расходов наиболее вероятно влияет на отчет о движении денежных средств?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Indicates a cash inflow from operations.",
+          "text_ru": "Указывает на приток денежных средств от операций."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Represents a cash outflow from operations.",
+          "text_ru": "Представляет отток денежных средств от операций."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Has no impact on the cash flow statement.",
+          "text_ru": "Не оказывает влияния на отчет о движении денежных средств."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "An increase in prepaid expenses is an outflow of cash in the operating section of the cash flow statement. This is because prepaid expenses involve paying for services or goods that will benefit future periods, thus reducing the cash available for current operations.",
+      "explanation_ru": "Увеличение предоплаченных расходов является оттоком денежных средств в операционном разделе отчета о движении денежных средств. Это связано с тем, что предоплаченные расходы предполагают оплату услуг или товаров, которые принесут пользу в будущих периодах, тем самым сокращая денежные средства, доступные для текущих операций.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Prepaid expenses require an outlay of cash, and thus, it is a cash outflow, not an inflow.",
+          "text_ru": "Неверно. Предоплаченные расходы требуют расхода денежных средств, и, следовательно, это отток денежных средств, а не приток."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Prepaid expenses are current assets, and an increase definitely affects the cash flow statement by showing the cash that has been used in advance for future expenses.",
+          "text_ru": "Неверно. Предоплаченные расходы являются текущими активами, и увеличение определенно влияет на отчет о движении денежных средств, показывая денежные средства, которые были использованы заранее для будущих расходов."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "prepaid_expenses",
+        "current_assets",
+        "operating_activities"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q044",
+      "original_question_number": 4674,
+      "los_id": "LOS_4a",
+      "question_text_en": "Considering the accrual basis of accounting, what does an increase in accounts payable most likely suggest about a company's cash outflows?",
+      "question_text_ru": "Учитывая метод начисления, что увеличение кредиторской задолженности наиболее вероятно говорит о денежных оттоках компании?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The company is paying off suppliers quickly.",
+          "text_ru": "Компания быстро рассчитывается с поставщиками."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The company is delaying payments to suppliers.",
+          "text_ru": "Компания откладывает платежи поставщикам."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The company's expenses are lower than in previous periods.",
+          "text_ru": "Расходы компании ниже, чем в предыдущие периоды."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "An increase in accounts payable usually indicates that a company is delaying payments to its suppliers. This suggests that the company is conserving cash, as the expenses are recorded but the cash outflow is deferred to a later period.",
+      "explanation_ru": "Увеличение кредиторской задолженности обычно указывает на то, что компания откладывает платежи своим поставщикам. Это предполагает, что компания экономит денежные средства, поскольку расходы зарегистрированы, но отток денежных средств отложен на более поздний период.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. If the company were paying off suppliers quicker, accounts payable would decrease rather than increase.",
+          "text_ru": "Неверно. Если бы компания быстрее рассчитывалась с поставщиками, кредиторская задолженность уменьшилась бы, а не увеличилась."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. An increase in accounts payable does not necessarily reflect a decrease in total expenses. It primarily indicates the timing of cash payments related to accrued expenses.",
+          "text_ru": "Неверно. Увеличение кредиторской задолженности не обязательно отражает снижение общих расходов. Оно в первую очередь указывает на сроки денежных платежей, связанных с начисленными расходами."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "accounts_payable",
+        "accrual_accounting",
+        "operating_activities"
       ]
     }
   ]
