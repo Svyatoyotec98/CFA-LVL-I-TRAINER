@@ -1,0 +1,547 @@
+{
+  "metadata": {
+    "book_id": 3,
+    "book_code": "FSA",
+    "book_name": "Financial Statement Analysis",
+    "book_name_ru": "Анализ финансовой отчетности",
+    "module_id": 6,
+    "module_name": "Analysis of Long-Lived Assets",
+    "module_name_ru": "Анализ долгосрочных активов",
+    "total_questions": 10,
+    "version": "2.0",
+    "source": "AnalystPrep QBank"
+  },
+  "questions": [
+    {
+      "question_id": "FSA-6-Q001",
+      "original_question_number": 163,
+      "los_id": "LOS_6a",
+      "question_text_en": "Xing, a company engaged in the trade of mobile parts and accessories, reduced its inventory value to its current replacement cost and recorded a write-off of $0.5 million in 2014. However, in 2015, the net realizable value is now $0.3 million higher than its carrying value. What would be the most appropriate accounting treatment using the US GAAP?",
+      "question_text_ru": "Компания Xing, занимающаяся торговлей комплектующими и аксессуарами для мобильных устройств, снизила стоимость запасов до текущей стоимости замещения и отразила списание $0.5 млн в 2014 году. Однако в 2015 году чистая стоимость реализации теперь на $0.3 млн выше балансовой стоимости. Какой будет наиболее подходящий учет по US GAAP?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "No accounting treatment is required.",
+          "text_ru": "Никакого учета не требуется."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Increase inventory fluctuation allowance by $0.3 million.",
+          "text_ru": "Увеличить резерв по колебаниям запасов на $0.3 млн."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Increase inventory value by $0.3 million and reduce the cost of sales.",
+          "text_ru": "Увеличить стоимость запасов на $0.3 млн и уменьшить себестоимость продаж."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The reversal of a reduction in inventory value is not allowed under US GAAP.",
+      "explanation_ru": "Восстановление снижения стоимости запасов не допускается в соответствии с US GAAP.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "The reversal of a write-down is only allowed under IFRS, and this amount is limited to the original write-down.",
+          "text_ru": "Восстановление списания допускается только по IFRS, и эта сумма ограничена исходным списанием."
+        },
+        "opt_c": {
+          "text_en": "Under IFRS, the reversal of write-down of inventories is recognized as a reduction in the cost of sales and is only limited to the original write-down.",
+          "text_ru": "По IFRS восстановление списания запасов признается как уменьшение себестоимости продаж и ограничено только исходным списанием."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "inventory_valuation",
+        "us_gaap",
+        "write_down"
+      ]
+    },
+    {
+      "question_id": "FSA-6-Q002",
+      "original_question_number": 164,
+      "los_id": "LOS_6c",
+      "question_text_en": "A company following the weighted-average method of inventory valuation decides to shift to LIFO for the current year. Which of the following adjustment would most likely be made, assuming that the company follows US GAAP?",
+      "question_text_ru": "Компания, использующая метод средневзвешенной стоимости для оценки запасов, решила перейти на LIFO в текущем году. Какая корректировка, скорее всего, будет сделана, если компания следует US GAAP?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The company cannot shift to LIFO.",
+          "text_ru": "Компания не может перейти на LIFO."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "No adjustments have to be made to historical financials.",
+          "text_ru": "Никаких корректировок в исторической отчетности не требуется."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Historical financials have to be reinstated for the change in method to facilitate comparison.",
+          "text_ru": "Историческая отчетность должна быть пересчитана для изменения метода для облегчения сравнения."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "According to US GAAP, if a company changes its inventory valuation method, the new method should be applied retrospectively. This means that the company must restate its historical financials to reflect the change, making the financial statements comparable across periods. Therefore, this option is the most likely to occur.",
+      "explanation_ru": "Согласно US GAAP, если компания изменяет метод оценки запасов, новый метод должен применяться ретроспективно. Это означает, что компания должна пересчитать свою историческую отчетность, чтобы отразить изменение и сделать финансовую отчетность сравнимой по периодам. Следовательно, этот вариант наиболее вероятен.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The company can shift to LIFO if it provides a justification for why LIFO is more suitable to their business operations compared to the weighted-average method. The US GAAP allows for different inventory valuation methods, including LIFO.",
+          "text_ru": "Компания может перейти на LIFO, если предоставит обоснование, почему LIFO более подходит для их бизнес-операций по сравнению с методом средневзвешенной стоимости. US GAAP допускает различные методы оценки запасов, включая LIFO."
+        },
+        "opt_b": {
+          "text_en": "Although it may be less complex to not make any adjustments to the historical financials, this practice is not in alignment with US GAAP principles when there's a change in the inventory valuation method. The change should be reported retrospectively to maintain the consistency and comparability of the financial statements.",
+          "text_ru": "Хотя может быть проще не вносить никаких корректировок в историческую отчетность, эта практика не соответствует принципам US GAAP при изменении метода оценки запасов. Изменение должно отражаться ретроспективно для поддержания согласованности и сопоставимости финансовой отчетности."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "inventory_methods",
+        "us_gaap",
+        "accounting_changes"
+      ]
+    },
+    {
+      "question_id": "FSA-6-Q003",
+      "original_question_number": 165,
+      "los_id": "LOS_6b",
+      "question_text_en": "Which of the following methods will most likely give a higher debt-to-equity ratio in the case of rising prices?",
+      "question_text_ru": "Какой из следующих методов, скорее всего, даст более высокое соотношение долга к собственному капиталу в случае роста цен?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "LIFO.",
+          "text_ru": "LIFO."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "FIFO.",
+          "text_ru": "FIFO."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Weighted average.",
+          "text_ru": "Средневзвешенная стоимость."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Under LIFO, the most recently acquired inventory items are the first to be sold. In a scenario where prices are increasing, this means that the COGS reported will reflect the higher prices of the most recently purchased inventory. Consequently, this leads to a lower gross profit and, by extension, a lower net income assuming other expenses remain constant.",
+      "explanation_ru": "При методе LIFO последние приобретенные товары продаются первыми. В ситуации роста цен это означает, что себестоимость продаж будет отражать более высокие цены недавно приобретенных запасов. Следовательно, это приводит к более низкой валовой прибыли и, соответственно, к более низкой чистой прибыли при неизменных прочих расходах.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "When prices are increasing, using FIFO will result in lower COGS and, therefore, higher net income and retained earnings. Higher retained earnings will result in higher equity and a lower debt-to-equity ratio.",
+          "text_ru": "При росте цен использование FIFO приведет к более низкой себестоимости продаж и, следовательно, к более высокой чистой прибыли и нераспределенной прибыли. Более высокая нераспределенная прибыль приведет к более высокому капиталу и более низкому соотношению долга к капиталу."
+        },
+        "opt_c": {
+          "text_en": "The weighted average assigns the average cost of the goods available for sale during the accounting period to the units that are sold as well as to the units that remain in ending inventory keeping the COGS stable.",
+          "text_ru": "Средневзвешенная стоимость присваивает среднюю стоимость товаров, доступных для продажи в течение учетного периода, как проданным единицам, так и единицам, остающимся в конечных запасах, сохраняя себестоимость продаж стабильной."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "inventory_methods",
+        "financial_ratios",
+        "inflation"
+      ]
+    },
+    {
+      "question_id": "FSA-6-Q004",
+      "original_question_number": 166,
+      "los_id": "LOS_6c",
+      "question_text_en": "An analyst has gathered the following information on a small-cap firm for the month of May 2016: Opening inventory: $2 million, Closing inventory: $3 million, Cost of sales: $10 million. Given the information, the inventory turnover ratio is closest to:",
+      "question_text_ru": "Аналитик собрал следующую информацию о компании малой капитализации за май 2016 года: Начальные запасы: $2 млн, Конечные запасы: $3 млн, Себестоимость продаж: $10 млн. Учитывая эту информацию, коэффициент оборачиваемости запасов ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "3.",
+          "text_ru": "3."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "4.",
+          "text_ru": "4."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "5.",
+          "text_ru": "5."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Inventory turnover ratio = Cost of sales / Average inventory. Average inventory = (Closing inventory + Opening inventory) / 2 = ($3 million + $2 million) / 2 = $2.5 million. Inventory turnover ratio = $10 million / $2.5 million = 4.",
+      "explanation_ru": "Коэффициент оборачиваемости запасов = Себестоимость продаж / Средние запасы. Средние запасы = (Конечные запасы + Начальные запасы) / 2 = ($3 млн + $2 млн) / 2 = $2.5 млн. Коэффициент оборачиваемости запасов = $10 млн / $2.5 млн = 4.",
+      "explanation_formula": "$\\text{Inventory Turnover} = \\frac{\\text{Cost of Sales}}{\\text{Average Inventory}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "This would be the result if average inventory was incorrectly calculated.",
+          "text_ru": "Это был бы результат, если бы средние запасы были неправильно рассчитаны."
+        },
+        "opt_c": {
+          "text_en": "This would be the result if opening inventory was used instead of average inventory.",
+          "text_ru": "Это был бы результат, если бы использовались начальные запасы вместо средних запасов."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic Calculator",
+        "steps_en": [
+          "Average Inventory = (3 + 2) / 2 = 2.5",
+          "Inventory Turnover = 10 / 2.5 = 4"
+        ],
+        "steps_ru": [
+          "Средние запасы = (3 + 2) / 2 = 2.5",
+          "Оборачиваемость запасов = 10 / 2.5 = 4"
+        ]
+      },
+      "difficulty": "easy",
+      "topic_tags": [
+        "inventory_turnover",
+        "financial_ratios"
+      ]
+    },
+    {
+      "question_id": "FSA-6-Q005",
+      "original_question_number": 167,
+      "los_id": "LOS_6c",
+      "question_text_en": "Which of the following businesses is expected to have the lowest inventory turnover ratio?",
+      "question_text_ru": "Какой из следующих бизнесов, как ожидается, будет иметь самый низкий коэффициент оборачиваемости запасов?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "A bread manufacturer.",
+          "text_ru": "Производитель хлеба."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "A luxury car manufacturer.",
+          "text_ru": "Производитель роскошных автомобилей."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "A supplier of electrical fittings.",
+          "text_ru": "Поставщик электрофурнитуры."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "A luxury car manufacturer is expected to have the lowest inventory turnover ratio among the options provided. Luxury car manufacturers typically deal with high-value items that are produced and sold in lower quantities compared to everyday consumer goods. These manufacturers often have longer production cycles and sell their products at a premium, which means the inventory stays on the balance sheet for a longer period before being sold. This results in a lower inventory turnover ratio.",
+      "explanation_ru": "Производитель роскошных автомобилей, как ожидается, будет иметь самый низкий коэффициент оборачиваемости запасов среди предложенных вариантов. Производители роскошных автомобилей обычно работают с товарами высокой стоимости, которые производятся и продаются в меньших количествах по сравнению с товарами повседневного спроса. У этих производителей часто более длинные производственные циклы, и они продают свою продукцию по премиальным ценам, что означает, что запасы остаются на балансе в течение более длительного периода до продажи. Это приводит к более низкому коэффициенту оборачиваемости запасов.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Bread, being a staple food item, has a consistent demand, and the inventory does not stay unsold for long periods. Therefore, a bread manufacturer is expected to have a higher inventory turnover ratio compared to a luxury car manufacturer.",
+          "text_ru": "Хлеб, будучи основным продуктом питания, имеет постоянный спрос, и запасы не остаются непроданными в течение длительного времени. Следовательно, производитель хлеба, как ожидается, будет иметь более высокий коэффициент оборачиваемости запасов по сравнению с производителем роскошных автомобилей."
+        },
+        "opt_c": {
+          "text_en": "A supplier of electrical fittings also operates in a market with relatively quicker inventory cycles compared to luxury car manufacturing. Electrical fittings are essential components in various construction and maintenance projects, leading to steady demand and higher inventory turnover ratio than a luxury car manufacturer.",
+          "text_ru": "Поставщик электрофурнитуры также работает на рынке с относительно более быстрыми циклами запасов по сравнению с производством роскошных автомобилей. Электрофурнитура является важными компонентами в различных строительных и ремонтных проектах, что приводит к стабильному спросу и более высокому коэффициенту оборачиваемости запасов, чем у производителя роскошных автомобилей."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "inventory_turnover",
+        "business_analysis"
+      ]
+    },
+    {
+      "question_id": "FSA-6-Q006",
+      "original_question_number": 168,
+      "los_id": "LOS_6b",
+      "question_text_en": "Which of the following inventory cost methods will most likely result in the lowest net income in an inflationary environment?",
+      "question_text_ru": "Какой из следующих методов учета запасов, скорее всего, приведет к самой низкой чистой прибыли в условиях инфляции?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Last-in, first-out (LIFO).",
+          "text_ru": "Последний пришел - первый ушел (LIFO)."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "First-in, first-out (FIFO).",
+          "text_ru": "Первый пришел - первый ушел (FIFO)."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Weighted average cost (WAC).",
+          "text_ru": "Средневзвешенная стоимость (WAC)."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The LIFO method calculates the cost of goods sold (COGS) based on the most recent inventory. Therefore, in an inflationary environment, the LIFO COGS will be the highest, and net income will be the lowest as compared to the two other methods.",
+      "explanation_ru": "Метод LIFO рассчитывает себестоимость проданных товаров (COGS) на основе самых последних запасов. Следовательно, в условиях инфляции COGS по LIFO будет самым высоким, а чистая прибыль - самой низкой по сравнению с двумя другими методами.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "The FIFO method calculates the cost of goods sold (COGS) based on the oldest (beginning) inventory. Therefore, in an inflationary environment, the FIFO COGS will be the lowest, and net income will be the highest as compared to the two other methods.",
+          "text_ru": "Метод FIFO рассчитывает себестоимость проданных товаров (COGS) на основе самых старых (начальных) запасов. Следовательно, в условиях инфляции COGS по FIFO будет самым низким, а чистая прибыль - самой высокой по сравнению с двумя другими методами."
+        },
+        "opt_c": {
+          "text_en": "The weighted average method will result in net income, but greater than that of LIFO less than that of FIFO methods.",
+          "text_ru": "Метод средневзвешенной стоимости приведет к чистой прибыли, но большей, чем по LIFO, и меньшей, чем по FIFO."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "inventory_methods",
+        "inflation",
+        "net_income"
+      ]
+    },
+    {
+      "question_id": "FSA-6-Q007",
+      "original_question_number": 169,
+      "los_id": "LOS_6b",
+      "question_text_en": "Which of the following inventory cost recognition method will most likely result in the highest ending inventory in an inflationary environment?",
+      "question_text_ru": "Какой из следующих методов признания затрат на запасы, скорее всего, приведет к самым высоким конечным запасам в условиях инфляции?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "LIFO.",
+          "text_ru": "LIFO."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "FIFO.",
+          "text_ru": "FIFO."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Weighted average method.",
+          "text_ru": "Метод средневзвешенной стоимости."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "In an inflationary environment, the First-In, First-Out (FIFO) inventory cost recognition method will most likely result in the highest ending inventory value. This outcome is due to the FIFO method's principle of selling or using the oldest inventory first. Consequently, in times of rising prices, the cost of goods sold (COGS) reflects the cost of older, less expensive inventory, while the ending inventory is valued at more recent—and typically higher—purchase prices.",
+      "explanation_ru": "В условиях инфляции метод признания затрат на запасы FIFO (первым пришел - первым ушел), скорее всего, приведет к самой высокой стоимости конечных запасов. Этот результат обусловлен принципом FIFO продавать или использовать самые старые запасы первыми. Следовательно, во времена роста цен себестоимость проданных товаров (COGS) отражает стоимость более старых, менее дорогих запасов, в то время как конечные запасы оцениваются по более поздним и обычно более высоким ценам покупки.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The Last-In, First-Out (LIFO) method, in contrast to FIFO, assumes that the most recently acquired inventory is sold or used first. In an inflationary environment, this means that the COGS reflects the cost of newer, more expensive inventory, while the ending inventory is valued at the cost of older, less expensive purchases. This results in a lower ending inventory value under LIFO during periods of inflation.",
+          "text_ru": "Метод LIFO (последним пришел - первым ушел), в отличие от FIFO, предполагает, что последние приобретенные запасы продаются или используются первыми. В условиях инфляции это означает, что COGS отражает стоимость более новых, более дорогих запасов, в то время как конечные запасы оцениваются по стоимости более старых, менее дорогих покупок. Это приводит к более низкой стоимости конечных запасов по LIFO в периоды инфляции."
+        },
+        "opt_c": {
+          "text_en": "The Weighted Average Method smooths out price fluctuations over the accounting period by averaging the cost of goods available for sale and assigning this average cost to both the ending inventory and the COGS. In an inflationary environment, this method dilutes the impact of rising prices. Therefore, the ending inventory value under the Weighted Average Method will not be as high as under FIFO.",
+          "text_ru": "Метод средневзвешенной стоимости сглаживает колебания цен в течение учетного периода путем усреднения стоимости товаров, доступных для продажи, и присвоения этой средней стоимости как конечным запасам, так и COGS. В условиях инфляции этот метод ослабляет влияние роста цен. Следовательно, стоимость конечных запасов по методу средневзвешенной стоимости не будет такой высокой, как по FIFO."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "inventory_methods",
+        "inflation",
+        "ending_inventory"
+      ]
+    },
+    {
+      "question_id": "FSA-6-Q008",
+      "original_question_number": 170,
+      "los_id": "LOS_6b",
+      "question_text_en": "Turks Printers is a printer retailer that sells printers to large corporations. Assume that Turks uses the weighted average cost method of inventory. Beginning Inventory: 50 printers at $100 each, Purchased on January 1st: 100 printers at $110 each, Purchased on March 1st: 20 printers at $130 each. If Turks sell 100 printers to Loop Corp. in April, the ending inventory for Turks is closest to:",
+      "question_text_ru": "Turks Printers - это розничный продавец принтеров, который продает принтеры крупным корпорациям. Предположим, что Turks использует метод средневзвешенной стоимости запасов. Начальные запасы: 50 принтеров по $100 каждый, Куплено 1 января: 100 принтеров по $110 каждый, Куплено 1 марта: 20 принтеров по $130 каждый. Если Turks продаст 100 принтеров Loop Corp. в апреле, конечные запасы Turks ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$7,200",
+          "text_ru": "$7,200"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$7,658",
+          "text_ru": "$7,658"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$8,100",
+          "text_ru": "$8,100"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The weighted average cost method uses the average cost to calculate the COGS and the ending inventory. Average cost of printers = (50 × $100 + 100 × $110 + 20 × $130) / 170 = $109.4. Ending inventory of printers = $109.40 × (170 − 100) = $7,658.",
+      "explanation_ru": "Метод средневзвешенной стоимости использует среднюю стоимость для расчета COGS и конечных запасов. Средняя стоимость принтеров = (50 × $100 + 100 × $110 + 20 × $130) / 170 = $109.4. Конечные запасы принтеров = $109.40 × (170 − 100) = $7,658.",
+      "explanation_formula": "$\\text{Average Cost} = \\frac{\\sum (\\text{Units} \\times \\text{Cost})}{\\sum \\text{Units}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Uses LIFO method.",
+          "text_ru": "Использует метод LIFO."
+        },
+        "opt_c": {
+          "text_en": "Uses FIFO method.",
+          "text_ru": "Использует метод FIFO."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic Calculator",
+        "steps_en": [
+          "Total Cost = 50×100 + 100×110 + 20×130 = 18,600",
+          "Total Units = 50 + 100 + 20 = 170",
+          "Average Cost = 18,600 / 170 = 109.41",
+          "Ending Inventory = 109.41 × 70 = 7,658"
+        ],
+        "steps_ru": [
+          "Общая стоимость = 50×100 + 100×110 + 20×130 = 18,600",
+          "Всего единиц = 50 + 100 + 20 = 170",
+          "Средняя стоимость = 18,600 / 170 = 109.41",
+          "Конечные запасы = 109.41 × 70 = 7,658"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": [
+        "weighted_average",
+        "inventory_valuation"
+      ]
+    },
+    {
+      "question_id": "FSA-6-Q009",
+      "original_question_number": 171,
+      "los_id": "LOS_6b",
+      "question_text_en": "Which of the following inventory cost recognition method will result in the highest net income in times of falling prices?",
+      "question_text_ru": "Какой из следующих методов признания затрат на запасы приведет к самой высокой чистой прибыли во времена падения цен?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "LIFO.",
+          "text_ru": "LIFO."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "FIFO.",
+          "text_ru": "FIFO."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Weighted average method.",
+          "text_ru": "Метод средневзвешенной стоимости."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "LIFO method calculates the COGS based on the most recent inventory. When prices are falling, the cost of the most recent inventory is lower than that of older inventory. Consequently, using LIFO leads to a lower COGS and, by extension, a higher gross margin and net income, assuming sales and other expenses remain constant.",
+      "explanation_ru": "Метод LIFO рассчитывает COGS на основе самых последних запасов. Когда цены падают, стоимость самых последних запасов ниже, чем у более старых запасов. Следовательно, использование LIFO приводит к более низкому COGS и, соответственно, к более высокой валовой марже и чистой прибыли при неизменных продажах и других расходах.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "FIFO calculates COGS based on the cost of the oldest inventory first. In a falling price environment, this means that the COGS reflects higher historical prices, leading to a higher COGS and lower net income compared to LIFO.",
+          "text_ru": "FIFO рассчитывает COGS на основе стоимости самых старых запасов. В условиях падения цен это означает, что COGS отражает более высокие исторические цены, что приводит к более высокому COGS и более низкой чистой прибыли по сравнению с LIFO."
+        },
+        "opt_c": {
+          "text_en": "The weighted average method smooths out price fluctuations by calculating COGS based on the average cost of all inventory available during the period. While this method may lead to a COGS that is lower than FIFO's during times of falling prices, it does not typically result in a COGS as low as LIFO's.",
+          "text_ru": "Метод средневзвешенной стоимости сглаживает колебания цен, рассчитывая COGS на основе средней стоимости всех запасов, доступных в течение периода. Хотя этот метод может привести к COGS, который ниже, чем у FIFO, во времена падения цен, он обычно не приводит к такому низкому COGS, как LIFO."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "inventory_methods",
+        "deflation",
+        "net_income"
+      ]
+    },
+    {
+      "question_id": "FSA-6-Q010",
+      "original_question_number": 172,
+      "los_id": "LOS_6a",
+      "question_text_en": "A firm following IFRS reports its inventory with the carrying value of $450,000. If the net realizable value of inventory is $500,000, then the amount of the gain/loss on write-down of inventory is closest to:",
+      "question_text_ru": "Компания, следующая IFRS, отражает свои запасы с балансовой стоимостью $450,000. Если чистая стоимость реализации запасов составляет $500,000, то сумма прибыли/убытка от списания запасов ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$0.",
+          "text_ru": "$0."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "a $50,000 loss.",
+          "text_ru": "убыток $50,000."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "a $50,000 gain",
+          "text_ru": "прибыль $50,000"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Under IFRS, inventory value is written down if the carrying value of inventory is greater than the net realizable value (NRV) (or the selling price minus the selling cost). Since the carrying value of inventory is less than the NRV, the inventory will not be written down, and no loss will be recognized.",
+      "explanation_ru": "Согласно IFRS, стоимость запасов списывается, если балансовая стоимость запасов превышает чистую стоимость реализации (NRV) (или цену продажи минус затраты на продажу). Поскольку балансовая стоимость запасов меньше NRV, запасы не будут списаны, и никакой убыток не будет признан.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Contradicts the correct answer.",
+          "text_ru": "Противоречит правильному ответу."
+        },
+        "opt_c": {
+          "text_en": "Contradicts the correct answer.",
+          "text_ru": "Противоречит правильному ответу."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "inventory_valuation",
+        "ifrs",
+        "write_down"
+      ]
+    }
+  ]
+}
