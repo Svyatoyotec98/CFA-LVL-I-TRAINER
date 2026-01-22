@@ -7,7 +7,7 @@
     "module_id": 4,
     "module_name": "Analyzing Statements of Cash Flows",
     "module_name_ru": "Анализ отчетов о движении денежных средств",
-    "total_questions": 20,
+    "total_questions": 30,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -1387,6 +1387,517 @@
         "direct_method",
         "indirect_method",
         "conversion"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q021",
+      "original_question_number": 3851,
+      "los_id": "LOS_4b",
+      "question_text_en": "A provision for doubtful accounts was created by Alpha LLC for the year 2014. What is the most appropriate treatment for doubtful accounts while preparing operating cash flows under the indirect method?",
+      "question_text_ru": "Резерв по сомнительным счетам был создан Alpha LLC за 2014 год. Какая наиболее подходящая обработка сомнительных счетов при подготовке операционных денежных потоков с использованием косвенного метода?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Added to net income.",
+          "text_ru": "Добавляется к чистой прибыли."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Deducted from net income.",
+          "text_ru": "Вычитается из чистой прибыли."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Neither added nor deducted from net income.",
+          "text_ru": "Ни добавляется, ни вычитается из чистой прибыли."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "When preparing operating cash flows under the indirect method, a provision for doubtful accounts, being a non-cash expense, should be added back to net income. This adjustment is necessary because the provision for doubtful accounts reduces net income on the income statement, but it does not involve an actual outflow of cash in the period it is recognized. The indirect method starts with net income and then adjusts for all non-cash transactions, changes in working capital, and other items to arrive at cash flow from operating activities.",
+      "explanation_ru": "При подготовке операционных денежных потоков с использованием косвенного метода резерв по сомнительным счетам, являющийся неденежными расходами, должен быть добавлен обратно к чистой прибыли. Эта корректировка необходима, потому что резерв по сомнительным счетам уменьшает чистую прибыль в отчете о прибылях и убытках, но не включает фактического оттока денежных средств в период, когда он признан. Косвенный метод начинается с чистой прибыли, а затем корректирует все неденежные транзакции, изменения в оборотном капитале и другие статьи для получения денежного потока от операционной деятельности.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Deducting the provision for doubtful accounts from net income would be double-counting the expense, as it has already been accounted for in the calculation of net income.",
+          "text_ru": "Неверно. Вычитание резерва по сомнительным счетам из чистой прибыли было бы двойным учетом расходов, так как они уже учтены при расчете чистой прибыли."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This option suggests that the provision for doubtful accounts should neither be added nor deducted from net income, which is not accurate. Ignoring the provision for doubtful accounts in the calculation of cash flows from operating activities would result in an inaccurate representation of the company's cash operations.",
+          "text_ru": "Неверно. Этот вариант предполагает, что резерв по сомнительным счетам не должен ни добавляться, ни вычитаться из чистой прибыли, что неточно. Игнорирование резерва по сомнительным счетам при расчете денежных потоков от операционной деятельности приведет к неточному представлению денежных операций компании."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "indirect_method",
+        "doubtful_accounts",
+        "non_cash_expense"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q022",
+      "original_question_number": 4673,
+      "los_id": "LOS_4a",
+      "question_text_en": "When considering the relationship between current assets and operating activities, how does an increase in prepaid expenses most likely affect the cash flow statement?",
+      "question_text_ru": "При рассмотрении взаимосвязи между оборотными активами и операционной деятельностью, как увеличение предоплаченных расходов наиболее вероятно влияет на отчет о движении денежных средств?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Indicates a cash inflow from operations.",
+          "text_ru": "Указывает на приток денежных средств от операций."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Represents a cash outflow from operations.",
+          "text_ru": "Представляет отток денежных средств от операций."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Has no impact on the cash flow statement.",
+          "text_ru": "Не влияет на отчет о движении денежных средств."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "An increase in prepaid expenses is an outflow of cash in the operating section of the cash flow statement. This is because prepaid expenses involve paying for services or goods that will benefit future periods, thus reducing the cash available for current operations.",
+      "explanation_ru": "Увеличение предоплаченных расходов является оттоком денежных средств в операционном разделе отчета о движении денежных средств. Это потому, что предоплаченные расходы включают оплату услуг или товаров, которые принесут пользу в будущих периодах, тем самым уменьшая денежные средства, доступные для текущих операций.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Prepaid expenses require an outlay of cash, and thus, it is a cash outflow, not an inflow.",
+          "text_ru": "Неверно. Предоплаченные расходы требуют оттока денежных средств, и, следовательно, это отток денежных средств, а не приток."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Prepaid expenses are current assets, and an increase definitely affects the cash flow statement by showing the cash that has been used in advance for future expenses.",
+          "text_ru": "Неверно. Предоплаченные расходы являются оборотными активами, и увеличение определенно влияет на отчет о движении денежных средств, показывая денежные средства, которые были использованы авансом для будущих расходов."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "prepaid_expenses",
+        "current_assets",
+        "cash_flow"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q023",
+      "original_question_number": 4674,
+      "los_id": "LOS_4a",
+      "question_text_en": "Considering the accrual basis of accounting, what does an increase in accounts payable most likely suggest about a company's cash outflows?",
+      "question_text_ru": "С учетом метода начисления в бухгалтерском учете, что увеличение кредиторской задолженности наиболее вероятно предполагает относительно оттоков денежных средств компании?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The company is paying off suppliers quickly.",
+          "text_ru": "Компания быстро рассчитывается с поставщиками."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The company is delaying payments to suppliers.",
+          "text_ru": "Компания откладывает платежи поставщикам."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The company's expenses are lower than in previous periods.",
+          "text_ru": "Расходы компании ниже, чем в предыдущие периоды."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "An increase in accounts payable usually indicates that a company is delaying payments to its suppliers. This suggests that the company is conserving cash, as the expenses are recorded but the cash outflow is deferred to a later period.",
+      "explanation_ru": "Увеличение кредиторской задолженности обычно указывает на то, что компания откладывает платежи своим поставщикам. Это говорит о том, что компания сохраняет денежные средства, так как расходы учитываются, но отток денежных средств откладывается на более поздний период.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. If the company were paying off suppliers quicker, accounts payable would decrease rather than increase.",
+          "text_ru": "Неверно. Если бы компания быстрее рассчитывалась с поставщиками, кредиторская задолженность бы уменьшилась, а не увеличилась."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. An increase in accounts payable does not necessarily reflect a decrease in total expenses. It primarily indicates the timing of cash payments related to accrued expenses.",
+          "text_ru": "Неверно. Увеличение кредиторской задолженности не обязательно отражает уменьшение общих расходов. Это в первую очередь указывает на время денежных платежей, связанных с начисленными расходами."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "accounts_payable",
+        "accrual_basis",
+        "cash_flow"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q024",
+      "original_question_number": 4675,
+      "los_id": "LOS_4a",
+      "question_text_en": "Which of the following is most likely an impact of recognizing revenue on an accrual basis when it exceeds the actual cash collected from customers?",
+      "question_text_ru": "Что из следующего наиболее вероятно является влиянием признания выручки на основе начисления, когда она превышает фактические денежные средства, полученные от клиентов?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Increases accounts receivable balance.",
+          "text_ru": "Увеличивает баланс дебиторской задолженности."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Leads to an increase in cash balance.",
+          "text_ru": "Приводит к увеличению баланса денежных средств."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Decreases accounts receivable balance.",
+          "text_ru": "Уменьшает баланс дебиторской задолженности."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Recognizing revenue on an accrual basis that exceeds cash collections results in an increase in accounts receivable. This indicates that the company has earned revenues for which it has not yet received payment.",
+      "explanation_ru": "Признание выручки на основе начисления, которая превышает денежные поступления, приводит к увеличению дебиторской задолженности. Это указывает на то, что компания получила выручку, за которую еще не получила оплату.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. An increase in revenue recognition without corresponding cash inflows does not increase the actual cash balance; it increases the accounts receivable.",
+          "text_ru": "Неверно. Увеличение признания выручки без соответствующих денежных притоков не увеличивает фактический баланс денежных средств; это увеличивает дебиторскую задолженность."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Recognizing revenue without an equivalent cash collection increases the accounts receivable balance, not decreases it.",
+          "text_ru": "Неверно. Признание выручки без эквивалентного денежного поступления увеличивает баланс дебиторской задолженности, а не уменьшает его."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "accrual_basis",
+        "revenue_recognition",
+        "accounts_receivable"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q025",
+      "original_question_number": 4677,
+      "los_id": "LOS_4a",
+      "question_text_en": "Which of the following most likely details how the ending retained earnings balance is determined on the balance sheet?",
+      "question_text_ru": "Какое из следующих утверждений наиболее вероятно описывает, как определяется конечный баланс нераспределенной прибыли в балансе?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "By subtracting net income from dividends paid.",
+          "text_ru": "Путем вычитания чистой прибыли из выплаченных дивидендов."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "By adding net income to the beginning retained earnings and then subtracting dividends paid.",
+          "text_ru": "Путем добавления чистой прибыли к начальной нераспределенной прибыли, а затем вычитания выплаченных дивидендов."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "By adding dividends paid to the beginning retained earnings and then subtracting net income.",
+          "text_ru": "Путем добавления выплаченных дивидендов к начальной нераспределенной прибыли, а затем вычитания чистой прибыли."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Ending retained earnings is determined by adding net income to the beginning retained earnings balance and then subtracting any dividends paid during the period.",
+      "explanation_ru": "Конечная нераспределенная прибыль определяется путем добавления чистой прибыли к начальному балансу нераспределенной прибыли, а затем вычитания любых дивидендов, выплаченных в течение периода.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Retained earnings are not derived by subtracting net income from dividends; it's the net income that contributes to an increase in retained earnings.",
+          "text_ru": "Неверно. Нераспределенная прибыль не выводится путем вычитания чистой прибыли из дивидендов; именно чистая прибыль способствует увеличению нераспределенной прибыли."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Dividends paid are subtracted from the sum of the beginning retained earnings and net income to arrive at the ending balance and are not added.",
+          "text_ru": "Неверно. Выплаченные дивиденды вычитаются из суммы начальной нераспределенной прибыли и чистой прибыли для получения конечного баланса и не добавляются."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "retained_earnings",
+        "balance_sheet",
+        "dividends"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q026",
+      "original_question_number": 4678,
+      "los_id": "LOS_4a",
+      "question_text_en": "When a company receives advance payments for services or products to be delivered in the future, how is this reported in the financial statements? As an increase in:",
+      "question_text_ru": "Когда компания получает авансовые платежи за услуги или продукты, которые будут поставлены в будущем, как это отражается в финансовой отчетности? Как увеличение:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "assets and expenses.",
+          "text_ru": "активов и расходов."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "liabilities and revenue.",
+          "text_ru": "обязательств и выручки."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "assets and liabilities.",
+          "text_ru": "активов и обязательств."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "When a company receives payments in advance for future services or products, it records the cash as an increase in assets (specifically as cash or cash equivalents) and also recognizes a liability (deferred revenue) for the obligation to deliver those services or products.",
+      "explanation_ru": "Когда компания получает платежи авансом за будущие услуги или продукты, она учитывает денежные средства как увеличение активов (конкретно как денежные средства или их эквиваленты), а также признает обязательство (отложенная выручка) за обязательство по поставке этих услуг или продуктов.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Advance payments do not immediately increase expenses. The expense is recognized when the service is rendered, or the product is delivered.",
+          "text_ru": "Неверно. Авансовые платежи не увеличивают расходы немедленно. Расход признается, когда услуга оказана или продукт доставлен."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Although a liability is indeed increased (deferred revenue), revenue is not recognized until the service is performed or the goods are delivered; thus, there is no immediate increase in revenue.",
+          "text_ru": "Неверно. Хотя обязательство действительно увеличивается (отложенная выручка), выручка не признается до тех пор, пока услуга не будет выполнена или товары доставлены; таким образом, нет немедленного увеличения выручки."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "deferred_revenue",
+        "advance_payments",
+        "liabilities"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q027",
+      "original_question_number": 4679,
+      "los_id": "LOS_4b",
+      "question_text_en": "Kenya Tea Development Agency (KTDA) reported an increase in inventory of USD 169,000 and a cost of goods sold (COGS) of USD 11,345,000. If the beginning inventory was USD 3,856,000, the cash paid to suppliers, assuming the increase in accounts payable was USD 300,000 is closest to:",
+      "question_text_ru": "Kenya Tea Development Agency (KTDA) отчиталась об увеличении запасов на USD 169,000 и себестоимости проданных товаров (COGS) USD 11,345,000. Если начальные запасы составляли USD 3,856,000, денежные средства, выплаченные поставщикам, при условии, что увеличение кредиторской задолженности составило USD 300,000, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "USD 11,846,000",
+          "text_ru": "USD 11,846,000"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "USD 11,514,000",
+          "text_ru": "USD 11,514,000"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "USD 11,214,000",
+          "text_ru": "USD 11,214,000"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Cash paid to suppliers is calculated by adjusting the purchases, which are COGS plus the increase in inventory, by the increase in accounts payable. Purchases from suppliers = COGS + Increase in inventory = USD 11,345,000 + USD 169,000 = USD 11,514,000. Therefore, Cash paid to suppliers = Purchases from suppliers - Increase in accounts payable = USD 11,514,000 - USD 300,000 = USD 11,214,000",
+      "explanation_ru": "Денежные средства, выплаченные поставщикам, рассчитываются путем корректировки закупок, которые представляют собой себестоимость плюс увеличение запасов, на увеличение кредиторской задолженности. Закупки у поставщиков = Себестоимость + Увеличение запасов = USD 11,345,000 + USD 169,000 = USD 11,514,000. Следовательно, Денежные средства, выплаченные поставщикам = Закупки у поставщиков - Увеличение кредиторской задолженности = USD 11,514,000 - USD 300,000 = USD 11,214,000",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. It suggests an addition of accounts payable to purchases, which is not the correct treatment in the cash flow statement.",
+          "text_ru": "Неверно. Это предполагает добавление кредиторской задолженности к закупкам, что не является правильной обработкой в отчете о движении денежных средств."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. It only represents the purchases from suppliers without adjusting for the change in accounts payable.",
+          "text_ru": "Неверно. Это представляет только закупки у поставщиков без корректировки на изменение кредиторской задолженности."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "cash_paid_suppliers",
+        "inventory",
+        "accounts_payable"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q028",
+      "original_question_number": 4680,
+      "los_id": "LOS_4b",
+      "question_text_en": "A company's net income for the year ended December 31, 2023, is USD 3,521,000. If depreciation expense is USD 1,100,000 and there's a gain on sale of equipment of USD 220,000, the net cash from operating activities using the indirect method, considering there are no other adjustments is closest to:",
+      "question_text_ru": "Чистая прибыль компании за год, закончившийся 31 декабря 2023 года, составляет USD 3,521,000. Если амортизационные расходы составляют USD 1,100,000, и есть прибыль от продажи оборудования USD 220,000, чистые денежные средства от операционной деятельности с использованием косвенного метода, учитывая, что других корректировок нет, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "USD 3,401,000",
+          "text_ru": "USD 3,401,000"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "USD 4,401,000",
+          "text_ru": "USD 4,401,000"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "USD 4,543,000",
+          "text_ru": "USD 4,543,000"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Under the indirect method, net cash from operating activities starts with net income, then adds back non-cash expenses like depreciation, and subtracts gains from the sale of assets. Net cash from operating activities = Net income + Depreciation expense − Gain on sale of equipment = USD 3,521,000 + USD 1,100,000 - USD 220,000 = USD 4,401,000",
+      "explanation_ru": "При использовании косвенного метода чистые денежные средства от операционной деятельности начинаются с чистой прибыли, затем добавляются обратно неденежные расходы, такие как амортизация, и вычитается прибыль от продажи активов. Чистые денежные средства от операционной деятельности = Чистая прибыль + Амортизационные расходы − Прибыль от продажи оборудования = USD 3,521,000 + USD 1,100,000 - USD 220,000 = USD 4,401,000",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. It underestimates the impact of non-cash depreciation expense, which must be added back to net income.",
+          "text_ru": "Неверно. Это недооценивает влияние неденежных амортизационных расходов, которые должны быть добавлены обратно к чистой прибыли."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It does not account for the gain on the sale of equipment as a deduction from net income.",
+          "text_ru": "Неверно. Это не учитывает прибыль от продажи оборудования как вычет из чистой прибыли."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "indirect_method",
+        "cfo_calculation",
+        "depreciation",
+        "gain_on_sale"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q029",
+      "original_question_number": 4681,
+      "los_id": "LOS_4b",
+      "question_text_en": "If a company has beginning retained earnings of USD 3,305,000 and an ending retained earnings of USD 4,106,000, the amount of dividends that the company paid during the year if the net income was USD 3,521,000 is closest to:",
+      "question_text_ru": "Если у компании начальная нераспределенная прибыль составляет USD 3,305,000, а конечная нераспределенная прибыль USD 4,106,000, сумма дивидендов, которую компания выплатила в течение года, если чистая прибыль составляла USD 3,521,000, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "USD 2,720,000",
+          "text_ru": "USD 2,720,000"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "USD 2,800,000",
+          "text_ru": "USD 2,800,000"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "USD 3,000,000",
+          "text_ru": "USD 3,000,000"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Dividends paid can be calculated using the change in retained earnings and net income. Dividends paid = Beginning retained earnings + Net income - Ending retained earnings = USD 3,305,000 + USD 3,521,000 - USD 4,106,000 = USD 2,720,000",
+      "explanation_ru": "Выплаченные дивиденды могут быть рассчитаны с использованием изменения нераспределенной прибыли и чистой прибыли. Выплаченные дивиденды = Начальная нераспределенная прибыль + Чистая прибыль - Конечная нераспределенная прибыль = USD 3,305,000 + USD 3,521,000 - USD 4,106,000 = USD 2,720,000",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This is a calculation error.",
+          "text_ru": "Неверно. Это ошибка в расчетах."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This is a calculation error.",
+          "text_ru": "Неверно. Это ошибка в расчетах."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "dividends",
+        "retained_earnings",
+        "net_income"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q030",
+      "original_question_number": 4682,
+      "los_id": "LOS_4b",
+      "question_text_en": "Consider a company whose accounts receivable increased by USD 39,000 during the year, and the revenue reported was USD 25,456,000. The amount that the company received from its customers is closest to:",
+      "question_text_ru": "Рассмотрите компанию, чья дебиторская задолженность увеличилась на USD 39,000 в течение года, а отчетная выручка составила USD 25,456,000. Сумма, которую компания получила от своих клиентов, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "USD 25,417,000",
+          "text_ru": "USD 25,417,000"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "USD 25,495,000",
+          "text_ru": "USD 25,495,000"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "USD 25,380,000",
+          "text_ru": "USD 25,380,000"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Cash received from customers is calculated by adjusting the revenue for the change in accounts receivable. Cash received from customers = Revenue - Increase in accounts receivable = USD 25,456,000 - USD 39,000 = USD 25,417,000",
+      "explanation_ru": "Денежные средства, полученные от клиентов, рассчитываются путем корректировки выручки на изменение дебиторской задолженности. Денежные средства, полученные от клиентов = Выручка - Увеличение дебиторской задолженности = USD 25,456,000 - USD 39,000 = USD 25,417,000",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. It suggests an incorrect calculation, possibly adding the increase in accounts receivable to the revenue, which is not how cash received from customers is calculated.",
+          "text_ru": "Неверно. Это предполагает неправильный расчет, возможно, добавление увеличения дебиторской задолженности к выручке, что не является способом расчета денежных средств, полученных от клиентов."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It suggests a different value that does not correlate with the provided figures for revenue and the increase in accounts receivable.",
+          "text_ru": "Неверно. Это предполагает другое значение, которое не соответствует предоставленным цифрам выручки и увеличения дебиторской задолженности."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "cash_received",
+        "accounts_receivable",
+        "revenue"
       ]
     }
   ]
