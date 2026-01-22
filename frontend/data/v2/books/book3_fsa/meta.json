@@ -71,16 +71,17 @@
     },
     {
       "module_id": 5,
-      "module_name": "Analysis of Inventories",
+      "module_name": "Analyzing Statements of Cash Flows II",
       "page_range": "114-129",
-      "question_range": "144-162",
+      "question_range": "476-4743",
       "los_codes": [
         "LOS_5a",
         "LOS_5b"
       ],
-      "module_name_ru": "Analysis of Inventories",
+      "module_name_ru": "Анализ отчетов о движении денежных средств II",
       "glossary_file": "glossary_module_5.json",
-      "status": "pending"
+      "qbank_file": "qbank_module_5.json",
+      "status": "in_progress"
     },
     {
       "module_id": 6,
