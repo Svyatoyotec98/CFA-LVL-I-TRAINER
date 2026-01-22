@@ -51,7 +51,7 @@
       "module_name_ru": "Анализ балансовых отчетов",
       "glossary_file": "glossary_module_3.json",
       "qbank_file": "qbank_module_3.json",
-      "status": "in_progress"
+      "status": "complete"
     },
     {
       "module_id": 4,
@@ -60,11 +60,14 @@
       "question_range": "100-143",
       "los_codes": [
         "LOS_4a",
-        "LOS_4b"
+        "LOS_4b",
+        "LOS_4c",
+        "LOS_4d"
       ],
-      "module_name_ru": "Analyzing Statements of Cash Flows",
+      "module_name_ru": "Анализ отчетов о движении денежных средств",
       "glossary_file": "glossary_module_4.json",
-      "status": "pending"
+      "qbank_file": "qbank_module_4.json",
+      "status": "in_progress"
     },
     {
       "module_id": 5,
