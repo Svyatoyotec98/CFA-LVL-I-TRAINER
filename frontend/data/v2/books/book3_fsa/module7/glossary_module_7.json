@@ -1,0 +1,429 @@
+{
+  "metadata": {
+    "book_id": 3,
+    "book_code": "FSA",
+    "book_name": "Financial Statement Analysis",
+    "book_name_ru": "Анализ финансовой отчетности",
+    "module_id": 7,
+    "module_name": "Analysis of Long-Term Assets",
+    "module_name_ru": "Анализ долгосрочных активов",
+    "page_range": "146-166",
+    "total_terms": 28,
+    "total_exercises": 3,
+    "version": "2.0",
+    "last_updated": "2026-01-22"
+  },
+  "los": [
+    {
+      "los_id": "LOS_7a",
+      "los_code": "7a",
+      "los_description_en": "compare the financial reporting of the following types of intangible assets: purchased, internally developed, and acquired in a business combination",
+      "los_description_ru": "сравнить финансовую отчетность следующих типов нематериальных активов: приобретенных, разработанных внутри компании и приобретенных в результате объединения бизнесов",
+      "terms": [
+        {
+          "term_id": "FSA-7-001",
+          "term_en": "Intangible Assets",
+          "term_ru": "Нематериальные активы",
+          "definition_en": "Assets that lack physical substance but encompass items with exclusive rights like patents, copyrights, trademarks, and franchises.",
+          "definition_ru": "Активы, не имеющие физической формы, но включающие права, такие как патенты, авторские права, товарные знаки и франшизы.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-7-002",
+          "term_en": "Identifiable Intangible Assets",
+          "term_ru": "Идентифицируемые нематериальные активы",
+          "definition_en": "Intangible assets that meet three definitional criteria under IFRS: (1) must be separable or arise from contractual or legal rights, (2) must be under the company's control, and (3) should be expected to provide future economic benefits. They must also meet two recognition criteria: (1) the asset will likely bring future economic benefits and (2) the asset's cost can be reliably measured.",
+          "definition_ru": "Нематериальные активы, которые соответствуют трем критериям определения по МСФО: (1) должны быть отделяемыми или возникать из договорных или юридических прав, (2) должны находиться под контролем компании, и (3) ожидается, что они принесут будущие экономические выгоды. Они также должны соответствовать двум критериям признания: (1) актив, вероятно, принесет будущие экономические выгоды и (2) стоимость актива может быть надежно измерена.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-7-003",
+          "term_en": "Goodwill",
+          "term_ru": "Гудвил (деловая репутация)",
+          "definition_en": "An unidentifiable intangible asset that arises during the acquisition of a company when the purchase price exceeds the fair value of the net identifiable assets acquired. Goodwill is inseparable from the business itself.",
+          "definition_ru": "Неидентифицируемый нематериальный актив, который возникает при приобретении компании, когда цена покупки превышает справедливую стоимость чистых идентифицируемых активов. Гудвил неотделим от самого бизнеса.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-7-004",
+          "term_en": "Purchased Intangible Assets (Non-Business Combination)",
+          "term_ru": "Приобретенные нематериальные активы (вне объединения бизнесов)",
+          "definition_en": "Intangible assets, such as patents purchased outside of business combinations, that are recorded at their fair value, which is usually the purchase price. When multiple intangible assets are acquired together, the purchase price is allocated to each asset based on its fair value.",
+          "definition_ru": "Нематериальные активы, такие как патенты, приобретенные вне объединения бизнесов, которые учитываются по справедливой стоимости, обычно равной цене покупки. Когда несколько нематериальных активов приобретаются вместе, цена покупки распределяется на каждый актив на основе его справедливой стоимости.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-7-005",
+          "term_en": "Internally Developed Intangible Assets",
+          "term_ru": "Внутренне разработанные нематериальные активы",
+          "definition_en": "Intangible assets developed by the company itself. The costs of internally developed intangible assets are generally expensed when incurred, contrasting with the treatment of construction costs for tangible assets. This treatment affects comparability across companies and impacts financial ratios, as internally developing assets results in operating cash outflows while purchasing results in investing cash outflows.",
+          "definition_ru": "Нематериальные активы, разработанные самой компанией. Затраты на внутренне разработанные нематериальные активы, как правило, списываются по мере их возникновения, в отличие от затрат на строительство материальных активов. Такой подход влияет на сопоставимость компаний и финансовые коэффициенты, поскольку внутренняя разработка активов приводит к операционным денежным оттокам, а покупка - к инвестиционным.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-7-006",
+          "term_en": "Research (IFRS)",
+          "term_ru": "Исследования (МСФО)",
+          "definition_en": "According to IAS 38, research is defined as 'original and planned investigation undertaken with the prospect of gaining new scientific or technical knowledge and understanding.' Under IFRS, expenditures on research (or during the research phase of an internal project) must be expensed and cannot be capitalized as an intangible asset.",
+          "definition_ru": "Согласно МСФО (IAS) 38, исследования определяются как 'оригинальное и планомерное изучение, предпринятое с перспективой получения новых научных или технических знаний и понимания.' По МСФО расходы на исследования (или на стадии исследований внутреннего проекта) должны списываться и не могут быть капитализированы как нематериальный актив.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-7-007",
+          "term_en": "Development (IFRS)",
+          "term_ru": "Разработка (МСФО)",
+          "definition_en": "According to IAS 38, development is 'the application of research findings or other knowledge to a plan or design for producing new or substantially improved materials, devices, products, processes, systems, or services before the start of commercial production or use.' IFRS allows companies to recognize an intangible asset from development expenditures if certain criteria are met, such as demonstrating technical feasibility and intent to use or sell it.",
+          "definition_ru": "Согласно МСФО (IAS) 38, разработка - это 'применение результатов исследований или других знаний к плану или проекту для производства новых или существенно улучшенных материалов, устройств, продуктов, процессов, систем или услуг до начала коммерческого производства или использования.' МСФО позволяет компаниям признавать нематериальный актив из расходов на разработку, если выполнены определенные критерии, такие как демонстрация технической осуществимости и намерения использовать или продать его.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-7-008",
+          "term_en": "Software Development Costs (US GAAP)",
+          "term_ru": "Затраты на разработку программного обеспечения (US GAAP)",
+          "definition_en": "Under US GAAP, both research and development costs are generally expensed when incurred. However, certain costs related to software development must be capitalized. Costs to develop software for sale are expensed until the product's technological feasibility is established and capitalized thereafter. For software developed for internal use, costs are expensed until it is probable that the project will be completed and the software used as intended, after which development costs are capitalized.",
+          "definition_ru": "Согласно US GAAP, как исследовательские, так и опытно-конструкторские расходы обычно списываются по мере их возникновения. Однако определенные затраты, связанные с разработкой программного обеспечения, должны капитализироваться. Затраты на разработку ПО для продажи списываются до установления технической осуществимости продукта и капитализируются после этого. Для ПО, разработанного для внутреннего использования, затраты списываются до тех пор, пока не станет вероятным, что проект будет завершен и ПО будет использоваться по назначению, после чего затраты на разработку капитализируются.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-7-009",
+          "term_en": "Acquisition Method of Accounting",
+          "term_ru": "Метод приобретения в учете",
+          "definition_en": "The accounting method used when a company purchases another company. This involves the acquiring company allocating the purchase price to the acquired assets and assumed liabilities at their fair values. Any excess amount over the identifiable net assets' value is recorded as goodwill.",
+          "definition_ru": "Метод учета, используемый когда одна компания покупает другую. Он включает распределение покупающей компанией цены покупки на приобретенные активы и принятые обязательства по их справедливой стоимости. Любая сумма превышения над стоимостью идентифицируемых чистых активов учитывается как гудвил.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-7-010",
+          "term_en": "Intangible Assets Acquired in Business Combination",
+          "term_ru": "Нематериальные активы, приобретенные в результате объединения бизнесов",
+          "definition_en": "Under IFRS, acquired assets include identifiable intangible assets that meet specific criteria. According to US GAAP, two conditions must be considered: the asset must either arise from contractual or legal rights or be capable of being separated from the acquired company. Such intangible assets include patents, copyrights, franchises, licenses, internet domain names, and audiovisual materials.",
+          "definition_ru": "Согласно МСФО, приобретенные активы включают идентифицируемые нематериальные активы, отвечающие определенным критериям. Согласно US GAAP, должны быть рассмотрены два условия: актив должен либо возникать из договорных или юридических прав, либо быть способным быть отделенным от приобретенной компании. Такие нематериальные активы включают патенты, авторские права, франшизы, лицензии, доменные имена и аудиовизуальные материалы.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": []
+    },
+    {
+      "los_id": "LOS_7b",
+      "los_code": "7b",
+      "los_description_en": "explain and evaluate how impairment and derecognition of property, plant, and equipment, and intangible assets affect the financial statements and ratios",
+      "los_description_ru": "объяснить и оценить, как обесценение и прекращение признания основных средств и нематериальных активов влияют на финансовую отчетность и коэффициенты",
+      "terms": [
+        {
+          "term_id": "FSA-7-011",
+          "term_en": "Impairment",
+          "term_ru": "Обесценение",
+          "definition_en": "A condition where an asset's carrying amount is higher than its recoverable amount. Impairment charges address unexpected value decreases and directly reduce a company's asset value on the balance sheet while appearing as expenses on the income statement, lowering reported net income.",
+          "definition_ru": "Состояние, когда балансовая стоимость актива превышает его возмещаемую стоимость. Убытки от обесценения отражают неожиданное снижение стоимости и напрямую уменьшают стоимость активов компании в балансе, одновременно отражаясь как расходы в отчете о прибылях и убытках, снижая чистую прибыль.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-7-012",
+          "term_en": "Carrying Amount (Book Value)",
+          "term_ru": "Балансовая стоимость",
+          "definition_en": "The value at which an asset is reported on the balance sheet. Typically, an asset's carrying amount is its net book value, which is its historical cost less any accumulated depreciation. This amount may be adjusted to account for any impairment or revaluation of the asset.",
+          "definition_ru": "Стоимость, по которой актив отражается в балансе. Обычно балансовая стоимость актива - это его чистая балансовая стоимость, которая представляет собой его историческую стоимость за вычетом накопленной амортизации. Эта сумма может корректироваться с учетом обесценения или переоценки актива.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-7-013",
+          "term_en": "Recoverable Amount (IFRS)",
+          "term_ru": "Возмещаемая стоимость (МСФО)",
+          "definition_en": "Under IAS 36 (IFRS), the recoverable amount is the higher of an asset's fair value less costs to sell and its value in use. An impairment loss is determined as the amount by which the carrying amount exceeds the recoverable amount.",
+          "definition_ru": "Согласно МСФО (IAS) 36, возмещаемая стоимость - это наибольшая из справедливой стоимости актива за вычетом затрат на продажу и его ценности использования. Убыток от обесценения определяется как сумма, на которую балансовая стоимость превышает возмещаемую стоимость.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-7-014",
+          "term_en": "Fair Value Less Costs to Sell",
+          "term_ru": "Справедливая стоимость за вычетом затрат на продажу",
+          "definition_en": "One component of recoverable amount under IFRS. It represents the amount obtainable from the sale of an asset in an arm's length transaction between knowledgeable, willing parties, less the costs of disposal.",
+          "definition_ru": "Один из компонентов возмещаемой стоимости по МСФО. Представляет собой сумму, которую можно получить от продажи актива в сделке между независимыми, осведомленными, желающими сторонами, за вычетом затрат на выбытие.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-7-015",
+          "term_en": "Value in Use",
+          "term_ru": "Ценность использования",
+          "definition_en": "One component of recoverable amount under IFRS. It is estimated based on the present value of the expected future cash flows from the asset.",
+          "definition_ru": "Один из компонентов возмещаемой стоимости по МСФО. Оценивается на основе приведенной стоимости ожидаемых будущих денежных потоков от актива.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-7-016",
+          "term_en": "Impairment Test (US GAAP)",
+          "term_ru": "Тест на обесценение (US GAAP)",
+          "definition_en": "Under US GAAP, recoverability assessment is separated from measurement of impairment loss. For a group of assets, the carrying amount is considered non-recoverable if it is higher than the undiscounted future cash flows expected from those assets. When this is the case, the impairment loss is calculated as the difference between the asset's fair value and carrying amount.",
+          "definition_ru": "Согласно US GAAP, оценка возмещаемости отделена от измерения убытка от обесценения. Для группы активов балансовая стоимость считается невозмещаемой, если она превышает недисконтированные будущие денежные потоки, ожидаемые от этих активов. В этом случае убыток от обесценения рассчитывается как разница между справедливой стоимостью актива и балансовой стоимостью.",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-7-017",
+          "term_en": "Finite Life Intangible Assets",
+          "term_ru": "Нематериальные активы с конечным сроком полезного использования",
+          "definition_en": "Intangible assets that have a finite lifespan and are amortized, leading to a gradual reduction in their value over time. These assets may also face impairment and are not assessed for impairment annually, but only when significant events warrant it.",
+          "definition_ru": "Нематериальные активы, имеющие конечный срок службы и амортизируемые, что приводит к постепенному уменьшению их стоимости с течением времени. Эти активы также могут подвергаться обесценению и не оцениваются на обесценение ежегодно, а только когда этого требуют значительные события.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-7-018",
+          "term_en": "Indefinite Life Intangible Assets",
+          "term_ru": "Нематериальные активы с неопределенным сроком полезного использования",
+          "definition_en": "Intangible assets that are not subject to amortization. They are recorded on the balance sheet at historical cost and are evaluated for impairment at least once a year. Impairment occurs if the carrying amount exceeds the asset's fair value.",
+          "definition_ru": "Нематериальные активы, не подлежащие амортизации. Они учитываются в балансе по исторической стоимости и оцениваются на обесценение не реже одного раза в год. Обесценение происходит, если балансовая стоимость превышает справедливую стоимость актива.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-7-019",
+          "term_en": "Assets Held for Sale",
+          "term_ru": "Активы, предназначенные для продажи",
+          "definition_en": "When management intends to sell a long-lived asset and its sale is highly likely, the asset is reclassified as 'held for sale' instead of 'held for use.' This requires the asset to be immediately sale-ready in its current state. Upon reclassification, if the carrying amount is higher than fair value less selling costs, an impairment loss is recognized. Assets held for sale are no longer subject to depreciation or amortization.",
+          "definition_ru": "Когда руководство намеревается продать долгосрочный актив и его продажа весьма вероятна, актив реклассифицируется как 'предназначенный для продажи' вместо 'предназначенного для использования.' Это требует, чтобы актив был немедленно готов к продаже в его текущем состоянии. При реклассификации, если балансовая стоимость превышает справедливую стоимость за вычетом затрат на продажу, признается убыток от обесценения. Активы, предназначенные для продажи, больше не подлежат амортизации.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-7-020",
+          "term_en": "Reversal of Impairment (IFRS vs US GAAP)",
+          "term_ru": "Восстановление обесценения (МСФО против US GAAP)",
+          "definition_en": "Under IFRS, there is allowance for the reversal of impairment losses if the recoverable amount of an asset improves, irrespective of whether the asset is held for use or sale. However, IFRS only permits reversal up to the original carrying amount. Under US GAAP, for assets classified as held for use, any impairment loss recognized cannot be reversed. For assets classified as held for sale, reversals are permitted if the fair value increases following the impairment loss.",
+          "definition_ru": "Согласно МСФО, допускается восстановление убытков от обесценения, если возмещаемая стоимость актива увеличивается, независимо от того, предназначен ли актив для использования или для продажи. Однако МСФО допускает восстановление только до первоначальной балансовой стоимости. Согласно US GAAP, для активов, классифицированных как предназначенные для использования, любой признанный убыток от обесценения не может быть восстановлен. Для активов, классифицированных как предназначенные для продажи, восстановление разрешено, если справедливая стоимость увеличивается после убытка от обесценения.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-7-021",
+          "term_en": "Derecognition",
+          "term_ru": "Прекращение признания",
+          "definition_en": "When a company removes an asset from the financial statements because it is no longer expected to deliver future benefits through use or disposal. Derecognition of a long-lived operating asset can occur through sale, exchange, abandonment, or distribution to existing shareholders.",
+          "definition_ru": "Когда компания удаляет актив из финансовой отчетности, потому что от него больше не ожидается получение будущих выгод от использования или выбытия. Прекращение признания долгосрочного операционного актива может произойти путем продажи, обмена, списания или распределения существующим акционерам.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-7-022",
+          "term_en": "Gain or Loss on Sale of Asset",
+          "term_ru": "Прибыль или убыток от продажи актива",
+          "definition_en": "When an asset is derecognized through selling, the profit or loss is calculated by subtracting the asset's carrying amount at the time of sale from the sales proceeds. A gain or loss from the sale is reported on the income statement, either integrated with other gains and losses or as a distinct line item if the amount is substantial.",
+          "definition_ru": "Когда актив прекращает признаваться при продаже, прибыль или убыток рассчитывается путем вычитания балансовой стоимости актива на момент продажи из выручки от продажи. Прибыль или убыток от продажи отражается в отчете о прибылях и убытках либо вместе с другими прибылями и убытками, либо как отдельная строка, если сумма существенна.",
+          "type": "formula",
+          "formula": "$\\text{Gain/Loss on Sale} = \\text{Sales Proceeds} - \\text{Carrying Amount}$",
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "FSA-7-EX-001",
+          "question_en": "Which of the following statements is most accurate?",
+          "question_ru": "Какое из следующих утверждений наиболее точно?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "A company that has developed intangible assets internally will recognize fewer assets than one that has obtained intangible assets through an external purchase.",
+              "text_ru": "Компания, которая разработала нематериальные активы внутри компании, признает меньше активов, чем компания, которая получила нематериальные активы путем внешней покупки."
+            },
+            {
+              "letter": "B",
+              "text_en": "A company that has developed intangible assets internally will recognize a higher amount of assets than a company that has obtained intangible assets through an external purchase.",
+              "text_ru": "Компания, которая разработала нематериальные активы внутри компании, признает большее количество активов, чем компания, которая получила нематериальные активы путем внешней покупки."
+            },
+            {
+              "letter": "C",
+              "text_en": "A company that has developed intangible assets internally will report an amount of assets that is equivalent to that of a company that has obtained intangible assets through an external purchase.",
+              "text_ru": "Компания, которая разработала нематериальные активы внутри компании, отразит количество активов, эквивалентное компании, которая получила нематериальные активы путем внешней покупки."
+            }
+          ],
+          "correct_answer": "A",
+          "solution_en": "Under most accounting standards, such as IFRS and US GAAP, companies are not allowed to capitalize (i.e., recognize as assets) expenses related to the internal development of most intangible assets (e.g., research and development costs). These costs are usually expensed as they are incurred. On the other hand, when a company buys intangible assets from an external party, it can recognize them as assets on the balance sheet at the purchase price. Therefore, a company that has developed intangible assets internally will typically have fewer intangible assets on its balance sheet than a company that has acquired similar assets through an external purchase.",
+          "solution_ru": "Согласно большинству стандартов бухгалтерского учета, таких как МСФО и US GAAP, компании не могут капитализировать (т.е. признавать в качестве активов) расходы, связанные с внутренней разработкой большинства нематериальных активов (например, расходы на исследования и разработки). Эти затраты обычно списываются по мере их возникновения. С другой стороны, когда компания покупает нематериальные активы у внешней стороны, она может признать их в качестве активов в балансе по цене покупки. Следовательно, компания, разработавшая нематериальные активы внутри компании, обычно будет иметь меньше нематериальных активов в своем балансе, чем компания, приобретшая аналогичные активы путем внешней покупки."
+        },
+        {
+          "exercise_id": "FSA-7-EX-002",
+          "question_en": "Compared to a company that develops an intangible asset internally, a company that purchases the same asset would exhibit:",
+          "question_ru": "По сравнению с компанией, которая разрабатывает нематериальный актив внутри компании, компания, которая приобретает тот же актив, будет иметь:",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Higher cash flow from operations.",
+              "text_ru": "Более высокий денежный поток от операционной деятельности."
+            },
+            {
+              "letter": "B",
+              "text_en": "Higher cash flow from investing activities.",
+              "text_ru": "Более высокий денежный поток от инвестиционной деятельности."
+            },
+            {
+              "letter": "C",
+              "text_en": "Higher cash flow from financing activities.",
+              "text_ru": "Более высокий денежный поток от финансовой деятельности."
+            }
+          ],
+          "correct_answer": "B",
+          "solution_en": "The company that develops the asset internally would typically expense related costs, such as research and development costs, which would be reflected as a reduction in the cash flow from operations. The company that purchases the asset would record the purchase as a cash outflow in the investing activities section of the cash flow statement. This means that the company that purchases the intangible asset would exhibit a higher (in absolute terms, more negative) cash outflow in the investing activities section of its cash flow statement than the company that develops the asset internally.",
+          "solution_ru": "Компания, которая разрабатывает актив внутри компании, обычно списывает связанные затраты, такие как расходы на исследования и разработки, которые будут отражены как уменьшение денежного потока от операционной деятельности. Компания, которая приобретает актив, зарегистрирует покупку как отток денежных средств в разделе инвестиционной деятельности отчета о движении денежных средств. Это означает, что компания, приобретающая нематериальный актив, будет иметь более высокий (в абсолютном выражении, более отрицательный) отток денежных средств в разделе инвестиционной деятельности своего отчета о движении денежных средств, чем компания, разрабатывающая актив внутри компании."
+        },
+        {
+          "exercise_id": "FSA-7-EX-003",
+          "question_en": "Which of the following statements is the most accurate?",
+          "question_ru": "Какое из следующих утверждений наиболее точно?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Impairment losses reduce the carrying amount of assets and increase the net income reported on the income statement.",
+              "text_ru": "Убытки от обесценения уменьшают балансовую стоимость активов и увеличивают чистую прибыль, отраженную в отчете о прибылях и убытках."
+            },
+            {
+              "letter": "B",
+              "text_en": "If revaluation increases an asset's carrying amount, the increase in the asset's value will appear as a gain on the income statement.",
+              "text_ru": "Если переоценка увеличивает балансовую стоимость актива, увеличение стоимости актива будет отражаться как прибыль в отчете о прибылях и убытках."
+            },
+            {
+              "letter": "C",
+              "text_en": "When an asset is retired, the carrying amount is removed from the balance sheet, and a loss (or gain) is recorded for the difference between the carrying amount and any proceeds received from the disposal of the asset.",
+              "text_ru": "Когда актив списывается, балансовая стоимость удаляется из баланса, и регистрируется убыток (или прибыль) на разницу между балансовой стоимостью и любыми поступлениями, полученными от выбытия актива."
+            }
+          ],
+          "correct_answer": "C",
+          "solution_en": "When an asset is retired or sold, its carrying amount is removed from the balance sheet, and any difference between the carrying amount and the proceeds from the disposal is recorded as a gain or loss in the income statement. A is incorrect because impairment losses reduce the carrying amount of assets and decrease, not increase, the net income reported on the income statement. B is incorrect because under IFRS, increases in the carrying amount from revaluation are generally recognized in other comprehensive income and accumulated in equity under the heading of revaluation surplus, not as a gain in the income statement (unless it reverses a previous revaluation decrease that was recognized in profit or loss).",
+          "solution_ru": "Когда актив списывается или продается, его балансовая стоимость удаляется из баланса, и любая разница между балансовой стоимостью и поступлениями от выбытия регистрируется как прибыль или убыток в отчете о прибылях и убытках. Вариант А неверен, потому что убытки от обесценения уменьшают балансовую стоимость активов и снижают, а не увеличивают чистую прибыль, отраженную в отчете о прибылях и убытках. Вариант B неверен, потому что согласно МСФО, увеличение балансовой стоимости от переоценки обычно признается в прочем совокупном доходе и накапливается в собственном капитале под заголовком резерв переоценки, а не как прибыль в отчете о прибылях и убытках (если только это не восстанавливает предыдущее снижение переоценки, которое было признано в прибыли или убытке)."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_7c",
+      "los_code": "7c",
+      "los_description_en": "analyze and interpret financial statement disclosures regarding property, plant, and equipment and intangible assets",
+      "los_description_ru": "анализировать и интерпретировать раскрытие информации в финансовой отчетности об основных средствах и нематериальных активах",
+      "terms": [
+        {
+          "term_id": "FSA-7-023",
+          "term_en": "Fixed Asset Turnover Ratio",
+          "term_ru": "Коэффициент оборачиваемости основных средств",
+          "definition_en": "A ratio that measures the relationship between total revenues and investment in property, plant, and equipment (PPE). A higher ratio indicates that a company executes more sales with a given amount of investment in fixed assets, often interpreted as a sign of greater efficiency.",
+          "definition_ru": "Коэффициент, который измеряет взаимосвязь между общей выручкой и инвестициями в основные средства. Более высокий коэффициент указывает на то, что компания осуществляет больше продаж при заданной сумме инвестиций в основные средства, что часто интерпретируется как признак большей эффективности.",
+          "type": "formula",
+          "formula": "$\\text{Fixed Asset Turnover Ratio} = \\frac{\\text{Total Revenue}}{\\text{Average Net Fixed Assets}}$",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-7-024",
+          "term_en": "Average Age of Assets",
+          "term_ru": "Средний возраст активов",
+          "definition_en": "An estimate of how long a company has held its asset base, calculated by dividing accumulated depreciation by annual depreciation expense. This ratio indicates a company's need to reinvest in productive capacity. Older assets suggest a greater need for reinvestment.",
+          "definition_ru": "Оценка того, как долго компания владеет своей базой активов, рассчитываемая путем деления накопленной амортизации на годовую амортизацию. Этот коэффициент указывает на потребность компании в реинвестировании в производственные мощности. Более старые активы предполагают большую потребность в реинвестировании.",
+          "type": "formula",
+          "formula": "$\\text{Average Age} = \\frac{\\text{Accumulated Depreciation}}{\\text{Annual Depreciation Expense}}$",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-7-025",
+          "term_en": "Average Remaining Useful Life",
+          "term_ru": "Средний оставшийся срок полезного использования",
+          "definition_en": "An estimate of how much longer a company's assets will remain productive, calculated by dividing net PPE by annual depreciation expense. This ratio indicates the time remaining before significant reinvestment is needed. Shorter remaining lives suggest a greater need for reinvestment.",
+          "definition_ru": "Оценка того, как долго активы компании останутся продуктивными, рассчитываемая путем деления чистых основных средств на годовую амортизацию. Этот коэффициент указывает на время, оставшееся до необходимости значительного реинвестирования. Более короткий оставшийся срок службы предполагает большую потребность в реинвестировании.",
+          "type": "formula",
+          "formula": "$\\text{Average Remaining Life} = \\frac{\\text{Net PPE}}{\\text{Annual Depreciation Expense}}$",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-7-026",
+          "term_en": "Estimated Total Useful Life",
+          "term_ru": "Расчетный общий срок полезного использования",
+          "definition_en": "An estimate of the total useful life of a company's asset base, calculated by dividing historical cost by annual depreciation expense. Under straight-line depreciation with no salvage value, this equals the sum of average age and average remaining life.",
+          "definition_ru": "Оценка общего срока полезного использования базы активов компании, рассчитываемая путем деления исторической стоимости на годовую амортизацию. При линейной амортизации без ликвидационной стоимости это равно сумме среднего возраста и среднего оставшегося срока службы.",
+          "type": "formula",
+          "formula": "$\\text{Estimated Total Useful Life} = \\frac{\\text{Historical Cost}}{\\text{Annual Depreciation Expense}} = \\text{Average Age} + \\text{Average Remaining Life}$",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-7-027",
+          "term_en": "Capital Expenditures vs Depreciation Comparison",
+          "term_ru": "Сравнение капитальных затрат и амортизации",
+          "definition_en": "Comparing annual capital expenditures to annual depreciation expenses provides a general indication of whether a company maintains its productive capacity. This comparison indicates the rate at which PPE is being replaced relative to the rate at which it is being depreciated.",
+          "definition_ru": "Сравнение годовых капитальных затрат с годовыми расходами на амортизацию дает общее представление о том, поддерживает ли компания свои производственные мощности. Это сравнение указывает на скорость, с которой основные средства заменяются относительно скорости их амортизации.",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-7-028",
+          "term_en": "Disclosure Requirements for PPE and Intangibles",
+          "term_ru": "Требования к раскрытию информации об основных средствах и нематериальных активах",
+          "definition_en": "Under IFRS, companies must disclose for each class of PPE: the basis of measurement, depreciation methods, useful lives or depreciation rates, gross carrying amounts, and accumulated depreciation at the start and end of the period. For intangible assets, companies must state whether useful lives are indefinite or finite, and provide similar disclosures. Under US GAAP, companies must provide gross carrying amounts and accumulated amortization for intangible assets in total and by major class.",
+          "definition_ru": "Согласно МСФО, компании должны раскрывать для каждого класса основных средств: основу оценки, методы амортизации, сроки полезного использования или ставки амортизации, валовую балансовую стоимость и накопленную амортизацию на начало и конец периода. Для нематериальных активов компании должны указать, являются ли сроки полезного использования неопределенными или конечными, и предоставить аналогичную информацию. Согласно US GAAP, компании должны предоставлять валовую балансовую стоимость и накопленную амортизацию нематериальных активов в общей сложности и по основным классам.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": []
+    }
+  ]
+}
