@@ -1,0 +1,564 @@
+{
+  "metadata": {
+    "book_id": 3,
+    "book_code": "FSA",
+    "book_name": "Financial Statement Analysis",
+    "book_name_ru": "Анализ финансовой отчетности",
+    "module_id": 6,
+    "module_name": "Analysis of Inventories",
+    "module_name_ru": "Анализ запасов",
+    "page_range": "130-145",
+    "total_terms": 35,
+    "total_exercises": 6,
+    "version": "2.0",
+    "last_updated": "2026-01-22"
+  },
+  "los": [
+    {
+      "los_id": "LOS_6a",
+      "los_code": "6a",
+      "los_description_en": "describe the measurement of inventory at the lower of cost and net realisable value and its implications for financial statements and ratios",
+      "los_description_ru": "описывать измерение запасов по наименьшей из себестоимости и чистой стоимости реализации и его влияние на финансовую отчетность и коэффициенты",
+      "terms": [
+        {
+          "term_id": "FSA-6-001",
+          "term_en": "Net Realizable Value (NRV)",
+          "term_ru": "Чистая стоимость реализации",
+          "definition_en": "The estimated selling price in the ordinary course of business, less the estimated costs necessary to make the sale and the costs to get the inventory in condition for sale. NRV is used as a measurement basis for inventory under both IFRS and US GAAP.",
+          "definition_ru": "Расчётная цена продажи в ходе обычной деятельности за вычетом расчётных затрат, необходимых для осуществления продажи, и затрат на приведение запасов в состояние, пригодное для продажи. Чистая стоимость реализации используется как база оценки запасов в IFRS и US GAAP.",
+          "type": "concept",
+          "formula": "\\text{NRV} = \\text{Estimated Selling Price} - \\text{Costs to Sell} - \\text{Costs to Complete}",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-6-002",
+          "term_en": "Lower of Cost and Net Realizable Value",
+          "term_ru": "Наименьшая из себестоимости и чистой стоимости реализации",
+          "definition_en": "A measurement principle requiring inventories to be carried on the balance sheet at the lower of their original cost or net realizable value. This ensures inventory is not overstated and prevents assets from being reported at amounts exceeding their recoverable value.",
+          "definition_ru": "Принцип измерения, требующий учета запасов в балансе по наименьшей из их первоначальной стоимости или чистой стоимости реализации. Это обеспечивает, что запасы не завышены и предотвращает отражение активов в суммах, превышающих их возмещаемую стоимость.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-6-003",
+          "term_en": "Inventory Write-down",
+          "term_ru": "Уценка запасов",
+          "definition_en": "The reduction in the carrying amount of inventory when its net realizable value falls below its cost. The write-down is recognized as an expense on the income statement, reducing gross profit and net income. Under IFRS, write-downs can be reversed in subsequent periods if NRV increases.",
+          "definition_ru": "Уменьшение балансовой стоимости запасов, когда их чистая стоимость реализации падает ниже себестоимости. Уценка признаётся как расход в отчёте о прибылях и убытках, уменьшая валовую прибыль и чистую прибыль. По IFRS уценки могут быть восстановлены в последующих периодах, если чистая стоимость реализации увеличивается.",
+          "type": "concept",
+          "formula": "\\text{Write-down Loss} = \\text{Cost} - \\text{NRV}",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-6-004",
+          "term_en": "Inventory Write-down Reversal (IFRS)",
+          "term_ru": "Восстановление уценки запасов (IFRS)",
+          "definition_en": "Under IFRS, when the net realizable value of previously written-down inventory increases in subsequent periods, the write-down can be reversed up to the amount of the original write-down. The reversal is recognized as a reduction in cost of sales. US GAAP prohibits such reversals.",
+          "definition_ru": "Согласно IFRS, когда чистая стоимость реализации ранее уцененных запасов увеличивается в последующих периодах, уценка может быть восстановлена до суммы первоначальной уценки. Восстановление признаётся как уменьшение себестоимости продаж. US GAAP запрещает такие восстановления.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-6-005",
+          "term_en": "Market Value (US GAAP - LIFO/Retail)",
+          "term_ru": "Рыночная стоимость (US GAAP - LIFO/Retail)",
+          "definition_en": "For inventories measured using LIFO or retail inventory methods under US GAAP, market value is defined as current replacement cost, subject to upper and lower limits. The upper limit is net realizable value, and the lower limit is net realizable value minus a normal profit margin.",
+          "definition_ru": "Для запасов, оцениваемых с использованием методов LIFO или розничных запасов по US GAAP, рыночная стоимость определяется как текущая стоимость замещения с верхними и нижними пределами. Верхний предел - чистая стоимость реализации, нижний предел - чистая стоимость реализации минус нормальная маржа прибыли.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-6-006",
+          "term_en": "Obsolescence",
+          "term_ru": "Устаревание",
+          "definition_en": "The condition when inventory loses value due to becoming outdated or no longer in demand. Obsolescence is a major reason for inventory write-downs, particularly in industries with rapid technological change or fashion-driven products.",
+          "definition_ru": "Состояние, когда запасы теряют стоимость из-за устаревания или отсутствия спроса. Устаревание является основной причиной уценки запасов, особенно в отраслях с быстрыми технологическими изменениями или модными товарами.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-6-007",
+          "term_en": "Spoilage",
+          "term_ru": "Порча",
+          "definition_en": "Physical deterioration or damage to inventory that reduces its selling value below cost. Spoilage can occur due to age, improper storage, or handling, and often necessitates inventory write-downs.",
+          "definition_ru": "Физическое ухудшение или повреждение запасов, которое снижает их продажную стоимость ниже себестоимости. Порча может произойти из-за возраста, неправильного хранения или обращения и часто требует уценки запасов.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-6-008",
+          "term_en": "Impact on Profitability Ratios",
+          "term_ru": "Влияние на коэффициенты рентабельности",
+          "definition_en": "Inventory write-downs decrease reported profits by increasing cost of sales or recording separate losses. This negatively affects profitability ratios such as gross profit margin, net profit margin, and return on assets.",
+          "definition_ru": "Уценки запасов снижают отчётную прибыль за счёт увеличения себестоимости продаж или отдельных убытков. Это негативно влияет на коэффициенты рентабельности, такие как маржа валовой прибыли, маржа чистой прибыли и рентабельность активов.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-6-009",
+          "term_en": "Impact on Liquidity Ratios",
+          "term_ru": "Влияние на коэффициенты ликвидности",
+          "definition_en": "Inventory write-downs reduce the carrying amount of inventory on the balance sheet, which decreases current assets. This negatively affects liquidity ratios such as the current ratio and quick ratio, potentially impacting debt covenant compliance.",
+          "definition_ru": "Уценки запасов уменьшают балансовую стоимость запасов в балансе, что снижает оборотные активы. Это негативно влияет на коэффициенты ликвидности, такие как коэффициент текущей ликвидности и коэффициент быстрой ликвидности, потенциально влияя на соблюдение долговых ковенантов.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-6-010",
+          "term_en": "Impact on Activity Ratios",
+          "term_ru": "Влияние на коэффициенты деловой активности",
+          "definition_en": "Inventory write-downs reduce the inventory balance (denominator), which can improve activity ratios such as inventory turnover and total asset turnover. However, this improvement is artificial and reflects impairment rather than operational efficiency.",
+          "definition_ru": "Уценки запасов уменьшают остаток запасов (знаменатель), что может улучшить коэффициенты деловой активности, такие как оборачиваемость запасов и оборачиваемость активов. Однако это улучшение искусственно и отражает обесценение, а не операционную эффективность.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-6-011",
+          "term_en": "IAS 2 (Inventories)",
+          "term_ru": "МСФО 2 (Запасы)",
+          "definition_en": "The International Accounting Standard that governs inventory accounting under IFRS. IAS 2 does not apply to certain inventories such as those of agricultural and forest products, minerals, and commodity broker-traders, which may be measured at net realizable value based on industry practices.",
+          "definition_ru": "Международный стандарт финансовой отчётности, регулирующий учёт запасов по IFRS. МСФО 2 не применяется к определённым запасам, таким как сельскохозяйственная и лесная продукция, полезные ископаемые и товарные брокеры-дилеры, которые могут оцениваться по чистой стоимости реализации на основе отраслевой практики.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "FSA-6-EX-001",
+          "question_en": "If a company values its inventory at the net realizable value, this will most likely:",
+          "question_ru": "Если компания оценивает свои запасы по чистой стоимости реализации, это наиболее вероятно:",
+          "options": [
+            {"letter": "A", "text_en": "Improve the company's profitability.", "text_ru": "Улучшит рентабельность компании."},
+            {"letter": "B", "text_en": "Decrease the company's inventory turnover.", "text_ru": "Снизит оборачиваемость запасов компании."},
+            {"letter": "C", "text_en": "Lead to any loss being recognized as an expense on the company's income statement.", "text_ru": "Приведёт к признанию любого убытка как расхода в отчёте о прибылях и убытках компании."}
+          ],
+          "correct_answer": "C",
+          "solution_en": "When a company's inventory carrying amount is written down to its net realizable value, the loss is recognized as an expense on the income statement. If a company values its inventory at the net realizable value, its profitability will decrease as its inventory turnover increases.",
+          "solution_ru": "Когда балансовая стоимость запасов компании уценивается до чистой стоимости реализации, убыток признаётся как расход в отчёте о прибылях и убытках. Если компания оценивает свои запасы по чистой стоимости реализации, её рентабельность снизится, а оборачиваемость запасов увеличится."
+        },
+        {
+          "exercise_id": "FSA-6-EX-002",
+          "question_en": "To find the net realizable value of a company's inventory, which of the following items ought to be deducted from the inventory's expected selling price?",
+          "question_ru": "Чтобы найти чистую стоимость реализации запасов компании, какие из следующих статей должны быть вычтены из ожидаемой цены продажи запасов?",
+          "options": [
+            {"letter": "A", "text_en": "Selling costs.", "text_ru": "Затраты на продажу."},
+            {"letter": "B", "text_en": "Costs required to convert inventory into a sellable condition.", "text_ru": "Затраты, необходимые для приведения запасов в состояние, пригодное для продажи."},
+            {"letter": "C", "text_en": "Both selling costs and costs required to convert inventory into a sellable condition.", "text_ru": "Как затраты на продажу, так и затраты, необходимые для приведения запасов в состояние, пригодное для продажи."}
+          ],
+          "correct_answer": "C",
+          "solution_en": "The net realizable value of a company's inventory is calculated as: Net realizable value = Selling price in an arm's length transaction - Cost of sales - Cost required to convert inventory to sellable condition.",
+          "solution_ru": "Чистая стоимость реализации запасов компании рассчитывается как: Чистая стоимость реализации = Цена продажи в сделке на расстоянии вытянутой руки - Затраты на продажу - Затраты, необходимые для приведения запасов в состояние, пригодное для продажи."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_6b",
+      "los_code": "6b",
+      "los_description_en": "calculate and explain how inflation and deflation of inventory costs affect the financial statements and ratios of companies that use different inventory valuation methods",
+      "los_description_ru": "рассчитывать и объяснять, как инфляция и дефляция затрат на запасы влияют на финансовую отчётность и коэффициенты компаний, использующих различные методы оценки запасов",
+      "terms": [
+        {
+          "term_id": "FSA-6-012",
+          "term_en": "FIFO Under Inflation",
+          "term_ru": "FIFO при инфляции",
+          "definition_en": "When inventory unit costs rise under FIFO, the method allocates lower (older) costs to cost of sales and higher (newer) costs to ending inventory. This results in lower COGS, higher gross profit, higher operating profit, higher income before taxes, and ending inventory that reflects current replacement values.",
+          "definition_ru": "Когда удельные затраты на запасы растут при методе FIFO, метод относит более низкие (старые) затраты на себестоимость продаж и более высокие (новые) затраты на конечные запасы. Это приводит к более низкой себестоимости, более высокой валовой прибыли, более высокой операционной прибыли, более высокой прибыли до налогообложения и конечным запасам, отражающим текущую стоимость замещения.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-6-013",
+          "term_en": "FIFO Under Deflation",
+          "term_ru": "FIFO при дефляции",
+          "definition_en": "When inventory unit costs decline under FIFO, the method allocates higher (older) costs to cost of sales and lower (newer) costs to ending inventory. This results in higher COGS, lower gross profit, lower operating profit, and lower income before taxes.",
+          "definition_ru": "Когда удельные затраты на запасы снижаются при методе FIFO, метод относит более высокие (старые) затраты на себестоимость продаж и более низкие (новые) затраты на конечные запасы. Это приводит к более высокой себестоимости, более низкой валовой прибыли, более низкой операционной прибыли и более низкой прибыли до налогообложения.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-6-014",
+          "term_en": "LIFO Under Inflation",
+          "term_ru": "LIFO при инфляции",
+          "definition_en": "When inventory unit costs rise under LIFO, the method allocates higher (newer) costs to cost of sales and lower (older) costs to ending inventory. This results in higher COGS, lower gross profit, lower operating profit, lower income before taxes, and COGS that more closely reflects current replacement values.",
+          "definition_ru": "Когда удельные затраты на запасы растут при методе LIFO, метод относит более высокие (новые) затраты на себестоимость продаж и более низкие (старые) затраты на конечные запасы. Это приводит к более высокой себестоимости, более низкой валовой прибыли, более низкой операционной прибыли, более низкой прибыли до налогообложения и себестоимости, которая более точно отражает текущую стоимость замещения.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-6-015",
+          "term_en": "LIFO Under Deflation",
+          "term_ru": "LIFO при дефляции",
+          "definition_en": "When inventory unit costs decline under LIFO, the method allocates lower (newer) costs to cost of sales and higher (older) costs to ending inventory. This results in lower COGS, higher gross profit, higher operating profit, and higher income before taxes.",
+          "definition_ru": "Когда удельные затраты на запасы снижаются при методе LIFO, метод относит более низкие (новые) затраты на себестоимость продаж и более высокие (старые) затраты на конечные запасы. Это приводит к более низкой себестоимости, более высокой валовой прибыли, более высокой операционной прибыли и более высокой прибыли до налогообложения.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-6-016",
+          "term_en": "FIFO Ending Inventory Valuation",
+          "term_ru": "Оценка конечных запасов по FIFO",
+          "definition_en": "Under FIFO, ending inventory consists of the most recently purchased items. Therefore, ending inventory amounts more closely reflect current replacement values, providing a more economically relevant balance sheet presentation.",
+          "definition_ru": "При методе FIFO конечные запасы состоят из самых недавно приобретённых товаров. Следовательно, суммы конечных запасов более точно отражают текущую стоимость замещения, обеспечивая более экономически релевантное представление в балансе.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-6-017",
+          "term_en": "LIFO Ending Inventory Valuation",
+          "term_ru": "Оценка конечных запасов по LIFO",
+          "definition_en": "Under LIFO, ending inventory consists of the oldest purchased items. Therefore, LIFO ending inventory amounts normally do not reflect current replacement values and may significantly understate the economic value of inventory on the balance sheet, particularly in inflationary periods.",
+          "definition_ru": "При методе LIFO конечные запасы состоят из самых старых приобретённых товаров. Следовательно, суммы конечных запасов по LIFO обычно не отражают текущую стоимость замещения и могут значительно занижать экономическую стоимость запасов в балансе, особенно в периоды инфляции.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-6-018",
+          "term_en": "LIFO COGS Valuation",
+          "term_ru": "Оценка себестоимости по LIFO",
+          "definition_en": "Under LIFO, cost of sales more closely reflects current replacement values because it is based on the most recent inventory purchases. This provides a more economically relevant income statement presentation, particularly during periods of changing prices.",
+          "definition_ru": "При методе LIFO себестоимость продаж более точно отражает текущую стоимость замещения, поскольку основана на самых последних закупках запасов. Это обеспечивает более экономически релевантное представление отчёта о прибылях и убытках, особенно в периоды изменения цен.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-6-019",
+          "term_en": "Inventory Valuation Method Impact on Comparability",
+          "term_ru": "Влияние метода оценки запасов на сопоставимость",
+          "definition_en": "Different inventory valuation methods (FIFO, LIFO, Weighted Average) can significantly impact a company's financial statements during periods of changing prices, affecting the comparability of financial ratios between companies. Analysts must adjust for these differences when performing comparative analysis.",
+          "definition_ru": "Различные методы оценки запасов (FIFO, LIFO, средневзвешенная стоимость) могут значительно влиять на финансовую отчётность компании в периоды изменения цен, влияя на сопоставимость финансовых коэффициентов между компаниями. Аналитики должны корректировать эти различия при проведении сравнительного анализа.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-6-020",
+          "term_en": "LIFO Write-down Likelihood",
+          "term_ru": "Вероятность уценки при LIFO",
+          "definition_en": "Companies using specific identification, weighted average cost, or FIFO methods are more prone to inventory write-downs compared to those using LIFO. Under LIFO, inventory costs are conservatively presented at the oldest (often lowest) costs, making significant write-downs less likely.",
+          "definition_ru": "Компании, использующие специфическую идентификацию, средневзвешенную стоимость или методы FIFO, более подвержены уценке запасов по сравнению с теми, кто использует LIFO. При методе LIFO затраты на запасы консервативно представлены по самым старым (часто самым низким) затратам, что делает значительные уценки менее вероятными.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "FSA-6-EX-003",
+          "question_en": "Which of the following statements is most likely accurate?",
+          "question_ru": "Какое из следующих утверждений наиболее вероятно точно?",
+          "options": [
+            {"letter": "A", "text_en": "When unit costs increase and quantities remain constant or increase, LIFO allocates a lower amount of the total cost of goods available for sale to the cost of sales on the income statement and a higher amount to ending inventory on the balance sheet.", "text_ru": "Когда удельные затраты увеличиваются, а количество остаётся постоянным или увеличивается, LIFO относит меньшую сумму общей стоимости товаров, доступных для продажи, на себестоимость продаж в отчёте о прибылях и убытках и большую сумму на конечные запасы в балансе."},
+            {"letter": "B", "text_en": "When unit costs increase and quantities remain constant or increase, FIFO allocates a lower amount of the total cost of goods available for sale to the cost of sales on the income statement and a higher amount to ending inventory on the balance sheet.", "text_ru": "Когда удельные затраты увеличиваются, а количество остаётся постоянным или увеличивается, FIFO относит меньшую сумму общей стоимости товаров, доступных для продажи, на себестоимость продаж в отчёте о прибылях и убытках и большую сумму на конечные запасы в балансе."},
+            {"letter": "C", "text_en": "When unit costs decrease and quantities remain constant or increase, FIFO allocates a lower amount of the total cost of goods available for sale to the cost of sales on the income statement and a higher amount to ending inventory on the balance sheet.", "text_ru": "Когда удельные затраты уменьшаются, а количество остаётся постоянным или увеличивается, FIFO относит меньшую сумму общей стоимости товаров, доступных для продажи, на себестоимость продаж в отчёте о прибылях и убытках и большую сумму на конечные запасы в балансе."}
+          ],
+          "correct_answer": "B",
+          "solution_en": "Whenever inventory unit costs rise and inventory quantities remain constant or increase, FIFO allocates a lower amount of the total cost of goods available for sale to the cost of sales on the income statement and a higher amount to ending inventory on the balance sheet. Option A describes FIFO, not LIFO. Option C is incorrect because under declining prices, FIFO allocates a higher amount of the total cost of goods available for sale to COGS and a lower amount to ending inventory.",
+          "solution_ru": "Когда удельные затраты на запасы растут, а количество запасов остаётся постоянным или увеличивается, FIFO относит меньшую сумму общей стоимости товаров, доступных для продажи, на себестоимость продаж в отчёте о прибылях и убытках и большую сумму на конечные запасы в балансе. Вариант A описывает FIFO, а не LIFO. Вариант C неверен, потому что при снижении цен FIFO относит большую сумму общей стоимости товаров, доступных для продажи, на себестоимость и меньшую сумму на конечные запасы."
+        },
+        {
+          "exercise_id": "FSA-6-EX-004",
+          "question_en": "For a company to increase its assets during a deflationary period, it needs to follow the:",
+          "question_ru": "Чтобы компания увеличила свои активы в период дефляции, ей нужно следовать:",
+          "options": [
+            {"letter": "A", "text_en": "FIFO method.", "text_ru": "Методу FIFO."},
+            {"letter": "B", "text_en": "LIFO method.", "text_ru": "Методу LIFO."},
+            {"letter": "C", "text_en": "Average cost of inventory method.", "text_ru": "Методу средней стоимости запасов."}
+          ],
+          "correct_answer": "B",
+          "solution_en": "Using LIFO during a deflationary period would make a company add the most recently purchased inventory (the least expensive), which would leave the oldest inventory (the most expensive) to be added to the ending inventory. Hence, the increased value of inventory would lead to increased assets.",
+          "solution_ru": "Использование LIFO в период дефляции приведёт к тому, что компания добавит самые недавно приобретённые запасы (наименее дорогие), что оставит самые старые запасы (самые дорогие) для добавления в конечные запасы. Следовательно, увеличенная стоимость запасов приведёт к увеличению активов."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_6c",
+      "los_code": "6c",
+      "los_description_en": "describe the presentation and disclosures relating to inventories and explain issues that analysts should consider when examining a company's inventory disclosures and other sources of information",
+      "los_description_ru": "описывать представление и раскрытие информации, касающейся запасов, и объяснять вопросы, которые аналитики должны учитывать при изучении раскрытия информации о запасах компании и других источников информации",
+      "terms": [
+        {
+          "term_id": "FSA-6-021",
+          "term_en": "IFRS Inventory Disclosure Requirements",
+          "term_ru": "Требования IFRS по раскрытию информации о запасах",
+          "definition_en": "Under IFRS, companies must disclose: accounting policies for measuring inventories, total carrying amount and carrying amounts by classification, amount carried at fair value less costs to sell, amount recognized as expense (cost of sales), write-downs and reversals, circumstances leading to reversals, and carrying amount of inventories pledged as security.",
+          "definition_ru": "Согласно IFRS компании должны раскрывать: учётную политику по оценке запасов, общую балансовую стоимость и балансовую стоимость по классификации, сумму, учитываемую по справедливой стоимости за вычетом затрат на продажу, сумму, признанную как расход (себестоимость продаж), уценки и восстановления, обстоятельства, приведшие к восстановлениям, и балансовую стоимость запасов, заложенных в качестве обеспечения.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-6-022",
+          "term_en": "US GAAP Inventory Disclosure Requirements",
+          "term_ru": "Требования US GAAP по раскрытию информации о запасах",
+          "definition_en": "Under US GAAP, inventory disclosures are similar to IFRS but include additional requirements for significant estimates applicable to inventories and LIFO liquidation disclosures. Unlike IFRS, US GAAP does not require disclosures related to the reversal of inventory write-downs since reversals are prohibited.",
+          "definition_ru": "Согласно US GAAP раскрытие информации о запасах аналогично IFRS, но включает дополнительные требования к существенным оценкам, применимым к запасам, и раскрытие ликвидации LIFO. В отличие от IFRS, US GAAP не требует раскрытия информации, связанной с восстановлением уценки запасов, поскольку восстановления запрещены.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-6-023",
+          "term_en": "Inventory Turnover Ratio",
+          "term_ru": "Коэффициент оборачиваемости запасов",
+          "definition_en": "A ratio that measures how often a company sells and replaces its inventory over a period. Higher turnover indicates more efficient inventory management. The ratio is calculated as COGS divided by average inventory and is directly impacted by the choice of inventory valuation method.",
+          "definition_ru": "Коэффициент, измеряющий, как часто компания продаёт и заменяет свои запасы за период. Более высокая оборачиваемость указывает на более эффективное управление запасами. Коэффициент рассчитывается как себестоимость продаж, разделённая на средние запасы, и напрямую зависит от выбора метода оценки запасов.",
+          "type": "formula",
+          "formula": "$\\text{Inventory Turnover} = \\frac{\\text{COGS}}{\\text{Average Inventory}}$",
+          "formula_ref": "FRA-RATIO-009",
+          "variables": [
+            {"symbol": "COGS", "name_en": "Cost of Goods Sold", "name_ru": "Себестоимость проданных товаров"},
+            {"symbol": "\\text{Average Inventory}", "name_en": "Average Inventory", "name_ru": "Средние запасы"}
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Введите COGS",
+              "2. Нажмите [÷]",
+              "3. Введите среднее значение запасов (Начальные запасы + Конечные запасы) ÷ 2",
+              "4. Нажмите [=]",
+              "5. Результат: коэффициент оборачиваемости запасов"
+            ],
+            "example": {
+              "given": "COGS=$60M, Beginning Inv=$8M, Ending Inv=$12M",
+              "input": "60 ÷ ((8+12)÷2) =",
+              "result": "Inventory Turnover = 6.0x"
+            }
+          }
+        },
+        {
+          "term_id": "FSA-6-024",
+          "term_en": "Days of Inventory on Hand (DOH)",
+          "term_ru": "Дни запасов в наличии",
+          "definition_en": "The average number of days inventory is held before it is sold. It is inversely related to inventory turnover. DOH is calculated as 365 divided by inventory turnover ratio. A lower DOH indicates faster inventory movement.",
+          "definition_ru": "Среднее количество дней, в течение которых запасы удерживаются до их продажи. Обратно пропорционален оборачиваемости запасов. Дни запасов рассчитываются как 365, разделённые на коэффициент оборачиваемости запасов. Более низкие дни запасов указывают на более быстрое движение запасов.",
+          "type": "formula",
+          "formula": "$\\text{DOH} = \\frac{365}{\\text{Inventory Turnover}}$",
+          "formula_ref": null,
+          "variables": [
+            {"symbol": "\\text{Inventory Turnover}", "name_en": "Inventory Turnover Ratio", "name_ru": "Коэффициент оборачиваемости запасов"}
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Рассчитайте Inventory Turnover",
+              "2. Введите 365",
+              "3. Нажмите [÷]",
+              "4. Введите Inventory Turnover",
+              "5. Нажмите [=]",
+              "6. Результат: дни запасов в наличии"
+            ],
+            "example": {
+              "given": "Inventory Turnover = 6.0x",
+              "input": "365 ÷ 6 =",
+              "result": "DOH = 60.83 days"
+            }
+          }
+        },
+        {
+          "term_id": "FSA-6-025",
+          "term_en": "Gross Profit Margin",
+          "term_ru": "Маржа валовой прибыли",
+          "definition_en": "The percentage of sales that exceeds the cost of goods sold. It is calculated as gross profit divided by sales. Inventory valuation methods and write-downs directly affect COGS and therefore impact gross profit margin. Companies in competitive markets typically have lower margins, while luxury goods sellers have higher margins.",
+          "definition_ru": "Процент продаж, который превышает себестоимость проданных товаров. Рассчитывается как валовая прибыль, разделённая на продажи. Методы оценки запасов и уценки напрямую влияют на себестоимость и, следовательно, влияют на маржу валовой прибыли. Компании на конкурентных рынках обычно имеют более низкие маржи, в то время как продавцы товаров класса люкс имеют более высокие маржи.",
+          "type": "formula",
+          "formula": "$\\text{Gross Profit Margin} = \\frac{\\text{Gross Profit}}{\\text{Sales}}$",
+          "formula_ref": null,
+          "variables": [
+            {"symbol": "\\text{Gross Profit}", "name_en": "Gross Profit", "name_ru": "Валовая прибыль"},
+            {"symbol": "\\text{Sales}", "name_en": "Sales Revenue", "name_ru": "Выручка от продаж"}
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Рассчитайте валовую прибыль: Sales - COGS",
+              "2. Разделите валовую прибыль на Sales",
+              "3. Умножьте на 100 для процента",
+              "4. Результат: маржа валовой прибыли в %"
+            ],
+            "example": {
+              "given": "Sales=$100M, COGS=$60M",
+              "input": "(100-60)÷100×100 =",
+              "result": "Gross Profit Margin = 40%"
+            }
+          }
+        },
+        {
+          "term_id": "FSA-6-026",
+          "term_en": "Inventory Size Analysis",
+          "term_ru": "Анализ размера запасов",
+          "definition_en": "Analysts compare a company's inventory turnover ratio with sales trends to determine appropriate inventory size. Too-small inventory might lead to missed sales opportunities (stockouts), while excessive inventory can negatively impact financial ratios and tie up working capital.",
+          "definition_ru": "Аналитики сравнивают коэффициент оборачиваемости запасов компании с тенденциями продаж для определения подходящего размера запасов. Слишком малые запасы могут привести к упущенным возможностям продаж (дефициту), в то время как избыточные запасы могут негативно повлиять на финансовые коэффициенты и связать оборотный капитал.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-6-027",
+          "term_en": "Inventory Composition Analysis",
+          "term_ru": "Анализ состава запасов",
+          "definition_en": "The percentage change of different inventory categories (finished goods, raw materials, work in progress) can indicate management's expectations about future demand. For example, an increase in finished goods might suggest slower future sales growth or overstocking, while increases in raw materials may signal anticipated production expansion.",
+          "definition_ru": "Процентное изменение различных категорий запасов (готовая продукция, сырьё, незавершённое производство) может указывать на ожидания руководства относительно будущего спроса. Например, увеличение готовой продукции может свидетельствовать о замедлении роста продаж в будущем или избыточных запасах, в то время как увеличение сырья может сигнализировать об ожидаемом расширении производства.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-6-028",
+          "term_en": "Inventory Growth vs Sales Growth",
+          "term_ru": "Рост запасов по сравнению с ростом продаж",
+          "definition_en": "Analysts compare the growth rate of finished goods inventory with the sales growth rate. If inventory growth outpaces sales, it could indicate potential future sales slowdowns, overstocking, or deteriorating demand conditions requiring further investigation.",
+          "definition_ru": "Аналитики сравнивают темп роста запасов готовой продукции с темпом роста продаж. Если рост запасов опережает продажи, это может указывать на потенциальное замедление продаж в будущем, избыточные запасы или ухудшение условий спроса, требующих дополнительного расследования.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-6-029",
+          "term_en": "Management Discussion and Analysis (MD&A)",
+          "term_ru": "Обсуждение и анализ руководством",
+          "definition_en": "A section of financial reports where management provides context and insights into inventory management, future sales trends, and inventory-related risks. The MD&A section, along with industry reports and economic data, provides additional information beyond the financial statements for inventory analysis.",
+          "definition_ru": "Раздел финансовых отчётов, где руководство предоставляет контекст и информацию об управлении запасами, будущих тенденциях продаж и рисках, связанных с запасами. Раздел обсуждения и анализа руководством, наряду с отраслевыми отчётами и экономическими данными, предоставляет дополнительную информацию помимо финансовой отчётности для анализа запасов.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-6-030",
+          "term_en": "Current Ratio Impact",
+          "term_ru": "Влияние на коэффициент текущей ликвидности",
+          "definition_en": "The current ratio is affected by inventory valuation methods since inventory is a component of current assets. Different valuation methods and write-downs change the inventory balance, directly impacting this important liquidity measure.",
+          "definition_ru": "Коэффициент текущей ликвидности зависит от методов оценки запасов, поскольку запасы являются компонентом оборотных активов. Различные методы оценки и уценки изменяют остаток запасов, напрямую влияя на эту важную меру ликвидности.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-6-031",
+          "term_en": "Return on Assets (ROA) Impact",
+          "term_ru": "Влияние на рентабельность активов",
+          "definition_en": "ROA is impacted by inventory valuation methods because COGS affects net income (numerator) and inventory is part of total assets (denominator). Different inventory methods can significantly change both components, affecting this profitability ratio.",
+          "definition_ru": "Рентабельность активов зависит от методов оценки запасов, поскольку себестоимость продаж влияет на чистую прибыль (числитель), а запасы являются частью общих активов (знаменатель). Различные методы учёта запасов могут значительно изменить оба компонента, влияя на этот коэффициент рентабельности.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-6-032",
+          "term_en": "LIFO Liquidation",
+          "term_ru": "Ликвидация LIFO",
+          "definition_en": "When a company using LIFO reduces inventory levels, it must disclose any material amount of income resulting from the liquidation of LIFO inventory. This disclosure is required under US GAAP as LIFO liquidation can distort earnings by matching old, low costs against current revenues.",
+          "definition_ru": "Когда компания, использующая LIFO, сокращает уровни запасов, она должна раскрыть любую существенную сумму дохода, полученную в результате ликвидации запасов LIFO. Это раскрытие требуется по US GAAP, поскольку ликвидация LIFO может искажать прибыль, сопоставляя старые низкие затраты с текущими доходами.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-6-033",
+          "term_en": "Debt Covenant Considerations",
+          "term_ru": "Соображения по долговым ковенантам",
+          "definition_en": "Analysts should evaluate the potential impact of inventory write-downs on financial ratios, particularly when debt covenants include specific ratio requirements. Breaching these covenants due to inventory-related ratio changes can have severe consequences for a company, including acceleration of debt repayment or default.",
+          "definition_ru": "Аналитики должны оценивать потенциальное влияние уценок запасов на финансовые коэффициенты, особенно когда долговые ковенанты включают конкретные требования к коэффициентам. Нарушение этих ковенантов из-за изменений коэффициентов, связанных с запасами, может иметь серьёзные последствия для компании, включая ускорение погашения долга или дефолт.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-6-034",
+          "term_en": "High Inventory Turnover Interpretation",
+          "term_ru": "Интерпретация высокой оборачиваемости запасов",
+          "definition_en": "A high inventory turnover ratio and low DOH can indicate efficient inventory management. However, it could also suggest inadequate inventory levels or aggressive write-downs, potentially leading to lost sales or production issues. Analysts should compare with industry averages and review disclosures to differentiate between these scenarios.",
+          "definition_ru": "Высокий коэффициент оборачиваемости запасов и низкие дни запасов могут указывать на эффективное управление запасами. Однако это также может свидетельствовать о недостаточных уровнях запасов или агрессивных уценках, потенциально приводящих к упущенным продажам или проблемам с производством. Аналитики должны сравнивать со средними отраслевыми показателями и проверять раскрытие информации, чтобы различать эти сценарии.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-6-035",
+          "term_en": "Low Inventory Turnover Interpretation",
+          "term_ru": "Интерпретация низкой оборачиваемости запасов",
+          "definition_en": "A low inventory turnover ratio and high DOH relative to industry standards may signal slow-moving or obsolete inventory. Comparing sales growth with industry norms and examining financial statement disclosures can provide further insights into potential inventory issues and risk of future write-downs.",
+          "definition_ru": "Низкий коэффициент оборачиваемости запасов и высокие дни запасов по сравнению с отраслевыми стандартами могут сигнализировать о медленно движущихся или устаревших запасах. Сравнение роста продаж с отраслевыми нормами и изучение раскрытия финансовой отчётности может предоставить дополнительную информацию о потенциальных проблемах с запасами и риске будущих уценок.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "FSA-6-EX-005",
+          "question_en": "Which of the following financial statement items is not directly affected by the choice of inventory valuation method?",
+          "question_ru": "Какая из следующих статей финансовой отчётности не подвержена прямому влиянию выбора метода оценки запасов?",
+          "options": [
+            {"letter": "A", "text_en": "Revenue.", "text_ru": "Выручка."},
+            {"letter": "B", "text_en": "Net income.", "text_ru": "Чистая прибыль."},
+            {"letter": "C", "text_en": "Cost of sales.", "text_ru": "Себестоимость продаж."}
+          ],
+          "correct_answer": "A",
+          "solution_en": "Revenue is not affected by the choice of inventory valuation method. Net income and cost of sales are directly affected by the inventory valuation method used because different methods allocate costs differently between COGS and ending inventory.",
+          "solution_ru": "Выручка не подвержена влиянию выбора метода оценки запасов. Чистая прибыль и себестоимость продаж напрямую зависят от используемого метода оценки запасов, поскольку различные методы по-разному распределяют затраты между себестоимостью продаж и конечными запасами."
+        },
+        {
+          "exercise_id": "FSA-6-EX-006",
+          "question_en": "The financial disclosure information required by IFRS, but not US GAAP, is:",
+          "question_ru": "Информация для раскрытия в финансовой отчётности, требуемая IFRS, но не US GAAP:",
+          "options": [
+            {"letter": "A", "text_en": "Information related to inventory write-downs.", "text_ru": "Информация, связанная с уценками запасов."},
+            {"letter": "B", "text_en": "Information related to inventory write-down reversals.", "text_ru": "Информация, связанная с восстановлением уценок запасов."},
+            {"letter": "C", "text_en": "Information related to the carrying amount of each inventory section.", "text_ru": "Информация, связанная с балансовой стоимостью каждой секции запасов."}
+          ],
+          "correct_answer": "B",
+          "solution_en": "US GAAP does not require the disclosure of write-down reversals because it does not allow for the reversal of write-downs. Both IFRS and US GAAP require information related to inventory write-downs and the carrying amount of each inventory section.",
+          "solution_ru": "US GAAP не требует раскрытия информации о восстановлении уценок, поскольку не допускает восстановления уценок. Как IFRS, так и US GAAP требуют информацию, связанную с уценками запасов и балансовой стоимостью каждой секции запасов."
+        }
+      ]
+    }
+  ]
+}
