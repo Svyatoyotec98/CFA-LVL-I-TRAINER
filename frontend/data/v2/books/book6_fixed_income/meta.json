@@ -7,7 +7,7 @@
   "modules": [
     {
       "module_id": 1,
-      "module_name": "Fixed-Income Securities: Defining Elements",
+      "module_name": "Fixed Income Instrument Features",
       "page_range": "-1-12",
       "question_range": "3-23",
       "los_codes": [
@@ -20,7 +20,7 @@
     },
     {
       "module_id": 2,
-      "module_name": "Fixed-Income Markets: Issuance, Trading, and Funding",
+      "module_name": "Fixed Income Cash Flows and Types",
       "page_range": "-13-27",
       "question_range": "24-47",
       "los_codes": [
@@ -33,7 +33,7 @@
     },
     {
       "module_id": 3,
-      "module_name": "Introduction to Fixed-Income Valuation",
+      "module_name": "Fixed Income Issuance and Trading",
       "page_range": "-28-41",
       "question_range": "48-69",
       "los_codes": [
@@ -46,7 +46,7 @@
     },
     {
       "module_id": 4,
-      "module_name": "Introduction to Asset-Backed Securities",
+      "module_name": "Fixed Income Market for Corporate Issuers",
       "page_range": "-42-59",
       "question_range": "70-84",
       "los_codes": [
@@ -59,7 +59,7 @@
     },
     {
       "module_id": 5,
-      "module_name": "Understanding Fixed-Income Risk and Return",
+      "module_name": "Fixed Income Market for Government Issuers",
       "page_range": "-60-71",
       "question_range": "85-93",
       "los_codes": [
@@ -72,7 +72,7 @@
     },
     {
       "module_id": 6,
-      "module_name": "Fundamentals of Credit Analysis",
+      "module_name": "Fixed Income Bonds Valuation, Prices and Yields",
       "page_range": "-72-94",
       "question_range": "94-118",
       "los_codes": [
@@ -85,7 +85,7 @@
     },
     {
       "module_id": 7,
-      "module_name": "The Term Structure and Interest Rate Dynamics",
+      "module_name": "Yield and Yield Spread Measures for Fixed Rate Bonds",
       "page_range": "-95-111",
       "question_range": "119-130",
       "los_codes": [
@@ -98,7 +98,7 @@
     },
     {
       "module_id": 8,
-      "module_name": "Credit Analysis Models",
+      "module_name": "Yield and Yield Spread Measures for Floating Rate Bonds",
       "page_range": "-112-122",
       "question_range": "131-151",
       "los_codes": [
@@ -111,7 +111,7 @@
     },
     {
       "module_id": 9,
-      "module_name": "Credit Default Swaps",
+      "module_name": "The Term Structure of Interest Rates, Spot Curve and Forward Curve",
       "page_range": "-123-137",
       "question_range": "152-173",
       "los_codes": [
@@ -124,7 +124,7 @@
     },
     {
       "module_id": 10,
-      "module_name": "Fixed-Income Portfolio Management",
+      "module_name": "Interest Rate Risk Measurement",
       "page_range": "-138-151",
       "question_range": "174-198",
       "los_codes": [
@@ -137,7 +137,7 @@
     },
     {
       "module_id": 11,
-      "module_name": "Yield Curve Strategies",
+      "module_name": "Yield-Based Bond Duration Measure",
       "page_range": "-152-159",
       "question_range": "199-221",
       "los_codes": [
@@ -150,7 +150,7 @@
     },
     {
       "module_id": 12,
-      "module_name": "Fixed-Income Active Management",
+      "module_name": "Curve-Based and Empirically Fixed Coupon Securities Measures",
       "page_range": "-160-170",
       "question_range": "222-229",
       "los_codes": [
@@ -163,7 +163,7 @@
     },
     {
       "module_id": 13,
-      "module_name": "Measurement of Interest Rate Risk",
+      "module_name": "Credit Risk",
       "page_range": "-171-186",
       "question_range": "230-232",
       "los_codes": [
@@ -176,7 +176,7 @@
     },
     {
       "module_id": 14,
-      "module_name": "Managing Credit Risk",
+      "module_name": "Credit Analysis for Government Issuers",
       "page_range": "-187-197",
       "question_range": "233-248",
       "los_codes": [
@@ -189,7 +189,7 @@
     },
     {
       "module_id": 15,
-      "module_name": "Structured Financial Instruments",
+      "module_name": "Credit Analysis for Corporate Issuers",
       "page_range": "-198-204",
       "question_range": "249-256",
       "los_codes": [
@@ -202,7 +202,7 @@
     },
     {
       "module_id": 16,
-      "module_name": "Municipal Bonds",
+      "module_name": "Credit Analysis",
       "page_range": "-205-221",
       "question_range": "257-277",
       "los_codes": [
@@ -215,7 +215,7 @@
     },
     {
       "module_id": 17,
-      "module_name": "Sovereign Debt",
+      "module_name": "Fixed Income Securities",
       "page_range": "-222-229",
       "question_range": "278-289",
       "los_codes": [
@@ -228,7 +228,7 @@
     },
     {
       "module_id": 18,
-      "module_name": "Agency MBS and CMOs",
+      "module_name": "Asset-Backed Security Instruments and Market Features",
       "page_range": "-230-243",
       "question_range": "290-301",
       "los_codes": [
@@ -241,7 +241,7 @@
     },
     {
       "module_id": 19,
-      "module_name": "Corporate Bonds",
+      "module_name": "Mortgage-Backed Security (MBS) Instruments and Market Features",
       "page_range": "-244-259",
       "question_range": "302-323",
       "los_codes": [
