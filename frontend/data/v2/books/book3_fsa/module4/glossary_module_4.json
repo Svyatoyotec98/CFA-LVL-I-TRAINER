@@ -8,8 +8,8 @@
     "module_name": "Analyzing Statements of Cash Flows",
     "module_name_ru": "Анализ отчетов о движении денежных средств",
     "page_range": "87-113",
-    "total_terms": 0,
-    "total_exercises": 0,
+    "total_terms": 58,
+    "total_exercises": 5,
     "version": "2.0",
     "last_updated": "2026-01-22"
   },
@@ -545,6 +545,299 @@
           "correct_answer": "A",
           "solution_en": "Adjusting net income for non-cash expenses is one of the indirect methods for preparing cash flows from operations. Options B and C present steps that are involved in the direct method of calculating cashflows from operating activities.",
           "solution_ru": "Корректировка чистой прибыли на неденежные расходы является одним из косвенных методов подготовки денежных потоков от операций. Варианты B и C представляют шаги, которые включены в прямой метод расчета денежных потоков от операционной деятельности."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_4c",
+      "los_code": "4c",
+      "los_description_en": "Demonstrate the conversion of cash flows from the indirect to direct method",
+      "los_description_ru": "Продемонстрировать конвертацию денежных потоков из косвенного в прямой метод",
+      "terms": [
+        {
+          "term_id": "FSA-4-041",
+          "term_en": "Conversion from Indirect to Direct Method",
+          "term_ru": "Конвертация из косвенного в прямой метод",
+          "definition_en": "The process of transforming an indirect cash flow statement into a direct format by disaggregating net income into revenues and expenses, removing non-operating and non-cash items, and converting accrual amounts to cash basis.",
+          "definition_ru": "Процесс преобразования отчета о движении денежных средств из косвенного формата в прямой путем разделения чистой прибыли на доходы и расходы, удаления неоперационных и неденежных статей и конвертации сумм по методу начисления в кассовые.",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-042",
+          "term_en": "Step 1 Conversion: Net Income Disaggregation",
+          "term_ru": "Шаг 1 конвертации: разделение чистой прибыли",
+          "definition_en": "The first step in converting from indirect to direct method where net income is separated into total revenues and total expenses to identify the components that will be converted to cash basis.",
+          "definition_ru": "Первый шаг конвертации из косвенного в прямой метод, где чистая прибыль разделяется на общие доходы и общие расходы для определения компонентов, которые будут конвертированы в кассовую основу.",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-043",
+          "term_en": "Step 2 Conversion: Remove Non-Operating and Non-Cash Items",
+          "term_ru": "Шаг 2 конвертации: удаление неоперационных и неденежных статей",
+          "definition_en": "The second step where non-operating items (like gains on asset sales) and non-cash expenses (like depreciation) are removed from aggregated revenues and expenses, and remaining items are broken down into relevant cash flow categories.",
+          "definition_ru": "Второй шаг, где неоперационные статьи (такие как прибыль от продажи активов) и неденежные расходы (такие как амортизация) удаляются из совокупных доходов и расходов, а оставшиеся статьи разбиваются на соответствующие категории денежных потоков.",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-044",
+          "term_en": "Step 3 Conversion: Convert to Cash Basis",
+          "term_ru": "Шаг 3 конвертации: конвертация в кассовую основу",
+          "definition_en": "The final step where accrual revenues and expenses are converted into cash receipts and payments by adjusting for changes in working capital accounts such as accounts receivable, inventory, accounts payable, and accrued liabilities.",
+          "definition_ru": "Заключительный шаг, где доходы и расходы по методу начисления конвертируются в денежные поступления и выплаты путем корректировки на изменения в счетах оборотного капитала, таких как дебиторская задолженность, запасы, кредиторская задолженность и начисленные обязательства.",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-045",
+          "term_en": "Reconstructed Direct Cash Flow Statement",
+          "term_ru": "Реконструированный отчет о денежных потоках прямым методом",
+          "definition_en": "An approximate direct method cash flow statement created by converting an indirect method statement. While not perfectly precise, it provides a useful alternative perspective on cash flows from operations.",
+          "definition_ru": "Приблизительный отчет о движении денежных средств прямым методом, созданный путем конвертации отчета косвенным методом. Хотя и не совсем точный, он обеспечивает полезную альтернативную перспективу на денежные потоки от операций.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "FSA-4-EX-003",
+          "question_en": "Which of the following is most likely the starting point for converting cash flows from operating activities from indirect to direct?",
+          "question_ru": "Какой из следующих является наиболее вероятной отправной точкой для конвертации денежных потоков от операционной деятельности из косвенного в прямой метод?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Net income",
+              "text_ru": "Чистая прибыль"
+            },
+            {
+              "letter": "B",
+              "text_en": "Cash flow from operations",
+              "text_ru": "Денежный поток от операций"
+            },
+            {
+              "letter": "C",
+              "text_en": "Cash received from customers",
+              "text_ru": "Денежные средства, полученные от клиентов"
+            }
+          ],
+          "correct_answer": "A",
+          "solution_en": "The first step in the three-step process for converting cash flows from the indirect method to the direct method is the disaggregation of net income into total revenues and expenses.",
+          "solution_ru": "Первый шаг в трехшаговом процессе конвертации денежных потоков из косвенного метода в прямой - это разделение чистой прибыли на общие доходы и расходы."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_4d",
+      "los_code": "4d",
+      "los_description_en": "Contrast cash flow statements prepared under International Financial Reporting Standards (IFRS) and US generally accepted accounting principles (US GAAP)",
+      "los_description_ru": "Сравнить отчеты о движении денежных средств, подготовленные в соответствии с Международными стандартами финансовой отчетности (МСФО) и общепринятыми принципами бухгалтерского учета США (US GAAP)",
+      "terms": [
+        {
+          "term_id": "FSA-4-046",
+          "term_en": "Interest Received Classification (IFRS)",
+          "term_ru": "Классификация полученных процентов (МСФО)",
+          "definition_en": "Under IFRS, interest received may be classified either as an operating activity or an investing activity, providing flexibility in presentation. Companies must use consistent classification each year.",
+          "definition_ru": "Согласно МСФО, полученные проценты могут быть классифицированы либо как операционная деятельность, либо как инвестиционная деятельность, обеспечивая гибкость в представлении. Компании должны использовать последовательную классификацию каждый год.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-047",
+          "term_en": "Interest Received Classification (US GAAP)",
+          "term_ru": "Классификация полученных процентов (US GAAP)",
+          "definition_en": "Under US GAAP, interest received must be classified as an operating activity only, with no flexibility for alternative classification.",
+          "definition_ru": "Согласно US GAAP, полученные проценты должны классифицироваться только как операционная деятельность, без возможности альтернативной классификации.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-048",
+          "term_en": "Interest Paid Classification (IFRS)",
+          "term_ru": "Классификация выплаченных процентов (МСФО)",
+          "definition_en": "Under IFRS, interest paid may be classified either as an operating activity or as a financing activity, depending on management's preference and consistent with their reporting policy.",
+          "definition_ru": "Согласно МСФО, выплаченные проценты могут быть классифицированы либо как операционная деятельность, либо как финансовая деятельность, в зависимости от предпочтений руководства и в соответствии с их учетной политикой.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-049",
+          "term_en": "Interest Paid Classification (US GAAP)",
+          "term_ru": "Классификация выплаченных процентов (US GAAP)",
+          "definition_en": "Under US GAAP, interest paid must be classified as an operating activity only, with no option for financing classification.",
+          "definition_ru": "Согласно US GAAP, выплаченные проценты должны классифицироваться только как операционная деятельность, без возможности классификации как финансовая деятельность.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-050",
+          "term_en": "Dividends Received Classification (IFRS)",
+          "term_ru": "Классификация полученных дивидендов (МСФО)",
+          "definition_en": "Under IFRS, dividends received may be classified either as an operating activity or an investing activity, allowing companies to choose the most appropriate classification.",
+          "definition_ru": "Согласно МСФО, полученные дивиденды могут быть классифицированы либо как операционная деятельность, либо как инвестиционная деятельность, позволяя компаниям выбирать наиболее подходящую классификацию.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-051",
+          "term_en": "Dividends Received Classification (US GAAP)",
+          "term_ru": "Классификация полученных дивидендов (US GAAP)",
+          "definition_en": "Under US GAAP, dividends received must be classified as an operating activity only.",
+          "definition_ru": "Согласно US GAAP, полученные дивиденды должны классифицироваться только как операционная деятельность.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-052",
+          "term_en": "Dividends Paid Classification (IFRS)",
+          "term_ru": "Классификация выплаченных дивидендов (МСФО)",
+          "definition_en": "Under IFRS, dividends paid may be classified either as an operating activity or as a financing activity, providing flexibility based on how management views dividend payments.",
+          "definition_ru": "Согласно МСФО, выплаченные дивиденды могут быть классифицированы либо как операционная деятельность, либо как финансовая деятельность, обеспечивая гибкость на основе того, как руководство рассматривает выплаты дивидендов.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-053",
+          "term_en": "Dividends Paid Classification (US GAAP)",
+          "term_ru": "Классификация выплаченных дивидендов (US GAAP)",
+          "definition_en": "Under US GAAP, dividends paid must be classified as a financing activity only.",
+          "definition_ru": "Согласно US GAAP, выплаченные дивиденды должны классифицироваться только как финансовая деятельность.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-054",
+          "term_en": "Income Tax Classification (IFRS)",
+          "term_ru": "Классификация налога на прибыль (МСФО)",
+          "definition_en": "Under IFRS, income tax expense is generally classified as an operating activity, but a portion may be allocated to investing or financing activities if it is specifically identifiable with those activities.",
+          "definition_ru": "Согласно МСФО, расходы по налогу на прибыль обычно классифицируются как операционная деятельность, но часть может быть распределена на инвестиционную или финансовую деятельность, если она конкретно идентифицируется с этой деятельностью.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-055",
+          "term_en": "Income Tax Classification (US GAAP)",
+          "term_ru": "Классификация налога на прибыль (US GAAP)",
+          "definition_en": "Under US GAAP, income tax expense must be classified as an operating activity only, with no allocation to other sections.",
+          "definition_ru": "Согласно US GAAP, расходы по налогу на прибыль должны классифицироваться только как операционная деятельность, без распределения на другие разделы.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-056",
+          "term_en": "Bank Overdrafts (IFRS)",
+          "term_ru": "Банковские овердрафты (МСФО)",
+          "definition_en": "Under IFRS, bank overdrafts are classified as part of cash and cash equivalents, recognizing them as an integral component of cash management.",
+          "definition_ru": "Согласно МСФО, банковские овердрафты классифицируются как часть денежных средств и их эквивалентов, признавая их как неотъемлемый компонент управления денежными средствами.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-057",
+          "term_en": "Bank Overdrafts (US GAAP)",
+          "term_ru": "Банковские овердрафты (US GAAP)",
+          "definition_en": "Under US GAAP, bank overdrafts are not considered part of cash and cash equivalents. Instead, they are classified as financing activities.",
+          "definition_ru": "Согласно US GAAP, банковские овердрафты не считаются частью денежных средств и их эквивалентов. Вместо этого они классифицируются как финансовая деятельность.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-058",
+          "term_en": "Direct vs Indirect Reporting (IFRS and US GAAP)",
+          "term_ru": "Прямой vs косвенный метод отчетности (МСФО и US GAAP)",
+          "definition_en": "Both IFRS and US GAAP allow either the direct or indirect method for reporting cash flows from operations, with both standards encouraging the direct method. However, US GAAP requires a reconciliation of net income to operating cash flow regardless of method used.",
+          "definition_ru": "И МСФО, и US GAAP допускают либо прямой, либо косвенный метод для отчета о денежных потоках от операций, причем оба стандарта поощряют прямой метод. Однако US GAAP требует сверки чистой прибыли с операционным денежным потоком независимо от используемого метода.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "FSA-4-EX-004",
+          "question_en": "Which of the following statements is inaccurate regarding IFRS and US GAAP cash flow classification?",
+          "question_ru": "Какое из следующих утверждений неточно в отношении классификации денежных потоков по МСФО и US GAAP?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Under IFRS, dividends paid may be classified as an operating or financing activity, while under US GAAP, it can only be reported as a financing activity",
+              "text_ru": "Согласно МСФО, выплаченные дивиденды могут быть классифицированы как операционная или финансовая деятельность, в то время как согласно US GAAP они могут быть отражены только как финансовая деятельность"
+            },
+            {
+              "letter": "B",
+              "text_en": "Under IFRS, interest paid may be classified as an operating or financing activity, while under US GAAP, it can only be reported as a financing activity",
+              "text_ru": "Согласно МСФО, выплаченные проценты могут быть классифицированы как операционная или финансовая деятельность, в то время как согласно US GAAP они могут быть отражены только как финансовая деятельность"
+            },
+            {
+              "letter": "C",
+              "text_en": "Under IFRS, dividends received may be classified as an operating or an investing activity, while under US GAAP, it can only be reported as an operating activity",
+              "text_ru": "Согласно МСФО, полученные дивиденды могут быть классифицированы как операционная или инвестиционная деятельность, в то время как согласно US GAAP они могут быть отражены только как операционная деятельность"
+            }
+          ],
+          "correct_answer": "B",
+          "solution_en": "Under IFRS, interest paid may be classified as an operating or financing activity. However, under US GAAP, it can only be reported as an operating activity, not a financing activity. Options A and C give accurate statements.",
+          "solution_ru": "Согласно МСФО, выплаченные проценты могут быть классифицированы как операционная или финансовая деятельность. Однако согласно US GAAP они могут быть отражены только как операционная деятельность, а не как финансовая деятельность. Варианты A и C дают точные утверждения."
+        },
+        {
+          "exercise_id": "FSA-4-EX-005",
+          "question_en": "A company paid $500,000 as dividends during the year. How would that company classify this payment on the cash flow statement under IFRS and US GAAP?",
+          "question_ru": "Компания выплатила $500,000 дивидендов в течение года. Как эта компания классифицирует эту выплату в отчете о движении денежных средств согласно МСФО и US GAAP?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "It would be classified as a financing cash outflow under both accounting standards",
+              "text_ru": "Она будет классифицирована как финансовый денежный отток согласно обоим стандартам учета"
+            },
+            {
+              "letter": "B",
+              "text_en": "Under IFRS, it would be classified as an operating or as a financing cash flow. Under US GAAP, it would be classified as a financing cash flow",
+              "text_ru": "Согласно МСФО она будет классифицирована как операционный или финансовый денежный поток. Согласно US GAAP она будет классифицирована как финансовый денежный поток"
+            },
+            {
+              "letter": "C",
+              "text_en": "Under IFRS, it would be classified as an operating or as a financing cash flow. Under US GAAP, it would be classified as an operating cash flow",
+              "text_ru": "Согласно МСФО она будет классифицирована как операционный или финансовый денежный поток. Согласно US GAAP она будет классифицирована как операционный денежный поток"
+            }
+          ],
+          "correct_answer": "B",
+          "solution_en": "Activity: Dividends paid. IFRS Classification: Operating/Financing. US GAAP Classification: Financing.",
+          "solution_ru": "Деятельность: Выплаченные дивиденды. Классификация МСФО: Операционная/Финансовая. Классификация US GAAP: Финансовая."
         }
       ]
     }
