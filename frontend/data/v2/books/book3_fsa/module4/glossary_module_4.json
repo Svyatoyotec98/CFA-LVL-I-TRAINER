@@ -257,6 +257,296 @@
           "solution_ru": "Денежные выплаты вычитаются из начального остатка денежных средств при расчете конечного остатка денежных средств. Денежные поступления добавляются, а не вычитаются из начального остатка денежных средств. Денежные выплаты вычитаются, а не добавляются к начальному остатку денежных средств."
         }
       ]
+    },
+    {
+      "los_id": "LOS_4b",
+      "los_code": "4b",
+      "los_description_en": "Describe the steps in the preparation of direct and indirect cash flow statements, including how cash flows can be computed using income statement and balance sheet data",
+      "los_description_ru": "Описать шаги подготовки отчета о движении денежных средств прямым и косвенным методами, включая то, как денежные потоки могут быть рассчитаны с использованием данных отчета о прибылях и убытках и баланса",
+      "terms": [
+        {
+          "term_id": "FSA-4-020",
+          "term_en": "Direct Method",
+          "term_ru": "Прямой метод",
+          "definition_en": "A method of cash flow presentation that details the primary categories of gross cash receipts and cash disbursements in the operating activities section, showing actual cash inflows and outflows from customers, suppliers, employees, and other operating sources.",
+          "definition_ru": "Метод представления движения денежных средств, который детализирует основные категории валовых денежных поступлений и выплат в разделе операционной деятельности, показывая фактические денежные притоки и оттоки от клиентов, поставщиков, сотрудников и других операционных источников.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-021",
+          "term_en": "Indirect Method",
+          "term_ru": "Косвенный метод",
+          "definition_en": "A method of cash flow presentation that starts with net income and adjusts for non-cash transactions to reconcile to net cash flow from operating activities. This is the most commonly used method by companies.",
+          "definition_ru": "Метод представления движения денежных средств, который начинается с чистой прибыли и корректирует ее на неденежные транзакции для получения чистого денежного потока от операционной деятельности. Это наиболее часто используемый метод компаниями.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-022",
+          "term_en": "Cash Received from Customers",
+          "term_ru": "Денежные средства, полученные от клиентов",
+          "definition_en": "Under the direct method, the amount of cash collections from customers, calculated by adjusting revenue for the change in accounts receivable during the period.",
+          "definition_ru": "При прямом методе сумма денежных поступлений от клиентов, рассчитываемая путем корректировки выручки на изменение дебиторской задолженности за период.",
+          "type": "formula",
+          "formula": "$\\text{Cash from Customers} = \\text{Revenue} - \\Delta\\text{Accounts Receivable}$",
+          "formula_ref": null,
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Введите выручку (Revenue)",
+              "2. Вычтите увеличение дебиторской задолженности (или прибавьте уменьшение)",
+              "3. Результат = денежные средства, полученные от клиентов"
+            ],
+            "example": {
+              "given": "Revenue = $25,456,000, Increase in AR = $39,000",
+              "input": "25456000 - 39000 =",
+              "result": "Cash from Customers = $25,417,000"
+            }
+          }
+        },
+        {
+          "term_id": "FSA-4-023",
+          "term_en": "Purchases from Suppliers",
+          "term_ru": "Закупки у поставщиков",
+          "definition_en": "The amount of inventory purchased during the period, calculated by adjusting cost of goods sold for the change in inventory. If inventory increased, then purchases exceeded cost of goods sold.",
+          "definition_ru": "Сумма запасов, приобретенных за период, рассчитываемая путем корректировки себестоимости проданных товаров на изменение запасов. Если запасы увеличились, то закупки превысили себестоимость проданных товаров.",
+          "type": "formula",
+          "formula": "$\\text{Purchases} = \\text{COGS} + \\Delta\\text{Inventory}$",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-024",
+          "term_en": "Cash Paid to Suppliers",
+          "term_ru": "Денежные средства, выплаченные поставщикам",
+          "definition_en": "Under the direct method, the cash outflows to suppliers, calculated by adjusting purchases for the change in accounts payable. If accounts payable increased, then purchases on an accrual basis will be higher than on a cash basis.",
+          "definition_ru": "При прямом методе денежные оттоки поставщикам, рассчитываемые путем корректировки закупок на изменение кредиторской задолженности. Если кредиторская задолженность увеличилась, то закупки по методу начисления будут выше, чем по кассовому методу.",
+          "type": "formula",
+          "formula": "$\\text{Cash to Suppliers} = \\text{Purchases} - \\Delta\\text{Accounts Payable}$",
+          "formula_ref": null,
+          "calculator": {
+            "method": "BA II Plus: Multi-step Calculation",
+            "steps_ru": [
+              "1. Рассчитайте закупки: COGS + изменение запасов",
+              "2. Вычтите увеличение кредиторской задолженности (или прибавьте уменьшение)",
+              "3. Результат = денежные средства, выплаченные поставщикам"
+            ],
+            "example": {
+              "given": "COGS=$11,345,000, Inventory +$169,000, AP +$300,000",
+              "input": "11345000+169000-300000=",
+              "result": "Cash to Suppliers = $11,214,000"
+            }
+          }
+        },
+        {
+          "term_id": "FSA-4-025",
+          "term_en": "Cash Paid to Employees",
+          "term_ru": "Денежные средства, выплаченные сотрудникам",
+          "definition_en": "Under the direct method, cash outflows for employee compensation, calculated by adjusting salary and wages expense for the change in salary and wages payable.",
+          "definition_ru": "При прямом методе денежные оттоки на вознаграждение сотрудников, рассчитываемые путем корректировки расходов на заработную плату на изменение задолженности по заработной плате.",
+          "type": "formula",
+          "formula": "$\\text{Cash to Employees} = \\text{Salary Expense} - \\Delta\\text{Salary Payable}$",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-026",
+          "term_en": "Cash Paid for Operating Expenses",
+          "term_ru": "Денежные средства, выплаченные за операционные расходы",
+          "definition_en": "Under the direct method, cash outflows for other operating expenses, calculated by adjusting the expense amount for changes in prepaid expenses and accrued expense liabilities.",
+          "definition_ru": "При прямом методе денежные оттоки на прочие операционные расходы, рассчитываемые путем корректировки суммы расходов на изменения в предоплаченных расходах и начисленных обязательствах по расходам.",
+          "type": "formula",
+          "formula": "$\\text{Cash for OpEx} = \\text{OpEx} + \\Delta\\text{Prepaid} - \\Delta\\text{Accrued Liabilities}$",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-027",
+          "term_en": "Cash Paid for Interest",
+          "term_ru": "Денежные средства, выплаченные за проценты",
+          "definition_en": "Under the direct method, cash outflows for interest expense, calculated by adjusting interest expense for the change in interest payable.",
+          "definition_ru": "При прямом методе денежные оттоки на процентные расходы, рассчитываемые путем корректировки процентных расходов на изменение задолженности по процентам.",
+          "type": "formula",
+          "formula": "$\\text{Cash for Interest} = \\text{Interest Expense} - \\Delta\\text{Interest Payable}$",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-028",
+          "term_en": "Cash Paid for Income Taxes",
+          "term_ru": "Денежные средства, выплаченные за налог на прибыль",
+          "definition_en": "Under the direct method, cash outflows for income taxes, calculated by adjusting income tax expense for changes in taxes receivable, taxes payable, and deferred income taxes.",
+          "definition_ru": "При прямом методе денежные оттоки на налоги на прибыль, рассчитываемые путем корректировки расходов по налогу на прибыль на изменения в налогах к возмещению, налогах к уплате и отложенных налогах на прибыль.",
+          "type": "formula",
+          "formula": "$\\text{Cash for Taxes} = \\text{Tax Expense} - \\Delta\\text{Tax Payable}$",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-029",
+          "term_en": "Depreciation Expense",
+          "term_ru": "Амортизационные отчисления",
+          "definition_en": "A non-cash expense that allocates the cost of tangible assets over their useful lives. Under the indirect method, depreciation is added back to net income because it is a non-cash deduction in the computation of net income.",
+          "definition_ru": "Неденежный расход, который распределяет стоимость материальных активов на протяжении их срока полезного использования. При косвенном методе амортизация добавляется обратно к чистой прибыли, поскольку это неденежное вычитание при расчете чистой прибыли.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-030",
+          "term_en": "Non-Cash Expenses",
+          "term_ru": "Неденежные расходы",
+          "definition_en": "Expenses recognized in the income statement that do not involve actual cash outflows, such as depreciation, amortization, and depletion. Under the indirect method, these are added back to net income.",
+          "definition_ru": "Расходы, признанные в отчете о прибылях и убытках, которые не включают фактические денежные оттоки, такие как амортизация, истощение и износ. При косвенном методе они добавляются обратно к чистой прибыли.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-031",
+          "term_en": "Non-Operating Items",
+          "term_ru": "Неоперационные статьи",
+          "definition_en": "Gains or losses from activities outside the normal operations, such as sale of equipment or investments. Under the indirect method, these are removed from net income and reported in investing or financing sections.",
+          "definition_ru": "Прибыли или убытки от деятельности вне нормальных операций, таких как продажа оборудования или инвестиций. При косвенном методе они убираются из чистой прибыли и отражаются в разделах инвестиционной или финансовой деятельности.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-032",
+          "term_en": "Gain on Sale of Assets",
+          "term_ru": "Прибыль от продажи активов",
+          "definition_en": "A non-operating gain that occurs when an asset is sold for more than its book value. Under the indirect method, this gain is subtracted from net income because it will be included in cash from investing activities.",
+          "definition_ru": "Неоперационная прибыль, которая возникает, когда актив продается за сумму, превышающую его балансовую стоимость. При косвенном методе эта прибыль вычитается из чистой прибыли, поскольку она будет включена в денежные средства от инвестиционной деятельности.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-033",
+          "term_en": "Loss on Sale of Assets",
+          "term_ru": "Убыток от продажи активов",
+          "definition_en": "A non-operating loss that occurs when an asset is sold for less than its book value. Under the indirect method, this loss is added back to net income.",
+          "definition_ru": "Неоперационный убыток, который возникает, когда актив продается за сумму, меньшую его балансовой стоимости. При косвенном методе этот убыток добавляется обратно к чистой прибыли.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-034",
+          "term_en": "Book Value of Equipment Sold",
+          "term_ru": "Балансовая стоимость проданного оборудования",
+          "definition_en": "The historical cost of equipment less accumulated depreciation at the time of sale. This is calculated by analyzing changes in the equipment and accumulated depreciation accounts.",
+          "definition_ru": "Историческая стоимость оборудования за вычетом накопленной амортизации на момент продажи. Рассчитывается путем анализа изменений в счетах оборудования и накопленной амортизации.",
+          "type": "formula",
+          "formula": "$\\text{Book Value} = \\text{Historical Cost} - \\text{Accumulated Depreciation}$",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-035",
+          "term_en": "Cash from Sale of Equipment",
+          "term_ru": "Денежные средства от продажи оборудования",
+          "definition_en": "The actual cash received from selling equipment, calculated as book value plus gain on sale (or minus loss on sale). This amount appears in the investing activities section.",
+          "definition_ru": "Фактические денежные средства, полученные от продажи оборудования, рассчитываемые как балансовая стоимость плюс прибыль от продажи (или минус убыток от продажи). Эта сумма отражается в разделе инвестиционной деятельности.",
+          "type": "formula",
+          "formula": "$\\text{Cash Received} = \\text{Book Value} + \\text{Gain on Sale}$",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-036",
+          "term_en": "Dividends Paid",
+          "term_ru": "Выплаченные дивиденды",
+          "definition_en": "Cash distributions to shareholders, calculated using the retained earnings equation: Beginning Retained Earnings + Net Income - Dividends = Ending Retained Earnings. Dividends paid appear in the financing activities section.",
+          "definition_ru": "Денежные выплаты акционерам, рассчитываемые с использованием уравнения нераспределенной прибыли: Начальная нераспределенная прибыль + Чистая прибыль - Дивиденды = Конечная нераспределенная прибыль. Выплаченные дивиденды отражаются в разделе финансовой деятельности.",
+          "type": "formula",
+          "formula": "$\\text{Dividends} = \\text{Beginning RE} + \\text{NI} - \\text{Ending RE}$",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-037",
+          "term_en": "Indirect Method Adjustments",
+          "term_ru": "Корректировки при косвенном методе",
+          "definition_en": "The process of reconciling net income to cash flow from operations by: (1) removing non-operating activities, (2) adding back non-cash expenses, and (3) adjusting for changes in working capital items.",
+          "definition_ru": "Процесс сверки чистой прибыли с денежным потоком от операций путем: (1) удаления неоперационной деятельности, (2) добавления обратно неденежных расходов и (3) корректировки на изменения статей оборотного капитала.",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-038",
+          "term_en": "Working Capital Changes Adjustment",
+          "term_ru": "Корректировка изменений оборотного капитала",
+          "definition_en": "Under the indirect method, increases in current operating assets are subtracted from net income while decreases are added; increases in current operating liabilities are added while decreases are subtracted.",
+          "definition_ru": "При косвенном методе увеличение текущих операционных активов вычитается из чистой прибыли, а уменьшение добавляется; увеличение текущих операционных обязательств добавляется, а уменьшение вычитается.",
+          "type": "method",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-039",
+          "term_en": "Prepaid Expenses",
+          "term_ru": "Предоплаченные расходы",
+          "definition_en": "Current assets representing payments made in advance for goods or services to be received in the future. An increase in prepaid expenses indicates that cash paid exceeds the expense recognized.",
+          "definition_ru": "Оборотные активы, представляющие платежи, сделанные авансом за товары или услуги, которые будут получены в будущем. Увеличение предоплаченных расходов указывает на то, что выплаченные денежные средства превышают признанные расходы.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-4-040",
+          "term_en": "Inventory",
+          "term_ru": "Запасы",
+          "definition_en": "Current assets representing goods held for sale or raw materials used in production. Changes in inventory affect the calculation of cash paid to suppliers under the direct method.",
+          "definition_ru": "Оборотные активы, представляющие товары, предназначенные для продажи, или сырье, используемое в производстве. Изменения в запасах влияют на расчет денежных средств, выплаченных поставщикам, при прямом методе.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "FSA-4-EX-002",
+          "question_en": "Which of the following steps is least likely included in the direct method for preparing cash flows from operations?",
+          "question_ru": "Какой из следующих шагов наименее вероятно включен в прямой метод подготовки денежных потоков от операций?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Adjusting net income for non-cash expenses",
+              "text_ru": "Корректировка чистой прибыли на неденежные расходы"
+            },
+            {
+              "letter": "B",
+              "text_en": "Determining how much cash was paid for income taxes",
+              "text_ru": "Определение суммы денежных средств, выплаченных за налог на прибыль"
+            },
+            {
+              "letter": "C",
+              "text_en": "Identifying how much cash was received from customers",
+              "text_ru": "Определение суммы денежных средств, полученных от клиентов"
+            }
+          ],
+          "correct_answer": "A",
+          "solution_en": "Adjusting net income for non-cash expenses is one of the indirect methods for preparing cash flows from operations. Options B and C present steps that are involved in the direct method of calculating cashflows from operating activities.",
+          "solution_ru": "Корректировка чистой прибыли на неденежные расходы является одним из косвенных методов подготовки денежных потоков от операций. Варианты B и C представляют шаги, которые включены в прямой метод расчета денежных потоков от операционной деятельности."
+        }
+      ]
     }
   ]
 }
