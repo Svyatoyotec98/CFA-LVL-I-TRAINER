@@ -1,4 +1,4 @@
-# QBANK Creation Instruction v2.0
+# QBANK Creation Instruction v2.1
 
 # 🛑 СТОП! ПРОЧИТАЙ ПЕРЕД НАЧАЛОМ РАБОТЫ!
 
@@ -16,6 +16,15 @@ claude/add-{book}-module-{N}-tests-{random}
 git checkout -b claude/add-economics-module-5-tests-xK9mP
 git push -u origin claude/add-economics-module-5-tests-xK9mP
 ```
+
+### ⛔ КРИТИЧЕСКИ ВАЖНО: ПРОВЕРЬ ЧТО ВЕТКА НА GITHUB!
+
+После `git push` выполни:
+```bash
+git ls-remote --heads origin | grep "твоя-ветка"
+```
+
+**Если вывод пустой — ветка НЕ запушена! Повтори push.**
 
 ### ⛔ ПРОВЕРЬ СЕБЯ:
 1. Ветка начинается с `claude/add-` ? ✓
@@ -166,21 +175,33 @@ python frontend/data/v2/scripts/validate_qbank.py qbank_module_X.json --fix
 2. Добавь вопросы Q001-Q010
 3. **ВАЛИДАЦИЯ:** `python scripts/validate_qbank.py qbank_module_X.json --fix`
 4. Убедись что 100% ✓
-5. **GIT COMMIT:** `git add . && git commit -m "QBank Module X: checkpoint 1 - Q001-Q010"`
+5. **GIT COMMIT + PUSH:**
+```bash
+   git add . && git commit -m "QBank Module X: checkpoint 1 - Q001-Q010"
+   git push origin HEAD
+```
 
 ## Чекпоинт 2: Вопросы 11-20
 
 1. Добавь вопросы Q011-Q020
 2. **ВАЛИДАЦИЯ:** `python scripts/validate_qbank.py qbank_module_X.json --fix`
 3. Убедись что 100% ✓
-4. **GIT COMMIT:** `git add . && git commit -m "QBank Module X: checkpoint 2 - Q011-Q020"`
+4. **GIT COMMIT + PUSH:**
+```bash
+   git add . && git commit -m "QBank Module X: checkpoint 2 - Q011-Q020"
+   git push origin HEAD
+```
 
 ## Чекпоинт 3: Вопросы 21-30
 
 1. Добавь вопросы Q021-Q030
 2. **ВАЛИДАЦИЯ:** `python scripts/validate_qbank.py qbank_module_X.json --fix`
 3. Убедись что 100% ✓
-4. **GIT COMMIT:** `git add . && git commit -m "QBank Module X: checkpoint 3 - Q021-Q030"`
+4. **GIT COMMIT + PUSH:**
+```bash
+   git add . && git commit -m "QBank Module X: checkpoint 3 - Q021-Q030"
+   git push origin HEAD
+```
 
 ## Чекпоинт 4: Финализация
 
