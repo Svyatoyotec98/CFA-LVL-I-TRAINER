@@ -7,7 +7,7 @@
     "module_id": 4,
     "module_name": "Analyzing Statements of Cash Flows",
     "module_name_ru": "Анализ отчетов о движении денежных средств",
-    "total_questions": 10,
+    "total_questions": 20,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -716,6 +716,677 @@
         "ifrs",
         "interest_received",
         "investing_activities"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q011",
+      "original_question_number": 2075,
+      "los_id": "LOS_4b",
+      "question_text_en": "Which of the following financing activity is most likely considered an operating activity under IFRS?",
+      "question_text_ru": "Какая из следующих финансовых деятельностей наиболее вероятно рассматривается как операционная деятельность в соответствии с МСФО?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Issuance of corporate debt.",
+          "text_ru": "Выпуск корпоративного долга."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Cash paid for reacquiring preferred shares.",
+          "text_ru": "Денежные средства, выплаченные за выкуп привилегированных акций."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Interest paid on a long-term corporate bond.",
+          "text_ru": "Проценты, выплаченные по долгосрочным корпоративным облигациям."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Dividend payments and interest payments can be considered operating or financing activities under IFRS.",
+      "explanation_ru": "Выплата дивидендов и процентные платежи могут рассматриваться как операционная или финансовая деятельность в соответствии с МСФО.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Issuance of debt is only a financing activity under US GAAP and IFRS.",
+          "text_ru": "Неверно. Выпуск долга является только финансовой деятельностью в соответствии с US GAAP и МСФО."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Repurchase of stocks is only a financing activity under US GAAP and IFRS.",
+          "text_ru": "Неверно. Выкуп акций является только финансовой деятельностью в соответствии с US GAAP и МСФО."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "ifrs",
+        "interest_paid",
+        "financing_activities"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q012",
+      "original_question_number": 2080,
+      "los_id": "LOS_4b",
+      "question_text_en": "Beverly Drinks reported the cost of goods sold of $120 million for the current year. Total assets increased by $75 million while inventory declined by $26 million. Also, total liabilities increased by $65 million while accounts payable increased by $2 million. The amount of purchases made during the year is closest to:",
+      "question_text_ru": "Beverly Drinks отчиталась о себестоимости проданных товаров в размере $120 миллионов за текущий год. Общие активы увеличились на $75 миллионов, в то время как запасы снизились на $26 миллионов. Кроме того, общие обязательства увеличились на $65 миллионов, а кредиторская задолженность увеличилась на $2 миллиона. Сумма закупок, сделанных в течение года, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$92 million.",
+          "text_ru": "$92 миллиона."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$94 million.",
+          "text_ru": "$94 миллиона."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$146 million.",
+          "text_ru": "$146 миллионов."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The amount of purchases is calculated as the cost of goods sold less decrease in inventory. In this case, we have: Amount of purchases = Cost of goods sold less (plus) decrease (increase) in inventory = $120 million − $26 million = $94 million.",
+      "explanation_ru": "Сумма закупок рассчитывается как себестоимость проданных товаров минус уменьшение запасов. В данном случае: Сумма закупок = Себестоимость проданных товаров минус (плюс) уменьшение (увеличение) запасов = $120 миллионов − $26 миллионов = $94 миллиона.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. It represents the cash paid to the supplier (Purchases from suppliers, $94 million less increase in accounts payable).",
+          "text_ru": "Неверно. Это представляет собой денежные средства, выплаченные поставщику (закупки у поставщиков $94 миллиона минус увеличение кредиторской задолженности)."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It adds a decrease in the inventory to the cost of goods sold.",
+          "text_ru": "Неверно. Это добавляет уменьшение запасов к себестоимости проданных товаров."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "purchases",
+        "inventory",
+        "cogs"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q013",
+      "original_question_number": 2081,
+      "los_id": "LOS_4b",
+      "question_text_en": "An analyst gathered the following information from a company's 2018 financial statements (in $ millions):",
+      "question_text_ru": "Аналитик собрал следующую информацию из финансовой отчетности компании за 2018 год (в $ миллионах):",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Balances as of Year Ended 31 Dec",
+          "2017",
+          "2018"
+        ],
+        "headers_ru": [
+          "Балансы на конец года 31 декабря",
+          "2017",
+          "2018"
+        ],
+        "rows": [
+          [
+            "Retained Earnings",
+            "150",
+            "175"
+          ],
+          [
+            "Accounts Receivable",
+            "68",
+            "73"
+          ],
+          [
+            "Inventory",
+            "75",
+            "78"
+          ],
+          [
+            "Accounts Payable",
+            "66",
+            "59"
+          ]
+        ]
+      },
+      "question_continuation_en": "In 2018, the company paid cash dividends of $40 million and recorded $55 million in depreciation expense. The company considers dividends paid a financing activity. Given this information, the company's 2018 cash flow from operations (in $ millions) was closest to:",
+      "question_continuation_ru": "В 2018 году компания выплатила денежные дивиденды в размере $40 миллионов и зафиксировала амортизационные расходы в размере $55 миллионов. Компания рассматривает выплаченные дивиденды как финансовую деятельность. Учитывая эту информацию, денежный поток компании от операций в 2018 году (в $ миллионах) был ближе всего к:",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$105",
+          "text_ru": "$105"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$110",
+          "text_ru": "$110"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$112",
+          "text_ru": "$112"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Depreciation of $55 is a non-cash expense and is added back to net income. Increases in accounts receivable, $5, and in inventory, $3, are uses of cash. Thus, they ought to be subtracted from net income. The decrease in accounts payable is also a use of cash and, therefore, a subtraction from net income. Net income for 2018 = Increase in retained earnings + Dividends paid = $25 + $40 = $65. Thus, cash flow from operations is: $65 + $55 − $5 − $3 − $7 = $105",
+      "explanation_ru": "Амортизация в размере $55 - это неденежные расходы, которые добавляются обратно к чистой прибыли. Увеличение дебиторской задолженности на $5 и запасов на $3 - это использование денежных средств. Следовательно, они должны быть вычтены из чистой прибыли. Уменьшение кредиторской задолженности также является использованием денежных средств и, следовательно, вычитанием из чистой прибыли. Чистая прибыль за 2018 год = Увеличение нераспределенной прибыли + Выплаченные дивиденды = $25 + $40 = $65. Таким образом, денежный поток от операций составляет: $65 + $55 − $5 − $3 − $7 = $105",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Adds the increase in accounts receivable to the net income.",
+          "text_ru": "Неверно. Добавляет увеличение дебиторской задолженности к чистой прибыли."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Adds the accounts payable to the net income.",
+          "text_ru": "Неверно. Добавляет кредиторскую задолженность к чистой прибыли."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": [
+        "cfo_calculation",
+        "indirect_method",
+        "working_capital"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q014",
+      "original_question_number": 2082,
+      "los_id": "LOS_4d",
+      "question_text_en": "Under IFRS, dividends received is most likely classified as:",
+      "question_text_ru": "В соответствии с МСФО полученные дивиденды наиболее вероятно классифицируются как:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "either financing or investing activities.",
+          "text_ru": "либо финансовая, либо инвестиционная деятельность."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "either operating or financing activities.",
+          "text_ru": "либо операционная, либо финансовая деятельность."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "either operating or investing activities.",
+          "text_ru": "либо операционная, либо инвестиционная деятельность."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Under International Financial Reporting Standards (IFRS), dividends received by a company can be classified as either operating or investing activities. This classification flexibility allows companies to align the presentation of dividends received with the nature of their business operations. For instance, if a company receives dividends from investments that are integral to its main business operations, it might classify these dividends as operating activities. Conversely, if the dividends are received from investments that are not central to the company's primary business, they might be classified as investing activities.",
+      "explanation_ru": "В соответствии с Международными стандартами финансовой отчетности (МСФО) дивиденды, полученные компанией, могут классифицироваться как операционная или инвестиционная деятельность. Эта гибкость классификации позволяет компаниям выравнивать представление полученных дивидендов с характером их бизнес-операций. Например, если компания получает дивиденды от инвестиций, которые являются неотъемлемой частью ее основной деятельности, она может классифицировать эти дивиденды как операционную деятельность. И наоборот, если дивиденды получены от инвестиций, которые не являются центральными для основного бизнеса компании, они могут быть классифицированы как инвестиционная деятельность.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This option suggests that dividends received can be classified as either financing or investing activities under IFRS. However, this is not accurate. Financing activities typically involve changes in the size and composition of the contributed equity and borrowings of the entity. Dividends received are not related to these financing activities but are instead returns on investments in other entities.",
+          "text_ru": "Неверно. Этот вариант предполагает, что полученные дивиденды могут классифицироваться как финансовая или инвестиционная деятельность в соответствии с МСФО. Однако это неточно. Финансовая деятельность обычно включает изменения в размере и составе вложенного капитала и заимствований предприятия. Полученные дивиденды не связаны с этой финансовой деятельностью, а являются доходами от инвестиций в другие предприятия."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. This option proposes that dividends received can be classified as either operating or financing activities. As previously explained, financing activities are related to transactions and other events that change the equity and debt structure of the company. Dividends received are returns on investments and do not affect the company's equity and debt structure directly. Therefore, classifying dividends received as financing activities does not align with the definitions and classifications provided by IFRS.",
+          "text_ru": "Неверно. Этот вариант предполагает, что полученные дивиденды могут классифицироваться как операционная или финансовая деятельность. Как было объяснено ранее, финансовая деятельность связана с транзакциями и другими событиями, которые изменяют структуру капитала и долга компании. Полученные дивиденды - это доходы от инвестиций и не влияют напрямую на структуру капитала и долга компании. Следовательно, классификация полученных дивидендов как финансовой деятельности не соответствует определениям и классификациям, предоставляемым МСФО."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "ifrs",
+        "dividends_received",
+        "classification"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q015",
+      "original_question_number": 2085,
+      "los_id": "LOS_4b",
+      "question_text_en": "Mavi Inc. is a male fashion brand based in Italy. Ahmed is an analyst working on the cash flow statement of Mavi using the direct method.",
+      "question_text_ru": "Mavi Inc. - это мужской модный бренд, базирующийся в Италии. Ахмед - аналитик, работающий над отчетом о движении денежных средств Mavi с использованием прямого метода.",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Item",
+          "Amount"
+        ],
+        "headers_ru": [
+          "Статья",
+          "Сумма"
+        ],
+        "rows": [
+          [
+            "Sales",
+            "150"
+          ],
+          [
+            "COGS",
+            "90"
+          ],
+          [
+            "Interest Expenses",
+            "30"
+          ],
+          [
+            "Dep. Expenses",
+            "25"
+          ],
+          [
+            "Decrease in Acc. Rec.",
+            "10"
+          ],
+          [
+            "Increase in Acc. Pay.",
+            "20"
+          ],
+          [
+            "Increase in Int. Pay.",
+            "20"
+          ]
+        ]
+      },
+      "question_continuation_en": "Using the financial data provided in the table above, the value of Mavi's Cash Interest that should be used when calculating cash flow from operating activities is closest to:",
+      "question_continuation_ru": "Используя финансовые данные, приведенные в таблице выше, значение денежных процентов Mavi, которое должно быть использовано при расчете денежного потока от операционной деятельности, ближе всего к:",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$10",
+          "text_ru": "$10"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$30",
+          "text_ru": "$30"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$70",
+          "text_ru": "$70"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Under the direct method of calculating cash flow from operations, we calculate the cash interest. Mavi's Cash interest = $30 (Interest expense) − $20 (Increase in interest payable) = $10. Cash paid for interest represents amounts paid by the company for interest. The amount is calculated by taking interest expense and increasing it by the amount of any decrease in the balance of the interest payable account or decreasing it by the amount of an increase in the balance of the interest payable account.",
+      "explanation_ru": "При использовании прямого метода расчета денежного потока от операций мы рассчитываем денежные проценты. Денежные проценты Mavi = $30 (Процентные расходы) − $20 (Увеличение процентов к уплате) = $10. Выплаченные проценты представляют собой суммы, выплаченные компанией в качестве процентов. Сумма рассчитывается путем взятия процентных расходов и увеличения их на сумму любого уменьшения баланса счета процентов к уплате или уменьшения их на сумму увеличения баланса счета процентов к уплате.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. It represents the interest expense.",
+          "text_ru": "Неверно. Это представляет собой процентные расходы."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It adds the increase in interest payable to the interest expense.",
+          "text_ru": "Неверно. Это добавляет увеличение процентов к уплате к процентным расходам."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "direct_method",
+        "cash_interest",
+        "interest_paid"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q016",
+      "original_question_number": 2086,
+      "los_id": "LOS_4b",
+      "question_text_en": "Mavi Inc. is a male fashion brand based in Italy. Ahmed is an analyst working on the cash flow statement of Mavi using the direct method. Using the financial data provided in the following table, Mavi's cash flow from operating activities closest to:",
+      "question_text_ru": "Mavi Inc. - это мужской модный бренд, базирующийся в Италии. Ахмед - аналитик, работающий над отчетом о движении денежных средств Mavi с использованием прямого метода. Используя финансовые данные, приведенные в следующей таблице, денежный поток Mavi от операционной деятельности ближе всего к:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Item",
+          "Amount"
+        ],
+        "headers_ru": [
+          "Статья",
+          "Сумма"
+        ],
+        "rows": [
+          [
+            "Sales",
+            "150"
+          ],
+          [
+            "COGS",
+            "90"
+          ],
+          [
+            "Interest Expenses",
+            "30"
+          ],
+          [
+            "Dep. Expenses",
+            "25"
+          ],
+          [
+            "Decrease in Acc. Rec.",
+            "10"
+          ],
+          [
+            "Increase in Acc. Pay.",
+            "20"
+          ],
+          [
+            "Increase in Int. Pay.",
+            "20"
+          ]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$50",
+          "text_ru": "$50"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$80",
+          "text_ru": "$80"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$135",
+          "text_ru": "$135"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Under the direct method of cash flow from operations, we will add all cash receipts and payments. In the example, we will add Cash collection, less Cash paid to supplier and Cash interest. Mavi's Cash flow from Operation = $110. Note: We do not consider Depreciation expense in the direct method of calculating cash flow from operating activities. Cash Collection (Sales + Decrease in Acc. Rec.) = 160, Cash Paid to Suppliers (COGS - Increase in Acc. Pay.) = (70), Cash Interest (Int Exp. - Increase Int. Pay.) = (10). Cash Flow from Operating Activities = 80.",
+      "explanation_ru": "При использовании прямого метода денежного потока от операций мы будем добавлять все денежные поступления и платежи. В примере мы добавим денежные поступления, минус денежные средства, выплаченные поставщику, и денежные проценты. Денежный поток Mavi от операций = $80. Примечание: Мы не учитываем амортизационные расходы при прямом методе расчета денежного потока от операционной деятельности. Денежные поступления (Продажи + Уменьшение деб. зад.) = 160, Денежные средства, выплаченные поставщикам (Себестоимость - Увеличение кред. зад.) = (70), Денежные проценты (Проц. расходы - Увеличение проц. к уплате) = (10). Денежный поток от операционной деятельности = 80.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This calculation misses some components.",
+          "text_ru": "Неверно. В этом расчете отсутствуют некоторые компоненты."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This includes depreciation which should not be in direct method.",
+          "text_ru": "Неверно. Это включает амортизацию, которая не должна быть в прямом методе."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": [
+        "direct_method",
+        "cfo_calculation",
+        "cash_flow"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q017",
+      "original_question_number": 3803,
+      "los_id": "LOS_4b",
+      "question_text_en": "Consider the information given below.",
+      "question_text_ru": "Рассмотрите информацию, приведенную ниже.",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Year",
+          "2019",
+          "2018"
+        ],
+        "headers_ru": [
+          "Год",
+          "2019",
+          "2018"
+        ],
+        "rows": [
+          [
+            "Accounts Receivables",
+            "$75 Million",
+            "$100 Million"
+          ],
+          [
+            "Revenues",
+            "$50 Million",
+            "$60 Million"
+          ]
+        ]
+      },
+      "question_continuation_en": "Based solely on the information above, the amount of cash received from clients in 2019 is closest to:",
+      "question_continuation_ru": "Основываясь исключительно на приведенной выше информации, сумма денежных средств, полученных от клиентов в 2019 году, ближе всего к:",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$75 Million",
+          "text_ru": "$75 миллионов"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$85 Million",
+          "text_ru": "$85 миллионов"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$150 Million",
+          "text_ru": "$150 миллионов"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The cash received from clients in 2019 is $75 Million. Cash received = Beginning Accounts Receivables + Revenues − Ending Accounts Receivables = $100 + $50 − $75 = $75. A decrease in accounts receivable implies that the cash collected during that period exceeded the revenue on an accrual basis. In this case, the $75 million cash collected exceeded the $50 Million Revenue for that period.",
+      "explanation_ru": "Денежные средства, полученные от клиентов в 2019 году, составляют $75 миллионов. Полученные денежные средства = Начальная дебиторская задолженность + Выручка − Конечная дебиторская задолженность = $100 + $50 − $75 = $75. Уменьшение дебиторской задолженности означает, что денежные средства, собранные в течение этого периода, превысили выручку на основе начисления. В этом случае собранные $75 миллионов денежных средств превысили выручку в размере $50 миллионов за этот период.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. The ending accounts receivable has been left out.",
+          "text_ru": "Неверно. Конечная дебиторская задолженность была упущена."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The Revenue for 2018 has been used in place of the Revenue for 2019.",
+          "text_ru": "Неверно. Выручка за 2018 год была использована вместо выручки за 2019 год."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "cash_received",
+        "accounts_receivable",
+        "revenue"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q018",
+      "original_question_number": 3804,
+      "los_id": "LOS_4b",
+      "question_text_en": "At its fiscal year-end 2019, a company reported $120 million in revenue, $90 Million in expenses. If the company equally reported a $20 million increase in its accounts receivable, the cash received from its customers for that fiscal year is closest to:",
+      "question_text_ru": "На конец финансового года 2019 компания отчиталась о выручке в размере $120 миллионов и расходах в размере $90 миллионов. Если компания также отчиталась об увеличении дебиторской задолженности на $20 миллионов, денежные средства, полученные от клиентов за этот финансовый год, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$100 million.",
+          "text_ru": "$100 миллионов."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$120 million.",
+          "text_ru": "$120 миллионов."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$140 million.",
+          "text_ru": "$140 миллионов."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The accounts receivable has increased. This implies that the company collected less cash, than it reported as, from its customers. To determine the cash received, we subtract the increase in accounts receivable from the revenues collected for that period. Cash received from customers = Revenue less (plus) increase (decrease) in accounts receivable = $120 − $20 = $100 Million.",
+      "explanation_ru": "Дебиторская задолженность увеличилась. Это означает, что компания собрала меньше денежных средств, чем отчиталась, от своих клиентов. Чтобы определить полученные денежные средства, мы вычитаем увеличение дебиторской задолженности из выручки, собранной за этот период. Полученные денежные средства от клиентов = Выручка минус (плюс) увеличение (уменьшение) дебиторской задолженности = $120 − $20 = $100 миллионов.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. It is the revenue and not the cash collected from customers.",
+          "text_ru": "Неверно. Это выручка, а не денежные средства, собранные от клиентов."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The increase in accounts receivable has been added to revenue instead of being subtracted.",
+          "text_ru": "Неверно. Увеличение дебиторской задолженности было добавлено к выручке вместо того, чтобы быть вычтенным."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "cash_received",
+        "accounts_receivable",
+        "revenue"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q019",
+      "original_question_number": 3807,
+      "los_id": "LOS_4b",
+      "question_text_en": "Below is a company's financial performance for the year 2018.",
+      "question_text_ru": "Ниже представлены финансовые показатели компании за 2018 год.",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Item",
+          "Amount"
+        ],
+        "headers_ru": [
+          "Статья",
+          "Сумма"
+        ],
+        "rows": [
+          [
+            "Revenue",
+            "$235,000,000"
+          ],
+          [
+            "Cost of goods sold",
+            "$100,000,000"
+          ],
+          [
+            "Operating expenses",
+            "$35,000,000"
+          ],
+          [
+            "Other expenses",
+            "$10,000,000"
+          ]
+        ]
+      },
+      "question_continuation_en": "The company maintained its revenue and operating costs in 2019 due to long-term contracts with its suppliers and customers. Its other expenses, however, increased by 15%. The company's gross profit for the year 2019 is closest to:",
+      "question_continuation_ru": "Компания сохранила свою выручку и операционные затраты в 2019 году благодаря долгосрочным контрактам с поставщиками и клиентами. Однако ее прочие расходы увеличились на 15%. Валовая прибыль компании за 2019 год ближе всего к:",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$88,500,000",
+          "text_ru": "$88,500,000"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$100,000,000",
+          "text_ru": "$100,000,000"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$135,000,000",
+          "text_ru": "$135,000,000"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "We do not take into account expenses when we are calculating gross profit. Operating expenses will be considered when calculating the operating profit. All expenses will be considered when calculating the net income. Gross profit = Revenue − Cost of goods sold = $235,000,000 − $100,000,000 = $135,000,000.",
+      "explanation_ru": "Мы не учитываем расходы при расчете валовой прибыли. Операционные расходы будут учтены при расчете операционной прибыли. Все расходы будут учтены при расчете чистой прибыли. Валовая прибыль = Выручка − Себестоимость проданных товаров = $235,000,000 − $100,000,000 = $135,000,000.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. It represents the net income.",
+          "text_ru": "Неверно. Это представляет собой чистую прибыль."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. It is the net income for 2018 as it has not factored in the 15% increase in other expenses that were seen in 2019.",
+          "text_ru": "Неверно. Это чистая прибыль за 2018 год, так как не учтено 15% увеличение прочих расходов, которое наблюдалось в 2019 году."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "gross_profit",
+        "revenue",
+        "cogs"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q020",
+      "original_question_number": 3808,
+      "los_id": "LOS_4c",
+      "question_text_en": "A company that is compliant with the US GAAP reports its cash flows using the indirect method. In 2019, the company reported a net income of $300,000 and revenue of $700,000. The company's income tax payable decreased by $70,000, while its interest expenses payable increased by $80,000. If the company reported using the direct method, the amount of cash paid for operating expenses is closest to:",
+      "question_text_ru": "Компания, которая соответствует US GAAP, отчитывается о своих денежных потоках, используя косвенный метод. В 2019 году компания отчиталась о чистой прибыли в размере $300,000 и выручке в размере $700,000. Налог на прибыль к уплате компании уменьшился на $70,000, в то время как процентные расходы к уплате увеличились на $80,000. Если бы компания отчитывалась, используя прямой метод, сумма денежных средств, выплаченных на операционные расходы, была бы ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$390,000",
+          "text_ru": "$390,000"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$410,000",
+          "text_ru": "$410,000"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$690,000",
+          "text_ru": "$690,000"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "To convert cash from indirect to direct method when there are no non-cash expenses/revenues, we first determine the total operating expenses, then we increase and reduce the operating expenses as per the formula: Total cash operating expenses = Total operating expenses + Decrease in income tax payable − Increase in interest expense payable. Total operating expenses = Total Revenue − Net Income = $700,000 − $300,000 = $400,000. Total cash operating expenses = $400,000 + $70,000 − $80,000 = $390,000",
+      "explanation_ru": "Чтобы преобразовать денежные средства из косвенного метода в прямой метод, когда нет неденежных расходов/доходов, мы сначала определяем общие операционные расходы, затем увеличиваем и уменьшаем операционные расходы в соответствии с формулой: Общие денежные операционные расходы = Общие операционные расходы + Уменьшение налога на прибыль к уплате − Увеличение процентных расходов к уплате. Общие операционные расходы = Общая выручка − Чистая прибыль = $700,000 − $300,000 = $400,000. Общие денежные операционные расходы = $400,000 + $70,000 − $80,000 = $390,000",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. The signs in the equations have been mixed up.",
+          "text_ru": "Неверно. Знаки в уравнениях были перепутаны."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Revenue has been used, instead of total operating expenses to calculate the total cash operating expenses.",
+          "text_ru": "Неверно. Выручка была использована вместо общих операционных расходов для расчета общих денежных операционных расходов."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": [
+        "direct_method",
+        "indirect_method",
+        "conversion"
       ]
     }
   ]
