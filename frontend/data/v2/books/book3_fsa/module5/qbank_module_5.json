@@ -1,0 +1,1061 @@
+{
+  "metadata": {
+    "book_id": 3,
+    "book_code": "FSA",
+    "book_name": "Financial Statement Analysis",
+    "book_name_ru": "Анализ финансовой отчетности",
+    "module_id": 5,
+    "module_name": "Analyzing Statements of Cash Flows II",
+    "module_name_ru": "Анализ отчетов о движении денежных средств II",
+    "total_questions": 18,
+    "version": "2.0",
+    "source": "AnalystPrep QBank"
+  },
+  "questions": [
+    {
+      "question_id": "FSA-5-Q001",
+      "original_question_number": 476,
+      "los_id": "LOS_5a",
+      "question_text_en": "Which of the following is most likely a coverage ratio?",
+      "question_text_ru": "Какой из следующих показателей наиболее вероятно является коэффициентом покрытия?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Reinvestment ratio.",
+          "text_ru": "Коэффициент реинвестирования."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Cash to income ratio.",
+          "text_ru": "Коэффициент денежных средств к доходу."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Cash return on assets.",
+          "text_ru": "Денежная рентабельность активов."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Coverage ratios are financial metrics used to evaluate a company's ability to service its debt and meet its financial obligations. Among the options provided, the Cash to income ratio is most closely aligned with the concept of a coverage ratio. This ratio specifically measures the company's ability to cover its obligations with its operating cash flows, making it a direct indicator of financial health and stability in terms of covering debts and other obligations.",
+      "explanation_ru": "Коэффициенты покрытия - это финансовые показатели, используемые для оценки способности компании обслуживать свой долг и выполнять свои финансовые обязательства. Среди предложенных вариантов коэффициент денежных средств к доходу наиболее тесно связан с концепцией коэффициента покрытия. Этот коэффициент специально измеряет способность компании покрывать свои обязательства за счет операционных денежных потоков, что делает его прямым индикатором финансового здоровья и стабильности с точки зрения покрытия долгов и других обязательств.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The Reinvestment ratio, while important for understanding a company's growth and sustainability by indicating how much of its cash flow is reinvested back into the business, does not directly measure the company's ability to cover its debt or financial obligations. It is more closely related to growth and capital allocation strategies rather than coverage capabilities.",
+          "text_ru": "Коэффициент реинвестирования, хотя и важен для понимания роста и устойчивости компании, указывая, какая часть ее денежного потока реинвестируется обратно в бизнес, не измеряет напрямую способность компании покрывать свои долги или финансовые обязательства. Он больше связан со стратегиями роста и распределения капитала, чем с возможностями покрытия."
+        },
+        "opt_c": {
+          "text_en": "The Cash return on assets ratio measures the efficiency with which a company generates cash flow from its assets. While this is an important indicator of operational efficiency and can indirectly affect a company's ability to cover its debts by generating more cash, it is not a direct measure of the company's ability to meet its financial obligations. Coverage ratios specifically assess the ability to pay interest, principal, or other obligations.",
+          "text_ru": "Коэффициент денежной рентабельности активов измеряет эффективность, с которой компания генерирует денежный поток от своих активов. Хотя это важный показатель операционной эффективности и может косвенно влиять на способность компании покрывать свои долги за счет генерации большего количества денежных средств, это не прямая мера способности компании выполнять свои финансовые обязательства."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "coverage_ratio",
+        "cash_to_income_ratio"
+      ]
+    },
+    {
+      "question_id": "FSA-5-Q002",
+      "original_question_number": 2088,
+      "los_id": "LOS_5a",
+      "question_text_en": "Free cash flow for the firm (FCFF) is most likely available to:",
+      "question_text_ru": "Свободный денежный поток для фирмы (FCFF) наиболее вероятно доступен для:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "debt holders.",
+          "text_ru": "держателей долга."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "equity holders.",
+          "text_ru": "держателей акций."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "debt holders and equity holders.",
+          "text_ru": "держателей долга и держателей акций."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Free Cash Flow to the Firm (FCFF) represents the cash that a company generates after accounting for cash outflows to support operations and maintain its capital assets. This metric is crucial as it indicates the amount of cash available to return to the company's capital providers, which include both debt holders and equity holders. FCFF is an important measure because it provides a clear picture of a company's financial health and its ability to generate cash from its operations after making necessary investments in the business.",
+      "explanation_ru": "Свободный денежный поток для фирмы (FCFF) представляет собой денежные средства, которые компания генерирует после учета денежных оттоков для поддержки операций и поддержания своих капитальных активов. Этот показатель важен, поскольку он указывает на количество денежных средств, доступных для возврата поставщикам капитала компании, которые включают как держателей долга, так и держателей акций.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "While debt holders are indeed entitled to a portion of the FCFF in the form of interest payments and principal repayments, they are not the sole beneficiaries. FCFF is a broader measure that encompasses the cash available to all capital providers, including both debt and equity holders. Limiting the availability of FCFF to only debt holders overlooks the fact that equity holders are also entitled to the company's residual cash flows after meeting its debt obligations.",
+          "text_ru": "Хотя держатели долга действительно имеют право на часть FCFF в форме процентных платежей и погашения основного долга, они не являются единственными бенефициарами. FCFF - это более широкая мера, которая охватывает денежные средства, доступные всем поставщикам капитала, включая как держателей долга, так и держателей акций."
+        },
+        "opt_b": {
+          "text_en": "This perspective neglects the priority claim that debt holders have on a company's cash flows. Before equity holders can lay claim to any of the company's cash flows, the company must first meet its obligations to debt holders, such as interest payments and principal repayments. Therefore, stating that FCFF is available only to equity holders does not accurately reflect the distribution hierarchy of a company's cash flows.",
+          "text_ru": "Эта перспектива игнорирует приоритетное право, которое держатели долга имеют на денежные потоки компании. Прежде чем держатели акций смогут претендовать на какие-либо денежные потоки компании, компания должна сначала выполнить свои обязательства перед держателями долга, такие как процентные платежи и погашение основного долга."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "fcff",
+        "free_cash_flow"
+      ]
+    },
+    {
+      "question_id": "FSA-5-Q003",
+      "original_question_number": 2089,
+      "los_id": "LOS_5a",
+      "question_text_en": "Which of the following is the most appropriate equation for calculating Free Cash flow to the Equity (FCFE)?",
+      "question_text_ru": "Какое из следующих уравнений является наиболее подходящим для расчета свободного денежного потока на собственный капитал (FCFE)?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "FCFE = CFO - Fixed capital expenditure + Net borrowing",
+          "text_ru": "FCFE = CFO - Капитальные затраты + Чистые заимствования"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "FCFE = CFO + Interest×(1 - Tax rate) - Fixed Capital Expenditure",
+          "text_ru": "FCFE = CFO + Проценты×(1 - Налоговая ставка) - Капитальные затраты"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "FCFE = CFO + Interest×(1- Tax rate) - Fixed capital expenditure + Net borrowing",
+          "text_ru": "FCFE = CFO + Проценты×(1- Налоговая ставка) - Капитальные затраты + Чистые заимствования"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Free Cash Flow to Equity (FCFE) is a measure of how much cash is available to the equity shareholders of a company after all expenses, reinvestment, and debt repayments have been taken care of. It is calculated as: FCFE = CFO - Fixed capital expenditure + Net borrowing. Or, FCFE = Net income + Depreciation - Working capital expenditure - Fixed capital expenditure + Net borrowing. If net borrowing is negative, this means that the company's debt repayments have exceeded its receipt of borrowed funds. In this case: FCFE = CFO - FCInv - Net debt repayment. Where FCInv = Capital expenditures and CFO = cash flow from operating activities in the case where the interest paid is included as an operating activity. A positive FCFE implies that the company has more operating cash flow than it needs to cover capital expenditures and the repayment of the debt, and therefore has cash available for distribution to shareholders.",
+      "explanation_ru": "Свободный денежный поток на собственный капитал (FCFE) - это мера того, сколько денежных средств доступно акционерам компании после всех расходов, реинвестиций и погашения долга. Он рассчитывается как: FCFE = CFO - Капитальные затраты + Чистые заимствования. Положительный FCFE означает, что у компании больше операционного денежного потока, чем необходимо для покрытия капитальных затрат и погашения долга, и поэтому есть денежные средства, доступные для распределения акционерам.",
+      "explanation_formula": "$FCFE = CFO - FCInv + Net\\:borrowing$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "It gives the equation for the cash flow to the firm.",
+          "text_ru": "Это дает уравнение для денежного потока для фирмы."
+        },
+        "opt_c": {
+          "text_en": "It includes net borrowing, which should be there.",
+          "text_ru": "Он включает чистые заимствования, которые должны быть там."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "fcfe",
+        "free_cash_flow"
+      ]
+    },
+    {
+      "question_id": "FSA-5-Q004",
+      "original_question_number": 2090,
+      "los_id": "LOS_5a",
+      "question_text_en": "The financial data of a hypothetical firm is provided below. Assuming a tax rate of 40%, the Free Cash Flow for the Firm (FCFF) using the cash flow from operating activities equation is closest to:",
+      "question_text_ru": "Ниже приведены финансовые данные гипотетической фирмы. При налоговой ставке 40%, свободный денежный поток для фирмы (FCFF), рассчитанный с использованием уравнения денежного потока от операционной деятельности, наиболее близок к:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Item",
+          "Value"
+        ],
+        "headers_ru": [
+          "Статья",
+          "Значение"
+        ],
+        "rows": [
+          [
+            "Net Income",
+            "700"
+          ],
+          [
+            "Depreciation Expense",
+            "57"
+          ],
+          [
+            "Decrease in Acc. Rec.",
+            "49"
+          ],
+          [
+            "Increase in Inventory",
+            "36"
+          ],
+          [
+            "Interest Expense",
+            "100"
+          ],
+          [
+            "Increase in Capital Expenditure",
+            "180"
+          ],
+          [
+            "Debt Issued",
+            "450"
+          ],
+          [
+            "Debt Repaid",
+            "330"
+          ]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$650",
+          "text_ru": "$650"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$690",
+          "text_ru": "$690"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$770",
+          "text_ru": "$770"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Cash flow from operating activities = $700 (Net income) + $57 (Depreciation) + $49 (Decrease in Acc. Rec.) - $36 (Increase in Inventory) = $770. So that: FCFF = CFO + Int. Exp × (1 - Tax rate) - Fixed Capital investment = $770 + $100 × (60%) - $180 = $650",
+      "explanation_ru": "Денежный поток от операционной деятельности = $700 (Чистая прибыль) + $57 (Амортизация) + $49 (Уменьшение дебиторской задолженности) - $36 (Увеличение запасов) = $770. Таким образом: FCFF = CFO + Процентные расходы × (1 - Налоговая ставка) - Капитальные вложения = $770 + $100 × (60%) - $180 = $650",
+      "explanation_formula": "$FCFF = CFO + Int\\:Exp \\times (1 - Tax\\:rate) - FCInv$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "It does not consider the tax rate.",
+          "text_ru": "Не учитывает налоговую ставку."
+        },
+        "opt_c": {
+          "text_en": "It represents the cash flow from operating activities.",
+          "text_ru": "Это представляет собой денежный поток от операционной деятельности."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "fcff",
+        "cfo",
+        "calculation"
+      ]
+    },
+    {
+      "question_id": "FSA-5-Q005",
+      "original_question_number": 2094,
+      "los_id": "LOS_5b",
+      "question_text_en": "A firm has recently repaid its long-term debt obligations. Using the data given below, based on cash flow from operations the debt payment ratio is closed to:",
+      "question_text_ru": "Фирма недавно погасила свои долгосрочные долговые обязательства. Используя приведенные ниже данные, основываясь на денежном потоке от операций, коэффициент погашения долга наиболее близок к:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Item",
+          "Value"
+        ],
+        "headers_ru": [
+          "Статья",
+          "Значение"
+        ],
+        "rows": [
+          [
+            "Net Income",
+            "700"
+          ],
+          [
+            "Depreciation Expense",
+            "57"
+          ],
+          [
+            "Decrease in Acc. Rec.",
+            "49"
+          ],
+          [
+            "Increase in Inventory",
+            "36"
+          ],
+          [
+            "Interest Expense",
+            "100"
+          ],
+          [
+            "Increase in Capital Expenditure",
+            "180"
+          ],
+          [
+            "Debt Issued",
+            "450"
+          ],
+          [
+            "Debt Repaid",
+            "330"
+          ]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "0.99",
+          "text_ru": "0.99"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "1.77",
+          "text_ru": "1.77"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "2.33",
+          "text_ru": "2.33"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Cash flow from operating activities of a firm = $700 (Net income) + $57 (Depreciation) + $49 (Decrease in Acc. Rec.) - $36 (Increase in inventory) = $770. Therefore, Debt Payment ratio = CFO / Debt paid = $770 / $330 = 2.33",
+      "explanation_ru": "Денежный поток от операционной деятельности фирмы = $700 (Чистая прибыль) + $57 (Амортизация) + $49 (Уменьшение дебиторской задолженности) - $36 (Увеличение запасов) = $770. Следовательно, коэффициент погашения долга = CFO / Погашенный долг = $770 / $330 = 2.33",
+      "explanation_formula": "$Debt\\:Payment\\:ratio = \\frac{CFO}{Debt\\:paid}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "It divides the CFO with the sum of debt issued and the debt paid.",
+          "text_ru": "Он делит CFO на сумму выпущенного долга и погашенного долга."
+        },
+        "opt_b": {
+          "text_en": "It divides the CFO with the debt issued.",
+          "text_ru": "Он делит CFO на выпущенный долг."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "debt_payment_ratio",
+        "coverage_ratio"
+      ]
+    },
+    {
+      "question_id": "FSA-5-Q006",
+      "original_question_number": 2096,
+      "los_id": "LOS_5a",
+      "question_text_en": "Grand Co. is a laptop distributor firm whose financial data is provided in the following table. Using the given data, the FCFF of Grand Co. is closest to:",
+      "question_text_ru": "Grand Co. - это фирма-дистрибьютор ноутбуков, финансовые данные которой приведены в следующей таблице. Используя данные данные, FCFF компании Grand Co. наиболее близок к:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Item",
+          "Value"
+        ],
+        "headers_ru": [
+          "Статья",
+          "Значение"
+        ],
+        "rows": [
+          [
+            "Net Income",
+            "200,000"
+          ],
+          [
+            "Depreciation",
+            "70,000"
+          ],
+          [
+            "Interest Expense (Net of Taxes)",
+            "37,000"
+          ],
+          [
+            "Fixed Capital Expenditure",
+            "110,000"
+          ],
+          [
+            "Working Capital Expenditure",
+            "77,000"
+          ],
+          [
+            "Net Borrowing",
+            "65,000"
+          ],
+          [
+            "Tax Rate",
+            "30%"
+          ],
+          [
+            "Interest Rate",
+            "8%"
+          ]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$108,000",
+          "text_ru": "$108,000"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$120,000",
+          "text_ru": "$120,000"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$200,000",
+          "text_ru": "$200,000"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The FCFF of Grand Co. is calculated by using the FCFF equation: FCFF = Net Income + Depreciation + Interest expense(1 - Tax rate) - Working capital expenditure - Fixed capital expenditure. Therefore, FCFF = $200,000 (Net Income) + $70,000 (Depreciation) + $37,000 (Interest expense × (1 - Tax rate)) - $77,000 (Working capital expenditure) - $110,000 (Fixed capital expenditure) = $120,000. Notes: 1. Since Interest expenses are given as net of taxes, we do not need to adjust the interest expense. 2. Net borrowing is only considered in the calculation of FCFE.",
+      "explanation_ru": "FCFF компании Grand Co. рассчитывается с использованием уравнения FCFF: FCFF = Чистая прибыль + Амортизация + Процентные расходы(1 - Налоговая ставка) - Расходы на оборотный капитал - Капитальные затраты. Следовательно, FCFF = $200,000 (Чистая прибыль) + $70,000 (Амортизация) + $37,000 (Процентные расходы × (1 - Налоговая ставка)) - $77,000 (Расходы на оборотный капитал) - $110,000 (Капитальные затраты) = $120,000. Примечания: 1. Поскольку процентные расходы даны за вычетом налогов, нам не нужно корректировать процентные расходы. 2. Чистые заимствования учитываются только при расчете FCFE.",
+      "explanation_formula": "$FCFF = NI + NCC + Int(1 - Tax\\:Rate) - WCInv - FCInv$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Includes tax rate in calculation.",
+          "text_ru": "Включает налоговую ставку в расчет."
+        },
+        "opt_c": {
+          "text_en": "It represents the net income.",
+          "text_ru": "Это представляет собой чистую прибыль."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "fcff",
+        "calculation"
+      ]
+    },
+    {
+      "question_id": "FSA-5-Q007",
+      "original_question_number": 3801,
+      "los_id": "LOS_5b",
+      "question_text_en": "A company reported the following information: The company's cash return on asset ratio is closed to:",
+      "question_text_ru": "Компания сообщила следующую информацию: Коэффициент денежной рентабельности активов компании наиболее близок к:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Item",
+          "Value"
+        ],
+        "headers_ru": [
+          "Статья",
+          "Значение"
+        ],
+        "rows": [
+          [
+            "Net income",
+            "$323 Million"
+          ],
+          [
+            "Cash flow from Investing Activities",
+            "$13 Million"
+          ],
+          [
+            "Cash flow from Financing Activities",
+            "$40 Million"
+          ],
+          [
+            "Cash flow from Operating Activities",
+            "$62 Million"
+          ],
+          [
+            "Total Cash Flows",
+            "$115 Million"
+          ],
+          [
+            "Assets at the beginning of the period",
+            "$100 Million"
+          ],
+          [
+            "Assets at the end of the period",
+            "$143 Million"
+          ]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "0.1069",
+          "text_ru": "0.1069"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "0.5102",
+          "text_ru": "0.5102"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "0.9465",
+          "text_ru": "0.9465"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Recall that: Cash Return on Assets = Cash Flows from Operations / Average Total Assets = 62,000,000 / (1/2 × (100,000,000 + 143,000,000)) = 51.02%",
+      "explanation_ru": "Напомним, что: Денежная рентабельность активов = Денежные потоки от операций / Средние общие активы = 62,000,000 / (1/2 × (100,000,000 + 143,000,000)) = 51.02%",
+      "explanation_formula": "$Cash\\:Return\\:on\\:Assets = \\frac{CFO}{Average\\:Total\\:Assets}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "It has used cash flow from investing activities.",
+          "text_ru": "Он использовал денежный поток от инвестиционной деятельности."
+        },
+        "opt_c": {
+          "text_en": "It has used total cash flows.",
+          "text_ru": "Он использовал общие денежные потоки."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "cash_return_on_assets",
+        "performance_ratio"
+      ]
+    },
+    {
+      "question_id": "FSA-5-Q008",
+      "original_question_number": 3802,
+      "los_id": "LOS_5b",
+      "question_text_en": "Determine the cash flow debt coverage ratio of a company based on the information provided below. Cash Flow Metrics From Investing Activities: $15 Million From Financing Activities: $13 Million From Operating Activities: $90 Million Total Cash Flows: $118 Million Total Debt: $270 Million",
+      "question_text_ru": "Определите коэффициент покрытия долга денежным потоком компании на основе информации, представленной ниже. Показатели денежных потоков От инвестиционной деятельности: $15 млн От финансовой деятельности: $13 млн От операционной деятельности: $90 млн Общие денежные потоки: $118 млн Общий долг: $270 млн",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "0.333",
+          "text_ru": "0.333"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "0.437",
+          "text_ru": "0.437"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "0.556",
+          "text_ru": "0.556"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Recall that: Cash Flow Debt Coverage Ratio = Cash Flow from Operating Activities / Total Debt = $90 Million / $270 Million = 0.3333 or 33.33%",
+      "explanation_ru": "Напомним, что: Коэффициент покрытия долга денежным потоком = Денежный поток от операционной деятельности / Общий долг = $90 млн / $270 млн = 0.3333 или 33.33%",
+      "explanation_formula": "$Debt\\:Coverage\\:Ratio = \\frac{CFO}{Total\\:Debt}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Total cash flows have been used in place of cash flows from operating activities to calculate the cash flow debt coverage ratio.",
+          "text_ru": "Общие денежные потоки были использованы вместо денежных потоков от операционной деятельности для расчета коэффициента покрытия долга денежным потоком."
+        },
+        "opt_c": {
+          "text_en": "Cash flows from investing activities have been used in place of the cash flows from operating activities.",
+          "text_ru": "Денежные потоки от инвестиционной деятельности были использованы вместо денежных потоков от операционной деятельности."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "debt_coverage_ratio",
+        "coverage_ratio"
+      ]
+    },
+    {
+      "question_id": "FSA-5-Q009",
+      "original_question_number": 4734,
+      "los_id": "LOS_5a",
+      "question_text_en": "A company in its growth phase shows a persistent negative operating cash flow over several years despite increasing net income annually. Which of the following implications is most concerning for the company's long-term financial health?",
+      "question_text_ru": "Компания в фазе роста показывает постоянный отрицательный операционный денежный поток в течение нескольких лет, несмотря на ежегодное увеличение чистой прибыли. Какое из следующих последствий наиболее беспокоит в отношении долгосрочного финансового здоровья компании?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The company's inventory management is highly efficient.",
+          "text_ru": "Управление запасами компании очень эффективно."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The company's depreciation methods are likely too aggressive.",
+          "text_ru": "Методы амортизации компании, вероятно, слишком агрессивны."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The company may need to seek external financing to support its operations continuously.",
+          "text_ru": "Компании может потребоваться поиск внешнего финансирования для постоянной поддержки своих операций."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Persistent negative operating cash flow in the context of increasing net income typically indicates that the company's reported earnings do not reflect actual cash generation, which can be unsustainable over the long term. This situation may force the company to rely on external financing, such as debt or equity issuance, to fund its operations, a risky strategy that could jeopardize its financial stability.",
+      "explanation_ru": "Постоянный отрицательный операционный денежный поток в контексте увеличения чистой прибыли обычно указывает на то, что отчетная прибыль компании не отражает фактическую генерацию денежных средств, что может быть неустойчивым в долгосрочной перспективе. Эта ситуация может вынудить компанию полагаться на внешнее финансирование, такое как выпуск долга или акций, для финансирования своих операций, что является рискованной стратегией, которая может поставить под угрозу ее финансовую стабильность.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Efficient inventory management would generally positively impact operating cash flows by reducing cash tied up in inventory, contrary to the scenario described.",
+          "text_ru": "Эффективное управление запасами обычно положительно влияет на операционные денежные потоки, уменьшая денежные средства, связанные в запасах, вопреки описанному сценарию."
+        },
+        "opt_b": {
+          "text_en": "Depreciation methods affect accounting earnings but do not impact cash flows directly. The concern here is not about the aggressiveness of depreciation but the sustainability of the cash flows.",
+          "text_ru": "Методы амортизации влияют на бухгалтерскую прибыль, но не влияют на денежные потоки напрямую. Проблема здесь не в агрессивности амортизации, а в устойчивости денежных потоков."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": [
+        "operating_cash_flow",
+        "earnings_quality"
+      ]
+    },
+    {
+      "question_id": "FSA-5-Q010",
+      "original_question_number": 4735,
+      "los_id": "LOS_5a",
+      "question_text_en": "Which of the following statements is most accurate about the role of common-size cash flow statements in financial analysis?",
+      "question_text_ru": "Какое из следующих утверждений наиболее точно описывает роль отчетов о денежных потоках в общей форме в финансовом анализе?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "They help compare the cash flow structures of companies of different sizes.",
+          "text_ru": "Они помогают сравнивать структуры денежных потоков компаний разных размеров."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "They primarily assist in assessing the profitability of a company's investments.",
+          "text_ru": "Они в основном помогают в оценке прибыльности инвестиций компании."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "They are most useful for determining the exact dollar amounts of cash inflows and outflows.",
+          "text_ru": "Они наиболее полезны для определения точных долларовых сумм денежных притоков и оттоков."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Common-size cash flow statements convert each line item into a percentage of a total (either total inflows or total outflows), which helps compare companies of different sizes by providing a proportional analysis of where cash comes from and where it goes, making size discrepancies between companies less misleading.",
+      "explanation_ru": "Отчеты о денежных потоках в общей форме преобразуют каждую строку в процент от общей суммы (либо общих притоков, либо общих оттоков), что помогает сравнивать компании разных размеров, предоставляя пропорциональный анализ того, откуда поступают и куда уходят денежные средства, делая различия в размерах между компаниями менее вводящими в заблуждение.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Common-size statements focus not on assessing profitability but on the structure and proportions of cash flows.",
+          "text_ru": "Отчеты в общей форме сосредоточены не на оценке прибыльности, а на структуре и пропорциях денежных потоков."
+        },
+        "opt_c": {
+          "text_en": "The common-size analysis does not focus on exact dollar amounts but rather on the proportions that these amounts represent relative to total cash inflows or outflows.",
+          "text_ru": "Анализ в общей форме не фокусируется на точных долларовых суммах, а скорее на пропорциях, которые эти суммы представляют относительно общих денежных притоков или оттоков."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "common_size_analysis",
+        "cash_flow_statement"
+      ]
+    },
+    {
+      "question_id": "FSA-5-Q011",
+      "original_question_number": 4736,
+      "los_id": "LOS_5a",
+      "question_text_en": "Which of the following statements is most accurate?",
+      "question_text_ru": "Какое из следующих утверждений наиболее точно?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "For mature companies, financing activities would be preferable as the primary source of cash flows.",
+          "text_ru": "Для зрелых компаний финансовая деятельность была бы предпочтительна в качестве основного источника денежных потоков."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "If a company has a significant net income despite its negative operating cash flow, this may indicate poor earnings quality.",
+          "text_ru": "Если компания имеет значительную чистую прибыль, несмотря на отрицательный операционный денежный поток, это может указывать на низкое качество прибыли."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "One approach to the common-size analysis of the cash flow statement involves expressing each cash flow (inflows and outflows) as a percentage of total cash inflows.",
+          "text_ru": "Один из подходов к анализу отчета о движении денежных средств в общей форме включает выражение каждого денежного потока (притоков и оттоков) в процентах от общих денежных притоков."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "If a company has a negative operating cash flow and still has a significant net income, this is a manifestation of the poor quality of the company's earnings.",
+      "explanation_ru": "Если компания имеет отрицательный операционный денежный поток и при этом имеет значительную чистую прибыль, это является проявлением низкого качества прибыли компании.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "For a mature company, operating activities, not financing activities, should be the primary source of cash flows.",
+          "text_ru": "Для зрелой компании операционная деятельность, а не финансовая деятельность, должна быть основным источником денежных потоков."
+        },
+        "opt_c": {
+          "text_en": "Common-sizing the cash flow statement entails the expression of each line item of cash inflow as a percentage of total cash inflows and each cash outflow as a percentage of total cash outflow.",
+          "text_ru": "Приведение отчета о движении денежных средств к общей форме включает выражение каждой статьи денежного притока в процентах от общих денежных притоков и каждого денежного оттока в процентах от общего денежного оттока."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["earnings_quality", "operating_cash_flow"]
+    },
+    {
+      "question_id": "FSA-5-Q012",
+      "original_question_number": 4737,
+      "los_id": "LOS_5a",
+      "question_text_en": "A company reported the following figures for the fiscal year: Net income: $120,000, Depreciation and amortization: $30,000, Interest Expense: $20,000, Tax Rate: 40%, Capital Expenditures: $50,000, Increase in Working Capital: $10,000. The Free Cash Flow to the Firm (FCFF) is closest to:",
+      "question_text_ru": "Компания сообщила следующие цифры за финансовый год: Чистая прибыль: $120,000, Амортизация: $30,000, Процентные расходы: $20,000, Налоговая ставка: 40%, Капитальные затраты: $50,000, Увеличение оборотного капитала: $10,000. Свободный денежный поток для фирмы (FCFF) наиболее близок к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$74,000",
+          "text_ru": "$74,000"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$86,000",
+          "text_ru": "$86,000"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$102,000",
+          "text_ru": "$102,000"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "FCFF = NI + NCC + Int(1 - Tax Rate) - FCInv - WCInv = $120,000 + $30,000 + $20,000 × (1 - 0.40) - $50,000 - $10,000 = $120,000 + $30,000 + $12,000 - $50,000 - $10,000 = $102,000",
+      "explanation_ru": "FCFF = ЧП + Амортизация + Проценты(1 - Налоговая ставка) - Капитальные затраты - Изменение оборотного капитала = $120,000 + $30,000 + $20,000 × (1 - 0.40) - $50,000 - $10,000 = $120,000 + $30,000 + $12,000 - $50,000 - $10,000 = $102,000",
+      "explanation_formula": "$FCFF = NI + NCC + Int(1 - Tax\\:Rate) - FCInv - WCInv$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect calculation.",
+          "text_ru": "Неверный расчет."
+        },
+        "opt_b": {
+          "text_en": "Incorrect calculation.",
+          "text_ru": "Неверный расчет."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["fcff", "calculation"]
+    },
+    {
+      "question_id": "FSA-5-Q013",
+      "original_question_number": 4738,
+      "los_id": "LOS_5a",
+      "question_text_en": "Consider the following data from a company's financial statements for the year 2023: CFO (Cash from Operations): $400,000, Interest Paid (post-tax): $24,000, Dividends Paid: $30,000, Long-term Asset Purchases: $100,000. The Cash Flow Coverage ratio for dividends is closest to:",
+      "question_text_ru": "Рассмотрите следующие данные из финансовой отчетности компании за 2023 год: CFO (Денежные средства от операций): $400,000, Уплаченные проценты (после налогов): $24,000, Выплаченные дивиденды: $30,000, Покупки долгосрочных активов: $100,000. Коэффициент покрытия денежным потоком для дивидендов наиболее близок к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "10.35",
+          "text_ru": "10.35"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "15.25",
+          "text_ru": "15.25"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "13.33",
+          "text_ru": "13.33"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Recall that: Dividend Payment Coverage = CFO / Dividends Paid = $400,000 / $30,000 = 13.33",
+      "explanation_ru": "Напомним, что: Покрытие дивидендных выплат = CFO / Выплаченные дивиденды = $400,000 / $30,000 = 13.33",
+      "explanation_formula": "$Dividend\\:Payment\\:Coverage = \\frac{CFO}{Dividends\\:Paid}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect calculation.",
+          "text_ru": "Неверный расчет."
+        },
+        "opt_b": {
+          "text_en": "Incorrect calculation.",
+          "text_ru": "Неверный расчет."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["dividend_coverage", "coverage_ratio"]
+    },
+    {
+      "question_id": "FSA-5-Q014",
+      "original_question_number": 4739,
+      "los_id": "LOS_5a",
+      "question_text_en": "Which of the following best describes the implications of a consistently decreasing Free Cash Flow to the Firm (FCFF) over several years for a company not experiencing significant investments?",
+      "question_text_ru": "Какое из следующих наилучшим образом описывает последствия постоянно снижающегося свободного денежного потока для фирмы (FCFF) в течение нескольких лет для компании, не испытывающей значительных инвестиций?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "It may indicate increased efficiency in asset utilization.",
+          "text_ru": "Это может указывать на повышение эффективности использования активов."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "It reflects an intentional strategy of leveraging for growth.",
+          "text_ru": "Это отражает намеренную стратегию использования заемных средств для роста."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "It suggests potential challenges in sustaining operations without external financing.",
+          "text_ru": "Это предполагает потенциальные проблемы с поддержанием операций без внешнего финансирования."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "A consistently decreasing FCFF suggests potential challenges in sustaining operations without external financing, highlighting possible inefficiencies or declining profitability. This can necessitate external funds to maintain operations.",
+      "explanation_ru": "Постоянно снижающийся FCFF предполагает потенциальные проблемы с поддержанием операций без внешнего финансирования, подчеркивая возможные неэффективности или снижение прибыльности. Это может потребовать внешних средств для поддержания операций.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Decreasing FCFF generally indicates less efficient asset utilization, implying the company is generating less cash relative to its operations and investments.",
+          "text_ru": "Снижающийся FCFF обычно указывает на менее эффективное использование активов, подразумевая, что компания генерирует меньше денежных средств относительно своих операций и инвестиций."
+        },
+        "opt_b": {
+          "text_en": "A decrease in FCFF is generally not a result of a strategic choice to leverage for growth but rather an indicator of potential financial stress or declining operational efficiency.",
+          "text_ru": "Снижение FCFF, как правило, не является результатом стратегического выбора использования заемных средств для роста, а скорее индикатором потенциального финансового стресса или снижения операционной эффективности."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["fcff", "financial_health"]
+    },
+    {
+      "question_id": "FSA-5-Q015",
+      "original_question_number": 4740,
+      "los_id": "LOS_5a",
+      "question_text_en": "Consider a scenario where a company's Free Cash Flow to Equity (FCFE) is significantly higher than its Free Cash Flow to the Firm (FCFF). What does this suggest about the company's financial strategy?",
+      "question_text_ru": "Рассмотрите сценарий, при котором свободный денежный поток на собственный капитал (FCFE) компании значительно выше, чем ее свободный денежный поток для фирмы (FCFF). Что это говорит о финансовой стратегии компании?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The company is likely reducing its debt load aggressively.",
+          "text_ru": "Компания, вероятно, агрессивно сокращает свою долговую нагрузку."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The company is maintaining a high level of reinvestment in fixed assets.",
+          "text_ru": "Компания поддерживает высокий уровень реинвестирования в основные средства."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The company potentially increases its leverage, resulting in higher net borrowing.",
+          "text_ru": "Компания потенциально увеличивает свой леверидж, что приводит к более высоким чистым заимствованиям."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Higher FCFE than FCFF typically indicates increased leverage, as net borrowing boosts FCFE. This suggests a strategic increase in debt to finance operations or growth, which could raise financial risks.",
+      "explanation_ru": "FCFE выше, чем FCFF, обычно указывает на увеличение левериджа, поскольку чистые заимствования увеличивают FCFE. Это предполагает стратегическое увеличение долга для финансирования операций или роста, что может повысить финансовые риски.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Reducing debt would decrease net borrowing, thus reducing FCFE relative to FCFF, not increasing it.",
+          "text_ru": "Сокращение долга уменьшило бы чистые заимствования, тем самым уменьшив FCFE относительно FCFF, а не увеличив его."
+        },
+        "opt_b": {
+          "text_en": "Reinvestment in fixed assets would be captured similarly in FCFF and FCFE calculations and thus would not explain a discrepancy between the two measures.",
+          "text_ru": "Реинвестирование в основные средства было бы учтено аналогичным образом в расчетах FCFF и FCFE и, следовательно, не объяснило бы расхождение между двумя показателями."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": ["fcfe", "fcff", "leverage"]
+    },
+    {
+      "question_id": "FSA-5-Q016",
+      "original_question_number": 4741,
+      "los_id": "LOS_5b",
+      "question_text_en": "A high cash return on assets ratio is observed in a company with relatively stable revenue but significantly fluctuating net income. What could this most likely indicate about the company's earnings?",
+      "question_text_ru": "Высокий коэффициент денежной рентабельности активов наблюдается в компании с относительно стабильной выручкой, но значительно колеблющейся чистой прибылью. Что это наиболее вероятно может указывать на прибыль компании?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The company has made several large, one-time sales of assets.",
+          "text_ru": "Компания совершила несколько крупных разовых продаж активов."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The company might be involved in aggressive earnings management.",
+          "text_ru": "Компания может быть вовлечена в агрессивное управление прибылью."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The company is experiencing substantial non-cash expenses like depreciation or amortization.",
+          "text_ru": "Компания испытывает значительные неденежные расходы, такие как амортизация."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Significant non-cash expenses such as depreciation or amortization could explain why net income fluctuates despite stable revenue, as these expenses reduce net income but do not impact cash flow.",
+      "explanation_ru": "Значительные неденежные расходы, такие как амортизация, могут объяснить, почему чистая прибыль колеблется, несмотря на стабильную выручку, поскольку эти расходы уменьшают чистую прибыль, но не влияют на денежный поток.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "One-time sales of assets would typically increase, not decrease, net income in the short term and would be irregular, affecting cash flows and not explaining consistently high Cash Return on Assets.",
+          "text_ru": "Разовые продажи активов обычно увеличивают, а не уменьшают чистую прибыль в краткосрочной перспективе и были бы нерегулярными, влияя на денежные потоки и не объясняя постоянно высокую денежную рентабельность активов."
+        },
+        "opt_b": {
+          "text_en": "While earnings management could cause fluctuations, it does not directly relate to a stable revenue scenario affecting the Cash Return on Assets.",
+          "text_ru": "Хотя управление прибылью может вызвать колебания, оно не связано напрямую со сценарием стабильной выручки, влияющим на денежную рентабельность активов."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": ["cash_return_on_assets", "non_cash_expenses"]
+    },
+    {
+      "question_id": "FSA-5-Q017",
+      "original_question_number": 4742,
+      "los_id": "LOS_5b",
+      "question_text_en": "What does a declining debt payment coverage ratio over time generally most likely indicate about a company's financial health?",
+      "question_text_ru": "Что снижающийся коэффициент покрытия погашения долга с течением времени обычно наиболее вероятно указывает на финансовое здоровье компании?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The company opts to refinance its existing debts rather than pay them down.",
+          "text_ru": "Компания предпочитает рефинансировать свои существующие долги, а не погашать их."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The company increasingly uses its cash flow for investment rather than debt repayment.",
+          "text_ru": "Компания все чаще использует свой денежный поток для инвестиций, а не для погашения долга."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The company's operational cash flow is deteriorating relative to its long-term debt obligations.",
+          "text_ru": "Операционный денежный поток компании ухудшается по отношению к ее долгосрочным долговым обязательствам."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Recall that the debt payment coverage ratio is calculated as: Debt coverage ratio = Cash flow from operations / Total debt. A declining Debt Payment Coverage ratio suggests the company's cash flow from operations is insufficient to cover its debt obligations, indicating potential financial distress or inefficiency.",
+      "explanation_ru": "Напомним, что коэффициент покрытия погашения долга рассчитывается как: Коэффициент покрытия долга = Денежный поток от операций / Общий долг. Снижающийся коэффициент покрытия погашения долга предполагает, что денежный поток компании от операций недостаточен для покрытия ее долговых обязательств, указывая на потенциальные финансовые трудности или неэффективность.",
+      "explanation_formula": "$Debt\\:Coverage\\:Ratio = \\frac{CFO}{Total\\:Debt}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Refinancing debt generally wouldn't directly cause a decline in this ratio unless it involves unfavorable terms that increase the debt burden or payment schedules.",
+          "text_ru": "Рефинансирование долга обычно не приведет напрямую к снижению этого коэффициента, если только оно не включает неблагоприятные условия, которые увеличивают долговую нагрузку или графики платежей."
+        },
+        "opt_b": {
+          "text_en": "Using cash for investment would typically not lead to a decline in this ratio unless these investments fail to generate sufficient returns or cash flow.",
+          "text_ru": "Использование денежных средств для инвестиций обычно не приведет к снижению этого коэффициента, если только эти инвестиции не принесут достаточной прибыли или денежного потока."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["debt_coverage", "financial_health"]
+    },
+    {
+      "question_id": "FSA-5-Q018",
+      "original_question_number": 4743,
+      "los_id": "LOS_5b",
+      "question_text_en": "Suppose a company shows a consistently high cash flow to revenue ratio while its net income to revenue ratio is declining. What might this most likely indicate about its operational practices?",
+      "question_text_ru": "Предположим, компания показывает постоянно высокий коэффициент денежного потока к выручке, в то время как ее коэффициент чистой прибыли к выручке снижается. Что это наиболее вероятно может указывать на ее операционные практики?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The company may be realizing high non-operating revenues.",
+          "text_ru": "Компания может реализовывать высокие неоперационные доходы."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The company is effectively controlling its operational cash expenditures.",
+          "text_ru": "Компания эффективно контролирует свои операционные денежные расходы."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The company is likely facing increasing non-cash charges impacting profitability.",
+          "text_ru": "Компания, вероятно, сталкивается с растущими неденежными расходами, влияющими на прибыльность."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Increasing non-cash charges like depreciation or amortization would reduce net income while not affecting cash flow. This could explain the high Cash Flow to Revenue ratio alongside a declining Net Income to Revenue ratio.",
+      "explanation_ru": "Растущие неденежные расходы, такие как амортизация, уменьшили бы чистую прибыль, не влияя на денежный поток. Это могло бы объяснить высокий коэффициент денежного потока к выручке наряду со снижающимся коэффициентом чистой прибыли к выручке.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Non-operating revenues would affect cash flow and net income similarly, thus not explaining a divergence between these ratios.",
+          "text_ru": "Неоперационные доходы повлияли бы на денежный поток и чистую прибыль аналогичным образом, таким образом, не объясняя расхождение между этими коэффициентами."
+        },
+        "opt_b": {
+          "text_en": "Effective cash expenditure control would generally support high cash flow and net income ratios.",
+          "text_ru": "Эффективный контроль денежных расходов обычно поддерживал бы высокие коэффициенты денежного потока и чистой прибыли."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": ["cash_flow_to_revenue", "non_cash_charges"]
+    }
+  ]
+}
