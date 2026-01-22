@@ -1,0 +1,722 @@
+{
+  "metadata": {
+    "book_id": 3,
+    "book_code": "FSA",
+    "book_name": "Financial Statement Analysis",
+    "book_name_ru": "Анализ финансовой отчетности",
+    "module_id": 4,
+    "module_name": "Analyzing Statements of Cash Flows",
+    "module_name_ru": "Анализ отчетов о движении денежных средств",
+    "total_questions": 10,
+    "version": "2.0",
+    "source": "AnalystPrep QBank"
+  },
+  "questions": [
+    {
+      "question_id": "FSA-4-Q001",
+      "original_question_number": 474,
+      "los_id": "LOS_4d",
+      "question_text_en": "Which of the following statements is least likely accurate?",
+      "question_text_ru": "Какое из следующих утверждений наименее вероятно является точным?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "US GAAP allows the recognition of interest expenses as operating or financing expenses.",
+          "text_ru": "US GAAP разрешает признание процентных расходов как операционных или финансовых расходов."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "IFRS allows the recognition of interest expenses as operating or financing expenses.",
+          "text_ru": "МСФО разрешает признание процентных расходов как операционных или финансовых расходов."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Interest expenses are always classified as operating activity under US GAAP.",
+          "text_ru": "Процентные расходы всегда классифицируются как операционная деятельность в соответствии с US GAAP."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Interest expenses are always classified as operating expenses under US GAAP. However, they can be classified as either operating or financing expenses under IFRS.",
+      "explanation_ru": "Процентные расходы всегда классифицируются как операционные расходы в соответствии с US GAAP. Однако они могут классифицироваться как операционные или финансовые расходы в соответствии с МСФО.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "This statement is correct. IFRS provides flexibility in classifying interest expenses.",
+          "text_ru": "Это утверждение верно. МСФО обеспечивают гибкость в классификации процентных расходов."
+        },
+        "opt_c": {
+          "text_en": "This statement is correct. Under US GAAP, interest expenses must always be classified as operating activities.",
+          "text_ru": "Это утверждение верно. В соответствии с US GAAP процентные расходы всегда должны классифицироваться как операционная деятельность."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "cash_flow_classification",
+        "ifrs_vs_us_gaap"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q002",
+      "original_question_number": 477,
+      "los_id": "LOS_4b",
+      "question_text_en": "The accountant of a small firm has recorded the following information for the year 2016:",
+      "question_text_ru": "Бухгалтер небольшой фирмы зафиксировал следующую информацию за 2016 год:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Item",
+          "Amount"
+        ],
+        "headers_ru": [
+          "Статья",
+          "Сумма"
+        ],
+        "rows": [
+          [
+            "Book value of PPE at the beginning of the year",
+            "$100,000"
+          ],
+          [
+            "Book value of PPE at the end of the year",
+            "$130,000"
+          ],
+          [
+            "Sale of a plant during the year",
+            "$8,000"
+          ],
+          [
+            "The book value of the plant on the date of the sale",
+            "$15,000"
+          ],
+          [
+            "Depreciation charged during the year",
+            "$20,000"
+          ]
+        ]
+      },
+      "question_continuation_en": "From the given data, the cash flow from investing activities is closest to a:",
+      "question_continuation_ru": "Из приведенных данных денежный поток от инвестиционной деятельности ближе всего к:",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "cash inflow of $8,000.",
+          "text_ru": "притоку денежных средств в размере $8,000."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "cash inflow of $15,000.",
+          "text_ru": "притоку денежных средств в размере $15,000."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "cash outflow of $57,000.",
+          "text_ru": "оттоку денежных средств в размере $57,000."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Cash flow = Cash received from the sale of the plant − Cash paid on the purchase of the plant. Cash paid on the purchase = Closing book value + The book value of the plant on the date of the sale + Depreciation − Opening book value = $130,000 + $15,000 + $20,000 − $100,000 = $65,000. Cash flow = $8,000 − $65,000 = −$57,000",
+      "explanation_ru": "Денежный поток = Денежные средства, полученные от продажи завода − Денежные средства, выплаченные при покупке завода. Денежные средства, выплаченные при покупке = Конечная балансовая стоимость + Балансовая стоимость завода на дату продажи + Амортизация − Начальная балансовая стоимость = $130,000 + $15,000 + $20,000 − $100,000 = $65,000. Денежный поток = $8,000 − $65,000 = −$57,000",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Considers only the sale of the plant.",
+          "text_ru": "Неверно. Учитывает только продажу завода."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. This contradicts option C.",
+          "text_ru": "Неверно. Это противоречит варианту C."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "cash_flow_investing",
+        "ppe_transactions"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q003",
+      "original_question_number": 2062,
+      "los_id": "LOS_4d",
+      "question_text_en": "Firm A reports under US GAAP, and Firm B follows IFRS. Both firms sell identical assets held for investment purposes for the same price of $2.5 million. Assuming that the income tax on the sale of the investment is $275,000, which firm is most likely to report lower cash flows from operating activities?",
+      "question_text_ru": "Фирма A отчитывается по US GAAP, а фирма B следует МСФО. Обе фирмы продают идентичные активы, предназначенные для инвестиционных целей, по одинаковой цене $2.5 миллиона. Предполагая, что налог на прибыль от продажи инвестиции составляет $275,000, какая фирма скорее всего отчитается о более низком денежном потоке от операционной деятельности?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Firm A.",
+          "text_ru": "Фирма A."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Firm B.",
+          "text_ru": "Фирма B."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Both firms will always have identical cash flows from operations.",
+          "text_ru": "Обе фирмы всегда будут иметь одинаковые денежные потоки от операций."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Firm A, which reports under US GAAP, is more likely to report lower cash flows from operating activities compared to Firm B, which follows IFRS. Under US GAAP, firms are required to classify the cash flows related to income taxes as operating activities. This means that the income tax expense of $275,000 from the sale of the investment would reduce the cash flows from operating activities reported by Firm A. In contrast, IFRS provides firms with the flexibility to classify cash flows related to income taxes as either operating or investing activities, depending on the nature of the underlying transaction. Therefore, Firm B has the option to report the income tax expense under investing activities, potentially leaving its cash flows from operating activities unaffected by this tax expense.",
+      "explanation_ru": "Фирма A, которая отчитывается по US GAAP, скорее всего отчитается о более низком денежном потоке от операционной деятельности по сравнению с фирмой B, которая следует МСФО. В соответствии с US GAAP фирмы обязаны классифицировать денежные потоки, связанные с налогами на прибыль, как операционную деятельность. Это означает, что налоговые расходы в размере $275,000 от продажи инвестиции уменьшат денежные потоки от операционной деятельности, о которых отчитывается фирма A. В отличие от этого, МСФО предоставляют фирмам гибкость в классификации денежных потоков, связанных с налогами на прибыль, как операционной или инвестиционной деятельности, в зависимости от характера базовой транзакции. Таким образом, фирма B имеет возможность отнести налоговые расходы к инвестиционной деятельности, потенциально оставляя свои денежные потоки от операционной деятельности незатронутыми этими налоговыми расходами.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. It suggests that Firm B is more likely to report lower cash flows from operating activities. However, given the flexibility under IFRS to classify income tax cash flows related to the sale of investment assets as either operating or investing activities, Firm B may not necessarily report lower cash flows from operating activities compared to Firm A.",
+          "text_ru": "Неверно. Это предполагает, что фирма B скорее всего отчитается о более низком денежном потоке от операционной деятельности. Однако, учитывая гибкость МСФО в классификации денежных потоков по налогу на прибыль, связанных с продажей инвестиционных активов, как операционной или инвестиционной деятельности, фирма B не обязательно отчитается о более низком денежном потоке от операционной деятельности по сравнению с фирмой A."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It suggests that both firms will always have identical cash flows from operations. This overlooks the significant impact of the different accounting standards (US GAAP and IFRS) on the classification of income tax cash flows.",
+          "text_ru": "Неверно. Это предполагает, что обе фирмы всегда будут иметь одинаковые денежные потоки от операций. Это упускает из виду значительное влияние различных стандартов бухгалтерского учета (US GAAP и МСФО) на классификацию денежных потоков по налогу на прибыль."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "ifrs_vs_us_gaap",
+        "income_tax_classification"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q004",
+      "original_question_number": 2063,
+      "los_id": "LOS_4b",
+      "question_text_en": "Which of the following is least likely accurate regarding the presentation of cash flow statements?",
+      "question_text_ru": "Какое из следующих утверждений наименее вероятно является точным относительно представления отчетов о движении денежных средств?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "In the direct method, we start by listing cash payments and receipts.",
+          "text_ru": "В прямом методе мы начинаем с перечисления денежных платежей и поступлений."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Under the direct method, adjustments related to depreciation and amortization are necessary.",
+          "text_ru": "При использовании прямого метода необходимы корректировки, связанные с амортизацией."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The starting point of the indirect method of presenting the statement of cash flows is 'Net income.'",
+          "text_ru": "Отправной точкой косвенного метода представления отчета о движении денежных средств является 'Чистая прибыль'."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "In reality, the direct method focuses on the actual cash flows from operating activities, including cash received from customers and cash paid to suppliers and employees. It does not require adjustments for non-cash items like depreciation and amortization because it reports the cash transactions directly, without starting from net income or any other accrual-based measure. This is a fundamental distinction from the indirect method, which starts with net income and then adjusts for non-cash transactions, including depreciation and amortization, to arrive at the cash flow from operating activities.",
+      "explanation_ru": "На самом деле прямой метод фокусируется на фактических денежных потоках от операционной деятельности, включая денежные средства, полученные от клиентов, и денежные средства, выплаченные поставщикам и сотрудникам. Он не требует корректировок для неденежных статей, таких как амортизация, потому что он отражает денежные операции напрямую, не начиная с чистой прибыли или любой другой меры на основе начисления. Это фундаментальное отличие от косвенного метода, который начинается с чистой прибыли, а затем корректирует неденежные операции, включая амортизацию, для получения денежного потока от операционной деятельности.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. It accurately describes the direct method of cash flow presentation. The direct method involves listing the major categories of gross cash receipts and gross cash payments.",
+          "text_ru": "Неверно. Это точно описывает прямой метод представления денежных потоков. Прямой метод включает перечисление основных категорий валовых денежных поступлений и валовых денежных платежей."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It links the cash flow statement to the income statement and balance sheet, providing a comprehensive view of a company's financial health.",
+          "text_ru": "Неверно. Это связывает отчет о движении денежных средств с отчетом о прибылях и убытках и балансом, обеспечивая всестороннее представление о финансовом состоянии компании."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "direct_method",
+        "indirect_method",
+        "depreciation"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q005",
+      "original_question_number": 2068,
+      "los_id": "LOS_4b",
+      "question_text_en": "Petrobras, an oil shipping company, reported interest expense of $24 million and taxes of $10 million. Interest payable increased by $8 million, while taxes payable decreased by $3 million over the period. How much cash did the company pay for interest and taxes?",
+      "question_text_ru": "Petrobras, нефтеперевозочная компания, отчиталась о процентных расходах в размере $24 миллиона и налогах в размере $10 миллионов. Проценты к уплате увеличились на $8 миллионов, в то время как налоги к уплате уменьшились на $3 миллиона за период. Сколько денежных средств компания выплатила на проценты и налоги?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$16 million for interest and $7 million for taxes.",
+          "text_ru": "$16 миллионов на проценты и $7 миллионов на налоги."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$16 million for interest and $13 million for taxes.",
+          "text_ru": "$16 миллионов на проценты и $13 миллионов на налоги."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$32 million for interest and $13 million for taxes.",
+          "text_ru": "$32 миллиона на проценты и $13 миллионов на налоги."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Note that if interest payable increases (decreases) during the year, then interest expense on an accrual basis will be higher (lower) than the amount of cash paid for interest. Thus, in this case: Interest paid = Interest expense − Increase in interest payable = $24 − $8 = $16. Moreover, if taxes payable or deferred tax liabilities increase (decrease) during the year, income tax expense on a cash basis will be lower (higher) than on an accrual basis. Thus, in this case: Taxes paid = Tax expense + decrease in taxes payable = $10 + $3 = $13",
+      "explanation_ru": "Обратите внимание, что если проценты к уплате увеличиваются (уменьшаются) в течение года, то процентные расходы на основе начисления будут выше (ниже), чем сумма денежных средств, выплаченных на проценты. Таким образом, в данном случае: Выплаченные проценты = Процентные расходы − Увеличение процентов к уплате = $24 − $8 = $16. Более того, если налоги к уплате или отложенные налоговые обязательства увеличиваются (уменьшаются) в течение года, расходы по налогу на прибыль на денежной основе будут ниже (выше), чем на основе начисления. Таким образом, в данном случае: Выплаченные налоги = Налоговые расходы + уменьшение налогов к уплате = $10 + $3 = $13",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This calculation does not properly account for the decrease in taxes payable.",
+          "text_ru": "Неверно. Этот расчет неправильно учитывает уменьшение налогов к уплате."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This incorrectly adds the increase in interest payable instead of subtracting it.",
+          "text_ru": "Неверно. Это неправильно добавляет увеличение процентов к уплате вместо его вычитания."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "cash_basis",
+        "accrual_basis",
+        "interest_paid",
+        "taxes_paid"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q006",
+      "original_question_number": 2069,
+      "los_id": "LOS_4b",
+      "question_text_en": "Assume, for this question, that Alaska Tex recently changed its accounting standard from US GAAP to IFRS and earned $500,000 in net income in 2016. The interest expenses are related to financing activity. Using the accounts given in the following table, calculate the cash flow from operations using the indirect method after making appropriate adjustments to net income.",
+      "question_text_ru": "Предположим для этого вопроса, что Alaska Tex недавно изменила свой стандарт бухгалтерского учета с US GAAP на МСФО и получила $500,000 чистой прибыли в 2016 году. Процентные расходы связаны с финансовой деятельностью. Используя счета, приведенные в следующей таблице, рассчитайте денежный поток от операций, используя косвенный метод после внесения соответствующих корректировок в чистую прибыль.",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Account",
+          "2016",
+          "2015"
+        ],
+        "headers_ru": [
+          "Счет",
+          "2016",
+          "2015"
+        ],
+        "rows": [
+          [
+            "Depreciation Exp.",
+            "100,000",
+            "80,000"
+          ],
+          [
+            "Gain on Sale of Land",
+            "55,000",
+            ""
+          ],
+          [
+            "Interest Exp.",
+            "37,000",
+            "22,000"
+          ],
+          [
+            "Plant",
+            "450,000",
+            "370,000"
+          ],
+          [
+            "Accounts Receivable",
+            "170,000",
+            "135,000"
+          ],
+          [
+            "Inventory",
+            "90,000",
+            "115,000"
+          ],
+          [
+            "Wages Payable",
+            "87,000",
+            "69,000"
+          ],
+          [
+            "Taxes Payable",
+            "85,000",
+            "63,000"
+          ]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$538,000",
+          "text_ru": "$538,000"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$590,000",
+          "text_ru": "$590,000"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$612,000",
+          "text_ru": "$612,000"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "To calculate CFO using the indirect method, we need to adjust Net Income for non-cash charges and non-operating activities and, since we are assuming that Alaska reports under IFRS, we need to add back Interest expense related to financing activities to the Net Income and subtract the same interest expense from cash flow from financing activities. Net Income to be used for the calculation of CFO = $500,000 + $100,000 - $55,000 + $37,000 = $582,000. Then: Net Income $500,000 + Depreciation Expense $100,000 - Gain on Sale of Land $55,000 + Interest Expenses $37,000 - Increase in Accounts Receivable $35,000 + Decrease in Inventory $25,000 + Increase in Wages Payable $18,000 + Increase in Taxes Payable $22,000 = Total CFO $612,000",
+      "explanation_ru": "Для расчета CFO с использованием косвенного метода нам необходимо скорректировать Чистую прибыль на неденежные расходы и неоперационную деятельность, и поскольку мы предполагаем, что Alaska отчитывается по МСФО, нам необходимо добавить обратно Процентные расходы, связанные с финансовой деятельностью, к Чистой прибыли и вычесть те же процентные расходы из денежного потока от финансовой деятельности. Чистая прибыль, используемая для расчета CFO = $500,000 + $100,000 - $55,000 + $37,000 = $582,000. Затем: Чистая прибыль $500,000 + Амортизационные расходы $100,000 - Прибыль от продажи земли $55,000 + Процентные расходы $37,000 - Увеличение дебиторской задолженности $35,000 + Уменьшение запасов $25,000 + Увеличение заработной платы к уплате $18,000 + Увеличение налогов к уплате $22,000 = Итого CFO $612,000",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This calculation does not properly account for the adjustments required under IFRS for interest expenses related to financing activities.",
+          "text_ru": "Неверно. Этот расчет неправильно учитывает корректировки, требуемые МСФО для процентных расходов, связанных с финансовой деятельностью."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. This calculation misses some of the required adjustments.",
+          "text_ru": "Неверно. В этом расчете отсутствуют некоторые необходимые корректировки."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": [
+        "indirect_method",
+        "ifrs",
+        "cfo_calculation"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q007",
+      "original_question_number": 2070,
+      "los_id": "LOS_4b",
+      "question_text_en": "Atlas Corp. is a fast-moving consumers firm based in Italy whose financial data is provided in the following table. For this question only, assume that Loss on the sale of land is $5 million.",
+      "question_text_ru": "Atlas Corp. - это быстроразвивающаяся потребительская компания, базирующаяся в Италии, финансовые данные которой представлены в следующей таблице. Только для этого вопроса предположим, что убыток от продажи земли составляет $5 миллионов.",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "(In million $)",
+          "2005",
+          "2004"
+        ],
+        "headers_ru": [
+          "(В миллионах $)",
+          "2005",
+          "2004"
+        ],
+        "rows": [
+          [
+            "Accounts Receivable",
+            "96",
+            "85"
+          ],
+          [
+            "Inventory",
+            "75",
+            "65"
+          ],
+          [
+            "Gross Land",
+            "85",
+            "96"
+          ],
+          [
+            "Gross Plant",
+            "46",
+            "31"
+          ],
+          [
+            "Accumulated Depreciation",
+            "11",
+            "6"
+          ],
+          [
+            "Net Plant",
+            "35",
+            "25"
+          ]
+        ]
+      },
+      "question_continuation_en": "The cash from the sale of land using the given data is closest to:",
+      "question_continuation_ru": "Денежные средства от продажи земли с использованием приведенных данных ближе всего к:",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "-$16 million.",
+          "text_ru": "-$16 миллионов."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$6 million.",
+          "text_ru": "$6 миллионов."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$16 million.",
+          "text_ru": "$16 миллионов."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "To determine the cash received from the sale of land for Atlas Corp., we need to analyze the change in the gross land value from the financial data provided and account for the loss on the sale of land. The gross land value decreased from $96 million in 2004 to $85 million in 2005, indicating a decrease of $11 million. This decrease represents the book value of the land that was sold. Additionally, it is given that there was a loss on the sale of land amounting to $5 million. The loss on sale indicates that the land was sold for less than its book value. To find the actual cash received from the sale, we subtract the loss from the decrease in the book value of the land: Cash from sale of Land = $11 (Decrease in Land) − $5 (Loss on sale of Land) = $6 million",
+      "explanation_ru": "Чтобы определить денежные средства, полученные от продажи земли для Atlas Corp., нам необходимо проанализировать изменение валовой стоимости земли из предоставленных финансовых данных и учесть убыток от продажи земли. Валовая стоимость земли уменьшилась с $96 миллионов в 2004 году до $85 миллионов в 2005 году, что указывает на уменьшение на $11 миллионов. Это уменьшение представляет собой балансовую стоимость проданной земли. Кроме того, дано, что был убыток от продажи земли в размере $5 миллионов. Убыток от продажи указывает на то, что земля была продана дешевле своей балансовой стоимости. Чтобы найти фактические денежные средства, полученные от продажи, мы вычитаем убыток из уменьшения балансовой стоимости земли: Денежные средства от продажи земли = $11 (Уменьшение земли) − $5 (Убыток от продажи земли) = $6 миллионов",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This incorrectly applies the loss calculation.",
+          "text_ru": "Неверно. Это неправильно применяет расчет убытка."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This does not account for the loss on the sale of land.",
+          "text_ru": "Неверно. Это не учитывает убыток от продажи земли."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "cash_from_sale",
+        "loss_on_sale",
+        "investing_activities"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q008",
+      "original_question_number": 2071,
+      "los_id": "LOS_4b",
+      "question_text_en": "Atlas Corp. is a fast-moving consumers firm based in Italy whose financial data is provided in the following table. For this question only, assume that Loss on the sale of Land is $5 million. Calculate the cash flow from investing activities using the given data.",
+      "question_text_ru": "Atlas Corp. - это быстроразвивающаяся потребительская компания, базирующаяся в Италии, финансовые данные которой представлены в следующей таблице. Только для этого вопроса предположим, что убыток от продажи земли составляет $5 миллионов. Рассчитайте денежный поток от инвестиционной деятельности, используя приведенные данные.",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "(In million $)",
+          "2005",
+          "2004"
+        ],
+        "headers_ru": [
+          "(В миллионах $)",
+          "2005",
+          "2004"
+        ],
+        "rows": [
+          [
+            "Accounts Receivable",
+            "96",
+            "85"
+          ],
+          [
+            "Inventory",
+            "75",
+            "65"
+          ],
+          [
+            "Gross Land",
+            "85",
+            "96"
+          ],
+          [
+            "Gross Plant",
+            "46",
+            "31"
+          ],
+          [
+            "Accumulated Depreciation",
+            "11",
+            "6"
+          ],
+          [
+            "Net Plant",
+            "35",
+            "25"
+          ]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$-9 million.",
+          "text_ru": "$-9 миллионов."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$-1 million.",
+          "text_ru": "$-1 миллион."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$6 million.",
+          "text_ru": "$6 миллионов."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Cash flow from investing activities is calculated by determining the change in gross assets accounts. First, we will calculate the cash received from the sale of Land: Cash from sale of Land = $11 (Decrease in Land) − $5 (Loss on sale of Land) = $6 million. Secondly, we will calculate: Cash paid for the new plant = $46 million (Ending gross Plant) + $0 (Gross cost of the old asset sold) − $31 million (Beginning gross assets) = $15 million. Therefore, Total Cash flow from Investing activities = $6 million (Cash received from the sale of land) − $15 million (Cash paid for the new plant) = -$9 million. Notes: Accounts receivable and inventory are ignored in the calculation of investing activities as they are part of operating activities. Also, only the gross asset values are used, not net assets values.",
+      "explanation_ru": "Денежный поток от инвестиционной деятельности рассчитывается путем определения изменения счетов валовых активов. Сначала мы рассчитаем денежные средства, полученные от продажи земли: Денежные средства от продажи земли = $11 (Уменьшение земли) − $5 (Убыток от продажи земли) = $6 миллионов. Во-вторых, мы рассчитаем: Денежные средства, выплаченные за новый завод = $46 миллионов (Конечный валовый завод) + $0 (Валовая стоимость проданного старого актива) − $31 миллион (Начальные валовые активы) = $15 миллионов. Следовательно, Итого денежный поток от инвестиционной деятельности = $6 миллионов (Денежные средства, полученные от продажи земли) − $15 миллионов (Денежные средства, выплаченные за новый завод) = -$9 миллионов. Примечания: Дебиторская задолженность и запасы игнорируются при расчете инвестиционной деятельности, так как они являются частью операционной деятельности. Также используются только валовые значения активов, а не чистые значения активов.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This calculation does not properly account for all investing activities.",
+          "text_ru": "Неверно. Этот расчет неправильно учитывает всю инвестиционную деятельность."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This only considers the cash from the sale of land and ignores the purchase of the plant.",
+          "text_ru": "Неверно. Это учитывает только денежные средства от продажи земли и игнорирует покупку завода."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": [
+        "investing_activities",
+        "cash_flow_calculation"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q009",
+      "original_question_number": 2073,
+      "los_id": "LOS_4b",
+      "question_text_en": "A firm recently adjusted its capital structure, and some of the accounts related to its balance sheet are given in the following table:",
+      "question_text_ru": "Фирма недавно скорректировала свою структуру капитала, и некоторые счета, связанные с ее балансом, приведены в следующей таблице:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Year",
+          "2015",
+          "2014"
+        ],
+        "headers_ru": [
+          "Год",
+          "2015",
+          "2014"
+        ],
+        "rows": [
+          [
+            "Dividends Payable",
+            "$69,000",
+            "$24,000"
+          ],
+          [
+            "Bonds",
+            "$160,000",
+            "$90,000"
+          ],
+          [
+            "Common Shares",
+            "$250,000",
+            "$300,000"
+          ]
+        ]
+      },
+      "question_continuation_en": "Assuming that the company recently paid dividends of $100,000, the cash flow from financing activities is closest to:",
+      "question_continuation_ru": "Предполагая, что компания недавно выплатила дивиденды в размере $100,000, денежный поток от финансовой деятельности ближе всего к:",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "-$35,000.",
+          "text_ru": "-$35,000."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$15,000.",
+          "text_ru": "$15,000."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$70,000.",
+          "text_ru": "$70,000."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "To calculate the cash flow from financing activities we need to calculate the net cash effect of dividends, bonds, and shares. Step 1: Cash dividends = $45,000 (Increase in Dividends payable) − $100,000 = −$55,000. Step 2: Cash from the issuance of the bond = $160,000 (Ending Bonds payable) + 0 (Bond repaid) − $90,000 (Beginning Bonds payable) = $70,000. Step 3: Cash paid for repurchase of stock = $300,000 (Beginning shares) + $0 (Shares issued) − $250,000 (Ending shares) = $50,000. Step 4: Total Cash flow from financing activities = Cash Dividends (-$55,000) + Cash Received from Sale of Bond ($70,000) + Cash Paid for Repurchase of Shares (-$50,000) = -$35,000",
+      "explanation_ru": "Чтобы рассчитать денежный поток от финансовой деятельности, нам необходимо рассчитать чистый денежный эффект от дивидендов, облигаций и акций. Шаг 1: Денежные дивиденды = $45,000 (Увеличение дивидендов к уплате) − $100,000 = −$55,000. Шаг 2: Денежные средства от выпуска облигаций = $160,000 (Конечные облигации к уплате) + 0 (Погашенные облигации) − $90,000 (Начальные облигации к уплате) = $70,000. Шаг 3: Денежные средства, выплаченные за выкуп акций = $300,000 (Начальные акции) + $0 (Выпущенные акции) − $250,000 (Конечные акции) = $50,000. Шаг 4: Итого денежный поток от финансовой деятельности = Денежные дивиденды (-$55,000) + Денежные средства, полученные от продажи облигаций ($70,000) + Денежные средства, выплаченные за выкуп акций (-$50,000) = -$35,000",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. It does not consider cash paid for the repurchase of shares.",
+          "text_ru": "Неверно. Это не учитывает денежные средства, выплаченные за выкуп акций."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It is the cash from the issuance of the bond only.",
+          "text_ru": "Неверно. Это только денежные средства от выпуска облигаций."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": [
+        "financing_activities",
+        "dividends",
+        "bonds",
+        "share_repurchase"
+      ]
+    },
+    {
+      "question_id": "FSA-4-Q010",
+      "original_question_number": 2074,
+      "los_id": "LOS_4b",
+      "question_text_en": "Which of the following transactions is most likely considered an investing activity under IFRS?",
+      "question_text_ru": "Какая из следующих транзакций наиболее вероятно считается инвестиционной деятельностью в соответствии с МСФО?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Interest received.",
+          "text_ru": "Полученные проценты."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Dividend paid on shares.",
+          "text_ru": "Дивиденды, выплаченные по акциям."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Increase in accounts receivables.",
+          "text_ru": "Увеличение дебиторской задолженности."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Under International Financial Reporting Standards (IFRS), interest received is classified as either an operating activity or an investing activity, depending on the nature of the income and the company's operations. This classification flexibility allows companies to align the presentation of their cash flows with the nature of their business. In many cases, interest received is considered an investing activity because it represents returns on investments such as loans, debt securities, or other financial assets.",
+      "explanation_ru": "В соответствии с Международными стандартами финансовой отчетности (МСФО) полученные проценты классифицируются как операционная деятельность или инвестиционная деятельность, в зависимости от характера дохода и операций компании. Эта гибкость классификации позволяет компаниям выравнивать представление своих денежных потоков с характером их бизнеса. Во многих случаях полученные проценты считаются инвестиционной деятельностью, потому что они представляют собой доходность от инвестиций, таких как займы, долговые ценные бумаги или другие финансовые активы.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Dividend paid on shares is typically classified under financing activities, not investing activities. Financing activities involve transactions with shareholders and creditors that affect the equity and debt structure of the company.",
+          "text_ru": "Неверно. Дивиденды, выплаченные по акциям, обычно классифицируются как финансовая деятельность, а не инвестиционная деятельность. Финансовая деятельность включает транзакции с акционерами и кредиторами, которые влияют на структуру капитала и долга компании."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. An increase in accounts receivables is considered an operating activity, not an investing activity. Operating activities are the principal revenue-producing activities of the entity and other activities that are not investing or financing activities.",
+          "text_ru": "Неверно. Увеличение дебиторской задолженности считается операционной деятельностью, а не инвестиционной деятельностью. Операционная деятельность - это основная деятельность предприятия, приносящая доход, и другая деятельность, которая не является инвестиционной или финансовой деятельностью."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "ifrs",
+        "interest_received",
+        "investing_activities"
+      ]
+    }
+  ]
+}
