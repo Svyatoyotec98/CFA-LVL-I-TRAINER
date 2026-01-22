@@ -7,7 +7,7 @@
     "module_id": 6,
     "module_name": "Analysis of Long-Lived Assets",
     "module_name_ru": "Анализ долгосрочных активов",
-    "total_questions": 20,
+    "total_questions": 30,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -1106,6 +1106,518 @@
       "calculator_keystrokes": null,
       "difficulty": "medium",
       "topic_tags": ["inventory_methods", "fifo", "working_capital", "inflation"]
+    },
+    {
+      "question_id": "FSA-6-Q021",
+      "original_question_number": 183,
+      "los_id": "LOS_6b",
+      "question_text_en": "Which of the following conditions will most likely result in the highest net cash flow from operating activities during the period of rising prices?",
+      "question_text_ru": "Какое из следующих условий с наибольшей вероятностью приведет к наивысшему чистому денежному потоку от операционной деятельности в период роста цен?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "LIFO method during rising prices.",
+          "text_ru": "Метод LIFO в период роста цен."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "FIFO method during rising prices.",
+          "text_ru": "Метод FIFO в период роста цен."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Cash flows will be the same under both methods.",
+          "text_ru": "Денежные потоки будут одинаковыми при обоих методах."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "When considering the impact of inventory accounting methods on net cash flow from operating activities during periods of rising prices, the FIFO method is likely to result in higher net cash flows compared to the LIFO method. Under the FIFO method, the oldest inventory items are considered sold first. During periods of rising prices, these older items typically have a lower cost compared to the more recently acquired inventory. As a result, the FIFO method reports lower COGS and, consequently, higher gross profits. Since net cash flow from operating activities is positively influenced by higher profits (due to the reduction in taxable income and thus, taxes paid), companies using the FIFO method generally report higher net cash flows in such economic conditions.",
+      "explanation_ru": "При рассмотрении влияния методов учета запасов на чистый денежный поток от операционной деятельности в периоды роста цен, метод FIFO, вероятно, приведет к более высоким чистым денежным потокам по сравнению с методом LIFO. При методе FIFO самые старые товары запасов считаются проданными первыми. В периоды роста цен эти более старые товары обычно имеют более низкую стоимость по сравнению с недавно приобретенными запасами. В результате метод FIFO отражает более низкую себестоимость проданных товаров и, следовательно, более высокую валовую прибыль. Поскольку чистый денежный поток от операционной деятельности положительно зависит от более высокой прибыли (из-за снижения налогооблагаемого дохода и, следовательно, уплаченных налогов), компании, использующие метод FIFO, обычно отчитываются о более высоких чистых денежных потоках в таких экономических условиях.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The cost of the more recently acquired inventory (which is higher in a rising price environment) is recognized earlier.",
+          "text_ru": "Стоимость недавно приобретенных запасов (которая выше в условиях роста цен) признается раньше."
+        },
+        "opt_c": {
+          "text_en": "The assertion that cash flows will be the same under both methods overlooks the fundamental differences in how the FIFO and LIFO methods calculate COGS and, by extension, gross profit. The impact of inventory accounting methods on cash flows is particularly pronounced in periods of significant price changes.",
+          "text_ru": "Утверждение, что денежные потоки будут одинаковыми при обоих методах, упускает из виду фундаментальные различия в том, как методы FIFO и LIFO рассчитывают себестоимость проданных товаров и, следовательно, валовую прибыль. Влияние методов учета запасов на денежные потоки особенно выражено в периоды значительных изменений цен."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["inventory_methods", "fifo", "lifo", "cash_flow", "inflation"]
+    },
+    {
+      "question_id": "FSA-6-Q022",
+      "original_question_number": 184,
+      "los_id": "LOS_6b",
+      "question_text_en": "Identify the relationships that are least likely to hold during deflationary periods.\nI. LIFO COGS > FIFO COGS\nII. LIFO Inventory > FIFO Inventory\nIII. LIFO Net Income > FIFO Net Income\nIV. LIFO Taxes < FIFO Taxes",
+      "question_text_ru": "Определите соотношения, которые с наименьшей вероятностью будут справедливы в дефляционные периоды.\nI. LIFO COGS > FIFO COGS\nII. LIFO Inventory > FIFO Inventory\nIII. LIFO Net Income > FIFO Net Income\nIV. LIFO Taxes < FIFO Taxes",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "I & IV",
+          "text_ru": "I и IV"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "II & III",
+          "text_ru": "II и III"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "III & IV",
+          "text_ru": "III и IV"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "During deflationary periods, the relationship between inventory costing methods and their impact on financial statements becomes particularly pronounced. This means that LIFO COGS will be lower than FIFO COGS because LIFO will be selling off the cheaper, more recently acquired goods first. As a result, LIFO will report higher net income and, consequently, higher taxes than FIFO. This is because lower COGS under LIFO leads to higher profits before taxes, which in turn leads to higher tax expenses. Therefore, statements I and IV accurately reflect the relationships that are least likely to hold during deflationary periods.",
+      "explanation_ru": "В дефляционные периоды взаимосвязь между методами учета запасов и их влиянием на финансовую отчетность становится особенно выраженной. Это означает, что себестоимость LIFO будет ниже, чем FIFO, потому что LIFO будет продавать более дешевые, недавно приобретенные товары первыми. В результате LIFO отчитается о более высокой чистой прибыли и, следовательно, более высоких налогах, чем FIFO. Это связано с тем, что более низкая себестоимость при LIFO приводит к более высокой прибыли до налогообложения, что, в свою очередь, приводит к более высоким налоговым расходам. Таким образом, утверждения I и IV точно отражают соотношения, которые с наименьшей вероятностью будут справедливы в дефляционные периоды.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Under LIFO, the more expensive, earlier acquired goods remain in inventory, leading to a higher inventory valuation compared to FIFO.",
+          "text_ru": "При LIFO более дорогие, ранее приобретенные товары остаются в запасах, что приводит к более высокой оценке запасов по сравнению с FIFO."
+        },
+        "opt_c": {
+          "text_en": "As explained, during deflationary periods, LIFO COGS will be lower due to the sale of more recently acquired, cheaper goods.",
+          "text_ru": "Как объяснено, в дефляционные периоды себестоимость LIFO будет ниже из-за продажи недавно приобретенных, более дешевых товаров."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": ["inventory_methods", "lifo", "fifo", "deflation", "financial_ratios"]
+    },
+    {
+      "question_id": "FSA-6-Q023",
+      "original_question_number": 185,
+      "los_id": "LOS_6a",
+      "question_text_en": "Avant-Gard Company is based in the US and reports under US GAAP. Most of its operations have shifted to the European market. Assuming that the company has converted from LIFO to FIFO, determine the changes in the cash balance for the fiscal year that ended in 2016, given the following data: LIFO Inventory 2017: $97,000, 2016: $89,000; Cash 2017: $276,000, 2016: $225,000; COGS 2017: $230,000, 2016: $215,000; LIFO Reserves 2017: $19,500, 2016: $13,000, 2015: $10,500.",
+      "question_text_ru": "Компания Avant-Gard базируется в США и отчитывается по US GAAP. Большая часть её операций переместилась на европейский рынок. Предполагая, что компания перешла с LIFO на FIFO, определите изменения в денежном балансе за финансовый год, закончившийся в 2016 году, учитывая следующие данные: Запасы LIFO 2017: $97,000, 2016: $89,000; Денежные средства 2017: $276,000, 2016: $225,000; Себестоимость 2017: $230,000, 2016: $215,000; Резервы LIFO 2017: $19,500, 2016: $13,000, 2015: $10,500.",
+      "has_table": true,
+      "table_data": {
+        "headers": ["Year", "LIFO Inventory", "Cash", "COGS", "LIFO Reserve"],
+        "headers_ru": ["Год", "Запасы LIFO", "Денежные средства", "Себестоимость", "Резерв LIFO"],
+        "rows": [
+          ["2017", "$97,000", "$276,000", "$230,000", "$19,500"],
+          ["2016", "$89,000", "$225,000", "$215,000", "$13,000"],
+          ["2015", "-", "-", "-", "$10,500"]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Cash will increase by $750.",
+          "text_ru": "Денежные средства увеличатся на $750."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Cash will decrease by $750.",
+          "text_ru": "Денежные средства уменьшатся на $750."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Cash will remain unchanged.",
+          "text_ru": "Денежные средства останутся без изменений."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "If the firm converts its LIFO COGS to FIFO COGS, its Net Income and Taxes will increase. FIFO COGS for 2016 = COGS − [Ending Reserve − Beginning LIFO Reserve] = $215,000 − ($13,000 − $10,500) = $212,500. Therefore, Taxable Income (EBIT) for the year is $87,500 and Taxes are increased by $750 (FIFO Taxes $26,250 − LIFO Taxes $25,500). Hence, additional Taxes will decrease Cash by $750.",
+      "explanation_ru": "Если фирма конвертирует свою себестоимость LIFO в FIFO, её чистая прибыль и налоги увеличатся. Себестоимость FIFO за 2016 год = Себестоимость − [Конечный резерв − Начальный резерв LIFO] = $215,000 − ($13,000 − $10,500) = $212,500. Следовательно, налогооблагаемый доход (EBIT) за год составляет $87,500, а налоги увеличиваются на $750 (налоги FIFO $26,250 − налоги LIFO $25,500). Таким образом, дополнительные налоги уменьшат денежные средства на $750.",
+      "explanation_formula": "$\\text{FIFO COGS} = \\text{COGS} - (\\text{Ending Reserve} - \\text{Beginning LIFO Reserve}) = \\$215,000 - (\\$13,000 - \\$10,500) = \\$212,500$\n$\\text{Tax Increase} = \\$26,250 - \\$25,500 = \\$750$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect calculation direction. Additional taxes decrease cash.",
+          "text_ru": "Неправильное направление расчета. Дополнительные налоги уменьшают денежные средства."
+        },
+        "opt_c": {
+          "text_en": "Cash is affected by the change in taxes due to the inventory method change.",
+          "text_ru": "На денежные средства влияет изменение налогов из-за изменения метода учета запасов."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic Calculator",
+        "steps": [
+          "215000 - 13000 + 10500 = 212500",
+          "26250 - 25500 = 750"
+        ]
+      },
+      "difficulty": "hard",
+      "topic_tags": ["inventory_methods", "lifo_to_fifo_conversion", "cash_flow", "taxes"]
+    },
+    {
+      "question_id": "FSA-6-Q024",
+      "original_question_number": 186,
+      "los_id": "LOS_6a",
+      "question_text_en": "Avant-Gard Company is based in the US and reports under US GAAP. Most of its operations have shifted to the European market. Assuming that the company has converted from LIFO to FIFO, the current ratio for the fiscal year that ended in 2016 is most likely closest to (given: Current Liabilities 2016: $84,000)?",
+      "question_text_ru": "Компания Avant-Gard базируется в США и отчитывается по US GAAP. Большая часть её операций переместилась на европейский рынок. Предполагая, что компания перешла с LIFO на FIFO, коэффициент текущей ликвидности за финансовый год, закончившийся в 2016 году, скорее всего ближе всего к (дано: Текущие обязательства 2016: $84,000)?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "3.7",
+          "text_ru": "3.7"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "3.88",
+          "text_ru": "3.88"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "4.14",
+          "text_ru": "4.14"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "To convert LIFO Inventory to FIFO, LIFO reserve is added. FIFO Inventory = Inventory + Reserve = $89,000 + $13,000 = $102,000. Cash after tax adjustment = $225,000 − $750 = $224,250. Current ratio under FIFO = ($102,000 + $224,250) / $84,000 = 3.88.",
+      "explanation_ru": "Для конвертации запасов LIFO в FIFO добавляется резерв LIFO. Запасы FIFO = Запасы + Резерв = $89,000 + $13,000 = $102,000. Денежные средства после налоговой корректировки = $225,000 − $750 = $224,250. Коэффициент текущей ликвидности при FIFO = ($102,000 + $224,250) / $84,000 = 3.88.",
+      "explanation_formula": "$\\text{FIFO Inventory} = \\$89,000 + \\$13,000 = \\$102,000$\n$\\text{Cash} = \\$225,000 - \\$750 = \\$224,250$\n$\\text{Current Ratio} = \\frac{\\$102,000 + \\$224,250}{\\$84,000} = 3.88$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect calculation; likely missed the LIFO reserve adjustment.",
+          "text_ru": "Неправильный расчет; вероятно, пропущена корректировка резерва LIFO."
+        },
+        "opt_c": {
+          "text_en": "Overstated current assets; likely calculation error.",
+          "text_ru": "Завышены оборотные активы; вероятно, ошибка расчета."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic Calculator",
+        "steps": [
+          "89000 + 13000 = 102000",
+          "225000 - 750 = 224250",
+          "102000 + 224250 = 326250",
+          "326250 / 84000 = 3.88"
+        ]
+      },
+      "difficulty": "hard",
+      "topic_tags": ["inventory_methods", "lifo_to_fifo_conversion", "current_ratio", "financial_ratios"]
+    },
+    {
+      "question_id": "FSA-6-Q025",
+      "original_question_number": 187,
+      "los_id": "LOS_6a",
+      "question_text_en": "Avant-Gard Company is based in the US and reports under US GAAP. Assuming that the company has converted from LIFO to FIFO, calculate the percentage change in net profit margin for the fiscal year that ended in 2017 (given: Sales 2017: $410,000, COGS LIFO 2017: $230,000, Operating Exp: $80,000, LIFO Reserves 2017: $19,500, 2016: $13,000).",
+      "question_text_ru": "Компания Avant-Gard базируется в США и отчитывается по US GAAP. Предполагая, что компания перешла с LIFO на FIFO, рассчитайте процентное изменение маржи чистой прибыли за финансовый год, закончившийся в 2017 году (дано: Продажи 2017: $410,000, Себестоимость LIFO 2017: $230,000, Операционные расходы: $80,000, Резервы LIFO 2017: $19,500, 2016: $13,000).",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "1.11%",
+          "text_ru": "1.11%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "6.5%",
+          "text_ru": "6.5%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "17.07%",
+          "text_ru": "17.07%"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The LIFO Profit Margin for 2017 = Net Income / Sales = $70,000 / $410,000 = 17.07%. FIFO COGS = LIFO COGS − [Ending LIFO Reserve − Beginning LIFO Reserve] = $230,000 − [$19,500 − $13,000] = $223,500. Net Income = [Sales − FIFO COGS − Operating exp] × (1 − 30%) = [$410,000 − $223,500 − $80,000] × (1 − 30%) = $74,550. Profit margin = $74,550 / $410,000 = 18.18%. Percentage change = (18.18% − 17.07%) / 17.07% = 6.5%.",
+      "explanation_ru": "Маржа прибыли LIFO за 2017 год = Чистая прибыль / Продажи = $70,000 / $410,000 = 17.07%. Себестоимость FIFO = Себестоимость LIFO − [Конечный резерв LIFO − Начальный резерв LIFO] = $230,000 − [$19,500 − $13,000] = $223,500. Чистая прибыль = [Продажи − Себестоимость FIFO − Операционные расходы] × (1 − 30%) = [$410,000 − $223,500 − $80,000] × (1 − 30%) = $74,550. Маржа прибыли = $74,550 / $410,000 = 18.18%. Процентное изменение = (18.18% − 17.07%) / 17.07% = 6.5%.",
+      "explanation_formula": "$\\text{LIFO Profit Margin} = \\frac{\\$70,000}{\\$410,000} = 17.07\\%$\n$\\text{FIFO COGS} = \\$230,000 - (\\$19,500 - \\$13,000) = \\$223,500$\n$\\text{Net Income (FIFO)} = [\\$410,000 - \\$223,500 - \\$80,000] \\times 0.7 = \\$74,550$\n$\\text{FIFO Profit Margin} = \\frac{\\$74,550}{\\$410,000} = 18.18\\%$\n$\\text{\\% Change} = \\frac{18.18\\% - 17.07\\%}{17.07\\%} = 6.5\\%$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect calculation of percentage change.",
+          "text_ru": "Неправильный расчет процентного изменения."
+        },
+        "opt_c": {
+          "text_en": "This is the LIFO profit margin, not the percentage change.",
+          "text_ru": "Это маржа прибыли LIFO, а не процентное изменение."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic Calculator",
+        "steps": [
+          "70000 / 410000 = 0.1707 (17.07%)",
+          "230000 - 19500 + 13000 = 223500",
+          "(410000 - 223500 - 80000) * 0.7 = 74550",
+          "74550 / 410000 = 0.1818 (18.18%)",
+          "(0.1818 - 0.1707) / 0.1707 = 0.065 (6.5%)"
+        ]
+      },
+      "difficulty": "hard",
+      "topic_tags": ["inventory_methods", "lifo_to_fifo_conversion", "profit_margin", "financial_ratios"]
+    },
+    {
+      "question_id": "FSA-6-Q026",
+      "original_question_number": 188,
+      "los_id": "LOS_6b",
+      "question_text_en": "Estimate the impact on the inventory turnover ratio if a firm converts its inventory valuation method from LIFO to FIFO during a period of rising prices.",
+      "question_text_ru": "Оцените влияние на коэффициент оборачиваемости запасов, если фирма конвертирует свой метод оценки запасов с LIFO на FIFO в период роста цен.",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The Inventory turnover ratio increases.",
+          "text_ru": "Коэффициент оборачиваемости запасов увеличивается."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The Inventory turnover ratio decreases.",
+          "text_ru": "Коэффициент оборачиваемости запасов уменьшается."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The Inventory turnover ratio remains unchanged.",
+          "text_ru": "Коэффициент оборачиваемости запасов остается неизменным."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "When a firm switches its inventory valuation method from LIFO to FIFO during a period of rising prices, the inventory turnover ratio is expected to decrease. Under FIFO, the oldest inventory costs are assigned to COGS, which in a period of rising prices are typically lower than the more recent costs. Consequently, COGS reported under FIFO will be lower compared to LIFO. Additionally, the ending inventory balance under FIFO will be higher because it reflects the most recent, higher inventory costs. The inventory turnover ratio, calculated as COGS divided by average inventory, will decrease because the denominator (average inventory) increases while the numerator (COGS) decreases or remains relatively lower.",
+      "explanation_ru": "Когда фирма переходит с LIFO на FIFO в период роста цен, ожидается снижение коэффициента оборачиваемости запасов. При FIFO самые старые затраты на запасы относятся на себестоимость, которые в период роста цен обычно ниже, чем более поздние затраты. Следовательно, себестоимость, отраженная при FIFO, будет ниже по сравнению с LIFO. Кроме того, конечный остаток запасов при FIFO будет выше, потому что он отражает самые последние, более высокие затраты на запасы. Коэффициент оборачиваемости запасов, рассчитываемый как себестоимость, деленная на средние запасы, уменьшится, потому что знаменатель (средние запасы) увеличивается, а числитель (себестоимость) уменьшается или остается относительно ниже.",
+      "explanation_formula": "$\\text{Inventory Turnover} = \\frac{\\text{COGS}}{\\text{Average Inventory}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The ratio's denominator (average inventory) increases, leading to a lower turnover ratio, contrary to what this option suggests.",
+          "text_ru": "Знаменатель коэффициента (средние запасы) увеличивается, что приводит к более низкому коэффициенту оборачиваемости, вопреки тому, что предполагает этот вариант."
+        },
+        "opt_c": {
+          "text_en": "The inventory turnover ratio is sensitive to changes in both COGS and ending inventory values, both of which are directly impacted by the inventory valuation method used.",
+          "text_ru": "Коэффициент оборачиваемости запасов чувствителен к изменениям как в себестоимости, так и в конечных запасах, оба из которых напрямую зависят от используемого метода оценки запасов."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["inventory_methods", "lifo_to_fifo_conversion", "inventory_turnover", "inflation"]
+    },
+    {
+      "question_id": "FSA-6-Q027",
+      "original_question_number": 189,
+      "los_id": "LOS_6b",
+      "question_text_en": "Compare the fixed asset turnover ratio under the FIFO and the LIFO methods of inventory valuation.",
+      "question_text_ru": "Сравните коэффициент оборачиваемости основных средств при методах оценки запасов FIFO и LIFO.",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The Fixed asset turnover ratio is lower under FIFO.",
+          "text_ru": "Коэффициент оборачиваемости основных средств ниже при FIFO."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The Fixed asset turnover ratio is higher under FIFO.",
+          "text_ru": "Коэффициент оборачиваемости основных средств выше при FIFO."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The Fixed asset turnover ratio is the same under FIFO and LIFO.",
+          "text_ru": "Коэффициент оборачиваемости основных средств одинаков при FIFO и LIFO."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "The Fixed Asset Turnover (FAT) ratio is a key performance metric that measures a company's efficiency in generating sales from its fixed assets. It is calculated by dividing the net sales by the average fixed assets for a period. The choice of inventory valuation method, whether FIFO or LIFO, primarily affects the inventory and cost of goods sold but does not directly impact the calculation of the Fixed Asset Turnover ratio. This is because the FAT ratio focuses on fixed assets, which include property, plant, and equipment, and excludes current assets like inventory. Therefore, regardless of whether a company uses FIFO or LIFO for inventory valuation, the outcome on the FAT ratio remains unchanged.",
+      "explanation_ru": "Коэффициент оборачиваемости основных средств (FAT) - это ключевой показатель эффективности, который измеряет эффективность компании в генерировании продаж от её основных средств. Он рассчитывается путем деления чистых продаж на средние основные средства за период. Выбор метода оценки запасов, будь то FIFO или LIFO, в первую очередь влияет на запасы и себестоимость проданных товаров, но не влияет напрямую на расчет коэффициента оборачиваемости основных средств. Это связано с тем, что коэффициент FAT фокусируется на основных средствах, которые включают недвижимость, здания и оборудование, и исключает оборотные активы, такие как запасы. Поэтому, независимо от того, использует ли компания FIFO или LIFO для оценки запасов, результат по коэффициенту FAT остается неизменным.",
+      "explanation_formula": "$\\text{Fixed Asset Turnover} = \\frac{\\text{Net Sales}}{\\text{Average Fixed Assets}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The FAT ratio is concerned with how effectively a company uses its fixed assets to generate sales, and since fixed assets are not influenced by inventory accounting methods, the choice between FIFO and LIFO does not alter the FAT ratio.",
+          "text_ru": "Коэффициент FAT связан с тем, насколько эффективно компания использует свои основные средства для генерации продаж, и поскольку основные средства не зависят от методов учета запасов, выбор между FIFO и LIFO не меняет коэффициент FAT."
+        },
+        "opt_b": {
+          "text_en": "As previously explained, the FAT ratio is calculated independently of inventory valuation methods. The ratio assesses the efficiency of fixed assets in generating sales.",
+          "text_ru": "Как было объяснено ранее, коэффициент FAT рассчитывается независимо от методов оценки запасов. Коэффициент оценивает эффективность основных средств в генерации продаж."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["inventory_methods", "fixed_asset_turnover", "financial_ratios"]
+    },
+    {
+      "question_id": "FSA-6-Q028",
+      "original_question_number": 190,
+      "los_id": "LOS_6b",
+      "question_text_en": "Estimate the impact on the debt-to-equity ratio due to a conversion from the LIFO inventory system to the FIFO inventory system in a period of rising prices.",
+      "question_text_ru": "Оцените влияние на коэффициент долг/собственный капитал из-за конвертации из системы учета запасов LIFO в систему FIFO в период роста цен.",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The Debt-to-equity ratio increases under FIFO.",
+          "text_ru": "Коэффициент долг/собственный капитал увеличивается при FIFO."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The Debt-to-equity ratio decreases under FIFO.",
+          "text_ru": "Коэффициент долг/собственный капитал уменьшается при FIFO."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The Debt-to-equity ratio remains unchanged under FIFO.",
+          "text_ru": "Коэффициент долг/собственный капитал остается неизменным при FIFO."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Converting from LIFO to FIFO in a period of rising prices has a significant impact on a company's financial ratios, including the debt-to-equity ratio. Under FIFO, the cost of goods sold (COGS) is based on the prices of the earliest goods purchased, which in a period of rising prices are lower than the prices of goods purchased more recently. This results in a higher reported net income and, consequently, a higher ending inventory value on the balance sheet compared to LIFO. The increase in ending inventory value leads to an increase in total assets, which, assuming equity increases by the same amount (net income is added to retained earnings, a component of equity), results in an increase in total equity. The debt-to-equity ratio is calculated as total liabilities divided by total equity. With higher equity under FIFO, the debt-to-equity ratio decreases.",
+      "explanation_ru": "Переход с LIFO на FIFO в период роста цен оказывает значительное влияние на финансовые коэффициенты компании, включая коэффициент долг/собственный капитал. При FIFO себестоимость проданных товаров (COGS) основана на ценах самых ранних приобретенных товаров, которые в период роста цен ниже, чем цены на товары, приобретенные позже. Это приводит к более высокой отраженной чистой прибыли и, следовательно, к более высокой стоимости конечных запасов в балансе по сравнению с LIFO. Увеличение стоимости конечных запасов приводит к увеличению общих активов, что при условии, что собственный капитал увеличивается на ту же сумму (чистая прибыль добавляется к нераспределенной прибыли, компоненту собственного капитала), приводит к увеличению общего собственного капитала. Коэффициент долг/собственный капитал рассчитывается как общие обязательства, деленные на общий собственный капитал. При более высоком собственном капитале при FIFO коэффициент долг/собственный капитал уменьшается.",
+      "explanation_formula": "$\\text{Debt-to-Equity Ratio} = \\frac{\\text{Total Liabilities}}{\\text{Total Equity}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Under FIFO, the higher ending inventory value increases total assets and equity, assuming no change in liabilities, which leads to a decrease, not an increase, in the debt-to-equity ratio.",
+          "text_ru": "При FIFO более высокая стоимость конечных запасов увеличивает общие активы и собственный капитал при условии отсутствия изменений в обязательствах, что приводит к уменьшению, а не увеличению коэффициента долг/собственный капитал."
+        },
+        "opt_c": {
+          "text_en": "This overlooks the fact that the inventory valuation method directly influences the cost of goods sold, net income, and ending inventory value, all of which affect a company's balance sheet and, consequently, its financial ratios.",
+          "text_ru": "Это упускает тот факт, что метод оценки запасов напрямую влияет на себестоимость проданных товаров, чистую прибыль и стоимость конечных запасов, все из которых влияют на баланс компании и, следовательно, на её финансовые коэффициенты."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["inventory_methods", "lifo_to_fifo_conversion", "debt_to_equity", "inflation"]
+    },
+    {
+      "question_id": "FSA-6-Q029",
+      "original_question_number": 191,
+      "los_id": "LOS_6a",
+      "question_text_en": "An artifact collecting company wrote down the value of a pottery vessel from $220,000 to $100,000. It later discovered that the pottery vessel was supposed to be valued at $1,000,000. Determine the amount reported on the balance sheet if the company uses IFRS to report its financial statements.",
+      "question_text_ru": "Компания по сбору артефактов списала стоимость керамического сосуда с $220,000 до $100,000. Позже было обнаружено, что керамический сосуд должен был оцениваться в $1,000,000. Определите сумму, отраженную в балансе, если компания использует IFRS для подготовки финансовой отчетности.",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$100,000",
+          "text_ru": "$100,000"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$220,000",
+          "text_ru": "$220,000"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$1,000,000",
+          "text_ru": "$1,000,000"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Under International Financial Reporting Standards (IFRS), companies are allowed to reverse write-downs if the net realizable value of an asset increases after the write-down. However, according to IFRS, the reversal cannot exceed the amount of the original write-down. Therefore, the maximum amount that can be added back to the asset's carrying amount is $120,000 (the difference between the original value of $220,000 and the written-down value of $100,000), bringing the reported value on the balance sheet to $220,000.",
+      "explanation_ru": "В соответствии с Международными стандартами финансовой отчетности (IFRS), компании могут восстанавливать списания, если чистая стоимость реализации актива увеличивается после списания. Однако, согласно IFRS, восстановление не может превышать сумму первоначального списания. Таким образом, максимальная сумма, которая может быть добавлена обратно к балансовой стоимости актива, составляет $120,000 (разница между первоначальной стоимостью $220,000 и списанной стоимостью $100,000), в результате чего отраженная в балансе стоимость составит $220,000.",
+      "explanation_formula": "$\\text{Maximum Reversal} = \\text{Original Value} - \\text{Written-down Value} = \\$220,000 - \\$100,000 = \\$120,000$\n$\\text{Reported Value} = \\$100,000 + \\$120,000 = \\$220,000$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "This ignores the IFRS rule that allows reversal of write-downs up to the original amount.",
+          "text_ru": "Это игнорирует правило IFRS, которое позволяет восстанавливать списания до первоначальной суммы."
+        },
+        "opt_c": {
+          "text_en": "IFRS limits the reversal to the amount of the original write-down, preventing the carrying amount from exceeding what it would have been had no write-down occurred.",
+          "text_ru": "IFRS ограничивает восстановление суммой первоначального списания, предотвращая превышение балансовой стоимости той, которая была бы, если бы не было списания."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic Calculator",
+        "steps": [
+          "220000 - 100000 = 120000",
+          "100000 + 120000 = 220000"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["inventory_valuation", "write_downs", "ifrs", "reversals"]
+    },
+    {
+      "question_id": "FSA-6-Q030",
+      "original_question_number": 192,
+      "los_id": "LOS_6a",
+      "question_text_en": "ABC Company values its inventory using the LIFO method. In its 2018 financial statement, ABC company had inventory worth $500 Million. The company's LIFO reserve for 2018 is $80 million. Suppose the company had used FIFO instead of LIFO, its reported inventory would have been closest to:",
+      "question_text_ru": "Компания ABC оценивает свои запасы методом LIFO. В финансовой отчетности 2018 года компания ABC имела запасы стоимостью $500 млн. Резерв LIFO компании за 2018 год составляет $80 млн. Предположим, компания использовала FIFO вместо LIFO, её отраженные запасы были бы ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$420,000,000",
+          "text_ru": "$420,000,000"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$500,000,000",
+          "text_ru": "$500,000,000"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$580,000,000",
+          "text_ru": "$580,000,000"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Inventory value using the FIFO method = Inventory value using the LIFO method + LIFO Reserve. Inventory using the FIFO method = $500,000,000 + $80,000,000 = $580,000,000.",
+      "explanation_ru": "Стоимость запасов методом FIFO = Стоимость запасов методом LIFO + Резерв LIFO. Запасы методом FIFO = $500,000,000 + $80,000,000 = $580,000,000.",
+      "explanation_formula": "$\\text{FIFO Inventory} = \\text{LIFO Inventory} + \\text{LIFO Reserve} = \\$500,000,000 + \\$80,000,000 = \\$580,000,000$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The LIFO reserve has been incorrectly subtracted instead of added to the inventory value using LIFO.",
+          "text_ru": "Резерв LIFO был неправильно вычтен вместо того, чтобы быть добавленным к стоимости запасов по LIFO."
+        },
+        "opt_b": {
+          "text_en": "This is the inventory value using the LIFO method, not FIFO.",
+          "text_ru": "Это стоимость запасов методом LIFO, а не FIFO."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Basic Calculator",
+        "steps": [
+          "500000000 + 80000000 = 580000000"
+        ]
+      },
+      "difficulty": "easy",
+      "topic_tags": ["inventory_methods", "lifo", "fifo", "lifo_reserve"]
     }
   ]
 }
