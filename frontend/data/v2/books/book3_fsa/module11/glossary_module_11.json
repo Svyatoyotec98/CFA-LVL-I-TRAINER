@@ -9,7 +9,7 @@
     "module_name_ru": "Техники финансового анализа",
     "page_range": "266-320",
     "total_terms": 39,
-    "total_exercises": 0,
+    "total_exercises": 6,
     "version": "2.0",
     "last_updated": "2026-01-23"
   },
@@ -131,7 +131,83 @@
           "calculator": null
         }
       ],
-      "exercises": []
+      "exercises": [
+        {
+          "exercise_id": "FSA-11-EX-001",
+          "question_en": "Which of the following best describes the primary purpose of common-size analysis?",
+          "question_ru": "Что из следующего наилучшим образом описывает основную цель анализа в относительном выражении?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "To express financial statement items as percentages of a base item, enabling meaningful comparisons across companies of different sizes",
+              "text_ru": "Выразить статьи финансового отчета в процентах от базовой статьи, что позволяет проводить значимые сравнения между компаниями разных размеров"
+            },
+            {
+              "letter": "B",
+              "text_en": "To identify statistical relationships between variables using regression techniques",
+              "text_ru": "Выявить статистические взаимосвязи между переменными с использованием методов регрессии"
+            },
+            {
+              "letter": "C",
+              "text_en": "To measure how many times a company sells and replaces its inventory during a period",
+              "text_ru": "Измерить, сколько раз компания продает и заменяет свои запасы в течение периода"
+            }
+          ],
+          "correct_answer": "A",
+          "solution_en": "Common-size analysis expresses financial data relative to a single financial statement item or base (typically total assets or revenue), establishing a ratio between each financial statement item and the base. This technique enables meaningful comparisons even when companies are of different sizes or operate in different currencies. Option B describes regression analysis, while Option C describes inventory turnover.",
+          "solution_ru": "Анализ в относительном выражении выражает финансовые данные относительно одной статьи финансового отчета или базы (обычно совокупные активы или выручка), устанавливая соотношение между каждой статьей финансового отчета и базой. Эта техника позволяет проводить значимые сравнения, даже когда компании имеют разные размеры или работают в разных валютах. Вариант B описывает регрессионный анализ, а вариант C описывает оборачиваемость запасов."
+        },
+        {
+          "exercise_id": "FSA-11-EX-002",
+          "question_en": "An analyst uses horizontal common-size analysis to evaluate a company's financial statements. Which statement best describes this technique?",
+          "question_ru": "Аналитик использует горизонтальный анализ в относительном выражении для оценки финансовой отчетности компании. Какое утверждение лучше всего описывает эту технику?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "It expresses each item on the income statement as a percentage of revenue",
+              "text_ru": "Он выражает каждую статью отчета о прибылях и убытках в процентах от выручки"
+            },
+            {
+              "letter": "B",
+              "text_en": "It shows changes in financial statement items over time by calculating percentage increases or decreases from a base period",
+              "text_ru": "Он показывает изменения статей финансового отчета во времени путем расчета процентных увеличений или уменьшений по сравнению с базовым периодом"
+            },
+            {
+              "letter": "C",
+              "text_en": "It compares a company's ratios to industry averages at the same point in time",
+              "text_ru": "Он сравнивает коэффициенты компании со средними по отрасли в один момент времени"
+            }
+          ],
+          "correct_answer": "B",
+          "solution_en": "Horizontal common-size analysis shows changes in financial statement items over time. It is prepared by calculating the percentage increase or decrease of each item from the previous year or by dividing the quantity of each item by the base year quantity. Option A describes vertical common-size analysis, while Option C describes cross-sectional analysis.",
+          "solution_ru": "Горизонтальный анализ в относительном выражении показывает изменения статей финансового отчета во времени. Он подготавливается путем расчета процентного увеличения или уменьшения каждой статьи по сравнению с предыдущим годом или путем деления величины каждой статьи на величину базового года. Вариант A описывает вертикальный анализ в относительном выражении, а вариант C описывает кросс-секционный анализ."
+        },
+        {
+          "exercise_id": "FSA-11-EX-003",
+          "question_en": "Which of the following best describes a limitation of financial ratio analysis?",
+          "question_ru": "Что из следующего лучше всего описывает ограничение анализа финансовых коэффициентов?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Ratios cannot be used to compare companies of different sizes",
+              "text_ru": "Коэффициенты не могут использоваться для сравнения компаний разных размеров"
+            },
+            {
+              "letter": "B",
+              "text_en": "Ratios based on accounting data may be affected by differences in accounting methods and estimates across companies",
+              "text_ru": "Коэффициенты, основанные на бухгалтерских данных, могут быть затронуты различиями в методах учета и оценках между компаниями"
+            },
+            {
+              "letter": "C",
+              "text_en": "Financial ratios can only be calculated using annual financial statements",
+              "text_ru": "Финансовые коэффициенты могут быть рассчитаны только с использованием годовой финансовой отчетности"
+            }
+          ],
+          "correct_answer": "B",
+          "solution_en": "A key limitation of ratio analysis is that ratios based on accounting data may be affected by differences in accounting methods (such as inventory valuation or depreciation methods) and management estimates across companies. This can make cross-sectional comparisons challenging. Option A is incorrect because ratios specifically enable comparisons across different-sized companies. Option C is incorrect because ratios can be calculated using quarterly or other periodic financial statements.",
+          "solution_ru": "Ключевое ограничение анализа коэффициентов заключается в том, что коэффициенты, основанные на бухгалтерских данных, могут быть затронуты различиями в методах учета (таких как методы оценки запасов или амортизации) и оценках руководства между компаниями. Это может затруднить кросс-секционные сравнения. Вариант A неверен, потому что коэффициенты специально позволяют проводить сравнения между компаниями разных размеров. Вариант C неверен, потому что коэффициенты могут быть рассчитаны с использованием квартальной или другой периодической финансовой отчетности."
+        }
+      ]
     },
     {
       "los_id": "LOS_11b",
@@ -459,7 +535,83 @@
           "calculator": null
         }
       ],
-      "exercises": []
+      "exercises": [
+        {
+          "exercise_id": "FSA-11-EX-004",
+          "question_en": "A company has the following information: Current Assets = $500,000, Inventory = $200,000, Current Liabilities = $250,000. The company's quick ratio is closest to:",
+          "question_ru": "У компании следующая информация: оборотные активы = $500,000, запасы = $200,000, краткосрочные обязательства = $250,000. Коэффициент быстрой ликвидности компании наиболее близок к:",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "1.2",
+              "text_ru": "1,2"
+            },
+            {
+              "letter": "B",
+              "text_en": "1.6",
+              "text_ru": "1,6"
+            },
+            {
+              "letter": "C",
+              "text_en": "2.0",
+              "text_ru": "2,0"
+            }
+          ],
+          "correct_answer": "A",
+          "solution_en": "Quick Ratio = (Current Assets - Inventory) / Current Liabilities = ($500,000 - $200,000) / $250,000 = $300,000 / $250,000 = 1.2. The quick ratio excludes inventory from current assets because inventory is less liquid than other current assets. A ratio of 1.2 indicates that the company has $1.20 of quick assets for every $1.00 of current liabilities.",
+          "solution_ru": "Коэффициент быстрой ликвидности = (оборотные активы - запасы) / краткосрочные обязательства = ($500,000 - $200,000) / $250,000 = $300,000 / $250,000 = 1,2. Коэффициент быстрой ликвидности исключает запасы из оборотных активов, поскольку запасы менее ликвидны, чем другие оборотные активы. Коэффициент 1,2 указывает на то, что у компании есть $1,20 быстрых активов на каждый $1,00 краткосрочных обязательств."
+        },
+        {
+          "exercise_id": "FSA-11-EX-005",
+          "question_en": "A company reports the following: Revenue = $2,000,000, Net Income = $150,000, Average Total Assets = $1,500,000, Average Total Equity = $750,000. The company's return on equity (ROE) is closest to:",
+          "question_ru": "Компания сообщает следующее: выручка = $2,000,000, чистая прибыль = $150,000, средние совокупные активы = $1,500,000, средний совокупный капитал = $750,000. Рентабельность собственного капитала (ROE) компании наиболее близка к:",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "7.5%",
+              "text_ru": "7,5%"
+            },
+            {
+              "letter": "B",
+              "text_en": "10.0%",
+              "text_ru": "10,0%"
+            },
+            {
+              "letter": "C",
+              "text_en": "20.0%",
+              "text_ru": "20,0%"
+            }
+          ],
+          "correct_answer": "C",
+          "solution_en": "ROE = Net Income / Average Total Equity = $150,000 / $750,000 = 0.20 or 20.0%. Return on equity measures the return generated on shareholders' equity investment. In this case, the company generates 20% return on equity capital. This can also be decomposed using DuPont analysis: ROE = (Net Income/Revenue) × (Revenue/Assets) × (Assets/Equity) = 7.5% × 1.33 × 2.0 = 20%.",
+          "solution_ru": "ROE = чистая прибыль / средний совокупный капитал = $150,000 / $750,000 = 0,20 или 20,0%. Рентабельность собственного капитала измеряет доходность, генерируемую на инвестиции акционеров. В этом случае компания генерирует 20% доходность на акционерный капитал. Это также может быть разложено с использованием анализа DuPont: ROE = (чистая прибыль/выручка) × (выручка/активы) × (активы/капитал) = 7,5% × 1,33 × 2,0 = 20%."
+        },
+        {
+          "exercise_id": "FSA-11-EX-006",
+          "question_en": "An analyst gathering information about a company's liquidity is most likely to review which of the following ratios?",
+          "question_ru": "Аналитик, собирающий информацию о ликвидности компании, скорее всего, рассмотрит какой из следующих коэффициентов?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Debt-to-equity ratio",
+              "text_ru": "Коэффициент отношения долга к собственному капиталу"
+            },
+            {
+              "letter": "B",
+              "text_en": "Cash conversion cycle",
+              "text_ru": "Цикл конверсии денежных средств"
+            },
+            {
+              "letter": "C",
+              "text_en": "Net profit margin",
+              "text_ru": "Чистая маржа прибыли"
+            }
+          ],
+          "correct_answer": "B",
+          "solution_en": "The cash conversion cycle is a liquidity metric that measures the time span from when a company invests cash in working capital until it collects cash from sales. Calculated as DOH + DSO - Number of Days of Payables, a shorter cycle indicates higher liquidity and faster cash conversion. Option A (debt-to-equity) is a solvency ratio, and Option C (net profit margin) is a profitability ratio. Neither directly measures liquidity.",
+          "solution_ru": "Цикл конверсии денежных средств - это показатель ликвидности, который измеряет промежуток времени от момента, когда компания инвестирует денежные средства в оборотный капитал, до момента, когда она собирает денежные средства от продаж. Рассчитывается как DOH + DSO - количество дней кредиторской задолженности, более короткий цикл указывает на более высокую ликвидность и более быструю конверсию денежных средств. Вариант A (долг к собственному капиталу) является коэффициентом платежеспособности, а вариант C (чистая маржа прибыли) является коэффициентом рентабельности. Ни один из них напрямую не измеряет ликвидность."
+        }
+      ]
     }
   ]
 }
