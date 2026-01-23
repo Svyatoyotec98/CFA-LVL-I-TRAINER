@@ -7,7 +7,7 @@
     "module_id": 11,
     "module_name": "Financial Analysis Techniques",
     "module_name_ru": "Техники финансового анализа",
-    "total_questions": 20,
+    "total_questions": 30,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -1121,6 +1121,734 @@
       "topic_tags": [
         "profitability_ratios",
         "operating_profit_margin"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q021",
+      "original_question_number": 2115,
+      "los_id": "LOS_11b",
+      "question_text_en": "Company X, Y & Z are market leaders in the air cargo industry. Some ratios of the three companies are given in the following table:",
+      "question_text_ru": "Компании X, Y и Z являются лидерами рынка в индустрии авиаперевозок грузов. Некоторые коэффициенты трех компаний приведены в следующей таблице:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "",
+          "Company X",
+          "Company Y",
+          "Company Z"
+        ],
+        "rows": [
+          [
+            "Return on Assets",
+            "55%",
+            "34%",
+            "17%"
+          ],
+          [
+            "Profit Margin",
+            "35.00%",
+            "28.00%",
+            "11.30%"
+          ],
+          [
+            "Quick Ratio",
+            "0.7",
+            "2.8",
+            "1.1"
+          ],
+          [
+            "Financial Leverage",
+            "3.7",
+            "5.7",
+            "11.37"
+          ]
+        ]
+      },
+      "question_continuation_en": "Assuming all three firms are identical in terms of size and revenue, the company that uses the greatest portion of debt in its capital structure is closest to:",
+      "question_continuation_ru": "Предполагая, что все три фирмы идентичны по размеру и выручке, компания, которая использует наибольшую долю долга в своей структуре капитала, наиболее близка к:",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Company X.",
+          "text_ru": "Компания X."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Company Y.",
+          "text_ru": "Компания Y."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Company Z.",
+          "text_ru": "Компания Z."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "The financial leverage ratio is a critical metric for understanding a company's reliance on debt in its capital structure. It essentially measures the extent to which a company is financing its operations through debt as opposed to equity. A higher financial leverage ratio indicates a greater use of debt in the company's capital structure. In the context of Company X, Y, and Z, the financial leverage ratios provided are 3.7, 5.7, and 11.37, respectively. Given these figures, it is clear that Company Z has the highest financial leverage ratio at 11.37. This indicates that Company Z uses the greatest portion of debt in its capital structure compared to Companies X and Y.",
+      "explanation_ru": "Коэффициент финансового левериджа является критическим показателем для понимания зависимости компании от долга в ее структуре капитала. По сути, он измеряет степень, в которой компания финансирует свою деятельность за счет долга, а не за счет собственного капитала. Более высокий коэффициент финансового левериджа указывает на большее использование долга в структуре капитала компании. В контексте компаний X, Y и Z предоставленные коэффициенты финансового левериджа составляют 3.7, 5.7 и 11.37 соответственно. Учитывая эти цифры, ясно, что компания Z имеет самый высокий коэффициент финансового левериджа - 11.37. Это указывает на то, что компания Z использует наибольшую долю долга в своей структуре капитала по сравнению с компаниями X и Y.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Company X has a financial leverage ratio of 3.7, which is the lowest among the three companies. This indicates that Company X uses the least amount of debt in its capital structure relative to its equity.",
+          "text_ru": "Неверно. Компания X имеет коэффициент финансового левериджа 3.7, что является самым низким среди трех компаний. Это указывает на то, что компания X использует наименьшее количество долга в своей структуре капитала относительно своего капитала."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Company Y, with a financial leverage ratio of 5.7, falls in the middle of the range among the three companies. While it uses more debt in its capital structure than Company X, it still does not use as much debt as Company Z.",
+          "text_ru": "Неверно. Компания Y с коэффициентом финансового левериджа 5.7 находится в середине диапазона среди трех компаний. Хотя она использует больше долга в своей структуре капитала, чем компания X, она все еще не использует столько долга, сколько компания Z."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "solvency_ratios",
+        "financial_leverage",
+        "debt_structure"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q022",
+      "original_question_number": 2117,
+      "los_id": "LOS_11b",
+      "question_text_en": "Which of the following transactions will most likely increase the financial leverage ratio by the largest amount?",
+      "question_text_ru": "Какая из следующих транзакций, скорее всего, увеличит коэффициент финансового левериджа на наибольшую величину?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Purchase of Land through debt financing.",
+          "text_ru": "Покупка земли через долговое финансирование."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Purchase of Plants by issuing new equity.",
+          "text_ru": "Покупка заводов путем выпуска нового капитала."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Purchase of Inventory using cash equivalents.",
+          "text_ru": "Покупка запасов с использованием денежных эквивалентов."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The purchase of assets through debt financing will increase assets and debt. Thus, it will also increase the numerator of the financial leverage ratio (Avg. Total Assets / Avg. Total Equity).",
+      "explanation_ru": "Покупка активов через долговое финансирование увеличит активы и долг. Таким образом, это также увеличит числитель коэффициента финансового левериджа (Средние общие активы / Средний общий капитал).",
+      "explanation_formula": "$\\text{Financial leverage} = \\frac{\\text{Avg. Total Assets}}{\\text{Avg. Total Equity}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. The purchase of assets with equity will increase assets and equity by the same amount, decreasing the financial leverage ratio.",
+          "text_ru": "Неверно. Покупка активов за счет капитала увеличит активы и капитал на одинаковую величину, уменьшив коэффициент финансового левериджа."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The purchase of assets with cash equivalents will have a small effect on the leverage ratio as cash and asset will offset each other.",
+          "text_ru": "Неверно. Покупка активов за счет денежных эквивалентов окажет небольшое влияние на коэффициент левериджа, поскольку денежные средства и активы компенсируют друг друга."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "solvency_ratios",
+        "financial_leverage"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q023",
+      "original_question_number": 2118,
+      "los_id": "LOS_11b",
+      "question_text_en": "A highly leveraged company has sales of $1.5 million, a gross profit margin of 40%, and an average inventory of $250,000 for the year 2015. The firm's inventory turnover ratio for the year 2015 is closest to:",
+      "question_text_ru": "Компания с высоким левериджем имеет продажи в размере $1.5 миллиона, валовую рентабельность 40% и средние запасы $250,000 за 2015 год. Коэффициент оборачиваемости запасов фирмы за 2015 год наиболее близок к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "2.4",
+          "text_ru": "2.4"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "3.6",
+          "text_ru": "3.6"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "6.0",
+          "text_ru": "6.0"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Inventory turnover = Cost of goods sold (COGS) / Average inventory.\n\nGross profit margin = (Sales - COGS) / Sales.\n\nCOGS = Sales - (Profit margin × Sales) = $1.5 million - (40% × $1.5 million) = $0.9 million.\n\nInventory turnover = $900,000 / $250,000 = 3.6.",
+      "explanation_ru": "Оборачиваемость запасов = Себестоимость проданных товаров (COGS) / Средние запасы.\n\nВаловая рентабельность = (Продажи - COGS) / Продажи.\n\nCOGS = Продажи - (Рентабельность × Продажи) = $1.5 миллиона - (40% × $1.5 миллиона) = $0.9 миллиона.\n\nОборачиваемость запасов = $900,000 / $250,000 = 3.6.",
+      "explanation_formula": "$\\text{Inventory turnover} = \\frac{\\text{COGS}}{\\text{Average inventory}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. It uses the value of the profit margin: Inventory turnover = (40% × $1.5 million) / $250,000 = 2.4.",
+          "text_ru": "Неверно. Использует значение рентабельности: Оборачиваемость запасов = (40% × $1.5 миллиона) / $250,000 = 2.4."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It uses sales instead of COGS: Inventory turnover = $1,500,000 / $250,000 = 6.",
+          "text_ru": "Неверно. Использует продажи вместо COGS: Оборачиваемость запасов = $1,500,000 / $250,000 = 6."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "activity_ratios",
+        "inventory_turnover",
+        "gross_profit_margin"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q024",
+      "original_question_number": 2119,
+      "los_id": "LOS_11b",
+      "question_text_en": "If a company's debt-to-equity ratio is 2.5, which of the following transactions will least likely increase the debt-to-equity ratio?",
+      "question_text_ru": "Если коэффициент долга к собственному капиталу компании составляет 2.5, какая из следующих транзакций наименее вероятно увеличит коэффициент долга к собственному капиталу?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The issuance of bonds to reacquire shares.",
+          "text_ru": "Выпуск облигаций для выкупа акций."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The payment of dividends to common shareholders.",
+          "text_ru": "Выплата дивидендов обычным акционерам."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The purchase of assets with 50% debt and 50% equity.",
+          "text_ru": "Покупка активов за счет 50% долга и 50% капитала."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Since the Debt-to-equity ratio is 2.5, an even increase in numerator and denominator will decrease the debt/equity ratio. For example, 2.5/1 = 2.5 could then be (2.5+0.2)/(1+0.2) = 2.25.",
+      "explanation_ru": "Поскольку коэффициент долга к собственному капиталу составляет 2.5, одинаковое увеличение числителя и знаменателя уменьшит коэффициент долга/капитала. Например, 2.5/1 = 2.5 может стать (2.5+0.2)/(1+0.2) = 2.25.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This will decrease equity and increase debt, therefore increasing the debt-to-equity ratio.",
+          "text_ru": "Неверно. Это уменьшит капитал и увеличит долг, следовательно, увеличит коэффициент долга к собственному капиталу."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. This will decrease equity, therefore increasing the debt-to-equity ratio.",
+          "text_ru": "Неверно. Это уменьшит капитал, следовательно, увеличит коэффициент долга к собственному капиталу."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "solvency_ratios",
+        "debt_to_equity"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q025",
+      "original_question_number": 2120,
+      "los_id": "LOS_11b",
+      "question_text_en": "If a firm's current ratio increased from 1.1 to 1.7 due to an increase in inventory, what is the most likely impact on the asset turnover ratio?",
+      "question_text_ru": "Если коэффициент текущей ликвидности фирмы увеличился с 1.1 до 1.7 из-за увеличения запасов, каково наиболее вероятное влияние на коэффициент оборачиваемости активов?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The asset turnover ratio will increase.",
+          "text_ru": "Коэффициент оборачиваемости активов увеличится."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The asset turnover ratio will decrease.",
+          "text_ru": "Коэффициент оборачиваемости активов уменьшится."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The asset turnover ratio will remain unchanged.",
+          "text_ru": "Коэффициент оборачиваемости активов останется неизменным."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "An increase in the current ratio indicates an increase in current assets and total assets. Since the value of total assets will increase, the asset turnover ratio (Revenue/Avg. total assets) will decrease. Revenue will be unaffected by the increase in the current ratio.",
+      "explanation_ru": "Увеличение коэффициента текущей ликвидности указывает на увеличение оборотных активов и общих активов. Поскольку стоимость общих активов увеличится, коэффициент оборачиваемости активов (Выручка/Средние общие активы) уменьшится. Выручка не будет затронута увеличением коэффициента текущей ликвидности.",
+      "explanation_formula": "$\\text{Asset turnover} = \\frac{\\text{Revenue}}{\\text{Avg. total assets}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The ratio will decrease, not increase, as total assets increase while revenue remains unchanged.",
+          "text_ru": "Неверно. Коэффициент уменьшится, а не увеличится, поскольку общие активы увеличиваются, в то время как выручка остается неизменной."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The ratio will change as the denominator (total assets) increases.",
+          "text_ru": "Неверно. Коэффициент изменится, поскольку знаменатель (общие активы) увеличивается."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "activity_ratios",
+        "asset_turnover",
+        "current_ratio"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q026",
+      "original_question_number": 2121,
+      "los_id": "LOS_11b",
+      "question_text_en": "What is the most likely impact on a firm's return on equity ratio if the corporate tax rate increases from 25% to 27%?",
+      "question_text_ru": "Каково наиболее вероятное влияние на коэффициент рентабельности собственного капитала фирмы, если ставка корпоративного налога увеличится с 25% до 27%?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The Return on equity ratio will increase.",
+          "text_ru": "Коэффициент рентабельности собственного капитала увеличится."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The Return on equity ratio will decrease.",
+          "text_ru": "Коэффициент рентабельности собственного капитала уменьшится."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The Return on equity ratio will remain unchanged.",
+          "text_ru": "Коэффициент рентабельности собственного капитала останется неизменным."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The increase in the corporate tax rate from 25% to 27% will most likely lead to a decrease in the firm's return on equity (ROE) ratio. The ROE ratio is a measure of financial performance calculated by dividing net income by shareholders' equity. ROE = Net Income / Average Shareholders' Equity. When the corporate tax rate increases, the amount of tax a company owes on its profits also increases. This results in a decrease in the company's net income, assuming all other factors remain constant. Since net income is the numerator in the ROE formula, a decrease in net income due to higher taxes will lead to a decrease in the ROE ratio.",
+      "explanation_ru": "Увеличение ставки корпоративного налога с 25% до 27%, скорее всего, приведет к уменьшению коэффициента рентабельности собственного капитала (ROE) фирмы. Коэффициент ROE - это мера финансовой результативности, рассчитываемая путем деления чистой прибыли на собственный капитал акционеров. ROE = Чистая прибыль / Средний собственный капитал акционеров. Когда ставка корпоративного налога увеличивается, увеличивается и сумма налога, которую компания должна платить со своей прибыли. Это приводит к уменьшению чистой прибыли компании при условии, что все остальные факторы остаются неизменными. Поскольку чистая прибыль является числителем в формуле ROE, уменьшение чистой прибыли из-за более высоких налогов приведет к уменьшению коэффициента ROE.",
+      "explanation_formula": "$\\text{ROE} = \\frac{\\text{Net Income}}{\\text{Average Shareholders' Equity}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. An increase in tax rate decreases net income, which in turn decreases ROE.",
+          "text_ru": "Неверно. Увеличение налоговой ставки уменьшает чистую прибыль, что, в свою очередь, уменьшает ROE."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The ratio will change as net income is directly affected by changes in the tax rate.",
+          "text_ru": "Неверно. Коэффициент изменится, поскольку чистая прибыль напрямую зависит от изменений налоговой ставки."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "profitability_ratios",
+        "roe",
+        "tax_impact"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q027",
+      "original_question_number": 2122,
+      "los_id": "LOS_11a",
+      "question_text_en": "An analyst analyzes the last three years' balance sheets of Cosmo Inc. given in the following table.",
+      "question_text_ru": "Аналитик анализирует балансы Cosmo Inc. за последние три года, приведенные в следующей таблице.",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Balance Sheet",
+          "2017",
+          "2016",
+          "2015"
+        ],
+        "rows": [
+          [
+            "Acc. Rec.",
+            "300",
+            "210",
+            "150"
+          ],
+          [
+            "Inventory",
+            "500",
+            "540",
+            "450"
+          ],
+          [
+            "Total Current Assets",
+            "800",
+            "750",
+            "600"
+          ],
+          [
+            "Land",
+            "1,800",
+            "1,450",
+            "1,200"
+          ],
+          [
+            "Total Assets",
+            "2,600",
+            "2,200",
+            "1,800"
+          ],
+          [
+            "Acc. Payables",
+            "400",
+            "330",
+            "500"
+          ],
+          [
+            "Long-term Debt",
+            "1,300",
+            "770",
+            "400"
+          ],
+          [
+            "Common Equity",
+            "900",
+            "1,100",
+            "900"
+          ],
+          [
+            "Total Liab. & Equity",
+            "2,600",
+            "2,200",
+            "1,800"
+          ]
+        ]
+      },
+      "question_continuation_en": "The value of short-term liabilities for the most recent year if an analyst converts the balance sheet into a vertical common-size balance sheet is closest to:",
+      "question_continuation_ru": "Значение краткосрочных обязательств за самый последний год, если аналитик преобразует баланс в вертикальный баланс в процентах, наиболее близко к:",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "10.54%",
+          "text_ru": "10.54%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "15.38%",
+          "text_ru": "15.38%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "50%",
+          "text_ru": "50%"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "In a vertical common-size balance sheet, each line item is expressed as a percentage of total assets, allowing for easier comparison across different periods or companies by standardizing the figures. For Cosmo Inc., the short-term liabilities consist solely of Accounts Payable. To find the percentage of short-term liabilities relative to total assets for the most recent year, we calculate the ratio of Accounts Payable to Total Assets for 2017:\n\nAccounts Payable / Total Assets = 400 / 2,600 = 15.38%.",
+      "explanation_ru": "В вертикальном балансе в процентах каждая статья выражается в процентах от общих активов, что облегчает сравнение по различным периодам или компаниям путем стандартизации показателей. Для Cosmo Inc. краткосрочные обязательства состоят исключительно из кредиторской задолженности. Чтобы найти процент краткосрочных обязательств относительно общих активов за самый последний год, мы рассчитываем соотношение кредиторской задолженности к общим активам за 2017 год:\n\nКредиторская задолженность / Общие активы = 400 / 2,600 = 15.38%.",
+      "explanation_formula": "$\\text{Short-term liabilities} = \\frac{\\text{Accounts Payable}}{\\text{Total Assets}} = \\frac{400}{2,600} = 15.38\\%$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This may represent a different calculation or period.",
+          "text_ru": "Неверно. Это может представлять другой расчет или период."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This is too high and does not represent the correct percentage of short-term liabilities.",
+          "text_ru": "Неверно. Это слишком высоко и не представляет правильный процент краткосрочных обязательств."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "common_size_analysis",
+        "vertical_common_size",
+        "balance_sheet"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q028",
+      "original_question_number": 2124,
+      "los_id": "LOS_11b",
+      "question_text_en": "An analyst is trying to analyze the trend in the capital structure of Cosmo Inc.",
+      "question_text_ru": "Аналитик пытается проанализировать тренд в структуре капитала Cosmo Inc.",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Balance Sheet",
+          "2017",
+          "2016",
+          "2015"
+        ],
+        "rows": [
+          [
+            "Acc. Rec.",
+            "300",
+            "210",
+            "150"
+          ],
+          [
+            "Inventory",
+            "500",
+            "540",
+            "450"
+          ],
+          [
+            "Total Current Assets",
+            "800",
+            "750",
+            "600"
+          ],
+          [
+            "Land",
+            "1,800",
+            "1,450",
+            "1,200"
+          ],
+          [
+            "Total Assets",
+            "2,600",
+            "2,200",
+            "1,800"
+          ],
+          [
+            "Acc. Payables",
+            "400",
+            "330",
+            "500"
+          ],
+          [
+            "Long-term Debt",
+            "1,300",
+            "770",
+            "400"
+          ],
+          [
+            "Common Equity",
+            "900",
+            "1,100",
+            "900"
+          ],
+          [
+            "Total Liab. & Equity",
+            "2,600",
+            "2,200",
+            "1,800"
+          ]
+        ]
+      },
+      "question_continuation_en": "If Cosmo Inc. had no short-term debt, the trend using the debt-to-equity ratio is most likely:",
+      "question_continuation_ru": "Если у Cosmo Inc. не было краткосрочного долга, тренд с использованием коэффициента долга к собственному капиталу, скорее всего:",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Cosmo Inc. has a decreasing trend in its use of debt financing.",
+          "text_ru": "Cosmo Inc. имеет убывающий тренд в использовании долгового финансирования."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Cosmo Inc. has an increasing trend in its use of debt financing.",
+          "text_ru": "Cosmo Inc. имеет возрастающий тренд в использовании долгового финансирования."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Cosmo Inc. has an increasing trend in its use of equity financing.",
+          "text_ru": "Cosmo Inc. имеет возрастающий тренд в использовании долевого финансирования."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Debt-to-equity ratio of year 2017 = 1,300 / 900 = 1.44.\nDebt-to-equity ratio of year 2016 = 770 / 1,100 = 0.7.\nDebt-to-equity ratio of year 2015 = 400 / 900 = 0.44.\n\nHence, Cosmo is increasingly using Debt financing to repurchase Equity. Please note that that debt in the D/E ratio represents the total debt on Cosmo's balance sheet (this would include both long-term and short-term interest-bearing liabilities).",
+      "explanation_ru": "Коэффициент долга к собственному капиталу за 2017 год = 1,300 / 900 = 1.44.\nКоэффициент долга к собственному капиталу за 2016 год = 770 / 1,100 = 0.7.\nКоэффициент долга к собственному капиталу за 2015 год = 400 / 900 = 0.44.\n\nСледовательно, Cosmo все больше использует долговое финансирование для выкупа капитала. Обратите внимание, что долг в коэффициенте D/E представляет общий долг в балансе Cosmo (это будет включать как долгосрочные, так и краткосрочные процентные обязательства).",
+      "explanation_formula": "$\\text{Debt-to-equity ratio} = \\frac{\\text{Long-term Debt}}{\\text{Common Equity}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The debt-to-equity ratio is increasing, not decreasing.",
+          "text_ru": "Неверно. Коэффициент долга к собственному капиталу увеличивается, а не уменьшается."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The trend shows increasing debt financing, not equity financing.",
+          "text_ru": "Неверно. Тренд показывает увеличение долгового финансирования, а не долевого финансирования."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "solvency_ratios",
+        "debt_to_equity",
+        "trend_analysis"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q029",
+      "original_question_number": 2125,
+      "los_id": "LOS_11d",
+      "question_text_en": "Which of the following is the most appropriate equation for calculating the return on equity ratio?",
+      "question_text_ru": "Какое из следующих уравнений является наиболее подходящим для расчета коэффициента рентабельности собственного капитала?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Return on Equity = Net Profit Margin × Asset Turnover × Financial Leverage.",
+          "text_ru": "Рентабельность собственного капитала = Чистая рентабельность × Оборачиваемость активов × Финансовый леверидж."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Return on Equity = Net Profit Margin × Equity Turnover × Financial Leverage.",
+          "text_ru": "Рентабельность собственного капитала = Чистая рентабельность × Оборачиваемость капитала × Финансовый леверидж."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Return on Equity = Gross Profit Margin × Return on Assets × Financial Leverage.",
+          "text_ru": "Рентабельность собственного капитала = Валовая рентабельность × Рентабельность активов × Финансовый леверидж."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The Return on equity ratio (Net income / Avg. Total equity) can also be calculated using the DuPont approach:\n\nReturn on equity ratio = Net Profit Margin × Asset Turnover × Financial Leverage\n\nOR\n\n[(Net Income / Sales)(Sales / Avg. Total Assets)(Avg. Total Assets / Avg. Total Equity)].",
+      "explanation_ru": "Коэффициент рентабельности собственного капитала (Чистая прибыль / Средний общий капитал) также можно рассчитать с использованием подхода DuPont:\n\nКоэффициент рентабельности собственного капитала = Чистая рентабельность × Оборачиваемость активов × Финансовый леверидж\n\nИЛИ\n\n[(Чистая прибыль / Продажи)(Продажи / Средние общие активы)(Средние общие активы / Средний общий капитал)].",
+      "explanation_formula": "$\\text{ROE} = \\frac{\\text{Net Income}}{\\text{Sales}} \\times \\frac{\\text{Sales}}{\\text{Avg. Total Assets}} \\times \\frac{\\text{Avg. Total Assets}}{\\text{Avg. Total Equity}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. It has included equity turnover instead of asset turnover.",
+          "text_ru": "Неверно. Включена оборачиваемость капитала вместо оборачиваемости активов."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It includes the Gross Profit margin and returns on assets instead of net profit margin and asset turnover.",
+          "text_ru": "Неверно. Включает валовую рентабельность и рентабельность активов вместо чистой рентабельности и оборачиваемости активов."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "dupont_analysis",
+        "roe"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q030",
+      "original_question_number": 2126,
+      "los_id": "LOS_11d",
+      "question_text_en": "A research analyst at Shark Investment Management is conducting a DuPont analysis for a firm whose financial data for the year 2016 is provided in the following table:",
+      "question_text_ru": "Исследовательский аналитик в Shark Investment Management проводит анализ DuPont для фирмы, финансовые данные которой за 2016 год представлены в следующей таблице:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Financial Data",
+          ""
+        ],
+        "rows": [
+          [
+            "Revenue",
+            "1,450,000"
+          ],
+          [
+            "COGS",
+            "550,000"
+          ],
+          [
+            "Gross Profit",
+            "900,000"
+          ],
+          [
+            "SG&A",
+            "160,000"
+          ],
+          [
+            "Wages Exp.",
+            "140,000"
+          ],
+          [
+            "EBITDA",
+            "600,000"
+          ],
+          [
+            "Dep. Exp.",
+            "220,000"
+          ],
+          [
+            "Operating Profit",
+            "380,000"
+          ],
+          [
+            "Interest Payment",
+            "170,000"
+          ],
+          [
+            "EBT",
+            "210,000"
+          ],
+          [
+            "Taxes",
+            "63,000"
+          ],
+          [
+            "Net Income",
+            "147,000"
+          ],
+          [
+            "Total Assets",
+            "3,400,000"
+          ],
+          [
+            "Total Debt",
+            "1,500,000"
+          ]
+        ]
+      },
+      "question_continuation_en": "Considering that the data provided is accurate, the firm's tax burden is closest to:",
+      "question_continuation_ru": "Учитывая, что предоставленные данные точны, налоговое бремя фирмы наиболее близко к:",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "0.25",
+          "text_ru": "0.25"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "0.30",
+          "text_ru": "0.30"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "0.70",
+          "text_ru": "0.70"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Tax Burden = Net Income / EBT = $147,000 / $210,000 = 0.7.",
+      "explanation_ru": "Налоговое бремя = Чистая прибыль / EBT = $147,000 / $210,000 = 0.7.",
+      "explanation_formula": "$\\text{Tax Burden} = \\frac{\\text{Net Income}}{\\text{EBT}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. It uses EBITDA in the denominator instead of EBT.",
+          "text_ru": "Неверно. Использует EBITDA в знаменателе вместо EBT."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Uses operating profit in the denominator instead of EBT.",
+          "text_ru": "Неверно. Использует операционную прибыль в знаменателе вместо EBT."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "dupont_analysis",
+        "tax_burden"
       ]
     }
   ]
