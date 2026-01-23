@@ -8,7 +8,7 @@
     "module_name": "Financial Reporting Quality",
     "module_name_ru": "Качество финансовой отчетности",
     "page_range": "213-265",
-    "total_terms": 10,
+    "total_terms": 29,
     "total_exercises": 4,
     "version": "2.0",
     "last_updated": "2026-01-23"
@@ -181,6 +181,275 @@
           "correct_answer": "B",
           "solution_en": "To determine the quality of the information provided in the financial reports of a given company, an analyst should examine the quality of the financial reports. In addition, they should check the quality of earnings to verify the sustainability of the earnings.",
           "solution_ru": "Чтобы определить качество информации, предоставленной в финансовых отчетах данной компании, аналитик должен изучить качество финансовых отчетов. Кроме того, следует проверить качество прибыли, чтобы подтвердить устойчивость прибыли."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_10b",
+      "los_code": "10b",
+      "los_description_en": "describe a spectrum for assessing financial reporting quality",
+      "los_description_ru": "описывать спектр для оценки качества финансовой отчетности",
+      "terms": [
+        {
+          "term_id": "FSA-10-011",
+          "term_en": "Quality Spectrum of Financial Reports",
+          "term_ru": "Спектр качества финансовых отчетов",
+          "definition_en": "A continuum for evaluating the quality of different reports that ranges from high-quality financial reports with sustainable earnings to reports that are unreliable and lack useful information due to poor financial reporting quality. The spectrum helps assess both financial reporting quality and earnings quality together.",
+          "definition_ru": "Континуум для оценки качества различных отчетов, который охватывает диапазон от высококачественных финансовых отчетов с устойчивой прибылью до отчетов, которые ненадежны и не содержат полезной информации из-за плохого качества финансовой отчетности. Спектр помогает оценивать качество финансовой отчетности и качество прибыли вместе.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-10-012",
+          "term_en": "GAAP Compliance",
+          "term_ru": "Соответствие GAAP",
+          "definition_en": "High-quality financial reports adhere to the generally accepted accounting principles (GAAP) of the relevant jurisdiction, such as International Financial Reporting Standards (IFRS), US GAAP, or other national GAAP. GAAP compliance is a characteristic of high-quality financial reporting.",
+          "definition_ru": "Высококачественные финансовые отчеты соответствуют общепринятым принципам бухгалтерского учета (GAAP) соответствующей юрисдикции, таким как Международные стандарты финансовой отчетности (МСФО), US GAAP или другие национальные GAAP. Соответствие GAAP является характеристикой высококачественной финансовой отчетности.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-10-013",
+          "term_en": "Decision-Useful Information",
+          "term_ru": "Информация, полезная для принятия решений",
+          "definition_en": "Beyond conforming to GAAP, high-quality reports possess characteristics that make the information useful for decision-making. The fundamental qualities are relevance and faithful representation. Enhanced qualities include comparability, verifiability, timeliness, and understandability. Creating high-quality reports involves balancing these characteristics.",
+          "definition_ru": "Помимо соответствия GAAP, высококачественные отчеты обладают характеристиками, которые делают информацию полезной для принятия решений. Фундаментальными качествами являются релевантность и достоверное представление. Улучшенные качества включают сопоставимость, проверяемость, своевременность и понятность. Создание высококачественных отчетов включает балансирование этих характеристик.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-10-014",
+          "term_en": "Sustainable Activities and Earnings",
+          "term_ru": "Устойчивая деятельность и прибыль",
+          "definition_en": "Sustainable activities and earnings are those expected to continue recurring in the future. Sustainable earnings that yield a high return on investment enhance the valuation of a company and its securities. They stem from activities that are likely to be sustainable and provide an adequate return.",
+          "definition_ru": "Устойчивая деятельность и прибыль — это те, которые, как ожидается, будут продолжать повторяться в будущем. Устойчивая прибыль, которая обеспечивает высокую рентабельность инвестиций, повышает оценку компании и ее ценных бумаг. Они происходят из деятельности, которая, вероятно, будет устойчивой и обеспечит адекватную доходность.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-10-015",
+          "term_en": "Within GAAP, but Biased Choices",
+          "term_ru": "В рамках GAAP, но предвзятые выборы",
+          "definition_en": "Situations where financial reports comply with GAAP but include biased choices that do not faithfully represent the economic substance of the reported information. Biased choices can affect not only the reported amounts but also how information is presented. Bias hampers an investor's ability to accurately assess a company's performance.",
+          "definition_ru": "Ситуации, когда финансовые отчеты соответствуют GAAP, но включают предвзятые выборы, которые не отражают достоверно экономическую сущность отчетной информации. Предвзятые выборы могут влиять не только на отчетные суммы, но и на то, как представлена информация. Предвзятость препятствует способности инвестора точно оценивать деятельность компании.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-10-016",
+          "term_en": "Aggressive Choices",
+          "term_ru": "Агрессивные выборы",
+          "definition_en": "Decisions that inflate a company's reported performance and financial position for the period under review. This can involve increasing reported revenues, earnings, or operating cash flow, reducing expenses, or minimizing reported debt levels on the balance sheet. Aggressive choices can enhance reported performance in the short term but often lead to deterioration in later periods.",
+          "definition_ru": "Решения, которые завышают отчетные результаты деятельности и финансовое положение компании за рассматриваемый период. Это может включать увеличение отчетных доходов, прибыли или операционного денежного потока, сокращение расходов или минимизацию отчетных уровней долга в балансе. Агрессивные выборы могут улучшить отчетные результаты в краткосрочной перспективе, но часто приводят к ухудшению в последующих периодах.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-10-017",
+          "term_en": "Conservative Choices",
+          "term_ru": "Консервативные выборы",
+          "definition_en": "Decisions that deflate a company's performance and financial position in the reporting period. This might include lowering reported revenues, earnings, or operating cash flow, increasing expenses, or recording higher levels of debt on the balance sheet. Conservative choices can result in improved reported performance and financial position in future periods.",
+          "definition_ru": "Решения, которые занижают результаты деятельности и финансовое положение компании в отчетном периоде. Это может включать снижение отчетных доходов, прибыли или операционного денежного потока, увеличение расходов или отражение более высоких уровней долга в балансе. Консервативные выборы могут привести к улучшению отчетных результатов и финансового положения в будущих периодах.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-10-018",
+          "term_en": "Earnings Smoothing",
+          "term_ru": "Сглаживание прибыли",
+          "definition_en": "A bias that involves understating earnings volatility. Companies may make conservative choices to understate earnings during strong performance periods, creating hidden reserves that allow for aggressive choices when performance is weaker. This practice aims to create a more stable earnings pattern over time.",
+          "definition_ru": "Предвзятость, которая включает занижение волатильности прибыли. Компании могут делать консервативные выборы для занижения прибыли в периоды сильных результатов, создавая скрытые резервы, которые позволяют делать агрессивные выборы, когда результаты слабее. Эта практика направлена на создание более стабильной модели прибыли с течением времени.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-10-019",
+          "term_en": "Earnings Management",
+          "term_ru": "Управление прибылью",
+          "definition_en": "Intentional choices that result in biased financial reports. This involves deliberate actions to manipulate reported earnings and how they are perceived by stakeholders. The primary difference from biased choices is the intent. Earnings management can be achieved through real actions or accounting decisions.",
+          "definition_ru": "Преднамеренные выборы, которые приводят к предвзятым финансовым отчетам. Это включает преднамеренные действия по манипулированию отчетной прибылью и тем, как она воспринимается заинтересованными сторонами. Основное отличие от предвзятых выборов — это намерение. Управление прибылью может достигаться посредством реальных действий или бухгалтерских решений.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-10-020",
+          "term_en": "Real Earnings Management",
+          "term_ru": "Реальное управление прибылью",
+          "definition_en": "Companies take specific real actions to influence earnings, such as postponing research and development (R&D) expenses to the next reporting period, thereby increasing current period earnings. These are actual business decisions made primarily to affect reported financial results rather than for operational benefits.",
+          "definition_ru": "Компании предпринимают конкретные реальные действия для влияния на прибыль, такие как отсрочка расходов на исследования и разработки (R&D) на следующий отчетный период, тем самым увеличивая прибыль текущего периода. Это фактические бизнес-решения, принимаемые в первую очередь для влияния на отчетные финансовые результаты, а не для операционных выгод.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-10-021",
+          "term_en": "Accounting Earnings Management",
+          "term_ru": "Бухгалтерское управление прибылью",
+          "definition_en": "Companies manage earnings through accounting decisions. This includes adjusting estimates for product returns, bad debt expense, or asset impairment to create higher reported earnings. These are choices in how to apply accounting standards and estimates rather than actual business decisions.",
+          "definition_ru": "Компании управляют прибылью посредством бухгалтерских решений. Это включает корректировку оценок для возврата продукции, расходов по безнадежным долгам или обесценения активов для создания более высокой отчетной прибыли. Это выборы в том, как применять стандарты бухгалтерского учета и оценки, а не фактические бизнес-решения.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-10-022",
+          "term_en": "Non-Compliant Accounting",
+          "term_ru": "Несоответствующий учет",
+          "definition_en": "Deviations from GAAP that generally indicate low-quality financial reporting. In such cases, assessing earnings quality becomes challenging or even impossible due to the lack of comparability with previous periods or other entities. This represents a serious quality issue on the financial reporting spectrum.",
+          "definition_ru": "Отклонения от GAAP, которые обычно указывают на низкое качество финансовой отчетности. В таких случаях оценка качества прибыли становится сложной или даже невозможной из-за отсутствия сопоставимости с предыдущими периодами или другими организациями. Это представляет серьезную проблему качества в спектре финансовой отчетности.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-10-023",
+          "term_en": "Fictitious Transactions",
+          "term_ru": "Фиктивные транзакции",
+          "definition_en": "At the bottom of the quality spectrum, fabricated reports depict fictitious events to mislead investors or conceal fraudulent asset misappropriation. These represent the lowest quality financial reporting and often constitute fraud. Example: Parmalat's fictitious bank balances of $4.5 billion in 2004.",
+          "definition_ru": "В нижней части спектра качества сфабрикованные отчеты изображают фиктивные события для введения инвесторов в заблуждение или сокрытия мошеннического присвоения активов. Это представляет самое низкое качество финансовой отчетности и часто представляет собой мошенничество. Пример: фиктивные банковские балансы Parmalat на $4,5 миллиарда в 2004 году.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-10-024",
+          "term_en": "Non-GAAP Reporting",
+          "term_ru": "Отчетность не по GAAP",
+          "definition_en": "Financial metrics that do not comply with generally accepted accounting principles like US GAAP or IFRS. These metrics can be both financial and operational. While companies can make choices within GAAP, non-GAAP reporting adds an additional layer of management discretion. Non-GAAP reporting reduces comparability across financial statements.",
+          "definition_ru": "Финансовые показатели, которые не соответствуют общепринятым принципам бухгалтерского учета, таким как US GAAP или МСФО. Эти показатели могут быть как финансовыми, так и операционными. Хотя компании могут делать выборы в рамках GAAP, отчетность не по GAAP добавляет дополнительный уровень управленческого усмотрения. Отчетность не по GAAP снижает сопоставимость финансовой отчетности.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-10-025",
+          "term_en": "Non-GAAP Financial Metrics",
+          "term_ru": "Финансовые показатели не по GAAP",
+          "definition_en": "Metrics that directly relate to the financial statements. A common example is 'non-GAAP earnings,' where companies adjust standard-compliant earnings to exclude items required by accounting standards or to include items not permitted by those standards. These require reconciliation to GAAP measures.",
+          "definition_ru": "Показатели, которые непосредственно относятся к финансовой отчетности. Распространенным примером является 'прибыль не по GAAP', когда компании корректируют прибыль, соответствующую стандартам, чтобы исключить статьи, требуемые стандартами бухгалтерского учета, или включить статьи, не разрешенные этими стандартами. Они требуют сверки с показателями GAAP.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-10-026",
+          "term_en": "Non-GAAP Operating Metrics",
+          "term_ru": "Операционные показатели не по GAAP",
+          "definition_en": "Metrics that do not directly relate to financial statements and are typically industry-specific, such as subscriber numbers, active users, and occupancy rates. These provide operational insights but are not derived from standard accounting principles.",
+          "definition_ru": "Показатели, которые не связаны непосредственно с финансовой отчетностью и обычно специфичны для отрасли, такие как количество подписчиков, активных пользователей и коэффициенты заполняемости. Они предоставляют операционные идеи, но не выводятся из стандартных принципов бухгалтерского учета.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-10-027",
+          "term_en": "EBITDA",
+          "term_ru": "EBITDA",
+          "definition_en": "Earnings Before Interest, Taxes, Depreciation, and Amortization. A performance measure that became popular as investors sought to compare companies on a consistent basis. EBITDA is seen as eliminating noisy reporting signals caused by different accounting methods among companies. It represents operating profitability before non-cash expenses and financing costs.",
+          "definition_ru": "Прибыль до вычета процентов, налогов, износа и амортизации. Показатель производительности, который стал популярным, поскольку инвесторы стремились сравнивать компании на последовательной основе. EBITDA рассматривается как устранение шумных сигналов отчетности, вызванных различными методами учета среди компаний. Представляет операционную прибыльность до неденежных расходов и затрат на финансирование.",
+          "type": "formula",
+          "formula": "$EBITDA = Net Income + Interest + Taxes + Depreciation + Amortization$",
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-10-028",
+          "term_en": "Adjusted EBITDA",
+          "term_ru": "Скорректированная EBITDA",
+          "definition_en": "Companies' own version of EBITDA created by excluding additional items from net income beyond standard EBITDA adjustments. Common adjustments include rental payments (EBITDAR), equity-based compensation, acquisition-related charges, impairment charges, litigation costs, and loss/gain on debt extinguishments. Each company may define this differently.",
+          "definition_ru": "Собственная версия EBITDA компаний, созданная путем исключения дополнительных статей из чистой прибыли помимо стандартных корректировок EBITDA. Обычные корректировки включают арендные платежи (EBITDAR), компенсацию на основе акций, расходы, связанные с приобретением, расходы на обесценение, судебные издержки и убытки/прибыль от погашения долга. Каждая компания может определять это по-разному.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-10-029",
+          "term_en": "SEC Requirements for Non-GAAP Measures",
+          "term_ru": "Требования SEC к показателям не по GAAP",
+          "definition_en": "Since 2003, if a company uses a non-GAAP financial measure in an SEC filing, it must display the most directly comparable GAAP measure with equal prominence and provide a reconciliation between the non-GAAP and GAAP measures. Companies must explain why the non-GAAP measure is useful and disclose any additional purposes for which it is used.",
+          "definition_ru": "С 2003 года, если компания использует финансовый показатель не по GAAP в документах SEC, она должна отображать наиболее непосредственно сопоставимый показатель GAAP с равной заметностью и предоставить сверку между показателями не по GAAP и GAAP. Компании должны объяснить, почему показатель не по GAAP полезен и раскрыть любые дополнительные цели, для которых он используется.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "FSA-10-EX-003",
+          "question_en": "Which of the following statements is the most accurate?",
+          "question_ru": "Какое из следующих утверждений является наиболее точным?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Conservative accounting choices may lead to upward biases in current-period financial reports.",
+              "text_ru": "Консервативные бухгалтерские выборы могут привести к завышению в финансовых отчетах текущего периода."
+            },
+            {
+              "letter": "B",
+              "text_en": "Aggressive accounting choices may lead to downward biases in current-period financial reports.",
+              "text_ru": "Агрессивные бухгалтерские выборы могут привести к занижению в финансовых отчетах текущего периода."
+            },
+            {
+              "letter": "C",
+              "text_en": "Conservative accounting choices may lead to downward biases in current-period financial reports.",
+              "text_ru": "Консервативные бухгалтерские выборы могут привести к занижению в финансовых отчетах текущего периода."
+            }
+          ],
+          "correct_answer": "C",
+          "solution_en": "Conservative accounting choices may lead to downward biases in current-period financial reports. This results from conservative accounting choices decreasing a company's reported performance and financial position in the current period. Option A is incorrect because conservative accounting choices lead to downward biases, not upward biases. Option B is incorrect because aggressive accounting choices lead to upward biases, not downward biases in current-period financial reports.",
+          "solution_ru": "Консервативные бухгалтерские выборы могут привести к занижению в финансовых отчетах текущего периода. Это происходит из-за того, что консервативные бухгалтерские выборы снижают отчетные результаты деятельности и финансовое положение компании в текущем периоде. Вариант A неверен, поскольку консервативные бухгалтерские выборы приводят к занижению, а не к завышению. Вариант B неверен, поскольку агрессивные бухгалтерские выборы приводят к завышению, а не к занижению в финансовых отчетах текущего периода."
+        },
+        {
+          "exercise_id": "FSA-10-EX-004",
+          "question_en": "Concerning conservatism and aggressiveness, what are the preferences of managers, investors, and regulators?",
+          "question_ru": "Что касается консерватизма и агрессивности, каковы предпочтения менеджеров, инвесторов и регуляторов?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Managers prefer aggressiveness, investors prefer conservatism, and regulators prefer neutrality.",
+              "text_ru": "Менеджеры предпочитают агрессивность, инвесторы предпочитают консерватизм, а регуляторы предпочитают нейтральность."
+            },
+            {
+              "letter": "B",
+              "text_en": "Managers prefer aggressiveness, investors prefer conservatism, and regulators prefer conservatism.",
+              "text_ru": "Менеджеры предпочитают агрессивность, инвесторы предпочитают консерватизм, а регуляторы предпочитают консерватизм."
+            },
+            {
+              "letter": "C",
+              "text_en": "Managers prefer conservatism, investors prefer aggressiveness, and regulators prefer aggressiveness.",
+              "text_ru": "Менеджеры предпочитают консерватизм, инвесторы предпочитают агрессивность, а регуляторы предпочитают агрессивность."
+            }
+          ],
+          "correct_answer": "A",
+          "solution_en": "Managers prefer aggressiveness since compensation is mainly tied to the company's financial performance. Investors prefer conservatism since they prefer good surprises over bad surprises. Regulators prefer neutrality because they want the financial results to reflect the company's actual position.",
+          "solution_ru": "Менеджеры предпочитают агрессивность, поскольку вознаграждение в основном привязано к финансовым результатам компании. Инвесторы предпочитают консерватизм, поскольку они предпочитают хорошие сюрпризы плохим сюрпризам. Регуляторы предпочитают нейтральность, поскольку они хотят, чтобы финансовые результаты отражали фактическое положение компании."
         }
       ]
     }
