@@ -7,7 +7,7 @@
     "module_id": 10,
     "module_name": "Financial Reporting Quality",
     "module_name_ru": "Качество финансовой отчетности",
-    "total_questions": 30,
+    "total_questions": 40,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -1625,6 +1625,518 @@
         "financial_reporting_quality",
         "earnings_quality",
         "earnings_volatility"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q031",
+      "original_question_number": 4911,
+      "los_id": "LOS_10a",
+      "question_text_en": "An analyst finds that a company's financial reports are free from errors but are heavily biased towards optimistic projections and assumptions. This situation most likely indicates:",
+      "question_text_ru": "Аналитик обнаруживает, что финансовые отчеты компании не содержат ошибок, но сильно смещены в сторону оптимистичных прогнозов и допущений. Эта ситуация скорее всего указывает на:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Low earnings quality.",
+          "text_ru": "Низкое качество прибыли."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "High financial reporting quality.",
+          "text_ru": "Высокое качество финансовой отчетности."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Compromised neutrality in financial reporting quality.",
+          "text_ru": "Скомпрометированная нейтральность в качестве финансовой отчетности."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "The financial reports being free from errors but biased towards optimistic projections indicates compromised neutrality in financial reporting quality. Neutrality means information is unbiased and represents a fair view. Even if technically accurate, a bias towards overly optimistic projections can mislead users by presenting an overly positive view of the company's financial health.",
+      "explanation_ru": "Финансовые отчеты, не содержащие ошибок, но смещенные в сторону оптимистичных прогнозов, указывают на скомпрометированную нейтральность в качестве финансовой отчетности. Нейтральность означает, что информация беспристрастна и представляет справедливое представление. Даже если технически точна, предвзятость к чрезмерно оптимистичным прогнозам может ввести в заблуждение пользователей, представляя слишком позитивный взгляд на финансовое состояние компании.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Earnings quality pertains to the sustainability and reliability of earnings, not the projections and assumptions used in financial reports.",
+          "text_ru": "Качество прибыли относится к устойчивости и надежности прибыли, а не к прогнозам и допущениям, используемым в финансовых отчетах."
+        },
+        "opt_b": {
+          "text_en": "High financial reporting quality requires neutrality, not just error-free information. For financial reports to be of high quality, they must be both accurate and unbiased.",
+          "text_ru": "Высокое качество финансовой отчетности требует нейтральности, а не просто информации без ошибок. Для того чтобы финансовые отчеты были высокого качества, они должны быть и точными, и беспристрастными."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "financial_reporting_quality",
+        "neutrality",
+        "bias"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q032",
+      "original_question_number": 4912,
+      "los_id": "LOS_10a",
+      "question_text_en": "Which of the following scenarios most likely indicates low financial reporting quality but high earnings quality?",
+      "question_text_ru": "Какой из следующих сценариев с наибольшей вероятностью указывает на низкое качество финансовой отчетности, но высокое качество прибыли?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "A company with detailed, accurate disclosures but unstable earnings.",
+          "text_ru": "Компания с детальными, точными раскрытиями, но нестабильной прибылью."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "A company with conservative accounting practices and sustainable earnings.",
+          "text_ru": "Компания с консервативными методами учета и устойчивой прибылью."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "A company performing well but providing minimal and biased financial disclosures.",
+          "text_ru": "Компания, работающая хорошо, но предоставляющая минимальные и предвзятые финансовые раскрытия."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "A company performing well but providing minimal and biased financial disclosures likely has high earnings quality but low financial reporting quality. High earnings quality means earnings are sustainable and derived from core operations. However, minimal and biased disclosures indicate low financial reporting quality because they fail to provide a complete, accurate, and neutral depiction of the company's financial condition.",
+      "explanation_ru": "Компания, работающая хорошо, но предоставляющая минимальные и предвзятые финансовые раскрытия, вероятно, имеет высокое качество прибыли, но низкое качество финансовой отчетности. Высокое качество прибыли означает, что прибыль устойчива и получена из основной деятельности. Однако минимальные и предвзятые раскрытия указывают на низкое качество финансовой отчетности, поскольку они не обеспечивают полное, точное и нейтральное отображение финансового состояния компании.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Detailed, accurate disclosures indicate high financial reporting quality, regardless of the stability of earnings.",
+          "text_ru": "Детальные, точные раскрытия указывают на высокое качество финансовой отчетности, независимо от стабильности прибыли."
+        },
+        "opt_b": {
+          "text_en": "Conservative accounting practices and sustainable earnings are indicative of high financial reporting quality and high earnings quality.",
+          "text_ru": "Консервативные методы учета и устойчивая прибыль указывают на высокое качество финансовой отчетности и высокое качество прибыли."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "financial_reporting_quality",
+        "earnings_quality",
+        "disclosure_quality"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q033",
+      "original_question_number": 4913,
+      "los_id": "LOS_10b",
+      "question_text_en": "How does the inclusion of non-GAAP financial measures in reports potentially affect analysts' assessments?",
+      "question_text_ru": "Как включение финансовых показателей не по GAAP в отчеты потенциально влияет на оценки аналитиков?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "It simplifies the comparison across companies.",
+          "text_ru": "Это упрощает сравнение между компаниями."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "It enhances the reliability and accuracy of financial assessments.",
+          "text_ru": "Это повышает надежность и точность финансовых оценок."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "It complicates the comparability and reliability of financial assessments.",
+          "text_ru": "Это усложняет сопоставимость и надежность финансовых оценок."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "The inclusion of non-GAAP financial measures complicates the comparability and reliability of financial assessments because these measures can vary widely among companies and are not standardized. Non-GAAP measures are tailored by companies to exclude certain items, which creates challenges for analysts who need consistent and comparable data to evaluate performance across different firms.",
+      "explanation_ru": "Включение финансовых показателей не по GAAP усложняет сопоставимость и надежность финансовых оценок, поскольку эти показатели могут значительно различаться между компаниями и не стандартизированы. Показатели не по GAAP адаптируются компаниями для исключения определенных статей, что создает проблемы для аналитиков, которым нужны последовательные и сопоставимые данные для оценки деятельности различных фирм.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Non-GAAP measures often reduce comparability because they are not consistently defined or calculated across companies.",
+          "text_ru": "Показатели не по GAAP часто снижают сопоставимость, поскольку они не определяются или не рассчитываются последовательно в разных компаниях."
+        },
+        "opt_b": {
+          "text_en": "Non-GAAP measures can distort the reliability of financial assessments by presenting a biased view of a company's financial health.",
+          "text_ru": "Показатели не по GAAP могут исказить надежность финансовых оценок, представляя предвзятый взгляд на финансовое состояние компании."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "non_gaap_measures",
+        "financial_reporting_quality",
+        "comparability"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q034",
+      "original_question_number": 4914,
+      "los_id": "LOS_10b",
+      "question_text_en": "A company has shown remarkable growth in its revenue and net income over the past three years. However, an analyst notices that the company's receivables have grown disproportionately compared to its revenue, and its inventory turnover ratio has significantly decreased. The company also reports substantial non-GAAP earnings adjustments related to capitalization of certain expenses that competitors typically expense. What should the analyst most likely conclude about the company's financial reporting and earnings quality?",
+      "question_text_ru": "Компания продемонстрировала заметный рост выручки и чистой прибыли за последние три года. Однако аналитик замечает, что дебиторская задолженность компании выросла непропорционально по сравнению с её выручкой, а коэффициент оборачиваемости запасов значительно снизился. Компания также сообщает о существенных корректировках прибыли не по GAAP, связанных с капитализацией определенных расходов, которые конкуренты обычно относят на затраты. Какой вывод должен сделать аналитик о качестве финансовой отчетности и прибыли компании?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The company's financial reporting quality is high due to consistent revenue and net income growth.",
+          "text_ru": "Качество финансовой отчетности компании высокое из-за постоянного роста выручки и чистой прибыли."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The company's financial reporting quality is high, but earnings quality is low due to the decline in inventory turnover.",
+          "text_ru": "Качество финансовой отчетности компании высокое, но качество прибыли низкое из-за снижения оборачиваемости запасов."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The company's financial reporting quality is questionable, and earnings quality may be overstated due to potential earnings management and aggressive accounting choices.",
+          "text_ru": "Качество финансовой отчетности компании сомнительно, и качество прибыли может быть завышено из-за потенциального управления прибылью и агрессивных методов учета."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "The company's financial reporting quality is questionable, and earnings quality may be overstated due to potential earnings management and aggressive accounting choices. The disproportionate growth in receivables compared to revenue and the decrease in inventory turnover ratio suggest potential issues with revenue recognition and inventory management. Additionally, the use of non-GAAP earnings adjustments to capitalize expenses that competitors typically expense can inflate earnings.",
+      "explanation_ru": "Качество финансовой отчетности компании сомнительно, и качество прибыли может быть завышено из-за потенциального управления прибылью и агрессивных методов учета. Непропорциональный рост дебиторской задолженности по сравнению с выручкой и снижение коэффициента оборачиваемости запасов указывают на потенциальные проблемы с признанием выручки и управлением запасами. Кроме того, использование корректировок прибыли не по GAAP для капитализации расходов, которые конкуренты обычно относят на затраты, может завысить прибыль.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Consistent revenue and net income growth do not necessarily indicate high financial reporting quality if there are underlying signs of aggressive accounting practices and earnings management.",
+          "text_ru": "Постоянный рост выручки и чистой прибыли не обязательно указывают на высокое качество финансовой отчетности, если есть признаки агрессивных методов учета и управления прибылью."
+        },
+        "opt_b": {
+          "text_en": "While the decline in inventory turnover suggests issues with earnings quality, the overall financial reporting quality is also questionable due to aggressive accounting choices.",
+          "text_ru": "Хотя снижение оборачиваемости запасов указывает на проблемы с качеством прибыли, общее качество финансовой отчетности также сомнительно из-за агрессивных методов учета."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": [
+        "financial_reporting_quality",
+        "earnings_management",
+        "aggressive_accounting",
+        "receivables_analysis",
+        "inventory_turnover"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q035",
+      "original_question_number": 4915,
+      "los_id": "LOS_10c",
+      "question_text_en": "Which of the following most accurately describes the impact of conservative accounting on future financial statements?",
+      "question_text_ru": "Какое из следующих утверждений наиболее точно описывает влияние консервативного учета на будущие финансовые отчеты?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "It leads to a sustained overstatement of future earnings.",
+          "text_ru": "Это приводит к устойчивому завышению будущей прибыли."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "It ensures that current period losses are carried forward to future periods.",
+          "text_ru": "Это гарантирует, что убытки текущего периода переносятся на будущие периоды."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "It results in improved future earnings performance when the conservative estimates reverse.",
+          "text_ru": "Это приводит к улучшению показателей прибыли в будущем, когда консервативные оценки меняются на противоположные."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Conservative accounting leads to improved future earnings performance when previously conservative estimates are adjusted. By recognizing lower performance in the current period through conservative estimates, future periods may benefit from higher reported earnings as these estimates are revised upwards or as deferred revenues and understated expenses are recognized.",
+      "explanation_ru": "Консервативный учет приводит к улучшению показателей прибыли в будущем, когда ранее консервативные оценки корректируются. Признавая более низкие показатели в текущем периоде с помощью консервативных оценок, будущие периоды могут выиграть от более высокой отчетной прибыли, поскольку эти оценки пересматриваются в сторону увеличения или признаются отложенные доходы и заниженные расходы.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Conservative accounting does not result in a sustained overstatement of future earnings. Instead, it temporarily understates current earnings.",
+          "text_ru": "Консервативный учет не приводит к устойчивому завышению будущей прибыли. Напротив, он временно занижает текущую прибыль."
+        },
+        "opt_b": {
+          "text_en": "Conservative accounting does not ensure that current period losses are carried forward to future periods. Instead, it often defers revenue recognition or overstates current expenses.",
+          "text_ru": "Консервативный учет не гарантирует, что убытки текущего периода переносятся на будущие периоды. Напротив, он часто откладывает признание выручки или завышает текущие расходы."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "conservative_accounting",
+        "earnings_quality",
+        "future_earnings"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q036",
+      "original_question_number": 4916,
+      "los_id": "LOS_10c",
+      "question_text_en": "How does the \"big bath\" restructuring charge affect a company's financial reporting?",
+      "question_text_ru": "Как расходы на реструктуризацию по методу \"большой ванны\" влияют на финансовую отчетность компании?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "It smooths earnings by evenly distributing losses across multiple periods.",
+          "text_ru": "Это сглаживает прибыль, равномерно распределяя убытки по нескольким периодам."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "It artificially inflates future earnings by recording large losses in the current period.",
+          "text_ru": "Это искусственно завышает будущую прибыль, отражая большие убытки в текущем периоде."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "It ensures that future costs are accurately reflected in the current period's financial statements.",
+          "text_ru": "Это гарантирует, что будущие затраты точно отражены в финансовой отчетности текущего периода."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The \"big bath\" restructuring charge artificially inflates future earnings by recording large losses in the current period. This practice involves taking substantial write-offs or recognizing significant expenses all at once, creating a significant loss in the current period. The result is that future periods appear more profitable as they are relieved from these expenses.",
+      "explanation_ru": "Расходы на реструктуризацию по методу \"большой ванны\" искусственно завышают будущую прибыль, отражая большие убытки в текущем периоде. Эта практика включает в себя принятие существенных списаний или признание значительных расходов одновременно, создавая значительные убытки в текущем периоде. Результатом является то, что будущие периоды выглядят более прибыльными, поскольку они освобождаются от этих расходов.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The \"big bath\" approach does not smooth earnings; it concentrates losses in one period to create a clean slate for future periods.",
+          "text_ru": "Подход \"большой ванны\" не сглаживает прибыль; он концентрирует убытки в одном периоде, чтобы создать чистый лист для будущих периодов."
+        },
+        "opt_c": {
+          "text_en": "The \"big bath\" does not ensure the accurate reflection of future costs in the current period's financial statements. Instead, it manipulates the timing of loss recognition.",
+          "text_ru": "\"Большая ванна\" не гарантирует точного отражения будущих затрат в финансовой отчетности текущего периода. Напротив, она манипулирует временем признания убытков."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "big_bath",
+        "restructuring_charges",
+        "earnings_management"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q037",
+      "original_question_number": 4917,
+      "los_id": "LOS_10c",
+      "question_text_en": "Which of the following best describes the primary benefit of conservative accounting for less informed parties?",
+      "question_text_ru": "Какое из следующих утверждений лучше всего описывает основное преимущество консервативного учета для менее информированных сторон?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "It provides a more optimistic view of the company's financial health.",
+          "text_ru": "Это дает более оптимистичный взгляд на финансовое состояние компании."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "It protects against the risk of overstatement of assets and earnings.",
+          "text_ru": "Это защищает от риска завышения активов и прибыли."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "It aligns more closely with management's desire to report strong financial performance.",
+          "text_ru": "Это более тесно согласуется с желанием руководства сообщать о высоких финансовых показателях."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Conservative accounting protects against the risk of overstatement of assets and earnings, providing a safeguard for less informed parties such as lenders and investors, who benefit from a more cautious representation of financial health. By recognizing potential losses and liabilities early and deferring the recognition of revenues and gains, conservative accounting creates a buffer against future financial uncertainties.",
+      "explanation_ru": "Консервативный учет защищает от риска завышения активов и прибыли, обеспечивая защиту для менее информированных сторон, таких как кредиторы и инвесторы, которые выигрывают от более осторожного представления финансового состояния. Признавая потенциальные убытки и обязательства заранее и откладывая признание доходов и прибылей, консервативный учет создает буфер против будущих финансовых неопределенностей.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Conservative accounting provides a more cautious view, not an optimistic one. It aims to avoid overstating the company's financial health.",
+          "text_ru": "Консервативный учет предоставляет более осторожный взгляд, а не оптимистичный. Он нацелен на то, чтобы избежать завышения финансового состояния компании."
+        },
+        "opt_c": {
+          "text_en": "Conservative accounting does not align with management's desire to report strong financial performance; it typically results in lower reported performance in the short term.",
+          "text_ru": "Консервативный учет не согласуется с желанием руководства сообщать о высоких финансовых показателях; он обычно приводит к более низким отчетным показателям в краткосрочной перспективе."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "conservative_accounting",
+        "investor_protection",
+        "asset_valuation"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q038",
+      "original_question_number": 4918,
+      "los_id": "LOS_10c",
+      "question_text_en": "Which of the following is most likely a consequence of aggressive accounting practices in the current reporting period?",
+      "question_text_ru": "Какое из следующих последствий наиболее вероятно для агрессивных методов учета в текущем отчетном периоде?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Future earnings volatility decreases.",
+          "text_ru": "Волатильность будущей прибыли снижается."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Short-term financial performance appears stronger.",
+          "text_ru": "Краткосрочные финансовые показатели выглядят сильнее."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Long-term sustainability of earnings improves.",
+          "text_ru": "Долгосрочная устойчивость прибыли улучшается."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Aggressive accounting practices in the current reporting period make short-term financial performance appear stronger by overstating revenues or understating expenses. This creates an inflated view of the company's financial health and performance, which can temporarily boost stock prices and meet market expectations. However, this manipulation is often unsustainable.",
+      "explanation_ru": "Агрессивные методы учета в текущем отчетном периоде делают краткосрочные финансовые показатели более сильными, завышая выручку или занижая расходы. Это создает завышенное представление о финансовом состоянии и результатах компании, что может временно повысить цены на акции и удовлетворить ожидания рынка. Однако эта манипуляция часто неустойчива.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Aggressive accounting often leads to increased future earnings volatility. By pulling revenues forward and deferring expenses, the current period's performance is artificially boosted.",
+          "text_ru": "Агрессивный учет часто приводит к увеличению волатильности будущей прибыли. Перемещая выручку вперед и откладывая расходы, показатели текущего периода искусственно завышаются."
+        },
+        "opt_c": {
+          "text_en": "Aggressive accounting undermines the long-term sustainability of earnings. By distorting the true financial performance, it sets up unrealistic expectations.",
+          "text_ru": "Агрессивный учет подрывает долгосрочную устойчивость прибыли. Искажая реальные финансовые показатели, он создает нереалистичные ожидания."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "aggressive_accounting",
+        "earnings_quality",
+        "short_term_performance"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q039",
+      "original_question_number": 4919,
+      "los_id": "LOS_10c",
+      "question_text_en": "Which of the following most likely explains why it is essential for analysts to consider the intent behind the application of accounting standards?",
+      "question_text_ru": "Какое из следующих объяснений наиболее вероятно объясняет, почему аналитикам важно учитывать намерение, стоящее за применением стандартов учета?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "To identify potential tax savings for the company.",
+          "text_ru": "Чтобы выявить потенциальную экономию налогов для компании."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "To determine the appropriateness of the company's capital structure.",
+          "text_ru": "Чтобы определить соответствие структуры капитала компании."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "To accurately infer whether the financial reporting is conservative or aggressive.",
+          "text_ru": "Чтобы точно определить, является ли финансовая отчетность консервативной или агрессивной."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Considering the intent behind the application of accounting standards helps analysts accurately infer whether the financial reporting is conservative or aggressive. Understanding the intent provides insights into management's motivations and the potential biases in financial reporting, which are crucial for assessing the company's financial health and sustainability of earnings.",
+      "explanation_ru": "Учет намерения, стоящего за применением стандартов учета, помогает аналитикам точно определить, является ли финансовая отчетность консервативной или агрессивной. Понимание намерения дает представление о мотивах руководства и потенциальных предубеждениях в финансовой отчетности, которые имеют решающее значение для оценки финансового состояния компании и устойчивости прибыли.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "The primary concern of analyzing the intent behind accounting practices is not to identify potential tax savings, but to understand the quality and reliability of financial information.",
+          "text_ru": "Основная задача анализа намерения, стоящего за методами учета, состоит не в том, чтобы выявить потенциальную экономию налогов, а в том, чтобы понять качество и надежность финансовой информации."
+        },
+        "opt_b": {
+          "text_en": "While the appropriateness of a company's capital structure is important, the focus here is on evaluating the quality of financial reporting.",
+          "text_ru": "Хотя соответствие структуры капитала компании важно, здесь основное внимание уделяется оценке качества финансовой отчетности."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "accounting_intent",
+        "conservative_vs_aggressive",
+        "analyst_evaluation"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q040",
+      "original_question_number": 4920,
+      "los_id": "LOS_10c",
+      "question_text_en": "How does the IFRS treatment of impairment losses differ from US GAAP, potentially affecting the level of conservatism in financial reporting?",
+      "question_text_ru": "Как трактовка убытков от обесценения по МСФО отличается от US GAAP, потенциально влияя на уровень консерватизма в финансовой отчетности?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "IFRS does not allow the reversal of impairment losses, while US GAAP does.",
+          "text_ru": "МСФО не позволяет восстановление убытков от обесценения, в то время как US GAAP позволяет."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "IFRS requires immediate expensing of research costs, while US GAAP allows capitalization.",
+          "text_ru": "МСФО требует немедленного списания исследовательских затрат, в то время как US GAAP позволяет капитализацию."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "IFRS impairment losses are recognized based on value in use, while US GAAP uses undiscounted future cash flows.",
+          "text_ru": "Убытки от обесценения по МСФО признаются на основе ценности использования, в то время как US GAAP использует недисконтированные будущие денежные потоки."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "IFRS recognizes impairment losses based on the higher of fair value less costs to sell and value in use. This approach can lead to earlier recognition of impairment losses, making IFRS appear more conservative compared to US GAAP, which uses undiscounted future cash flows as the criterion for recognizing impairment losses.",
+      "explanation_ru": "МСФО признает убытки от обесценения на основе большей из двух величин: справедливой стоимости за вычетом затрат на продажу и ценности использования. Этот подход может привести к более раннему признанию убытков от обесценения, что делает МСФО более консервативным по сравнению с US GAAP, который использует недисконтированные будущие денежные потоки в качестве критерия для признания убытков от обесценения.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "IFRS does allow the reversal of impairment losses if the recoverable amount increases in future periods, while US GAAP prohibits the reversal.",
+          "text_ru": "МСФО позволяет восстановление убытков от обесценения, если возмещаемая сумма увеличивается в будущих периодах, в то время как US GAAP запрещает восстановление."
+        },
+        "opt_b": {
+          "text_en": "This option pertains to the treatment of research costs, which is not relevant to the question about impairment losses.",
+          "text_ru": "Этот вариант относится к трактовке исследовательских затрат, что не имеет отношения к вопросу об убытках от обесценения."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": [
+        "ifrs_vs_gaap",
+        "impairment_losses",
+        "conservative_accounting"
       ]
     }
   ]
