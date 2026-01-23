@@ -1,0 +1,680 @@
+{
+  "metadata": {
+    "book_id": 3,
+    "book_code": "FSA",
+    "book_name": "Financial Statement Analysis",
+    "book_name_ru": "Анализ финансовой отчетности",
+    "module_id": 8,
+    "module_name": "Topics in Long-Term Liabilities and Equity",
+    "module_name_ru": "Анализ долгосрочных обязательств и капитала",
+    "total_questions": 10,
+    "version": "2.0",
+    "source": "AnalystPrep QBank"
+  },
+  "questions": [
+    {
+      "question_id": "FSA-8-Q001",
+      "original_question_number": 288,
+      "los_id": "LOS_8a",
+      "question_text_en": "A hypothetical high-tech industry is composed of three companies. Some notes regarding the three companies are given below:\nCompany A: Low leverage, low coverage ratio\nCompany B: Low leverage, high coverage ratio\nCompany C: High leverage, high coverage ratio\n\nTaking into account both ratios, the most solvent company is most likely:",
+      "question_text_ru": "Гипотетическая высокотехнологичная отрасль состоит из трех компаний. Некоторые заметки о трех компаниях приведены ниже:\nКомпания A: Низкий леверидж, низкий коэффициент покрытия\nКомпания B: Низкий леверидж, высокий коэффициент покрытия\nКомпания C: Высокий леверидж, высокий коэффициент покрытия\n\nУчитывая оба коэффициента, наиболее платежеспособной компанией, скорее всего, является:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Company A.",
+          "text_ru": "Компания A."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Company B.",
+          "text_ru": "Компания B."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Company C.",
+          "text_ru": "Компания C."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Low leverage: Relatively small debt.\nHigh coverage ratio: The firm can easily cover its interest payments with earnings.\n\nTherefore, Company B is the most solvent.",
+      "explanation_ru": "Низкий леверидж: Относительно небольшой долг.\nВысокий коэффициент покрытия: Компания может легко покрыть процентные платежи прибылью.\n\nТаким образом, Компания B является наиболее платежеспособной.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. While Company A has low leverage, its low coverage ratio indicates it cannot easily cover interest payments.",
+          "text_ru": "Неверно. Хотя у компании A низкий леверидж, низкий коэффициент покрытия указывает на то, что она не может легко покрыть процентные платежи."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Company C has high leverage, meaning high debt levels, which reduces solvency despite high coverage ratio.",
+          "text_ru": "Неверно. У компании C высокий леверидж, что означает высокий уровень долга, который снижает платежеспособность, несмотря на высокий коэффициент покрытия."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "solvency",
+        "leverage",
+        "coverage_ratio"
+      ]
+    },
+    {
+      "question_id": "FSA-8-Q002",
+      "original_question_number": 545,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following cases would most likely result in the creation of a net pension asset?",
+      "question_text_ru": "Какой из следующих случаев, скорее всего, приведет к созданию чистого пенсионного актива?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Carrying value of the pension trust's assets: $240 million\nFair value of the pension trust's assets: $167 million\nPresent value of pension obligations: $196 million",
+          "text_ru": "Балансовая стоимость активов пенсионного фонда: $240 млн\nСправедливая стоимость активов пенсионного фонда: $167 млн\nПриведенная стоимость пенсионных обязательств: $196 млн"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Carrying value of the pension trust's assets: $240 million\nFair value of the pension trust's assets: $267 million\nPresent value of pension obligations: $196 million",
+          "text_ru": "Балансовая стоимость активов пенсионного фонда: $240 млн\nСправедливая стоимость активов пенсионного фонда: $267 млн\nПриведенная стоимость пенсионных обязательств: $196 млн"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Carrying value of the pension trust's assets: $240 million\nFair value of the pension trust's assets: $267 million\nPresent value of pension obligations: $296 million",
+          "text_ru": "Балансовая стоимость активов пенсионного фонда: $240 млн\nСправедливая стоимость активов пенсионного фонда: $267 млн\nПриведенная стоимость пенсионных обязательств: $296 млн"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The creation of a net pension asset occurs when the fair value of the pension trust's assets exceeds the present value of the pension obligations. This situation indicates that the pension plan is overfunded, meaning it has more assets than needed to meet its future obligations to retirees. This is a positive scenario for the pension plan as it suggests financial stability and the ability to meet future pension payments without additional funding.",
+      "explanation_ru": "Создание чистого пенсионного актива происходит, когда справедливая стоимость активов пенсионного фонда превышает приведенную стоимость пенсионных обязательств. Эта ситуация указывает на то, что пенсионный план имеет избыточное финансирование, то есть у него больше активов, чем необходимо для выполнения будущих обязательств перед пенсионерами. Это положительный сценарий для пенсионного плана, так как предполагает финансовую стабильность и способность выполнять будущие пенсионные выплаты без дополнительного финансирования.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. In this scenario, the fair value of the pension trust's assets is $167 million, which is less than the present value of the pension obligations at $196 million. This situation indicates an underfunded pension plan, where the assets available are not sufficient to cover the future obligations. Therefore, instead of creating a net pension asset, this scenario would result in a net pension liability, reflecting the shortfall between the assets and the obligations.",
+          "text_ru": "Неверно. В этом сценарии справедливая стоимость активов пенсионного фонда составляет $167 млн, что меньше приведенной стоимости пенсионных обязательств в размере $196 млн. Эта ситуация указывает на недофинансированный пенсионный план, где имеющихся активов недостаточно для покрытия будущих обязательств. Поэтому вместо создания чистого пенсионного актива этот сценарий приведет к чистому пенсионному обязательству, отражающему дефицит между активами и обязательствами."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. In this case, the fair value of the pension trust's assets is $267 million, while the present value of the pension obligations is $296 million. Despite the high value of assets, they are still less than the obligations, resulting in a $29 million shortfall. This scenario would lead to a net pension liability rather than a net pension asset, as the plan does not have sufficient assets to cover its future obligations, indicating an underfunded status.",
+          "text_ru": "Неверно. В этом случае справедливая стоимость активов пенсионного фонда составляет $267 млн, в то время как приведенная стоимость пенсионных обязательств составляет $296 млн. Несмотря на высокую стоимость активов, они все еще меньше обязательств, что приводит к дефициту в размере $29 млн. Этот сценарий приведет к чистому пенсионному обязательству, а не к чистому пенсионному активу, поскольку план не имеет достаточных активов для покрытия своих будущих обязательств, что указывает на недофинансированный статус."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "defined_benefit_plan",
+        "net_pension_asset",
+        "overfunded"
+      ]
+    },
+    {
+      "question_id": "FSA-8-Q003",
+      "original_question_number": 547,
+      "los_id": "LOS_8a",
+      "question_text_en": "According to US GAAP, interests incurred on a capital lease are most likely classified under:",
+      "question_text_ru": "Согласно US GAAP, проценты, начисленные по капитальной аренде, скорее всего, классифицируются как:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "cash flow from financing activities.",
+          "text_ru": "денежный поток от финансовой деятельности."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "cash flow from operating activities.",
+          "text_ru": "денежный поток от операционной деятельности."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "either cash flow from operating or financing activities.",
+          "text_ru": "либо денежный поток от операционной, либо от финансовой деятельности."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "An interest expense is classified as a cash outflow from operating activities under US GAAP.",
+      "explanation_ru": "Процентные расходы классифицируются как отток денежных средств от операционной деятельности согласно US GAAP.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Under US GAAP, interest expense is classified as operating activities, not financing activities.",
+          "text_ru": "Неверно. Согласно US GAAP, процентные расходы классифицируются как операционная деятельность, а не финансовая."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. IFRS allows the option to classify it either as a financing activity or an operating activity, but US GAAP requires operating activities only.",
+          "text_ru": "Неверно. IFRS позволяет классифицировать их либо как финансовую, либо как операционную деятельность, но US GAAP требует только операционную деятельность."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "leases",
+        "capital_lease",
+        "cash_flow_classification",
+        "us_gaap"
+      ]
+    },
+    {
+      "question_id": "FSA-8-Q004",
+      "original_question_number": 548,
+      "los_id": "LOS_8a",
+      "question_text_en": "Company A gives a car on a 'sales-type lease' to Company B. Company A is involved in the sale and purchase of furniture. Under which would the lease principal be recognized by company A under US GAAP?",
+      "question_text_ru": "Компания A предоставляет автомобиль на условиях 'аренды с продажей' компании B. Компания A занимается продажей и покупкой мебели. Как будет признана основная сумма аренды компанией A согласно US GAAP?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Cash flow from investing activities.",
+          "text_ru": "Денежный поток от инвестиционной деятельности."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Cash flow from operating activities.",
+          "text_ru": "Денежный поток от операционной деятельности."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Either operating or investing (management's choice).",
+          "text_ru": "Либо операционная, либо инвестиционная (на выбор руководства)."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Under US GAAP, when Company A gives a car on a 'sales-type lease' to Company B, the lease principal received by Company A should be recognized under cash flow from investing activities. This classification is consistent with the accounting treatment of the receipt of principal amounts from investments, which are considered investing activities. The rationale behind this classification is that the lease transaction, in essence, represents an investment made by the lessor (Company A) in the leased asset (the car). The return of the principal amount is akin to the return of investment, thus justifying its classification under investing activities.",
+      "explanation_ru": "Согласно US GAAP, когда компания A предоставляет автомобиль на условиях 'аренды с продажей' компании B, основная сумма аренды, полученная компанией A, должна быть признана в составе денежного потока от инвестиционной деятельности. Эта классификация соответствует учетному подходу к получению основных сумм от инвестиций, которые считаются инвестиционной деятельностью. Обоснование этой классификации заключается в том, что арендная сделка, по сути, представляет собой инвестицию, сделанную арендодателем (компанией A) в арендованный актив (автомобиль). Возврат основной суммы аналогичен возврату инвестиций, что оправдывает её классификацию в составе инвестиционной деятельности.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. The lease principal is not classified as operating activities for sales-type leases.",
+          "text_ru": "Неверно. Основная сумма аренды не классифицируется как операционная деятельность для аренды с продажей."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Under US GAAP, there is no choice; it must be classified as investing activities.",
+          "text_ru": "Неверно. Согласно US GAAP, выбора нет; она должна быть классифицирована как инвестиционная деятельность."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "leases",
+        "sales_type_lease",
+        "lessor_accounting",
+        "us_gaap"
+      ]
+    },
+    {
+      "question_id": "FSA-8-Q005",
+      "original_question_number": 2353,
+      "los_id": "LOS_8a",
+      "question_text_en": "A lumber company leased lumber cutting equipment for five years with an end-yearly payment of $20,000 at an interest rate of 7%. What are the nature and the beginning value of the lease that the firm will report if the equipment's economic life is only five years?",
+      "question_text_ru": "Лесозаготовительная компания арендовала оборудование для распиловки древесины на пять лет с ежегодным платежом в конце года в размере $20,000 при процентной ставке 7%. Каковы характер и начальная стоимость аренды, которые компания отразит в отчетности, если экономический срок службы оборудования составляет всего пять лет?",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Year",
+          "Beginning Book Value (Lease Liability)",
+          "Interest Expense at 7%",
+          "Annual Lease Payment",
+          "Ending Lease Liability",
+          "Book Value Asset"
+        ],
+        "headers_ru": [
+          "Год",
+          "Начальная балансовая стоимость (обязательство по аренде)",
+          "Процентные расходы 7%",
+          "Ежегодный арендный платеж",
+          "Конечное обязательство по аренде",
+          "Балансовая стоимость актива"
+        ],
+        "rows": [
+          [
+            "1",
+            "$82,003.90",
+            "$5,740.27",
+            "$20,000",
+            "$67,744.17",
+            "$65,603.12"
+          ],
+          [
+            "2",
+            "$67,744.17",
+            "$4,742.09",
+            "$20,000",
+            "$52,486.27",
+            "$49,202.32"
+          ],
+          [
+            "3",
+            "$52,486.27",
+            "$3,674.04",
+            "$20,000",
+            "$36,160.30",
+            "$32,801.52"
+          ],
+          [
+            "4",
+            "$36,160.30",
+            "$2,531.22",
+            "$20,000",
+            "$18,691.51",
+            "$16,400.72"
+          ],
+          [
+            "5",
+            "$18,691.52",
+            "$1,308.41",
+            "$20,000",
+            "-$0.07",
+            "-$0.08"
+          ]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The firm will report the lease as an operating lease with no liability on its balance sheet.",
+          "text_ru": "Компания отразит аренду как операционную аренду без обязательства в балансе."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The firm will report the lease as a finance lease with a beginning lease liability of $67,744.",
+          "text_ru": "Компания отразит аренду как финансовую аренду с начальным арендным обязательством в размере $67,744."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The firm will report the lease as a finance lease with a beginning lease liability of $82,004.",
+          "text_ru": "Компания отразит аренду как финансовую аренду с начальным арендным обязательством в размере $82,004."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Since the lease period is the same as the economic life of the lease, the lease is reported as a finance lease and the beginning lease value is $82,004. (Calculated using the financial calculator as N=5; I=7%; PMT=20,000; FV=0; CPT->PV). Therefore, $82,004 is recognized as an asset and a liability in the accounts of the lumber company.",
+      "explanation_ru": "Поскольку срок аренды совпадает с экономическим сроком службы аренды, аренда отражается как финансовая аренда, а начальная стоимость аренды составляет $82,004. (Рассчитано с использованием финансового калькулятора как N=5; I=7%; PMT=20,000; FV=0; CPT->PV). Таким образом, $82,004 признается как актив и обязательство в счетах лесозаготовительной компании.",
+      "explanation_formula": "$PV = \\sum_{t=1}^{5} \\frac{20,000}{(1.07)^t} = 82,004$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Since the lease term equals the economic life of the asset, this is a finance lease, not an operating lease.",
+          "text_ru": "Неверно. Поскольку срок аренды равен экономическому сроку службы актива, это финансовая аренда, а не операционная."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. $67,744 is the ending lease liability after the first year, not the beginning lease liability.",
+          "text_ru": "Неверно. $67,744 - это конечное арендное обязательство после первого года, а не начальное арендное обязательство."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM Worksheet",
+        "steps_en": [
+          "N = 5",
+          "I/Y = 7",
+          "PMT = 20,000",
+          "FV = 0",
+          "CPT → PV = -82,004"
+        ],
+        "steps_ru": [
+          "N = 5",
+          "I/Y = 7",
+          "PMT = 20,000",
+          "FV = 0",
+          "CPT → PV = -82,004"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": [
+        "finance_lease",
+        "lease_liability",
+        "present_value"
+      ]
+    },
+    {
+      "question_id": "FSA-8-Q006",
+      "original_question_number": 2354,
+      "los_id": "LOS_8a",
+      "question_text_en": "A lumber company leased lumber cutting equipment for 5 years with the annual payment of $20,000 at the interest rate of 7%. Determine the amount of interest or rent expense that the firm will report in the first year if the leased asset is transferred to the lumber company at the end of the lease.",
+      "question_text_ru": "Лесозаготовительная компания арендовала оборудование для распиловки древесины на 5 лет с ежегодным платежом $20,000 при процентной ставке 7%. Определите сумму процентных или арендных расходов, которые компания отразит в первом году, если арендованный актив передается лесозаготовительной компании в конце аренды.",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Year",
+          "Beginning Book Value (Lease Liability)",
+          "Interest Expense at 7%",
+          "Annual Lease Payment",
+          "Ending Lease Liability",
+          "Book Value Asset"
+        ],
+        "headers_ru": [
+          "Год",
+          "Начальная балансовая стоимость (обязательство по аренде)",
+          "Процентные расходы 7%",
+          "Ежегодный арендный платеж",
+          "Конечное обязательство по аренде",
+          "Балансовая стоимость актива"
+        ],
+        "rows": [
+          [
+            "1",
+            "$82,003.90",
+            "$5,740.27",
+            "$20,000",
+            "$67,744.17",
+            "$67,744.17"
+          ],
+          [
+            "2",
+            "$67,744.17",
+            "$4,742.09",
+            "$20,000",
+            "$52,486.27",
+            "$49,202.32"
+          ],
+          [
+            "3",
+            "$52,486.27",
+            "$3,674.04",
+            "$20,000",
+            "$36,160.30",
+            "$32,801.52"
+          ],
+          [
+            "4",
+            "$36,160.30",
+            "$2,531.22",
+            "$20,000",
+            "$18,691.51",
+            "$16,400.72"
+          ],
+          [
+            "5",
+            "$18,691.52",
+            "$1,308.41",
+            "$20,000",
+            "-$0.07",
+            "-$0.08"
+          ]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Rent expense of $3,674.",
+          "text_ru": "Арендные расходы $3,674."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Interest expense $5,740.",
+          "text_ru": "Процентные расходы $5,740."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Interest expense of $4,752.",
+          "text_ru": "Процентные расходы $4,752."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Since the leased asset is transferred to the lumber firm (lessee), the lease is classified as a finance lease. At the lease initiation, the lessee reports the asset and liability of the amount equal to the beginning book value of the liability (or the present value of periodic lease payments). During the asset's life, the lessee will reduce the lease liability by the amount of principal repayment (Lease payment minus Interest expense) and will reduce the book value of the asset by the straight-line depreciation amount.\n\nUsing the financial calculator:\nN = 5; I/Y = 7; PMT = 20,000; FV = 0; CPT => PV = -82,004\n\nThe interest expense for the first year is simply the present value of liability multiplied by the interest rate:\nInterest expense = Beginning lease liability × Interest\n= $82,004 × 7%\n= $5,740",
+      "explanation_ru": "Поскольку арендованный актив передается лесозаготовительной компании (арендатору), аренда классифицируется как финансовая аренда. При начале аренды арендатор отражает актив и обязательство в сумме, равной начальной балансовой стоимости обязательства (или приведенной стоимости периодических арендных платежей). В течение срока службы актива арендатор будет уменьшать арендное обязательство на сумму погашения основного долга (арендный платеж минус процентные расходы) и будет уменьшать балансовую стоимость актива на сумму прямолинейной амортизации.\n\nИспользуя финансовый калькулятор:\nN = 5; I/Y = 7; PMT = 20,000; FV = 0; CPT => PV = -82,004\n\nПроцентные расходы за первый год - это просто приведенная стоимость обязательства, умноженная на процентную ставку:\nПроцентные расходы = Начальное арендное обязательство × Процент\n= $82,004 × 7%\n= $5,740",
+      "explanation_formula": "$\\text{Interest expense} = \\text{Beginning lease liability} \\times \\text{Interest rate} = 82,004 \\times 0.07 = 5,740$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This is not a rent expense; it's a finance lease with interest expense. $3,674 is the interest expense for year 3.",
+          "text_ru": "Неверно. Это не арендные расходы; это финансовая аренда с процентными расходами. $3,674 - это процентные расходы за 3-й год."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This amount does not match the interest expense calculation for the first year.",
+          "text_ru": "Неверно. Эта сумма не соответствует расчету процентных расходов за первый год."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM Worksheet",
+        "steps_en": [
+          "N = 5",
+          "I/Y = 7",
+          "PMT = 20,000",
+          "FV = 0",
+          "CPT → PV = -82,004",
+          "Interest = PV × 7% = $5,740"
+        ],
+        "steps_ru": [
+          "N = 5",
+          "I/Y = 7",
+          "PMT = 20,000",
+          "FV = 0",
+          "CPT → PV = -82,004",
+          "Проценты = PV × 7% = $5,740"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": [
+        "finance_lease",
+        "interest_expense",
+        "lease_accounting"
+      ]
+    },
+    {
+      "question_id": "FSA-8-Q007",
+      "original_question_number": 2360,
+      "los_id": "LOS_8b",
+      "question_text_en": "A plastic moulding company promised its employee five years ago that it would provide specific benefits upon retirement. Today, the pension fund's assets are greater than the pension obligations. Determine the most appropriate status of the fund.",
+      "question_text_ru": "Компания по производству пластиковых изделий пять лет назад пообещала своим сотрудникам, что предоставит определенные льготы при выходе на пенсию. Сегодня активы пенсионного фонда превышают пенсионные обязательства. Определите наиболее подходящий статус фонда.",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Overfunded defined benefits pension plan.",
+          "text_ru": "Избыточно финансируемый пенсионный план с установленными выплатами."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Overfunded defined contribution pension plan.",
+          "text_ru": "Избыточно финансируемый пенсионный план с установленными взносами."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Underfunded defined contribution pension plan.",
+          "text_ru": "Недофинансируемый пенсионный план с установленными взносами."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "When a company promises its employees specific benefits upon retirement, it is referring to a defined benefit pension plan. This type of plan specifies the benefits that employees will receive upon retirement, which are usually based on factors such as salary history and years of service. The company is responsible for ensuring that there are enough funds in the plan to meet these obligations. In this scenario, since the pension fund's assets exceed the pension obligations, the plan is considered overfunded. This means that the fund has more assets than needed to meet the future pension obligations to its employees. An overfunded status is generally favorable as it indicates financial health and stability of the pension plan, ensuring that the promised benefits can be provided to the employees upon retirement.",
+      "explanation_ru": "Когда компания обещает своим сотрудникам определенные льготы при выходе на пенсию, она имеет в виду пенсионный план с установленными выплатами. Этот тип плана определяет льготы, которые сотрудники получат при выходе на пенсию, которые обычно основаны на таких факторах, как история заработной платы и годы службы. Компания несет ответственность за обеспечение наличия достаточных средств в плане для выполнения этих обязательств. В этом сценарии, поскольку активы пенсионного фонда превышают пенсионные обязательства, план считается избыточно финансируемым. Это означает, что у фонда больше активов, чем необходимо для выполнения будущих пенсионных обязательств перед своими сотрудниками. Избыточное финансирование, как правило, является благоприятным, поскольку указывает на финансовое здоровье и стабильность пенсионного плана, обеспечивая возможность предоставления обещанных льгот сотрудникам при выходе на пенсию.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. The company promised specific benefits, which indicates a defined benefit plan, not a defined contribution plan.",
+          "text_ru": "Неверно. Компания обещала конкретные льготы, что указывает на план с установленными выплатами, а не план с установленными взносами."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The fund is overfunded (assets exceed obligations), not underfunded, and it is a defined benefit plan.",
+          "text_ru": "Неверно. Фонд имеет избыточное финансирование (активы превышают обязательства), а не недофинансирование, и это план с установленными выплатами."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "defined_benefit_plan",
+        "overfunded",
+        "pension_accounting"
+      ]
+    },
+    {
+      "question_id": "FSA-8-Q008",
+      "original_question_number": 2361,
+      "los_id": "LOS_8b",
+      "question_text_en": "Under IFRS, the actuarial gains and losses due to remeasurement are reported under:",
+      "question_text_ru": "Согласно IFRS, актуарные прибыли и убытки в результате переоценки отражаются в:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "the income statement.",
+          "text_ru": "отчете о прибылях и убытках."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "liabilities on the balance sheet.",
+          "text_ru": "обязательствах в балансе."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "other comprehensive income on the balance sheet.",
+          "text_ru": "прочем совокупном доходе в балансе."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "The presentation of defined benefits plans is different under IFRS and US GAAP. Under IFRS, the actuarial gains and losses due to remeasurement are reported in the equity side of the balance sheet under other comprehensive income (OCI).",
+      "explanation_ru": "Представление планов с установленными выплатами отличается в IFRS и US GAAP. Согласно IFRS, актуарные прибыли и убытки в результате переоценки отражаются в части капитала баланса в составе прочего совокупного дохода (OCI).",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Actuarial gains and losses are not reported in the income statement under IFRS; they are reported in OCI.",
+          "text_ru": "Неверно. Актуарные прибыли и убытки не отражаются в отчете о прибылях и убытках согласно IFRS; они отражаются в OCI."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. While actuarial gains and losses affect the net pension asset/liability, they are reported in OCI, not directly in liabilities.",
+          "text_ru": "Неверно. Хотя актуарные прибыли и убытки влияют на чистый пенсионный актив/обязательство, они отражаются в OCI, а не непосредственно в обязательствах."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "defined_benefit_plan",
+        "actuarial_gains_losses",
+        "ifrs",
+        "oci"
+      ]
+    },
+    {
+      "question_id": "FSA-8-Q009",
+      "original_question_number": 4850,
+      "los_id": "LOS_8a",
+      "question_text_en": "Which of the following is least likely a criterion for a contract to be classified as a lease under IFRS?",
+      "question_text_ru": "Что из следующего наименее вероятно является критерием для классификации контракта как аренды согласно IFRS?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Identify a specific underlying asset.",
+          "text_ru": "Идентифицировать конкретный базовый актив."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The asset must be separable from the company.",
+          "text_ru": "Актив должен быть отделим от компании."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Give the customer the ability to direct how the asset is used.",
+          "text_ru": "Предоставить клиенту возможность управлять использованием актива."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "For a contract to be classified as a lease under IFRS, it must identify a specific underlying asset and allow the customer to direct how and for what purpose the asset is used. Separability from the company is not a requirement.",
+      "explanation_ru": "Для того чтобы контракт был классифицирован как аренда согласно IFRS, он должен идентифицировать конкретный базовый актив и позволять клиенту управлять тем, как и для какой цели используется актив. Отделимость от компании не является требованием.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Identifying a specific underlying asset is a required criterion for a lease under IFRS.",
+          "text_ru": "Неверно. Идентификация конкретного базового актива является обязательным критерием для аренды согласно IFRS."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Giving the customer the ability to direct how the asset is used is a required criterion for a lease under IFRS.",
+          "text_ru": "Неверно. Предоставление клиенту возможности управлять использованием актива является обязательным критерием для аренды согласно IFRS."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "lease_classification",
+        "ifrs",
+        "lease_criteria"
+      ]
+    },
+    {
+      "question_id": "FSA-8-Q010",
+      "original_question_number": 4851,
+      "los_id": "LOS_8a",
+      "question_text_en": "Which of the following is least likely to be considered a benefit of leasing an asset compared to purchasing it?",
+      "question_text_ru": "Что из следующего наименее вероятно будет считаться преимуществом аренды актива по сравнению с его покупкой?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Lower upfront cash outflow.",
+          "text_ru": "Меньший первоначальный денежный отток."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Lower overall cost of financing.",
+          "text_ru": "Меньшая общая стоимость финансирования."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Reduced risk of obsolescence.",
+          "text_ru": "Снижение риска устаревания."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Leasing often results in a lower effective interest rate compared to unsecured loans or bonds, making it a cost-effective financing option, but it might not always result in a lower overall cost of financing.\n\nLeasing usually requires little to no down payment, resulting in lower upfront cash outflow.\n\nLeasing mitigates risks such as obsolescence by allowing the lessee to avoid ownership, making it easier to upgrade to newer technology.",
+      "explanation_ru": "Аренда часто приводит к более низкой эффективной процентной ставке по сравнению с необеспеченными кредитами или облигациями, что делает её экономически эффективным вариантом финансирования, но она может не всегда приводить к более низкой общей стоимости финансирования.\n\nАренда обычно требует небольшого или нулевого первоначального взноса, что приводит к меньшему первоначальному денежному оттоку.\n\nАренда снижает риски, такие как устаревание, позволяя арендатору избежать владения, что упрощает переход на более новые технологии.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Lower upfront cash outflow is a genuine benefit of leasing.",
+          "text_ru": "Неверно. Меньший первоначальный денежный отток является реальным преимуществом аренды."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Reduced risk of obsolescence is a genuine benefit of leasing.",
+          "text_ru": "Неверно. Снижение риска устаревания является реальным преимуществом аренды."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "leasing_benefits",
+        "lease_vs_purchase"
+      ]
+    }
+  ]
+}
