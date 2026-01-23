@@ -7,7 +7,7 @@
     "module_id": 9,
     "module_name": "Analysis of Income Taxes",
     "module_name_ru": "Анализ налогов на прибыль",
-    "total_questions": 20,
+    "total_questions": 30,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -717,6 +717,351 @@
       "calculator_keystrokes": {"method": "Standard Calculation", "steps_en": ["690,000 - 550,000 - 210,000 = -70,000", "70,000 × 0.25 = 17,500"], "steps_ru": ["690,000 - 550,000 - 210,000 = -70,000", "70,000 × 0.25 = 17,500"]},
       "difficulty": "medium",
       "topic_tags": ["deferred_tax_assets", "tax_loss_carryforward"]
+    },
+    {
+      "question_id": "FSA-9-Q021",
+      "original_question_number": 2314,
+      "los_id": "LOS_9b",
+      "question_text_en": "A highly cyclical British company reports warranty expenses of $30,000 in anticipation every year. However, during the current year, none of the customers claimed their 5-year warranties. Assuming a tax rate of 20%, the tax base of the warranty expense for the year is closest to:",
+      "question_text_ru": "Высоко цикличная британская компания признает гарантийные расходы в размере $30,000 в ожидании каждый год. Однако в течение текущего года ни один из клиентов не предъявил свои 5-летние гарантии. Предполагая налоговую ставку 20%, налоговая база гарантийных расходов за год ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "$0", "text_ru": "$0"},
+        {"id": "opt_b", "text_en": "$6,000", "text_ru": "$6,000"},
+        {"id": "opt_c", "text_en": "$30,000", "text_ru": "$30,000"}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The warranty expense is deducted from the income statement, but it is not deducted for tax purposes until the warranty is claimed. Therefore, the carrying value of the warranty is $30,000. The tax base of the warranty is calculated as the carrying value of the warranty minus the amount of warranty deductible in the future: Tax base = $30,000 - $30,000 = $0.",
+      "explanation_ru": "Гарантийные расходы вычитаются из отчета о прибылях и убытках, но они не вычитаются для налоговых целей до тех пор, пока гарантия не будет предъявлена. Следовательно, балансовая стоимость гарантии составляет $30,000. Налоговая база гарантии рассчитывается как балансовая стоимость гарантии минус сумма гарантии, вычитаемая в будущем: Налоговая база = $30,000 - $30,000 = $0.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": null,
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["tax_base", "warranty_expense"]
+    },
+    {
+      "question_id": "FSA-9-Q022",
+      "original_question_number": 2316,
+      "los_id": "LOS_9b",
+      "question_text_en": "ABC Company had a loss of $100,000 in 2015. In 2016, the firm managed to earn a taxable income of $180,000. If the tax rate is 26%, then calculate the firm's income tax expense for 2016.",
+      "question_text_ru": "Компания ABC понесла убыток в размере $100,000 в 2015 году. В 2016 году фирме удалось получить налогооблагаемый доход в размере $180,000. Если налоговая ставка составляет 26%, рассчитайте расход по налогу на прибыль фирмы за 2016 год.",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "$20,800", "text_ru": "$20,800"},
+        {"id": "opt_b", "text_en": "$26,000", "text_ru": "$26,000"},
+        {"id": "opt_c", "text_en": "$46,800", "text_ru": "$46,800"}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "DTA for 2015 = $100,000 × 26% = $26,000. Tax payable for 2016 = $180,000 × 26% = $46,800. Income tax expense = Tax payable + Change in DTL - Change in DTA = $46,800 + $0 - $26,000 = $20,800.",
+      "explanation_ru": "DTA за 2015 = $100,000 × 26% = $26,000. Налог к уплате за 2016 = $180,000 × 26% = $46,800. Расход по налогу на прибыль = Налог к уплате + Изменение DTL - Изменение DTA = $46,800 + $0 - $26,000 = $20,800.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": null,
+      "requires_calculator": true,
+      "calculator_keystrokes": {"method": "Standard Calculation", "steps_en": ["100,000 × 0.26 = 26,000", "180,000 × 0.26 = 46,800", "46,800 - 26,000 = 20,800"], "steps_ru": ["100,000 × 0.26 = 26,000", "180,000 × 0.26 = 46,800", "46,800 - 26,000 = 20,800"]},
+      "difficulty": "medium",
+      "topic_tags": ["income_tax_expense", "tax_loss_carryforward"]
+    },
+    {
+      "question_id": "FSA-9-Q023",
+      "original_question_number": 2317,
+      "los_id": "LOS_9b",
+      "question_text_en": "Assuming inflationary environment, which of the following accounting activities will most likely result in a deferred tax liability?",
+      "question_text_ru": "Предполагая инфляционную среду, какая из следующих учетных операций наиболее вероятно приведет к отложенному налоговому обязательству?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "A firm receives payments in advance for goods to be delivered in two years.", "text_ru": "Фирма получает авансовые платежи за товары, которые будут доставлены через два года."},
+        {"id": "opt_b", "text_en": "A firm expenses software development costs in its income statement but capitalizes software development costs for tax purposes.", "text_ru": "Фирма относит расходы на разработку программного обеспечения на расходы в отчете о прибылях и убытках, но капитализирует расходы на разработку программного обеспечения для налоговых целей."},
+        {"id": "opt_c", "text_en": "A firm uses the last-in, first-out (LIFO) inventory valuation method for tax purposes and the first-in, first-out (FIFO) method for reporting purposes.", "text_ru": "Фирма использует метод оценки запасов «последним пришел - первым ушел» (LIFO) для налоговых целей и метод «первым пришел - первым ушел» (FIFO) для целей отчетности."}
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "The inventory costing method a company uses directly affects the cost of goods sold, which is an expense. In general, the LIFO inventory costing method will produce a lower net income in an inflationary environment because COGS will comprise the newest (and most likely more expensive) items. This will result in lower tax liability than the FIFO method. The pre-tax accounting income will be higher than taxable income, creating a deferred tax liability.",
+      "explanation_ru": "Метод оценки запасов, используемый компанией, напрямую влияет на себестоимость проданных товаров, которая является расходом. В целом, метод оценки запасов LIFO будет производить более низкий чистый доход в инфляционной среде, потому что себестоимость будет включать новейшие (и, скорее всего, более дорогие) товары. Это приведет к более низким налоговым обязательствам, чем метод FIFO. Прибыль до налогообложения по бухгалтерскому учету будет выше, чем налогооблагаемый доход, создавая отложенное налоговое обязательство.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Payments received in advance create a DTA. The pre-tax accounting income will be less than the taxable income.",
+          "text_ru": "Авансовые платежи создают DTA. Прибыль до налогообложения по бухгалтерскому учету будет меньше налогооблагаемого дохода."
+        },
+        "opt_b": {
+          "text_en": "If the firm expenses the costs in its income statement, the pre-tax income will be lower than the taxable income, creating a DTA.",
+          "text_ru": "Если фирма относит затраты на расходы в отчете о прибылях и убытках, прибыль до налогообложения будет ниже налогооблагаемого дохода, создавая DTA."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": ["deferred_tax_liability", "inventory_methods"]
+    },
+    {
+      "question_id": "FSA-9-Q024",
+      "original_question_number": 2318,
+      "los_id": "LOS_9b",
+      "question_text_en": "Which of the following is least likely an effect of an increase in tax rates?",
+      "question_text_ru": "Что из следующего с наименьшей вероятностью является эффектом увеличения налоговых ставок?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "An increase in tax rates will increase Tax payable.", "text_ru": "Увеличение налоговых ставок увеличит налог к уплате."},
+        {"id": "opt_b", "text_en": "An increase in tax rates will decrease the EBIT margin.", "text_ru": "Увеличение налоговых ставок уменьшит маржу EBIT."},
+        {"id": "opt_c", "text_en": "An increase in tax rates will increase Deferred Tax Liabilities.", "text_ru": "Увеличение налоговых ставок увеличит отложенные налоговые обязательства."}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The EBIT margin is a measure of a firm's operating profitability as a percentage of its revenue, calculated before the impact of interest and taxes. This metric is used to assess a company's operational efficiency without the influence of financial structure, tax rates, and non-operating factors. Therefore, changes in tax rates do not directly impact the EBIT margin.",
+      "explanation_ru": "Маржа EBIT - это мера операционной рентабельности фирмы в процентах от ее выручки, рассчитываемая до влияния процентов и налогов. Эта метрика используется для оценки операционной эффективности компании без влияния финансовой структуры, налоговых ставок и неоперационных факторов. Следовательно, изменения налоговых ставок не влияют напрямую на маржу EBIT.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Tax payable is directly calculated based on the applicable tax rate on the taxable income. When the tax rate increases, the amount of tax owed to the government also increases.",
+          "text_ru": "Налог к уплате напрямую рассчитывается на основе применимой налоговой ставки к налогооблагаемому доходу. Когда налоговая ставка увеличивается, сумма налога, причитающаяся правительству, также увеличивается."
+        },
+        "opt_c": {
+          "text_en": "The future tax payments, based on the higher tax rate, will be larger when the temporary differences reverse. Therefore, an increase in tax rates increases Deferred Tax Liabilities.",
+          "text_ru": "Будущие налоговые платежи, основанные на более высокой налоговой ставке, будут больше, когда временные разницы сторнируются. Следовательно, увеличение налоговых ставок увеличивает отложенные налоговые обязательства."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["tax_rate_changes", "EBIT_margin"]
+    },
+    {
+      "question_id": "FSA-9-Q025",
+      "original_question_number": 2324,
+      "los_id": "LOS_9b",
+      "question_text_en": "Which of the following is the most appropriate definition of a deductible temporary difference? It is a temporary difference that:",
+      "question_text_ru": "Что из следующего является наиболее подходящим определением вычитаемой временной разницы? Это временная разница, которая:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "results in an expected increase in future taxable income.", "text_ru": "приводит к ожидаемому увеличению будущего налогооблагаемого дохода."},
+        {"id": "opt_b", "text_en": "results in an expected decrease in future taxable income.", "text_ru": "приводит к ожидаемому уменьшению будущего налогооблагаемого дохода."},
+        {"id": "opt_c", "text_en": "will not increase nor decrease expected future taxable income.", "text_ru": "не увеличит и не уменьшит ожидаемый будущий налогооблагаемый доход."}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Temporary differences between pre-tax income and taxable income can be taxable temporary differences or deductible temporary differences. Deductible temporary differences are differences between pre-tax income and taxable income that will result in a lower expected taxable income in the future.",
+      "explanation_ru": "Временные разницы между прибылью до налогообложения и налогооблагаемым доходом могут быть налогооблагаемыми временными разницами или вычитаемыми временными разницами. Вычитаемые временные разницы - это разницы между прибылью до налогообложения и налогооблагаемым доходом, которые приведут к более низкому ожидаемому налогооблагаемому доходу в будущем.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": null,
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["deductible_temporary_differences", "definitions"]
+    },
+    {
+      "question_id": "FSA-9-Q026",
+      "original_question_number": 3792,
+      "los_id": "LOS_9b",
+      "question_text_en": "The following table provides information for a company:",
+      "question_text_ru": "Следующая таблица предоставляет информацию для компании:",
+      "has_table": true,
+      "table_data": {
+        "headers": ["Item", "Financial Year 2019"],
+        "headers_ru": ["Показатель", "Финансовый год 2019"],
+        "rows": [
+          ["EBIT - USA", "$73,456"],
+          ["EBIT - Foreign", "$92,345"],
+          ["Current Income Taxes - Federal", "$5,610"],
+          ["Current Income Taxes - Foreign", "$3,424"],
+          ["Deferred Income Taxes - Federal", "($2,345)"],
+          ["Deferred Income Taxes - Foreign", "$340"]
+        ]
+      },
+      "question_continuation_en": "The provision for income taxes recorded for 2019 was closest to:",
+      "question_continuation_ru": "Резерв по налогу на прибыль, отраженный за 2019 год, был ближе всего к:",
+      "options": [
+        {"id": "opt_a", "text_en": "$2,005", "text_ru": "$2,005"},
+        {"id": "opt_b", "text_en": "$7,029", "text_ru": "$7,029"},
+        {"id": "opt_c", "text_en": "$9,034", "text_ru": "$9,034"}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Income tax expense = Taxes payable + net increase in deferred tax liabilities - net increase in deferred tax assets = $(5,610 + 3,424 - 2,345 + 340) = $7,029. The $7,029 includes $9,034 in current income taxes and ($2,005) in deferred income taxes.",
+      "explanation_ru": "Расход по налогу на прибыль = Налоги к уплате + чистое увеличение отложенных налоговых обязательств - чистое увеличение отложенных налоговых активов = $(5,610 + 3,424 - 2,345 + 340) = $7,029. $7,029 включает $9,034 текущих налогов на прибыль и ($2,005) отложенных налогов на прибыль.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "It represents deferred income taxes. The calculation has left out current income taxes.",
+          "text_ru": "Это представляет отложенные налоги на прибыль. В расчете не учтены текущие налоги на прибыль."
+        },
+        "opt_c": {
+          "text_en": "It represents the current income taxes. The calculation has left out deferred income taxes.",
+          "text_ru": "Это представляет текущие налоги на прибыль. В расчете не учтены отложенные налоги на прибыль."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {"method": "Standard Calculation", "steps_en": ["5,610 + 3,424 - 2,345 + 340", "= 7,029"], "steps_ru": ["5,610 + 3,424 - 2,345 + 340", "= 7,029"]},
+      "difficulty": "medium",
+      "topic_tags": ["income_tax_expense", "deferred_tax"]
+    },
+    {
+      "question_id": "FSA-9-Q027",
+      "original_question_number": 3793,
+      "los_id": "LOS_9c",
+      "question_text_en": "Consider the following financial information of a company:",
+      "question_text_ru": "Рассмотрите следующую финансовую информацию компании:",
+      "has_table": true,
+      "table_data": {
+        "headers": ["Item", "Financial Year 2019"],
+        "headers_ru": ["Показатель", "Финансовый год 2019"],
+        "rows": [
+          ["EBIT - USA", "$73,456"],
+          ["EBIT - Foreign", "$92,345"],
+          ["Current Income Taxes - Federal", "$5,610"],
+          ["Current Income Taxes - Foreign", "$3,424"],
+          ["Deferred Income Taxes - Federal", "($2,345)"],
+          ["Deferred Income Taxes - Foreign", "$340"]
+        ]
+      },
+      "question_continuation_en": "The company's effective tax rate for the year 2019 is closest to:",
+      "question_continuation_ru": "Эффективная налоговая ставка компании за 2019 год ближе всего к:",
+      "options": [
+        {"id": "opt_a", "text_en": "4.08%", "text_ru": "4.08%"},
+        {"id": "opt_b", "text_en": "4.24%", "text_ru": "4.24%"},
+        {"id": "opt_c", "text_en": "4.44%", "text_ru": "4.44%"}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Effective Tax Rate = Income Tax Expense / Pre-tax Income. Effective tax rate (2019) = $7,029 / $(73,456 + 92,345) = $7,029 / $165,801 = 4.24%.",
+      "explanation_ru": "Эффективная налоговая ставка = Расход по налогу на прибыль / Прибыль до налогообложения. Эффективная налоговая ставка (2019) = $7,029 / $(73,456 + 92,345) = $7,029 / $165,801 = 4.24%.",
+      "explanation_formula": "$\\text{Effective Tax Rate} = \\frac{\\text{Income Tax Expense}}{\\text{Pre-tax Income}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "It is the effective tax rate on foreign income only.",
+          "text_ru": "Это эффективная налоговая ставка только на иностранный доход."
+        },
+        "opt_c": {
+          "text_en": "It is the effective tax rate on US Income only.",
+          "text_ru": "Это эффективная налоговая ставка только на доход США."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {"method": "Standard Calculation", "steps_en": ["73,456 + 92,345 = 165,801", "7,029 ÷ 165,801 = 0.0424 = 4.24%"], "steps_ru": ["73,456 + 92,345 = 165,801", "7,029 ÷ 165,801 = 0.0424 = 4.24%"]},
+      "difficulty": "medium",
+      "topic_tags": ["effective_tax_rate"]
+    },
+    {
+      "question_id": "FSA-9-Q028",
+      "original_question_number": 3854,
+      "los_id": "LOS_9c",
+      "question_text_en": "Lex Corp. uses straight-line depreciation to depreciate the $550,000 cost of one of its assets for tax purposes. For reporting purposes, Lex Corp. depreciates the same asset using the accelerated depreciation method. If the asset's useful life is ten years, the tax base of the asset for the first year is closest to:",
+      "question_text_ru": "Lex Corp. использует линейную амортизацию для амортизации стоимости актива в $550,000 для налоговых целей. Для целей отчетности Lex Corp. амортизирует тот же актив с использованием метода ускоренной амортизации. Если срок полезного использования актива составляет десять лет, налоговая база актива за первый год ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "$55,000", "text_ru": "$55,000"},
+        {"id": "opt_b", "text_en": "$440,000", "text_ru": "$440,000"},
+        {"id": "opt_c", "text_en": "$495,000", "text_ru": "$495,000"}
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "The tax base is the asset or liability value after deducting the accumulated depreciation that is used for tax reporting purposes. Since Lex uses straight-line depreciation for tax purposes, the tax base = $550,000 - $55,000 = $495,000. Note: The carrying value of the asset in the income statement = $550,000 - $110,000 = $440,000 (using accelerated depreciation).",
+      "explanation_ru": "Налоговая база - это стоимость актива или обязательства после вычета накопленной амортизации, которая используется для целей налоговой отчетности. Поскольку Lex использует линейную амортизацию для налоговых целей, налоговая база = $550,000 - $55,000 = $495,000. Примечание: Балансовая стоимость актива в отчете о прибылях и убытках = $550,000 - $110,000 = $440,000 (с использованием ускоренной амортизации).",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This is the amount of depreciation using straight-line method for the first year.",
+          "text_ru": "Неверно. Это сумма амортизации с использованием линейного метода за первый год."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. This uses accelerated method of depreciation to calculate the tax base.",
+          "text_ru": "Неверно. Это использует ускоренный метод амортизации для расчета налоговой базы."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {"method": "Standard Calculation", "steps_en": ["550,000 ÷ 10 = 55,000", "550,000 - 55,000 = 495,000"], "steps_ru": ["550,000 ÷ 10 = 55,000", "550,000 - 55,000 = 495,000"]},
+      "difficulty": "medium",
+      "topic_tags": ["tax_base", "depreciation"]
+    },
+    {
+      "question_id": "FSA-9-Q029",
+      "original_question_number": 4897,
+      "los_id": "LOS_9a",
+      "question_text_en": "Which of the following best describes a deductible temporary difference?",
+      "question_text_ru": "Что из следующего лучше всего описывает вычитаемую временную разницу?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "It increases taxable income in future periods.", "text_ru": "Она увеличивает налогооблагаемый доход в будущих периодах."},
+        {"id": "opt_b", "text_en": "It leads to the recognition of a deferred tax asset.", "text_ru": "Она приводит к признанию отложенного налогового актива."},
+        {"id": "opt_c", "text_en": "It occurs when the carrying amount of an asset exceeds its tax base.", "text_ru": "Она возникает, когда балансовая стоимость актива превышает его налоговую базу."}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "A deductible temporary difference leads to the recognition of a deferred tax asset. This occurs when the tax base of an asset is higher than its carrying amount or when the carrying amount of a liability exceeds its tax base.",
+      "explanation_ru": "Вычитаемая временная разница приводит к признанию отложенного налогового актива. Это происходит, когда налоговая база актива выше его балансовой стоимости или когда балансовая стоимость обязательства превышает его налоговую базу.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Deductible temporary differences decrease taxable income in future periods, not increase it.",
+          "text_ru": "Вычитаемые временные разницы уменьшают налогооблагаемый доход в будущих периодах, а не увеличивают его."
+        },
+        "opt_c": {
+          "text_en": "Deductible temporary differences occur when the tax base of an asset exceeds its carrying amount, not the other way around.",
+          "text_ru": "Вычитаемые временные разницы возникают, когда налоговая база актива превышает его балансовую стоимость, а не наоборот."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["deductible_temporary_differences", "deferred_tax_assets"]
+    },
+    {
+      "question_id": "FSA-9-Q030",
+      "original_question_number": 4898,
+      "los_id": "LOS_9a",
+      "question_text_en": "Which of the following is an example of a permanent difference between accounting profit and taxable income?",
+      "question_text_ru": "Что из следующего является примером постоянной разницы между бухгалтерской прибылью и налогооблагаемым доходом?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "Tax loss carryforwards.", "text_ru": "Перенос налоговых убытков."},
+        {"id": "opt_b", "text_en": "Accelerated depreciation for tax purposes.", "text_ru": "Ускоренная амортизация для налоговых целей."},
+        {"id": "opt_c", "text_en": "Penalties and fines that are not tax-deductible.", "text_ru": "Штрафы и пени, которые не подлежат налоговому вычету."}
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Penalties and fines that are not tax-deductible represent a permanent difference between accounting profit and taxable income. These expenses are recognized in financial reporting but are not permitted as deductions for tax purposes, leading to a lasting disparity between accounting profit and taxable income.",
+      "explanation_ru": "Штрафы и пени, которые не подлежат налоговому вычету, представляют собой постоянную разницу между бухгалтерской прибылью и налогооблагаемым доходом. Эти расходы признаются в финансовой отчетности, но не разрешены в качестве вычетов для налоговых целей, что приводит к постоянному расхождению между бухгалтерской прибылью и налогооблагаемым доходом.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Tax loss carryforwards create a temporary difference, allowing losses to be used to offset taxable income in future periods.",
+          "text_ru": "Перенос налоговых убытков создает временную разницу, позволяя использовать убытки для зачета налогооблагаемого дохода в будущих периодах."
+        },
+        "opt_b": {
+          "text_en": "Accelerated depreciation for tax purposes creates a temporary difference, where the timing of expense recognition differs but will equalize over time.",
+          "text_ru": "Ускоренная амортизация для налоговых целей создает временную разницу, где время признания расходов отличается, но выровняется со временем."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["permanent_differences", "temporary_differences"]
     }
   ]
 }
