@@ -1,0 +1,722 @@
+{
+  "metadata": {
+    "book_id": 3,
+    "book_code": "FSA",
+    "book_name": "Financial Statement Analysis",
+    "book_name_ru": "Анализ финансовой отчетности",
+    "module_id": 9,
+    "module_name": "Analysis of Income Taxes",
+    "module_name_ru": "Анализ налогов на прибыль",
+    "total_questions": 20,
+    "version": "2.0",
+    "source": "AnalystPrep QBank"
+  },
+  "questions": [
+    {
+      "question_id": "FSA-9-Q001",
+      "original_question_number": 282,
+      "los_id": "LOS_9b",
+      "question_text_en": "Unused tax losses expected to be used in future periods will:",
+      "question_text_ru": "Неиспользованные налоговые убытки, которые ожидается использовать в будущих периодах:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "increase deferred tax assets.",
+          "text_ru": "увеличат отложенные налоговые активы."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "increase deferred tax liabilities.",
+          "text_ru": "увеличат отложенные налоговые обязательства."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "have no impact on tax assets nor liabilities.",
+          "text_ru": "не окажут влияния ни на налоговые активы, ни на обязательства."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Deferred tax assets represent the amount of taxes that can be recovered in future periods due to deductible temporary differences and unused tax losses. When a company has unused tax losses, it means that it has incurred losses that can be carried forward to offset taxable income in future periods. This potential future tax benefit is recognized as a deferred tax asset.",
+      "explanation_ru": "Отложенные налоговые активы представляют сумму налогов, которую можно возместить в будущих периодах за счет вычитаемых временных разниц и неиспользованных налоговых убытков. Когда у компании есть неиспользованные налоговые убытки, это означает, что она понесла убытки, которые могут быть перенесены для зачета налогооблагаемого дохода в будущих периодах. Эта потенциальная будущая налоговая выгода признается как отложенный налоговый актив.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Deferred tax liabilities arise from taxable temporary differences, not from unused tax losses. Unused tax losses would reduce future taxable income, leading to an increase in deferred tax assets, not liabilities.",
+          "text_ru": "Отложенные налоговые обязательства возникают из налогооблагаемых временных разниц, а не из неиспользованных налоговых убытков. Неиспользованные налоговые убытки уменьшают будущий налогооблагаемый доход, что приводит к увеличению отложенных налоговых активов, а не обязательств."
+        },
+        "opt_c": {
+          "text_en": "Unused tax losses have a direct impact on deferred tax assets. These losses can be used to offset future taxable income, which creates a future tax benefit for the company that is recognized as a deferred tax asset.",
+          "text_ru": "Неиспользованные налоговые убытки напрямую влияют на отложенные налоговые активы. Эти убытки могут быть использованы для зачета будущего налогооблагаемого дохода, что создает будущую налоговую выгоду для компании, признаваемую как отложенный налоговый актив."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["deferred_tax_assets", "tax_loss_carryforward"]
+    },
+    {
+      "question_id": "FSA-9-Q002",
+      "original_question_number": 284,
+      "los_id": "LOS_9b",
+      "question_text_en": "Deferred tax liabilities (DTL) mostly arise when:",
+      "question_text_ru": "Отложенные налоговые обязательства (DTL) в основном возникают, когда:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "the income tax expense is the same as the payable taxes.",
+          "text_ru": "расход по налогу на прибыль равен налогу к уплате."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "the income tax expense is temporarily smaller than the payable taxes.",
+          "text_ru": "расход по налогу на прибыль временно меньше налога к уплате."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "the income tax expense is temporarily greater than the payable taxes.",
+          "text_ru": "расход по налогу на прибыль временно больше налога к уплате."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Deferred tax liabilities (DTL) primarily occur when the income tax expense reported on the company's income statement is temporarily higher than the taxes payable to the tax authorities. This discrepancy usually arises due to differences in accounting principles used for financial reporting and tax laws. For instance, certain expenses might be recognized immediately according to accounting standards but are deductible over several years for tax purposes.",
+      "explanation_ru": "Отложенные налоговые обязательства (DTL) в основном возникают, когда расход по налогу на прибыль, отраженный в отчете о прибылях и убытках компании, временно превышает налоги к уплате налоговым органам. Это расхождение обычно возникает из-за различий в принципах учета, используемых для финансовой отчетности и налогового законодательства.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": null,
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["deferred_tax_liabilities", "temporary_differences"]
+    },
+    {
+      "question_id": "FSA-9-Q003",
+      "original_question_number": 285,
+      "los_id": "LOS_9b",
+      "question_text_en": "A company has the following:",
+      "question_text_ru": "У компании следующие показатели:",
+      "has_table": true,
+      "table_data": {
+        "headers": ["Item", "Amount"],
+        "headers_ru": ["Показатель", "Сумма"],
+        "rows": [
+          ["Income Tax Expense", "$60,000"],
+          ["Change in Deferred Tax Assets", "+$2,500"],
+          ["Change in Deferred Tax Liabilities", "+$3,000"]
+        ]
+      },
+      "question_continuation_en": "What is the company's income tax payable?",
+      "question_continuation_ru": "Каков налог к уплате компании?",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$59,500",
+          "text_ru": "$59,500"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$60,000",
+          "text_ru": "$60,000"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$60,500",
+          "text_ru": "$60,500"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Income Tax Payable (ITP) = Income Tax Expense (ITE) - Change in Deferred Tax Assets (DTA) + Change in Deferred Tax Liabilities (DTL). ITP = $60,000 - $2,500 + $3,000 = $60,500",
+      "explanation_ru": "Налог к уплате = Расход по налогу на прибыль - Изменение отложенных налоговых активов + Изменение отложенных налоговых обязательств. Налог к уплате = $60,000 - $2,500 + $3,000 = $60,500",
+      "explanation_formula": "$\\text{ITP} = \\text{ITE} - \\Delta\\text{DTA} + \\Delta\\text{DTL}$",
+      "explanation_table": null,
+      "explanation_wrong": null,
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "Standard Calculation",
+        "steps_en": ["60,000 - 2,500 + 3,000", "= 60,500"],
+        "steps_ru": ["60,000 - 2,500 + 3,000", "= 60,500"]
+      },
+      "difficulty": "medium",
+      "topic_tags": ["income_tax_payable", "deferred_tax"]
+    },
+    {
+      "question_id": "FSA-9-Q004",
+      "original_question_number": 535,
+      "los_id": "LOS_9b",
+      "question_text_en": "Which of the following may least likely result in a change in the carrying value of the deferred tax?",
+      "question_text_ru": "Что из следующего с наименьшей вероятностью приведет к изменению балансовой стоимости отложенного налога?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Increase in COGS.",
+          "text_ru": "Увеличение себестоимости продаж."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "A change in the tax rate.",
+          "text_ru": "Изменение налоговой ставки."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "A redetermination of recoverability of the deferred tax asset.",
+          "text_ru": "Пересмотр возмещаемости отложенного налогового актива."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "An increase in COGS would result in a decrease in pre-tax income, which could potentially decrease the firm's tax liability. However, this would not necessarily result in a change in the carrying value of the deferred tax asset or liability, as these are dependent on temporary differences between the tax base and carrying amount of assets and liabilities, not on the firm's actual tax expense for the year.",
+      "explanation_ru": "Увеличение себестоимости приведет к уменьшению прибыли до налогообложения, что потенциально может снизить налоговые обязательства фирмы. Однако это не обязательно приведет к изменению балансовой стоимости отложенного налогового актива или обязательства, поскольку они зависят от временных разниц между налоговой базой и балансовой стоимостью активов и обязательств, а не от фактического налогового расхода фирмы за год.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "A change in the tax rate would most likely result in a change in the carrying value of the deferred tax, as deferred tax assets and liabilities are measured using the enacted tax rate.",
+          "text_ru": "Изменение налоговой ставки, скорее всего, приведет к изменению балансовой стоимости отложенного налога, поскольку отложенные налоговые активы и обязательства оцениваются с использованием действующей налоговой ставки."
+        },
+        "opt_c": {
+          "text_en": "A redetermination of the recoverability of the deferred tax asset would most likely result in a change in the carrying value, as it could result in a valuation allowance being recorded.",
+          "text_ru": "Пересмотр возмещаемости отложенного налогового актива, скорее всего, приведет к изменению балансовой стоимости, так как это может привести к признанию оценочного резерва."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["deferred_tax", "tax_rate_changes"]
+    },
+    {
+      "question_id": "FSA-9-Q005",
+      "original_question_number": 541,
+      "los_id": "LOS_9b",
+      "question_text_en": "A company has net deferred tax assets amounting to $2,250,000. Which of the following components of the financial statements would benefit from an increase in the statutory tax rate?",
+      "question_text_ru": "У компании чистые отложенные налоговые активы в размере $2,250,000. Какой из следующих компонентов финансовой отчетности выиграет от увеличения установленной законом налоговой ставки?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The income statement will benefit, but not the balance sheet.",
+          "text_ru": "Выиграет отчет о прибылях и убытках, но не баланс."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The balance sheet will benefit, but not the income statement.",
+          "text_ru": "Выиграет баланс, но не отчет о прибылях и убытках."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Both the income statement and the balance sheet will benefit.",
+          "text_ru": "Выиграют и отчет о прибылях и убытках, и баланс."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "An increase in the statutory tax rate would benefit the balance sheet of a company that has net deferred tax assets. When the statutory tax rate increases, the value of these future tax savings increases, thereby increasing the value of the deferred tax assets on the balance sheet. However, the income statement typically suffers due to higher tax expenses in the short term.",
+      "explanation_ru": "Увеличение установленной законом налоговой ставки принесет пользу балансу компании, имеющей чистые отложенные налоговые активы. Когда установленная законом налоговая ставка увеличивается, стоимость этих будущих налоговых сбережений увеличивается, тем самым увеличивая стоимость отложенных налоговых активов в балансе. Однако отчет о прибылях и убытках обычно страдает из-за более высоких налоговых расходов в краткосрочной перспективе.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. While deferred tax assets are related to future tax savings, an increase in the statutory tax rate typically leads to higher current tax expenses, negatively impacting the income statement.",
+          "text_ru": "Неверно. Хотя отложенные налоговые активы связаны с будущей налоговой экономией, увеличение установленной законом налоговой ставки обычно приводит к более высоким текущим налоговым расходам, отрицательно влияя на отчет о прибылях и убытках."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The immediate effect of an increased tax rate is an increase in tax expense, which reduces net income in the income statement.",
+          "text_ru": "Неверно. Немедленным эффектом увеличения налоговой ставки является увеличение налогового расхода, что снижает чистую прибыль в отчете о прибылях и убытках."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": ["deferred_tax_assets", "tax_rate_changes"]
+    },
+    {
+      "question_id": "FSA-9-Q006",
+      "original_question_number": 542,
+      "los_id": "LOS_9b",
+      "question_text_en": "What would be the result if accounting standards require the capitalization of an expenditure, whereas income tax laws require recording it as an expense?",
+      "question_text_ru": "Каков будет результат, если стандарты бухгалтерского учета требуют капитализации расхода, в то время как законы о подоходном налоге требуют признавать его как расход?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Deferred tax asset.",
+          "text_ru": "Отложенный налоговый актив."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Deferred tax liability.",
+          "text_ru": "Отложенное налоговое обязательство."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "No deferred tax asset or liability.",
+          "text_ru": "Ни отложенного налогового актива, ни обязательства."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "When accounting standards mandate the capitalization of an expenditure while income tax laws require it to be recorded as an expense, this creates a temporary difference between the book value of assets and their tax base. This discrepancy leads to the recognition of a deferred tax liability. Capitalizing an expenditure means that the expense will be recognized over time through depreciation, rather than immediately, resulting in higher profits in the early years and higher taxable income reported in the financial statements compared to what is reported for tax purposes.",
+      "explanation_ru": "Когда стандарты бухгалтерского учета требуют капитализации расхода, в то время как законы о подоходном налоге требуют признавать его как расход, это создает временную разницу между балансовой стоимостью активов и их налоговой базой. Это расхождение приводит к признанию отложенного налогового обязательства. Капитализация расхода означает, что расход будет признаваться со временем через амортизацию, а не немедленно, что приведет к более высокой прибыли в первые годы.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": null,
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["deferred_tax_liability", "capitalization"]
+    },
+    {
+      "question_id": "FSA-9-Q007",
+      "original_question_number": 2286,
+      "los_id": "LOS_9b",
+      "question_text_en": "The tax-related expense that is recognized in a firm's income statement is most likely known as:",
+      "question_text_ru": "Связанный с налогами расход, который признается в отчете о прибылях и убытках фирмы, скорее всего известен как:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Tax base.",
+          "text_ru": "Налоговая база."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Tax payable.",
+          "text_ru": "Налог к уплате."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Tax expense.",
+          "text_ru": "Налоговый расход."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Tax expense is the amount of tax owed in a given period. It appears in the income statement. Tax payable is a liability account that reports the amount of taxes a company owes as of the balance sheet date. Tax base is defined as the income or asset balance used to calculate a tax liability.",
+      "explanation_ru": "Налоговый расход - это сумма налога, причитающаяся за данный период. Он отражается в отчете о прибылях и убытках. Налог к уплате - это счет обязательств, который отражает сумму налогов, которые компания должна на дату баланса. Налоговая база определяется как доход или балансовая стоимость актива, используемая для расчета налогового обязательства.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": null,
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["tax_expense", "income_statement"]
+    },
+    {
+      "question_id": "FSA-9-Q008",
+      "original_question_number": 2288,
+      "los_id": "LOS_9b",
+      "question_text_en": "Which of the following is most likely the definition of a deferred tax liability? A balance sheet account that results in the excess of:",
+      "question_text_ru": "Что из следующего наиболее вероятно является определением отложенного налогового обязательства? Счет в балансе, который представляет превышение:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "tax payable over tax expense that a firm is liable to pay in the future.",
+          "text_ru": "налога к уплате над налоговым расходом, который фирма обязана заплатить в будущем."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "tax expense over tax payable that a firm is liable to pay in the future.",
+          "text_ru": "налогового расхода над налогом к уплате, который фирма обязана заплатить в будущем."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "tax expense over tax payable that a firm is expected to receive in the future.",
+          "text_ru": "налогового расхода над налогом к уплате, который фирма ожидает получить в будущем."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "A deferred tax liability is a balance sheet account that represents the excess of tax expense over tax payable that a firm is liable to pay in the future. This situation typically arises when a company's accounting practices recognize income before it is taxable or recognize expenses after they are deductible for tax purposes.",
+      "explanation_ru": "Отложенное налоговое обязательство - это счет в балансе, который представляет превышение налогового расхода над налогом к уплате, который фирма обязана заплатить в будущем. Эта ситуация обычно возникает, когда методы учета компании признают доход до того, как он станет облагаемым налогом, или признают расходы после того, как они подлежат вычету для налоговых целей.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. A deferred tax liability occurs when the tax expense recognized in the financial statements exceeds the amount of taxes currently payable to the tax authorities, not the other way around.",
+          "text_ru": "Неверно. Отложенное налоговое обязательство возникает, когда налоговый расход, признанный в финансовой отчетности, превышает сумму налогов, подлежащих уплате налоговым органам, а не наоборот."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. A deferred tax liability represents a future tax obligation, not an expected tax receivable.",
+          "text_ru": "Неверно. Отложенное налоговое обязательство представляет будущее налоговое обязательство, а не ожидаемую налоговую дебиторскую задолженность."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["deferred_tax_liability", "definitions"]
+    },
+    {
+      "question_id": "FSA-9-Q009",
+      "original_question_number": 2290,
+      "los_id": "LOS_9b",
+      "question_text_en": "Identify the condition that will most likely create a deferred tax liability (DTL).",
+      "question_text_ru": "Определите условие, которое, скорее всего, создаст отложенное налоговое обязательство (DTL).",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Revenue is recognized in the tax return for taxable income before it is recognized in the income statement.",
+          "text_ru": "Выручка признается в налоговой декларации для налогооблагаемого дохода до того, как она признается в отчете о прибылях и убытках."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Expenses or tax-deductible charges are recognized for tax purposes before they are deducted from the income statement.",
+          "text_ru": "Расходы или налоговые вычеты признаются для налоговых целей до того, как они вычитаются из отчета о прибылях и убытках."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Expenses or tax-deductible charges are recognized in the income statement before they are deducted from taxable income for tax purposes.",
+          "text_ru": "Расходы или налоговые вычеты признаются в отчете о прибылях и убытках до того, как они вычитаются из налогооблагаемого дохода для налоговых целей."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "A deferred tax liability (DTL) arises when there are temporary differences between the accounting income before taxes reported in the financial statements and the taxable income reported to the tax authorities. A DTL indicates that a company will pay more taxes in the future due to these temporary differences. When expenses are recognized for tax purposes before they are deducted from the income statement, this creates a DTL.",
+      "explanation_ru": "Отложенное налоговое обязательство (DTL) возникает, когда есть временные разницы между бухгалтерским доходом до налогообложения, отраженным в финансовой отчетности, и налогооблагаемым доходом, отчитанным налоговым органам. DTL указывает, что компания заплатит больше налогов в будущем из-за этих временных разниц.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This describes a scenario that would lead to the creation of a deferred tax asset (DTA), not a liability.",
+          "text_ru": "Неверно. Это описывает сценарий, который приведет к созданию отложенного налогового актива (DTA), а не обязательства."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This describes a scenario that would typically result in a deferred tax asset (DTA).",
+          "text_ru": "Неверно. Это описывает сценарий, который обычно приводит к отложенному налоговому активу (DTA)."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["deferred_tax_liability", "temporary_differences"]
+    },
+    {
+      "question_id": "FSA-9-Q010",
+      "original_question_number": 2293,
+      "los_id": "LOS_9b",
+      "question_text_en": "A firm uses straight-line depreciation in its income statement for accounting purposes and uses double-declining depreciation for tax purposes. Determine the most likely result due to the difference in depreciation methods.",
+      "question_text_ru": "Фирма использует линейную амортизацию в своем отчете о прибылях и убытках для целей бухгалтерского учета и использует метод двойного уменьшающегося остатка для налоговых целей. Определите наиболее вероятный результат из-за разницы в методах амортизации.",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "A deferred tax asset is created.",
+          "text_ru": "Создается отложенный налоговый актив."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "A deferred tax liability is created.",
+          "text_ru": "Создается отложенное налоговое обязательство."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Since the differences are in depreciation methods, no deferred tax assets or deferred tax liabilities are created.",
+          "text_ru": "Поскольку различия в методах амортизации, не создаются ни отложенные налоговые активы, ни отложенные налоговые обязательства."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "When a firm uses straight-line depreciation for accounting purposes and double-declining depreciation for tax purposes, it results in a timing difference between the accounting income and taxable income. This timing difference creates a deferred tax liability (DTL). The straight-line method spreads the cost of an asset evenly over its useful life, while the double-declining balance method accelerates depreciation in the early years, leading to higher depreciation expenses and lower taxable income in those years.",
+      "explanation_ru": "Когда фирма использует линейную амортизацию для целей бухгалтерского учета и метод двойного уменьшающегося остатка для налоговых целей, это приводит к временной разнице между бухгалтерским доходом и налогооблагаемым доходом. Эта временная разница создает отложенное налоговое обязательство (DTL). Линейный метод распределяет стоимость актива равномерно на протяжении срока его полезного использования, в то время как метод двойного уменьшающегося остатка ускоряет амортизацию в первые годы.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": null,
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["deferred_tax_liability", "depreciation_methods"]
+    },
+    {
+      "question_id": "FSA-9-Q011",
+      "original_question_number": 2295,
+      "los_id": "LOS_9b",
+      "question_text_en": "Lex Corp uses straight-line depreciation to depreciate the $550,000 cost of one of its assets for tax purposes. For reporting purposes, Lex Corp depreciates the same asset using the accelerated depreciation method. Calculate the tax base of the asset for the first year if its useful life is ten years.",
+      "question_text_ru": "Lex Corp использует линейную амортизацию для амортизации стоимости актива в $550,000 для налоговых целей. Для целей отчетности Lex Corp амортизирует тот же актив с использованием метода ускоренной амортизации. Рассчитайте налоговую базу актива за первый год, если срок его полезного использования составляет десять лет.",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "$55,000", "text_ru": "$55,000"},
+        {"id": "opt_b", "text_en": "$440,000", "text_ru": "$440,000"},
+        {"id": "opt_c", "text_en": "$495,000", "text_ru": "$495,000"}
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "The tax base is the amount or value of the asset after deducting the depreciation that is used for tax reporting purposes. Since Lex uses straight-line depreciation for tax purposes, the tax base = $550,000 - $55,000 = $495,000. The carrying value in the income statement = $550,000 - $110,000 = $440,000 (using accelerated depreciation).",
+      "explanation_ru": "Налоговая база - это сумма или стоимость актива после вычета амортизации, которая используется для целей налоговой отчетности. Поскольку Lex использует линейную амортизацию для налоговых целей, налоговая база = $550,000 - $55,000 = $495,000. Балансовая стоимость в отчете о прибылях и убытках = $550,000 - $110,000 = $440,000 (с использованием ускоренной амортизации).",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {"opt_a": {"text_en": "Incorrect. This is the amount of depreciation using straight-line method for the first year.", "text_ru": "Неверно. Это сумма амортизации с использованием линейного метода за первый год."}, "opt_b": {"text_en": "Incorrect. This uses accelerated method of depreciation to calculate the tax base.", "text_ru": "Неверно. Это использует ускоренный метод амортизации для расчета налоговой базы."}},
+      "requires_calculator": true,
+      "calculator_keystrokes": {"method": "Standard Calculation", "steps_en": ["550,000 ÷ 10 = 55,000", "550,000 - 55,000 = 495,000"], "steps_ru": ["550,000 ÷ 10 = 55,000", "550,000 - 55,000 = 495,000"]},
+      "difficulty": "medium",
+      "topic_tags": ["tax_base", "depreciation"]
+    },
+    {
+      "question_id": "FSA-9-Q012",
+      "original_question_number": 2296,
+      "los_id": "LOS_9b",
+      "question_text_en": "In the income statement, a firm depreciates its assets of $900,000 over five years using the straight-line method. If, for tax reporting purposes, the company depreciates the same asset over ten years using double-declining depreciation, which of the following best describes the accounting treatment for the first year?",
+      "question_text_ru": "В отчете о прибылях и убытках фирма амортизирует свои активы стоимостью $900,000 за пять лет с использованием линейного метода. Если для целей налоговой отчетности компания амортизирует тот же актив за десять лет с использованием метода двойного уменьшающегося остатка, что из следующего лучше всего описывает порядок учета за первый год?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "A deferred tax asset of $180,000 is created.", "text_ru": "Создается отложенный налоговый актив в размере $180,000."},
+        {"id": "opt_b", "text_en": "A deferred tax liability of $180,000 is created.", "text_ru": "Создается отложенное налоговое обязательство в размере $180,000."},
+        {"id": "opt_c", "text_en": "No deferred tax asset or deferred tax liability is created as there is no difference between tax expense and tax payable.", "text_ru": "Не создается ни отложенный налоговый актив, ни отложенное налоговое обязательство, поскольку нет разницы между налоговым расходом и налогом к уплате."}
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "No deferred tax asset or liability is created as there is no difference between tax expense and tax payable. Tax expense using straight-line method = [($900,000 - $0) / 5] = $180,000. Tax payable = (2/10) × $900,000 = $180,000. Since both are equal, no deferred tax is created.",
+      "explanation_ru": "Не создается ни отложенный налоговый актив, ни обязательство, поскольку нет разницы между налоговым расходом и налогом к уплате. Налоговый расход по линейному методу = [($900,000 - $0) / 5] = $180,000. Налог к уплате = (2/10) × $900,000 = $180,000. Поскольку оба равны, отложенный налог не создается.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": null,
+      "requires_calculator": true,
+      "calculator_keystrokes": {"method": "Standard Calculation", "steps_en": ["Straight-line: 900,000 ÷ 5 = 180,000", "Double-declining: 900,000 × (2/10) = 180,000", "Both equal, no deferred tax"], "steps_ru": ["Линейный: 900,000 ÷ 5 = 180,000", "Двойное уменьшение: 900,000 × (2/10) = 180,000", "Оба равны, отложенный налог не создается"]},
+      "difficulty": "hard",
+      "topic_tags": ["deferred_tax", "depreciation"]
+    },
+    {
+      "question_id": "FSA-9-Q013",
+      "original_question_number": 2297,
+      "los_id": "LOS_9b",
+      "question_text_en": "A textile company in Turkey purchased a T-shirt printing machine for $1,200,000 with a salvage value of $150,000. For reporting purposes, the textile company depreciates the asset over 6 years using the straight-line method and, for tax purposes, the company depreciates the printer over 8 years using accelerated depreciation. Assuming that the tax rate is 40%, and EBITDA is $670,000 each year, which of the following is most likely the deferred tax asset or liability to be created in the first year?",
+      "question_text_ru": "Текстильная компания в Турции приобрела машину для печати футболок за $1,200,000 с ликвидационной стоимостью $150,000. Для целей отчетности текстильная компания амортизирует актив за 6 лет по линейному методу, а для налоговых целей компания амортизирует принтер за 8 лет по методу ускоренной амортизации. Предполагая, что налоговая ставка составляет 40%, а EBITDA - $670,000 каждый год, что из следующего наиболее вероятно будет создано как отложенный налоговый актив или обязательство в первый год?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "A deferred tax asset of $40,000 is created.", "text_ru": "Создается отложенный налоговый актив в размере $40,000."},
+        {"id": "opt_b", "text_en": "A deferred tax liability of $50,000 is created.", "text_ru": "Создается отложенное налоговое обязательство в размере $50,000."},
+        {"id": "opt_c", "text_en": "A deferred tax liability of $125,000 is created.", "text_ru": "Создается отложенное налоговое обязательство в размере $125,000."}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Straight-line depreciation = (1,200,000 - 150,000) / 6 = $175,000. Accelerated depreciation (Year 1) = 2/8 × 1,200,000 = $300,000. Tax expense in income statement = ($670,000 - $175,000) × 40% = $198,000. Taxes payable = ($670,000 - $300,000) × 40% = $148,000. Since tax expense ($198,000) > taxes payable ($148,000), a DTL of $50,000 is created.",
+      "explanation_ru": "Линейная амортизация = (1,200,000 - 150,000) / 6 = $175,000. Ускоренная амортизация (Год 1) = 2/8 × 1,200,000 = $300,000. Налоговый расход в отчете о прибылях и убытках = ($670,000 - $175,000) × 40% = $198,000. Налог к уплате = ($670,000 - $300,000) × 40% = $148,000. Поскольку налоговый расход ($198,000) > налог к уплате ($148,000), создается DTL в размере $50,000.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": null,
+      "requires_calculator": true,
+      "calculator_keystrokes": {"method": "Standard Calculation", "steps_en": ["Straight-line: (1,200,000 - 150,000) / 6 = 175,000", "Accelerated: 1,200,000 × (2/8) = 300,000", "Tax expense: (670,000 - 175,000) × 0.40 = 198,000", "Tax payable: (670,000 - 300,000) × 0.40 = 148,000", "DTL = 198,000 - 148,000 = 50,000"], "steps_ru": ["Линейная: (1,200,000 - 150,000) / 6 = 175,000", "Ускоренная: 1,200,000 × (2/8) = 300,000", "Налоговый расход: (670,000 - 175,000) × 0.40 = 198,000", "Налог к уплате: (670,000 - 300,000) × 0.40 = 148,000", "DTL = 198,000 - 148,000 = 50,000"]},
+      "difficulty": "hard",
+      "topic_tags": ["deferred_tax_liability", "depreciation"]
+    },
+    {
+      "question_id": "FSA-9-Q014",
+      "original_question_number": 2298,
+      "los_id": "LOS_9b",
+      "question_text_en": "A textile company in Turkey purchased a T-shirt printing machine for $1,200,000 with a salvage value of $150,000. For reporting purposes, the textile company depreciates the asset over 6 years using the straight-line method and, for tax purposes, the company depreciates the printer over 8 years using accelerated depreciation. Assuming that the tax rate is 40% and EBIT is $670,000 each year, calculate the tax base at the end of the 3rd year.",
+      "question_text_ru": "Текстильная компания в Турции приобрела машину для печати футболок за $1,200,000 с ликвидационной стоимостью $150,000. Для целей отчетности текстильная компания амортизирует актив за 6 лет по линейному методу, а для налоговых целей компания амортизирует принтер за 8 лет по методу ускоренной амортизации. Предполагая, что налоговая ставка составляет 40%, а EBIT - $670,000 каждый год, рассчитайте налоговую базу на конец 3-го года.",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "$506,250", "text_ru": "$506,250"},
+        {"id": "opt_b", "text_en": "$675,000", "text_ru": "$675,000"},
+        {"id": "opt_c", "text_en": "$693,750", "text_ru": "$693,750"}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Year 1: 2/8 × 1,200,000 = $300,000. Year 2: 2/8 × (1,200,000 - 300,000) = $225,000. Year 3: 2/8 × (900,000 - 225,000) = $168,750. Accumulated depreciation = $300,000 + $225,000 + $168,750 = $693,750. Tax base = $1,200,000 - $693,750 = $506,250.",
+      "explanation_ru": "Год 1: 2/8 × 1,200,000 = $300,000. Год 2: 2/8 × (1,200,000 - 300,000) = $225,000. Год 3: 2/8 × (900,000 - 225,000) = $168,750. Накопленная амортизация = $300,000 + $225,000 + $168,750 = $693,750. Налоговая база = $1,200,000 - $693,750 = $506,250.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": null,
+      "requires_calculator": true,
+      "calculator_keystrokes": {"method": "Standard Calculation", "steps_en": ["Year 1: 1,200,000 × 0.25 = 300,000", "Year 2: 900,000 × 0.25 = 225,000", "Year 3: 675,000 × 0.25 = 168,750", "Total depreciation: 300,000 + 225,000 + 168,750 = 693,750", "Tax base: 1,200,000 - 693,750 = 506,250"], "steps_ru": ["Год 1: 1,200,000 × 0.25 = 300,000", "Год 2: 900,000 × 0.25 = 225,000", "Год 3: 675,000 × 0.25 = 168,750", "Общая амортизация: 300,000 + 225,000 + 168,750 = 693,750", "Налоговая база: 1,200,000 - 693,750 = 506,250"]},
+      "difficulty": "hard",
+      "topic_tags": ["tax_base", "depreciation"]
+    },
+    {
+      "question_id": "FSA-9-Q015",
+      "original_question_number": 2300,
+      "los_id": "LOS_9b",
+      "question_text_en": "A textile company in Turkey purchased a T-shirt printing machine for $1,200,000 with a salvage value of $150,000. For reporting purposes, the textile company depreciates the asset over 6 years using the straight-line method. For tax purposes, the company depreciates the printer over 8 years using accelerated depreciation. Assuming a tax rate of 40% and EBITDA of $670,000 each year, calculate the pre-tax income for the 2nd year.",
+      "question_text_ru": "Текстильная компания в Турции приобрела машину для печати футболок за $1,200,000 с ликвидационной стоимостью $150,000. Для целей отчетности текстильная компания амортизирует актив за 6 лет по линейному методу. Для налоговых целей компания амортизирует принтер за 8 лет по методу ускоренной амортизации. Предполагая налоговую ставку 40% и EBITDA $670,000 каждый год, рассчитайте прибыль до налогообложения за 2-й год.",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "$320,000", "text_ru": "$320,000"},
+        {"id": "opt_b", "text_en": "$445,000", "text_ru": "$445,000"},
+        {"id": "opt_c", "text_en": "$495,000", "text_ru": "$495,000"}
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Since the pre-tax income is reported in the income statement, we use straight-line depreciation. Depreciation expense = (1,200,000 - 150,000) / 6 = $175,000 every year. Pre-tax income = EBITDA - Depreciation Expense = $670,000 - $175,000 = $495,000.",
+      "explanation_ru": "Поскольку прибыль до налогообложения отражается в отчете о прибылях и убытках, мы используем линейную амортизацию. Расход на амортизацию = (1,200,000 - 150,000) / 6 = $175,000 каждый год. Прибыль до налогообложения = EBITDA - Расход на амортизацию = $670,000 - $175,000 = $495,000.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": null,
+      "requires_calculator": true,
+      "calculator_keystrokes": {"method": "Standard Calculation", "steps_en": ["(1,200,000 - 150,000) ÷ 6 = 175,000", "670,000 - 175,000 = 495,000"], "steps_ru": ["(1,200,000 - 150,000) ÷ 6 = 175,000", "670,000 - 175,000 = 495,000"]},
+      "difficulty": "medium",
+      "topic_tags": ["pre_tax_income", "depreciation"]
+    },
+    {
+      "question_id": "FSA-9-Q016",
+      "original_question_number": 2301,
+      "los_id": "LOS_9b",
+      "question_text_en": "A textile company in Turkey purchased a T-shirt printing machine for $1,200,000 with a salvage value of $150,000. For reporting purposes, the textile company depreciates the asset over 6 years using the straight-line method. For tax purposes, the company depreciates the printer over 8 years using accelerated depreciation. Assuming a tax rate of 40% and EBITDA of $670,000 each year, the deferred tax asset or deferred tax liability created in the 6th year is closest to:",
+      "question_text_ru": "Текстильная компания в Турции приобрела машину для печати футболок за $1,200,000 с ликвидационной стоимостью $150,000. Для целей отчетности текстильная компания амортизирует актив за 6 лет по линейному методу. Для налоговых целей компания амортизирует принтер за 8 лет по методу ускоренной амортизации. Предполагая налоговую ставку 40% и EBITDA $670,000 каждый год, отложенный налоговый актив или отложенное налоговое обязательство, созданное в 6-м году, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "a deferred tax asset of $41,500 is created.", "text_ru": "создается отложенный налоговый актив в размере $41,500."},
+        {"id": "opt_b", "text_en": "a deferred tax asset of $71,500 is created.", "text_ru": "создается отложенный налоговый актив в размере $71,500."},
+        {"id": "opt_c", "text_en": "a deferred tax liability of $41,500 is created.", "text_ru": "создается отложенное налоговое обязательство в размере $41,500."}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Year 6 accelerated depreciation = 2/8 × (379,688 - 94,922) = $71,191. Tax expense in income statement = ($670,000 - $175,000) × 40% = $198,000. Tax payable = ($670,000 - $71,191) × 40% = $239,523. Since tax expense ($198,000) < taxes payable ($239,523), a DTA of $41,523 is created.",
+      "explanation_ru": "Ускоренная амортизация 6-го года = 2/8 × (379,688 - 94,922) = $71,191. Налоговый расход в отчете о прибылях и убытках = ($670,000 - $175,000) × 40% = $198,000. Налог к уплате = ($670,000 - $71,191) × 40% = $239,523. Поскольку налоговый расход ($198,000) < налог к уплате ($239,523), создается DTA в размере $41,523.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": null,
+      "requires_calculator": true,
+      "calculator_keystrokes": {"method": "Standard Calculation", "steps_en": ["Tax expense: (670,000 - 175,000) × 0.40 = 198,000", "Tax payable: (670,000 - 71,191) × 0.40 = 239,523", "DTA = 239,523 - 198,000 = 41,523 ≈ 41,500"], "steps_ru": ["Налоговый расход: (670,000 - 175,000) × 0.40 = 198,000", "Налог к уплате: (670,000 - 71,191) × 0.40 = 239,523", "DTA = 239,523 - 198,000 = 41,523 ≈ 41,500"]},
+      "difficulty": "hard",
+      "topic_tags": ["deferred_tax_asset", "depreciation"]
+    },
+    {
+      "question_id": "FSA-9-Q017",
+      "original_question_number": 2302,
+      "los_id": "LOS_9b",
+      "question_text_en": "A Mexican supplier of copper sold 200 tons of copper wire for $400,000 on credit. Due to uncertain market conditions, the supplier recorded receivables of $400,000 and $80,000 of allowance for bad debt expenses in its income statements. The tax rules of Mexico do not allow the deduction of bad debt expenses until the creditors default and receivables are deemed worthless. If the tax rate in Mexico is 28%, then the deferred tax asset or liability based on the tax base of receivables is most likely a:",
+      "question_text_ru": "Мексиканский поставщик меди продал 200 тонн медной проволоки за $400,000 в кредит. Из-за неопределенных рыночных условий поставщик отразил дебиторскую задолженность в размере $400,000 и $80,000 резерва по сомнительным долгам в своих отчетах о прибылях и убытках. Налоговые правила Мексики не разрешают вычет расходов по безнадежным долгам до тех пор, пока кредиторы не объявят дефолт, и дебиторская задолженность не будет признана бесполезной. Если налоговая ставка в Мексике составляет 28%, то отложенный налоговый актив или обязательство на основе налоговой базы дебиторской задолженности наиболее вероятно:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "deferred tax asset (DTA) of $22,400.", "text_ru": "отложенный налоговый актив (DTA) в размере $22,400."},
+        {"id": "opt_b", "text_en": "deferred tax liability (DTL) of $89,600.", "text_ru": "отложенное налоговое обязательство (DTL) в размере $89,600."},
+        {"id": "opt_c", "text_en": "deferred tax asset (DTA) of $112,000.", "text_ru": "отложенный налоговый актив (DTA) в размере $112,000."}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Carrying value of receivables = $400,000 - $80,000 = $320,000. Tax base = $400,000 (bad debts not yet deductible). Tax expense based on carrying value = $320,000 × 28% = $89,600. Tax payable = $400,000 × 28% = $112,000. Since tax payable > tax expense, a DTA of $22,400 is created.",
+      "explanation_ru": "Балансовая стоимость дебиторской задолженности = $400,000 - $80,000 = $320,000. Налоговая база = $400,000 (безнадежные долги еще не подлежат вычету). Налоговый расход на основе балансовой стоимости = $320,000 × 28% = $89,600. Налог к уплате = $400,000 × 28% = $112,000. Поскольку налог к уплате > налоговый расход, создается DTA в размере $22,400.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": null,
+      "requires_calculator": true,
+      "calculator_keystrokes": {"method": "Standard Calculation", "steps_en": ["Carrying value: 400,000 - 80,000 = 320,000", "Tax expense: 320,000 × 0.28 = 89,600", "Tax payable: 400,000 × 0.28 = 112,000", "DTA = 112,000 - 89,600 = 22,400"], "steps_ru": ["Балансовая стоимость: 400,000 - 80,000 = 320,000", "Налоговый расход: 320,000 × 0.28 = 89,600", "Налог к уплате: 400,000 × 0.28 = 112,000", "DTA = 112,000 - 89,600 = 22,400"]},
+      "difficulty": "hard",
+      "topic_tags": ["deferred_tax_asset", "bad_debt"]
+    },
+    {
+      "question_id": "FSA-9-Q018",
+      "original_question_number": 2306,
+      "los_id": "LOS_9c",
+      "question_text_en": "The changes in deferred taxes for a company due to a change in tax rate from 45% to 35% in a specific jurisdiction are provided in the following table:",
+      "question_text_ru": "Изменения в отложенных налогах для компании из-за изменения налоговой ставки с 45% на 35% в определенной юрисдикции приведены в следующей таблице:",
+      "has_table": true,
+      "table_data": {
+        "headers": ["Item", "Amount"],
+        "headers_ru": ["Показатель", "Сумма"],
+        "rows": [
+          ["Change DTL", "$14,000"],
+          ["Change DTA", "$3,500"],
+          ["Tax Payable", "$15,000"],
+          ["Pretax Income", "$100,000"]
+        ]
+      },
+      "question_continuation_en": "Given the information, the effective tax rate for the firm is closest to:",
+      "question_continuation_ru": "Учитывая информацию, эффективная налоговая ставка для фирмы ближе всего к:",
+      "options": [
+        {"id": "opt_a", "text_en": "10.5%.", "text_ru": "10.5%."},
+        {"id": "opt_b", "text_en": "25.5%.", "text_ru": "25.5%."},
+        {"id": "opt_c", "text_en": "32.5%.", "text_ru": "32.5%."}
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Income tax expense = Tax payable + Change in DTL - Change in DTA = $15,000 + $14,000 - $3,500 = $25,500. Effective tax rate = $25,500 / $100,000 = 25.5%.",
+      "explanation_ru": "Расход по налогу на прибыль = Налог к уплате + Изменение DTL - Изменение DTA = $15,000 + $14,000 - $3,500 = $25,500. Эффективная налоговая ставка = $25,500 / $100,000 = 25.5%.",
+      "explanation_formula": "$\\text{Effective tax rate} = \\frac{\\text{Income tax expense}}{\\text{Pre-tax income}}$",
+      "explanation_table": null,
+      "explanation_wrong": null,
+      "requires_calculator": true,
+      "calculator_keystrokes": {"method": "Standard Calculation", "steps_en": ["15,000 + 14,000 - 3,500 = 25,500", "25,500 ÷ 100,000 = 0.255 = 25.5%"], "steps_ru": ["15,000 + 14,000 - 3,500 = 25,500", "25,500 ÷ 100,000 = 0.255 = 25.5%"]},
+      "difficulty": "medium",
+      "topic_tags": ["effective_tax_rate"]
+    },
+    {
+      "question_id": "FSA-9-Q019",
+      "original_question_number": 2307,
+      "los_id": "LOS_9b",
+      "question_text_en": "Which of the following will most likely result in a permanent difference between taxable income and pre-tax income?",
+      "question_text_ru": "Что из следующего наиболее вероятно приведет к постоянной разнице между налогооблагаемым доходом и прибылью до налогообложения?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "A firm enjoys tax credits on the imports of certain medicines.", "text_ru": "Фирма пользуется налоговыми льготами на импорт определенных лекарств."},
+        {"id": "opt_b", "text_en": "A firm uses different methods of depreciation for reporting purposes and tax purposes.", "text_ru": "Фирма использует различные методы амортизации для целей отчетности и налоговых целей."},
+        {"id": "opt_c", "text_en": "A firm deducts warranty expenses from its income statement but does not deduct them from its tax statements until the receivables are deemed worthless.", "text_ru": "Фирма вычитает гарантийные расходы из своего отчета о прибылях и убытках, но не вычитает их из своих налоговых деклараций до тех пор, пока дебиторская задолженность не будет признана бесполезной."}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Option A will most likely result in a permanent difference between pre-tax income and taxable income as the tax credits are not expected to reverse in the future. Warranty expenses and differences in depreciation methods result in temporary differences as they are expected to reverse in the future.",
+      "explanation_ru": "Вариант A наиболее вероятно приведет к постоянной разнице между прибылью до налогообложения и налогооблагаемым доходом, поскольку налоговые льготы не ожидается, что будут сторнированы в будущем. Гарантийные расходы и различия в методах амортизации приводят к временным разницам, так как ожидается, что они будут сторнированы в будущем.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": null,
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["permanent_differences", "temporary_differences"]
+    },
+    {
+      "question_id": "FSA-9-Q020",
+      "original_question_number": 2310,
+      "los_id": "LOS_9b",
+      "question_text_en": "A newly incorporated construction company reported revenue of $690,000, cost of goods sold (COGS) of $550,000, and operating expenses of $210,000. Assuming a tax rate of 25%, the firm's should most likely report a:",
+      "question_text_ru": "Недавно зарегистрированная строительная компания сообщила о выручке в размере $690,000, себестоимости продаж (COGS) в размере $550,000 и операционных расходах в размере $210,000. Предполагая налоговую ставку 25%, фирма должна, скорее всего, отразить:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {"id": "opt_a", "text_en": "deferred tax assets of $17,500.", "text_ru": "отложенные налоговые активы в размере $17,500."},
+        {"id": "opt_b", "text_en": "deferred tax assets of $70,000.", "text_ru": "отложенные налоговые активы в размере $70,000."},
+        {"id": "opt_c", "text_en": "deferred tax liabilities of $17,500.", "text_ru": "отложенные налоговые обязательства в размере $17,500."}
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Earnings = Revenue - COGS - Operating expenses = $690,000 - $550,000 - $210,000 = -$70,000 (loss). That loss carryforward will result in a deferred tax asset equal to the amount of the loss multiplied by the tax rate: DTA = $70,000 × 25% = $17,500.",
+      "explanation_ru": "Прибыль = Выручка - COGS - Операционные расходы = $690,000 - $550,000 - $210,000 = -$70,000 (убыток). Этот перенос убытка приведет к отложенному налоговому активу, равному сумме убытка, умноженной на налоговую ставку: DTA = $70,000 × 25% = $17,500.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": null,
+      "requires_calculator": true,
+      "calculator_keystrokes": {"method": "Standard Calculation", "steps_en": ["690,000 - 550,000 - 210,000 = -70,000", "70,000 × 0.25 = 17,500"], "steps_ru": ["690,000 - 550,000 - 210,000 = -70,000", "70,000 × 0.25 = 17,500"]},
+      "difficulty": "medium",
+      "topic_tags": ["deferred_tax_assets", "tax_loss_carryforward"]
+    }
+  ]
+}
