@@ -7,7 +7,7 @@
     "module_id": 8,
     "module_name": "Topics in Long-Term Liabilities and Equity",
     "module_name_ru": "Анализ долгосрочных обязательств и капитала",
-    "total_questions": 20,
+    "total_questions": 31,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -1221,6 +1221,574 @@
       "topic_tags": [
         "defined_contribution_plan",
         "pension_accounting"
+      ]
+    },
+    {
+      "question_id": "FSA-8-Q021",
+      "original_question_number": 4862,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following is most likely true regarding share-based compensation?",
+      "question_text_ru": "Что из следующего, скорее всего, верно относительно компенсации на основе акций?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The compensation expense for stock options is recognized immediately at the grant date.",
+          "text_ru": "Расходы на компенсацию опционов на акции признаются немедленно на дату предоставления."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The compensation expense for stock options is based on the fair value at the grant date.",
+          "text_ru": "Расходы на компенсацию опционов на акции основаны на справедливой стоимости на дату предоставления."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The compensation expense for stock options is based on the market price at the exercise date.",
+          "text_ru": "Расходы на компенсацию опционов на акции основаны на рыночной цене на дату исполнения."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Under both IFRS and US GAAP, the compensation expense for stock options is based on the fair value at the grant date and recognized over the vesting period.",
+      "explanation_ru": "Согласно IFRS и US GAAP, расходы на компенсацию опционов на акции основаны на справедливой стоимости на дату предоставления и признаются в течение периода наделения правами.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The compensation expense for stock options is not recognized immediately at the grant date but over the vesting period.",
+          "text_ru": "Неверно. Расходы на компенсацию опционов на акции не признаются немедленно на дату предоставления, а в течение периода наделения правами."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The compensation expense for stock options is not based on the market price at the exercise date.",
+          "text_ru": "Неверно. Расходы на компенсацию опционов на акции не основаны на рыночной цене на дату исполнения."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "stock_based_compensation",
+        "stock_options",
+        "fair_value"
+      ]
+    },
+    {
+      "question_id": "FSA-8-Q022",
+      "original_question_number": 4863,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following statements about defined benefit pension plans under IFRS is most accurate?",
+      "question_text_ru": "Какое из следующих утверждений о пенсионных планах с установленными выплатами согласно IFRS наиболее точно?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Actuarial gains and losses are amortized into profit or loss over time.",
+          "text_ru": "Актуарные прибыли и убытки амортизируются в прибыль или убыток с течением времени."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Net interest expense or income is recognized in other comprehensive income.",
+          "text_ru": "Чистые процентные расходы или доход признаются в прочем совокупном доходе."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Service costs and net interest expense are recognized as pension expense on the income statement.",
+          "text_ru": "Стоимость услуг и чистые процентные расходы признаются как пенсионные расходы в отчете о прибылях и убытках."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Under IFRS, service costs and net interest expense are recognized as pension expense on the income statement. Remeasurements, which include actuarial gains and losses, are recognized in other comprehensive income and are not amortized into profit or loss over time.",
+      "explanation_ru": "Согласно IFRS, стоимость услуг и чистые процентные расходы признаются как пенсионные расходы в отчете о прибылях и убытках. Переоценки, которые включают актуарные прибыли и убытки, признаются в прочем совокупном доходе и не амортизируются в прибыль или убыток с течением времени.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Actuarial gains and losses are recognized in other comprehensive income and not amortized into profit or loss over time.",
+          "text_ru": "Неверно. Актуарные прибыли и убытки признаются в прочем совокупном доходе и не амортизируются в прибыль или убыток с течением времени."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Net interest expense or income is recognized on the income statement, not in other comprehensive income.",
+          "text_ru": "Неверно. Чистые процентные расходы или доход признаются в отчете о прибылях и убытках, а не в прочем совокупном доходе."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "defined_benefit_plan",
+        "ifrs",
+        "pension_expense",
+        "oci"
+      ]
+    },
+    {
+      "question_id": "FSA-8-Q023",
+      "original_question_number": 4864,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following statements is most accurate regarding share-based compensation under IFRS and US GAAP?",
+      "question_text_ru": "Какое из следующих утверждений наиболее точно относится к компенсации на основе акций согласно IFRS и US GAAP?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Changes in stock price after the grant date affect the compensation expense.",
+          "text_ru": "Изменения цены акций после даты предоставления влияют на расходы по компенсации."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Companies are required to use the Black-Scholes model for valuing stock options.",
+          "text_ru": "Компании обязаны использовать модель Блэка-Шоулза для оценки опционов на акции."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The fair value of share-based compensation is estimated at the grant date and recognized over the vesting period.",
+          "text_ru": "Справедливая стоимость компенсации на основе акций оценивается на дату предоставления и признается в течение периода наделения правами."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Under both IFRS and US GAAP, the fair value of share-based compensation is estimated at the grant date and recognized over the vesting period.",
+      "explanation_ru": "Согласно IFRS и US GAAP, справедливая стоимость компенсации на основе акций оценивается на дату предоставления и признается в течение периода наделения правами.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Changes in stock price after the grant date do not affect the compensation expense.",
+          "text_ru": "Неверно. Изменения цены акций после даты предоставления не влияют на расходы по компенсации."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Companies are not required to use the Black-Scholes model specifically; they can choose any appropriate valuation model.",
+          "text_ru": "Неверно. Компании не обязаны использовать модель Блэка-Шоулза конкретно; они могут выбрать любую подходящую модель оценки."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "stock_based_compensation",
+        "ifrs",
+        "us_gaap",
+        "fair_value"
+      ]
+    },
+    {
+      "question_id": "FSA-8-Q024",
+      "original_question_number": 4865,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following is most likely a disadvantage of share-based compensation?",
+      "question_text_ru": "Что из следующего, скорее всего, является недостатком компенсации на основе акций?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "It requires a significant cash outlay.",
+          "text_ru": "Это требует значительного денежного оттока."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "It can lead to excessive risk-taking by managers.",
+          "text_ru": "Это может привести к чрезмерному принятию рисков менеджерами."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "It does not align employee interests with those of shareholders.",
+          "text_ru": "Это не согласовывает интересы сотрудников с интересами акционеров."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Share-based compensation, particularly in the form of stock options, can lead to excessive risk-taking by managers, as options have skewed payouts that reward the upside while limiting the downside.",
+      "explanation_ru": "Компенсация на основе акций, особенно в форме опционов на акции, может привести к чрезмерному принятию рисков менеджерами, поскольку опционы имеют искаженные выплаты, которые вознаграждают положительную сторону, ограничивая отрицательную.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Share-based compensation typically requires no cash outlay.",
+          "text_ru": "Неверно. Компенсация на основе акций обычно не требует денежного оттока."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Share-based compensation is designed to align employee interests with those of shareholders.",
+          "text_ru": "Неверно. Компенсация на основе акций разработана для согласования интересов сотрудников с интересами акционеров."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "stock_based_compensation",
+        "disadvantages",
+        "risk_taking"
+      ]
+    },
+    {
+      "question_id": "FSA-8-Q025",
+      "original_question_number": 4866,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following best describes the accounting treatment for restricted stock grants? The compensation expense is:",
+      "question_text_ru": "Что из следующего лучше всего описывает учетную обработку ограниченных грантов акций? Расходы на компенсацию:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "recognized immediately on the grant date.",
+          "text_ru": "признаются немедленно на дату предоставления."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "spread over the employee's service period.",
+          "text_ru": "распределяются в течение периода службы сотрудника."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "based on the market value at the exercise date.",
+          "text_ru": "основаны на рыночной стоимости на дату исполнения."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The compensation expense for restricted stock grants is measured as the fair value of the shares at the grant date and is allocated over the employee's service period.",
+      "explanation_ru": "Расходы на компенсацию ограниченных грантов акций измеряются как справедливая стоимость акций на дату предоставления и распределяются в течение периода службы сотрудника.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The expense is not recognized immediately on the grant date but over the service period.",
+          "text_ru": "Неверно. Расходы не признаются немедленно на дату предоставления, а в течение периода службы."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The expense is based on the market value at the grant date, not the exercise date.",
+          "text_ru": "Неверно. Расходы основаны на рыночной стоимости на дату предоставления, а не на дату исполнения."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "stock_based_compensation",
+        "restricted_stock",
+        "vesting_period"
+      ]
+    },
+    {
+      "question_id": "FSA-8-Q026",
+      "original_question_number": 4867,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following components of a defined benefit pension plan is most likely recognized in other comprehensive income under IFRS?",
+      "question_text_ru": "Какой из следующих компонентов пенсионного плана с установленными выплатами, скорее всего, признается в прочем совокупном доходе согласно IFRS?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Service cost.",
+          "text_ru": "Стоимость услуг."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Net interest expense.",
+          "text_ru": "Чистые процентные расходы."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Actuarial gains and losses.",
+          "text_ru": "Актуарные прибыли и убытки."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Under IFRS, actuarial gains and losses are recognized in other comprehensive income and are not amortized into profit or loss over time.",
+      "explanation_ru": "Согласно IFRS, актуарные прибыли и убытки признаются в прочем совокупном доходе и не амортизируются в прибыль или убыток с течением времени.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Service cost is recognized on the income statement.",
+          "text_ru": "Неверно. Стоимость услуг признается в отчете о прибылях и убытках."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Net interest expense is recognized on the income statement.",
+          "text_ru": "Неверно. Чистые процентные расходы признаются в отчете о прибылях и убытках."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "defined_benefit_plan",
+        "ifrs",
+        "oci",
+        "actuarial_gains_losses"
+      ]
+    },
+    {
+      "question_id": "FSA-8-Q027",
+      "original_question_number": 4868,
+      "los_id": "LOS_8b",
+      "question_text_en": "Under US GAAP, which of the following components of a defined benefit pension plan is amortized into pension expense over time?",
+      "question_text_ru": "Согласно US GAAP, какой из следующих компонентов пенсионного плана с установленными выплатами амортизируется в пенсионные расходы с течением времени?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Service cost",
+          "text_ru": "Стоимость услуг"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Interest expense",
+          "text_ru": "Процентные расходы"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Past service costs",
+          "text_ru": "Расходы за прошлую службу"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Under US GAAP, past service costs are initially recognized in other comprehensive income and then amortized over time into pension expense.",
+      "explanation_ru": "Согласно US GAAP, расходы за прошлую службу первоначально признаются в прочем совокупном доходе, а затем амортизируются с течением времени в пенсионные расходы.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Service cost is recognized in the period incurred.",
+          "text_ru": "Неверно. Стоимость услуг признается в периоде, в котором они были понесены."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Interest expense is recognized in the period incurred.",
+          "text_ru": "Неверно. Процентные расходы признаются в периоде, в котором они были понесены."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "defined_benefit_plan",
+        "us_gaap",
+        "past_service_costs",
+        "amortization"
+      ]
+    },
+    {
+      "question_id": "FSA-8-Q028",
+      "original_question_number": 4869,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following statements best describes the treatment of stock appreciation rights (SARs)?",
+      "question_text_ru": "Какое из следующих утверждений лучше всего описывает обработку прав на повышение стоимости акций (SARs)?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "SARs dilute existing shareholders' ownership.",
+          "text_ru": "SARs разбавляют владение существующих акционеров."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "SARs are a form of cash-settled share-based compensation.",
+          "text_ru": "SARs - это форма компенсации на основе акций с расчетом в денежной форме."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "SARs require employees to hold the shares to benefit from share price appreciation.",
+          "text_ru": "SARs требуют от сотрудников держать акции, чтобы получить выгоду от повышения цены акций."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Stock appreciation rights (SARs) are a form of cash-settled share-based compensation that provides compensation based on the increase in the company's share price.",
+      "explanation_ru": "Права на повышение стоимости акций (SARs) - это форма компенсации на основе акций с расчетом в денежной форме, которая предоставляет компенсацию на основе увеличения цены акций компании.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. SARs do not dilute existing shareholders' ownership.",
+          "text_ru": "Неверно. SARs не разбавляют владение существующих акционеров."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. SARs do not require employees to hold the shares.",
+          "text_ru": "Неверно. SARs не требуют от сотрудников держать акции."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "stock_based_compensation",
+        "sars",
+        "cash_settled"
+      ]
+    },
+    {
+      "question_id": "FSA-8-Q029",
+      "original_question_number": 4870,
+      "los_id": "LOS_8c",
+      "question_text_en": "Under IFRS 16, which of the following must be disclosed by lessees to provide a comprehensive understanding of their lease obligations?",
+      "question_text_ru": "Согласно IFRS 16, что из следующего должно быть раскрыто арендаторами для предоставления полного понимания их арендных обязательств?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The fair value of right-of-use assets at the reporting date.",
+          "text_ru": "Справедливая стоимость активов в форме права пользования на отчетную дату."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The total expected future lease payments for the next ten years.",
+          "text_ru": "Общая ожидаемая сумма будущих арендных платежей на следующие десять лет."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The reconciliation of opening and closing balances of lease liabilities.",
+          "text_ru": "Сверка начальных и конечных балансов арендных обязательств."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Under IFRS 16, lessees must disclose a reconciliation of the opening and closing balances of lease liabilities, including changes during the reporting period. This provides detailed information on how lease liabilities have evolved.",
+      "explanation_ru": "Согласно IFRS 16, арендаторы должны раскрывать сверку начальных и конечных балансов арендных обязательств, включая изменения в течение отчетного периода. Это предоставляет подробную информацию о том, как изменились арендные обязательства.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. IFRS 16 does not require the fair value of right-of-use assets to be disclosed, but rather their carrying amounts and depreciation.",
+          "text_ru": "Неверно. IFRS 16 не требует раскрытия справедливой стоимости активов в форме права пользования, а скорее их балансовой стоимости и амортизации."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Total expected future lease payments are disclosed, but not necessarily for the next ten years; a maturity analysis is typically required.",
+          "text_ru": "Неверно. Общая ожидаемая сумма будущих арендных платежей раскрывается, но не обязательно на следующие десять лет; обычно требуется анализ сроков погашения."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "leases",
+        "ifrs_16",
+        "disclosure",
+        "lease_liabilities"
+      ]
+    },
+    {
+      "question_id": "FSA-8-Q030",
+      "original_question_number": 4871,
+      "los_id": "LOS_8c",
+      "question_text_en": "In the context of IFRS 16, which of the following would most likely require significant judgment and estimation by the lessee?",
+      "question_text_ru": "В контексте IFRS 16, что из следующего, скорее всего, потребует значительного суждения и оценки со стороны арендатора?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Determining the discount rate for lease liabilities.",
+          "text_ru": "Определение ставки дисконтирования для арендных обязательств."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Reporting the total lease payments made during the period.",
+          "text_ru": "Отчет об общей сумме арендных платежей, произведенных в течение периода."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Calculating the depreciation expense on right-of-use assets.",
+          "text_ru": "Расчет амортизационных расходов по активам в форме права пользования."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Determining the discount rate for lease liabilities often requires significant judgment and estimation, particularly when the rate implicit in the lease is not readily determinable, and the lessee must estimate its incremental borrowing rate.",
+      "explanation_ru": "Определение ставки дисконтирования для арендных обязательств часто требует значительного суждения и оценки, особенно когда ставка, заложенная в аренде, не может быть легко определена, и арендатор должен оценить свою дополнительную ставку заимствования.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Reporting the total lease payments made during the period is a factual disclosure and does not involve significant judgment.",
+          "text_ru": "Неверно. Отчет об общей сумме арендных платежей, произведенных в течение периода, является фактическим раскрытием и не включает значительного суждения."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Calculating depreciation expense is relatively straightforward compared to determining the discount rate.",
+          "text_ru": "Неверно. Расчет амортизационных расходов относительно прост по сравнению с определением ставки дисконтирования."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "leases",
+        "ifrs_16",
+        "discount_rate",
+        "judgment"
+      ]
+    },
+    {
+      "question_id": "FSA-8-Q031",
+      "original_question_number": 4872,
+      "los_id": "LOS_8c",
+      "question_text_en": "Which of the following best describes the required disclosure for share-based compensation under IFRS 2 in terms of valuation methods?",
+      "question_text_ru": "Что из следующего лучше всего описывает требуемое раскрытие для компенсации на основе акций согласно IFRS 2 в отношении методов оценки?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The company must disclose the expected future value of the shares.",
+          "text_ru": "Компания должна раскрывать ожидаемую будущую стоимость акций."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The company must disclose the market price of the shares at the reporting date.",
+          "text_ru": "Компания должна раскрывать рыночную цену акций на отчетную дату."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The company must disclose the valuation model used to estimate the fair value of options granted.",
+          "text_ru": "Компания должна раскрывать модель оценки, используемую для оценки справедливой стоимости предоставленных опционов."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Under IFRS 2, companies must disclose the valuation model used to estimate the fair value of options granted, along with key assumptions and inputs used in the model. This helps users understand how the fair value was determined.",
+      "explanation_ru": "Согласно IFRS 2, компании должны раскрывать модель оценки, используемую для оценки справедливой стоимости предоставленных опционов, а также ключевые предположения и входные данные, использованные в модели. Это помогает пользователям понять, как была определена справедливая стоимость.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Disclosing the expected future value of the shares is not required and would be speculative.",
+          "text_ru": "Неверно. Раскрытие ожидаемой будущей стоимости акций не требуется и было бы спекулятивным."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Disclosing the market price of the shares at the reporting date is not required under IFRS 2 for valuation purposes.",
+          "text_ru": "Неверно. Раскрытие рыночной цены акций на отчетную дату не требуется согласно IFRS 2 для целей оценки."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "stock_based_compensation",
+        "ifrs_2",
+        "disclosure",
+        "valuation_model"
       ]
     }
   ]
