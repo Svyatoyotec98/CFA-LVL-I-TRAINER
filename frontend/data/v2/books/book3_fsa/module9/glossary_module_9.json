@@ -1,0 +1,585 @@
+{
+  "metadata": {
+    "book_id": 3,
+    "book_code": "FSA",
+    "book_name": "Financial Statement Analysis",
+    "book_name_ru": "Анализ финансовой отчетности",
+    "module_id": 9,
+    "module_name": "Analysis of Income Taxes",
+    "module_name_ru": "Анализ налогов на прибыль",
+    "page_range": "191-212",
+    "total_terms": 28,
+    "total_exercises": 6,
+    "version": "2.0",
+    "last_updated": "2026-01-23"
+  },
+  "los": [
+    {
+      "los_id": "LOS_9a",
+      "los_code": "9a",
+      "los_description_en": "Contrast accounting profit, taxable income, taxes payable, and income tax expense and temporary versus permanent differences between accounting profit and taxable income",
+      "los_description_ru": "Сопоставить бухгалтерскую прибыль, налогооблагаемый доход, налоги к уплате и расход по налогу на прибыль, а также временные и постоянные разницы между бухгалтерской прибылью и налогооблагаемым доходом",
+      "terms": [
+        {
+          "term_id": "FSA-9-001",
+          "term_en": "Accounting Profit (Income Before Taxes)",
+          "term_ru": "Бухгалтерская прибыль (Прибыль до налогообложения)",
+          "definition_en": "Income reported on a company's income statement according to prevailing accounting standards. By definition, accounting profit does not account for income tax expense. Also known as income before taxes or pre-tax income.",
+          "definition_ru": "Доход, отраженный в отчете о прибылях и убытках компании в соответствии с действующими стандартами бухгалтерского учета. По определению, бухгалтерская прибыль не учитывает расход по налогу на прибыль. Также известна как прибыль до налогообложения или доналоговая прибыль.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-9-002",
+          "term_en": "Taxable Income",
+          "term_ru": "Налогооблагаемый доход",
+          "definition_en": "The portion of a company's income subject to income taxes following the jurisdiction's tax laws within which a company operates. Taxable income determines the company's income tax payable (a liability) or recoverable (an asset), which is reflected on the balance sheet.",
+          "definition_ru": "Часть дохода компании, подлежащая налогообложению в соответствии с налоговым законодательством юрисдикции, в которой работает компания. Налогооблагаемый доход определяет налог на прибыль к уплате компании (обязательство) или к возмещению (актив), который отражается в балансе.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-9-003",
+          "term_en": "Taxes Payable (Income Taxes Payable)",
+          "term_ru": "Налоги к уплате (Налоги на прибыль к уплате)",
+          "definition_en": "A liability reflected on the balance sheet determined by the company's taxable income and the applicable tax rate. The income tax paid during a period is the actual cash amount paid for income taxes, reducing the income tax payable.",
+          "definition_ru": "Обязательство, отраженное в балансе, определяемое налогооблагаемым доходом компании и применимой налоговой ставкой. Налог на прибыль, уплаченный в течение периода, представляет собой фактическую сумму денежных средств, уплаченных в виде налогов на прибыль, что уменьшает налог на прибыль к уплате.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-9-004",
+          "term_en": "Income Tax Expense (Tax Provision)",
+          "term_ru": "Расход по налогу на прибыль (Налоговый резерв)",
+          "definition_en": "A company's tax expense reported on its income statement that includes both the income tax payable (or recoverable in the case of a tax benefit) and any changes in deferred tax assets and liabilities. This method adheres to the matching principle, ensuring that the tax effects of all current period activities are reported rather than only the income taxes actually paid.",
+          "definition_ru": "Налоговый расход компании, отраженный в отчете о прибылях и убытках, который включает как налог на прибыль к уплате (или к возмещению в случае налоговой льготы), так и любые изменения в отложенных налоговых активах и обязательствах. Этот метод соответствует принципу соответствия, обеспечивая отражение налоговых эффектов всех операций текущего периода, а не только фактически уплаченных налогов на прибыль.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-9-005",
+          "term_en": "Tax Base",
+          "term_ru": "Налоговая база",
+          "definition_en": "The amount at which an asset or liability is valued for tax purposes. The tax base can differ from the carrying amount, leading to temporary or permanent differences between accounting profit and taxable income.",
+          "definition_ru": "Сумма, по которой актив или обязательство оценивается для налоговых целей. Налоговая база может отличаться от балансовой стоимости, что приводит к временным или постоянным разницам между бухгалтерской прибылью и налогооблагаемым доходом.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-9-006",
+          "term_en": "Carrying Amount (Book Value)",
+          "term_ru": "Балансовая стоимость",
+          "definition_en": "The amount at which an asset or liability is valued according to accounting principles in the financial statements. Differences between the tax base and carrying amount result in differences between the accounting profit and taxable income.",
+          "definition_ru": "Сумма, по которой актив или обязательство оценивается в соответствии с принципами бухгалтерского учета в финансовой отчетности. Разницы между налоговой базой и балансовой стоимостью приводят к разницам между бухгалтерской прибылью и налогооблагаемым доходом.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-9-007",
+          "term_en": "Timing Differences",
+          "term_ru": "Временные разницы (по времени)",
+          "definition_en": "Differences that arise when revenues and expenses are recognized in one accounting period for financial reporting purposes and in another period for tax purposes. These are one of the common sources of differences between tax bases and carrying amounts.",
+          "definition_ru": "Разницы, которые возникают, когда доходы и расходы признаются в одном отчетном периоде для целей финансовой отчетности и в другом периоде для налоговых целей. Это один из распространенных источников разниц между налоговыми базами и балансовыми стоимостями.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-9-008",
+          "term_en": "Recognition Differences",
+          "term_ru": "Разницы в признании",
+          "definition_en": "Differences that occur when certain revenues and expenses are recognized for accounting purposes but not for tax purposes, or vice versa. These differences contribute to variations between accounting profit and taxable income.",
+          "definition_ru": "Разницы, которые возникают, когда определенные доходы и расходы признаются для целей бухгалтерского учета, но не для налоговых целей, или наоборот. Эти разницы способствуют вариациям между бухгалтерской прибылью и налогооблагаемым доходом.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-9-009",
+          "term_en": "Deductibility Differences",
+          "term_ru": "Разницы в вычитаемости",
+          "definition_en": "Differences arising when the deductibility of gains and losses on assets and liabilities differs for accounting and tax purposes. This is another source of discrepancies between tax bases and carrying amounts.",
+          "definition_ru": "Разницы, возникающие, когда вычитаемость прибылей и убытков по активам и обязательствам отличается для бухгалтерских и налоговых целей. Это еще один источник расхождений между налоговыми базами и балансовыми стоимостями.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-9-010",
+          "term_en": "Tax Loss Carryforwards",
+          "term_ru": "Перенос налоговых убытков на будущие периоды",
+          "definition_en": "Subject to tax rules, tax losses from prior years that might be used to reduce taxable income in future years, leading to differences between accounting income and taxable income. These can create deferred tax assets if future profitability is expected.",
+          "definition_ru": "В соответствии с налоговыми правилами, налоговые убытки прошлых лет, которые могут быть использованы для уменьшения налогооблагаемого дохода в будущих годах, что приводит к разницам между бухгалтерским доходом и налогооблагаемым доходом. Они могут создавать отложенные налоговые активы, если ожидается будущая прибыльность.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-9-011",
+          "term_en": "Adjustment Differences",
+          "term_ru": "Корректировочные разницы",
+          "definition_en": "Differences that occur when adjustments of reported financial data from previous years are not recognized equally for accounting and tax purposes or are recognized in different periods.",
+          "definition_ru": "Разницы, которые возникают, когда корректировки отчетных финансовых данных за предыдущие годы не признаются одинаково для бухгалтерских и налоговых целей или признаются в разные периоды.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-9-012",
+          "term_en": "Temporary Differences",
+          "term_ru": "Временные разницы",
+          "definition_en": "Differences between the tax base and the carrying amount of assets and liabilities that will reverse in the future. Temporary differences are divided into taxable temporary differences and deductible temporary differences, and they lead to the recognition of deferred tax liabilities or assets.",
+          "definition_ru": "Разницы между налоговой базой и балансовой стоимостью активов и обязательств, которые будут погашены в будущем. Временные разницы делятся на налогооблагаемые временные разницы и вычитаемые временные разницы, и они приводят к признанию отложенных налоговых обязательств или активов.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-9-013",
+          "term_en": "Permanent Differences",
+          "term_ru": "Постоянные разницы",
+          "definition_en": "Discrepancies between tax laws and accounting standards that will not be reversed in the future. Since these differences do not reverse, they do not lead to deferred tax but rather result in a disparity between the company's effective tax rate and the statutory corporate income tax rate. Examples include non-deductible fines and penalties, or tax credits.",
+          "definition_ru": "Расхождения между налоговым законодательством и стандартами бухгалтерского учета, которые не будут погашены в будущем. Поскольку эти разницы не погашаются, они не приводят к отложенным налогам, а скорее приводят к расхождению между эффективной налоговой ставкой компании и установленной законом ставкой налога на прибыль корпораций. Примеры включают невычитаемые штрафы и пени или налоговые кредиты.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-9-014",
+          "term_en": "Taxable Temporary Differences",
+          "term_ru": "Налогооблагаемые временные разницы",
+          "definition_en": "Temporary differences that occur when the carrying amount of an asset exceeds its tax base, or when the tax base of a liability exceeds its carrying amount. For example, this might happen with accelerated depreciation, where the asset's carrying amount is higher than its tax base at the end of the year. Taxable temporary differences lead to the recognition of deferred tax liabilities.",
+          "definition_ru": "Временные разницы, которые возникают, когда балансовая стоимость актива превышает его налоговую базу, или когда налоговая база обязательства превышает его балансовую стоимость. Например, это может произойти при ускоренной амортизации, когда балансовая стоимость актива выше его налоговой базы в конце года. Налогооблагаемые временные разницы приводят к признанию отложенных налоговых обязательств.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-9-015",
+          "term_en": "Deductible Temporary Differences",
+          "term_ru": "Вычитаемые временные разницы",
+          "definition_en": "Temporary differences that will reduce taxable income in future periods when the related balance sheet item is recovered or settled. These differences create a deferred tax asset when the tax base of an asset is higher than its carrying amount or when the carrying amount of a liability exceeds its tax base. Recognition of a deferred tax asset is only permitted if it is likely that there will be future profits against which the asset or liability can be settled or recovered.",
+          "definition_ru": "Временные разницы, которые уменьшат налогооблагаемый доход в будущих периодах, когда соответствующая статья баланса будет возмещена или погашена. Эти разницы создают отложенный налоговый актив, когда налоговая база актива выше его балансовой стоимости или когда балансовая стоимость обязательства превышает его налоговую базу. Признание отложенного налогового актива разрешается только в том случае, если вероятно, что будет достаточно будущей прибыли, против которой актив или обязательство могут быть погашены или возмещены.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-9-016",
+          "term_en": "Deferred Tax Liabilities (DTL)",
+          "term_ru": "Отложенные налоговые обязательства",
+          "definition_en": "Liabilities that arise when taxable temporary differences exist, specifically when the carrying amount of an asset exceeds its tax base or when the tax base of a liability exceeds its carrying amount. Deferred tax liabilities represent future tax payments that will be due when the temporary differences reverse.",
+          "definition_ru": "Обязательства, которые возникают при наличии налогооблагаемых временных разниц, в частности, когда балансовая стоимость актива превышает его налоговую базу или когда налоговая база обязательства превышает его балансовую стоимость. Отложенные налоговые обязательства представляют собой будущие налоговые платежи, которые будут подлежать уплате при погашении временных разниц.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-9-017",
+          "term_en": "Deferred Tax Assets (DTA)",
+          "term_ru": "Отложенные налоговые активы",
+          "definition_en": "Assets that arise when deductible temporary differences exist, specifically when the tax base of an asset is higher than its carrying amount or when the carrying amount of a liability exceeds its tax base. Deferred tax assets indicate taxes that have already been paid or losses carried forward from prior periods but are not yet reflected on the income statement. Recognition requires expectation of sufficient future taxable income.",
+          "definition_ru": "Активы, которые возникают при наличии вычитаемых временных разниц, в частности, когда налоговая база актива выше его балансовой стоимости или когда балансовая стоимость обязательства превышает его налоговую базу. Отложенные налоговые активы указывают на налоги, которые уже были уплачены, или убытки, перенесенные с предыдущих периодов, но еще не отраженные в отчете о прибылях и убытках. Признание требует ожидания достаточного будущего налогооблагаемого дохода.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "FSA-9-EX-001",
+          "question_en": "Which of the following statements accurately describes an occurrence of a difference between accounting profit and taxable income?",
+          "question_ru": "Какое из следующих утверждений точно описывает возникновение разницы между бухгалтерской прибылью и налогооблагаемым доходом?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "The tax base and carrying amount of assets and liabilities are the same.",
+              "text_ru": "Налоговая база и балансовая стоимость активов и обязательств одинаковы."
+            },
+            {
+              "letter": "B",
+              "text_en": "The tax losses of previous years cannot be used to reduce the taxable income in later years.",
+              "text_ru": "Налоговые убытки предыдущих лет не могут быть использованы для уменьшения налогооблагаемого дохода в последующие годы."
+            },
+            {
+              "letter": "C",
+              "text_en": "Revenues and expenses may be recognized in one reporting period for accounting purposes and in another period for tax purposes.",
+              "text_ru": "Доходы и расходы могут признаваться в одном отчетном периоде для целей бухгалтерского учета и в другом периоде для налоговых целей."
+            }
+          ],
+          "correct_answer": "C",
+          "solution_en": "The statement, 'revenues and expenses may be recognized in one reporting period for accounting purposes and in another for tax purposes,' provides an example of a difference between accounting profit and taxable income. This is known as a timing difference and is one of the common sources of temporary differences between tax bases and carrying amounts.",
+          "solution_ru": "Утверждение 'доходы и расходы могут признаваться в одном отчетном периоде для целей бухгалтерского учета и в другом для налоговых целей' дает пример разницы между бухгалтерской прибылью и налогооблагаемым доходом. Это известно как временная разница и является одним из распространенных источников временных разниц между налоговыми базами и балансовыми стоимостями."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_9b",
+      "los_code": "9b",
+      "los_description_en": "Explain how deferred tax liabilities and assets are created and the factors that determine how a company's deferred tax liabilities and assets should be treated for the purposes of financial analysis",
+      "los_description_ru": "Объяснить, как создаются отложенные налоговые обязательства и активы, и факторы, определяющие, как отложенные налоговые обязательства и активы компании должны рассматриваться для целей финансового анализа",
+      "terms": [
+        {
+          "term_id": "FSA-9-018",
+          "term_en": "Valuation Allowance",
+          "term_ru": "Оценочный резерв",
+          "definition_en": "Under US GAAP, an allowance set up to reduce the deferred tax asset to the amount that is more likely than not to be realized when doubts arise about the realization of economic benefits from deferred tax assets. Under IFRS, the deferred tax asset would be reversed entirely if such doubts exist. The valuation allowance reflects management's assessment of the likelihood of future profitability.",
+          "definition_ru": "Согласно US GAAP, резерв, созданный для уменьшения отложенного налогового актива до суммы, которая с большей вероятностью будет реализована, когда возникают сомнения относительно реализации экономических выгод от отложенных налоговых активов. Согласно МСФО, отложенный налоговый актив будет полностью сторнирован, если такие сомнения существуют. Оценочный резерв отражает оценку руководством вероятности будущей прибыльности.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-9-019",
+          "term_en": "Tax Rate Changes Impact",
+          "term_ru": "Влияние изменений налоговых ставок",
+          "definition_en": "When statutory tax rates change, the reported value of deferred tax assets and liabilities must be adjusted accordingly. For example, if the corporate tax rate is reduced from 35% to 30%, the value of deferred tax assets decreases because the future tax benefit is reduced. Similarly, the value of deferred tax liabilities decreases as the future tax obligation diminishes.",
+          "definition_ru": "Когда установленные законом налоговые ставки изменяются, отраженная стоимость отложенных налоговых активов и обязательств должна быть соответствующим образом скорректирована. Например, если ставка налога на прибыль корпораций снижается с 35% до 30%, стоимость отложенных налоговых активов уменьшается, поскольку будущая налоговая льгота уменьшается. Аналогично, стоимость отложенных налоговых обязательств уменьшается по мере уменьшения будущего налогового обязательства.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-9-020",
+          "term_en": "Income Tax Expense Calculation",
+          "term_ru": "Расчет расхода по налогу на прибыль",
+          "definition_en": "Income tax expense is calculated as taxes payable plus net increase in deferred tax liabilities less net increase in deferred tax assets. This formula ensures that the tax effects of all current period activities are properly matched to the accounting profit, adhering to the matching principle.",
+          "definition_ru": "Расход по налогу на прибыль рассчитывается как налоги к уплате плюс чистое увеличение отложенных налоговых обязательств минус чистое увеличение отложенных налоговых активов. Эта формула обеспечивает надлежащее сопоставление налоговых эффектов всех операций текущего периода с бухгалтерской прибылью в соответствии с принципом соответствия.",
+          "type": "formula",
+          "formula": "$\\text{Income Tax Expense} = \\text{Taxes Payable} + \\Delta \\text{DTL} - \\Delta \\text{DTA}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "DTL",
+              "name_en": "Deferred Tax Liabilities",
+              "name_ru": "Отложенные налоговые обязательства"
+            },
+            {
+              "symbol": "DTA",
+              "name_en": "Deferred Tax Assets",
+              "name_ru": "Отложенные налоговые активы"
+            },
+            {
+              "symbol": "\\Delta",
+              "name_en": "Change (increase) in the value",
+              "name_ru": "Изменение (увеличение) стоимости"
+            }
+          ],
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "FSA-9-EX-002",
+          "question_en": "Which of the following statements is the least accurate?",
+          "question_ru": "Какое из следующих утверждений наименее точное?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Deferred tax assets and liabilities are recalculated at the end of each financial year.",
+              "text_ru": "Отложенные налоговые активы и обязательства пересчитываются в конце каждого финансового года."
+            },
+            {
+              "letter": "B",
+              "text_en": "Deferred tax assets and liabilities are based on permanent differences, which result in a company paying an excess or deficit amount for taxes.",
+              "text_ru": "Отложенные налоговые активы и обязательства основаны на постоянных разницах, которые приводят к тому, что компания платит избыточную или недостаточную сумму налогов."
+            },
+            {
+              "letter": "C",
+              "text_en": "A deferred tax asset or liability will not be created if there is no guarantee that future economic benefits will be derived from a temporary difference.",
+              "text_ru": "Отложенный налоговый актив или обязательство не будут созданы, если нет гарантии, что будущие экономические выгоды будут получены от временной разницы."
+            }
+          ],
+          "correct_answer": "B",
+          "solution_en": "Deferred tax assets and liabilities are based on temporary, not permanent, differences that result in a company paying an excess or deficit amount for taxes. Permanent differences do not create deferred tax items; instead, they create disparities between the effective tax rate and the statutory tax rate. Options A and C are correct statements.",
+          "solution_ru": "Отложенные налоговые активы и обязательства основаны на временных, а не постоянных разницах, которые приводят к тому, что компания платит избыточную или недостаточную сумму налогов. Постоянные разницы не создают отложенных налоговых статей; вместо этого они создают расхождения между эффективной налоговой ставкой и установленной законом налоговой ставкой. Варианты A и C являются правильными утверждениями."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_9c",
+      "los_code": "9c",
+      "los_description_en": "Calculate, interpret, and contrast an issuer's effective tax rate, statutory tax rate, and cash tax rate",
+      "los_description_ru": "Рассчитать, интерпретировать и сопоставить эффективную налоговую ставку эмитента, установленную законом налоговую ставку и денежную налоговую ставку",
+      "terms": [
+        {
+          "term_id": "FSA-9-021",
+          "term_en": "Statutory Tax Rate",
+          "term_ru": "Установленная законом налоговая ставка",
+          "definition_en": "The corporate income tax rate in the country where the company is based, as specified by tax legislation. This is the official tax rate that applies to corporate income before any adjustments or special provisions.",
+          "definition_ru": "Ставка налога на прибыль корпораций в стране, где базируется компания, как указано в налоговом законодательстве. Это официальная налоговая ставка, которая применяется к корпоративному доходу до каких-либо корректировок или специальных положений.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-9-022",
+          "term_en": "Effective Tax Rate",
+          "term_ru": "Эффективная налоговая ставка",
+          "definition_en": "The tax rate calculated by dividing the reported income tax expense on the income statement by the pre-tax income (accounting profit). The effective tax rate reflects the actual tax burden after considering all tax credits, adjustments, and international operations. It is relevant for projecting earnings on the income statement.",
+          "definition_ru": "Налоговая ставка, рассчитываемая путем деления отраженного расхода по налогу на прибыль в отчете о прибылях и убытках на прибыль до налогообложения (бухгалтерская прибыль). Эффективная налоговая ставка отражает фактическое налоговое бремя после учета всех налоговых кредитов, корректировок и международных операций. Она актуальна для прогнозирования прибыли в отчете о прибылях и убытках.",
+          "type": "formula",
+          "formula": "$\\text{Effective Tax Rate} = \\frac{\\text{Income Tax Expense}}{\\text{Pre-tax Income}}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "\\text{Income Tax Expense}",
+              "name_en": "Income tax expense reported on the income statement",
+              "name_ru": "Расход по налогу на прибыль, отраженный в отчете о прибылях и убытках"
+            },
+            {
+              "symbol": "\\text{Pre-tax Income}",
+              "name_en": "Accounting profit before taxes",
+              "name_ru": "Бухгалтерская прибыль до налогообложения"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Найдите Income Tax Expense в отчете о прибылях и убытках",
+              "2. Найдите Pre-tax Income (Profit Before Tax) в том же отчете",
+              "3. Введите: [Income Tax Expense] [÷] [Pre-tax Income] [=]",
+              "4. Умножьте на 100 для получения процентов: [×] [100] [=]",
+              "5. Результат: эффективная налоговая ставка в процентах"
+            ],
+            "example": {
+              "given": "Income Tax Expense = $10,530, Pre-tax Income = $35,100",
+              "input": "10530 ÷ 35100 = 0.30, × 100 = 30%",
+              "result": "Effective Tax Rate = 30%"
+            }
+          }
+        },
+        {
+          "term_id": "FSA-9-023",
+          "term_en": "Cash Tax Rate",
+          "term_ru": "Денежная налоговая ставка",
+          "definition_en": "The tax paid in cash during the period, divided by pre-tax income. This rate is useful for forecasting cash flows and represents the actual cash outflow for taxes relative to accounting profit. The cash tax rate may differ from the effective tax rate due to changes in deferred tax assets and liabilities.",
+          "definition_ru": "Налог, уплаченный денежными средствами в течение периода, деленный на прибыль до налогообложения. Эта ставка полезна для прогнозирования денежных потоков и представляет собой фактический денежный отток по налогам относительно бухгалтерской прибыли. Денежная налоговая ставка может отличаться от эффективной налоговой ставки из-за изменений в отложенных налоговых активах и обязательствах.",
+          "type": "formula",
+          "formula": "$\\text{Cash Tax Rate} = \\frac{\\text{Taxes Paid in Cash}}{\\text{Pre-tax Income}}$",
+          "formula_ref": null,
+          "variables": [
+            {
+              "symbol": "\\text{Taxes Paid in Cash}",
+              "name_en": "Actual cash paid for income taxes during the period",
+              "name_ru": "Фактические денежные средства, уплаченные в качестве налогов на прибыль в течение периода"
+            },
+            {
+              "symbol": "\\text{Pre-tax Income}",
+              "name_en": "Accounting profit before taxes",
+              "name_ru": "Бухгалтерская прибыль до налогообложения"
+            }
+          ],
+          "calculator": {
+            "method": "BA II Plus: Direct Calculation",
+            "steps_ru": [
+              "1. Найдите Taxes Paid (cash outflow for taxes) в отчете о движении денежных средств",
+              "2. Найдите Pre-tax Income в отчете о прибылях и убытках",
+              "3. Введите: [Taxes Paid] [÷] [Pre-tax Income] [=]",
+              "4. Умножьте на 100 для получения процентов: [×] [100] [=]",
+              "5. Результат: денежная налоговая ставка в процентах"
+            ],
+            "example": {
+              "given": "Taxes Paid = $10,209, Pre-tax Income = $35,100",
+              "input": "10209 ÷ 35100 = 0.291, × 100 = 29.1%",
+              "result": "Cash Tax Rate = 29.1%"
+            }
+          }
+        },
+        {
+          "term_id": "FSA-9-024",
+          "term_en": "Normalized Operating Income",
+          "term_ru": "Нормализованная операционная прибыль",
+          "definition_en": "Operating income adjusted by excluding results from associates and special items to provide a reliable indication of future tax expense. A good starting point for estimating future tax expense is a tax rate based on normalized operating income, as it removes one-time events and volatile components.",
+          "definition_ru": "Операционная прибыль, скорректированная путем исключения результатов от ассоциированных компаний и специальных статей для получения надежного указания на будущий налоговый расход. Хорошей отправной точкой для оценки будущего налогового расхода является налоговая ставка, основанная на нормализованной операционной прибыли, поскольку она исключает единовременные события и волатильные компоненты.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-9-025",
+          "term_en": "Tax Rate Reconciliation",
+          "term_ru": "Сверка налоговых ставок",
+          "definition_en": "Financial statement notes that provide a reconciliation between the statutory tax rate and the effective rate, highlighting items that cause significant variations in the effective tax rate. Common items include tax credits, withholding tax on dividends, adjustments to prior years, and non-deductible expenses. This reconciliation helps analysts understand the sources of differences and forecast future tax expenses.",
+          "definition_ru": "Примечания к финансовой отчетности, которые обеспечивают сверку между установленной законом налоговой ставкой и эффективной ставкой, подчеркивая статьи, которые вызывают значительные вариации в эффективной налоговой ставке. Общие статьи включают налоговые кредиты, удержанный налог с дивидендов, корректировки предыдущих лет и невычитаемые расходы. Эта сверка помогает аналитикам понять источники разниц и прогнозировать будущие налоговые расходы.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "FSA-9-EX-003",
+          "question_en": "AlphaTech, a hypothetical company based in Canada, also has significant operations in Germany. The statutory tax rate in Canada is 26%, while the statutory tax rate in Germany is 15%. Assume AlphaTech earns CAD 2,000 in profit before taxes in each country during year 20X1. On January 1 of the following year, 20X2, AlphaTech acquires Beta Corp, which is domiciled in Japan. The statutory tax rate in Japan is 23%. Beta Corp earns CAD 1,000 in profits in 20X2. Assuming that Canadian and German operations each increase pre-tax profits by 20%, the effective tax rate in 20X2 for the consolidated entity is closest to:",
+          "question_ru": "AlphaTech, гипотетическая компания, базирующаяся в Канаде, также имеет значительные операции в Германии. Установленная законом налоговая ставка в Канаде составляет 26%, в то время как установленная законом налоговая ставка в Германии составляет 15%. Предположим, что AlphaTech зарабатывает CAD 2,000 прибыли до налогообложения в каждой стране в течение года 20X1. 1 января следующего года, 20X2, AlphaTech приобретает Beta Corp, которая находится в Японии. Установленная законом налоговая ставка в Японии составляет 23%. Beta Corp зарабатывает CAD 1,000 прибыли в 20X2. Предполагая, что канадские и немецкие операции увеличивают прибыль до налогообложения на 20%, эффективная налоговая ставка в 20X2 для консолидированного предприятия наиболее близка к:",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "18.4%",
+              "text_ru": "18.4%"
+            },
+            {
+              "letter": "B",
+              "text_en": "19.8%",
+              "text_ru": "19.8%"
+            },
+            {
+              "letter": "C",
+              "text_en": "20.9%",
+              "text_ru": "20.9%"
+            }
+          ],
+          "correct_answer": "C",
+          "solution_en": "The effective tax rate is calculated by dividing the total tax expense by the total pre-tax income. For 20X2: Canada taxable income = CAD 2,400 (26% tax = CAD 624), Germany taxable income = CAD 2,400 (15% tax = CAD 360), Japan taxable income = CAD 1,000 (23% tax = CAD 230). Total taxes = CAD 1,214, Total pre-tax income = CAD 5,800. Effective tax rate = 1,214 / 5,800 = 20.9%.",
+          "solution_ru": "Эффективная налоговая ставка рассчитывается путем деления общего налогового расхода на общую прибыль до налогообложения. Для 20X2: Налогооблагаемый доход Канады = CAD 2,400 (налог 26% = CAD 624), Налогооблагаемый доход Германии = CAD 2,400 (налог 15% = CAD 360), Налогооблагаемый доход Японии = CAD 1,000 (налог 23% = CAD 230). Общие налоги = CAD 1,214, Общая прибыль до налогообложения = CAD 5,800. Эффективная налоговая ставка = 1,214 / 5,800 = 20.9%."
+        },
+        {
+          "exercise_id": "FSA-9-EX-004",
+          "question_en": "When might an effective tax rate consistently lower than statutory or competitors' rates warrant additional analyst attention?",
+          "question_ru": "Когда эффективная налоговая ставка, последовательно более низкая, чем установленная законом или ставки конкурентов, может потребовать дополнительного внимания аналитика?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "When forecasting future tax expenses.",
+              "text_ru": "При прогнозировании будущих налоговых расходов."
+            },
+            {
+              "letter": "B",
+              "text_en": "When it is reported in the financial statements.",
+              "text_ru": "Когда это отражено в финансовой отчетности."
+            },
+            {
+              "letter": "C",
+              "text_en": "When it is consistently lower than statutory rates.",
+              "text_ru": "Когда она последовательно ниже установленных законом ставок."
+            }
+          ],
+          "correct_answer": "A",
+          "solution_en": "An effective tax rate consistently lower than statutory or competitors' rates might warrant additional attention when forecasting future tax expenses. Analysts need to understand whether the lower rate is sustainable or due to one-time benefits that may not recur in the future. Financial statement notes should provide a reconciliation between the statutory tax rate and the effective rate, highlighting items that cause significant variations.",
+          "solution_ru": "Эффективная налоговая ставка, последовательно более низкая, чем установленная законом или ставки конкурентов, может потребовать дополнительного внимания при прогнозировании будущих налоговых расходов. Аналитикам необходимо понять, является ли более низкая ставка устойчивой или она обусловлена единовременными льготами, которые могут не повториться в будущем. Примечания к финансовой отчетности должны содержать сверку между установленной законом налоговой ставкой и эффективной ставкой, подчеркивая статьи, которые вызывают значительные вариации."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_9d",
+      "los_code": "9d",
+      "los_description_en": "Analyze disclosures relating to deferred tax items and the effective tax rate reconciliation and explain how information included in these disclosures affects a company's financial statements and financial ratios",
+      "los_description_ru": "Проанализировать раскрытие информации, касающейся отложенных налоговых статей и сверки эффективной налоговой ставки, и объяснить, как информация, включенная в эти раскрытия, влияет на финансовую отчетность и финансовые коэффициенты компании",
+      "terms": [
+        {
+          "term_id": "FSA-9-026",
+          "term_en": "Income Tax Disclosures",
+          "term_ru": "Раскрытие информации о налоге на прибыль",
+          "definition_en": "Information included in the notes to financial statements that can provide analysts with very useful information about a company's tax position. Disclosures can reconcile how income tax provision was determined, highlight the current income tax provision, display the reconciliation of income tax provisions from the statutory rate, provide detailed information on deferred tax assets and liabilities, indicate valuation allowances, and identify operating loss carryforwards or unused tax credits.",
+          "definition_ru": "Информация, включенная в примечания к финансовой отчетности, которая может предоставить аналитикам очень полезную информацию о налоговой позиции компании. Раскрытия могут показать, как был определен резерв по налогу на прибыль, выделить текущий резерв по налогу на прибыль, отобразить сверку резервов по налогу на прибыль с установленной законом ставкой, предоставить подробную информацию об отложенных налоговых активах и обязательствах, указать оценочные резервы и определить переносы операционных убытков или неиспользованные налоговые кредиты.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-9-027",
+          "term_en": "Deferred Tax Classification for Analysis",
+          "term_ru": "Классификация отложенных налогов для анализа",
+          "definition_en": "For financial analysis purposes, a deferred tax liability should be classified as debt if it's expected to reverse with subsequent tax payment(s). If the liability is not expected to reverse, it should be treated as equity. Additionally, a deferred tax liability should be excluded from debt and equity in case of uncertainty on the amounts and timing of tax payments arising from the reversal of temporary differences. These classifications will affect the computation of financial ratios involving debt or equity, such as profitability ratios and leverage ratios.",
+          "definition_ru": "Для целей финансового анализа отложенное налоговое обязательство должно классифицироваться как долг, если ожидается, что оно будет погашено последующим налоговым платежом(ами). Если не ожидается погашение обязательства, оно должно рассматриваться как капитал. Кроме того, отложенное налоговое обязательство должно быть исключено из долга и капитала в случае неопределенности в отношении сумм и сроков налоговых платежей, возникающих в результате погашения временных разниц. Эти классификации повлияют на расчет финансовых коэффициентов, связанных с долгом или капиталом, таких как коэффициенты рентабельности и кредитного плеча.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-9-028",
+          "term_en": "Tax Loss Carryforward Value in Acquisitions",
+          "term_ru": "Стоимость переноса налоговых убытков при приобретениях",
+          "definition_en": "A company acquiring another company may use the target company's tax loss carryforwards to offset its tax liabilities. The value to the acquiring company would be the present value of the carryforwards, based on the acquiring company's tax rate and expected realization time. The higher the profitability and tax rate of an acquiring company, the sooner it will be able to benefit from these tax loss carryforwards.",
+          "definition_ru": "Компания, приобретающая другую компанию, может использовать перенос налоговых убытков целевой компании для зачета своих налоговых обязательств. Стоимость для приобретающей компании будет представлять собой приведенную стоимость переносов, основанную на налоговой ставке приобретающей компании и ожидаемом времени реализации. Чем выше прибыльность и налоговая ставка приобретающей компании, тем раньше она сможет извлечь выгоду из этих переносов налоговых убытков.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "FSA-9-EX-005",
+          "question_en": "GammaCorp's tax provision resulted in effective tax rates attributable to earnings from ongoing operations, excluding the cumulative effect of changes in accounting principles, which differed from the statutory corporate income tax rate of 30%, as detailed in the table showing adjustments to the valuation allowance for deferred tax assets reducing taxes by USD 160,000 in Year 3, USD 770,000 in Year 2, and USD 760,000 in Year 1. Over the three years shown, adjustments to the valuation allowance for deferred tax assets most likely indicate:",
+          "question_ru": "Налоговый резерв GammaCorp привел к эффективным налоговым ставкам, относящимся к прибыли от текущих операций, исключая кумулятивный эффект изменений в принципах учета, которые отличались от установленной законом ставки налога на прибыль корпораций в размере 30%, как подробно описано в таблице, показывающей корректировки оценочного резерва для отложенных налоговых активов, уменьшающие налоги на USD 160,000 в году 3, USD 770,000 в году 2 и USD 760,000 в году 1. За три показанных года корректировки оценочного резерва для отложенных налоговых активов наиболее вероятно указывают на:",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Increased likelihood of future profitability.",
+              "text_ru": "Увеличенную вероятность будущей прибыльности."
+            },
+            {
+              "letter": "B",
+              "text_en": "A decreased likelihood of future profitability.",
+              "text_ru": "Уменьшенную вероятность будущей прибыльности."
+            },
+            {
+              "letter": "C",
+              "text_en": "Assets being carried at a value lower than their tax base.",
+              "text_ru": "Активы, отражаемые по стоимости ниже их налоговой базы."
+            }
+          ],
+          "correct_answer": "A",
+          "solution_en": "Throughout the three-year period, adjustments to the valuation allowance reduced cumulative income taxes by USD 1,830,000 (= USD 160,000 + USD 770,000 + USD 760,000). The reductions in the valuation allowance indicate that the company is 'more likely than not' to generate enough taxable income to utilize the deferred tax assets. This suggests increased confidence in future profitability.",
+          "solution_ru": "В течение трехлетнего периода корректировки оценочного резерва уменьшили кумулятивные налоги на прибыль на USD 1,830,000 (= USD 160,000 + USD 770,000 + USD 760,000). Уменьшение оценочного резерва указывает на то, что компания 'более вероятно, чем нет' будет генерировать достаточный налогооблагаемый доход для использования отложенных налоговых активов. Это свидетельствует об увеличенной уверенности в будущей прибыльности."
+        },
+        {
+          "exercise_id": "FSA-9-EX-006",
+          "question_en": "Which of the following statements is the least accurate?",
+          "question_ru": "Какое из следующих утверждений наименее точное?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "An acquiring company may not use a target company's tax loss carryforwards to offset own tax liabilities.",
+              "text_ru": "Приобретающая компания не может использовать перенос налоговых убытков целевой компании для зачета своих налоговых обязательств."
+            },
+            {
+              "letter": "B",
+              "text_en": "A deferred tax liability should be classified as debt if expected to reverse with a subsequent tax payment.",
+              "text_ru": "Отложенное налоговое обязательство должно классифицироваться как долг, если ожидается, что оно будет погашено последующим налоговым платежом."
+            },
+            {
+              "letter": "C",
+              "text_en": "Note disclosures can indicate the reconciliation of how income tax provisions are derived from the US federal statutory rate.",
+              "text_ru": "Примечания к раскрытию информации могут указать сверку того, как резервы по налогу на прибыль выводятся из федеральной установленной законом ставки США."
+            }
+          ],
+          "correct_answer": "A",
+          "solution_en": "An acquiring company may use a target company's tax loss carryforwards to offset its tax liabilities. The value to the acquiring company would be the present value of the carryforwards, based on the acquiring company's tax rate and expected realization time. Options B and C are correct statements.",
+          "solution_ru": "Приобретающая компания может использовать перенос налоговых убытков целевой компании для зачета своих налоговых обязательств. Стоимость для приобретающей компании будет представлять собой приведенную стоимость переносов, основанную на налоговой ставке приобретающей компании и ожидаемом времени реализации. Варианты B и C являются правильными утверждениями."
+        }
+      ]
+    }
+  ]
+}
