@@ -1,0 +1,519 @@
+{
+  "metadata": {
+    "book_id": 3,
+    "book_code": "FSA",
+    "book_name": "Financial Statement Analysis",
+    "book_name_ru": "Анализ финансовой отчетности",
+    "module_id": 11,
+    "module_name": "Financial Analysis Techniques",
+    "module_name_ru": "Техники финансового анализа",
+    "total_questions": 10,
+    "version": "2.0",
+    "source": "AnalystPrep QBank"
+  },
+  "questions": [
+    {
+      "question_id": "FSA-11-Q001",
+      "original_question_number": 500,
+      "los_id": "LOS_11b",
+      "question_text_en": "An analyst gathered the following information for a small company reporting under IFRS:\n\nRevenue: $600,000\nCost of sales: ($120,000)\nAverage inventory: $40,000\nAverage Trade Receivables: $60,000\n\nAssuming that the number of days in a year is to be assumed as 360, the days of sales outstanding (DSO) is closest to:",
+      "question_text_ru": "Аналитик собрал следующую информацию по небольшой компании, отчитывающейся по МСФО:\n\nВыручка: $600,000\nСебестоимость продаж: ($120,000)\nСредние запасы: $40,000\nСредняя торговая дебиторская задолженность: $60,000\n\nПредполагая, что количество дней в году равно 360, период оборота дебиторской задолженности (DSO) наиболее близок к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "3",
+          "text_ru": "3"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "10",
+          "text_ru": "10"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "36",
+          "text_ru": "36"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "DSO is given by: Days of Sales Outstanding = Number of days in a period / Receivable Turnover.\n\nWhere Receivables Turnover = Revenue / Average receivables = 600,000 / 60,000 = 10.\n\nTherefore, DSO = 360 / 10 = 36 days.",
+      "explanation_ru": "DSO рассчитывается как: Период оборота дебиторской задолженности = Количество дней в периоде / Оборачиваемость дебиторской задолженности.\n\nГде Оборачиваемость дебиторской задолженности = Выручка / Средняя дебиторская задолженность = 600,000 / 60,000 = 10.\n\nСледовательно, DSO = 360 / 10 = 36 дней.",
+      "explanation_formula": "$\\text{DSO} = \\frac{\\text{Number of days}}{\\text{Receivable Turnover}} = \\frac{\\text{Number of days}}{\\frac{\\text{Revenue}}{\\text{Average receivables}}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. It represents the inventory turnover ratio.",
+          "text_ru": "Неверно. Это представляет коэффициент оборачиваемости запасов."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. It represents the receivable turnover ratio.",
+          "text_ru": "Неверно. Это представляет коэффициент оборачиваемости дебиторской задолженности."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "activity_ratios",
+        "dso",
+        "receivables_turnover"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q002",
+      "original_question_number": 501,
+      "los_id": "LOS_11b",
+      "question_text_en": "Which of the following is least likely a possible root cause for a reduction in the inventory turnover ratio?",
+      "question_text_ru": "Что из следующего наименее вероятно является возможной первопричиной снижения коэффициента оборачиваемости запасов?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Change in fashion.",
+          "text_ru": "Изменение моды."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Obsolescence of technology.",
+          "text_ru": "Устаревание технологии."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Increase in the number of distributors.",
+          "text_ru": "Увеличение числа дистрибьюторов."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "An increase in the number of distributors is least likely to be a direct cause of a reduction in the inventory turnover ratio. The inventory turnover ratio is a measure of how quickly a company sells its inventory within a given period. An increase in the number of distributors typically aims to expand the market reach and improve the sales volume, which, in theory, should lead to a higher or maintained inventory turnover ratio if the additional distribution channels are effective.",
+      "explanation_ru": "Увеличение количества дистрибьюторов наименее вероятно будет прямой причиной снижения коэффициента оборачиваемости запасов. Коэффициент оборачиваемости запасов - это мера того, как быстро компания продает свои запасы в течение определенного периода. Увеличение количества дистрибьюторов обычно направлено на расширение охвата рынка и увеличение объема продаж, что, теоретически, должно привести к более высокому или сохраненному коэффициенту оборачиваемости запасов, если дополнительные каналы дистрибуции эффективны.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. A change in fashion can significantly impact the inventory turnover ratio, especially in industries sensitive to trends, such as apparel and accessories. When products fall out of fashion, their demand decreases, leading to slower sales and an accumulation of inventory.",
+          "text_ru": "Неверно. Изменение моды может значительно повлиять на коэффициент оборачиваемости запасов, особенно в отраслях, чувствительных к трендам, таких как одежда и аксессуары. Когда продукты выходят из моды, их спрос снижается, что приводит к более медленным продажам и накоплению запасов."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. The obsolescence of technology is another factor that can lead to a reduction in the inventory turnover ratio. In industries where technological advancements are rapid, products can quickly become outdated. As newer products enter the market, the older inventory's demand diminishes, leading to slower sales.",
+          "text_ru": "Неверно. Устаревание технологии - еще один фактор, который может привести к снижению коэффициента оборачиваемости запасов. В отраслях, где технологические достижения происходят быстро, продукты могут быстро устареть. По мере выхода на рынок новых продуктов, спрос на старые запасы уменьшается, что приводит к более медленным продажам."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "activity_ratios",
+        "inventory_turnover"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q003",
+      "original_question_number": 502,
+      "los_id": "LOS_11b",
+      "question_text_en": "For a hypothetical company, the working capital turnover and fixed asset turnover ratios are 4 and 6, respectively. Moreover, the revenue for the company is estimated at $120,000. The average working capital for the company is closest to:",
+      "question_text_ru": "Для гипотетической компании коэффициенты оборачиваемости оборотного капитала и оборачиваемости основных средств составляют 4 и 6 соответственно. Более того, выручка компании оценивается в $120,000. Средний оборотный капитал компании наиболее близок к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$20,000",
+          "text_ru": "$20,000"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$30,000",
+          "text_ru": "$30,000"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$45,000",
+          "text_ru": "$45,000"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The working capital turnover is defined as: Working capital turnover = Revenue / Average working capital.\n\nIn this case, we have: 4 = 120,000 / Average Working capital.\n\nTherefore, Average working capital = 120,000 / 4 = $30,000.",
+      "explanation_ru": "Оборачиваемость оборотного капитала определяется как: Оборачиваемость оборотного капитала = Выручка / Средний оборотный капитал.\n\nВ данном случае: 4 = 120,000 / Средний оборотный капитал.\n\nСледовательно, Средний оборотный капитал = 120,000 / 4 = $30,000.",
+      "explanation_formula": "$\\text{Working capital turnover} = \\frac{\\text{Revenue}}{\\text{Average working capital}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. It represents the average net fixed assets, calculated using the fixed asset turnover ratio.",
+          "text_ru": "Неверно. Это представляет средние чистые основные средства, рассчитанные с использованием коэффициента оборачиваемости основных средств."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It represents the sum of the average working capital and the average net fixed assets.",
+          "text_ru": "Неверно. Это представляет сумму среднего оборотного капитала и средних чистых основных средств."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "activity_ratios",
+        "working_capital_turnover"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q004",
+      "original_question_number": 504,
+      "los_id": "LOS_11b",
+      "question_text_en": "Which of the following is the most accurate description of the defensive interval ratio?",
+      "question_text_ru": "Какое из следующих описаний коэффициента защитного интервала является наиболее точным?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The defensive interval ratio measures the duration for which the daily cash requirements can be met from the current liabilities.",
+          "text_ru": "Коэффициент защитного интервала измеряет продолжительность, в течение которой ежедневные денежные требования могут быть удовлетворены за счет текущих обязательств."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The defensive interval ratio measures the duration for which the daily cash requirements of a period can be met from the existing liquid assets.",
+          "text_ru": "Коэффициент защитного интервала измеряет продолжительность, в течение которой ежедневные денежные требования периода могут быть удовлетворены за счет существующих ликвидных активов."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The defensive interval ratio measures the duration for which the daily cash requirements of a period can be met from the expected liquid assets at the end of the period.",
+          "text_ru": "Коэффициент защитного интервала измеряет продолжительность, в течение которой ежедневные денежные требования периода могут быть удовлетворены за счет ожидаемых ликвидных активов в конце периода."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The defensive interval ratio is a financial metric that measures the number of days a company can continue to operate using only its existing liquid assets without needing to secure additional financing or convert long-term assets into cash. This ratio is crucial for assessing a company's short-term financial resilience, particularly in times of financial uncertainty or when access to external funding may be restricted.",
+      "explanation_ru": "Коэффициент защитного интервала - это финансовый показатель, который измеряет количество дней, в течение которых компания может продолжать работать, используя только существующие ликвидные активы, без необходимости получения дополнительного финансирования или конвертации долгосрочных активов в денежные средства. Этот коэффициент имеет решающее значение для оценки краткосрочной финансовой устойчивости компании, особенно во времена финансовой неопределенности или когда доступ к внешнему финансированию может быть ограничен.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The defensive interval ratio considers the 'existing' liquid assets and not the current liabilities.",
+          "text_ru": "Неверно. Коэффициент защитного интервала учитывает 'существующие' ликвидные активы, а не текущие обязательства."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The defensive interval ratio considers the 'existing' liquid assets and not 'expected' liquid assets at the end of the period.",
+          "text_ru": "Неверно. Коэффициент защитного интервала учитывает 'существующие' ликвидные активы, а не 'ожидаемые' ликвидные активы в конце периода."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "liquidity_ratios",
+        "defensive_interval"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q005",
+      "original_question_number": 506,
+      "los_id": "LOS_11d",
+      "question_text_en": "Calculate the leverage from the following data:\n\nReturn on equity: 5.4%\nNet profit margin: 3.5%\nTotal asset turnover: 1.1",
+      "question_text_ru": "Рассчитайте леверидж по следующим данным:\n\nРентабельность собственного капитала: 5.4%\nЧистая рентабельность: 3.5%\nОборачиваемость активов: 1.1",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "1.19",
+          "text_ru": "1.19"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "1.40",
+          "text_ru": "1.40"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "1.54",
+          "text_ru": "1.54"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "ROE = Net profit margin × Total asset turnover × Leverage.\n\nLeverage = Return on equity / (Net profit margin × Total asset turnover) = 5.4% / (3.5% × 1.1) = 5.4% / 3.85% = 1.40.",
+      "explanation_ru": "ROE = Чистая рентабельность × Оборачиваемость активов × Леверидж.\n\nЛеверидж = Рентабельность собственного капитала / (Чистая рентабельность × Оборачиваемость активов) = 5.4% / (3.5% × 1.1) = 5.4% / 3.85% = 1.40.",
+      "explanation_formula": "$\\text{Leverage} = \\frac{\\text{ROE}}{\\text{Net profit margin} \\times \\text{Total asset turnover}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. It sums return on equity, net profit margin, and total asset turnover.",
+          "text_ru": "Неверно. Это суммирует рентабельность собственного капитала, чистую рентабельность и оборачиваемость активов."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It represents the ratio of return on equity to net profit margin.",
+          "text_ru": "Неверно. Это представляет отношение рентабельности собственного капитала к чистой рентабельности."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "dupont_analysis",
+        "leverage",
+        "roe"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q006",
+      "original_question_number": 507,
+      "los_id": "LOS_11e",
+      "question_text_en": "Revenue per employee is an acceptable ratio for analysis in which of the following industries?",
+      "question_text_ru": "Выручка на сотрудника является приемлемым коэффициентом для анализа в какой из следующих отраслей?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The service industry.",
+          "text_ru": "Сфера услуг."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The banking industry.",
+          "text_ru": "Банковская отрасль."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The manufacturing industry.",
+          "text_ru": "Обрабатывающая промышленность."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Revenue per employee is a particularly relevant metric for analysis in the service industry. This is because, in service-oriented businesses, the primary assets are the employees themselves, whose skills and services generate the company's revenue. Unlike industries that rely heavily on physical assets or capital expenditures, such as manufacturing or utilities, the service industry's performance and efficiency are closely tied to the productivity and effectiveness of its workforce.",
+      "explanation_ru": "Выручка на сотрудника является особенно релевантным показателем для анализа в сфере услуг. Это связано с тем, что в сервисно-ориентированных бизнесах основными активами являются сами сотрудники, чьи навыки и услуги генерируют доход компании. В отличие от отраслей, которые сильно зависят от материальных активов или капитальных затрат, таких как производство или коммунальные услуги, производительность и эффективность индустрии услуг тесно связаны с продуктивностью и эффективностью рабочей силы.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Suggesting that the banking industry is the most appropriate for analyzing revenue per employee overlooks the fact that banks' revenue generation is significantly influenced by their financial leverage, investment strategies, and interest rate spreads, rather than solely by employee productivity.",
+          "text_ru": "Неверно. Предположение, что банковская отрасль является наиболее подходящей для анализа выручки на сотрудника, не учитывает тот факт, что генерация дохода банков в значительной степени зависит от их финансового левериджа, инвестиционных стратегий и процентных спредов, а не только от производительности сотрудников."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The manufacturing industry, characterized by its heavy reliance on physical assets, machinery, and production facilities, does not prioritize revenue per employee as a primary metric for analysis. In manufacturing, the efficiency and productivity of the production process, capital expenditure, and asset utilization rates are more relevant indicators of financial performance.",
+          "text_ru": "Неверно. Обрабатывающая промышленность, характеризующаяся сильной зависимостью от материальных активов, оборудования и производственных мощностей, не отдает приоритет выручке на сотрудника в качестве основного показателя для анализа. В производстве эффективность и продуктивность производственного процесса, капитальные затраты и коэффициенты использования активов являются более релевантными показателями финансовой результативности."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "industry_specific_ratios",
+        "revenue_per_employee"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q007",
+      "original_question_number": 1029,
+      "los_id": "LOS_11b",
+      "question_text_en": "Return on capital will most likely be higher in which of the following cases?",
+      "question_text_ru": "Рентабельность капитала, скорее всего, будет выше в каком из следующих случаев?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "If the firm has 50% of the market share and another firm has the other 50%.",
+          "text_ru": "Если фирма имеет 50% доли рынка, а другая фирма имеет остальные 50%."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "If the firm has a 10% market share and all other firms have less than 5% of the market share.",
+          "text_ru": "Если фирма имеет 10% доли рынка, а все остальные фирмы имеют менее 5% доли рынка."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Return on capital is not affected by market shares.",
+          "text_ru": "Рентабельность капитала не зависит от доли рынка."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Return on capital (ROC) is a measure of how effectively a company uses its capital to generate profits. A firm that dominates its market or has a significant competitive advantage often enjoys higher returns on capital due to economies of scale, stronger bargaining power, and potentially higher pricing power. A firm with a 10% market share where all other firms have less than 5% has a relative competitive advantage that can lead to higher ROC.",
+      "explanation_ru": "Рентабельность капитала (ROC) - это мера того, насколько эффективно компания использует свой капитал для генерации прибыли. Фирма, которая доминирует на своем рынке или имеет значительное конкурентное преимущество, часто получает более высокую рентабельность капитала благодаря эффекту масштаба, более сильной переговорной силе и потенциально более высокой ценовой власти. Фирма с 10% долей рынка, где все остальные фирмы имеют менее 5%, имеет относительное конкурентное преимущество, которое может привести к более высокому ROC.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Having a 50% market share while another firm holds the other 50% suggests a duopoly situation. While a 50% market share is substantial, the presence of another equally strong competitor could lead to competitive pressures that might erode margins and, consequently, returns on capital.",
+          "text_ru": "Неверно. Наличие 50% доли рынка, в то время как другая фирма владеет остальными 50%, предполагает ситуацию дуополии. Хотя 50% доли рынка существенны, наличие другого столь же сильного конкурента может привести к конкурентному давлению, которое может снизить маржу и, следовательно, рентабельность капитала."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. While it's true that return on capital is primarily determined by how efficiently a company uses its capital to generate profits, market share can have an indirect impact on this efficiency. A significant market share, especially when compared to competitors, can provide a company with competitive advantages that enhance its ability to generate higher returns on capital.",
+          "text_ru": "Неверно. Хотя верно, что рентабельность капитала в первую очередь определяется тем, насколько эффективно компания использует свой капитал для генерации прибыли, доля рынка может оказывать косвенное влияние на эту эффективность. Значительная доля рынка, особенно по сравнению с конкурентами, может предоставить компании конкурентные преимущества, которые улучшают ее способность генерировать более высокую рентабельность капитала."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "profitability_ratios",
+        "return_on_capital",
+        "market_share"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q008",
+      "original_question_number": 2097,
+      "los_id": "LOS_11a",
+      "question_text_en": "Which of the following is least likely a limitation of ratios?",
+      "question_text_ru": "Что из следующего наименее вероятно является ограничением коэффициентов?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Ratios evaluate changes in firms and industries over time.",
+          "text_ru": "Коэффициенты оценивают изменения в фирмах и отраслях с течением времени."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Ratios are only useful when compared to other firms or to the company's historical performance.",
+          "text_ru": "Коэффициенты полезны только при сравнении с другими фирмами или с исторической результативностью компании."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The comparison of ratios with other firms is difficult due to accounting standards differences.",
+          "text_ru": "Сравнение коэффициентов с другими фирмами затруднено из-за различий в стандартах учета."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Option A is not a limitation but a benefit of ratio analysis. Ratios are valuable tools for evaluating changes in firms and industries over time, making them useful for trend analysis.",
+      "explanation_ru": "Вариант А не является ограничением, а преимуществом анализа коэффициентов. Коэффициенты - это ценные инструменты для оценки изменений в фирмах и отраслях с течением времени, что делает их полезными для анализа трендов.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This is a limitation of ratios. Ratios are indeed only meaningful when compared to benchmarks such as other firms or the company's historical performance.",
+          "text_ru": "Неверно. Это является ограничением коэффициентов. Коэффициенты действительно имеют смысл только при сравнении с эталонами, такими как другие фирмы или историческая результативность компании."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This is a limitation of ratios. Differences in accounting standards across firms can make ratio comparisons difficult and potentially misleading.",
+          "text_ru": "Неверно. Это является ограничением коэффициентов. Различия в стандартах учета между фирмами могут затруднить сравнение коэффициентов и потенциально ввести в заблуждение."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "ratio_analysis_limitations",
+        "financial_analysis_tools"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q009",
+      "original_question_number": 2099,
+      "los_id": "LOS_11a",
+      "question_text_en": "Which of the following statements is least likely true regarding the common-size analysis of financial statements?",
+      "question_text_ru": "Какое из следующих утверждений наименее вероятно верно относительно анализа финансовой отчетности в процентах?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "A horizontal common-size income statement calculates all line items as a percentage of the base year's total assets.",
+          "text_ru": "Горизонтальный отчет о прибылях и убытках в процентах рассчитывает все статьи как процент от общих активов базового года."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "A vertical common-size balance sheet presents each balance sheet item by the same period's total assets.",
+          "text_ru": "Вертикальный баланс в процентах представляет каждую статью баланса как долю от общих активов того же периода."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "A vertical common-size income statement presents each income statement item as a percentage of revenue or by total assets.",
+          "text_ru": "Вертикальный отчет о прибылях и убытках в процентах представляет каждую статью отчета о прибылях и убытках как процент от выручки или от общих активов."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "In a horizontal common-size income statement, each line item is expressed as a percentage of the corresponding figure in the base year, not as a percentage of the base year's total assets. The comparison is typically year-over-year for each specific line item (like revenue, expenses, etc.), not relative to the total assets.",
+      "explanation_ru": "В горизонтальном отчете о прибылях и убытках в процентах каждая статья выражается в процентах от соответствующей цифры в базовом году, а не в процентах от общих активов базового года. Сравнение обычно проводится год к году для каждой конкретной статьи (например, выручка, расходы и т.д.), а не относительно общих активов.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. In a vertical common-size balance sheet, each line item is expressed as a percentage of total assets for the same period. This method allows for an analysis of the structure of the balance sheet by showing the proportion of each item relative to the total assets.",
+          "text_ru": "Неверно. В вертикальном балансе в процентах каждая статья выражается в процентах от общих активов за тот же период. Этот метод позволяет анализировать структуру баланса, показывая долю каждой статьи относительно общих активов."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. A vertical common-size income statement does indeed express each item as a percentage of revenue (total sales) or by total assets.",
+          "text_ru": "Неверно. Вертикальный отчет о прибылях и убытках в процентах действительно выражает каждую статью как процент от выручки (общих продаж) или от общих активов."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "common_size_analysis",
+        "financial_statement_analysis"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q010",
+      "original_question_number": 2100,
+      "los_id": "LOS_11a",
+      "question_text_en": "Which of the following is least likely use of the graphical analysis of financial data?",
+      "question_text_ru": "Что из следующего наименее вероятно является использованием графического анализа финансовых данных?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Analyze the trend in data.",
+          "text_ru": "Анализ тренда в данных."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Compare data across firms and time.",
+          "text_ru": "Сравнение данных между фирмами и во времени."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Identify the relationship between two variables.",
+          "text_ru": "Определение взаимосвязи между двумя переменными."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "While graphical analysis can provide some insights into the relationship between two variables, it is not primarily used for identifying and quantifying these relationships. Statistical methods like correlation and regression analysis are more suitable for this purpose.",
+      "explanation_ru": "Хотя графический анализ может дать некоторое представление о взаимосвязи между двумя переменными, он не используется в первую очередь для выявления и количественной оценки этих взаимосвязей. Статистические методы, такие как корреляционный и регрессионный анализ, более подходят для этой цели.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Trend analysis is a fundamental aspect of graphical analysis in finance, essential for visualizing how financial parameters have changed over time and providing insights into the company's historical performance.",
+          "text_ru": "Неверно. Анализ трендов является фундаментальным аспектом графического анализа в финансах, необходимым для визуализации того, как финансовые показатели изменились с течением времени, и предоставления понимания исторической результативности компании."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Comparing financial data across firms and over different time periods is a key application of graphical analysis in finance, essential for benchmarking and understanding a firm's position relative to its peers or its own historical performance.",
+          "text_ru": "Неверно. Сравнение финансовых данных между фирмами и за разные периоды времени является ключевым применением графического анализа в финансах, необходимым для бенчмаркинга и понимания позиции фирмы относительно конкурентов или ее собственной исторической результативности."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "graphical_analysis",
+        "financial_analysis_tools"
+      ]
+    }
+  ]
+}
