@@ -1,0 +1,577 @@
+{
+  "metadata": {
+    "book_id": 3,
+    "book_code": "FSA",
+    "book_name": "Financial Statement Analysis",
+    "book_name_ru": "Анализ финансовой отчетности",
+    "module_id": 10,
+    "module_name": "Financial Reporting Quality",
+    "module_name_ru": "Качество финансовой отчетности",
+    "total_questions": 10,
+    "version": "2.0",
+    "source": "AnalystPrep QBank"
+  },
+  "questions": [
+    {
+      "question_id": "FSA-10-Q001",
+      "original_question_number": 292,
+      "los_id": "LOS_10h",
+      "question_text_en": "You see that a large company is recording all of its finance (capital) leases as operating leases. This company is trying to reduce its:",
+      "question_text_ru": "Вы видите, что крупная компания учитывает все свои финансовые (капитальные) лизинговые договоры как операционные лизинги. Эта компания пытается уменьшить свой:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "leverage.",
+          "text_ru": "леверидж."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "expenses.",
+          "text_ru": "расходы."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "capital expenditure.",
+          "text_ru": "капитальные затраты."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "When a company records all of its finance (capital) leases as operating leases, it is attempting to reduce its leverage. By classifying finance leases as operating leases, a company does not have to report these leases as liabilities on its balance sheet. This accounting practice can make the company appear less leveraged than it actually is because operating leases do not require the recognition of a corresponding asset and liability.",
+      "explanation_ru": "Когда компания учитывает все свои финансовые (капитальные) лизинги как операционные, она пытается уменьшить свой леверидж. Классифицируя финансовые лизинги как операционные, компания не должна отражать эти лизинги как обязательства в балансе. Эта учетная практика может сделать компанию менее заемной, чем она есть на самом деле.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "While it's true that the treatment of leases can affect the appearance of a company's financial statements, the primary impact of classifying a finance lease as an operating lease is on the balance sheet (reducing reported leverage), not on the income statement where expenses are reported.",
+          "text_ru": "Хотя верно, что учет лизинга может повлиять на внешний вид финансовой отчетности компании, основное влияние классификации финансового лизинга как операционного - на баланс (снижение отчетного левериджа), а не на отчет о прибылях и убытках."
+        },
+        "opt_c": {
+          "text_en": "The decision to classify finance leases as operating leases does not directly reduce a company's capital expenditures. Instead, this accounting practice affects how the lease is represented on the balance sheet and income statement.",
+          "text_ru": "Решение классифицировать финансовые лизинги как операционные не уменьшает напрямую капитальные затраты компании. Вместо этого эта учетная практика влияет на то, как лизинг представлен в балансе и отчете о прибылях и убытках."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "leverage",
+        "leases",
+        "financial_reporting_quality"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q002",
+      "original_question_number": 557,
+      "los_id": "LOS_10g",
+      "question_text_en": "Which of the following is most likely applicable for a 'bill and hold' transaction?",
+      "question_text_ru": "Что из следующего наиболее применимо для транзакции 'выставление счета с отложенной поставкой'?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The inventory appears at its original value.",
+          "text_ru": "Запасы отражаются по первоначальной стоимости."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The sale is not recognized until the product is delivered.",
+          "text_ru": "Продажа не признается до доставки продукта."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The sale is recorded but the inventory value remains with the seller.",
+          "text_ru": "Продажа записывается, но стоимость запасов остается у продавца."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "In a 'bill and hold' transaction, the sale is recorded in the financial statements of the seller at the point of sale, but the inventory physically remains with the seller until it is shipped or delivered to the buyer at a later date. This practice allows the seller to recognize revenue earlier than it would in a traditional sales transaction where revenue recognition is tied to the delivery of goods.",
+      "explanation_ru": "В транзакции 'выставление счета с отложенной поставкой' продажа записывается в финансовой отчетности продавца в момент продажи, но запасы физически остаются у продавца до момента отгрузки или доставки покупателю позднее. Эта практика позволяет продавцу признать выручку раньше, чем при традиционной продаже.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Once the sale is recorded, the inventory is no longer reported at its original value on the balance sheet. Instead, the cost associated with the sold inventory is recognized as the cost of goods sold, and the inventory value is reduced accordingly.",
+          "text_ru": "После записи продажи запасы больше не отражаются по первоначальной стоимости в балансе. Вместо этого себестоимость проданных запасов признается как себестоимость продаж."
+        },
+        "opt_b": {
+          "text_en": "In a 'bill and hold' arrangement, the sale is recognized at the point of sale, not at the point of delivery. This early recognition of revenue is permissible under specific criteria that ensure the transaction reflects the true nature of the sale.",
+          "text_ru": "В сделке 'выставление счета с отложенной поставкой' продажа признается в момент продажи, а не в момент доставки. Это раннее признание выручки допустимо при определенных критериях."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "revenue_recognition",
+        "bill_and_hold",
+        "earnings_management"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q003",
+      "original_question_number": 561,
+      "los_id": "LOS_10g",
+      "question_text_en": "Which of the following inventory valuation methods result in higher profits in the case of rising prices?",
+      "question_text_ru": "Какой из следующих методов оценки запасов приводит к более высокой прибыли в случае роста цен?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "FIFO.",
+          "text_ru": "FIFO."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "LIFO.",
+          "text_ru": "LIFO."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Weighted average.",
+          "text_ru": "Средневзвешенный метод."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "In the context of rising prices, the First-In, First-Out (FIFO) inventory valuation method typically results in higher reported profits compared to other inventory valuation methods. This outcome is due to the FIFO method's assumption that the oldest inventory items are sold first, while the most recently acquired items remain in inventory. During periods of inflation or rising prices, the cost of goods sold (COGS) under FIFO reflects the cost of older, less expensive inventory.",
+      "explanation_ru": "В условиях роста цен метод оценки запасов FIFO (первым пришел - первым ушел) обычно приводит к более высокой отчетной прибыли по сравнению с другими методами. Это связано с тем, что метод FIFO предполагает, что сначала продаются самые старые товары, а недавно приобретенные остаются в запасах. В периоды инфляции себестоимость продаж по FIFO отражает стоимость более старых, менее дорогих запасов.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "It reports lower profits; however, it does not result in higher profits as FIFO does.",
+          "text_ru": "Этот метод показывает более низкую прибыль; однако он не приводит к более высокой прибыли, как FIFO."
+        },
+        "opt_c": {
+          "text_en": "The weighted average method smooths out price fluctuations over the accounting period by calculating an average cost for all inventory items. In a rising price environment, the weighted average cost will be somewhere between the oldest (cheapest) and newest (most expensive) costs, leading to reported profits that are typically lower than FIFO.",
+          "text_ru": "Средневзвешенный метод сглаживает колебания цен в течение учетного периода, рассчитывая среднюю стоимость всех товаров. В условиях роста цен средневзвешенная стоимость будет между самой старой (дешевой) и самой новой (дорогой) стоимостью, что приводит к прибыли, обычно ниже, чем по FIFO."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "inventory_valuation",
+        "FIFO",
+        "earnings_management"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q004",
+      "original_question_number": 564,
+      "los_id": "LOS_10e",
+      "question_text_en": "Which of the following factors is least likely conducive to the issuance of low-quality financial reports?",
+      "question_text_ru": "Какой из следующих факторов с наименьшей вероятностью способствует выпуску низкокачественных финансовых отчетов?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Weak internal controls.",
+          "text_ru": "Слабый внутренний контроль."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Auditing requirements.",
+          "text_ru": "Требования к аудиту."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Less transparent financial disclosures.",
+          "text_ru": "Менее прозрачное финансовое раскрытие."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Market regulators typically require the financial statements of licensees to be accompanied by an audit opinion attesting that the financial statements conform to the relevant set of accounting standards. Auditing requirements help ensure high-quality financial reporting.",
+      "explanation_ru": "Рыночные регуляторы обычно требуют, чтобы финансовая отчетность лицензиатов сопровождалась аудиторским заключением, подтверждающим соответствие финансовой отчетности соответствующему набору стандартов бухгалтерского учета. Требования к аудиту помогают обеспечить высокое качество финансовой отчетности.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Weak internal controls such as poor separation of duties, lack of supervision, and poor documentation of processes create an environment where a firm can produce low quality financial reports.",
+          "text_ru": "Слабый внутренний контроль, такой как плохое разделение обязанностей, отсутствие надзора и плохая документация процессов, создает среду, в которой фирма может производить низкокачественные финансовые отчеты."
+        },
+        "opt_c": {
+          "text_en": "Less transparent financial disclosures may provide an opportunity for employees to manipulate numbers.",
+          "text_ru": "Менее прозрачное финансовое раскрытие может предоставить возможность сотрудникам манипулировать цифрами."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "audit",
+        "financial_reporting_quality",
+        "internal_controls"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q005",
+      "original_question_number": 566,
+      "los_id": "LOS_10b",
+      "question_text_en": "Financial reporting quality is the same as:",
+      "question_text_ru": "Качество финансовой отчетности - это то же самое, что:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Earnings quality.",
+          "text_ru": "Качество прибыли."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "earnings sustainability.",
+          "text_ru": "устойчивость прибыли."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Quality of information reported.",
+          "text_ru": "Качество отчетной информации."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Financial reporting quality refers to the overall quality and reliability of the information presented in a company's financial statements. This encompasses the accuracy, completeness, and transparency of the financial data, ensuring that it faithfully represents the company's financial position, performance, and cash flows.",
+      "explanation_ru": "Качество финансовой отчетности относится к общему качеству и надежности информации, представленной в финансовой отчетности компании. Это включает точность, полноту и прозрачность финансовых данных, гарантируя, что они достоверно представляют финансовое положение, результаты деятельности и денежные потоки компании.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Earnings quality specifically focuses on the nature and sustainability of earnings reported by a company. While it is an important aspect of financial reporting quality, it does not encompass all elements of financial reporting.",
+          "text_ru": "Качество прибыли конкретно фокусируется на характере и устойчивости прибыли, сообщаемой компанией. Хотя это важный аспект качества финансовой отчетности, он не охватывает все элементы финансовой отчетности."
+        },
+        "opt_b": {
+          "text_en": "Earnings sustainability refers to the likelihood that a company can maintain or grow its earnings over time. It is a component of earnings quality and, by extension, a part of financial reporting quality. However, it does not equate to financial reporting quality as a whole.",
+          "text_ru": "Устойчивость прибыли относится к вероятности того, что компания может поддерживать или увеличивать свою прибыль с течением времени. Это компонент качества прибыли и, как следствие, часть качества финансовой отчетности. Однако это не равнозначно качеству финансовой отчетности в целом."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "financial_reporting_quality",
+        "earnings_quality"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q006",
+      "original_question_number": 2184,
+      "los_id": "LOS_10g",
+      "question_text_en": "After attending a seminar on the subject of inventory management, a student has summarized some core points regarding the three main approaches. Which of the following is the least accurate statement?\n\nStatement I. During periods of inflation, the use of FIFO will result in the lowest estimate of the cost of goods sold among the three approaches and the highest net income.\n\nStatement II. During periods of deflation, the use of LIFO will result in the highest estimate of the cost of goods sold among the three approaches and the lowest net income.\n\nStatement III. During periods of inflation, the use of LIFO will result in the highest estimate of the cost of goods sold among the three approaches and the lowest net income.",
+      "question_text_ru": "После посещения семинара по управлению запасами студент обобщил основные моменты, касающиеся трех основных подходов. Какое из следующих утверждений наименее точно?\n\nУтверждение I. В периоды инфляции использование FIFO приведет к наименьшей оценке себестоимости продаж среди трех подходов и наивысшей чистой прибыли.\n\nУтверждение II. В периоды дефляции использование LIFO приведет к наивысшей оценке себестоимости продаж среди трех подходов и наименьшей чистой прибыли.\n\nУтверждение III. В периоды инфляции использование LIFO приведет к наивысшей оценке себестоимости продаж среди трех подходов и наименьшей чистой прибыли.",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Statement I",
+          "text_ru": "Утверждение I"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Statement II",
+          "text_ru": "Утверждение II"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Statement III",
+          "text_ru": "Утверждение III"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Statement II is incorrect. During periods of inflation, the use of LIFO will result in the highest estimate of the cost of goods sold among the three approaches and the lowest net income.",
+      "explanation_ru": "Утверждение II неверно. В периоды инфляции использование LIFO приведет к наивысшей оценке себестоимости продаж среди трех подходов и наименьшей чистой прибыли.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Statement I is correct. During periods of inflation, FIFO will result in the lowest estimate of the cost of goods sold among the three approaches.",
+          "text_ru": "Утверждение I верно. В периоды инфляции FIFO приведет к наименьшей оценке себестоимости продаж среди трех подходов."
+        },
+        "opt_c": {
+          "text_en": "It is true that During periods of inflation, the use of LIFO will result in the highest estimate of the cost of goods sold among the three approaches and the lowest net income.",
+          "text_ru": "Верно, что в периоды инфляции использование LIFO приведет к наивысшей оценке себестоимости продаж среди трех подходов и наименьшей чистой прибыли."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "inventory_valuation",
+        "FIFO",
+        "LIFO",
+        "inflation"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q007",
+      "original_question_number": 2365,
+      "los_id": "LOS_10b",
+      "question_text_en": "Which of the following is the most accurate statement regarding the quality of financial reporting and financial earnings?",
+      "question_text_ru": "Какое из следующих утверждений является наиболее точным в отношении качества финансовой отчетности и финансовой прибыли?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The quality of financial reporting is judged by its profitability, while the quality of financial earnings is judged by its decision-usefulness.",
+          "text_ru": "Качество финансовой отчетности оценивается по ее прибыльности, в то время как качество финансовой прибыли оценивается по ее полезности для принятия решений."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The quality of financial reporting is judged by its sustainability, while the quality of financial earnings is judged by relevance and faithful representation.",
+          "text_ru": "Качество финансовой отчетности оценивается по ее устойчивости, в то время как качество финансовой прибыли оценивается по релевантности и достоверному представлению."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The quality of financial reporting is judged by its adherence to generally accepted accounting principles (GAAP), while the quality of financial earnings is judged by its sustainability.",
+          "text_ru": "Качество финансовой отчетности оценивается по ее соответствию общепринятым принципам бухгалтерского учета (GAAP), в то время как качество финансовой прибыли оценивается по ее устойчивости."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "The quality of financial reporting is primarily judged by its adherence to generally accepted accounting principles (GAAP). The quality of financial earnings is judged by its sustainability. Sustainable earnings are those that a company can maintain or grow over time without resorting to accounting manipulations or one-time gains.",
+      "explanation_ru": "Качество финансовой отчетности в первую очередь оценивается по ее соответствию общепринятым принципам бухгалтерского учета (GAAP). Качество финансовой прибыли оценивается по ее устойчивости. Устойчивая прибыль - это та, которую компания может поддерживать или увеличивать с течением времени без прибегания к бухгалтерским манипуляциям или разовым доходам.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "While profitability is an important aspect of a company's financial performance, it is not the primary criterion for judging the quality of financial reporting.",
+          "text_ru": "Хотя прибыльность является важным аспектом финансовых показателей компании, это не основной критерий для оценки качества финансовой отчетности."
+        },
+        "opt_b": {
+          "text_en": "This option misstates the criteria for judging the quality of financial reporting and financial earnings. The primary distinction lies in the adherence to GAAP for financial reporting and the focus on sustainability for financial earnings.",
+          "text_ru": "Этот вариант неверно указывает критерии оценки качества финансовой отчетности и финансовой прибыли. Основное различие заключается в соблюдении GAAP для финансовой отчетности и фокусе на устойчивости для финансовой прибыли."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "financial_reporting_quality",
+        "earnings_quality",
+        "GAAP"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q008",
+      "original_question_number": 2366,
+      "los_id": "LOS_10a",
+      "question_text_en": "Firm A, Firm B, and Firm C are market leaders in the glass-manufacturing industry. Part of the financial statements for the year 2016 is given in the following table:\n\nThe firm that has the highest quality of earnings for the year 2016 is:",
+      "question_text_ru": "Фирма A, Фирма B и Фирма C являются лидерами рынка в стекольной промышленности. Часть финансовой отчетности за 2016 год представлена в следующей таблице:\n\nФирма с наивысшим качеством прибыли за 2016 год:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "",
+          "Firm A",
+          "Firm B",
+          "Firm C"
+        ],
+        "headers_ru": [
+          "",
+          "Фирма A",
+          "Фирма B",
+          "Фирма C"
+        ],
+        "rows": [
+          [
+            "Gross Profit",
+            "$1,200,000",
+            "$1,000,000",
+            "$1,600,000"
+          ],
+          [
+            "Operating Profit",
+            "$700,000",
+            "$760,000",
+            "$500,000"
+          ],
+          [
+            "Gain on Sale of Assets",
+            "$240,000",
+            "$0",
+            "$0"
+          ],
+          [
+            "EBIT",
+            "$940,000",
+            "$760,000",
+            "$500,000"
+          ],
+          [
+            "Interest",
+            "($250,000)",
+            "($200,000)",
+            "($510,000)"
+          ],
+          [
+            "Net Income",
+            "$690,000",
+            "$460,000",
+            "($10,000)"
+          ]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Firm A.",
+          "text_ru": "Фирма A."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Firm B.",
+          "text_ru": "Фирма B."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Firm C.",
+          "text_ru": "Фирма C."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Firm B's operating profit and net income are solely the result of its core business operations without any one-time gains or losses. This indicates that Firm B's earnings are sustainable and likely to be repeatable in future periods. The absence of any gain from the sale of assets in Firm B's financials suggests that its earnings are purely from its operational performance, making them a more reliable indicator of the firm's financial health.",
+      "explanation_ru": "Операционная прибыль и чистая прибыль Фирмы B являются исключительно результатом ее основной операционной деятельности без каких-либо разовых доходов или убытков. Это указывает на то, что прибыль Фирмы B устойчива и, вероятно, будет повторяться в будущих периодах. Отсутствие дохода от продажи активов в финансовых показателях Фирмы B предполагает, что ее прибыль получена исключительно от операционной деятельности, что делает ее более надежным показателем финансового здоровья фирмы.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Firm A includes a significant gain on sale of assets ($240,000), which is a one-time, non-recurring item that inflates net income but does not reflect sustainable earnings.",
+          "text_ru": "Фирма A включает значительный доход от продажи активов ($240,000), который является разовой, нерегулярной статьей, увеличивающей чистую прибыль, но не отражающей устойчивую прибыль."
+        },
+        "opt_c": {
+          "text_en": "Firm C has a net loss of $10,000, indicating poor earnings quality for the year 2016.",
+          "text_ru": "Фирма C имеет чистый убыток в размере $10,000, что указывает на низкое качество прибыли за 2016 год."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "earnings_quality",
+        "one_time_gains",
+        "sustainability"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q009",
+      "original_question_number": 2368,
+      "los_id": "LOS_10b",
+      "question_text_en": "Quick-Fit is a chain of fitness centers across Malta that does not comply with generally accepted financial reporting standards from that jurisdiction, but it claims to follow the Accepted Accounting Principles of Turkey. Due to the inefficiency and ignorance of the government, it is a standard practice in Malta not to adhere to local reporting standards. However, the firm is consistently profitable as it has a monopoly in many remote areas of Malta. The firm has consistently earned profit margins of 8% over the last 15 years. Based on the provided assumptions, which of the following best describes the quality of financial reporting and the quality of earnings of Quick Fit?",
+      "question_text_ru": "Quick-Fit - это сеть фитнес-центров на Мальте, которая не соблюдает общепринятые стандарты финансовой отчетности этой юрисдикции, но утверждает, что следует Принятым принципам бухгалтерского учета Турции. Из-за неэффективности и невежества правительства стандартной практикой на Мальте является несоблюдение местных стандартов отчетности. Однако фирма стабильно прибыльна, так как имеет монополию во многих отдаленных районах Мальты. Фирма стабильно зарабатывала рентабельность 8% за последние 15 лет. На основе предоставленных предположений, что из следующего лучше всего описывает качество финансовой отчетности и качество прибыли Quick Fit?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Low financial reporting quality and low quality of earnings.",
+          "text_ru": "Низкое качество финансовой отчетности и низкое качество прибыли."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "High financial reporting quality and low quality of earnings.",
+          "text_ru": "Высокое качество финансовой отчетности и низкое качество прибыли."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Low financial reporting quality and indeterminate quality of earnings.",
+          "text_ru": "Низкое качество финансовой отчетности и неопределенное качество прибыли."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Since Quick-Fit does not adhere to generally accepted accounting principles of the jurisdiction that it is in, the firm has low financial reporting quality. On the other hand, the firm has earned sustainable and adequate earnings for the past 15 years, indicating high-quality earnings. However, the quality of earnings and the quality of financial reporting are interrelated. Low-quality financial reporting may indicate that the firm in question could falsify its reported numbers. As such, the quality of earnings is indeterminate from the information provided in the question.",
+      "explanation_ru": "Поскольку Quick-Fit не соблюдает общепринятые принципы бухгалтерского учета юрисдикции, в которой она находится, фирма имеет низкое качество финансовой отчетности. С другой стороны, фирма зарабатывала устойчивую и адекватную прибыль в течение последних 15 лет, что указывает на высокое качество прибыли. Однако качество прибыли и качество финансовой отчетности взаимосвязаны. Низкое качество финансовой отчетности может указывать на то, что рассматриваемая фирма может фальсифицировать свои отчетные цифры. Таким образом, качество прибыли неопределенно на основе информации, представленной в вопросе.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "While the financial reporting quality is low, the earnings appear to be sustainable based on the 15-year track record, making the earnings quality potentially high, not low.",
+          "text_ru": "Хотя качество финансовой отчетности низкое, прибыль кажется устойчивой на основе 15-летнего опыта, что делает качество прибыли потенциально высоким, а не низким."
+        },
+        "opt_b": {
+          "text_en": "The financial reporting quality cannot be high if the firm does not adhere to the jurisdiction's generally accepted accounting principles.",
+          "text_ru": "Качество финансовой отчетности не может быть высоким, если фирма не соблюдает общепринятые принципы бухгалтерского учета юрисдикции."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": [
+        "financial_reporting_quality",
+        "earnings_quality",
+        "GAAP_compliance"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q010",
+      "original_question_number": 2369,
+      "los_id": "LOS_10b",
+      "question_text_en": "Which of the following financial reports are considered of the lowest quality in the spectrum of financial reporting quality?",
+      "question_text_ru": "Какие из следующих финансовых отчетов считаются самого низкого качества в спектре качества финансовой отчетности?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Reporting is compliant with GAAP, but earnings quality is low.",
+          "text_ru": "Отчетность соответствует GAAP, но качество прибыли низкое."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Reporting is compliant with GAAP, and earnings are sustainable but inadequate.",
+          "text_ru": "Отчетность соответствует GAAP, и прибыль устойчива, но недостаточна."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Reporting is not compliant with GAAP, but earnings are based on the firm's actual economic activities.",
+          "text_ru": "Отчетность не соответствует GAAP, но прибыль основана на фактической экономической деятельности фирмы."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "A quality spectrum provides a basis for evaluating quality reports and ranges from reports of high financial reporting quality and reflect high and sustainable earnings quality to reports that are not useful due to poor financial reporting quality. According to the quality spectrum of financial reporting, a firm that does not comply with GAAP is of the lowest quality. At the bottom level of the quality spectrum is a company displaying fictitious transactions. Right above it is financial reporting which departs from GAAP.",
+      "explanation_ru": "Спектр качества обеспечивает основу для оценки качества отчетов и варьируется от отчетов высокого качества финансовой отчетности, отражающих высокое и устойчивое качество прибыли, до отчетов, которые бесполезны из-за низкого качества финансовой отчетности. Согласно спектру качества финансовой отчетности, фирма, которая не соблюдает GAAP, имеет самое низкое качество. На самом нижнем уровне спектра качества находится компания, демонстрирующая фиктивные транзакции. Непосредственно выше - финансовая отчетность, которая отступает от GAAP.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "While earnings quality may be low, the fact that reporting is compliant with GAAP places this scenario higher on the quality spectrum than non-GAAP compliant reporting.",
+          "text_ru": "Хотя качество прибыли может быть низким, тот факт, что отчетность соответствует GAAP, ставит этот сценарий выше в спектре качества, чем отчетность, не соответствующая GAAP."
+        },
+        "opt_b": {
+          "text_en": "GAAP-compliant reporting with sustainable (even if inadequate) earnings represents a higher quality level than non-compliant reporting.",
+          "text_ru": "Отчетность, соответствующая GAAP, с устойчивой (даже если недостаточной) прибылью представляет собой более высокий уровень качества, чем отчетность, не соответствующая требованиям."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "financial_reporting_quality",
+        "GAAP_compliance",
+        "quality_spectrum"
+      ]
+    }
+  ]
+}
