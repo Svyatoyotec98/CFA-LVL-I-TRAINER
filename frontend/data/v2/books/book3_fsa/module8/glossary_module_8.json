@@ -1,0 +1,602 @@
+{
+  "metadata": {
+    "book_id": 3,
+    "book_code": "FSA",
+    "book_name": "Financial Statement Analysis",
+    "book_name_ru": "Анализ финансовой отчетности",
+    "module_id": 8,
+    "module_name": "Topics in Long-Term Liabilities and Equity",
+    "module_name_ru": "Долгосрочные обязательства и капитал",
+    "page_range": "167-190",
+    "total_terms": 39,
+    "total_exercises": 5,
+    "version": "2.0",
+    "last_updated": "2026-01-23"
+  },
+  "los": [
+    {
+      "los_id": "LOS_8a",
+      "los_code": "8a",
+      "los_description_en": "Explain the financial reporting of leases from the perspectives of the lessors and lessees",
+      "los_description_ru": "Объяснить финансовую отчетность по лизингу с точки зрения арендодателей и арендаторов",
+      "terms": [
+        {
+          "term_id": "FSA-8-001",
+          "term_en": "Lease",
+          "term_ru": "Лизинг / Аренда",
+          "definition_en": "A contract between a lessor, the owner of an asset, and a lessee, the other party seeking to use the asset. Through a lease, the lessor grants the lessee the right to use the asset in exchange for periodic lease payments.",
+          "definition_ru": "Договор между арендодателем, владельцем актива, и арендатором, другой стороной, стремящейся использовать актив. Посредством лизинга арендодатель предоставляет арендатору право пользования активом в обмен на периодические лизинговые платежи.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-002",
+          "term_en": "Lessor",
+          "term_ru": "Арендодатель / Лизингодатель",
+          "definition_en": "The owner of an asset who grants the lessee the right to use the asset through a lease contract. The lessor receives periodic lease payments in exchange for providing this right.",
+          "definition_ru": "Владелец актива, который предоставляет арендатору право пользования активом по договору аренды. Арендодатель получает периодические лизинговые платежи в обмен на предоставление этого права.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-003",
+          "term_en": "Lessee",
+          "term_ru": "Арендатор / Лизингополучатель",
+          "definition_en": "The party seeking to use an asset owned by the lessor. The lessee makes periodic lease payments to the lessor in exchange for the right to use the asset.",
+          "definition_ru": "Сторона, стремящаяся использовать актив, принадлежащий арендодателю. Арендатор осуществляет периодические лизинговые платежи арендодателю в обмен на право пользования активом.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-004",
+          "term_en": "Finance Lease (Capital Lease)",
+          "term_ru": "Финансовый лизинг (Капитальный лизинг)",
+          "definition_en": "A lease that is economically similar to borrowing money and buying an asset. The lessee reports the leased asset and related debt (lease payable) on its balance sheet. On the income statement, the lessee reports interest expense on the debt and, if the acquired asset is depreciable, depreciation expense. Under IFRS, classified when substantially all risks and rewards incidental to ownership are transferred to the lessee.",
+          "definition_ru": "Лизинг, который экономически аналогичен заимствованию денег и покупке актива. Арендатор отражает арендованный актив и связанный долг (обязательство по аренде) в своем балансе. В отчете о прибылях и убытках арендатор отражает процентные расходы по долгу и, если приобретенный актив амортизируется, амортизационные расходы. По МСФО классифицируется, когда практически все риски и выгоды, связанные с правом собственности, передаются арендатору.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-005",
+          "term_en": "Operating Lease",
+          "term_ru": "Операционный лизинг / Операционная аренда",
+          "definition_en": "A lease that is economically similar to renting an asset. The lessee records a lease expense on its income statement during the period within which it uses the asset. Traditionally, no asset or liability was recorded on the balance sheet, though recent updates (IFRS 16 and ASC 842) now require recognition of assets and liabilities for operating leases. The lease payment is shown as an operating cash outflow on the lessee's statement of cash flows.",
+          "definition_ru": "Лизинг, который экономически аналогичен аренде актива. Арендатор отражает расходы по аренде в отчете о прибылях и убытках в течение периода, в котором он использует актив. Традиционно никакие активы или обязательства не отражались в балансе, хотя недавние обновления (МСФО 16 и ASC 842) теперь требуют признания активов и обязательств по операционной аренде. Лизинговый платеж отображается как операционный денежный отток в отчете о движении денежных средств арендатора.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-006",
+          "term_en": "Right-of-Use Asset",
+          "term_ru": "Актив в форме права пользования",
+          "definition_en": "An asset recognized by a lessee representing the right to use an underlying asset during the lease term. Under both finance and operating leases (per IFRS 16 and ASC 842), the lessee recognizes a right-of-use asset on the balance sheet.",
+          "definition_ru": "Актив, признанный арендатором, представляющий право использовать базовый актив в течение срока аренды. Как при финансовом, так и при операционном лизинге (согласно МСФО 16 и ASC 842) арендатор признает актив в форме права пользования в балансе.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-007",
+          "term_en": "Lease Liability",
+          "term_ru": "Обязательство по аренде",
+          "definition_en": "A liability recognized by a lessee representing the obligation to make lease payments over the lease term. The lease liability is measured at the present value of future lease payments and is reported on the balance sheet under both finance and operating leases.",
+          "definition_ru": "Обязательство, признанное арендатором, представляющее обязанность производить лизинговые платежи в течение срока аренды. Обязательство по аренде оценивается по приведенной стоимости будущих лизинговых платежей и отражается в балансе как при финансовом, так и при операционном лизинге.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-008",
+          "term_en": "Direct Financing Lease",
+          "term_ru": "Лизинг с прямым финансированием",
+          "definition_en": "Under US GAAP, a type of finance lease from the lessor's perspective where the present value of lease payments equals the carrying amount of the leased asset. The lessor removes the asset from the balance sheet, recognizes lease receivables, and reports interest revenue on lease receivables. The distinction between direct financing and sales-type leases does not exist under IFRS.",
+          "definition_ru": "Согласно US GAAP, тип финансового лизинга с точки зрения арендодателя, при котором приведенная стоимость лизинговых платежей равна балансовой стоимости арендованного актива. Арендодатель удаляет актив из баланса, признает дебиторскую задолженность по аренде и отражает процентный доход по дебиторской задолженности по аренде. Различие между прямым финансированием и лизингом типа продажи не существует в МСФО.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-009",
+          "term_en": "Sales-Type Lease",
+          "term_ru": "Лизинг типа продажи",
+          "definition_en": "Under US GAAP, a type of finance lease from the lessor's perspective where the present value of lease payments exceeds the carrying amount of the leased asset. The lessor removes the asset, recognizes lease receivables, reports profit on sale, and reports interest revenue on lease receivables. This distinction does not exist under IFRS.",
+          "definition_ru": "Согласно US GAAP, тип финансового лизинга с точки зрения арендодателя, при котором приведенная стоимость лизинговых платежей превышает балансовую стоимость арендованного актива. Арендодатель удаляет актив, признает дебиторскую задолженность по аренде, отражает прибыль от продажи и отражает процентный доход по дебиторской задолженности по аренде. Это различие не существует в МСФО.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "FSA-8-EX-001",
+          "question_en": "Under an operating lease contract, a lessor would most likely:",
+          "question_ru": "При договоре операционной аренды арендодатель, скорее всего:",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Keep ownership of the asset and report the asset's depreciation.",
+              "text_ru": "Сохранит право собственности на актив и отразит амортизацию актива."
+            },
+            {
+              "letter": "B",
+              "text_en": "Keep ownership of the asset, but the lessee must report the asset's depreciation.",
+              "text_ru": "Сохранит право собственности на актив, но арендатор должен отразить амортизацию актива."
+            },
+            {
+              "letter": "C",
+              "text_en": "Transfer ownership of the asset to the lessee but revoke ownership transfer if the lessee does not fulfill its contractual obligations.",
+              "text_ru": "Передаст право собственности на актив арендатору, но отменит передачу права собственности, если арендатор не выполнит свои договорные обязательства."
+            }
+          ],
+          "correct_answer": "A",
+          "solution_en": "In an operating lease agreement, the lessor retains ownership of the leased asset and is responsible for any depreciation on the asset. The lessee simply uses the asset for a specified period, and at the end of the lease term, the asset is returned to the lessor. The lessee does not report depreciation for the asset; instead, they account for the lease payments as an operating expense over the lease term.",
+          "solution_ru": "При договоре операционной аренды арендодатель сохраняет право собственности на арендованный актив и несет ответственность за любую амортизацию актива. Арендатор просто использует актив в течение определенного периода, и по окончании срока аренды актив возвращается арендодателю. Арендатор не отражает амортизацию актива; вместо этого он учитывает лизинговые платежи как операционные расходы в течение срока аренды."
+        },
+        {
+          "exercise_id": "FSA-8-EX-002",
+          "question_en": "Which of the following statements is the most accurate?",
+          "question_ru": "Какое из следующих утверждений является наиболее точным?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "A finance lease is economically similar to renting an asset.",
+              "text_ru": "Финансовый лизинг экономически аналогичен аренде актива."
+            },
+            {
+              "letter": "B",
+              "text_en": "In a finance lease, the lessee reports a leased asset and lease obligation on its balance sheet.",
+              "text_ru": "При финансовом лизинге арендатор отражает арендованный актив и обязательство по аренде в своем балансе."
+            },
+            {
+              "letter": "C",
+              "text_en": "An operating lease is equivalent to a lessee's purchase of an asset directly financed by the lessor.",
+              "text_ru": "Операционный лизинг эквивалентен покупке арендатором актива, непосредственно финансируемой арендодателем."
+            }
+          ],
+          "correct_answer": "B",
+          "solution_en": "In a finance lease, the lessee recognizes the right-of-use asset and the corresponding lease liability on its balance sheet. This accounting treatment reflects the economic reality that the lessee has control over the asset and is obligated to make lease payments. A is incorrect because a finance lease is more similar economically to purchasing an asset than renting, as the lessee assumes both the benefits and risks of ownership. C is incorrect because an operating lease does not equate to an asset purchase by the lessee. The lessor retains ownership of the asset in an operating lease, and the lessee does not record the asset on its balance sheet (under traditional operating lease accounting).",
+          "solution_ru": "При финансовом лизинге арендатор признает актив в форме права пользования и соответствующее обязательство по аренде в своем балансе. Эта учетная трактовка отражает экономическую реальность того, что арендатор имеет контроль над активом и обязан производить лизинговые платежи. A неверно, потому что финансовый лизинг больше похож экономически на покупку актива, чем на аренду, поскольку арендатор принимает на себя как выгоды, так и риски владения. C неверно, потому что операционный лизинг не равнозначен покупке актива арендатором. Арендодатель сохраняет право собственности на актив при операционной аренде, и арендатор не отражает актив в своем балансе (по традиционному учету операционной аренды)."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_8b",
+      "los_code": "8b",
+      "los_description_en": "Explain the financial reporting of defined contribution, defined benefit, and stock-based compensation plans",
+      "los_description_ru": "Объяснить финансовую отчетность планов с установленными взносами, с установленными выплатами и компенсации на основе акций",
+      "terms": [
+        {
+          "term_id": "FSA-8-010",
+          "term_en": "Employee Compensation",
+          "term_ru": "Компенсация сотрудников",
+          "definition_en": "Packages structured to achieve various objectives, including meeting employees' liquidity needs, retaining them, and motivating their performance. Common components include salary, bonuses, health and life insurance premiums, defined contribution and benefit pension plans, and share-based compensation.",
+          "definition_ru": "Пакеты, структурированные для достижения различных целей, включая удовлетворение потребностей сотрудников в ликвидности, их удержание и мотивацию их работы. Общие компоненты включают зарплату, бонусы, премии по медицинскому и страхованию жизни, пенсионные планы с установленными взносами и выплатами, а также компенсацию на основе акций.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-011",
+          "term_en": "Deferred Compensation",
+          "term_ru": "Отложенная компенсация",
+          "definition_en": "Compensation that vests over time, providing employees with retirement savings and financial benefits while serving as a retention and alignment tool for employers. Unlike immediately vesting compensation, deferred compensation creates more complex financial reporting due to measurement challenges and the time lag between employee service and cash outflows.",
+          "definition_ru": "Компенсация, которая наделяется правами с течением времени, обеспечивая сотрудникам пенсионные сбережения и финансовые выгоды, одновременно служа инструментом удержания и согласования интересов для работодателей. В отличие от немедленно наделяемой компенсации, отложенная компенсация создает более сложную финансовую отчетность из-за проблем оценки и временного разрыва между услугами сотрудника и денежными оттоками.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-012",
+          "term_en": "Defined Contribution Plan",
+          "term_ru": "План с установленными взносами",
+          "definition_en": "A pension plan in which the employer's obligation is limited to the contributions it has agreed to make to the plan. The employer records an expense for the amount of its contribution to the employees' pension funds each period. No liabilities are recorded on the balance sheet beyond any contributions due but not yet paid. The employee bears the investment risk, and benefits depend on investment performance.",
+          "definition_ru": "Пенсионный план, в котором обязательство работодателя ограничивается взносами, которые он согласился внести в план. Работодатель отражает расход в размере своего взноса в пенсионные фонды сотрудников в каждом периоде. Никакие обязательства не отражаются в балансе, кроме взносов, подлежащих уплате, но еще не уплаченных. Сотрудник несет инвестиционный риск, и выплаты зависят от инвестиционной эффективности.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-013",
+          "term_en": "Defined Benefit Plan",
+          "term_ru": "План с установленными выплатами",
+          "definition_en": "A pension plan under which a company promises future benefits to employees during retirement based on factors such as final salary and years of service. The company must estimate future payments, discount them to present value, and report either a net pension asset (if plan assets exceed obligations) or a net pension liability (if obligations exceed plan assets) on its balance sheet. The employer bears the investment risk.",
+          "definition_ru": "Пенсионный план, по которому компания обещает будущие выплаты сотрудникам во время выхода на пенсию на основе таких факторов, как конечная зарплата и годы службы. Компания должна оценить будущие платежи, дисконтировать их до текущей стоимости и отразить либо чистый пенсионный актив (если активы плана превышают обязательства), либо чистое пенсионное обязательство (если обязательства превышают активы плана) в своем балансе. Работодатель несет инвестиционный риск.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-014",
+          "term_en": "Pension Obligation",
+          "term_ru": "Пенсионное обязательство",
+          "definition_en": "The present value of the estimated future pension payments that a company has promised to pay to its employees upon retirement. This obligation is calculated using assumptions about future salary levels, employee turnover, life expectancy, and a discount rate equivalent to the yield on high-quality corporate bonds.",
+          "definition_ru": "Приведенная стоимость предполагаемых будущих пенсионных выплат, которые компания обещала выплатить своим сотрудникам при выходе на пенсию. Это обязательство рассчитывается с использованием предположений о будущих уровнях заработной платы, текучести кадров, ожидаемой продолжительности жизни и ставке дисконтирования, эквивалентной доходности высококачественных корпоративных облигаций.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-015",
+          "term_en": "Plan Assets",
+          "term_ru": "Активы плана",
+          "definition_en": "Assets held in a separate legal entity, typically a pension trust fund, that are invested to fund future pension obligations. The fair value of plan assets is compared to the present value of the pension obligation to determine whether the plan has a surplus or deficit.",
+          "definition_ru": "Активы, находящиеся в отдельном юридическом лице, обычно в пенсионном трастовом фонде, которые инвестируются для финансирования будущих пенсионных обязательств. Справедливая стоимость активов плана сравнивается с приведенной стоимостью пенсионного обязательства для определения того, имеет ли план профицит или дефицит.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-016",
+          "term_en": "Net Pension Asset/Liability",
+          "term_ru": "Чистый пенсионный актив/обязательство",
+          "definition_en": "The difference between the fair value of plan assets and the present value of the pension obligation. If plan assets exceed the obligation, the company reports a net pension asset; if the obligation exceeds plan assets, the company reports a net pension liability on its balance sheet.",
+          "definition_ru": "Разница между справедливой стоимостью активов плана и приведенной стоимостью пенсионного обязательства. Если активы плана превышают обязательство, компания отражает чистый пенсионный актив; если обязательство превышает активы плана, компания отражает чистое пенсионное обязательство в своем балансе.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-017",
+          "term_en": "Service Cost",
+          "term_ru": "Стоимость услуг / Сервисные затраты",
+          "definition_en": "Under IFRS, the present value of the increase in pension benefits that an employee earns by providing an additional year of service, including any effects from plan changes (past service costs). This component is recognized as pension expense on the income statement.",
+          "definition_ru": "Согласно МСФО, приведенная стоимость увеличения пенсионных выплат, которые сотрудник зарабатывает, предоставляя дополнительный год службы, включая любые эффекты от изменений плана (затраты за прошлые услуги). Этот компонент признается как пенсионные расходы в отчете о прибылях и убытках.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-018",
+          "term_en": "Net Interest Expense/Income",
+          "term_ru": "Чистые процентные расходы/доход",
+          "definition_en": "Under IFRS, the time-induced change in the present value of the net defined benefit pension asset or liability, calculated as the product of the net pension asset or liability and the discount rate. This component is recognized as pension expense (or income) on the income statement.",
+          "definition_ru": "Согласно МСФО, изменение приведенной стоимости чистого установленного пенсионного актива или обязательства, вызванное временем, рассчитываемое как произведение чистого пенсионного актива или обязательства и ставки дисконтирования. Этот компонент признается как пенсионные расходы (или доход) в отчете о прибылях и убытках.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-019",
+          "term_en": "Actuarial Gains and Losses",
+          "term_ru": "Актуарные прибыли и убытки",
+          "definition_en": "Changes that occur in the pension obligation due to changes in assumptions used for estimating pension obligations, such as employee turnover, mortality rates, retirement ages, and compensation increases. Under IFRS, these are recognized immediately in other comprehensive income as part of remeasurements. Under US GAAP, they can be initially recognized in other comprehensive income and amortized over time.",
+          "definition_ru": "Изменения, происходящие в пенсионном обязательстве из-за изменений в предположениях, используемых для оценки пенсионных обязательств, таких как текучесть кадров, коэффициенты смертности, возраст выхода на пенсию и увеличение компенсации. Согласно МСФО, они немедленно признаются в прочем совокупном доходе как часть переоценок. Согласно US GAAP, они могут быть первоначально признаны в прочем совокупном доходе и амортизированы с течением времени.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-020",
+          "term_en": "Past Service Costs",
+          "term_ru": "Затраты за прошлые услуги",
+          "definition_en": "Changes in the pension obligation arising from plan amendments or curtailments. Under IFRS, past service costs are included in the service cost component and recognized immediately on the income statement. Under US GAAP, past service costs are reported in other comprehensive income when they arise and later amortized into pension expense over the employees' future service period.",
+          "definition_ru": "Изменения в пенсионном обязательстве, возникающие в результате изменений плана или сокращений. Согласно МСФО, затраты за прошлые услуги включаются в компонент стоимости услуг и немедленно признаются в отчете о прибылях и убытках. Согласно US GAAP, затраты за прошлые услуги отражаются в прочем совокупном доходе, когда они возникают, и позже амортизируются в пенсионные расходы в течение будущего периода службы сотрудников.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-021",
+          "term_en": "Remeasurements",
+          "term_ru": "Переоценки",
+          "definition_en": "Under IFRS, the third component of changes in net pension asset or liability, recognized in other comprehensive income. Remeasurements include actuarial gains and losses and the actual return on plan assets less any return included in net interest expense or income. These are not amortized into profit or loss over time.",
+          "definition_ru": "Согласно МСФО, третий компонент изменений в чистом пенсионном активе или обязательстве, признаваемый в прочем совокупном доходе. Переоценки включают актуарные прибыли и убытки, а также фактический доход от активов плана за вычетом любого дохода, включенного в чистые процентные расходы или доход. Они не амортизируются в прибыль или убыток с течением времени.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-022",
+          "term_en": "Share-Based Compensation",
+          "term_ru": "Компенсация на основе акций",
+          "definition_en": "A type of deferred compensation that aims to align employees' interests with those of shareholders. Common forms include stock grants, restricted stock, performance shares, and stock options. Companies estimate the fair value at the grant date and recognize it as compensation expense over the vesting period.",
+          "definition_ru": "Тип отложенной компенсации, который направлен на согласование интересов сотрудников с интересами акционеров. Обычные формы включают предоставление акций, ограниченные акции, акции за результативность и опционы на акции. Компании оценивают справедливую стоимость на дату предоставления и признают ее как расходы на компенсацию в течение периода наделения правами.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-023",
+          "term_en": "Stock Grants",
+          "term_ru": "Предоставление акций",
+          "definition_en": "Shares granted to employees as compensation, which can be outright, with restrictions, or contingent on performance. The compensation expense is measured at the fair value of the stock on the grant date (typically market value) and spread over the service period.",
+          "definition_ru": "Акции, предоставленные сотрудникам в качестве компенсации, которые могут быть прямыми, с ограничениями или зависящими от результативности. Расходы на компенсацию измеряются по справедливой стоимости акций на дату предоставления (обычно рыночная стоимость) и распределяются на период службы.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-024",
+          "term_en": "Restricted Stock",
+          "term_ru": "Ограниченные акции",
+          "definition_en": "Stock grants that require employees to return the shares if certain conditions are not met, such as remaining with the company for a set period or achieving performance goals. The compensation expense equals the fair value of the shares at the grant date and is allocated over the employee's service period.",
+          "definition_ru": "Предоставление акций, которые требуют от сотрудников вернуть акции, если определенные условия не выполнены, такие как пребывание в компании в течение установленного периода или достижение целей по результативности. Расходы на компенсацию равны справедливой стоимости акций на дату предоставления и распределяются на период службы сотрудника.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-025",
+          "term_en": "Performance Shares",
+          "term_ru": "Акции за результативность",
+          "definition_en": "Shares granted contingent on meeting performance goals, typically based on performance measures other than stock price changes (such as accounting earnings or return on assets). The compensation expense equals the fair value of the shares at the grant date and is spread over the service period.",
+          "definition_ru": "Акции, предоставляемые в зависимости от достижения целей по результативности, обычно основанных на показателях результативности, отличных от изменений цены акций (таких как бухгалтерская прибыль или рентабельность активов). Расходы на компенсацию равны справедливой стоимости акций на дату предоставления и распределяются на период службы.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-026",
+          "term_en": "Stock Options",
+          "term_ru": "Опционы на акции",
+          "definition_en": "A right granted to employees to purchase company stock at a specified exercise price. The fair value must be estimated using an appropriate valuation model (such as Black-Scholes or binomial models) and is recognized as compensation expense over the vesting period. Key dates include grant date, vesting date, exercise date, and expiration date.",
+          "definition_ru": "Право, предоставленное сотрудникам на покупку акций компании по указанной цене исполнения. Справедливая стоимость должна быть оценена с использованием соответствующей модели оценки (такой как модели Блэка-Шоулза или биномиальные модели) и признается как расходы на компенсацию в течение периода наделения правами. Ключевые даты включают дату предоставления, дату наделения правами, дату исполнения и дату истечения срока.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-027",
+          "term_en": "Grant Date",
+          "term_ru": "Дата предоставления",
+          "definition_en": "The date when stock options or other equity instruments are initially granted to employees. This is when compensation expense is measured if the number of shares and option price are known. The service period (typically between grant date and vesting date) is when compensation expense is recognized.",
+          "definition_ru": "Дата, когда опционы на акции или другие долевые инструменты первоначально предоставляются сотрудникам. Это момент, когда измеряются расходы на компенсацию, если известны количество акций и цена опциона. Период службы (обычно между датой предоставления и датой наделения правами) - это когда признаются расходы на компенсацию.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-028",
+          "term_en": "Vesting Date",
+          "term_ru": "Дата наделения правами",
+          "definition_en": "The date when employees can first exercise their stock options or when restrictions on stock grants lapse. Vesting can occur immediately or over a specified period. If options vest immediately, expense is recognized on the grant date. If they vest after a service period, compensation expense is allocated over that period.",
+          "definition_ru": "Дата, когда сотрудники могут впервые исполнить свои опционы на акции или когда ограничения на предоставление акций истекают. Наделение правами может происходить немедленно или в течение определенного периода. Если опционы наделяются правами немедленно, расход признается на дату предоставления. Если они наделяются правами после периода службы, расходы на компенсацию распределяются на этот период.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-029",
+          "term_en": "Exercise Date",
+          "term_ru": "Дата исполнения",
+          "definition_en": "The date when employees exercise their stock options and convert them into stock. Upon exercise, the company increases cash for the exercise price, credits common stock for par value, and increases additional paid-in capital by the difference between par value and the sum of grant date fair value and cash received.",
+          "definition_ru": "Дата, когда сотрудники исполняют свои опционы на акции и конвертируют их в акции. При исполнении компания увеличивает денежные средства на цену исполнения, кредитует обыкновенные акции по номинальной стоимости и увеличивает дополнительный оплаченный капитал на разницу между номинальной стоимостью и суммой справедливой стоимости на дату предоставления и полученными денежными средствами.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-030",
+          "term_en": "Expiration Date",
+          "term_ru": "Дата истечения срока",
+          "definition_en": "The predetermined date when stock options expire if not exercised, usually 5 or 10 years from the grant date. After this date, unexercised options become worthless.",
+          "definition_ru": "Заранее определенная дата, когда опционы на акции истекают, если не исполнены, обычно через 5 или 10 лет с даты предоставления. После этой даты неисполненные опционы становятся бесполезными.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-031",
+          "term_en": "Stock Appreciation Rights (SARs)",
+          "term_ru": "Права на прирост стоимости акций",
+          "definition_en": "A form of cash-settled share-based compensation that compensates employees based on the increase in the company's share price. SARs have limited downside risk and unlimited upside potential (similar to stock options) but do not dilute shareholder ownership. Valued at fair value with expense spread over the service period.",
+          "definition_ru": "Форма компенсации на основе акций с денежным расчетом, которая компенсирует сотрудникам на основе увеличения цены акций компании. SAR имеют ограниченный риск снижения и неограниченный потенциал роста (аналогично опционам на акции), но не размывают собственность акционеров. Оцениваются по справедливой стоимости с распределением расходов на период службы.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-032",
+          "term_en": "Phantom Stock",
+          "term_ru": "Фантомные акции",
+          "definition_en": "A form of cash-settled share-based compensation similar to SARs, but compensation is based on hypothetical stock performance rather than the company's actual stock. Provides compensation based on changes in share value without requiring employees to hold actual shares.",
+          "definition_ru": "Форма компенсации на основе акций с денежным расчетом, аналогичная SAR, но компенсация основана на гипотетической эффективности акций, а не на фактических акциях компании. Обеспечивает компенсацию на основе изменений стоимости акций без требования от сотрудников владеть фактическими акциями.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "FSA-8-EX-003",
+          "question_en": "Which statement is most likely correct about the financial reporting of defined benefit pension plans under IFRS?",
+          "question_ru": "Какое утверждение, скорее всего, верно о финансовой отчетности пенсионных планов с установленными выплатами согласно МСФО?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Actuarial gains and losses are recognized as pension expenses over time.",
+              "text_ru": "Актуарные прибыли и убытки признаются как пенсионные расходы с течением времени."
+            },
+            {
+              "letter": "B",
+              "text_en": "The service cost component includes interest income on plan assets.",
+              "text_ru": "Компонент стоимости услуг включает процентный доход от активов плана."
+            },
+            {
+              "letter": "C",
+              "text_en": "The net pension asset or liability changes have three components recognized on the income statement.",
+              "text_ru": "Изменения чистого пенсионного актива или обязательства имеют три компонента, признанных в отчете о прибылях и убытках."
+            }
+          ],
+          "correct_answer": "C",
+          "solution_en": "Under IFRS, the change in the net pension asset or liability each period is generally viewed as having three components, two of which (service costs and net interest expense or income) are recognized as pension expense on the income statement. The third component, remeasurements, is recognized in other comprehensive income and is not amortized into profit or loss over time. A is incorrect because under IFRS, actuarial gains and losses (part of remeasurements) are recognized immediately in other comprehensive income, not recognized as pension expenses over time. B is incorrect because the service cost component does not include interest income on plan assets. Instead, it represents the present value of the increase in pension benefits earned by employees during the current period.",
+          "solution_ru": "Согласно МСФО, изменение чистого пенсионного актива или обязательства в каждом периоде обычно рассматривается как имеющее три компонента, два из которых (стоимость услуг и чистые процентные расходы или доход) признаются как пенсионные расходы в отчете о прибылях и убытках. Третий компонент, переоценки, признается в прочем совокупном доходе и не амортизируется в прибыль или убыток с течением времени. A неверно, потому что согласно МСФО, актуарные прибыли и убытки (часть переоценок) признаются немедленно в прочем совокупном доходе, а не признаются как пенсионные расходы с течением времени. B неверно, потому что компонент стоимости услуг не включает процентный доход от активов плана. Вместо этого он представляет приведенную стоимость увеличения пенсионных выплат, заработанных сотрудниками в течение текущего периода."
+        }
+      ]
+    },
+    {
+      "los_id": "LOS_8c",
+      "los_code": "8c",
+      "los_description_en": "Describe the financial statement presentation of and disclosures relating to long-term liabilities and share-based compensation",
+      "los_description_ru": "Описать представление в финансовой отчетности и раскрытие информации о долгосрочных обязательствах и компенсации на основе акций",
+      "terms": [
+        {
+          "term_id": "FSA-8-033",
+          "term_en": "Lease Disclosures",
+          "term_ru": "Раскрытие информации по лизингу",
+          "definition_en": "Information provided in financial statements to help users evaluate the amount, timing, and uncertainty of cash flows related to leases. Both IFRS and US GAAP require lessees and lessors to disclose quantitative and qualitative information about their leases, including significant judgments and the amounts recognized in financial statements.",
+          "definition_ru": "Информация, предоставляемая в финансовой отчетности для помощи пользователям в оценке суммы, времени и неопределенности денежных потоков, связанных с лизингом. И МСФО, и US GAAP требуют от арендаторов и арендодателей раскрытия количественной и качественной информации о своих лизинговых договорах, включая существенные суждения и суммы, признанные в финансовой отчетности.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-034",
+          "term_en": "Lessee Disclosure Requirements",
+          "term_ru": "Требования к раскрытию информации арендатором",
+          "definition_en": "Under IFRS 16, lessees must disclose: carrying amount of right-of-use assets by class, total cash outflows for leases, interest expense on lease liabilities, depreciation charges for right-of-use assets, additions to right-of-use assets, and a maturity analysis of lease liabilities. Additionally, lessees must provide information about the nature of leasing activities, future cash outflows not reflected in lease liabilities, and any restrictions or covenants.",
+          "definition_ru": "Согласно МСФО 16, арендаторы должны раскрывать: балансовую стоимость активов в форме права пользования по классам, общие денежные оттоки по лизингу, процентные расходы по обязательствам по аренде, амортизационные отчисления по активам в форме права пользования, добавления к активам в форме права пользования и анализ сроков погашения обязательств по аренде. Кроме того, арендаторы должны предоставлять информацию о характере лизинговой деятельности, будущих денежных оттоках, не отраженных в обязательствах по аренде, и любых ограничениях или ковенантах.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-035",
+          "term_en": "Lessor Disclosure Requirements",
+          "term_ru": "Требования к раскрытию информации арендодателем",
+          "definition_en": "Under IFRS 16, lessors must provide different disclosures depending on lease type. For finance leases: finance income on net investment and income from variable lease payments. For operating leases: lease income with separate disclosure for variable payments. Lessors must also provide a maturity analysis of lease payments and qualitative/quantitative information about leasing activities and risk management.",
+          "definition_ru": "Согласно МСФО 16, арендодатели должны предоставлять различную информацию в зависимости от типа лизинга. Для финансового лизинга: финансовый доход от чистых инвестиций и доход от переменных лизинговых платежей. Для операционного лизинга: доход от аренды с отдельным раскрытием переменных платежей. Арендодатели также должны предоставлять анализ сроков погашения лизинговых платежей и качественную/количественную информацию о лизинговой деятельности и управлении рисками.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-036",
+          "term_en": "Maturity Analysis of Lease Liabilities",
+          "term_ru": "Анализ сроков погашения обязательств по аренде",
+          "definition_en": "A required disclosure showing undiscounted lease payments to be paid or received annually for at least the first five years and a total amount for remaining years. This analysis helps users assess the timing of future cash flows related to leases.",
+          "definition_ru": "Обязательное раскрытие, показывающее недисконтированные лизинговые платежи, которые должны быть уплачены или получены ежегодно в течение как минимум первых пяти лет, и общую сумму за оставшиеся годы. Этот анализ помогает пользователям оценить время будущих денежных потоков, связанных с лизингом.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-037",
+          "term_en": "Defined Benefit Plan Disclosures",
+          "term_ru": "Раскрытие информации о планах с установленными выплатами",
+          "definition_en": "Under IAS 19, required disclosures include: characteristics and risks of the plan, reconciliation of opening to closing balances of net pension asset/liability (with separate reconciliations for plan assets and pension obligation), sensitivity analysis for significant assumptions (like discount rate), composition of plan assets by category, and indications of how the plan impacts future cash flows.",
+          "definition_ru": "Согласно МСФО 19, требуемые раскрытия включают: характеристики и риски плана, сверку открывающих и закрывающих остатков чистого пенсионного актива/обязательства (с отдельными сверками для активов плана и пенсионного обязательства), анализ чувствительности для существенных предположений (таких как ставка дисконтирования), состав активов плана по категориям и указания на то, как план влияет на будущие денежные потоки.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-038",
+          "term_en": "Share-Based Compensation Disclosures",
+          "term_ru": "Раскрытие информации о компенсации на основе акций",
+          "definition_en": "Under IFRS 2, companies must disclose: description of share-based payment arrangements (vesting requirements, maximum term, settlement method), details on options (number and weighted average exercise price for outstanding, granted, forfeited, exercised, expired options), information on other equity instruments granted, and how fair value was measured. These disclosures help users understand the nature, scope, and financial impact of share-based compensation programs.",
+          "definition_ru": "Согласно МСФО 2, компании должны раскрывать: описание соглашений о выплатах на основе акций (требования к наделению правами, максимальный срок, метод расчета), детали по опционам (количество и средневзвешенная цена исполнения для находящихся в обращении, предоставленных, конфискованных, исполненных, истекших опционов), информацию о других предоставленных долевых инструментах и то, как была измерена справедливая стоимость. Эти раскрытия помогают пользователям понять характер, масштаб и финансовое влияние программ компенсации на основе акций.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-8-039",
+          "term_en": "Right-of-Use Asset Presentation",
+          "term_ru": "Представление актива в форме права пользования",
+          "definition_en": "On the balance sheet, right-of-use assets are typically included in the non-current assets section. Some companies may report them under 'Other assets' if leased assets and obligations are not material enough to warrant separate line items.",
+          "definition_ru": "В балансе активы в форме права пользования обычно включаются в раздел внеоборотных активов. Некоторые компании могут отражать их в составе 'Прочих активов', если арендованные активы и обязательства недостаточно существенны, чтобы требовать отдельных статей.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": [
+        {
+          "exercise_id": "FSA-8-EX-004",
+          "question_en": "Which of the following disclosures is required for lessees under IFRS 16?",
+          "question_ru": "Какое из следующих раскрытий требуется для арендаторов согласно МСФО 16?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "The details of net interest expense on lease liabilities.",
+              "text_ru": "Детали чистых процентных расходов по обязательствам по аренде."
+            },
+            {
+              "letter": "B",
+              "text_en": "The depreciation charges for right-of-use assets by asset class.",
+              "text_ru": "Амортизационные отчисления по активам в форме права пользования по классам активов."
+            },
+            {
+              "letter": "C",
+              "text_en": "The future market value projections of leased assets.",
+              "text_ru": "Прогнозы будущей рыночной стоимости арендованных активов."
+            }
+          ],
+          "correct_answer": "B",
+          "solution_en": "Under IFRS 16, lessees are required to disclose depreciation charges for right-of-use assets by asset class as part of their current reporting period disclosures. This helps users understand the cost allocation related to leased assets over their useful life.",
+          "solution_ru": "Согласно МСФО 16, арендаторы обязаны раскрывать амортизационные отчисления по активам в форме права пользования по классам активов в рамках раскрытий текущего отчетного периода. Это помогает пользователям понять распределение затрат, связанных с арендованными активами, в течение их срока полезного использования."
+        },
+        {
+          "exercise_id": "FSA-8-EX-005",
+          "question_en": "Which of the following is generally a goal of a share-based compensation plan?",
+          "question_ru": "Какая из следующих целей обычно является целью плана компенсации на основе акций?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Recruiting new staff members",
+              "text_ru": "Набор новых сотрудников"
+            },
+            {
+              "letter": "B",
+              "text_en": "Increasing executive pay",
+              "text_ru": "Увеличение зарплаты руководителей"
+            },
+            {
+              "letter": "C",
+              "text_en": "Aligning employees' interests with managerial objectives",
+              "text_ru": "Согласование интересов сотрудников с управленческими целями"
+            }
+          ],
+          "correct_answer": "A",
+          "solution_en": "Share-based compensation plans are typically designed to attract new employees by offering them a share in the company's future success as part of their compensation package. These plans also aim to retain and motivate existing employees by aligning their interests with the goals of the company. By giving employees a stake in the company, share-based compensation plans encourage employees to contribute to the company's growth and profitability, benefiting both the employees and the company in the long term.",
+          "solution_ru": "Планы компенсации на основе акций обычно разработаны для привлечения новых сотрудников, предлагая им долю в будущем успехе компании в рамках их компенсационного пакета. Эти планы также направлены на удержание и мотивацию существующих сотрудников путем согласования их интересов с целями компании. Предоставляя сотрудникам долю в компании, планы компенсации на основе акций побуждают сотрудников вносить вклад в рост и прибыльность компании, что приносит пользу как сотрудникам, так и компании в долгосрочной перспективе."
+        }
+      ]
+    }
+  ]
+}
