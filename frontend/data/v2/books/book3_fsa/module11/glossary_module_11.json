@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "book_id": 3,
+    "book_code": "FSA",
+    "book_name": "Financial Statement Analysis",
+    "book_name_ru": "Анализ финансовой отчетности",
+    "module_id": 11,
+    "module_name": "Financial Analysis Techniques",
+    "module_name_ru": "Техники финансового анализа",
+    "page_range": "266-320",
+    "total_terms": 10,
+    "total_exercises": 0,
+    "version": "2.0",
+    "last_updated": "2026-01-23"
+  },
+  "los": [
+    {
+      "los_id": "LOS_11a",
+      "los_code": "11a",
+      "los_description_en": "Describe tools and techniques used in financial analysis, including their uses and limitations",
+      "los_description_ru": "Описывать инструменты и техники, используемые в финансовом анализе, включая их использование и ограничения",
+      "terms": [
+        {
+          "term_id": "FSA-11-001",
+          "term_en": "Financial Analysis",
+          "term_ru": "Финансовый анализ",
+          "definition_en": "The process of evaluating a company's financial performance over time and identifying trends in that performance. It can be used to evaluate equity securities, assess financial risk exposures, and perform due diligence before mergers or acquisitions.",
+          "definition_ru": "Процесс оценки финансовых показателей компании во времени и выявления тенденций в этих показателях. Может использоваться для оценки долевых ценных бумаг, оценки финансовых рисков и проведения должной осмотрительности перед слияниями или поглощениями.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-11-002",
+          "term_en": "Ratio Analysis",
+          "term_ru": "Анализ коэффициентов",
+          "definition_en": "A method of financial analysis that expresses one quantity in relation to another, typically as a quotient. Ratios illustrate relationships among financial accounts and expected relationships over different time periods.",
+          "definition_ru": "Метод финансового анализа, который выражает одну величину по отношению к другой, обычно в виде частного. Коэффициенты иллюстрируют взаимосвязи между финансовыми статьями и ожидаемые взаимосвязи за различные периоды времени.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-11-003",
+          "term_en": "Cross-Sectional Analysis",
+          "term_ru": "Кросс-секционный анализ",
+          "definition_en": "A method of comparing a company to other companies at the same point in time or over the same period. This allows for meaningful comparisons even if the companies are of different sizes or operate in different currencies.",
+          "definition_ru": "Метод сравнения компании с другими компаниями в один момент времени или за один и тот же период. Это позволяет проводить значимые сравнения, даже если компании имеют разные размеры или работают в разных валютах.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-11-004",
+          "term_en": "Trend Analysis (Time-Series Analysis)",
+          "term_ru": "Трендовый анализ (анализ временных рядов)",
+          "definition_en": "A method of comparing a company's performance over different periods to identify trends. This analysis offers valuable insights into historical performance and growth, and can be used for planning and forecasting.",
+          "definition_ru": "Метод сравнения показателей компании за различные периоды для выявления тенденций. Этот анализ предоставляет ценную информацию об исторических показателях и росте и может использоваться для планирования и прогнозирования.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-11-005",
+          "term_en": "Common-Size Analysis",
+          "term_ru": "Анализ в относительном выражении",
+          "definition_en": "A technique that expresses financial data, including entire financial statements, relative to a single financial statement item or base. The most commonly used bases are total assets or revenue. This method establishes a ratio between each financial statement item and the base item.",
+          "definition_ru": "Техника, которая выражает финансовые данные, включая целые финансовые отчеты, относительно одной статьи финансового отчета или базы. Наиболее часто используемыми базами являются общие активы или выручка. Этот метод устанавливает соотношение между каждой статьей финансового отчета и базовой статьей.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-11-006",
+          "term_en": "Vertical Common-Size Analysis",
+          "term_ru": "Вертикальный анализ в относительном выражении",
+          "definition_en": "A type of common-size analysis where each item on a financial statement is expressed as a percentage of a base figure from the same period. For a balance sheet, items are divided by total assets; for an income statement, items are divided by revenue.",
+          "definition_ru": "Тип анализа в относительном выражении, при котором каждая статья финансового отчета выражается в процентах от базового показателя за тот же период. Для баланса статьи делятся на общие активы; для отчета о прибылях и убытках статьи делятся на выручку.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-11-007",
+          "term_en": "Horizontal Common-Size Analysis",
+          "term_ru": "Горизонтальный анализ в относительном выражении",
+          "definition_en": "A type of common-size analysis that shows changes in financial statement items over time. It is prepared by calculating the percentage increase or decrease of each item from the previous year or by dividing the quantity of each item by the base year quantity.",
+          "definition_ru": "Тип анализа в относительном выражении, который показывает изменения статей финансового отчета во времени. Он подготавливается путем расчета процентного увеличения или уменьшения каждой статьи по сравнению с предыдущим годом или путем деления величины каждой статьи на величину базового года.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-11-008",
+          "term_en": "Regression Analysis",
+          "term_ru": "Регрессионный анализ",
+          "definition_en": "A statistical technique used to identify relationships or correlations between variables. It can be employed to link a company's sales to GDP over time, examine the relationship between sales and inventory, or identify items that deviate from expected patterns based on historical statistical relationships.",
+          "definition_ru": "Статистический метод, используемый для выявления взаимосвязей или корреляций между переменными. Он может использоваться для связи продаж компании с ВВП во времени, изучения взаимосвязи между продажами и запасами или выявления статей, которые отклоняются от ожидаемых моделей на основе исторических статистических взаимосвязей.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-11-009",
+          "term_en": "Graphs",
+          "term_ru": "Графики",
+          "definition_en": "Visual tools for comparing performance and financial structure over time, highlighting key changes in business operations. Different types include pie charts (for composition), line graphs (for changes over time), and stacked column graphs (for both composition and changes over time).",
+          "definition_ru": "Визуальные инструменты для сравнения показателей и финансовой структуры во времени, выделяющие ключевые изменения в деятельности предприятия. Различные типы включают круговые диаграммы (для структуры), линейные графики (для изменений во времени) и столбчатые диаграммы с накоплением (для структуры и изменений во времени).",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "FSA-11-010",
+          "term_en": "XBRL (eXtensible Business Reporting Language)",
+          "term_ru": "XBRL (расширяемый язык бизнес-отчетности)",
+          "definition_en": "An international standard for digital business reporting that uses smart tags attached to financial information, allowing software to automatically gather data and perform calculations. Developed by an international nonprofit consortium including the IASB, it is used by stock exchanges and regulatory agencies worldwide.",
+          "definition_ru": "Международный стандарт для цифровой бизнес-отчетности, который использует умные теги, прикрепленные к финансовой информации, позволяя программному обеспечению автоматически собирать данные и выполнять расчеты. Разработан международным некоммерческим консорциумом, включающим IASB, используется биржами и регулирующими органами по всему миру.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": []
+    }
+  ]
+}
