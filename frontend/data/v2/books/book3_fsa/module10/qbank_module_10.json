@@ -7,7 +7,7 @@
     "module_id": 10,
     "module_name": "Financial Reporting Quality",
     "module_name_ru": "Качество финансовой отчетности",
-    "total_questions": 10,
+    "total_questions": 20,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -571,6 +571,517 @@
         "financial_reporting_quality",
         "GAAP_compliance",
         "quality_spectrum"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q011",
+      "original_question_number": 2370,
+      "los_id": "LOS_10b",
+      "question_text_en": "An analyst came across many doubtful activities while analyzing the firm's financial statements compared to other firms in the same industry. Which of the following accounting choices can most likely lead to the conclusion that the firm is engaged in aggressive accounting activities?",
+      "question_text_ru": "Аналитик столкнулся со многими сомнительными действиями при анализе финансовой отчетности фирмы по сравнению с другими фирмами в той же отрасли. Какой из следующих вариантов учета с наибольшей вероятностью может привести к выводу, что фирма занимается агрессивным учетом?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Using straight-line depreciation.",
+          "text_ru": "Использование прямолинейной амортизации."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Expensing costs in the current period.",
+          "text_ru": "Отнесение затрат на расходы текущего периода."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Decreasing the useful life of certain assets.",
+          "text_ru": "Уменьшение срока полезного использования определенных активов."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "An aggressive accounting activity increases earnings. Using straight-line depreciation leads to the conclusion that the firm could be engaged in aggressive accounting strategies as using straight-line depreciation decreases the depreciation expense and increases earnings.",
+      "explanation_ru": "Агрессивная учетная деятельность увеличивает прибыль. Использование прямолинейной амортизации приводит к выводу, что фирма может заниматься агрессивными учетными стратегиями, поскольку использование прямолинейной амортизации снижает расходы на амортизацию и увеличивает прибыль.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Expensing costs in the current period and decreasing the useful life of certain assets will increase expenditures and decrease earnings.",
+          "text_ru": "Отнесение затрат на расходы текущего периода и уменьшение срока полезного использования определенных активов увеличат расходы и уменьшат прибыль."
+        },
+        "opt_c": {
+          "text_en": "Expensing costs in the current period and decreasing the useful life of certain assets will increase expenditures and decrease earnings.",
+          "text_ru": "Отнесение затрат на расходы текущего периода и уменьшение срока полезного использования определенных активов увеличат расходы и уменьшат прибыль."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "aggressive_accounting",
+        "depreciation",
+        "earnings_management"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q012",
+      "original_question_number": 2371,
+      "los_id": "LOS_10c",
+      "question_text_en": "The management's activity of using one set of accounting choices in one period to increase the earning and using the other set of accounting choices to decrease the earning in another period is known as:",
+      "question_text_ru": "Деятельность руководства по использованию одного набора учетных выборов в одном периоде для увеличения прибыли и использованию другого набора учетных выборов для уменьшения прибыли в другом периоде известна как:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "earnings smoothing.",
+          "text_ru": "сглаживание прибыли."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "aggressive accounting.",
+          "text_ru": "агрессивный учет."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "low financial reporting quality.",
+          "text_ru": "низкое качество финансовой отчетности."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Earnings smoothing is a practice where management intentionally adjusts financial statements to make earnings appear more stable and less volatile over time. This is achieved by manipulating accounting choices and estimates to level out fluctuations in financial performance.",
+      "explanation_ru": "Сглаживание прибыли - это практика, при которой руководство намеренно корректирует финансовую отчетность, чтобы прибыль казалась более стабильной и менее волатильной с течением времени. Это достигается путем манипулирования учетными выборами и оценками для выравнивания колебаний финансовых показателей.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Aggressive accounting refers to the practice of interpreting or applying financial reporting rules in a way that aggressively recognizes revenues or defers expenses, thereby inflating earnings in the short term. Unlike earnings smoothing, which aims to present a stable earnings trend over time, aggressive accounting primarily seeks to enhance the appearance of financial performance in the short term.",
+          "text_ru": "Агрессивный учет относится к практике интерпретации или применения правил финансовой отчетности таким образом, который агрессивно признает доходы или откладывает расходы, тем самым завышая прибыль в краткосрочной перспективе. В отличие от сглаживания прибыли, которое направлено на представление стабильной тенденции прибыли с течением времени, агрессивный учет в первую очередь стремится улучшить внешний вид финансовых показателей в краткосрочной перспективе."
+        },
+        "opt_c": {
+          "text_en": "Low financial reporting quality is a broad term that encompasses various practices and outcomes resulting in financial reports that do not accurately or reliably represent a company's financial position, performance, or cash flows. While earnings smoothing can contribute to lower financial reporting quality by obscuring the true economic performance of a company, it is just one of many potential factors.",
+          "text_ru": "Низкое качество финансовой отчетности - это широкий термин, который охватывает различные практики и результаты, приводящие к финансовым отчетам, которые не точно или надежно представляют финансовое положение, результаты деятельности или денежные потоки компании. Хотя сглаживание прибыли может способствовать снижению качества финансовой отчетности, скрывая истинные экономические показатели компании, это всего лишь один из многих потенциальных факторов."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "earnings_smoothing",
+        "earnings_management",
+        "accounting_choices"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q013",
+      "original_question_number": 2372,
+      "los_id": "LOS_10c",
+      "question_text_en": "Which of the following accounting treatments most likely represents a set of conservative accounting activities?",
+      "question_text_ru": "Какая из следующих учетных практик с наибольшей вероятностью представляет собой набор консервативных учетных действий?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Increasing estimates of salvage value, decreasing accrual of reserves for bad debts, and early recognition of impairments.",
+          "text_ru": "Увеличение оценок ликвидационной стоимости, уменьшение начисления резервов по безнадежным долгам и раннее признание обесценения."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Using accelerated depreciation, decreasing valuation allowances on deferred tax assets, and expensing current period costs.",
+          "text_ru": "Использование ускоренной амортизации, уменьшение оценочных резервов по отложенным налоговым активам и отнесение затрат текущего периода на расходы."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Early recognition of impairment, increasing valuation allowances on deferred tax assets, and using accelerated depreciation.",
+          "text_ru": "Раннее признание обесценения, увеличение оценочных резервов по отложенным налоговым активам и использование ускоренной амортизации."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Conservative accounting practices are those that tend to present a company's financial situation in a more cautious light, potentially understating earnings or assets to avoid overstating the company's financial health. Early recognition of impairment losses, increasing valuation allowances on deferred tax assets, and using accelerated depreciation methods are all aligned with this approach.",
+      "explanation_ru": "Консервативные учетные практики - это те, которые стремятся представить финансовую ситуацию компании в более осторожном свете, потенциально занижая прибыль или активы, чтобы избежать завышения финансового здоровья компании. Раннее признание убытков от обесценения, увеличение оценочных резервов по отложенным налоговым активам и использование методов ускоренной амортизации - все это соответствует этому подходу.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "It includes practices that are not typically considered conservative. Increasing estimates of salvage value can lead to lower depreciation expenses and higher net income, which is not a conservative approach. Decreasing accruals for reserves for bad debts might result in understating the potential losses from uncollectible accounts, which again is not conservative.",
+          "text_ru": "Это включает практики, которые обычно не считаются консервативными. Увеличение оценок ликвидационной стоимости может привести к снижению расходов на амортизацию и увеличению чистой прибыли, что не является консервативным подходом. Уменьшение начислений резервов по безнадежным долгам может привести к занижению потенциальных убытков от невозвратных счетов, что опять же не является консервативным."
+        },
+        "opt_b": {
+          "text_en": "While using accelerated depreciation and expensing current period costs are conservative practices, decreasing valuation allowances on deferred tax assets is not. Decreasing valuation allowances would lead to recognizing more income related to deferred tax assets, which could be considered aggressive if there is uncertainty about the ability to realize those tax benefits in the future.",
+          "text_ru": "Хотя использование ускоренной амортизации и отнесение затрат текущего периода на расходы являются консервативными практиками, уменьшение оценочных резервов по отложенным налоговым активам таковым не является. Уменьшение оценочных резервов привело бы к признанию большего дохода, связанного с отложенными налоговыми активами, что может считаться агрессивным, если есть неопределенность в отношении возможности реализации этих налоговых льгот в будущем."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": [
+        "conservative_accounting",
+        "impairment",
+        "valuation_allowances",
+        "depreciation"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q014",
+      "original_question_number": 2373,
+      "los_id": "LOS_10d",
+      "question_text_en": "Which of the following is least likely a motive of managers to make aggressive accounting choices?",
+      "question_text_ru": "Что из следующего с наименьшей вероятностью является мотивом менеджеров для принятия агрессивных учетных решений?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "To exercise employees' put options on the company's shares.",
+          "text_ru": "Для исполнения опционов пут сотрудников на акции компании."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "To improve future career options by beating a specific benchmark.",
+          "text_ru": "Для улучшения будущих карьерных возможностей путем превышения определенного ориентира."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "To report earnings greater than the consensus expectations of analysts.",
+          "text_ru": "Для отчета о прибыли, превышающей консенсус-прогнозы аналитиков."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Put options give the holder the right, but not the obligation, to sell a specified amount of an underlying security at a specified price within a specified time frame. These options become valuable when the stock price falls below the strike price. Aggressive accounting practices, which may involve overstating revenues or understating expenses, are typically aimed at inflating the company's financial performance and, by extension, its stock price.",
+      "explanation_ru": "Опционы пут дают держателю право, но не обязательство, продать определенное количество базовой ценной бумаги по определенной цене в течение определенного периода времени. Эти опционы становятся ценными, когда цена акций падает ниже цены исполнения. Агрессивные учетные практики, которые могут включать завышение доходов или занижение расходов, обычно направлены на завышение финансовых показателей компании и, как следствие, ее цены акций.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Improving future career options by beating a specific benchmark is a plausible motive for managers to adopt aggressive accounting choices. By presenting a more favorable financial performance, managers may aim to surpass industry benchmarks or meet specific financial targets. The desire to achieve or exceed benchmarks can lead managers to manipulate financial statements in a way that presents the company's financial health and performance in a more positive light than it actually is.",
+          "text_ru": "Улучшение будущих карьерных возможностей путем превышения определенного ориентира является вероятным мотивом для менеджеров принимать агрессивные учетные решения. Представляя более благоприятные финансовые показатели, менеджеры могут стремиться превзойти отраслевые ориентиры или достичь определенных финансовых целей. Желание достичь или превысить ориентиры может привести менеджеров к манипулированию финансовой отчетностью таким образом, чтобы представить финансовое здоровье и результаты деятельности компании в более позитивном свете, чем это есть на самом деле."
+        },
+        "opt_c": {
+          "text_en": "Reporting earnings greater than the consensus expectations of analysts is another likely motive for managers to engage in aggressive accounting practices. Analysts' expectations play a significant role in the financial markets, influencing investor perceptions and stock prices. By reporting earnings that exceed these expectations, a company can positively impact its stock price and investor sentiment.",
+          "text_ru": "Отчет о прибыли, превышающей консенсус-прогнозы аналитиков, является еще одним вероятным мотивом для менеджеров заниматься агрессивными учетными практиками. Ожидания аналитиков играют значительную роль на финансовых рынках, влияя на восприятие инвесторов и цены акций. Сообщая о прибыли, которая превышает эти ожидания, компания может положительно повлиять на цену своих акций и настроения инвесторов."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "aggressive_accounting",
+        "management_incentives",
+        "put_options"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q015",
+      "original_question_number": 2376,
+      "los_id": "LOS_10d",
+      "question_text_en": "Adam Geller is the CFO of Cube Corp. and is also the chairman of the board. The board does not have sufficient control over management because it does not consist of a majority of independent outsiders. Cube's shareholders recently accused the firm of misrepresenting its financial reports. Which of the following factors is most likely responsible for management's action of providing low-quality financial reporting?",
+      "question_text_ru": "Адам Геллер является финансовым директором Cube Corp. и также является председателем совета директоров. Совет директоров не имеет достаточного контроля над менеджментом, потому что он не состоит из большинства независимых внешних членов. Акционеры Cube недавно обвинили фирму в искажении ее финансовых отчетов. Какой из следующих факторов наиболее вероятно ответственен за действия менеджмента по предоставлению низкокачественной финансовой отчетности?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Motivation.",
+          "text_ru": "Мотивация."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Opportunity.",
+          "text_ru": "Возможность."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Rationalization.",
+          "text_ru": "Рационализация."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The most likely factor responsible for management's action of providing low-quality financial reporting in Cube Corp. is the opportunity presented by the lack of sufficient control over the firm's management by the board. The structure of Cube Corp.'s board, where the CFO also serves as the chairman and the board lacks a majority of independent outsiders, creates a scenario where checks and balances on management's actions are minimal. This lack of oversight and control provides management with the opportunity to engage in practices that may not align with the best interests of the shareholders, including the potential misrepresentation of financial reports.",
+      "explanation_ru": "Наиболее вероятный фактор, ответственный за действия менеджмента по предоставлению низкокачественной финансовой отчетности в Cube Corp., - это возможность, предоставленная отсутствием достаточного контроля над менеджментом фирмы со стороны совета директоров. Структура совета директоров Cube Corp., где финансовый директор также выступает в качестве председателя, а совет директоров не имеет большинства независимых внешних членов, создает сценарий, в котором проверки и балансы действий менеджмента минимальны. Это отсутствие надзора и контроля предоставляет менеджменту возможность заниматься практиками, которые могут не соответствовать наилучшим интересам акционеров, включая потенциальное искажение финансовых отчетов.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "While motivation might play a role in why management might choose to misrepresent financial reports, it is not the most direct cause in this scenario. Motivation refers to the reasons or incentives behind actions. Although management might have motivations such as personal gain or attempting to meet certain financial targets, without the opportunity to act on these motivations without adequate oversight, misrepresentation of financial reports would be significantly more challenging.",
+          "text_ru": "Хотя мотивация может играть роль в том, почему менеджмент может выбрать искажение финансовых отчетов, это не самая прямая причина в этом сценарии. Мотивация относится к причинам или стимулам, стоящим за действиями. Хотя у менеджмента могут быть такие мотивы, как личная выгода или попытка достичь определенных финансовых целей, без возможности действовать на основе этих мотиваций без адекватного надзора искажение финансовых отчетов было бы значительно более сложным."
+        },
+        "opt_c": {
+          "text_en": "Rationalization is a psychological mechanism that allows individuals to justify unethical or fraudulent actions to themselves as being acceptable under the circumstances. While rationalization might enable individuals within the management to feel less guilt or to justify their actions internally, it is not the primary factor that enables the misrepresentation of financial reports. Without the opportunity provided by the lack of sufficient oversight and control by the board, rationalizing such actions would be moot.",
+          "text_ru": "Рационализация - это психологический механизм, который позволяет людям оправдывать неэтичные или мошеннические действия для себя как приемлемые в данных обстоятельствах. Хотя рационализация может позволить людям в менеджменте чувствовать меньше вины или оправдывать свои действия внутренне, это не основной фактор, который позволяет искажение финансовых отчетов. Без возможности, предоставленной отсутствием достаточного надзора и контроля со стороны совета директоров, рационализация таких действий была бы бессмысленной."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "fraud_triangle",
+        "corporate_governance",
+        "opportunity"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q016",
+      "original_question_number": 2377,
+      "los_id": "LOS_10d",
+      "question_text_en": "Akash Prakash is the CEO of Pandora Drum Co., which is headquartered in the middle of the Bermuda Islands. Pandora is currently under a lawsuit related to presenting low-quality financial reports by overestimating the assets of Pandora by more than 500%. During a recent conference call, Prakash stated ''I thought that another company operating in the Bermuda Islands might be interest in acquiring Pandora. Therefore, it was important for Pandora to over-estimate its assets to make the firm look expensive to the acquirer. It is common in the Bermuda Islands to overestimate its assets. All of the firms do it.'' The main cause for Pandora's low-quality reporting is most likely related to:",
+      "question_text_ru": "Акаш Пракаш является генеральным директором Pandora Drum Co., штаб-квартира которой находится в центре Бермудских островов. Pandora в настоящее время находится под судебным иском, связанным с представлением низкокачественных финансовых отчетов путем завышения активов Pandora более чем на 500%. Во время недавней телеконференции Пракаш заявил: «Я думал, что другая компания, работающая на Бермудских островах, может быть заинтересована в приобретении Pandora. Поэтому для Pandora было важно завысить свои активы, чтобы фирма выглядела дорогой для покупателя. На Бермудских островах принято завышать свои активы. Все фирмы это делают». Основная причина низкокачественной отчетности Pandora, скорее всего, связана с:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "motivation.",
+          "text_ru": "мотивацией."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "opportunity.",
+          "text_ru": "возможностью."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "rationalization.",
+          "text_ru": "рационализацией."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "The factor behind the presentation of low-quality financial reporting is rationalization. In this situation, the CEO, Akash Prakash, is trying to justify his overestimating of Pandora's assets. He is saying that this is a common practice in the Bermuda Islands and that all companies do it. This type of behavior, where an individual tries to justify their unethical or illegal actions by blaming others or providing excuses, is known as rationalization.",
+      "explanation_ru": "Фактор, стоящий за представлением низкокачественной финансовой отчетности, - это рационализация. В этой ситуации генеральный директор Акаш Пракаш пытается оправдать свое завышение активов Pandora. Он говорит, что это обычная практика на Бермудских островах и что все компании это делают. Этот тип поведения, когда человек пытается оправдать свои неэтичные или незаконные действия, обвиняя других или приводя оправдания, известен как рационализация.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Motivation refers to a driving force or reason behind someone's actions or decisions. In this case, the motivation for Prakash's decision to over-estimate the assets could be to make the company look more valuable and attractive to potential acquirers.",
+          "text_ru": "Мотивация относится к движущей силе или причине чьих-то действий или решений. В этом случае мотивацией для решения Пракаша завысить активы может быть стремление сделать компанию более ценной и привлекательной для потенциальных покупателей."
+        },
+        "opt_b": {
+          "text_en": "Opportunity refers to the availability of a circumstance or situation that allows an individual to take a certain action. In this case, the opportunity for Prakash to over-estimate Pandora's assets may have been presented by the fact that there was a potential acquirer interested in the company, and he believed that overestimating the assets would make the company more appealing.",
+          "text_ru": "Возможность относится к доступности обстоятельства или ситуации, которая позволяет человеку предпринять определенное действие. В этом случае возможность для Пракаша завысить активы Pandora могла быть представлена тем фактом, что был потенциальный покупатель, заинтересованный в компании, и он считал, что завышение активов сделает компанию более привлекательной."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "fraud_triangle",
+        "rationalization",
+        "asset_overstatement"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q017",
+      "original_question_number": 2378,
+      "los_id": "LOS_10d",
+      "question_text_en": "Sonic Loop is a startup that focuses on providing private jet experiences at the cost of the commercial airline. Sonic Loop has adopted a unique compensation plan for its senior management, in which 70% of the compensation of senior management depends on the firm's profit margin. Startup Insider, a whistleblower corporate magazine, printed an article in its latest issue, which reveals that the management of Sonic is involved in fraudulent financial reporting. Based on the given case, which of the following factors is most likely responsible for Sonic's potential fraudulent financial reporting?",
+      "question_text_ru": "Sonic Loop - это стартап, который фокусируется на предоставлении опыта частных самолетов по цене коммерческих авиалиний. Sonic Loop принял уникальный план вознаграждения для своего высшего руководства, в котором 70% вознаграждения высшего руководства зависит от рентабельности фирмы. Startup Insider, корпоративный журнал для информаторов, опубликовал статью в своем последнем выпуске, в которой сообщается, что менеджмент Sonic вовлечен в мошенническую финансовую отчетность. На основе данного случая, какой из следующих факторов наиболее вероятно ответственен за потенциальную мошенническую финансовую отчетность Sonic?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Motivation.",
+          "text_ru": "Мотивация."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Opportunity.",
+          "text_ru": "Возможность."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Rationalization",
+          "text_ru": "Рационализация"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Motivation stems from the unique compensation plan that the company has adopted for its senior management, where 70% of their compensation is tied to the firm's profit margin. Such a compensation structure creates a strong incentive for the management to artificially inflate profit figures or engage in other forms of financial misrepresentation to boost their personal earnings. This motivation to increase personal compensation at the expense of accurate financial reporting can lead to unethical practices and potentially fraudulent activities.",
+      "explanation_ru": "Мотивация проистекает из уникального плана вознаграждения, который компания приняла для своего высшего руководства, где 70% их вознаграждения привязано к рентабельности фирмы. Такая структура вознаграждения создает сильный стимул для менеджмента искусственно завышать показатели прибыли или заниматься другими формами финансового искажения, чтобы увеличить свои личные доходы. Эта мотивация увеличения личного вознаграждения за счет точной финансовой отчетности может привести к неэтичным практикам и потенциально мошенническим действиям.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "While opportunity does play a role in fraudulent activities, in this scenario, the primary driver is the motivation derived from the compensation structure. Opportunity refers to the circumstances that make it possible to commit fraud, such as weak internal controls or lack of oversight.",
+          "text_ru": "Хотя возможность действительно играет роль в мошеннических действиях, в этом сценарии основным движущим фактором является мотивация, вытекающая из структуры вознаграждения. Возможность относится к обстоятельствам, которые делают возможным совершение мошенничества, таким как слабый внутренний контроль или отсутствие надзора."
+        },
+        "opt_c": {
+          "text_en": "Rationalization is the process by which individuals justify their unethical behavior as acceptable under the circumstances. It is a psychological mechanism used to deal with the moral conflict arising from committing fraud. While rationalization might be present, allowing senior management to internally justify their actions, it is not the primary factor driving the fraudulent financial reporting in Sonic Loop's case.",
+          "text_ru": "Рационализация - это процесс, посредством которого люди оправдывают свое неэтичное поведение как приемлемое в данных обстоятельствах. Это психологический механизм, используемый для разрешения морального конфликта, возникающего при совершении мошенничества. Хотя рационализация может присутствовать, позволяя высшему руководству внутренне оправдывать свои действия, это не основной фактор, движущий мошеннической финансовой отчетностью в случае Sonic Loop."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "fraud_triangle",
+        "motivation",
+        "compensation_incentives"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q018",
+      "original_question_number": 2382,
+      "los_id": "LOS_10b",
+      "question_text_en": "If a firm that reports under IFRS uses some non-IFRS measures in its financial reports, then the firm is least likely required to:",
+      "question_text_ru": "Если фирма, которая отчитывается по МСФО, использует некоторые показатели, не соответствующие МСФО, в своих финансовых отчетах, то фирма с наименьшей вероятностью обязана:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "define and explain the relevance of the non-IFRS measure in financial reporting.",
+          "text_ru": "определить и объяснить релевантность показателя, не соответствующего МСФО, в финансовой отчетности."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "not use the non-IFRS measure if the firm reports its financial reports in compliance with IFRS.",
+          "text_ru": "не использовать показатель, не соответствующий МСФО, если фирма представляет свои финансовые отчеты в соответствии с МСФО."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "reconcile the difference between the non-IFRS measure and the most comparable IFRS measure.",
+          "text_ru": "сопоставить разницу между показателем, не соответствующим МСФО, и наиболее сопоставимым показателем МСФО."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Under IFRS and US GAAP, firms are permitted to use non-IFRS or non-GAAP measures in financial reports. However, if the firm uses non-IFRS measures, the firm is required to define and explain the relevance of non-IFRS measures in financial reports and reconcile the difference between non-IFRS measures and the most comparable IFRS measures.",
+      "explanation_ru": "В соответствии с МСФО и US GAAP фирмам разрешено использовать показатели, не соответствующие МСФО или GAAP, в финансовых отчетах. Однако, если фирма использует показатели, не соответствующие МСФО, фирма обязана определить и объяснить релевантность показателей, не соответствующих МСФО, в финансовых отчетах и сопоставить разницу между показателями, не соответствующими МСФО, и наиболее сопоставимыми показателями МСФО.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "This is a requirement when using non-IFRS measures. Firms must define and explain the relevance of the non-IFRS measure.",
+          "text_ru": "Это требование при использовании показателей, не соответствующих МСФО. Фирмы должны определить и объяснить релевантность показателя, не соответствующего МСФО."
+        },
+        "opt_c": {
+          "text_en": "This is also a requirement. Firms must reconcile the difference between non-IFRS measures and the most comparable IFRS measures.",
+          "text_ru": "Это также требование. Фирмы должны сопоставить разницу между показателями, не соответствующими МСФО, и наиболее сопоставимыми показателями МСФО."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "non-GAAP_measures",
+        "IFRS",
+        "financial_reporting"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q019",
+      "original_question_number": 2383,
+      "los_id": "LOS_10c",
+      "question_text_en": "Which of the following is most appropriate explanation of ''channel stuffing''? Channel stuffing is:",
+      "question_text_ru": "Какое из следующих объяснений термина «затаривание каналов» наиболее подходящее? Затаривание каналов - это:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "an aggressive revenue recognition strategy in which the firm oversupplies goods to the distribution channel.",
+          "text_ru": "агрессивная стратегия признания выручки, при которой фирма поставляет чрезмерное количество товаров в канал распределения."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "a conservative revenue recognition strategy in which the firm holds goods and delays the supply of goods to the distribution channel.",
+          "text_ru": "консервативная стратегия признания выручки, при которой фирма удерживает товары и откладывает поставку товаров в канал распределения."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "an aggressive revenue recognition strategy in which the firm increases the supplier's orders and recognizes the expense before the goods are received.",
+          "text_ru": "агрессивная стратегия признания выручки, при которой фирма увеличивает заказы поставщика и признает расходы до получения товаров."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Channel stuffing is an aggressive revenue recognition strategy in which the firm oversupply the goods to the distribution channel (more than the expected sales target). Also known as trade loading, this can be the result of a company attempting to inflate its sales figures. Alternatively, it can be a consequence of a poorly managed sales force attempting to meet short-term objectives and quotas in a way that is detrimental to the company in the long term.",
+      "explanation_ru": "Затаривание каналов - это агрессивная стратегия признания выручки, при которой фирма поставляет чрезмерное количество товаров в канал распределения (больше, чем ожидаемая цель продаж). Также известное как торговая загрузка, это может быть результатом попытки компании завысить свои показатели продаж. В качестве альтернативы это может быть следствием плохо управляемой торговой силы, пытающейся достичь краткосрочных целей и квот способом, который наносит ущерб компании в долгосрочной перспективе.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "This describes a conservative approach, not channel stuffing. Channel stuffing is aggressive, not conservative.",
+          "text_ru": "Это описывает консервативный подход, а не затаривание каналов. Затаривание каналов - это агрессивная, а не консервативная стратегия."
+        },
+        "opt_c": {
+          "text_en": "This describes a different aggressive strategy related to expense recognition, not channel stuffing which is about oversupplying goods to distribution channels.",
+          "text_ru": "Это описывает другую агрессивную стратегию, связанную с признанием расходов, а не затаривание каналов, которое связано с чрезмерной поставкой товаров в каналы распределения."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "channel_stuffing",
+        "aggressive_accounting",
+        "revenue_recognition"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q020",
+      "original_question_number": 2385,
+      "los_id": "LOS_10h",
+      "question_text_en": "Which of the following statement is most appropriate regarding the allowance for uncollectible debt?",
+      "question_text_ru": "Какое из следующих утверждений наиболее подходит в отношении резерва по безнадежным долгам?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "If a firm increases the probability that the accounts receivable will be collected, it will increase the reserve for uncollectible debt and decrease Net income.",
+          "text_ru": "Если фирма увеличивает вероятность того, что дебиторская задолженность будет взыскана, это увеличит резерв по безнадежным долгам и уменьшит чистую прибыль."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "If a firm decreases the probability that the accounts receivable will be uncollected, it will increase the reserve for uncollectible debt and decrease Net income.",
+          "text_ru": "Если фирма уменьшает вероятность того, что дебиторская задолженность не будет взыскана, это увеличит резерв по безнадежным долгам и уменьшит чистую прибыль."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "If a firm increases the probability that the accounts receivable will be uncollected, it will increase the reserve for uncollectible debt and decrease Net income.",
+          "text_ru": "Если фирма увеличивает вероятность того, что дебиторская задолженность не будет взыскана, это увеличит резерв по безнадежным долгам и уменьшит чистую прибыль."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "An increase in the allowance for uncollectible debt will increase bad debt expenses. Moreover, an increase in the expected warranty expense and a decrease in the useful life of assets will increase the depreciation expense. This will create the lowest operating income.",
+      "explanation_ru": "Увеличение резерва по безнадежным долгам увеличит расходы по безнадежным долгам. Более того, увеличение ожидаемых расходов по гарантии и уменьшение срока полезного использования активов увеличит расходы на амортизацию. Это создаст наименьшую операционную прибыль.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "This is incorrect because if the probability of collection increases, the reserve for uncollectible debt would decrease, not increase.",
+          "text_ru": "Это неверно, потому что если вероятность взыскания увеличивается, резерв по безнадежным долгам уменьшится, а не увеличится."
+        },
+        "opt_b": {
+          "text_en": "This is incorrect. If the probability of non-collection decreases (meaning collection is more likely), the reserve would decrease, not increase.",
+          "text_ru": "Это неверно. Если вероятность невзыскания уменьшается (то есть взыскание более вероятно), резерв уменьшится, а не увеличится."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "bad_debt_expense",
+        "allowance_for_doubtful_accounts",
+        "earnings_management"
       ]
     }
   ]
