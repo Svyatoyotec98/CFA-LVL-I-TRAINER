@@ -112,41 +112,59 @@ python frontend/data/v2/scripts/validate_glossary.py glossary_module_X.json --fi
 
 ## 🔄 Git — Checkpoints (ОБЯЗАТЕЛЬНО)
 
-Глоссарий нужно коммитить поэтапно каждые 25% работы:
+Глоссарий нужно коммитить поэтапно. Работаем по чекпоинтам с валидацией ПЕРЕД каждым коммитом:
 
-### Checkpoint 1 (25% готово)
-После создания структуры и первых LOS:
+## Чекпоинт 1: Структура + первый LOS
+
+1. Создай файл `glossary_module_X.json` с metadata
+2. Добавь первый LOS со всеми терминами
+3. **ВАЛИДАЦИЯ:** `python scripts/validate_glossary.py glossary_module_X.json --fix`
+4. Убедись что 100% ✓
+5. **GIT COMMIT + PUSH:**
 ```bash
-git add .
-git commit -m "Glossary {Book} Module {N}: checkpoint 1 - structure and first LOS"
-git push origin {branch-name}
+git add . && git commit -m "Glossary Module X: checkpoint 1 - structure and LOS_Xa"
+git push origin HEAD
 ```
 
-### Checkpoint 2 (50% готово)
-После половины терминов:
+## Чекпоинт 2: Следующие LOS (до 50%)
+
+1. Добавь следующие LOS с терминами (до 50% от общего количества LOS)
+2. **ВАЛИДАЦИЯ:** `python scripts/validate_glossary.py glossary_module_X.json --fix`
+3. Убедись что 100% ✓
+4. **GIT COMMIT + PUSH:**
 ```bash
-git add .
-git commit -m "Glossary {Book} Module {N}: checkpoint 2 - 50% terms"
-git push origin {branch-name}
+git add . && git commit -m "Glossary Module X: checkpoint 2 - 50% LOS complete"
+git push origin HEAD
 ```
 
-### Checkpoint 3 (75% готово)
-После большинства терминов:
+## Чекпоинт 3: Оставшиеся LOS (до 75%)
+
+1. Добавь оставшиеся LOS с терминами (до 75% от общего количества LOS)
+2. **ВАЛИДАЦИЯ:** `python scripts/validate_glossary.py glossary_module_X.json --fix`
+3. Убедись что 100% ✓
+4. **GIT COMMIT + PUSH:**
 ```bash
-git add .
-git commit -m "Glossary {Book} Module {N}: checkpoint 3 - 75% terms"
-git push origin {branch-name}
+git add . && git commit -m "Glossary Module X: checkpoint 3 - 75% LOS complete"
+git push origin HEAD
 ```
 
-### Checkpoint 4 (100% — финал)
-После завершения и обновления meta.json:
+## Чекпоинт 4: Финализация
+
+1. Добавь все оставшиеся LOS с терминами (100%)
+2. Добавь все упражнения (exercises) для каждого LOS
+3. **ФИНАЛЬНАЯ ВАЛИДАЦИЯ:** `python scripts/validate_glossary.py glossary_module_X.json --fix`
+4. Убедись что 100% ✓
+5. Обнови `meta.json` — добавь `glossary_file` и обнови статус
+6. **GIT COMMIT + PUSH:**
 ```bash
-git add .
-git commit -m "Glossary {Book} Module {N}: complete - {X} terms"
-git push origin {branch-name}
+git add . && git commit -m "Glossary Module X: complete - Y terms, Z exercises"
+git push origin HEAD
 ```
 
-**ВАЖНО:** Коммить после КАЖДОГО checkpoint! Это позволяет отслеживать прогресс.
+**ВАЖНО:**
+- Валидация ПЕРЕД каждым коммитом обязательна!
+- Коммит только после 100% ✓ от валидатора
+- Используй `git push origin HEAD` вместо `git push origin {branch-name}`
 
 ---
 
