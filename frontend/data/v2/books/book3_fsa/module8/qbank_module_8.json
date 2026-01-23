@@ -7,7 +7,7 @@
     "module_id": 8,
     "module_name": "Topics in Long-Term Liabilities and Equity",
     "module_name_ru": "Анализ долгосрочных обязательств и капитала",
-    "total_questions": 10,
+    "total_questions": 20,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -674,6 +674,553 @@
       "topic_tags": [
         "leasing_benefits",
         "lease_vs_purchase"
+      ]
+    },
+    {
+      "question_id": "FSA-8-Q011",
+      "original_question_number": 4852,
+      "los_id": "LOS_8a",
+      "question_text_en": "Which of the following statements is most accurate regarding the classification of leases under IFRS?",
+      "question_text_ru": "Какое из следующих утверждений наиболее точно относится к классификации аренды согласно IFRS?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "A lease term covering a minor part of the asset's useful life is classified as a finance lease.",
+          "text_ru": "Срок аренды, покрывающий незначительную часть срока полезного использования актива, классифицируется как финансовая аренда."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The present value of the lease payments equaling the asset's fair value classifies the lease as an operating lease.",
+          "text_ru": "Приведенная стоимость арендных платежей, равная справедливой стоимости актива, классифицирует аренду как операционную аренду."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "A lease transferring ownership to the lessee by the end of the lease term is classified as a finance lease.",
+          "text_ru": "Аренда, передающая право собственности арендатору к концу срока аренды, классифицируется как финансовая аренда."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "One of the criteria for classifying a lease as a finance lease under IFRS is that the lease transfers ownership of the underlying asset to the lessee by the end of the lease term.",
+      "explanation_ru": "Одним из критериев классификации аренды как финансовой аренды согласно IFRS является то, что аренда передает право собственности на базовый актив арендатору к концу срока аренды.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. A lease term covering a minor part of the asset's useful life would typically be classified as an operating lease.",
+          "text_ru": "Неверно. Срок аренды, покрывающий незначительную часть срока полезного использования актива, обычно классифицируется как операционная аренда."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. If the present value of the lease payments equals the asset's fair value, it indicates a finance lease, not an operating lease.",
+          "text_ru": "Неверно. Если приведенная стоимость арендных платежей равна справедливой стоимости актива, это указывает на финансовую аренду, а не на операционную аренду."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "lease_classification",
+        "ifrs",
+        "finance_lease"
+      ]
+    },
+    {
+      "question_id": "FSA-8-Q012",
+      "original_question_number": 4853,
+      "los_id": "LOS_8a",
+      "question_text_en": "For a lease to be classified as a finance lease under US GAAP, which of the following criteria must be met?",
+      "question_text_ru": "Чтобы аренда была классифицирована как финансовая аренда согласно US GAAP, какой из следующих критериев должен быть выполнен?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The lease term must cover a minor part of the asset's useful life.",
+          "text_ru": "Срок аренды должен покрывать незначительную часть срока полезного использования актива."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The present value of the lease payments must be insignificant compared to the asset's fair value.",
+          "text_ru": "Приведенная стоимость арендных платежей должна быть незначительной по сравнению со справедливой стоимостью актива."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The lease must transfer ownership of the underlying asset to the lessee by the end of the lease term.",
+          "text_ru": "Аренда должна передавать право собственности на базовый актив арендатору к концу срока аренды."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "One of the criteria for a finance lease under US GAAP is that the lease must transfer ownership of the underlying asset to the lessee by the end of the lease term.",
+      "explanation_ru": "Одним из критериев финансовой аренды согласно US GAAP является то, что аренда должна передавать право собственности на базовый актив арендатору к концу срока аренды.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. For a finance lease to be classified as a finance lease, the lease term must cover a major part of the asset's useful life.",
+          "text_ru": "Неверно. Чтобы аренда была классифицирована как финансовая аренда, срок аренды должен покрывать значительную часть срока полезного использования актива."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. For finance lease classification, the present value of the lease payments must be significant compared to the asset's fair value.",
+          "text_ru": "Неверно. Для классификации как финансовая аренда, приведенная стоимость арендных платежей должна быть значительной по сравнению со справедливой стоимостью актива."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "lease_classification",
+        "us_gaap",
+        "finance_lease"
+      ]
+    },
+    {
+      "question_id": "FSA-8-Q013",
+      "original_question_number": 4854,
+      "los_id": "LOS_8a",
+      "question_text_en": "Which of the following statements about lessor accounting under IFRS is most accurate?",
+      "question_text_ru": "Какое из следующих утверждений об учете арендодателя согласно IFRS наиболее точно?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "In an operating lease, the lessor recognizes a lease receivable.",
+          "text_ru": "При операционной аренде арендодатель признает дебиторскую задолженность по аренде."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "In a finance lease, the lessor continues to recognize the leased asset on the balance sheet.",
+          "text_ru": "При финансовой аренде арендодатель продолжает признавать арендованный актив в балансе."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "In a finance lease, the lessor recognizes interest income based on the lease receivable.",
+          "text_ru": "При финансовой аренде арендодатель признает процентный доход на основе дебиторской задолженности по аренде."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "In a finance lease, the lessor recognizes interest income based on the lease receivable. This reflects the financing nature of the transaction.",
+      "explanation_ru": "При финансовой аренде арендодатель признает процентный доход на основе дебиторской задолженности по аренде. Это отражает финансовый характер сделки.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. In an operating lease, the lessor retains the asset on its balance sheet and recognizes lease revenue, not a lease receivable.",
+          "text_ru": "Неверно. При операционной аренде арендодатель сохраняет актив в своем балансе и признает арендный доход, а не дебиторскую задолженность по аренде."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. In a finance lease, the lessor removes the leased asset from its balance sheet and recognizes a lease receivable.",
+          "text_ru": "Неверно. При финансовой аренде арендодатель удаляет арендованный актив из своего баланса и признает дебиторскую задолженность по аренде."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "lessor_accounting",
+        "ifrs",
+        "finance_lease",
+        "interest_income"
+      ]
+    },
+    {
+      "question_id": "FSA-8-Q014",
+      "original_question_number": 4855,
+      "los_id": "LOS_8a",
+      "question_text_en": "Under US GAAP, which of the following best describes the accounting treatment for a lessee in an operating lease?",
+      "question_text_ru": "Согласно US GAAP, что из следующего лучше всего описывает учетную обработку для арендатора при операционной аренде?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The lessee records a lease liability and a right-of-use asset.",
+          "text_ru": "Арендатор признает обязательство по аренде и актив в форме права пользования."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The lessee recognizes interest expense and amortization expense separately.",
+          "text_ru": "Арендатор признает процентные расходы и амортизационные расходы отдельно."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The entire lease payment is reported as a financing activity in the statement of cash flows.",
+          "text_ru": "Весь арендный платеж отражается как финансовая деятельность в отчете о движении денежных средств."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Under US GAAP, the lessee records both a lease liability and a right-of-use asset for operating leases. This reflects the lessee's obligation to make lease payments and the right to use the leased asset.",
+      "explanation_ru": "Согласно US GAAP, арендатор признает как обязательство по аренде, так и актив в форме права пользования при операционной аренде. Это отражает обязательство арендатора по осуществлению арендных платежей и право на использование арендованного актива.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. In an operating lease, the lessee does not separately recognize interest and amortization expense; instead, a single lease expense is recognized.",
+          "text_ru": "Неверно. При операционной аренде арендатор не признает процентные и амортизационные расходы отдельно; вместо этого признается единый арендный расход."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The entire lease payment is reported as an operating activity in the statement of cash flows.",
+          "text_ru": "Неверно. Весь арендный платеж отражается как операционная деятельность в отчете о движении денежных средств."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "lessee_accounting",
+        "us_gaap",
+        "operating_lease",
+        "right_of_use_asset"
+      ]
+    },
+    {
+      "question_id": "FSA-8-Q015",
+      "original_question_number": 4856,
+      "los_id": "LOS_8a",
+      "question_text_en": "ABC Ltd. enters into a lease agreement with an annual lease payment of $50,000, a lease term of 3 years, and a discount rate of 5%. The lease liability recorded at the inception of the lease is closest to:",
+      "question_text_ru": "ABC Ltd. заключает договор аренды с ежегодным арендным платежом $50,000, сроком аренды 3 года и ставкой дисконтирования 5%. Обязательство по аренде, признанное на момент начала аренды, ближе всего к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$135,750",
+          "text_ru": "$135,750"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$136,160",
+          "text_ru": "$136,160"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$137,450",
+          "text_ru": "$137,450"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "To calculate the lease liability using a BA II Plus calculator:\nN = 3 (number of periods)\nI/Y = 5 (interest rate)\nPMT = 50000 (annual lease payment)\nFV = 0 (future value)\n\nCompute the present value by pressing 'CPT' 'PV'. The calculator will display the present value (PV) as approximately $136,160.",
+      "explanation_ru": "Для расчета обязательства по аренде с использованием калькулятора BA II Plus:\nN = 3 (количество периодов)\nI/Y = 5 (процентная ставка)\nPMT = 50000 (ежегодный арендный платеж)\nFV = 0 (будущая стоимость)\n\nВычислите приведенную стоимость, нажав 'CPT' 'PV'. Калькулятор покажет приведенную стоимость (PV) приблизительно $136,160.",
+      "explanation_formula": "$PV = \\sum_{t=1}^{3} \\frac{50,000}{(1.05)^t} \\approx 136,160$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This amount is slightly less than the correct present value.",
+          "text_ru": "Неверно. Эта сумма немного меньше правильной приведенной стоимости."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This amount is higher than the correct present value.",
+          "text_ru": "Неверно. Эта сумма выше правильной приведенной стоимости."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM Worksheet",
+        "steps_en": [
+          "N = 3",
+          "I/Y = 5",
+          "PMT = 50,000",
+          "FV = 0",
+          "CPT → PV = -136,160"
+        ],
+        "steps_ru": [
+          "N = 3",
+          "I/Y = 5",
+          "PMT = 50,000",
+          "FV = 0",
+          "CPT → PV = -136,160"
+        ]
+      },
+      "difficulty": "medium",
+      "topic_tags": [
+        "lease_liability",
+        "present_value",
+        "tvm_calculation"
+      ]
+    },
+    {
+      "question_id": "FSA-8-Q016",
+      "original_question_number": 4857,
+      "los_id": "LOS_8a",
+      "question_text_en": "In the context of lease accounting under US GAAP, which of the following is least likely to be considered a finance lease criterion?",
+      "question_text_ru": "В контексте учета аренды согласно US GAAP, что из следующего наименее вероятно будет считаться критерием финансовой аренды?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The lease term covers a significant portion of the asset's remaining economic life.",
+          "text_ru": "Срок аренды покрывает значительную часть оставшегося экономического срока службы актива."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The asset can be used by the lessor after the lease term ends without significant modification.",
+          "text_ru": "Актив может быть использован арендодателем после окончания срока аренды без значительных модификаций."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The present value of the lease payments equals or exceeds substantially the fair value of the asset.",
+          "text_ru": "Приведенная стоимость арендных платежей равна или существенно превышает справедливую стоимость актива."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The asset having no alternative use to the lessor after the lease term is a finance lease criterion, not that it can be used without significant modification.",
+      "explanation_ru": "То, что актив не имеет альтернативного использования для арендодателя после окончания срока аренды, является критерием финансовой аренды, а не то, что он может быть использован без значительных модификаций.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The lease term covering a significant portion of the asset's economic life is a finance lease criterion.",
+          "text_ru": "Неверно. Срок аренды, покрывающий значительную часть экономического срока службы актива, является критерием финансовой аренды."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The present value of the lease payments equaling or exceeding the fair value is a finance lease criterion.",
+          "text_ru": "Неверно. Приведенная стоимость арендных платежей, равная или превышающая справедливую стоимость, является критерием финансовой аренды."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "lease_classification",
+        "us_gaap",
+        "finance_lease_criteria"
+      ]
+    },
+    {
+      "question_id": "FSA-8-Q017",
+      "original_question_number": 4858,
+      "los_id": "LOS_8a",
+      "question_text_en": "XYZ Corporation enters into a lease agreement with DEF Leasing for a piece of equipment. The terms of the lease are as follows: Annual lease payments of $150,000, payable at the end of each year for five years. The interest rate implicit in the lease is 7%. At the end of the lease term, the equipment will be returned to DEF Leasing. The lease does not include a purchase option. The equipment has an estimated useful life of eight years. The fair value of the equipment at the inception of the lease is $620,000.\n\nAssuming that the corporation reports under IFRS, determine whether this lease should be classified as a finance lease or an operating lease and calculate the impact on XYZ Corporation's balance sheet at the inception of the lease.",
+      "question_text_ru": "XYZ Corporation заключает договор аренды с DEF Leasing на оборудование. Условия аренды следующие: Ежегодные арендные платежи $150,000, выплачиваемые в конце каждого года в течение пяти лет. Процентная ставка, заложенная в аренде, составляет 7%. В конце срока аренды оборудование будет возвращено DEF Leasing. Аренда не включает опцион на покупку. Оборудование имеет расчетный срок полезного использования восемь лет. Справедливая стоимость оборудования на момент начала аренды составляет $620,000.\n\nПредполагая, что корпорация отчитывается по IFRS, определите, должна ли эта аренда быть классифицирована как финансовая аренда или операционная аренда, и рассчитайте влияние на баланс XYZ Corporation на момент начала аренды.",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Finance lease, recognize a lease liability only.",
+          "text_ru": "Финансовая аренда, признать только обязательство по аренде."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Operating lease, recognize lease expense only.",
+          "text_ru": "Операционная аренда, признать только арендные расходы."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Finance lease, recognize a right-of-use asset and a lease liability.",
+          "text_ru": "Финансовая аренда, признать актив в форме права пользования и обязательство по аренде."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "For a lease to be classified as a finance lease under IFRS, it must meet at least one of the following criteria:\n1. The lease transfers ownership of the asset to the lessee by the end of the lease term.\n2. The lease contains a purchase option that the lessee is reasonably certain to exercise.\n3. The lease term is for the major part of the asset's economic life.\n4. The present value of the lease payments equals or exceeds substantially all of the fair value of the asset.\n5. The asset is of such a specialized nature that only the lessee can use it without major modifications.\n\nGiven the details:\n- The lease does not transfer ownership.\n- There is no purchase option.\n- The lease term (5 years) is less than the major part of the asset's useful life (8 years).\n- The equipment is not of such a specialized nature that only the lessee can use it.\n\nCalculate the present value of the lease payments: N = 5, I/Y = 7, PMT = 150000, FV = 0, CPT PV.\nThe present value (PV) is approximately $610,000, which is 98.4% of the fair value of the asset ($620,000), meaning it meets the finance lease criterion of substantially all the fair value.\n\nRegarding the impact on the balance sheet, recognize a right-of-use (ROU) asset and recognize a lease liability of $610,000.",
+      "explanation_ru": "Для того чтобы аренда была классифицирована как финансовая аренда согласно IFRS, она должна соответствовать по крайней мере одному из следующих критериев:\n1. Аренда передает право собственности на актив арендатору к концу срока аренды.\n2. Аренда содержит опцион на покупку, который арендатор, вероятно, реализует.\n3. Срок аренды составляет большую часть экономического срока службы актива.\n4. Приведенная стоимость арендных платежей равна или существенно превышает всю справедливую стоимость актива.\n5. Актив имеет такую специализированную природу, что только арендатор может использовать его без значительных модификаций.\n\nУчитывая детали:\n- Аренда не передает право собственности.\n- Нет опциона на покупку.\n- Срок аренды (5 лет) меньше, чем значительная часть срока полезного использования актива (8 лет).\n- Оборудование не имеет такой специализированной природы, что только арендатор может его использовать.\n\nРассчитаем приведенную стоимость арендных платежей: N = 5, I/Y = 7, PMT = 150000, FV = 0, CPT PV.\nПриведенная стоимость (PV) составляет приблизительно $610,000, что составляет 98,4% справедливой стоимости актива ($620,000), что означает, что она соответствует критерию финансовой аренды — практически вся справедливая стоимость.\n\nЧто касается влияния на баланс, признайте актив в форме права пользования (ROU) и признайте обязательство по аренде в размере $610,000.",
+      "explanation_formula": "$PV = \\sum_{t=1}^{5} \\frac{150,000}{(1.07)^t} \\approx 610,000$\n$\\frac{610,000}{620,000} = 98.4\\%$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. In a finance lease, both a right-of-use asset and a lease liability must be recognized, not just the liability.",
+          "text_ru": "Неверно. При финансовой аренде должны быть признаны как актив в форме права пользования, так и обязательство по аренде, а не только обязательство."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Based on the calculation, this is a finance lease, not an operating lease, as the PV of lease payments is 98.4% of fair value.",
+          "text_ru": "Неверно. Основываясь на расчете, это финансовая аренда, а не операционная аренда, поскольку PV арендных платежей составляет 98,4% справедливой стоимости."
+        }
+      },
+      "requires_calculator": true,
+      "calculator_keystrokes": {
+        "method": "TVM Worksheet",
+        "steps_en": [
+          "N = 5",
+          "I/Y = 7",
+          "PMT = 150,000",
+          "FV = 0",
+          "CPT → PV = -610,000",
+          "PV/FV ratio = 610,000/620,000 = 98.4%"
+        ],
+        "steps_ru": [
+          "N = 5",
+          "I/Y = 7",
+          "PMT = 150,000",
+          "FV = 0",
+          "CPT → PV = -610,000",
+          "Соотношение PV/FV = 610,000/620,000 = 98,4%"
+        ]
+      },
+      "difficulty": "hard",
+      "topic_tags": [
+        "lease_classification",
+        "ifrs",
+        "finance_lease",
+        "present_value"
+      ]
+    },
+    {
+      "question_id": "FSA-8-Q018",
+      "original_question_number": 4859,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following statements is most likely correct regarding the financial reporting of defined benefit pension plans under IFRS?",
+      "question_text_ru": "Какое из следующих утверждений наиболее вероятно является правильным относительно финансовой отчетности пенсионных планов с установленными выплатами согласно IFRS?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The service cost component includes interest income on plan assets.",
+          "text_ru": "Компонент стоимости услуг включает процентный доход от активов плана."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Actuarial gains and losses are recognized as pension expenses over time.",
+          "text_ru": "Актуарные прибыли и убытки признаются как пенсионные расходы с течением времени."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The net pension asset or liability changes have three components recognized on the income statement.",
+          "text_ru": "Изменения чистого пенсионного актива или обязательства имеют три компонента, признаваемых в отчете о прибылях и убытках."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Under IFRS, the change in the net pension asset or liability each period is generally viewed as having three components, two of which (service costs and net interest expense or income) are recognized as pension expense on the income statement. The third component, remeasurements, is recognized in other comprehensive income and is not amortized into profit or loss over time.",
+      "explanation_ru": "Согласно IFRS, изменение чистого пенсионного актива или обязательства в каждом периоде обычно рассматривается как имеющее три компонента, два из которых (стоимость услуг и чистые процентные расходы или доход) признаются как пенсионные расходы в отчете о прибылях и убытках. Третий компонент, переоценки, признается в прочем совокупном доходе и не амортизируется в прибыль или убыток с течением времени.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The service cost component does not include interest income on plan assets. Instead, it represents the present value of the increase in pension benefits earned by employees during the current period.",
+          "text_ru": "Неверно. Компонент стоимости услуг не включает процентный доход от активов плана. Вместо этого он представляет собой приведенную стоимость увеличения пенсионных выплат, заработанных сотрудниками в текущем периоде."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Under IFRS, actuarial gains and losses (part of remeasurements) are recognized immediately in other comprehensive income, not as pension expenses over time.",
+          "text_ru": "Неверно. Согласно IFRS, актуарные прибыли и убытки (часть переоценок) признаются немедленно в прочем совокупном доходе, а не как пенсионные расходы с течением времени."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "defined_benefit_plan",
+        "ifrs",
+        "pension_expense_components"
+      ]
+    },
+    {
+      "question_id": "FSA-8-Q019",
+      "original_question_number": 4860,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following is least likely a component of the pension expense recognized on the income statement under US GAAP?",
+      "question_text_ru": "Что из следующего наименее вероятно является компонентом пенсионных расходов, признаваемых в отчете о прибылях и убытках согласно US GAAP?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Actuarial gains and losses.",
+          "text_ru": "Актуарные прибыли и убытки."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Service cost for the period.",
+          "text_ru": "Стоимость услуг за период."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Interest expense on the pension obligation.",
+          "text_ru": "Процентные расходы по пенсионному обязательству."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Under US GAAP, actuarial gains and losses are initially recognized in other comprehensive income and then amortized over time into pension expense, permitting companies to 'smooth' the impact on pension expense over time for these elements.",
+      "explanation_ru": "Согласно US GAAP, актуарные прибыли и убытки первоначально признаются в прочем совокупном доходе, а затем амортизируются с течением времени в пенсионные расходы, позволяя компаниям 'сглаживать' влияние на пенсионные расходы с течением времени для этих элементов.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Service cost for the period is a component of the pension expense recognized on the income statement.",
+          "text_ru": "Неверно. Стоимость услуг за период является компонентом пенсионных расходов, признаваемых в отчете о прибылях и убытках."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Interest expense on the pension obligation is also a component of the pension expense recognized on the income statement.",
+          "text_ru": "Неверно. Процентные расходы по пенсионному обязательству также являются компонентом пенсионных расходов, признаваемых в отчете о прибылях и убытках."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "defined_benefit_plan",
+        "us_gaap",
+        "pension_expense",
+        "actuarial_gains_losses"
+      ]
+    },
+    {
+      "question_id": "FSA-8-Q020",
+      "original_question_number": 4861,
+      "los_id": "LOS_8b",
+      "question_text_en": "Which of the following best describes the accounting treatment for defined contribution plans?",
+      "question_text_ru": "Что из следующего лучше всего описывает учетную обработку пенсионных планов с установленными взносами?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The employer records a liability for the estimated future pension benefits.",
+          "text_ru": "Работодатель признает обязательство по расчетным будущим пенсионным выплатам."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The employer's obligation is limited to the contributions it has agreed to make.",
+          "text_ru": "Обязательство работодателя ограничено взносами, которые он согласился внести."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The employer must make assumptions about future salary levels and years of service.",
+          "text_ru": "Работодатель должен делать предположения о будущих уровнях заработной платы и годах службы."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "In a defined contribution plan, the employer's obligation is limited to the contributions it has agreed to make to the plan. The employer records an expense for the amount of its contribution in each period and does not have further obligations regarding the amount that will be available to employees upon retirement.",
+      "explanation_ru": "В пенсионном плане с установленными взносами обязательство работодателя ограничено взносами, которые он согласился внести в план. Работодатель признает расход на сумму своего взноса в каждом периоде и не имеет дальнейших обязательств относительно суммы, которая будет доступна сотрудникам при выходе на пенсию.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The employer does not record a liability for the estimated future pension benefits in a defined contribution plan.",
+          "text_ru": "Неверно. Работодатель не признает обязательство по расчетным будущим пенсионным выплатам в пенсионном плане с установленными взносами."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The employer does not need to make assumptions about future salary levels and years of service in a defined contribution plan.",
+          "text_ru": "Неверно. Работодателю не нужно делать предположения о будущих уровнях заработной платы и годах службы в пенсионном плане с установленными взносами."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "defined_contribution_plan",
+        "pension_accounting"
       ]
     }
   ]
