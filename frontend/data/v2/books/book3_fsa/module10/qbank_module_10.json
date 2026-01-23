@@ -7,7 +7,7 @@
     "module_id": 10,
     "module_name": "Financial Reporting Quality",
     "module_name_ru": "Качество финансовой отчетности",
-    "total_questions": 20,
+    "total_questions": 30,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -1082,6 +1082,549 @@
         "bad_debt_expense",
         "allowance_for_doubtful_accounts",
         "earnings_management"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q021",
+      "original_question_number": 2388,
+      "los_id": "LOS_10f",
+      "question_text_en": "If goodwill is an intangible asset and cannot be depreciated, then which of the following assumptions can the management use to increase the earnings in a specific period?",
+      "question_text_ru": "Если гудвилл является нематериальным активом и не может амортизироваться, то какое из следующих допущений может использовать руководство для увеличения прибыли в определенном периоде?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Delaying the impairment charge for goodwill.",
+          "text_ru": "Отсрочка признания обесценения гудвилла."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Delaying the amortization charge on goodwill.",
+          "text_ru": "Отсрочка начисления амортизации гудвилла."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Recognizing the amortization charge on goodwill.",
+          "text_ru": "Признание начисления амортизации гудвилла."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Delaying the impairment charge for goodwill allows management to increase earnings in a specific period. Goodwill, as an intangible asset, is not subject to depreciation or amortization under accounting standards. Instead, it is subject to an impairment test, which assesses whether the carrying value of goodwill exceeds its recoverable amount. By postponing this impairment charge, management can temporarily avoid recognizing this expense, thereby artificially inflating earnings for that period.",
+      "explanation_ru": "Отсрочка признания обесценения гудвилла позволяет руководству увеличить прибыль в определенном периоде. Гудвилл как нематериальный актив не подлежит амортизации или начислению по стандартам бухгалтерского учета. Вместо этого он подлежит тесту на обесценение, который оценивает, превышает ли балансовая стоимость гудвилла его возмещаемую стоимость. Откладывая это признание обесценения, руководство может временно избежать признания этих расходов, тем самым искусственно завышая прибыль за этот период.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Goodwill is not amortized under current accounting standards, so delaying amortization is not applicable.",
+          "text_ru": "Гудвилл не амортизируется в соответствии с текущими стандартами бухгалтерского учета, поэтому отсрочка амортизации неприменима."
+        },
+        "opt_c": {
+          "text_en": "Recognizing amortization would decrease earnings, not increase them, and goodwill is not amortized under current standards.",
+          "text_ru": "Признание амортизации уменьшит прибыль, а не увеличит ее, и гудвилл не амортизируется по текущим стандартам."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "goodwill_impairment",
+        "earnings_management",
+        "intangible_assets"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q022",
+      "original_question_number": 2390,
+      "los_id": "LOS_10c",
+      "question_text_en": "The strategy of deferring reported earnings through choosing conservative financial reporting standards so that earnings can be utilized later, is most likely known as:",
+      "question_text_ru": "Стратегия отсрочки отчетной прибыли путем выбора консервативных стандартов финансовой отчетности, чтобы прибыль можно было использовать позже, наиболее вероятно известна как:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Earnings smoothing.",
+          "text_ru": "Сглаживание прибыли."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Putting earnings in a cookie jar.",
+          "text_ru": "Помещение прибыли в банку с печеньем."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Putting earnings in restrictive reserves.",
+          "text_ru": "Размещение прибыли в ограничительных резервах."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The strategy of deferring reported earnings by adopting conservative financial reporting standards, allowing for the utilization of these earnings at a later time, is most accurately described as 'putting earnings in a cookie jar.' This practice involves the deliberate understatement of earnings in some periods to create reserves that can be used to smooth earnings in future periods.",
+      "explanation_ru": "Стратегия отсрочки отчетной прибыли путем принятия консервативных стандартов финансовой отчетности, позволяющая использовать эту прибыль позднее, наиболее точно описывается как 'помещение прибыли в банку с печеньем.' Эта практика включает преднамеренное занижение прибыли в некоторых периодах для создания резервов, которые могут быть использованы для сглаживания прибыли в будущих периодах.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Earnings smoothing refers to the broader practice of manipulating financial records to present a more consistent set of financial results over time, while putting earnings in a cookie jar is a specific tactic.",
+          "text_ru": "Сглаживание прибыли относится к более широкой практике манипулирования финансовыми записями для представления более последовательного набора финансовых результатов с течением времени, в то время как помещение прибыли в банку с печеньем является конкретной тактикой."
+        },
+        "opt_c": {
+          "text_en": "Restrictive reserves are formal allocations bound by specific restrictions or purposes, not typically used to manage earnings or smooth financial performance.",
+          "text_ru": "Ограничительные резервы - это формальные распределения, связанные конкретными ограничениями или целями, обычно не используемые для управления прибылью или сглаживания финансовых показателей."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "cookie_jar_reserves",
+        "conservative_accounting",
+        "earnings_management"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q023",
+      "original_question_number": 2391,
+      "los_id": "LOS_10e",
+      "question_text_en": "Which of the following are inaccurate statement(s) regarding auditors?\n\nStatement I. An auditor's unqualified opinion can provide reasonable assurance that financial statements are fairly presented.\n\nStatement II. An auditor's unqualified opinion can assure that the firm is GAAP compliant or not.\n\nStatement III. An auditor's unqualified opinion can assure that the firm is not engaged in fraud.",
+      "question_text_ru": "Какие из следующих утверждений являются неточными в отношении аудиторов?\n\nУтверждение I. Безусловное аудиторское заключение может обеспечить разумную уверенность в том, что финансовая отчетность представлена достоверно.\n\nУтверждение II. Безусловное аудиторское заключение может гарантировать, что фирма соблюдает или не соблюдает GAAP.\n\nУтверждение III. Безусловное аудиторское заключение может гарантировать, что фирма не занимается мошенничеством.",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Statement I.",
+          "text_ru": "Утверждение I."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Statement III.",
+          "text_ru": "Утверждение III."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Statements II and III.",
+          "text_ru": "Утверждения II и III."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "An auditor's unqualified opinion, also known as a 'clean opinion', indicates that the financial statements present a fair representation of the company's financial performance in accordance with relevant accounting standards, such as GAAP. The auditor has performed an audit and found no material misstatements in the financial statements, but the opinion is not a guarantee that the financial statements are completely error-free or that fraud has not occurred.",
+      "explanation_ru": "Безусловное аудиторское заключение, также известное как 'чистое заключение', указывает на то, что финансовая отчетность представляет достоверное представление о финансовых показателях компании в соответствии с соответствующими стандартами бухгалтерского учета, такими как GAAP. Аудитор провел аудит и не обнаружил существенных искажений в финансовой отчетности, но заключение не является гарантией того, что финансовая отчетность полностью свободна от ошибок или что мошенничество не произошло.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Statement I is correct. An auditor's unqualified opinion does provide reasonable assurance that financial statements are fairly presented.",
+          "text_ru": "Утверждение I верно. Безусловное аудиторское заключение действительно обеспечивает разумную уверенность в том, что финансовая отчетность представлена достоверно."
+        },
+        "opt_c": {
+          "text_en": "Statement II is actually correct - an unqualified opinion does indicate GAAP compliance. Only Statement III is inaccurate.",
+          "text_ru": "Утверждение II на самом деле верно - безусловное заключение указывает на соблюдение GAAP. Только утверждение III неточно."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "audit_opinion",
+        "GAAP_compliance",
+        "fraud_detection"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q024",
+      "original_question_number": 2395,
+      "los_id": "LOS_10h",
+      "question_text_en": "Which of the following is least likely a warning sign in the revenue recognition activity of a firm?",
+      "question_text_ru": "Что из следующего с наименьшей вероятностью является предупреждающим знаком в деятельности по признанию выручки фирмы?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Use of credit sales.",
+          "text_ru": "Использование продаж в кредит."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Use of barter transactions.",
+          "text_ru": "Использование бартерных сделок."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Decreasing trend in receivables turnover.",
+          "text_ru": "Снижающаяся тенденция оборачиваемости дебиторской задолженности."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Credit sales are a common business practice across various industries, allowing companies to sell their products or services to customers on credit terms. While excessive reliance on credit sales can lead to issues with cash flow and earnings quality if not managed properly, the mere use of credit sales is not inherently a warning sign.",
+      "explanation_ru": "Продажи в кредит являются обычной бизнес-практикой в различных отраслях, позволяя компаниям продавать свои продукты или услуги клиентам на кредитных условиях. Хотя чрезмерная зависимость от продаж в кредит может привести к проблемам с денежным потоком и качеством прибыли, если не управлять должным образом, само использование продаж в кредит не является по своей сути предупреждающим знаком.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "The value assigned to goods or services exchanged in barter transactions can be subjective and potentially overestimated, leading to inflated revenue figures.",
+          "text_ru": "Стоимость, присвоенная товарам или услугам, обмененным в бартерных сделках, может быть субъективной и потенциально завышенной, что приводит к завышенным показателям выручки."
+        },
+        "opt_c": {
+          "text_en": "A decreasing trend in receivables turnover indicates that a company is taking longer to collect its receivables, which could be a sign of aggressive revenue recognition practices.",
+          "text_ru": "Снижающаяся тенденция оборачиваемости дебиторской задолженности указывает на то, что компания тратит больше времени на взыскание дебиторской задолженности, что может быть признаком агрессивных практик признания выручки."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "revenue_recognition",
+        "credit_sales",
+        "warning_signs"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q025",
+      "original_question_number": 2396,
+      "los_id": "LOS_10h",
+      "question_text_en": "Which of the following is most likely viewed as the warning sign for fraud or low-quality earnings?",
+      "question_text_ru": "Что из следующего наиболее вероятно рассматривается как предупреждающий знак мошенничества или низкокачественной прибыли?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "A firm's net income is greater than the amount of operating cash flow.",
+          "text_ru": "Чистая прибыль фирмы превышает величину операционного денежного потока."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "A firm's amount of operating cash flow is greater than the net income.",
+          "text_ru": "Величина операционного денежного потока фирмы превышает чистую прибыль."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "A firm's net income is greater than the amount of cash flow from investing activities.",
+          "text_ru": "Чистая прибыль фирмы превышает величину денежного потока от инвестиционной деятельности."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "When a firm's net income is greater than its operating cash flow, it can be a warning sign of potential fraud or low-quality earnings. This discrepancy suggests that the company is reporting higher profits on its income statement than the actual cash it is generating from its core business operations. High-quality earnings are typically supported by strong cash flow from operations.",
+      "explanation_ru": "Когда чистая прибыль фирмы превышает ее операционный денежный поток, это может быть предупреждающим знаком потенциального мошенничества или низкокачественной прибыли. Это несоответствие предполагает, что компания сообщает более высокую прибыль в своем отчете о прибылях и убытках, чем фактические денежные средства, которые она генерирует от своей основной деятельности. Высококачественная прибыль обычно поддерживается сильным денежным потоком от операций.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "When operating cash flow exceeds net income, it is generally considered a positive indicator suggesting efficient conversion of earnings into cash.",
+          "text_ru": "Когда операционный денежный поток превышает чистую прибыль, это обычно считается положительным индикатором, указывающим на эффективное преобразование прибыли в денежные средства."
+        },
+        "opt_c": {
+          "text_en": "Cash flow from investing activities is not directly related to operational profitability and does not inherently signal fraud or low-quality earnings.",
+          "text_ru": "Денежный поток от инвестиционной деятельности не связан напрямую с операционной прибыльностью и не указывает по своей сути на мошенничество или низкокачественную прибыль."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "cash_flow_analysis",
+        "earnings_quality",
+        "warning_signs"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q026",
+      "original_question_number": 2398,
+      "los_id": "LOS_10b",
+      "question_text_en": "An analyst gathered the following information regarding the accounting practices of the Sun Corp., Moon Corp., and Star Corp. Using his analysis provided in the following table, where will Moon Corp. stand on the quality spectrum?\n\nSun Corp.: Adheres to US GAAP, Accounting choices show no bias, Provides adequate earnings\n\nMoon Corp.: Adheres to US GAAP with some deviations, Accounting choices show an aggressive bias, Provides adequate earnings\n\nStar Corp.: Adheres to US GAAP, Accounting choices show a conservative bias, Provides inadequate earnings",
+      "question_text_ru": "Аналитик собрал следующую информацию об учетных практиках Sun Corp., Moon Corp. и Star Corp. Используя его анализ, представленный в следующей таблице, где будет находиться Moon Corp. в спектре качества?\n\nSun Corp.: Соблюдает US GAAP, Учетные выборы не показывают предвзятости, Предоставляет адекватную прибыль\n\nMoon Corp.: Соблюдает US GAAP с некоторыми отклонениями, Учетные выборы показывают агрессивную предвзятость, Предоставляет адекватную прибыль\n\nStar Corp.: Соблюдает US GAAP, Учетные выборы показывают консервативную предвзятость, Предоставляет неадекватную прибыль",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "",
+          "Sun Corp.",
+          "Moon Corp.",
+          "Star Corp."
+        ],
+        "headers_ru": [
+          "",
+          "Sun Corp.",
+          "Moon Corp.",
+          "Star Corp."
+        ],
+        "rows": [
+          [
+            "GAAP Adherence",
+            "Adheres to US GAAP",
+            "Adheres to US GAAP with some deviations",
+            "Adheres to US GAAP"
+          ],
+          [
+            "Accounting Bias",
+            "No bias",
+            "Aggressive bias",
+            "Conservative bias"
+          ],
+          [
+            "Earnings",
+            "Adequate",
+            "Adequate",
+            "Inadequate"
+          ]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Moon Corp. stands at the lowest place in the quality spectrum of financial reporting.",
+          "text_ru": "Moon Corp. находится в самом низком месте в спектре качества финансовой отчетности."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Moon Corp. stands at the highest place in the quality spectrum of financial reporting.",
+          "text_ru": "Moon Corp. находится в самом высоком месте в спектре качества финансовой отчетности."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Moon Corp. stands in the middle of Sun Corp. and Star Corp. in the quality spectrum of financial reporting.",
+          "text_ru": "Moon Corp. находится посередине между Sun Corp. и Star Corp. в спектре качества финансовой отчетности."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Moon Corp.'s position on the quality spectrum can be determined by analyzing the adherence to GAAP, the bias in accounting choices, and the adequacy of earnings. Moon Corp. adheres to US GAAP with some deviations, exhibits an aggressive bias in accounting choices, and provides adequate earnings. These characteristics suggest a lower quality of financial reporting compared to firms that strictly adhere to GAAP without deviations and exhibit no or conservative bias.",
+      "explanation_ru": "Положение Moon Corp. в спектре качества может быть определено путем анализа соблюдения GAAP, предвзятости в учетных выборах и адекватности прибыли. Moon Corp. соблюдает US GAAP с некоторыми отклонениями, проявляет агрессивную предвзятость в учетных выборах и предоставляет адекватную прибыль. Эти характеристики предполагают более низкое качество финансовой отчетности по сравнению с фирмами, которые строго соблюдают GAAP без отклонений и не проявляют или проявляют консервативную предвзятость.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Standing at the highest place would require strict adherence to GAAP without deviations, unbiased or conservative accounting choices, and provision of adequate earnings.",
+          "text_ru": "Нахождение в самом высоком месте потребовало бы строгого соблюдения GAAP без отклонений, непредвзятых или консервативных учетных выборов и предоставления адекватной прибыли."
+        },
+        "opt_c": {
+          "text_en": "While Moon Corp. provides adequate earnings, the deviations from GAAP and aggressive bias significantly impact the quality of its financial reporting, placing it lower than both Sun Corp. and Star Corp.",
+          "text_ru": "Хотя Moon Corp. предоставляет адекватную прибыль, отклонения от GAAP и агрессивная предвзятость значительно влияют на качество ее финансовой отчетности, размещая ее ниже, чем Sun Corp. и Star Corp."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": [
+        "financial_reporting_quality",
+        "quality_spectrum",
+        "aggressive_accounting"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q027",
+      "original_question_number": 2400,
+      "los_id": "LOS_10h",
+      "question_text_en": "Which of the following is least likely a warning sign of fraudulent accounting practices?",
+      "question_text_ru": "Что из следующего с наименьшей вероятностью является предупреждающим знаком мошеннических учетных практик?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Declining the amount of goodwill for impairment.",
+          "text_ru": "Снижение суммы гудвилла для обесценения."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Recognizing a greater portion of earnings in the fourth quarter.",
+          "text_ru": "Признание большей части прибыли в четвертом квартале."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Growing the business by acquiring a large number of businesses.",
+          "text_ru": "Развитие бизнеса путем приобретения большого количества предприятий."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Declining the amount of goodwill for impairment is not typically considered a warning sign of fraudulent accounting practices. Goodwill impairment occurs when the recorded value of goodwill on a company's balance sheet exceeds its fair value. If a company determines that the value of goodwill has declined and recognizes an impairment charge, it is generally an indication of a decline in the value of the company's assets or a change in market conditions.",
+      "explanation_ru": "Снижение суммы гудвилла для обесценения обычно не считается предупреждающим знаком мошеннических учетных практик. Обесценение гудвилла происходит, когда учетная стоимость гудвилла в балансе компании превышает его справедливую стоимость. Если компания определяет, что стоимость гудвилла снизилась, и признает убыток от обесценения, это обычно является указанием на снижение стоимости активов компании или изменение рыночных условий.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Recognizing a greater portion of earnings in the fourth quarter can indicate earnings management or manipulation, where a company intentionally alters its financial results to meet certain targets.",
+          "text_ru": "Признание большей части прибыли в четвертом квартале может указывать на управление или манипулирование прибылью, когда компания намеренно изменяет свои финансовые результаты для достижения определенных целей."
+        },
+        "opt_c": {
+          "text_en": "Rapid growth through numerous acquisitions can be a warning sign if the acquisitions are used to manipulate financial statements through fraudulent transactions or improper accounting treatments.",
+          "text_ru": "Быстрый рост за счет многочисленных приобретений может быть предупреждающим знаком, если приобретения используются для манипулирования финансовой отчетностью посредством мошеннических сделок или неправильного учета."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "goodwill_impairment",
+        "fraud_detection",
+        "warning_signs"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q028",
+      "original_question_number": 4273,
+      "los_id": "LOS_10d",
+      "question_text_en": "Which of the following least likely presents an opportunity for management to issue low-quality financial reports?",
+      "question_text_ru": "Что из следующего с наименьшей вероятностью представляет возможность для руководства выпускать низкокачественные финансовые отчеты?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Poor internal controls.",
+          "text_ru": "Слабый внутренний контроль."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Ineffective board of directors.",
+          "text_ru": "Неэффективный совет директоров."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Pressure to achieve some performance level.",
+          "text_ru": "Давление для достижения определенного уровня производительности."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "The opportunity for management to issue low-quality financial reports is least likely presented by the pressure to achieve some performance level. This is because the pressure to meet certain performance benchmarks, while it may serve as a motive or incentive for manipulating financial reports, does not inherently provide the means or opportunity to do so. The ability to issue low-quality financial reports is more directly facilitated by weaknesses in internal controls or governance structures.",
+      "explanation_ru": "Возможность для руководства выпускать низкокачественные финансовые отчеты с наименьшей вероятностью представлена давлением для достижения определенного уровня производительности. Это потому, что давление для соответствия определенным показателям производительности, хотя может служить мотивом или стимулом для манипулирования финансовыми отчетами, не предоставляет по своей сути средства или возможности для этого. Способность выпускать низкокачественные финансовые отчеты более непосредственно облегчается слабостями во внутреннем контроле или структурах управления.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Poor internal controls are a direct enabler for the issuance of low-quality financial reports as they create openings for financial misreporting or manipulation.",
+          "text_ru": "Слабый внутренний контроль является прямым фактором, способствующим выпуску низкокачественных финансовых отчетов, поскольку он создает возможности для финансового искажения или манипуляции."
+        },
+        "opt_b": {
+          "text_en": "An ineffective board of directors presents a significant opportunity for management to issue low-quality financial reports due to lack of oversight and control.",
+          "text_ru": "Неэффективный совет директоров представляет значительную возможность для руководства выпускать низкокачественные финансовые отчеты из-за отсутствия надзора и контроля."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "fraud_triangle",
+        "opportunity",
+        "internal_controls"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q029",
+      "original_question_number": 4909,
+      "los_id": "LOS_10a",
+      "question_text_en": "Which of the following best describes the relationship between financial reporting quality and earnings quality?",
+      "question_text_ru": "Что из следующего лучше всего описывает взаимосвязь между качеством финансовой отчетности и качеством прибыли?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Low earnings quality guarantees low financial reporting quality.",
+          "text_ru": "Низкое качество прибыли гарантирует низкое качество финансовой отчетности."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Financial reporting quality and earnings quality are entirely independent of each other.",
+          "text_ru": "Качество финансовой отчетности и качество прибыли полностью независимы друг от друга."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "High financial reporting quality enables a more accurate assessment of earnings quality.",
+          "text_ru": "Высокое качество финансовой отчетности позволяет более точно оценить качество прибыли."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "High financial reporting quality enables a more accurate assessment of earnings quality because it ensures that the reported financial information is reliable and reflects the true economic activities of the company. When financial reports are of high quality, they provide relevant, complete, and neutral information, which allows analysts and investors to make well-informed judgments about the sustainability and reliability of the company's earnings.",
+      "explanation_ru": "Высокое качество финансовой отчетности позволяет более точно оценить качество прибыли, поскольку гарантирует, что представленная финансовая информация является надежной и отражает истинную экономическую деятельность компании. Когда финансовые отчеты высокого качества, они предоставляют релевантную, полную и нейтральную информацию, которая позволяет аналитикам и инвесторам принимать обоснованные решения относительно устойчивости и надежности прибыли компании.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Low earnings quality does not necessarily guarantee low financial reporting quality. While poor earnings quality may indicate issues, it is still possible for financial reports to be of high quality if they accurately reflect these issues.",
+          "text_ru": "Низкое качество прибыли не обязательно гарантирует низкое качество финансовой отчетности. Хотя низкое качество прибыли может указывать на проблемы, все еще возможно, что финансовые отчеты будут высокого качества, если они точно отражают эти проблемы."
+        },
+        "opt_b": {
+          "text_en": "Financial reporting quality and earnings quality are interrelated. High financial reporting quality provides the foundation for assessing earnings quality.",
+          "text_ru": "Качество финансовой отчетности и качество прибыли взаимосвязаны. Высокое качество финансовой отчетности обеспечивает основу для оценки качества прибыли."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "financial_reporting_quality",
+        "earnings_quality",
+        "relationship"
+      ]
+    },
+    {
+      "question_id": "FSA-10-Q030",
+      "original_question_number": 4910,
+      "los_id": "LOS_10a",
+      "question_text_en": "An analyst observes that a company's financial reports are highly detailed and comply with all standards, yet the company's earnings fluctuate widely each year. What is the most likely implication of this observation?",
+      "question_text_ru": "Аналитик наблюдает, что финансовые отчеты компании очень подробны и соответствуют всем стандартам, однако прибыль компании широко колеблется каждый год. Каково наиболее вероятное значение этого наблюдения?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The company's financial reporting quality is low.",
+          "text_ru": "Качество финансовой отчетности компании низкое."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Both financial reporting quality and earnings quality are high.",
+          "text_ru": "И качество финансовой отчетности, и качество прибыли высокие."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The company's earnings quality may be low despite high financial reporting quality.",
+          "text_ru": "Качество прибыли компании может быть низким, несмотря на высокое качество финансовой отчетности."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "The company's earnings quality may be low despite high financial reporting quality, as wide fluctuations in earnings can indicate instability or reliance on non-recurring activities. High financial reporting quality ensures that the reports are comprehensive, accurate, and comply with relevant standards. However, earnings quality focuses on the sustainability and reliability of the earnings themselves. Significant volatility in earnings suggests that the company's financial performance may be influenced by non-recurring events or unpredictable elements.",
+      "explanation_ru": "Качество прибыли компании может быть низким, несмотря на высокое качество финансовой отчетности, поскольку широкие колебания прибыли могут указывать на нестабильность или зависимость от нерегулярных действий. Высокое качество финансовой отчетности гарантирует, что отчеты являются всеобъемлющими, точными и соответствуют соответствующим стандартам. Однако качество прибыли фокусируется на устойчивости и надежности самой прибыли. Значительная волатильность прибыли предполагает, что финансовые показатели компании могут быть подвержены влиянию нерегулярных событий или непредсказуемых элементов.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Detailed and compliant reports indicate high financial reporting quality, not low.",
+          "text_ru": "Подробные и соответствующие отчеты указывают на высокое качество финансовой отчетности, а не низкое."
+        },
+        "opt_b": {
+          "text_en": "High earnings quality is characterized by stable and sustainable earnings. While financial reporting quality is high, the earnings quality may not be high if earnings are unstable.",
+          "text_ru": "Высокое качество прибыли характеризуется стабильной и устойчивой прибылью. Хотя качество финансовой отчетности высокое, качество прибыли может быть невысоким, если прибыль нестабильна."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "financial_reporting_quality",
+        "earnings_quality",
+        "earnings_volatility"
       ]
     }
   ]
