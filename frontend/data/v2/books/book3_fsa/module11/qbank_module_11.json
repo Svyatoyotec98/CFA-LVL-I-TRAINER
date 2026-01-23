@@ -1,0 +1,2684 @@
+{
+  "metadata": {
+    "book_id": 3,
+    "book_code": "FSA",
+    "book_name": "Financial Statement Analysis",
+    "book_name_ru": "Анализ финансовой отчетности",
+    "module_id": 11,
+    "module_name": "Financial Analysis Techniques",
+    "module_name_ru": "Техники финансового анализа",
+    "total_questions": 41,
+    "version": "2.0",
+    "source": "AnalystPrep QBank"
+  },
+  "questions": [
+    {
+      "question_id": "FSA-11-Q001",
+      "original_question_number": 500,
+      "los_id": "LOS_11b",
+      "question_text_en": "An analyst gathered the following information for a small company reporting under IFRS:\n\nRevenue: $600,000\nCost of sales: ($120,000)\nAverage inventory: $40,000\nAverage Trade Receivables: $60,000\n\nAssuming that the number of days in a year is to be assumed as 360, the days of sales outstanding (DSO) is closest to:",
+      "question_text_ru": "Аналитик собрал следующую информацию по небольшой компании, отчитывающейся по МСФО:\n\nВыручка: $600,000\nСебестоимость продаж: ($120,000)\nСредние запасы: $40,000\nСредняя торговая дебиторская задолженность: $60,000\n\nПредполагая, что количество дней в году равно 360, период оборота дебиторской задолженности (DSO) наиболее близок к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "3",
+          "text_ru": "3"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "10",
+          "text_ru": "10"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "36",
+          "text_ru": "36"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "DSO is given by: Days of Sales Outstanding = Number of days in a period / Receivable Turnover.\n\nWhere Receivables Turnover = Revenue / Average receivables = 600,000 / 60,000 = 10.\n\nTherefore, DSO = 360 / 10 = 36 days.",
+      "explanation_ru": "DSO рассчитывается как: Период оборота дебиторской задолженности = Количество дней в периоде / Оборачиваемость дебиторской задолженности.\n\nГде Оборачиваемость дебиторской задолженности = Выручка / Средняя дебиторская задолженность = 600,000 / 60,000 = 10.\n\nСледовательно, DSO = 360 / 10 = 36 дней.",
+      "explanation_formula": "$\\text{DSO} = \\frac{\\text{Number of days}}{\\text{Receivable Turnover}} = \\frac{\\text{Number of days}}{\\frac{\\text{Revenue}}{\\text{Average receivables}}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. It represents the inventory turnover ratio.",
+          "text_ru": "Неверно. Это представляет коэффициент оборачиваемости запасов."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. It represents the receivable turnover ratio.",
+          "text_ru": "Неверно. Это представляет коэффициент оборачиваемости дебиторской задолженности."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "activity_ratios",
+        "dso",
+        "receivables_turnover"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q002",
+      "original_question_number": 501,
+      "los_id": "LOS_11b",
+      "question_text_en": "Which of the following is least likely a possible root cause for a reduction in the inventory turnover ratio?",
+      "question_text_ru": "Что из следующего наименее вероятно является возможной первопричиной снижения коэффициента оборачиваемости запасов?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Change in fashion.",
+          "text_ru": "Изменение моды."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Obsolescence of technology.",
+          "text_ru": "Устаревание технологии."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Increase in the number of distributors.",
+          "text_ru": "Увеличение числа дистрибьюторов."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "An increase in the number of distributors is least likely to be a direct cause of a reduction in the inventory turnover ratio. The inventory turnover ratio is a measure of how quickly a company sells its inventory within a given period. An increase in the number of distributors typically aims to expand the market reach and improve the sales volume, which, in theory, should lead to a higher or maintained inventory turnover ratio if the additional distribution channels are effective.",
+      "explanation_ru": "Увеличение количества дистрибьюторов наименее вероятно будет прямой причиной снижения коэффициента оборачиваемости запасов. Коэффициент оборачиваемости запасов - это мера того, как быстро компания продает свои запасы в течение определенного периода. Увеличение количества дистрибьюторов обычно направлено на расширение охвата рынка и увеличение объема продаж, что, теоретически, должно привести к более высокому или сохраненному коэффициенту оборачиваемости запасов, если дополнительные каналы дистрибуции эффективны.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. A change in fashion can significantly impact the inventory turnover ratio, especially in industries sensitive to trends, such as apparel and accessories. When products fall out of fashion, their demand decreases, leading to slower sales and an accumulation of inventory.",
+          "text_ru": "Неверно. Изменение моды может значительно повлиять на коэффициент оборачиваемости запасов, особенно в отраслях, чувствительных к трендам, таких как одежда и аксессуары. Когда продукты выходят из моды, их спрос снижается, что приводит к более медленным продажам и накоплению запасов."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. The obsolescence of technology is another factor that can lead to a reduction in the inventory turnover ratio. In industries where technological advancements are rapid, products can quickly become outdated. As newer products enter the market, the older inventory's demand diminishes, leading to slower sales.",
+          "text_ru": "Неверно. Устаревание технологии - еще один фактор, который может привести к снижению коэффициента оборачиваемости запасов. В отраслях, где технологические достижения происходят быстро, продукты могут быстро устареть. По мере выхода на рынок новых продуктов, спрос на старые запасы уменьшается, что приводит к более медленным продажам."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "activity_ratios",
+        "inventory_turnover"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q003",
+      "original_question_number": 502,
+      "los_id": "LOS_11b",
+      "question_text_en": "For a hypothetical company, the working capital turnover and fixed asset turnover ratios are 4 and 6, respectively. Moreover, the revenue for the company is estimated at $120,000. The average working capital for the company is closest to:",
+      "question_text_ru": "Для гипотетической компании коэффициенты оборачиваемости оборотного капитала и оборачиваемости основных средств составляют 4 и 6 соответственно. Более того, выручка компании оценивается в $120,000. Средний оборотный капитал компании наиболее близок к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$20,000",
+          "text_ru": "$20,000"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$30,000",
+          "text_ru": "$30,000"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$45,000",
+          "text_ru": "$45,000"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The working capital turnover is defined as: Working capital turnover = Revenue / Average working capital.\n\nIn this case, we have: 4 = 120,000 / Average Working capital.\n\nTherefore, Average working capital = 120,000 / 4 = $30,000.",
+      "explanation_ru": "Оборачиваемость оборотного капитала определяется как: Оборачиваемость оборотного капитала = Выручка / Средний оборотный капитал.\n\nВ данном случае: 4 = 120,000 / Средний оборотный капитал.\n\nСледовательно, Средний оборотный капитал = 120,000 / 4 = $30,000.",
+      "explanation_formula": "$\\text{Working capital turnover} = \\frac{\\text{Revenue}}{\\text{Average working capital}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. It represents the average net fixed assets, calculated using the fixed asset turnover ratio.",
+          "text_ru": "Неверно. Это представляет средние чистые основные средства, рассчитанные с использованием коэффициента оборачиваемости основных средств."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It represents the sum of the average working capital and the average net fixed assets.",
+          "text_ru": "Неверно. Это представляет сумму среднего оборотного капитала и средних чистых основных средств."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "activity_ratios",
+        "working_capital_turnover"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q004",
+      "original_question_number": 504,
+      "los_id": "LOS_11b",
+      "question_text_en": "Which of the following is the most accurate description of the defensive interval ratio?",
+      "question_text_ru": "Какое из следующих описаний коэффициента защитного интервала является наиболее точным?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The defensive interval ratio measures the duration for which the daily cash requirements can be met from the current liabilities.",
+          "text_ru": "Коэффициент защитного интервала измеряет продолжительность, в течение которой ежедневные денежные требования могут быть удовлетворены за счет текущих обязательств."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The defensive interval ratio measures the duration for which the daily cash requirements of a period can be met from the existing liquid assets.",
+          "text_ru": "Коэффициент защитного интервала измеряет продолжительность, в течение которой ежедневные денежные требования периода могут быть удовлетворены за счет существующих ликвидных активов."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The defensive interval ratio measures the duration for which the daily cash requirements of a period can be met from the expected liquid assets at the end of the period.",
+          "text_ru": "Коэффициент защитного интервала измеряет продолжительность, в течение которой ежедневные денежные требования периода могут быть удовлетворены за счет ожидаемых ликвидных активов в конце периода."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The defensive interval ratio is a financial metric that measures the number of days a company can continue to operate using only its existing liquid assets without needing to secure additional financing or convert long-term assets into cash. This ratio is crucial for assessing a company's short-term financial resilience, particularly in times of financial uncertainty or when access to external funding may be restricted.",
+      "explanation_ru": "Коэффициент защитного интервала - это финансовый показатель, который измеряет количество дней, в течение которых компания может продолжать работать, используя только существующие ликвидные активы, без необходимости получения дополнительного финансирования или конвертации долгосрочных активов в денежные средства. Этот коэффициент имеет решающее значение для оценки краткосрочной финансовой устойчивости компании, особенно во времена финансовой неопределенности или когда доступ к внешнему финансированию может быть ограничен.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The defensive interval ratio considers the 'existing' liquid assets and not the current liabilities.",
+          "text_ru": "Неверно. Коэффициент защитного интервала учитывает 'существующие' ликвидные активы, а не текущие обязательства."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The defensive interval ratio considers the 'existing' liquid assets and not 'expected' liquid assets at the end of the period.",
+          "text_ru": "Неверно. Коэффициент защитного интервала учитывает 'существующие' ликвидные активы, а не 'ожидаемые' ликвидные активы в конце периода."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "liquidity_ratios",
+        "defensive_interval"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q005",
+      "original_question_number": 506,
+      "los_id": "LOS_11d",
+      "question_text_en": "Calculate the leverage from the following data:\n\nReturn on equity: 5.4%\nNet profit margin: 3.5%\nTotal asset turnover: 1.1",
+      "question_text_ru": "Рассчитайте леверидж по следующим данным:\n\nРентабельность собственного капитала: 5.4%\nЧистая рентабельность: 3.5%\nОборачиваемость активов: 1.1",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "1.19",
+          "text_ru": "1.19"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "1.40",
+          "text_ru": "1.40"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "1.54",
+          "text_ru": "1.54"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "ROE = Net profit margin × Total asset turnover × Leverage.\n\nLeverage = Return on equity / (Net profit margin × Total asset turnover) = 5.4% / (3.5% × 1.1) = 5.4% / 3.85% = 1.40.",
+      "explanation_ru": "ROE = Чистая рентабельность × Оборачиваемость активов × Леверидж.\n\nЛеверидж = Рентабельность собственного капитала / (Чистая рентабельность × Оборачиваемость активов) = 5.4% / (3.5% × 1.1) = 5.4% / 3.85% = 1.40.",
+      "explanation_formula": "$\\text{Leverage} = \\frac{\\text{ROE}}{\\text{Net profit margin} \\times \\text{Total asset turnover}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. It sums return on equity, net profit margin, and total asset turnover.",
+          "text_ru": "Неверно. Это суммирует рентабельность собственного капитала, чистую рентабельность и оборачиваемость активов."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It represents the ratio of return on equity to net profit margin.",
+          "text_ru": "Неверно. Это представляет отношение рентабельности собственного капитала к чистой рентабельности."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "dupont_analysis",
+        "leverage",
+        "roe"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q006",
+      "original_question_number": 507,
+      "los_id": "LOS_11e",
+      "question_text_en": "Revenue per employee is an acceptable ratio for analysis in which of the following industries?",
+      "question_text_ru": "Выручка на сотрудника является приемлемым коэффициентом для анализа в какой из следующих отраслей?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The service industry.",
+          "text_ru": "Сфера услуг."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The banking industry.",
+          "text_ru": "Банковская отрасль."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The manufacturing industry.",
+          "text_ru": "Обрабатывающая промышленность."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Revenue per employee is a particularly relevant metric for analysis in the service industry. This is because, in service-oriented businesses, the primary assets are the employees themselves, whose skills and services generate the company's revenue. Unlike industries that rely heavily on physical assets or capital expenditures, such as manufacturing or utilities, the service industry's performance and efficiency are closely tied to the productivity and effectiveness of its workforce.",
+      "explanation_ru": "Выручка на сотрудника является особенно релевантным показателем для анализа в сфере услуг. Это связано с тем, что в сервисно-ориентированных бизнесах основными активами являются сами сотрудники, чьи навыки и услуги генерируют доход компании. В отличие от отраслей, которые сильно зависят от материальных активов или капитальных затрат, таких как производство или коммунальные услуги, производительность и эффективность индустрии услуг тесно связаны с продуктивностью и эффективностью рабочей силы.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Suggesting that the banking industry is the most appropriate for analyzing revenue per employee overlooks the fact that banks' revenue generation is significantly influenced by their financial leverage, investment strategies, and interest rate spreads, rather than solely by employee productivity.",
+          "text_ru": "Неверно. Предположение, что банковская отрасль является наиболее подходящей для анализа выручки на сотрудника, не учитывает тот факт, что генерация дохода банков в значительной степени зависит от их финансового левериджа, инвестиционных стратегий и процентных спредов, а не только от производительности сотрудников."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The manufacturing industry, characterized by its heavy reliance on physical assets, machinery, and production facilities, does not prioritize revenue per employee as a primary metric for analysis. In manufacturing, the efficiency and productivity of the production process, capital expenditure, and asset utilization rates are more relevant indicators of financial performance.",
+          "text_ru": "Неверно. Обрабатывающая промышленность, характеризующаяся сильной зависимостью от материальных активов, оборудования и производственных мощностей, не отдает приоритет выручке на сотрудника в качестве основного показателя для анализа. В производстве эффективность и продуктивность производственного процесса, капитальные затраты и коэффициенты использования активов являются более релевантными показателями финансовой результативности."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "industry_specific_ratios",
+        "revenue_per_employee"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q007",
+      "original_question_number": 1029,
+      "los_id": "LOS_11b",
+      "question_text_en": "Return on capital will most likely be higher in which of the following cases?",
+      "question_text_ru": "Рентабельность капитала, скорее всего, будет выше в каком из следующих случаев?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "If the firm has 50% of the market share and another firm has the other 50%.",
+          "text_ru": "Если фирма имеет 50% доли рынка, а другая фирма имеет остальные 50%."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "If the firm has a 10% market share and all other firms have less than 5% of the market share.",
+          "text_ru": "Если фирма имеет 10% доли рынка, а все остальные фирмы имеют менее 5% доли рынка."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Return on capital is not affected by market shares.",
+          "text_ru": "Рентабельность капитала не зависит от доли рынка."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Return on capital (ROC) is a measure of how effectively a company uses its capital to generate profits. A firm that dominates its market or has a significant competitive advantage often enjoys higher returns on capital due to economies of scale, stronger bargaining power, and potentially higher pricing power. A firm with a 10% market share where all other firms have less than 5% has a relative competitive advantage that can lead to higher ROC.",
+      "explanation_ru": "Рентабельность капитала (ROC) - это мера того, насколько эффективно компания использует свой капитал для генерации прибыли. Фирма, которая доминирует на своем рынке или имеет значительное конкурентное преимущество, часто получает более высокую рентабельность капитала благодаря эффекту масштаба, более сильной переговорной силе и потенциально более высокой ценовой власти. Фирма с 10% долей рынка, где все остальные фирмы имеют менее 5%, имеет относительное конкурентное преимущество, которое может привести к более высокому ROC.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Having a 50% market share while another firm holds the other 50% suggests a duopoly situation. While a 50% market share is substantial, the presence of another equally strong competitor could lead to competitive pressures that might erode margins and, consequently, returns on capital.",
+          "text_ru": "Неверно. Наличие 50% доли рынка, в то время как другая фирма владеет остальными 50%, предполагает ситуацию дуополии. Хотя 50% доли рынка существенны, наличие другого столь же сильного конкурента может привести к конкурентному давлению, которое может снизить маржу и, следовательно, рентабельность капитала."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. While it's true that return on capital is primarily determined by how efficiently a company uses its capital to generate profits, market share can have an indirect impact on this efficiency. A significant market share, especially when compared to competitors, can provide a company with competitive advantages that enhance its ability to generate higher returns on capital.",
+          "text_ru": "Неверно. Хотя верно, что рентабельность капитала в первую очередь определяется тем, насколько эффективно компания использует свой капитал для генерации прибыли, доля рынка может оказывать косвенное влияние на эту эффективность. Значительная доля рынка, особенно по сравнению с конкурентами, может предоставить компании конкурентные преимущества, которые улучшают ее способность генерировать более высокую рентабельность капитала."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "profitability_ratios",
+        "return_on_capital",
+        "market_share"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q008",
+      "original_question_number": 2097,
+      "los_id": "LOS_11a",
+      "question_text_en": "Which of the following is least likely a limitation of ratios?",
+      "question_text_ru": "Что из следующего наименее вероятно является ограничением коэффициентов?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Ratios evaluate changes in firms and industries over time.",
+          "text_ru": "Коэффициенты оценивают изменения в фирмах и отраслях с течением времени."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Ratios are only useful when compared to other firms or to the company's historical performance.",
+          "text_ru": "Коэффициенты полезны только при сравнении с другими фирмами или с исторической результативностью компании."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The comparison of ratios with other firms is difficult due to accounting standards differences.",
+          "text_ru": "Сравнение коэффициентов с другими фирмами затруднено из-за различий в стандартах учета."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Option A is not a limitation but a benefit of ratio analysis. Ratios are valuable tools for evaluating changes in firms and industries over time, making them useful for trend analysis.",
+      "explanation_ru": "Вариант А не является ограничением, а преимуществом анализа коэффициентов. Коэффициенты - это ценные инструменты для оценки изменений в фирмах и отраслях с течением времени, что делает их полезными для анализа трендов.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. This is a limitation of ratios. Ratios are indeed only meaningful when compared to benchmarks such as other firms or the company's historical performance.",
+          "text_ru": "Неверно. Это является ограничением коэффициентов. Коэффициенты действительно имеют смысл только при сравнении с эталонами, такими как другие фирмы или историческая результативность компании."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This is a limitation of ratios. Differences in accounting standards across firms can make ratio comparisons difficult and potentially misleading.",
+          "text_ru": "Неверно. Это является ограничением коэффициентов. Различия в стандартах учета между фирмами могут затруднить сравнение коэффициентов и потенциально ввести в заблуждение."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "ratio_analysis_limitations",
+        "financial_analysis_tools"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q009",
+      "original_question_number": 2099,
+      "los_id": "LOS_11a",
+      "question_text_en": "Which of the following statements is least likely true regarding the common-size analysis of financial statements?",
+      "question_text_ru": "Какое из следующих утверждений наименее вероятно верно относительно анализа финансовой отчетности в процентах?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "A horizontal common-size income statement calculates all line items as a percentage of the base year's total assets.",
+          "text_ru": "Горизонтальный отчет о прибылях и убытках в процентах рассчитывает все статьи как процент от общих активов базового года."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "A vertical common-size balance sheet presents each balance sheet item by the same period's total assets.",
+          "text_ru": "Вертикальный баланс в процентах представляет каждую статью баланса как долю от общих активов того же периода."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "A vertical common-size income statement presents each income statement item as a percentage of revenue or by total assets.",
+          "text_ru": "Вертикальный отчет о прибылях и убытках в процентах представляет каждую статью отчета о прибылях и убытках как процент от выручки или от общих активов."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "In a horizontal common-size income statement, each line item is expressed as a percentage of the corresponding figure in the base year, not as a percentage of the base year's total assets. The comparison is typically year-over-year for each specific line item (like revenue, expenses, etc.), not relative to the total assets.",
+      "explanation_ru": "В горизонтальном отчете о прибылях и убытках в процентах каждая статья выражается в процентах от соответствующей цифры в базовом году, а не в процентах от общих активов базового года. Сравнение обычно проводится год к году для каждой конкретной статьи (например, выручка, расходы и т.д.), а не относительно общих активов.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. In a vertical common-size balance sheet, each line item is expressed as a percentage of total assets for the same period. This method allows for an analysis of the structure of the balance sheet by showing the proportion of each item relative to the total assets.",
+          "text_ru": "Неверно. В вертикальном балансе в процентах каждая статья выражается в процентах от общих активов за тот же период. Этот метод позволяет анализировать структуру баланса, показывая долю каждой статьи относительно общих активов."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. A vertical common-size income statement does indeed express each item as a percentage of revenue (total sales) or by total assets.",
+          "text_ru": "Неверно. Вертикальный отчет о прибылях и убытках в процентах действительно выражает каждую статью как процент от выручки (общих продаж) или от общих активов."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "common_size_analysis",
+        "financial_statement_analysis"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q010",
+      "original_question_number": 2100,
+      "los_id": "LOS_11a",
+      "question_text_en": "Which of the following is least likely use of the graphical analysis of financial data?",
+      "question_text_ru": "Что из следующего наименее вероятно является использованием графического анализа финансовых данных?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Analyze the trend in data.",
+          "text_ru": "Анализ тренда в данных."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Compare data across firms and time.",
+          "text_ru": "Сравнение данных между фирмами и во времени."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Identify the relationship between two variables.",
+          "text_ru": "Определение взаимосвязи между двумя переменными."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "While graphical analysis can provide some insights into the relationship between two variables, it is not primarily used for identifying and quantifying these relationships. Statistical methods like correlation and regression analysis are more suitable for this purpose.",
+      "explanation_ru": "Хотя графический анализ может дать некоторое представление о взаимосвязи между двумя переменными, он не используется в первую очередь для выявления и количественной оценки этих взаимосвязей. Статистические методы, такие как корреляционный и регрессионный анализ, более подходят для этой цели.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Trend analysis is a fundamental aspect of graphical analysis in finance, essential for visualizing how financial parameters have changed over time and providing insights into the company's historical performance.",
+          "text_ru": "Неверно. Анализ трендов является фундаментальным аспектом графического анализа в финансах, необходимым для визуализации того, как финансовые показатели изменились с течением времени, и предоставления понимания исторической результативности компании."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Comparing financial data across firms and over different time periods is a key application of graphical analysis in finance, essential for benchmarking and understanding a firm's position relative to its peers or its own historical performance.",
+          "text_ru": "Неверно. Сравнение финансовых данных между фирмами и за разные периоды времени является ключевым применением графического анализа в финансах, необходимым для бенчмаркинга и понимания позиции фирмы относительно конкурентов или ее собственной исторической результативности."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "graphical_analysis",
+        "financial_analysis_tools"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q011",
+      "original_question_number": 2101,
+      "los_id": "LOS_11b",
+      "question_text_en": "An analyst analyzing a firm's ability to meet its long-term debt obligation is most likely to use which of the following financial ratio?",
+      "question_text_ru": "Аналитик, анализирующий способность фирмы выполнять свои долгосрочные долговые обязательства, скорее всего, будет использовать какой из следующих финансовых коэффициентов?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Debt-to-assets ratio.",
+          "text_ru": "Коэффициент долга к активам."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Defensive interval ratio.",
+          "text_ru": "Коэффициент защитного интервала."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Working capital turnover ratio.",
+          "text_ru": "Коэффициент оборачиваемости оборотного капитала."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The debt-to-assets ratio is a crucial financial metric for analyzing a firm's ability to meet its long-term debt obligations. This ratio measures the proportion of a company's assets that are financed through debt, providing insights into the firm's solvency. A lower debt-to-assets ratio indicates a healthier balance sheet, as it suggests that a larger portion of the company's assets are financed through equity rather than debt. Conversely, a higher ratio may signal potential solvency issues, as it implies a greater reliance on debt financing.",
+      "explanation_ru": "Коэффициент долга к активам является ключевым финансовым показателем для анализа способности фирмы выполнять свои долгосрочные долговые обязательства. Этот коэффициент измеряет долю активов компании, которые финансируются за счет долга, предоставляя информацию о платежеспособности фирмы. Более низкий коэффициент долга к активам указывает на более здоровый баланс, поскольку это предполагает, что большая часть активов компании финансируется за счет собственного капитала, а не долга. И наоборот, более высокий коэффициент может сигнализировать о потенциальных проблемах с платежеспособностью, поскольку это подразумевает большую зависимость от долгового финансирования.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. The defensive interval ratio measures a company's liquidity by estimating the number of days the firm can operate using its current liquid assets without needing additional financing. While this ratio provides valuable insights into the company's short-term financial health, it does not directly address the firm's ability to meet long-term debt obligations.",
+          "text_ru": "Неверно. Коэффициент защитного интервала измеряет ликвидность компании, оценивая количество дней, в течение которых фирма может работать, используя свои текущие ликвидные активы, без необходимости дополнительного финансирования. Хотя этот коэффициент предоставляет ценную информацию о краткосрочном финансовом здоровье компании, он не затрагивает напрямую способность фирмы выполнять долгосрочные долговые обязательства."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The working capital turnover ratio assesses the efficiency with which a firm utilizes its working capital to generate sales. It is calculated by dividing the firm's annual sales by its average working capital. Although this ratio offers insights into the operational efficiency and short-term financial health of a company, it does not directly evaluate the firm's capacity to meet long-term debt obligations.",
+          "text_ru": "Неверно. Коэффициент оборачиваемости оборотного капитала оценивает эффективность, с которой фирма использует свой оборотный капитал для генерации продаж. Он рассчитывается путем деления годовых продаж фирмы на средний оборотный капитал. Хотя этот коэффициент дает представление об операционной эффективности и краткосрочном финансовом здоровье компании, он не оценивает напрямую способность фирмы выполнять долгосрочные долговые обязательства."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "solvency_ratios",
+        "debt_to_assets",
+        "long_term_debt"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q012",
+      "original_question_number": 2102,
+      "los_id": "LOS_11b",
+      "question_text_en": "Galactic Hyper is a chain of hypermarkets that sells most of its products for cash, which is why its days of sales outstanding are as low as 22 days. Assuming that the firm's average receivables are $234,000, and the cost of goods sold (COGS) for the one year is $1,245,000, the annual sales of Galactic are closest to:",
+      "question_text_ru": "Galactic Hyper - это сеть гипермаркетов, которая продает большую часть своих продуктов за наличные, поэтому период оборота дебиторской задолженности составляет всего 22 дня. Предполагая, что средняя дебиторская задолженность фирмы составляет $234,000, а себестоимость проданных товаров (COGS) за год составляет $1,245,000, годовые продажи Galactic наиболее близки к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$1,410,400.",
+          "text_ru": "$1,410,400."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$3,882,000.",
+          "text_ru": "$3,882,000."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$4,880,200.",
+          "text_ru": "$4,880,200."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Since Days sales outstanding = 365 / Receivables Turnover = 365 / (Annual sales / Average accounts receivable).\n\nWe can rearrange the formula as:\n\nAnnual sales = [(365 / Days sales outstanding) × Average accounts receivable] = (365 / 22) × $234,000 = $3,882,000.",
+      "explanation_ru": "Поскольку Период оборота дебиторской задолженности = 365 / Оборачиваемость дебиторской задолженности = 365 / (Годовые продажи / Средняя дебиторская задолженность).\n\nМы можем переформулировать формулу так:\n\nГодовые продажи = [(365 / Период оборота дебиторской задолженности) × Средняя дебиторская задолженность] = (365 / 22) × $234,000 = $3,882,000.",
+      "explanation_formula": "$\\text{Annual sales} = \\frac{365}{\\text{DSO}} \\times \\text{Average receivables}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This incorrectly uses COGS in the calculation instead of the DSO formula.",
+          "text_ru": "Неверно. Это неправильно использует COGS в расчете вместо формулы DSO."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This uses an incorrect calculation method.",
+          "text_ru": "Неверно. Это использует неправильный метод расчета."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "activity_ratios",
+        "dso",
+        "receivables_turnover"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q013",
+      "original_question_number": 2103,
+      "los_id": "LOS_11b",
+      "question_text_en": "If the Cost of goods sold (COGS) decreases, what is the most likely effect on days of inventory on hand?",
+      "question_text_ru": "Если себестоимость проданных товаров (COGS) уменьшается, каково наиболее вероятное влияние на период оборачиваемости запасов?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Days of inventory on hand ratio will decrease.",
+          "text_ru": "Период оборачиваемости запасов уменьшится."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Days of inventory on hand ratio will increase.",
+          "text_ru": "Период оборачиваемости запасов увеличится."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Days of inventory on hand ratio will remain unchanged.",
+          "text_ru": "Период оборачиваемости запасов останется неизменным."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Recall that: Days of Inventory on hand ratio = (365 / Inventory turnover) OR DOH = 365 / (COGS / Average Inventory).\n\nIf the numerator of the inventory turnover (i.e. COGS) decreases, it will increase the Days of Inventory on hand ratio.",
+      "explanation_ru": "Вспомним: Период оборачиваемости запасов = (365 / Оборачиваемость запасов) ИЛИ DOH = 365 / (COGS / Средние запасы).\n\nЕсли числитель оборачиваемости запасов (т.е. COGS) уменьшается, это увеличит период оборачиваемости запасов.",
+      "explanation_formula": "$\\text{DOH} = \\frac{365}{\\frac{\\text{COGS}}{\\text{Average Inventory}}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. A decrease in COGS would actually increase, not decrease, the days of inventory on hand.",
+          "text_ru": "Неверно. Уменьшение COGS фактически увеличит, а не уменьшит период оборачиваемости запасов."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The ratio will change as COGS is a component of the calculation.",
+          "text_ru": "Неверно. Коэффициент изменится, поскольку COGS является компонентом расчета."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "activity_ratios",
+        "days_of_inventory",
+        "inventory_turnover"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q014",
+      "original_question_number": 2104,
+      "los_id": "LOS_11b",
+      "question_text_en": "The working capital turnover ratio of a hypothetical firm is 12.5. Which of the following is the most likely impact on the ratio if the firm utilized its cash to purchase inventory?",
+      "question_text_ru": "Коэффициент оборачиваемости оборотного капитала гипотетической фирмы составляет 12.5. Какое из следующих наиболее вероятное влияние на коэффициент, если фирма использует свои денежные средства для покупки запасов?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The working capital turnover ratio will increase.",
+          "text_ru": "Коэффициент оборачиваемости оборотного капитала увеличится."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The working capital turnover ratio will decrease.",
+          "text_ru": "Коэффициент оборачиваемости оборотного капитала уменьшится."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The working capital turnover ratio will remain unchanged.",
+          "text_ru": "Коэффициент оборачиваемости оборотного капитала останется неизменным."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Recall that, Working capital turnover ratio = Revenue / Average working capital.\n\nSince cash and inventory are both current assets, a decrease in cash and an increase in inventory will offset the working capital. Therefore, the working capital turnover ratio will remain unchanged.",
+      "explanation_ru": "Вспомним, что коэффициент оборачиваемости оборотного капитала = Выручка / Средний оборотный капитал.\n\nПоскольку денежные средства и запасы являются оборотными активами, уменьшение денежных средств и увеличение запасов компенсируют оборотный капитал. Следовательно, коэффициент оборачиваемости оборотного капитала останется неизменным.",
+      "explanation_formula": "$\\text{Working capital turnover} = \\frac{\\text{Revenue}}{\\text{Average working capital}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The ratio will remain unchanged as both cash and inventory are current assets.",
+          "text_ru": "Неверно. Коэффициент останется неизменным, поскольку и денежные средства, и запасы являются оборотными активами."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. The ratio will not decrease as the transaction affects only the composition, not the total value, of current assets.",
+          "text_ru": "Неверно. Коэффициент не уменьшится, поскольку транзакция влияет только на состав, а не на общую стоимость оборотных активов."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "activity_ratios",
+        "working_capital_turnover"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q015",
+      "original_question_number": 2105,
+      "los_id": "LOS_11b",
+      "question_text_en": "A firm's number of days of payables is 69 days compared to an industry average of 45 days. Which of the following is the most appropriate interpretation of this discrepancy?",
+      "question_text_ru": "Период оборота кредиторской задолженности фирмы составляет 69 дней по сравнению со средним по отрасли 45 дней. Какая из следующих интерпретаций этого расхождения является наиболее подходящей?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The firm might be taking too long to pay its payables.",
+          "text_ru": "Фирма может слишком долго выплачивать свои обязательства."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The firm's customers might be taking too long to pay the firm.",
+          "text_ru": "Клиенты фирмы могут слишком долго платить фирме."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The firm's payable turnover ratio is greater than the industry's payable turnover ratio.",
+          "text_ru": "Коэффициент оборачиваемости кредиторской задолженности фирмы больше, чем коэффициент оборачиваемости кредиторской задолженности отрасли."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The number of days of payables is a financial metric that measures the average time (in days) a firm takes to pay its suppliers. A firm's number of days of payables of 69 days, when compared to an industry average of 45 days, suggests that the firm is taking significantly longer than its industry peers to settle its obligations to suppliers. This discrepancy can have several implications, including potential cash flow management strategies, negotiating terms that are more favorable with suppliers, or possible financial distress that is causing delays in payment.",
+      "explanation_ru": "Период оборота кредиторской задолженности - это финансовый показатель, который измеряет среднее время (в днях), которое требуется фирме для оплаты своих поставщиков. Период оборота кредиторской задолженности фирмы в 69 дней по сравнению со средним по отрасли в 45 дней предполагает, что фирма тратит значительно больше времени, чем ее отраслевые коллеги, на погашение своих обязательств перед поставщиками. Это расхождение может иметь несколько последствий, включая потенциальные стратегии управления денежными потоками, переговоры об более выгодных условиях с поставщиками или возможные финансовые проблемы, вызывающие задержки в платежах.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. The number of days of payables calculates the payables of the firm, not its customers.",
+          "text_ru": "Неверно. Период оборота кредиторской задолженности рассчитывает кредиторскую задолженность фирмы, а не ее клиентов."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. A more significant number of days of payables indicates that the firm's payable turnover ratio is lower than that of the industry.",
+          "text_ru": "Неверно. Больший период оборота кредиторской задолженности указывает на то, что коэффициент оборачиваемости кредиторской задолженности фирмы ниже, чем у отрасли."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "activity_ratios",
+        "days_of_payables",
+        "payables_turnover"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q016",
+      "original_question_number": 2107,
+      "los_id": "LOS_11b",
+      "question_text_en": "Firm A and Firm B are two firms located in the same geographical location and serving the same geographical markets. Assuming that Firm A's Asset Turnover ratio is 1.2 while the Asset Turnover ratio of Firm B is 2.5, which of the following is an appropriate interpretation of the ratios?",
+      "question_text_ru": "Фирма А и Фирма Б - это две фирмы, расположенные в одном географическом месте и обслуживающие одни и те же географические рынки. Предполагая, что коэффициент оборачиваемости активов фирмы А составляет 1.2, в то время как коэффициент оборачиваемости активов фирмы Б составляет 2.5, какая из следующих интерпретаций коэффициентов является подходящей?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Firm A is more capital-intensive than Firm B.",
+          "text_ru": "Фирма А более капиталоемкая, чем Фирма Б."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Firm A uses its assets more efficiently as compared to firm B.",
+          "text_ru": "Фирма А использует свои активы более эффективно по сравнению с фирмой Б."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Firm B has a greater portion of its capital invested in assets than Firm A.",
+          "text_ru": "Фирма Б имеет большую долю своего капитала, вложенного в активы, чем Фирма А."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The Asset Turnover ratio is a financial metric that measures the efficiency of a company's use of its assets in generating sales revenue. It is calculated by dividing sales revenue by total assets. A higher Asset Turnover ratio indicates that a company is using its assets more efficiently to generate sales. In the context of Firm A and Firm B, the Asset Turnover ratios are 1.2 and 2.5, respectively. This means that for every dollar of assets, Firm A generates $1.2 in sales, while Firm B generates $2.5 in sales. A lower Asset Turnover ratio, as seen with Firm A, often implies a higher investment in assets relative to sales, which is characteristic of capital-intensive companies.",
+      "explanation_ru": "Коэффициент оборачиваемости активов - это финансовый показатель, который измеряет эффективность использования компанией своих активов для генерации выручки от продаж. Он рассчитывается путем деления выручки от продаж на общие активы. Более высокий коэффициент оборачиваемости активов указывает на то, что компания более эффективно использует свои активы для генерации продаж. В контексте фирмы А и фирмы Б коэффициенты оборачиваемости активов составляют 1.2 и 2.5 соответственно. Это означает, что на каждый доллар активов фирма А генерирует $1.2 продаж, в то время как фирма Б генерирует $2.5 продаж. Более низкий коэффициент оборачиваемости активов, как в случае с фирмой А, часто подразумевает более высокие инвестиции в активы относительно продаж, что характерно для капиталоемких компаний.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Efficiency in using assets to generate revenue is directly proportional to the Asset Turnover ratio. Since Firm B has a higher Asset Turnover ratio (2.5) compared to Firm A (1.2), it indicates that Firm B is more efficient in using its assets to generate sales.",
+          "text_ru": "Неверно. Эффективность использования активов для генерации дохода прямо пропорциональна коэффициенту оборачиваемости активов. Поскольку фирма Б имеет более высокий коэффициент оборачиваемости активов (2.5) по сравнению с фирмой А (1.2), это указывает на то, что фирма Б более эффективно использует свои активы для генерации продаж."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. However, the Asset Turnover ratio indicates the efficiency of using assets to generate sales, not the proportion of capital invested in assets. A higher Asset Turnover ratio, as seen with Firm B, signifies greater efficiency in generating sales from its assets, not necessarily a higher investment in assets. In fact, a lower Asset Turnover ratio, as seen with Firm A, often implies a higher investment in assets relative to sales, which is characteristic of capital-intensive companies.",
+          "text_ru": "Неверно. Однако коэффициент оборачиваемости активов указывает на эффективность использования активов для генерации продаж, а не на долю капитала, вложенного в активы. Более высокий коэффициент оборачиваемости активов, как в случае с фирмой Б, означает большую эффективность в генерации продаж от своих активов, а не обязательно более высокие инвестиции в активы. Фактически, более низкий коэффициент оборачиваемости активов, как в случае с фирмой А, часто подразумевает более высокие инвестиции в активы относительно продаж, что характерно для капиталоемких компаний."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "activity_ratios",
+        "asset_turnover",
+        "capital_intensity"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q017",
+      "original_question_number": 2109,
+      "los_id": "LOS_11b",
+      "question_text_en": "Layout Works is a printing press, which takes an average of 25 days to pay its payables, and it takes an average of 10 days for its customers to pay Layout. Given that the average cash conversion cycle of the printing industry is 110 days, the firm's estimated days of inventory on hand is closest to:",
+      "question_text_ru": "Layout Works - это типография, которая в среднем платит свои обязательства за 25 дней, и ее клиентам требуется в среднем 10 дней, чтобы заплатить Layout. Учитывая, что средний цикл конвертации денежных средств в полиграфической промышленности составляет 110 дней, предполагаемый период оборачиваемости запасов фирмы наиболее близок к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "75 days.",
+          "text_ru": "75 дней."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "95 days.",
+          "text_ru": "95 дней."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "125 days.",
+          "text_ru": "125 дней."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Cash Conversion Cycle = Days of sales outstanding + Days of inventory on hand - Number of days of payables.\n\n110 = 10 + Days on inventory in hand - 25\n\n=> Days of inventory in hand = 110 - 10 + 25 = 125.",
+      "explanation_ru": "Цикл конвертации денежных средств = Период оборота дебиторской задолженности + Период оборачиваемости запасов - Период оборота кредиторской задолженности.\n\n110 = 10 + Период оборачиваемости запасов - 25\n\n=> Период оборачиваемости запасов = 110 - 10 + 25 = 125.",
+      "explanation_formula": "$\\text{CCC} = \\text{DSO} + \\text{DOH} - \\text{Days of Payables}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. It subtracts the number of days of payables incorrectly: Days of inventory in hand = 110 - 10 - 25 = 75.",
+          "text_ru": "Неверно. Это неправильно вычитает период оборота кредиторской задолженности: Период оборачиваемости запасов = 110 - 10 - 25 = 75."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. It subtracts the number of days of payables and adds days of sales outstanding incorrectly: Days of inventory in hand = 110 + 10 - 25 = 95.",
+          "text_ru": "Неверно. Это неправильно вычитает период оборота кредиторской задолженности и добавляет период оборота дебиторской задолженности: Период оборачиваемости запасов = 110 + 10 - 25 = 95."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "activity_ratios",
+        "cash_conversion_cycle",
+        "days_of_inventory"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q018",
+      "original_question_number": 2110,
+      "los_id": "LOS_11b",
+      "question_text_en": "Which of the following ratios can an analyst most likely use to measure the number of days of average cash expenses a firm can pay with its liquid assets?",
+      "question_text_ru": "Какой из следующих коэффициентов аналитик, скорее всего, может использовать для измерения количества дней средних денежных расходов, которые фирма может оплатить своими ликвидными активами?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Cash ratio.",
+          "text_ru": "Коэффициент наличности."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Defensive interval ratio.",
+          "text_ru": "Коэффициент защитного интервала."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Working capital turnover ratio.",
+          "text_ru": "Коэффициент оборачиваемости оборотного капитала."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The defensive interval ratio is a liquidity ratio that measures the number of days a firm can cover its average daily cash expenses using its most liquid assets. This ratio is particularly useful for assessing a company's short-term financial resilience. It is calculated by dividing the sum of a company's cash, marketable securities, and receivables by its average daily expenditures.\n\nDefensive interval ratio = (Cash + Marketable securities + Receivables) / Daily Cash Expenditures.",
+      "explanation_ru": "Коэффициент защитного интервала - это коэффициент ликвидности, который измеряет количество дней, в течение которых фирма может покрывать свои средние ежедневные денежные расходы, используя свои наиболее ликвидные активы. Этот коэффициент особенно полезен для оценки краткосрочной финансовой устойчивости компании. Он рассчитывается путем деления суммы денежных средств компании, рыночных ценных бумаг и дебиторской задолженности на ее средние ежедневные расходы.\n\nКоэффициент защитного интервала = (Денежные средства + Рыночные ценные бумаги + Дебиторская задолженность) / Ежедневные денежные расходы.",
+      "explanation_formula": "$\\text{Defensive interval ratio} = \\frac{\\text{Cash} + \\text{Marketable securities} + \\text{Receivables}}{\\text{Daily Cash Expenditures}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The cash ratio, while a measure of liquidity, does not specifically address the company's ability to cover its daily cash expenses over a period. It is calculated by dividing a company's cash and cash equivalents by its current liabilities.",
+          "text_ru": "Неверно. Коэффициент наличности, хотя и является мерой ликвидности, не затрагивает конкретно способность компании покрывать свои ежедневные денежные расходы в течение периода. Он рассчитывается путем деления денежных средств и их эквивалентов компании на ее текущие обязательства."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The working capital turnover ratio is an activity ratio that measures how efficiently a company uses its working capital to generate sales. It is calculated by dividing the company's net annual sales by its average working capital.",
+          "text_ru": "Неверно. Коэффициент оборачиваемости оборотного капитала - это коэффициент активности, который измеряет, насколько эффективно компания использует свой оборотный капитал для генерации продаж. Он рассчитывается путем деления чистых годовых продаж компании на ее средний оборотный капитал."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "liquidity_ratios",
+        "defensive_interval"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q019",
+      "original_question_number": 2111,
+      "los_id": "LOS_11b",
+      "question_text_en": "Turks & Co. is a glass-manufacturing firm whose income statement is being analyzed by an analyst at a local credit rating firm. Some relevant accounts for the year 2016 have been given in the following table:",
+      "question_text_ru": "Turks & Co. - это стеклопроизводственная фирма, чей отчет о прибылях и убытках анализируется аналитиком в местном агентстве кредитных рейтингов. Некоторые соответствующие счета за 2016 год представлены в следующей таблице:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Income Statement",
+          ""
+        ],
+        "rows": [
+          [
+            "Sales",
+            "15,000"
+          ],
+          [
+            "COGS",
+            "6,500"
+          ],
+          [
+            "Gross Profit",
+            "8,500"
+          ],
+          [
+            "Depreciation",
+            "800"
+          ],
+          [
+            "SG&A",
+            "550"
+          ],
+          [
+            "Lease Payments",
+            "350"
+          ],
+          [
+            "EBIT",
+            "6,800"
+          ],
+          [
+            "Interest Payment",
+            "250"
+          ],
+          [
+            "EBT",
+            "6,550"
+          ],
+          [
+            "Taxes",
+            "1,965"
+          ],
+          [
+            "EAT",
+            "4,585"
+          ]
+        ]
+      },
+      "question_continuation_en": "Using the given data, the fixed charge coverage ratio of the firm is closest to:",
+      "question_continuation_ru": "Используя данные, коэффициент покрытия фиксированных платежей фирмы наиболее близок к:",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "11.92",
+          "text_ru": "11.92"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "20.42",
+          "text_ru": "20.42"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "28.60",
+          "text_ru": "28.60"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The fixed charge coverage ratio is a solvency ratio that measures the firm's ability to meet its interests and leases obligations. (Note: It is a good measure for a firm that leases its assets i.e. shipping and airline companies.)\n\nFixed charge coverage ratio = (EBIT + Fixed charges before tax) / (Interest payments + Fixed charges before tax).\n\nIn this case, the fixed charges before tax are lease payments.\n\nFixed charge coverage ratio = (6,800 + 350) / (350 + 250) = 11.92.",
+      "explanation_ru": "Коэффициент покрытия фиксированных платежей - это коэффициент платежеспособности, который измеряет способность фирмы выполнять свои процентные обязательства и обязательства по аренде. (Примечание: Это хороший показатель для фирмы, которая арендует свои активы, т.е. судоходные и авиакомпании.)\n\nКоэффициент покрытия фиксированных платежей = (EBIT + Фиксированные платежи до налогообложения) / (Процентные платежи + Фиксированные платежи до налогообложения).\n\nВ данном случае фиксированными платежами до налогообложения являются арендные платежи.\n\nКоэффициент покрытия фиксированных платежей = (6,800 + 350) / (350 + 250) = 11.92.",
+      "explanation_formula": "$\\text{Fixed charge coverage ratio} = \\frac{\\text{EBIT} + \\text{Fixed charges before tax}}{\\text{Interest payments} + \\text{Fixed charges before tax}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Considers the fixed charges before tax in the numerator and not in the denominator: Fixed charge coverage ratio = (6,800 + 350) / (350) = 20.42.",
+          "text_ru": "Неверно. Учитывает фиксированные платежи до налогообложения в числителе, а не в знаменателе: Коэффициент покрытия фиксированных платежей = (6,800 + 350) / (350) = 20.42."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It does not consider interest payments.",
+          "text_ru": "Неверно. Не учитывает процентные платежи."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "solvency_ratios",
+        "fixed_charge_coverage"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q020",
+      "original_question_number": 2113,
+      "los_id": "LOS_11b",
+      "question_text_en": "Turks & Co. is a glass-manufacturing firm whose income statement is being analyzed by a CFA member at a local credit rating firm. Using the data given in the following table, calculate the operating profit margin.",
+      "question_text_ru": "Turks & Co. - это стеклопроизводственная фирма, чей отчет о прибылях и убытках анализируется членом CFA в местном агентстве кредитных рейтингов. Используя данные, приведенные в следующей таблице, рассчитайте операционную рентабельность.",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Income Statement",
+          ""
+        ],
+        "rows": [
+          [
+            "Sales",
+            "15,000"
+          ],
+          [
+            "COGS",
+            "6,500"
+          ],
+          [
+            "Gross Profit",
+            "8,500"
+          ],
+          [
+            "Depreciation",
+            "800"
+          ],
+          [
+            "SG&A",
+            "550"
+          ],
+          [
+            "Lease Payments",
+            "350"
+          ],
+          [
+            "EBIT",
+            "6,800"
+          ],
+          [
+            "Interest Payment",
+            "250"
+          ],
+          [
+            "EBT",
+            "6,550"
+          ],
+          [
+            "Taxes",
+            "1,965"
+          ],
+          [
+            "EAT",
+            "4,585"
+          ]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "43.67%",
+          "text_ru": "43.67%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "45.33%",
+          "text_ru": "45.33%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "56.67%",
+          "text_ru": "56.67%"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Operating profit margin = Operating Profit / Revenue = EBIT / Revenue = 6,800 / 15,000 = 45.33%.",
+      "explanation_ru": "Операционная рентабельность = Операционная прибыль / Выручка = EBIT / Выручка = 6,800 / 15,000 = 45.33%.",
+      "explanation_formula": "$\\text{Operating profit margin} = \\frac{\\text{EBIT}}{\\text{Revenue}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Uses EBT instead of EBIT.",
+          "text_ru": "Неверно. Использует EBT вместо EBIT."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It represents the gross profit margin.",
+          "text_ru": "Неверно. Это представляет валовую рентабельность."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "profitability_ratios",
+        "operating_profit_margin"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q021",
+      "original_question_number": 2115,
+      "los_id": "LOS_11b",
+      "question_text_en": "Company X, Y & Z are market leaders in the air cargo industry. Some ratios of the three companies are given in the following table:",
+      "question_text_ru": "Компании X, Y и Z являются лидерами рынка в индустрии авиаперевозок грузов. Некоторые коэффициенты трех компаний приведены в следующей таблице:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "",
+          "Company X",
+          "Company Y",
+          "Company Z"
+        ],
+        "rows": [
+          [
+            "Return on Assets",
+            "55%",
+            "34%",
+            "17%"
+          ],
+          [
+            "Profit Margin",
+            "35.00%",
+            "28.00%",
+            "11.30%"
+          ],
+          [
+            "Quick Ratio",
+            "0.7",
+            "2.8",
+            "1.1"
+          ],
+          [
+            "Financial Leverage",
+            "3.7",
+            "5.7",
+            "11.37"
+          ]
+        ]
+      },
+      "question_continuation_en": "Assuming all three firms are identical in terms of size and revenue, the company that uses the greatest portion of debt in its capital structure is closest to:",
+      "question_continuation_ru": "Предполагая, что все три фирмы идентичны по размеру и выручке, компания, которая использует наибольшую долю долга в своей структуре капитала, наиболее близка к:",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Company X.",
+          "text_ru": "Компания X."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Company Y.",
+          "text_ru": "Компания Y."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Company Z.",
+          "text_ru": "Компания Z."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "The financial leverage ratio is a critical metric for understanding a company's reliance on debt in its capital structure. It essentially measures the extent to which a company is financing its operations through debt as opposed to equity. A higher financial leverage ratio indicates a greater use of debt in the company's capital structure. In the context of Company X, Y, and Z, the financial leverage ratios provided are 3.7, 5.7, and 11.37, respectively. Given these figures, it is clear that Company Z has the highest financial leverage ratio at 11.37. This indicates that Company Z uses the greatest portion of debt in its capital structure compared to Companies X and Y.",
+      "explanation_ru": "Коэффициент финансового левериджа является критическим показателем для понимания зависимости компании от долга в ее структуре капитала. По сути, он измеряет степень, в которой компания финансирует свою деятельность за счет долга, а не за счет собственного капитала. Более высокий коэффициент финансового левериджа указывает на большее использование долга в структуре капитала компании. В контексте компаний X, Y и Z предоставленные коэффициенты финансового левериджа составляют 3.7, 5.7 и 11.37 соответственно. Учитывая эти цифры, ясно, что компания Z имеет самый высокий коэффициент финансового левериджа - 11.37. Это указывает на то, что компания Z использует наибольшую долю долга в своей структуре капитала по сравнению с компаниями X и Y.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Company X has a financial leverage ratio of 3.7, which is the lowest among the three companies. This indicates that Company X uses the least amount of debt in its capital structure relative to its equity.",
+          "text_ru": "Неверно. Компания X имеет коэффициент финансового левериджа 3.7, что является самым низким среди трех компаний. Это указывает на то, что компания X использует наименьшее количество долга в своей структуре капитала относительно своего капитала."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Company Y, with a financial leverage ratio of 5.7, falls in the middle of the range among the three companies. While it uses more debt in its capital structure than Company X, it still does not use as much debt as Company Z.",
+          "text_ru": "Неверно. Компания Y с коэффициентом финансового левериджа 5.7 находится в середине диапазона среди трех компаний. Хотя она использует больше долга в своей структуре капитала, чем компания X, она все еще не использует столько долга, сколько компания Z."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "solvency_ratios",
+        "financial_leverage",
+        "debt_structure"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q022",
+      "original_question_number": 2117,
+      "los_id": "LOS_11b",
+      "question_text_en": "Which of the following transactions will most likely increase the financial leverage ratio by the largest amount?",
+      "question_text_ru": "Какая из следующих транзакций, скорее всего, увеличит коэффициент финансового левериджа на наибольшую величину?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Purchase of Land through debt financing.",
+          "text_ru": "Покупка земли через долговое финансирование."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Purchase of Plants by issuing new equity.",
+          "text_ru": "Покупка заводов путем выпуска нового капитала."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Purchase of Inventory using cash equivalents.",
+          "text_ru": "Покупка запасов с использованием денежных эквивалентов."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The purchase of assets through debt financing will increase assets and debt. Thus, it will also increase the numerator of the financial leverage ratio (Avg. Total Assets / Avg. Total Equity).",
+      "explanation_ru": "Покупка активов через долговое финансирование увеличит активы и долг. Таким образом, это также увеличит числитель коэффициента финансового левериджа (Средние общие активы / Средний общий капитал).",
+      "explanation_formula": "$\\text{Financial leverage} = \\frac{\\text{Avg. Total Assets}}{\\text{Avg. Total Equity}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. The purchase of assets with equity will increase assets and equity by the same amount, decreasing the financial leverage ratio.",
+          "text_ru": "Неверно. Покупка активов за счет капитала увеличит активы и капитал на одинаковую величину, уменьшив коэффициент финансового левериджа."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The purchase of assets with cash equivalents will have a small effect on the leverage ratio as cash and asset will offset each other.",
+          "text_ru": "Неверно. Покупка активов за счет денежных эквивалентов окажет небольшое влияние на коэффициент левериджа, поскольку денежные средства и активы компенсируют друг друга."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "solvency_ratios",
+        "financial_leverage"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q023",
+      "original_question_number": 2118,
+      "los_id": "LOS_11b",
+      "question_text_en": "A highly leveraged company has sales of $1.5 million, a gross profit margin of 40%, and an average inventory of $250,000 for the year 2015. The firm's inventory turnover ratio for the year 2015 is closest to:",
+      "question_text_ru": "Компания с высоким левериджем имеет продажи в размере $1.5 миллиона, валовую рентабельность 40% и средние запасы $250,000 за 2015 год. Коэффициент оборачиваемости запасов фирмы за 2015 год наиболее близок к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "2.4",
+          "text_ru": "2.4"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "3.6",
+          "text_ru": "3.6"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "6.0",
+          "text_ru": "6.0"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Inventory turnover = Cost of goods sold (COGS) / Average inventory.\n\nGross profit margin = (Sales - COGS) / Sales.\n\nCOGS = Sales - (Profit margin × Sales) = $1.5 million - (40% × $1.5 million) = $0.9 million.\n\nInventory turnover = $900,000 / $250,000 = 3.6.",
+      "explanation_ru": "Оборачиваемость запасов = Себестоимость проданных товаров (COGS) / Средние запасы.\n\nВаловая рентабельность = (Продажи - COGS) / Продажи.\n\nCOGS = Продажи - (Рентабельность × Продажи) = $1.5 миллиона - (40% × $1.5 миллиона) = $0.9 миллиона.\n\nОборачиваемость запасов = $900,000 / $250,000 = 3.6.",
+      "explanation_formula": "$\\text{Inventory turnover} = \\frac{\\text{COGS}}{\\text{Average inventory}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. It uses the value of the profit margin: Inventory turnover = (40% × $1.5 million) / $250,000 = 2.4.",
+          "text_ru": "Неверно. Использует значение рентабельности: Оборачиваемость запасов = (40% × $1.5 миллиона) / $250,000 = 2.4."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It uses sales instead of COGS: Inventory turnover = $1,500,000 / $250,000 = 6.",
+          "text_ru": "Неверно. Использует продажи вместо COGS: Оборачиваемость запасов = $1,500,000 / $250,000 = 6."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "activity_ratios",
+        "inventory_turnover",
+        "gross_profit_margin"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q024",
+      "original_question_number": 2119,
+      "los_id": "LOS_11b",
+      "question_text_en": "If a company's debt-to-equity ratio is 2.5, which of the following transactions will least likely increase the debt-to-equity ratio?",
+      "question_text_ru": "Если коэффициент долга к собственному капиталу компании составляет 2.5, какая из следующих транзакций наименее вероятно увеличит коэффициент долга к собственному капиталу?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The issuance of bonds to reacquire shares.",
+          "text_ru": "Выпуск облигаций для выкупа акций."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The payment of dividends to common shareholders.",
+          "text_ru": "Выплата дивидендов обычным акционерам."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The purchase of assets with 50% debt and 50% equity.",
+          "text_ru": "Покупка активов за счет 50% долга и 50% капитала."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Since the Debt-to-equity ratio is 2.5, an even increase in numerator and denominator will decrease the debt/equity ratio. For example, 2.5/1 = 2.5 could then be (2.5+0.2)/(1+0.2) = 2.25.",
+      "explanation_ru": "Поскольку коэффициент долга к собственному капиталу составляет 2.5, одинаковое увеличение числителя и знаменателя уменьшит коэффициент долга/капитала. Например, 2.5/1 = 2.5 может стать (2.5+0.2)/(1+0.2) = 2.25.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This will decrease equity and increase debt, therefore increasing the debt-to-equity ratio.",
+          "text_ru": "Неверно. Это уменьшит капитал и увеличит долг, следовательно, увеличит коэффициент долга к собственному капиталу."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. This will decrease equity, therefore increasing the debt-to-equity ratio.",
+          "text_ru": "Неверно. Это уменьшит капитал, следовательно, увеличит коэффициент долга к собственному капиталу."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "solvency_ratios",
+        "debt_to_equity"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q025",
+      "original_question_number": 2120,
+      "los_id": "LOS_11b",
+      "question_text_en": "If a firm's current ratio increased from 1.1 to 1.7 due to an increase in inventory, what is the most likely impact on the asset turnover ratio?",
+      "question_text_ru": "Если коэффициент текущей ликвидности фирмы увеличился с 1.1 до 1.7 из-за увеличения запасов, каково наиболее вероятное влияние на коэффициент оборачиваемости активов?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The asset turnover ratio will increase.",
+          "text_ru": "Коэффициент оборачиваемости активов увеличится."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The asset turnover ratio will decrease.",
+          "text_ru": "Коэффициент оборачиваемости активов уменьшится."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The asset turnover ratio will remain unchanged.",
+          "text_ru": "Коэффициент оборачиваемости активов останется неизменным."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "An increase in the current ratio indicates an increase in current assets and total assets. Since the value of total assets will increase, the asset turnover ratio (Revenue/Avg. total assets) will decrease. Revenue will be unaffected by the increase in the current ratio.",
+      "explanation_ru": "Увеличение коэффициента текущей ликвидности указывает на увеличение оборотных активов и общих активов. Поскольку стоимость общих активов увеличится, коэффициент оборачиваемости активов (Выручка/Средние общие активы) уменьшится. Выручка не будет затронута увеличением коэффициента текущей ликвидности.",
+      "explanation_formula": "$\\text{Asset turnover} = \\frac{\\text{Revenue}}{\\text{Avg. total assets}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The ratio will decrease, not increase, as total assets increase while revenue remains unchanged.",
+          "text_ru": "Неверно. Коэффициент уменьшится, а не увеличится, поскольку общие активы увеличиваются, в то время как выручка остается неизменной."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The ratio will change as the denominator (total assets) increases.",
+          "text_ru": "Неверно. Коэффициент изменится, поскольку знаменатель (общие активы) увеличивается."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "activity_ratios",
+        "asset_turnover",
+        "current_ratio"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q026",
+      "original_question_number": 2121,
+      "los_id": "LOS_11b",
+      "question_text_en": "What is the most likely impact on a firm's return on equity ratio if the corporate tax rate increases from 25% to 27%?",
+      "question_text_ru": "Каково наиболее вероятное влияние на коэффициент рентабельности собственного капитала фирмы, если ставка корпоративного налога увеличится с 25% до 27%?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The Return on equity ratio will increase.",
+          "text_ru": "Коэффициент рентабельности собственного капитала увеличится."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The Return on equity ratio will decrease.",
+          "text_ru": "Коэффициент рентабельности собственного капитала уменьшится."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The Return on equity ratio will remain unchanged.",
+          "text_ru": "Коэффициент рентабельности собственного капитала останется неизменным."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The increase in the corporate tax rate from 25% to 27% will most likely lead to a decrease in the firm's return on equity (ROE) ratio. The ROE ratio is a measure of financial performance calculated by dividing net income by shareholders' equity. ROE = Net Income / Average Shareholders' Equity. When the corporate tax rate increases, the amount of tax a company owes on its profits also increases. This results in a decrease in the company's net income, assuming all other factors remain constant. Since net income is the numerator in the ROE formula, a decrease in net income due to higher taxes will lead to a decrease in the ROE ratio.",
+      "explanation_ru": "Увеличение ставки корпоративного налога с 25% до 27%, скорее всего, приведет к уменьшению коэффициента рентабельности собственного капитала (ROE) фирмы. Коэффициент ROE - это мера финансовой результативности, рассчитываемая путем деления чистой прибыли на собственный капитал акционеров. ROE = Чистая прибыль / Средний собственный капитал акционеров. Когда ставка корпоративного налога увеличивается, увеличивается и сумма налога, которую компания должна платить со своей прибыли. Это приводит к уменьшению чистой прибыли компании при условии, что все остальные факторы остаются неизменными. Поскольку чистая прибыль является числителем в формуле ROE, уменьшение чистой прибыли из-за более высоких налогов приведет к уменьшению коэффициента ROE.",
+      "explanation_formula": "$\\text{ROE} = \\frac{\\text{Net Income}}{\\text{Average Shareholders' Equity}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. An increase in tax rate decreases net income, which in turn decreases ROE.",
+          "text_ru": "Неверно. Увеличение налоговой ставки уменьшает чистую прибыль, что, в свою очередь, уменьшает ROE."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The ratio will change as net income is directly affected by changes in the tax rate.",
+          "text_ru": "Неверно. Коэффициент изменится, поскольку чистая прибыль напрямую зависит от изменений налоговой ставки."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "profitability_ratios",
+        "roe",
+        "tax_impact"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q027",
+      "original_question_number": 2122,
+      "los_id": "LOS_11a",
+      "question_text_en": "An analyst analyzes the last three years' balance sheets of Cosmo Inc. given in the following table.",
+      "question_text_ru": "Аналитик анализирует балансы Cosmo Inc. за последние три года, приведенные в следующей таблице.",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Balance Sheet",
+          "2017",
+          "2016",
+          "2015"
+        ],
+        "rows": [
+          [
+            "Acc. Rec.",
+            "300",
+            "210",
+            "150"
+          ],
+          [
+            "Inventory",
+            "500",
+            "540",
+            "450"
+          ],
+          [
+            "Total Current Assets",
+            "800",
+            "750",
+            "600"
+          ],
+          [
+            "Land",
+            "1,800",
+            "1,450",
+            "1,200"
+          ],
+          [
+            "Total Assets",
+            "2,600",
+            "2,200",
+            "1,800"
+          ],
+          [
+            "Acc. Payables",
+            "400",
+            "330",
+            "500"
+          ],
+          [
+            "Long-term Debt",
+            "1,300",
+            "770",
+            "400"
+          ],
+          [
+            "Common Equity",
+            "900",
+            "1,100",
+            "900"
+          ],
+          [
+            "Total Liab. & Equity",
+            "2,600",
+            "2,200",
+            "1,800"
+          ]
+        ]
+      },
+      "question_continuation_en": "The value of short-term liabilities for the most recent year if an analyst converts the balance sheet into a vertical common-size balance sheet is closest to:",
+      "question_continuation_ru": "Значение краткосрочных обязательств за самый последний год, если аналитик преобразует баланс в вертикальный баланс в процентах, наиболее близко к:",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "10.54%",
+          "text_ru": "10.54%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "15.38%",
+          "text_ru": "15.38%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "50%",
+          "text_ru": "50%"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "In a vertical common-size balance sheet, each line item is expressed as a percentage of total assets, allowing for easier comparison across different periods or companies by standardizing the figures. For Cosmo Inc., the short-term liabilities consist solely of Accounts Payable. To find the percentage of short-term liabilities relative to total assets for the most recent year, we calculate the ratio of Accounts Payable to Total Assets for 2017:\n\nAccounts Payable / Total Assets = 400 / 2,600 = 15.38%.",
+      "explanation_ru": "В вертикальном балансе в процентах каждая статья выражается в процентах от общих активов, что облегчает сравнение по различным периодам или компаниям путем стандартизации показателей. Для Cosmo Inc. краткосрочные обязательства состоят исключительно из кредиторской задолженности. Чтобы найти процент краткосрочных обязательств относительно общих активов за самый последний год, мы рассчитываем соотношение кредиторской задолженности к общим активам за 2017 год:\n\nКредиторская задолженность / Общие активы = 400 / 2,600 = 15.38%.",
+      "explanation_formula": "$\\text{Short-term liabilities} = \\frac{\\text{Accounts Payable}}{\\text{Total Assets}} = \\frac{400}{2,600} = 15.38\\%$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This may represent a different calculation or period.",
+          "text_ru": "Неверно. Это может представлять другой расчет или период."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This is too high and does not represent the correct percentage of short-term liabilities.",
+          "text_ru": "Неверно. Это слишком высоко и не представляет правильный процент краткосрочных обязательств."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "common_size_analysis",
+        "vertical_common_size",
+        "balance_sheet"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q028",
+      "original_question_number": 2124,
+      "los_id": "LOS_11b",
+      "question_text_en": "An analyst is trying to analyze the trend in the capital structure of Cosmo Inc.",
+      "question_text_ru": "Аналитик пытается проанализировать тренд в структуре капитала Cosmo Inc.",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Balance Sheet",
+          "2017",
+          "2016",
+          "2015"
+        ],
+        "rows": [
+          [
+            "Acc. Rec.",
+            "300",
+            "210",
+            "150"
+          ],
+          [
+            "Inventory",
+            "500",
+            "540",
+            "450"
+          ],
+          [
+            "Total Current Assets",
+            "800",
+            "750",
+            "600"
+          ],
+          [
+            "Land",
+            "1,800",
+            "1,450",
+            "1,200"
+          ],
+          [
+            "Total Assets",
+            "2,600",
+            "2,200",
+            "1,800"
+          ],
+          [
+            "Acc. Payables",
+            "400",
+            "330",
+            "500"
+          ],
+          [
+            "Long-term Debt",
+            "1,300",
+            "770",
+            "400"
+          ],
+          [
+            "Common Equity",
+            "900",
+            "1,100",
+            "900"
+          ],
+          [
+            "Total Liab. & Equity",
+            "2,600",
+            "2,200",
+            "1,800"
+          ]
+        ]
+      },
+      "question_continuation_en": "If Cosmo Inc. had no short-term debt, the trend using the debt-to-equity ratio is most likely:",
+      "question_continuation_ru": "Если у Cosmo Inc. не было краткосрочного долга, тренд с использованием коэффициента долга к собственному капиталу, скорее всего:",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Cosmo Inc. has a decreasing trend in its use of debt financing.",
+          "text_ru": "Cosmo Inc. имеет убывающий тренд в использовании долгового финансирования."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Cosmo Inc. has an increasing trend in its use of debt financing.",
+          "text_ru": "Cosmo Inc. имеет возрастающий тренд в использовании долгового финансирования."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Cosmo Inc. has an increasing trend in its use of equity financing.",
+          "text_ru": "Cosmo Inc. имеет возрастающий тренд в использовании долевого финансирования."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Debt-to-equity ratio of year 2017 = 1,300 / 900 = 1.44.\nDebt-to-equity ratio of year 2016 = 770 / 1,100 = 0.7.\nDebt-to-equity ratio of year 2015 = 400 / 900 = 0.44.\n\nHence, Cosmo is increasingly using Debt financing to repurchase Equity. Please note that that debt in the D/E ratio represents the total debt on Cosmo's balance sheet (this would include both long-term and short-term interest-bearing liabilities).",
+      "explanation_ru": "Коэффициент долга к собственному капиталу за 2017 год = 1,300 / 900 = 1.44.\nКоэффициент долга к собственному капиталу за 2016 год = 770 / 1,100 = 0.7.\nКоэффициент долга к собственному капиталу за 2015 год = 400 / 900 = 0.44.\n\nСледовательно, Cosmo все больше использует долговое финансирование для выкупа капитала. Обратите внимание, что долг в коэффициенте D/E представляет общий долг в балансе Cosmo (это будет включать как долгосрочные, так и краткосрочные процентные обязательства).",
+      "explanation_formula": "$\\text{Debt-to-equity ratio} = \\frac{\\text{Long-term Debt}}{\\text{Common Equity}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The debt-to-equity ratio is increasing, not decreasing.",
+          "text_ru": "Неверно. Коэффициент долга к собственному капиталу увеличивается, а не уменьшается."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The trend shows increasing debt financing, not equity financing.",
+          "text_ru": "Неверно. Тренд показывает увеличение долгового финансирования, а не долевого финансирования."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "solvency_ratios",
+        "debt_to_equity",
+        "trend_analysis"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q029",
+      "original_question_number": 2125,
+      "los_id": "LOS_11d",
+      "question_text_en": "Which of the following is the most appropriate equation for calculating the return on equity ratio?",
+      "question_text_ru": "Какое из следующих уравнений является наиболее подходящим для расчета коэффициента рентабельности собственного капитала?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Return on Equity = Net Profit Margin × Asset Turnover × Financial Leverage.",
+          "text_ru": "Рентабельность собственного капитала = Чистая рентабельность × Оборачиваемость активов × Финансовый леверидж."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Return on Equity = Net Profit Margin × Equity Turnover × Financial Leverage.",
+          "text_ru": "Рентабельность собственного капитала = Чистая рентабельность × Оборачиваемость капитала × Финансовый леверидж."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Return on Equity = Gross Profit Margin × Return on Assets × Financial Leverage.",
+          "text_ru": "Рентабельность собственного капитала = Валовая рентабельность × Рентабельность активов × Финансовый леверидж."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The Return on equity ratio (Net income / Avg. Total equity) can also be calculated using the DuPont approach:\n\nReturn on equity ratio = Net Profit Margin × Asset Turnover × Financial Leverage\n\nOR\n\n[(Net Income / Sales)(Sales / Avg. Total Assets)(Avg. Total Assets / Avg. Total Equity)].",
+      "explanation_ru": "Коэффициент рентабельности собственного капитала (Чистая прибыль / Средний общий капитал) также можно рассчитать с использованием подхода DuPont:\n\nКоэффициент рентабельности собственного капитала = Чистая рентабельность × Оборачиваемость активов × Финансовый леверидж\n\nИЛИ\n\n[(Чистая прибыль / Продажи)(Продажи / Средние общие активы)(Средние общие активы / Средний общий капитал)].",
+      "explanation_formula": "$\\text{ROE} = \\frac{\\text{Net Income}}{\\text{Sales}} \\times \\frac{\\text{Sales}}{\\text{Avg. Total Assets}} \\times \\frac{\\text{Avg. Total Assets}}{\\text{Avg. Total Equity}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. It has included equity turnover instead of asset turnover.",
+          "text_ru": "Неверно. Включена оборачиваемость капитала вместо оборачиваемости активов."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It includes the Gross Profit margin and returns on assets instead of net profit margin and asset turnover.",
+          "text_ru": "Неверно. Включает валовую рентабельность и рентабельность активов вместо чистой рентабельности и оборачиваемости активов."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "dupont_analysis",
+        "roe"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q030",
+      "original_question_number": 2126,
+      "los_id": "LOS_11d",
+      "question_text_en": "A research analyst at Shark Investment Management is conducting a DuPont analysis for a firm whose financial data for the year 2016 is provided in the following table:",
+      "question_text_ru": "Исследовательский аналитик в Shark Investment Management проводит анализ DuPont для фирмы, финансовые данные которой за 2016 год представлены в следующей таблице:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Financial Data",
+          ""
+        ],
+        "rows": [
+          [
+            "Revenue",
+            "1,450,000"
+          ],
+          [
+            "COGS",
+            "550,000"
+          ],
+          [
+            "Gross Profit",
+            "900,000"
+          ],
+          [
+            "SG&A",
+            "160,000"
+          ],
+          [
+            "Wages Exp.",
+            "140,000"
+          ],
+          [
+            "EBITDA",
+            "600,000"
+          ],
+          [
+            "Dep. Exp.",
+            "220,000"
+          ],
+          [
+            "Operating Profit",
+            "380,000"
+          ],
+          [
+            "Interest Payment",
+            "170,000"
+          ],
+          [
+            "EBT",
+            "210,000"
+          ],
+          [
+            "Taxes",
+            "63,000"
+          ],
+          [
+            "Net Income",
+            "147,000"
+          ],
+          [
+            "Total Assets",
+            "3,400,000"
+          ],
+          [
+            "Total Debt",
+            "1,500,000"
+          ]
+        ]
+      },
+      "question_continuation_en": "Considering that the data provided is accurate, the firm's tax burden is closest to:",
+      "question_continuation_ru": "Учитывая, что предоставленные данные точны, налоговое бремя фирмы наиболее близко к:",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "0.25",
+          "text_ru": "0.25"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "0.30",
+          "text_ru": "0.30"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "0.70",
+          "text_ru": "0.70"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Tax Burden = Net Income / EBT = $147,000 / $210,000 = 0.7.",
+      "explanation_ru": "Налоговое бремя = Чистая прибыль / EBT = $147,000 / $210,000 = 0.7.",
+      "explanation_formula": "$\\text{Tax Burden} = \\frac{\\text{Net Income}}{\\text{EBT}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. It uses EBITDA in the denominator instead of EBT.",
+          "text_ru": "Неверно. Использует EBITDA в знаменателе вместо EBT."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Uses operating profit in the denominator instead of EBT.",
+          "text_ru": "Неверно. Использует операционную прибыль в знаменателе вместо EBT."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "dupont_analysis",
+        "tax_burden"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q031",
+      "original_question_number": 2128,
+      "los_id": "LOS_11d",
+      "question_text_en": "A research analyst at Shark Investment Management is conducting a DuPont analysis for a firm whose financial data is provided in the following table:",
+      "question_text_ru": "Исследовательский аналитик в Shark Investment Management проводит анализ DuPont для фирмы, финансовые данные которой представлены в следующей таблице:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Financial Data",
+          ""
+        ],
+        "rows": [
+          [
+            "Revenue",
+            "1,450,000"
+          ],
+          [
+            "COGS",
+            "550,000"
+          ],
+          [
+            "Gross Profit",
+            "900,000"
+          ],
+          [
+            "SG&A",
+            "160,000"
+          ],
+          [
+            "Wages Exp.",
+            "140,000"
+          ],
+          [
+            "EBITDA",
+            "600,000"
+          ],
+          [
+            "Dep. Exp.",
+            "220,000"
+          ],
+          [
+            "Operating Profit",
+            "380,000"
+          ],
+          [
+            "Interest Payment",
+            "170,000"
+          ],
+          [
+            "EBT",
+            "210,000"
+          ],
+          [
+            "Taxes",
+            "63,000"
+          ],
+          [
+            "Net Income",
+            "147,000"
+          ],
+          [
+            "Total Assets",
+            "3,400,000"
+          ],
+          [
+            "Total Debt",
+            "1,500,000"
+          ]
+        ]
+      },
+      "question_continuation_en": "Considering that the data provided is accurate, the firm's return on equity using the extended DuPont ratio is closest to:",
+      "question_continuation_ru": "Учитывая, что предоставленные данные точны, рентабельность собственного капитала фирмы с использованием расширенного коэффициента DuPont наиболее близка к:",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "7.7%",
+          "text_ru": "7.7%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "10%",
+          "text_ru": "10%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "43%",
+          "text_ru": "43%"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The extended DuPont approach has 5 components: Tax burden (N.I./ EBT), Interest Burden (EBT/EBIT), EBIT Margin (EBIT/Revenue), Asset Turnover (Revenue/ Avg. Total Assets) & Financial Leverage (Avg. Total Assets/Avg. Total Equity).\n\nTax Burden = 0.70, Interest Burden = 0.55, EBIT Margin = 0.26, Asset Turnover = 0.43, Financial Leverage = 1.79.\n\nReturn on Equity = 0.077 or 7.7%.",
+      "explanation_ru": "Расширенный подход DuPont имеет 5 компонентов: Налоговое бремя (Чистая прибыль / EBT), Процентное бремя (EBT/EBIT), EBIT маржа (EBIT/Выручка), Оборачиваемость активов (Выручка / Средние общие активы) и Финансовый леверидж (Средние общие активы / Средний общий капитал).\n\nНалоговое бремя = 0.70, Процентное бремя = 0.55, EBIT маржа = 0.26, Оборачиваемость активов = 0.43, Финансовый леверидж = 1.79.\n\nРентабельность собственного капитала = 0.077 или 7.7%.",
+      "explanation_formula": "$\\text{ROE} = \\text{Tax Burden} \\times \\text{Interest Burden} \\times \\text{EBIT Margin} \\times \\text{Asset Turnover} \\times \\text{Financial Leverage}$",
+      "explanation_table": {
+        "headers": [
+          "Component",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Tax Burden",
+            "0.70"
+          ],
+          [
+            "Interest Burden",
+            "0.55"
+          ],
+          [
+            "EBIT Margin",
+            "0.26"
+          ],
+          [
+            "Asset Turnover",
+            "0.43"
+          ],
+          [
+            "Financial Leverage",
+            "1.79"
+          ],
+          [
+            "Return on Equity",
+            "0.077"
+          ]
+        ]
+      },
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. It excludes asset turnover and financial leverage.",
+          "text_ru": "Неверно. Исключает оборачиваемость активов и финансовый леверидж."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It represents the asset turnover ratio.",
+          "text_ru": "Неверно. Это представляет коэффициент оборачиваемости активов."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "dupont_analysis",
+        "extended_dupont",
+        "roe"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q032",
+      "original_question_number": 2129,
+      "los_id": "LOS_11b",
+      "question_text_en": "Armen Inc. and Bristol Corp. are market leaders in the construction industry. Some financial information regarding the two firms is given in the following table:",
+      "question_text_ru": "Armen Inc. и Bristol Corp. являются лидерами рынка в строительной отрасли. Некоторая финансовая информация по двум фирмам приведена в следующей таблице:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "",
+          "Armen Inc.",
+          "Bristol Corp."
+        ],
+        "rows": [
+          [
+            "Revenue",
+            "6,000,000",
+            "8,000,000"
+          ],
+          [
+            "Gross Profit",
+            "3,400,000",
+            "5,500,000"
+          ],
+          [
+            "EBIT",
+            "2,100,000",
+            "2,700,000"
+          ],
+          [
+            "Net Income",
+            "1,500,000",
+            "1,800,000"
+          ],
+          [
+            "Total Debt",
+            "6,400,000",
+            "7,200,000"
+          ],
+          [
+            "Dividend per Share",
+            "1",
+            "2"
+          ],
+          [
+            "Share Price",
+            "25",
+            "22"
+          ],
+          [
+            "Number of Shares Outstanding",
+            "500,000",
+            "600,000"
+          ]
+        ]
+      },
+      "question_continuation_en": "Assuming that each firm's market capitalization is approximately equal to the firm's total equity, Armen Inc.'s return on equity ratio is closest to:",
+      "question_continuation_ru": "Предполагая, что рыночная капитализация каждой фирмы примерно равна общему капиталу фирмы, коэффициент рентабельности собственного капитала Armen Inc. наиболее близок к:",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "12%.",
+          "text_ru": "12%."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "25%.",
+          "text_ru": "25%."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "56%.",
+          "text_ru": "56%."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "To calculate the return on equity ratio, it is important to determine the value of total equity. In this case:\n\nTotal equity = Share price × No. of Shares outstanding = $25 × 500,000 = $12.5 million.\n\nReturn on equity = Net income / Total equity = $1.5 million / $12.5 million = 0.12 or 12%.",
+      "explanation_ru": "Для расчета коэффициента рентабельности собственного капитала важно определить стоимость общего капитала. В данном случае:\n\nОбщий капитал = Цена акции × Количество акций в обращении = $25 × 500,000 = $12.5 миллиона.\n\nРентабельность собственного капитала = Чистая прибыль / Общий капитал = $1.5 миллиона / $12.5 миллиона = 0.12 или 12%.",
+      "explanation_formula": "$\\text{ROE} = \\frac{\\text{Net Income}}{\\text{Total Equity}} = \\frac{\\text{Net Income}}{\\text{Share Price} \\times \\text{Shares Outstanding}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. It represents the net profit margin.",
+          "text_ru": "Неверно. Это представляет чистую рентабельность."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It represents the gross profit margin.",
+          "text_ru": "Неверно. Это представляет валовую рентабельность."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "profitability_ratios",
+        "roe",
+        "market_capitalization"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q033",
+      "original_question_number": 2135,
+      "los_id": "LOS_11f",
+      "question_text_en": "Which of the following analysis methods examines the variability in financial outcome based on a change in one specific variable?",
+      "question_text_ru": "Какой из следующих методов анализа исследует изменчивость финансовых результатов на основе изменения одной конкретной переменной?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Scenario analysis.",
+          "text_ru": "Сценарный анализ."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Sensitivity analysis.",
+          "text_ru": "Анализ чувствительности."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Simulation analysis.",
+          "text_ru": "Симуляционный анализ."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Sensitivity analysis is a tool used to predict the outcome of a decision given a certain range of variables. By changing one specific variable while keeping others constant, analysts can determine how changes in that variable affect the outcome. This method is particularly useful in financial modeling to assess risk and understand the impact of different variables on a project's or investment's financial viability.",
+      "explanation_ru": "Анализ чувствительности - это инструмент, используемый для прогнозирования результата решения при заданном диапазоне переменных. Изменяя одну конкретную переменную, сохраняя остальные постоянными, аналитики могут определить, как изменения в этой переменной влияют на результат. Этот метод особенно полезен в финансовом моделировании для оценки рисков и понимания влияния различных переменных на финансовую жизнеспособность проекта или инвестиций.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Scenario analysis differs from sensitivity analysis in that it considers the impact of changing multiple variables at once to assess the outcomes under different scenarios.",
+          "text_ru": "Неверно. Сценарный анализ отличается от анализа чувствительности тем, что он рассматривает влияние изменения нескольких переменных одновременно для оценки результатов при различных сценариях."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Simulation analysis is a technique that uses probability distributions to model and analyze the behavior of a system or process. Unlike sensitivity analysis, which examines the effect of changing one variable at a time, simulation analysis allows for the simultaneous variation of many variables.",
+          "text_ru": "Неверно. Симуляционный анализ - это техника, которая использует распределения вероятностей для моделирования и анализа поведения системы или процесса. В отличие от анализа чувствительности, который исследует эффект изменения одной переменной за раз, симуляционный анализ позволяет одновременно варьировать многие переменные."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "sensitivity_analysis",
+        "financial_modeling",
+        "forecasting"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q034",
+      "original_question_number": 2136,
+      "los_id": "LOS_11d",
+      "question_text_en": "A company earned a net income of $500,000 with sales of $2,500,000 for the year 2016. If the asset turnover ratio of the firm is 0.4, and the financial leverage is 1.3, then the return on equity of the firm is closest to:",
+      "question_text_ru": "Компания заработала чистую прибыль $500,000 при продажах $2,500,000 за 2016 год. Если коэффициент оборачиваемости активов фирмы составляет 0.4, а финансовый леверидж 1.3, то рентабельность собственного капитала фирмы наиболее близка к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "8.0%",
+          "text_ru": "8.0%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "10.4%",
+          "text_ru": "10.4%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "20.0%",
+          "text_ru": "20.0%"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The profit margin is calculated by dividing the net income by sales: Profit margin = $500,000 / $2,500,000 = 20%.\n\nGiven the asset turnover ratio of 0.4 and financial leverage of 1.3, we can calculate the ROE using the DuPont formula:\n\nROE = (Profit Margin) × (Asset Turnover) × (Financial Leverage) = 0.20 × 0.4 × 1.3 = 10.4%.",
+      "explanation_ru": "Рентабельность рассчитывается путем деления чистой прибыли на продажи: Рентабельность = $500,000 / $2,500,000 = 20%.\n\nУчитывая коэффициент оборачиваемости активов 0.4 и финансовый леверидж 1.3, мы можем рассчитать ROE с использованием формулы DuPont:\n\nROE = (Рентабельность) × (Оборачиваемость активов) × (Финансовый леверидж) = 0.20 × 0.4 × 1.3 = 10.4%.",
+      "explanation_formula": "$\\text{ROE} = \\text{Profit Margin} \\times \\text{Asset Turnover} \\times \\text{Financial Leverage}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. It excludes financial leverage in calculating the return on equity.",
+          "text_ru": "Неверно. Исключает финансовый леверидж при расчете рентабельности собственного капитала."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It represents the profit margin.",
+          "text_ru": "Неверно. Это представляет рентабельность."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "dupont_analysis",
+        "roe"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q035",
+      "original_question_number": 2394,
+      "los_id": "LOS_11b",
+      "question_text_en": "An analyst at a German research firm analyzes the reports of a home appliances firm, Arab Appliances, for his emerging markets income fund. Some of the information from his analysis is given in the following table and notes:\n\nNote 1 - Arab Oven consistently sold 20,000 units of Smart Oven at the price of $150, in 2015 and 2016, because the country has hypothetically zero inflation which means there was no increase or decrease in input prices.\n\nNote 2 - Arab Oven's supplier is a private company that is owned by the management of the Arab Oven. Arab only uses the FIFO inventory method.\n\nNote 3 - Arab Oven is continuously engaged in the research for innovations in smart appliances. The firm capitalized on the research cost in 2015 but decided to expense it in 2016. This capitalization increased the depreciation cost which was $80,000 originally.\n\nNote 4 - The firm expensed the interest cost in 2015 but resolved to capitalize the interest on the funds used for the construction of new technology. The capitalization of interest increased the depreciation for the year which was $80,000 originally.",
+      "question_text_ru": "Аналитик в немецкой исследовательской фирме анализирует отчеты фирмы по производству бытовой техники, Arab Appliances, для своего фонда дохода на развивающихся рынках. Некоторая информация из его анализа приведена в следующей таблице и примечаниях:\n\nПримечание 1 - Arab Oven последовательно продавала 20,000 единиц Smart Oven по цене $150 в 2015 и 2016 годах, потому что в стране гипотетически нулевая инфляция, что означает отсутствие увеличения или уменьшения входных цен.\n\nПримечание 2 - Поставщик Arab Oven - это частная компания, принадлежащая руководству Arab Oven. Arab использует только метод FIFO для запасов.\n\nПримечание 3 - Arab Oven постоянно занимается исследованиями инноваций в умной бытовой технике. Фирма капитализировала затраты на исследования в 2015 году, но решила списать их в 2016 году. Эта капитализация увеличила амортизационные расходы, которые изначально составляли $80,000.\n\nПримечание 4 - Фирма списала процентные расходы в 2015 году, но решила капитализировать проценты по средствам, использованным для строительства новой технологии. Капитализация процентов увеличила амортизацию за год, которая изначально составляла $80,000.",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Note",
+          "Income Statement",
+          "2015",
+          "2016"
+        ],
+        "rows": [
+          [
+            "1",
+            "Revenue",
+            "$3,000,000",
+            "$3,000,000"
+          ],
+          [
+            "2",
+            "COGS",
+            "$1,900,000",
+            "$2,500,000"
+          ],
+          [
+            "",
+            "Gross Profit",
+            "$1,100,000",
+            "$500,000"
+          ],
+          [
+            "3",
+            "Research Cost",
+            "-",
+            "$120,000"
+          ],
+          [
+            "",
+            "Depreciation Exp.",
+            "$90,000",
+            "$90,000"
+          ],
+          [
+            "",
+            "EBIT",
+            "$1,010,000",
+            "$290,000"
+          ],
+          [
+            "4",
+            "Interest",
+            "$150,000",
+            "-"
+          ],
+          [
+            "",
+            "Net Income",
+            "$860,000",
+            "$290,000"
+          ]
+        ]
+      },
+      "question_continuation_en": "After analyzing the information given in the table and notes, which of the following is the most accurate statement regarding the change in the asset turnover ratio of Arab Oven?",
+      "question_continuation_ru": "После анализа информации, приведенной в таблице и примечаниях, какое из следующих утверждений является наиболее точным относительно изменения коэффициента оборачиваемости активов Arab Oven?",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The asset turnover ratio is lower in 2015.",
+          "text_ru": "Коэффициент оборачиваемости активов ниже в 2015 году."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The asset turnover ratio is lower in 2016.",
+          "text_ru": "Коэффициент оборачиваемости активов ниже в 2016 году."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The asset turnover ratio is the same in 2015 and in 2016.",
+          "text_ru": "Коэффициент оборачиваемости активов одинаков в 2015 и 2016 годах."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The asset turnover ratio (Revenue / Avg. Total Assets) is a measure of how efficiently a company uses its assets to generate sales. A lower asset turnover ratio in 2016 can be attributed to the unchanged revenue amidst an increase in total assets. The reasons for the increase in total assets in 2016:\n\n1. COGS increased from $1,900,000 to $2,500,000. This increase suggests higher ending inventory valuation, thereby increasing total assets.\n\n2. The firm capitalized interest cost in 2016 ($150,000), directly increasing the asset base.\n\n3. Research costs were capitalized in 2015 but expensed in 2016. However, the impact is offset by higher increases from capitalized interest and higher inventory valuation.",
+      "explanation_ru": "Коэффициент оборачиваемости активов (Выручка / Средние общие активы) - это мера того, насколько эффективно компания использует свои активы для генерации продаж. Более низкий коэффициент оборачиваемости активов в 2016 году может быть обусловлен неизменной выручкой на фоне увеличения общих активов. Причины увеличения общих активов в 2016 году:\n\n1. COGS увеличилась с $1,900,000 до $2,500,000. Это увеличение предполагает более высокую оценку конечных запасов, тем самым увеличивая общие активы.\n\n2. Фирма капитализировала процентные расходы в 2016 году ($150,000), напрямую увеличивая базу активов.\n\n3. Затраты на исследования были капитализированы в 2015 году, но списаны в 2016 году. Однако влияние компенсируется более высоким увеличением от капитализированных процентов и более высокой оценки запасов.",
+      "explanation_formula": "$\\text{Asset Turnover} = \\frac{\\text{Revenue}}{\\text{Avg. Total Assets}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The asset turnover ratio is lower in 2016, not 2015.",
+          "text_ru": "Неверно. Коэффициент оборачиваемости активов ниже в 2016 году, а не в 2015."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The ratio changed due to changes in total assets while revenue remained constant.",
+          "text_ru": "Неверно. Коэффициент изменился из-за изменений в общих активах, в то время как выручка осталась постоянной."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": [
+        "activity_ratios",
+        "asset_turnover",
+        "accounting_policies"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q036",
+      "original_question_number": 3796,
+      "los_id": "LOS_11b",
+      "question_text_en": "Consider the following information for a company:\n\n• Net income - $ 5,000\n• Income tax expense - $ 1,130\n• Interest Expense and Payments - $ 1,050\n• Lease Payments - $ 700\n\nThe fixed coverage ratio for the company is closest to:",
+      "question_text_ru": "Рассмотрите следующую информацию для компании:\n\n• Чистая прибыль - $ 5,000\n• Расходы по налогу на прибыль - $ 1,130\n• Процентные расходы и платежи - $ 1,050\n• Арендные платежи - $ 700\n\nКоэффициент покрытия фиксированных платежей для компании наиболее близок к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "2.9",
+          "text_ru": "2.9"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "4.1",
+          "text_ru": "4.1"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "4.5",
+          "text_ru": "4.5"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Fixed charge coverage ratio = (EBIT + Lease Payments) / (Interest payments + Lease Payments) = (($5,000 + $1,130 + $1,050) + $700) / ($1,050 + $700) = $7,880 / $1,750 = 4.5.",
+      "explanation_ru": "Коэффициент покрытия фиксированных платежей = (EBIT + Арендные платежи) / (Процентные платежи + Арендные платежи) = (($5,000 + $1,130 + $1,050) + $700) / ($1,050 + $700) = $7,880 / $1,750 = 4.5.",
+      "explanation_formula": "$\\text{Fixed charge coverage ratio} = \\frac{\\text{EBIT} + \\text{Lease Payments}}{\\text{Interest payments} + \\text{Lease Payments}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. It has used net income instead of EBIT to calculate the fixed coverage ratio.",
+          "text_ru": "Неверно. Использовала чистую прибыль вместо EBIT для расчета коэффициента покрытия фиксированных платежей."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Lease payments have not been added to the EBIT in the numerator.",
+          "text_ru": "Неверно. Арендные платежи не были добавлены к EBIT в числителе."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "solvency_ratios",
+        "fixed_charge_coverage"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q037",
+      "original_question_number": 4933,
+      "los_id": "LOS_11a",
+      "question_text_en": "An analyst is examining the common-size balance sheets of two companies to evaluate their financial structure. Which of the following is most likely to distort the analysis? Differences in:",
+      "question_text_ru": "Аналитик изучает балансы в процентах двух компаний для оценки их финансовой структуры. Что из следующего, скорее всего, исказит анализ? Различия в:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "fiscal year-end dates.",
+          "text_ru": "датах окончания финансового года."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "industry classification.",
+          "text_ru": "отраслевой классификации."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "asset valuation methods.",
+          "text_ru": "методах оценки активов."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Differences in asset valuation methods can significantly distort the analysis because they directly affect the reported values of assets, impacting the balance sheet composition and ratios derived from these values. For example, one company might use historical cost, while another uses fair value, leading to inconsistencies in asset valuations and comparability.",
+      "explanation_ru": "Различия в методах оценки активов могут значительно исказить анализ, поскольку они напрямую влияют на отчетные стоимости активов, влияя на состав баланса и коэффициенты, полученные из этих значений. Например, одна компания может использовать историческую стоимость, в то время как другая использует справедливую стоимость, что приводит к несоответствиям в оценках активов и сопоставимости.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Differences in fiscal year-end dates can affect comparability to some extent, but they do not distort the intrinsic valuation methods of assets and liabilities as directly as differences in asset valuation methods do.",
+          "text_ru": "Неверно. Различия в датах окончания финансового года могут в некоторой степени повлиять на сопоставимость, но они не искажают внутренние методы оценки активов и обязательств так напрямую, как различия в методах оценки активов."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Differences in industry classification might affect the types of assets and liabilities reported, but they do not inherently distort the common-size analysis, which focuses on the relative proportions of financial statement items.",
+          "text_ru": "Неверно. Различия в отраслевой классификации могут повлиять на типы отчетных активов и обязательств, но они по своей сути не искажают анализ в процентах, который фокусируется на относительных пропорциях статей финансовой отчетности."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "common_size_analysis",
+        "financial_analysis_limitations",
+        "asset_valuation"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q038",
+      "original_question_number": 4934,
+      "los_id": "LOS_11a",
+      "question_text_en": "Which of the following aspects of ratio analysis is least likely to distort meaningful comparisons across companies and over time?",
+      "question_text_ru": "Какой из следующих аспектов анализа коэффициентов наименее вероятно исказит значимые сравнения между компаниями и во времени?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Interpretation of the ratios.",
+          "text_ru": "Интерпретация коэффициентов."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Differences in accounting policies.",
+          "text_ru": "Различия в учетной политике."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Ratios are indicators, not the answers.",
+          "text_ru": "Коэффициенты - это индикаторы, а не ответы."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Ratios being indicators, not the answers, is a fundamental aspect of ratio analysis that provides insights into what happened but not necessarily why it happened. This characteristic of ratios helps analysts identify potential areas of concern or strength without inherently distorting comparisons. It means that while ratios can highlight areas for further investigation, they do not by themselves explain the underlying reasons.",
+      "explanation_ru": "То, что коэффициенты являются индикаторами, а не ответами, - это фундаментальный аспект анализа коэффициентов, который дает представление о том, что произошло, но не обязательно о том, почему это произошло. Эта характеристика коэффициентов помогает аналитикам выявлять потенциальные области беспокойства или силы без внутреннего искажения сравнений. Это означает, что хотя коэффициенты могут выделить области для дальнейшего исследования, они сами по себе не объясняют основные причины.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Interpretation is key in ratio analysis because it involves understanding the context and the reasons behind the ratios. Misinterpretation can lead to incorrect conclusions, thus affecting meaningful comparisons.",
+          "text_ru": "Неверно. Интерпретация является ключевой в анализе коэффициентов, потому что она включает понимание контекста и причин, стоящих за коэффициентами. Неправильная интерпретация может привести к неправильным выводам, тем самым влияя на значимые сравнения."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Differences in accounting policies across companies and over time can distort ratios because companies may use different methods for accounting for inventory, depreciation, or other financial elements. These differences can lead to misleading comparisons unless adjustments are made.",
+          "text_ru": "Неверно. Различия в учетной политике между компаниями и во времени могут исказить коэффициенты, потому что компании могут использовать различные методы учета запасов, амортизации или других финансовых элементов. Эти различия могут привести к вводящим в заблуждение сравнениям, если не внести корректировки."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "ratio_analysis_limitations",
+        "financial_analysis_tools"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q039",
+      "original_question_number": 4935,
+      "los_id": "LOS_11b",
+      "question_text_en": "You have been provided with the following financial ratios for Company ABC for the periods ending December 31, 2021, and December 31, 2020:",
+      "question_text_ru": "Вам предоставлены следующие финансовые коэффициенты для компании ABC за периоды, заканчивающиеся 31 декабря 2021 года и 31 декабря 2020 года:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Ratios",
+          "December 31, 2021",
+          "December 31, 2020"
+        ],
+        "rows": [
+          [
+            "Return on equity",
+            "8.25%",
+            "6.45%"
+          ],
+          [
+            "Return on assets",
+            "4.35%",
+            "3.98%"
+          ],
+          [
+            "Current ratio",
+            "1.85",
+            "1.65"
+          ],
+          [
+            "Inventory turnover",
+            "4.3",
+            "3.7"
+          ],
+          [
+            "Net profit margin",
+            "4.75%",
+            "3.90%"
+          ],
+          [
+            "Debt-to-assets",
+            "48.25%",
+            "55.00%"
+          ]
+        ]
+      },
+      "question_continuation_en": "Which of the following best describes the trend in Company ABC's financial performance from 2020 to 2021?",
+      "question_continuation_ru": "Какое из следующих утверждений лучше всего описывает тренд в финансовых результатах компании ABC с 2020 по 2021 год?",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Improved profitability and liquidity, and stronger solvency",
+          "text_ru": "Улучшенная прибыльность и ликвидность, и более сильная платежеспособность"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Declined profitability, improved liquidity, and weaker solvency",
+          "text_ru": "Снизившаяся прибыльность, улучшенная ликвидность и более слабая платежеспособность"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Improved profitability, weaker liquidity, and stronger solvency",
+          "text_ru": "Улучшенная прибыльность, более слабая ликвидность и более сильная платежеспособность"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Improved profitability is indicated by the increase in return on equity (ROE) from 6.45% to 8.25%, return on assets (ROA) from 3.98% to 4.35%, and net profit margin from 3.90% to 4.75%.\n\nThe current ratio increased from 1.65 to 1.85, indicating better liquidity. Lastly, the debt-to-assets ratio decreased from 55.00% to 48.25%, indicating a reduction in financial leverage, hence stronger solvency.",
+      "explanation_ru": "Улучшенная прибыльность обозначается увеличением рентабельности собственного капитала (ROE) с 6.45% до 8.25%, рентабельности активов (ROA) с 3.98% до 4.35% и чистой рентабельности с 3.90% до 4.75%.\n\nКоэффициент текущей ликвидности увеличился с 1.65 до 1.85, что указывает на лучшую ликвидность. Наконец, коэффициент долга к активам уменьшился с 55.00% до 48.25%, что указывает на снижение финансового левериджа, следовательно, более сильную платежеспособность.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Profitability improved, not declined, as evidenced by all profitability ratios increasing.",
+          "text_ru": "Неверно. Прибыльность улучшилась, а не снизилась, о чем свидетельствует увеличение всех коэффициентов прибыльности."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Liquidity improved, not weakened, as shown by the increase in the current ratio.",
+          "text_ru": "Неверно. Ликвидность улучшилась, а не ослабла, о чем свидетельствует увеличение коэффициента текущей ликвидности."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "profitability_ratios",
+        "liquidity_ratios",
+        "solvency_ratios",
+        "trend_analysis"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q040",
+      "original_question_number": 4936,
+      "los_id": "LOS_11c",
+      "question_text_en": "An analyst is evaluating the liquidity of a company using the following ratios over the past three years:",
+      "question_text_ru": "Аналитик оценивает ликвидность компании, используя следующие коэффициенты за последние три года:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Ratio",
+          "2023",
+          "2022",
+          "2021"
+        ],
+        "rows": [
+          [
+            "Current Ratio",
+            "1.8",
+            "2.0",
+            "2.5"
+          ],
+          [
+            "Quick Ratio",
+            "1.2",
+            "1.4",
+            "1.6"
+          ],
+          [
+            "Days of Inventory Held (DOH)",
+            "60",
+            "55",
+            "50"
+          ],
+          [
+            "Days Sales Outstanding (DSO)",
+            "45",
+            "42",
+            "40"
+          ]
+        ]
+      },
+      "question_continuation_en": "Which of the following best explains the observed change in the company's liquidity ratios from 2021 to 2023? The company has:",
+      "question_continuation_ru": "Какое из следующих утверждений лучше всего объясняет наблюдаемое изменение коэффициентов ликвидности компании с 2021 по 2023 год? Компания:",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "reduced its short-term liabilities.",
+          "text_ru": "сократила свои краткосрочные обязательства."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "significantly increased its inventory levels.",
+          "text_ru": "значительно увеличила свои уровни запасов."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "improved its cash collection from customers.",
+          "text_ru": "улучшила свой сбор денежных средств от клиентов."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The decrease in both the current ratio and the quick ratio, alongside an increase in DOH, suggests that the company is holding more inventory. This increase in inventory affects the current ratio but not the quick ratio, which explains the observed pattern.",
+      "explanation_ru": "Уменьшение как коэффициента текущей ликвидности, так и коэффициента быстрой ликвидности, наряду с увеличением DOH, предполагает, что компания хранит больше запасов. Это увеличение запасов влияет на коэффициент текущей ликвидности, но не на коэффициент быстрой ликвидности, что объясняет наблюдаемую картину.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. A reduction in short-term liabilities would improve both the current ratio and the quick ratio, but both ratios have decreased.",
+          "text_ru": "Неверно. Сокращение краткосрочных обязательств улучшило бы как коэффициент текущей ликвидности, так и коэффициент быстрой ликвидности, но оба коэффициента уменьшились."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Improved cash collection would increase the quick ratio and likely the current ratio as well, but this is not observed.",
+          "text_ru": "Неверно. Улучшенный сбор денежных средств увеличил бы коэффициент быстрой ликвидности и, вероятно, коэффициент текущей ликвидности также, но это не наблюдается."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "liquidity_ratios",
+        "ratio_relationships",
+        "inventory_analysis"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q041",
+      "original_question_number": 4937,
+      "los_id": "LOS_11e",
+      "question_text_en": "An analyst is examining the financial health of a bank using industry-specific ratios. Which of the following ratios would most effectively provide insights into the bank's ability to comply with regulatory requirements and maintain liquidity?",
+      "question_text_ru": "Аналитик изучает финансовое состояние банка, используя отраслевые коэффициенты. Какой из следующих коэффициентов наиболее эффективно предоставит информацию о способности банка соблюдать нормативные требования и поддерживать ликвидность?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Return on Equity (ROE)",
+          "text_ru": "Рентабельность собственного капитала (ROE)"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Capital Adequacy Ratio",
+          "text_ru": "Коэффициент достаточности капитала"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Average Revenue Per User (ARPU)",
+          "text_ru": "Средний доход на пользователя (ARPU)"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The Capital Adequacy Ratio is used in the banking industry to measure a bank's capital in relation to its risk-weighted assets. This ratio provides insights into a bank's ability to comply with regulatory requirements and maintain sufficient liquidity to absorb potential losses.",
+      "explanation_ru": "Коэффициент достаточности капитала используется в банковской отрасли для измерения капитала банка по отношению к его взвешенным по риску активам. Этот коэффициент дает представление о способности банка соблюдать нормативные требования и поддерживать достаточную ликвидность для поглощения потенциальных убытков.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Return on Equity (ROE) measures a company's profitability relative to equity but does not specifically address regulatory compliance or liquidity.",
+          "text_ru": "Неверно. Рентабельность собственного капитала (ROE) измеряет прибыльность компании относительно капитала, но не затрагивает конкретно соблюдение нормативных требований или ликвидность."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Average Revenue Per User (ARPU) is used in relationship or subscription-based industries to measure revenue efficiency per user but is not relevant to banking liquidity and regulatory compliance.",
+          "text_ru": "Неверно. Средний доход на пользователя (ARPU) используется в отраслях, основанных на отношениях или подписках, для измерения эффективности дохода на пользователя, но не имеет отношения к банковской ликвидности и соблюдению нормативных требований."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "industry_specific_ratios",
+        "banking_ratios",
+        "capital_adequacy"
+      ]
+    }
+  ]
+}
