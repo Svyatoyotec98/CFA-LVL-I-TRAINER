@@ -7,7 +7,7 @@
     "module_id": 11,
     "module_name": "Financial Analysis Techniques",
     "module_name_ru": "Техники финансового анализа",
-    "total_questions": 30,
+    "total_questions": 41,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -1849,6 +1849,835 @@
       "topic_tags": [
         "dupont_analysis",
         "tax_burden"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q031",
+      "original_question_number": 2128,
+      "los_id": "LOS_11d",
+      "question_text_en": "A research analyst at Shark Investment Management is conducting a DuPont analysis for a firm whose financial data is provided in the following table:",
+      "question_text_ru": "Исследовательский аналитик в Shark Investment Management проводит анализ DuPont для фирмы, финансовые данные которой представлены в следующей таблице:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Financial Data",
+          ""
+        ],
+        "rows": [
+          [
+            "Revenue",
+            "1,450,000"
+          ],
+          [
+            "COGS",
+            "550,000"
+          ],
+          [
+            "Gross Profit",
+            "900,000"
+          ],
+          [
+            "SG&A",
+            "160,000"
+          ],
+          [
+            "Wages Exp.",
+            "140,000"
+          ],
+          [
+            "EBITDA",
+            "600,000"
+          ],
+          [
+            "Dep. Exp.",
+            "220,000"
+          ],
+          [
+            "Operating Profit",
+            "380,000"
+          ],
+          [
+            "Interest Payment",
+            "170,000"
+          ],
+          [
+            "EBT",
+            "210,000"
+          ],
+          [
+            "Taxes",
+            "63,000"
+          ],
+          [
+            "Net Income",
+            "147,000"
+          ],
+          [
+            "Total Assets",
+            "3,400,000"
+          ],
+          [
+            "Total Debt",
+            "1,500,000"
+          ]
+        ]
+      },
+      "question_continuation_en": "Considering that the data provided is accurate, the firm's return on equity using the extended DuPont ratio is closest to:",
+      "question_continuation_ru": "Учитывая, что предоставленные данные точны, рентабельность собственного капитала фирмы с использованием расширенного коэффициента DuPont наиболее близка к:",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "7.7%",
+          "text_ru": "7.7%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "10%",
+          "text_ru": "10%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "43%",
+          "text_ru": "43%"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The extended DuPont approach has 5 components: Tax burden (N.I./ EBT), Interest Burden (EBT/EBIT), EBIT Margin (EBIT/Revenue), Asset Turnover (Revenue/ Avg. Total Assets) & Financial Leverage (Avg. Total Assets/Avg. Total Equity).\n\nTax Burden = 0.70, Interest Burden = 0.55, EBIT Margin = 0.26, Asset Turnover = 0.43, Financial Leverage = 1.79.\n\nReturn on Equity = 0.077 or 7.7%.",
+      "explanation_ru": "Расширенный подход DuPont имеет 5 компонентов: Налоговое бремя (Чистая прибыль / EBT), Процентное бремя (EBT/EBIT), EBIT маржа (EBIT/Выручка), Оборачиваемость активов (Выручка / Средние общие активы) и Финансовый леверидж (Средние общие активы / Средний общий капитал).\n\nНалоговое бремя = 0.70, Процентное бремя = 0.55, EBIT маржа = 0.26, Оборачиваемость активов = 0.43, Финансовый леверидж = 1.79.\n\nРентабельность собственного капитала = 0.077 или 7.7%.",
+      "explanation_formula": "$\\text{ROE} = \\text{Tax Burden} \\times \\text{Interest Burden} \\times \\text{EBIT Margin} \\times \\text{Asset Turnover} \\times \\text{Financial Leverage}$",
+      "explanation_table": {
+        "headers": [
+          "Component",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Tax Burden",
+            "0.70"
+          ],
+          [
+            "Interest Burden",
+            "0.55"
+          ],
+          [
+            "EBIT Margin",
+            "0.26"
+          ],
+          [
+            "Asset Turnover",
+            "0.43"
+          ],
+          [
+            "Financial Leverage",
+            "1.79"
+          ],
+          [
+            "Return on Equity",
+            "0.077"
+          ]
+        ]
+      },
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. It excludes asset turnover and financial leverage.",
+          "text_ru": "Неверно. Исключает оборачиваемость активов и финансовый леверидж."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It represents the asset turnover ratio.",
+          "text_ru": "Неверно. Это представляет коэффициент оборачиваемости активов."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "dupont_analysis",
+        "extended_dupont",
+        "roe"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q032",
+      "original_question_number": 2129,
+      "los_id": "LOS_11b",
+      "question_text_en": "Armen Inc. and Bristol Corp. are market leaders in the construction industry. Some financial information regarding the two firms is given in the following table:",
+      "question_text_ru": "Armen Inc. и Bristol Corp. являются лидерами рынка в строительной отрасли. Некоторая финансовая информация по двум фирмам приведена в следующей таблице:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "",
+          "Armen Inc.",
+          "Bristol Corp."
+        ],
+        "rows": [
+          [
+            "Revenue",
+            "6,000,000",
+            "8,000,000"
+          ],
+          [
+            "Gross Profit",
+            "3,400,000",
+            "5,500,000"
+          ],
+          [
+            "EBIT",
+            "2,100,000",
+            "2,700,000"
+          ],
+          [
+            "Net Income",
+            "1,500,000",
+            "1,800,000"
+          ],
+          [
+            "Total Debt",
+            "6,400,000",
+            "7,200,000"
+          ],
+          [
+            "Dividend per Share",
+            "1",
+            "2"
+          ],
+          [
+            "Share Price",
+            "25",
+            "22"
+          ],
+          [
+            "Number of Shares Outstanding",
+            "500,000",
+            "600,000"
+          ]
+        ]
+      },
+      "question_continuation_en": "Assuming that each firm's market capitalization is approximately equal to the firm's total equity, Armen Inc.'s return on equity ratio is closest to:",
+      "question_continuation_ru": "Предполагая, что рыночная капитализация каждой фирмы примерно равна общему капиталу фирмы, коэффициент рентабельности собственного капитала Armen Inc. наиболее близок к:",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "12%.",
+          "text_ru": "12%."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "25%.",
+          "text_ru": "25%."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "56%.",
+          "text_ru": "56%."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "To calculate the return on equity ratio, it is important to determine the value of total equity. In this case:\n\nTotal equity = Share price × No. of Shares outstanding = $25 × 500,000 = $12.5 million.\n\nReturn on equity = Net income / Total equity = $1.5 million / $12.5 million = 0.12 or 12%.",
+      "explanation_ru": "Для расчета коэффициента рентабельности собственного капитала важно определить стоимость общего капитала. В данном случае:\n\nОбщий капитал = Цена акции × Количество акций в обращении = $25 × 500,000 = $12.5 миллиона.\n\nРентабельность собственного капитала = Чистая прибыль / Общий капитал = $1.5 миллиона / $12.5 миллиона = 0.12 или 12%.",
+      "explanation_formula": "$\\text{ROE} = \\frac{\\text{Net Income}}{\\text{Total Equity}} = \\frac{\\text{Net Income}}{\\text{Share Price} \\times \\text{Shares Outstanding}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. It represents the net profit margin.",
+          "text_ru": "Неверно. Это представляет чистую рентабельность."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It represents the gross profit margin.",
+          "text_ru": "Неверно. Это представляет валовую рентабельность."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "profitability_ratios",
+        "roe",
+        "market_capitalization"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q033",
+      "original_question_number": 2135,
+      "los_id": "LOS_11f",
+      "question_text_en": "Which of the following analysis methods examines the variability in financial outcome based on a change in one specific variable?",
+      "question_text_ru": "Какой из следующих методов анализа исследует изменчивость финансовых результатов на основе изменения одной конкретной переменной?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Scenario analysis.",
+          "text_ru": "Сценарный анализ."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Sensitivity analysis.",
+          "text_ru": "Анализ чувствительности."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Simulation analysis.",
+          "text_ru": "Симуляционный анализ."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Sensitivity analysis is a tool used to predict the outcome of a decision given a certain range of variables. By changing one specific variable while keeping others constant, analysts can determine how changes in that variable affect the outcome. This method is particularly useful in financial modeling to assess risk and understand the impact of different variables on a project's or investment's financial viability.",
+      "explanation_ru": "Анализ чувствительности - это инструмент, используемый для прогнозирования результата решения при заданном диапазоне переменных. Изменяя одну конкретную переменную, сохраняя остальные постоянными, аналитики могут определить, как изменения в этой переменной влияют на результат. Этот метод особенно полезен в финансовом моделировании для оценки рисков и понимания влияния различных переменных на финансовую жизнеспособность проекта или инвестиций.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Scenario analysis differs from sensitivity analysis in that it considers the impact of changing multiple variables at once to assess the outcomes under different scenarios.",
+          "text_ru": "Неверно. Сценарный анализ отличается от анализа чувствительности тем, что он рассматривает влияние изменения нескольких переменных одновременно для оценки результатов при различных сценариях."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Simulation analysis is a technique that uses probability distributions to model and analyze the behavior of a system or process. Unlike sensitivity analysis, which examines the effect of changing one variable at a time, simulation analysis allows for the simultaneous variation of many variables.",
+          "text_ru": "Неверно. Симуляционный анализ - это техника, которая использует распределения вероятностей для моделирования и анализа поведения системы или процесса. В отличие от анализа чувствительности, который исследует эффект изменения одной переменной за раз, симуляционный анализ позволяет одновременно варьировать многие переменные."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "sensitivity_analysis",
+        "financial_modeling",
+        "forecasting"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q034",
+      "original_question_number": 2136,
+      "los_id": "LOS_11d",
+      "question_text_en": "A company earned a net income of $500,000 with sales of $2,500,000 for the year 2016. If the asset turnover ratio of the firm is 0.4, and the financial leverage is 1.3, then the return on equity of the firm is closest to:",
+      "question_text_ru": "Компания заработала чистую прибыль $500,000 при продажах $2,500,000 за 2016 год. Если коэффициент оборачиваемости активов фирмы составляет 0.4, а финансовый леверидж 1.3, то рентабельность собственного капитала фирмы наиболее близка к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "8.0%",
+          "text_ru": "8.0%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "10.4%",
+          "text_ru": "10.4%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "20.0%",
+          "text_ru": "20.0%"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The profit margin is calculated by dividing the net income by sales: Profit margin = $500,000 / $2,500,000 = 20%.\n\nGiven the asset turnover ratio of 0.4 and financial leverage of 1.3, we can calculate the ROE using the DuPont formula:\n\nROE = (Profit Margin) × (Asset Turnover) × (Financial Leverage) = 0.20 × 0.4 × 1.3 = 10.4%.",
+      "explanation_ru": "Рентабельность рассчитывается путем деления чистой прибыли на продажи: Рентабельность = $500,000 / $2,500,000 = 20%.\n\nУчитывая коэффициент оборачиваемости активов 0.4 и финансовый леверидж 1.3, мы можем рассчитать ROE с использованием формулы DuPont:\n\nROE = (Рентабельность) × (Оборачиваемость активов) × (Финансовый леверидж) = 0.20 × 0.4 × 1.3 = 10.4%.",
+      "explanation_formula": "$\\text{ROE} = \\text{Profit Margin} \\times \\text{Asset Turnover} \\times \\text{Financial Leverage}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. It excludes financial leverage in calculating the return on equity.",
+          "text_ru": "Неверно. Исключает финансовый леверидж при расчете рентабельности собственного капитала."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It represents the profit margin.",
+          "text_ru": "Неверно. Это представляет рентабельность."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "dupont_analysis",
+        "roe"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q035",
+      "original_question_number": 2394,
+      "los_id": "LOS_11b",
+      "question_text_en": "An analyst at a German research firm analyzes the reports of a home appliances firm, Arab Appliances, for his emerging markets income fund. Some of the information from his analysis is given in the following table and notes:\n\nNote 1 - Arab Oven consistently sold 20,000 units of Smart Oven at the price of $150, in 2015 and 2016, because the country has hypothetically zero inflation which means there was no increase or decrease in input prices.\n\nNote 2 - Arab Oven's supplier is a private company that is owned by the management of the Arab Oven. Arab only uses the FIFO inventory method.\n\nNote 3 - Arab Oven is continuously engaged in the research for innovations in smart appliances. The firm capitalized on the research cost in 2015 but decided to expense it in 2016. This capitalization increased the depreciation cost which was $80,000 originally.\n\nNote 4 - The firm expensed the interest cost in 2015 but resolved to capitalize the interest on the funds used for the construction of new technology. The capitalization of interest increased the depreciation for the year which was $80,000 originally.",
+      "question_text_ru": "Аналитик в немецкой исследовательской фирме анализирует отчеты фирмы по производству бытовой техники, Arab Appliances, для своего фонда дохода на развивающихся рынках. Некоторая информация из его анализа приведена в следующей таблице и примечаниях:\n\nПримечание 1 - Arab Oven последовательно продавала 20,000 единиц Smart Oven по цене $150 в 2015 и 2016 годах, потому что в стране гипотетически нулевая инфляция, что означает отсутствие увеличения или уменьшения входных цен.\n\nПримечание 2 - Поставщик Arab Oven - это частная компания, принадлежащая руководству Arab Oven. Arab использует только метод FIFO для запасов.\n\nПримечание 3 - Arab Oven постоянно занимается исследованиями инноваций в умной бытовой технике. Фирма капитализировала затраты на исследования в 2015 году, но решила списать их в 2016 году. Эта капитализация увеличила амортизационные расходы, которые изначально составляли $80,000.\n\nПримечание 4 - Фирма списала процентные расходы в 2015 году, но решила капитализировать проценты по средствам, использованным для строительства новой технологии. Капитализация процентов увеличила амортизацию за год, которая изначально составляла $80,000.",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Note",
+          "Income Statement",
+          "2015",
+          "2016"
+        ],
+        "rows": [
+          [
+            "1",
+            "Revenue",
+            "$3,000,000",
+            "$3,000,000"
+          ],
+          [
+            "2",
+            "COGS",
+            "$1,900,000",
+            "$2,500,000"
+          ],
+          [
+            "",
+            "Gross Profit",
+            "$1,100,000",
+            "$500,000"
+          ],
+          [
+            "3",
+            "Research Cost",
+            "-",
+            "$120,000"
+          ],
+          [
+            "",
+            "Depreciation Exp.",
+            "$90,000",
+            "$90,000"
+          ],
+          [
+            "",
+            "EBIT",
+            "$1,010,000",
+            "$290,000"
+          ],
+          [
+            "4",
+            "Interest",
+            "$150,000",
+            "-"
+          ],
+          [
+            "",
+            "Net Income",
+            "$860,000",
+            "$290,000"
+          ]
+        ]
+      },
+      "question_continuation_en": "After analyzing the information given in the table and notes, which of the following is the most accurate statement regarding the change in the asset turnover ratio of Arab Oven?",
+      "question_continuation_ru": "После анализа информации, приведенной в таблице и примечаниях, какое из следующих утверждений является наиболее точным относительно изменения коэффициента оборачиваемости активов Arab Oven?",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The asset turnover ratio is lower in 2015.",
+          "text_ru": "Коэффициент оборачиваемости активов ниже в 2015 году."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The asset turnover ratio is lower in 2016.",
+          "text_ru": "Коэффициент оборачиваемости активов ниже в 2016 году."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The asset turnover ratio is the same in 2015 and in 2016.",
+          "text_ru": "Коэффициент оборачиваемости активов одинаков в 2015 и 2016 годах."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The asset turnover ratio (Revenue / Avg. Total Assets) is a measure of how efficiently a company uses its assets to generate sales. A lower asset turnover ratio in 2016 can be attributed to the unchanged revenue amidst an increase in total assets. The reasons for the increase in total assets in 2016:\n\n1. COGS increased from $1,900,000 to $2,500,000. This increase suggests higher ending inventory valuation, thereby increasing total assets.\n\n2. The firm capitalized interest cost in 2016 ($150,000), directly increasing the asset base.\n\n3. Research costs were capitalized in 2015 but expensed in 2016. However, the impact is offset by higher increases from capitalized interest and higher inventory valuation.",
+      "explanation_ru": "Коэффициент оборачиваемости активов (Выручка / Средние общие активы) - это мера того, насколько эффективно компания использует свои активы для генерации продаж. Более низкий коэффициент оборачиваемости активов в 2016 году может быть обусловлен неизменной выручкой на фоне увеличения общих активов. Причины увеличения общих активов в 2016 году:\n\n1. COGS увеличилась с $1,900,000 до $2,500,000. Это увеличение предполагает более высокую оценку конечных запасов, тем самым увеличивая общие активы.\n\n2. Фирма капитализировала процентные расходы в 2016 году ($150,000), напрямую увеличивая базу активов.\n\n3. Затраты на исследования были капитализированы в 2015 году, но списаны в 2016 году. Однако влияние компенсируется более высоким увеличением от капитализированных процентов и более высокой оценки запасов.",
+      "explanation_formula": "$\\text{Asset Turnover} = \\frac{\\text{Revenue}}{\\text{Avg. Total Assets}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The asset turnover ratio is lower in 2016, not 2015.",
+          "text_ru": "Неверно. Коэффициент оборачиваемости активов ниже в 2016 году, а не в 2015."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The ratio changed due to changes in total assets while revenue remained constant.",
+          "text_ru": "Неверно. Коэффициент изменился из-за изменений в общих активах, в то время как выручка осталась постоянной."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "hard",
+      "topic_tags": [
+        "activity_ratios",
+        "asset_turnover",
+        "accounting_policies"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q036",
+      "original_question_number": 3796,
+      "los_id": "LOS_11b",
+      "question_text_en": "Consider the following information for a company:\n\n• Net income - $ 5,000\n• Income tax expense - $ 1,130\n• Interest Expense and Payments - $ 1,050\n• Lease Payments - $ 700\n\nThe fixed coverage ratio for the company is closest to:",
+      "question_text_ru": "Рассмотрите следующую информацию для компании:\n\n• Чистая прибыль - $ 5,000\n• Расходы по налогу на прибыль - $ 1,130\n• Процентные расходы и платежи - $ 1,050\n• Арендные платежи - $ 700\n\nКоэффициент покрытия фиксированных платежей для компании наиболее близок к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "2.9",
+          "text_ru": "2.9"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "4.1",
+          "text_ru": "4.1"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "4.5",
+          "text_ru": "4.5"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Fixed charge coverage ratio = (EBIT + Lease Payments) / (Interest payments + Lease Payments) = (($5,000 + $1,130 + $1,050) + $700) / ($1,050 + $700) = $7,880 / $1,750 = 4.5.",
+      "explanation_ru": "Коэффициент покрытия фиксированных платежей = (EBIT + Арендные платежи) / (Процентные платежи + Арендные платежи) = (($5,000 + $1,130 + $1,050) + $700) / ($1,050 + $700) = $7,880 / $1,750 = 4.5.",
+      "explanation_formula": "$\\text{Fixed charge coverage ratio} = \\frac{\\text{EBIT} + \\text{Lease Payments}}{\\text{Interest payments} + \\text{Lease Payments}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. It has used net income instead of EBIT to calculate the fixed coverage ratio.",
+          "text_ru": "Неверно. Использовала чистую прибыль вместо EBIT для расчета коэффициента покрытия фиксированных платежей."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Lease payments have not been added to the EBIT in the numerator.",
+          "text_ru": "Неверно. Арендные платежи не были добавлены к EBIT в числителе."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "solvency_ratios",
+        "fixed_charge_coverage"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q037",
+      "original_question_number": 4933,
+      "los_id": "LOS_11a",
+      "question_text_en": "An analyst is examining the common-size balance sheets of two companies to evaluate their financial structure. Which of the following is most likely to distort the analysis? Differences in:",
+      "question_text_ru": "Аналитик изучает балансы в процентах двух компаний для оценки их финансовой структуры. Что из следующего, скорее всего, исказит анализ? Различия в:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "fiscal year-end dates.",
+          "text_ru": "датах окончания финансового года."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "industry classification.",
+          "text_ru": "отраслевой классификации."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "asset valuation methods.",
+          "text_ru": "методах оценки активов."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Differences in asset valuation methods can significantly distort the analysis because they directly affect the reported values of assets, impacting the balance sheet composition and ratios derived from these values. For example, one company might use historical cost, while another uses fair value, leading to inconsistencies in asset valuations and comparability.",
+      "explanation_ru": "Различия в методах оценки активов могут значительно исказить анализ, поскольку они напрямую влияют на отчетные стоимости активов, влияя на состав баланса и коэффициенты, полученные из этих значений. Например, одна компания может использовать историческую стоимость, в то время как другая использует справедливую стоимость, что приводит к несоответствиям в оценках активов и сопоставимости.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Differences in fiscal year-end dates can affect comparability to some extent, but they do not distort the intrinsic valuation methods of assets and liabilities as directly as differences in asset valuation methods do.",
+          "text_ru": "Неверно. Различия в датах окончания финансового года могут в некоторой степени повлиять на сопоставимость, но они не искажают внутренние методы оценки активов и обязательств так напрямую, как различия в методах оценки активов."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Differences in industry classification might affect the types of assets and liabilities reported, but they do not inherently distort the common-size analysis, which focuses on the relative proportions of financial statement items.",
+          "text_ru": "Неверно. Различия в отраслевой классификации могут повлиять на типы отчетных активов и обязательств, но они по своей сути не искажают анализ в процентах, который фокусируется на относительных пропорциях статей финансовой отчетности."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "common_size_analysis",
+        "financial_analysis_limitations",
+        "asset_valuation"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q038",
+      "original_question_number": 4934,
+      "los_id": "LOS_11a",
+      "question_text_en": "Which of the following aspects of ratio analysis is least likely to distort meaningful comparisons across companies and over time?",
+      "question_text_ru": "Какой из следующих аспектов анализа коэффициентов наименее вероятно исказит значимые сравнения между компаниями и во времени?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Interpretation of the ratios.",
+          "text_ru": "Интерпретация коэффициентов."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Differences in accounting policies.",
+          "text_ru": "Различия в учетной политике."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Ratios are indicators, not the answers.",
+          "text_ru": "Коэффициенты - это индикаторы, а не ответы."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Ratios being indicators, not the answers, is a fundamental aspect of ratio analysis that provides insights into what happened but not necessarily why it happened. This characteristic of ratios helps analysts identify potential areas of concern or strength without inherently distorting comparisons. It means that while ratios can highlight areas for further investigation, they do not by themselves explain the underlying reasons.",
+      "explanation_ru": "То, что коэффициенты являются индикаторами, а не ответами, - это фундаментальный аспект анализа коэффициентов, который дает представление о том, что произошло, но не обязательно о том, почему это произошло. Эта характеристика коэффициентов помогает аналитикам выявлять потенциальные области беспокойства или силы без внутреннего искажения сравнений. Это означает, что хотя коэффициенты могут выделить области для дальнейшего исследования, они сами по себе не объясняют основные причины.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Interpretation is key in ratio analysis because it involves understanding the context and the reasons behind the ratios. Misinterpretation can lead to incorrect conclusions, thus affecting meaningful comparisons.",
+          "text_ru": "Неверно. Интерпретация является ключевой в анализе коэффициентов, потому что она включает понимание контекста и причин, стоящих за коэффициентами. Неправильная интерпретация может привести к неправильным выводам, тем самым влияя на значимые сравнения."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Differences in accounting policies across companies and over time can distort ratios because companies may use different methods for accounting for inventory, depreciation, or other financial elements. These differences can lead to misleading comparisons unless adjustments are made.",
+          "text_ru": "Неверно. Различия в учетной политике между компаниями и во времени могут исказить коэффициенты, потому что компании могут использовать различные методы учета запасов, амортизации или других финансовых элементов. Эти различия могут привести к вводящим в заблуждение сравнениям, если не внести корректировки."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "ratio_analysis_limitations",
+        "financial_analysis_tools"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q039",
+      "original_question_number": 4935,
+      "los_id": "LOS_11b",
+      "question_text_en": "You have been provided with the following financial ratios for Company ABC for the periods ending December 31, 2021, and December 31, 2020:",
+      "question_text_ru": "Вам предоставлены следующие финансовые коэффициенты для компании ABC за периоды, заканчивающиеся 31 декабря 2021 года и 31 декабря 2020 года:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Ratios",
+          "December 31, 2021",
+          "December 31, 2020"
+        ],
+        "rows": [
+          [
+            "Return on equity",
+            "8.25%",
+            "6.45%"
+          ],
+          [
+            "Return on assets",
+            "4.35%",
+            "3.98%"
+          ],
+          [
+            "Current ratio",
+            "1.85",
+            "1.65"
+          ],
+          [
+            "Inventory turnover",
+            "4.3",
+            "3.7"
+          ],
+          [
+            "Net profit margin",
+            "4.75%",
+            "3.90%"
+          ],
+          [
+            "Debt-to-assets",
+            "48.25%",
+            "55.00%"
+          ]
+        ]
+      },
+      "question_continuation_en": "Which of the following best describes the trend in Company ABC's financial performance from 2020 to 2021?",
+      "question_continuation_ru": "Какое из следующих утверждений лучше всего описывает тренд в финансовых результатах компании ABC с 2020 по 2021 год?",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Improved profitability and liquidity, and stronger solvency",
+          "text_ru": "Улучшенная прибыльность и ликвидность, и более сильная платежеспособность"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Declined profitability, improved liquidity, and weaker solvency",
+          "text_ru": "Снизившаяся прибыльность, улучшенная ликвидность и более слабая платежеспособность"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Improved profitability, weaker liquidity, and stronger solvency",
+          "text_ru": "Улучшенная прибыльность, более слабая ликвидность и более сильная платежеспособность"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Improved profitability is indicated by the increase in return on equity (ROE) from 6.45% to 8.25%, return on assets (ROA) from 3.98% to 4.35%, and net profit margin from 3.90% to 4.75%.\n\nThe current ratio increased from 1.65 to 1.85, indicating better liquidity. Lastly, the debt-to-assets ratio decreased from 55.00% to 48.25%, indicating a reduction in financial leverage, hence stronger solvency.",
+      "explanation_ru": "Улучшенная прибыльность обозначается увеличением рентабельности собственного капитала (ROE) с 6.45% до 8.25%, рентабельности активов (ROA) с 3.98% до 4.35% и чистой рентабельности с 3.90% до 4.75%.\n\nКоэффициент текущей ликвидности увеличился с 1.65 до 1.85, что указывает на лучшую ликвидность. Наконец, коэффициент долга к активам уменьшился с 55.00% до 48.25%, что указывает на снижение финансового левериджа, следовательно, более сильную платежеспособность.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Profitability improved, not declined, as evidenced by all profitability ratios increasing.",
+          "text_ru": "Неверно. Прибыльность улучшилась, а не снизилась, о чем свидетельствует увеличение всех коэффициентов прибыльности."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Liquidity improved, not weakened, as shown by the increase in the current ratio.",
+          "text_ru": "Неверно. Ликвидность улучшилась, а не ослабла, о чем свидетельствует увеличение коэффициента текущей ликвидности."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "profitability_ratios",
+        "liquidity_ratios",
+        "solvency_ratios",
+        "trend_analysis"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q040",
+      "original_question_number": 4936,
+      "los_id": "LOS_11c",
+      "question_text_en": "An analyst is evaluating the liquidity of a company using the following ratios over the past three years:",
+      "question_text_ru": "Аналитик оценивает ликвидность компании, используя следующие коэффициенты за последние три года:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Ratio",
+          "2023",
+          "2022",
+          "2021"
+        ],
+        "rows": [
+          [
+            "Current Ratio",
+            "1.8",
+            "2.0",
+            "2.5"
+          ],
+          [
+            "Quick Ratio",
+            "1.2",
+            "1.4",
+            "1.6"
+          ],
+          [
+            "Days of Inventory Held (DOH)",
+            "60",
+            "55",
+            "50"
+          ],
+          [
+            "Days Sales Outstanding (DSO)",
+            "45",
+            "42",
+            "40"
+          ]
+        ]
+      },
+      "question_continuation_en": "Which of the following best explains the observed change in the company's liquidity ratios from 2021 to 2023? The company has:",
+      "question_continuation_ru": "Какое из следующих утверждений лучше всего объясняет наблюдаемое изменение коэффициентов ликвидности компании с 2021 по 2023 год? Компания:",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "reduced its short-term liabilities.",
+          "text_ru": "сократила свои краткосрочные обязательства."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "significantly increased its inventory levels.",
+          "text_ru": "значительно увеличила свои уровни запасов."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "improved its cash collection from customers.",
+          "text_ru": "улучшила свой сбор денежных средств от клиентов."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The decrease in both the current ratio and the quick ratio, alongside an increase in DOH, suggests that the company is holding more inventory. This increase in inventory affects the current ratio but not the quick ratio, which explains the observed pattern.",
+      "explanation_ru": "Уменьшение как коэффициента текущей ликвидности, так и коэффициента быстрой ликвидности, наряду с увеличением DOH, предполагает, что компания хранит больше запасов. Это увеличение запасов влияет на коэффициент текущей ликвидности, но не на коэффициент быстрой ликвидности, что объясняет наблюдаемую картину.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. A reduction in short-term liabilities would improve both the current ratio and the quick ratio, but both ratios have decreased.",
+          "text_ru": "Неверно. Сокращение краткосрочных обязательств улучшило бы как коэффициент текущей ликвидности, так и коэффициент быстрой ликвидности, но оба коэффициента уменьшились."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Improved cash collection would increase the quick ratio and likely the current ratio as well, but this is not observed.",
+          "text_ru": "Неверно. Улучшенный сбор денежных средств увеличил бы коэффициент быстрой ликвидности и, вероятно, коэффициент текущей ликвидности также, но это не наблюдается."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "liquidity_ratios",
+        "ratio_relationships",
+        "inventory_analysis"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q041",
+      "original_question_number": 4937,
+      "los_id": "LOS_11e",
+      "question_text_en": "An analyst is examining the financial health of a bank using industry-specific ratios. Which of the following ratios would most effectively provide insights into the bank's ability to comply with regulatory requirements and maintain liquidity?",
+      "question_text_ru": "Аналитик изучает финансовое состояние банка, используя отраслевые коэффициенты. Какой из следующих коэффициентов наиболее эффективно предоставит информацию о способности банка соблюдать нормативные требования и поддерживать ликвидность?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Return on Equity (ROE)",
+          "text_ru": "Рентабельность собственного капитала (ROE)"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Capital Adequacy Ratio",
+          "text_ru": "Коэффициент достаточности капитала"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Average Revenue Per User (ARPU)",
+          "text_ru": "Средний доход на пользователя (ARPU)"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The Capital Adequacy Ratio is used in the banking industry to measure a bank's capital in relation to its risk-weighted assets. This ratio provides insights into a bank's ability to comply with regulatory requirements and maintain sufficient liquidity to absorb potential losses.",
+      "explanation_ru": "Коэффициент достаточности капитала используется в банковской отрасли для измерения капитала банка по отношению к его взвешенным по риску активам. Этот коэффициент дает представление о способности банка соблюдать нормативные требования и поддерживать достаточную ликвидность для поглощения потенциальных убытков.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Return on Equity (ROE) measures a company's profitability relative to equity but does not specifically address regulatory compliance or liquidity.",
+          "text_ru": "Неверно. Рентабельность собственного капитала (ROE) измеряет прибыльность компании относительно капитала, но не затрагивает конкретно соблюдение нормативных требований или ликвидность."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Average Revenue Per User (ARPU) is used in relationship or subscription-based industries to measure revenue efficiency per user but is not relevant to banking liquidity and regulatory compliance.",
+          "text_ru": "Неверно. Средний доход на пользователя (ARPU) используется в отраслях, основанных на отношениях или подписках, для измерения эффективности дохода на пользователя, но не имеет отношения к банковской ликвидности и соблюдению нормативных требований."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "industry_specific_ratios",
+        "banking_ratios",
+        "capital_adequacy"
       ]
     }
   ]
