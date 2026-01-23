@@ -7,7 +7,7 @@
     "module_id": 11,
     "module_name": "Financial Analysis Techniques",
     "module_name_ru": "Техники финансового анализа",
-    "total_questions": 10,
+    "total_questions": 20,
     "version": "2.0",
     "source": "AnalystPrep QBank"
   },
@@ -513,6 +513,614 @@
       "topic_tags": [
         "graphical_analysis",
         "financial_analysis_tools"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q011",
+      "original_question_number": 2101,
+      "los_id": "LOS_11b",
+      "question_text_en": "An analyst analyzing a firm's ability to meet its long-term debt obligation is most likely to use which of the following financial ratio?",
+      "question_text_ru": "Аналитик, анализирующий способность фирмы выполнять свои долгосрочные долговые обязательства, скорее всего, будет использовать какой из следующих финансовых коэффициентов?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Debt-to-assets ratio.",
+          "text_ru": "Коэффициент долга к активам."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Defensive interval ratio.",
+          "text_ru": "Коэффициент защитного интервала."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Working capital turnover ratio.",
+          "text_ru": "Коэффициент оборачиваемости оборотного капитала."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The debt-to-assets ratio is a crucial financial metric for analyzing a firm's ability to meet its long-term debt obligations. This ratio measures the proportion of a company's assets that are financed through debt, providing insights into the firm's solvency. A lower debt-to-assets ratio indicates a healthier balance sheet, as it suggests that a larger portion of the company's assets are financed through equity rather than debt. Conversely, a higher ratio may signal potential solvency issues, as it implies a greater reliance on debt financing.",
+      "explanation_ru": "Коэффициент долга к активам является ключевым финансовым показателем для анализа способности фирмы выполнять свои долгосрочные долговые обязательства. Этот коэффициент измеряет долю активов компании, которые финансируются за счет долга, предоставляя информацию о платежеспособности фирмы. Более низкий коэффициент долга к активам указывает на более здоровый баланс, поскольку это предполагает, что большая часть активов компании финансируется за счет собственного капитала, а не долга. И наоборот, более высокий коэффициент может сигнализировать о потенциальных проблемах с платежеспособностью, поскольку это подразумевает большую зависимость от долгового финансирования.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. The defensive interval ratio measures a company's liquidity by estimating the number of days the firm can operate using its current liquid assets without needing additional financing. While this ratio provides valuable insights into the company's short-term financial health, it does not directly address the firm's ability to meet long-term debt obligations.",
+          "text_ru": "Неверно. Коэффициент защитного интервала измеряет ликвидность компании, оценивая количество дней, в течение которых фирма может работать, используя свои текущие ликвидные активы, без необходимости дополнительного финансирования. Хотя этот коэффициент предоставляет ценную информацию о краткосрочном финансовом здоровье компании, он не затрагивает напрямую способность фирмы выполнять долгосрочные долговые обязательства."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The working capital turnover ratio assesses the efficiency with which a firm utilizes its working capital to generate sales. It is calculated by dividing the firm's annual sales by its average working capital. Although this ratio offers insights into the operational efficiency and short-term financial health of a company, it does not directly evaluate the firm's capacity to meet long-term debt obligations.",
+          "text_ru": "Неверно. Коэффициент оборачиваемости оборотного капитала оценивает эффективность, с которой фирма использует свой оборотный капитал для генерации продаж. Он рассчитывается путем деления годовых продаж фирмы на средний оборотный капитал. Хотя этот коэффициент дает представление об операционной эффективности и краткосрочном финансовом здоровье компании, он не оценивает напрямую способность фирмы выполнять долгосрочные долговые обязательства."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "solvency_ratios",
+        "debt_to_assets",
+        "long_term_debt"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q012",
+      "original_question_number": 2102,
+      "los_id": "LOS_11b",
+      "question_text_en": "Galactic Hyper is a chain of hypermarkets that sells most of its products for cash, which is why its days of sales outstanding are as low as 22 days. Assuming that the firm's average receivables are $234,000, and the cost of goods sold (COGS) for the one year is $1,245,000, the annual sales of Galactic are closest to:",
+      "question_text_ru": "Galactic Hyper - это сеть гипермаркетов, которая продает большую часть своих продуктов за наличные, поэтому период оборота дебиторской задолженности составляет всего 22 дня. Предполагая, что средняя дебиторская задолженность фирмы составляет $234,000, а себестоимость проданных товаров (COGS) за год составляет $1,245,000, годовые продажи Galactic наиболее близки к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "$1,410,400.",
+          "text_ru": "$1,410,400."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "$3,882,000.",
+          "text_ru": "$3,882,000."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "$4,880,200.",
+          "text_ru": "$4,880,200."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Since Days sales outstanding = 365 / Receivables Turnover = 365 / (Annual sales / Average accounts receivable).\n\nWe can rearrange the formula as:\n\nAnnual sales = [(365 / Days sales outstanding) × Average accounts receivable] = (365 / 22) × $234,000 = $3,882,000.",
+      "explanation_ru": "Поскольку Период оборота дебиторской задолженности = 365 / Оборачиваемость дебиторской задолженности = 365 / (Годовые продажи / Средняя дебиторская задолженность).\n\nМы можем переформулировать формулу так:\n\nГодовые продажи = [(365 / Период оборота дебиторской задолженности) × Средняя дебиторская задолженность] = (365 / 22) × $234,000 = $3,882,000.",
+      "explanation_formula": "$\\text{Annual sales} = \\frac{365}{\\text{DSO}} \\times \\text{Average receivables}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. This incorrectly uses COGS in the calculation instead of the DSO formula.",
+          "text_ru": "Неверно. Это неправильно использует COGS в расчете вместо формулы DSO."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. This uses an incorrect calculation method.",
+          "text_ru": "Неверно. Это использует неправильный метод расчета."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "activity_ratios",
+        "dso",
+        "receivables_turnover"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q013",
+      "original_question_number": 2103,
+      "los_id": "LOS_11b",
+      "question_text_en": "If the Cost of goods sold (COGS) decreases, what is the most likely effect on days of inventory on hand?",
+      "question_text_ru": "Если себестоимость проданных товаров (COGS) уменьшается, каково наиболее вероятное влияние на период оборачиваемости запасов?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Days of inventory on hand ratio will decrease.",
+          "text_ru": "Период оборачиваемости запасов уменьшится."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Days of inventory on hand ratio will increase.",
+          "text_ru": "Период оборачиваемости запасов увеличится."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Days of inventory on hand ratio will remain unchanged.",
+          "text_ru": "Период оборачиваемости запасов останется неизменным."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Recall that: Days of Inventory on hand ratio = (365 / Inventory turnover) OR DOH = 365 / (COGS / Average Inventory).\n\nIf the numerator of the inventory turnover (i.e. COGS) decreases, it will increase the Days of Inventory on hand ratio.",
+      "explanation_ru": "Вспомним: Период оборачиваемости запасов = (365 / Оборачиваемость запасов) ИЛИ DOH = 365 / (COGS / Средние запасы).\n\nЕсли числитель оборачиваемости запасов (т.е. COGS) уменьшается, это увеличит период оборачиваемости запасов.",
+      "explanation_formula": "$\\text{DOH} = \\frac{365}{\\frac{\\text{COGS}}{\\text{Average Inventory}}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. A decrease in COGS would actually increase, not decrease, the days of inventory on hand.",
+          "text_ru": "Неверно. Уменьшение COGS фактически увеличит, а не уменьшит период оборачиваемости запасов."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The ratio will change as COGS is a component of the calculation.",
+          "text_ru": "Неверно. Коэффициент изменится, поскольку COGS является компонентом расчета."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "activity_ratios",
+        "days_of_inventory",
+        "inventory_turnover"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q014",
+      "original_question_number": 2104,
+      "los_id": "LOS_11b",
+      "question_text_en": "The working capital turnover ratio of a hypothetical firm is 12.5. Which of the following is the most likely impact on the ratio if the firm utilized its cash to purchase inventory?",
+      "question_text_ru": "Коэффициент оборачиваемости оборотного капитала гипотетической фирмы составляет 12.5. Какое из следующих наиболее вероятное влияние на коэффициент, если фирма использует свои денежные средства для покупки запасов?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The working capital turnover ratio will increase.",
+          "text_ru": "Коэффициент оборачиваемости оборотного капитала увеличится."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The working capital turnover ratio will decrease.",
+          "text_ru": "Коэффициент оборачиваемости оборотного капитала уменьшится."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The working capital turnover ratio will remain unchanged.",
+          "text_ru": "Коэффициент оборачиваемости оборотного капитала останется неизменным."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Recall that, Working capital turnover ratio = Revenue / Average working capital.\n\nSince cash and inventory are both current assets, a decrease in cash and an increase in inventory will offset the working capital. Therefore, the working capital turnover ratio will remain unchanged.",
+      "explanation_ru": "Вспомним, что коэффициент оборачиваемости оборотного капитала = Выручка / Средний оборотный капитал.\n\nПоскольку денежные средства и запасы являются оборотными активами, уменьшение денежных средств и увеличение запасов компенсируют оборотный капитал. Следовательно, коэффициент оборачиваемости оборотного капитала останется неизменным.",
+      "explanation_formula": "$\\text{Working capital turnover} = \\frac{\\text{Revenue}}{\\text{Average working capital}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The ratio will remain unchanged as both cash and inventory are current assets.",
+          "text_ru": "Неверно. Коэффициент останется неизменным, поскольку и денежные средства, и запасы являются оборотными активами."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. The ratio will not decrease as the transaction affects only the composition, not the total value, of current assets.",
+          "text_ru": "Неверно. Коэффициент не уменьшится, поскольку транзакция влияет только на состав, а не на общую стоимость оборотных активов."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "activity_ratios",
+        "working_capital_turnover"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q015",
+      "original_question_number": 2105,
+      "los_id": "LOS_11b",
+      "question_text_en": "A firm's number of days of payables is 69 days compared to an industry average of 45 days. Which of the following is the most appropriate interpretation of this discrepancy?",
+      "question_text_ru": "Период оборота кредиторской задолженности фирмы составляет 69 дней по сравнению со средним по отрасли 45 дней. Какая из следующих интерпретаций этого расхождения является наиболее подходящей?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The firm might be taking too long to pay its payables.",
+          "text_ru": "Фирма может слишком долго выплачивать свои обязательства."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The firm's customers might be taking too long to pay the firm.",
+          "text_ru": "Клиенты фирмы могут слишком долго платить фирме."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The firm's payable turnover ratio is greater than the industry's payable turnover ratio.",
+          "text_ru": "Коэффициент оборачиваемости кредиторской задолженности фирмы больше, чем коэффициент оборачиваемости кредиторской задолженности отрасли."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The number of days of payables is a financial metric that measures the average time (in days) a firm takes to pay its suppliers. A firm's number of days of payables of 69 days, when compared to an industry average of 45 days, suggests that the firm is taking significantly longer than its industry peers to settle its obligations to suppliers. This discrepancy can have several implications, including potential cash flow management strategies, negotiating terms that are more favorable with suppliers, or possible financial distress that is causing delays in payment.",
+      "explanation_ru": "Период оборота кредиторской задолженности - это финансовый показатель, который измеряет среднее время (в днях), которое требуется фирме для оплаты своих поставщиков. Период оборота кредиторской задолженности фирмы в 69 дней по сравнению со средним по отрасли в 45 дней предполагает, что фирма тратит значительно больше времени, чем ее отраслевые коллеги, на погашение своих обязательств перед поставщиками. Это расхождение может иметь несколько последствий, включая потенциальные стратегии управления денежными потоками, переговоры об более выгодных условиях с поставщиками или возможные финансовые проблемы, вызывающие задержки в платежах.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. The number of days of payables calculates the payables of the firm, not its customers.",
+          "text_ru": "Неверно. Период оборота кредиторской задолженности рассчитывает кредиторскую задолженность фирмы, а не ее клиентов."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. A more significant number of days of payables indicates that the firm's payable turnover ratio is lower than that of the industry.",
+          "text_ru": "Неверно. Больший период оборота кредиторской задолженности указывает на то, что коэффициент оборачиваемости кредиторской задолженности фирмы ниже, чем у отрасли."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "activity_ratios",
+        "days_of_payables",
+        "payables_turnover"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q016",
+      "original_question_number": 2107,
+      "los_id": "LOS_11b",
+      "question_text_en": "Firm A and Firm B are two firms located in the same geographical location and serving the same geographical markets. Assuming that Firm A's Asset Turnover ratio is 1.2 while the Asset Turnover ratio of Firm B is 2.5, which of the following is an appropriate interpretation of the ratios?",
+      "question_text_ru": "Фирма А и Фирма Б - это две фирмы, расположенные в одном географическом месте и обслуживающие одни и те же географические рынки. Предполагая, что коэффициент оборачиваемости активов фирмы А составляет 1.2, в то время как коэффициент оборачиваемости активов фирмы Б составляет 2.5, какая из следующих интерпретаций коэффициентов является подходящей?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Firm A is more capital-intensive than Firm B.",
+          "text_ru": "Фирма А более капиталоемкая, чем Фирма Б."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Firm A uses its assets more efficiently as compared to firm B.",
+          "text_ru": "Фирма А использует свои активы более эффективно по сравнению с фирмой Б."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Firm B has a greater portion of its capital invested in assets than Firm A.",
+          "text_ru": "Фирма Б имеет большую долю своего капитала, вложенного в активы, чем Фирма А."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The Asset Turnover ratio is a financial metric that measures the efficiency of a company's use of its assets in generating sales revenue. It is calculated by dividing sales revenue by total assets. A higher Asset Turnover ratio indicates that a company is using its assets more efficiently to generate sales. In the context of Firm A and Firm B, the Asset Turnover ratios are 1.2 and 2.5, respectively. This means that for every dollar of assets, Firm A generates $1.2 in sales, while Firm B generates $2.5 in sales. A lower Asset Turnover ratio, as seen with Firm A, often implies a higher investment in assets relative to sales, which is characteristic of capital-intensive companies.",
+      "explanation_ru": "Коэффициент оборачиваемости активов - это финансовый показатель, который измеряет эффективность использования компанией своих активов для генерации выручки от продаж. Он рассчитывается путем деления выручки от продаж на общие активы. Более высокий коэффициент оборачиваемости активов указывает на то, что компания более эффективно использует свои активы для генерации продаж. В контексте фирмы А и фирмы Б коэффициенты оборачиваемости активов составляют 1.2 и 2.5 соответственно. Это означает, что на каждый доллар активов фирма А генерирует $1.2 продаж, в то время как фирма Б генерирует $2.5 продаж. Более низкий коэффициент оборачиваемости активов, как в случае с фирмой А, часто подразумевает более высокие инвестиции в активы относительно продаж, что характерно для капиталоемких компаний.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Efficiency in using assets to generate revenue is directly proportional to the Asset Turnover ratio. Since Firm B has a higher Asset Turnover ratio (2.5) compared to Firm A (1.2), it indicates that Firm B is more efficient in using its assets to generate sales.",
+          "text_ru": "Неверно. Эффективность использования активов для генерации дохода прямо пропорциональна коэффициенту оборачиваемости активов. Поскольку фирма Б имеет более высокий коэффициент оборачиваемости активов (2.5) по сравнению с фирмой А (1.2), это указывает на то, что фирма Б более эффективно использует свои активы для генерации продаж."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. However, the Asset Turnover ratio indicates the efficiency of using assets to generate sales, not the proportion of capital invested in assets. A higher Asset Turnover ratio, as seen with Firm B, signifies greater efficiency in generating sales from its assets, not necessarily a higher investment in assets. In fact, a lower Asset Turnover ratio, as seen with Firm A, often implies a higher investment in assets relative to sales, which is characteristic of capital-intensive companies.",
+          "text_ru": "Неверно. Однако коэффициент оборачиваемости активов указывает на эффективность использования активов для генерации продаж, а не на долю капитала, вложенного в активы. Более высокий коэффициент оборачиваемости активов, как в случае с фирмой Б, означает большую эффективность в генерации продаж от своих активов, а не обязательно более высокие инвестиции в активы. Фактически, более низкий коэффициент оборачиваемости активов, как в случае с фирмой А, часто подразумевает более высокие инвестиции в активы относительно продаж, что характерно для капиталоемких компаний."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "activity_ratios",
+        "asset_turnover",
+        "capital_intensity"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q017",
+      "original_question_number": 2109,
+      "los_id": "LOS_11b",
+      "question_text_en": "Layout Works is a printing press, which takes an average of 25 days to pay its payables, and it takes an average of 10 days for its customers to pay Layout. Given that the average cash conversion cycle of the printing industry is 110 days, the firm's estimated days of inventory on hand is closest to:",
+      "question_text_ru": "Layout Works - это типография, которая в среднем платит свои обязательства за 25 дней, и ее клиентам требуется в среднем 10 дней, чтобы заплатить Layout. Учитывая, что средний цикл конвертации денежных средств в полиграфической промышленности составляет 110 дней, предполагаемый период оборачиваемости запасов фирмы наиболее близок к:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "75 days.",
+          "text_ru": "75 дней."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "95 days.",
+          "text_ru": "95 дней."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "125 days.",
+          "text_ru": "125 дней."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Cash Conversion Cycle = Days of sales outstanding + Days of inventory on hand - Number of days of payables.\n\n110 = 10 + Days on inventory in hand - 25\n\n=> Days of inventory in hand = 110 - 10 + 25 = 125.",
+      "explanation_ru": "Цикл конвертации денежных средств = Период оборота дебиторской задолженности + Период оборачиваемости запасов - Период оборота кредиторской задолженности.\n\n110 = 10 + Период оборачиваемости запасов - 25\n\n=> Период оборачиваемости запасов = 110 - 10 + 25 = 125.",
+      "explanation_formula": "$\\text{CCC} = \\text{DSO} + \\text{DOH} - \\text{Days of Payables}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. It subtracts the number of days of payables incorrectly: Days of inventory in hand = 110 - 10 - 25 = 75.",
+          "text_ru": "Неверно. Это неправильно вычитает период оборота кредиторской задолженности: Период оборачиваемости запасов = 110 - 10 - 25 = 75."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. It subtracts the number of days of payables and adds days of sales outstanding incorrectly: Days of inventory in hand = 110 + 10 - 25 = 95.",
+          "text_ru": "Неверно. Это неправильно вычитает период оборота кредиторской задолженности и добавляет период оборота дебиторской задолженности: Период оборачиваемости запасов = 110 + 10 - 25 = 95."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "activity_ratios",
+        "cash_conversion_cycle",
+        "days_of_inventory"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q018",
+      "original_question_number": 2110,
+      "los_id": "LOS_11b",
+      "question_text_en": "Which of the following ratios can an analyst most likely use to measure the number of days of average cash expenses a firm can pay with its liquid assets?",
+      "question_text_ru": "Какой из следующих коэффициентов аналитик, скорее всего, может использовать для измерения количества дней средних денежных расходов, которые фирма может оплатить своими ликвидными активами?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Cash ratio.",
+          "text_ru": "Коэффициент наличности."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Defensive interval ratio.",
+          "text_ru": "Коэффициент защитного интервала."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Working capital turnover ratio.",
+          "text_ru": "Коэффициент оборачиваемости оборотного капитала."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The defensive interval ratio is a liquidity ratio that measures the number of days a firm can cover its average daily cash expenses using its most liquid assets. This ratio is particularly useful for assessing a company's short-term financial resilience. It is calculated by dividing the sum of a company's cash, marketable securities, and receivables by its average daily expenditures.\n\nDefensive interval ratio = (Cash + Marketable securities + Receivables) / Daily Cash Expenditures.",
+      "explanation_ru": "Коэффициент защитного интервала - это коэффициент ликвидности, который измеряет количество дней, в течение которых фирма может покрывать свои средние ежедневные денежные расходы, используя свои наиболее ликвидные активы. Этот коэффициент особенно полезен для оценки краткосрочной финансовой устойчивости компании. Он рассчитывается путем деления суммы денежных средств компании, рыночных ценных бумаг и дебиторской задолженности на ее средние ежедневные расходы.\n\nКоэффициент защитного интервала = (Денежные средства + Рыночные ценные бумаги + Дебиторская задолженность) / Ежедневные денежные расходы.",
+      "explanation_formula": "$\\text{Defensive interval ratio} = \\frac{\\text{Cash} + \\text{Marketable securities} + \\text{Receivables}}{\\text{Daily Cash Expenditures}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The cash ratio, while a measure of liquidity, does not specifically address the company's ability to cover its daily cash expenses over a period. It is calculated by dividing a company's cash and cash equivalents by its current liabilities.",
+          "text_ru": "Неверно. Коэффициент наличности, хотя и является мерой ликвидности, не затрагивает конкретно способность компании покрывать свои ежедневные денежные расходы в течение периода. Он рассчитывается путем деления денежных средств и их эквивалентов компании на ее текущие обязательства."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The working capital turnover ratio is an activity ratio that measures how efficiently a company uses its working capital to generate sales. It is calculated by dividing the company's net annual sales by its average working capital.",
+          "text_ru": "Неверно. Коэффициент оборачиваемости оборотного капитала - это коэффициент активности, который измеряет, насколько эффективно компания использует свой оборотный капитал для генерации продаж. Он рассчитывается путем деления чистых годовых продаж компании на ее средний оборотный капитал."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "liquidity_ratios",
+        "defensive_interval"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q019",
+      "original_question_number": 2111,
+      "los_id": "LOS_11b",
+      "question_text_en": "Turks & Co. is a glass-manufacturing firm whose income statement is being analyzed by an analyst at a local credit rating firm. Some relevant accounts for the year 2016 have been given in the following table:",
+      "question_text_ru": "Turks & Co. - это стеклопроизводственная фирма, чей отчет о прибылях и убытках анализируется аналитиком в местном агентстве кредитных рейтингов. Некоторые соответствующие счета за 2016 год представлены в следующей таблице:",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Income Statement",
+          ""
+        ],
+        "rows": [
+          [
+            "Sales",
+            "15,000"
+          ],
+          [
+            "COGS",
+            "6,500"
+          ],
+          [
+            "Gross Profit",
+            "8,500"
+          ],
+          [
+            "Depreciation",
+            "800"
+          ],
+          [
+            "SG&A",
+            "550"
+          ],
+          [
+            "Lease Payments",
+            "350"
+          ],
+          [
+            "EBIT",
+            "6,800"
+          ],
+          [
+            "Interest Payment",
+            "250"
+          ],
+          [
+            "EBT",
+            "6,550"
+          ],
+          [
+            "Taxes",
+            "1,965"
+          ],
+          [
+            "EAT",
+            "4,585"
+          ]
+        ]
+      },
+      "question_continuation_en": "Using the given data, the fixed charge coverage ratio of the firm is closest to:",
+      "question_continuation_ru": "Используя данные, коэффициент покрытия фиксированных платежей фирмы наиболее близок к:",
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "11.92",
+          "text_ru": "11.92"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "20.42",
+          "text_ru": "20.42"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "28.60",
+          "text_ru": "28.60"
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The fixed charge coverage ratio is a solvency ratio that measures the firm's ability to meet its interests and leases obligations. (Note: It is a good measure for a firm that leases its assets i.e. shipping and airline companies.)\n\nFixed charge coverage ratio = (EBIT + Fixed charges before tax) / (Interest payments + Fixed charges before tax).\n\nIn this case, the fixed charges before tax are lease payments.\n\nFixed charge coverage ratio = (6,800 + 350) / (350 + 250) = 11.92.",
+      "explanation_ru": "Коэффициент покрытия фиксированных платежей - это коэффициент платежеспособности, который измеряет способность фирмы выполнять свои процентные обязательства и обязательства по аренде. (Примечание: Это хороший показатель для фирмы, которая арендует свои активы, т.е. судоходные и авиакомпании.)\n\nКоэффициент покрытия фиксированных платежей = (EBIT + Фиксированные платежи до налогообложения) / (Процентные платежи + Фиксированные платежи до налогообложения).\n\nВ данном случае фиксированными платежами до налогообложения являются арендные платежи.\n\nКоэффициент покрытия фиксированных платежей = (6,800 + 350) / (350 + 250) = 11.92.",
+      "explanation_formula": "$\\text{Fixed charge coverage ratio} = \\frac{\\text{EBIT} + \\text{Fixed charges before tax}}{\\text{Interest payments} + \\text{Fixed charges before tax}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Considers the fixed charges before tax in the numerator and not in the denominator: Fixed charge coverage ratio = (6,800 + 350) / (350) = 20.42.",
+          "text_ru": "Неверно. Учитывает фиксированные платежи до налогообложения в числителе, а не в знаменателе: Коэффициент покрытия фиксированных платежей = (6,800 + 350) / (350) = 20.42."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It does not consider interest payments.",
+          "text_ru": "Неверно. Не учитывает процентные платежи."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": [
+        "solvency_ratios",
+        "fixed_charge_coverage"
+      ]
+    },
+    {
+      "question_id": "FSA-11-Q020",
+      "original_question_number": 2113,
+      "los_id": "LOS_11b",
+      "question_text_en": "Turks & Co. is a glass-manufacturing firm whose income statement is being analyzed by a CFA member at a local credit rating firm. Using the data given in the following table, calculate the operating profit margin.",
+      "question_text_ru": "Turks & Co. - это стеклопроизводственная фирма, чей отчет о прибылях и убытках анализируется членом CFA в местном агентстве кредитных рейтингов. Используя данные, приведенные в следующей таблице, рассчитайте операционную рентабельность.",
+      "has_table": true,
+      "table_data": {
+        "headers": [
+          "Income Statement",
+          ""
+        ],
+        "rows": [
+          [
+            "Sales",
+            "15,000"
+          ],
+          [
+            "COGS",
+            "6,500"
+          ],
+          [
+            "Gross Profit",
+            "8,500"
+          ],
+          [
+            "Depreciation",
+            "800"
+          ],
+          [
+            "SG&A",
+            "550"
+          ],
+          [
+            "Lease Payments",
+            "350"
+          ],
+          [
+            "EBIT",
+            "6,800"
+          ],
+          [
+            "Interest Payment",
+            "250"
+          ],
+          [
+            "EBT",
+            "6,550"
+          ],
+          [
+            "Taxes",
+            "1,965"
+          ],
+          [
+            "EAT",
+            "4,585"
+          ]
+        ]
+      },
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "43.67%",
+          "text_ru": "43.67%"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "45.33%",
+          "text_ru": "45.33%"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "56.67%",
+          "text_ru": "56.67%"
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Operating profit margin = Operating Profit / Revenue = EBIT / Revenue = 6,800 / 15,000 = 45.33%.",
+      "explanation_ru": "Операционная рентабельность = Операционная прибыль / Выручка = EBIT / Выручка = 6,800 / 15,000 = 45.33%.",
+      "explanation_formula": "$\\text{Operating profit margin} = \\frac{\\text{EBIT}}{\\text{Revenue}}$",
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. Uses EBT instead of EBIT.",
+          "text_ru": "Неверно. Использует EBT вместо EBIT."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It represents the gross profit margin.",
+          "text_ru": "Неверно. Это представляет валовую рентабельность."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": [
+        "profitability_ratios",
+        "operating_profit_margin"
       ]
     }
   ]
