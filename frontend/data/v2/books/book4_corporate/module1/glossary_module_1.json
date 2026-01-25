@@ -1,0 +1,280 @@
+{
+  "metadata": {
+    "book_id": 4,
+    "book_code": "CORP",
+    "book_name": "Corporate Issuers",
+    "book_name_ru": "Корпоративные эмитенты",
+    "module_id": 1,
+    "module_name": "Organization Forms, Corporate Issuer Features and Ownership",
+    "module_name_ru": "Организационные формы, характеристики корпоративных эмитентов и владение",
+    "page_range": "3-19",
+    "total_terms": 23,
+    "total_exercises": 0,
+    "version": "2.0",
+    "last_updated": "2026-01-25"
+  },
+  "los": [
+    {
+      "los_id": "LOS_1a",
+      "los_code": "1a",
+      "los_description_en": "Compare the organizational forms of business",
+      "los_description_ru": "Сравнивать организационные формы бизнеса",
+      "terms": [
+        {
+          "term_id": "CORP-1-001",
+          "term_en": "For-Profit Organization",
+          "term_ru": "Коммерческая организация",
+          "definition_en": "A business or company that operates with the primary goal of generating profit for its owners. These organizations raise capital, conduct business operations, and distribute returns to owners.",
+          "definition_ru": "Бизнес или компания, которая работает с основной целью получения прибыли для своих владельцев. Эти организации привлекают капитал, ведут бизнес-операции и распределяют доходы владельцам.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "CORP-1-002",
+          "term_en": "Not-For-Profit Organization (Non-Profit)",
+          "term_ru": "Некоммерческая организация",
+          "definition_en": "A non-governmental organization that operates without the primary goal of generating profit. Any surplus generated is reinvested into the organization's mission rather than distributed to owners.",
+          "definition_ru": "Неправительственная организация, которая работает без основной цели получения прибыли. Любая полученная прибыль реинвестируется в миссию организации, а не распределяется владельцам.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "CORP-1-003",
+          "term_en": "Sole Proprietorship (Sole Trader)",
+          "term_ru": "Индивидуальное предпринимательство",
+          "definition_en": "A business structure where a single owner raises capital, fully controls operations, benefits from all financial returns, and assumes all business risks. The business is not a separate legal entity and is considered an extension of the owner. Does not require formal legal registration in most jurisdictions.",
+          "definition_ru": "Бизнес-структура, где единственный владелец привлекает капитал, полностью контролирует операции, получает все финансовые доходы и принимает на себя все бизнес-риски. Бизнес не является отдельным юридическим лицом и считается продолжением владельца. В большинстве юрисдикций не требует формальной юридической регистрации.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "CORP-1-004",
+          "term_en": "Legal Identity",
+          "term_ru": "Юридическая идентичность",
+          "definition_en": "A factor that describes the legal relationship between the owner(s) and the business. It determines whether a business is a separate legal entity distinct from its owners or an extension of the owners themselves.",
+          "definition_ru": "Фактор, описывающий юридические отношения между владельцем(-ами) и бизнесом. Определяет, является ли бизнес отдельным юридическим лицом, отличным от владельцев, или продолжением самих владельцев.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "CORP-1-005",
+          "term_en": "Owner Liability",
+          "term_ru": "Ответственность владельца",
+          "definition_en": "The level of liability an individual assumes due to a business's actions or debts. It can be limited (capped at the investment amount) or unlimited (extends to personal assets).",
+          "definition_ru": "Уровень ответственности, которую принимает на себя человек из-за действий или долгов бизнеса. Может быть ограниченной (ограничена суммой инвестиций) или неограниченной (распространяется на личные активы).",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "CORP-1-006",
+          "term_en": "Limited Liability",
+          "term_ru": "Ограниченная ответственность",
+          "definition_en": "A type of liability where the maximum loss owners can incur is limited to the amount of their investment in the business. Personal assets are protected from business debts and obligations.",
+          "definition_ru": "Тип ответственности, при котором максимальный убыток, который могут понести владельцы, ограничен суммой их инвестиций в бизнес. Личные активы защищены от долгов и обязательств бизнеса.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "CORP-1-007",
+          "term_en": "Unlimited Liability",
+          "term_ru": "Неограниченная ответственность",
+          "definition_en": "A type of liability where owners are personally responsible for all business debts and obligations. Personal assets can be used to satisfy business liabilities.",
+          "definition_ru": "Тип ответственности, при котором владельцы лично отвечают за все долги и обязательства бизнеса. Личные активы могут быть использованы для погашения обязательств бизнеса.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "CORP-1-008",
+          "term_en": "Owner-Manager Relationship",
+          "term_ru": "Отношения владелец-менеджер",
+          "definition_en": "A factor describing the relationship between a business's owner(s) and its management. In some structures, owners directly manage the business, while in others, there is a separation between ownership and management.",
+          "definition_ru": "Фактор, описывающий отношения между владельцем(-ами) бизнеса и его руководством. В некоторых структурах владельцы напрямую управляют бизнесом, в других существует разделение между владением и управлением.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "CORP-1-009",
+          "term_en": "Taxation",
+          "term_ru": "Налогообложение",
+          "definition_en": "The tax regime applicable to a business structure, describing how profits are taxed. Some structures face taxation at the business level only, while others may experience double taxation (at both business and owner levels).",
+          "definition_ru": "Налоговый режим, применимый к бизнес-структуре, описывающий, как облагается налогом прибыль. Некоторые структуры сталкиваются с налогообложением только на уровне бизнеса, в то время как другие могут испытывать двойное налогообложение (как на уровне бизнеса, так и на уровне владельца).",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "CORP-1-010",
+          "term_en": "Access to Financing",
+          "term_ru": "Доступ к финансированию",
+          "definition_en": "A firm's ability to raise capital and distribute risk. Different business structures have varying levels of access to external financing, affecting their growth potential.",
+          "definition_ru": "Способность фирмы привлекать капитал и распределять риски. Различные бизнес-структуры имеют разные уровни доступа к внешнему финансированию, что влияет на их потенциал роста.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "CORP-1-011",
+          "term_en": "Partnership",
+          "term_ru": "Партнёрство",
+          "definition_en": "A business structure where multiple owners contribute resources and share business risk and return. There are two main types: general partnerships and limited partnerships. Partners share profits, risks, and typically manage the business according to a partnership agreement.",
+          "definition_ru": "Бизнес-структура, в которой несколько владельцев вносят ресурсы и делят бизнес-риски и доходы. Существует два основных типа: общее партнёрство и ограниченное партнёрство. Партнёры делят прибыль, риски и обычно управляют бизнесом согласно партнёрскому соглашению.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "CORP-1-012",
+          "term_en": "General Partnership",
+          "term_ru": "Общее партнёрство",
+          "definition_en": "A partnership business structure where at least two owners (partners) whose roles and responsibilities are stated in a partnership agreement operate the business. All partners share business risks, liabilities, and returns. The business has no separate legal identity. Common examples include law and accounting firms.",
+          "definition_ru": "Партнёрская бизнес-структура, где как минимум два владельца (партнёра), чьи роли и обязанности указаны в партнёрском соглашении, управляют бизнесом. Все партнёры делят бизнес-риски, обязательства и доходы. Бизнес не имеет отдельной юридической идентичности. Типичные примеры включают юридические и бухгалтерские фирмы.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "CORP-1-013",
+          "term_en": "Partnership Agreement",
+          "term_ru": "Партнёрское соглашение",
+          "definition_en": "A document that outlines the roles, responsibilities, profit-sharing arrangements, and other terms between partners in a partnership. Partnerships can also be initiated verbally or incidentally, though a written agreement is more common.",
+          "definition_ru": "Документ, который описывает роли, обязанности, порядок распределения прибыли и другие условия между партнёрами в партнёрстве. Партнёрства также могут быть созданы устно или случайно, хотя письменное соглашение является более распространённым.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "CORP-1-014",
+          "term_en": "Limited Partnership",
+          "term_ru": "Ограниченное партнёрство",
+          "definition_en": "A partnership structure with two types of partners: at least one general partner (GP) who has unlimited liability and manages the business, and limited partners (LPs) who have limited liability capped at their investment amount. LPs typically earn lower profit shares than GPs. Common in private equity funds, real estate, and hedge funds.",
+          "definition_ru": "Партнёрская структура с двумя типами партнёров: как минимум один генеральный партнёр (GP), который имеет неограниченную ответственность и управляет бизнесом, и ограниченные партнёры (LP), которые имеют ограниченную ответственность, ограниченную суммой их инвестиций. LP обычно получают меньшую долю прибыли, чем GP. Распространено в фондах прямых инвестиций, недвижимости и хедж-фондах.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "CORP-1-015",
+          "term_en": "General Partner (GP)",
+          "term_ru": "Генеральный партнёр",
+          "definition_en": "A partner in a limited partnership who has unlimited liability and is responsible for managing the business. GPs earn higher profit shares due to their managerial position and greater risk exposure.",
+          "definition_ru": "Партнёр в ограниченном партнёрстве, который имеет неограниченную ответственность и отвечает за управление бизнесом. GP получают более высокие доли прибыли из-за их управленческой позиции и большей подверженности рискам.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "CORP-1-016",
+          "term_en": "Limited Partner (LP)",
+          "term_ru": "Ограниченный партнёр",
+          "definition_en": "A partner in a limited partnership who has limited liability, meaning their losses are capped at their investment amount. LPs do not have business control and earn lower profit shares than general partners.",
+          "definition_ru": "Партнёр в ограниченном партнёрстве, который имеет ограниченную ответственность, то есть их убытки ограничены суммой их инвестиций. LP не имеют контроля над бизнесом и получают меньшие доли прибыли, чем генеральные партнёры.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "CORP-1-017",
+          "term_en": "Limited Liability Partnership (LLP)",
+          "term_ru": "Партнёрство с ограниченной ответственностью",
+          "definition_en": "A unique form of limited partnership existing in certain jurisdictions where there is no general partner. All partners bear limited liability and share management responsibilities. One or more partners are typically voted in as managing partners. Common in service firms such as law and accounting firms in the US.",
+          "definition_ru": "Уникальная форма ограниченного партнёрства, существующая в определённых юрисдикциях, где нет генерального партнёра. Все партнёры несут ограниченную ответственность и делят управленческие обязанности. Один или несколько партнёров обычно избираются как управляющие партнёры. Распространено в сервисных фирмах, таких как юридические и бухгалтерские фирмы в США.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "CORP-1-018",
+          "term_en": "Limited Company",
+          "term_ru": "Компания с ограниченной ответственностью",
+          "definition_en": "A business structure similar to a limited partnership but with features that facilitate greater access to capital and skills for growth. All owners bear limited liability, ownership can be easily transferred using shares, and there is a separation between owners and managers. Categorized into private and public limited companies.",
+          "definition_ru": "Бизнес-структура, похожая на ограниченное партнёрство, но с характеристиками, которые облегчают больший доступ к капиталу и навыкам для роста. Все владельцы несут ограниченную ответственность, владение может быть легко передано с помощью акций, и существует разделение между владельцами и менеджерами. Делится на частные и публичные компании с ограниченной ответственностью.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "CORP-1-019",
+          "term_en": "Private Limited Company",
+          "term_ru": "Частная компания с ограниченной ответственностью",
+          "definition_en": "A limited company where all owners (shareholders) bear limited liability, ownership can be transferred using shares, and there is separation between owners and managers. Shareholders elect the board of directors to oversee the company. Known as LLC (Limited Liability Company) in the US, where they are legally restricted to a certain number of shareholders and taxation is applied at the shareholder level only.",
+          "definition_ru": "Компания с ограниченной ответственностью, где все владельцы (акционеры) несут ограниченную ответственность, владение может быть передано с помощью акций, и существует разделение между владельцами и менеджерами. Акционеры избирают совет директоров для надзора за компанией. Известна как LLC (Limited Liability Company) в США, где они юридически ограничены определённым количеством акционеров, и налогообложение применяется только на уровне акционеров.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "CORP-1-020",
+          "term_en": "Public Limited Company (Corporation)",
+          "term_ru": "Публичная компания с ограниченной ответственностью (Корпорация)",
+          "definition_en": "A limited company similar to a private limited company, except that in many jurisdictions there is no legal restriction on the number of owners or transfer of ownership. It is a separate legal entity with unlimited opportunities to access capital. Business liability is shared among multiple owners with limited liability. Most appropriate for companies wishing to go public and have substantial global operations.",
+          "definition_ru": "Компания с ограниченной ответственностью, похожая на частную компанию с ограниченной ответственностью, за исключением того, что во многих юрисдикциях нет юридических ограничений на количество владельцев или передачу владения. Это отдельное юридическое лицо с неограниченными возможностями доступа к капиталу. Ответственность бизнеса распределяется между несколькими владельцами с ограниченной ответственностью. Наиболее подходит для компаний, желающих стать публичными и имеющих значительные глобальные операции.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "CORP-1-021",
+          "term_en": "Shareholders",
+          "term_ru": "Акционеры",
+          "definition_en": "The owners of a limited company who hold shares representing their ownership stake. Shareholders elect the board of directors to oversee the company and approve the distribution of profits. They have limited liability and receive returns through dividends.",
+          "definition_ru": "Владельцы компании с ограниченной ответственностью, которые владеют акциями, представляющими их долю владения. Акционеры избирают совет директоров для надзора за компанией и одобрения распределения прибыли. Они имеют ограниченную ответственность и получают доходы через дивиденды.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "CORP-1-022",
+          "term_en": "Board of Directors",
+          "term_ru": "Совет директоров",
+          "definition_en": "A group elected by shareholders to oversee the company and approve the distribution of profits to owners. The board appoints various managers, including the CEO, to handle day-to-day operations. The board must conduct business aligned with owners' interests and consider other stakeholders' interests.",
+          "definition_ru": "Группа, избранная акционерами для надзора за компанией и одобрения распределения прибыли владельцам. Совет назначает различных менеджеров, включая генерального директора, для управления повседневными операциями. Совет должен вести бизнес в соответствии с интересами владельцев и учитывать интересы других заинтересованных сторон.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        },
+        {
+          "term_id": "CORP-1-023",
+          "term_en": "Double Taxation",
+          "term_ru": "Двойное налогообложение",
+          "definition_en": "A tax situation where corporate profits are taxed twice: first at the corporate level when the company earns profits, and again at the shareholder level when dividends are distributed. This is a disadvantage for corporations in some countries, though some jurisdictions do not tax shareholders if the corporation has already paid taxes on distributed dividends.",
+          "definition_ru": "Налоговая ситуация, при которой корпоративная прибыль облагается налогом дважды: сначала на корпоративном уровне, когда компания получает прибыль, и снова на уровне акционеров, когда распределяются дивиденды. Это недостаток для корпораций в некоторых странах, хотя некоторые юрисдикции не облагают налогом акционеров, если корпорация уже заплатила налоги на распределённые дивиденды.",
+          "type": "concept",
+          "formula": null,
+          "formula_ref": null,
+          "calculator": null
+        }
+      ],
+      "exercises": []
+    }
+  ]
+}
