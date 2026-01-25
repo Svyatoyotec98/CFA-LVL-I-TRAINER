@@ -9,7 +9,7 @@
     "module_name_ru": "Организационные формы, характеристики корпоративных эмитентов и владение",
     "page_range": "3-19",
     "total_terms": 42,
-    "total_exercises": 0,
+    "total_exercises": 2,
     "version": "2.0",
     "last_updated": "2026-01-25"
   },
@@ -274,7 +274,33 @@
           "calculator": null
         }
       ],
-      "exercises": []
+      "exercises": [
+        {
+          "exercise_id": "CORP-1-EX-001",
+          "question_en": "Which of the following statements is most likely correct regarding business structures?",
+          "question_ru": "Какое из следующих утверждений наиболее вероятно верно относительно бизнес-структур?",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "Sole trader and general partnerships business structures both have a legal identity.",
+              "text_ru": "Индивидуальное предпринимательство и общее партнёрство оба имеют юридическую идентичность."
+            },
+            {
+              "letter": "B",
+              "text_en": "The taxation regimes for sole traders and partnerships are different.",
+              "text_ru": "Налоговые режимы для индивидуальных предпринимателей и партнёрств различны."
+            },
+            {
+              "letter": "C",
+              "text_en": "Corporate bondholders and shareholders have different claims on a corporation in exchange for the capital they provide.",
+              "text_ru": "Корпоративные держатели облигаций и акционеры имеют различные требования к корпорации в обмен на предоставляемый ими капитал."
+            }
+          ],
+          "correct_answer": "C",
+          "solution_en": "Corporate bondholders and shareholders are the capital providers of a corporation. Corporate bondholders provide debt capital, while the shareholders provide equity capital. The bondholders provide debt capital in exchange for issued debt securities with no ownership entitlement. On the other hand, aside from returns, shareholders are entitled to the company's ownership. A is incorrect because sole traders (sole proprietorships) and general partnerships do not have a legal identity. The business structures are considered an extension of the owner (sole proprietorship) or partnership agreement (general partnerships). B is incorrect because the tax structures in both sole trader and partnerships are comparable, as in both business structures, profits are taxed as personal income.",
+          "solution_ru": "Корпоративные держатели облигаций и акционеры являются поставщиками капитала корпорации. Корпоративные держатели облигаций предоставляют долговой капитал, в то время как акционеры предоставляют акционерный капитал. Держатели облигаций предоставляют долговой капитал в обмен на выпущенные долговые ценные бумаги без права владения. С другой стороны, помимо доходов, акционеры имеют право на владение компанией. A неверно, потому что индивидуальные предприниматели (индивидуальное предпринимательство) и общие партнёрства не имеют юридической идентичности. Бизнес-структуры считаются продолжением владельца (индивидуальное предпринимательство) или партнёрского соглашения (общие партнёрства). B неверно, потому что налоговые структуры как в индивидуальном предпринимательстве, так и в партнёрствах сопоставимы, так как в обеих бизнес-структурах прибыль облагается налогом как личный доход."
+        }
+      ]
     },
     {
       "los_id": "LOS_1b",
@@ -492,7 +518,33 @@
           "calculator": null
         }
       ],
-      "exercises": []
+      "exercises": [
+        {
+          "exercise_id": "CORP-1-EX-002",
+          "question_en": "Double taxation will matter the most for:",
+          "question_ru": "Двойное налогообложение будет иметь наибольшее значение для:",
+          "options": [
+            {
+              "letter": "A",
+              "text_en": "A company that reinvests its after-tax profits each year into business expansion.",
+              "text_ru": "Компании, которая реинвестирует свою прибыль после уплаты налогов каждый год в расширение бизнеса."
+            },
+            {
+              "letter": "B",
+              "text_en": "Shareholders who live in a country with high tax rates on dividend income.",
+              "text_ru": "Акционеров, которые живут в стране с высокими налоговыми ставками на дивидендный доход."
+            },
+            {
+              "letter": "C",
+              "text_en": "A company in a tax jurisdiction that pays no tax at all.",
+              "text_ru": "Компании в налоговой юрисдикции, которая вообще не платит налоги."
+            }
+          ],
+          "correct_answer": "B",
+          "solution_en": "High tax rates on shareholder dividends will cause companies to retain profits, change the organizational form of business or find an alternative way of distributing profits. A is incorrect because no double taxation occurs when the company reinvests its profits; thus, no dividends are paid to shareholders. C is incorrect because double taxation will not be an issue if the company is not entitled to pay tax.",
+          "solution_ru": "Высокие налоговые ставки на дивиденды акционеров заставят компании удерживать прибыль, изменять организационную форму бизнеса или находить альтернативный способ распределения прибыли. A неверно, потому что двойное налогообложение не происходит, когда компания реинвестирует свою прибыль; таким образом, акционерам не выплачиваются дивиденды. C неверно, потому что двойное налогообложение не будет проблемой, если компания не обязана платить налоги."
+        }
+      ]
     }
   ]
 }
