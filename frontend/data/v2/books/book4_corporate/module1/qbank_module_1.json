@@ -1,0 +1,580 @@
+{
+  "metadata": {
+    "book_id": 4,
+    "book_code": "CORP",
+    "book_name": "Corporate Issuers",
+    "book_name_ru": "Корпоративные эмитенты",
+    "module_id": 1,
+    "module_name": "Organization Forms, Corporate Issuer Features and Ownership",
+    "module_name_ru": "Формы организации, характеристики корпоративных эмитентов и собственность",
+    "total_questions": 12,
+    "version": "2.0",
+    "source": "AnalystPrep QBank"
+  },
+  "questions": [
+    {
+      "question_id": "CORP-1-Q001",
+      "original_question_number": 4050,
+      "los_id": "LOS_1a",
+      "question_text_en": "A business structure whose growth is limited to the financing ability and level of risk appetite of the owner is most likely a:",
+      "question_text_ru": "Бизнес-структура, рост которой ограничен финансовыми возможностями и уровнем склонности к риску владельца, скорее всего:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Sole trader.",
+          "text_ru": "Индивидуальный предприниматель."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "General partnership.",
+          "text_ru": "Полное товарищество."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Limited partnership.",
+          "text_ru": "Коммандитное товарищество."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "In a sole trader business structure, the growth potential of the business is inherently tied to the personal financial capacity and willingness to take risks of the sole proprietor. This type of business structure is characterized by a single individual owning and operating the business, making all the decisions regarding its operation, and being solely responsible for all financial aspects, including funding. There is a direct link between the owner's personal finances and the business's financial health which significantly limits the business's growth to the owner's ability to finance it and their appetite for risk. The owner's resources, both financial and otherwise, define the scale and scope of the business's operations. Unlike corporations or partnerships, where the financial burden and decision-making processes are shared among multiple stakeholders, a sole trader must rely entirely on their own resources and judgment to grow the business.",
+      "explanation_ru": "В структуре индивидуального предпринимателя потенциал роста бизнеса неразрывно связан с личными финансовыми возможностями и готовностью владельца принимать риски. Этот тип бизнес-структуры характеризуется тем, что один человек владеет и управляет бизнесом, принимает все решения относительно его работы и несет единоличную ответственность за все финансовые аспекты, включая финансирование. Существует прямая связь между личными финансами владельца и финансовым состоянием бизнеса, что значительно ограничивает рост бизнеса возможностями владельца финансировать его и его склонностью к риску. Ресурсы владельца, как финансовые, так и иные, определяют масштаб и объем операций бизнеса. В отличие от корпораций или товариществ, где финансовое бремя и процессы принятия решений распределяются между несколькими заинтересованными сторонами, индивидуальный предприниматель должен полностью полагаться на свои собственные ресурсы и суждения для развития бизнеса.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. General partnerships involve two or more individuals (or entities) who agree to share the profits, losses, and management of a business. While each partner's financial contribution and risk tolerance can influence the business's growth, the collective resources and risk appetite of all partners offer a broader base for business expansion than a sole trader structure. Partners can pool their resources, share the financial burden, and bring diverse skills and perspectives to the business, potentially enabling greater growth than a sole proprietorship limited by a single individual's capabilities and risk tolerance.",
+          "text_ru": "Неверно. Полное товарищество включает двух или более лиц (или организаций), которые соглашаются делить прибыль, убытки и управление бизнесом. Хотя финансовый вклад и толерантность к риску каждого партнера могут влиять на рост бизнеса, коллективные ресурсы и склонность к риску всех партнеров предлагают более широкую базу для расширения бизнеса, чем структура индивидуального предпринимателя. Партнеры могут объединить свои ресурсы, разделить финансовое бремя и привнести разнообразные навыки и перспективы в бизнес, потенциально обеспечивая больший рост, чем индивидуальное предпринимательство, ограниченное возможностями и толерантностью к риску одного человека."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Limited partnerships consist of at least one general partner (GP) who manages the business and is personally liable for its debts, and one or more limited partners (LPs) who contribute capital but do not participate in management and whose liability is limited to their investment. This structure allows for the injection of capital from limited partners without requiring them to take on management responsibilities or unlimited liability.",
+          "text_ru": "Неверно. Коммандитное товарищество состоит как минимум из одного полного товарища (GP), который управляет бизнесом и несет личную ответственность по его долгам, и одного или нескольких коммандитистов (LP), которые вносят капитал, но не участвуют в управлении, и чья ответственность ограничена их инвестициями. Эта структура позволяет привлекать капитал от коммандитистов, не требуя от них принятия управленческих обязанностей или неограниченной ответственности."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["sole_trader", "business_structures", "organizational_forms"]
+    },
+    {
+      "question_id": "CORP-1-Q002",
+      "original_question_number": 4052,
+      "los_id": "LOS_1a",
+      "question_text_en": "Which of the following is most likely a downside of a sole trader?",
+      "question_text_ru": "Что из следующего наиболее вероятно является недостатком индивидуального предпринимателя?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "It is expensive to initiate.",
+          "text_ru": "Это дорого создать."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "It does not generate adequate profit.",
+          "text_ru": "Он не генерирует достаточную прибыль."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The owner has unlimited liability.",
+          "text_ru": "Владелец имеет неограниченную ответственность."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "The primary downside of operating as a sole trader is the aspect of unlimited liability. This means that the sole proprietor is personally responsible for all the debts and obligations of the business. In the event that the business incurs debt or faces legal action, the owner's personal assets (such as personal savings, car, and home) can be used to settle the business debts. This risk is significantly higher compared to other business structures like corporations, where the liability of shareholders is limited to the amount they have invested in the company.",
+      "explanation_ru": "Основным недостатком работы в качестве индивидуального предпринимателя является аспект неограниченной ответственности. Это означает, что единоличный владелец несет личную ответственность за все долги и обязательства бизнеса. В случае если бизнес понесет долги или столкнется с судебным иском, личные активы владельца (такие как личные сбережения, автомобиль и дом) могут быть использованы для погашения долгов бизнеса. Этот риск значительно выше по сравнению с другими бизнес-структурами, такими как корпорации, где ответственность акционеров ограничена суммой, которую они инвестировали в компанию.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. It typically requires fewer formalities and less regulatory paperwork. The costs associated with initiating a sole proprietorship are often limited to obtaining the necessary licenses or permits for the specific type of business, which are usually minimal.",
+          "text_ru": "Неверно. Обычно требуется меньше формальностей и меньше регулятивной документации. Затраты, связанные с созданием индивидуального предпринимателя, часто ограничиваются получением необходимых лицензий или разрешений для конкретного типа бизнеса, которые обычно минимальны."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. The potential for a sole trader to generate adequate profit is not inherently limited by the business structure itself. Like any business, the profitability of a sole proprietorship depends on various factors such as the nature of the business, market demand, the business owner's skills and efforts, and effective management practices. Many sole traders successfully operate profitable businesses across a wide range of industries. Therefore, stating that a sole trader does not generate adequate profit as a downside is misleading. The capacity to generate profit is influenced by the business strategy and execution rather than the business structure.",
+          "text_ru": "Неверно. Потенциал индивидуального предпринимателя генерировать достаточную прибыль не ограничен самой бизнес-структурой. Как и любой бизнес, прибыльность индивидуального предпринимателя зависит от различных факторов, таких как характер бизнеса, рыночный спрос, навыки и усилия владельца бизнеса и эффективные методы управления. Многие индивидуальные предприниматели успешно ведут прибыльный бизнес в широком спектре отраслей. Таким образом, утверждение, что индивидуальный предприниматель не генерирует достаточную прибыль как недостаток, вводит в заблуждение. Способность генерировать прибыль определяется бизнес-стратегией и исполнением, а не бизнес-структурой."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["sole_trader", "unlimited_liability", "business_structures"]
+    },
+    {
+      "question_id": "CORP-1-Q003",
+      "original_question_number": 4053,
+      "los_id": "LOS_1b",
+      "question_text_en": "Which of the following is least likely correct regarding sole trader?",
+      "question_text_ru": "Что из следующего наименее вероятно верно в отношении индивидуального предпринимателя?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The owner funds the business.",
+          "text_ru": "Владелец финансирует бизнес."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Profits are taxed as personal income.",
+          "text_ru": "Прибыль облагается налогом как личный доход."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "It has a legal identity; hence it is considered separate from the owner.",
+          "text_ru": "Он имеет юридическую идентичность; следовательно, считается отдельным от владельца."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "One of the key characteristics of a sole trader business is that it does not have a separate legal identity from its owner. In this business structure, the business and the owner are legally considered the same entity. This means the owner is personally responsible for all liabilities and obligations of the business. Unlike corporations, which are separate legal entities, a sole trader's business debts and legal issues are directly linked to the owner.",
+      "explanation_ru": "Одной из ключевых характеристик бизнеса индивидуального предпринимателя является то, что он не имеет отдельной юридической идентичности от своего владельца. В этой бизнес-структуре бизнес и владелец юридически считаются одной сущностью. Это означает, что владелец несет личную ответственность за все обязательства и долги бизнеса. В отличие от корпораций, которые являются отдельными юридическими лицами, долги и юридические проблемы бизнеса индивидуального предпринимателя напрямую связаны с владельцем.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. In a sole proprietorship, the owner provides the initial capital and may also seek additional funding through loans or personal savings. The owner's personal assets are often used as collateral for business loans, further emphasizing the lack of legal separation between the owner and the business. This direct funding by the owner highlights the personal stake and risk involved in a sole proprietorship.",
+          "text_ru": "Неверно. В индивидуальном предпринимательстве владелец предоставляет начальный капитал и также может искать дополнительное финансирование через кредиты или личные сбережения. Личные активы владельца часто используются в качестве залога для бизнес-кредитов, что еще больше подчеркивает отсутствие юридического разделения между владельцем и бизнесом. Это прямое финансирование владельцем подчеркивает личную заинтересованность и риск, связанный с индивидуальным предпринимательством."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Profits being taxed as personal income is a characteristic feature of a sole trader. Since the business and the owner are considered the same legal entity, the income generated by the business is directly attributed to the owner. Therefore, the profits from the business are reported on the owner's personal income tax returns.",
+          "text_ru": "Неверно. Налогообложение прибыли как личного дохода является характерной особенностью индивидуального предпринимателя. Поскольку бизнес и владелец считаются одним юридическим лицом, доход, генерируемый бизнесом, напрямую приписывается владельцу. Следовательно, прибыль от бизнеса отражается в личных налоговых декларациях владельца."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["sole_trader", "legal_identity", "corporate_features"]
+    },
+    {
+      "question_id": "CORP-1-Q004",
+      "original_question_number": 4067,
+      "los_id": "LOS_1b",
+      "question_text_en": "Which of the following statements regarding the types of corporations is least likely true?",
+      "question_text_ru": "Какое из следующих утверждений относительно типов корпораций наименее вероятно верно?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Nonprofit corporations cannot generate profit.",
+          "text_ru": "Некоммерческие корпорации не могут генерировать прибыль."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Selling shares is more difficult for private companies than for public companies.",
+          "text_ru": "Продажа акций сложнее для частных компаний, чем для публичных компаний."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Private and public companies can be distinguished by their number of shareholders.",
+          "text_ru": "Частные и публичные компании можно различить по количеству акционеров."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "The term 'nonprofit' can be misleading. Nonprofit corporations can, in fact, generate profit, but the key distinction is how they use their profits. Unlike for-profit corporations, nonprofits must reinvest their profits back into the organization's mission and operations rather than distributing them to shareholders or owners. Profits in nonprofit corporations are typically used for the organization's self-preservation, expansion, or plans.",
+      "explanation_ru": "Термин 'некоммерческий' может вводить в заблуждение. Некоммерческие корпорации действительно могут генерировать прибыль, но ключевое различие заключается в том, как они используют свою прибыль. В отличие от коммерческих корпораций, некоммерческие организации должны реинвестировать свою прибыль обратно в миссию и операции организации, а не распределять ее среди акционеров или владельцев. Прибыль в некоммерческих корпорациях обычно используется для самосохранения организации, расширения или планов.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Private companies do not have their shares listed on a public stock exchange, which means there is less liquidity and fewer potential buyers. The process of selling shares in a private company often involves negotiating directly with potential buyers, which can be more time-consuming and complex compared to selling shares of a public company through a stock exchange. Additionally, private companies may have restrictions on share transfers, further complicating the process.",
+          "text_ru": "Неверно. Частные компании не имеют своих акций на публичной фондовой бирже, что означает меньшую ликвидность и меньше потенциальных покупателей. Процесс продажи акций частной компании часто включает прямые переговоры с потенциальными покупателями, что может быть более длительным и сложным по сравнению с продажей акций публичной компании через фондовую биржу. Кроме того, частные компании могут иметь ограничения на передачу акций, что еще больше усложняет процесс."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Typically, public companies have a larger number of shareholders and are required to meet specific regulatory requirements, including disclosing financial information to the public. In contrast, private companies usually have fewer shareholders and are subject to fewer regulatory obligations. The number of shareholders is one of several criteria that can distinguish between private and public companies, alongside factors such as the trading of shares on public stock exchanges and the level of regulatory oversight.",
+          "text_ru": "Неверно. Обычно публичные компании имеют большее количество акционеров и обязаны соблюдать специфические регуляторные требования, включая раскрытие финансовой информации публике. В отличие от этого, частные компании обычно имеют меньше акционеров и подлежат меньшим регуляторным обязательствам. Количество акционеров является одним из нескольких критериев, которые могут отличить частные и публичные компании, наряду с такими факторами, как торговля акциями на публичных фондовых биржах и уровень регуляторного надзора."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["nonprofit_corporations", "private_companies", "public_companies", "corporate_types"]
+    },
+    {
+      "question_id": "CORP-1-Q005",
+      "original_question_number": 4074,
+      "los_id": "LOS_1b",
+      "question_text_en": "Which of the following best explains the importance of owner-operator separation in a corporation?",
+      "question_text_ru": "Что из следующего лучше всего объясняет важность разделения владельца и оператора в корпорации?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Prevents conflicts and mismanagement of a business.",
+          "text_ru": "Предотвращает конфликты и плохое управление бизнесом."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Creates more opportunities for a company to finance itself.",
+          "text_ru": "Создает больше возможностей для компании финансировать себя."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Ensures that the management of a business is in the best interest of the owners.",
+          "text_ru": "Гарантирует, что управление бизнесом осуществляется в интересах владельцев."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "The importance of owner-operator separation in a corporation primarily lies in its ability to broaden the avenues through which a company can secure financing. This separation allows the corporation to attract capital from a wide range of investors, including those who may not possess the expertise or desire to be involved in the day-to-day operations of the business. By distinguishing the roles of owners (shareholders) and operators (management), corporations can leverage the strengths of professional management while providing investment opportunities to individuals and entities looking to invest capital without taking on operational responsibilities. This structure enhances the company's ability to raise funds, as it can appeal to a larger pool of potential investors, thereby facilitating growth and expansion opportunities.",
+      "explanation_ru": "Важность разделения владельца и оператора в корпорации в первую очередь заключается в ее способности расширить пути, по которым компания может обеспечить финансирование. Это разделение позволяет корпорации привлекать капитал от широкого круга инвесторов, включая тех, кто может не обладать экспертизой или желанием участвовать в повседневных операциях бизнеса. Различая роли владельцев (акционеров) и операторов (менеджмента), корпорации могут использовать сильные стороны профессионального управления, одновременно предоставляя инвестиционные возможности лицам и организациям, желающим инвестировать капитал без принятия операционных обязанностей. Эта структура повышает способность компании привлекать средства, поскольку она может привлекать больший пул потенциальных инвесторов, тем самым способствуя возможностям роста и расширения.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. While preventing conflicts and mismanagement is a crucial aspect of corporate governance, it is not the primary reason why owner-operator separation is important. The separation does indeed help in delineating the roles and responsibilities within the corporation, which can contribute to reducing conflicts of interest and improving management practices. However, the core benefit of this separation is its facilitation of a broader financing base, rather than directly preventing mismanagement. Effective corporate governance mechanisms, such as a well-structured board of directors, are designed to oversee management actions and protect the interests of the shareholders, thereby indirectly addressing conflicts and mismanagement.",
+          "text_ru": "Неверно. Хотя предотвращение конфликтов и плохого управления является важным аспектом корпоративного управления, это не основная причина, почему разделение владельца и оператора важно. Разделение действительно помогает в определении ролей и обязанностей внутри корпорации, что может способствовать снижению конфликтов интересов и улучшению методов управления. Однако основная выгода этого разделения заключается в его содействии более широкой финансовой базе, а не в прямом предотвращении плохого управления. Эффективные механизмы корпоративного управления, такие как хорошо структурированный совет директоров, предназначены для надзора за действиями менеджмента и защиты интересов акционеров, тем самым косвенно решая конфликты и плохое управление."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Ensuring that the management of a business acts in the best interest of the owners is a fundamental principle of corporate governance, but it is not the primary rationale behind the separation of ownership and operation in a corporation. This separation indeed helps in aligning the interests of management with those of the shareholders through various mechanisms, including performance-based compensation and oversight by the board of directors. However, the key significance of owner-operator separation is its role in enabling the company to access a wider pool of capital by appealing to investors who prefer not to be involved in the daily operations of the business. While aligning interests is critical, the main advantage of this separation is its contribution to the company's financial flexibility and growth potential.",
+          "text_ru": "Неверно. Обеспечение того, чтобы управление бизнесом действовало в интересах владельцев, является фундаментальным принципом корпоративного управления, но это не основное обоснование разделения собственности и управления в корпорации. Это разделение действительно помогает в согласовании интересов менеджмента с интересами акционеров через различные механизмы, включая компенсацию на основе результатов и надзор со стороны совета директоров. Однако ключевое значение разделения владельца и оператора заключается в его роли в предоставлении компании доступа к более широкому пулу капитала, привлекая инвесторов, которые предпочитают не участвовать в повседневных операциях бизнеса. Хотя согласование интересов критически важно, основное преимущество этого разделения заключается в его вкладе в финансовую гибкость и потенциал роста компании."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["owner_operator_separation", "corporate_governance", "financing"]
+    },
+    {
+      "question_id": "CORP-1-Q006",
+      "original_question_number": 4081,
+      "los_id": "LOS_1b",
+      "question_text_en": "Which of the following is most likely correct regarding the financing of a corporation?",
+      "question_text_ru": "Что из следующего наиболее вероятно верно в отношении финансирования корпорации?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "A corporation raises equity capital by issuing stocks.",
+          "text_ru": "Корпорация привлекает акционерный капитал путем выпуска акций."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "A corporation raises debt capital by issuing both equity and debt securities.",
+          "text_ru": "Корпорация привлекает заемный капитал путем выпуска как акционерных, так и долговых ценных бумаг."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The claims of equity holders and bondholders on a corporation are comparable.",
+          "text_ru": "Требования держателей акций и держателей облигаций к корпорации сопоставимы."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "A corporation raises equity capital primarily through the issuance of stocks. This process involves selling shares of the company to investors, who in return gain ownership interest in the corporation. Equity financing is a critical method for companies to raise funds without incurring debt. By issuing stocks, a corporation can access capital to fund expansion, pay off debt, or invest in new projects without the obligation to repay the principal or pay interest to the investors. Instead, shareholders expect to earn a return on their investment through dividends and appreciation in the value of the stock. This form of financing offers the advantage of not burdening the company with debt, but it does dilute the ownership and potentially the control of the original owners.",
+      "explanation_ru": "Корпорация привлекает акционерный капитал в основном через выпуск акций. Этот процесс включает продажу акций компании инвесторам, которые взамен получают долю собственности в корпорации. Акционерное финансирование является критическим методом для компаний привлечь средства без накопления долга. Выпуская акции, корпорация может получить доступ к капиталу для финансирования расширения, погашения долга или инвестирования в новые проекты без обязательства погасить основную сумму или платить проценты инвесторам. Вместо этого акционеры ожидают получить прибыль от своих инвестиций через дивиденды и рост стоимости акций. Эта форма финансирования предлагает преимущество в том, что не обременяет компанию долгом, но она размывает собственность и потенциально контроль первоначальных владельцев.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Debt capital is specifically raised through the issuance of debt instruments, such as bonds, loans, or notes. These instruments represent a fixed obligation on the part of the corporation to repay the borrowed amount along with interest at specified intervals. Unlike equity financing, debt financing does not confer ownership rights to the lenders but does impose mandatory repayment obligations.",
+          "text_ru": "Неверно. Заемный капитал специально привлекается через выпуск долговых инструментов, таких как облигации, кредиты или векселя. Эти инструменты представляют собой фиксированное обязательство со стороны корпорации погасить заемную сумму вместе с процентами в установленные сроки. В отличие от акционерного финансирования, долговое финансирование не предоставляет права собственности кредиторам, но налагает обязательные обязательства по погашению."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. The claims of equity holders and bondholders on a corporation are fundamentally different. Bondholders, as debt financiers, have a priority claim on the assets and earnings of the corporation compared to equity holders. In the event of liquidation, debt obligations must be satisfied before any assets are distributed to equity holders. Furthermore, bondholders typically receive fixed interest payments for their investment, whereas equity holders' returns, in the form of dividends, are not guaranteed and depend on the company's profitability. This distinction highlights the different risk and reward profiles associated with debt and equity financing.",
+          "text_ru": "Неверно. Требования держателей акций и держателей облигаций к корпорации фундаментально различны. Держатели облигаций, как долговые финансисты, имеют приоритетные требования к активам и доходам корпорации по сравнению с держателями акций. В случае ликвидации долговые обязательства должны быть удовлетворены до того, как какие-либо активы будут распределены держателям акций. Кроме того, держатели облигаций обычно получают фиксированные процентные платежи за свои инвестиции, тогда как доходность держателей акций, в форме дивидендов, не гарантирована и зависит от прибыльности компании. Это различие подчеркивает разные профили риска и вознаграждения, связанные с долговым и акционерным финансированием."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["equity_financing", "debt_financing", "stocks", "corporate_finance"]
+    },
+    {
+      "question_id": "CORP-1-Q007",
+      "original_question_number": 4087,
+      "los_id": "LOS_1c",
+      "question_text_en": "Which of the following is the most likely advantage of investing in private companies?",
+      "question_text_ru": "Что из следующего наиболее вероятно является преимуществом инвестирования в частные компании?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The share price valuation is transparent.",
+          "text_ru": "Оценка цены акций прозрачна."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The potential return is higher than that of public companies.",
+          "text_ru": "Потенциальная доходность выше, чем у публичных компаний."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Buying and selling shares of a private company is relatively easy.",
+          "text_ru": "Покупка и продажа акций частной компании относительно легка."
+        }
+      ],
+      "correct_option_id": "opt_b",
+      "explanation_en": "Investing in private companies often presents a higher potential return compared to public companies. This advantage primarily stems from the opportunity to invest in these companies during their early stages of growth, where the valuation is relatively lower, and the growth prospects are high. As private companies mature and potentially go public or get acquired, early investors can realize significant gains on their initial investment. This high-reward scenario is attractive to investors who are willing to accept the higher risks associated with private investments, including less liquidity and transparency. The potential for outsized returns compensates for these risks, making the higher potential return a significant advantage of investing in private companies.",
+      "explanation_ru": "Инвестирование в частные компании часто представляет более высокую потенциальную доходность по сравнению с публичными компаниями. Это преимущество в основном происходит из возможности инвестировать в эти компании на ранних этапах их роста, где оценка относительно ниже, а перспективы роста высоки. По мере того, как частные компании созревают и потенциально становятся публичными или приобретаются, ранние инвесторы могут реализовать значительную прибыль от своих первоначальных инвестиций. Этот сценарий высокого вознаграждения привлекателен для инвесторов, готовых принять более высокие риски, связанные с частными инвестициями, включая меньшую ликвидность и прозрачность. Потенциал для значительной доходности компенсирует эти риски, делая более высокую потенциальную доходность значительным преимуществом инвестирования в частные компании.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. The share price valuation of private companies is not transparent. Unlike public companies, whose share prices are readily available and constantly updated on stock exchanges, private companies do not have their shares traded in an open market. This lack of a public trading platform means that share prices are not determined by market forces of supply and demand in real-time. Instead, valuations of private companies are typically conducted during funding rounds or when a significant financial event occurs, such as a merger or acquisition. This process can lead to less frequent and less transparent valuations, making it challenging for investors to ascertain the current market value of their investment at any given time.",
+          "text_ru": "Неверно. Оценка цены акций частных компаний не прозрачна. В отличие от публичных компаний, чьи цены акций легко доступны и постоянно обновляются на фондовых биржах, частные компании не имеют своих акций, торгуемых на открытом рынке. Это отсутствие публичной торговой платформы означает, что цены акций не определяются рыночными силами спроса и предложения в реальном времени. Вместо этого оценки частных компаний обычно проводятся во время раундов финансирования или когда происходит значительное финансовое событие, такое как слияние или поглощение. Этот процесс может привести к менее частым и менее прозрачным оценкам, что затрудняет для инвесторов определение текущей рыночной стоимости их инвестиций в любой момент времени."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Buying and selling shares of a private company is relatively difficult compared to public companies. In public markets, shares can be bought and sold with ease through stock exchanges, providing liquidity and flexibility to investors. However, private company shares do not have this luxury as they are not listed on public exchanges. Transactions involving private shares often require direct negotiation between the buyer and seller, adherence to specific legal and regulatory requirements, and sometimes, the approval of the company itself. This process can be time-consuming and complex, significantly reducing the liquidity of private company investments and making it a less attractive feature for potential investors.",
+          "text_ru": "Неверно. Покупка и продажа акций частной компании относительно сложна по сравнению с публичными компаниями. На публичных рынках акции можно легко покупать и продавать через фондовые биржи, обеспечивая ликвидность и гибкость для инвесторов. Однако акции частных компаний не имеют такой роскоши, поскольку они не котируются на публичных биржах. Транзакции с частными акциями часто требуют прямых переговоров между покупателем и продавцом, соблюдения специфических юридических и регуляторных требований и иногда одобрения самой компании. Этот процесс может быть длительным и сложным, значительно снижая ликвидность инвестиций в частные компании и делая это менее привлекательной особенностью для потенциальных инвесторов."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["private_companies", "investment_returns", "valuation"]
+    },
+    {
+      "question_id": "CORP-1-Q008",
+      "original_question_number": 4089,
+      "los_id": "LOS_1c",
+      "question_text_en": "Which of the following statements regarding share issuance in a private company is least likely correct?",
+      "question_text_ru": "Какое из следующих утверждений относительно выпуска акций в частной компании наименее вероятно верно?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Private companies may issue additional shares in the capital market to raise capital from many investors.",
+          "text_ru": "Частные компании могут выпускать дополнительные акции на рынке капитала для привлечения капитала от многих инвесторов."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Buyers of private company shares are invited to purchase shares through an offering memorandum.",
+          "text_ru": "Покупатели акций частной компании приглашаются к покупке акций через меморандум о размещении."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Due to a lack of regulation, share issuance may only be restricted to accredited investors.",
+          "text_ru": "Из-за отсутствия регулирования выпуск акций может быть ограничен только аккредитованными инвесторами."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "Private companies do not issue additional shares in the capital market to raise capital from many investors. Instead, they typically raise funds through private placements, targeting a limited number of sophisticated or accredited investors. The capital market is generally associated with public companies, which issue shares that are traded on stock exchanges, allowing them to raise capital from a broad investor base. Private companies, by their very nature, are restricted in their ability to publicly solicit investment, which is why they rely on private placements and direct negotiations with potential investors. This approach allows private companies to maintain control over their shareholder base and avoid the regulatory complexities of public markets.",
+      "explanation_ru": "Частные компании не выпускают дополнительные акции на рынке капитала для привлечения капитала от многих инвесторов. Вместо этого они обычно привлекают средства через частные размещения, ориентируясь на ограниченное количество опытных или аккредитованных инвесторов. Рынок капитала обычно ассоциируется с публичными компаниями, которые выпускают акции, торгуемые на фондовых биржах, что позволяет им привлекать капитал от широкой базы инвесторов. Частные компании по своей природе ограничены в своей способности публично запрашивать инвестиции, поэтому они полагаются на частные размещения и прямые переговоры с потенциальными инвесторами. Этот подход позволяет частным компаниям сохранять контроль над своей базой акционеров и избегать регуляторных сложностей публичных рынков.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. It accurately describes a common practice among private companies. When private companies decide to raise capital, they often do so through the issuance of shares to a select group of investors. This process is typically facilitated by an offering memorandum or private placement memorandum (PPM), which provides detailed information about the company, the terms of the share offering, and the associated risks. The use of a PPM helps to ensure that potential investors are well-informed about the investment opportunity and the company's prospects. This practice is in line with the regulatory requirements for private placements, which are designed to protect investors while allowing companies to raise the necessary funds.",
+          "text_ru": "Неверно. Это точно описывает распространенную практику среди частных компаний. Когда частные компании решают привлечь капитал, они часто делают это путем выпуска акций для избранной группы инвесторов. Этот процесс обычно осуществляется через меморандум о размещении или меморандум о частном размещении (PPM), который предоставляет подробную информацию о компании, условиях предложения акций и связанных рисках. Использование PPM помогает гарантировать, что потенциальные инвесторы хорошо информированы об инвестиционной возможности и перспективах компании. Эта практика соответствует регуляторным требованиям для частных размещений, которые разработаны для защиты инвесторов, позволяя компаниям привлекать необходимые средства."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. It correctly identifies a regulatory aspect of private share issuance. Private companies often restrict share offerings to accredited investors, who are deemed to have the financial sophistication and capacity to absorb the risk of such investments. Accredited investors typically include individuals with a high net worth, certain institutional investors, and professionals with financial expertise. The rationale behind this restriction is to protect less sophisticated investors from the risks associated with investing in private companies, which may include limited liquidity, less transparency, and higher volatility. By limiting share issuance to accredited investors, private companies can comply with regulatory exemptions that simplify the capital-raising process.",
+          "text_ru": "Неверно. Это правильно определяет регуляторный аспект выпуска частных акций. Частные компании часто ограничивают предложение акций аккредитованными инвесторами, которые считаются обладающими финансовой подкованностью и способностью поглощать риски таких инвестиций. Аккредитованные инвесторы обычно включают лиц с высоким собственным капиталом, определенных институциональных инвесторов и профессионалов с финансовым опытом. Обоснование этого ограничения заключается в защите менее опытных инвесторов от рисков, связанных с инвестированием в частные компании, которые могут включать ограниченную ликвидность, меньшую прозрачность и более высокую волатильность. Ограничивая выпуск акций аккредитованными инвесторами, частные компании могут соблюдать регуляторные исключения, которые упрощают процесс привлечения капитала."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["private_companies", "share_issuance", "accredited_investors", "private_placement"]
+    },
+    {
+      "question_id": "CORP-1-Q009",
+      "original_question_number": 4090,
+      "los_id": "LOS_1c",
+      "question_text_en": "Regarding registration and disclosure requirements of private and public companies, which of the following statements is least likely correct?",
+      "question_text_ru": "В отношении требований к регистрации и раскрытию информации частных и публичных компаний, какое из следующих утверждений наименее вероятно верно?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "Private companies are not subject to any regulatory oversight.",
+          "text_ru": "Частные компании не подлежат никакому регуляторному надзору."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Private companies are subject to some level of regulatory oversight.",
+          "text_ru": "Частные компании подлежат определенному уровню регуляторного надзора."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Public companies are subject to greater regulatory and reporting requirements compared to private companies.",
+          "text_ru": "Публичные компании подлежат большим регуляторным требованиям и требованиям к отчетности по сравнению с частными компаниями."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "While it's true that private companies are subject to less regulatory and reporting requirements compared to public companies, it's inaccurate to say that they are not subject to any regulatory oversight at all. Private companies are still required to follow applicable laws and regulations, such as tax laws, labor laws, environmental regulations, and in some jurisdictions, certain financial reporting standards. The level of regulatory oversight might be lesser compared to public companies, but it is not non-existent.",
+      "explanation_ru": "Хотя верно, что частные компании подлежат меньшим регуляторным требованиям и требованиям к отчетности по сравнению с публичными компаниями, неверно говорить, что они вообще не подлежат никакому регуляторному надзору. Частные компании по-прежнему обязаны соблюдать применимые законы и регламенты, такие как налоговое законодательство, трудовое законодательство, экологические регламенты и в некоторых юрисдикциях определенные стандарты финансовой отчетности. Уровень регуляторного надзора может быть меньше по сравнению с публичными компаниями, но он не является несуществующим.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. It accurately states that private companies are subject to some level of regulatory oversight. Private companies, despite not being publicly traded, must comply with a range of regulations that govern their financial reporting, tax obligations, and ethical conduct. This includes, but is not limited to, the filing of tax returns, adherence to employment laws, and compliance with specific industry regulations.",
+          "text_ru": "Неверно. Это точно утверждает, что частные компании подлежат определенному уровню регуляторного надзора. Частные компании, несмотря на то, что они не торгуются публично, должны соблюдать ряд регламентов, которые регулируют их финансовую отчетность, налоговые обязательства и этическое поведение. Это включает, но не ограничивается, подачу налоговых деклараций, соблюдение трудового законодательства и соответствие специфическим отраслевым регламентам."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Public companies are required to register with regulatory authorities such as the Securities and Exchange Commission (SEC) in the United States. This registration process involves disclosing detailed financial information, operational strategies, and potential risks to investors and the public. Public companies must also adhere to strict ongoing reporting requirements, including quarterly and annual financial reports, disclosures of material events, and compliance with market regulations.",
+          "text_ru": "Неверно. Публичные компании обязаны регистрироваться в регуляторных органах, таких как Комиссия по ценным бумагам и биржам (SEC) в Соединенных Штатах. Этот процесс регистрации включает раскрытие подробной финансовой информации, операционных стратегий и потенциальных рисков для инвесторов и общественности. Публичные компании также должны соблюдать строгие постоянные требования к отчетности, включая квартальные и годовые финансовые отчеты, раскрытие существенных событий и соблюдение рыночных регламентов."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["regulatory_oversight", "private_companies", "public_companies", "disclosure_requirements"]
+    },
+    {
+      "question_id": "CORP-1-Q010",
+      "original_question_number": 4643,
+      "los_id": "LOS_1a",
+      "question_text_en": "Which of the following is most likely a characteristic of general partnership?",
+      "question_text_ru": "Что из следующего наиболее вероятно является характеристикой полного товарищества?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "GP operated",
+          "text_ru": "Управляется полным товарищем"
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Owner operated",
+          "text_ru": "Управляется владельцем"
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Partners operated",
+          "text_ru": "Управляется партнерами"
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "Partner operated is a feature of general partnership. In a general partnership (GP), the business is typically operated by the partners themselves. Other features of the general partnership are shared unlimited liability and no separate legal identity.",
+      "explanation_ru": "Управление партнерами является особенностью полного товарищества. В полном товариществе (GP) бизнес обычно управляется самими партнерами. Другими особенностями полного товарищества являются совместная неограниченная ответственность и отсутствие отдельной юридической идентичности.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. GP operated owner-operator relationship is a feature of limited partnership. Other features of limited partnership include no separate legal identity and the General Partner having unlimited liability while the Limited Partners having limited liability.",
+          "text_ru": "Неверно. Отношения владелец-оператор, управляемые полным товарищем, являются особенностью коммандитного товарищества. Другие особенности коммандитного товарищества включают отсутствие отдельной юридической идентичности и неограниченную ответственность полного товарища при ограниченной ответственности коммандитистов."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. Owner operated is a feature of a sole proprietor. 'Owner operated' refers to a business where the owner(s) are directly involved in the day-to-day operations and management of the company. Other features of sole proprietorships are no separation of legal identity, and the owner has sole unlimited liability.",
+          "text_ru": "Неверно. Управление владельцем является особенностью индивидуального предпринимателя. 'Управляется владельцем' относится к бизнесу, где владелец(ы) напрямую участвуют в повседневных операциях и управлении компанией. Другими особенностями индивидуального предпринимательства являются отсутствие разделения юридической идентичности и единоличная неограниченная ответственность владельца."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["general_partnership", "business_structures", "organizational_forms"]
+    },
+    {
+      "question_id": "CORP-1-Q011",
+      "original_question_number": 4644,
+      "los_id": "LOS_1b",
+      "question_text_en": "All of the following are characteristics of corporate issuers except:",
+      "question_text_ru": "Все следующие являются характеристиками корпоративных эмитентов, кроме:",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The legal distinction between the owners and the corporation does not exist.",
+          "text_ru": "Юридическое различие между владельцами и корпорацией не существует."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "Involvement in the management of the company is not a requirement for owners.",
+          "text_ru": "Участие в управлении компанией не является требованием для владельцев."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "Income generated by corporations is subject to taxation at both the corporate and individual levels.",
+          "text_ru": "Доход, генерируемый корпорациями, подлежит налогообложению как на корпоративном, так и на индивидуальном уровнях."
+        }
+      ],
+      "correct_option_id": "opt_a",
+      "explanation_en": "A corporation is treated as an independent and distinct legal entity, separate from the individuals who own it. This separation is a fundamental characteristic of the corporate structure and has several implications such as limited liability and continuity of the corporation's existence even if there are changes in ownership or management.",
+      "explanation_ru": "Корпорация рассматривается как независимое и отдельное юридическое лицо, отдельное от лиц, которые владеют ею. Это разделение является фундаментальной характеристикой корпоративной структуры и имеет несколько последствий, таких как ограниченная ответственность и непрерывность существования корпорации, даже если происходят изменения в собственности или управлении.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_b": {
+          "text_en": "Incorrect. Shareholders are not obligated to exert managerial influence on the company. Although, in certain instances, a significant shareholder might assume a role in senior management or join the board of directors, the majority of shareholders do not assume managerial duties.",
+          "text_ru": "Неверно. Акционеры не обязаны оказывать управленческое влияние на компанию. Хотя в некоторых случаях значительный акционер может взять на себя роль в высшем руководстве или войти в совет директоров, большинство акционеров не берут на себя управленческие обязанности."
+        },
+        "opt_c": {
+          "text_en": "Incorrect. Corporate income incurs taxation at both the corporate and individual levels, unless the company opts not to distribute any dividends.",
+          "text_ru": "Неверно. Корпоративный доход облагается налогом как на корпоративном, так и на индивидуальном уровнях, если только компания не решит не распределять дивиденды."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "easy",
+      "topic_tags": ["corporate_issuers", "legal_identity", "corporate_features"]
+    },
+    {
+      "question_id": "CORP-1-Q012",
+      "original_question_number": 4646,
+      "los_id": "LOS_1b",
+      "question_text_en": "Which of the following least likely represents a distinction between an initial public offering (IPO) and a direct listing?",
+      "question_text_ru": "Что из следующего наименее вероятно представляет различие между первичным публичным размещением (IPO) и прямым листингом?",
+      "has_table": false,
+      "table_data": null,
+      "question_continuation_en": null,
+      "question_continuation_ru": null,
+      "options": [
+        {
+          "id": "opt_a",
+          "text_en": "The utilization of an underwriter.",
+          "text_ru": "Использование андеррайтера."
+        },
+        {
+          "id": "opt_b",
+          "text_en": "The decision to raise new capital.",
+          "text_ru": "Решение о привлечении нового капитала."
+        },
+        {
+          "id": "opt_c",
+          "text_en": "The ownership of shares by employees in the private company.",
+          "text_ru": "Владение акциями сотрудниками частной компании."
+        }
+      ],
+      "correct_option_id": "opt_c",
+      "explanation_en": "A company having employee shareholders can pursue a public listing through either an IPO or a direct listing, and the ownership of shares by employees remains consistent regardless of the chosen transaction.",
+      "explanation_ru": "Компания, имеющая акционеров среди сотрудников, может осуществить публичное размещение либо через IPO, либо через прямой листинг, и владение акциями сотрудниками остается неизменным независимо от выбранной транзакции.",
+      "explanation_formula": null,
+      "explanation_table": null,
+      "explanation_wrong": {
+        "opt_a": {
+          "text_en": "Incorrect. In an IPO, an underwriter is employed to oversee the process and underwrite the acquisition of new shares, whereas a direct listing does not involve this intermediary.",
+          "text_ru": "Неверно. В IPO андеррайтер используется для надзора за процессом и андеррайтинга приобретения новых акций, тогда как прямой листинг не включает этого посредника."
+        },
+        "opt_b": {
+          "text_en": "Incorrect. An IPO generates fresh capital for the company going public by issuing new shares to the public, whereas a direct listing solely lists already-existing shares without issuing new ones.",
+          "text_ru": "Неверно. IPO генерирует свежий капитал для компании, выходящей на публичный рынок, путем выпуска новых акций для публики, тогда как прямой листинг только размещает уже существующие акции без выпуска новых."
+        }
+      },
+      "requires_calculator": false,
+      "calculator_keystrokes": null,
+      "difficulty": "medium",
+      "topic_tags": ["ipo", "direct_listing", "public_offerings", "corporate_finance"]
+    }
+  ]
+}
