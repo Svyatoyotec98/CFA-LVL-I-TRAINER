@@ -1006,7 +1006,7 @@ function showResults(correct, total, timeSpent, details) {
         const q = state.questions[i];
         return `
             <div class="review-item ${d.correct ? 'correct' : 'incorrect'}">
-                <div><strong>Q${i + 1}:</strong> ${q.question_text.substring(0, 100)}...</div>
+                <div><strong>Q${i + 1}:</strong> ${getText(q, 'question_text').substring(0, 100)}...</div>
                 <div class="text-muted">
                     Ваш ответ: ${d.user_answer || 'Не отвечено'} |
                     Правильный: ${d.correct_answer}
